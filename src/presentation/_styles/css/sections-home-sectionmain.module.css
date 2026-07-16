@@ -1,0 +1,255 @@
+/* SectionMain - Redesigned Minimal Hero */
+
+.sectionMain {
+  position: relative;
+  width: 100vw;
+  min-height: 100dvh;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  /* background: #000000; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font-samsung-sharp), -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  color: #ffffff;
+  overflow: hidden;
+  padding: 80px 24px;
+}
+
+/* Subtle grid pattern overlay */
+.sectionMain::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: 
+    linear-gradient(rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+  background-size: 60px 60px;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Content wrapper */
+.content {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  pointer-events: none;
+}
+
+/* Logo - clean, smaller, elegant */
+.logoContainer {
+  margin-bottom: 40px;
+  pointer-events: auto;
+  transition: transform 0.3s ease;
+}
+
+.logoContainer:hover {
+  transform: scale(1.02);
+}
+
+.logo {
+  width: 920px;
+  height: auto;
+  filter: brightness(0) invert(1);
+  pointer-events: none;
+  margin-bottom: 25px;
+}
+
+/* Headline */
+.headline {
+  font-size: clamp(32px, 5vw, 64px);
+  font-weight: 400;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+  margin-bottom: 20px;
+  color: #ffffff;
+  text-shadow: 0 2px 20px oklch(0 0 0 / 0.5);
+}
+
+.headlineAccent {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+/* Tagline */
+.tagline {
+  font-size: clamp(16px, 2vw, 22px);
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  line-height: 1.6;
+  max-width: 600px;
+  margin-bottom: 48px;
+  letter-spacing: 0.01em;
+  text-shadow: 0 2px 16px oklch(0 0 0 / 0.4);
+}
+
+/* CTA Buttons */
+.ctaRow {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+  pointer-events: auto;
+}
+
+.ctaPrimary {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 16px 32px;
+  background: #ffffff;
+  color: #000000;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  text-transform: uppercase;
+}
+
+.ctaPrimary:hover {
+  background: #1a1a1a;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+}
+
+.ctaPrimary:active {
+  transform: translateY(0);
+}
+
+.ctaSecondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 16px 32px;
+  background: transparent;
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  text-transform: uppercase;
+}
+
+.ctaSecondary:hover {
+  border-color: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.05);
+  transform: translateY(-2px);
+}
+
+.ctaSecondary:active {
+  transform: translateY(0);
+}
+
+/* Scroll indicator */
+.scrollIndicator {
+  position: absolute;
+  bottom: 32px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  pointer-events: none;
+  animation: fadeInUp 1s ease 1s both;
+}
+
+.scrollDot {
+  width: 2px;
+  height: 24px;
+  background: rgba(255, 255, 255, 0.3);
+  position: relative;
+  overflow: hidden;
+}
+
+.scrollDot::after {
+  content: '';
+  position: absolute;
+  top: -100%;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background: rgba(255, 255, 255, 0.5);
+  animation: scrollDot 2s ease infinite;
+}
+
+@keyframes scrollDot {
+  0% { top: -50%; }
+  100% { top: 100%; }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .sectionMain {
+    padding: 60px 20px;
+  }
+  
+  .logo {
+    width: 200px;
+  }
+  
+  .logoContainer {
+    margin-bottom: 32px;
+  }
+  
+  .tagline {
+    margin-bottom: 36px;
+  }
+  
+  .ctaRow {
+    flex-direction: column;
+    width: 100%;
+    max-width: 320px;
+  }
+  
+  .ctaPrimary,
+  .ctaSecondary {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo {
+    width: 160px;
+  }
+  
+  .headline {
+    font-size: 28px;
+  }
+}

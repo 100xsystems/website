@@ -1,0 +1,178 @@
+.rubikVideoShowcase {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  /* overflow: hidden; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.rubikVideoBackground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+  opacity: 1;
+}
+
+/* .rubikVideoOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.4) 0%,
+    rgba(0, 0, 0, 0) 25%,
+    rgba(0, 0, 0, 0) 75%,
+    rgba(0, 0, 0, 0.4) 100%
+  );
+  z-index: 1;
+} */
+
+.rubikVideoContent {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  text-align: center;
+  max-width: 600px;
+  padding: 0 40px;
+}
+
+.rubikVideoTitle {
+  margin-bottom: 16px;
+}
+
+.titleLogo {
+  max-width: 100%;
+  height: auto;
+  filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.8));
+}
+
+.rubikVideoSubtitle {
+  font-size: 24px;
+  color: #ffffff;
+  font-family: var(--font-samsung-sharp);
+  font-weight: 200;
+  letter-spacing: 0.02em;
+  text-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+  text-align: center;
+  line-height: 1.4;
+  margin-bottom: 32px;
+}
+
+.ctaButtons {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.ctaPrimary {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 16px 32px;
+  background: #ffffff;
+  color: #000000;
+  font-family: var(--font-samsung-sharp);
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  text-transform: uppercase;
+}
+
+.ctaPrimary:hover {
+  background: #1a1a1a;
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(255, 255, 255, 0.1);
+}
+
+.ctaPrimary:active {
+  transform: translateY(0);
+}
+
+.ctaSecondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 16px 32px;
+  background: transparent;
+  color: #ffffff;
+  font-family: var(--font-samsung-sharp);
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  text-transform: uppercase;
+}
+
+.ctaSecondary:hover {
+  border-color: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.05);
+  transform: translateY(-2px);
+}
+
+.ctaSecondary:active {
+  transform: translateY(0);
+}
+
+@media (max-width: 768px) {
+  .rubikVideoContent {
+    top: 20%;
+    padding: 0 24px;
+  }
+  
+  .titleLogo {
+    width: 300px;
+    height: auto;
+  }
+  
+  .rubikVideoSubtitle {
+    font-size: 18px;
+  }
+
+  .ctaButtons {
+    flex-direction: column;
+    gap: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .rubikVideoContent {
+    top: 25%;
+    padding: 0 16px;
+  }
+  
+  .titleLogo {
+    width: 250px;
+    height: auto;
+  }
+  
+  .rubikVideoSubtitle {
+    font-size: 16px;
+  }
+
+  .ctaButtons {
+    gap: 10px;
+  }
+}

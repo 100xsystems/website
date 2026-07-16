@@ -1,0 +1,126 @@
+.wallpaperSection {
+  margin-bottom: 200px;
+  padding: 100px 0;
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border: none;
+  border-radius: 0;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+}
+
+.wallpaperContent {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.wallpaperTitle {
+  font-size: 42px;
+  font-weight: 200;
+  font-family: var(--font-samsung-sharp);
+  margin-bottom: 30px;
+  color: #ffffff;
+  letter-spacing: -0.02em;
+}
+
+.wallpaperText {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  border-radius: 0px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.wallpaperDescription {
+  font-size: 20px;
+  color: #e0e0e0;
+  line-height: 1.7;
+  font-weight: 300;
+  font-family: var(--font-samsung-sharp);
+  text-align: left;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
+.wallpaperImageWrapper {
+  display: flex;
+  justify-content: center;
+  transform: translateY(60px);
+}
+
+.wallpaperImage {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0px;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.4);
+}
+
+@media (max-width: 1024px) {
+  .wallpaperContent {
+    grid-template-columns: 1fr;
+    gap: 60px;
+    text-align: center;
+  }
+
+  .wallpaperText {
+    padding: 30px;
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .wallpaperImageWrapper {
+    transform: translateY(100px);
+  }
+}
+
+@media (max-width: 768px) {
+  .wallpaperSection {
+    padding: 60px 0;
+  }
+  
+  .wallpaperContent {
+    padding: 0 24px;
+    gap: 40px;
+  }
+  
+  .wallpaperText {
+    padding: 25px;
+    background: rgba(0, 0, 0, 0.8);
+  }
+  
+  .wallpaperDescription {
+    font-size: 18px;
+    text-align: left;
+  }
+  
+  .wallpaperImageWrapper {
+    transform: translateY(100px);
+  }
+}
+
+@media (max-width: 480px) {
+  .wallpaperSection {
+    padding: 40px 0;
+  }
+  
+  .wallpaperContent {
+    padding: 0 16px;
+  }
+  
+  .wallpaperText {
+    padding: 20px;
+  }
+  
+  .wallpaperTitle {
+    font-size: 32px;
+  }
+}
