@@ -18,7 +18,15 @@ import { fileURLToPath } from 'url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
-const CURRICULUM_DIR = path.join(ROOT, '..', 'curriculum');
+const CURRICULUM_DIR = (() => {
+  const envPath = process.env.NEXT_PUBLIC_CURRICULUM_PATH;
+  if (envPath) return path.resolve(envPath);
+
+  const localPath = path.join(ROOT, '.curriculum');
+  if (fs.existsSync(localPath)) return localPath;
+
+  return path.join(ROOT, '..', 'curriculum');
+})();
 const PUBLIC_DIR = path.join(ROOT, 'public');
 
 // Image file extensions to copy

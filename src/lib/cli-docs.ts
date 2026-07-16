@@ -11,7 +11,18 @@ import matter from 'gray-matter';
 
 // ─── Paths ──────────────────────────────────────────────────────────
 
-const CLI_DOCS_DIR = path.join(process.cwd(), '..', 'curriculum', 'cli-docs');
+const CLI_DOCS_DIR = (() => {
+  const envPath = process.env.NEXT_PUBLIC_CURRICULUM_PATH;
+  if (envPath) {
+    const resolved = path.resolve(envPath, 'cli-docs');
+    if (fs.existsSync(resolved)) return resolved;
+  }
+
+  const localPath = path.join(process.cwd(), '.curriculum', 'cli-docs');
+  if (fs.existsSync(localPath)) return localPath;
+
+  return path.join(process.cwd(), '..', 'curriculum', 'cli-docs');
+})();
 
 // ─── Types ──────────────────────────────────────────────────────────
 

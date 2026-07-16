@@ -29,7 +29,24 @@ import matter from 'gray-matter';
 
 // ─── Paths ──────────────────────────────────────────────────────────
 
-const CURRICULUM_ROOT = path.join(process.cwd(), '..', 'curriculum');
+/**
+ * Resolve the curriculum root directory.
+ *
+ * Priority:
+ *   1. .curriculum/ — local cache cloned by scripts/sync-curriculum.mjs
+ *   2. ../curriculum/ — backward compat for development in monorepo
+ *   3. NEXT_PUBLIC_CURRICULUM_PATH env var — manual override
+ */
+const CURRICULUM_ROOT = (() => {
+  const envPath = process.env.NEXT_PUBLIC_CURRICULUM_PATH;
+  if (envPath) return path.resolve(envPath);
+
+  const localPath = path.join(process.cwd(), '.curriculum');
+  if (fs.existsSync(localPath)) return localPath;
+
+  return path.join(process.cwd(), '..', 'curriculum');
+})();
+
 const SYSTEMS_DIR = path.join(CURRICULUM_ROOT, 'systems');
 const LANGUAGES_DIR = path.join(CURRICULUM_ROOT, 'languages');
 const SEARCH_DIR = path.join(CURRICULUM_ROOT, 'search');
@@ -275,7 +292,12 @@ export function getTrackModules(systemSlug: string, trackSlug: string): ModuleMe
 }
 
 /**
- * Get all lessons for a module by scanning for .md files (excluding quiz.md, challenge.md).
+ * Get all lessons for a module.
+ * Supports two formats:
+ *   1. Folder-based: lesson-name/lesson.md  (NEW)
+ *   2. Flat file:    lesson-name.md         (legacy)
+ * The folder format is preferred because it allows bundling
+ * tests, images, and other assets alongside the lesson.
  */
 export function getModuleLessons(systemSlug: string, trackSlug: string, moduleSlug: string): LessonMeta[] {
   const lessons: LessonMeta[] = [];
@@ -283,19 +305,45 @@ export function getModuleLessons(systemSlug: string, trackSlug: string, moduleSl
   if (!fs.existsSync(moduleDir)) return lessons;
 
   try {
-    const files = fs.readdirSync(moduleDir)
-      .filter((f) => f.endsWith('.md') && !f.startsWith('.') && f !== 'quiz.md' && f !== 'challenge.md')
-      .sort();
-    files.forEach((filename) => {
+    const entries = fs.readdirSync(moduleDir, { withFileTypes: true })
+      .sort((a, b) => a.name.localeCompare(b.name));
+
+    for (const entry of entries) {
+      if (entry.name.startsWith('.')) continue;
+      if (entry.name === 'quiz.md' || entry.name === 'challenge.md') continue;
+
+      let mdPath: string | null = null;
+      let slug = '';
+
+      if (entry.isDirectory()) {
+        // Folder-based lesson: folder/lesson.md
+        const lessonMdPath = path.join(moduleDir, entry.name, 'lesson.md');
+        if (fs.existsSync(lessonMdPath)) {
+          mdPath = lessonMdPath;
+          slug = fileToSlug(entry.name);
+        }
+      } else if (entry.isFile() && entry.name.endsWith('.md')) {
+        // Skip flat .md files if a folder with the same stem exists
+        const stem = entry.name.replace(/\.md$/, '');
+        const folderPath = path.join(moduleDir, stem);
+        if (fs.existsSync(folderPath) && fs.statSync(folderPath).isDirectory()) {
+          continue;
+        }
+        // Flat .md file lesson
+        mdPath = path.join(moduleDir, entry.name);
+        slug = fileToSlug(entry.name);
+      }
+
+      if (!mdPath) continue;
+
       try {
-        const fullPath = path.join(moduleDir, filename);
-        const raw = fs.readFileSync(fullPath, 'utf-8');
+        const raw = fs.readFileSync(mdPath, 'utf-8');
         const { data, content } = matter(raw);
-        const slug = fileToSlug(filename);
+        const order = getOrderFromFile(entry.name, data.order);
         lessons.push({
           slug,
           title: data.title || slugToDisplayName(slug),
-          order: getOrderFromFile(filename, data.order),
+          order,
           description: data.description || content.slice(0, 200).replace(/#+\s+/g, '').trim() + '...',
           content,
           frontmatter: data,
@@ -308,7 +356,7 @@ export function getModuleLessons(systemSlug: string, trackSlug: string, moduleSl
           prerequisites: data.prerequisites,
         });
       } catch {}
-    });
+    }
     lessons.sort((a, b) => a.order - b.order);
   } catch {}
   return lessons;
