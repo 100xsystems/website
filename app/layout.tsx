@@ -1,3 +1,4 @@
+import {ClerkProvider} from "@clerk/nextjs";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Loading } from "@/presentation/features/loading.feature";
@@ -107,61 +108,63 @@ export default function RootLayout({
         <link rel="canonical" href="https://www.100xsystems.dev/" />
       </head>
       <body className="antialiased">
-        <ScrollRestoration />
-        <Loading />
-        <HeaderWrapper
+        <ClerkProvider>
+          <ScrollRestoration />
+          <Loading />
+          <HeaderWrapper
           items={headerItems}
           logo={
-            <Link href="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
-              <img
-                src="/assets/cubix/base/cubix-brand-logo.png"
-                alt="Cubix"
-                className="h-10 w-auto lg:h-12"
-              />
-              <span className="text-xl lg:text-2xl font-extrabold text-fg tracking-tight select-none uppercase">
-                100XSYSTEMS
-              </span>
-            </Link>
+          <Link href="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
+          <img
+          src="/assets/cubix/base/cubix-brand-logo.png"
+          alt="Cubix"
+          className="h-10 w-auto lg:h-12"
+          />
+          <span className="text-xl lg:text-2xl font-extrabold text-fg tracking-tight select-none uppercase">
+          100XSYSTEMS
+          </span>
+          </Link>
           }
-        />
-        <main>{children}</main>
-        <FooterWrapper />
+          />
+          <main>{children}</main>
+          <FooterWrapper />
 
-        <Script
+          <Script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6524892676012386"
           crossOrigin="anonymous"
           strategy="afterInteractive"
-        />
+          />
 
-        <Script
+          <Script
           id="schema-structured-data"
           type="application/ld+json"
           strategy="afterInteractive"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "EducationalOrganization",
-              name: "100xSystems",
-              url: "https://www.100xsystems.dev",
-              logo: "https://www.100xsystems.dev/100xsystems.webp",
-              description:
-                "Comprehensive platform for structured software engineering education and system optimization, designed to transform developers into 100xEngineers through depth-first learning methodologies.",
-              sameAs: ["https://www.linkedin.com/company/100xsystems/"],
-              contactPoint: {
-                "@type": "ContactPoint",
-                email: "admin@100xsystems.dev",
-                contactType: "customer service",
-              },
-              offers: {
-                "@type": "Offer",
-                description:
-                  "Structured software engineering education and system optimization resources",
-                category: "Educational Services",
-              },
-            }),
+          __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "EducationalOrganization",
+          name: "100xSystems",
+          url: "https://www.100xsystems.dev",
+          logo: "https://www.100xsystems.dev/100xsystems.webp",
+          description:
+          "Comprehensive platform for structured software engineering education and system optimization, designed to transform developers into 100xEngineers through depth-first learning methodologies.",
+          sameAs: ["https://www.linkedin.com/company/100xsystems/"],
+          contactPoint: {
+          "@type": "ContactPoint",
+          email: "admin@100xsystems.dev",
+          contactType: "customer service",
+          },
+          offers: {
+          "@type": "Offer",
+          description:
+          "Structured software engineering education and system optimization resources",
+          category: "Educational Services",
+          },
+          }),
           }}
-        />
+          />
+        </ClerkProvider>
       </body>
     </html>
   );

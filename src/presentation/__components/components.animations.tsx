@@ -45,12 +45,12 @@ import { cn } from '@/application/lib/utils';
 import type { IconType } from 'react-icons';
 import {
   SiGoogle, SiApple, SiMeta, SiNetflix,
-  SiOpenai, SiGithub, SiGitlab,
+  SiGithub, SiGitlab,
   SiDocker, SiKubernetes, SiVercel,
   SiCloudflare, SiDigitalocean, SiLinux, SiUbuntu, SiNginx,
   SiTypescript, SiJavascript, SiPython, SiRust, SiGo, SiNodedotjs,
   SiReact, SiNextdotjs, SiTailwindcss, SiSvelte, SiVuedotjs, SiAngular,
-  SiFigma, SiSlack, SiDiscord, SiNotion, SiLinear, SiSupabase, SiStripe,
+  SiFigma, SiDiscord, SiNotion, SiLinear, SiSupabase, SiStripe,
   SiRedis, SiPostgresql, SiMongodb, SiGraphql, SiPrisma, SiTrpc,
   SiTurborepo, SiPnpm, SiBun, SiDeno,
   SiAndroid, SiExpo,
