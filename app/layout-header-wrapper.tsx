@@ -1,7 +1,8 @@
 'use client';
 
 import { usePathname } from 'next/navigation';
-import { SignInButton, SignUpButton, UserButton, Show } from '@clerk/nextjs';
+import Link from 'next/link';
+import { SignInButton, SignUpButton, UserButton, Show, useUser } from '@clerk/nextjs';
 import { Header } from '@/presentation/__components';
 import type { HeaderNavItem } from '@/presentation/__components';
 import type { ReactNode } from 'react';
@@ -13,9 +14,15 @@ interface HeaderWrapperProps {
 
 export function HeaderWrapper({ items, logo }: HeaderWrapperProps) {
   const pathname = usePathname();
+  const { user } = useUser();
   const isReadingPage = pathname.includes('/read/') || pathname.startsWith('/cli-docs/');
 
   if (isReadingPage) return null;
+
+  const userEmail = user?.primaryEmailAddress?.emailAddress;
+  const portfolioHref = userEmail
+    ? `/portfolio/${encodeURIComponent(userEmail)}`
+    : null;
 
   return (
     <Header
@@ -38,14 +45,24 @@ export function HeaderWrapper({ items, logo }: HeaderWrapperProps) {
             </div>
           </Show>
           <Show when="signed-in">
-            <UserButton
-              appearance={{
-                elements: {
-                  avatarBox: 'w-8 h-8',
-                  userButtonPopoverCard: 'shadow-xl',
-                },
-              }}
-            />
+            <div className="flex items-center gap-2">
+              {portfolioHref && (
+                <Link
+                  href={portfolioHref}
+                  className="text-[10px] font-bold uppercase tracking-wider text-fg-muted hover:text-accent transition-colors"
+                >
+                  Portfolio
+                </Link>
+              )}
+              <UserButton
+                appearance={{
+                  elements: {
+                    avatarBox: 'w-8 h-8',
+                    userButtonPopoverCard: 'shadow-xl',
+                  },
+                }}
+              />
+            </div>
           </Show>
         </div>
       }

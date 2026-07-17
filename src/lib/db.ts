@@ -39,8 +39,8 @@ export interface UserValidation {
   github_email: string;
   system_slug: string;
   track_slug: string;
-  lesson_slug: string;
   module_slug: string;
+  lesson_slug: string;
   status: 'passed' | 'failed';
   validation_result: string | null;
   passed_count: number;
@@ -203,7 +203,7 @@ export async function recordValidation(input: ValidationInput): Promise<void> {
   await db.execute({
     sql: `INSERT INTO user_validations (github_email, system_slug, track_slug, lesson_slug, module_slug, status, validation_result, passed_count, failed_count)
           VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
-          ON CONFLICT(github_email, system_slug, track_slug, lesson_slug) DO UPDATE SET
+          ON CONFLICT(github_email, system_slug, track_slug, module_slug, lesson_slug) DO UPDATE SET
             status = excluded.status,
             validation_result = excluded.validation_result,
             passed_count = excluded.passed_count,
@@ -227,12 +227,13 @@ export async function getValidation(
   githubEmail: string,
   systemSlug: string,
   trackSlug: string,
+  moduleSlug: string,
   lessonSlug: string
 ): Promise<UserValidation | null> {
   const db = getDb();
   const result = await db.execute({
-    sql: 'SELECT * FROM user_validations WHERE github_email = ? AND system_slug = ? AND track_slug = ? AND lesson_slug = ?',
-    args: [githubEmail, systemSlug, trackSlug, lessonSlug],
+    sql: 'SELECT * FROM user_validations WHERE github_email = ? AND system_slug = ? AND track_slug = ? AND module_slug = ? AND lesson_slug = ?',
+    args: [githubEmail, systemSlug, trackSlug, moduleSlug, lessonSlug],
   });
   return (result.rows[0] as unknown as UserValidation) ?? null;
 }
