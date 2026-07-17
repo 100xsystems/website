@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { useState } from 'react';
 import { cn } from '@/application/lib/utils';
 import { Breadcrumbs } from '@/presentation/__components';
+import { CLIQuickStart } from './CLIQuickStart';
 import type {
   SystemMeta,
   SystemFolderTag,
@@ -82,9 +83,12 @@ function LessonCard({
             </h3>
             {lesson.estimatedTime && (
               <span className={cn(
-                'text-[10px] font-medium shrink-0 transition-colors duration-300',
+                'text-[10px] font-medium shrink-0 whitespace-nowrap transition-colors duration-300',
                 isHovered ? 'text-white/70' : 'text-fg-muted',
               )}>
+                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="inline mr-0.5 -mt-0.5">
+                  <circle cx="12" cy="12" r="10" /><polyline points="12 6 12 12 16 14" />
+                </svg>
                 {lesson.estimatedTime}
               </span>
             )}
@@ -368,6 +372,9 @@ export function SystemDetailClient({
           <h1 className="text-4xl lg:text-5xl font-extrabold tracking-tight mb-5 text-fg">{system.title}</h1>
           <p className="text-base text-fg-secondary leading-relaxed max-w-2xl">{system.description}</p>
         </div>
+
+        {/* CLI Quick Start — install, init, validate, submit commands */}
+        <CLIQuickStart systemSlug={system.slug} systemTitle={system.title} />
 
         {/* Empty State */}
         {showEmpty && (

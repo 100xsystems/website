@@ -21,7 +21,7 @@ import {
 } from '@/lib/reading-context';
 import { ReadingToolbar } from '@/components/reading/ReadingToolbar';
 
-import { MobileNav, SidebarNav } from '@/presentation/__components';
+import { MobileNav, SidebarNav, Icon } from '@/presentation/__components';
 import type { MobileNavItem, SidebarNavItem } from '@/presentation/__components';
 import type { SystemMeta, SystemFileEntry, TrackMeta, ModuleMeta } from '@/lib/mdx';
 import { useRouter } from 'next/navigation';
@@ -242,6 +242,42 @@ function OutlineRow({
   );
 }
 
+// ─── Keyboard Shortcuts Overlay ────────────────────────────────────
+
+function KeyboardShortcutsOverlay({ onClose }: { onClose: () => void }) {
+  const shortcuts = [
+    { key: 'j', action: 'Next lesson' },
+    { key: 'k', action: 'Previous lesson' },
+    { key: '?', action: 'Toggle this help' },
+  ];
+
+  return (
+    <>
+      <div className="fixed inset-0 bg-black/20 z-50" onClick={onClose} />
+      <div className="fixed inset-0 z-50 flex items-center justify-center pointer-events-none">
+        <div className="bg-white shadow-2xl border border-border p-6 w-72 pointer-events-auto" onClick={(e) => e.stopPropagation()}>
+          <div className="flex items-center justify-between mb-4">
+            <span className="text-[10px] font-bold uppercase tracking-[0.15em] text-fg">
+              Keyboard Shortcuts
+            </span>
+            <button onClick={onClose} className="text-fg-muted hover:text-fg transition-colors">
+              <Icon name="x" size={14} />
+            </button>
+          </div>
+          <div className="space-y-2.5">
+            {shortcuts.map((s) => (
+              <div key={s.key} className="flex items-center justify-between">
+                <span className="text-xs font-semibold text-fg">{s.action}</span>
+                <kbd className="inline-flex items-center justify-center min-w-[24px] h-6 px-1.5 text-[10px] font-bold font-mono uppercase bg-gray-100 text-fg-muted border border-gray-200">{s.key}</kbd>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </>
+  );
+}
+
 function CopyButton({ content }: { content: string }) {
   const [copied, setCopied] = useState(false);
   const handleCopy = useCallback(async () => {
@@ -419,7 +455,7 @@ function LanguageSwitcher({
 }
 
 function SystemFileReadingContent({ system, file, allFiles, prevFile, nextFile, folderTag, currentTrack, currentModule, kbItems, languageTracks }: SystemFileReadingClientProps) {
-  const { settings } = useReadingSettings();
+  const { settings, setMode } = useReadingSettings();
   const router = useRouter();
 
   useEffect(() => {
@@ -438,6 +474,48 @@ function SystemFileReadingContent({ system, file, allFiles, prevFile, nextFile, 
   const [activeHeading, setActiveHeading] = useState<string>('');
   const [fullscreen, setFullscreen] = useState(false);
   const [mobileSettingsOpen, setMobileSettingsOpen] = useState(false);
+  const [showShortcuts, setShowShortcuts] = useState(false);
+
+  // Build sidebar nav items with correct read/ path
+  const sidebarNavItems: SidebarNavItem[] = useMemo(() => allFiles.map(f => ({
+    id: f.slug,
+    label: f.title,
+    href: `/systems/${system.slug}/read/${f.pathSegments.join('/')}`,
+    iconName: 'bookmark',
+  })), [allFiles, system.slug]);
+
+  const navigateToFile = useCallback((slug: string) => {
+    const target = allFiles.find(f => f.slug === slug);
+    if (target) {
+      setSidebarOpen(false);
+      router.push(`/systems/${system.slug}/read/${target.pathSegments.join('/')}`);
+    }
+  }, [allFiles, system.slug, router]);
+
+  const handleSidebarNav = useCallback((navItem: SidebarNavItem) => {
+    navigateToFile(navItem.id);
+  }, [navigateToFile]);
+
+  // Keyboard navigation: j/k for next/prev lesson
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) return;
+
+      if (e.key === 'j' || e.key === 'J') {
+        e.preventDefault();
+        if (nextFile) navigateToFile(nextFile.slug);
+      } else if (e.key === 'k' || e.key === 'K') {
+        e.preventDefault();
+        if (prevFile) navigateToFile(prevFile.slug);
+      } else if (e.key === '?') {
+        e.preventDefault();
+        setShowShortcuts((prev) => !prev);
+      }
+    };
+
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [prevFile, nextFile, navigateToFile]);
 
   const mobileItems: MobileNavItem[] = useMemo(() => [
     { id: 'settings', label: 'Settings', iconName: 'settings' },
@@ -492,26 +570,6 @@ function SystemFileReadingContent({ system, file, allFiles, prevFile, nextFile, 
     document.addEventListener('fullscreenchange', handleFSChange);
     return () => document.removeEventListener('fullscreenchange', handleFSChange);
   }, []);
-
-  // Build sidebar nav items with correct read/ path
-  const sidebarNavItems: SidebarNavItem[] = useMemo(() => allFiles.map(f => ({
-    id: f.slug,
-    label: f.title,
-    href: `/systems/${system.slug}/read/${f.pathSegments.join('/')}`,
-    iconName: 'bookmark',
-  })), [allFiles, system.slug]);
-
-  const navigateToFile = useCallback((slug: string) => {
-    const target = allFiles.find(f => f.slug === slug);
-    if (target) {
-      setSidebarOpen(false);
-      router.push(`/systems/${system.slug}/read/${target.pathSegments.join('/')}`);
-    }
-  }, [allFiles, system.slug, router]);
-
-  const handleSidebarNav = useCallback((navItem: SidebarNavItem) => {
-    navigateToFile(navItem.id);
-  }, [navigateToFile]);
 
   const bodyContent = useMemo(() => file.content.replace(/^\s*# .+(\n|$)/, ''), [file.content]);
   const headings = useMemo(() => extractHeadings(file.content), [file.content]);
@@ -625,6 +683,29 @@ function SystemFileReadingContent({ system, file, allFiles, prevFile, nextFile, 
                   <span className="text-xs text-fg font-medium hidden sm:inline">{file.title}</span>
                 </div>
                 <div className="hidden sm:flex items-center gap-px">
+                  {/* Reading time estimate */}
+                  {file.estimatedTime && (
+                    <span className="flex items-center gap-1.5 px-3 py-2 text-[10px] font-medium text-fg-muted whitespace-nowrap" title="Estimated reading time">
+                      <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                        <circle cx="12" cy="12" r="10" /><polyline points="12 6 12 12 16 14" />
+                      </svg>
+                      {file.estimatedTime}
+                    </span>
+                  )}
+                  {/* Dark mode toggle */}
+                  <button
+                    onClick={() => setMode(settings.mode === 'sepia' ? 'light' : 'sepia')}
+                    className="flex items-center gap-2 px-2 py-2 text-xs font-bold uppercase tracking-wider transition-colors duration-200 text-fg-muted hover:text-accent"
+                    title={settings.mode === 'sepia' ? 'Switch to light mode' : 'Switch to sepia mode'}
+                  >
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                      {settings.mode === 'sepia' ? (
+                        <><circle cx="12" cy="12" r="5" /><line x1="12" y1="1" x2="12" y2="3" /><line x1="12" y1="21" x2="12" y2="23" /><line x1="4.22" y1="4.22" x2="5.64" y2="5.64" /><line x1="18.36" y1="18.36" x2="19.78" y2="19.78" /><line x1="1" y1="12" x2="3" y2="12" /><line x1="21" y1="12" x2="23" y2="12" /><line x1="4.22" y1="19.78" x2="5.64" y2="18.36" /><line x1="18.36" y1="5.64" x2="19.78" y2="4.22" /></>
+                      ) : (
+                        <><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" /></>
+                      )}
+                    </svg>
+                  </button>
                   <CopyButton content={file.content} />
                   <ReadingToolbar />
                   <button onClick={() => { if (!document.fullscreenElement) document.documentElement.requestFullscreen(); else document.exitFullscreen(); }}
@@ -765,6 +846,11 @@ function SystemFileReadingContent({ system, file, allFiles, prevFile, nextFile, 
           </>
         )}
       </AnimatePresence>
+
+      {/* Keyboard shortcuts overlay */}
+      {showShortcuts && (
+        <KeyboardShortcutsOverlay onClose={() => setShowShortcuts(false)} />
+      )}
     </>
   );
 }
