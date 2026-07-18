@@ -14,13 +14,15 @@
  *     systems/
  *       [slug]/
  *         index.md         (system metadata with track definitions)
- *         track-{lang}/    (NEW: language-specific tracks)
- *           module-{n}/
- *             lesson-n.md  (lesson with frontmatter)
- *             quiz.md
- *             challenge.md
- *         {folder_tag}/    (OLD: architecture, diagrams, tradeoffs, etc.)
- *           file.md
+ *         track-{lang}/
+ *           index.md       (ordered lesson listing with lesson_type)
+ *           01-lesson-name/
+ *             lesson.md    (lesson with frontmatter, lesson_type field)
+ *             tests/
+ *           02-quiz-name/
+ *             lesson.md    (lesson_type: quiz)
+ *           03-challenge-name/
+ *             lesson.md    (lesson_type: challenge)
  */
 
 import fs from 'fs';
@@ -103,6 +105,7 @@ export interface LessonMeta {
   track: string;
   module: string;
   pathSegments: string[];
+  lessonType?: string;
   estimatedTime?: string;
   difficulty?: string;
   knowledgeRefs?: string[];
@@ -212,7 +215,7 @@ export function getKnowledgeItem(domain: KnowledgeDomain, slug: string): Knowled
   return getKnowledgeItems(domain).find((item) => item.slug === slug) || null;
 }
 
-// ─── System Reading (NEW: Lesson/Track/Module) ──────────────────────
+// ─── System Reading ─────────────────────────────────────────────────
 
 export function getAllSystemSlugs(): string[] {
   try {
@@ -264,11 +267,9 @@ export function getSystemTracks(systemSlug: string): TrackMeta[] {
 }
 
 /**
- * Get lessons directly from a track directory (flat structure, no modules).
- * This is the NEW preferred structure:
- *   track-{lang}/
- *     lesson-name/lesson.md
- *     quiz-name.md
+ * Get lessons directly from a track directory (flat structure).
+ * Each lesson is a numbered folder (e.g. 01-lesson-intro/lesson.md)
+ * with lesson_type in frontmatter.
  */
 export function getTrackFlatLessons(systemSlug: string, trackSlug: string): LessonMeta[] {
   const lessons: LessonMeta[] = [];
@@ -282,25 +283,16 @@ export function getTrackFlatLessons(systemSlug: string, trackSlug: string): Less
       if (entry.name.startsWith('.')) continue;
       if (entry.name === 'index.md') continue;
 
-      let mdPath: string | null = null;
-      let slug = '';
+      // Only folder-based lessons: lesson-name/lesson.md
+      if (!entry.isDirectory()) continue;
 
-      if (entry.isDirectory()) {
-        const lessonMdPath = path.join(trackDir, entry.name, 'lesson.md');
-        if (fs.existsSync(lessonMdPath)) {
-          mdPath = lessonMdPath;
-          slug = fileToSlug(entry.name);
-        }
-      } else if (entry.isFile() && entry.name.endsWith('.md')) {
-        mdPath = path.join(trackDir, entry.name);
-        slug = fileToSlug(entry.name);
-      }
-
-      if (!mdPath) continue;
+      const lessonMdPath = path.join(trackDir, entry.name, 'lesson.md');
+      if (!fs.existsSync(lessonMdPath)) continue;
 
       try {
-        const raw = fs.readFileSync(mdPath, 'utf-8');
+        const raw = fs.readFileSync(lessonMdPath, 'utf-8');
         const { data, content } = matter(raw);
+        const slug = fileToSlug(entry.name);
         const order = getOrderFromFile(entry.name, data.order);
         lessons.push({
           slug,
@@ -312,6 +304,7 @@ export function getTrackFlatLessons(systemSlug: string, trackSlug: string): Less
           track: trackSlug,
           module: '',
           pathSegments: [trackSlug, slug],
+          lessonType: data.lesson_type || 'lesson',
           estimatedTime: data.estimated_time,
           difficulty: data.difficulty,
           knowledgeRefs: data.knowledge_refs,
@@ -406,6 +399,7 @@ export function getModuleLessons(systemSlug: string, trackSlug: string, moduleSl
           track: trackSlug,
           module: moduleSlug,
           pathSegments: [trackSlug, moduleSlug, slug],
+          lessonType: data.lesson_type || 'lesson',
           estimatedTime: data.estimated_time,
           difficulty: data.difficulty,
           knowledgeRefs: data.knowledge_refs,
@@ -464,6 +458,20 @@ export function getLessonBySlug(systemSlug: string, lessonSlug: string): LessonM
 export function getSystemTrackTree(systemSlug: string): SystemTrackTree[] {
   const tracks = getSystemTracks(systemSlug);
   return tracks.map((track) => {
+    // Try flat lessons first
+    const flat = getTrackFlatLessons(systemSlug, track.slug);
+    if (flat.length > 0) {
+      // Convert flat lessons into a single virtual "module"
+      return {
+        track,
+        modules: [{
+          module: { slug: '', title: track.title, order: 0, lessons: flat },
+          lessons: flat,
+        }],
+        lessonCount: flat.length,
+      };
+    }
+    // Fallback to module-based
     const modules = getTrackModules(systemSlug, track.slug);
     const moduleNodes: TrackModuleNode[] = modules.map((mod) => ({
       module: mod,
