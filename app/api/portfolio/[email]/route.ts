@@ -1,8 +1,8 @@
 /**
  * GET /api/portfolio/:email
  *
- * Returns a user's full portfolio: enrollments, submissions, badges.
- * This is a public read-only endpoint consumed by the website.
+ * Returns a user's full portfolio: user info and enrolled systems.
+ * Updated for the new 2-table schema (users + user_progress).
  */
 
 import { NextResponse } from 'next/server';
@@ -19,7 +19,6 @@ export async function GET(_request: Request, { params }: RouteParams) {
     return NextResponse.json({ error: 'Email parameter is required' }, { status: 400 });
   }
 
-  // Decode URL-encoded email
   const decodedEmail = decodeURIComponent(email);
 
   try {
@@ -37,28 +36,18 @@ export async function GET(_request: Request, { params }: RouteParams) {
         githubEmail: portfolio.user.github_email,
         githubUsername: portfolio.user.github_username,
         displayName: portfolio.user.display_name,
+        linkedinUrl: portfolio.user.linkedin_url,
+        githubAvatar: portfolio.user.github_avatar,
+        shortBio: portfolio.user.short_bio,
+        currentProfession: portfolio.user.current_profession,
+        experienceYears: portfolio.user.experience_years,
         createdAt: portfolio.user.created_at,
         lastLoginAt: portfolio.user.last_login_at,
       },
-      enrollments: portfolio.enrollments.map((e) => ({
-        systemSlug: e.system_slug,
-        trackSlug: e.track_slug,
-        nextLessonSlug: e.next_lesson_slug,
-        startedAt: e.started_at,
-        completedAt: e.completed_at,
-      })),
-      submissions: portfolio.submissions.map((s) => ({
+      enrollments: portfolio.systems.map((s) => ({
         systemSlug: s.system_slug,
         trackSlug: s.track_slug,
-        prUrl: s.pr_url,
-        prNumber: s.pr_number,
-        prStatus: s.pr_status,
-        submittedAt: s.submitted_at,
-      })),
-      badges: portfolio.badges.map((b) => ({
-        systemSlug: b.system_slug,
-        badgeType: b.badge_type,
-        awardedAt: b.awarded_at,
+        startedAt: s.created_at,
       })),
     });
   } catch (error) {

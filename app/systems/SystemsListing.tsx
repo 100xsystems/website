@@ -31,8 +31,8 @@ export function SystemsListing({ systems }: SystemsListingProps) {
             key={system.slug}
             href={`/systems/${system.slug}`}
             className={cn(
-              'group block px-8 py-8 transition-all duration-300',
-              isHovered ? 'bg-accent' : 'bg-white hover:bg-accent/[0.03]',
+              'group block px-8 py-8 border-2 border-black transition-all duration-300',
+              isHovered ? 'bg-accent border-accent' : 'bg-white hover:bg-accent/[0.03]',
             )}
             onMouseEnter={() => setHoveredId(system.slug)}
             onMouseLeave={() => setHoveredId(null)}

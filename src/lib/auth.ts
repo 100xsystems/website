@@ -29,6 +29,7 @@ export interface VerifiedUser {
   github_email: string;
   github_username: string;
   display_name: string;
+  github_avatar?: string;
 }
 
 // ─── Verify Token ───────────────────────────────────────────────────
@@ -59,6 +60,7 @@ export async function verifyGitHubToken(token: string): Promise<VerifiedUser> {
 
   const user = await res.json();
   const githubUsername: string = user.login;
+  const githubAvatar: string = user.avatar_url || '';
 
   // Fetch primary email (public user emails endpoint)
   let email = '';
@@ -86,6 +88,7 @@ export async function verifyGitHubToken(token: string): Promise<VerifiedUser> {
     github_email: githubEmail,
     github_username: githubUsername,
     display_name: user.name || githubUsername,
+    github_avatar: githubAvatar,
   };
 
   // Auto-upsert user on every validated call (keeps last_login_at current)
@@ -93,6 +96,7 @@ export async function verifyGitHubToken(token: string): Promise<VerifiedUser> {
     github_email: githubEmail,
     github_username: githubUsername,
     display_name: user.name || undefined,
+    github_avatar: githubAvatar,
   });
 
   return verified;

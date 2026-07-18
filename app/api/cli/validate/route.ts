@@ -1,52 +1,31 @@
 /**
  * POST /api/cli/validate
  *
- * Called by: `100xsystems validate` (after each lesson check)
+ * Called by: `100xsystems validate`
  * Auth: GitHub token (Authorization: Bearer)
- * Body: {
- *   githubEmail?, systemSlug, trackSlug, lessonSlug, moduleSlug,
- *   status, passedCount?, failedCount?, validationResult?, nextLessonSlug?
- * }
+ * Body: { systemSlug, trackSlug, lessonSlug, is_validated (boolean) }
  *
- * Records a validation result. If status === 'passed' and nextLessonSlug
- * is provided, also advances the user's enrollment.
+ * Updates user_progress validation status.
+ * On successful validation, increments positive_validations.
+ * On failed validation, increments negative_validations.
  */
 
 import { NextResponse } from 'next/server';
 import { withAuth } from '@/lib/auth';
-import { recordValidation, advanceToNextLesson } from '@/lib/db';
+import { incrementPositiveValidation, incrementNegativeValidation } from '@/lib/db';
 import type { VerifiedUser } from '@/lib/auth';
 
 export const POST = withAuth(async (request, user: VerifiedUser) => {
   const body = await request.json();
-  const {
-    systemSlug,
-    trackSlug,
-    lessonSlug,
-    moduleSlug,
-    status,
-    passedCount,
-    failedCount,
-    validationResult,
-    nextLessonSlug,
-  } = body;
+  const { systemSlug, trackSlug, lessonSlug, is_validated, status } = body;
 
-  // Validate required fields
-  if (!systemSlug || !trackSlug || !lessonSlug || !moduleSlug || !status) {
+  if (!systemSlug || !trackSlug || !lessonSlug) {
     return NextResponse.json(
-      { error: 'systemSlug, trackSlug, lessonSlug, moduleSlug, and status are required' },
+      { error: 'systemSlug, trackSlug, and lessonSlug are required' },
       { status: 400 },
     );
   }
 
-  if (!['passed', 'failed'].includes(status)) {
-    return NextResponse.json(
-      { error: 'status must be "passed" or "failed"' },
-      { status: 400 },
-    );
-  }
-
-  // Verify the caller owns this email
   if (body.githubEmail && body.githubEmail !== user.github_email) {
     return NextResponse.json(
       { error: 'githubEmail does not match authenticated user' },
@@ -54,27 +33,20 @@ export const POST = withAuth(async (request, user: VerifiedUser) => {
     );
   }
 
-  // Record the validation
-  await recordValidation({
-    githubEmail: user.github_email,
-    systemSlug,
-    trackSlug,
-    lessonSlug,
-    moduleSlug,
-    status,
-    passedCount: passedCount ?? 0,
-    failedCount: failedCount ?? 0,
-    validationResult: validationResult ?? undefined,
-  });
+  // Support both is_validated (boolean) and legacy status ('passed'/'failed')
+  const validated = is_validated !== undefined
+    ? is_validated
+    : status === 'passed';
 
-  // If passed and we know the next lesson, advance enrollment
-  if (status === 'passed' && nextLessonSlug) {
-    await advanceToNextLesson(user.github_email, systemSlug, trackSlug, nextLessonSlug);
+  if (validated) {
+    await incrementPositiveValidation(user.github_email, systemSlug, trackSlug, lessonSlug);
+  } else {
+    await incrementNegativeValidation(user.github_email, systemSlug, trackSlug, lessonSlug);
   }
 
   return NextResponse.json({
     ok: true,
-    status,
-    advanced: !!(status === 'passed' && nextLessonSlug),
+    status: validated ? 'passed' : 'failed',
+    action: 'validation-recorded',
   });
 });

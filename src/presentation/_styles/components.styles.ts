@@ -374,7 +374,6 @@ export const galleryImageTitle = 'galleryImageTitle';
 export const galleryImageWrapper = 'galleryImageWrapper';
 export const galleryTitle = 'galleryTitle';
 export const getStartedButton = 'getStartedButton';
-export const giscusContainer = 'giscusContainer';
 export const globalToc = 'globalToc';
 export const globalTocContent = 'globalTocContent';
 export const globalTocHidden = 'globalTocHidden';

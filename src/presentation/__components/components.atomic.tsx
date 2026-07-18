@@ -547,7 +547,47 @@ export interface SpinnerProps {
 }
 
 export function Spinner({ size = 'lg', variant = 'uncontained', label = 'Loading...', className }: SpinnerProps) {
+  const [mounted, setMounted] = useState(false);
   const px = sizeMap[size];
+
+  // Defer M3E custom element rendering until after hydration to avoid SSR mismatch
+  // M3E web components add ARIA attributes (role="progressbar", aria-valuemin, etc.)
+  // on the client, which causes React hydration warnings
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  if (!mounted) {
+    return (
+      <div
+        className={cn('inline-flex items-center justify-center', className)}
+        style={{ width: px, height: px }}
+      >
+        <svg
+          width={px}
+          height={px}
+          viewBox="0 0 24 24"
+          fill="none"
+          className="animate-spin"
+          aria-hidden="true"
+        >
+          <circle
+            cx="12"
+            cy="12"
+            r="10"
+            stroke="var(--border)"
+            strokeWidth="3"
+          />
+          <path
+            d="M12 2a10 10 0 0 1 10 10"
+            stroke="var(--accent)"
+            strokeWidth="3"
+            strokeLinecap="round"
+          />
+        </svg>
+      </div>
+    );
+  }
 
   return (
     <div

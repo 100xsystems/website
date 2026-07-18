@@ -4,6 +4,7 @@ import { HomeWhatIsSystem } from '@/presentation/features/homeWhatIsSystem.featu
 import { HomeVideoParallax } from '@/presentation/features/homeVideoParallax.feature';
 import { HomeBuildSystems } from '@/presentation/features/homeBuildSystems.feature';
 import { HomeLearningPhilosophy } from '@/presentation/features/homeLearningPhilosophy.feature';
+import { HomeComparison } from '@/presentation/features/homeComparison.feature';
 import { HomeCubix } from '@/presentation/features/homeCubix.feature';
 import { HomeOpenSource } from '@/presentation/features/homeOpenSource.feature';
 import { HomeMission } from '@/presentation/features/homeMission.feature';
@@ -22,6 +23,7 @@ export default function HomePage() {
       <HomeVideoParallax />
       <HomeBuildSystems />
       <HomeLearningPhilosophy />
+      <HomeComparison />
       <HomeCubix />
       <HomeOpenSource />
       <HomeMission />

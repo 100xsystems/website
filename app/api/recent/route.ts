@@ -1,11 +1,8 @@
 /**
  * GET /api/recent
  *
- * Returns recent activity across all users: most recent validations,
- * submissions, and enrollments. Public read-only endpoint.
- *
- * Query params:
- *   limit (number, default 30) — max results
+ * Returns recent activity across all users using the new user_progress table.
+ * Query params: limit (number, default 30)
  */
 
 import { NextResponse } from 'next/server';
@@ -18,110 +15,45 @@ export async function GET(request: Request) {
   try {
     const db = getDb();
 
-    // Recent validations
-    const validationsResult = await db.execute({
+    // Recent activity from user_progress (validations and submissions)
+    const result = await db.execute({
       sql: `SELECT
-              v.github_email,
+              p.github_email,
               u.github_username,
-              v.system_slug,
-              v.track_slug,
-              v.lesson_slug,
-              v.status,
-              v.passed_count,
-              v.failed_count,
-              v.validated_at,
-              'validation' as activity_type
-            FROM user_validations v
-            LEFT JOIN users u ON u.github_email = v.github_email
-            ORDER BY v.validated_at DESC
+              p.system_slug,
+              p.track_slug,
+              p.lesson_slug,
+              p.lesson_type,
+              p.is_validated,
+              p.is_submitted,
+              p.submission_link,
+              p.updated_at,
+              CASE WHEN p.is_validated = 1 THEN 'validation'
+                   WHEN p.is_submitted = 1 THEN 'submission'
+                   ELSE 'progress' END as activity_type
+            FROM user_progress p
+            LEFT JOIN users u ON u.github_email = p.github_email
+            WHERE p.is_validated = 1 OR p.is_submitted = 1
+            ORDER BY p.updated_at DESC
             LIMIT ?`,
       args: [limit],
     });
 
-    // Recent submissions
-    const submissionsResult = await db.execute({
-      sql: `SELECT
-              s.github_email,
-              u.github_username,
-              s.system_slug,
-              s.track_slug,
-              s.pr_url,
-              s.pr_number,
-              s.pr_status,
-              s.submitted_at,
-              'submission' as activity_type
-            FROM submissions s
-            LEFT JOIN users u ON u.github_email = s.github_email
-            ORDER BY s.submitted_at DESC
-            LIMIT ?`,
-      args: [limit],
-    });
+    const activities = (result.rows as any[]).map((row) => ({
+      type: row.activity_type,
+      githubEmail: row.github_email,
+      githubUsername: row.github_username || row.github_email?.split('@')[0] || 'anonymous',
+      systemSlug: row.system_slug,
+      trackSlug: row.track_slug,
+      lessonSlug: row.lesson_slug,
+      lessonType: row.lesson_type,
+      is_validated: row.is_validated === 1,
+      is_submitted: row.is_submitted === 1,
+      submissionLink: row.submission_link,
+      timestamp: row.updated_at,
+    }));
 
-    // Recent enrollments
-    const enrollmentsResult = await db.execute({
-      sql: `SELECT
-              e.github_email,
-              u.github_username,
-              e.system_slug,
-              e.track_slug,
-              e.started_at,
-              e.completed_at,
-              'enrollment' as activity_type
-            FROM user_enrollments e
-            LEFT JOIN users u ON u.github_email = e.github_email
-            ORDER BY e.started_at DESC
-            LIMIT ?`,
-      args: [limit],
-    });
-
-    // Merge and sort by timestamp desc
-    const activities: any[] = [];
-
-    for (const row of validationsResult.rows as any[]) {
-      activities.push({
-        type: 'validation',
-        githubEmail: row.github_email,
-        githubUsername: row.github_username || row.github_email.split('@')[0],
-        systemSlug: row.system_slug,
-        trackSlug: row.track_slug,
-        lessonSlug: row.lesson_slug,
-        status: row.status,
-        passedCount: row.passed_count,
-        failedCount: row.failed_count,
-        timestamp: row.validated_at,
-      });
-    }
-
-    for (const row of submissionsResult.rows as any[]) {
-      activities.push({
-        type: 'submission',
-        githubEmail: row.github_email,
-        githubUsername: row.github_username || row.github_email.split('@')[0],
-        systemSlug: row.system_slug,
-        trackSlug: row.track_slug,
-        prUrl: row.pr_url,
-        prNumber: row.pr_number,
-        prStatus: row.pr_status,
-        timestamp: row.submitted_at,
-      });
-    }
-
-    for (const row of enrollmentsResult.rows as any[]) {
-      activities.push({
-        type: 'enrollment',
-        githubEmail: row.github_email,
-        githubUsername: row.github_username || row.github_email.split('@')[0],
-        systemSlug: row.system_slug,
-        trackSlug: row.track_slug,
-        completedAt: row.completed_at,
-        timestamp: row.started_at,
-      });
-    }
-
-    activities.sort((a, b) => new Date(b.timestamp).getTime() - new Date(a.timestamp).getTime());
-    const recent = activities.slice(0, limit);
-
-    return NextResponse.json({ activities: recent, count: recent.length });
+    return NextResponse.json({ activities, count: activities.length });
   } catch (error) {
     console.error('[recent] Error:', error);
     return NextResponse.json(

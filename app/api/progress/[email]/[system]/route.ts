@@ -1,18 +1,11 @@
 /**
  * GET /api/progress/:email/:system
  *
- * Returns a user's progress for a specific system: enrollments,
- * validations, and submission. Public read-only endpoint.
+ * Returns a user's progress for a specific system using the new user_progress table.
  */
 
 import { NextResponse } from 'next/server';
-import {
-  getUserEnrollments,
-  getValidationsForTrack,
-  getPassedCountForTrack,
-  getUserSubmissions,
-  getUserBadges,
-} from '@/lib/db';
+import { getUserProgress } from '@/lib/db';
 
 interface RouteParams {
   params: Promise<{ email: string; system: string }>;
@@ -31,64 +24,20 @@ export async function GET(_request: Request, { params }: RouteParams) {
   const decodedEmail = decodeURIComponent(email);
 
   try {
-    // Get enrollments for this specific system
-    const allEnrollments = await getUserEnrollments(decodedEmail);
-    const enrollments = allEnrollments.filter((e) => e.system_slug === system);
-
-    // Get validations and passes for each track
-    const tracksWithProgress = await Promise.all(
-      enrollments.map(async (enrollment) => {
-        const validations = await getValidationsForTrack(
-          decodedEmail,
-          system,
-          enrollment.track_slug,
-        );
-        const passedCount = await getPassedCountForTrack(
-          decodedEmail,
-          system,
-          enrollment.track_slug,
-        );
-
-        return {
-          trackSlug: enrollment.track_slug,
-          nextLessonSlug: enrollment.next_lesson_slug,
-          startedAt: enrollment.started_at,
-          completedAt: enrollment.completed_at,
-          totalValidations: validations.length,
-          passedCount,
-          validations: validations.map((v) => ({
-            lessonSlug: v.lesson_slug,
-            moduleSlug: v.module_slug,
-            status: v.status,
-            passedCount: v.passed_count,
-            failedCount: v.failed_count,
-            validatedAt: v.validated_at,
-          })),
-        };
-      }),
-    );
-
-    // Get submissions for this system
-    const allSubmissions = await getUserSubmissions(decodedEmail);
-    const submissions = allSubmissions.filter((s) => s.system_slug === system);
-
-    // Get badges for this system
-    const allBadges = await getUserBadges(decodedEmail);
-    const badges = allBadges.filter((b) => b.system_slug === system);
+    const progress = await getUserProgress(decodedEmail, system);
 
     return NextResponse.json({
       systemSlug: system,
-      tracks: tracksWithProgress,
-      submissions: submissions.map((s) => ({
-        trackSlug: s.track_slug,
-        prUrl: s.pr_url,
-        prNumber: s.pr_number,
-        prStatus: s.pr_status,
-        submittedAt: s.submitted_at,
-      })),
-      badges: badges.map((b) => ({
-        badgeType: b.badge_type,
-        awardedAt: b.awarded_at,
+      enrolled: progress.length > 0,
+      lessons: progress.map((p) => ({
+        trackSlug: p.track_slug,
+        lessonSlug: p.lesson_slug,
+        lessonType: p.lesson_type,
+        isValidated: p.is_validated === 1,
+        isSubmitted: p.is_submitted === 1,
+        positiveValidations: p.positive_validations,
+        negativeValidations: p.negative_validations,
+        updatedAt: p.updated_at,
       })),
     });
   } catch (error) {

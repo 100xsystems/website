@@ -4,12 +4,14 @@
  * Lazy-initialized Turso (libSQL) client singleton with
  * typed query helpers for the 100xSystems schema.
  *
- * Schema:
- *   users             — github_email PK (Clerk/GitHub identity)
- *   user_enrollments  — which system/track a user is on
- *   user_validations  — lesson validation results
- *   submissions       — PR proof of completed work (portfolio)
- *   badges            — earned for completing systems
+ * Schema (2 tables only):
+ *   users          — github_email PK, github_username, display_name, linkedin_url,
+ *                    github_avatar, short_bio, current_profession, experience_years,
+ *                    created_at, last_login_at
+ *   user_progress  — github_email, system_slug, track_slug, lesson_slug (composite PK),
+ *                    lesson_type, is_submitted, submission_link, live_link, is_validated,
+ *                    positive_validations, negative_validations, liked_number, is_reported,
+ *                    reported_number, achievement, achievement_type, created_at, updated_at
  *
  * @packageDocumentation
  */
@@ -22,47 +24,34 @@ export interface User {
   github_email: string;
   github_username: string | null;
   display_name: string | null;
+  linkedin_url: string | null;
+  github_avatar: string | null;
+  short_bio: string | null;
+  current_profession: string | null;
+  experience_years: number;
   created_at: string;
   last_login_at: string | null;
 }
 
-export interface UserEnrollment {
+export interface UserProgress {
   github_email: string;
   system_slug: string;
   track_slug: string;
-  next_lesson_slug: string | null;
-  started_at: string;
-  completed_at: string | null;
-}
-
-export interface UserValidation {
-  github_email: string;
-  system_slug: string;
-  track_slug: string;
-  module_slug: string;
   lesson_slug: string;
-  status: 'passed' | 'failed';
-  validation_result: string | null;
-  passed_count: number;
-  failed_count: number;
-  validated_at: string;
-}
-
-export interface Submission {
-  github_email: string;
-  system_slug: string;
-  track_slug: string;
-  pr_url: string;
-  pr_number: number | null;
-  pr_status: 'open' | 'merged' | 'closed';
-  submitted_at: string;
-}
-
-export interface Badge {
-  github_email: string;
-  system_slug: string;
-  badge_type: 'completed' | 'gold' | 'contributor';
-  awarded_at: string;
+  lesson_type: string | null;
+  is_submitted: number;
+  submission_link: string | null;
+  live_link: string | null;
+  is_validated: number;
+  positive_validations: number;
+  negative_validations: number;
+  liked_number: number;
+  is_reported: number;
+  reported_number: number;
+  achievement: string | null;
+  achievement_type: string | null;
+  created_at: string;
+  updated_at: string;
 }
 
 // ─── Client ──────────────────────────────────────────────────────────
@@ -92,16 +81,18 @@ export async function upsertUser(user: {
   github_email: string;
   github_username?: string;
   display_name?: string;
+  github_avatar?: string;
 }): Promise<void> {
   const db = getDb();
   await db.execute({
-    sql: `INSERT INTO users (github_email, github_username, display_name, last_login_at)
-          VALUES (?, ?, ?, CURRENT_TIMESTAMP)
+    sql: `INSERT INTO users (github_email, github_username, display_name, github_avatar, last_login_at)
+          VALUES (?, ?, ?, ?, CURRENT_TIMESTAMP)
           ON CONFLICT(github_email) DO UPDATE SET
             github_username = COALESCE(excluded.github_username, users.github_username),
             display_name = COALESCE(excluded.display_name, users.display_name),
+            github_avatar = COALESCE(excluded.github_avatar, users.github_avatar),
             last_login_at = CURRENT_TIMESTAMP`,
-    args: [user.github_email, user.github_username ?? null, user.display_name ?? null],
+    args: [user.github_email, user.github_username ?? null, user.display_name ?? null, user.github_avatar ?? null],
   });
 }
 
@@ -109,6 +100,32 @@ export async function getUser(email: string): Promise<User | null> {
   const db = getDb();
   const result = await db.execute({ sql: 'SELECT * FROM users WHERE github_email = ?', args: [email] });
   return (result.rows[0] as unknown as User) ?? null;
+}
+
+export async function updateUser(email: string, updates: Partial<{
+  display_name: string;
+  linkedin_url: string;
+  short_bio: string;
+  current_profession: string;
+  experience_years: number;
+}>): Promise<void> {
+  const db = getDb();
+  const setClauses: string[] = [];
+  const args: any[] = [];
+
+  if (updates.display_name !== undefined) { setClauses.push('display_name = ?'); args.push(updates.display_name); }
+  if (updates.linkedin_url !== undefined) { setClauses.push('linkedin_url = ?'); args.push(updates.linkedin_url); }
+  if (updates.short_bio !== undefined) { setClauses.push('short_bio = ?'); args.push(updates.short_bio); }
+  if (updates.current_profession !== undefined) { setClauses.push('current_profession = ?'); args.push(updates.current_profession); }
+  if (updates.experience_years !== undefined) { setClauses.push('experience_years = ?'); args.push(updates.experience_years); }
+
+  if (setClauses.length === 0) return;
+
+  args.push(email);
+  await db.execute({
+    sql: `UPDATE users SET ${setClauses.join(', ')} WHERE github_email = ?`,
+    args,
+  });
 }
 
 export async function updateLastLogin(email: string): Promise<void> {
@@ -119,241 +136,287 @@ export async function updateLastLogin(email: string): Promise<void> {
   });
 }
 
-// ─── Enrollment Helpers ──────────────────────────────────────────────
+// ─── User Progress Helpers (replaces enrollment, validation, submission, badges) ──
 
-export async function enrollUser(
-  githubEmail: string,
-  systemSlug: string,
-  trackSlug: string
-): Promise<void> {
+export async function upsertUserProgress(progress: {
+  github_email: string;
+  system_slug: string;
+  track_slug: string;
+  lesson_slug: string;
+  lesson_type?: string;
+  is_submitted?: number;
+  submission_link?: string;
+  live_link?: string;
+  is_validated?: number;
+  achievement?: string;
+  achievement_type?: string;
+}): Promise<void> {
   const db = getDb();
   await db.execute({
-    sql: `INSERT INTO user_enrollments (github_email, system_slug, track_slug)
-          VALUES (?, ?, ?)
-          ON CONFLICT(github_email, system_slug, track_slug) DO NOTHING`,
-    args: [githubEmail, systemSlug, trackSlug],
-  });
-}
-
-export async function getEnrollment(
-  githubEmail: string,
-  systemSlug: string,
-  trackSlug: string
-): Promise<UserEnrollment | null> {
-  const db = getDb();
-  const result = await db.execute({
-    sql: 'SELECT * FROM user_enrollments WHERE github_email = ? AND system_slug = ? AND track_slug = ?',
-    args: [githubEmail, systemSlug, trackSlug],
-  });
-  return (result.rows[0] as unknown as UserEnrollment) ?? null;
-}
-
-export async function advanceToNextLesson(
-  githubEmail: string,
-  systemSlug: string,
-  trackSlug: string,
-  nextLessonSlug: string
-): Promise<void> {
-  const db = getDb();
-  await db.execute({
-    sql: `UPDATE user_enrollments
-          SET next_lesson_slug = ?
-          WHERE github_email = ? AND system_slug = ? AND track_slug = ?`,
-    args: [nextLessonSlug, githubEmail, systemSlug, trackSlug],
-  });
-}
-
-export async function completeEnrollment(
-  githubEmail: string,
-  systemSlug: string,
-  trackSlug: string
-): Promise<void> {
-  const db = getDb();
-  await db.execute({
-    sql: "UPDATE user_enrollments SET completed_at = CURRENT_TIMESTAMP WHERE github_email = ? AND system_slug = ? AND track_slug = ?",
-    args: [githubEmail, systemSlug, trackSlug],
-  });
-}
-
-export async function getUserEnrollments(email: string): Promise<UserEnrollment[]> {
-  const db = getDb();
-  const result = await db.execute({
-    sql: 'SELECT * FROM user_enrollments WHERE github_email = ? ORDER BY started_at DESC',
-    args: [email],
-  });
-  return result.rows as unknown as UserEnrollment[];
-}
-
-// ─── Validation Helpers ──────────────────────────────────────────────
-
-export interface ValidationInput {
-  githubEmail: string;
-  systemSlug: string;
-  trackSlug: string;
-  lessonSlug: string;
-  moduleSlug: string;
-  status: 'passed' | 'failed';
-  validationResult?: string;
-  passedCount?: number;
-  failedCount?: number;
-}
-
-export async function recordValidation(input: ValidationInput): Promise<void> {
-  const db = getDb();
-  await db.execute({
-    sql: `INSERT INTO user_validations (github_email, system_slug, track_slug, lesson_slug, module_slug, status, validation_result, passed_count, failed_count)
-          VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
-          ON CONFLICT(github_email, system_slug, track_slug, module_slug, lesson_slug) DO UPDATE SET
-            status = excluded.status,
-            validation_result = excluded.validation_result,
-            passed_count = excluded.passed_count,
-            failed_count = excluded.failed_count,
-            validated_at = CURRENT_TIMESTAMP`,
+    sql: `INSERT INTO user_progress (github_email, system_slug, track_slug, lesson_slug, lesson_type, is_submitted, submission_link, live_link, is_validated, achievement, achievement_type, updated_at)
+          VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP)
+          ON CONFLICT(github_email, system_slug, track_slug, lesson_slug) DO UPDATE SET
+            lesson_type = COALESCE(excluded.lesson_type, user_progress.lesson_type),
+            is_submitted = COALESCE(excluded.is_submitted, user_progress.is_submitted),
+            submission_link = COALESCE(excluded.submission_link, user_progress.submission_link),
+            live_link = COALESCE(excluded.live_link, user_progress.live_link),
+            is_validated = COALESCE(excluded.is_validated, user_progress.is_validated),
+            achievement = COALESCE(excluded.achievement, user_progress.achievement),
+            achievement_type = COALESCE(excluded.achievement_type, user_progress.achievement_type),
+            updated_at = CURRENT_TIMESTAMP`,
     args: [
-      input.githubEmail,
-      input.systemSlug,
-      input.trackSlug,
-      input.lessonSlug,
-      input.moduleSlug,
-      input.status,
-      input.validationResult ?? null,
-      input.passedCount ?? 0,
-      input.failedCount ?? 0,
+      progress.github_email,
+      progress.system_slug,
+      progress.track_slug,
+      progress.lesson_slug,
+      progress.lesson_type ?? 'lesson',
+      progress.is_submitted ?? 0,
+      progress.submission_link ?? null,
+      progress.live_link ?? null,
+      progress.is_validated ?? 0,
+      progress.achievement ?? null,
+      progress.achievement_type ?? null,
     ],
   });
 }
 
-export async function getValidation(
+/**
+ * Increment positive validations for a lesson on successful validation.
+ */
+export async function incrementPositiveValidation(
   githubEmail: string,
   systemSlug: string,
   trackSlug: string,
-  moduleSlug: string,
   lessonSlug: string
-): Promise<UserValidation | null> {
+): Promise<void> {
   const db = getDb();
-  const result = await db.execute({
-    sql: 'SELECT * FROM user_validations WHERE github_email = ? AND system_slug = ? AND track_slug = ? AND module_slug = ? AND lesson_slug = ?',
-    args: [githubEmail, systemSlug, trackSlug, moduleSlug, lessonSlug],
+  await db.execute({
+    sql: `UPDATE user_progress SET is_validated = 1, positive_validations = positive_validations + 1, updated_at = CURRENT_TIMESTAMP
+          WHERE github_email = ? AND system_slug = ? AND track_slug = ? AND lesson_slug = ?`,
+    args: [githubEmail, systemSlug, trackSlug, lessonSlug],
   });
-  return (result.rows[0] as unknown as UserValidation) ?? null;
 }
 
-export async function getValidationsForTrack(
+/**
+ * Increment negative validations for a lesson on failed validation.
+ */
+export async function incrementNegativeValidation(
+  githubEmail: string,
+  systemSlug: string,
+  trackSlug: string,
+  lessonSlug: string
+): Promise<void> {
+  const db = getDb();
+  await db.execute({
+    sql: `UPDATE user_progress SET negative_validations = negative_validations + 1, updated_at = CURRENT_TIMESTAMP
+          WHERE github_email = ? AND system_slug = ? AND track_slug = ? AND lesson_slug = ?`,
+    args: [githubEmail, systemSlug, trackSlug, lessonSlug],
+  });
+}
+
+/**
+ * Get all user progress rows for a specific user and system.
+ * Used by the website to determine enrollment status and lesson progress.
+ */
+export async function getUserProgress(
+  githubEmail: string,
+  systemSlug: string
+): Promise<UserProgress[]> {
+  const db = getDb();
+  const result = await db.execute({
+    sql: 'SELECT * FROM user_progress WHERE github_email = ? AND system_slug = ? ORDER BY created_at ASC',
+    args: [githubEmail, systemSlug],
+  });
+  return result.rows as unknown as UserProgress[];
+}
+
+/**
+ * Check if a user is enrolled in a system (has at least one progress record).
+ */
+export async function isUserEnrolled(githubEmail: string, systemSlug: string): Promise<boolean> {
+  const db = getDb();
+  const result = await db.execute({
+    sql: 'SELECT 1 FROM user_progress WHERE github_email = ? AND system_slug = ? LIMIT 1',
+    args: [githubEmail, systemSlug],
+  });
+  return result.rows.length > 0;
+}
+
+/**
+ * Get the current lesson for a user in a system (most recent validated lesson or first lesson).
+ */
+export async function getCurrentLesson(
   githubEmail: string,
   systemSlug: string,
   trackSlug: string
-): Promise<UserValidation[]> {
+): Promise<UserProgress | null> {
   const db = getDb();
   const result = await db.execute({
-    sql: 'SELECT * FROM user_validations WHERE github_email = ? AND system_slug = ? AND track_slug = ? ORDER BY validated_at',
+    sql: 'SELECT * FROM user_progress WHERE github_email = ? AND system_slug = ? AND track_slug = ? ORDER BY created_at DESC LIMIT 1',
     args: [githubEmail, systemSlug, trackSlug],
   });
-  return result.rows as unknown as UserValidation[];
+  return (result.rows[0] as unknown as UserProgress) ?? null;
 }
 
-export async function getPassedCountForTrack(
-  githubEmail: string,
-  systemSlug: string,
-  trackSlug: string
-): Promise<number> {
+/**
+ * Get all achievements for a user.
+ */
+export async function getUserAchievements(githubEmail: string): Promise<UserProgress[]> {
   const db = getDb();
   const result = await db.execute({
-    sql: `SELECT COUNT(*) as count FROM user_validations
-          WHERE github_email = ? AND system_slug = ? AND track_slug = ? AND status = 'passed'`,
-    args: [githubEmail, systemSlug, trackSlug],
+    sql: `SELECT * FROM user_progress WHERE github_email = ? AND achievement IS NOT NULL AND achievement != '' ORDER BY updated_at DESC`,
+    args: [githubEmail],
+  });
+  return result.rows as unknown as UserProgress[];
+}
+
+/**
+ * Get all systems a user is enrolled in.
+ */
+export async function getUserEnrolledSystems(githubEmail: string): Promise<UserProgress[]> {
+  const db = getDb();
+  const result = await db.execute({
+    sql: `SELECT DISTINCT system_slug, track_slug, MIN(created_at) as created_at
+          FROM user_progress WHERE github_email = ?
+          GROUP BY system_slug, track_slug ORDER BY created_at DESC`,
+    args: [githubEmail],
+  });
+  return result.rows as unknown as UserProgress[];
+}
+
+/**
+ * Get submission count for a user.
+ */
+export async function getUserSubmissionCount(githubEmail: string): Promise<number> {
+  const db = getDb();
+  const result = await db.execute({
+    sql: 'SELECT COUNT(*) as count FROM user_progress WHERE github_email = ? AND is_submitted = 1',
+    args: [githubEmail],
   });
   return Number((result.rows[0] as any).count);
 }
 
-// ─── Submission Helpers (Portfolio) ──────────────────────────────────
-
-export async function recordSubmission(submission: {
-  githubEmail: string;
-  systemSlug: string;
-  trackSlug: string;
-  prUrl: string;
-  prNumber?: number;
-}): Promise<void> {
-  const db = getDb();
-  await db.execute({
-    sql: `INSERT INTO submissions (github_email, system_slug, track_slug, pr_url, pr_number)
-          VALUES (?, ?, ?, ?, ?)
-          ON CONFLICT(github_email, system_slug, track_slug) DO UPDATE SET
-            pr_url = excluded.pr_url,
-            pr_number = COALESCE(excluded.pr_number, submissions.pr_number),
-            pr_status = 'open',
-            submitted_at = CURRENT_TIMESTAMP`,
-    args: [
-      submission.githubEmail,
-      submission.systemSlug,
-      submission.trackSlug,
-      submission.prUrl,
-      submission.prNumber ?? null,
-    ],
-  });
-}
-
-export async function updateSubmissionStatus(
-  githubEmail: string,
-  systemSlug: string,
-  trackSlug: string,
-  status: 'open' | 'merged' | 'closed'
-): Promise<void> {
-  const db = getDb();
-  await db.execute({
-    sql: 'UPDATE submissions SET pr_status = ? WHERE github_email = ? AND system_slug = ? AND track_slug = ?',
-    args: [status, githubEmail, systemSlug, trackSlug],
-  });
-}
-
-export async function getUserSubmissions(email: string): Promise<Submission[]> {
+/**
+ * Get validation count for a user.
+ */
+export async function getUserValidationCount(githubEmail: string): Promise<number> {
   const db = getDb();
   const result = await db.execute({
-    sql: 'SELECT * FROM submissions WHERE github_email = ? ORDER BY submitted_at DESC',
-    args: [email],
+    sql: 'SELECT COUNT(*) as count FROM user_progress WHERE github_email = ? AND is_validated = 1',
+    args: [githubEmail],
   });
-  return result.rows as unknown as Submission[];
+  return Number((result.rows[0] as any).count);
 }
 
-// ─── Badge Helpers (Showcase) ────────────────────────────────────────
-
-export async function awardBadge(
-  githubEmail: string,
-  systemSlug: string,
-  badgeType: 'completed' | 'gold' | 'contributor' = 'completed'
-): Promise<void> {
-  const db = getDb();
-  await db.execute({
-    sql: `INSERT INTO badges (github_email, system_slug, badge_type)
-          VALUES (?, ?, ?)
-          ON CONFLICT(github_email, system_slug, badge_type) DO NOTHING`,
-    args: [githubEmail, systemSlug, badgeType],
-  });
-}
-
-export async function getUserBadges(email: string): Promise<Badge[]> {
-  const db = getDb();
-  const result = await db.execute({
-    sql: 'SELECT * FROM badges WHERE github_email = ? ORDER BY awarded_at DESC',
-    args: [email],
-  });
-  return result.rows as unknown as Badge[];
-}
-
-// ─── Portfolio View (Combined) ──────────────────────────────────────
-
-export async function getUserPortfolio(email: string): Promise<{
-  user: User | null;
-  enrollments: UserEnrollment[];
-  submissions: Submission[];
-  badges: Badge[];
+/**
+ * Get user's progress summary for activity page.
+ */
+export async function getUserActivitySummary(githubEmail: string): Promise<{
+  systemsEnrolled: number;
+  tracksEnrolled: number;
+  lessonsCompleted: number;
+  submissionsCount: number;
+  validationsCount: number;
 }> {
-  const [user, enrollments, submissions, badges] = await Promise.all([
-    getUser(email),
-    getUserEnrollments(email),
-    getUserSubmissions(email),
-    getUserBadges(email),
+  const db = getDb();
+  const [systemsResult, tracksResult, lessonsResult, submissionsResult, validationsResult] = await Promise.all([
+    db.execute({ sql: 'SELECT COUNT(DISTINCT system_slug) as count FROM user_progress WHERE github_email = ?', args: [githubEmail] }),
+    db.execute({ sql: 'SELECT COUNT(DISTINCT system_slug || track_slug) as count FROM user_progress WHERE github_email = ?', args: [githubEmail] }),
+    db.execute({ sql: 'SELECT COUNT(*) as count FROM user_progress WHERE github_email = ? AND is_validated = 1', args: [githubEmail] }),
+    db.execute({ sql: 'SELECT COUNT(*) as count FROM user_progress WHERE github_email = ? AND is_submitted = 1', args: [githubEmail] }),
+    db.execute({ sql: 'SELECT COUNT(*) as count FROM user_progress WHERE github_email = ? AND (is_validated = 1 OR positive_validations > 0)', args: [githubEmail] }),
   ]);
 
-  return { user, enrollments, submissions, badges };
+  return {
+    systemsEnrolled: Number((systemsResult.rows[0] as any).count),
+    tracksEnrolled: Number((tracksResult.rows[0] as any).count),
+    lessonsCompleted: Number((lessonsResult.rows[0] as any).count),
+    submissionsCount: Number((submissionsResult.rows[0] as any).count),
+    validationsCount: Number((validationsResult.rows[0] as any).count),
+  };
+}
+
+/**
+ * Get leaderboard for a system (recently validated lessons).
+ */
+export async function getLeaderboard(systemSlug: string, limit: number = 10): Promise<any[]> {
+  const db = getDb();
+  const result = await db.execute({
+    sql: `SELECT p.github_email, u.github_username, p.system_slug, p.track_slug, p.lesson_slug, p.updated_at
+          FROM user_progress p
+          LEFT JOIN users u ON u.github_email = p.github_email
+          WHERE p.system_slug = ? AND p.is_validated = 1
+          ORDER BY p.updated_at DESC
+          LIMIT ?`,
+    args: [systemSlug, limit],
+  });
+  return result.rows;
+}
+
+/**
+ * Get submissions for a specific lesson.
+ */
+export async function getSubmissions(
+  systemSlug: string,
+  trackSlug: string,
+  lessonSlug: string,
+  limit: number = 50
+): Promise<UserProgress[]> {
+  const db = getDb();
+  const result = await db.execute({
+    sql: `SELECT * FROM user_progress
+          WHERE system_slug = ? AND track_slug = ? AND lesson_slug = ? AND is_submitted = 1
+          ORDER BY liked_number DESC
+          LIMIT ?`,
+    args: [systemSlug, trackSlug, lessonSlug, limit],
+  });
+  return result.rows as unknown as UserProgress[];
+}
+
+/**
+ * Like a submission (increment liked_number).
+ */
+export async function likeSubmission(
+  targetEmail: string,
+  systemSlug: string,
+  trackSlug: string,
+  lessonSlug: string
+): Promise<void> {
+  const db = getDb();
+  await db.execute({
+    sql: `UPDATE user_progress SET liked_number = liked_number + 1, updated_at = CURRENT_TIMESTAMP
+          WHERE github_email = ? AND system_slug = ? AND track_slug = ? AND lesson_slug = ?`,
+    args: [targetEmail, systemSlug, trackSlug, lessonSlug],
+  });
+}
+
+/**
+ * Report a submission (increment reported_number, set is_reported).
+ */
+export async function reportSubmission(
+  targetEmail: string,
+  systemSlug: string,
+  trackSlug: string,
+  lessonSlug: string
+): Promise<void> {
+  const db = getDb();
+  await db.execute({
+    sql: `UPDATE user_progress SET is_reported = 1, reported_number = reported_number + 1, updated_at = CURRENT_TIMESTAMP
+          WHERE github_email = ? AND system_slug = ? AND track_slug = ? AND lesson_slug = ?`,
+    args: [targetEmail, systemSlug, trackSlug, lessonSlug],
+  });
+}
+
+/**
+ * Get user portfolio (profile data + enrolled systems).
+ */
+export async function getUserPortfolio(email: string): Promise<{
+  user: User | null;
+  systems: UserProgress[];
+}> {
+  const [user, systems] = await Promise.all([
+    getUser(email),
+    getUserEnrolledSystems(email),
+  ]);
+  return { user, systems };
 }

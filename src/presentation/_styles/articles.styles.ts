@@ -44,7 +44,3 @@ export const roadmapLinks = 'flex-col gap-2';
 export const roadmapLink = 'font-light';
 export const discussionSection = 'discussionSection';
 export const discussionTitle = 'discussionTitle';
-export const giscusComments = 'giscusComments';
-export const giscus_container = 'giscus_container';
-export const comments_placeholder = 'text-center text-gray-600';
-export const comments_loading_placeholder = 'text-center text-gray-600';

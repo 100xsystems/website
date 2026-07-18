@@ -2,10 +2,10 @@
 
 import { usePathname } from 'next/navigation';
 import Link from 'next/link';
-import { SignInButton, SignUpButton, UserButton, Show, useUser } from '@clerk/nextjs';
-import { Header } from '@/presentation/__components';
+import { SignInButton, SignUpButton, Show, useUser } from '@clerk/nextjs';
+import { Header, Dropdown } from '@/presentation/__components';
 import type { HeaderNavItem } from '@/presentation/__components';
-import type { ReactNode } from 'react';
+import { useEffect, useState, type ReactNode } from 'react';
 
 interface HeaderWrapperProps {
   items: HeaderNavItem[];
@@ -14,15 +14,59 @@ interface HeaderWrapperProps {
 
 export function HeaderWrapper({ items, logo }: HeaderWrapperProps) {
   const pathname = usePathname();
-  const { user } = useUser();
-  const isReadingPage = pathname.includes('/read/') || pathname.startsWith('/cli-docs/');
+  const { user, isSignedIn } = useUser();
+  const [localUser, setLocalUser] = useState<{ email: string; username: string } | null>(null);
+  // Hide header on lesson pages and reading pages — these have their own sidebar+outline layout
+  const lessonPagePattern = /^\/systems\/[^\/]+\/[^\/]+\/[^\/]+$/;
+  const isReadingPage = pathname.includes('/read/') || pathname.startsWith('/cli-docs/') || lessonPagePattern.test(pathname);
+
+  // On sign-in, upsert user into DB + store in localStorage
+  useEffect(() => {
+    if (!isSignedIn || !user) {
+      setLocalUser(null);
+      localStorage.removeItem('current-user');
+      return;
+    }
+
+    const email = user.primaryEmailAddress?.emailAddress || '';
+    const githubUsername = user.externalAccounts?.find(
+      (account) => account.provider === 'github'
+    )?.username || email.split('@')[0] || 'User';
+
+    // Store in localStorage immediately for fast access
+    const userData = { email, username: githubUsername };
+    localStorage.setItem('current-user', JSON.stringify(userData));
+    setLocalUser(userData);
+
+    // Upsert user in DB via web-friendly API call (no GitHub token needed)
+    fetch('/api/v1/upsert-user', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        github_email: email,
+        github_username: githubUsername,
+        display_name: user.fullName || githubUsername,
+        github_avatar: user.imageUrl || '',
+      }),
+    }).catch((err) => console.warn('[header] Failed to upsert user:', err));
+  }, [isSignedIn, user]);
 
   if (isReadingPage) return null;
 
-  const userEmail = user?.primaryEmailAddress?.emailAddress;
-  const portfolioHref = userEmail
-    ? `/portfolio/${encodeURIComponent(userEmail)}`
-    : null;
+  // Derive username: try Clerk's GitHub external account, then fallback to localStorage, then email
+  const clerkGithubUsername = user?.externalAccounts?.find(
+    (account) => account.provider === 'github'
+  )?.username;
+  const localUsername = localUser?.username;
+  const emailUsername = user?.primaryEmailAddress?.emailAddress?.split('@')[0];
+  const githubUsername = clerkGithubUsername || localUsername || emailUsername || 'User';
+
+  const dropdownItems = [
+    { id: 'profile', label: 'My Profile', href: '/settings/profile' },
+    { id: 'reading', label: 'Reading Settings', href: '/settings/reading' },
+    { id: 'achievements', label: 'My Achievements', href: '/settings/achievements' },
+    { id: 'activity', label: 'My Activity', href: '/settings/activity' },
+  ];
 
   return (
     <Header
@@ -46,21 +90,14 @@ export function HeaderWrapper({ items, logo }: HeaderWrapperProps) {
           </Show>
           <Show when="signed-in">
             <div className="flex items-center gap-2">
-              {portfolioHref && (
-                <Link
-                  href={portfolioHref}
-                  className="text-[10px] font-bold uppercase tracking-wider text-fg-muted hover:text-accent transition-colors"
-                >
-                  Portfolio
-                </Link>
-              )}
-              <UserButton
-                appearance={{
-                  elements: {
-                    avatarBox: 'w-8 h-8',
-                    userButtonPopoverCard: 'shadow-xl',
-                  },
-                }}
+              <Dropdown
+                trigger={
+                  <span className="text-sm font-bold uppercase tracking-wider text-fg-secondary cursor-pointer hover:text-accent-yellow transition-colors duration-200 whitespace-nowrap">
+                    Hi, {githubUsername}
+                  </span>
+                }
+                items={dropdownItems}
+                align="right"
               />
             </div>
           </Show>
