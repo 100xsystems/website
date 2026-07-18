@@ -264,12 +264,77 @@ export function getSystemTracks(systemSlug: string): TrackMeta[] {
 }
 
 /**
- * Get all modules for a track by scanning module-* directories.
+ * Get lessons directly from a track directory (flat structure, no modules).
+ * This is the NEW preferred structure:
+ *   track-{lang}/
+ *     lesson-name/lesson.md
+ *     quiz-name.md
+ */
+export function getTrackFlatLessons(systemSlug: string, trackSlug: string): LessonMeta[] {
+  const lessons: LessonMeta[] = [];
+  const trackDir = path.join(SYSTEMS_DIR, systemSlug, trackSlug);
+  if (!fs.existsSync(trackDir)) return [];
+
+  try {
+    const entries = fs.readdirSync(trackDir, { withFileTypes: true }).sort((a, b) => a.name.localeCompare(b.name));
+
+    for (const entry of entries) {
+      if (entry.name.startsWith('.')) continue;
+      if (entry.name === 'index.md') continue;
+
+      let mdPath: string | null = null;
+      let slug = '';
+
+      if (entry.isDirectory()) {
+        const lessonMdPath = path.join(trackDir, entry.name, 'lesson.md');
+        if (fs.existsSync(lessonMdPath)) {
+          mdPath = lessonMdPath;
+          slug = fileToSlug(entry.name);
+        }
+      } else if (entry.isFile() && entry.name.endsWith('.md')) {
+        mdPath = path.join(trackDir, entry.name);
+        slug = fileToSlug(entry.name);
+      }
+
+      if (!mdPath) continue;
+
+      try {
+        const raw = fs.readFileSync(mdPath, 'utf-8');
+        const { data, content } = matter(raw);
+        const order = getOrderFromFile(entry.name, data.order);
+        lessons.push({
+          slug,
+          title: data.title || slugToDisplayName(slug),
+          order,
+          description: data.description || content.slice(0, 200).replace(/#+\s+/g, '').trim() + '...',
+          content,
+          frontmatter: data,
+          track: trackSlug,
+          module: '',
+          pathSegments: [trackSlug, slug],
+          estimatedTime: data.estimated_time,
+          difficulty: data.difficulty,
+          knowledgeRefs: data.knowledge_refs,
+          prerequisites: data.prerequisites,
+        });
+      } catch {}
+    }
+    lessons.sort((a, b) => a.order - b.order);
+  } catch {}
+  return lessons;
+}
+
+/**
+ * Get all modules for a track (legacy — backward compatible).
  */
 export function getTrackModules(systemSlug: string, trackSlug: string): ModuleMeta[] {
   const modules: ModuleMeta[] = [];
   const trackDir = path.join(SYSTEMS_DIR, systemSlug, trackSlug);
   if (!fs.existsSync(trackDir)) return modules;
+
+  // Check if track uses flat structure — if no module-* dirs, return empty
+  const hasModuleDirs = fs.readdirSync(trackDir).some((name) => name.startsWith('module-'));
+  if (!hasModuleDirs) return modules;
 
   try {
     const items = fs.readdirSync(trackDir).filter((name) => name.startsWith('module-')).sort();
@@ -292,12 +357,7 @@ export function getTrackModules(systemSlug: string, trackSlug: string): ModuleMe
 }
 
 /**
- * Get all lessons for a module.
- * Supports two formats:
- *   1. Folder-based: lesson-name/lesson.md  (NEW)
- *   2. Flat file:    lesson-name.md         (legacy)
- * The folder format is preferred because it allows bundling
- * tests, images, and other assets alongside the lesson.
+ * Get all lessons for a module (legacy).
  */
 export function getModuleLessons(systemSlug: string, trackSlug: string, moduleSlug: string): LessonMeta[] {
   const lessons: LessonMeta[] = [];
@@ -305,8 +365,7 @@ export function getModuleLessons(systemSlug: string, trackSlug: string, moduleSl
   if (!fs.existsSync(moduleDir)) return lessons;
 
   try {
-    const entries = fs.readdirSync(moduleDir, { withFileTypes: true })
-      .sort((a, b) => a.name.localeCompare(b.name));
+    const entries = fs.readdirSync(moduleDir, { withFileTypes: true }).sort((a, b) => a.name.localeCompare(b.name));
 
     for (const entry of entries) {
       if (entry.name.startsWith('.')) continue;
@@ -316,20 +375,17 @@ export function getModuleLessons(systemSlug: string, trackSlug: string, moduleSl
       let slug = '';
 
       if (entry.isDirectory()) {
-        // Folder-based lesson: folder/lesson.md
         const lessonMdPath = path.join(moduleDir, entry.name, 'lesson.md');
         if (fs.existsSync(lessonMdPath)) {
           mdPath = lessonMdPath;
           slug = fileToSlug(entry.name);
         }
       } else if (entry.isFile() && entry.name.endsWith('.md')) {
-        // Skip flat .md files if a folder with the same stem exists
         const stem = entry.name.replace(/\.md$/, '');
         const folderPath = path.join(moduleDir, stem);
         if (fs.existsSync(folderPath) && fs.statSync(folderPath).isDirectory()) {
           continue;
         }
-        // Flat .md file lesson
         mdPath = path.join(moduleDir, entry.name);
         slug = fileToSlug(entry.name);
       }
@@ -363,15 +419,22 @@ export function getModuleLessons(systemSlug: string, trackSlug: string, moduleSl
 }
 
 /**
- * Get all lessons across all tracks/modules (flattened for sidebar nav).
+ * Get all lessons across all tracks (flat preferred, module fallback).
  */
 export function getAllSystemLessons(systemSlug: string): LessonMeta[] {
   const all: LessonMeta[] = [];
   const tracks = getSystemTracks(systemSlug);
   for (const track of tracks) {
-    const modules = getTrackModules(systemSlug, track.slug);
-    for (const mod of modules) {
-      all.push(...mod.lessons);
+    // Try flat lessons first
+    const flatLessons = getTrackFlatLessons(systemSlug, track.slug);
+    if (flatLessons.length > 0) {
+      all.push(...flatLessons);
+    } else {
+      // Fallback to module-based lessons
+      const modules = getTrackModules(systemSlug, track.slug);
+      for (const mod of modules) {
+        all.push(...mod.lessons);
+      }
     }
   }
   return all.sort((a, b) => a.order - b.order);
