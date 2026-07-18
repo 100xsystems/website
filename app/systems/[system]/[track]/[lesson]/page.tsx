@@ -4,12 +4,12 @@
  * Lesson viewing page with beautiful sidebar + outline:
  * - Left SidebarNav: all track lessons (expandable icon strip)
  * - Right LessonOutline: section headings with active tracking
- * - localStorage-based navigation + curriculum data
+ * - GSAP ScrollSmoother for butter-smooth scrolling
+ * - Real lesson content from curriculum markdown files (via API)
  * - Fixed previous lesson validation logic
  * - Prev/Next lesson navigation at bottom
  * - View submissions button with popup
- * - Reading settings (font size, mode)
- * - Keyboard shortcuts (j/k)
+ * - Keyboard shortcuts: j/k for nav, / for shortcuts help
  */
 
 'use client';
@@ -17,6 +17,9 @@
 import { useParams, useRouter } from 'next/navigation';
 import { useUser } from '@clerk/nextjs';
 import { useEffect, useState, useMemo, useCallback } from 'react';
+import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { ScrollSmoother } from 'gsap/ScrollSmoother';
 import {
   Heading, Text, Button, Spinner, Badge, Divider,
   Icon, AnimatedIcon, SidebarNav, MobileNav,
@@ -63,6 +66,17 @@ interface HeadingItem {
   level: number;
 }
 
+interface LessonContent {
+  slug: string;
+  title: string;
+  content: string;
+  type: string;
+  track: string;
+  module: string;
+  estimatedTime?: string;
+  difficulty?: string;
+}
+
 interface Submission {
   githubEmail: string;
   submissionLink: string | null;
@@ -72,13 +86,13 @@ interface Submission {
   reportedNumber: number;
 }
 
-// ─── Hardcoded Lesson Content (fallback when curriculum not in localStorage) ──
+// ─── Hardcoded Lesson Content (fallback when API unavailable) ──────
 
 const FALLBACK_LESSON_CONTENT: Record<string, { title: string; content: string; type: string }> = {
   'lesson-intro-and-setup': {
     title: 'Introduction & Setup',
     type: 'lesson',
-    content: `## Overview\n\nIn this lesson, you'll set up your development environment and learn the fundamentals of building a CLI tool.\n\n## Prerequisites\n\n- Node.js installed\n- Basic TypeScript knowledge\n- A code editor\n\n## Steps\n\n1. Install the required dependencies\n2. Set up your project structure\n3. Create your first command\n\n## Next Steps\n\nOnce you've completed the setup, you'll be ready to move on to building your first CLI commands. Make sure all dependencies are installed correctly before proceeding.`,
+    content: `## Overview\n\nIn this lesson, you'll set up your development environment and learn the fundamentals of building a CLI tool.\n\n## Prerequisites\n\n- Node.js installed\n- Basic TypeScript knowledge\n- A code editor\n\n## Steps\n\n1. Install the required dependencies\n2. Set up your project structure\n3. Create your first command\n\n## Next Steps\n\nOnce you've completed the setup, you'll be ready to move on to building your first CLI commands.\n\n## Validation Checklist\n\n- [ ] package.json exists with all dependencies\n- [ ] tsconfig.json exists with proper configuration\n- [ ] npx tsc --noEmit passes without errors\n- [ ] npm run build completes successfully`,
   },
   'lesson-build-cli': {
     title: 'Build the CLI',
@@ -207,7 +221,7 @@ function KeyboardShortcutsOverlay({ onClose }: { onClose: () => void }) {
   const shortcuts = [
     { key: 'j', action: 'Next lesson' },
     { key: 'k', action: 'Previous lesson' },
-    { key: '?', action: 'Toggle this help' },
+    { key: '/', action: 'Toggle this help' },
   ];
 
   return (
@@ -272,7 +286,6 @@ export default function LessonPage() {
   const lessonSlug = params.lesson as string;
 
   const email = user?.primaryEmailAddress?.emailAddress;
-  const lesson = FALLBACK_LESSON_CONTENT[lessonSlug];
 
   // ─── State ──────────────────────────────────────────────────────
   const [curriculum, setCurriculum] = useState<CurriculumData | null>(null);
@@ -285,6 +298,39 @@ export default function LessonPage() {
   const [submissionsLoading, setSubmissionsLoading] = useState(false);
   const [showShortcuts, setShowShortcuts] = useState(false);
   const [settingsOpen, setSettingsOpen] = useState(false);
+
+  // ─── Lesson Content (from API or fallback) ──────────────────────
+  const [lessonContent, setLessonContent] = useState<LessonContent | null>(null);
+
+  const lesson = lessonContent || FALLBACK_LESSON_CONTENT[lessonSlug] || null;
+
+  // ─── Fetch real lesson content from API ─────────────────────────
+  useEffect(() => {
+    async function fetchLessonContent() {
+      try {
+        const res = await fetch(`/api/v1/lesson-content/${systemSlug}/${trackSlug}/${lessonSlug}`);
+        if (res.ok) {
+          const data = await res.json();
+          setLessonContent(data);
+        }
+      } catch {
+        // Fallback to FALLBACK_LESSON_CONTENT — handled below
+      }
+    }
+    fetchLessonContent();
+  }, [systemSlug, trackSlug, lessonSlug]);
+
+  // ─── GSAP ScrollSmoother Initialization ────────────────────────
+  useEffect(() => {
+    gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
+    const smoother = ScrollSmoother.create({
+      wrapper: '#smooth-wrapper',
+      content: '#smooth-content',
+      smooth: 1.2,
+      normalizeScroll: false,
+    });
+    return () => { smoother.kill(); };
+  }, []);
 
   // ─── Derive data from curriculum ────────────────────────────────
   const allLessons: LessonMeta[] = useMemo(() => {
@@ -304,7 +350,7 @@ export default function LessonPage() {
 
   // ─── Check previous lesson validation ───────────────────────────
   const previousLessonValidated = useMemo(() => {
-    if (lessonIndex <= 0) return true; // First lesson — no previous lesson to validate
+    if (lessonIndex <= 0) return true;
     const previousSlug = allLessons[lessonIndex - 1]?.slug;
     if (!previousSlug) return true;
     return userProgress.some(p => p.lessonSlug === previousSlug && p.isValidated);
@@ -325,7 +371,6 @@ export default function LessonPage() {
         setCurriculum(data);
         setUserProgress(data.rows || []);
 
-        // If localStorage has the data, we're done loading
         if (data.lessons && data.tracks) {
           setLoading(false);
           return;
@@ -333,14 +378,11 @@ export default function LessonPage() {
       } catch { /* fall through to API fetch */ }
     }
 
-    // Fallback: fetch fresh data from API
     if (email) {
       fetch(`/api/v1/user_progress/${encodeURIComponent(email)}/${systemSlug}`)
         .then((res) => res.json())
         .then((data) => {
-          if (data.rows) {
-            setUserProgress(data.rows);
-          }
+          if (data.rows) setUserProgress(data.rows);
           setLoading(false);
         })
         .catch(() => setLoading(false));
@@ -351,11 +393,10 @@ export default function LessonPage() {
 
   // ─── IntersectionObserver for active heading ────────────────────
   useEffect(() => {
-    if (!lesson) return;
+    if (!lesson || !lesson.content) return;
 
     const observer = new IntersectionObserver(
       (entries) => {
-        // Track visible headings — pick the topmost one
         const visible = entries
           .filter(e => e.isIntersecting)
           .sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top);
@@ -366,7 +407,6 @@ export default function LessonPage() {
       { rootMargin: '-80px 0px -60% 0px', threshold: 0 }
     );
 
-    // Wait a moment for DOM to render
     const timer = setTimeout(() => {
       document.querySelectorAll('[id^="heading-"]').forEach((el) => observer.observe(el));
     }, 300);
@@ -374,17 +414,17 @@ export default function LessonPage() {
     return () => { clearTimeout(timer); observer.disconnect(); };
   }, [lesson]);
 
-  // ─── Keyboard shortcuts (j/k for navigation) ────────────────────
+  // ─── Keyboard shortcuts (j/k for nav, / for shortcuts) ─────────
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
-      if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) return;
+      if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement || (e.target as HTMLElement)?.isContentEditable) return;
       if (e.key === 'j' || e.key === 'J') {
         e.preventDefault();
         if (nextLesson) navigateToLesson(nextLesson.slug);
       } else if (e.key === 'k' || e.key === 'K') {
         e.preventDefault();
         if (prevLesson) navigateToLesson(prevLesson.slug);
-      } else if (e.key === '?') {
+      } else if (e.key === '/') {
         e.preventDefault();
         setShowShortcuts((prev) => !prev);
       }
@@ -397,7 +437,6 @@ export default function LessonPage() {
   // ─── Navigation ─────────────────────────────────────────────────
   const navigateToLesson = useCallback((slug: string) => {
     setSidebarOpen(false);
-    // Store current progress + curriculum before navigating
     if (curriculum) {
       localStorage.setItem(systemSlug, JSON.stringify({
         ...curriculum,
@@ -423,38 +462,123 @@ export default function LessonPage() {
 
   // ─── Extract headings from lesson content ───────────────────────
   const headings = useMemo(() => {
-    if (!lesson) return [];
+    if (!lesson?.content) return [];
     return extractHeadings(lesson.content);
   }, [lesson]);
 
   // ─── Render markdown content ─────────────────────────────────────
   const renderContent = useCallback((content: string) => {
     const lines = content.split('\n');
-    return lines.map((line, i) => {
+    const elements: React.ReactNode[] = [];
+
+    let codeBlock: string[] | null = null;
+    let codeLang = '';
+    let listBuffer: React.ReactNode[] = [];
+
+    function flushList() {
+      if (listBuffer.length > 0) {
+        elements.push(<ul key={`ul-${elements.length}`} className="list-disc pl-6 mb-4 space-y-1">{listBuffer}</ul>);
+        listBuffer = [];
+      }
+    }
+
+    for (let i = 0; i < lines.length; i++) {
+      const line = lines[i];
+
+      // Code block handling
+      if (line.startsWith('```') && codeBlock !== null) {
+        codeBlock.push(line);
+        // End of code block
+        elements.push(
+          <pre key={`code-${elements.length}`} className="bg-gray-50 border border-gray-200 p-4 mb-6 overflow-x-auto text-sm font-mono">
+            <code>{codeBlock.slice(1, -1).join('\n')}</code>
+          </pre>
+        );
+        codeBlock = null;
+        codeLang = '';
+        continue;
+      }
+      if (line.startsWith('```')) {
+        codeBlock = [];
+        codeLang = line.slice(3).trim();
+        continue;
+      }
+      if (codeBlock !== null) {
+        codeBlock.push(line);
+        continue;
+      }
+
+      flushList();
+
+      // Headings
       if (line.startsWith('## ')) {
         const text = line.replace('## ', '');
         const id = `heading-${text.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '')}`;
-        return (
-          <Heading key={i} variant="h2" id={id} className="mt-8 mb-4 scroll-mt-24">
-            {text}
-          </Heading>
+        elements.push(
+          <Heading key={`h2-${i}`} variant="h2" id={id} className="mt-10 mb-4 scroll-mt-24">{text}</Heading>
         );
+        continue;
       }
       if (line.startsWith('### ')) {
         const text = line.replace('### ', '');
         const id = `heading-${text.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '')}`;
-        return (
-          <Heading key={i} variant="h3" id={id} className="mt-6 mb-3 scroll-mt-24">
-            {text}
-          </Heading>
+        elements.push(
+          <Heading key={`h3-${i}`} variant="h3" id={id} className="mt-8 mb-3 scroll-mt-24">{text}</Heading>
         );
+        continue;
       }
+
+      // List items
       if (line.startsWith('- ')) {
-        return <li key={i} className="text-fg-tertiary ml-4 mb-1">{line.replace('- ', '')}</li>;
+        listBuffer.push(
+          <li key={`li-${i}`} className="text-fg-tertiary">{line.replace('- ', '')}</li>
+        );
+        continue;
       }
-      if (line.trim() === '') return <br key={i} />;
-      return <Text key={i} variant="body" className="mb-2">{line}</Text>;
-    });
+      if (line.startsWith('1. ') || line.startsWith('2. ') || line.startsWith('3. ') ||
+          line.startsWith('4. ') || line.startsWith('5. ') || line.startsWith('6. ') ||
+          line.startsWith('7. ') || line.startsWith('8. ') || line.startsWith('9. ') ||
+          line.startsWith('0. ')) {
+        listBuffer.push(
+          <li key={`li-${i}`} className="text-fg-tertiary">{line.replace(/^\d+\. /, '')}</li>
+        );
+        continue;
+      }
+
+      // Checkboxes
+      if (line.includes('- [ ]') || line.includes('- [x]')) {
+        const checked = line.includes('[x]');
+        const text = line.replace(/^- \[[x ]\] /, '');
+        elements.push(
+          <div key={`cb-${i}`} className="flex items-start gap-2 mb-2">
+            <span className={cn(
+              'w-4 h-4 border flex items-center justify-center shrink-0 mt-0.5',
+              checked ? 'bg-green-500 border-green-500' : 'border-gray-300'
+            )}>
+              {checked && (
+                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+              )}
+            </span>
+            <Text variant="body-sm" className={checked ? 'line-through text-fg-muted' : ''}>{text}</Text>
+          </div>
+        );
+        continue;
+      }
+
+      // Empty line
+      if (line.trim() === '') {
+        elements.push(<div key={`br-${i}`} className="h-2" />);
+        continue;
+      }
+
+      // Plain text (paragraph)
+      elements.push(<Text key={`p-${i}`} variant="body" className="mb-3 leading-relaxed">{line}</Text>);
+    }
+
+    flushList();
+    return elements;
   }, []);
 
   // ─── Submissions ─────────────────────────────────────────────────
@@ -545,6 +669,9 @@ export default function LessonPage() {
   }, []);
 
   // ─── Loading State ──────────────────────────────────────────────
+  const resolveLessonTitle = lessonContent?.title || (FALLBACK_LESSON_CONTENT[lessonSlug]?.title) || null;
+  const resolveLessonType = lessonContent?.type || (FALLBACK_LESSON_CONTENT[lessonSlug]?.type) || 'lesson';
+
   if (loading) {
     return (
       <div className="flex items-center justify-center min-h-screen">
@@ -601,9 +728,12 @@ export default function LessonPage() {
                 headings={headings}
                 activeId={activeHeading}
                 onSelect={(id) => {
-                  const el = document.getElementById(id);
-                  if (el) {
-                    el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                  const smoother = ScrollSmoother.get();
+                  if (smoother) {
+                    smoother.scrollTo(`#${id}`, true, 'top top');
+                  } else {
+                    const el = document.getElementById(id);
+                    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
                   }
                 }}
               />
@@ -622,7 +752,7 @@ export default function LessonPage() {
               </div>
               <div className="flex items-center justify-between py-1">
                 <span className="text-xs text-fg-muted">Type</span>
-                <span className="text-xs font-semibold uppercase text-fg">{lesson.type}</span>
+                <span className="text-xs font-semibold uppercase text-fg">{resolveLessonType}</span>
               </div>
               <div className="flex items-center justify-between py-1">
                 <span className="text-xs text-fg-muted">Status</span>
@@ -633,6 +763,12 @@ export default function LessonPage() {
                   {isCurrentLessonValidated ? 'Validated' : 'Pending'}
                 </span>
               </div>
+              {lessonContent?.estimatedTime && (
+                <div className="flex items-center justify-between py-1">
+                  <span className="text-xs text-fg-muted">Est. time</span>
+                  <span className="text-xs font-semibold text-fg">{lessonContent.estimatedTime}</span>
+                </div>
+              )}
             </div>
           </div>
 
@@ -643,7 +779,7 @@ export default function LessonPage() {
               className="text-xs text-fg-muted hover:text-accent transition-colors flex items-center gap-2"
             >
               <kbd className="inline-flex items-center justify-center min-w-[20px] h-5 px-1 text-[9px] font-bold font-mono uppercase bg-gray-100 border border-gray-200">
-                ?
+                /
               </kbd>
               <span>Keyboard shortcuts</span>
             </button>
@@ -651,129 +787,136 @@ export default function LessonPage() {
         </div>
       </aside>
 
-      {/* ═══ Main Content Area ═══ */}
-      <div className="flex-1 min-h-screen lg:ml-[60px]">
-        <div className="max-w-[800px] mx-auto px-6 py-12">
+      {/* ═══ GSAP Smooth Wrapper ═══ */}
+      <div id="smooth-wrapper" className="flex-1 min-h-screen lg:ml-[60px]">
+        <div id="smooth-content">
+          <div className="max-w-[800px] mx-auto px-6 py-12">
 
-          {/* Top Bar */}
-          <div className="flex items-center justify-between mb-8">
-            <button
-              onClick={handleGoBack}
-              className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-fg-muted hover:text-accent transition-colors"
-            >
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <line x1="19" y1="12" x2="5" y2="12" /><polyline points="12 19 5 12 12 5" />
-              </svg>
-              Back to {systemSlug}
-            </button>
-
-            <div className="hidden sm:flex items-center gap-1">
-              {/* Mobile sidebar toggle */}
+            {/* Top Bar */}
+            <div className="flex items-center justify-between mb-8">
               <button
-                onClick={() => setSidebarOpen(!sidebarOpen)}
-                className="lg:hidden p-2 text-fg-secondary hover:text-accent transition-colors"
-                aria-label="Toggle sidebar"
+                onClick={handleGoBack}
+                className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-fg-muted hover:text-accent transition-colors"
               >
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-                  <line x1="3" y1="6" x2="21" y2="6" /><line x1="3" y1="12" x2="21" y2="12" /><line x1="3" y1="18" x2="21" y2="18" />
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <line x1="19" y1="12" x2="5" y2="12" /><polyline points="12 19 5 12 12 5" />
                 </svg>
+                Back to {systemSlug}
               </button>
-              <CopyButton content={lesson.content} />
-            </div>
-          </div>
 
-          {/* ═══ Previous Lesson Warning ═══ */}
-          {/* Only shows when there IS a previous lesson and it's NOT validated */}
-          {lessonIndex > 0 && !previousLessonValidated && (
-            <div className="border border-accent-yellow bg-accent-yellow/10 p-4 mb-6">
-              <div className="flex items-start gap-3">
-                <AnimatedIcon name="alert-circle" size={20} color="#facc15" isAnimated={true} />
-                <div>
-                  <Text variant="body" className="font-semibold">Previous lesson not validated</Text>
-                  <Text variant="body-sm" className="mt-1">
-                    You will not be able to complete this lesson because the previous lesson has not been validated yet through our CLI.
-                  </Text>
-                </div>
+              <div className="hidden sm:flex items-center gap-1">
+                <button
+                  onClick={() => setSidebarOpen(!sidebarOpen)}
+                  className="lg:hidden p-2 text-fg-secondary hover:text-accent transition-colors"
+                  aria-label="Toggle sidebar"
+                >
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                    <line x1="3" y1="6" x2="21" y2="6" /><line x1="3" y1="12" x2="21" y2="12" /><line x1="3" y1="18" x2="21" y2="18" />
+                  </svg>
+                </button>
+                <CopyButton content={lesson.content} />
               </div>
             </div>
-          )}
 
-          {/* ═══ Lesson Header ═══ */}
-          <div className="flex items-center gap-3 mb-2">
-            {lesson.type !== 'lesson' && (
-              <Badge variant={lesson.type === 'quiz' ? 'yellow' : 'purple'} size="sm">
-                {lesson.type.toUpperCase()}
-              </Badge>
-            )}
-            {isCurrentLessonValidated && (
-              <Badge variant="yellow" size="sm">✓ Validated</Badge>
-            )}
-            <span className="text-xs text-fg-muted">
-              Lesson {lessonIndex + 1} of {allLessons.length}
-            </span>
-          </div>
-
-          <Heading variant="h1" className="mb-8">{lesson.title}</Heading>
-
-          <Divider className="mb-8" />
-
-          {/* ═══ Lesson Content ═══ */}
-          <div className="prose prose-sm max-w-none">
-            {renderContent(lesson.content)}
-          </div>
-
-          <Divider className="my-8" />
-
-          {/* ═══ Prev / Next Navigation ═══ */}
-          <div className="flex items-center justify-between mb-8">
-            {prevLesson ? (
-              <button
-                onClick={() => navigateToLesson(prevLesson.slug)}
-                className="group text-left"
-              >
-                <div className="flex items-center gap-2 text-sm font-semibold text-accent hover:text-accent/80 transition-colors">
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="shrink-0 group-hover:-translate-x-0.5 transition-transform">
-                    <line x1="19" y1="12" x2="5" y2="12" /><polyline points="12 19 5 12 12 5" />
-                  </svg>
+            {/* ═══ Previous Lesson Warning ═══ */}
+            {lessonIndex > 0 && !previousLessonValidated && (
+              <div className="border border-accent-yellow bg-accent-yellow/10 p-4 mb-6">
+                <div className="flex items-start gap-3">
+                  <AnimatedIcon name="alert-circle" size={20} color="#facc15" isAnimated={true} />
                   <div>
-                    <div className="text-[9px] text-fg-muted uppercase tracking-wider">Previous</div>
-                    <div className="text-sm">{prevLesson.title}</div>
+                    <Text variant="body" className="font-semibold">Previous lesson not validated</Text>
+                    <Text variant="body-sm" className="mt-1">
+                      You will not be able to complete this lesson because the previous lesson has not been validated yet through our CLI.
+                    </Text>
                   </div>
                 </div>
-              </button>
-            ) : <div />}
-            {nextLesson ? (
-              <button
-                onClick={() => navigateToLesson(nextLesson.slug)}
-                className="group text-right"
-              >
-                <div className="flex items-center gap-2 text-sm font-semibold text-accent hover:text-accent/80 transition-colors">
-                  <div>
-                    <div className="text-[9px] text-fg-muted uppercase tracking-wider">Next</div>
-                    <div className="text-sm">{nextLesson.title}</div>
-                  </div>
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="shrink-0 group-hover:translate-x-0.5 transition-transform">
-                    <line x1="5" y1="12" x2="19" y2="12" /><polyline points="12 5 19 12 12 19" />
-                  </svg>
-                </div>
-              </button>
-            ) : (
-              <div />
+              </div>
             )}
-          </div>
 
-          {/* ═══ View Submissions Button ═══ */}
-          <div className="flex items-center gap-4">
-            <Button variant="primary" size="default" onClick={handleViewSubmissions}>
-              View Submissions
-            </Button>
+            {/* ═══ Lesson Header ═══ */}
+            <div className="flex items-center gap-3 mb-2">
+              {resolveLessonType !== 'lesson' && (
+                <Badge variant={resolveLessonType === 'quiz' ? 'yellow' : 'purple'} size="sm">
+                  {resolveLessonType.toUpperCase()}
+                </Badge>
+              )}
+              {isCurrentLessonValidated && (
+                <Badge variant="yellow" size="sm">✓ Validated</Badge>
+              )}
+              <span className="text-xs text-fg-muted">
+                Lesson {lessonIndex + 1} of {allLessons.length}
+              </span>
+            </div>
+
+            <Heading variant="h1" className="mb-8">{resolveLessonTitle}</Heading>
+
+            <Divider className="mb-8" />
+
+            {/* ═══ Lesson Content ═══ */}
+            <div className="prose prose-sm max-w-none">
+              {renderContent(lesson.content)}
+            </div>
+
+            <Divider className="my-8" />
+
+            {/* ═══ Prev / Next Navigation ═══ */}
+            <div className="flex items-center justify-between mb-8">
+              {prevLesson ? (
+                <button
+                  onClick={() => navigateToLesson(prevLesson.slug)}
+                  className="group text-left"
+                >
+                  <div className="flex items-center gap-2 text-sm font-semibold text-accent hover:text-accent/80 transition-colors">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="shrink-0 group-hover:-translate-x-0.5 transition-transform">
+                      <line x1="19" y1="12" x2="5" y2="12" /><polyline points="12 19 5 12 12 5" />
+                    </svg>
+                    <div>
+                      <div className="text-[9px] text-fg-muted uppercase tracking-wider">Previous</div>
+                      <div className="text-sm">{prevLesson.title}</div>
+                    </div>
+                  </div>
+                </button>
+              ) : <div />}
+              {nextLesson ? (
+                <button
+                  onClick={() => navigateToLesson(nextLesson.slug)}
+                  className="group text-right"
+                >
+                  <div className="flex items-center gap-2 text-sm font-semibold text-accent hover:text-accent/80 transition-colors">
+                    <div>
+                      <div className="text-[9px] text-fg-muted uppercase tracking-wider">Next</div>
+                      <div className="text-sm">{nextLesson.title}</div>
+                    </div>
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="shrink-0 group-hover:translate-x-0.5 transition-transform">
+                      <line x1="5" y1="12" x2="19" y2="12" /><polyline points="12 5 19 12 12 19" />
+                    </svg>
+                  </div>
+                </button>
+              ) : (
+                <div />
+              )}
+            </div>
+
+            {/* ═══ View Submissions Button ═══ */}
+            <div className="flex items-center gap-4">
+              <Button variant="primary" size="default" onClick={handleViewSubmissions}>
+                View Submissions
+              </Button>
+            </div>
           </div>
         </div>
       </div>
 
       {/* ═══ Back to Top Button ═══ */}
       <button
-        onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+        onClick={() => {
+          const smoother = ScrollSmoother.get();
+          if (smoother) {
+            smoother.scrollTo(0, true, 'top');
+          } else {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+          }
+        }}
         className="fixed bottom-20 right-6 z-40 w-10 h-10 flex items-center justify-center bg-white shadow-[inset_0_1px_2px_rgba(0,0,0,0.04),0_4px_12px_-4px_rgba(0,0,0,0.1)] text-fg-muted hover:text-accent transition-all duration-200"
         aria-label="Back to top"
       >
