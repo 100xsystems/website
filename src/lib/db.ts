@@ -43,7 +43,6 @@ export interface UserProgress {
   submission_link: string | null;
   live_link: string | null;
   is_validated: number;
-  positive_validations: number;
   negative_validations: number;
   liked_number: number;
   is_reported: number;
@@ -181,9 +180,11 @@ export async function upsertUserProgress(progress: {
 }
 
 /**
- * Increment positive validations for a lesson on successful validation.
+ * Mark a lesson as validated (sets is_validated = 1).
+ * Called on successful validation.
+ * No positive_validations counter — just a boolean flag.
  */
-export async function incrementPositiveValidation(
+export async function markLessonValidated(
   githubEmail: string,
   systemSlug: string,
   trackSlug: string,
@@ -191,7 +192,7 @@ export async function incrementPositiveValidation(
 ): Promise<void> {
   const db = getDb();
   await db.execute({
-    sql: `UPDATE user_progress SET is_validated = 1, positive_validations = positive_validations + 1, updated_at = CURRENT_TIMESTAMP
+    sql: `UPDATE user_progress SET is_validated = 1, updated_at = CURRENT_TIMESTAMP
           WHERE github_email = ? AND system_slug = ? AND track_slug = ? AND lesson_slug = ?`,
     args: [githubEmail, systemSlug, trackSlug, lessonSlug],
   });
@@ -324,7 +325,7 @@ export async function getUserActivitySummary(githubEmail: string): Promise<{
     db.execute({ sql: 'SELECT COUNT(DISTINCT system_slug || track_slug) as count FROM user_progress WHERE github_email = ?', args: [githubEmail] }),
     db.execute({ sql: 'SELECT COUNT(*) as count FROM user_progress WHERE github_email = ? AND is_validated = 1', args: [githubEmail] }),
     db.execute({ sql: 'SELECT COUNT(*) as count FROM user_progress WHERE github_email = ? AND is_submitted = 1', args: [githubEmail] }),
-    db.execute({ sql: 'SELECT COUNT(*) as count FROM user_progress WHERE github_email = ? AND (is_validated = 1 OR positive_validations > 0)', args: [githubEmail] }),
+    db.execute({ sql: 'SELECT COUNT(*) as count FROM user_progress WHERE github_email = ? AND is_validated = 1', args: [githubEmail] }),
   ]);
 
   return {

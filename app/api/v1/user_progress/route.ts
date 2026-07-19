@@ -13,7 +13,7 @@
 
 import { NextResponse } from 'next/server';
 import { withAuth } from '@/lib/auth';
-import { upsertUserProgress, incrementPositiveValidation, incrementNegativeValidation } from '@/lib/db';
+import { upsertUserProgress, markLessonValidated, incrementNegativeValidation } from '@/lib/db';
 import type { VerifiedUser } from '@/lib/auth';
 
 export const POST = withAuth(async (request, user: VerifiedUser) => {
@@ -30,7 +30,7 @@ export const POST = withAuth(async (request, user: VerifiedUser) => {
   if (is_validated !== undefined) {
     // Validation call
     if (is_validated === true || is_validated === 1) {
-      await incrementPositiveValidation(user.github_email, system_slug, track_slug, lesson_slug);
+      await markLessonValidated(user.github_email, system_slug, track_slug, lesson_slug);
     } else {
       await incrementNegativeValidation(user.github_email, system_slug, track_slug, lesson_slug);
     }

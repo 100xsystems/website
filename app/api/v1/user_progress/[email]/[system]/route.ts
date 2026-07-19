@@ -39,7 +39,6 @@ export async function GET(_request: Request, { params }: RouteParams) {
         submissionLink: r.submission_link,
         liveLink: r.live_link,
         isValidated: r.is_validated === 1,
-        positiveValidations: r.positive_validations,
         negativeValidations: r.negative_validations,
         likedNumber: r.liked_number,
         achievement: r.achievement,

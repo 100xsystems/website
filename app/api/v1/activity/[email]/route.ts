@@ -43,7 +43,6 @@ export async function GET(_request: Request, { params }: RouteParams) {
             lessonType: p.lesson_type,
             isValidated: p.is_validated === 1,
             isSubmitted: p.is_submitted === 1,
-            positiveValidations: p.positive_validations,
             negativeValidations: p.negative_validations,
             updatedAt: p.updated_at,
           })),

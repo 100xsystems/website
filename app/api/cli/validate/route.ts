@@ -12,7 +12,7 @@
 
 import { NextResponse } from 'next/server';
 import { withAuth } from '@/lib/auth';
-import { incrementPositiveValidation, incrementNegativeValidation } from '@/lib/db';
+import { markLessonValidated, incrementNegativeValidation } from '@/lib/db';
 import type { VerifiedUser } from '@/lib/auth';
 
 export const POST = withAuth(async (request, user: VerifiedUser) => {
@@ -39,7 +39,7 @@ export const POST = withAuth(async (request, user: VerifiedUser) => {
     : status === 'passed';
 
   if (validated) {
-    await incrementPositiveValidation(user.github_email, systemSlug, trackSlug, lessonSlug);
+    await markLessonValidated(user.github_email, systemSlug, trackSlug, lessonSlug);
   } else {
     await incrementNegativeValidation(user.github_email, systemSlug, trackSlug, lessonSlug);
   }
