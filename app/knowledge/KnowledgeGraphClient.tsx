@@ -4,7 +4,7 @@ import { useState, useMemo, useRef } from 'react';
 import Link from 'next/link';
 import Fuse from 'fuse.js';
 import { highlightMatches } from '@/feed/feed.utils';
-import { Search } from 'lucide-react';
+import { Search, X } from 'lucide-react';
 
 interface ConceptEntry {
   slug: string;
@@ -14,18 +14,21 @@ interface ConceptEntry {
 
 interface KnowledgeGraphClientProps {
   concepts: ConceptEntry[];
-  selectedCategory: string | null;
+  initialCategory: string | null;
+  categoryCounts: Record<string, number>;
   categoryLabels: Record<string, string>;
-  categoryColors: Record<string, string>;
 }
+
+const CATEGORY_ORDER = ['principles', 'languages', 'tools', 'patterns'];
 
 export function KnowledgeGraphClient({
   concepts,
-  selectedCategory,
+  initialCategory,
+  categoryCounts,
   categoryLabels,
-  categoryColors,
 }: KnowledgeGraphClientProps) {
   const [searchQuery, setSearchQuery] = useState('');
+  const [selectedCategory, setSelectedCategory] = useState<string | null>(initialCategory);
 
   // Filter by category first
   const categoryFiltered = useMemo(() => {
@@ -65,56 +68,87 @@ export function KnowledgeGraphClient({
 
   return (
     <div>
-      {/* Search bar */}
+      {/* Category tabs */}
+      <div className="flex gap-2 mb-6 flex-wrap">
+        <button
+          type="button"
+          onClick={() => setSelectedCategory(null)}
+          className={`px-4 py-2 text-sm font-bold uppercase tracking-wider transition-all duration-150 border ${
+            !selectedCategory
+              ? 'bg-accent text-white border-accent'
+              : 'bg-white text-fg-muted border-black/30 hover:text-fg hover:border-fg'
+          }`}
+        >
+          All
+          <span className="ml-1.5 text-xs opacity-60">({concepts.length})</span>
+        </button>
+        {CATEGORY_ORDER.map((cat) => (
+          <button
+            key={cat}
+            type="button"
+            onClick={() => setSelectedCategory(cat === selectedCategory ? null : cat)}
+            className={`px-4 py-2 text-sm font-bold uppercase tracking-wider transition-all duration-150 border ${
+              selectedCategory === cat
+                ? 'bg-accent text-white border-accent'
+                : 'bg-white text-fg-muted border-black/30 hover:text-fg hover:border-fg'
+            }`}
+          >
+            {categoryLabels[cat] || cat}
+            <span className="ml-1.5 text-xs opacity-60">({categoryCounts[cat] || 0})</span>
+          </button>
+        ))}
+      </div>
+
+      {/* Search bar — bigger */}
       <div className="relative mb-6">
-        <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-neutral-400" />
+        <Search className="absolute left-4 top-1/2 -translate-y-1/2 h-5 w-5 text-fg-muted" />
         <input
           type="text"
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
           placeholder="Search concepts by name..."
-          className="w-full rounded-lg border border-neutral-200 bg-white pl-10 pr-4 py-2.5 text-sm text-neutral-900 placeholder:text-neutral-300 focus:outline-none focus:ring-2 focus:ring-neutral-300 focus:border-neutral-400 transition-all"
+          className="w-full border bg-white pl-12 pr-12 py-3.5 text-base text-fg placeholder:text-fg-muted outline-none transition-all duration-150 focus:border-accent border-black/30 focus:bg-accent/[0.02]"
         />
         {searchQuery && (
           <button
             type="button"
             onClick={() => setSearchQuery('')}
-            className="absolute right-3 top-1/2 -translate-y-1/2 text-xs text-neutral-400 hover:text-neutral-600 transition-colors"
+            className="absolute right-4 top-1/2 -translate-y-1/2 text-fg-muted hover:text-fg transition-colors"
           >
-            Clear
+            <X className="h-4 w-4" />
           </button>
         )}
       </div>
 
       {/* Results count */}
-      <p className="text-xs text-neutral-400 mb-3">
+      <p className="text-sm text-fg-muted mb-5">
         {searchQuery
-          ? `Found ${filtered.length} concept${filtered.length !== 1 ? 's' : ''} for &ldquo;${searchQuery}&rdquo;`
+          ? `Found ${filtered.length} concept${filtered.length !== 1 ? 's' : ''} for "${searchQuery}"`
           : `${filtered.length} concept${filtered.length !== 1 ? 's' : ''}`}
         {selectedCategory && ` in ${categoryLabels[selectedCategory] || selectedCategory}`}
       </p>
 
       {/* Concept list */}
       {filtered.length === 0 ? (
-        <div className="rounded-lg border-2 border-dashed border-neutral-200 p-12 text-center">
-          <p className="text-neutral-500 text-sm">No concepts match your search.</p>
+        <div className="border border-dashed border-black/20 p-16 text-center">
+          <p className="text-fg-muted text-base">No concepts match your search.</p>
         </div>
       ) : (
-        <div className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
           {filtered.map((entry) => {
-            const catColor = categoryColors[entry.category] || 'bg-neutral-100 text-neutral-700';
             const hasQuery = searchQuery.trim().length >= 2;
             return (
               <Link
                 key={entry.slug}
                 href={`/knowledge/${entry.slug}`}
-                className="flex items-center gap-2 rounded-lg border border-neutral-100 px-3 py-2.5 text-sm text-neutral-600 hover:border-neutral-200 hover:text-blue-600 transition-all"
+                className="group flex items-center gap-3 border bg-white px-4 py-3.5 text-[15px] text-fg transition-all duration-150 hover:bg-accent hover:text-white border-black/20 hover:border-accent"
               >
-                <span className={`w-1.5 h-1.5 rounded-full shrink-0 ${catColor.split(' ')[0]}`} />
-                <span className="truncate">
+                <span className="truncate font-medium">
                   {hasQuery ? highlightMatches(entry.label, searchQuery) : entry.label}
                 </span>
-                <span className="ml-auto text-[10px] text-neutral-300 uppercase">{entry.category?.slice(0, 3)}</span>
+                <span className="ml-auto text-xs text-fg-muted uppercase shrink-0 group-hover:text-white/70 transition-colors">
+                  {entry.category?.slice(0, 3)}
+                </span>
               </Link>
             );
           })}
