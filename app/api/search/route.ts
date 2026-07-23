@@ -226,6 +226,177 @@ async function searchDuckDuckGo(query: string): Promise<SearchResult[]> {
   return results.slice(0, 10);
 }
 
+// ─── Reddit (HTML scrape old.reddit.com) ──────────────────────────
+
+async function searchReddit(query: string, limit = 10): Promise<SearchResult[]> {
+  const url = `https://old.reddit.com/search?q=${encodeURIComponent(query)}&limit=${limit}&sort=relevance&t=all`;
+  const res = await fetch(url, {
+    headers: {
+      'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+    },
+  });
+  if (!res.ok) throw new Error(`Reddit: ${res.status}`);
+  const html = await res.text();
+
+  const results: SearchResult[] = [];
+  // Match each search-result block — each block is a <div class="search-result ..."> closing with 3 </div> tags
+  const blockRegex = /<div\s+class="[^"]*search-result[^"]*"[^>]*data-fullname="([^"]+)"([\s\S]*?)<\/div>\s*<\/div>\s*<\/div>/gi;
+  let blockMatch: RegExpExecArray | null;
+
+  while ((blockMatch = blockRegex.exec(html)) !== null && results.length < limit) {
+    const fullBlock = blockMatch[0];
+    const innerBlock = blockMatch[2];
+
+    // Extract title
+    const titleMatch = /<a[^>]*class="[^"]*search-title[^"]*"[^>]*>([\s\S]*?)<\/a>/i.exec(innerBlock);
+    const title = titleMatch ? titleMatch[1].replace(/<[^>]+>/g, '').trim() : '';
+    if (!title) continue;
+
+    // Extract URL — handle href before or after class in attribute order
+    let href = '';
+    const urlMatchHrefFirst = /<a[^>]*href="([^"]+)"[^>]*class="[^"]*search-title[^"]*"/i.exec(fullBlock);
+    if (urlMatchHrefFirst) {
+      href = urlMatchHrefFirst[1];
+    } else {
+      const urlMatchClassFirst = /<a[^>]*class="[^"]*search-title[^"]*"[^>]*href="([^"]+)"/i.exec(fullBlock);
+      if (urlMatchClassFirst) href = urlMatchClassFirst[1];
+    }
+    if (href && href.startsWith('/r/')) {
+      href = `https://old.reddit.com${href}`;
+    }
+    // Skip if URL couldn't be extracted (HTML structure may have changed)
+    if (!href) continue;
+
+    // Extract score
+    const scoreMatch = /<span\s+class="search-score">([^<]+)<\/span>/i.exec(innerBlock);
+    const score = scoreMatch ? scoreMatch[1].trim() : '';
+
+    // Extract comment count
+    const commentMatch = /<a[^>]*class="[^"]*search-comments[^"]*"[^>]*>([^<]+)<\/a>/i.exec(innerBlock);
+    const comments = commentMatch ? commentMatch[1].trim() : '';
+
+    // Extract subreddit from URL
+    const subMatch = /\/r\/([^\/]+)\//i.exec(fullBlock);
+    const subreddit = subMatch ? subMatch[1] : '';
+
+    // Extract author
+    const authorMatch = /<a[^>]*class="author"[^>]*>([^<]+)<\/a>/i.exec(innerBlock);
+    const author = authorMatch ? authorMatch[1].trim() : '';
+
+    const points = parseInt(score.replace(/[^0-9]/g, ''), 10) || 0;
+    const commentCount = parseInt(comments.replace(/[^0-9]/g, ''), 10) || 0;
+
+    results.push({
+      source: 'reddit',
+      title,
+      url: href || '',
+      description: subreddit ? `r/${subreddit}` : null,
+      metadata: {
+        points,
+        comments: commentCount,
+        author,
+        subreddit,
+      },
+    });
+  }
+
+  return results;
+}
+
+// ─── Medium (RSS feed per tag) ────────────────────────────────────
+
+/**
+ * Parse a Medium RSS XML string into search results.
+ * Medium RSS returns items sorted by most recent first.
+ */
+function parseMediumRSS(xml: string, sourceTag: string, limit: number): SearchResult[] {
+  const results: SearchResult[] = [];
+
+  // Extract each <item> block
+  const itemRegex = /<item>([\s\S]*?)<\/item>/gi;
+  let itemMatch: RegExpExecArray | null;
+
+  while ((itemMatch = itemRegex.exec(xml)) !== null && results.length < limit) {
+    const item = itemMatch[1];
+
+    // Title
+    const titleMatch = /<title><!\[CDATA\[([\s\S]*?)\]\]><\/title>/i.exec(item) || /<title>([^<]*)<\/title>/i.exec(item);
+    const title = titleMatch ? titleMatch[1].replace(/<!\[CDATA\[|\]\]>/g, '').trim() : '';
+    if (!title) continue;
+
+    // Link
+    const linkMatch = /<link>([^<]*)<\/link>/i.exec(item);
+    const link = linkMatch ? linkMatch[1].trim() : '';
+
+    // Author (dc:creator)
+    const creatorMatch = /<dc:creator><!\[CDATA\[([\s\S]*?)\]\]><\/dc:creator>/i.exec(item)
+      || /<dc:creator>([^<]*)<\/dc:creator>/i.exec(item);
+    const creator = creatorMatch ? creatorMatch[1].replace(/<!\[CDATA\[|\]\]>/g, '').trim() : '';
+
+    // Pub date
+    const dateMatch = /<pubDate>([^<]*)<\/pubDate>/i.exec(item);
+    const pubDate = dateMatch ? dateMatch[1].trim() : '';
+
+    // Categories (tags)
+    const categories: string[] = [];
+    const catRegex = /<category[^>]*>([^<]*)<\/category>/gi;
+    let catMatch: RegExpExecArray | null;
+    while ((catMatch = catRegex.exec(item)) !== null) {
+      categories.push(catMatch[1].trim());
+    }
+
+    // Description (strip HTML)
+    const descMatch = /<description><!\[CDATA\[([\s\S]*?)\]\]><\/description>/i.exec(item)
+      || /<description>([^<]*)<\/description>/i.exec(item);
+    let description = descMatch ? descMatch[1].replace(/<!\[CDATA\[|\]\]>/g, '') : '';
+    description = description.replace(/<[^>]+>/g, '').substring(0, 300).trim();
+
+    results.push({
+      source: 'medium',
+      title,
+      url: link,
+      description: description || null,
+      metadata: {
+        author: creator,
+        publishedAt: pubDate,
+        tags: categories,
+        searchTag: sourceTag,
+      },
+    });
+  }
+
+  return results;
+}
+
+/**
+ * Search Medium by tag via RSS feed.
+ * Falls back to sanitizing the query into a tag slug.
+ */
+async function searchMedium(query: string, limit = 10): Promise<SearchResult[]> {
+  // Sanitize query into a tag slug: lowercase, no special chars, hyphens for spaces
+  const tag = query
+    .toLowerCase()
+    .replace(/[^a-z0-9\s-]/g, '')
+    .replace(/\s+/g, '-')
+    .replace(/-+/g, '-')
+    .replace(/^-|-$/g, '');
+
+  if (!tag || tag.length < 2) return [];
+
+  const url = `https://medium.com/feed/tag/${encodeURIComponent(tag)}`;
+  const res = await fetch(url, {
+    headers: { 'User-Agent': 'Mozilla/5.0 (compatible; 100xSystems/1.0)' },
+  });
+
+  // 404 = this tag doesn't exist on Medium — not an error, just no results
+  if (res.status === 404) return [];
+  // Other failures (network, 5xx, rate limits) — report as error
+  if (!res.ok) throw new Error(`Medium: ${res.status}`);
+
+  const xml = await res.text();
+  return parseMediumRSS(xml, tag, limit);
+}
+
 // ─── Source Registry ────────────────────────────────────────────────
 
 interface SourceHandler {
@@ -241,6 +412,8 @@ const SOURCES: Record<string, SourceHandler> = {
   npm: { name: 'npm', label: 'NPM Packages', handler: searchNpm },
   devto: { name: 'devto', label: 'Dev.to', handler: searchDevTo },
   ddg: { name: 'ddg', label: 'DuckDuckGo', handler: searchDuckDuckGo },
+  reddit: { name: 'reddit', label: 'Reddit', handler: searchReddit },
+  medium: { name: 'medium', label: 'Medium', handler: searchMedium },
 };
 
 // ─── Route Handler ──────────────────────────────────────────────────
@@ -248,7 +421,7 @@ const SOURCES: Record<string, SourceHandler> = {
 export async function GET(request: NextRequest) {
   const { searchParams } = new URL(request.url);
   const query = searchParams.get('q')?.trim();
-  const sourcesParam = searchParams.get('sources') || 'hn,github,stackoverflow,npm,devto,ddg';
+  const sourcesParam = searchParams.get('sources') || 'hn,github,stackoverflow,npm,devto,ddg,reddit,medium';
   const limit = Math.min(Number(searchParams.get('limit')) || 10, 25);
 
   if (!query || query.length < 2) {

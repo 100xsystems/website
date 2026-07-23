@@ -33,10 +33,12 @@ interface SourceDef {
 
 const SOURCE_DEFS: SourceDef[] = [
   { id: 'hn', label: 'Hacker News', shortLabel: 'HN', color: 'text-orange-600', iconEl: <span className="font-bold text-xs">HN</span> },
+  { id: 'reddit', label: 'Reddit', shortLabel: 'Reddit', color: 'text-orange-500', iconEl: <span className="font-bold text-xs">RD</span> },
   { id: 'github', label: 'GitHub', shortLabel: 'GitHub', color: 'text-gray-700', iconEl: <span className="font-bold text-xs">GH</span> },
   { id: 'stackoverflow', label: 'Stack Overflow', shortLabel: 'SO', color: 'text-orange-500', iconEl: <span className="font-bold text-xs">SO</span> },
   { id: 'npm', label: 'NPM', shortLabel: 'NPM', color: 'text-red-600', iconEl: <span className="font-bold text-xs">npm</span> },
   { id: 'devto', label: 'Dev.to', shortLabel: 'Dev.to', color: 'text-gray-800', iconEl: <span className="font-bold text-xs">DEV</span> },
+  { id: 'medium', label: 'Medium', shortLabel: 'Medium', color: 'text-gray-600', iconEl: <span className="font-bold text-xs">Md</span> },
   { id: 'ddg', label: 'DuckDuckGo', shortLabel: 'DDG', color: 'text-orange-600', iconEl: <span className="font-bold text-xs">DDG</span> },
 ];
 
@@ -78,6 +80,21 @@ function formatMeta(result: SearchResult): string {
         m.positiveReactions ? `${m.positiveReactions} ❤` : null,
         m.readingTime ? `${m.readingTime} min read` : null,
         m.comments ? `${m.comments} comments` : null,
+      ].filter(Boolean).join(' · ');
+    case 'reddit':
+      return [
+        m.subreddit ? `r/${m.subreddit}` : null,
+        m.points ? `${m.points} points` : null,
+        m.author ? `by ${m.author}` : null,
+        m.comments ? `${m.comments} comments` : null,
+      ].filter(Boolean).join(' · ');
+    case 'medium':
+      return [
+        m.author ? `by ${m.author}` : null,
+        m.publishedAt ? new Date(m.publishedAt as string).toLocaleDateString() : null,
+        m.tags && Array.isArray(m.tags) && m.tags.length > 0
+          ? `tags: ${(m.tags as string[]).slice(0, 3).join(', ')}`
+          : null,
       ].filter(Boolean).join(' · ');
     case 'ddg':
       return [

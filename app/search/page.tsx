@@ -5,11 +5,11 @@ import { SearchPageClient } from './SearchPageClient';
 export const metadata: Metadata = {
   title: 'Search — Engineering Discovery',
   description:
-    'Search across Hacker News, GitHub, Stack Overflow, NPM, Dev.to, and DuckDuckGo from one unified interface. Discover engineering knowledge across the web.',
+    'Search across Hacker News, Reddit, GitHub, Stack Overflow, NPM, Dev.to, Medium, and DuckDuckGo from one unified interface. Discover engineering knowledge across the web.',
   openGraph: {
     title: 'Search — Engineering Discovery',
     description:
-      'Search across Hacker News, GitHub, Stack Overflow, NPM, Dev.to, and DuckDuckGo from one unified interface.',
+      'Search across Hacker News, Reddit, GitHub, Stack Overflow, NPM, Dev.to, Medium, and DuckDuckGo from one unified interface.',
   },
 };
 
