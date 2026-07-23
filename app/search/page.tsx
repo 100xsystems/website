@@ -1,35 +1,38 @@
 import type { Metadata } from 'next';
 import { Heading, Text, Badge } from '@/presentation/__components';
 import { SearchPageClient } from './SearchPageClient';
-import { getAllTags } from '@/lib/mdx';
 
 export const metadata: Metadata = {
-  title: 'Search - Engineering Resources',
-  description: 'Discover the best curated engineering resources organized by topic. Find YouTube channels, blogs, courses, and tools.',
+  title: 'Search — Engineering Discovery',
+  description:
+    'Search across Hacker News, GitHub, Stack Overflow, NPM, Dev.to, and DuckDuckGo from one unified interface. Discover engineering knowledge across the web.',
+  openGraph: {
+    title: 'Search — Engineering Discovery',
+    description:
+      'Search across Hacker News, GitHub, Stack Overflow, NPM, Dev.to, and DuckDuckGo from one unified interface.',
+  },
 };
 
 export default function SearchPage() {
-  const tags = getAllTags();
-
   return (
     <div className="min-h-screen py-16 px-4">
       <div className="max-w-[1000px] mx-auto">
         {/* Header */}
-        <div className="mb-12 text-center">
+        <div className="mb-10 text-center">
           <Badge variant="purple" size="sm" className="mb-4">
-            CURATED RESOURCES
+            MULTI-SOURCE SEARCH
           </Badge>
           <Heading variant="h1" className="uppercase tracking-tight mb-3">
-            Discover Great Engineering Content
+            Discover Across the Web
           </Heading>
           <Text variant="body-lg" className="max-w-2xl mx-auto">
-            Hand-picked resources from across the web. No algorithms, no clutter — just the best
-            engineering content curated by topic.
+            One search. Multiple sources. No algorithms, no clutter — just real engineering
+            knowledge from the platforms you trust.
           </Text>
         </div>
 
-        {/* Resource Sections — client component handles interactivity */}
-        <SearchPageClient tags={tags} />
+        {/* Unified Search Client */}
+        <SearchPageClient />
       </div>
     </div>
   );
