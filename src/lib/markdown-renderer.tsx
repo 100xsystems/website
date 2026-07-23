@@ -109,22 +109,22 @@ function createComponents(theme: CodeTheme): Components {
     },
 
     h1: ({ children, ...props }) => (
-      <h1 className="text-3xl lg:text-4xl font-extrabold tracking-tight mt-12 mb-6 leading-tight" {...props}>
+      <h1 className="text-3xl lg:text-4xl font-extrabold tracking-tight mt-12 mb-6 leading-tight scroll-mt-24" {...props}>
         {children}
       </h1>
     ),
     h2: ({ children, ...props }) => (
-      <h2 className="text-[1.625rem] lg:text-[1.875rem] font-bold tracking-tight mt-14 mb-5 leading-tight" {...props}>
+      <h2 className="text-[1.625rem] lg:text-[1.875rem] font-bold tracking-tight mt-14 mb-5 leading-tight scroll-mt-24" {...props}>
         {children}
       </h2>
     ),
     h3: ({ children, ...props }) => (
-      <h3 className="text-[1.25rem] lg:text-[1.375rem] font-bold tracking-tight mt-10 mb-3" {...props}>
+      <h3 className="text-[1.25rem] lg:text-[1.375rem] font-bold tracking-tight mt-10 mb-3 scroll-mt-24" {...props}>
         {children}
       </h3>
     ),
     h4: ({ children, ...props }) => (
-      <h4 className="text-base font-bold mt-8 mb-2" {...props}>
+      <h4 className="text-base font-bold mt-8 mb-2 scroll-mt-24" {...props}>
         {children}
       </h4>
     ),

@@ -26,6 +26,16 @@ import {
 } from '@/presentation/__components';
 import type { SidebarNavItem, MobileNavItem } from '@/presentation/__components';
 import { cn } from '@/application/lib/utils';
+import { MarkdownRenderer } from '@/lib/markdown-renderer';
+import {
+  ReadingProvider,
+  useReadingSettings,
+  contentWidthClass,
+  fontFamilyClass,
+  fontSizeRem,
+  lineHeightValue,
+} from '@/lib/reading-context';
+import { ReadingToolbar } from '@/components/reading/ReadingToolbar';
 
 // ─── Types ─────────────────────────────────────────────────────────
 
@@ -215,43 +225,7 @@ function LessonOutline({
   );
 }
 
-// ─── Keyboard Shortcuts Overlay ─────────────────────────────────────
-
-function KeyboardShortcutsOverlay({ onClose }: { onClose: () => void }) {
-  const shortcuts = [
-    { key: 'j', action: 'Next lesson' },
-    { key: 'k', action: 'Previous lesson' },
-    { key: '/', action: 'Toggle this help' },
-  ];
-
-  return (
-    <>
-      <div className="fixed inset-0 bg-black/20 z-[60]" onClick={onClose} />
-      <div className="fixed inset-0 z-[60] flex items-center justify-center pointer-events-none">
-        <div className="bg-white shadow-2xl border border-border p-6 w-72 pointer-events-auto" onClick={(e) => e.stopPropagation()}>
-          <div className="flex items-center justify-between mb-4">
-            <span className="text-[10px] font-bold uppercase tracking-[0.15em] text-fg">
-              Keyboard Shortcuts
-            </span>
-            <button onClick={onClose} className="text-fg-muted hover:text-fg transition-colors">
-              <Icon name="x" size={14} />
-            </button>
-          </div>
-          <div className="space-y-2.5">
-            {shortcuts.map((s) => (
-              <div key={s.key} className="flex items-center justify-between">
-                <span className="text-xs font-semibold text-fg">{s.action}</span>
-                <kbd className="inline-flex items-center justify-center min-w-[24px] h-6 px-1.5 text-[10px] font-bold font-mono uppercase bg-gray-100 text-fg-muted border border-gray-200">
-                  {s.key}
-                </kbd>
-              </div>
-            ))}
-          </div>
-        </div>
-      </div>
-    </>
-  );
-}
+// ─── End of Lesson Outline Component ────────────────────────────────
 
 // ─── Copy Button ────────────────────────────────────────────────────
 
@@ -275,9 +249,50 @@ function CopyButton({ content }: { content: string }) {
   );
 }
 
+// ─── Smooth Content Wrapper (owns ScrollSmoother lifecycle) ─────────
+// Key this component on lessonSlug so React fully unmounts/remounts
+// the GSAP wrapper DOM nodes instead of trying to reconcile them.
+
+function SmoothContent({ children }: { children: React.ReactNode }) {
+  useEffect(() => {
+    gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
+    const timer = setTimeout(() => {
+      ScrollSmoother.create({
+        wrapper: '#smooth-wrapper',
+        content: '#smooth-content',
+        smooth: 2,
+        effects: false,
+        normalizeScroll: false,
+      });
+    }, 0);
+    return () => {
+      clearTimeout(timer);
+      const s = ScrollSmoother.get();
+      if (s) s.kill();
+    };
+  }, []);
+
+  return (
+    <div id="smooth-wrapper" className="flex-1 min-h-screen lg:ml-[60px]">
+      <div id="smooth-content">
+        {children}
+      </div>
+    </div>
+  );
+}
+
 // ─── Main Lesson Page ───────────────────────────────────────────────
 
 export default function LessonPage() {
+  return (
+    <ReadingProvider>
+      <LessonPageInner />
+    </ReadingProvider>
+  );
+}
+
+function LessonPageInner() {
+  const { settings } = useReadingSettings();
   const params = useParams();
   const router = useRouter();
   const { user, isLoaded, isSignedIn } = useUser();
@@ -296,9 +311,6 @@ export default function LessonPage() {
   const [showSubmissions, setShowSubmissions] = useState(false);
   const [submissions, setSubmissions] = useState<Submission[]>([]);
   const [submissionsLoading, setSubmissionsLoading] = useState(false);
-  const [showShortcuts, setShowShortcuts] = useState(false);
-  const [settingsOpen, setSettingsOpen] = useState(false);
-
   // ─── Lesson Content (from API or fallback) ──────────────────────
   const [lessonContent, setLessonContent] = useState<LessonContent | null>(null);
 
@@ -319,18 +331,6 @@ export default function LessonPage() {
     }
     fetchLessonContent();
   }, [systemSlug, trackSlug, lessonSlug]);
-
-  // ─── GSAP ScrollSmoother Initialization ────────────────────────
-  useEffect(() => {
-    gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
-    const smoother = ScrollSmoother.create({
-      wrapper: '#smooth-wrapper',
-      content: '#smooth-content',
-      smooth: 1.2,
-      normalizeScroll: false,
-    });
-    return () => { smoother.kill(); };
-  }, []);
 
   // ─── Derive data from curriculum ────────────────────────────────
   const allLessons: LessonMeta[] = useMemo(() => {
@@ -395,44 +395,32 @@ export default function LessonPage() {
   useEffect(() => {
     if (!lesson || !lesson.content) return;
 
+    const visibleHeadings = new Map<string, number>();
     const observer = new IntersectionObserver(
       (entries) => {
-        const visible = entries
-          .filter(e => e.isIntersecting)
-          .sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top);
-        if (visible.length > 0) {
-          setActiveHeading(visible[0].target.id);
+        for (const entry of entries) {
+          if (entry.isIntersecting) {
+            visibleHeadings.set(entry.target.id, entry.boundingClientRect.top);
+          } else {
+            visibleHeadings.delete(entry.target.id);
+          }
         }
+        let bestId = '';
+        let bestTop = Infinity;
+        for (const [id, top] of visibleHeadings) {
+          if (top < bestTop) { bestTop = top; bestId = id; }
+        }
+        if (bestId) setActiveHeading(bestId);
       },
       { rootMargin: '-80px 0px -60% 0px', threshold: 0 }
     );
 
     const timer = setTimeout(() => {
-      document.querySelectorAll('[id^="heading-"]').forEach((el) => observer.observe(el));
-    }, 300);
+      document.querySelectorAll('article h2[id], article h3[id], article h4[id]').forEach((el) => observer.observe(el));
+    }, 200);
 
-    return () => { clearTimeout(timer); observer.disconnect(); };
+    return () => { clearTimeout(timer); observer.disconnect(); visibleHeadings.clear(); };
   }, [lesson]);
-
-  // ─── Keyboard shortcuts (j/k for nav, / for shortcuts) ─────────
-  useEffect(() => {
-    const handleKeyDown = (e: KeyboardEvent) => {
-      if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement || (e.target as HTMLElement)?.isContentEditable) return;
-      if (e.key === 'j' || e.key === 'J') {
-        e.preventDefault();
-        if (nextLesson) navigateToLesson(nextLesson.slug);
-      } else if (e.key === 'k' || e.key === 'K') {
-        e.preventDefault();
-        if (prevLesson) navigateToLesson(prevLesson.slug);
-      } else if (e.key === '/') {
-        e.preventDefault();
-        setShowShortcuts((prev) => !prev);
-      }
-    };
-    window.addEventListener('keydown', handleKeyDown);
-    return () => window.removeEventListener('keydown', handleKeyDown);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [prevLesson, nextLesson, lessonSlug]);
 
   // ─── Navigation ─────────────────────────────────────────────────
   const navigateToLesson = useCallback((slug: string) => {
@@ -465,121 +453,6 @@ export default function LessonPage() {
     if (!lesson?.content) return [];
     return extractHeadings(lesson.content);
   }, [lesson]);
-
-  // ─── Render markdown content ─────────────────────────────────────
-  const renderContent = useCallback((content: string) => {
-    const lines = content.split('\n');
-    const elements: React.ReactNode[] = [];
-
-    let codeBlock: string[] | null = null;
-    let codeLang = '';
-    let listBuffer: React.ReactNode[] = [];
-
-    function flushList() {
-      if (listBuffer.length > 0) {
-        elements.push(<ul key={`ul-${elements.length}`} className="list-disc pl-6 mb-4 space-y-1">{listBuffer}</ul>);
-        listBuffer = [];
-      }
-    }
-
-    for (let i = 0; i < lines.length; i++) {
-      const line = lines[i];
-
-      // Code block handling
-      if (line.startsWith('```') && codeBlock !== null) {
-        codeBlock.push(line);
-        // End of code block
-        elements.push(
-          <pre key={`code-${elements.length}`} className="bg-gray-50 border border-gray-200 p-4 mb-6 overflow-x-auto text-sm font-mono">
-            <code>{codeBlock.slice(1, -1).join('\n')}</code>
-          </pre>
-        );
-        codeBlock = null;
-        codeLang = '';
-        continue;
-      }
-      if (line.startsWith('```')) {
-        codeBlock = [];
-        codeLang = line.slice(3).trim();
-        continue;
-      }
-      if (codeBlock !== null) {
-        codeBlock.push(line);
-        continue;
-      }
-
-      flushList();
-
-      // Headings
-      if (line.startsWith('## ')) {
-        const text = line.replace('## ', '');
-        const id = `heading-${text.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '')}`;
-        elements.push(
-          <Heading key={`h2-${i}`} variant="h2" id={id} className="mt-10 mb-4 scroll-mt-24">{text}</Heading>
-        );
-        continue;
-      }
-      if (line.startsWith('### ')) {
-        const text = line.replace('### ', '');
-        const id = `heading-${text.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '')}`;
-        elements.push(
-          <Heading key={`h3-${i}`} variant="h3" id={id} className="mt-8 mb-3 scroll-mt-24">{text}</Heading>
-        );
-        continue;
-      }
-
-      // List items
-      if (line.startsWith('- ')) {
-        listBuffer.push(
-          <li key={`li-${i}`} className="text-fg-tertiary">{line.replace('- ', '')}</li>
-        );
-        continue;
-      }
-      if (line.startsWith('1. ') || line.startsWith('2. ') || line.startsWith('3. ') ||
-          line.startsWith('4. ') || line.startsWith('5. ') || line.startsWith('6. ') ||
-          line.startsWith('7. ') || line.startsWith('8. ') || line.startsWith('9. ') ||
-          line.startsWith('0. ')) {
-        listBuffer.push(
-          <li key={`li-${i}`} className="text-fg-tertiary">{line.replace(/^\d+\. /, '')}</li>
-        );
-        continue;
-      }
-
-      // Checkboxes
-      if (line.includes('- [ ]') || line.includes('- [x]')) {
-        const checked = line.includes('[x]');
-        const text = line.replace(/^- \[[x ]\] /, '');
-        elements.push(
-          <div key={`cb-${i}`} className="flex items-start gap-2 mb-2">
-            <span className={cn(
-              'w-4 h-4 border flex items-center justify-center shrink-0 mt-0.5',
-              checked ? 'bg-green-500 border-green-500' : 'border-gray-300'
-            )}>
-              {checked && (
-                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
-                  <polyline points="20 6 9 17 4 12" />
-                </svg>
-              )}
-            </span>
-            <Text variant="body-sm" className={checked ? 'line-through text-fg-muted' : ''}>{text}</Text>
-          </div>
-        );
-        continue;
-      }
-
-      // Empty line
-      if (line.trim() === '') {
-        elements.push(<div key={`br-${i}`} className="h-2" />);
-        continue;
-      }
-
-      // Plain text (paragraph)
-      elements.push(<Text key={`p-${i}`} variant="body" className="mb-3 leading-relaxed">{line}</Text>);
-    }
-
-    flushList();
-    return elements;
-  }, []);
 
   // ─── Submissions ─────────────────────────────────────────────────
   const handleViewSubmissions = async () => {
@@ -646,21 +519,18 @@ export default function LessonPage() {
     return allLessons.map(l => ({
       id: l.slug,
       label: l.title,
-      iconName: l.slug === lessonSlug ? 'bookmark' : 'file-text',
+      iconName: 'bookmark',
     }));
-  }, [allLessons, lessonSlug]);
+  }, [allLessons]);
 
   // ─── Mobile Nav Items ──────────────────────────────────────────
   const mobileItems: MobileNavItem[] = useMemo(() => [
-    { id: 'settings', label: 'Settings', iconName: 'settings' },
     { id: 'outline', label: 'Outline', iconName: 'list' },
     { id: 'submissions', label: 'Submissions', iconName: 'message-square' },
   ], []);
 
   const handleMobileNav = useCallback((navItem: MobileNavItem) => {
-    if (navItem.id === 'settings') {
-      setSettingsOpen(prev => !prev);
-    } else if (navItem.id === 'outline') {
+    if (navItem.id === 'outline') {
       setSidebarOpen(prev => !prev);
     } else if (navItem.id === 'submissions') {
       handleViewSubmissions();
@@ -720,7 +590,7 @@ export default function LessonPage() {
       )}
 
       {/* ═══ Right Sidebar — Lesson Outline ═══ */}
-      <aside className="fixed right-0 top-0 h-screen z-30 hidden xl:block w-72 bg-white border-l border-gray-100">
+      <aside className="fixed right-0 top-0 h-screen z-30 hidden xl:block w-72 bg-white">
         <div className="h-full overflow-y-auto pr-8 pl-6 pt-10 pb-20">
           {headings.length > 0 && (
             <div className="mb-10">
@@ -771,25 +641,11 @@ export default function LessonPage() {
               )}
             </div>
           </div>
-
-          {/* Keyboard Shortcuts Hint */}
-          <div className="px-2">
-            <button
-              onClick={() => setShowShortcuts(true)}
-              className="text-xs text-fg-muted hover:text-accent transition-colors flex items-center gap-2"
-            >
-              <kbd className="inline-flex items-center justify-center min-w-[20px] h-5 px-1 text-[9px] font-bold font-mono uppercase bg-gray-100 border border-gray-200">
-                /
-              </kbd>
-              <span>Keyboard shortcuts</span>
-            </button>
-          </div>
         </div>
       </aside>
 
       {/* ═══ GSAP Smooth Wrapper ═══ */}
-      <div id="smooth-wrapper" className="flex-1 min-h-screen lg:ml-[60px]">
-        <div id="smooth-content">
+      <SmoothContent key={lessonSlug}>
           <div className="max-w-[800px] mx-auto px-6 py-12">
 
             {/* Top Bar */}
@@ -805,6 +661,7 @@ export default function LessonPage() {
               </button>
 
               <div className="hidden sm:flex items-center gap-1">
+                <ReadingToolbar />
                 <button
                   onClick={() => setSidebarOpen(!sidebarOpen)}
                   className="lg:hidden p-2 text-fg-secondary hover:text-accent transition-colors"
@@ -853,9 +710,15 @@ export default function LessonPage() {
             <Divider className="mb-8" />
 
             {/* ═══ Lesson Content ═══ */}
-            <div className="prose prose-sm max-w-none">
-              {renderContent(lesson.content)}
-            </div>
+            <article className={cn(
+              contentWidthClass(settings.contentWidth),
+              fontFamilyClass(settings.font),
+              fontSizeRem(settings.fontSize),
+              lineHeightValue(settings.lineHeight),
+              'bg-white min-h-screen pb-24'
+            )}>
+              <MarkdownRenderer source={lesson.content} codeTheme={settings.codeTheme} />
+            </article>
 
             <Divider className="my-8" />
 
@@ -904,8 +767,7 @@ export default function LessonPage() {
               </Button>
             </div>
           </div>
-        </div>
-      </div>
+        </SmoothContent>
 
       {/* ═══ Back to Top Button ═══ */}
       <button
@@ -929,11 +791,6 @@ export default function LessonPage() {
       <div className="fixed bottom-4 left-1/2 -translate-x-1/2 z-50 sm:hidden">
         <MobileNav items={mobileItems} activeId="" onNavigate={handleMobileNav} />
       </div>
-
-      {/* ═══ Keyboard Shortcuts Overlay ═══ */}
-      {showShortcuts && (
-        <KeyboardShortcutsOverlay onClose={() => setShowShortcuts(false)} />
-      )}
 
       {/* ═══ Submissions Popup ═══ */}
       {showSubmissions && (
