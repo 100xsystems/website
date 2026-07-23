@@ -1,0 +1,210 @@
+{
+  "listCount": 17,
+  "totalLinks": 12332,
+  "generatedAt": "2026-07-23T13:30:58.661Z",
+  "topicSummary": {
+    "debugging": 1,
+    "hacktoberfest": 2,
+    "post-mortem": 1,
+    "architecture": 1,
+    "awesome": 12,
+    "awesome-list": 10,
+    "backend": 1,
+    "big-data": 1,
+    "computer-science": 1,
+    "design-patterns": 1,
+    "devops": 1,
+    "distributed-systems": 2,
+    "interview": 2,
+    "interview-practice": 1,
+    "interview-questions": 1,
+    "lists": 3,
+    "machine-learning": 3,
+    "programming": 1,
+    "resources": 3,
+    "scalability": 1,
+    "system": 1,
+    "system-design": 1,
+    "web-development": 1,
+    "hadoop-ecosystem": 1,
+    "message-broker": 1,
+    "microservices": 1,
+    "microservices-architecture": 1,
+    "nosql": 1,
+    "relational-database": 1,
+    "stream-processing": 1,
+    "unicorns": 1,
+    "go": 1,
+    "golang": 1,
+    "golang-library": 1,
+    "rust": 1,
+    "collections": 1,
+    "python": 1,
+    "python-frameworks": 1,
+    "python-libraries": 1,
+    "python-tools": 1,
+    "container": 1,
+    "docker": 2,
+    "docker-api": 1,
+    "docker-container": 1,
+    "docker-deployment": 1,
+    "docker-environment": 1,
+    "docker-image": 1,
+    "docker-machine": 1,
+    "docker-monitoring": 1,
+    "docker-registry": 1,
+    "docker-security": 1,
+    "docker-swarm": 1,
+    "dockerfile": 1,
+    "list": 3,
+    "moby": 1,
+    "tools": 1,
+    "aws": 1,
+    "azure": 1,
+    "books": 1,
+    "cloud-providers": 1,
+    "deploy-kubernetes": 1,
+    "enterprise-kubernetes-products": 1,
+    "google-cloud": 1,
+    "google-kubernetes": 1,
+    "kubernetes": 1,
+    "kubernetes-cluster": 1,
+    "kubernetes-sources": 1,
+    "meetup": 1,
+    "minikube": 1,
+    "monitoring-kubernetes": 1,
+    "resource": 1,
+    "schedule": 1,
+    "c": 1,
+    "c-plus-plus": 1,
+    "cpp": 1,
+    "cpp-library": 1,
+    "cppcon": 1,
+    "libraries": 1,
+    "programming-tutorial": 1,
+    "lua-nginx": 1,
+    "lua-resty": 1,
+    "nginx": 1,
+    "nginx-http": 1,
+    "nginx-server": 1,
+    "ngx-lua": 1,
+    "bcc": 1,
+    "bpf": 1,
+    "ebpf": 1,
+    "xdp": 1,
+    "penetration-testing": 1,
+    "security": 1,
+    "web": 1,
+    "websecurity": 1,
+    "deep-learning": 1,
+    "deep-learning-tutorial": 1,
+    "deep-networks": 1,
+    "face-images": 1,
+    "neural-network": 1,
+    "recurrent-networks": 1
+  },
+  "lists": [
+    {
+      "repoId": "dhamaniasad/awesome-databases",
+      "name": "A curated list of awesome databases",
+      "linkCount": 12,
+      "stars": 20
+    },
+    {
+      "repoId": "danluu/post-mortems",
+      "name": "A collection of postmortems. Sorry for the delay in merging PRs!",
+      "linkCount": 243,
+      "stars": 12187
+    },
+    {
+      "repoId": "binhnguyennus/awesome-scalability",
+      "name": "The Patterns of Scalable, Reliable, and Performant Large-Scale Systems",
+      "linkCount": 887,
+      "stars": 72621
+    },
+    {
+      "repoId": "madd86/awesome-system-design",
+      "name": "A curated list of awesome System Design (A.K.A. Distributed Systems) resources. ",
+      "linkCount": 100,
+      "stars": 12296
+    },
+    {
+      "repoId": "sindresorhus/awesome",
+      "name": "😎 Awesome lists about all kinds of interesting topics",
+      "linkCount": 684,
+      "stars": 487985
+    },
+    {
+      "repoId": "avelino/awesome-go",
+      "name": "A curated list of awesome Go frameworks, libraries and software",
+      "linkCount": 3002,
+      "stars": 178941
+    },
+    {
+      "repoId": "rust-unofficial/awesome-rust",
+      "name": "A curated list of Rust code and resources.",
+      "linkCount": 1719,
+      "stars": 58484
+    },
+    {
+      "repoId": "vinta/awesome-python",
+      "name": "An opinionated list of Python frameworks, libraries, tools, and resources",
+      "linkCount": 563,
+      "stars": 309847
+    },
+    {
+      "repoId": "veggiemonk/awesome-docker",
+      "name": ":whale: A curated list of Docker resources and projects",
+      "linkCount": 344,
+      "stars": 36503
+    },
+    {
+      "repoId": "ramitsurana/awesome-kubernetes",
+      "name": "A curated list for awesome kubernetes sources :ship::tada:",
+      "linkCount": 51,
+      "stars": 16030
+    },
+    {
+      "repoId": "fffaraz/awesome-cpp",
+      "name": "A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff.",
+      "linkCount": 1342,
+      "stars": 72390
+    },
+    {
+      "repoId": "akullpp/awesome-java",
+      "name": "A curated list of awesome frameworks, libraries and software for the Java programming language.",
+      "linkCount": 871,
+      "stars": 48537
+    },
+    {
+      "repoId": "agile6v/awesome-nginx",
+      "name": "A curated list of awesome Nginx distributions, 3rd party modules, Active developers, etc. :octocat:  ",
+      "linkCount": 270,
+      "stars": 1284
+    },
+    {
+      "repoId": "zoidbergwill/awesome-ebpf",
+      "name": "A curated list of awesome projects related to eBPF.",
+      "linkCount": 237,
+      "stars": 5122
+    },
+    {
+      "repoId": "qazbnm456/awesome-web-security",
+      "name": "🐶 A curated list of Web Security materials and resources.",
+      "linkCount": 411,
+      "stars": 13615
+    },
+    {
+      "repoId": "josephmisiti/awesome-machine-learning",
+      "name": "A curated list of awesome Machine Learning frameworks, libraries and software.",
+      "linkCount": 1082,
+      "stars": 73662
+    },
+    {
+      "repoId": "ChristosChristofidis/awesome-deep-learning",
+      "name": "A curated list of awesome Deep Learning tutorials, projects and communities.",
+      "linkCount": 514,
+      "stars": 28655
+    }
+  ]
+}

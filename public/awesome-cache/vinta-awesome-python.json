@@ -1,0 +1,4599 @@
+{
+  "repoId": "vinta/awesome-python",
+  "name": "An opinionated list of Python frameworks, libraries, tools, and resources",
+  "description": "An opinionated list of Python frameworks, libraries, tools, and resources",
+  "repoUrl": "https://github.com/vinta/awesome-python",
+  "stars": 309847,
+  "topics": [
+    "awesome",
+    "collections",
+    "python",
+    "python-frameworks",
+    "python-libraries",
+    "python-tools"
+  ],
+  "links": [
+    {
+      "url": "https://github.com/vintasoftware/django-ai-plugins",
+      "title": "django-ai-plugins",
+      "description": "Django backend agent skills for Django, DRF, Celery, and Django-specific code review.",
+      "category": "AI and Agents",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/safishamsi/graphify",
+      "title": "graphify",
+      "description": "Turn any folder of code, SQL schemas, docs, papers, images, or videos into a queryable knowledge graph.",
+      "category": "AI and Agents",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/alchaincyf/nuwa-skill/blob/main/README_EN.md",
+      "title": "nuwa-skill",
+      "description": "Nuwa distills the thinking of anyone — let Musk, Naval, Munger, and Feynman work for you.",
+      "category": "AI and Agents",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/getsentry/skills",
+      "title": "sentry-skills",
+      "description": "Python-focused engineering skills for code review, debugging, and backend workflows.",
+      "category": "AI and Agents",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/trailofbits/skills",
+      "title": "trailofbits-skills",
+      "description": "Python-friendly security skills for auditing, testing, and safer backend development.",
+      "category": "AI and Agents",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/ag2ai/ag2",
+      "title": "ag2",
+      "description": "An open-source AgentOS for multi-agent orchestration and building agentic AI systems.",
+      "category": "AI and Agents",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/microsoft/autogen",
+      "title": "autogen",
+      "description": "A programming framework for building agentic AI applications.",
+      "category": "AI and Agents",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/sipyourdrink-ltd/bernstein",
+      "title": "bernstein",
+      "description": "A deterministic Python orchestrator for CLI coding agents (Claude Code, Codex, Gemini CLI, and 40+ more) with parallel git worktrees and an HMAC-signed audit chain.",
+      "category": "AI and Agents",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/getbindu/Bindu",
+      "title": "bindu",
+      "description": "A framework that wraps any agent handler with DID-based cryptographic identity, A2A JSON-RPC over HTTP, OAuth2 auth, x402 (USDC) payments, and a built-in operator inbox.",
+      "category": "AI and Agents",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/bubbuild/bub",
+      "title": "bub",
+      "description": "A lightweight, hook-first Python framework for channel-native agents that live alongside people.",
+      "category": "AI and Agents",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/crewAIInc/crewAI",
+      "title": "crewai",
+      "description": "A framework for orchestrating role-playing autonomous AI agents for collaborative task solving.",
+      "category": "AI and Agents",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/stanfordnlp/dspy",
+      "title": "dspy",
+      "description": "A framework for programming, not prompting, language models.",
+      "category": "AI and Agents",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/nousresearch/hermes-agent",
+      "title": "hermes-agent",
+      "description": "An adaptive AI agent framework that grows with you.",
+      "category": "AI and Agents",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/langchain-ai/langchain",
+      "title": "langchain",
+      "description": "Building applications with LLMs through composability.",
+      "category": "AI and Agents",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/langchain-ai/langgraph",
+      "title": "langgraph",
+      "description": "Low-level orchestration framework for building stateful, long-running LLM agents.",
+      "category": "AI and Agents",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/openai/openai-agents-python",
+      "title": "openai-agents",
+      "description": "OpenAI's framework for building and managing AI agents.",
+      "category": "AI and Agents",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/Einsia/OpenChronicle",
+      "title": "OpenChronicle",
+      "description": "Open-source, local-first memory for any tool-capable LLM agent.",
+      "category": "AI and Agents",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/promptise-com/foundry",
+      "title": "promptise",
+      "description": "A framework for building end-to-end production-ready agentic systems, scalable & secure MCP's and autonomous agents.",
+      "category": "AI and Agents",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/pydantic/pydantic-ai",
+      "title": "pydantic-ai",
+      "description": "A Python agent framework for building generative AI applications with structured schemas.",
+      "category": "AI and Agents",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "title": "TradingAgents",
+      "description": "A multi-agents LLM financial trading framework.",
+      "category": "AI and Agents",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/567-labs/instructor",
+      "title": "instructor",
+      "description": "A library for extracting structured data from LLMs, powered by Pydantic.",
+      "category": "AI and Agents",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/run-llama/llama_index",
+      "title": "llama-index",
+      "description": "A data framework for your LLM application.",
+      "category": "AI and Agents",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/holoviz/lumen",
+      "title": "lumen",
+      "description": "An agent framework for conversational analysis of SQL, dataframe and multidimensional array data.",
+      "category": "AI and Agents",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/mem0ai/mem0",
+      "title": "mem0",
+      "description": "An intelligent memory layer for AI agents enabling personalized interactions.",
+      "category": "AI and Agents",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/dottxt-ai/outlines",
+      "title": "outlines",
+      "description": "Structured text generation for LLMs with JSON schema, regex, and grammar-constrained decoding.",
+      "category": "AI and Agents",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/huggingface/diffusers",
+      "title": "diffusers",
+      "description": "A library that provides pre-trained diffusion models for generating and editing images, audio, and video.",
+      "category": "AI and Agents",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/BerriAI/litellm",
+      "title": "LiteLLM",
+      "description": "Call 100+ LLMs using OpenAI format.",
+      "category": "AI and Agents",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/ml-explore/mlx-lm",
+      "title": "mlx-lm",
+      "description": "Run and fine-tune large language models on Apple Silicon with MLX.",
+      "category": "AI and Agents",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/sgl-project/sglang",
+      "title": "sglang",
+      "description": "A high-performance serving framework for large language models and multimodal models.",
+      "category": "AI and Agents",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/huggingface/transformers",
+      "title": "transformers",
+      "description": "A framework that lets you easily use pre-trained transformer models for NLP, vision, and audio tasks.",
+      "category": "AI and Agents",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/unslothai/unsloth",
+      "title": "unsloth",
+      "description": "A library for faster LLM fine-tuning and training with reduced memory usage.",
+      "category": "AI and Agents",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/vllm-project/vllm",
+      "title": "vllm",
+      "description": "A high-throughput and memory-efficient inference and serving engine for LLMs.",
+      "category": "AI and Agents",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/modelscope/FunASR",
+      "title": "funasr",
+      "description": "Industrial-grade speech recognition toolkit with 170x realtime speed, 50+ languages, speaker diarization, and emotion detection.",
+      "category": "AI and Agents",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/openai/whisper",
+      "title": "openai-whisper",
+      "description": "A general-purpose automatic speech recognition model trained on 680k hours of multilingual and multitask supervised data.",
+      "category": "AI and Agents",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/FunAudioLLM/SenseVoice",
+      "title": "SenseVoice",
+      "description": "A multilingual speech understanding model for speech recognition, language identification, emotion recognition, and audio event detection.",
+      "category": "AI and Agents",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/microsoft/VibeVoice",
+      "title": "vibevoice",
+      "description": "A family of open-source voice AI models from Microsoft for text-to-speech and long-form speech recognition.",
+      "category": "AI and Agents",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/OpenBMB/VoxCPM",
+      "title": "voxcpm",
+      "description": "A tokenizer-free text-to-speech foundation model for multilingual speech generation and voice cloning.",
+      "category": "AI and Agents",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/jax-ml/jax",
+      "title": "jax",
+      "description": "A library for high-performance numerical computing with automatic differentiation and JIT compilation.",
+      "category": "Deep Learning",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/keras-team/keras",
+      "title": "keras",
+      "description": "A high-level deep learning library with support for JAX, TensorFlow, and PyTorch backends.",
+      "category": "Deep Learning",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/pytorch/pytorch",
+      "title": "pytorch",
+      "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration.",
+      "category": "Deep Learning",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/Lightning-AI/pytorch-lightning",
+      "title": "pytorch-lightning",
+      "description": "Deep learning framework to train, deploy, and ship AI products Lightning fast.",
+      "category": "Deep Learning",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/DLR-RM/stable-baselines3",
+      "title": "stable-baselines3",
+      "description": "PyTorch implementations of Stable Baselines (deep) reinforcement learning algorithms.",
+      "category": "Deep Learning",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/tensorflow/tensorflow",
+      "title": "tensorflow",
+      "description": "The most popular Deep Learning framework created by Google.",
+      "category": "Deep Learning",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/catboost/catboost",
+      "title": "catboost",
+      "description": "A fast, scalable, high performance gradient boosting on decision trees library.",
+      "category": "Machine Learning",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/feature-engine/feature_engine",
+      "title": "feature_engine",
+      "description": "sklearn compatible API with the widest toolset for feature engineering and selection.",
+      "category": "Machine Learning",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/h2oai/h2o-3",
+      "title": "h2o",
+      "description": "Open Source Fast Scalable Machine Learning Platform.",
+      "category": "Machine Learning",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/lightgbm-org/LightGBM",
+      "title": "lightgbm",
+      "description": "A fast, distributed, high performance gradient boosting framework.",
+      "category": "Machine Learning",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/mindsdb/minds",
+      "title": "mindsdb",
+      "description": "MindsDB is an open source AI layer for existing databases that allows you to effortlessly develop, train and deploy state-of-the-art machine learning models using standard queries.",
+      "category": "Machine Learning",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/pgmpy/pgmpy",
+      "title": "pgmpy",
+      "description": "A Python library for probabilistic graphical models and Bayesian networks.",
+      "category": "Machine Learning",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/scikit-learn/scikit-learn",
+      "title": "scikit-learn",
+      "description": "The most popular Python library for Machine Learning with extensive documentation and community support.",
+      "category": "Machine Learning",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/koaning/scikit-lego",
+      "title": "scikit-lego",
+      "description": "A collection of lego bricks for scikit-learn pipelines.",
+      "category": "Machine Learning",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/apache/spark",
+      "title": "spark.ml",
+      "description": "[Apache Spark](https://spark.apache.org/)'s scalable [Machine Learning library](https://spark.apache.org/docs/latest/ml-guide.html) for distributed computing.",
+      "category": "Machine Learning",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/Diyago/Tabular-data-generation",
+      "title": "TabGAN",
+      "description": "Synthetic tabular data generation using GANs, Diffusion Models, and LLMs.",
+      "category": "Machine Learning",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/google-research/timesfm",
+      "title": "timesfm",
+      "description": "A pretrained foundation model from Google Research for time-series forecasting.",
+      "category": "Machine Learning",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/dmlc/xgboost",
+      "title": "xgboost",
+      "description": "A scalable, portable, and distributed gradient boosting library.",
+      "category": "Machine Learning",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/piskvorky/gensim",
+      "title": "gensim",
+      "description": "Topic Modeling for Humans.",
+      "category": "Natural Language Processing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/nltk/nltk",
+      "title": "nltk",
+      "description": "A leading platform for building Python programs to work with human language data.",
+      "category": "Natural Language Processing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/explosion/spaCy",
+      "title": "spacy",
+      "description": "A library for industrial-strength natural language processing in Python and Cython.",
+      "category": "Natural Language Processing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/stanfordnlp/stanza",
+      "title": "stanza",
+      "description": "The Stanford NLP Group's official Python library, supporting 60+ languages.",
+      "category": "Natural Language Processing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/fighting41love/funNLP",
+      "title": "funnlp",
+      "description": "A collection of tools and datasets for Chinese NLP.",
+      "category": "Natural Language Processing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/fxsjy/jieba",
+      "title": "jieba",
+      "description": "The most popular Chinese text segmentation library.",
+      "category": "Natural Language Processing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/JaidedAI/EasyOCR",
+      "title": "easyocr",
+      "description": "Ready-to-use OCR with 40+ languages supported.",
+      "category": "Computer Vision",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/voxel51/fiftyone",
+      "title": "fiftyone",
+      "description": "The open-source tool for building high-quality datasets and computer vision models.",
+      "category": "Computer Vision",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/kornia/kornia/",
+      "title": "kornia",
+      "description": "Open Source Differentiable Computer Vision Library for PyTorch.",
+      "category": "Computer Vision",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/opencv/opencv-python",
+      "title": "opencv",
+      "description": "Open Source Computer Vision Library.",
+      "category": "Computer Vision",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/madmaze/pytesseract",
+      "title": "pytesseract",
+      "description": "A wrapper for [Google Tesseract OCR](https://github.com/tesseract-ocr).",
+      "category": "Computer Vision",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/ultralytics/ultralytics",
+      "title": "ultralytics",
+      "description": "Ultralytics YOLO for object detection, segmentation, pose estimation, and classification with state-of-the-art accuracy and speed.",
+      "category": "Computer Vision",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/spotify/annoy",
+      "title": "annoy",
+      "description": "Approximate Nearest Neighbors in C++/Python optimized for memory usage.",
+      "category": "Recommender Systems",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/benfred/implicit",
+      "title": "implicit",
+      "description": "A fast Python implementation of collaborative filtering for implicit datasets.",
+      "category": "Recommender Systems",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/NicolasHug/Surprise",
+      "title": "scikit-surprise",
+      "description": "A scikit for building and analyzing recommender systems.",
+      "category": "Recommender Systems",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/bottlepy/bottle",
+      "title": "bottle",
+      "description": "A fast and simple micro-framework distributed as a single file with no dependencies.",
+      "category": "Web Frameworks",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/django/django",
+      "title": "django",
+      "description": "The most popular web framework in Python.",
+      "category": "Web Frameworks",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/wsvincent/awesome-django",
+      "title": "awesome-django",
+      "description": null,
+      "category": "Web Frameworks",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/humiaozuzu/awesome-flask",
+      "title": "awesome-flask",
+      "description": null,
+      "category": "Web Frameworks",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/Pylons/pyramid",
+      "title": "pyramid",
+      "description": "A small, fast, down-to-earth, open source Python web framework.",
+      "category": "Web Frameworks",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/AnswerDotAI/fasthtml",
+      "title": "fasthtml",
+      "description": "The fastest way to create an HTML app.",
+      "category": "Web Frameworks",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/amosgyamfi/awesome-fasthtml",
+      "title": "awesome-fasthtml",
+      "description": null,
+      "category": "Web Frameworks",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/MasoniteFramework/masonite",
+      "title": "masonite",
+      "description": "The modern and developer centric Python web framework.",
+      "category": "Web Frameworks",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/litestar-org/litestar",
+      "title": "litestar",
+      "description": "Production-ready, capable and extensible ASGI Web framework.",
+      "category": "Web Frameworks",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/miguelgrinberg/microdot",
+      "title": "microdot",
+      "description": "The impossibly small web framework for Python and MicroPython.",
+      "category": "Web Frameworks",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/reflex-dev/reflex",
+      "title": "reflex",
+      "description": "A framework for building reactive, full-stack web applications entirely with Python.",
+      "category": "Web Frameworks",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/sparckles/Robyn",
+      "title": "robyn",
+      "description": "A high-performance async Python web framework with a Rust runtime.",
+      "category": "Web Frameworks",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/Kludex/starlette",
+      "title": "starlette",
+      "description": "A lightweight ASGI framework and toolkit for building high-performance async services.",
+      "category": "Web Frameworks",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/tornadoweb/tornado",
+      "title": "tornado",
+      "description": "A web framework and asynchronous networking library.",
+      "category": "Web Frameworks",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/wemake-services/django-modern-rest",
+      "title": "django-modern-rest",
+      "description": "Modern REST with speed, types, async, `msgspec`, `pydantic` and other goodies!",
+      "category": "Web APIs",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/vitalik/django-ninja",
+      "title": "django-ninja",
+      "description": "Fast, Django REST framework based on type hints and Pydantic.",
+      "category": "Web APIs",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/strawberry-graphql/strawberry-django",
+      "title": "strawberry-django",
+      "description": "Strawberry GraphQL integration with Django.",
+      "category": "Web APIs",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/apiflask/apiflask",
+      "title": "apiflask",
+      "description": "A lightweight Python web API framework based on Flask and Marshmallow.",
+      "category": "Web APIs",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/spec-first/connexion",
+      "title": "connexion",
+      "description": "A spec-first framework that automatically handles requests based on your OpenAPI specification.",
+      "category": "Web APIs",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/falconry/falcon",
+      "title": "falcon",
+      "description": "A high-performance framework for building cloud APIs and web app backends.",
+      "category": "Web APIs",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/fastapi/fastapi",
+      "title": "fastapi",
+      "description": "A modern, fast, web framework for building APIs with standard Python type hints.",
+      "category": "Web APIs",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/sanic-org/sanic",
+      "title": "sanic",
+      "description": "A Python web server and web framework that's written to go fast.",
+      "category": "Web APIs",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/strawberry-graphql/strawberry",
+      "title": "strawberry",
+      "description": "A GraphQL library that leverages Python type annotations for schema definition.",
+      "category": "Web APIs",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/marshmallow-code/webargs",
+      "title": "webargs",
+      "description": "A friendly library for parsing HTTP request arguments with built-in support for popular web frameworks.",
+      "category": "Web APIs",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/django/daphne",
+      "title": "daphne",
+      "description": "An HTTP, HTTP/2 and WebSocket protocol server for ASGI and ASGI-HTTP.",
+      "category": "Web Servers",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/emmett-framework/granian",
+      "title": "granian",
+      "description": "A Rust HTTP server for Python applications built on top of Hyper and Tokio, supporting WSGI/ASGI/RSGI.",
+      "category": "Web Servers",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/pgjones/hypercorn",
+      "title": "hypercorn",
+      "description": "An ASGI and WSGI Server based on Hyper libraries and inspired by Gunicorn.",
+      "category": "Web Servers",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/Kludex/uvicorn",
+      "title": "uvicorn",
+      "description": "A lightning-fast ASGI server implementation, using uvloop and httptools.",
+      "category": "Web Servers",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/benoitc/gunicorn",
+      "title": "gunicorn",
+      "description": "Pre-forked, ported from Ruby's Unicorn project.",
+      "category": "Web Servers",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/unbit/uwsgi",
+      "title": "uwsgi",
+      "description": "A project aims at developing a full stack for building hosting services, written in C.",
+      "category": "Web Servers",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/Pylons/waitress",
+      "title": "waitress",
+      "description": "Multi-threaded, powers Pyramid.",
+      "category": "Web Servers",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/grpc/grpc",
+      "title": "grpcio",
+      "description": "HTTP/2-based RPC framework with Python bindings, built by Google.",
+      "category": "Web Servers",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/tomerfiliba-org/rpyc",
+      "title": "rpyc",
+      "description": null,
+      "category": "Web Servers",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/crossbario/autobahn-python",
+      "title": "autobahn-python",
+      "description": "WebSocket & WAMP for Python on Twisted and [asyncio](https://docs.python.org/3/library/asyncio.html).",
+      "category": "WebSocket",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/django/channels",
+      "title": "channels",
+      "description": "Developer-friendly asynchrony for Django.",
+      "category": "WebSocket",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/miguelgrinberg/Flask-SocketIO",
+      "title": "flask-socketio",
+      "description": "Socket.IO integration for Flask applications.",
+      "category": "WebSocket",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/tarasko/picows",
+      "title": "picows",
+      "description": "Fastest WebSocket clients and servers with a frame level interface for the most demanding use-cases.",
+      "category": "WebSocket",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/python-websockets/websockets",
+      "title": "websockets",
+      "description": "A library for building WebSocket servers and clients with a focus on correctness and simplicity.",
+      "category": "WebSocket",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/pallets/jinja",
+      "title": "jinja",
+      "description": "A modern and designer friendly templating language.",
+      "category": "Template Engines",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/sqlalchemy/mako",
+      "title": "mako",
+      "description": "Hyperfast and lightweight templating for the Python platform.",
+      "category": "Template Engines",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/django-compressor/django-compressor",
+      "title": "django-compressor",
+      "description": "Compresses linked and inline JavaScript or CSS into a single cached file.",
+      "category": "Web Asset Management",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/jschneier/django-storages",
+      "title": "django-storages",
+      "description": "A collection of custom storage back ends for Django.",
+      "category": "Web Asset Management",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/authlib/authlib",
+      "title": "authlib",
+      "description": "A comprehensive library for building OAuth, OpenID Connect, and JWT/JWS/JWE/JWK/JWA.",
+      "category": "Authentication",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/pennersr/django-allauth",
+      "title": "django-allauth",
+      "description": "Authentication app for Django that \"just works.\"",
+      "category": "Authentication",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/django-oauth/django-oauth-toolkit",
+      "title": "django-oauth-toolkit",
+      "description": "OAuth 2 goodies for Django.",
+      "category": "Authentication",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/oauthlib/oauthlib",
+      "title": "oauthlib",
+      "description": "A generic and thorough implementation of the OAuth request-signing logic.",
+      "category": "Authentication",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/jpadilla/pyjwt",
+      "title": "pyjwt",
+      "description": "JSON Web Token implementation in Python.",
+      "category": "Authentication",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/django-guardian/django-guardian",
+      "title": "django-guardian",
+      "description": "Implementation of per-object permissions for Django.",
+      "category": "Authentication",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/dfunckt/django-rules",
+      "title": "django-rules",
+      "description": "A tiny but powerful app providing object-level permissions to Django, without requiring a database.",
+      "category": "Authentication",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/ajenti/ajenti",
+      "title": "ajenti",
+      "description": "The admin panel your servers deserve.",
+      "category": "Admin Panels",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/sehmaschine/django-grappelli",
+      "title": "django-grappelli",
+      "description": "A jazzy skin for the Django Admin-Interface.",
+      "category": "Admin Panels",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/unfoldadmin/django-unfold",
+      "title": "django-unfold",
+      "description": "Elevate your Django admin with a stunning modern interface, powerful features, and seamless user experience.",
+      "category": "Admin Panels",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/pallets-eco/flask-admin",
+      "title": "flask-admin",
+      "description": "Simple and extensible administrative interface framework for Flask.",
+      "category": "Admin Panels",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/mher/flower",
+      "title": "flower",
+      "description": "Real-time monitor and web admin for Celery.",
+      "category": "Admin Panels",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/offerrall/FuncToWeb",
+      "title": "func-to-web",
+      "description": "Instantly create web UIs from Python functions using type hints. Zero frontend code required.",
+      "category": "Admin Panels",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/jet-admin/jet-bridge",
+      "title": "jet-bridge",
+      "description": "Admin panel framework for any application with nice UI (ex Jet Django).",
+      "category": "Admin Panels",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/django-cms/django-cms",
+      "title": "django-cms",
+      "description": "The easy-to-use and developer-friendly enterprise CMS powered by Django.",
+      "category": "CMS",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/indico/indico",
+      "title": "indico",
+      "description": "A feature-rich event management system, made @ [CERN](https://en.wikipedia.org/wiki/CERN).",
+      "category": "CMS",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/wagtail/wagtail",
+      "title": "wagtail",
+      "description": "A Django content management system.",
+      "category": "CMS",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/lektor/lektor",
+      "title": "lektor",
+      "description": "An easy to use static CMS and blog engine.",
+      "category": "Static Site Generators",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/getnikola/nikola",
+      "title": "nikola",
+      "description": "A static website and blog generator.",
+      "category": "Static Site Generators",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/getpelican/pelican",
+      "title": "pelican",
+      "description": "Static site generator that supports Markdown and reST syntax.",
+      "category": "Static Site Generators",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/aio-libs/aiohttp",
+      "title": "aiohttp",
+      "description": "Asynchronous HTTP client/server framework for asyncio and Python.",
+      "category": "HTTP Clients",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/gruns/furl",
+      "title": "furl",
+      "description": "A small Python library that makes parsing and manipulating URLs easy.",
+      "category": "HTTP Clients",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/ozeranskii/httptap",
+      "title": "httptap",
+      "description": "Dissects an HTTP request into DNS, TCP, TLS, wait, and transfer phases and renders the timings as a waterfall.",
+      "category": "HTTP Clients",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/encode/httpx",
+      "title": "httpx",
+      "description": "A next generation HTTP client for Python.",
+      "category": "HTTP Clients",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/psf/requests",
+      "title": "requests",
+      "description": "HTTP Requests for Humans.",
+      "category": "HTTP Clients",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/urllib3/urllib3",
+      "title": "urllib3",
+      "description": "A HTTP library with thread-safe connection pooling, file post support, sanity friendly.",
+      "category": "HTTP Clients",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/browser-use/browser-use",
+      "title": "browser-use",
+      "description": "Make websites accessible for AI agents with easy browser automation.",
+      "category": "Web Scraping",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/unclecode/crawl4ai",
+      "title": "crawl4ai",
+      "description": "An open-source, LLM-friendly web crawler that provides lightning-fast, structured data extraction specifically designed for AI agents.",
+      "category": "Web Scraping",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/MechanicalSoup/MechanicalSoup",
+      "title": "mechanicalsoup",
+      "description": "A Python library for automating interaction with websites.",
+      "category": "Web Scraping",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/scrapy/scrapy",
+      "title": "scrapy",
+      "description": "A fast high-level screen scraping and web crawling framework.",
+      "category": "Web Scraping",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/PKHarsimran/website-downloader",
+      "title": "website-downloader",
+      "description": "A modern wget --mirror / HTTrack alternative that turns whole websites into browsable offline copies.",
+      "category": "Web Scraping",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/kurtmckee/feedparser",
+      "title": "feedparser",
+      "description": "Universal feed parser.",
+      "category": "Web Scraping",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/Alir3z4/html2text",
+      "title": "html2text",
+      "description": "Convert HTML to Markdown-formatted text.",
+      "category": "Web Scraping",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/coleifer/micawber",
+      "title": "micawber",
+      "description": "A small library for extracting rich content from URLs.",
+      "category": "Web Scraping",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/miso-belica/sumy",
+      "title": "sumy",
+      "description": "A module for automatic summarization of text documents and HTML pages.",
+      "category": "Web Scraping",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/adbar/trafilatura",
+      "title": "trafilatura",
+      "description": "A tool for gathering text and metadata from the web, with built-in content filtering.",
+      "category": "Web Scraping",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/modoboa/modoboa",
+      "title": "modoboa",
+      "description": "A mail hosting and management platform including a modern Web UI.",
+      "category": "Email",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/kootenpv/yagmail",
+      "title": "yagmail",
+      "description": "Yet another Gmail/SMTP client.",
+      "category": "Email",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/sqlalchemy/sqlalchemy",
+      "title": "sqlalchemy",
+      "description": "The Python SQL Toolkit and Object Relational Mapper.",
+      "category": "ORM",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/pudo/dataset",
+      "title": "dataset",
+      "description": "Store Python dicts in a database - works with SQLite, MySQL, and PostgreSQL.",
+      "category": "ORM",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/coleifer/peewee",
+      "title": "peewee",
+      "description": "A small, expressive ORM.",
+      "category": "ORM",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/ponyorm/pony/",
+      "title": "pony",
+      "description": "ORM that provides a generator-oriented interface to SQL.",
+      "category": "ORM",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/fastapi/sqlmodel",
+      "title": "sqlmodel",
+      "description": "SQLModel is based on Python type annotations, and powered by Pydantic and SQLAlchemy.",
+      "category": "ORM",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/tortoise/tortoise-orm",
+      "title": "tortoise-orm",
+      "description": "An easy-to-use asyncio ORM inspired by Django, with relations support.",
+      "category": "ORM",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/BeanieODM/beanie",
+      "title": "beanie",
+      "description": "An asynchronous Python object-document mapper (ODM) for MongoDB.",
+      "category": "ORM",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/MongoEngine/mongoengine",
+      "title": "mongoengine",
+      "description": "A Python Object-Document-Mapper for working with MongoDB.",
+      "category": "ORM",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/pynamodb/PynamoDB",
+      "title": "pynamodb",
+      "description": "A Pythonic interface for [Amazon DynamoDB](https://aws.amazon.com/dynamodb/).",
+      "category": "ORM",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/PyMySQL/mysqlclient",
+      "title": "mysqlclient",
+      "description": "MySQL connector with Python 3 support ([mysql-python](https://sourceforge.net/projects/mysql-python/) fork).",
+      "category": "Database Drivers",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/PyMySQL/PyMySQL",
+      "title": "pymysql",
+      "description": "A pure Python MySQL driver compatible to mysql-python.",
+      "category": "Database Drivers",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/psycopg/psycopg",
+      "title": "psycopg",
+      "description": "The most popular PostgreSQL adapter for Python.",
+      "category": "Database Drivers",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/simonw/sqlite-utils",
+      "title": "sqlite-utils",
+      "description": "Python CLI utility and library for manipulating SQLite databases.",
+      "category": "Database Drivers",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://docs.python.org/3/library/sqlite3.html",
+      "title": "sqlite3",
+      "description": "(Python standard library) SQLite interface compliant with DB-API 2.0.",
+      "category": "Database Drivers",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/mymarilyn/clickhouse-driver",
+      "title": "clickhouse-driver",
+      "description": "Python driver with native interface for ClickHouse.",
+      "category": "Database Drivers",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/microsoft/mssql-python",
+      "title": "mssql-python",
+      "description": "Official Microsoft driver for SQL Server and Azure SQL, built on ODBC for high performance and low memory usage.",
+      "category": "Database Drivers",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/apache/cassandra-python-driver",
+      "title": "cassandra-driver",
+      "description": "The Python Driver for Apache Cassandra.",
+      "category": "Database Drivers",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/mongodb/django-mongodb-backend",
+      "title": "django-mongodb-backend",
+      "description": "Official MongoDB database backend for Django.",
+      "category": "Database Drivers",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/mongodb/mongo-python-driver",
+      "title": "pymongo",
+      "description": "The official Python client for MongoDB.",
+      "category": "Database Drivers",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/redis/redis-py",
+      "title": "redis-py",
+      "description": "The Python client for Redis.",
+      "category": "Database Drivers",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/chdb-io/chdb",
+      "title": "chdb",
+      "description": "In-process OLAP SQL engine with the full ClickHouse dialect, zero-copy pandas/Arrow interop, and federation to remote ClickHouse clusters via `remoteSecure()`.",
+      "category": "Database",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/chroma-core/chroma",
+      "title": "chromadb",
+      "description": "An open-source embedding database for building AI applications with embeddings and semantic search.",
+      "category": "Database",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/duckdb/duckdb",
+      "title": "duckdb",
+      "description": "An in-process SQL OLAP database management system; optimized for analytics and fast queries, similar to SQLite but for analytical workloads.",
+      "category": "Database",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/patx/pickledb",
+      "title": "pickledb",
+      "description": "A simple and lightweight key-value store for Python.",
+      "category": "Database",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/msiemens/tinydb",
+      "title": "tinydb",
+      "description": "A tiny, document-oriented database.",
+      "category": "Database",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/zopefoundation/ZODB",
+      "title": "ZODB",
+      "description": "A native object database for Python. A key-value and object graph database.",
+      "category": "Database",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/alibaba/zvec",
+      "title": "zvec",
+      "description": "An embedded vector database for on-device RAG and edge AI, the SQLite of vector databases.",
+      "category": "Database",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/tkem/cachetools",
+      "title": "cachetools",
+      "description": "Extensible memoizing collections and decorators.",
+      "category": "Caching",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/Suor/django-cacheops",
+      "title": "django-cacheops",
+      "description": "A slick ORM cache with automatic granular event-driven invalidation.",
+      "category": "Caching",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/sqlalchemy/dogpile.cache",
+      "title": "dogpile.cache",
+      "description": "dogpile.cache is a next generation replacement for Beaker made by the same authors.",
+      "category": "Caching",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/grantjenks/python-diskcache",
+      "title": "python-diskcache",
+      "description": "SQLite and file backed cache backend with faster lookups than memcached and redis.",
+      "category": "Caching",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/django-haystack/django-haystack",
+      "title": "django-haystack",
+      "description": "Modular search for Django.",
+      "category": "Search",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/elastic/elasticsearch-py",
+      "title": "elasticsearch-py",
+      "description": "The official low-level Python client for [Elasticsearch](https://www.elastic.co/products/elasticsearch).",
+      "category": "Search",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/django-haystack/pysolr",
+      "title": "pysolr",
+      "description": "A lightweight Python wrapper for [Apache Solr](https://lucene.apache.org/solr/).",
+      "category": "Search",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/marshmallow-code/marshmallow",
+      "title": "marshmallow",
+      "description": "A lightweight library for converting complex objects to and from simple Python datatypes.",
+      "category": "Serialization",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/msgpack/msgpack-python",
+      "title": "msgpack",
+      "description": "MessagePack serializer implementation for Python.",
+      "category": "Serialization",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/ijl/orjson",
+      "title": "orjson",
+      "description": "Fast, correct JSON library.",
+      "category": "Serialization",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/aws/aws-sdk-pandas",
+      "title": "aws-sdk-pandas",
+      "description": "Pandas on AWS.",
+      "category": "Data Analysis",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/Data-Centric-AI-Community/fg-data-profiling",
+      "title": "data-profiling",
+      "description": "Generate detailed data profiling reports for pandas DataFrames.",
+      "category": "Data Analysis",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/simonw/datasette",
+      "title": "datasette",
+      "description": "An open source multi-tool for exploring and publishing data.",
+      "category": "Data Analysis",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/desbordante/desbordante-core/",
+      "title": "desbordante",
+      "description": "An open source data profiler for complex pattern discovery.",
+      "category": "Data Analysis",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/ibis-project/ibis",
+      "title": "ibis",
+      "description": "A portable Python dataframe library with a single API for 20+ backends.",
+      "category": "Data Analysis",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/modin-project/modin",
+      "title": "modin",
+      "description": "A drop-in pandas replacement that scales workflows by changing a single line of code.",
+      "category": "Data Analysis",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/pandas-dev/pandas",
+      "title": "pandas",
+      "description": "A library providing high-performance, easy-to-use data structures and data analysis tools.",
+      "category": "Data Analysis",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/data-centt/percentify",
+      "title": "percentify",
+      "description": "Exploratory stats and data-quality diagnostics/profiler, that supports both pandas and Polars DataFrames inputs.",
+      "category": "Data Analysis",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/dlt-hub/dlt",
+      "title": "dlt",
+      "description": "A Python library for building data pipelines with automatic schema inference, incremental loading, and support for multiple sources and destinations.",
+      "category": "Data Ingestion / ETL",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/akfamily/akshare",
+      "title": "akshare",
+      "description": "A financial data interface library, built for human beings!",
+      "category": "Data Ingestion / ETL",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/dgunning/edgartools",
+      "title": "edgartools",
+      "description": "Library for downloading structured data from SEC EDGAR filings and XBRL financial statements.",
+      "category": "Data Ingestion / ETL",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/Lumiwealth/lumibot",
+      "title": "lumibot",
+      "description": "Algorithmic trading framework for backtesting and live deployment across stocks, options, crypto, futures, and forex.",
+      "category": "Data Ingestion / ETL",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/OpenBB-finance/OpenBB",
+      "title": "openbb",
+      "description": "A financial data platform for analysts, quants and AI agents.",
+      "category": "Data Ingestion / ETL",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/ranaroussi/yfinance",
+      "title": "yfinance",
+      "description": "Easy Pythonic way to download market and financial data from Yahoo Finance.",
+      "category": "Data Ingestion / ETL",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/pyeve/cerberus",
+      "title": "cerberus",
+      "description": "A lightweight and extensible data validation library.",
+      "category": "Data Validation",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/python-jsonschema/jsonschema",
+      "title": "jsonschema",
+      "description": "An implementation of [JSON Schema](https://json-schema.org/) for Python.",
+      "category": "Data Validation",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/unionai-oss/pandera",
+      "title": "pandera",
+      "description": "A data validation library for dataframes, with support for pandas, polars, and Spark.",
+      "category": "Data Validation",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/pydantic/pydantic",
+      "title": "pydantic",
+      "description": "Data validation using Python type hints.",
+      "category": "Data Validation",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/alecthomas/voluptuous",
+      "title": "voluptuous",
+      "description": "A Python data validation library primarily intended for validating data from untrusted sources.",
+      "category": "Data Validation",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/vega/altair",
+      "title": "altair",
+      "description": "Declarative statistical visualization library for Python.",
+      "category": "Data Visualization",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/bokeh/bokeh",
+      "title": "bokeh",
+      "description": "Interactive Web Plotting for Python.",
+      "category": "Data Visualization",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/bqplot/bqplot",
+      "title": "bqplot",
+      "description": "Interactive Plotting Library for the Jupyter Notebook.",
+      "category": "Data Visualization",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/matplotlib/matplotlib",
+      "title": "matplotlib",
+      "description": "A Python 2D plotting library.",
+      "category": "Data Visualization",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/plotly/plotly.py",
+      "title": "plotly",
+      "description": "Interactive graphing library for Python.",
+      "category": "Data Visualization",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/has2k1/plotnine",
+      "title": "plotnine",
+      "description": "A grammar of graphics for Python based on ggplot2.",
+      "category": "Data Visualization",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/Kozea/pygal",
+      "title": "pygal",
+      "description": "A Python SVG Charts Creator.",
+      "category": "Data Visualization",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/pyqtgraph/pyqtgraph",
+      "title": "pyqtgraph",
+      "description": "Interactive and realtime 2D/3D/Image plotting and science/engineering widgets.",
+      "category": "Data Visualization",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/mwaskom/seaborn",
+      "title": "seaborn",
+      "description": "Statistical data visualization using Matplotlib.",
+      "category": "Data Visualization",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/ultraplot/UltraPlot",
+      "title": "ultraplot",
+      "description": "Matplotlib wrapper for publication-ready scientific figures with minimal code. Includes advanced subplot management, panel layouts, and batteries-included geoscience plotting.",
+      "category": "Data Visualization",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/vispy/vispy",
+      "title": "vispy",
+      "description": "High-performance scientific visualization based on OpenGL.",
+      "category": "Data Visualization",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/SciTools/cartopy",
+      "title": "cartopy",
+      "description": "A cartographic python library with matplotlib support.",
+      "category": "Data Visualization",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/pygraphviz/pygraphviz/",
+      "title": "pygraphviz",
+      "description": "Python interface to [Graphviz](https://www.graphviz.org/).",
+      "category": "Data Visualization",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/gradio-app/gradio",
+      "title": "gradio",
+      "description": "Build and share machine learning apps, all in Python.",
+      "category": "Data Visualization",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/streamlit/streamlit",
+      "title": "streamlit",
+      "description": "A framework which lets you build dashboards, generate reports, or create chat apps in minutes.",
+      "category": "Data Visualization",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/SmileyChris/django-countries",
+      "title": "django-countries",
+      "description": "A Django app that provides a country field for models and forms.",
+      "category": "Geolocation",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/jazzband/geojson",
+      "title": "geojson",
+      "description": "Python bindings and utilities for GeoJSON.",
+      "category": "Geolocation",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/geopandas/geopandas",
+      "title": "geopandas",
+      "description": "Python tools for geographic data (GeoSeries/GeoDataFrame) built on pandas.",
+      "category": "Geolocation",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/geopy/geopy",
+      "title": "geopy",
+      "description": "Python Geocoding Toolbox.",
+      "category": "Geolocation",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/numba/numba",
+      "title": "numba",
+      "description": "Python JIT compiler to LLVM aimed at scientific Python.",
+      "category": "Science",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/numpy/numpy",
+      "title": "numpy",
+      "description": "A fundamental package for scientific computing with Python.",
+      "category": "Science",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/scipy/scipy",
+      "title": "scipy",
+      "description": "A Python-based ecosystem of open-source software for mathematics, science, and engineering.",
+      "category": "Science",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/statsmodels/statsmodels",
+      "title": "statsmodels",
+      "description": "Statistical modeling and econometrics in Python.",
+      "category": "Science",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/sympy/sympy",
+      "title": "sympy",
+      "description": "A Python library for symbolic mathematics.",
+      "category": "Science",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/biopython/biopython",
+      "title": "biopython",
+      "description": "Biopython is a set of freely available tools for biological computation.",
+      "category": "Science",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/cclib/cclib",
+      "title": "cclib",
+      "description": "A library for parsing and interpreting the results of computational chemistry packages.",
+      "category": "Science",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/openbabel/openbabel",
+      "title": "openbabel",
+      "description": "A chemical toolbox designed to speak the many languages of chemical data.",
+      "category": "Science",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/rdkit/rdkit",
+      "title": "rdkit",
+      "description": "Cheminformatics and Machine Learning Software.",
+      "category": "Science",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/astropy/astropy",
+      "title": "astropy",
+      "description": "A community Python library for Astronomy.",
+      "category": "Science",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/obspy/obspy",
+      "title": "obspy",
+      "description": "A Python toolbox for seismology.",
+      "category": "Science",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/pydy/pydy",
+      "title": "pydy",
+      "description": "Short for Python Dynamics, used to assist with workflow in the modeling of dynamic motion.",
+      "category": "Science",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/AtsushiSakai/PythonRobotics",
+      "title": "PythonRobotics",
+      "description": "This is a compilation of various robotics algorithms with visualizations.",
+      "category": "Science",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/mesa/mesa",
+      "title": "mesa",
+      "description": "An agent-based modeling framework for building, analyzing, and visualizing complex system simulations.",
+      "category": "Science",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/pathsim/pathsim",
+      "title": "pathsim",
+      "description": "A block-based system modeling and simulation framework with a browser-based visual editor.",
+      "category": "Science",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/pymc-devs/pymc",
+      "title": "pymc",
+      "description": "Probabilistic programming and Bayesian modeling in Python.",
+      "category": "Science",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://gitlab.com/team-simpy/simpy",
+      "title": "simpy",
+      "description": "A process-based discrete-event simulation framework.",
+      "category": "Science",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/colour-science/colour",
+      "title": "colour",
+      "description": "Implementing a comprehensive number of colour theory transformations and algorithms.",
+      "category": "Science",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/ManimCommunity/manim",
+      "title": "manim",
+      "description": "An animation engine for explanatory math videos.",
+      "category": "Science",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/networkx/networkx",
+      "title": "networkx",
+      "description": "A high-productivity software for complex networks.",
+      "category": "Science",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/shapely/shapely",
+      "title": "shapely",
+      "description": "Manipulation and analysis of geometric objects in the Cartesian plane.",
+      "category": "Science",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/quantumlib/Cirq",
+      "title": "Cirq",
+      "description": "A Google-developed framework focused on hardware-aware quantum circuit design for NISQ devices.",
+      "category": "Quantum Computing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/PennyLaneAI/pennylane",
+      "title": "pennylane",
+      "description": "A hybrid quantum-classical machine learning library with automatic differentiation support.",
+      "category": "Quantum Computing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/Qiskit/qiskit",
+      "title": "qiskit",
+      "description": "An IBM-backed quantum SDK for building, simulating, and running circuits on real quantum hardware.",
+      "category": "Quantum Computing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/qutip/qutip",
+      "title": "qutip",
+      "description": "Quantum Toolbox in Python.",
+      "category": "Quantum Computing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/keon/algorithms",
+      "title": "algorithms",
+      "description": "Minimal examples of data structures and algorithms.",
+      "category": "Algorithms and Design Patterns",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/grantjenks/python-sortedcontainers",
+      "title": "sortedcontainers",
+      "description": "Fast and pure-Python implementation of sorted collections.",
+      "category": "Algorithms and Design Patterns",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/TheAlgorithms/Python",
+      "title": "thealgorithms",
+      "description": "All Algorithms implemented in Python.",
+      "category": "Algorithms and Design Patterns",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/faif/python-patterns",
+      "title": "python-patterns",
+      "description": "A collection of design patterns in Python.",
+      "category": "Algorithms and Design Patterns",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/pytransitions/transitions",
+      "title": "transitions",
+      "description": "A lightweight, object-oriented finite state machine implementation.",
+      "category": "Algorithms and Design Patterns",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/jupyter/notebook",
+      "title": "jupyter",
+      "description": "A rich toolkit to help you make the most out of using Python interactively.",
+      "category": "Interactive Interpreter",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/marimo-team/marimo",
+      "title": "marimo",
+      "description": "Transform data and train models, feels like a next-gen notebook, stored as Git-friendly Python.",
+      "category": "Interactive Interpreter",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/prompt-toolkit/ptpython",
+      "title": "ptpython",
+      "description": "Advanced Python REPL built on top of the [python-prompt-toolkit](https://github.com/prompt-toolkit/python-prompt-toolkit).",
+      "category": "Interactive Interpreter",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/scottrogowski/code2flow",
+      "title": "code2flow",
+      "description": "Turn your Python and JavaScript code into DOT flowcharts.",
+      "category": "Code Analysis",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/prospector-dev/prospector",
+      "title": "prospector",
+      "description": "A tool to analyze Python code.",
+      "category": "Code Analysis",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/repowise-dev/repowise",
+      "title": "repowise",
+      "description": "Codebase intelligence that indexes repos into dependency graphs, git history, and auto-generated docs with dead code detection.",
+      "category": "Code Analysis",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/jendrikseipp/vulture",
+      "title": "vulture",
+      "description": "A tool for finding and analyzing dead Python code.",
+      "category": "Code Analysis",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/PyCQA/bandit",
+      "title": "bandit",
+      "description": "A tool designed to find common security issues in Python code.",
+      "category": "Code Analysis",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/PyCQA/flake8",
+      "title": "flake8",
+      "description": "A wrapper around `pycodestyle`, `pyflakes` and McCabe.",
+      "category": "Code Analysis",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/DmytroLitvinov/awesome-flake8-extensions",
+      "title": "awesome-flake8-extensions",
+      "description": null,
+      "category": "Code Analysis",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/pylint-dev/pylint",
+      "title": "pylint",
+      "description": "A fully customizable source code analyzer.",
+      "category": "Code Analysis",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/psf/black",
+      "title": "black",
+      "description": "The uncompromising Python code formatter.",
+      "category": "Code Analysis",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/PyCQA/isort",
+      "title": "isort",
+      "description": "A Python utility / library to sort imports.",
+      "category": "Code Analysis",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/python-rope/rope",
+      "title": "rope",
+      "description": "Rope is a python refactoring library.",
+      "category": "Code Analysis",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/python/mypy",
+      "title": "mypy",
+      "description": "Check variable types during compile time.",
+      "category": "Code Analysis",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/facebook/pyrefly",
+      "title": "pyrefly",
+      "description": "A fast type checker and language server for Python.",
+      "category": "Code Analysis",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ty",
+      "title": "ty",
+      "description": "An extremely fast Python type checker and language server.",
+      "category": "Code Analysis",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/python/typeshed",
+      "title": "typeshed",
+      "description": "Collection of library stubs for Python, with static types.",
+      "category": "Code Analysis",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/Instagram/MonkeyType",
+      "title": "monkeytype",
+      "description": "A system for Python that generates static type annotations by collecting runtime types.",
+      "category": "Code Analysis",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/google/pytype",
+      "title": "pytype",
+      "description": "Pytype checks and infers types for Python code - without requiring type annotations.",
+      "category": "Code Analysis",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/HypothesisWorks/hypothesis",
+      "title": "hypothesis",
+      "description": "Hypothesis is an advanced Quickcheck style property based testing library.",
+      "category": "Testing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/pytest-dev/pytest",
+      "title": "pytest",
+      "description": "A mature full-featured Python testing tool.",
+      "category": "Testing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/augustogoulart/awesome-pytest",
+      "title": "awesome-pytest",
+      "description": null,
+      "category": "Testing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/robotframework/robotframework",
+      "title": "robotframework",
+      "description": "A generic test automation framework.",
+      "category": "Testing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/scanapi/scanapi",
+      "title": "scanapi",
+      "description": "Automated Testing and Documentation for your REST API.",
+      "category": "Testing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://docs.python.org/3/library/unittest.html",
+      "title": "unittest",
+      "description": "(Python standard library) Unit testing framework.",
+      "category": "Testing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/wntrblm/nox",
+      "title": "nox",
+      "description": "Flexible test automation for Python.",
+      "category": "Testing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/tox-dev/tox",
+      "title": "tox",
+      "description": "Auto builds and tests distributions in multiple Python versions",
+      "category": "Testing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/locustio/locust",
+      "title": "locust",
+      "description": "Scalable user load testing tool written in Python.",
+      "category": "Testing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright-python",
+      "title": "playwright-python",
+      "description": "Python version of the Playwright testing and automation library.",
+      "category": "Testing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/asweigart/pyautogui",
+      "title": "pyautogui",
+      "description": "PyAutoGUI is a cross-platform GUI automation Python module for human beings.",
+      "category": "Testing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/schemathesis/schemathesis",
+      "title": "schemathesis",
+      "description": "A tool for automatic property-based testing of web applications built with Open API / Swagger specifications.",
+      "category": "Testing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/SeleniumHQ/selenium",
+      "title": "selenium",
+      "description": "Python bindings for [Selenium](https://selenium.dev/) [WebDriver](https://selenium.dev/documentation/webdriver/).",
+      "category": "Testing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/spulec/freezegun",
+      "title": "freezegun",
+      "description": "Travel through time by mocking the datetime module.",
+      "category": "Testing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://docs.python.org/3/library/unittest.mock.html",
+      "title": "mock",
+      "description": "(Python standard library) A mocking and patching library.",
+      "category": "Testing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/mindflayer/python-mocket",
+      "title": "mocket",
+      "description": "A socket mock framework with gevent/asyncio/SSL support.",
+      "category": "Testing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/getsentry/responses",
+      "title": "responses",
+      "description": "A utility library for mocking out the requests Python library.",
+      "category": "Testing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/lundberg/respx",
+      "title": "respx",
+      "description": "Mock HTTPX with awesome request patterns and response side effects.",
+      "category": "Testing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/kevin1024/vcrpy",
+      "title": "vcrpy",
+      "description": "Record and replay HTTP interactions on your tests.",
+      "category": "Testing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/FactoryBoy/factory_boy",
+      "title": "factory_boy",
+      "description": "A test fixtures replacement for Python.",
+      "category": "Testing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/litestar-org/polyfactory",
+      "title": "polyfactory",
+      "description": "mock data generation library with support to classes (continuation of `pydantic-factories`)",
+      "category": "Testing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/coveragepy/coveragepy",
+      "title": "coverage",
+      "description": "Code coverage measurement.",
+      "category": "Testing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/joke2k/faker",
+      "title": "faker",
+      "description": "A Python package that generates fake data.",
+      "category": "Testing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/lk-geimfari/mimesis",
+      "title": "mimesis",
+      "description": "is a Python library that help you generate fake data.",
+      "category": "Testing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/gotcha/ipdb",
+      "title": "ipdb",
+      "description": "IPython-enabled [pdb](https://docs.python.org/3/library/pdb.html).",
+      "category": "Debugging Tools",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/inducer/pudb",
+      "title": "pudb",
+      "description": "A full-screen, console-based Python debugger.",
+      "category": "Debugging Tools",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/ionelmc/python-manhole",
+      "title": "manhole",
+      "description": "Debugging UNIX socket connections and present the stacktraces for all threads and an interactive prompt.",
+      "category": "Debugging Tools",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/ionelmc/python-hunter",
+      "title": "python-hunter",
+      "description": "A flexible code tracing toolkit.",
+      "category": "Debugging Tools",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/benfred/py-spy",
+      "title": "py-spy",
+      "description": "A sampling profiler for Python programs. Written in Rust.",
+      "category": "Debugging Tools",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/plasma-umass/scalene",
+      "title": "scalene",
+      "description": "A high-performance, high-precision CPU, GPU, and memory profiler for Python.",
+      "category": "Debugging Tools",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/django-commons/django-debug-toolbar",
+      "title": "django-debug-toolbar",
+      "description": "Display various debug information for Django.",
+      "category": "Debugging Tools",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/pallets-eco/flask-debugtoolbar",
+      "title": "flask-debugtoolbar",
+      "description": "A port of the django-debug-toolbar to flask.",
+      "category": "Debugging Tools",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/gruns/icecream",
+      "title": "icecream",
+      "description": "Inspect variables, expressions, and program execution with a single, simple function call.",
+      "category": "Debugging Tools",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/bterwijn/memory_graph",
+      "title": "memory_graph",
+      "description": "Visualize Python data at runtime to debug references, mutability, and aliasing.",
+      "category": "Debugging Tools",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/openembedded/bitbake",
+      "title": "bitbake",
+      "description": "A make-like build tool for embedded Linux.",
+      "category": "Build Tools",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/pydoit/doit",
+      "title": "doit",
+      "description": "A task runner and build tool.",
+      "category": "Build Tools",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/pyinvoke/invoke",
+      "title": "invoke",
+      "description": "A tool for managing shell-oriented subprocesses and organizing executable Python code into CLI-invokable tasks.",
+      "category": "Build Tools",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/platformio/platformio-core",
+      "title": "platformio",
+      "description": "A console tool to build code with different development platforms.",
+      "category": "Build Tools",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/pybuilder/pybuilder",
+      "title": "pybuilder",
+      "description": "A continuous build tool written in pure Python.",
+      "category": "Build Tools",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/SCons/scons",
+      "title": "scons",
+      "description": "A software construction tool.",
+      "category": "Build Tools",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/mingrammer/diagrams",
+      "title": "diagrams",
+      "description": "Diagram as Code.",
+      "category": "Documentation",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/mkdocs/mkdocs/",
+      "title": "mkdocs",
+      "description": "Markdown friendly documentation generator.",
+      "category": "Documentation",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/mitmproxy/pdoc",
+      "title": "pdoc",
+      "description": "Epydoc replacement to auto generate API documentation for Python libraries.",
+      "category": "Documentation",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/sphinx-doc/sphinx/",
+      "title": "sphinx",
+      "description": "Python Documentation generator.",
+      "category": "Documentation",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/ygzgxyz/awesome-sphinxdoc",
+      "title": "awesome-sphinxdoc",
+      "description": null,
+      "category": "Documentation",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/aws/aws-cli",
+      "title": "awscli",
+      "description": "Universal Command Line Interface for Amazon Web Services.",
+      "category": "DevOps Tools",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/boto/boto3",
+      "title": "boto3",
+      "description": "Python interface to Amazon Web Services.",
+      "category": "DevOps Tools",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/ansible/ansible",
+      "title": "ansible",
+      "description": "A radically simple IT automation platform.",
+      "category": "DevOps Tools",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/canonical/cloud-init",
+      "title": "cloudinit",
+      "description": "A multi-distribution package that handles early initialization of a cloud instance.",
+      "category": "DevOps Tools",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/openstack/openstack",
+      "title": "openstack",
+      "description": "Open source software for building private and public clouds.",
+      "category": "DevOps Tools",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/pyinfra-dev/pyinfra",
+      "title": "pyinfra",
+      "description": "A versatile CLI tools and python libraries to automate infrastructure.",
+      "category": "DevOps Tools",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/saltstack/salt",
+      "title": "saltstack",
+      "description": "Infrastructure automation and management system.",
+      "category": "DevOps Tools",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/aws/chalice",
+      "title": "chalice",
+      "description": "A Python serverless microframework for AWS.",
+      "category": "DevOps Tools",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/fabric/fabric",
+      "title": "fabric",
+      "description": "A simple, Pythonic tool for remote execution and deployment.",
+      "category": "DevOps Tools",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/giampaolo/psutil",
+      "title": "psutil",
+      "description": "A cross-platform process and system utilities module.",
+      "category": "DevOps Tools",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/getsentry/sentry-python",
+      "title": "sentry-python",
+      "description": "Sentry SDK for Python.",
+      "category": "DevOps Tools",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/amoffat/sh",
+      "title": "sh",
+      "description": "A full-fledged subprocess replacement for Python.",
+      "category": "DevOps Tools",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/Supervisor/supervisor",
+      "title": "supervisor",
+      "description": "Supervisor process control system for UNIX.",
+      "category": "DevOps Tools",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/borgbackup/borg",
+      "title": "borg",
+      "description": "A deduplicating archiver with compression and encryption.",
+      "category": "DevOps Tools",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/chaostoolkit/chaostoolkit",
+      "title": "chaostoolkit",
+      "description": "A Chaos Engineering toolkit & Orchestration for Developers.",
+      "category": "DevOps Tools",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/puzl-cloud/kubesdk",
+      "title": "kubesdk",
+      "description": "A modern async-first Kubernetes client and API model generator.",
+      "category": "DevOps Tools",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/pre-commit/pre-commit",
+      "title": "pre-commit",
+      "description": "A framework for managing and maintaining multi-language pre-commit hooks.",
+      "category": "DevOps Tools",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/dask/dask",
+      "title": "dask",
+      "description": "A flexible parallel computing library for analytic computing.",
+      "category": "Distributed Computing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/spotify/luigi",
+      "title": "luigi",
+      "description": "A module that helps you build complex pipelines of batch jobs.",
+      "category": "Distributed Computing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/mpi4py/mpi4py",
+      "title": "mpi4py",
+      "description": "Python bindings for MPI.",
+      "category": "Distributed Computing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/joblib/joblib",
+      "title": "joblib",
+      "description": "A set of tools to provide lightweight pipelining in Python.",
+      "category": "Distributed Computing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/ray-project/ray/",
+      "title": "ray",
+      "description": "A system for parallel and distributed Python that unifies the machine learning ecosystem.",
+      "category": "Distributed Computing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/celery/celery",
+      "title": "celery",
+      "description": "An asynchronous task queue/job queue based on distributed message passing.",
+      "category": "Task Queues",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/Bogdanp/dramatiq",
+      "title": "dramatiq",
+      "description": "A fast and reliable background task processing library for Python 3.",
+      "category": "Task Queues",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/coleifer/huey",
+      "title": "huey",
+      "description": "Little multi-threaded task queue.",
+      "category": "Task Queues",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/rq/rq",
+      "title": "rq",
+      "description": "Simple job queues for Python.",
+      "category": "Task Queues",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/taskiq-python/taskiq",
+      "title": "taskiq",
+      "description": "Distributed task queue with native asyncio support and pluggable brokers.",
+      "category": "Task Queues",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/ag2ai/faststream",
+      "title": "faststream",
+      "description": "A framework for building asynchronous services over Apache Kafka, RabbitMQ, NATS, MQTT and Redis.",
+      "category": "Messaging",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/apache/airflow",
+      "title": "airflow",
+      "description": "Airflow is a platform to programmatically author, schedule and monitor workflows.",
+      "category": "Job Schedulers",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/agronholm/apscheduler",
+      "title": "apscheduler",
+      "description": "A light but powerful in-process task scheduler that lets you schedule functions.",
+      "category": "Job Schedulers",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/dagster-io/dagster",
+      "title": "dagster",
+      "description": "An orchestration platform for the development, production, and observation of data assets.",
+      "category": "Job Schedulers",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/PrefectHQ/prefect",
+      "title": "prefect",
+      "description": "A modern workflow orchestration framework that makes it easy to build, schedule and monitor robust data pipelines.",
+      "category": "Job Schedulers",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/dbader/schedule",
+      "title": "schedule",
+      "description": "Python job scheduling for humans.",
+      "category": "Job Schedulers",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/sartography/SpiffWorkflow",
+      "title": "SpiffWorkflow",
+      "description": "A powerful workflow engine implemented in pure Python.",
+      "category": "Job Schedulers",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/josheppinette/python-logfmter",
+      "title": "logfmter",
+      "description": "A standard library compatible logfmt formatter.",
+      "category": "Logging",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://docs.python.org/3/library/logging.html",
+      "title": "logging",
+      "description": "(Python standard library) Logging facility for Python.",
+      "category": "Logging",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/Delgan/loguru",
+      "title": "loguru",
+      "description": "Library which aims to bring enjoyable logging in Python.",
+      "category": "Logging",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/hynek/structlog",
+      "title": "structlog",
+      "description": "Structured logging made easy.",
+      "category": "Logging",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/mininet/mininet",
+      "title": "mininet",
+      "description": "A popular network emulator and API written in Python.",
+      "category": "Network Virtualization",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/napalm-automation/napalm",
+      "title": "napalm",
+      "description": "Cross-vendor API to manipulate network devices.",
+      "category": "Network Virtualization",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/secdev/scapy",
+      "title": "scapy",
+      "description": "A brilliant packet manipulation library.",
+      "category": "Network Virtualization",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://docs.python.org/3/library/argparse.html",
+      "title": "argparse",
+      "description": "(Python standard library) Command-line option and argument parsing.",
+      "category": "CLI Development",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/datafolklabs/cement",
+      "title": "cement",
+      "description": "CLI Application Framework for Python.",
+      "category": "CLI Development",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/pallets/click/",
+      "title": "click",
+      "description": "A package for creating beautiful command line interfaces in a composable way.",
+      "category": "CLI Development",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/google/python-fire",
+      "title": "python-fire",
+      "description": "A library for creating command line interfaces from absolutely any Python object.",
+      "category": "CLI Development",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/prompt-toolkit/python-prompt-toolkit",
+      "title": "python-prompt-toolkit",
+      "description": "A library for building powerful interactive command lines.",
+      "category": "CLI Development",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/fastapi/typer",
+      "title": "typer",
+      "description": "Modern CLI framework that uses Python type hints. Built on Click and Pydantic.",
+      "category": "CLI Development",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/rsalmei/alive-progress",
+      "title": "alive-progress",
+      "description": "A new kind of Progress Bar, with real-time throughput, eta and very cool animations.",
+      "category": "CLI Development",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/peterbrittain/asciimatics",
+      "title": "asciimatics",
+      "description": "A package to create full-screen text UIs (from interactive forms to ASCII animations).",
+      "category": "CLI Development",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/tartley/colorama",
+      "title": "colorama",
+      "description": "Cross-platform colored terminal text.",
+      "category": "CLI Development",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/Textualize/rich",
+      "title": "rich",
+      "description": "Python library for rich text and beautiful formatting in the terminal. Also provides a great `RichHandler` log handler.",
+      "category": "CLI Development",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/Textualize/textual",
+      "title": "textual",
+      "description": "A framework for building interactive user interfaces that run in the terminal and the browser.",
+      "category": "CLI Development",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/tqdm/tqdm",
+      "title": "tqdm",
+      "description": "Fast, extensible progress bar for loops and CLI.",
+      "category": "CLI Development",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/cookiecutter/cookiecutter",
+      "title": "cookiecutter",
+      "description": "A command-line utility that creates projects from cookiecutters (project templates).",
+      "category": "CLI Tools",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/copier-org/copier",
+      "title": "copier",
+      "description": "A library and command-line utility for rendering projects templates.",
+      "category": "CLI Tools",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/sloria/doitlive",
+      "title": "doitlive",
+      "description": "A tool for live presentations in the terminal.",
+      "category": "CLI Tools",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/miratcan/kaydet",
+      "title": "kaydet",
+      "description": "Queryable personal database and terminal diary with SQLite search, tags, metadata, and AI integration via MCP.",
+      "category": "CLI Tools",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/nvbn/thefuck",
+      "title": "thefuck",
+      "description": "Correcting your previous console command.",
+      "category": "CLI Tools",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/tmux-python/tmuxp",
+      "title": "tmuxp",
+      "description": "A [tmux](https://github.com/tmux/tmux) session manager.",
+      "category": "CLI Tools",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/xonsh/xonsh/",
+      "title": "xonsh",
+      "description": "A Python-powered shell. Full-featured and cross-platform.",
+      "category": "CLI Tools",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/yt-dlp/yt-dlp",
+      "title": "yt-dlp",
+      "description": "A command-line program to download videos from YouTube and other video sites, a fork of youtube-dl.",
+      "category": "CLI Tools",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/httpie/cli",
+      "title": "httpie",
+      "description": "A command line HTTP client, a user-friendly cURL replacement.",
+      "category": "CLI Tools",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/laixintao/iredis",
+      "title": "iredis",
+      "description": "Redis CLI with autocompletion and syntax highlighting.",
+      "category": "CLI Tools",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/dbcli/litecli",
+      "title": "litecli",
+      "description": "SQLite CLI with autocompletion and syntax highlighting.",
+      "category": "CLI Tools",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/dbcli/mycli",
+      "title": "mycli",
+      "description": "MySQL CLI with autocompletion and syntax highlighting.",
+      "category": "CLI Tools",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/dbcli/pgcli",
+      "title": "pgcli",
+      "description": "PostgreSQL CLI with autocompletion and syntax highlighting.",
+      "category": "CLI Tools",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/tomschimansky/customtkinter",
+      "title": "customtkinter",
+      "description": "A modern and customizable python UI-library based on Tkinter.",
+      "category": "GUI Development",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/hoffstadt/DearPyGui",
+      "title": "dearpygui",
+      "description": "A Simple GPU accelerated Python GUI framework",
+      "category": "GUI Development",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/nucleic/enaml",
+      "title": "enaml",
+      "description": "Creating beautiful user-interfaces with Declarative Syntax like QML.",
+      "category": "GUI Development",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/kivy/kivy",
+      "title": "kivy",
+      "description": "A library for creating NUI applications, running on Windows, Linux, Mac OS X, Android and iOS.",
+      "category": "GUI Development",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/pyglet/pyglet",
+      "title": "pyglet",
+      "description": "A cross-platform windowing and multimedia library for Python.",
+      "category": "GUI Development",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/GNOME/pygobject",
+      "title": "pygobject",
+      "description": "Python Bindings for GLib/GObject/GIO/GTK+ (GTK+3).",
+      "category": "GUI Development",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://www.riverbankcomputing.com/static/Docs/PyQt6/",
+      "title": "PyQt",
+      "description": "Python bindings for the [Qt](https://www.qt.io/) cross-platform application and UI framework.",
+      "category": "GUI Development",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/pyside/pyside-setup",
+      "title": "pyside",
+      "description": "Qt for Python offers the official Python bindings for [Qt](https://www.qt.io/), this is same as PyQt but it's the official binding with different licensing.",
+      "category": "GUI Development",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/ParthJadhav/Tkinter-Designer",
+      "title": "tkdesigner",
+      "description": "Generates Tkinter interfaces from Figma designs using the Figma API.",
+      "category": "GUI Development",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://docs.python.org/3/library/tkinter.html",
+      "title": "tkinter",
+      "description": "(Python standard library) The standard Python interface to the Tcl/Tk GUI toolkit.",
+      "category": "GUI Development",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/beeware/toga",
+      "title": "toga",
+      "description": "A Python native, OS native GUI toolkit.",
+      "category": "GUI Development",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/wxWidgets/Phoenix",
+      "title": "wxPython",
+      "description": "A blending of the wxWidgets C++ class library with the Python.",
+      "category": "GUI Development",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/LineIndent/ui",
+      "title": "buridan/ui",
+      "description": "Composable, themeable components designed for Reflex. Extend, override, and ship without fighting the framework. Open source.",
+      "category": "GUI Development",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/flet-dev/flet",
+      "title": "flet",
+      "description": "Cross-platform GUI framework for building modern apps in pure Python.",
+      "category": "GUI Development",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/zauberzeug/nicegui",
+      "title": "nicegui",
+      "description": "An easy-to-use, Python-based UI framework, which shows up in your web browser.",
+      "category": "GUI Development",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/r0x0r/pywebview/",
+      "title": "pywebview",
+      "description": "A lightweight cross-platform native wrapper around a webview component.",
+      "category": "GUI Development",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://docs.python.org/3/library/curses.html",
+      "title": "curses",
+      "description": "(Python standard library) The built-in wrapper for [ncurses](https://www.gnu.org/software/ncurses/) used to create terminal GUI applications.",
+      "category": "GUI Development",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/urwid/urwid",
+      "title": "urwid",
+      "description": "A library for creating terminal GUI applications with strong support for widgets, events, rich colors, etc.",
+      "category": "GUI Development",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/chriskiehl/Gooey",
+      "title": "gooey",
+      "description": "Turn command line programs into a full GUI application with one line.",
+      "category": "GUI Development",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/python-babel/babel",
+      "title": "babel",
+      "description": "An internationalization library for Python.",
+      "category": "Text Processing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/chardet/chardet",
+      "title": "chardet",
+      "description": "Python character encoding detector.",
+      "category": "Text Processing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://docs.python.org/3/library/difflib.html",
+      "title": "difflib",
+      "description": "(Python standard library) Helpers for computing deltas.",
+      "category": "Text Processing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/rspeer/python-ftfy",
+      "title": "ftfy",
+      "description": "Makes Unicode text less broken and more consistent automagically.",
+      "category": "Text Processing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/vinta/pangu.py",
+      "title": "pangu.py",
+      "description": "Paranoid text spacing.",
+      "category": "Text Processing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/pwaller/pyfiglet",
+      "title": "pyfiglet",
+      "description": "An implementation of figlet written in Python.",
+      "category": "Text Processing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/mozillazg/python-pinyin",
+      "title": "pypinyin",
+      "description": "Convert Chinese hanzi (漢字) to pinyin (拼音).",
+      "category": "Text Processing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/un33k/python-slugify",
+      "title": "python-slugify",
+      "description": "A Python slugify library that translates unicode to ASCII.",
+      "category": "Text Processing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/life4/textdistance",
+      "title": "textdistance",
+      "description": "Compute distance between sequences with 30+ algorithms.",
+      "category": "Text Processing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/avian2/unidecode",
+      "title": "unidecode",
+      "description": "ASCII transliterations of Unicode text.",
+      "category": "Text Processing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/sqids/sqids-python",
+      "title": "sqids",
+      "description": "A library for generating short unique IDs from numbers.",
+      "category": "Text Processing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/skorokithakis/shortuuid",
+      "title": "shortuuid",
+      "description": "A generator library for concise, unambiguous and URL-safe UUIDs.",
+      "category": "Text Processing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/python-parsy/parsy",
+      "title": "parsy",
+      "description": "Easy, generic parser combinator library for creating parsers.",
+      "category": "Text Processing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/pygments/pygments",
+      "title": "pygments",
+      "description": "A generic syntax highlighter.",
+      "category": "Text Processing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/pyparsing/pyparsing",
+      "title": "pyparsing",
+      "description": "A general purpose framework for generating parsers.",
+      "category": "Text Processing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/derek73/python-nameparser",
+      "title": "python-nameparser",
+      "description": "Parsing human names into their individual components.",
+      "category": "Text Processing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/daviddrysdale/python-phonenumbers",
+      "title": "python-phonenumbers",
+      "description": "Parsing, formatting, storing and validating international phone numbers.",
+      "category": "Text Processing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/selwin/python-user-agents",
+      "title": "python-user-agents",
+      "description": "Browser user agent parser.",
+      "category": "Text Processing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/andialbrecht/sqlparse",
+      "title": "sqlparse",
+      "description": "A non-validating SQL parser.",
+      "category": "Text Processing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://www.crummy.com/software/BeautifulSoup/bs4/doc/",
+      "title": "beautifulsoup",
+      "description": "Providing Pythonic idioms for iterating, searching, and modifying HTML or XML.",
+      "category": "HTML Manipulation",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/EmilStenstrom/justhtml/",
+      "title": "justhtml",
+      "description": "A pure Python HTML5 parser that just works.",
+      "category": "HTML Manipulation",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/lxml/lxml",
+      "title": "lxml",
+      "description": "A very fast, easy-to-use and versatile library for handling HTML and XML.",
+      "category": "HTML Manipulation",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/pallets/markupsafe",
+      "title": "markupsafe",
+      "description": "Implements a XML/HTML/XHTML Markup safe string for Python.",
+      "category": "HTML Manipulation",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/gawel/pyquery",
+      "title": "pyquery",
+      "description": "A jQuery-like library for parsing HTML.",
+      "category": "HTML Manipulation",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/Kozea/tinycss2",
+      "title": "tinycss2",
+      "description": "A low-level CSS parser and generator written in Python.",
+      "category": "HTML Manipulation",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/martinblech/xmltodict",
+      "title": "xmltodict",
+      "description": "Working with XML feel like you are working with JSON.",
+      "category": "HTML Manipulation",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/docling-project/docling",
+      "title": "docling",
+      "description": "Library for converting documents into structured data.",
+      "category": "File Format Processing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/eliben/pyelftools",
+      "title": "pyelftools",
+      "description": "Parsing and analyzing ELF files and DWARF debugging information.",
+      "category": "File Format Processing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/jazzband/tablib",
+      "title": "tablib",
+      "description": "A module for Tabular Datasets in XLS, CSV, JSON, YAML.",
+      "category": "File Format Processing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/elapouya/python-docx-template",
+      "title": "docxtpl",
+      "description": "Editing a docx document by jinja2 template",
+      "category": "File Format Processing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://openpyxl.readthedocs.io/en/stable/",
+      "title": "openpyxl",
+      "description": "A library for reading and writing Excel 2010 xlsx/xlsm/xltx/xltm files.",
+      "category": "File Format Processing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/pyexcel/pyexcel",
+      "title": "pyexcel",
+      "description": "Providing one API for reading, manipulating and writing csv, ods, xls, xlsx and xlsm files.",
+      "category": "File Format Processing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/python-openxml/python-docx",
+      "title": "python-docx",
+      "description": "Reads, queries and modifies Microsoft Word 2007/2008 docx files.",
+      "category": "File Format Processing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/scanny/python-pptx",
+      "title": "python-pptx",
+      "description": "Python library for creating and updating PowerPoint (.pptx) files.",
+      "category": "File Format Processing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/jmcnamara/XlsxWriter",
+      "title": "xlsxwriter",
+      "description": "A Python module for creating Excel .xlsx files.",
+      "category": "File Format Processing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/xlwings/xlwings",
+      "title": "xlwings",
+      "description": "A BSD-licensed library that makes it easy to call Python from Excel and vice versa.",
+      "category": "File Format Processing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/pdfminer/pdfminer.six",
+      "title": "pdfminer.six",
+      "description": "Pdfminer.six is a community maintained fork of the original PDFMiner.",
+      "category": "File Format Processing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/pikepdf/pikepdf",
+      "title": "pikepdf",
+      "description": "A powerful library for reading and editing PDF files, based on qpdf.",
+      "category": "File Format Processing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/py-pdf/pypdf",
+      "title": "pypdf",
+      "description": "A library capable of splitting, merging, cropping, and transforming PDF pages.",
+      "category": "File Format Processing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://www.reportlab.com/opensource/",
+      "title": "reportlab",
+      "description": "Allowing Rapid creation of rich PDF documents.",
+      "category": "File Format Processing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/Kozea/WeasyPrint",
+      "title": "weasyprint",
+      "description": "A visual rendering engine for HTML and CSS that can export to PDF.",
+      "category": "File Format Processing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/executablebooks/markdown-it-py",
+      "title": "markdown-it-py",
+      "description": "Markdown parser with 100% CommonMark support, extensions, and syntax plugins.",
+      "category": "File Format Processing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/Python-Markdown/markdown",
+      "title": "markdown",
+      "description": "A Python implementation of John Gruber’s Markdown.",
+      "category": "File Format Processing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/microsoft/markitdown",
+      "title": "markitdown",
+      "description": "Python tool for converting files and office documents to Markdown.",
+      "category": "File Format Processing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/lepture/mistune",
+      "title": "mistune",
+      "description": "Fastest and full featured pure Python parsers of Markdown.",
+      "category": "File Format Processing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/wireservice/csvkit",
+      "title": "csvkit",
+      "description": "Utilities for converting to and working with CSV.",
+      "category": "File Format Processing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/yaml/pyyaml",
+      "title": "pyyaml",
+      "description": "YAML implementations for Python.",
+      "category": "File Format Processing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://docs.python.org/3/library/tomllib.html",
+      "title": "tomllib",
+      "description": "(Python standard library) Parse TOML files.",
+      "category": "File Format Processing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://docs.python.org/3/library/mimetypes.html",
+      "title": "mimetypes",
+      "description": "(Python standard library) Map filenames to MIME types.",
+      "category": "File Manipulation",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://docs.python.org/3/library/pathlib.html",
+      "title": "pathlib",
+      "description": "(Python standard library) A cross-platform, object-oriented path library.",
+      "category": "File Manipulation",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/ahupp/python-magic",
+      "title": "python-magic",
+      "description": "A Python interface to the libmagic file type identification library.",
+      "category": "File Manipulation",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/gorakhargosh/watchdog",
+      "title": "watchdog",
+      "description": "API and shell utilities to monitor file system events.",
+      "category": "File Manipulation",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/samuelcolvin/watchfiles",
+      "title": "watchfiles",
+      "description": "Simple, modern and fast file watching and code reload in python.",
+      "category": "File Manipulation",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/python-pillow/Pillow",
+      "title": "pillow",
+      "description": "Pillow is the friendly [PIL](https://www.pythonware.com/products/pil/) fork.",
+      "category": "Image Processing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/pymatting/pymatting",
+      "title": "pymatting",
+      "description": "A library for alpha matting.",
+      "category": "Image Processing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/WhyNotHugo/python-barcode",
+      "title": "python-barcode",
+      "description": "Create barcodes in Python with no extra dependencies.",
+      "category": "Image Processing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/lincolnloop/python-qrcode",
+      "title": "python-qrcode",
+      "description": "A pure Python QR Code generator.",
+      "category": "Image Processing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/libvips/pyvips",
+      "title": "pyvips",
+      "description": "A fast image processing library with low memory needs.",
+      "category": "Image Processing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/scikit-image/scikit-image",
+      "title": "scikit-image",
+      "description": "A Python library for (scientific) image processing.",
+      "category": "Image Processing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/thumbor/thumbor",
+      "title": "thumbor",
+      "description": "A smart imaging service. It enables on-demand crop, re-sizing and flipping of images.",
+      "category": "Image Processing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/emcconville/wand",
+      "title": "wand",
+      "description": "Python bindings for [MagickWand](https://www.imagemagick.org/script/magick-wand.php), C API for ImageMagick.",
+      "category": "Image Processing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/birdnet-team/BirdNET-Analyzer",
+      "title": "birdnet",
+      "description": "Deep learning framework for acoustic species detection; identifies bird species from audio recordings using TensorFlow.",
+      "category": "Audio & Video Processing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/pndurette/gTTS",
+      "title": "gtts",
+      "description": "Python library and CLI tool for converting text to speech using Google Translate TTS.",
+      "category": "Audio & Video Processing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/KittenML/KittenTTS",
+      "title": "KittenTTS",
+      "description": "Lightweight ONNX text-to-speech library with small CPU-friendly models.",
+      "category": "Audio & Video Processing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/librosa/librosa",
+      "title": "librosa",
+      "description": "Python library for audio and music analysis.",
+      "category": "Audio & Video Processing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/sergree/matchering",
+      "title": "matchering",
+      "description": "A library for automated reference audio mastering.",
+      "category": "Audio & Video Processing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/jiaaro/pydub",
+      "title": "pydub",
+      "description": "Manipulate audio with a simple and easy high level interface.",
+      "category": "Audio & Video Processing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/Zulko/moviepy",
+      "title": "moviepy",
+      "description": "A module for script-based movie editing with many formats, including animated GIFs.",
+      "category": "Audio & Video Processing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/abhiTronix/vidgear",
+      "title": "vidgear",
+      "description": "Most Powerful multi-threaded Video Processing framework.",
+      "category": "Audio & Video Processing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/beetbox/beets",
+      "title": "beets",
+      "description": "A music library manager and [MusicBrainz](https://musicbrainz.org/) tagger.",
+      "category": "Audio & Video Processing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/quodlibet/mutagen",
+      "title": "mutagen",
+      "description": "A Python module to handle audio metadata.",
+      "category": "Audio & Video Processing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/tinytag/tinytag",
+      "title": "tinytag",
+      "description": "A library for reading music meta data of MP3, OGG, FLAC and Wave files.",
+      "category": "Audio & Video Processing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/pythonarcade/arcade",
+      "title": "arcade",
+      "description": "Arcade is a modern Python framework for crafting games with compelling graphics and sound.",
+      "category": "Game Development",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/panda3d/panda3d",
+      "title": "panda3d",
+      "description": "3D game engine developed by Disney.",
+      "category": "Game Development",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/py-sdl/py-sdl2",
+      "title": "py-sdl2",
+      "description": "A ctypes based wrapper for the SDL2 library.",
+      "category": "Game Development",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/pygame/pygame",
+      "title": "pygame",
+      "description": "Pygame is a set of Python modules designed for writing games.",
+      "category": "Game Development",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/mcfletch/pyopengl",
+      "title": "pyopengl",
+      "description": "Python ctypes bindings for OpenGL and it's related APIs.",
+      "category": "Game Development",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/renpy/renpy",
+      "title": "renpy",
+      "description": "A Visual Novel engine.",
+      "category": "Game Development",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/python/cpython",
+      "title": "cpython",
+      "description": "Default, most widely used implementation of the Python programming language written in C.",
+      "category": "Implementations",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/cython/cython",
+      "title": "cython",
+      "description": "Optimizing Static Compiler for Python.",
+      "category": "Implementations",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/IronLanguages/ironpython3",
+      "title": "ironpython",
+      "description": "Implementation of the Python programming language written in C#.",
+      "category": "Implementations",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/micropython/micropython",
+      "title": "micropython",
+      "description": "A lean and efficient Python programming language implementation.",
+      "category": "Implementations",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/pyodide/pyodide",
+      "title": "pyodide",
+      "description": "Python distribution for the browser and Node.js based on WebAssembly.",
+      "category": "Implementations",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/pypy/pypy",
+      "title": "pypy",
+      "description": "A very fast and compliant implementation of the Python language.",
+      "category": "Implementations",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/python-attrs/attrs",
+      "title": "attrs",
+      "description": "Replacement for `__init__`, `__eq__`, `__repr__`, etc. boilerplate in class definitions.",
+      "category": "Built-in Classes Enhancement",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/jab/bidict",
+      "title": "bidict",
+      "description": "Efficient, Pythonic bidirectional map data structures and related functionality.",
+      "category": "Built-in Classes Enhancement",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/cdgriffith/Box",
+      "title": "box",
+      "description": "Python dictionaries with advanced dot notation access.",
+      "category": "Built-in Classes Enhancement",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/aminalaee/uuid-utils",
+      "title": "uuid-utils",
+      "description": "A fast, Rust-backed drop-in replacement for Python's built-in `uuid` module, supporting RFC 9562 (UUIDv6, UUIDv7, and UUIDv8).",
+      "category": "Built-in Classes Enhancement",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/evhub/coconut",
+      "title": "coconut",
+      "description": "A variant of Python built for simple, elegant, Pythonic functional programming.",
+      "category": "Functional Programming",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://docs.python.org/3/library/functools.html",
+      "title": "functools",
+      "description": "(Python standard library) Higher-order functions and operations on callable objects.",
+      "category": "Functional Programming",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/Suor/funcy",
+      "title": "funcy",
+      "description": "A fancy and practical functional tools.",
+      "category": "Functional Programming",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/more-itertools/more-itertools",
+      "title": "more-itertools",
+      "description": "More routines for operating on iterables, beyond `itertools`.",
+      "category": "Functional Programming",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/dry-python/returns",
+      "title": "returns",
+      "description": "A set of type-safe monads, transformers, and composition utilities.",
+      "category": "Functional Programming",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/pytoolz/toolz",
+      "title": "toolz",
+      "description": "A collection of functional utilities for iterators, functions, and dictionaries. Also available as [cytoolz](https://github.com/pytoolz/cytoolz/) for Cython-accelerated performance.",
+      "category": "Functional Programming",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/agronholm/anyio",
+      "title": "anyio",
+      "description": "A high-level async concurrency and networking framework that works on top of asyncio or trio.",
+      "category": "Asynchronous Programming",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://docs.python.org/3/library/asyncio.html",
+      "title": "asyncio",
+      "description": "(Python standard library) Asynchronous I/O, event loop, coroutines and tasks.",
+      "category": "Asynchronous Programming",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://docs.python.org/3/library/concurrent.futures.html",
+      "title": "concurrent.futures",
+      "description": "(Python standard library) A high-level interface for asynchronously executing callables.",
+      "category": "Asynchronous Programming",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/gevent/gevent",
+      "title": "gevent",
+      "description": "A coroutine-based Python networking library that uses [greenlet](https://github.com/python-greenlet/greenlet).",
+      "category": "Asynchronous Programming",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://docs.python.org/3/library/multiprocessing.html",
+      "title": "multiprocessing",
+      "description": "(Python standard library) Process-based parallelism.",
+      "category": "Asynchronous Programming",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/python-trio/trio",
+      "title": "trio",
+      "description": "A friendly library for async concurrency and I/O.",
+      "category": "Asynchronous Programming",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/twisted/twisted",
+      "title": "twisted",
+      "description": "An event-driven networking engine.",
+      "category": "Asynchronous Programming",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/MagicStack/uvloop",
+      "title": "uvloop",
+      "description": "Ultra fast asyncio event loop.",
+      "category": "Asynchronous Programming",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/scrapinghub/dateparser",
+      "title": "dateparser",
+      "description": "A Python parser for human-readable dates in dozens of languages.",
+      "category": "Date and Time",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/dateutil/dateutil",
+      "title": "dateutil",
+      "description": "Extensions to the standard Python [datetime](https://docs.python.org/3/library/datetime.html) module.",
+      "category": "Date and Time",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/python-pendulum/pendulum",
+      "title": "pendulum",
+      "description": "Python datetimes made easy.",
+      "category": "Date and Time",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://docs.python.org/3/library/zoneinfo.html",
+      "title": "zoneinfo",
+      "description": "(Python standard library) IANA time zone support. Brings the [tz database](https://en.wikipedia.org/wiki/Tz_database) into Python.",
+      "category": "Date and Time",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/Tlaloc-Es/killpy",
+      "title": "KillPy",
+      "description": "Analyze, detect, and clean unused Python environments and pipx packages.",
+      "category": "Environment Management",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/pyenv/pyenv",
+      "title": "pyenv",
+      "description": "Simple Python version management.",
+      "category": "Environment Management",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/pyenv-win/pyenv-win",
+      "title": "pyenv-win",
+      "description": "Pyenv for Windows.",
+      "category": "Environment Management",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/uv",
+      "title": "uv",
+      "description": "An extremely fast Python version, package and project manager, written in Rust.",
+      "category": "Environment Management",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/pypa/virtualenv",
+      "title": "virtualenv",
+      "description": "A tool to create isolated Python environments.",
+      "category": "Environment Management",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/conda/conda/",
+      "title": "conda",
+      "description": "Cross-platform, Python-agnostic binary package manager.",
+      "category": "Package Management",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/pypa/hatch",
+      "title": "hatch",
+      "description": "Modern, extensible Python project manager for environments, builds, and publishing.",
+      "category": "Package Management",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/pypa/pip",
+      "title": "pip",
+      "description": "The package installer for Python.",
+      "category": "Package Management",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/pypa/pipx",
+      "title": "pipx",
+      "description": "Install and Run Python Applications in Isolated Environments. Like `npx` in Node.js.",
+      "category": "Package Management",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/python-poetry/poetry",
+      "title": "poetry",
+      "description": "Python dependency management and packaging made easy.",
+      "category": "Package Management",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/pypa/bandersnatch/",
+      "title": "bandersnatch",
+      "description": "PyPI mirroring tool provided by Python Packaging Authority (PyPA).",
+      "category": "Package Repositories",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/devpi/devpi",
+      "title": "devpi",
+      "description": "PyPI server and packaging/testing/release tool.",
+      "category": "Package Repositories",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/pypi/warehouse",
+      "title": "warehouse",
+      "description": "Next generation Python Package Repository (PyPI).",
+      "category": "Package Repositories",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/marcelotduarte/cx_Freeze",
+      "title": "cx-Freeze",
+      "description": "It is a Python tool that converts Python scripts into standalone executables and installers for Windows, macOS, and Linux.",
+      "category": "Distribution",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/Nuitka/Nuitka",
+      "title": "Nuitka",
+      "description": "Compiles Python programs into high-performance standalone executables (cross-platform, supports all Python versions).",
+      "category": "Distribution",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/dashingsoft/pyarmor",
+      "title": "pyarmor",
+      "description": "A tool used to obfuscate python scripts, bind obfuscated scripts to fixed machine or expire obfuscated scripts.",
+      "category": "Distribution",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/pyinstaller/pyinstaller",
+      "title": "pyinstaller",
+      "description": "Converts Python programs into stand-alone executables (cross-platform).",
+      "category": "Distribution",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/linkedin/shiv",
+      "title": "shiv",
+      "description": "A command line utility for building fully self-contained zipapps (PEP 441), but with all their dependencies included.",
+      "category": "Distribution",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://docs.python.org/3/library/configparser.html",
+      "title": "configparser",
+      "description": "(Python standard library) INI file parser.",
+      "category": "Configuration Files",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/dynaconf/dynaconf",
+      "title": "dynaconf",
+      "description": "Dynaconf is a configuration manager with plugins for Django, Flask and FastAPI.",
+      "category": "Configuration Files",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/facebookresearch/hydra",
+      "title": "hydra",
+      "description": "Hydra is a framework for elegantly configuring complex applications.",
+      "category": "Configuration Files",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/HBNetwork/python-decouple",
+      "title": "python-decouple",
+      "description": "Strict separation of settings from code.",
+      "category": "Configuration Files",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/theskumar/python-dotenv",
+      "title": "python-dotenv",
+      "description": "Reads key-value pairs from a `.env` file and sets them as environment variables.",
+      "category": "Configuration Files",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/pyca/cryptography",
+      "title": "cryptography",
+      "description": "A package designed to expose cryptographic primitives and recipes to Python developers.",
+      "category": "Cryptography",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/paramiko/paramiko",
+      "title": "paramiko",
+      "description": "The leading native Python SSHv2 protocol library.",
+      "category": "Cryptography",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/pyca/pynacl",
+      "title": "pynacl",
+      "description": "Python binding to the Networking and Cryptography (NaCl) library.",
+      "category": "Cryptography",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/mitmproxy/mitmproxy",
+      "title": "mitmproxy",
+      "description": "An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers.",
+      "category": "Penetration Testing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/trustedsec/social-engineer-toolkit",
+      "title": "setoolkit",
+      "description": "A toolkit for social engineering.",
+      "category": "Penetration Testing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/sherlock-project/sherlock",
+      "title": "sherlock",
+      "description": "Hunt down social media accounts by username across social networks.",
+      "category": "Penetration Testing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/sqlmapproject/sqlmap",
+      "title": "sqlmap",
+      "description": "Automatic SQL injection and database takeover tool.",
+      "category": "Penetration Testing",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/TypeError/secure",
+      "title": "secure",
+      "description": "HTTP security headers for Python web applications with ASGI and WSGI middleware.",
+      "category": "Web Security",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/hbldh/bleak",
+      "title": "bleak",
+      "description": "A cross platform Bluetooth Low Energy Client for Python using asyncio.",
+      "category": "Hardware",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/jumpstarter-dev/jumpstarter",
+      "title": "jumpstarter",
+      "description": "A hardware-in-the-loop testing framework with a Python client library for automated testing on real and virtual hardware.",
+      "category": "Hardware",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/moses-palmer/pynput",
+      "title": "pynput",
+      "description": "A library to control and monitor input devices.",
+      "category": "Hardware",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/N4S4/synology-api",
+      "title": "synology-api",
+      "description": "Python wrapper for Synology NAS APIs: Surveillance Station, File Station, Download Station, Docker, and 50+ other endpoints.",
+      "category": "Hardware",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/pythonnet/pythonnet",
+      "title": "pythonnet",
+      "description": "Python Integration with the .NET Common Language Runtime (CLR).",
+      "category": "Microsoft Windows",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/mhammond/pywin32",
+      "title": "pywin32",
+      "description": "Python Extensions for Windows.",
+      "category": "Microsoft Windows",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/winpython/winpython",
+      "title": "winpython",
+      "description": "Portable development environment for Windows 10/11.",
+      "category": "Microsoft Windows",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/pallets-eco/blinker",
+      "title": "blinker",
+      "description": "A fast Python in-process signal/event dispatching system.",
+      "category": "Miscellaneous",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/mahmoud/boltons",
+      "title": "boltons",
+      "description": "A set of pure-Python utilities.",
+      "category": "Miscellaneous",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/pallets/itsdangerous",
+      "title": "itsdangerous",
+      "description": "Various helpers to pass trusted data to untrusted environments.",
+      "category": "Miscellaneous",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://github.com/tryton/tryton",
+      "title": "tryton",
+      "description": "A general-purpose business framework.",
+      "category": "Miscellaneous",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://python.libhunt.com/newsletter",
+      "title": "Awesome Python Newsletter",
+      "description": null,
+      "category": "Newsletters",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://pycoders.com/",
+      "title": "Pycoder's Weekly",
+      "description": null,
+      "category": "Newsletters",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://realpython.com/python-tricks/",
+      "title": "Python Tricks",
+      "description": null,
+      "category": "Newsletters",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://www.pythonweekly.com/",
+      "title": "Python Weekly",
+      "description": null,
+      "category": "Newsletters",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://djangochat.com/",
+      "title": "Django Chat",
+      "description": null,
+      "category": "Podcasts",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://pypodcats.live",
+      "title": "PyPodcats",
+      "description": null,
+      "category": "Podcasts",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://pythonbytes.fm",
+      "title": "Python Bytes",
+      "description": null,
+      "category": "Podcasts",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://talkpython.fm/",
+      "title": "Talk Python To Me",
+      "description": null,
+      "category": "Podcasts",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://realpython.com/podcasts/rpp/",
+      "title": "The Real Python Podcast",
+      "description": null,
+      "category": "Podcasts",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    },
+    {
+      "url": "https://pydevtools.com/",
+      "title": "Python Developer Tooling Handbook",
+      "description": "Comprehensive guide to modern Python developer tools covering package management, linting, type checking, testing, and more.",
+      "category": "Websites",
+      "source": "vinta/awesome-python",
+      "indexedAt": "2026-07-23T13:30:40.416Z"
+    }
+  ],
+  "categories": [
+    "AI and Agents",
+    "Deep Learning",
+    "Machine Learning",
+    "Natural Language Processing",
+    "Computer Vision",
+    "Recommender Systems",
+    "Web Frameworks",
+    "Web APIs",
+    "Web Servers",
+    "WebSocket",
+    "Template Engines",
+    "Web Asset Management",
+    "Authentication",
+    "Admin Panels",
+    "CMS",
+    "Static Site Generators",
+    "HTTP Clients",
+    "Web Scraping",
+    "Email",
+    "ORM",
+    "Database Drivers",
+    "Database",
+    "Caching",
+    "Search",
+    "Serialization",
+    "Data Analysis",
+    "Data Ingestion / ETL",
+    "Data Validation",
+    "Data Visualization",
+    "Geolocation",
+    "Science",
+    "Quantum Computing",
+    "Algorithms and Design Patterns",
+    "Interactive Interpreter",
+    "Code Analysis",
+    "Testing",
+    "Debugging Tools",
+    "Build Tools",
+    "Documentation",
+    "DevOps Tools",
+    "Distributed Computing",
+    "Task Queues",
+    "Messaging",
+    "Job Schedulers",
+    "Logging",
+    "Network Virtualization",
+    "CLI Development",
+    "CLI Tools",
+    "GUI Development",
+    "Text Processing",
+    "HTML Manipulation",
+    "File Format Processing",
+    "File Manipulation",
+    "Image Processing",
+    "Audio & Video Processing",
+    "Game Development",
+    "Implementations",
+    "Built-in Classes Enhancement",
+    "Functional Programming",
+    "Asynchronous Programming",
+    "Date and Time",
+    "Environment Management",
+    "Package Management",
+    "Package Repositories",
+    "Distribution",
+    "Configuration Files",
+    "Cryptography",
+    "Penetration Testing",
+    "Web Security",
+    "Hardware",
+    "Microsoft Windows",
+    "Miscellaneous",
+    "Newsletters",
+    "Podcasts",
+    "Websites"
+  ],
+  "crawledAt": "2026-07-23T13:30:40.416Z"
+}

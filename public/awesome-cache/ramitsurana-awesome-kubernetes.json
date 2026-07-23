@@ -1,0 +1,443 @@
+{
+  "repoId": "ramitsurana/awesome-kubernetes",
+  "name": "A curated list for awesome kubernetes sources :ship::tada:",
+  "description": "A curated list for awesome kubernetes sources :ship::tada:",
+  "repoUrl": "https://github.com/ramitsurana/awesome-kubernetes",
+  "stars": 16030,
+  "topics": [
+    "aws",
+    "azure",
+    "books",
+    "cloud-providers",
+    "deploy-kubernetes",
+    "docker",
+    "enterprise-kubernetes-products",
+    "google-cloud",
+    "google-kubernetes",
+    "kubernetes",
+    "kubernetes-cluster",
+    "kubernetes-sources",
+    "machine-learning",
+    "meetup",
+    "minikube",
+    "monitoring-kubernetes",
+    "resource",
+    "schedule"
+  ],
+  "links": [
+    {
+      "url": "https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg",
+      "title": "![Awesome",
+      "description": null,
+      "category": "Awesome-Kubernetes",
+      "source": "ramitsurana/awesome-kubernetes",
+      "indexedAt": "2026-07-23T13:30:44.162Z"
+    },
+    {
+      "url": "https://github.com/ramitsurana/awesome-kubernetes/actions/workflows/links.yaml/badge.svg",
+      "title": "![Links validator",
+      "description": null,
+      "category": "Awesome-Kubernetes",
+      "source": "ramitsurana/awesome-kubernetes",
+      "indexedAt": "2026-07-23T13:30:44.162Z"
+    },
+    {
+      "url": "https://github.com/ramitsurana/awesome-kubernetes/actions/workflows/main.yml/badge.svg",
+      "title": "![Python application",
+      "description": null,
+      "category": "Awesome-Kubernetes",
+      "source": "ramitsurana/awesome-kubernetes",
+      "indexedAt": "2026-07-23T13:30:44.162Z"
+    },
+    {
+      "url": "https://img.shields.io/badge/Slack-Channel-blue.svg?style=flat-square",
+      "title": "![Slack Widget",
+      "description": null,
+      "category": "Awesome-Kubernetes",
+      "source": "ramitsurana/awesome-kubernetes",
+      "indexedAt": "2026-07-23T13:30:44.162Z"
+    },
+    {
+      "url": "https://readthedocs.org/projects/awesome-kubernetes-by-ramitsurana/badge/?version=latest",
+      "title": "![Documentation Status",
+      "description": null,
+      "category": "Awesome-Kubernetes",
+      "source": "ramitsurana/awesome-kubernetes",
+      "indexedAt": "2026-07-23T13:30:44.162Z"
+    },
+    {
+      "url": "https://mybinder.org/badge_logo.svg",
+      "title": "![Binder",
+      "description": null,
+      "category": "Awesome-Kubernetes",
+      "source": "ramitsurana/awesome-kubernetes",
+      "indexedAt": "2026-07-23T13:30:44.162Z"
+    },
+    {
+      "url": "https://cloud.google.com/community/",
+      "title": "Google Cloud",
+      "description": null,
+      "category": "Featured On",
+      "source": "ramitsurana/awesome-kubernetes",
+      "indexedAt": "2026-07-23T13:30:44.162Z"
+    },
+    {
+      "url": "https://www.freecodecamp.org/news/a-friendly-introduction-to-kubernetes-670c50ce4542/",
+      "title": "freeCodeCamp",
+      "description": null,
+      "category": "Featured On",
+      "source": "ramitsurana/awesome-kubernetes",
+      "indexedAt": "2026-07-23T13:30:44.162Z"
+    },
+    {
+      "url": "https://docs.google.com/presentation/d/1JqcALpsg07eH665ZXQrIvOcin6SzzsIUjMRRVivrZMg/edit?usp=sharing",
+      "title": "Kubernetes Community Overview and Contributions Guide",
+      "description": null,
+      "category": "Starting Point",
+      "source": "ramitsurana/awesome-kubernetes",
+      "indexedAt": "2026-07-23T13:30:44.162Z"
+    },
+    {
+      "url": "https://www.linkedin.com/pulse/you-ready-manage-your-infrastructure-like-google-matthew-bates/",
+      "title": "Are you Ready to Manage your Infrastructure like Google?",
+      "description": null,
+      "category": "Starting Point",
+      "source": "ramitsurana/awesome-kubernetes",
+      "indexedAt": "2026-07-23T13:30:44.162Z"
+    },
+    {
+      "url": "http://www.businessinsider.in/Google-is-years-ahead-when-it-comes-to-the-cloud-but-its-happy-the-world-is-catching-up/articleshow/47793327.cms",
+      "title": "Google is years ahead when it comes to the cloud, but it's happy the world is catching up",
+      "description": null,
+      "category": "Starting Point",
+      "source": "ramitsurana/awesome-kubernetes",
+      "indexedAt": "2026-07-23T13:30:44.162Z"
+    },
+    {
+      "url": "http://www.ctl.io/developers/blog/post/what-is-kubernetes-and-how-to-use-it/",
+      "title": "An Intro to Google’s Kubernetes and How to Use It",
+      "description": null,
+      "category": "Starting Point",
+      "source": "ramitsurana/awesome-kubernetes",
+      "indexedAt": "2026-07-23T13:30:44.162Z"
+    },
+    {
+      "url": "https://github.com/meteorhacks/meteorhacks.github.io/blob/master/_posts/2015-04-22-learn-kubernetes-the-future-of-the-cloud.md",
+      "title": "Kubernetes: The Future of Cloud Hosting",
+      "description": null,
+      "category": "Starting Point",
+      "source": "ramitsurana/awesome-kubernetes",
+      "indexedAt": "2026-07-23T13:30:44.162Z"
+    },
+    {
+      "url": "http://thevirtualizationguy.wordpress.com/tag/kubernetes/",
+      "title": "Kubernetes by Google",
+      "description": null,
+      "category": "Starting Point",
+      "source": "ramitsurana/awesome-kubernetes",
+      "indexedAt": "2026-07-23T13:30:44.162Z"
+    },
+    {
+      "url": "http://blog.arungupta.me/key-concepts-kubernetes/",
+      "title": "Key Concepts",
+      "description": null,
+      "category": "Starting Point",
+      "source": "ramitsurana/awesome-kubernetes",
+      "indexedAt": "2026-07-23T13:30:44.162Z"
+    },
+    {
+      "url": "https://keithtenzer.com/containers/application-containers-kubernetes-and-docker-from-scratch/",
+      "title": "Application Containers: Kubernetes and Docker from Scratch",
+      "description": null,
+      "category": "Starting Point",
+      "source": "ramitsurana/awesome-kubernetes",
+      "indexedAt": "2026-07-23T13:30:44.162Z"
+    },
+    {
+      "url": "http://omerio.com/2015/12/18/learn-the-kubernetes-key-concepts-in-10-minutes/",
+      "title": "Learn the Kubernetes Key Concepts in 10 Minutes",
+      "description": null,
+      "category": "Starting Point",
+      "source": "ramitsurana/awesome-kubernetes",
+      "indexedAt": "2026-07-23T13:30:44.162Z"
+    },
+    {
+      "url": "https://kubernetes.io/blog/2016/06/illustrated-childrens-guide-to-kubernetes/",
+      "title": "The Children's Illustrated Guide to Kubernetes",
+      "description": null,
+      "category": "Starting Point",
+      "source": "ramitsurana/awesome-kubernetes",
+      "indexedAt": "2026-07-23T13:30:44.162Z"
+    },
+    {
+      "url": "https://github.com/eficode-academy/kubernetes-katas/",
+      "title": "Kubernetes Katas, A selection of exercises for Kubernetes",
+      "description": null,
+      "category": "Starting Point",
+      "source": "ramitsurana/awesome-kubernetes",
+      "indexedAt": "2026-07-23T13:30:44.162Z"
+    },
+    {
+      "url": "http://medium.com/@mhausenblas/the-kubectl-run-command-27c68de5cb76#.mlwi5an7o",
+      "title": "The ‘kubectl run’ command",
+      "description": null,
+      "category": "Starting Point",
+      "source": "ramitsurana/awesome-kubernetes",
+      "indexedAt": "2026-07-23T13:30:44.162Z"
+    },
+    {
+      "url": "https://github.com/xiaopeng163/docker-k8s-lab",
+      "title": "Docker Kubernetes Lab Handbook",
+      "description": null,
+      "category": "Starting Point",
+      "source": "ramitsurana/awesome-kubernetes",
+      "indexedAt": "2026-07-23T13:30:44.162Z"
+    },
+    {
+      "url": "https://hackr.io/tutorials/learn-kubernetes",
+      "title": "Curated Resources for Kubernetes",
+      "description": null,
+      "category": "Starting Point",
+      "source": "ramitsurana/awesome-kubernetes",
+      "indexedAt": "2026-07-23T13:30:44.162Z"
+    },
+    {
+      "url": "https://cloud.google.com/kubernetes-engine/kubernetes-comic/",
+      "title": "Kubernetes Comic",
+      "description": null,
+      "category": "Starting Point",
+      "source": "ramitsurana/awesome-kubernetes",
+      "indexedAt": "2026-07-23T13:30:44.162Z"
+    },
+    {
+      "url": "https://medium.com/google-cloud/kubernetes-101-pods-nodes-containers-and-clusters-c1509e409e16",
+      "title": "Kubernetes 101: Pods, Nodes, Containers, and Clusters",
+      "description": null,
+      "category": "Starting Point",
+      "source": "ramitsurana/awesome-kubernetes",
+      "indexedAt": "2026-07-23T13:30:44.162Z"
+    },
+    {
+      "url": "http://www.digitalocean.com/community/tutorials/an-introduction-to-kubernetes",
+      "title": "An Introduction to Kubernetes",
+      "description": null,
+      "category": "Starting Point",
+      "source": "ramitsurana/awesome-kubernetes",
+      "indexedAt": "2026-07-23T13:30:44.162Z"
+    },
+    {
+      "url": "https://rinormaloku.com/introduction-application-architecture/",
+      "title": "Kubernetes and everything else - Introduction to Kubernetes and it's context",
+      "description": null,
+      "category": "Starting Point",
+      "source": "ramitsurana/awesome-kubernetes",
+      "indexedAt": "2026-07-23T13:30:44.162Z"
+    },
+    {
+      "url": "http://severalnines.com/blog/installing-kubernetes-cluster-minions-centos7-manage-pods-services",
+      "title": "Installation on Centos 7",
+      "description": null,
+      "category": "Starting Point",
+      "source": "ramitsurana/awesome-kubernetes",
+      "indexedAt": "2026-07-23T13:30:44.162Z"
+    },
+    {
+      "url": "https://mherman.org/blog/2018/08/20/setting-up-a-kubernetes-cluster-on-ubuntu/",
+      "title": "Setting Up a Kubernetes Cluster on Ubuntu 18.04",
+      "description": null,
+      "category": "Starting Point",
+      "source": "ramitsurana/awesome-kubernetes",
+      "indexedAt": "2026-07-23T13:30:44.162Z"
+    },
+    {
+      "url": "https://landscape.cncf.io/",
+      "title": "Cloud Native Landscape",
+      "description": null,
+      "category": "Starting Point",
+      "source": "ramitsurana/awesome-kubernetes",
+      "indexedAt": "2026-07-23T13:30:44.162Z"
+    },
+    {
+      "url": "https://www.freecodecamp.org/news/the-kubernetes-handbook/",
+      "title": "The Kubernetes Handbook",
+      "description": null,
+      "category": "Starting Point",
+      "source": "ramitsurana/awesome-kubernetes",
+      "indexedAt": "2026-07-23T13:30:44.162Z"
+    },
+    {
+      "url": "https://www.manning.com/books/bootstrapping-microservices-with-docker-kubernetes-and-terraform-second-edition",
+      "title": "Bootstrapping Microservices with Docker, Kubernetes, and Terraform, Second Edition",
+      "description": null,
+      "category": "Starting Point",
+      "source": "ramitsurana/awesome-kubernetes",
+      "indexedAt": "2026-07-23T13:30:44.162Z"
+    },
+    {
+      "url": "https://www.manning.com/books/kubernetes-native-microservices-with-quarkus-and-microprofile",
+      "title": "Kubernetes Native Microservices with Quarkus, and MicroProfile",
+      "description": null,
+      "category": "Starting Point",
+      "source": "ramitsurana/awesome-kubernetes",
+      "indexedAt": "2026-07-23T13:30:44.162Z"
+    },
+    {
+      "url": "https://www.loginradius.com/blog/async/rest-api-kubernetes/",
+      "title": "How to Deploy a REST API in Kubernetes",
+      "description": null,
+      "category": "Starting Point",
+      "source": "ramitsurana/awesome-kubernetes",
+      "indexedAt": "2026-07-23T13:30:44.162Z"
+    },
+    {
+      "url": "https://www.manning.com/books/securing-kubernetes-secrets",
+      "title": "Securing Kubernetes Secrets",
+      "description": null,
+      "category": "Starting Point",
+      "source": "ramitsurana/awesome-kubernetes",
+      "indexedAt": "2026-07-23T13:30:44.162Z"
+    },
+    {
+      "url": "https://www.manning.com/books/continuous-delivery-for-kubernetes",
+      "title": "Continuous Delivery for Kubernetes",
+      "description": null,
+      "category": "Starting Point",
+      "source": "ramitsurana/awesome-kubernetes",
+      "indexedAt": "2026-07-23T13:30:44.162Z"
+    },
+    {
+      "url": "https://www.manning.com/books/gitops-and-kubernetes",
+      "title": "GitOps and Kubernetes",
+      "description": null,
+      "category": "Starting Point",
+      "source": "ramitsurana/awesome-kubernetes",
+      "indexedAt": "2026-07-23T13:30:44.162Z"
+    },
+    {
+      "url": "https://www.manning.com/books/knative-in-action",
+      "title": "Knative in Action",
+      "description": null,
+      "category": "Starting Point",
+      "source": "ramitsurana/awesome-kubernetes",
+      "indexedAt": "2026-07-23T13:30:44.162Z"
+    },
+    {
+      "url": "https://www.manning.com/books/learn-kubernetes-in-a-month-of-lunches",
+      "title": "Learn Kubernetes in a Month of Lunches",
+      "description": null,
+      "category": "Starting Point",
+      "source": "ramitsurana/awesome-kubernetes",
+      "indexedAt": "2026-07-23T13:30:44.162Z"
+    },
+    {
+      "url": "https://www.manning.com/books/cloud-native-spring-in-action",
+      "title": "Cloud Native Spring in Action",
+      "description": null,
+      "category": "Starting Point",
+      "source": "ramitsurana/awesome-kubernetes",
+      "indexedAt": "2026-07-23T13:30:44.162Z"
+    },
+    {
+      "url": "https://www.manning.com/books/securing-cloud-applications",
+      "title": "Securing Cloud Applications",
+      "description": null,
+      "category": "Starting Point",
+      "source": "ramitsurana/awesome-kubernetes",
+      "indexedAt": "2026-07-23T13:30:44.162Z"
+    },
+    {
+      "url": "https://www.manning.com/books/google-anthos-in-action",
+      "title": "Google Anthos in Action",
+      "description": null,
+      "category": "Starting Point",
+      "source": "ramitsurana/awesome-kubernetes",
+      "indexedAt": "2026-07-23T13:30:44.162Z"
+    },
+    {
+      "url": "https://blog.brainboard.co/kubernetes-explained",
+      "title": "Kubernetes explained",
+      "description": null,
+      "category": "Starting Point",
+      "source": "ramitsurana/awesome-kubernetes",
+      "indexedAt": "2026-07-23T13:30:44.162Z"
+    },
+    {
+      "url": "https://www.manning.com/books/cloud-observability-in-action",
+      "title": "Cloud Observabillity in Action",
+      "description": null,
+      "category": "Starting Point",
+      "source": "ramitsurana/awesome-kubernetes",
+      "indexedAt": "2026-07-23T13:30:44.162Z"
+    },
+    {
+      "url": "https://www.manning.com/books/core-kubernetes",
+      "title": "Core Kubernetes",
+      "description": null,
+      "category": "Starting Point",
+      "source": "ramitsurana/awesome-kubernetes",
+      "indexedAt": "2026-07-23T13:30:44.162Z"
+    },
+    {
+      "url": "https://www.manning.com/books/road-to-kubernetes",
+      "title": "Road to Kubernetes",
+      "description": null,
+      "category": "Starting Point",
+      "source": "ramitsurana/awesome-kubernetes",
+      "indexedAt": "2026-07-23T13:30:44.162Z"
+    },
+    {
+      "url": "https://www.manning.com/books/kubernetes-on-windows",
+      "title": "Kubernetes on Windows",
+      "description": null,
+      "category": "Starting Point",
+      "source": "ramitsurana/awesome-kubernetes",
+      "indexedAt": "2026-07-23T13:30:44.162Z"
+    },
+    {
+      "url": "https://blog.brainboard.co/kubernetes-explained-dde470707cb2",
+      "title": "Kubernetes explained",
+      "description": null,
+      "category": "Starting Point",
+      "source": "ramitsurana/awesome-kubernetes",
+      "indexedAt": "2026-07-23T13:30:44.162Z"
+    },
+    {
+      "url": "https://spacelift.io/blog/kubernetes-secrets",
+      "title": "How to Manage Secrets in Kubernetes – A Complete Guide",
+      "description": null,
+      "category": "Starting Point",
+      "source": "ramitsurana/awesome-kubernetes",
+      "indexedAt": "2026-07-23T13:30:44.162Z"
+    },
+    {
+      "url": "https://dev.to/idanref/kubernetes-concepts-deep-dive-50en",
+      "title": "Kubernetes Concepts: Deep Dive",
+      "description": null,
+      "category": "Starting Point",
+      "source": "ramitsurana/awesome-kubernetes",
+      "indexedAt": "2026-07-23T13:30:44.162Z"
+    },
+    {
+      "url": "https://www.manning.com/books/fluent-bit-with-kubernetes",
+      "title": "Fluent Bit with Kubernetes",
+      "description": null,
+      "category": "Starting Point",
+      "source": "ramitsurana/awesome-kubernetes",
+      "indexedAt": "2026-07-23T13:30:44.162Z"
+    },
+    {
+      "url": "https://medium.com/@ghumare64/kubernetes-from-scratch-part-1-4b40cb6c1aba",
+      "title": "Kubernetes from scratch",
+      "description": null,
+      "category": "Starting Point",
+      "source": "ramitsurana/awesome-kubernetes",
+      "indexedAt": "2026-07-23T13:30:44.162Z"
+    }
+  ],
+  "categories": [
+    "Awesome-Kubernetes",
+    "Featured On",
+    "Starting Point"
+  ],
+  "crawledAt": "2026-07-23T13:30:44.162Z"
+}

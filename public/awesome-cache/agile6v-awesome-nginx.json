@@ -1,0 +1,2194 @@
+{
+  "repoId": "agile6v/awesome-nginx",
+  "name": "A curated list of awesome Nginx distributions, 3rd party modules, Active developers, etc. :octocat:  ",
+  "description": "A curated list of awesome Nginx distributions, 3rd party modules, Active developers, etc. :octocat:  ",
+  "repoUrl": "https://github.com/agile6v/awesome-nginx",
+  "stars": 1284,
+  "topics": [
+    "awesome",
+    "awesome-list",
+    "lua-nginx",
+    "lua-resty",
+    "nginx",
+    "nginx-http",
+    "nginx-server",
+    "ngx-lua"
+  ],
+  "links": [
+    {
+      "url": "https://nginx.org/en/docs/install.html",
+      "title": "NGINX",
+      "description": null,
+      "category": "Well-known Distributions",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://freenginx.org/",
+      "title": "FreeNGINX",
+      "description": null,
+      "category": "Well-known Distributions",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/openresty/ngx_openresty",
+      "title": "OpenResty",
+      "description": null,
+      "category": "Well-known Distributions",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/alibaba/tengine",
+      "title": "Tengine",
+      "description": null,
+      "category": "Well-known Distributions",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/webserver-llc/angie",
+      "title": "Angie",
+      "description": null,
+      "category": "Well-known Distributions",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://deb.myguard.nl/nginx-modules/",
+      "title": "MyGuard NGINX",
+      "description": null,
+      "category": "Well-known Distributions",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://deb.myguard.nl/angie-modules-optimized-extended/",
+      "title": "MyGuard Angie",
+      "description": null,
+      "category": "Well-known Distributions",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/openresty/lua-nginx-module",
+      "title": "lua",
+      "description": null,
+      "category": "Embeddable Scripting Languages",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://nginx.org/en/docs/njs/",
+      "title": "javascript (njs)",
+      "description": null,
+      "category": "Embeddable Scripting Languages",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "http://nginx.org/en/docs/http/ngx_http_perl_module.html",
+      "title": "perl",
+      "description": null,
+      "category": "Embeddable Scripting Languages",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/matsumoto-r/ngx_mruby",
+      "title": "mruby",
+      "description": null,
+      "category": "Embeddable Scripting Languages",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/nginx-clojure/nginx-clojure",
+      "title": "clojure",
+      "description": null,
+      "category": "Embeddable Scripting Languages",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/rryqszq4/ngx_php",
+      "title": "php",
+      "description": null,
+      "category": "Embeddable Scripting Languages",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/Kong/ngx_wasm_module",
+      "title": "wasm",
+      "description": null,
+      "category": "Embeddable Scripting Languages",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/gp187/nginx-builder",
+      "title": "nginx-builder",
+      "description": null,
+      "category": "Builder",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/arut/nginx-rtmp-module",
+      "title": "nginx-rtmp-module",
+      "description": "NGINX-based Media Streaming Server.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/winshining/nginx-http-flv-module",
+      "title": "nginx-http-flv-module",
+      "description": "A media streaming server based on nginx-rtmp-module, provides HTTP-FLV.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/openresty/xss-nginx-module",
+      "title": "xss-nginx-module",
+      "description": "Native support for cross-site scripting (XSS) in an nginx.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/openresty/srcache-nginx-module",
+      "title": "srcache-nginx-module",
+      "description": "Transparent subrequest-based caching layout for arbitrary nginx locations.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/openresty/replace-filter-nginx-module",
+      "title": "replace-filter-nginx-module",
+      "description": "Streaming regular expression replacement in response bodies.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/openresty/rds-json-nginx-module",
+      "title": "rds-json-nginx-module",
+      "description": "An nginx output filter that formats Resty DBD Streams generated by ngx_drizzle and others to JSON.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/openresty/echo-nginx-module",
+      "title": "echo-nginx-module",
+      "description": "An Nginx module for bringing the power of \"echo\", \"sleep\", \"time\" and more to Nginx's config file.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/openresty/headers-more-nginx-module",
+      "title": "headers-more-nginx-module",
+      "description": "Set, add, and clear arbitrary output headers.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/openresty/rds-csv-nginx-module",
+      "title": "rds-csv-nginx-module",
+      "description": "Nginx output filter module to convert Resty-DBD-Streams (RDS) to Comma-Separated Values (CSV).",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/openresty/memc-nginx-module",
+      "title": "memc-nginx-module",
+      "description": "An extended version of the standard memcached module that supports set, add, delete, and many more memcached commands..",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/openresty/encrypted-session-nginx-module",
+      "title": "encrypted-session-nginx-module",
+      "description": "encrypt and decrypt nginx variable values.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/openresty/redis2-nginx-module",
+      "title": "redis2-nginx-module",
+      "description": "Nginx upstream module for the Redis 2.0 protocol.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/openresty/drizzle-nginx-module",
+      "title": "drizzle-nginx-module",
+      "description": "an nginx upstream module that talks to mysql and drizzle by libdrizzle.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/openresty/array-var-nginx-module",
+      "title": "array-var-nginx-module",
+      "description": "Add support for array-typed variables to nginx config files.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/openresty/set-misc-nginx-module",
+      "title": "set-misc-nginx-module",
+      "description": "Various set_xxx directives added to nginx's rewrite module (md5/sha1, sql/json quoting, and many more).",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/eilandert/nginx-error-abuse-module",
+      "title": "nginx-error-abuse-module",
+      "description": "Ratelimits and bans clients making excessive error (404/403/5xx) requests; shared-memory counters, optional Redis for multi-server, returns 429 to banned clients.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/vkholodkov/nginx-eval-module",
+      "title": "nginx-eval-module",
+      "description": "A module for evaluating memcached or proxy response into variable.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/apache/incubator-pagespeed-ngx",
+      "title": "ngx_pagespeed",
+      "description": "Automatic PageSpeed optimization module for Nginx.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/simpl/ngx_devel_kit",
+      "title": "ngx_devel_kit",
+      "description": "Nginx Development Kit - an Nginx module that adds additional generic tools that module developers can use in their own modules.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/FRiCKLE/ngx_cache_purge",
+      "title": "ngx_cache_purge",
+      "description": "nginx module which adds ability to purge content from FastCGI, proxy, SCGI and uWSGI caches.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/FRiCKLE/ngx_postgres",
+      "title": "ngx_postgres",
+      "description": "upstream module that allows nginx to communicate directly with PostgreSQL database.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/alibaba/nginx-backtrace",
+      "title": "nginx-backtrace",
+      "description": "A Nginx module to dump backtrace when a worker process exits abnormally.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/alibaba/nginx-http-concat",
+      "title": "nginx-http-concat",
+      "description": "A Nginx module for concatenating files in a given context: CSS and JS files usually.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/alibaba/nginx-http-user-agent",
+      "title": "nginx-http-user-agent",
+      "description": "A nginx module to match browsers and crawlers.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/alibaba/nginx-http-footer-filter",
+      "title": "nginx-http-footer-filter",
+      "description": "A nginx module that prints some text in the footer of a request.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/alibaba/nginx-http-slice",
+      "title": "nginx-http-slice",
+      "description": "Nginx module for serving a file in slices (reverse byte-range).",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/flavioribeiro/nginx-audio-track-for-hls-module",
+      "title": "nginx-audio-track-for-hls-module",
+      "description": "Nginx module that generates audio track for HTTP Live Streaming (HLS) streams on the fly.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/nginx-clojure/nginx-access-plus",
+      "title": "nginx-access-plus",
+      "description": "nginx module allows limiting access to certain http request methods and client addresses.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/Qihoo360/ngx_http_subrange_module",
+      "title": "ngx_http_subrange_module",
+      "description": "Split one big HTTP/Range request to multiple subrange requesets.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/yaoweibin/nginx_tcp_proxy_module",
+      "title": "nginx_tcp_proxy_module",
+      "description": "add the feature of tcp proxy with nginx, with health check and status monitor.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/yaoweibin/nginx_ajp_module",
+      "title": "nginx_ajp_module",
+      "description": "support AJP protocol proxy with Nginx.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/yaoweibin/ngx_http_substitutions_filter_module",
+      "title": "ngx_http_substitutions_filter_module",
+      "description": "a filter module which can do both regular expression and fixed string substitutions for nginx.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/yaoweibin/nginx-sticky-module",
+      "title": "nginx-sticky-module",
+      "description": "A nginx module to add an upstream server persistance using cookies.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/alibaba/nginx-http-sysguard",
+      "title": "nginx-http-sysguard",
+      "description": "A Nginx module to protect servers when system load or memory use goes too high.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/alibaba/nginx-tfs",
+      "title": "nginx-tfs",
+      "description": "An Asynchronous Nginx module providing a RESTful API for TFS (Taobao File System).",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/anomalizer/ngx_aws_auth",
+      "title": "ngx_aws_auth",
+      "description": "nginx module to proxy to authenticated AWS services.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/refractalize/nginx_mod_akamai_g2o",
+      "title": "nginx_mod_akamai_g2o",
+      "description": "Nginx Module for Authenticating Akamai G2O requests.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/FRiCKLE/ngx_supervisord",
+      "title": "ngx_supervisord",
+      "description": "nginx module providing API to communicate with supervisord and manage (start/stop) backends on-demand.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/cuber/ngx_http_google_filter_module",
+      "title": "ngx_http_google_filter_module",
+      "description": "Nginx Module for Google Mirror.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/yzprofile/ngx_http_dyups_module",
+      "title": "ngx_http_dyups_module",
+      "description": "update upstreams' config by restful interface.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/yzprofile/ngx_sync_msg_module",
+      "title": "ngx_sync_msg_module",
+      "description": "This module provides a mechanism to sync messages between workers for your module.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/fdintino/nginx-upload-module",
+      "title": "nginx-upload-module",
+      "description": "A module for nginx web server for handling file uploads using multipart/form-data encoding (RFC 1867).",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/wandenberg/nginx-video-thumbextractor-module",
+      "title": "nginx-video-thumbextractor-module",
+      "description": "Nginx module to extract thumbs from a video file.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/wandenberg/nginx-push-stream-module",
+      "title": "nginx-push-stream-module",
+      "description": "A pure stream http push technology for your Nginx setup. Comet made easy and really scalable.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/vozlt/nginx-module-vts",
+      "title": "nginx-module-vts",
+      "description": "Nginx virtual host traffic status module.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/Trax-retail/url-protector-nginx-module",
+      "title": "url-protector-nginx-module",
+      "description": "Nginx module which adds ability to decrypt strings encrypted with xxtea algorithm.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/vozlt/nginx-module-url",
+      "title": "nginx-module-url",
+      "description": "Nginx url encoding converting module.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/cubicdaiya/ngx_small_light",
+      "title": "ngx_small_light",
+      "description": "Dynamic Image Transformation Module For nginx.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/gnosek/nginx-upstream-fair",
+      "title": "nginx-upstream-fair",
+      "description": "The fair load balancer module for nginx.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/SpiderLabs/ModSecurity-nginx",
+      "title": "nginx_modSecurity",
+      "description": "ModSecurity is an open source, cross platform web application firewall (WAF) engine for Apache, IIS and Nginx that is developed by Trustwave's SpiderLabs.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/fluent/nginx-fluentd-module",
+      "title": "nginx-fluentd-module",
+      "description": "Nginx module for Fluentd data collector.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/FRiCKLE/ngx_zeromq",
+      "title": "ngx_zeromq",
+      "description": "ZeroMQ transport for nginx.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/agile6v/ngx_cache_viewer",
+      "title": "ngx_cache_viewer",
+      "description": "nginx module which adds ability to view cache node info from FastCGI, proxy, SCGI and uWSGI caches.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/slact/nginx_http_push_module",
+      "title": "nginx_http_push_module",
+      "description": "Turn NGiNX into an adept HTTP push server.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/wandenberg/nginx-selective-cache-purge-module",
+      "title": "nginx-selective-cache-purge-module",
+      "description": "A module to purge cache by GLOB patterns..",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/wargio/naxsi",
+      "title": "naxsi",
+      "description": "NAXSI is an open-source, high performance, low rules maintenance WAF for NGINX.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/couchbaselabs/couchbase-nginx-module",
+      "title": "couchbase-nginx-module",
+      "description": "The module for nginx webserver to access Couchbase Server.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/dbcode/protobuf-nginx",
+      "title": "protobuf-nginx",
+      "description": "Google Protocol Buffers code generator for nginx module developers.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/kyprizel/testcookie-nginx-module",
+      "title": "testcookie-nginx-module",
+      "description": "simple robot mitigation module using cookie based challenge/response technique.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/evanmiller/nginx_circle_gif",
+      "title": "nginx_circle_gif",
+      "description": "this module generates simple circle images with the colors and size specified in the URL.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/whatvn/ngx_http_estreaming_module",
+      "title": "ngx_http_estreaming_module",
+      "description": "An adaptive hls streaming module for nginx.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/leev/ngx_http_geoip2_module",
+      "title": "ngx_http_geoip2_module",
+      "description": "creates variables with values from the maxmind geoip2 databases based on the client IP (supports both IPv4 and IPv6).",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/laocai/tcp-nginx-module",
+      "title": "tcp-nginx-module",
+      "description": "Use nginx as a common TCP server framework.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/calio/iconv-nginx-module",
+      "title": "iconv-nginx-module",
+      "description": "a character conversion nginx module using libiconv.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/calio/form-input-nginx-module",
+      "title": "form-input-nginx-module",
+      "description": "This is a nginx module that reads HTTP POST and PUT request body encoded in \"application/x-www-form-urlencoded\", and parse the arguments in request body into nginx variables..",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/chaizhenhua/ngx-ip2location",
+      "title": "ngx-ip2location",
+      "description": "Nginx IP2Location Module.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/wangbin579/nginx-hmux-module",
+      "title": "nginx-hmux-module",
+      "description": "The module implements resin's hmux protocol in nginx.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/kyprizel/nginx_ocsp_proxy-module",
+      "title": "nginx_ocsp_proxy-module",
+      "description": "Nginx OCSP processing module designed for response caching.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/nginx-modules/nginx-hmac-secure-link",
+      "title": "nginx-hmac-secure-link",
+      "description": "Alternative Nginx secure link module with support for MD5, SHA-1, and SHA-2 hashes.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/gsdu8g9/waf-nginx-module",
+      "title": "waf-nginx-module",
+      "description": "A lightweight web application firewall module for nginx..",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/liseen/ngx-gm-filter",
+      "title": "ngx-gm-filter",
+      "description": "Another image filter based GraphicsMagick..",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/hamano/nginx-mod-so",
+      "title": "nginx-mod-so",
+      "description": "nginx_mod_so is dynamic loadable module for Nginx.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/kvspb/nginx-auth-ldap",
+      "title": "nginx-auth-ldap",
+      "description": "LDAP authentication module for nginx.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/yoreek/nginx-xsltproc-module",
+      "title": "nginx-xsltproc-module",
+      "description": "XSLT processor bases on Nginx.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/algermissen/nginx-dlg-auth",
+      "title": "nginx-dlg-auth",
+      "description": "NGINX module for delegating authentication and authorization to an HTTP gateway.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/anjuke/ngx_http_qqwry_module",
+      "title": "ngx_http_qqwry_module",
+      "description": "A nginx module that creates variables with location info from QQWry.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/gabrielfalcao/nginx-markdown-module",
+      "title": "nginx-markdown-module",
+      "description": "renderize markdown as HTML directly from your upstream server.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/vedang/nginx-nonewlines",
+      "title": "nginx-nonewlines",
+      "description": "This is an nginx module to strip the served HTML of all newlines (\\n and \\r characters).",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/vkholodkov/nginx-udplog-module",
+      "title": "nginx-udplog-module",
+      "description": "Implementation of logging using BSD Syslog Protocol for nginx (RFC 3164).",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/aperezdc/ngx-fancyindex",
+      "title": "nginx-fancyindex",
+      "description": "nginx fancy index module.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/Vasfed/nginx_ipset_blacklist",
+      "title": "nginx_ipset_blacklist",
+      "description": "nginx module to use linux netfilter ipsets as blacklists.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/vkholodkov/nginx-mogilefs-module",
+      "title": "nginx-mogilefs-module",
+      "description": "MogileFS client for nginx.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/replay/ngx_http_php_session",
+      "title": "ngx_http_php_session",
+      "description": "nginx module to parse php sessions.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/zzzcpan/ngx_trace",
+      "title": "ngx_trace",
+      "description": "runtime call tracer for nginx.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/alexchamberlain/nginx-qrcode",
+      "title": "nginx-qrcode",
+      "description": "Native QR encoding for Nginx Web Server.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/arut/nginx-dav-ext-module",
+      "title": "nginx-dav-ext-module",
+      "description": "NGINX WebDAV missing methods support (PROPFIND & OPTIONS).",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/mdirolf/nginx-gridfs",
+      "title": "nginx-gridfs",
+      "description": "Nginx module for serving files from MongoDB's GridFS.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/wburgers/Session-Binding-Proxy",
+      "title": "Session-Binding-Proxy",
+      "description": "An Nginx module capable of binding the application session to the SSL session by encrypting the application cookie with a secret key and the SSL master key.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/mschenck/ngx_http_gif_magick",
+      "title": "ngx_http_gif_magick",
+      "description": "nginx http filter module for dynamically resizing gifs with ImageMagick.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/masterzen/nginx-upload-progress-module",
+      "title": "nginx-upload-progress-module",
+      "description": "Nginx module implementing an upload progress system, that monitors RFC1867 POST uploads as they are transmitted to upstream servers.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/dizballanze/ngx_http_avatars_gen_module",
+      "title": "ngx_http_avatars_gen_module",
+      "description": "Nginx module for on-the-fly generating of avatars based on user initials.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/chobits/ngx_http_proxy_connect_module",
+      "title": "ngx_http_proxy_connect_module",
+      "description": "A forward proxy module for CONNECT request handling",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/ioppermann/modjpeg-nginx",
+      "title": "modjpeg-nginx",
+      "description": "Filter module for adding overlays and logos to JPEGs on-the-fly without degrading the quality of the image.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/Taymindis/nginx-c-function",
+      "title": "nginx-c-function",
+      "description": "It is a NGINX module that allow you to link your .so(c/c++) application in server context and call the function of .so application in location directive.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/Taymindis/ngx_lfqueue",
+      "title": "ngx_lfqueue",
+      "description": "a lock free queue(enq/deq) container running on nginx share memory and it enqueue/dequeue the messages across multiple threads and multiple workers without any locking.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/Taymindis/ngx_lfstack",
+      "title": "ngx_lfstack",
+      "description": "a lock free stack(push/pop) container running on nginx share memory and it push/pop the messages across multiple threads and multiple workers without any locking.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/Taymindis/ngx-stomp",
+      "title": "ngx-stomp",
+      "description": "A STOMP upstream module on nginx, STOMP is the Simple (or Streaming) Text Orientated Messaging Protocol.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/Taymindis/nginx-elastic-client",
+      "title": "nginx-elastic-client",
+      "description": "To structure your elastic client command in your nginx proxy for multiple elasticsearch server.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/tokers/zstd-nginx-module",
+      "title": "zstd-nginx-module",
+      "description": "Nginx modules for the Zstandard compression.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/yaoweibin/nginx_upstream_check_module",
+      "title": "nginx_upstream_check_module",
+      "description": "Health checks upstreams for nginx.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/ohnx/nginx-guess-mime",
+      "title": "ngx_http_guess_mime_module",
+      "description": "Guess the MIME type of files served using libmagic.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/mk-fg/nginx-stat-check",
+      "title": "ngx_http_stat_check",
+      "description": "Dynamic access blacklisting configuration via filesystem paths.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/FadedCoder/nginx-mime-magic-module",
+      "title": "nginx_mime_magic_module",
+      "description": "Another MIME guesser using libmagic with configurable Magic database path and fallback or compulsory mode.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/nginxinc/nginx-otel",
+      "title": "nginx-otel",
+      "description": "Module providing support for OpenTelemetry distributed tracing.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/61131/nginx-http-est",
+      "title": "nginx-http-est",
+      "description": "Enrollment over Secure Transport (EST) module for Nginx",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/61131/nginx-http-auth-totp",
+      "title": "nginx-http-auth-totp",
+      "description": "Time-based one-time password (TOTP) authentication for Nginx",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/61131/nginx-http-filter-data",
+      "title": "nginx-http-filter-data",
+      "description": "RFC 2397 \"data\" URL scheme filter module for Nginx",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/codebytes5/ngx_status_module",
+      "title": "ngx_status_module",
+      "description": "Nginx mod status module similar to Apache plugin",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/dvershinin/ngx_dynamic_etag",
+      "title": "ngx_dynamic_etag",
+      "description": "NGINX module for adding ETag to dynamic content.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/GetPageSpeed/ngx_immutable",
+      "title": "ngx_immutable",
+      "description": "NGINX module for setting immutable caching on static assets.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/GetPageSpeed/ngx_security_headers",
+      "title": "ngx_security_headers",
+      "description": "NGINX Module for sending security headers.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/no1xpert/ngx_http_securelog_module",
+      "title": "ngx_http_securelog_module",
+      "description": "Real-time AES-256-GCM / GPG encrypted access logging. Plaintext never touches disk. SHA-256 key integrity verification at startup.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/pjincz/nginx-cgi",
+      "title": "nginx-cgi",
+      "description": "Module providing native CGI support, eliminating the need for fcgiwrap or other FastCGI adapters.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/myguard-labs/nginx-strip-filter-module",
+      "title": "nginx-strip-filter-module",
+      "description": "Dynamic response-body minifier — strips newlines and redundant whitespace from HTML/CSS/JS responses.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/myguard-labs/nginx-zstd-module",
+      "title": "nginx-zstd-module",
+      "description": "Zstandard (zstd) compression and decompression filters for nginx responses.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/myguard-labs/nginx-http-sentinel-module",
+      "title": "nginx-http-sentinel-module",
+      "description": "(experimental) PREACCESS module that scores every client from weighted signals and acts on the verdict — tarpit bots, block scanners, PoW-challenge grey-area requests.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/myguard-labs/nginx-error-abuse-module",
+      "title": "nginx-error-abuse-module",
+      "description": "Watches error responses and bans clients that trigger repeated 4xx/5xx abuse.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/myguard-labs/nginx-cache-turbo-module",
+      "title": "nginx-cache-turbo-module",
+      "description": "Built-in full-page cache for nginx — a tiny Varnish living inside the worker.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/myguard-labs/nginx-autocert-module",
+      "title": "nginx-autocert-module",
+      "description": "Automatic TLS certificates built into nginx — ACME/Let's Encrypt issuance and renewal, with wildcard, IP-address certs and TLS-ALPN-01.",
+      "category": "C Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/nginxinc/ngx-rust",
+      "title": "ngx-rust",
+      "description": "Rust bindings for Nginx modules.",
+      "category": "Rust Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/openresty/lua-resty-redis",
+      "title": "lua-resty-redis",
+      "description": "Lua redis client driver for the ngx_lua based on the cosocket API.",
+      "category": "Lua Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/openresty/lua-resty-memcached",
+      "title": "lua-resty-memcached",
+      "description": "Lua memcached client driver for the ngx_lua based on the cosocket API.",
+      "category": "Lua Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/openresty/lua-resty-mysql",
+      "title": "lua-resty-mysql",
+      "description": "Nonblocking Lua MySQL driver library for ngx_lua.",
+      "category": "Lua Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/azurewang/lua-resty-postgres",
+      "title": "lua-resty-postgres",
+      "description": "Nonblocking Lua PostgreSQL driver library for ngx_lua.",
+      "category": "Lua Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/jbochi/lua-resty-cassandra",
+      "title": "lua-resty-cassandra",
+      "description": "Pure Lua Cassandra client using CQL binary protocol.",
+      "category": "Lua Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/benagricola/lua-resty-fastcgi",
+      "title": "lua-resty-fastcgi",
+      "description": "Lua FCGI client driver for ngx_lua based on the cosocket API.",
+      "category": "Lua Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/LazyZhu/lua-resty-ssdb",
+      "title": "lua-resty-ssdb",
+      "description": "Lua ssdb client driver for the ngx_lua based on the cosocket API, SSDB is a leveldb server.",
+      "category": "Lua Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/azurewang",
+      "title": "lua-resty-fastdfs",
+      "description": "Nonblocking Lua FastDFS driver library for ngx_lua.",
+      "category": "Lua Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/Olivine-Labs/resty-mongol",
+      "title": "lua-resty-mongol",
+      "description": "Lua MongoDB driver.",
+      "category": "Lua Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/hugozhu/lua-resty-oceanbase",
+      "title": "lua-resty-oceanbase",
+      "description": "Lua OceanBase client driver for ngx_lua based on the cosocket API.",
+      "category": "Lua Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/openresty/lua-resty-lrucache",
+      "title": "lua-resty-lrucache",
+      "description": "Lua-land LRU Cache based on LuaJIT FFI.",
+      "category": "Lua Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/openresty/lua-resty-core",
+      "title": "lua-resty-core",
+      "description": "New FFI-based API for lua-nginx-module.",
+      "category": "Lua Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/openresty/lua-resty-upload",
+      "title": "lua-resty-upload",
+      "description": "Streaming reader and parser for http file uploading based on ngx_lua cosocket.",
+      "category": "Lua Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/openresty/lua-resty-websocket",
+      "title": "lua-resty-websocket",
+      "description": "WebSocket support for the ngx_lua module (and OpenResty).",
+      "category": "Lua Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/openresty/lua-resty-dns",
+      "title": "lua-resty-dns",
+      "description": "DNS resolver for the nginx lua module.",
+      "category": "Lua Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/openresty/lua-resty-string",
+      "title": "lua-resty-string",
+      "description": "String utilities and common hash functions for ngx_lua and LuaJIT.",
+      "category": "Lua Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/openresty/lua-redis-parser",
+      "title": "lua-redis-parser",
+      "description": "Lua module for parsing raw redis responses.",
+      "category": "Lua Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/openresty/lua-rds-parser",
+      "title": "lua-rds-parser",
+      "description": "Resty DBD Stream (RDS) parser for Lua written in C.",
+      "category": "Lua Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/pintsized/lua-resty-http",
+      "title": "lua-resty-http",
+      "description": "Lua HTTP client cosocket driver for OpenResty / ngx_lua.",
+      "category": "Lua Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/bungle/lua-resty-template",
+      "title": "lua-resty-template",
+      "description": "Templating Engine (HTML) for Lua and OpenResty",
+      "category": "Lua Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/cloudflare/lua-resty-cookie",
+      "title": "lua-resty-cookie",
+      "description": "Lua library for HTTP cookie manipulations for OpenResty/ngx_lua.",
+      "category": "Lua Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/doujiang24/lua-resty-kafka",
+      "title": "lua-resty-kafka",
+      "description": "Lua kafka client driver for the ngx_lua based on the cosocket API.",
+      "category": "Lua Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/wingify/lua-resty-rabbitmqstomp",
+      "title": "lua-resty-rabbitmqstomp",
+      "description": "Opinionated Lua RabbitMQ client library for the ngx_lua apps based on the cosocket API.",
+      "category": "Lua Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/cloudflare/lua-resty-logger-socket",
+      "title": "lua-resty-logger-socket",
+      "description": "Raw-socket-based Logger Library for Nginx.",
+      "category": "Lua Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/smallfish/lua-resty-beanstalkd",
+      "title": "lua-resty-beanstalkd",
+      "description": "non-blocking beanstalkd client lib for ngx_lua.",
+      "category": "Lua Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/bungle/lua-resty-libcjson",
+      "title": "lua-resty-libcjson",
+      "description": "LuaJIT FFI-based cJSON library for OpenResty.",
+      "category": "Lua Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/bungle/lua-resty-session",
+      "title": "lua-resty-session",
+      "description": "Session library for OpenResty implementing Secure Cookie Protocol.",
+      "category": "Lua Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/bungle/lua-resty-validation",
+      "title": "lua-resty-validation",
+      "description": "Validation Library (Input Validation and Filtering) for Lua and OpenResty.",
+      "category": "Lua Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/bungle/lua-resty-random",
+      "title": "lua-resty-random",
+      "description": "LuaJIT FFI-based Random Library for OpenResty.",
+      "category": "Lua Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/bungle/lua-resty-scrypt",
+      "title": "lua-resty-scrypt",
+      "description": "LuaJIT FFI-based scrypt library for OpenResty.",
+      "category": "Lua Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/bungle/lua-resty-uuid",
+      "title": "lua-resty-uuid",
+      "description": "LuaJIT FFI bindings for libuuid, a DCE compatible Universally Unique Identifier library.",
+      "category": "Lua Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/bungle/lua-resty-hoedown",
+      "title": "lua-resty-hoedown",
+      "description": "LuaJIT FFI bindings to Hoedown, a standards compliant, fast, secure markdown processing library in C.",
+      "category": "Lua Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/bungle/lua-resty-snappy",
+      "title": "lua-resty-snappy",
+      "description": "LuaJIT FFI bindings for Snappy, a fast compressor/decompressor.",
+      "category": "Lua Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/bungle/lua-resty-nettle",
+      "title": "lua-resty-nettle",
+      "description": "LuaJIT FFI bindings for Nettle (a low-level cryptographic library).",
+      "category": "Lua Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/pintsized/lua-resty-rack",
+      "title": "lua-resty-rack",
+      "description": "A simple and extensible HTTP server framework for OpenResty.",
+      "category": "Lua Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/hamishforbes/lua-resty-upstream",
+      "title": "lua-resty-upstream",
+      "description": "Upstream connection load balancing and failover module for Openresty.",
+      "category": "Lua Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/hamishforbes/lua-resty-dns-cache",
+      "title": "lua-resty-dns-cache",
+      "description": "Cache wrapper for lua-resty-dns.",
+      "category": "Lua Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/hamishforbes/lua-resty-consul",
+      "title": "lua-resty-consul",
+      "description": "Library to interface with the consul HTTP API from ngx_lua.",
+      "category": "Lua Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/zhhchen/lua-resty-gearman",
+      "title": "lua-resty-gearman",
+      "description": "Lua gearman client driver for the ngx_lua based on the cosocket API.",
+      "category": "Lua Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/SkyLothar/lua-resty-jwt",
+      "title": "lua-resty-jwt",
+      "description": "JWT For The Great Openresty.",
+      "category": "Lua Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/juce/lua-resty-shell",
+      "title": "lua-resty-shell",
+      "description": "tiny subprocess/shell library to use with OpenResty application server.",
+      "category": "Lua Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/doujiang24/lua-resty-rsa",
+      "title": "lua-resty-rsa",
+      "description": "RSA encrypt/decrypt & sign/verify for LuaJIT.",
+      "category": "Lua Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/duhoobo/lua-resty-smtp",
+      "title": "lua-resty-smtp",
+      "description": "I must be crazy trying to send mail with Nginx..",
+      "category": "Lua Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/bakins/lua-resty-riak",
+      "title": "lua-resty-riak",
+      "description": "Lua riak protocol buffer client driver for the ngx_lua based on the cosocket API.",
+      "category": "Lua Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/pintsized/lua-resty-qless",
+      "title": "lua-resty-qless",
+      "description": "Lua binding to Qless (Queue / Pipeline management) for OpenResty.",
+      "category": "Lua Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/jkeys089/lua-resty-hmac",
+      "title": "lua-resty-hmac",
+      "description": "HMAC functions for ngx_lua and LuaJIT.",
+      "category": "Lua Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/cloudflare/lua-resty-kyototycoon",
+      "title": "lua-resty-kyototycoon",
+      "description": "Lua client driver for KyotoTycoon using its native wire protocol (OpenResty/ngx_lua).",
+      "category": "Lua Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/bungle/lua-resty-libxl",
+      "title": "lua-resty-libxl",
+      "description": "LuaJIT FFI-based LibXL (Excel) library for OpenResty.",
+      "category": "Lua Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/bungle/lua-resty-gettext",
+      "title": "lua-resty-gettext",
+      "description": "LuaJIT FFI-based gettext library for OpenResty.",
+      "category": "Lua Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/jamesmarlowe/lua-resty-github",
+      "title": "lua-resty-github",
+      "description": "Lua library for using the github api in the ngx_lua nginx module.",
+      "category": "Lua Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/bungle/lua-resty-murmurhash2",
+      "title": "lua-resty-murmurhash2",
+      "description": "LuaJIT MurmurHash 2 bindings to Nginx / OpenResty murmurhash2 implementation.",
+      "category": "Lua Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/jamesmarlowe/lua-resty-hipchat",
+      "title": "lua-resty-hipchat",
+      "description": "Lua library for using the hipchat api.",
+      "category": "Lua Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/jamesmarlowe/lua-resty-readurl",
+      "title": "lua-resty-readurl",
+      "description": "Lua library for capturing urls, decoding, and logging results.",
+      "category": "Lua Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/sjnam/lua-resty-kyototycoon",
+      "title": "lua-resty-kyototycoon",
+      "description": "kyototycoon's binary protocol.",
+      "category": "Lua Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/isage/lua-resty-mobile",
+      "title": "lua-resty-mobile",
+      "description": "Mobile detection for nginx/openresty.",
+      "category": "Lua Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/bungle/lua-resty-fileinfo",
+      "title": "lua-resty-fileinfo",
+      "description": "LuaJIT FFI bindings to libmagic, magic number recognition library - tries to determine file types.",
+      "category": "Lua Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/bungle/lua-resty-sass",
+      "title": "lua-resty-sass",
+      "description": "LuaJIT FFI bindings for libsass - A C/C++ implementation of a Sass compiler.",
+      "category": "Lua Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/bungle/lua-resty-taglib",
+      "title": "lua-resty-taglib",
+      "description": "LuaJIT FFI bindings for TagLib - An Audio Meta-Data Library.",
+      "category": "Lua Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/woothee/lua-resty-woothee",
+      "title": "lua-resty-woothee",
+      "description": "Woothee Lua-Openresty implementation.",
+      "category": "Lua Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/cloudflare/lua-resty-json",
+      "title": "lua-resty-json",
+      "description": "json lib for lua and C.",
+      "category": "Lua Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/loveshell/ngx_lua_waf",
+      "title": "ngx_lua_waf",
+      "description": "lua waf based on ngx_lua.",
+      "category": "Lua Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/timebug/lua-resty-limit-req",
+      "title": "lua-resty-limit-req",
+      "description": "Limit the request processing rate between multiple NGINX instances.",
+      "category": "Lua Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/torhve/LuaWeb",
+      "title": "LuaWeb",
+      "description": "A very simple blog engine using openresty, nginx, lua, markdown, git and redis.",
+      "category": "Lua Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/miurahr/lua-nginx-osm",
+      "title": "lua-nginx-osm",
+      "description": "OpenStreetMap extension for Nginx Lua module.",
+      "category": "Lua Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/bigplum/nginx-tcp-lua-module",
+      "title": "nginx-tcp-lua-module",
+      "description": "A TCP server with lua supporting based on nginx.",
+      "category": "Lua Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/agoragames/nginx-google-oauth",
+      "title": "nginx-google-oauth",
+      "description": "Lua module to add Google OAuth to nginx.",
+      "category": "Lua Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/openresty/lua-upstream-nginx-module",
+      "title": "lua-upstream-nginx-module",
+      "description": "Nginx C module to expose Lua API to ngx_lua for Nginx upstreams.",
+      "category": "Lua Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/openresty/lua-resty-upstream-healthcheck",
+      "title": "lua-resty-upstream-healthcheck",
+      "description": "Health Checker for Nginx Upstream Servers in Pure Lua.",
+      "category": "Lua Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/openresty/lua-resty-lock",
+      "title": "lua-resty-lock",
+      "description": "Simple nonblocking lock API for ngx_lua based on shared memory dictionaries.",
+      "category": "Lua Modules",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://npm.io/package/njs-types",
+      "title": "njs-types",
+      "description": "Provides type script type definitions for njs.",
+      "category": "Njs Projects",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/nginx/njs-examples",
+      "title": "njs-examples",
+      "description": "Examples of njs usage.",
+      "category": "Njs Projects",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/f5devcentral/nginx-njs-usecases",
+      "title": "nginx-njs-usecases",
+      "description": "A collection of njs use cases.",
+      "category": "Njs Projects",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/nginx/njs-acme",
+      "title": "njs-acme",
+      "description": "ACME protocol implementation in njs allowing Let's Encrypt certificates to be issued directly from nginx.",
+      "category": "Njs Projects",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/nginxinc/nginx-s3-gateway",
+      "title": "nginx-s3-gateway",
+      "description": "S3 gateway for Nginx allowing to proxy requests directly to S3 private buckets.",
+      "category": "Njs Projects",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/4141done/njs-memory-profiler",
+      "title": "njs-memory-profiler",
+      "description": "Tool to understand per-request memory usage of njs scripts.",
+      "category": "Njs Projects",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/TuxInvader/nginx-dns",
+      "title": "nginx-dns",
+      "description": "Example njs configuration for using Nginx with DNS services.",
+      "category": "Njs Projects",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/nginxinc/njs-prometheus-module",
+      "title": "njs-prometheus-module",
+      "description": "Converts NGINX metrics exposed by the API module to a Prometheus format.",
+      "category": "Njs Projects",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/lcrilly/nginx-xml-json",
+      "title": "nginx-xml-json",
+      "description": "Proof-of-concept solution for presenting XML services as a JSON API.",
+      "category": "Njs Projects",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/gallarda/mqtt5",
+      "title": "mqtt5",
+      "description": "MQTT 5.0 protocol parser implemented in njs.",
+      "category": "Njs Projects",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/jirutka/babel-preset-njs",
+      "title": "babel-preset-njs",
+      "description": "A Babel preset for njs - NGINX JavaScript.",
+      "category": "Njs Projects",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/jirutka/njs-typescript-starter",
+      "title": "njs-typescript-starter",
+      "description": "A starting template for developing njs (NGINX JavaScript) scripts for NGINX server in TypeScript.",
+      "category": "Njs Projects",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/openresty/nginx-devel-utils",
+      "title": "nginx-devel-utils",
+      "description": "Utilities for nginx module development.",
+      "category": "Tools",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/dvershinin/gixy",
+      "title": "gixy-ng",
+      "description": "Nginx configuration static analyzer",
+      "category": "Tools",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/openresty/no-pool-nginx",
+      "title": "no-pool-nginx",
+      "description": "replace nginx's pool mechanism with plain malloc & free to help tools like valgrind.",
+      "category": "Tools",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/openresty/nginx-dtrace",
+      "title": "nginx-dtrace",
+      "description": "An nginx fork that adds dtrace USDT probes.",
+      "category": "Tools",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/openresty/test-nginx",
+      "title": "test-nginx",
+      "description": "Data-driven test scaffold for Nginx C module and OpenResty Lua library development.",
+      "category": "Tools",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/openresty/nginx-systemtap-toolkit",
+      "title": "nginx-systemtap-toolkit",
+      "description": "Real-time analyzing and diagnosing tools for Nginx based on SystemTap.",
+      "category": "Tools",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/openresty/nginx-gdb-utils",
+      "title": "nginx-gdb-utils",
+      "description": "GDB Utilities for Nginx, ngx_lua, LuaJIT, and etc.",
+      "category": "Tools",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/nhnc-nginx/apache2nginx",
+      "title": "apache2nginx",
+      "description": "A command line tool, which can be used to generate nginx config file according to given config files of Apache.",
+      "category": "Tools",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/cubicdaiya/nginx-build",
+      "title": "nginx-build",
+      "description": "seamless nginx builder.",
+      "category": "Tools",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/jfryman/puppet-nginx",
+      "title": "puppet-nginx",
+      "description": "Puppet Module to manage NGINX on various UNIXes.",
+      "category": "Tools",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/h5bp/server-configs-nginx",
+      "title": "server-configs-nginx",
+      "description": "Nginx HTTP server boilerplate configs.",
+      "category": "Tools",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/Umkus/nginx-boilerplate",
+      "title": "nginx-boilerplate",
+      "description": "Awesome Nginx configuration template.",
+      "category": "Tools",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/lebinh/ngxtop",
+      "title": "ngxtop",
+      "description": "Real-time metrics for nginx server.",
+      "category": "Tools",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://goaccess.io/",
+      "title": "GoAccess",
+      "description": "real-time web log analyzer and interactive viewer that runs in a terminal in \\*nix systems or through your browser.",
+      "category": "Tools",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/lebinh/nginx-conf",
+      "title": "nginx-conf",
+      "description": "A collection of useful Nginx configuration snippets.",
+      "category": "Tools",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/cubicdaiya/libngxcore",
+      "title": "libngxcore",
+      "description": "libngxcore is the library built from nginx core APIs..",
+      "category": "Tools",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/perusio/nginx-cache-purge",
+      "title": "nginx-cache-purge",
+      "description": "A bash script for deleting items from Nginx cache.",
+      "category": "Tools",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/rmacd/ngx-admintools",
+      "title": "ngx-admintools",
+      "description": "Debian Administration Tools for nginx web server.",
+      "category": "Tools",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/slomkowski/nginx-config-formatter",
+      "title": "nginx-config-formatter",
+      "description": "Nginx config file formatter/beautifier written in Python.",
+      "category": "Tools",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/alexazhou/VeryNginx",
+      "title": "veryNginx",
+      "description": "A very powerful and friendly nginx base on lua-nginx-module( openresty  ) which provide WAF, Control Panel, and Dashboards.",
+      "category": "Tools",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/wyvern8/akamai-nginx",
+      "title": "akamai-nginx",
+      "description": "Autoconfigure nginx based on Akamai property api rules using generated lua.",
+      "category": "Tools",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://nginxconfig.io",
+      "title": "nginxconfig.io",
+      "description": "[GitHub](https://github.com/valentinxxx/nginxconfig.io) - Online nginx configuration generator for general purposes.",
+      "category": "Tools",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/opentracing-contrib/nginx-opentracing",
+      "title": "nginx-opentracing",
+      "description": "NGINX plugin for OpenTracing.",
+      "category": "Tools",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/martensson/nixy",
+      "title": "nixy",
+      "description": "Nginx auto configuration and service discovery for Mesos/Marathon",
+      "category": "Tools",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/jaygooby/build-nginx",
+      "title": "build-nginx",
+      "description": "An nginx build tool to really simplify downloading and building specific versions of nginx with different core and 3rd-party modules.",
+      "category": "Tools",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/angristan/nginx-autoinstall",
+      "title": "nginx-autoinstall",
+      "description": "Compile Nginx from source with custom modules on Debian and Ubuntu",
+      "category": "Tools",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/bunkerity/bunkerized-nginx",
+      "title": "bunkerized-nginx",
+      "description": "nginx Docker image secure by default.",
+      "category": "Tools",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/nginx-proxy/nginx-proxy",
+      "title": "nginx-proxy",
+      "description": "Automated nginx proxy for Docker containers using docker-gen.",
+      "category": "Tools",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/fabiocicerchia/nginx-lua",
+      "title": "nginx-lua",
+      "description": "Nginx 1.19+ with LUA support based on Alpine Linux, Amazon Linux, CentOS, Debian, Fedora and Ubuntu.",
+      "category": "Tools",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/jirutka/nginx-testing",
+      "title": "nginx-testing",
+      "description": "Support for integration/acceptance testing of nginx configuration in TypeScript/JavaScript.",
+      "category": "Tools",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/jirutka/nginx-binaries",
+      "title": "nginx-binaries",
+      "description": "Nginx and njs binaries for Linux (x86_64, aarch64, ppc64le), macOS and Windows; Linux binaries are static so works on every Linux.",
+      "category": "Tools",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/ZoeyVid/NPMplus",
+      "title": "NPMplus",
+      "description": "Docker container for managing Nginx proxy hosts with a simple, powerful interface",
+      "category": "Tools",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/blendbyte/nginx-modules",
+      "title": "nginx-modules",
+      "description": "APT repository providing pre-built NGINX dynamic modules for Debian and Ubuntu (amd64/arm64), installable via `apt` without compiling from source.",
+      "category": "Tools",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://www.getpagespeed.com/ubuntu-and-debian-repository",
+      "title": "GetPageSpeed Extras for Debian/Ubuntu",
+      "description": "Free APT repository with 100+ pre-built NGINX dynamic modules for Debian (Bookworm/Trixie) and Ubuntu (Bionic/Focal/Jammy/Noble) on amd64 and arm64. No signup or auth required. Covers ModSecurity, brotli, geoip2, headers-more, JWT, TOTP, naxsi, NJS, and a long tail of modules not packaged elsewhere. Cross-distro counterpart for RHEL/SLES/Amazon Linux at extras.getpagespeed.com.",
+      "category": "Tools",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/Janady13/seo-sidecar",
+      "title": "seo-sidecar",
+      "description": "FastAPI + nginx SSI sidecar that injects fresh Schema.org JSON-LD into nginx-served sites without redeploys or cron jobs. Production-ready, MIT licensed.",
+      "category": "Tools",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/gistrec/nginx-scanner-trap",
+      "title": "nginx-scanner-trap",
+      "description": "One-script honeypot for existing nginx servers: bots probing paths like /.env or /.git get banned on all ports via fail2ban + nftables. Interactive install with whitelisting, dry-run preview, Debian/Ubuntu, MIT licensed.",
+      "category": "Tools",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/laradock/laradock",
+      "title": "Laradock",
+      "description": "Full PHP development environment based on Docker, includes Nginx as one of its swappable services.",
+      "category": "Tools",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://www.nginx.com/resources/admin-guide/",
+      "title": "Nginx admin guide",
+      "description": "Nginx and nginx plus admin guide.",
+      "category": "Tutorials",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "http://nginx.org/en/docs/",
+      "title": "Nginx documentation",
+      "description": "Nginx documentation introduction.",
+      "category": "Tutorials",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://www.nginx.com/blog/",
+      "title": "Nginx blog",
+      "description": "News, views, and how-tos from nginx.",
+      "category": "Tutorials",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "http://nginx.org/en/docs/beginners_guide.html",
+      "title": "Nginx beginner’s Guide",
+      "description": "This guide gives a basic introduction to nginx and describes some simple tasks that can be done with it.",
+      "category": "Tutorials",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/openresty/nginx-tutorials",
+      "title": "Nginx tutorials",
+      "description": "Nginx tutorials by [Agentzh](https://github.com/agentzh).",
+      "category": "Tutorials",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/taobao/nginx-docs-cn",
+      "title": "Nginx docs cn",
+      "description": "The chinese translation of nginx documentation.",
+      "category": "Tutorials",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/taobao/nginx-book",
+      "title": "Nginx book",
+      "description": "Nginx from primer to expert (In Chinese).",
+      "category": "Tutorials",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "http://www.evanmiller.org/nginx-modules-guide.html",
+      "title": "Nginx module development",
+      "description": "Emiller's guide to nginx module development.",
+      "category": "Tutorials",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://www.gitbook.com/book/moonbingbing/openresty-best-practices/details",
+      "title": "OpenResty best practice",
+      "description": "OpenResty best practice(In Chinese).",
+      "category": "Tutorials",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/SimulatedGREG/nginx-cheatsheet",
+      "title": "Nginx-cheatsheet",
+      "description": "A quick reference to common server configurations from serving static files to using in congruency with Node.js applications.",
+      "category": "Tutorials",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://sysdig.com/blog/monitor-nginx-kubernetes/",
+      "title": "Monitoring Nginx on Kubernetes",
+      "description": "Deployment options, use cases, metrics and alerts for containerized Nginx instances on Kubernetes.",
+      "category": "Tutorials",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "http://mailman.nginx.org/mailman/listinfo",
+      "title": "Nginx Mailman",
+      "description": null,
+      "category": "Mailing Lists",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "http://forum.nginx.org/",
+      "title": "Nginx Forum",
+      "description": null,
+      "category": "Forum",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://community.nginx.org/joinslack",
+      "title": "Nginx Community Slack",
+      "description": null,
+      "category": "Forum",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "http://groups.google.com/group/openresty-en",
+      "title": "OpenResty Forum",
+      "description": null,
+      "category": "Forum",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://twitter.com/mdounin",
+      "title": "Maxim Dounin",
+      "description": null,
+      "category": "Active Developers",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    },
+    {
+      "url": "https://github.com/arut",
+      "title": "Roman Arutyunyan",
+      "description": null,
+      "category": "Active Developers",
+      "source": "agile6v/awesome-nginx",
+      "indexedAt": "2026-07-23T13:30:49.695Z"
+    }
+  ],
+  "categories": [
+    "Well-known Distributions",
+    "Embeddable Scripting Languages",
+    "Builder",
+    "C Modules",
+    "Rust Modules",
+    "Lua Modules",
+    "Njs Projects",
+    "Tools",
+    "Tutorials",
+    "Mailing Lists",
+    "Forum",
+    "Active Developers"
+  ],
+  "crawledAt": "2026-07-23T13:30:49.695Z"
+}

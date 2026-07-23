@@ -82,7 +82,10 @@ const headerItems = [
     { id: 'tools', label: 'Tools', href: '/tools', description: 'Essential dev tools' },
     { id: 'technologies', label: 'Technologies', href: '/technologies', description: 'Key technologies & platforms' },
   ]},
-  { id: 'feed', label: 'Discover', href: '/feed' },
+  { id: 'discover', label: 'Discover', children: [
+    { id: 'feed', label: 'Feed', href: '/feed', description: 'Engineering blogs & articles' },
+    { id: 'awesome', label: 'Awesome Lists', href: '/discover/awesome', description: 'Curated GitHub resource collections' },
+  ]},
   { id: 'cli-docs', label: 'CLI Docs', href: '/cli-docs' },
   { id: 'search', label: 'Search', href: '/search' },
 

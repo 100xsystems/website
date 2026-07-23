@@ -1,0 +1,3400 @@
+{
+  "repoId": "qazbnm456/awesome-web-security",
+  "name": "🐶 A curated list of Web Security materials and resources.",
+  "description": "🐶 A curated list of Web Security materials and resources.",
+  "repoUrl": "https://github.com/qazbnm456/awesome-web-security",
+  "stars": 13615,
+  "topics": [
+    "awesome",
+    "awesome-list",
+    "list",
+    "penetration-testing",
+    "security",
+    "web",
+    "websecurity"
+  ],
+  "links": [
+    {
+      "url": "https://trailofbits.github.io/ctf/",
+      "title": "CTF Field Guide",
+      "description": "Written by [Trail of Bits](https://www.trailofbits.com/).",
+      "category": "Digests",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.hacker101.com/",
+      "title": "Hacker101",
+      "description": "Written by [hackerone](https://www.hackerone.com/start-hacking).",
+      "category": "Digests",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.sneakymonkey.net/2017/04/23/infosec-newbie/",
+      "title": "Infosec Newbie",
+      "description": "Written by [Mark Robinson](https://www.sneakymonkey.net/).",
+      "category": "Digests",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/swisskyrepo/PayloadsAllTheThings/",
+      "title": "PayloadsAllTheThings",
+      "description": "Written by [@swisskyrepo](https://github.com/swisskyrepo).",
+      "category": "Digests",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://portswigger.net/daily-swig",
+      "title": "The Daily Swig - Web security digest",
+      "description": "Written by [PortSwigger](https://portswigger.net/).",
+      "category": "Digests",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://bitvijays.github.io/",
+      "title": "The Magic of Learning",
+      "description": "Written by [@bitvijays](https://bitvijays.github.io/aboutme.html).",
+      "category": "Digests",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.netsparker.com/blog/web-security/",
+      "title": "Web Application Security Zone by Netsparker",
+      "description": "Written by [Netsparker](https://www.netsparker.com/).",
+      "category": "Digests",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://tldrsec.com/",
+      "title": "tl;dr sec",
+      "description": "Weekly summary of top security tools, blog posts, and security research.",
+      "category": "Digests",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.darkreading.com/Default.asp",
+      "title": "Dark Reading",
+      "description": "Connecting The Information Security Community.",
+      "category": "Forums",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "http://en.hackdig.com/",
+      "title": "HackDig",
+      "description": "Dig high-quality web security articles for hacker.",
+      "category": "Forums",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.phrack.org/",
+      "title": "Phrack Magazine",
+      "description": "Ezine written by and for hackers.",
+      "category": "Forums",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://securityweekly.com/",
+      "title": "Security Weekly",
+      "description": "The security podcast network.",
+      "category": "Forums",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://thehackernews.com/",
+      "title": "The Hacker News",
+      "description": "Security in a serious way.",
+      "category": "Forums",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.theregister.co.uk/",
+      "title": "The Register",
+      "description": "Biting the hand that feeds IT.",
+      "category": "Forums",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://excess-xss.com/",
+      "title": "C.XSS Guide",
+      "description": "Written by [@JakobKallin](https://github.com/JakobKallin) and [Irene Lobo Valbuena](https://www.linkedin.com/in/irenelobovalbuena/).",
+      "category": "XSS - Cross-Site Scripting",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.google.com/intl/sw/about/appsecurity/learning/xss/",
+      "title": "Cross-Site Scripting – Application Security – Google",
+      "description": "Written by [Google](https://www.google.com/).",
+      "category": "XSS - Cross-Site Scripting",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/cure53/H5SC",
+      "title": "H5SC",
+      "description": "Written by [@cure53](https://github.com/cure53).",
+      "category": "XSS - Cross-Site Scripting",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.paulosyibelo.com/2018/06/the-big-bad-wolf-xss-and-maintaining.html",
+      "title": "THE BIG BAD WOLF - XSS AND MAINTAINING ACCESS",
+      "description": "Written by [Paulos Yibelo](https://www.paulosyibelo.com/).",
+      "category": "XSS - Cross-Site Scripting",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/s0md3v/AwesomeXSS",
+      "title": "AwesomeXSS",
+      "description": "Written by [@s0md3v](https://github.com/s0md3v).",
+      "category": "XSS - Cross-Site Scripting",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/LucaBongiorni/XSS.png",
+      "title": "XSS.png",
+      "description": "Written by @jackmasa.",
+      "category": "XSS - Cross-Site Scripting",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/XSS%20Injection",
+      "title": "PayloadsAllTheThings - XSS Injection",
+      "description": "Written by [@swisskyrepo](https://github.com/swisskyrepo).",
+      "category": "XSS - Cross-Site Scripting",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/payloadbox/xss-payload-list",
+      "title": "payloadbox/xss-payload-list",
+      "description": "Written by [@payloadbox](https://github.com/payloadbox).",
+      "category": "XSS - Cross-Site Scripting",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://blog.shakiltech.com/laravel-content-security-policy-guide/",
+      "title": "Laravel Content Security Policy: Complete Implementation Guide",
+      "description": "Hands-on guide to implementing Content Security Policy in Laravel — nonce lifecycle, Vite and Livewire integration, violation reporting, and a pre-enforcement checklist, by [@itxshakil](https://github.com/itxshakil).",
+      "category": "XSS - Cross-Site Scripting",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/HoLyVieR/prototype-pollution-nsec18/blob/master/paper/JavaScript_prototype_pollution_attack_in_NodeJS.pdf",
+      "title": "Prototype pollution attack in NodeJS application",
+      "description": "Written by [@HoLyVieR](https://github.com/HoLyVieR).",
+      "category": "Prototype Pollution",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://blog.p6.is/Real-World-JS-1/",
+      "title": "Real-world JS - 1",
+      "description": "Written by [@po6ix](https://twitter.com/po6ix).",
+      "category": "Prototype Pollution",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://research.securitum.com/prototype-pollution-rce-kibana-cve-2019-7609/",
+      "title": "Exploiting prototype pollution – RCE in Kibana (CVE-2019-7609)",
+      "description": "Written by [@securitymb](https://twitter.com/securitymb).",
+      "category": "Prototype Pollution",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://news.webamooz.com/wp-content/uploads/bot/offsecmag/147.pdf",
+      "title": "CSV Injection -> Meterpreter on Pornhub",
+      "description": "Written by [Andy](https://blog.zsec.uk/).",
+      "category": "CSV Injection",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://georgemauer.net/2017/10/07/csv-injection.html",
+      "title": "The Absurdly Underestimated Dangers of CSV Injection",
+      "description": "Written by [George Mauer](https://georgemauer.net/).",
+      "category": "CSV Injection",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/CSV%20Injection",
+      "title": "PayloadsAllTheThings - CSV Injection",
+      "description": "Written by [@swisskyrepo](https://github.com/swisskyrepo).",
+      "category": "CSV Injection",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.netsparker.com/blog/web-security/sql-injection-cheat-sheet/",
+      "title": "SQL Injection Cheat Sheet",
+      "description": "Written by [@netsparker](https://twitter.com/netsparker).",
+      "category": "SQL Injection",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://websec.ca/kb/sql_injection",
+      "title": "SQL Injection Pocket Reference",
+      "description": "Written by [@LightOS](https://twitter.com/LightOS).",
+      "category": "SQL Injection",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://sqlwiki.netspi.com/",
+      "title": "SQL Injection Wiki",
+      "description": "Written by [NETSPI](https://www.netspi.com/).",
+      "category": "SQL Injection",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/SQL%20Injection",
+      "title": "PayloadsAllTheThings - SQL Injection",
+      "description": "Written by [@swisskyrepo](https://github.com/swisskyrepo).",
+      "category": "SQL Injection",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/payloadbox/sql-injection-payload-list",
+      "title": "payloadbox/sql-injection-payload-list",
+      "description": "Written by [@payloadbox](https://github.com/payloadbox).",
+      "category": "SQL Injection",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/ruby/ruby/pull/1777",
+      "title": "Potential command injection in resolv.rb",
+      "description": "Written by [@drigg3r](https://github.com/drigg3r).",
+      "category": "Command Injection",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Command%20Injection",
+      "title": "PayloadsAllTheThings - Command Injection",
+      "description": "Written by [@swisskyrepo](https://github.com/swisskyrepo).",
+      "category": "Command Injection",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/payloadbox/command-injection-payload-list",
+      "title": "payloadbox/command-injection-payload-list",
+      "description": "Written by [@payloadbox](https://github.com/payloadbox).",
+      "category": "Command Injection",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.synacktiv.com/ressources/hql2sql_sstic_2015_en.pdf",
+      "title": "HQL : Hyperinsane Query Language (or how to access the whole SQL API within a HQL injection ?)",
+      "description": "Written by [@_m0bius](https://twitter.com/_m0bius).",
+      "category": "ORM Injection",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://blog.h3xstream.com/2014/02/hql-for-pentesters.html",
+      "title": "HQL for pentesters",
+      "description": "Written by [@h3xstream](https://twitter.com/h3xstream/).",
+      "category": "ORM Injection",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.slideshare.net/simone.onofri/orm-injection",
+      "title": "ORM Injection",
+      "description": "Written by [Simone Onofri](https://onofri.org/).",
+      "category": "ORM Injection",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.slideshare.net/0ang3el/orm2pwn-exploiting-injections-in-hibernate-orm",
+      "title": "ORM2Pwn: Exploiting injections in Hibernate ORM",
+      "description": "Written by [Mikhail Egorov](https://0ang3el.blogspot.tw/).",
+      "category": "ORM Injection",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "http://blog.blindspotsecurity.com/2017/02/advisory-javapython-ftp-injections.html",
+      "title": "Advisory: Java/Python FTP Injections Allow for Firewall Bypass",
+      "description": "Written by [Timothy Morgan](https://plus.google.com/105917618099766831589).",
+      "category": "FTP Injection",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://shiftordie.de/blog/2017/02/18/smtp-over-xxe/",
+      "title": "SMTP over XXE − how to send emails using Java's XML parser",
+      "description": "Written by [Alexander Klink](https://shiftordie.de/).",
+      "category": "FTP Injection",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://phonexicum.github.io/infosec/xxe.html",
+      "title": "XXE",
+      "description": "Written by [@phonexicum](https://twitter.com/phonexicum).",
+      "category": "XXE - XML eXternal Entity",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/XXE%20Injection",
+      "title": "PayloadsAllTheThings - XXE Injection",
+      "description": "Written by various contributors.",
+      "category": "XXE - XML eXternal Entity",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://portswigger.net/web-security/xxe",
+      "title": "XML external entity (XXE) injection",
+      "description": "Written by [portswigger](https://portswigger.net/).",
+      "category": "XXE - XML eXternal Entity",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.vsecurity.com/download/publications/XMLDTDEntityAttacks.pdf",
+      "title": "XML Schema, DTD, and Entity Attacks",
+      "description": "Written by [Timothy D. Morgan](https://twitter.com/ecbftw) and Omar Al Ibrahim.",
+      "category": "XXE - XML eXternal Entity",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/payloadbox/xxe-injection-payload-list",
+      "title": "payloadbox/xxe-injection-payload-list",
+      "description": "Written by [@payloadbox](https://github.com/payloadbox).",
+      "category": "XXE - XML eXternal Entity",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://medium.com/@jrozner/wiping-out-csrf-ded97ae7e83f",
+      "title": "Wiping Out CSRF",
+      "description": "Written by [@jrozner](https://medium.com/@jrozner).",
+      "category": "CSRF - Cross-Site Request Forgery",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/CSRF%20Injection",
+      "title": "PayloadsAllTheThings - CSRF Injection",
+      "description": "Written by [@swisskyrepo](https://github.com/swisskyrepo).",
+      "category": "CSRF - Cross-Site Request Forgery",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.imperva.com/learn/application-security/clickjacking/",
+      "title": "Clickjacking",
+      "description": "Written by [Imperva](https://www.imperva.com/).",
+      "category": "Clickjacking",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/cure53/Publications/blob/master/xfo-clickjacking.pdf?raw=true",
+      "title": "X-Frame-Options: All about Clickjacking?",
+      "description": "Written by [Mario Heiderich](https://www.slideshare.net/x00mario).",
+      "category": "Clickjacking",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://docs.google.com/document/d/1v1TkWZtrhzRLy0bYXBcdLUedXGb9njTNIJXa3u9akHM/edit",
+      "title": "SSRF bible. Cheatsheet",
+      "description": "Written by [Wallarm](https://wallarm.com/).",
+      "category": "SSRF - Server-Side Request Forgery",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Server%20Side%20Request%20Forgery",
+      "title": "PayloadsAllTheThings - Server-Side Request Forgery",
+      "description": "Written by [@swisskyrepo](https://github.com/swisskyrepo).",
+      "category": "SSRF - Server-Side Request Forgery",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://portswigger.net/blog/practical-web-cache-poisoning",
+      "title": "Practical Web Cache Poisoning",
+      "description": "Written by [@albinowax](https://twitter.com/albinowax).",
+      "category": "Web Cache Poisoning",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Web%20Cache%20Deception",
+      "title": "PayloadsAllTheThings - Web Cache Deception",
+      "description": "Written by [@swisskyrepo](https://github.com/swisskyrepo).",
+      "category": "Web Cache Poisoning",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://blog.acolyer.org/2018/05/28/large-scale-analysis-of-style-injection-by-relative-path-overwrite/",
+      "title": "Large-scale analysis of style injection by relative path overwrite",
+      "description": "Written by [The Morning Paper](https://blog.acolyer.org/).",
+      "category": "Relative Path Overwrite",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.mbsd.jp/Whitepaper/rpo.pdf",
+      "title": "MBSD Technical Whitepaper - A few RPO exploitation techniques",
+      "description": "Written by [Mitsui Bussan Secure Directions, Inc.](https://www.mbsd.jp/).",
+      "category": "Relative Path Overwrite",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://s0cket7.com/open-redirect-vulnerability/",
+      "title": "Open Redirect Vulnerability",
+      "description": "Written by [s0cket7](https://s0cket7.com/).",
+      "category": "Open Redirect",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Open%20Redirect",
+      "title": "PayloadsAllTheThings - Open Redirect",
+      "description": "Written by [@swisskyrepo](https://github.com/swisskyrepo).",
+      "category": "Open Redirect",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/payloadbox/open-redirect-payload-list",
+      "title": "payloadbox/open-redirect-payload-list",
+      "description": "Written by [@payloadbox](https://github.com/payloadbox).",
+      "category": "Open Redirect",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://epi052.gitlab.io/notes-to-self/blog/2019-03-07-how-to-test-saml-a-methodology/",
+      "title": "How to Hunt Bugs in SAML; a Methodology - Part I",
+      "description": "Written by [epi](https://epi052.gitlab.io/notes-to-self/).",
+      "category": "Security Assertion Markup Language (SAML)",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://epi052.gitlab.io/notes-to-self/blog/2019-03-13-how-to-test-saml-a-methodology-part-two/",
+      "title": "How to Hunt Bugs in SAML; a Methodology - Part II",
+      "description": "Written by [epi](https://epi052.gitlab.io/notes-to-self/).",
+      "category": "Security Assertion Markup Language (SAML)",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://epi052.gitlab.io/notes-to-self/blog/2019-03-16-how-to-test-saml-a-methodology-part-three/",
+      "title": "How to Hunt Bugs in SAML; a Methodology - Part III",
+      "description": "Written by [epi](https://epi052.gitlab.io/notes-to-self/).",
+      "category": "Security Assertion Markup Language (SAML)",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/SAML%20Injection",
+      "title": "PayloadsAllTheThings - SAML Injection",
+      "description": "Written by [@swisskyrepo](https://github.com/swisskyrepo).",
+      "category": "Security Assertion Markup Language (SAML)",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.exploit-db.com/docs/english/45074-file-upload-restrictions-bypass.pdf",
+      "title": "File Upload Restrictions Bypass",
+      "description": "Written by [Haboob Team](https://www.exploit-db.com/author/?a=9381).",
+      "category": "Upload",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Upload%20Insecure%20Files",
+      "title": "PayloadsAllTheThings - Upload Insecure Files",
+      "description": "Written by [@swisskyrepo](https://github.com/swisskyrepo).",
+      "category": "Upload",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://hackmd.io/s/SkuTVw5O-",
+      "title": "Rails Security - First part",
+      "description": "Written by [@qazbnm456](https://github.com/qazbnm456).",
+      "category": "Rails",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://guides.rubyonrails.org/security.html",
+      "title": "Official Rails Security Guide",
+      "description": "Written by [Rails team](https://rubyonrails.org/).",
+      "category": "Rails",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://rails-sqli.org",
+      "title": "Rails SQL Injection",
+      "description": "Written by [@presidentbeef](https://github.com/presidentbeef).",
+      "category": "Rails",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/brunofacca/zen-rails-security-checklist",
+      "title": "Zen Rails Security Checklist",
+      "description": "Written by [@brunofacca](https://github.com/brunofacca).",
+      "category": "Rails",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://blog.portswigger.net/2017/05/dom-based-angularjs-sandbox-escapes.html",
+      "title": "DOM based Angular sandbox escapes",
+      "description": "Written by [@garethheyes](https://twitter.com/garethheyes).",
+      "category": "AngularJS",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://blog.portswigger.net/2016/01/xss-without-html-client-side-template.html",
+      "title": "XSS without HTML: Client-Side Template Injection with AngularJS",
+      "description": "Written by [Gareth Heyes](https://www.blogger.com/profile/10856178524811553475).",
+      "category": "AngularJS",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "http://danlec.com/blog/xss-via-a-spoofed-react-element",
+      "title": "XSS via a spoofed React element",
+      "description": "Written by [Daniel LeCheminant](http://danlec.com/).",
+      "category": "ReactJS",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.aptive.co.uk/blog/tls-ssl-security-testing/",
+      "title": "SSL & TLS Penetration Testing",
+      "description": "Written by [APTIVE](https://www.aptive.co.uk/).",
+      "category": "SSL/TLS",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/Hakky54/mutual-tls-ssl",
+      "title": "Practical introduction to SSL/TLS",
+      "description": "Written by [@Hakky54](https://github.com/Hakky54).",
+      "category": "SSL/TLS",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://blog.ripstech.com/2017/why-mail-is-dangerous-in-php/",
+      "title": "Why mail() is dangerous in PHP",
+      "description": "Written by [Robin Peraglie](https://www.ripstech.com/).",
+      "category": "Webmail",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://pentestacademy.wordpress.com/2017/09/20/nfs/?t=1&cn=ZmxleGlibGVfcmVjc18y&refsrc=email&iid=b34422ce15164e99a193fea0ccc7a02f&uid=1959680352&nid=244+289476616",
+      "title": "NFS | PENETRATION TESTING ACADEMY",
+      "description": "Written by [PENETRATION ACADEMY](https://pentestacademy.wordpress.com/).",
+      "category": "NFS",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://rhinosecuritylabs.com/penetration-testing/penetration-testing-aws-storage/",
+      "title": "PENETRATION TESTING AWS STORAGE: KICKING THE S3 BUCKET",
+      "description": "Written by Dwight Hohnstein from [Rhino Security Labs](https://rhinosecuritylabs.com/).",
+      "category": "AWS",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.virtuesecurity.com/aws-penetration-testing-part-1-s3-buckets/",
+      "title": "AWS PENETRATION TESTING PART 1. S3 BUCKETS",
+      "description": "Written by [VirtueSecurity](https://www.virtuesecurity.com/).",
+      "category": "AWS",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.virtuesecurity.com/aws-penetration-testing-part-2-s3-iam-ec2/",
+      "title": "AWS PENETRATION TESTING PART 2. S3, IAM, EC2",
+      "description": "Written by [VirtueSecurity](https://www.virtuesecurity.com/).",
+      "category": "AWS",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://labs.f-secure.com/blog/misadventures-in-aws",
+      "title": "Misadventures in AWS",
+      "description": "Written by Christian Demko.",
+      "category": "AWS",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://rhinosecuritylabs.com/azure/cloud-security-risks-part-1-azure-csv-injection-vulnerability/",
+      "title": "Cloud Security Risks (Part 1): Azure CSV Injection Vulnerability",
+      "description": "Written by [@spengietz](https://twitter.com/spengietz).",
+      "category": "Azure",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://rhinosecuritylabs.com/cloud-security/common-azure-security-vulnerabilities/",
+      "title": "Common Azure Security Vulnerabilities and Misconfigurations",
+      "description": "Written by [@rhinobenjamin](https://twitter.com/rhinobenjamin).",
+      "category": "Azure",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://blog.appsecco.com/a-penetration-testers-guide-to-sub-domain-enumeration-7d842d5570f6",
+      "title": "A penetration tester’s guide to sub-domain enumeration",
+      "description": "Written by [Bharath](https://blog.appsecco.com/@yamakira_).",
+      "category": "Sub Domain Enumeration",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://blog.sweepatic.com/art-of-subdomain-enumeration/",
+      "title": "The Art of Subdomain Enumeration",
+      "description": "Written by [Patrik Hudak](https://blog.sweepatic.com/author/patrik/).",
+      "category": "Sub Domain Enumeration",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://bettercrypto.org/",
+      "title": "Applied Crypto Hardening",
+      "description": "Written by [The bettercrypto.org Team](https://bettercrypto.org/).",
+      "category": "Crypto",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.csoonline.com/article/3388647/what-is-a-side-channel-attack-how-these-end-runs-around-encryption-put-everyone-at-risk.html",
+      "title": "What is a Side-Channel Attack ?",
+      "description": "Written by [J.M Porup](https://www.csoonline.com/author/J.M.-Porup/).",
+      "category": "Crypto",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://blog.netspi.com/hacking-with-jsp-shells/",
+      "title": "Hacking with JSP Shells",
+      "description": "Written by [@_nullbind](https://twitter.com/_nullbind).",
+      "category": "Web Shell",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.tenable.com/blog/hunting-for-web-shells",
+      "title": "Hunting for Web Shells",
+      "description": "Written by [Jacob Baines](https://www.tenable.com/profile/jacob-baines).",
+      "category": "Web Shell",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://medium.com/@s3yfullah/hacking-cryptocurrency-miners-with-osint-techniques-677bbb3e0157",
+      "title": "Hacking Cryptocurrency Miners with OSINT Techniques",
+      "description": "Written by [@s3yfullah](https://medium.com/@s3yfullah).",
+      "category": "OSINT",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.slideshare.net/miaoski/osint-x-uccu-workshop-on-open-source-intelligence",
+      "title": "OSINT x UCCU Workshop on Open Source Intelligence",
+      "description": "Written by [Philippe Lin](https://www.slideshare.net/miaoski).",
+      "category": "OSINT",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.blurbiz.io/blog/the-most-complete-guide-to-finding-anyones-email",
+      "title": "The most complete guide to finding anyone’s email",
+      "description": "Written by [Timur Daudpota](https://www.blurbiz.io/).",
+      "category": "OSINT",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://medium.com/@brannondorsey/attacking-private-networks-from-the-internet-with-dns-rebinding-ea7098a2d325",
+      "title": "Attacking Private Networks from the Internet with DNS Rebinding",
+      "description": "Written by [@brannondorsey](https://medium.com/@brannondorsey).",
+      "category": "DNS Rebinding",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://medium.com/@radekk/hackers-can-get-access-to-your-home-router-1ddadd12a7a7",
+      "title": "Hacking home routers from the Internet",
+      "description": "Written by [@radekk](https://medium.com/@radekk).",
+      "category": "DNS Rebinding",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://foxglovesecurity.com/2015/11/06/what-do-weblogic-websphere-jboss-jenkins-opennms-and-your-application-have-in-common-this-vulnerability/",
+      "title": "What Do WebLogic, WebSphere, JBoss, Jenkins, OpenNMS, and Your Application Have in Common? This Vulnerability.",
+      "description": "Written by [@breenmachine](https://twitter.com/breenmachine).",
+      "category": "Deserialization",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://pentest-tools.com/blog/exploit-dotnetnuke-cookie-deserialization/",
+      "title": "How to exploit the DotNetNuke Cookie Deserialization",
+      "description": "Written by [CRISTIAN CORNEA](https://pentest-tools.com/blog/author/pentest-cristian/).",
+      "category": "Deserialization",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.synacktiv.com/en/publications/how-to-exploit-liferay-cve-2020-7961-quick-journey-to-poc.html",
+      "title": "HOW TO EXPLOIT LIFERAY CVE-2020-7961 : QUICK JOURNEY TO POC",
+      "description": "Written by [@synacktiv](https://twitter.com/synacktiv).",
+      "category": "Deserialization",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://medium.com/securing/what-is-going-on-with-oauth-2-0-and-why-you-should-not-use-it-for-authentication-5f47597b2611",
+      "title": "What is going on with OAuth 2.0? And why you should not use it for authentication.",
+      "description": "Written by [@damianrusinek](https://medium.com/@damianrusinek).",
+      "category": "OAuth",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://pragmaticwebsecurity.com/courses/introduction-oauth-oidc.html",
+      "title": "Introduction to OAuth 2.0 and OpenID Connect",
+      "description": "Written by [@PhilippeDeRyck](https://twitter.com/PhilippeDeRyck).",
+      "category": "OAuth",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://r2c.dev/blog/2020/hardcoded-secrets-unverified-tokens-and-other-common-jwt-mistakes/",
+      "title": "Hardcoded secrets, unverified tokens, and other common JWT mistakes",
+      "description": "Written by [@ermil0v](https://twitter.com/ermil0v).",
+      "category": "JWT",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://twitter.com/SpiderSec/status/1191375472690528256",
+      "title": "Bypass Fix of OOB XXE Using Different encoding",
+      "description": "Written by [@SpiderSec](https://twitter.com/SpiderSec).",
+      "category": "XXE",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://labs.detectify.com/2016/04/04/csp-bypassing-form-action-with-reflected-xss/",
+      "title": "CSP: bypassing form-action with reflected XSS",
+      "description": "Written by [Detectify Labs](https://labs.detectify.com/).",
+      "category": "CSP",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.paulosyibelo.com/2017/05/twitter-xss-csp-bypass.html",
+      "title": "TWITTER XSS + CSP BYPASS",
+      "description": "Written by [Paulos Yibelo](https://www.paulosyibelo.com/).",
+      "category": "CSP",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://lab.wallarm.com/how-to-trick-csp-in-letting-you-run-whatever-you-want-73cb5ff428aa",
+      "title": "Neatly bypassing CSP",
+      "description": "Written by [Wallarm](https://wallarm.com/).",
+      "category": "CSP",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://portswigger.net/blog/evading-csp-with-dom-based-dangling-markup",
+      "title": "Evading CSP with DOM-based dangling markup",
+      "description": "Written by [portswigger](https://portswigger.net/).",
+      "category": "CSP",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://githubengineering.com/githubs-csp-journey/",
+      "title": "GitHub's CSP journey",
+      "description": "Written by [@ptoomey3](https://github.com/ptoomey3).",
+      "category": "CSP",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://githubengineering.com/githubs-post-csp-journey/",
+      "title": "GitHub's post-CSP journey",
+      "description": "Written by [@ptoomey3](https://github.com/ptoomey3).",
+      "category": "CSP",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/w3c/webappsec-csp/issues/243",
+      "title": "Any protection against dynamic module import?",
+      "description": "Written by [@shhnjk](https://twitter.com/@shhnjk).",
+      "category": "CSP",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://buer.haus/2017/03/08/airbnb-when-bypassing-json-encoding-xss-filter-waf-csp-and-auditor-turns-into-eight-vulnerabilities/",
+      "title": "Airbnb – When Bypassing JSON Encoding, XSS Filter, WAF, CSP, and Auditor turns into Eight Vulnerabilities",
+      "description": "Written by [@Brett Buerhaus](https://twitter.com/bbuerhaus).",
+      "category": "WAF",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://medium.com/@d0znpp/how-to-bypass-libinjection-in-many-waf-ngwaf-1e2513453c0f",
+      "title": "How to bypass libinjection in many WAF/NGWAF",
+      "description": "Written by [@d0znpp](https://medium.com/@d0znpp).",
+      "category": "WAF",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://medium.com/secjuice/waf-evasion-techniques-718026d693d8",
+      "title": "Web Application Firewall (WAF) Evasion Techniques",
+      "description": "Written by [@secjuice](https://twitter.com/secjuice).",
+      "category": "WAF",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://medium.com/secjuice/web-application-firewall-waf-evasion-techniques-2-125995f3e7b0",
+      "title": "Web Application Firewall (WAF) Evasion Techniques #2",
+      "description": "Written by [@secjuice](https://twitter.com/secjuice).",
+      "category": "WAF",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.slideshare.net/x00mario/jsmvcomfg-to-sternly-look-at-javascript-mvc-and-templating-frameworks",
+      "title": "JavaScript MVC and Templating Frameworks",
+      "description": "Written by [Mario Heiderich](https://www.slideshare.net/x00mario).",
+      "category": "JSMVC",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://blog.malerisch.net/2017/04/trend-micro-threat-discovery-appliance-session-generation-authentication-bypass-cve-2016-8584.html",
+      "title": "Trend Micro Threat Discovery Appliance - Session Generation Authentication Bypass (CVE-2016-8584)",
+      "description": "Written by [@malerisch](https://twitter.com/malerisch) and [@steventseeley](https://twitter.com/steventseeley).",
+      "category": "Authentication",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://blog.appsecco.com/exploiting-csrf-on-json-endpoints-with-flash-and-redirects-681d4ad6b31b",
+      "title": "Exploiting CSRF on JSON endpoints with Flash and redirects",
+      "description": "Written by [@riyazwalikar](https://blog.appsecco.com/@riyazwalikar).",
+      "category": "CSRF",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://zhuanlan.zhihu.com/p/32716181",
+      "title": "Neat tricks to bypass CSRF-protection",
+      "description": "Written by [Twosecurity](https://twosecurity.io/).",
+      "category": "CSRF",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/dxa4481/cssInjection",
+      "title": "Stealing CSRF tokens with CSS injection (without iFrames)",
+      "description": "Written by [@dxa4481](https://github.com/dxa4481).",
+      "category": "CSRF",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://blog.securityevaluators.com/cracking-javas-rng-for-csrf-ea9cacd231d2",
+      "title": "Cracking Java’s RNG for CSRF - Javax Faces and Why CSRF Token Randomness Matters",
+      "description": "Written by [@rramgattie](https://blog.securityevaluators.com/@rramgattie).",
+      "category": "CSRF",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://medium.com/@_graphx/if-httponly-you-could-still-csrf-of-cors-you-can-5d7ee2c7443",
+      "title": "If HttpOnly You Could Still CSRF… Of CORS you can!",
+      "description": "Written by [@GraphX](https://twitter.com/GraphX).",
+      "category": "CSRF",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://medium.com/@raushanraj_65039/google-clickjacking-6a04132b918a",
+      "title": "Clickjackings in Google worth 14981.7$",
+      "description": "Written by [@raushanraj_65039](https://medium.com/@raushanraj_65039).",
+      "category": "Clickjacking",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.ambionics.io/blog/drupal-services-module-rce",
+      "title": "DRUPAL 7.X SERVICES MODULE UNSERIALIZE() TO RCE",
+      "description": "Written by [Ambionics Security](https://www.ambionics.io/).",
+      "category": "Remote Code Execution",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://opsecx.com/index.php/2017/02/08/exploiting-node-js-deserialization-bug-for-remote-code-execution/",
+      "title": "Exploiting Node.js deserialization bug for Remote Code Execution",
+      "description": "Written by [OpSecX](https://opsecx.com/index.php/author/ajinabraham/).",
+      "category": "Remote Code Execution",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://bounty.github.com/researchers/iblue.html",
+      "title": "GitHub Enterprise Remote Code Execution",
+      "description": "Written by [@iblue](https://github.com/iblue).",
+      "category": "Remote Code Execution",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://blog.orange.tw/2017/07/how-i-chained-4-vulnerabilities-on.html",
+      "title": "How I Chained 4 vulnerabilities on GitHub Enterprise, From SSRF Execution Chain to RCE!",
+      "description": "Written by [Orange](https://blog.orange.tw/).",
+      "category": "Remote Code Execution",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://capacitorset.github.io/mathjs/",
+      "title": "How we exploited a remote code execution vulnerability in math.js",
+      "description": "Written by [@capacitorset](https://github.com/capacitorset).",
+      "category": "Remote Code Execution",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://sites.google.com/site/testsitehacking/-36k-google-app-engine-rce",
+      "title": "$36k Google App Engine RCE",
+      "description": "Written by [Ezequiel Pereira](https://sites.google.com/site/testsitehacking/).",
+      "category": "Remote Code Execution",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://codewhitesec.blogspot.com/2018/05/poor-richfaces.html",
+      "title": "Poor RichFaces",
+      "description": "Written by [CODE WHITE](https://www.code-white.com/).",
+      "category": "Remote Code Execution",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://blog.scrt.ch/2018/08/24/remote-code-execution-on-a-facebook-server/",
+      "title": "Remote Code Execution on a Facebook server",
+      "description": "Written by [@blaklis_](https://twitter.com/blaklis_).",
+      "category": "Remote Code Execution",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://blog.ripstech.com/2018/moodle-remote-code-execution/",
+      "title": "Evil Teacher: Code Injection in Moodle",
+      "description": "Written by [RIPS Technologies](https://www.ripstech.com/).",
+      "category": "Remote Code Execution",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://paper.seebug.org/910/",
+      "title": "WebLogic RCE (CVE-2019-2725) Debug Diary",
+      "description": "Written by Badcode@Knownsec 404 Team.",
+      "category": "Remote Code Execution",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.thezdi.com/blog/2019/10/23/cve-2019-1306-are-you-my-index",
+      "title": "CVE-2019-1306: ARE YOU MY INDEX?",
+      "description": "Written by [@yu5k3](https://twitter.com/yu5k3).",
+      "category": "Remote Code Execution",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.blackhat.com/docs/us-17/thursday/us-17-Lekies-Dont-Trust-The-DOM-Bypassing-XSS-Mitigations-Via-Script-Gadgets.pdf",
+      "title": "DON'T TRUST THE DOM: BYPASSING XSS MITIGATIONS VIA SCRIPT GADGETS",
+      "description": "Written by [Sebastian Lekies](https://twitter.com/slekies), [Krzysztof Kotowicz](https://twitter.com/kkotowicz), and [Eduardo Vela](https://twitter.com/sirdarckcat).",
+      "category": "XSS",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.slideshare.net/x00mario/es6-en",
+      "title": "ECMAScript 6 from an Attacker's Perspective - Breaking Frameworks, Sandboxes, and everything else",
+      "description": "Written by [Mario Heiderich](https://www.slideshare.net/x00mario).",
+      "category": "XSS",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://medium.com/@marin_m/how-i-found-a-5-000-google-maps-xss-by-fiddling-with-protobuf-963ee0d9caff#.u50nrzhas",
+      "title": "How I found a $5,000 Google Maps XSS (by fiddling with Protobuf)",
+      "description": "Written by [@marin_m](https://medium.com/@marin_m).",
+      "category": "XSS",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://hackerone.com/reports/293689",
+      "title": "Query parameter reordering causes redirect page to render unsafe URL",
+      "description": "Written by [kenziy](https://hackerone.com/kenziy).",
+      "category": "XSS",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://zhchbin.github.io/2017/08/30/Uber-XSS-via-Cookie/",
+      "title": "Uber XSS via Cookie",
+      "description": "Written by [zhchbin](https://zhchbin.github.io/).",
+      "category": "XSS",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://opnsec.com/2018/03/stored-xss-on-facebook/",
+      "title": "Stored XSS on Facebook",
+      "description": "Written by [Enguerran Gillier](https://opnsec.com/).",
+      "category": "XSS",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "http://stamone-bug-bounty.blogspot.tw/2017/10/dom-xss-auth14.html",
+      "title": "DOM XSS – auth.uber.com",
+      "description": "Written by [StamOne_](https://stamone-bug-bounty.blogspot.tw/).",
+      "category": "XSS",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://blog.bentkowski.info/2018/09/another-xss-in-google-colaboratory.html",
+      "title": "Another XSS in Google Colaboratory",
+      "description": "Written by [Michał Bentkowski](https://blog.bentkowski.info/).",
+      "category": "XSS",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://blog.bentkowski.info/2018/06/xss-in-google-colaboratory-csp-bypass.html",
+      "title": "XSS in Google Colaboratory + CSP bypass",
+      "description": "Written by [Michał Bentkowski](https://blog.bentkowski.info/).",
+      "category": "XSS",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://twitter.com/strukt93/status/931586377665331200",
+      "title": "is filtered ?",
+      "description": "Written by [@strukt93](https://twitter.com/strukt93).",
+      "category": "XSS",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://medium.com/bugbountywriteup/xss-auditor-the-protector-of-unprotected-f900a5e15b7b",
+      "title": "XSS-Auditor — the protector of unprotected and the deceiver of protected.",
+      "description": "Written by [@terjanq](https://medium.com/@terjanq).",
+      "category": "XSS",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://portswigger.net/blog/xss-without-parentheses-and-semi-colons",
+      "title": "XSS without parentheses and semi-colons",
+      "description": "Written by [@garethheyes](https://twitter.com/garethheyes).",
+      "category": "XSS",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.hahwul.com/2019/11/upgrade-self-xss-to-exploitable-xss.html",
+      "title": "Upgrade self XSS to Exploitable XSS an 3 Ways Technic",
+      "description": "Written by [HAHWUL](https://www.hahwul.com/).",
+      "category": "XSS",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://jlajara.gitlab.io/posts/2019/11/30/XSS_20_characters.html",
+      "title": "Exploiting XSS with 20 characters limitation",
+      "description": "Written by [Jorge Lajara](https://jlajara.gitlab.io/).",
+      "category": "XSS",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://vinothkumar.me/20000-facebook-dom-xss/",
+      "title": "$20000 Facebook DOM XSS",
+      "description": "Written by [@vinodsparrow](https://twitter.com/vinodsparrow).",
+      "category": "XSS",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://blog.orange.tw/2017/01/bug-bounty-github-enterprise-sql-injection.html",
+      "title": "GitHub Enterprise SQL Injection",
+      "description": "Written by [Orange](https://blog.orange.tw/).",
+      "category": "SQL Injection",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "http://zombiehelp54.blogspot.jp/2017/02/sql-injection-in-update-query-bug.html",
+      "title": "SQL injection in an UPDATE query - a bug bounty story!",
+      "description": "Written by [Zombiehelp54](https://zombiehelp54.blogspot.jp/).",
+      "category": "SQL Injection",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://medium.com/@tomnomnom/making-a-blind-sql-injection-a-little-less-blind-428dcb614ba8",
+      "title": "Making a Blind SQL Injection a little less blind",
+      "description": "Written by [TomNomNom](https://twitter.com/TomNomNom).",
+      "category": "SQL Injection",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.tarlogic.com/en/blog/red-team-tales-0x01/",
+      "title": "Red Team Tales 0x01: From MSSQL to RCE",
+      "description": "Written by [Tarlogic](https://www.tarlogic.com/en/cybersecurity-blog/).",
+      "category": "SQL Injection",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.exploit-db.com/docs/english/37953-mysql-error-based-sql-injection-using-exp.pdf",
+      "title": "MySQL Error Based SQL Injection Using EXP",
+      "description": "Written by [@osandamalith](https://twitter.com/osandamalith).",
+      "category": "SQL Injection",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://pulsesecurity.co.nz/articles/postgres-sqli",
+      "title": "SQL INJECTION AND POSTGRES - AN ADVENTURE TO EVENTUAL RCE",
+      "description": "Written by [@denandz](https://github.com/denandz).",
+      "category": "SQL Injection",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.petecorey.com/blog/2017/06/12/graphql-nosql-injection-through-json-types/",
+      "title": "GraphQL NoSQL Injection Through JSON Types",
+      "description": "Written by [Pete](https://www.petecorey.com/work/).",
+      "category": "NoSQL Injection",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://media.blackhat.com/eu-13/briefings/Osipov/bh-eu-13-XML-data-osipov-slides.pdf",
+      "title": "XML Out-Of-Band Data Retrieval",
+      "description": "Written by [@a66at](https://twitter.com/a66at) and Alexey Osipov.",
+      "category": "FTP Injection",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "http://lab.onsec.ru/2014/06/xxe-oob-exploitation-at-java-17.html",
+      "title": "XXE OOB exploitation at Java 1.7+",
+      "description": "Written by [Ivan Novikov](http://lab.onsec.ru/).",
+      "category": "FTP Injection",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://mohemiv.com/all/evil-xml/",
+      "title": "Evil XML with two encodings",
+      "description": "Written by [Arseniy Sharoglazov](https://mohemiv.com/).",
+      "category": "XXE",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.gosecure.net/blog/2019/07/16/automating-local-dtd-discovery-for-xxe-exploitation",
+      "title": "Automating local DTD discovery for XXE exploitation",
+      "description": "Written by [Philippe Arteau](https://twitter.com/h3xstream).",
+      "category": "XXE",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://mohemiv.com/all/exploiting-xxe-with-local-dtd-files/",
+      "title": "Exploiting XXE with local DTD files",
+      "description": "Written by [Arseniy Sharoglazov](https://twitter.com/_mohemiv).",
+      "category": "XXE",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://blog.netspi.com/forcing-xxe-reflection-server-error-messages/",
+      "title": "Forcing XXE Reflection through Server Error Messages",
+      "description": "Written by [Antti Rantasaari](https://blog.netspi.com/author/antti-rantasaari/).",
+      "category": "XXE",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.synacktiv.com/ressources/synacktiv_drupal_xxe_services.pdf",
+      "title": "Pre-authentication XXE vulnerability in the Services Drupal module",
+      "description": "Written by [Renaud Dubourguais](https://twitter.com/_m0bius).",
+      "category": "XXE",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://2013.appsecusa.org/2013/wp-content/uploads/2013/12/WhatYouDidntKnowAboutXXEAttacks.pdf",
+      "title": "What You Didn't Know About XML External Entities Attacks",
+      "description": "Written by [Timothy D. Morgan](https://twitter.com/ecbftw).",
+      "category": "XXE",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://seclists.org/fulldisclosure/2018/Jul/3",
+      "title": "XXE in WeChat Pay Sdk ( WeChat leave a backdoor on merchant websites)",
+      "description": "Written by [Rose Jackcode](https://twitter.com/codeshtool).",
+      "category": "XXE",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://skavans.ru/en/2017/12/02/xxe-oob-extracting-via-httpftp-using-single-opened-port/",
+      "title": "XXE OOB extracting via HTTP+FTP using single opened port",
+      "description": "Written by [skavans](https://skavans.ru/).",
+      "category": "XXE",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.blackhat.com/docs/us-17/thursday/us-17-Tsai-A-New-Era-Of-SSRF-Exploiting-URL-Parser-In-Trending-Programming-Languages.pdf",
+      "title": "A New Era of SSRF - Exploiting URL Parser in Trending Programming Languages!",
+      "description": "Written by [Orange](https://blog.orange.tw/).",
+      "category": "SSRF",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://hackerone.com/reports/115748",
+      "title": "SSRF in https://imgur.com/vidgif/url",
+      "description": "Written by [aesteral](https://hackerone.com/aesteral).",
+      "category": "SSRF",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "http://blog.safebuff.com/2016/07/03/SSRF-Tips/",
+      "title": "SSRF Tips",
+      "description": "Written by [xl7dev](http://blog.safebuff.com/).",
+      "category": "SSRF",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://medium.com/secjuice/php-ssrf-techniques-9d422cb28d51",
+      "title": "PHP SSRF Techniques",
+      "description": "Written by [@themiddleblue](https://medium.com/@themiddleblue).",
+      "category": "SSRF",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://hackerone.com/reports/341876",
+      "title": "SSRF in Exchange leads to ROOT access in all instances",
+      "description": "Written by [@0xacb](https://twitter.com/0xacb).",
+      "category": "SSRF",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://opnsec.com/2018/07/into-the-borg-ssrf-inside-google-production-network/",
+      "title": "Into the Borg – SSRF inside Google production network",
+      "description": "Written by [opnsec](https://opnsec.com/).",
+      "category": "SSRF",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://medium.com/bugbountywriteup/piercing-the-veil-server-side-request-forgery-to-niprnet-access-c358fd5e249a",
+      "title": "Piercing the Veil: Server Side Request Forgery to NIPRNet access",
+      "description": "Written by [Alyssa Herrera](https://medium.com/@alyssa.o.herrera).",
+      "category": "SSRF",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.auxy.xyz/web%20security/2017/07/06/all-ssrf-knowledge.html",
+      "title": "All you need to know about SSRF and how may we write tools to do auto-detect",
+      "description": "Written by [@Auxy233](https://twitter.com/Auxy233).",
+      "category": "SSRF",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://10degres.net/aws-takeover-through-ssrf-in-javascript/",
+      "title": "AWS takeover through SSRF in JavaScript",
+      "description": "Written by [Gwen](https://10degres.net/).",
+      "category": "SSRF",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://portswigger.net/blog/bypassing-web-cache-poisoning-countermeasures",
+      "title": "Bypassing Web Cache Poisoning Countermeasures",
+      "description": "Written by [@albinowax](https://twitter.com/albinowax).",
+      "category": "Web Cache Poisoning",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://lab.wallarm.com/cache-poisoning-and-other-dirty-tricks-120468f1053f",
+      "title": "Cache poisoning and other dirty tricks",
+      "description": "Written by [Wallarm](https://wallarm.com/).",
+      "category": "Web Cache Poisoning",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.xudongz.com/blog/2017/idn-phishing/",
+      "title": "Phishing with Unicode Domains",
+      "description": "Written by [Xudong Zheng](https://www.xudongz.com/).",
+      "category": "URL",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://noncombatant.org/2017/11/07/problems-of-urls/",
+      "title": "Some Problems Of URLs",
+      "description": "Written by [Chris Palmer](https://noncombatant.org/about/).",
+      "category": "URL",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.vgrsec.com/post20170219.html",
+      "title": "Unicode Domains are bad and you should feel bad for supporting them",
+      "description": "Written by [VRGSEC](https://www.vgrsec.com/).",
+      "category": "URL",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/august/aspnet-resource-files-resx-and-deserialisation-issues/",
+      "title": "ASP.NET resource files (.RESX) and deserialisation issues",
+      "description": "Written by [@irsdl](https://twitter.com/irsdl).",
+      "category": "Deserialization",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.amolbaikar.com/facebook-oauth-framework-vulnerability/",
+      "title": "Facebook OAuth Framework Vulnerability",
+      "description": "Written by [@AmolBaikar](https://twitter.com/AmolBaikar).",
+      "category": "OAuth",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/epidemics-scepticism/writing/blob/master/onion-dns-leaks.md",
+      "title": "Inducing DNS Leaks in Onion Web Services",
+      "description": "Written by [@epidemics-scepticism](https://github.com/epidemics-scepticism).",
+      "category": "Others",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://s1gnalcha0s.github.io/dspl/2018/03/07/Stored-XSS-and-SSRF-Google.html",
+      "title": "Stored XSS, and SSRF in Google using the Dataset Publishing Language",
+      "description": "Written by [@signalchaos](https://twitter.com/signalchaos).",
+      "category": "Others",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://medium.com/free-code-camp/messing-with-the-google-buganizer-system-for-15-600-in-bounties-58f86cc9f9a5",
+      "title": "How I hacked Google’s bug tracking system itself for $15,600 in bounties",
+      "description": "Written by [@alex.birsan](https://medium.com/@alex.birsan).",
+      "category": "Others",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.leavesongs.com/SHARE/some-tricks-from-my-secret-group.html",
+      "title": "Some Tricks From My Secret Group",
+      "description": "Written by [phithon](https://www.leavesongs.com/).",
+      "category": "Others",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.facebook.com/ExploitWareLabs/photos/a.361854183878462.84544.338832389513975/1378579648872572/?type=3&theater",
+      "title": "IE11 Information disclosure - local file detection",
+      "description": "Written by James Lee.",
+      "category": "Frontend (like SOP bypass, URL spoofing, and something like that)",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://blog.portswigger.net/2016/11/json-hijacking-for-modern-web.html",
+      "title": "JSON hijacking for the modern web",
+      "description": "Written by [portswigger](https://portswigger.net/).",
+      "category": "Frontend (like SOP bypass, URL spoofing, and something like that)",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.brokenbrowser.com/sop-bypass-uxss-stealing-credentials-pretty-fast/",
+      "title": "SOP bypass / UXSS – Stealing Credentials Pretty Fast (Edge)",
+      "description": "Written by [Manuel](https://twitter.com/magicmac2000).",
+      "category": "Frontend (like SOP bypass, URL spoofing, and something like that)",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://bo0om.ru/safari-client-side",
+      "title": "Особенности Safari в client-side атаках",
+      "description": "Written by [Bo0oM](https://bo0om.ru/author/admin).",
+      "category": "Frontend (like SOP bypass, URL spoofing, and something like that)",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://docs.google.com/document/d/1cbL-X0kV_tQ5rL8XJ3lXkV-j0pt_CfTu5ZSzYrncPDc/",
+      "title": "How do we Stop Spilling the Beans Across Origins?",
+      "description": "Written by [aaj at google.com](mailto:aaj@google.com) and [mkwst at google.com](mailto:mkwst@google.com).",
+      "category": "Frontend (like SOP bypass, URL spoofing, and something like that)",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://blog.bentkowski.info/2018/06/setting-arbitrary-request-headers-in.html",
+      "title": "Setting arbitrary request headers in Chromium via CRLF injection",
+      "description": "Written by [Michał Bentkowski](https://blog.bentkowski.info/).",
+      "category": "Frontend (like SOP bypass, URL spoofing, and something like that)",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://hackernoon.com/im-harvesting-credit-card-numbers-and-passwords-from-your-site-here-s-how-9a8cb347c5b5",
+      "title": "I’m harvesting credit card numbers and passwords from your site. Here’s how.",
+      "description": "Written by [David Gilbertson](https://hackernoon.com/@david.gilbertson).",
+      "category": "Frontend (like SOP bypass, URL spoofing, and something like that)",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://jameshfisher.com/2019/04/27/the-inception-bar-a-new-phishing-method/",
+      "title": "The inception bar: a new phishing method",
+      "description": "Written by [jameshfisher](https://jameshfisher.com/).",
+      "category": "Frontend (like SOP bypass, URL spoofing, and something like that)",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.blackhat.com/docs/asia-16/materials/asia-16-Baloch-Bypassing-Browser-Security-Policies-For-Fun-And-Profit-wp.pdf",
+      "title": "Bypassing Mobile Browser Security For Fun And Profit",
+      "description": "Written by [@rafaybaloch](https://twitter.com/@rafaybaloch).",
+      "category": "Frontend (like SOP bypass, URL spoofing, and something like that)",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://speakerdeck.com/filedescriptor/the-cookie-monster-in-your-browsers",
+      "title": "The Cookie Monster in Your Browsers",
+      "description": "Written by [@filedescriptor](https://twitter.com/filedescriptor).",
+      "category": "Frontend (like SOP bypass, URL spoofing, and something like that)",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://speakerdeck.com/shhnjk/the-world-of-site-isolation-and-compromised-renderer",
+      "title": "The world of Site Isolation and compromised renderer",
+      "description": "Written by [@shhnjk](https://twitter.com/shhnjk).",
+      "category": "Frontend (like SOP bypass, URL spoofing, and something like that)",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://hackerone.com/reports/188086",
+      "title": "Sending arbitrary IPC messages via overriding Function.prototype.apply",
+      "description": "Written by [@kinugawamasato](https://twitter.com/kinugawamasato).",
+      "category": "Frontend (like SOP bypass, URL spoofing, and something like that)",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://ahussam.me/Take-Advantage-of-Out-of-Scope-Domains-in-Bug-Bounty/",
+      "title": "Take Advantage of Out-of-Scope Domains in Bug Bounty Programs",
+      "description": "Written by [@Abdulahhusam](https://twitter.com/Abdulahhusam).",
+      "category": "Frontend (like SOP bypass, URL spoofing, and something like that)",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.phrack.org/papers/attacking_javascript_engines.html",
+      "title": "Attacking JavaScript Engines - A case study of JavaScriptCore and CVE-2016-4622",
+      "description": "Written by [phrack@saelo.net](mailto:phrack@saelo.net).",
+      "category": "Backend (core of Browser implementation, and often refers to C or C++ part)",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://halbecaf.com/2017/05/24/exploiting-a-v8-oob-write/",
+      "title": "Exploiting a V8 OOB write.",
+      "description": "Written by [@halbecaf](https://twitter.com/halbecaf).",
+      "category": "Backend (core of Browser implementation, and often refers to C or C++ part)",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://blogs.securiteam.com/index.php/archives/3379",
+      "title": "SSD Advisory – Chrome Turbofan Remote Code Execution",
+      "description": "Written by [SecuriTeam Secure Disclosure (SSD)](https://blogs.securiteam.com/).",
+      "category": "Backend (core of Browser implementation, and often refers to C or C++ part)",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://labs.bluefrostsecurity.de/files/Look_Mom_I_Dont_Use_Shellcode-WP.pdf",
+      "title": "Look Mom, I don't use Shellcode - Browser Exploitation Case Study for Internet Explorer 11",
+      "description": "Written by [@moritzj](https://twitter.com/moritzj).",
+      "category": "Backend (core of Browser implementation, and often refers to C or C++ part)",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.zerodayinitiative.com/blog/2018/2/12/pushing-webkits-buttons-with-a-mobile-pwn2own-exploit",
+      "title": "PUSHING WEBKIT'S BUTTONS WITH A MOBILE PWN2OWN EXPLOIT",
+      "description": "Written by [@wanderingglitch](https://twitter.com/wanderingglitch).",
+      "category": "Backend (core of Browser implementation, and often refers to C or C++ part)",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://blog.ret2.io/2018/06/05/pwn2own-2018-exploit-development/",
+      "title": "A Methodical Approach to Browser Exploitation",
+      "description": "Written by [RET2 SYSTEMS, INC](https://blog.ret2.io/).",
+      "category": "Backend (core of Browser implementation, and often refers to C or C++ part)",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://doar-e.github.io/blog/2018/07/14/cve-2017-2446-or-jscjsglobalobjectishavingabadtime/",
+      "title": "CVE-2017-2446 or JSC::JSGlobalObject::isHavingABadTime.",
+      "description": "Written by [Diary of a reverse-engineer](https://doar-e.github.io/).",
+      "category": "Backend (core of Browser implementation, and often refers to C or C++ part)",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://habr.com/en/company/drweb/blog/452076/",
+      "title": "Breaking UC Browser",
+      "description": "Written by [Доктор Веб](https://www.drweb.ru/).",
+      "category": "Backend (core of Browser implementation, and often refers to C or C++ part)",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "http://blogs.360.cn/360safe/2016/11/29/three-roads-lead-to-rome-2/",
+      "title": "Three roads lead to Rome",
+      "description": "Written by [@holynop](https://twitter.com/holynop).",
+      "category": "Backend (core of Browser implementation, and often refers to C or C++ part)",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://theori.io/research/escaping-chrome-sandbox",
+      "title": "CLEANLY ESCAPING THE CHROME SANDBOX",
+      "description": "Written by [@tjbecker_](https://twitter.com/tjbecker_).",
+      "category": "Backend (core of Browser implementation, and often refers to C or C++ part)",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/qazbnm456/awesome-cve-poc",
+      "title": "awesome-cve-poc",
+      "description": "Curated list of CVE PoCs by [@qazbnm456](https://github.com/qazbnm456).",
+      "category": "Database",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/tunz/js-vuln-db",
+      "title": "js-vuln-db",
+      "description": "Collection of JavaScript engine CVEs with PoCs by [@tunz](https://github.com/tunz).",
+      "category": "Database",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/coffeehb/Some-PoC-oR-ExP",
+      "title": "Some-PoC-oR-ExP",
+      "description": "各种漏洞poc、Exp的收集或编写 by [@coffeehb](https://github.com/coffeehb).",
+      "category": "Database",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/Metnew/uxss-db",
+      "title": "uxss-db",
+      "description": "Collection of UXSS CVEs with PoCs by [@Metnew](https://github.com/Metnew).",
+      "category": "Database",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://sploitus.com/",
+      "title": "SPLOITUS",
+      "description": "Exploits & Tools Search Engine by [@i_bo0om](https://twitter.com/i_bo0om).",
+      "category": "Database",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.exploit-db.com/",
+      "title": "Exploit Database",
+      "description": "ultimate archive of Exploits, Shellcode, and Security Papers by [Offensive Security](https://www.offensive-security.com/).",
+      "category": "Database",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/uppusaikiran/awesome-ctf-cheatsheet",
+      "title": "Capture the Flag CheatSheet",
+      "description": "Written by [@uppusaikiran](https://github.com/uppusaikiran).",
+      "category": "Cheetsheets",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://leanpub.com/xss",
+      "title": "XSS Cheat Sheet - 2018 Edition",
+      "description": "Written by [@brutelogic](https://twitter.com/brutelogic).",
+      "category": "Cheetsheets",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/hahwul/a2sv",
+      "title": "A2SV",
+      "description": "Auto Scanning to SSL Vulnerability by [@hahwul](https://github.com/hahwul).",
+      "category": "Auditing",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/Alfresco/prowler",
+      "title": "prowler",
+      "description": "Tool for AWS security assessment, auditing and hardening by [@Alfresco](https://github.com/Alfresco).",
+      "category": "Auditing",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/hehnope/slurp",
+      "title": "slurp",
+      "description": "Evaluate the security of S3 buckets by [@hehnope](https://github.com/hehnope).",
+      "category": "Auditing",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/commixproject/commix",
+      "title": "commix",
+      "description": "Automated All-in-One OS command injection and exploitation tool by [@commixproject](https://github.com/commixproject).",
+      "category": "Command Injection",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://censys.io/",
+      "title": "Censys",
+      "description": "Censys is a search engine that allows computer scientists to ask questions about the devices and networks that compose the Internet by [University of Michigan](https://umich.edu/).",
+      "category": "OSINT - Open-Source Intelligence",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/ElevenPaths/FOCA",
+      "title": "FOCA",
+      "description": "FOCA (Fingerprinting Organizations with Collected Archives) is a tool used mainly to find metadata and hidden information in the documents its scans by [ElevenPaths](https://www.elevenpaths.com/index.html).",
+      "category": "OSINT - Open-Source Intelligence",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://fofa.so/?locale=en",
+      "title": "FOFA",
+      "description": "Cyberspace Search Engine by [BAIMAOHUI](https://baimaohui.net/).",
+      "category": "OSINT - Open-Source Intelligence",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/michenriksen/Gitrob",
+      "title": "gitrob",
+      "description": "Reconnaissance tool for GitHub organizations by [@michenriksen](https://github.com/michenriksen).",
+      "category": "OSINT - Open-Source Intelligence",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/FeeiCN/GSIL",
+      "title": "GSIL",
+      "description": "Github Sensitive Information Leakage（Github敏感信息泄露）by [@FeeiCN](https://github.com/FeeiCN).",
+      "category": "OSINT - Open-Source Intelligence",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://nti.nsfocus.com/",
+      "title": "NSFOCUS",
+      "description": "THREAT INTELLIGENCE PORTAL by NSFOCUS GLOBAL.",
+      "category": "OSINT - Open-Source Intelligence",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/0x09AL/raven",
+      "title": "raven",
+      "description": "raven is a Linkedin information gathering tool that can be used by pentesters to gather information about an organization employees using Linkedin by [@0x09AL](https://github.com/0x09AL).",
+      "category": "OSINT - Open-Source Intelligence",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.shodan.io/",
+      "title": "Shodan",
+      "description": "Shodan is the world's first search engine for Internet-connected devices by [@shodanhq](https://twitter.com/shodanhq).",
+      "category": "OSINT - Open-Source Intelligence",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.spiderfoot.net/",
+      "title": "SpiderFoot",
+      "description": "Open source footprinting and intelligence-gathering tool by [@binarypool](https://twitter.com/binarypool).",
+      "category": "OSINT - Open-Source Intelligence",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://urlscan.io/",
+      "title": "urlscan.io",
+      "description": "Service which analyses websites and the resources they request by [@heipei](https://twitter.com/heipei).",
+      "category": "OSINT - Open-Source Intelligence",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/evilsocket/xray",
+      "title": "xray",
+      "description": "XRay is a tool for recon, mapping and OSINT gathering from public networks by [@evilsocket](https://github.com/evilsocket).",
+      "category": "OSINT - Open-Source Intelligence",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.zoomeye.org/",
+      "title": "ZoomEye",
+      "description": "Cyberspace Search Engine by [@zoomeye_team](https://twitter.com/zoomeye_team).",
+      "category": "OSINT - Open-Source Intelligence",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://start.me/p/QRENnO/databases",
+      "title": "Databases - start.me",
+      "description": "Various databases which you can use for your OSINT research by [@technisette](https://twitter.com/technisette).",
+      "category": "OSINT - Open-Source Intelligence",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://peoplefindthor.dk/",
+      "title": "peoplefindThor",
+      "description": "the easy way to find people on Facebook by [postkassen](mailto:postkassen@oejvind.dk?subject=peoplefindthor.dk%20comments).",
+      "category": "OSINT - Open-Source Intelligence",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/vaguileradiaz/tinfoleak",
+      "title": "tinfoleak",
+      "description": "The most complete open-source tool for Twitter intelligence analysis by [@vaguileradiaz](https://github.com/vaguileradiaz).",
+      "category": "OSINT - Open-Source Intelligence",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/s0md3v/Photon",
+      "title": "Photon",
+      "description": "Incredibly fast crawler designed for OSINT by [@s0md3v](https://github.com/s0md3v).",
+      "category": "OSINT - Open-Source Intelligence",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/s0md3v/ReconDog",
+      "title": "ReconDog",
+      "description": "Reconnaissance Swiss Army Knife by [@s0md3v](https://github.com/s0md3v).",
+      "category": "OSINT - Open-Source Intelligence",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/espi0n/Dockerfiles",
+      "title": "espi0n/Dockerfiles",
+      "description": "Dockerfiles for various OSINT tools by [@espi0n](https://github.com/espi0n).",
+      "category": "OSINT - Open-Source Intelligence",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/evyatarmeged/Raccoon",
+      "title": "Raccoon",
+      "description": "High performance offensive security tool for reconnaissance and vulnerability scanning by [@evyatarmeged](https://github.com/evyatarmeged).",
+      "category": "OSINT - Open-Source Intelligence",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/SpiderLabs/social_mapper",
+      "title": "Social Mapper",
+      "description": "Social Media Enumeration & Correlation Tool by Jacob Wilkin(Greenwolf) by [@SpiderLabs](https://github.com/SpiderLabs).",
+      "category": "OSINT - Open-Source Intelligence",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/bad-antics/marshall-extensions",
+      "title": "Marshall Extensions",
+      "description": "OSINT and security extensions for the Marshall privacy browser, providing reconnaissance and security-testing plugins by [@bad-antics](https://github.com/bad-antics).",
+      "category": "OSINT - Open-Source Intelligence",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://openbuckets.io/",
+      "title": "OpenBuckets",
+      "description": "Search engine for misconfigured public cloud storage buckets across any provider.",
+      "category": "OSINT - Open-Source Intelligence",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://osintprojects.com",
+      "title": "OSINT Projects",
+      "description": "Free web toolkit for WHOIS/RDAP, DNS, IP geolocation, SSL certificate inspection and Certificate Transparency subdomain discovery.",
+      "category": "OSINT - Open-Source Intelligence",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/michenriksen/aquatone",
+      "title": "AQUATONE",
+      "description": "Tool for Domain Flyovers by [@michenriksen](https://github.com/michenriksen).",
+      "category": "Sub Domain Enumeration",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://crt.sh/",
+      "title": "Certificate Search",
+      "description": "Enter an Identity (Domain Name, Organization Name, etc), a Certificate Fingerprint (SHA-1 or SHA-256) or a crt.sh ID to search certificate(s) by [@crtsh](https://github.com/crtsh).",
+      "category": "Sub Domain Enumeration",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/google/certificate-transparency",
+      "title": "Certificate Transparency",
+      "description": "Google's Certificate Transparency project fixes several structural flaws in the SSL certificate system by [@google](https://github.com/google).",
+      "category": "Sub Domain Enumeration",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/eldraco/domain_analyzer",
+      "title": "domain_analyzer",
+      "description": "Analyze the security of any domain by finding all the information possible by [@eldraco](https://github.com/eldraco).",
+      "category": "Sub Domain Enumeration",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/ChrisTruncer/EyeWitness",
+      "title": "EyeWitness",
+      "description": "EyeWitness is designed to take screenshots of websites, provide some server header info, and identify default credentials if possible by [@ChrisTruncer](https://github.com/ChrisTruncer).",
+      "category": "Sub Domain Enumeration",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/We5ter/GSDF",
+      "title": "GSDF",
+      "description": "Domain searcher named GoogleSSLdomainFinder by [@We5ter](https://github.com/We5ter).",
+      "category": "Sub Domain Enumeration",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/lijiejie/subDomainsBrute",
+      "title": "subDomainsBrute",
+      "description": "A simple and fast sub domain brute tool for pentesters by [@lijiejie](https://github.com/lijiejie).",
+      "category": "Sub Domain Enumeration",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.virustotal.com/en/documentation/searching/#getting-domain-information",
+      "title": "VirusTotal domain information",
+      "description": "Searching for domain information by [VirusTotal](https://www.virustotal.com/).",
+      "category": "Sub Domain Enumeration",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/aboul3la/Sublist3r",
+      "title": "Sublist3r",
+      "description": "Sublist3r is a multi-threaded sub-domain enumeration tool for penetration testers by [@aboul3la](https://github.com/aboul3la).",
+      "category": "Sub Domain Enumeration",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/qazbnm456/VWGen",
+      "title": "VWGen",
+      "description": "Vulnerable Web applications Generator by [@qazbnm456](https://github.com/qazbnm456).",
+      "category": "Code Generating",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/hack-all-the-things/charsetinspect",
+      "title": "charsetinspect",
+      "description": "Script that inspects multi-byte character sets looking for characters with specific user-defined properties by [@hack-all-the-things](https://github.com/hack-all-the-things).",
+      "category": "Fuzzing",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/OsandaMalith/IPObfuscator",
+      "title": "IPObfuscator",
+      "description": "Simple tool to convert the IP to a DWORD IP by [@OsandaMalith](https://github.com/OsandaMalith).",
+      "category": "Fuzzing",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/xmendez/wfuzz",
+      "title": "wfuzz",
+      "description": "Web application bruteforcer by [@xmendez](https://github.com/xmendez).",
+      "category": "Fuzzing",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/google/domato",
+      "title": "domato",
+      "description": "DOM fuzzer by [@google](https://github.com/google).",
+      "category": "Fuzzing",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/fuzzdb-project/fuzzdb",
+      "title": "FuzzDB",
+      "description": "Dictionary of attack patterns and primitives for black-box application fault injection and resource discovery.",
+      "category": "Fuzzing",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/Nekmo/dirhunt",
+      "title": "dirhunt",
+      "description": "Web crawler optimized for searching and analyzing the directory structure of a site by [@nekmo](https://github.com/Nekmo).",
+      "category": "Fuzzing",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.ssllabs.com/ssltest/",
+      "title": "ssltest",
+      "description": "Online service that performs a deep analysis of the configuration of any SSL web server on the public internet. Provided by [Qualys SSL Labs](https://www.ssllabs.com).",
+      "category": "Fuzzing",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/Bo0oM/fuzz.txt",
+      "title": "fuzz.txt",
+      "description": "Potentially dangerous files by [@Bo0oM](https://github.com/Bo0oM).",
+      "category": "Fuzzing",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/aleff-github/wayparam",
+      "title": "wayparam",
+      "description": "Cross-platform Python CLI that fetches historical URLs from the Wayback CDX API and outputs normalized parameterized URLs for fuzzing, by [@aleff-github](https://github.com/aleff-github).",
+      "category": "Fuzzing",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/drego85/JoomlaScan",
+      "title": "JoomlaScan",
+      "description": "Free software to find the components installed in Joomla CMS, built out of the ashes of Joomscan by [@drego85](https://github.com/drego85).",
+      "category": "Scanning",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/wpscanteam/wpscan",
+      "title": "wpscan",
+      "description": "WPScan is a black box WordPress vulnerability scanner by [@wpscanteam](https://github.com/wpscanteam).",
+      "category": "Scanning",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/m4ll0k/WAScan",
+      "title": "WAScan",
+      "description": "Is an open source web application security scanner that uses \"black-box\" method, created by [@m4ll0k](https://github.com/m4ll0k).",
+      "category": "Scanning",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/projectdiscovery/nuclei",
+      "title": "Nuclei",
+      "description": "Nuclei is a fast tool for configurable targeted scanning based on templates offering massive extensibility and ease of use by [@projectdiscovery](https://github.com/projectdiscovery).",
+      "category": "Scanning",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/vigolium/vigolium",
+      "title": "Vigolium",
+      "description": "High-fidelity vulnerability scanner fusing agentic AI with native speed, modularity, and precision, maintained by [@j3ssie](https://github.com/j3ssie).",
+      "category": "Scanning",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://zaproxy.org",
+      "title": "ZAP by Checkmarx",
+      "description": "Open-source web application security scanner maintained by the ZAP Core Team.",
+      "category": "Scanning",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/dalisecurity/fray",
+      "title": "Fray",
+      "description": "Open-source WAF bypass and security-testing toolkit with 6,300+ payloads across OWASP categories, AI-assisted evasion engine, 27-check reconnaissance pipeline, and OWASP hardening audit, by [@dalisecurity](https://github.com/dalisecurity).",
+      "category": "Scanning",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/undeadlist/trust-scan",
+      "title": "Trust Scan",
+      "description": "URL security scanner combining threat intelligence (URLhaus, PhishTank, Spamhaus) with 40+ scam and phishing pattern detection by [@undeadlist](https://github.com/undeadlist).",
+      "category": "Scanning",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/sattyamjjain/zerotrust",
+      "title": "ZeroTrust",
+      "description": "Privacy-first Chrome extension that analyzes website security locally with on-device AI (WebGPU), producing trust scores from HTTPS, phishing, malicious-script, and cookie-compliance signals, by [@sattyamjjain](https://github.com/sattyamjjain).",
+      "category": "Scanning",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://securitool.js.org/",
+      "title": "SecuriTool",
+      "description": "Free online collection of 29 client-side web security tools: web auditor, JWT attacker/decoder, CVE search, CSP evaluator, email security checker (SPF/DKIM/DMARC), subdomain scanner, and more. 100% client-side, privacy-first, open source by [@ReplikanteK](https://github.com/ReplikanteK).",
+      "category": "Scanning",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://portswigger.net/burp/",
+      "title": "Burp Suite",
+      "description": "Burp Suite is an integrated platform for performing security testing of web applications by [portswigger](https://portswigger.net/).",
+      "category": "Penetration Testing",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/flipkart-incubator/astra",
+      "title": "Astra",
+      "description": "Automated Security Testing For REST API's by [@flipkart-incubator](https://github.com/flipkart-incubator).",
+      "category": "Penetration Testing",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/dagrz/aws_pwn",
+      "title": "aws_pwn",
+      "description": "A collection of AWS penetration testing junk by [@dagrz](https://github.com/dagrz).",
+      "category": "Penetration Testing",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://buckets.grayhatwarfare.com/",
+      "title": "grayhatwarfare",
+      "description": "Public buckets by [grayhatwarfare](https://www.grayhatwarfare.com/).",
+      "category": "Penetration Testing",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/theInfectedDrake/TIDoS-Framework",
+      "title": "TIDoS-Framework",
+      "description": "A comprehensive web application audit framework to cover up everything from Reconnaissance and OSINT to Vulnerability Analysis by [@_tID](https://github.com/theInfectedDrake).",
+      "category": "Penetration Testing",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/FrancescoStabile/numasec",
+      "title": "numasec",
+      "description": "AI-driven penetration-testing platform that coordinates 10 agents and 38 vulnerability scanners covering OWASP Top 10, by [@FrancescoStabile](https://github.com/FrancescoStabile).",
+      "category": "Penetration Testing",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/inflictx/Arsenal",
+      "title": "ARS3NAL",
+      "description": "Offline-first, self-hosted pentest & bug-bounty arsenal - searchable payloads, a click-to-build command generator, GTFOBins, wordlists, an embedded CyberChef, reverse shells and per-vulnerability checklists, with a live static demo - by [@inflictx](https://github.com/inflictx).",
+      "category": "Penetration Testing",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/ASCIT31/Dark-Moon",
+      "title": "Darkmoon",
+      "description": "Open source autonomous AI penetration testing platform that orchestrates 80+ offensive tools via Markdown playbooks and MCP across web, cloud, Active Directory and Kubernetes, with an evidence trail per finding by [@ASCIT31](https://github.com/ASCIT31).",
+      "category": "Penetration Testing",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/evilcos/xssor2",
+      "title": "xssor2",
+      "description": "XSS'OR - Hack with JavaScript by [@evilcos](https://github.com/evilcos).",
+      "category": "XSS - Cross-Site Scripting",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/s0md3v/XSStrike",
+      "title": "XSStrike",
+      "description": "XSStrike is a program which can fuzz and bruteforce parameters for XSS. It can also detect and bypass WAFs by [@s0md3v](https://github.com/s0md3v).",
+      "category": "XSS - Cross-Site Scripting",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/beefproject/beef",
+      "title": "beef",
+      "description": "The Browser Exploitation Framework Project by [beefproject](https://beefproject.com).",
+      "category": "XSS - Cross-Site Scripting",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/s0md3v/JShell",
+      "title": "JShell",
+      "description": "Get a JavaScript shell with XSS by [@s0md3v](https://github.com/s0md3v).",
+      "category": "XSS - Cross-Site Scripting",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://csper.io/evaluator",
+      "title": "csp evaluator",
+      "description": "A tool for evaluating content-security-policies by [Csper](https://csper.io).",
+      "category": "XSS - Cross-Site Scripting",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/epinna/tplmap",
+      "title": "tplmap",
+      "description": "Code and Server-Side Template Injection Detection and Exploitation Tool by [@epinna](https://github.com/epinna).",
+      "category": "Template Injection",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/GoSecure/dtd-finder",
+      "title": "dtd-finder",
+      "description": "List DTDs and generate XXE payloads using those local DTDs by [@GoSecure](https://github.com/GoSecure).",
+      "category": "XXE",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/0xInfection/XSRFProbe",
+      "title": "XSRFProbe",
+      "description": "The Prime CSRF Audit & Exploitation Toolkit by [@0xInfection](https://github.com/0xinfection).",
+      "category": "Cross Site Request Forgery",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://tools.intigriti.io/redirector/",
+      "title": "Open redirect/SSRF payload generator",
+      "description": "Open redirect/SSRF payload generator by [intigriti](https://www.intigriti.com/).",
+      "category": "Server-Side Request Forgery",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/maxchehab/CSS-Keylogging",
+      "title": "CSS-Keylogging",
+      "description": "Chrome extension and Express server that exploits keylogging abilities of CSS by [@maxchehab](https://github.com/maxchehab).",
+      "category": "Leaking",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/evilpacket/DVCS-Pillage",
+      "title": "DVCS-Pillage",
+      "description": "Pillage web accessible GIT, HG and BZR repositories by [@evilpacket](https://github.com/evilpacket).",
+      "category": "Leaking",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/kost/dvcs-ripper",
+      "title": "dvcs-ripper",
+      "description": "Rip web accessible (distributed) version control systems: SVN/GIT/HG... by [@kost](https://github.com/kost).",
+      "category": "Leaking",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/zricethezav/gitleaks",
+      "title": "gitleaks",
+      "description": "Searches full repo history for secrets and keys by [@zricethezav](https://github.com/zricethezav).",
+      "category": "Leaking",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/UnkL4b/GitMiner",
+      "title": "GitMiner",
+      "description": "Tool for advanced mining for content on Github by [@UnkL4b](https://github.com/UnkL4b).",
+      "category": "Leaking",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/cure53/HTTPLeaks",
+      "title": "HTTPLeaks",
+      "description": "All possible ways, a website can leak HTTP requests by [@cure53](https://github.com/cure53).",
+      "category": "Leaking",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/allyshka/pwngitmanager",
+      "title": "pwngitmanager",
+      "description": "Git manager for pentesters by [@allyshka](https://github.com/allyshka).",
+      "category": "Leaking",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/hannob/snallygaster",
+      "title": "snallygaster",
+      "description": "Tool to scan for secret files on HTTP servers by [@hannob](https://github.com/hannob).",
+      "category": "Leaking",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/GerbenJavado/LinkFinder",
+      "title": "LinkFinder",
+      "description": "Python script that finds endpoints in JavaScript files by [@GerbenJavado](https://github.com/GerbenJavado).",
+      "category": "Leaking",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/momenbasel/keyFinder",
+      "title": "keyFinder",
+      "description": "Chrome extension that passively scans web pages for leaked API keys, tokens, and credentials across 10 attack surfaces using 80+ detection patterns and Shannon-entropy analysis, by [@momenbasel](https://github.com/momenbasel).",
+      "category": "Leaking",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/LewisArdern/bXSS",
+      "title": "bXSS",
+      "description": "bXSS is a simple Blind XSS application adapted from [cure53.de/m](https://cure53.de/m) by [@LewisArdern](https://github.com/LewisArdern).",
+      "category": "Detecting",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/HynekPetrak/malware-jail",
+      "title": "malware-jail",
+      "description": "Sandbox for semi-automatic Javascript malware analysis, deobfuscation and payload extraction by [@HynekPetrak](https://github.com/HynekPetrak).",
+      "category": "Detecting",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/auth0/repo-supervisor",
+      "title": "repo-supervisor",
+      "description": "Scan your code for security misconfiguration, search for passwords and secrets.",
+      "category": "Detecting",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/RetireJS/retire.js",
+      "title": "retire.js",
+      "description": "Scanner detecting the use of JavaScript libraries with known vulnerabilities by [@RetireJS](https://github.com/RetireJS).",
+      "category": "Detecting",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://sqlchop.chaitin.cn/",
+      "title": "sqlchop",
+      "description": "SQL injection detection engine by [chaitin](https://chaitin.com).",
+      "category": "Detecting",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://xsschop.chaitin.cn/",
+      "title": "xsschop",
+      "description": "XSS detection engine by [chaitin](https://chaitin.com).",
+      "category": "Detecting",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/baidu/openrasp",
+      "title": "OpenRASP",
+      "description": "An open source RASP solution actively maintained by Baidu Inc. With context-aware detection algorithm the project achieved nearly no false positives. And less than 3% performance reduction is observed under heavy server load.",
+      "category": "Detecting",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/apps/guardrails",
+      "title": "GuardRails",
+      "description": "A GitHub App that provides security feedback in Pull Requests.",
+      "category": "Detecting",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/leizongmin/js-xss",
+      "title": "js-xss",
+      "description": "Sanitize untrusted HTML (to prevent XSS) with a configuration specified by a Whitelist by [@leizongmin](https://github.com/leizongmin).",
+      "category": "Preventing",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/cure53/DOMPurify",
+      "title": "DOMPurify",
+      "description": "DOM-only, super-fast, uber-tolerant XSS sanitizer for HTML, MathML and SVG by [Cure53](https://cure53.de/).",
+      "category": "Preventing",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://csper.io",
+      "title": "Csper",
+      "description": "A set of tools for building/evaluating/monitoring content-security-policy to prevent/detect cross site scripting by [Csper](https://csper.io).",
+      "category": "Preventing",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/Safe3/uusec-waf/",
+      "title": "UUSEC WAF",
+      "description": "An open-source web application firewall and API security gateway maintained by [UUCORP](https://github.com/Safe3/).",
+      "category": "Preventing",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.bunkerweb.io",
+      "title": "BunkerWeb",
+      "description": "A next-generation open-source Web Application Firewall built on nginx, maintained by [Bunkerity](https://github.com/bunkerity).",
+      "category": "Preventing",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/WebDecoy/FCaptcha",
+      "title": "FCaptcha",
+      "description": "Self-hosted CAPTCHA with behavioral analysis, vision-AI agent detection, headless-browser fingerprinting, and SHA-256 proof-of-work, maintained by [WebDecoy](https://github.com/WebDecoy).",
+      "category": "Preventing",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/pompelmi/pompelmi",
+      "title": "Pompelmi",
+      "description": "In-process file-upload security middleware for Node.js that scans untrusted uploads before storage to detect malware, MIME spoofing, and risky archives, maintained by [pompelmi](https://github.com/pompelmi).",
+      "category": "Preventing",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/WebDecoy/wordpress-plugin",
+      "title": "WebDecoy",
+      "description": "Zero-configuration WordPress bot-detection plugin combining WebDriver detection, headless-browser fingerprinting, behavioral analysis, and SHA-256 proof-of-work, maintained by [WebDecoy](https://github.com/WebDecoy).",
+      "category": "Preventing",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.crowdsec.net/",
+      "title": "CrowdSec",
+      "description": "Open-source collaborative IPS written in Go that analyzes visitor behavior and shares threat signals across a community of operators, maintained by [CrowdSec](https://github.com/crowdsecurity).",
+      "category": "Preventing",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://csp-generator.shakiltech.com",
+      "title": "Laravel CSP Generator",
+      "description": "Interactive Content Security Policy builder for Laravel that outputs ready-to-use PHP middleware with nonce support and violation reporting, by [@itxshakil](https://github.com/itxshakil).",
+      "category": "Preventing",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.charlesproxy.com/",
+      "title": "Charles",
+      "description": "HTTP proxy / HTTP monitor / Reverse Proxy that enables a developer to view all of the HTTP and SSL / HTTPS traffic between their machine and the Internet.",
+      "category": "Proxy",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/lukechilds/reverse-shell",
+      "title": "reverse-shell",
+      "description": "Reverse Shell as a Service by [@lukechilds](https://github.com/lukechilds).",
+      "category": "Webshell",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/WangYihang/Reverse-Shell-Manager",
+      "title": "Reverse-Shell-Manager",
+      "description": "Reverse Shell Manager via Terminal [@WangYihang](https://github.com/WangYihang).",
+      "category": "Webshell",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/tennc/webshell",
+      "title": "webshell",
+      "description": "This is a webshell open source project by [@tennc](https://github.com/tennc).",
+      "category": "Webshell",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/WangYihang/Webshell-Sniper",
+      "title": "Webshell-Sniper",
+      "description": "Manage your website via terminal by [@WangYihang](https://github.com/WangYihang).",
+      "category": "Webshell",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/epinna/weevely3",
+      "title": "Weevely",
+      "description": "Weaponized web shell by [@epinna](https://github.com/epinna).",
+      "category": "Webshell",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/s0md3v/nano",
+      "title": "nano",
+      "description": "Family of code golfed PHP shells by [@s0md3v](https://github.com/s0md3v).",
+      "category": "Webshell",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/nil0x42/phpsploit",
+      "title": "PhpSploit",
+      "description": "Full-featured C2 framework which silently persists on webserver via evil PHP oneliner by [@nil0x42](https://github.com/nil0x42).",
+      "category": "Webshell",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/hteso/iaito",
+      "title": "Iaitō",
+      "description": "Qt and C++ GUI for radare2 reverse engineering framework by [@hteso](https://github.com/hteso).",
+      "category": "Disassembler",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/plasma-disassembler/plasma",
+      "title": "plasma",
+      "description": "Plasma is an interactive disassembler for x86/ARM/MIPS by [@plasma-disassembler](https://github.com/plasma-disassembler).",
+      "category": "Disassembler",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/radare/radare2",
+      "title": "radare2",
+      "description": "Unix-like reverse engineering framework and commandline tools by [@radare](https://github.com/radare).",
+      "category": "Disassembler",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.benf.org/other/cfr/",
+      "title": "CFR",
+      "description": "Another java decompiler by [@LeeAtBenf](https://twitter.com/LeeAtBenf).",
+      "category": "Decompiler",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/brannondorsey/dns-rebind-toolkit",
+      "title": "DNS Rebind Toolkit",
+      "description": "DNS Rebind Toolkit is a frontend JavaScript framework for developing DNS Rebinding exploits against vulnerable hosts and services on a local area network (LAN) by [@brannondorsey](https://github.com/brannondorsey).",
+      "category": "DNS Rebinding",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/mwrlabs/dref",
+      "title": "dref",
+      "description": "DNS Rebinding Exploitation Framework. Dref does the heavy-lifting for DNS rebinding by [@mwrlabs](https://github.com/mwrlabs).",
+      "category": "DNS Rebinding",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/nccgroup/singularity",
+      "title": "Singularity of Origin",
+      "description": "It includes the necessary components to rebind the IP address of the attack server DNS name to the target machine's IP address and to serve attack payloads to exploit vulnerable software on the target machine by [@nccgroup](https://github.com/nccgroup).",
+      "category": "DNS Rebinding",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/brannondorsey/whonow",
+      "title": "Whonow DNS Server",
+      "description": "A malicious DNS server for executing DNS Rebinding attacks on the fly by [@brannondorsey](https://github.com/brannondorsey).",
+      "category": "DNS Rebinding",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/gchq/CyberChef",
+      "title": "CyberChef",
+      "description": "The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis - by [@GCHQ](https://github.com/gchq).",
+      "category": "Others",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://wiki.skullsecurity.org/index.php?title=Dnslogger",
+      "title": "Dnslogger",
+      "description": "DNS Logger by [@iagox86](https://github.com/iagox86).",
+      "category": "Others",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/taviso/cefdebug",
+      "title": "cefdebug",
+      "description": "Minimal code to connect to a CEF debugger by [@taviso](https://github.com/taviso).",
+      "category": "Others",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/taviso/ctftool",
+      "title": "ctftool",
+      "description": "Interactive CTF Exploration Tool by [@taviso](https://github.com/taviso).",
+      "category": "Others",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/b17zr/ntlm_challenger",
+      "title": "ntlm_challenger",
+      "description": "Parse NTLM over HTTP challenge messages by [@b17zr](https://github.com/b17zr).",
+      "category": "Others",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://haveibeenpwned.com/",
+      "title": "haveibeenpwned",
+      "description": "Check if you have an account that has been compromised in a data breach by [Troy Hunt](https://www.troyhunt.com/).",
+      "category": "Social Engineering Database",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.hudsonrock.com/threat-intelligence-cybercrime-tools",
+      "title": "Hudson Rock",
+      "description": "Check if your email or domain was compromised by infostealer malware, maintained by [Hudson Rock](https://www.hudsonrock.com/).",
+      "category": "Social Engineering Database",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://buer.haus/",
+      "title": "BRETT BUERHAUS",
+      "description": "Vulnerability disclosures and rambles on application security.",
+      "category": "Blogs",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.brokenbrowser.com/",
+      "title": "Broken Browser",
+      "description": "Fun with Browser Vulnerabilities.",
+      "category": "Blogs",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "http://albinowax.skeletonscribe.net/",
+      "title": "James Kettle",
+      "description": "Head of Research at [PortSwigger Web Security](https://portswigger.net/).",
+      "category": "Blogs",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.leavesongs.com/",
+      "title": "leavesongs",
+      "description": "China's talented web penetrator.",
+      "category": "Blogs",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.n0tr00t.com/",
+      "title": "n0tr00t",
+      "description": "~# n0tr00t Security Team.",
+      "category": "Blogs",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://opnsec.com/",
+      "title": "OpnSec",
+      "description": "Open Mind Security!.",
+      "category": "Blogs",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://blog.orange.tw/",
+      "title": "Orange",
+      "description": "Taiwan's talented web penetrator.",
+      "category": "Blogs",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://datarift.blogspot.tw/",
+      "title": "Scrutiny",
+      "description": "Internet Security through Web Browsers by Dhiraj Mishra.",
+      "category": "Blogs",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://blog.ripstech.com/tags/security/",
+      "title": "RIPS Technologies",
+      "description": "Write-ups for PHP vulnerabilities.",
+      "category": "Blogs",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://blog.0daylabs.com/",
+      "title": "0Day Labs",
+      "description": "Awesome bug-bounty and challenges writeups.",
+      "category": "Blogs",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://osandamalith.com/",
+      "title": "Blog of Osanda",
+      "description": "Security Researching and Reverse Engineering.",
+      "category": "Blogs",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://twitter.com/cure53berlin",
+      "title": "@cure53berlin",
+      "description": "[Cure53](https://cure53.de/) is a German cybersecurity firm.",
+      "category": "Twitter Users",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://twitter.com/filedescriptor",
+      "title": "@filedescriptor",
+      "description": "Active penetrator often tweets and writes useful articles.",
+      "category": "Twitter Users",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://twitter.com/garethheyes",
+      "title": "@garethheyes",
+      "description": "English web penetrator.",
+      "category": "Twitter Users",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://twitter.com/h3xstream/",
+      "title": "@h3xstream",
+      "description": "Security Researcher, interested in web security, crypto, pentest, static analysis but most of all, samy is my hero.",
+      "category": "Twitter Users",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://twitter.com/HackwithGithub",
+      "title": "@HackwithGitHub",
+      "description": "Initiative to showcase open source hacking tools for hackers and pentesters.",
+      "category": "Twitter Users",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://twitter.com/hasegawayosuke",
+      "title": "@hasegawayosuke",
+      "description": "Japanese javascript security researcher.",
+      "category": "Twitter Users",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://twitter.com/kinugawamasato",
+      "title": "@kinugawamasato",
+      "description": "Japanese web penetrator.",
+      "category": "Twitter Users",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://twitter.com/XssPayloads",
+      "title": "@XssPayloads",
+      "description": "The wonderland of JavaScript unexpected usages, and more.",
+      "category": "Twitter Users",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://twitter.com/shhnjk",
+      "title": "@shhnjk",
+      "description": "Web and Browsers Security Researcher.",
+      "category": "Twitter Users",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://selinuxgame.org/",
+      "title": "SELinux Game",
+      "description": "Learn SELinux by doing. Solve Puzzles, show skillz - Written by [@selinuxgame](https://twitter.com/selinuxgame).",
+      "category": "Application",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/SecureSkyTechnology/BadLibrary",
+      "title": "BadLibrary",
+      "description": "Vulnerable web application for training - Written by [@SecureSkyTechnology](https://github.com/SecureSkyTechnology).",
+      "category": "Application",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://hackxor.net/",
+      "title": "Hackxor",
+      "description": "Realistic web application hacking game - Written by [@albinowax](https://twitter.com/albinowax).",
+      "category": "Application",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/juice-shop/juice-shop",
+      "title": "OWASP Juice Shop",
+      "description": "Probably the most modern and sophisticated insecure web application - Written by [@bkimminich](https://github.com/bkimminich) and the [@owasp_juiceshop](https://twitter.com/owasp_juiceshop) team.",
+      "category": "Application",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://portswigger.net/web-security",
+      "title": "Portswigger Web Security Academy",
+      "description": "Free trainings and labs - Written by [PortSwigger](https://portswigger.net/).",
+      "category": "Application",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/kOaDT/oss-oopssec-store",
+      "title": "OopsSec Store",
+      "description": "Intentionally vulnerable e-commerce application built with Next.js - Written by [@kOaDT](https://github.com/kOaDT).",
+      "category": "Application",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "http://flaws.cloud/",
+      "title": "FLAWS",
+      "description": "Amazon AWS CTF challenge - Written by [@0xdabbad00](https://twitter.com/0xdabbad00).",
+      "category": "AWS",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/RhinoSecurityLabs/cloudgoat",
+      "title": "CloudGoat",
+      "description": "Rhino Security Labs' \"Vulnerable by Design\" AWS infrastructure setup tool  - Written by [@RhinoSecurityLabs](https://github.com/RhinoSecurityLabs).",
+      "category": "AWS",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://alf.nu/alert1",
+      "title": "alert(1) to win",
+      "description": "Series of XSS challenges - Written by [@steike](https://twitter.com/steike).",
+      "category": "XSS",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "http://prompt.ml/",
+      "title": "prompt(1) to win",
+      "description": "Complex 16-Level XSS Challenge held in summer 2014 (+4 Hidden Levels) - Written by [@cure53](https://github.com/cure53).",
+      "category": "XSS",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "http://xss-quiz.int21h.jp/",
+      "title": "XSS Challenges",
+      "description": "Series of XSS challenges - Written by yamagata21.",
+      "category": "XSS",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://xss-game.appspot.com/",
+      "title": "XSS game",
+      "description": "Google XSS Challenge - Written by Google.",
+      "category": "XSS",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.netnea.com/cms/apache-tutorials/",
+      "title": "ModSecurity / OWASP ModSecurity Core Rule Set",
+      "description": "Series of tutorials to install, configure and tune ModSecurity and the Core Rule Set - Written by [@ChrFolini](https://twitter.com/ChrFolini).",
+      "category": "ModSecurity / OWASP ModSecurity Core Rule Set",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.reddit.com/r/websecurity/",
+      "title": "Reddit",
+      "description": null,
+      "category": "Community",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://stackoverflow.com/questions/tagged/security",
+      "title": "Stack Overflow",
+      "description": null,
+      "category": "Community",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://githubengineering.com/githubs-bug-bounty-workflow/",
+      "title": "A glimpse into GitHub's Bug Bounty workflow",
+      "description": "Written by [@gregose](https://github.com/gregose).",
+      "category": "Miscellaneous",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/djadmin/awesome-bug-bounty",
+      "title": "awesome-bug-bounty",
+      "description": "Comprehensive curated list of available Bug Bounty & Disclosure Programs and write-ups by [@djadmin](https://github.com/djadmin).",
+      "category": "Miscellaneous",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://pwndizzle.blogspot.jp/2014/02/brute-forcing-your-facebook-email-and.html",
+      "title": "Brute Forcing Your Facebook Email and Phone Number",
+      "description": "Written by [PwnDizzle](https://pwndizzle.blogspot.jp/).",
+      "category": "Miscellaneous",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/ngalongc/bug-bounty-reference",
+      "title": "bug-bounty-reference",
+      "description": "List of bug bounty write-up that is categorized by the bug nature by [@ngalongc](https://github.com/ngalongc).",
+      "category": "Miscellaneous",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.belfercenter.org/publication/cybersecurity-campaign-playbook",
+      "title": "Cybersecurity Campaign Playbook",
+      "description": "Written by [Belfer Center for Science and International Affairs](https://www.belfercenter.org/).",
+      "category": "Miscellaneous",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/x0rz/EQGRP",
+      "title": "EQGRP",
+      "description": "Decrypted content of eqgrp-auction-file.tar.xz by [@x0rz](https://github.com/x0rz).",
+      "category": "Miscellaneous",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://sites.google.com/site/bughunteruniversity/behind-the-scenes/presentations/google-vrp-and-unicorns",
+      "title": "Google VRP and Unicorns",
+      "description": "Written by [Daniel Stelter-Gliese](https://www.linkedin.com/in/daniel-stelter-gliese-170a70a2/).",
+      "category": "Miscellaneous",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/rmusser01/Infosec_Reference",
+      "title": "Infosec_Reference",
+      "description": "Information Security Reference That Doesn't Suck by [@rmusser01](https://github.com/rmusser01).",
+      "category": "Miscellaneous",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "http://iotscanner.bullguard.com/",
+      "title": "Internet of Things Scanner",
+      "description": "Check if your internet-connected devices at home are public on Shodan by [BullGuard](https://www.bullguard.com/).",
+      "category": "Miscellaneous",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/ChALkeR/notes",
+      "title": "notes",
+      "description": "Some public notes by [@ChALkeR](https://github.com/ChALkeR).",
+      "category": "Miscellaneous",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://i.imgur.com/Mr9pvq9.jpg",
+      "title": "Pentest + Exploit dev Cheatsheet wallpaper",
+      "description": "Penetration Testing and Exploit Dev CheatSheet.",
+      "category": "Miscellaneous",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.covert.io/the-definitive-security-datascience-and-machinelearning-guide/",
+      "title": "The Definitive Security Data Science and Machine Learning Guide",
+      "description": "Written by JASON TROS.",
+      "category": "Miscellaneous",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://sites.google.com/site/testsitehacking/-7-5k-Google-services-mix-up",
+      "title": "$7.5k Google services mix-up",
+      "description": "Written by [Ezequiel Pereira](https://sites.google.com/site/testsitehacking/).",
+      "category": "Miscellaneous",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://docs.google.com/presentation/d/1VpRT8dFyTaFpQa9jhehtmGaC7TqQniMSYbUdlHN6VrY/edit?usp=sharing",
+      "title": "The Bug Hunters Methodology v2.1",
+      "description": "Written by [@jhaddix](https://twitter.com/jhaddix).",
+      "category": "Miscellaneous",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://labs.detectify.com/2018/01/12/how-i-exploited-acme-tls-sni-01-issuing-lets-encrypt-ssl-certs-for-any-domain-using-shared-hosting/",
+      "title": "How I exploited ACME TLS-SNI-01 issuing Let's Encrypt SSL-certs for any domain using shared hosting",
+      "description": "Written by [@fransrosen](https://twitter.com/fransrosen).",
+      "category": "Miscellaneous",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://voidsec.com/vpn-leak/",
+      "title": "TL:DR: VPN leaks users’ IPs via WebRTC. I’ve tested seventy VPN providers and 16 of them leaks users’ IPs via WebRTC (23%)",
+      "description": "Written by [voidsec](https://voidsec.com/).",
+      "category": "Miscellaneous",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://medium.com/@umpox/be-careful-what-you-copy-invisibly-inserting-usernames-into-text-with-zero-width-characters-18b4e6f17b66",
+      "title": "Be careful what you copy: Invisibly inserting usernames into text with Zero-Width Characters",
+      "description": "Written by [@umpox](https://medium.com/@umpox).",
+      "category": "Miscellaneous",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.optiv.com/blog/escape-and-evasion-egressing-restricted-networks",
+      "title": "Escape and Evasion Egressing Restricted Networks",
+      "description": "Written by [Chris Patten, Tom Steele](mailto:info@optiv.com).",
+      "category": "Miscellaneous",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.sigpwn.io/blog/2018/4/14/domato-fuzzers-generation-engine-internals",
+      "title": "Domato Fuzzer's Generation Engine Internals",
+      "description": "Written by [sigpwn](https://www.sigpwn.io/).",
+      "category": "Miscellaneous",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.evonide.com/side-channel-attacking-browsers-through-css3-features/",
+      "title": "CSS Is So Overpowered It Can Deanonymize Facebook Users",
+      "description": "Written by [Ruslan Habalov](https://www.evonide.com/).",
+      "category": "Miscellaneous",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.slideshare.net/nragupathy/introduction-to-web-application-security-blackhoodie-us-2018",
+      "title": "Introduction to Web Application Security",
+      "description": "Written by [@itsC0rg1](https://twitter.com/itsC0rg1), [@jmkeads](https://twitter.com/jmkeads) and [@matir](https://twitter.com/matir).",
+      "category": "Miscellaneous",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.secjuice.com/finding-real-ips-of-origin-servers-behind-cloudflare-or-tor/",
+      "title": "Finding The Real Origin IPs Hiding Behind CloudFlare or TOR",
+      "description": "Written by [Paul Dannewitz](https://www.secjuice.com/author/paul-dannewitz/).",
+      "category": "Miscellaneous",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://blog.avatao.com/How-I-could-steal-your-photos-from-Google/",
+      "title": "How I could have stolen your photos from Google - my first 3 bug bounty writeups",
+      "description": "Written by [@gergoturcsanyi](https://twitter.com/gergoturcsanyi).",
+      "category": "Miscellaneous",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://0day.work/an-example-why-nat-is-not-security/",
+      "title": "An example why NAT is NOT security",
+      "description": "Written by [@0daywork](https://twitter.com/@0daywork).",
+      "category": "Miscellaneous",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://slashcrypto.org/data/itsecx2018.pdf",
+      "title": "Alexa Top 1 Million Security - Hacking the Big Ones",
+      "description": "Written by [@slashcrypto](https://twitter.com/slashcrypto).",
+      "category": "Miscellaneous",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://segment.com/blog/hacking-with-a-heads-up-display/",
+      "title": "Hacking with a Heads Up Display",
+      "description": "Written by [David Scrobonia](https://segment.com/blog/authors/david-scrobonia/).",
+      "category": "Miscellaneous",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://techvomit.net/web-application-penetration-testing-notes/",
+      "title": "WEB APPLICATION PENETRATION TESTING NOTES",
+      "description": "Written by [Jayson](https://techvomit.net/).",
+      "category": "Miscellaneous",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://pentester.land/list-of-bug-bounty-writeups.html",
+      "title": "List of bug bounty writeups",
+      "description": "Written by [Mariem](https://pentester.land/).",
+      "category": "Miscellaneous",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://10degres.net/the-bug-bounty-program-that-changed-my-life/",
+      "title": "The bug bounty program that changed my life",
+      "description": "Written by [Gwen](https://10degres.net/).",
+      "category": "Miscellaneous",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://dev.to/antogarand/why-facebooks-api-starts-with-a-for-loop-1eob",
+      "title": "Why Facebook's api starts with a for loop",
+      "description": "Written by [@AntoGarand](https://twitter.com/AntoGarand).",
+      "category": "Miscellaneous",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://threatvector.cylance.com/en_us/home/implications-of-loading-net-assemblies.html",
+      "title": "Implications of Loading .NET Assemblies",
+      "description": "Written by [Brian Wallace](https://threatvector.cylance.com/en_us/contributors/brian-wallace.html).",
+      "category": "Miscellaneous",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://westerns.tokyo/wctf2019-gtf/wctf2019-gtf-slides.pdf",
+      "title": "WCTF2019: Gyotaku The Flag",
+      "description": "Written by [@t0nk42](https://twitter.com/t0nk42).",
+      "category": "Miscellaneous",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.rtcsec.com/2020/04/01-slack-webrtc-turn-compromise/",
+      "title": "How we abused Slack's TURN servers to gain access to internal services",
+      "description": "Written by [@sandrogauci](https://twitter.com/sandrogauci).",
+      "category": "Miscellaneous",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://medium.com/walmartlabs/dos-file-path-magic-tricks-5eda7a7a85fa",
+      "title": "DOS File Path Magic Tricks",
+      "description": "Written by [@clr2of8](https://medium.com/@clr2of8).",
+      "category": "Miscellaneous",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://medium.com/heck-the-packet/how-i-got-my-first-big-bounty-payout-with-tesla-8d28b520162d",
+      "title": "How I got my first big bounty payout with Tesla",
+      "description": "Written by [@cj.fairhead](https://medium.com/@cj.fairhead).",
+      "category": "Miscellaneous",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://www.manning.com/books/grokking-web-application-security",
+      "title": "Grokking Web Application Security",
+      "description": "Hands-on introduction to web application security fundamentals by Malcolm McDonald (Manning).",
+      "category": "Miscellaneous",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    },
+    {
+      "url": "https://github.com/momenbasel/htb-writeups",
+      "title": "htb-writeups",
+      "description": "Comprehensive Hack The Box writeup collection covering 75+ web challenges including XSS, SQLi, SSTI, SSRF, and deserialization, by [@momenbasel](https://github.com/momenbasel).",
+      "category": "Miscellaneous",
+      "source": "qazbnm456/awesome-web-security",
+      "indexedAt": "2026-07-23T13:30:53.851Z"
+    }
+  ],
+  "categories": [
+    "",
+    "Digests",
+    "Forums",
+    "XSS - Cross-Site Scripting",
+    "Prototype Pollution",
+    "CSV Injection",
+    "SQL Injection",
+    "Command Injection",
+    "ORM Injection",
+    "FTP Injection",
+    "XXE - XML eXternal Entity",
+    "CSRF - Cross-Site Request Forgery",
+    "Clickjacking",
+    "SSRF - Server-Side Request Forgery",
+    "Web Cache Poisoning",
+    "Relative Path Overwrite",
+    "Open Redirect",
+    "Security Assertion Markup Language (SAML)",
+    "Upload",
+    "Rails",
+    "AngularJS",
+    "ReactJS",
+    "SSL/TLS",
+    "Webmail",
+    "NFS",
+    "AWS",
+    "Azure",
+    "Sub Domain Enumeration",
+    "Crypto",
+    "Web Shell",
+    "OSINT",
+    "DNS Rebinding",
+    "Deserialization",
+    "OAuth",
+    "JWT",
+    "XXE",
+    "CSP",
+    "WAF",
+    "JSMVC",
+    "Authentication",
+    "CSRF",
+    "Clickjacking",
+    "Remote Code Execution",
+    "XSS",
+    "SQL Injection",
+    "NoSQL Injection",
+    "FTP Injection",
+    "XXE",
+    "SSRF",
+    "Web Cache Poisoning",
+    "Header Injection",
+    "URL",
+    "Deserialization",
+    "OAuth",
+    "Others",
+    "Frontend (like SOP bypass, URL spoofing, and something like that)",
+    "Backend (core of Browser implementation, and often refers to C or C++ part)",
+    "Database",
+    "Cheetsheets",
+    "Auditing",
+    "Command Injection",
+    "OSINT - Open-Source Intelligence",
+    "Sub Domain Enumeration",
+    "Code Generating",
+    "Fuzzing",
+    "Scanning",
+    "Penetration Testing",
+    "XSS - Cross-Site Scripting",
+    "SQL Injection",
+    "Template Injection",
+    "XXE",
+    "Cross Site Request Forgery",
+    "Server-Side Request Forgery",
+    "Leaking",
+    "Detecting",
+    "Preventing",
+    "Proxy",
+    "Webshell",
+    "Disassembler",
+    "Decompiler",
+    "DNS Rebinding",
+    "Others",
+    "Social Engineering Database",
+    "Blogs",
+    "Twitter Users",
+    "Application",
+    "AWS",
+    "XSS",
+    "ModSecurity / OWASP ModSecurity Core Rule Set",
+    "Community",
+    "Miscellaneous"
+  ],
+  "crawledAt": "2026-07-23T13:30:53.851Z"
+}

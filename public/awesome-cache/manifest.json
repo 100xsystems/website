@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updatedAt": "2026-07-23T13:12:31.396Z",
+  "listCount": 10,
+  "lists": [
+    "akullpp-awesome-java",
+    "avelino-awesome-go",
+    "josephmisiti-awesome-machine-learning",
+    "madd86-awesome-system-design",
+    "qazbnm456-awesome-web-security",
+    "ramitsurana-awesome-kubernetes",
+    "sindresorhus-awesome",
+    "veggiemonk-awesome-docker",
+    "vinta-awesome-python",
+    "zoidbergwill-awesome-ebpf"
+  ]
+}

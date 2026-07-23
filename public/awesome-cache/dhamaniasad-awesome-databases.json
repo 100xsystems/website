@@ -1,0 +1,112 @@
+{
+  "repoId": "dhamaniasad/awesome-databases",
+  "name": "A curated list of awesome databases",
+  "description": "A curated list of awesome databases",
+  "repoUrl": "https://github.com/dhamaniasad/awesome-databases",
+  "stars": 20,
+  "topics": [],
+  "links": [
+    {
+      "url": "http://mysql.com",
+      "title": "MySQL",
+      "description": "MySQL is the world's most popular open source database.",
+      "category": "Relational Databases",
+      "source": "dhamaniasad/awesome-databases",
+      "indexedAt": "2026-07-23T13:30:25.721Z"
+    },
+    {
+      "url": "http://www.postgresql.org/",
+      "title": "PostgreSQL",
+      "description": "PostgreSQL is a powerful, open source object-relational database system.",
+      "category": "Relational Databases",
+      "source": "dhamaniasad/awesome-databases",
+      "indexedAt": "2026-07-23T13:30:25.721Z"
+    },
+    {
+      "url": "https://mariadb.org/",
+      "title": "MariaDB",
+      "description": "An enhanced, drop-in replacement for MySQL.",
+      "category": "Relational Databases",
+      "source": "dhamaniasad/awesome-databases",
+      "indexedAt": "2026-07-23T13:30:25.721Z"
+    },
+    {
+      "url": "https://github.com/antirez/redis",
+      "title": "Redis",
+      "description": "Redis is an in-memory database that persists on disk. The data model is key-value, but many different kind of values are supported: Strings, Lists, Sets, Sorted Sets, Hashes",
+      "category": "NoSQL Databases",
+      "source": "dhamaniasad/awesome-databases",
+      "indexedAt": "2026-07-23T13:30:25.721Z"
+    },
+    {
+      "url": "https://github.com/rethinkdb/rethinkdb",
+      "title": "RethinkDB",
+      "description": "An open-source distributed JSON document database with a pleasant and powerful query language.",
+      "category": "NoSQL Databases",
+      "source": "dhamaniasad/awesome-databases",
+      "indexedAt": "2026-07-23T13:30:25.721Z"
+    },
+    {
+      "url": "https://github.com/mongo/mongo",
+      "title": "MongoDB",
+      "description": "The Mongo Database",
+      "category": "NoSQL Databases",
+      "source": "dhamaniasad/awesome-databases",
+      "indexedAt": "2026-07-23T13:30:25.721Z"
+    },
+    {
+      "url": "https://github.com/pouchdb/pouchdb",
+      "title": "PouchDB",
+      "description": "PouchDB is a pocket-sized database.",
+      "category": "NoSQL Databases",
+      "source": "dhamaniasad/awesome-databases",
+      "indexedAt": "2026-07-23T13:30:25.721Z"
+    },
+    {
+      "url": "https://github.com/neo4j/neo4j",
+      "title": "neo4j",
+      "description": "Graphs for Everyone",
+      "category": "Graph Databases",
+      "source": "dhamaniasad/awesome-databases",
+      "indexedAt": "2026-07-23T13:30:25.721Z"
+    },
+    {
+      "url": "https://github.com/twitter/flockdb",
+      "title": "FlockDB",
+      "description": "A distributed, fault-tolerant graph database",
+      "category": "Graph Databases",
+      "source": "dhamaniasad/awesome-databases",
+      "indexedAt": "2026-07-23T13:30:25.721Z"
+    },
+    {
+      "url": "https://github.com/thinkaurelius/titan",
+      "title": "Titan",
+      "description": "Distributed Graph Database",
+      "category": "Graph Databases",
+      "source": "dhamaniasad/awesome-databases",
+      "indexedAt": "2026-07-23T13:30:25.721Z"
+    },
+    {
+      "url": "https://github.com/orientechnologies/orientdb",
+      "title": "OrientDB",
+      "description": "OrientDB document graph NoSQL dbms (database)",
+      "category": "Graph Databases",
+      "source": "dhamaniasad/awesome-databases",
+      "indexedAt": "2026-07-23T13:30:25.721Z"
+    },
+    {
+      "url": "https://github.com/triAGENS/ArangoDB",
+      "title": "ArangoDB",
+      "description": "ArangoDB is a multi-purpose, open-source database with flexible data models for documents, graphs, and key-values. Build high performance applications using a convenient SQL-like query language or JavaScript/Ruby extensions. Use ACID transaction if you require them. Scale horizontally and vertically with a few mouse clicks.",
+      "category": "Graph Databases",
+      "source": "dhamaniasad/awesome-databases",
+      "indexedAt": "2026-07-23T13:30:25.721Z"
+    }
+  ],
+  "categories": [
+    "Relational Databases",
+    "NoSQL Databases",
+    "Graph Databases"
+  ],
+  "crawledAt": "2026-07-23T13:30:25.721Z"
+}

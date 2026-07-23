@@ -1,0 +1,4147 @@
+{
+  "repoId": "ChristosChristofidis/awesome-deep-learning",
+  "name": "A curated list of awesome Deep Learning tutorials, projects and communities.",
+  "description": "A curated list of awesome Deep Learning tutorials, projects and communities.",
+  "repoUrl": "https://github.com/ChristosChristofidis/awesome-deep-learning",
+  "stars": 28655,
+  "topics": [
+    "awesome",
+    "awesome-list",
+    "deep-learning",
+    "deep-learning-tutorial",
+    "deep-networks",
+    "face-images",
+    "machine-learning",
+    "neural-network",
+    "recurrent-networks"
+  ],
+  "links": [
+    {
+      "url": "http://www.deeplearningbook.org/",
+      "title": "Deep Learning",
+      "description": null,
+      "category": "Books",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://neuralnetworksanddeeplearning.com/",
+      "title": "Neural Networks and Deep Learning",
+      "description": null,
+      "category": "Books",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://research.microsoft.com/pubs/209355/DeepLearning-NowPublishing-Vol7-SIG-039.pdf",
+      "title": "Deep Learning",
+      "description": null,
+      "category": "Books",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://deeplearning.net/tutorial/deeplearning.pdf",
+      "title": "Deep Learning Tutorial",
+      "description": null,
+      "category": "Books",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.boente.eti.br/fuzzy/ebook-fuzzy-mitchell.pdf",
+      "title": "An introduction to genetic algorithms",
+      "description": null,
+      "category": "Books",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://aima.cs.berkeley.edu/",
+      "title": "Artificial Intelligence: A Modern Approach",
+      "description": null,
+      "category": "Books",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://arxiv.org/pdf/1404.7828v4.pdf",
+      "title": "Deep Learning in Neural Networks: An Overview",
+      "description": null,
+      "category": "Books",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://leonardoaraujosantos.gitbooks.io/artificial-inteligence/",
+      "title": "Artificial intelligence and machine learning: Topic wise explanation",
+      "description": null,
+      "category": "Books",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://www.manning.com/books/grokking-deep-learning-for-computer-vision",
+      "title": "Grokking Deep Learning for Computer Vision",
+      "description": null,
+      "category": "Books",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://d2l.ai/",
+      "title": "Dive into Deep Learning",
+      "description": "numpy based interactive Deep Learning book",
+      "category": "Books",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://www.oreilly.com/library/view/practical-deep-learning/9781492034858/",
+      "title": "Practical Deep Learning for Cloud, Mobile, and Edge",
+      "description": "A book for optimization techniques during production.",
+      "category": "Books",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://www.manning.com/books/math-and-architectures-of-deep-learning",
+      "title": "Math and Architectures of Deep Learning",
+      "description": "by Krishnendu Chaudhury",
+      "category": "Books",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://www.manning.com/books/tensorflow-in-action",
+      "title": "TensorFlow 2.0 in Action",
+      "description": "by Thushan Ganegedara",
+      "category": "Books",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://www.manning.com/books/deep-learning-for-natural-language-processing",
+      "title": "Deep Learning for Natural Language Processing",
+      "description": "by Stephan Raaijmakers",
+      "category": "Books",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://www.manning.com/books/deep-learning-patterns-and-practices",
+      "title": "Deep Learning Patterns and Practices",
+      "description": "by Andrew Ferlitsch",
+      "category": "Books",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://www.manning.com/books/inside-deep-learning",
+      "title": "Inside Deep Learning",
+      "description": "by Edward Raff",
+      "category": "Books",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://www.manning.com/books/deep-learning-with-python-second-edition",
+      "title": "Deep Learning with Python, Second Edition",
+      "description": "by François Chollet",
+      "category": "Books",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://www.manning.com/books/evolutionary-deep-learning",
+      "title": "Evolutionary Deep Learning",
+      "description": "by Micheal Lanham",
+      "category": "Books",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://www.manning.com/books/engineering-deep-learning-platforms",
+      "title": "Engineering Deep Learning Platforms",
+      "description": "by Chi Wang and Donald Szeto",
+      "category": "Books",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://www.manning.com/books/deep-learning-with-r-second-edition",
+      "title": "Deep Learning with R, Second Edition",
+      "description": "by François Chollet with Tomasz Kalinowski and J. J. Allaire",
+      "category": "Books",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://www.manning.com/books/regularization-in-deep-learning",
+      "title": "Regularization in Deep Learning",
+      "description": "by Liu Peng",
+      "category": "Books",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://www.manning.com/books/jax-in-action",
+      "title": "Jax in Action",
+      "description": "by Grigory Sapunov",
+      "category": "Books",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://www.knowledgeisle.com/wp-content/uploads/2019/12/2-Aur%C3%A9lien-G%C3%A9ron-Hands-On-Machine-Learning-with-Scikit-Learn-Keras-and-Tensorflow_-Concepts-Tools-and-Techniques-to-Build-Intelligent-Systems-O%E2%80%99Reilly-Media-2019.pdf",
+      "title": "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow",
+      "description": null,
+      "category": "Books",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://class.coursera.org/ml-005",
+      "title": "Machine Learning - Stanford",
+      "description": null,
+      "category": "Courses",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://work.caltech.edu/lectures.html",
+      "title": "Machine Learning - Caltech",
+      "description": null,
+      "category": "Courses",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.cs.cmu.edu/~tom/10701_sp11/lectures.shtml",
+      "title": "Machine Learning - Carnegie Mellon",
+      "description": null,
+      "category": "Courses",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://class.coursera.org/neuralnets-2012-001",
+      "title": "Neural Networks for Machine Learning",
+      "description": null,
+      "category": "Courses",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://cilvr.cs.nyu.edu/doku.php?id=deeplearning:slides:start",
+      "title": "Deep Learning Course",
+      "description": null,
+      "category": "Courses",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://courses.edx.org/courses/BerkeleyX/CS188x_1/1T2013/courseware/",
+      "title": "A.I - Berkeley",
+      "description": null,
+      "category": "Courses",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/lecture-videos/",
+      "title": "A.I - MIT",
+      "description": null,
+      "category": "Courses",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://web.mit.edu/course/other/i2course/www/vision_and_learning_fall_2013.html",
+      "title": "Vision and learning - computers and brains",
+      "description": null,
+      "category": "Courses",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://vision.stanford.edu/teaching/cs231n/syllabus.html",
+      "title": "Convolutional Neural Networks for Visual Recognition - Stanford",
+      "description": null,
+      "category": "Courses",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://cs224d.stanford.edu/",
+      "title": "Deep Learning for Natural Language Processing - Stanford",
+      "description": null,
+      "category": "Courses",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://info.usherbrooke.ca/hlarochelle/neural_networks/content.html",
+      "title": "Neural Networks - usherbrooke",
+      "description": null,
+      "category": "Courses",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://www.cs.ox.ac.uk/people/nando.defreitas/machinelearning/",
+      "title": "Machine Learning - Oxford",
+      "description": null,
+      "category": "Courses",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://developer.nvidia.com/deep-learning-courses",
+      "title": "Deep Learning - Nvidia",
+      "description": null,
+      "category": "Courses",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://www.udacity.com/course/deep-learning--ud730",
+      "title": "Deep Learning - Udacity/Google",
+      "description": null,
+      "category": "Courses",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://www.college-de-france.fr/site/en-yann-lecun/course-2015-2016.htm",
+      "title": "Deep Learning Course",
+      "description": null,
+      "category": "Courses",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://uvadlc.github.io",
+      "title": "UVA Deep Learning Course",
+      "description": null,
+      "category": "Courses",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://selfdrivingcars.mit.edu/",
+      "title": "MIT 6.S094: Deep Learning for Self-Driving Cars",
+      "description": null,
+      "category": "Courses",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://introtodeeplearning.com/",
+      "title": "MIT 6.S191: Introduction to Deep Learning",
+      "description": null,
+      "category": "Courses",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://rll.berkeley.edu/deeprlcourse/",
+      "title": "Berkeley CS 294: Deep Reinforcement Learning",
+      "description": null,
+      "category": "Courses",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://www.manning.com/livevideo/keras-in-motion",
+      "title": "Keras in Motion video course",
+      "description": null,
+      "category": "Courses",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://course.fast.ai/",
+      "title": "Practical Deep Learning For Coders",
+      "description": null,
+      "category": "Courses",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://deeplearning.cs.cmu.edu/",
+      "title": "Introduction to Deep Learning",
+      "description": null,
+      "category": "Courses",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://www.deeplearning.ai/ai-for-everyone/",
+      "title": "AI for Everyone",
+      "description": null,
+      "category": "Courses",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://mithi.github.io/deep-blueberry",
+      "title": "Deep Blueberry: Deep Learning",
+      "description": "A free five-weekend plan to self-learners to learn the basics of deep-learning architectures like CNNs, LSTMs, RNNs, VAEs, GANs, DQN, A3C and more (2019)",
+      "category": "Courses",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://www.coursera.org/specializations/deep-learning",
+      "title": "Deep Learning Specialization - Coursera",
+      "description": "Breaking into AI with the best course from Andrew NG.",
+      "category": "Courses",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://www.manning.com/livevideo/machine-learning-for-mere-mortals",
+      "title": "Machine Learning for Mere Mortals video course",
+      "description": null,
+      "category": "Courses",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://developers.google.com/machine-learning/crash-course/",
+      "title": "Machine Learning Crash Course with TensorFlow APIs",
+      "description": null,
+      "category": "Courses",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://course.fast.ai/part2",
+      "title": "Deep Learning from the Foundations",
+      "description": null,
+      "category": "Courses",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893",
+      "title": "Deep Reinforcement Learning (nanodegree) - Udacity",
+      "description": null,
+      "category": "Courses",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://www.manning.com/livevideo/grokking-deep-learning-in-motion",
+      "title": "Grokking Deep Learning in Motion",
+      "description": null,
+      "category": "Courses",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://www.udemy.com/share/1000gAA0QdcV9aQng=/",
+      "title": "Face Detection with Computer Vision and Deep Learning",
+      "description": null,
+      "category": "Courses",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://classpert.com/deep-learning",
+      "title": "Deep Learning Online Course list at Classpert",
+      "description": null,
+      "category": "Courses",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://aws.training/machinelearning",
+      "title": "AWS Machine Learning",
+      "description": null,
+      "category": "Courses",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://www.udacity.com/course/deep-learning-pytorch--ud188",
+      "title": "Intro to Deep Learning with PyTorch",
+      "description": "A great introductory course on Deep Learning by Udacity and Facebook AI",
+      "category": "Courses",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://www.kaggle.com/learn/deep-learning",
+      "title": "Deep Learning by Kaggle",
+      "description": "Kaggle's  free course on Deep Learning",
+      "category": "Courses",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://cds.nyu.edu/deep-learning/",
+      "title": "Yann LeCun’s Deep Learning Course at CDS",
+      "description": "DS-GA 1008 · SPRING 2021",
+      "category": "Courses",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://webcms3.cse.unsw.edu.au/COMP9444/19T3/",
+      "title": "Neural Networks and Deep Learning",
+      "description": "COMP9444 19T3",
+      "category": "Courses",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://aishelf.org/category/ia/deep-learning/",
+      "title": "Deep Learning A.I.Shelf",
+      "description": null,
+      "category": "Courses",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://vimeo.com/80821560",
+      "title": "Making Sense of the World with Deep Learning",
+      "description": null,
+      "category": "Videos and Lectures",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.ted.com/talks/jeremy_howard_the_wonderful_and_terrifying_implications_of_computers_that_can_learn",
+      "title": "The wonderful and terrifying implications of computers that can learn",
+      "description": null,
+      "category": "Videos and Lectures",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://web.stanford.edu/class/cs294a/handouts.html",
+      "title": "Unsupervised Deep Learning - Stanford",
+      "description": null,
+      "category": "Videos and Lectures",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://web.stanford.edu/class/cs224n/handouts/",
+      "title": "Natural Language Processing",
+      "description": null,
+      "category": "Videos and Lectures",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://googleresearch.blogspot.com/2015/09/a-beginners-guide-to-deep-neural.html",
+      "title": "A beginners Guide to Deep Neural Networks",
+      "description": null,
+      "category": "Videos and Lectures",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://nips.cc/Conferences/2016/Schedule",
+      "title": "NIPS 2016 lecture and workshop videos",
+      "description": "NIPS 2016",
+      "category": "Videos and Lectures",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://www.manning.com/livevideo/deep-learning-crash-course",
+      "title": "Deep Learning Crash Course",
+      "description": null,
+      "category": "Videos and Lectures",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://www.manning.com/livevideo/deep-learning-with-r-in-motion",
+      "title": "Deep Learning with R in Motion",
+      "description": "a live video course that teaches how to apply deep learning to text and images using the powerful Keras library and its R language interface.",
+      "category": "Videos and Lectures",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://youtu.be/LXWSE_9gHd0",
+      "title": "What is Neural Structured Learning by Andrew Ferlitsch",
+      "description": null,
+      "category": "Videos and Lectures",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://youtu.be/_DaviS6K0Vc",
+      "title": "Deep Learning Design Patterns by Andrew Ferlitsch",
+      "description": null,
+      "category": "Videos and Lectures",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://youtu.be/QCGSS3kyGo0",
+      "title": "Architecture of a Modern CNN: the design pattern approach by Andrew Ferlitsch",
+      "description": null,
+      "category": "Videos and Lectures",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://youtu.be/K1PLeggQ33I",
+      "title": "Metaparameters in a CNN by Andrew Ferlitsch",
+      "description": null,
+      "category": "Videos and Lectures",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://youtu.be/dH2nuI-1-qM",
+      "title": "Multi-task CNN: a real-world example by Andrew Ferlitsch",
+      "description": null,
+      "category": "Videos and Lectures",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://youtu.be/1FyAh07jh0o",
+      "title": "A friendly introduction to deep reinforcement learning by Luis Serrano",
+      "description": null,
+      "category": "Videos and Lectures",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://youtu.be/f6ivp84qFUc",
+      "title": "What are GANs and how do they work? by Edward Raff",
+      "description": null,
+      "category": "Videos and Lectures",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://youtu.be/7VRdaqMDalQ",
+      "title": "Coding a basic WGAN in PyTorch by Edward Raff",
+      "description": null,
+      "category": "Videos and Lectures",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://youtu.be/8TMT-gHlj_Q",
+      "title": "Training a Reinforcement Learning Agent by Miguel Morales",
+      "description": null,
+      "category": "Videos and Lectures",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://www.scaler.com/topics/what-is-deep-learning/",
+      "title": "Understand what is Deep Learning",
+      "description": null,
+      "category": "Videos and Lectures",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf",
+      "title": "ImageNet Classification with Deep Convolutional Neural Networks",
+      "description": null,
+      "category": "Papers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.cs.toronto.edu/~hinton/absps/esann-deep-final.pdf",
+      "title": "Using Very Deep Autoencoders for Content Based Image Retrieval",
+      "description": null,
+      "category": "Papers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.iro.umontreal.ca/~lisa/pointeurs/TR1312.pdf",
+      "title": "Learning Deep Architectures for AI",
+      "description": null,
+      "category": "Papers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://nlp.stanford.edu/~socherr/pa4_ner.pdf",
+      "title": "Neural Networks for Named Entity Recognition",
+      "description": null,
+      "category": "Papers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.iro.umontreal.ca/~bengioy/papers/YB-tricks.pdf",
+      "title": "Training tricks by YB",
+      "description": null,
+      "category": "Papers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.cs.toronto.edu/~hinton/deeprefs.html",
+      "title": "Geoff Hinton's reading list (all papers)",
+      "description": null,
+      "category": "Papers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.cs.toronto.edu/~graves/preprint.pdf",
+      "title": "Supervised Sequence Labelling with Recurrent Neural Networks",
+      "description": null,
+      "category": "Papers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.fit.vutbr.cz/~imikolov/rnnlm/thesis.pdf",
+      "title": "Statistical Language Models based on Neural Networks",
+      "description": null,
+      "category": "Papers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.cs.utoronto.ca/~ilya/pubs/ilya_sutskever_phd_thesis.pdf",
+      "title": "Training Recurrent Neural Networks",
+      "description": null,
+      "category": "Papers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://nlp.stanford.edu/~socherr/thesis.pdf",
+      "title": "Recursive Deep Learning for Natural Language Processing and Computer Vision",
+      "description": null,
+      "category": "Papers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.di.ufpe.br/~fnj/RNA/bibliografia/BRNN.pdf",
+      "title": "Bi-directional RNN",
+      "description": null,
+      "category": "Papers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://web.eecs.utk.edu/~itamar/courses/ECE-692/Bobby_paper1.pdf",
+      "title": "LSTM",
+      "description": null,
+      "category": "Papers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://arxiv.org/pdf/1406.1078v3.pdf",
+      "title": "GRU - Gated Recurrent Unit",
+      "description": null,
+      "category": "Papers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://arxiv.org/pdf/1502.02367v3.pdf",
+      "title": "GFRNN",
+      "description": null,
+      "category": "Papers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://arxiv.org/pdf/1503.04069v1.pdf",
+      "title": "LSTM: A Search Space Odyssey",
+      "description": null,
+      "category": "Papers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://arxiv.org/pdf/1506.00019v1.pdf",
+      "title": "A Critical Review of Recurrent Neural Networks for Sequence Learning",
+      "description": null,
+      "category": "Papers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://arxiv.org/pdf/1506.02078v1.pdf",
+      "title": "Visualizing and Understanding Recurrent Networks",
+      "description": null,
+      "category": "Papers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://jmlr.org/proceedings/papers/v37/jozefowicz15.pdf",
+      "title": "Wojciech Zaremba, Ilya Sutskever, An Empirical Exploration of Recurrent Network Architectures",
+      "description": null,
+      "category": "Papers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.fit.vutbr.cz/research/groups/speech/publi/2010/mikolov_interspeech2010_IS100722.pdf",
+      "title": "Recurrent Neural Network based Language Model",
+      "description": null,
+      "category": "Papers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.fit.vutbr.cz/research/groups/speech/publi/2011/mikolov_icassp2011_5528.pdf",
+      "title": "Extensions of Recurrent Neural Network Language Model",
+      "description": null,
+      "category": "Papers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.fit.vutbr.cz/~imikolov/rnnlm/ApplicationOfRNNinMeetingRecognition_IS2011.pdf",
+      "title": "Recurrent Neural Network based Language Modeling in Meeting Recognition",
+      "description": null,
+      "category": "Papers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://cs224d.stanford.edu/papers/maas_paper.pdf",
+      "title": "Deep Neural Networks for Acoustic Modeling in Speech Recognition",
+      "description": null,
+      "category": "Papers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.cs.toronto.edu/~fritz/absps/RNN13.pdf",
+      "title": "Speech Recognition with Deep Recurrent Neural Networks",
+      "description": null,
+      "category": "Papers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://arxiv.org/pdf/1505.00521v1",
+      "title": "Reinforcement Learning Neural Turing Machines",
+      "description": null,
+      "category": "Papers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf",
+      "title": "Google - Sequence to Sequence  Learning with Neural Networks",
+      "description": null,
+      "category": "Papers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://arxiv.org/pdf/1410.3916v10",
+      "title": "Memory Networks",
+      "description": null,
+      "category": "Papers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://arxiv.org/pdf/1507.01273v1",
+      "title": "Policy Learning with Continuous Memory States for Partially Observed Robotic Control",
+      "description": null,
+      "category": "Papers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://arxiv.org/pdf/1505.01861v1.pdf",
+      "title": "Microsoft - Jointly Modeling Embedding and Translation to Bridge Video and Language",
+      "description": null,
+      "category": "Papers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://arxiv.org/pdf/1410.5401v2.pdf",
+      "title": "Neural Turing Machines",
+      "description": null,
+      "category": "Papers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://arxiv.org/pdf/1506.07285v1.pdf",
+      "title": "Ask Me Anything: Dynamic Memory Networks for Natural Language Processing",
+      "description": null,
+      "category": "Papers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.nature.com/nature/journal/v529/n7587/pdf/nature16961.pdf",
+      "title": "Mastering the Game of Go with Deep Neural Networks and Tree Search",
+      "description": null,
+      "category": "Papers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/1502.03167",
+      "title": "Batch Normalization",
+      "description": null,
+      "category": "Papers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://arxiv.org/pdf/1512.03385v1.pdf",
+      "title": "Residual Learning",
+      "description": null,
+      "category": "Papers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://arxiv.org/pdf/1611.07004v1.pdf",
+      "title": "Image-to-Image Translation with Conditional Adversarial Networks",
+      "description": null,
+      "category": "Papers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/1704.04861",
+      "title": "MobileNets by Google",
+      "description": null,
+      "category": "Papers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/1706.05739",
+      "title": "Cross Audio-Visual Recognition in the Wild Using Deep Learning",
+      "description": null,
+      "category": "Papers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/1710.09829",
+      "title": "Dynamic Routing Between Capsules",
+      "description": null,
+      "category": "Papers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://openreview.net/pdf?id=HJWLfGWRb",
+      "title": "Matrix Capsules With Em Routing",
+      "description": null,
+      "category": "Papers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://yann.lecun.com/exdb/publis/pdf/lecun-98b.pdf",
+      "title": "Efficient BackProp",
+      "description": null,
+      "category": "Papers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://arxiv.org/pdf/1406.2661v1.pdf",
+      "title": "Generative Adversarial Nets",
+      "description": null,
+      "category": "Papers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://arxiv.org/pdf/1504.08083.pdf",
+      "title": "Fast R-CNN",
+      "description": null,
+      "category": "Papers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://arxiv.org/pdf/1503.03832.pdf",
+      "title": "FaceNet: A Unified Embedding for Face Recognition and Clustering",
+      "description": null,
+      "category": "Papers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://www.cs.cmu.edu/~rsalakhu/papers/oneshot1.pdf",
+      "title": "Siamese Neural Networks for One-shot Image Recognition",
+      "description": null,
+      "category": "Papers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2006.03511.pdf",
+      "title": "Unsupervised Translation of Programming Languages",
+      "description": null,
+      "category": "Papers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://papers.nips.cc/paper/6385-matching-networks-for-one-shot-learning.pdf",
+      "title": "Matching Networks for One Shot Learning",
+      "description": null,
+      "category": "Papers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2106.13112.pdf",
+      "title": "VOLO: Vision Outlooker for Visual Recognition",
+      "description": null,
+      "category": "Papers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2010.11929.pdf",
+      "title": "ViT: An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+      "description": null,
+      "category": "Papers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://proceedings.mlr.press/v37/ioffe15.pdf",
+      "title": "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift",
+      "description": null,
+      "category": "Papers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://geometrylearning.com/paper/DeepFaceDrawing.pdf?fbclid=IwAR0colWFHPGBCB1APZq9JVsWeWtmeZd9oCTNQvR52T5PRUJP_dLOwB8pt0I",
+      "title": "DeepFaceDrawing: Deep Generation of Face Images from Sketches",
+      "description": null,
+      "category": "Papers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://deeplearning.stanford.edu/wiki/index.php/UFLDL_Tutorial",
+      "title": "UFLDL Tutorial 1",
+      "description": null,
+      "category": "Tutorials",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://ufldl.stanford.edu/tutorial/supervised/LinearRegression/",
+      "title": "UFLDL Tutorial 2",
+      "description": null,
+      "category": "Tutorials",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.socher.org/index.php/DeepLearningTutorial/DeepLearningTutorial",
+      "title": "Deep Learning for NLP (without Magic)",
+      "description": null,
+      "category": "Tutorials",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.toptal.com/machine-learning/an-introduction-to-deep-learning-from-perceptrons-to-deep-networks",
+      "title": "A Deep Learning Tutorial: From Perceptrons to Deep Networks",
+      "description": null,
+      "category": "Tutorials",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.metacademy.org/roadmaps/rgrosse/deep_learning",
+      "title": "Deep Learning from the Bottom up",
+      "description": null,
+      "category": "Tutorials",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://uk.mathworks.com/help/pdf_doc/nnet/nnet_ug.pdf",
+      "title": "Neural Networks for Matlab",
+      "description": null,
+      "category": "Tutorials",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://danielnouri.org/notes/2014/12/17/using-convolutional-neural-nets-to-detect-facial-keypoints-tutorial/",
+      "title": "Using convolutional neural nets to detect facial keypoints tutorial",
+      "description": null,
+      "category": "Tutorials",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://github.com/clementfarabet/ipam-tutorials/tree/master/th_tutorials",
+      "title": "Torch7 Tutorials",
+      "description": null,
+      "category": "Tutorials",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.robots.ox.ac.uk/~vgg/practicals/cnn/index.html",
+      "title": "VGG Convolutional Neural Networks Practical",
+      "description": null,
+      "category": "Tutorials",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://github.com/nlintz/TensorFlow-Tutorials",
+      "title": "TensorFlow tutorials",
+      "description": null,
+      "category": "Tutorials",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://github.com/pkmital/tensorflow_tutorials",
+      "title": "More TensorFlow tutorials",
+      "description": null,
+      "category": "Tutorials",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://github.com/aymericdamien/TensorFlow-Examples",
+      "title": "TensorFlow Python Notebooks",
+      "description": null,
+      "category": "Tutorials",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://github.com/Vict0rSch/deep_learning",
+      "title": "Keras and Lasagne Deep Learning Tutorials",
+      "description": null,
+      "category": "Tutorials",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://github.com/guillaume-chevalier/LSTM-Human-Activity-Recognition",
+      "title": "Classification on raw time series in TensorFlow with a LSTM RNN",
+      "description": null,
+      "category": "Tutorials",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://github.com/astorfi/TensorFlow-World",
+      "title": "TensorFlow-World",
+      "description": null,
+      "category": "Tutorials",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://www.manning.com/books/deep-learning-with-python",
+      "title": "Deep Learning with Python",
+      "description": null,
+      "category": "Tutorials",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://www.manning.com/books/grokking-deep-learning",
+      "title": "Grokking Deep Learning",
+      "description": null,
+      "category": "Tutorials",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://www.manning.com/books/deep-learning-for-search",
+      "title": "Deep Learning for Search",
+      "description": null,
+      "category": "Tutorials",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://medium.com/sicara/keras-tutorial-content-based-image-retrieval-convolutional-denoising-autoencoder-dc91450cc511",
+      "title": "Keras Tutorial: Content Based Image Retrieval Using a Convolutional Denoising Autoencoder",
+      "description": null,
+      "category": "Tutorials",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://github.com/yunjey/pytorch-tutorial",
+      "title": "Pytorch Tutorial by Yunjey Choi",
+      "description": null,
+      "category": "Tutorials",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://ahmedbesbes.com/understanding-deep-convolutional-neural-networks-with-a-practical-use-case-in-tensorflow-and-keras.html",
+      "title": "Understanding deep Convolutional Neural Networks with a practical use-case in Tensorflow and Keras",
+      "description": null,
+      "category": "Tutorials",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://ahmedbesbes.com/overview-and-benchmark-of-traditional-and-deep-learning-models-in-text-classification.html",
+      "title": "Overview and benchmark of traditional and deep learning models in text classification",
+      "description": null,
+      "category": "Tutorials",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://github.com/MelAbgrall/HardwareforAI",
+      "title": "Hardware for AI: Understanding computer hardware & build your own computer",
+      "description": null,
+      "category": "Tutorials",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://hackr.io/tutorials/learn-artificial-intelligence-ai",
+      "title": "Programming Community Curated Resources",
+      "description": null,
+      "category": "Tutorials",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://amitness.com/2020/02/illustrated-self-supervised-learning/",
+      "title": "The Illustrated Self-Supervised Learning",
+      "description": null,
+      "category": "Tutorials",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://amitness.com/2020/02/albert-visual-summary/",
+      "title": "Visual Paper Summary: ALBERT (A Lite BERT)",
+      "description": null,
+      "category": "Tutorials",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://www.manning.com/liveproject/semi-supervised-deep-learning-with-gans-for-melanoma-detection/",
+      "title": "Semi-Supervised Deep Learning with GANs for Melanoma Detection",
+      "description": null,
+      "category": "Tutorials",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://github.com/SauravMaheshkar/Trax-Examples/blob/main/NLP/NER%20using%20Reformer.ipynb",
+      "title": "Named Entity Recognition using Reformers",
+      "description": null,
+      "category": "Tutorials",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://github.com/SauravMaheshkar/Trax-Examples/blob/main/NLP/Deep%20N-Gram.ipynb",
+      "title": "Deep N-Gram Models on Shakespeare’s works",
+      "description": null,
+      "category": "Tutorials",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://github.com/SauravMaheshkar/Trax-Examples/blob/main/vision/illustrated-wideresnet.ipynb",
+      "title": "Wide Residual Networks",
+      "description": null,
+      "category": "Tutorials",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://github.com/SauravMaheshkar/Flax-Examples",
+      "title": "Fashion MNIST using Flax",
+      "description": null,
+      "category": "Tutorials",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://github.com/SauravMaheshkar/Fake-News-Classification",
+      "title": "Fake News Classification (with streamlit deployment)",
+      "description": null,
+      "category": "Tutorials",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://github.com/SauravMaheshkar/CoxPH-Model-for-Primary-Biliary-Cirrhosis",
+      "title": "Regression Analysis for Primary Biliary Cirrhosis",
+      "description": null,
+      "category": "Tutorials",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://github.com/SauravMaheshkar/Cross-Matching-Methods-for-Astronomical-Catalogs",
+      "title": "Cross Matching Methods for Astronomical Catalogs",
+      "description": null,
+      "category": "Tutorials",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://github.com/SauravMaheshkar/Named-Entity-Recognition-",
+      "title": "Named Entity Recognition using BiDirectional LSTMs",
+      "description": null,
+      "category": "Tutorials",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://github.com/SauravMaheshkar/Flutter_Image-Recognition",
+      "title": "Image Recognition App using Tflite and Flutter",
+      "description": null,
+      "category": "Tutorials",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://aaroncourville.wordpress.com",
+      "title": "Aaron Courville",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.cs.toronto.edu/~asamir/",
+      "title": "Abdel-rahman Mohamed",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://cs.stanford.edu/~acoates/",
+      "title": "Adam Coates",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://research.microsoft.com/en-us/people/alexac/",
+      "title": "Alex Acero",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.cs.utoronto.ca/~kriz/index.html",
+      "title": "Alex Krizhevsky",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://users.ics.aalto.fi/alexilin/",
+      "title": "Alexander Ilin",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://homepages.inf.ed.ac.uk/amos/",
+      "title": "Amos Storkey",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://karpathy.ai/",
+      "title": "Andrej Karpathy",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.stanford.edu/~asaxe/",
+      "title": "Andrew M. Saxe",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.cs.stanford.edu/people/ang/",
+      "title": "Andrew Ng",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://research.google.com/pubs/author37792.html",
+      "title": "Andrew W. Senior",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.gatsby.ucl.ac.uk/~amnih/",
+      "title": "Andriy Mnih",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.cs.nyu.edu/~naz/",
+      "title": "Ayse Naz Erkan",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://reslab.elis.ugent.be/benjamin",
+      "title": "Benjamin Schrauwen",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://www.cisuc.uc.pt/people/show/2020",
+      "title": "Bernardete Ribeiro",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://vision.caltech.edu/~bchen3/Site/Bo_David_Chen.html",
+      "title": "Bo David Chen",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://cs.nyu.edu/~ylan/",
+      "title": "Boureau Y-Lan",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://researcher.watson.ibm.com/researcher/view.php?person=us-bedk",
+      "title": "Brian Kingsbury",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://nlp.stanford.edu/~manning/",
+      "title": "Christopher Manning",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.clement.farabet.net/",
+      "title": "Clement Farabet",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.idsia.ch/~ciresan/",
+      "title": "Dan Claudiu Cireșan",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://serre-lab.clps.brown.edu/person/david-reichert/",
+      "title": "David Reichert",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://mil.engr.utk.edu/nmil/member/5.html",
+      "title": "Derek Rose",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://research.microsoft.com/en-us/people/dongyu/default.aspx",
+      "title": "Dong Yu",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.seas.upenn.edu/~wulsin/",
+      "title": "Drausin Wulsin",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://music.ece.drexel.edu/people/eschmidt",
+      "title": "Erik M. Schmidt",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://engineering.purdue.edu/BME/People/viewPersonById?resource_id=71333",
+      "title": "Eugenio Culurciello",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://research.microsoft.com/en-us/people/fseide/",
+      "title": "Frank Seide",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://homes.cs.washington.edu/~galen/",
+      "title": "Galen Andrew",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.cs.toronto.edu/~hinton/",
+      "title": "Geoffrey Hinton",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.cs.toronto.edu/~gdahl/",
+      "title": "George Dahl",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.uoguelph.ca/~gwtaylor/",
+      "title": "Graham Taylor",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://gregoire.montavon.name/",
+      "title": "Grégoire Montavon",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://personal-homepages.mis.mpg.de/montufar/",
+      "title": "Guido Francisco Montúfar",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://brainlogging.wordpress.com/",
+      "title": "Guillaume Desjardins",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.ais.uni-bonn.de/~schulz/",
+      "title": "Hannes Schulz",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.lri.fr/~hpaugam/",
+      "title": "Hélène Paugam-Moisy",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://web.eecs.umich.edu/~honglak/",
+      "title": "Honglak Lee",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.dmi.usherb.ca/~larocheh/index_en.html",
+      "title": "Hugo Larochelle",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.cs.toronto.edu/~ilya/",
+      "title": "Ilya Sutskever",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://mil.engr.utk.edu/nmil/member/2.html",
+      "title": "Itamar Arel",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.cs.toronto.edu/~jmartens/",
+      "title": "James Martens",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.jasonmorton.com/",
+      "title": "Jason Morton",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.thespermwhale.com/jaseweston/",
+      "title": "Jason Weston",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://research.google.com/pubs/jeff.html",
+      "title": "Jeff Dean",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://cs.stanford.edu/~jngiam/",
+      "title": "Jiquan Mgiam",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www-etud.iro.umontreal.ca/~turian/",
+      "title": "Joseph Turian",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://aclab.ca/users/josh/index.html",
+      "title": "Joshua Matthew Susskind",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.idsia.ch/~juergen/",
+      "title": "Jürgen Schmidhuber",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://sites.google.com/site/blancousna/",
+      "title": "Justin A. Blanco",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://koray.kavukcuoglu.org/",
+      "title": "Koray Kavukcuoglu",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://users.ics.aalto.fi/kcho/",
+      "title": "KyungHyun Cho",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://research.microsoft.com/en-us/people/deng/",
+      "title": "Li Deng",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.kyb.tuebingen.mpg.de/nc/employee/details/lucas.html",
+      "title": "Lucas Theis",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://ludovicarnold.altervista.org/home/",
+      "title": "Ludovic Arnold",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.cs.nyu.edu/~ranzato/",
+      "title": "Marc'Aurelio Ranzato",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://aass.oru.se/~mlt/",
+      "title": "Martin Längkvist",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://mdenil.com/",
+      "title": "Misha Denil",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.cs.toronto.edu/~norouzi/",
+      "title": "Mohammad Norouzi",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.cs.ubc.ca/~nando/",
+      "title": "Nando de Freitas",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.cs.utoronto.ca/~ndjaitly/",
+      "title": "Navdeep Jaitly",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://nicolas.le-roux.name/",
+      "title": "Nicolas Le Roux",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.cs.toronto.edu/~nitish/",
+      "title": "Nitish Srivastava",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://www.cisuc.uc.pt/people/show/2028",
+      "title": "Noel Lopes",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.cs.berkeley.edu/~vinyals/",
+      "title": "Oriol Vinyals",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.iro.umontreal.ca/~vincentp",
+      "title": "Pascal Vincent",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://sites.google.com/site/drpngx/",
+      "title": "Patrick Nguyen",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://homes.cs.washington.edu/~pedrod/",
+      "title": "Pedro Domingos",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://homepages.inf.ed.ac.uk/pseries/",
+      "title": "Peggy Series",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://cs.nyu.edu/~sermanet",
+      "title": "Pierre Sermanet",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.cs.nyu.edu/~mirowski/",
+      "title": "Piotr Mirowski",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://ai.stanford.edu/~quocle/",
+      "title": "Quoc V. Le",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://bci.tugraz.at/scherer/",
+      "title": "Reinhold Scherer",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.socher.org/",
+      "title": "Richard Socher",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://cs.nyu.edu/~fergus/pmwiki/pmwiki.php",
+      "title": "Rob Fergus",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://mil.engr.utk.edu/nmil/member/19.html",
+      "title": "Robert Coop",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://homes.cs.washington.edu/~rcg/",
+      "title": "Robert Gens",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://people.csail.mit.edu/rgrosse/",
+      "title": "Roger Grosse",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://ronan.collobert.com/",
+      "title": "Ronan Collobert",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.utstat.toronto.edu/~rsalakhu/",
+      "title": "Ruslan Salakhutdinov",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.kyb.tuebingen.mpg.de/nc/employee/details/sgerwinn.html",
+      "title": "Sebastian Gerwinn",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.cmap.polytechnique.fr/~mallat/",
+      "title": "Stéphane Mallat",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.ais.uni-bonn.de/behnke/",
+      "title": "Sven Behnke",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://users.ics.aalto.fi/praiko/",
+      "title": "Tapani Raiko",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://sites.google.com/site/tsainath/",
+      "title": "Tara Sainath",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.cs.toronto.edu/~tijmen/",
+      "title": "Tijmen Tieleman",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://mil.engr.utk.edu/nmil/member/36.html",
+      "title": "Tom Karnowski",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://research.facebook.com/tomas-mikolov",
+      "title": "Tomáš Mikolov",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.idsia.ch/~meier/",
+      "title": "Ueli Meier",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://vincent.vanhoucke.com",
+      "title": "Vincent Vanhoucke",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.cs.toronto.edu/~vmnih/",
+      "title": "Volodymyr Mnih",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://yann.lecun.com/",
+      "title": "Yann LeCun",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.cs.toronto.edu/~tang/",
+      "title": "Yichuan Tang",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.iro.umontreal.ca/~bengioy/yoshua_en/index.html",
+      "title": "Yoshua Bengio",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://yota.ro/",
+      "title": "Yotaro Kubo",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://ai.stanford.edu/~wzou",
+      "title": "Youzhi (Will) Zou",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://vision.stanford.edu/feifeili",
+      "title": "Fei-Fei Li",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://research.google.com/pubs/105214.html",
+      "title": "Ian Goodfellow",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.site.uottawa.ca/~laganier/",
+      "title": "Robert Laganière",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.ayyucekizrak.com/",
+      "title": "Merve Ayyüce Kızrak",
+      "description": null,
+      "category": "Researchers",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://deeplearning.net/",
+      "title": "deeplearning.net",
+      "description": null,
+      "category": "Websites",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://deeplearning.stanford.edu/",
+      "title": "deeplearning.stanford.edu",
+      "description": null,
+      "category": "Websites",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://nlp.stanford.edu/",
+      "title": "nlp.stanford.edu",
+      "description": null,
+      "category": "Websites",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.ai-junkie.com/ann/evolved/nnt1.html",
+      "title": "ai-junkie.com",
+      "description": null,
+      "category": "Websites",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://cs.brown.edu/research/ai/",
+      "title": "cs.brown.edu/research/ai",
+      "description": null,
+      "category": "Websites",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.eecs.umich.edu/ai/",
+      "title": "eecs.umich.edu/ai",
+      "description": null,
+      "category": "Websites",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.cs.utexas.edu/users/ai-lab/",
+      "title": "cs.utexas.edu/users/ai-lab",
+      "description": null,
+      "category": "Websites",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.cs.washington.edu/research/ai/",
+      "title": "cs.washington.edu/research/ai",
+      "description": null,
+      "category": "Websites",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.aiai.ed.ac.uk/",
+      "title": "aiai.ed.ac.uk",
+      "description": null,
+      "category": "Websites",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www-aig.jpl.nasa.gov/",
+      "title": "www-aig.jpl.nasa.gov",
+      "description": null,
+      "category": "Websites",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.csail.mit.edu/",
+      "title": "csail.mit.edu",
+      "description": null,
+      "category": "Websites",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://cgi.cse.unsw.edu.au/~aishare/",
+      "title": "cgi.cse.unsw.edu.au/~aishare",
+      "description": null,
+      "category": "Websites",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.cs.rochester.edu/research/ai/",
+      "title": "cs.rochester.edu/research/ai",
+      "description": null,
+      "category": "Websites",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.ai.sri.com/",
+      "title": "ai.sri.com",
+      "description": null,
+      "category": "Websites",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.isi.edu/AI/isd.htm",
+      "title": "isi.edu/AI/isd.htm",
+      "description": null,
+      "category": "Websites",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.nrl.navy.mil/itd/aic/",
+      "title": "nrl.navy.mil/itd/aic",
+      "description": null,
+      "category": "Websites",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://hips.seas.harvard.edu/",
+      "title": "hips.seas.harvard.edu",
+      "description": null,
+      "category": "Websites",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://aiweekly.co",
+      "title": "AI Weekly",
+      "description": null,
+      "category": "Websites",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://statistics.ucla.edu/",
+      "title": "stat.ucla.edu",
+      "description": null,
+      "category": "Websites",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://deeplearning.cs.toronto.edu/i2t",
+      "title": "deeplearning.cs.toronto.edu",
+      "description": null,
+      "category": "Websites",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://jeffdonahue.com/lrcn/",
+      "title": "jeffdonahue.com/lrcn/",
+      "description": null,
+      "category": "Websites",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.visualqa.org/",
+      "title": "visualqa.org",
+      "description": null,
+      "category": "Websites",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://www.mpi-inf.mpg.de/departments/computer-vision-and-multimodal-computing/",
+      "title": "www.mpi-inf.mpg.de/departments/computer-vision...",
+      "description": null,
+      "category": "Websites",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://news.startup.ml/",
+      "title": "Deep Learning News",
+      "description": null,
+      "category": "Websites",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://medium.com/@ageitgey/",
+      "title": "Machine Learning is Fun! Adam Geitgey's Blog",
+      "description": null,
+      "category": "Websites",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://yerevann.com/a-guide-to-deep-learning/",
+      "title": "Guide to Machine Learning",
+      "description": null,
+      "category": "Websites",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://spandan-madan.github.io/DeepLearningProject/",
+      "title": "Deep Learning for Beginners",
+      "description": null,
+      "category": "Websites",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://machinelearningmastery.com/blog/",
+      "title": "Machine Learning Mastery blog",
+      "description": null,
+      "category": "Websites",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://ml-compiled.readthedocs.io/en/latest/",
+      "title": "ML Compiled",
+      "description": null,
+      "category": "Websites",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://adeshpande3.github.io/A-Beginner%27s-Guide-To-Understanding-Convolutional-Neural-Networks/",
+      "title": "A Beginner's Guide To Understanding Convolutional Neural Networks",
+      "description": null,
+      "category": "Websites",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://ahmedbesbes.com",
+      "title": "ahmedbesbes.com",
+      "description": null,
+      "category": "Websites",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://amitness.com/",
+      "title": "amitness.com",
+      "description": null,
+      "category": "Websites",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://theaisummer.com/",
+      "title": "AI Summer",
+      "description": null,
+      "category": "Websites",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://aihub.org/",
+      "title": "AI Hub - supported by AAAI, NeurIPS",
+      "description": null,
+      "category": "Websites",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://www.catalyzeX.com",
+      "title": "CatalyzeX: Machine Learning Hub for Builders and Makers",
+      "description": null,
+      "category": "Websites",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://theepiccode.com/",
+      "title": "The Epic Code",
+      "description": null,
+      "category": "Websites",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://allainews.com/",
+      "title": "all AI news",
+      "description": null,
+      "category": "Websites",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://yann.lecun.com/exdb/mnist/",
+      "title": "MNIST",
+      "description": null,
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://ufldl.stanford.edu/housenumbers/",
+      "title": "Google House Numbers",
+      "description": null,
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.cs.toronto.edu/~kriz/cifar.html",
+      "title": "CIFAR-10 and CIFAR-100",
+      "description": null,
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.image-net.org/",
+      "title": "IMAGENET",
+      "description": null,
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://groups.csail.mit.edu/vision/TinyImages/",
+      "title": "Tiny Images",
+      "description": null,
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://yahooresearch.tumblr.com/post/89783581601/one-hundred-million-creative-commons-flickr-images",
+      "title": "Flickr Data",
+      "description": null,
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/",
+      "title": "Berkeley Segmentation Dataset 500",
+      "description": null,
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://archive.ics.uci.edu/ml/",
+      "title": "UC Irvine Machine Learning Repository",
+      "description": null,
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://nlp.cs.illinois.edu/HockenmaierGroup/Framing_Image_Description/KCCA.html",
+      "title": "Flickr 8k",
+      "description": null,
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://shannon.cs.illinois.edu/DenotationGraph/",
+      "title": "Flickr 30k",
+      "description": null,
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://mscoco.org/home/",
+      "title": "Microsoft COCO",
+      "description": null,
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.cs.toronto.edu/~mren/imageqa/data/cocoqa/",
+      "title": "Image QA",
+      "description": null,
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.uk.research.att.com/facedatabase.html",
+      "title": "AT&T Laboratories Cambridge face database",
+      "description": null,
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://xtreme.gsfc.nasa.gov",
+      "title": "AVHRR Pathfinder",
+      "description": null,
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.anc.ed.ac.uk/~amos/afreightdata.html",
+      "title": "Air Freight",
+      "description": "The Air Freight data set is a ray-traced image sequence along with ground truth segmentation based on textural characteristics. (455 images + GT, each 160x120 pixels). (Formats: PNG)",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.science.uva.nl/~aloi/",
+      "title": "Amsterdam Library of Object Images",
+      "description": "ALOI is a color image collection of one-thousand small objects, recorded for scientific purposes. In order to capture the sensory variation in object recordings, we systematically varied viewing angle, illumination angle, and illumination color for each object, and additionally captured wide-baseline stereo images. We recorded over a hundred images of each object, yielding a total of 110,250 images for the collection. (Formats: png)",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.imm.dtu.dk/~aam/",
+      "title": "Annotated face, hand, cardiac & meat images",
+      "description": "Most images & annotations are supplemented by various ASM/AAM analyses using the AAM-API. (Formats: bmp,asf)",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.imm.dtu.dk/image/",
+      "title": "Image Analysis and Computer Graphics",
+      "description": null,
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.cog.brown.edu/~tarr/stimuli.html",
+      "title": "Brown University Stimuli",
+      "description": "A variety of datasets including geons, objects, and \"greebles\". Good for testing recognition algorithms. (Formats: pict)",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://homepages.inf.ed.ac.uk/rbf/CAVIARDATA1/",
+      "title": "CAVIAR video sequences of mall and public space behavior",
+      "description": "90K video frames in 90 sequences of various human activities, with XML ground truth of detection and behavior classification (Formats: MPEG2 & JPEG)",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.ipab.inf.ed.ac.uk/mvu/",
+      "title": "Machine Vision Unit",
+      "description": null,
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.cs.waikato.ac.nz/~singlis/ccitt.html",
+      "title": "CCITT Fax standard images",
+      "description": "8 images (Formats: gif)",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.ri.cmu.edu/projects/project_418.html",
+      "title": "CMU PIE Database",
+      "description": "A database of 41,368 face images of 68 people captured under 13 poses, 43 illuminations conditions, and with 4 different expressions.",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.ius.cs.cmu.edu/idb/",
+      "title": "CMU VASC Image Database",
+      "description": "Images, sequences, stereo pairs (thousands of images) (Formats: Sun Rasterimage)",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.vision.caltech.edu/html-files/archive.html",
+      "title": "Caltech Image Database",
+      "description": "about 20 images - mostly top-down views of small objects and toys. (Formats: GIF)",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.cs.columbia.edu/CAVE/curet/",
+      "title": "Columbia-Utrecht Reflectance and Texture Database",
+      "description": "Texture and reflectance measurements for over 60 samples of 3D texture, observed with over 200 different combinations of viewing and illumination directions. (Formats: bmp)",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.cs.sfu.ca/~colour/data/index.html",
+      "title": "Computational Colour Constancy Data",
+      "description": "A dataset oriented towards computational color constancy, but useful for computer vision in general. It includes synthetic data, camera sensor data, and over 700 images. (Formats: tiff)",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.cs.sfu.ca/~colour/",
+      "title": "Computational Vision Lab",
+      "description": null,
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.cs.washington.edu/research/imagedatabase/groundtruth/",
+      "title": "Content-based image retrieval database",
+      "description": "11 sets of color images for testing algorithms for content-based retrieval. Most sets have a description file with names of objects in each image. (Formats: jpg)",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.cs.washington.edu/research/imagedatabase/",
+      "title": "Efficient Content-based Retrieval Group",
+      "description": null,
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://ls7-www.cs.uni-dortmund.de/~peters/pages/research/modeladaptsys/modeladaptsys_vba_rov.html",
+      "title": "Densely Sampled View Spheres",
+      "description": "Densely sampled view spheres - upper half of the view sphere of two toy objects with 2500 images each. (Formats: tiff)",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://ls7-www.cs.uni-dortmund.de/",
+      "title": "Computer Science VII (Graphical Systems)",
+      "description": null,
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://web-beta.archive.org/web/20011216051535/vision.psych.umn.edu/www/kersten-lab/demos/digitalembryo.html",
+      "title": "Digital Embryos",
+      "description": "Digital embryos are novel objects which may be used to develop and test object recognition systems. They have an organic appearance. (Formats: various formats are available on request)",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://vision.psych.umn.edu/users/kersten//kersten-lab/kersten-lab.html",
+      "title": "Univerity of Minnesota Vision Lab",
+      "description": null,
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.gastrointestinalatlas.com",
+      "title": "El Salvador Atlas of Gastrointestinal VideoEndoscopy",
+      "description": "Images and Videos of his-res of studies taken from Gastrointestinal Video endoscopy. (Formats: jpg, mpg, gif)",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://sting.cycollege.ac.cy/~alanitis/fgnetaging/index.htm",
+      "title": "FG-NET Facial Aging Database",
+      "description": "Database contains 1002 face images showing subjects at different ages. (Formats: jpg)",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://bias.csr.unibo.it/fvc2000/",
+      "title": "FVC2000 Fingerprint Databases",
+      "description": "FVC2000 is the First International Competition for Fingerprint Verification Algorithms. Four fingerprint databases constitute the FVC2000 benchmark (3520 fingerprints in all).",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://biolab.csr.unibo.it/home.asp",
+      "title": "Biometric Systems Lab",
+      "description": "University of Bologna",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.fg-net.org",
+      "title": "Face and Gesture images and image sequences",
+      "description": "Several image datasets of faces and gestures that are ground truth annotated for benchmarking",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www-i6.informatik.rwth-aachen.de/~dreuw/database.html",
+      "title": "German Fingerspelling Database",
+      "description": "The database contains 35 gestures and consists of 1400 image sequences that contain gestures of 20 different persons recorded under non-uniform daylight lighting conditions. (Formats: mpg,jpg)",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www-i6.informatik.rwth-aachen.de/",
+      "title": "Language Processing and Pattern Recognition",
+      "description": null,
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://hlab.phys.rug.nl/archive.html",
+      "title": "Groningen Natural Image Database",
+      "description": "4000+ 1536x1024 (16 bit) calibrated outdoor images (Formats: homebrew)",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.icg.tu-graz.ac.at/~schindler/Data",
+      "title": "ICG Testhouse sequence",
+      "description": "2 turntable sequences from different viewing heights, 36 images each, resolution 1000x750, color (Formats: PPM)",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.icg.tu-graz.ac.at",
+      "title": "Institute of Computer Graphics and Vision",
+      "description": null,
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.ien.it/is/vislib/",
+      "title": "IEN Image Library",
+      "description": "1000+ images, mostly outdoor sequences (Formats: raw, ppm)",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www-rocq.inria.fr/~tarel/syntim/images.html",
+      "title": "INRIA's Syntim images database",
+      "description": "15 color image of simple objects (Formats: gif)",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.inria.fr/",
+      "title": "INRIA",
+      "description": null,
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www-rocq.inria.fr/~tarel/syntim/paires.html",
+      "title": "INRIA's Syntim stereo databases",
+      "description": "34 calibrated color stereo pairs (Formats: gif)",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.ece.ncsu.edu/imaging/Archives/ImageDataBase/index.html",
+      "title": "Image Analysis Laboratory",
+      "description": "Images obtained from a variety of imaging modalities -- raw CFA images, range images and a host of \"medical images\". (Formats: homebrew)",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.ece.ncsu.edu/imaging",
+      "title": "Image Analysis Laboratory",
+      "description": null,
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.prip.tuwien.ac.at/prip/image.html",
+      "title": "Image Database",
+      "description": "An image database including some textures",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.mis.atr.co.jp/~mlyons/jaffe.html",
+      "title": "JAFFE Facial Expression Image Database",
+      "description": "The JAFFE database consists of 213 images of Japanese female subjects posing 6 basic facial expressions as well as a neutral pose. Ratings on emotion adjectives are also available, free of charge, for research purposes. (Formats: TIFF Grayscale images.)",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.mic.atr.co.jp/",
+      "title": "ATR Research, Kyoto, Japan",
+      "description": null,
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://vismod.media.mit.edu/vismod/imagery/VisionTexture/vistex.html",
+      "title": "MIT Vision Texture",
+      "description": "Image archive (100+ images) (Formats: ppm)",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://vision.cse.psu.edu/book/testbed/images/",
+      "title": "Machine Vision",
+      "description": "Images from the textbook by Jain, Kasturi, Schunck (20+ images) (Formats: GIF TIFF)",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://marathon.csee.usf.edu/Mammography/Database.html",
+      "title": "Mammography Image Databases",
+      "description": "100 or more images of mammograms with ground truth. Additional images available by request, and links to several other mammography databases are provided. (Formats: homebrew)",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.middlebury.edu/stereo/data.html",
+      "title": "Middlebury Stereo Data Sets with Ground Truth",
+      "description": "Six multi-frame stereo data sets of scenes containing planar regions. Each data set contains 9 color images and subpixel-accuracy ground-truth data. (Formats: ppm)",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.middlebury.edu/stereo",
+      "title": "Middlebury Stereo Vision Research Page",
+      "description": "Middlebury College",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://ltpwww.gsfc.nasa.gov/MODIS/MAS/",
+      "title": "Modis Airborne simulator, Gallery and data set",
+      "description": "High Altitude Imagery from around the world for environmental modeling in support of NASA EOS program (Formats: JPG and HDF)",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.nlm.nih.gov/research/visible/visible_human.html",
+      "title": "NLM HyperDoc Visible Human Project",
+      "description": "Color, CAT and MRI image samples - over 30 images (Formats: jpeg)",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.designrepository.org",
+      "title": "National Design Repository",
+      "description": "Over 55,000 3D CAD and solid models of (mostly) mechanical/machined engineering designs. (Formats: gif,vrml,wrl,stp,sat)",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://gicl.mcs.drexel.edu",
+      "title": "Geometric & Intelligent Computing Laboratory",
+      "description": null,
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://eewww.eng.ohio-state.edu/~flynn/3DDB/Models/",
+      "title": "OSU (MSU) 3D Object Model Database",
+      "description": "several sets of 3D object models collected over several years to use in object recognition research (Formats: homebrew, vrml)",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://eewww.eng.ohio-state.edu/~flynn/3DDB/RID/",
+      "title": "OSU (MSU/WSU) Range Image Database",
+      "description": "Hundreds of real and synthetic images (Formats: gif, homebrew)",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://sampl.eng.ohio-state.edu/~sampl/database.htm",
+      "title": "OSU/SAMPL Database: Range Images, 3D Models, Stills, Motion Sequences",
+      "description": "Over 1000 range images, 3D object models, still images and motion sequences (Formats: gif, ppm, vrml, homebrew)",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://sampl.eng.ohio-state.edu",
+      "title": "Signal Analysis and Machine Perception Laboratory",
+      "description": null,
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.cs.otago.ac.nz/research/vision/Research/OpticalFlow/opticalflow.html",
+      "title": "Otago Optical Flow Evaluation Sequences",
+      "description": "Synthetic and real sequences with machine-readable ground truth optical flow fields, plus tools to generate ground truth for new sequences. (Formats: ppm,tif,homebrew)",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.cs.otago.ac.nz/research/vision/index.html",
+      "title": "Vision Research Group",
+      "description": null,
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.limsi.fr/Recherche/IMM/PageIMM.html",
+      "title": "LIMSI-CNRS/CHM/IMM/vision",
+      "description": null,
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.limsi.fr/",
+      "title": "LIMSI-CNRS",
+      "description": null,
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.taurusstudio.net/research/pmtexdb/index.htm",
+      "title": "Photometric 3D Surface Texture Database",
+      "description": "This is the first 3D texture database which provides both full real surface rotations and registered photometric stereo data (30 textures, 1680 images). (Formats: TIFF)",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.cee.hw.ac.uk/~mtc/sofa",
+      "title": "SEQUENCES FOR OPTICAL FLOW ANALYSIS (SOFA)",
+      "description": "9 synthetic sequences designed for testing motion analysis applications, including full ground truth of motion and camera parameters. (Formats: gif)",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.cee.hw.ac.uk/~mtc/research.html",
+      "title": "Computer Vision Group",
+      "description": null,
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.nada.kth.se/~zucch/CAMERA/PUB/seq.html",
+      "title": "Sequences for Flow Based Reconstruction",
+      "description": "synthetic sequence for testing structure from motion algorithms (Formats: pgm)",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www-dbv.cs.uni-bonn.de/stereo_data/",
+      "title": "Stereo Images with Ground Truth Disparity and Occlusion",
+      "description": "a small set of synthetic images of a hallway with varying amounts of noise added. Use these images to benchmark your stereo algorithm. (Formats: raw, viff (khoros), or tiff)",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://range.informatik.uni-stuttgart.de",
+      "title": "Stuttgart Range Image Database",
+      "description": "A collection of synthetic range images taken from high-resolution polygonal models available on the web (Formats: homebrew)",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.informatik.uni-stuttgart.de/ipvr/bv/bv_home_engl.html",
+      "title": "Department Image Understanding",
+      "description": null,
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www2.ece.ohio-state.edu/~aleix/ARdatabase.html",
+      "title": "The AR Face Database",
+      "description": "Contains over 4,000 color images corresponding to 126 people's faces (70 men and 56 women). Frontal views with variations in facial expressions, illumination, and occlusions. (Formats: RAW (RGB 24-bit))",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://rvl.www.ecn.purdue.edu/RVL/",
+      "title": "Purdue Robot Vision Lab",
+      "description": null,
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://web.mit.edu/torralba/www/database.html",
+      "title": "The MIT-CSAIL Database of Objects and Scenes",
+      "description": "Database for testing multiclass object detection and scene recognition algorithms. Over 72,000 images with 2873 annotated frames. More than 50 annotated object classes. (Formats: jpg)",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://rvl1.ecn.purdue.edu/RVL/specularity_database/",
+      "title": "The RVL SPEC-DB (SPECularity DataBase)",
+      "description": "A collection of over 300 real images of 100 objects taken under three different illuminaiton conditions (Diffuse/Ambient/Directed). -- Use these images to test algorithms for detecting and compensating specular highlights in color images. (Formats: TIFF )",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://rvl1.ecn.purdue.edu/RVL/",
+      "title": "Robot Vision Laboratory",
+      "description": null,
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://xm2vtsdb.ee.surrey.ac.uk",
+      "title": "The Xm2vts database",
+      "description": "The XM2VTSDB contains four digital recordings of 295 people taken over a period of four months. This database contains both image and video data of faces.",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.ee.surrey.ac.uk/Research/CVSSP",
+      "title": "Centre for Vision, Speech and Signal Processing",
+      "description": null,
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://i21www.ira.uka.de/image_sequences",
+      "title": "Traffic Image Sequences and 'Marbled Block' Sequence",
+      "description": "thousands of frames of digitized traffic image sequences as well as the 'Marbled Block' sequence (grayscale images) (Formats: GIF)",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://i21www.ira.uka.de",
+      "title": "IAKS/KOGS",
+      "description": null,
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.ee.oulu.fi/~olli/Projects/Lumber.Grading.html",
+      "title": "U Oulu wood and knots database",
+      "description": "Includes classifications - 1000+ color images (Formats: ppm)",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://vision.doc.ntu.ac.uk/datasets/UCID/ucid.html",
+      "title": "UCID - an Uncompressed Colour Image Database",
+      "description": "a benchmark database for image retrieval with predefined ground truth. (Formats: tiff)",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://vis-www.cs.umass.edu/~vislib/",
+      "title": "UMass Vision Image Archive",
+      "description": "Large image database with aerial, space, stereo, medical images and more. (Formats: homebrew)",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://marathon.csee.usf.edu/range/seg-comp/SegComp.html",
+      "title": "USF Range Image Data with Segmentation Ground Truth",
+      "description": "80 image sets (Formats: Sun rasterimage)",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.ee.oulu.fi/research/imag/color/pbfd.html",
+      "title": "University of Oulu Physics-based Face Database",
+      "description": "contains color images of faces under different illuminants and camera calibration conditions as well as skin spectral reflectance measurements of each person.",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.ee.oulu.fi/mvmp/",
+      "title": "Machine Vision and Media Processing Unit",
+      "description": null,
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.outex.oulu.fi",
+      "title": "University of Oulu Texture Database",
+      "description": "Database of 320 surface textures, each captured under three illuminants, six spatial resolutions and nine rotation angles. A set of test suites is also provided so that texture segmentation, classification, and retrieval algorithms can be tested in a standard manner. (Formats: bmp, ras, xv)",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.ee.oulu.fi/mvg",
+      "title": "Machine Vision Group",
+      "description": null,
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www-prima.inrialpes.fr/Prima/hall/view_sphere.html",
+      "title": "View Sphere Database",
+      "description": "Images of 8 objects seen from many different view points. The view sphere is sampled using a geodesic with 172 images/sphere. Two sets for training and testing are available. (Formats: ppm)",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www-prima.inrialpes.fr/Prima/",
+      "title": "PRIMA, GRAVIR",
+      "description": null,
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.cs.cmu.edu/~owenc/word.htm",
+      "title": "Wiry Object Recognition Database",
+      "description": "Thousands of images of a cart, ladder, stool, bicycle, chairs, and cluttered scenes with ground truth labelings of edges and regions. (Formats: jpg)",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.cs.cmu.edu/0.000000E+003dvision/",
+      "title": "3D Vision Group",
+      "description": null,
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://cvc.yale.edu/projects/yalefaces/yalefaces.html",
+      "title": "Yale Face Database",
+      "description": "165 images (15 individuals) with different lighting, expression, and occlusion configurations.",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://cvc.yale.edu/projects/yalefacesB/yalefacesB.html",
+      "title": "Yale Face Database B",
+      "description": "5760 single light source images of 10 subjects each seen under 576 viewing conditions (9 poses x 64 illumination conditions). (Formats: PGM)",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://cvc.yale.edu/",
+      "title": "Center for Computational Vision and Control",
+      "description": null,
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://github.com/deepmind/rc-data",
+      "title": "DeepMind QA Corpus",
+      "description": "Textual QA corpus from CNN and DailyMail. More than 300K documents in total. [Paper](http://arxiv.org/abs/1506.03340) for reference.",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://research.google.com/youtube8m/",
+      "title": "YouTube-8M Dataset",
+      "description": "YouTube-8M is a large-scale labeled video dataset that consists of 8 million YouTube video IDs and associated labels from a diverse vocabulary of 4800 visual entities.",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://github.com/openimages/dataset",
+      "title": "Open Images dataset",
+      "description": "Open Images is a dataset of ~9 million URLs to images that have been annotated with labels spanning over 6000 categories.",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://host.robots.ox.ac.uk/pascal/VOC/voc2012/index.html#devkit",
+      "title": "Visual Object Classes Challenge 2012 (VOC2012)",
+      "description": "VOC2012 dataset containing 12k images with 20 annotated classes for object detection and segmentation.",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://github.com/zalandoresearch/fashion-mnist",
+      "title": "Fashion-MNIST",
+      "description": "MNIST like fashion product dataset consisting of a training set of 60,000 examples and a test set of 10,000 examples. Each example is a 28x28 grayscale image, associated with a label from 10 classes.",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://mmlab.ie.cuhk.edu.hk/projects/DeepFashion.html",
+      "title": "Large-scale Fashion (DeepFashion) Database",
+      "description": "Contains over 800,000 diverse fashion images.  Each image in this dataset is labeled with 50 categories, 1,000 descriptive attributes, bounding box and clothing landmarks",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://github.com/several27/FakeNewsCorpus",
+      "title": "FakeNewsCorpus",
+      "description": "Contains about 10 million news articles classified using [opensources.co](http://opensources.co) types",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://github.com/bupt-ai-cz/LLVIP",
+      "title": "LLVIP",
+      "description": "15488 visible-infrared paired images (30976 images) for low-light vision research, [Project_Page](https://bupt-ai-cz.github.io/LLVIP/)",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://github.com/bupt-ai-cz/Meta-SelfLearning",
+      "title": "MSDA",
+      "description": "Over over 5 million images from 5 different domains for multi-source ocr/text recognition DA research, [Project_Page](https://bupt-ai-cz.github.io/Meta-SelfLearning/)",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://data.mendeley.com/datasets/57zpx667y9/2",
+      "title": "SANAD: Single-Label Arabic News Articles Dataset for Automatic Text Categorization",
+      "description": "SANAD Dataset is a large collection of Arabic news articles that can be used in different Arabic NLP tasks such as Text Classification and Word Embedding. The articles were collected using Python scripts written specifically for three popular news websites: AlKhaleej, AlArabiya and Akhbarona.",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://referit3d.github.io",
+      "title": "Referit3D",
+      "description": "Two large-scale and complementary visio-linguistic datasets (aka Nr3D and Sr3D) for identifying fine-grained 3D objects in ScanNet scenes. Nr3D contains 41.5K natural, free-form utterances, and Sr3d contains 83.5K template-based utterances.",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://rajpurkar.github.io/SQuAD-explorer/",
+      "title": "SQuAD",
+      "description": "Stanford released ~100,000 English QA pairs and ~50,000 unanswerable questions",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://fquad.illuin.tech/",
+      "title": "FQuAD",
+      "description": "~25,000 French QA pairs released by Illuin Technology",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://www.deepset.ai/germanquad",
+      "title": "GermanQuAD and GermanDPR",
+      "description": "deepset released ~14,000 German QA pairs",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://github.com/annnyway/QA-for-Russian",
+      "title": "SberQuAD",
+      "description": "Sberbank released ~90,000 Russian QA pairs",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://artemisdataset.org/",
+      "title": "ArtEmis",
+      "description": "Contains 450K affective annotations of emotional responses and linguistic explanations for 80,000 artworks of WikiArt.",
+      "category": "Datasets",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://cvpr2018.thecvf.com",
+      "title": "CVPR - IEEE Conference on Computer Vision and Pattern Recognition",
+      "description": null,
+      "category": "Conferences",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://celweb.vuse.vanderbilt.edu/aamas18/",
+      "title": "AAMAS - International Joint Conference on Autonomous Agents and Multiagent Systems",
+      "description": null,
+      "category": "Conferences",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://www.ijcai-18.org/",
+      "title": "IJCAI - \tInternational Joint Conference on Artificial Intelligence",
+      "description": null,
+      "category": "Conferences",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://icml.cc",
+      "title": "ICML - \tInternational Conference on Machine Learning",
+      "description": null,
+      "category": "Conferences",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.ecmlpkdd2018.org",
+      "title": "ECML - European Conference on Machine Learning",
+      "description": null,
+      "category": "Conferences",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.kdd.org/kdd2018/",
+      "title": "KDD - Knowledge Discovery and Data Mining",
+      "description": null,
+      "category": "Conferences",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://nips.cc/Conferences/2018",
+      "title": "NIPS - Neural Information Processing Systems",
+      "description": null,
+      "category": "Conferences",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://conferences.oreilly.com/artificial-intelligence/ai-ny",
+      "title": "O'Reilly AI Conference - \tO'Reilly Artificial Intelligence Conference",
+      "description": null,
+      "category": "Conferences",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://www.waset.org/conference/2018/07/istanbul/ICDM",
+      "title": "ICDM - International Conference on Data Mining",
+      "description": null,
+      "category": "Conferences",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://iccv2017.thecvf.com",
+      "title": "ICCV - International Conference on Computer Vision",
+      "description": null,
+      "category": "Conferences",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://www.aaai.org",
+      "title": "AAAI - Association for the Advancement of Artificial Intelligence",
+      "description": null,
+      "category": "Conferences",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://montrealaisymposium.wordpress.com/",
+      "title": "MAIS - Montreal AI Symposium",
+      "description": null,
+      "category": "Conferences",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://caffe.berkeleyvision.org/",
+      "title": "Caffe",
+      "description": null,
+      "category": "Frameworks",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://deeplearning.net/software/theano/",
+      "title": "Theano",
+      "description": null,
+      "category": "Frameworks",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://code.google.com/p/cuda-convnet2/",
+      "title": "cuda-convnet",
+      "description": null,
+      "category": "Frameworks",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://github.com/karpathy/convnetjs",
+      "title": "convetjs",
+      "description": null,
+      "category": "Frameworks",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://libccv.org/doc/doc-convnet/",
+      "title": "Ccv",
+      "description": null,
+      "category": "Frameworks",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://numenta.org/nupic.html",
+      "title": "NuPIC",
+      "description": null,
+      "category": "Frameworks",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://github.com/rasmusbergpalm/DeepLearnToolbox",
+      "title": "DeepLearnToolbox",
+      "description": null,
+      "category": "Frameworks",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://github.com/nitishsrivastava/deepnet",
+      "title": "Deepnet",
+      "description": null,
+      "category": "Frameworks",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://github.com/ivan-vasilev/neuralnetworks",
+      "title": "JavaNN",
+      "description": null,
+      "category": "Frameworks",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://github.com/guoding83128/OpenDL",
+      "title": "OpenDL",
+      "description": null,
+      "category": "Frameworks",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://developer.nvidia.com/cuDNN",
+      "title": "cuDNN",
+      "description": null,
+      "category": "Frameworks",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://melisgl.github.io/mgl-pax-world/mgl-manual.html",
+      "title": "MGL",
+      "description": null,
+      "category": "Frameworks",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://keras.io",
+      "title": "Keras - Theano based Deep Learning Library",
+      "description": null,
+      "category": "Frameworks",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://chainer.org/",
+      "title": "Chainer - A flexible framework of neural networks for deep learning",
+      "description": null,
+      "category": "Frameworks",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://rnnlm.org/",
+      "title": "RNNLM Toolkit",
+      "description": null,
+      "category": "Frameworks",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://sourceforge.net/p/rnnl/wiki/Home/",
+      "title": "RNNLIB - A recurrent neural network library",
+      "description": null,
+      "category": "Frameworks",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://github.com/karpathy/char-rnn",
+      "title": "char-rnn",
+      "description": null,
+      "category": "Frameworks",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://github.com/vlfeat/matconvnet",
+      "title": "MatConvNet: CNNs for MATLAB",
+      "description": null,
+      "category": "Frameworks",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://github.com/Microsoft/DMTK",
+      "title": "DMTK - Microsoft Distributed Machine Learning Tookit",
+      "description": null,
+      "category": "Frameworks",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://github.com/google/skflow",
+      "title": "Scikit Flow - Simplified interface for TensorFlow (mimicking Scikit Learn)",
+      "description": null,
+      "category": "Frameworks",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://github.com/PrincetonVision/marvin",
+      "title": "Marvin - A Minimalist GPU-only N-Dimensional ConvNets Framework",
+      "description": null,
+      "category": "Frameworks",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://singa.incubator.apache.org/",
+      "title": "Apache SINGA - A General Distributed Deep Learning Platform",
+      "description": null,
+      "category": "Frameworks",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://github.com/tensorflow/models/tree/master/syntaxnet",
+      "title": "SyntaxNet - Google's syntactic parser - A TensorFlow dependency library",
+      "description": null,
+      "category": "Frameworks",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://github.com/baidu/paddle",
+      "title": "Paddle - PArallel Distributed Deep LEarning by Baidu",
+      "description": null,
+      "category": "Frameworks",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://neupy.com",
+      "title": "NeuPy - Theano based Python library for ANN and Deep Learning",
+      "description": null,
+      "category": "Frameworks",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://github.com/dnouri/nolearn",
+      "title": "nolearn - wrappers and abstractions around existing neural network libraries, most notably Lasagne",
+      "description": null,
+      "category": "Frameworks",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://github.com/deepmind/sonnet",
+      "title": "Sonnet - a library for constructing neural networks by Google's DeepMind",
+      "description": null,
+      "category": "Frameworks",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://github.com/caffe2/caffe2",
+      "title": "Caffe2 - A New Lightweight, Modular, and Scalable Deep Learning Framework",
+      "description": null,
+      "category": "Frameworks",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://github.com/PAIR-code/deeplearnjs",
+      "title": "deeplearn.js - Hardware-accelerated deep learning and linear algebra (NumPy) library for the web",
+      "description": null,
+      "category": "Frameworks",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://tvm.ai/",
+      "title": "TVM - End to End Deep Learning Compiler Stack for CPUs, GPUs and specialized accelerators",
+      "description": null,
+      "category": "Frameworks",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://github.com/reinforceio/tensorforce",
+      "title": "TensorForce - A TensorFlow library for applied reinforcement learning",
+      "description": null,
+      "category": "Frameworks",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://github.com/google/trax",
+      "title": "Trax — Deep Learning with Clear Code and Speed",
+      "description": null,
+      "category": "Frameworks",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://github.com/google/flax",
+      "title": "Flax - a neural network ecosystem for JAX that is designed for flexibility",
+      "description": null,
+      "category": "Frameworks",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://github.com/Quick-AI/quickvision",
+      "title": "QuickVision",
+      "description": null,
+      "category": "Frameworks",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://haystack.deepset.ai/docs/intromd",
+      "title": "haystack: an open-source neural search framework",
+      "description": null,
+      "category": "Frameworks",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://github.com/chncwang/InsNet",
+      "title": "InsNet - A neural network library for building instance-dependent NLP models with padding-free dynamic batching",
+      "description": null,
+      "category": "Frameworks",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://github.com/nebuly-ai/nebullvm",
+      "title": "Nebullvm",
+      "description": "Easy-to-use library to boost deep learning inference leveraging multiple deep learning compilers.",
+      "category": "Tools",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://jupyter.org",
+      "title": "Jupyter Notebook",
+      "description": "Web-based notebook environment for interactive computing",
+      "category": "Tools",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://github.com/tensorflow/tensorboard",
+      "title": "TensorBoard",
+      "description": "TensorFlow's Visualization Toolkit",
+      "category": "Tools",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://www.microsoft.com/en-us/research/project/visual-studio-code-tools-ai/",
+      "title": "Visual Studio Tools for AI",
+      "description": "Develop, debug and deploy deep learning and AI solutions",
+      "category": "Tools",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://neptune.ai/",
+      "title": "Neptune",
+      "description": "Lightweight tool for experiment tracking and results visualization.",
+      "category": "Tools",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://dagshub.com/",
+      "title": "DAGsHub",
+      "description": "Community platform for Open Source ML – Manage experiments, data & models and create collaborative ML projects easily.",
+      "category": "Tools",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://dvc.org/",
+      "title": "DVC",
+      "description": "DVC is built to make ML models shareable and reproducible. It is designed to handle large files, data sets, machine learning models, and metrics as well as code.",
+      "category": "Tools",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://cml.dev/",
+      "title": "CML",
+      "description": "CML helps you bring your favorite DevOps tools to machine learning.",
+      "category": "Tools",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://mlem.ai/",
+      "title": "MLEM",
+      "description": "MLEM is a tool to easily package, deploy and serve Machine Learning models. It seamlessly supports a variety of scenarios like real-time serving and batch processing.",
+      "category": "Tools",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://on-demand-gtc.gputechconf.com/gtcnew/on-demand-gtc.php?searchByKeyword=shelhamer&amp;searchItems=&amp;sessionTopic=&amp;sessionEvent=4&amp;sessionYear=2014&amp;sessionFormat=&amp;submit=&amp;select=+",
+      "title": "Caffe Webinar",
+      "description": null,
+      "category": "Miscellaneous",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://meta-guide.com/software-meta-guide/100-best-github-deep-learning/",
+      "title": "100 Best Github Resources in Github for DL",
+      "description": null,
+      "category": "Miscellaneous",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://code.google.com/p/word2vec/",
+      "title": "Word2Vec",
+      "description": null,
+      "category": "Miscellaneous",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://github.com/tleyden/docker/tree/master/caffe",
+      "title": "Caffe DockerFile",
+      "description": null,
+      "category": "Miscellaneous",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://github.com/TorontoDeepLearning/convnet",
+      "title": "TorontoDeepLEarning convnet",
+      "description": null,
+      "category": "Miscellaneous",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://github.com/clementfarabet/gfx.js",
+      "title": "gfx.js",
+      "description": null,
+      "category": "Miscellaneous",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://github.com/torch/torch7/wiki/Cheatsheet",
+      "title": "Torch7 Cheat sheet",
+      "description": null,
+      "category": "Miscellaneous",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-864-advanced-natural-language-processing-fall-2005/",
+      "title": "Misc from MIT's 'Advanced Natural Language Processing' course",
+      "description": null,
+      "category": "Miscellaneous",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-867-machine-learning-fall-2006/lecture-notes/",
+      "title": "Misc from MIT's 'Machine Learning' course",
+      "description": null,
+      "category": "Miscellaneous",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://ocw.mit.edu/courses/brain-and-cognitive-sciences/9-520-a-networks-for-learning-regression-and-classification-spring-2001/",
+      "title": "Misc from MIT's 'Networks for Learning: Regression and Classification' course",
+      "description": null,
+      "category": "Miscellaneous",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://ocw.mit.edu/courses/health-sciences-and-technology/hst-723j-neural-coding-and-perception-of-sound-spring-2005/index.htm",
+      "title": "Misc from MIT's 'Neural Coding and Perception of Sound' course",
+      "description": null,
+      "category": "Miscellaneous",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://www.datasciencecentral.com/profiles/blogs/implementing-a-distributed-deep-learning-network-over-spark",
+      "title": "Implementing a Distributed Deep Learning Network over Spark",
+      "description": null,
+      "category": "Miscellaneous",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://github.com/erikbern/deep-pink",
+      "title": "A chess AI that learns to play chess using deep learning.",
+      "description": null,
+      "category": "Miscellaneous",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://github.com/kristjankorjus/Replicating-DeepMind",
+      "title": "Reproducing the results of \"Playing Atari with Deep Reinforcement Learning\" by DeepMind",
+      "description": null,
+      "category": "Miscellaneous",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://github.com/idio/wiki2vec",
+      "title": "Wiki2Vec. Getting Word2vec vectors for entities and word from Wikipedia Dumps",
+      "description": null,
+      "category": "Miscellaneous",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://github.com/kuz/DeepMind-Atari-Deep-Q-Learner",
+      "title": "The original code from the DeepMind article + tweaks",
+      "description": null,
+      "category": "Miscellaneous",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://github.com/google/deepdream",
+      "title": "Google deepdream - Neural Network art",
+      "description": null,
+      "category": "Miscellaneous",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://gist.github.com/karpathy/587454dc0146a6ae21fc",
+      "title": "An efficient, batched LSTM.",
+      "description": null,
+      "category": "Miscellaneous",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://github.com/hexahedria/biaxial-rnn-music-composition",
+      "title": "A recurrent neural network designed to generate classical music.",
+      "description": null,
+      "category": "Miscellaneous",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://github.com/facebook/MemNN",
+      "title": "Memory Networks Implementations - Facebook",
+      "description": null,
+      "category": "Miscellaneous",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://github.com/cmusatyalab/openface",
+      "title": "Face recognition with Google's FaceNet deep neural network.",
+      "description": null,
+      "category": "Miscellaneous",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://github.com/joeledenberg/DigitRecognition",
+      "title": "Basic digit recognition neural network",
+      "description": null,
+      "category": "Miscellaneous",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://www.projectoxford.ai/demo/emotion#detection",
+      "title": "Emotion Recognition API Demo - Microsoft",
+      "description": null,
+      "category": "Miscellaneous",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://github.com/ethereon/caffe-tensorflow",
+      "title": "Proof of concept for loading Caffe models in TensorFlow",
+      "description": null,
+      "category": "Miscellaneous",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://pjreddie.com/darknet/yolo/#webcam",
+      "title": "YOLO: Real-Time Object Detection",
+      "description": null,
+      "category": "Miscellaneous",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://www.analyticsvidhya.com/blog/2018/12/practical-guide-object-detection-yolo-framewor-python/",
+      "title": "YOLO: Practical Implementation using Python",
+      "description": null,
+      "category": "Miscellaneous",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://github.com/Rochester-NRT/AlphaGo",
+      "title": "AlphaGo - A replication of DeepMind's 2016 Nature publication, \"Mastering the game of Go with deep neural networks and tree search\"",
+      "description": null,
+      "category": "Miscellaneous",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://github.com/ZuzooVn/machine-learning-for-software-engineers",
+      "title": "Machine Learning for Software Engineers",
+      "description": null,
+      "category": "Miscellaneous",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://medium.com/@ageitgey/machine-learning-is-fun-80ea3ec3c471#.oa4rzez3g",
+      "title": "Machine Learning is Fun!",
+      "description": null,
+      "category": "Miscellaneous",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCWN3xxRkmTPmbKwht9FuE5A",
+      "title": "Siraj Raval's Deep Learning tutorials",
+      "description": null,
+      "category": "Miscellaneous",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://github.com/ybayle/awesome-deep-learning-music",
+      "title": "Awesome Deep Learning Music",
+      "description": "Curated list of articles related to deep learning scientific research applied to music",
+      "category": "Miscellaneous",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://github.com/benedekrozemberczki/awesome-graph-embedding",
+      "title": "Awesome Graph Embedding",
+      "description": "Curated list of articles related to deep learning scientific research on graph structured data at the graph level.",
+      "category": "Miscellaneous",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://github.com/chihming/awesome-network-embedding",
+      "title": "Awesome Network Embedding",
+      "description": "Curated list of articles related to deep learning scientific research on graph structured data at the node level.",
+      "category": "Miscellaneous",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "http://karpathy.github.io/2015/05/21/rnn-effectiveness/",
+      "title": "The Unreasonable Effectiveness of Recurrent Neural Networks",
+      "description": "Andrej Karpathy blog post about using RNN for generating text.",
+      "category": "Miscellaneous",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://github.com/divamgupta/ladder_network_keras",
+      "title": "Ladder Network",
+      "description": "Keras Implementation of Ladder Network for Semi-Supervised Learning",
+      "category": "Miscellaneous",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://github.com/amitness/toolbox",
+      "title": "toolbox: Curated list of ML libraries",
+      "description": null,
+      "category": "Miscellaneous",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://poloclub.github.io/cnn-explainer/",
+      "title": "CNN Explainer",
+      "description": null,
+      "category": "Miscellaneous",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://github.com/AMAI-GmbH/AI-Expert-Roadmap",
+      "title": "AI Expert Roadmap",
+      "description": "Roadmap to becoming an Artificial Intelligence Expert",
+      "category": "Miscellaneous",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    },
+    {
+      "url": "https://github.com/AstraZeneca/awesome-polipharmacy-side-effect-prediction/",
+      "title": "Awesome Drug Interactions, Synergy, and Polypharmacy Prediction",
+      "description": null,
+      "category": "Miscellaneous",
+      "source": "ChristosChristofidis/awesome-deep-learning",
+      "indexedAt": "2026-07-23T13:30:58.155Z"
+    }
+  ],
+  "categories": [
+    "Books",
+    "Courses",
+    "Videos and Lectures",
+    "Papers",
+    "Tutorials",
+    "Researchers",
+    "Websites",
+    "Datasets",
+    "Conferences",
+    "Frameworks",
+    "Tools",
+    "Miscellaneous"
+  ],
+  "crawledAt": "2026-07-23T13:30:58.155Z"
+}
