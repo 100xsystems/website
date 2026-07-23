@@ -2,36 +2,12 @@
 
 import React from 'react';
 import Link from 'next/link';
-import type { BookmarkEntry } from '@/feed/feed.types';
+import { useBookmarks } from '@/feed/useBookmarks';
 import { timeAgo } from '@/feed/feed.utils';
 import { Heading, Text, Badge, Icon, Button } from '@/presentation/__components';
 
-const BOOKMARKS_KEY = '100xfeed-bookmarks';
-
-function loadBookmarks(): BookmarkEntry[] {
-  if (typeof window === 'undefined') return [];
-  try {
-    const raw = localStorage.getItem(BOOKMARKS_KEY);
-    return raw ? JSON.parse(raw) : [];
-  } catch { return []; }
-}
-
-function saveBookmarks(bookmarks: BookmarkEntry[]) {
-  try { localStorage.setItem(BOOKMARKS_KEY, JSON.stringify(bookmarks)); } catch { /* */ }
-}
-
 export default function BookmarksPage() {
-  const [bookmarks, setBookmarks] = React.useState<BookmarkEntry[]>([]);
-
-  React.useEffect(() => { setBookmarks(loadBookmarks()); }, []);
-
-  const removeBookmark = (url: string) => {
-    const updated = bookmarks.filter((b) => b.url !== url);
-    setBookmarks(updated);
-    saveBookmarks(updated);
-  };
-
-  const clearAll = () => { setBookmarks([]); saveBookmarks([]); };
+  const { bookmarks, removeBookmark, clearAll, isSyncing } = useBookmarks();
 
   return (
     <div className="min-h-screen py-16 px-4">
@@ -45,6 +21,7 @@ export default function BookmarksPage() {
             <Heading variant="h1">Bookmarks</Heading>
             <Text variant="body" className="mt-1 text-fg-secondary">
               {bookmarks.length} saved article{bookmarks.length !== 1 ? 's' : ''}
+              {isSyncing && <> &middot; syncing...</>}
             </Text>
           </div>
           {bookmarks.length > 0 && (

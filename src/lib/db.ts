@@ -421,3 +421,112 @@ export async function getUserPortfolio(email: string): Promise<{
   ]);
   return { user, systems };
 }
+
+// ─── Feed Bookmarks ──────────────────────────────────────────────────
+
+/**
+ * Schema: feed_bookmarks
+ *
+ *   user_email TEXT NOT NULL,
+ *   url        TEXT NOT NULL,
+ *   title      TEXT NOT NULL,
+ *   feed_name  TEXT NOT NULL,
+ *   feed_id    TEXT NOT NULL,
+ *   saved_at   TEXT NOT NULL DEFAULT (datetime('now')),
+ *   PRIMARY KEY (user_email, url)
+ */
+
+export interface FeedBookmark {
+  user_email: string;
+  url: string;
+  title: string;
+  feed_name: string;
+  feed_id: string;
+  saved_at: string;
+}
+
+export async function addFeedBookmark(bookmark: {
+  user_email: string;
+  url: string;
+  title: string;
+  feed_name: string;
+  feed_id: string;
+  /** ISO 8601 timestamp. Defaults to now if omitted. */
+  saved_at?: string;
+}): Promise<void> {
+  const db = getDb();
+  const timestamp = bookmark.saved_at ?? new Date().toISOString();
+  await db.execute({
+    sql: `INSERT OR IGNORE INTO feed_bookmarks (user_email, url, title, feed_name, feed_id, saved_at)
+          VALUES (?, ?, ?, ?, ?, ?)`,
+    args: [bookmark.user_email, bookmark.url, bookmark.title, bookmark.feed_name, bookmark.feed_id, timestamp],
+  });
+}
+
+export async function removeFeedBookmark(userEmail: string, url: string): Promise<void> {
+  const db = getDb();
+  await db.execute({
+    sql: 'DELETE FROM feed_bookmarks WHERE user_email = ? AND url = ?',
+    args: [userEmail, url],
+  });
+}
+
+export async function getFeedBookmarks(userEmail: string): Promise<FeedBookmark[]> {
+  const db = getDb();
+  const result = await db.execute({
+    sql: 'SELECT * FROM feed_bookmarks WHERE user_email = ? ORDER BY saved_at DESC',
+    args: [userEmail],
+  });
+  return result.rows as unknown as FeedBookmark[];
+}
+
+export async function clearFeedBookmarks(userEmail: string): Promise<void> {
+  const db = getDb();
+  await db.execute({
+    sql: 'DELETE FROM feed_bookmarks WHERE user_email = ?',
+    args: [userEmail],
+  });
+}
+
+export async function isFeedBookmarked(userEmail: string, url: string): Promise<boolean> {
+  const db = getDb();
+  const result = await db.execute({
+    sql: 'SELECT 1 FROM feed_bookmarks WHERE user_email = ? AND url = ? LIMIT 1',
+    args: [userEmail, url],
+  });
+  return result.rows.length > 0;
+}
+
+export async function upsertFeedBookmarks(userEmail: string, bookmarks: Array<{
+  url: string;
+  title: string;
+  feed_name: string;
+  feed_id: string;
+  saved_at?: string;
+}>): Promise<void> {
+  const db = getDb();
+
+  // Use a transaction for bulk upsert
+  await db.execute('BEGIN TRANSACTION');
+  try {
+    // Delete all existing bookmarks for this user
+    await db.execute({
+      sql: 'DELETE FROM feed_bookmarks WHERE user_email = ?',
+      args: [userEmail],
+    });
+
+    // Insert all bookmarks
+    for (const bm of bookmarks) {
+      await db.execute({
+        sql: `INSERT INTO feed_bookmarks (user_email, url, title, feed_name, feed_id, saved_at)
+              VALUES (?, ?, ?, ?, ?, ?)`,
+        args: [userEmail, bm.url, bm.title, bm.feed_name, bm.feed_id, bm.saved_at ?? new Date().toISOString()],
+      });
+    }
+
+    await db.execute('COMMIT');
+  } catch (err) {
+    await db.execute('ROLLBACK');
+    throw err;
+  }
+}

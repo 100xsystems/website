@@ -10,7 +10,8 @@
     "storybook": "storybook dev -p 6006 -c src/presentation/__components/_storybook/config",
     "build-storybook": "storybook build -c src/presentation/__components/_storybook/config",
     "presync": "node scripts/sync-curriculum.mjs",
-    "prebuild": "npm run presync && node scripts/copy-content-images.mjs"
+    "fetch-feed-cache": "node scripts/fetch-feed-cache.mjs",
+    "prebuild": "npm run presync && node scripts/copy-content-images.mjs && npm run fetch-feed-cache"
   },
   "dependencies": {
     "@animateicons/react": "^0.3.4",

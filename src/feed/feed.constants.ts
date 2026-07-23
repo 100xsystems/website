@@ -46,7 +46,7 @@ export const FEED_REGISTRY: FeedSource[] = [
   {
     id: 'discord-engineering',
     name: 'Discord Engineering',
-    rssUrl: 'https://discord.com/category/engineering/rss.xml',
+    rssUrl: 'https://discord.com/blog/rss.xml',
     siteUrl: 'https://discord.com/category/engineering',
     tags: ['backend', 'infrastructure', 'real-time'],
     description:
@@ -200,7 +200,7 @@ export const FEED_REGISTRY: FeedSource[] = [
   {
     id: 'datadog-engineering',
     name: 'Datadog Engineering',
-    rssUrl: 'https://www.datadoghq.com/blog/engineering/feed',
+    rssUrl: 'https://www.datadoghq.com/feed',
     siteUrl: 'https://www.datadoghq.com/blog/engineering',
     tags: ['observability', 'monitoring', 'infrastructure'],
     description:
@@ -222,7 +222,7 @@ export const FEED_REGISTRY: FeedSource[] = [
   {
     id: 'pinecone-engineering',
     name: 'Pinecone Engineering',
-    rssUrl: 'https://www.pinecone.io/blog/rss.xml',
+    rssUrl: 'https://www.pinecone.io/rss',
     siteUrl: 'https://www.pinecone.io/blog',
     tags: ['ai', 'vector-databases', 'infrastructure'],
     description:
@@ -244,7 +244,7 @@ export const FEED_REGISTRY: FeedSource[] = [
   {
     id: 'postgresql',
     name: 'PostgreSQL Blog',
-    rssUrl: 'https://www.postgresql.org/community/feeds/blogs.rss',
+    rssUrl: 'https://planet.postgresql.org/rss20.xml',
     siteUrl: 'https://www.postgresql.org/blog',
     tags: ['databases', 'sql', 'open-source'],
     description:
@@ -255,7 +255,7 @@ export const FEED_REGISTRY: FeedSource[] = [
   {
     id: 'redis-blog',
     name: 'Redis Engineering',
-    rssUrl: 'https://redis.io/blog/rss',
+    rssUrl: 'https://redis.io/blog/feed',
     siteUrl: 'https://redis.io/blog',
     tags: ['databases', 'caching', 'performance'],
     description:
@@ -365,7 +365,7 @@ export const FEED_REGISTRY: FeedSource[] = [
   {
     id: 'linkedin-engineering',
     name: 'LinkedIn Engineering',
-    rssUrl: 'https://engineering.linkedin.com/blog.rss',
+    rssUrl: 'https://www.linkedin.com/blog/engineering/feed',
     siteUrl: 'https://engineering.linkedin.com/blog',
     tags: ['infrastructure', 'ai', 'distributed-systems'],
     description:
@@ -431,7 +431,7 @@ export const FEED_REGISTRY: FeedSource[] = [
   {
     id: 'sentry',
     name: 'Sentry Blog',
-    rssUrl: 'https://blog.sentry.io/feed',
+    rssUrl: 'https://blog.sentry.io/feed.xml',
     siteUrl: 'https://blog.sentry.io',
     tags: ['observability', 'debugging', 'performance'],
     description:
@@ -508,7 +508,7 @@ export const FEED_REGISTRY: FeedSource[] = [
   {
     id: 'confluent',
     name: 'Confluent Blog',
-    rssUrl: 'https://www.confluent.io/blog/feed',
+    rssUrl: 'https://www.confluent.io/feed',
     siteUrl: 'https://www.confluent.io/blog',
     tags: ['distributed-systems', 'streaming', 'kafka'],
     description:
@@ -519,7 +519,7 @@ export const FEED_REGISTRY: FeedSource[] = [
   {
     id: 'databricks',
     name: 'Databricks Blog',
-    rssUrl: 'https://www.databricks.com/blog/feed',
+    rssUrl: 'https://www.databricks.com/feed',
     siteUrl: 'https://www.databricks.com/blog',
     tags: ['ai', 'data-platform', 'spark'],
     description:
@@ -541,7 +541,7 @@ export const FEED_REGISTRY: FeedSource[] = [
   {
     id: 'redhat',
     name: 'Red Hat Blog',
-    rssUrl: 'https://www.redhat.com/en/blog/feed',
+    rssUrl: 'https://www.redhat.com/rss/blog',
     siteUrl: 'https://www.redhat.com/en/blog',
     tags: ['open-source', 'linux', 'cloud-native'],
     description:

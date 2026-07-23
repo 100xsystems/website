@@ -5,12 +5,12 @@ import Link from 'next/link';
 import Fuse from 'fuse.js';
 import { FeedHeader } from './FeedHeader';
 import { ArticleCard } from './ArticleCard';
-import { fetchFeedProgressively } from './feed.api';
+import { fetchFeedAll } from './feed.api';
 import { sortByNewest, sortByHnScore, filterByTags } from './feed.utils';
-import type { Article, BookmarkEntry } from './feed.types';
+import { useBookmarks } from './useBookmarks';
+import type { Article } from './feed.types';
 import { Heading, Text, SkeletonBlock, Alert, Icon } from '@/presentation/__components';
 
-const BOOKMARKS_KEY = '100xfeed-bookmarks';
 const PREFS_KEY = '100xfeed-preferences';
 const HISTORY_KEY = '100xfeed-history';
 
@@ -26,8 +26,6 @@ function saveToStorage<T>(key: string, value: T): void {
 interface SavedPreferences { selectedFeeds: string[]; selectedTags: string[]; sortBy: 'newest' | 'hn-rank'; }
 const DEFAULT_PREFS: SavedPreferences = { selectedFeeds: [], selectedTags: [], sortBy: 'newest' };
 
-function loadBookmarks(): BookmarkEntry[] { return loadFromStorage<BookmarkEntry[]>(BOOKMARKS_KEY, []); }
-function saveBookmarks(bookmarks: BookmarkEntry[]): void { saveToStorage(BOOKMARKS_KEY, bookmarks); }
 function loadReadingHistory(): string[] { return loadFromStorage<string[]>(HISTORY_KEY, []); }
 function saveReadingHistory(history: string[]): void { saveToStorage(HISTORY_KEY, history); }
 function addToReadingHistory(url: string): string[] {
@@ -61,105 +59,57 @@ function getFuse(articles: Article[]): Fuse<Article> {
   return fuseInstance;
 }
 
-export function FeedPage() {
+export function FeedPage({ initialTag }: { initialTag?: string }) {
   const [allArticles, setAllArticles] = React.useState<Article[]>([]);
   const [isLoading, setIsLoading] = React.useState(true);
-  const [isLoadingMore, setIsLoadingMore] = React.useState(false);
   const [error, setError] = React.useState<string | null>(null);
   const [selectedFeeds, setSelectedFeeds] = React.useState<string[]>([]);
   const [selectedTags, setSelectedTags] = React.useState<string[]>([]);
   const [sortBy, setSortBy] = React.useState<'newest' | 'hn-rank'>('newest');
-  const [bookmarks, setBookmarks] = React.useState<BookmarkEntry[]>([]);
+  const { bookmarks, isBookmarked, toggleBookmark, isSyncing } = useBookmarks();
   const [readingHistory, setReadingHistory] = React.useState<string[]>([]);
   const [searchQuery, setSearchQuery] = React.useState('');
 
   const articleRefs = React.useRef<Map<string, HTMLDivElement>>(new Map());
   const [focusedIndex, setFocusedIndex] = React.useState(-1);
   const sortedArticlesRef = React.useRef<Article[]>([]);
-  const cursorRef = React.useRef<string | null>(null);
 
-  // Restore preferences
+  // Restore preferences and apply initial tag if provided (from /feed/[tag] page)
   React.useEffect(() => {
     const prefs = loadFromStorage<SavedPreferences>(PREFS_KEY, DEFAULT_PREFS);
     setSelectedFeeds(prefs.selectedFeeds);
-    setSelectedTags(prefs.selectedTags);
+    setSelectedTags(initialTag ? [initialTag] : prefs.selectedTags);
     setSortBy(prefs.sortBy);
-    setBookmarks(loadBookmarks());
     setReadingHistory(loadReadingHistory());
-  }, []);
+  }, [initialTag]);
 
   const savePrefs = React.useCallback((feeds: string[], tags: string[], sort: 'newest' | 'hn-rank') => {
     saveToStorage<SavedPreferences>(PREFS_KEY, { selectedFeeds: feeds, selectedTags: tags, sortBy: sort });
   }, []);
 
-  // Progressive feed loading
+  // Load feed — reads from registry cache via API (fast, no timeout risk)
   const loadFeed = React.useCallback(async () => {
     setIsLoading(true);
     setError(null);
-    cursorRef.current = null;
     fuseInstance = null; // Reset fuse on new load
 
     try {
-      const gen = fetchFeedProgressively(selectedFeeds, 15);
-      let isFirst = true;
-
-      for await (const batch of gen) {
-        if (isFirst) {
-          // First batch — replace articles entirely
-          setAllArticles(batch.articles);
-          setIsLoading(false);
-          isFirst = false;
-        } else {
-          // Subsequent batches — append new articles
-          setAllArticles((prev) => {
-            const existingUrls = new Set(prev.map((a) => a.url));
-            const newArticles = batch.articles.filter((a) => !existingUrls.has(a.url));
-            return [...prev, ...newArticles];
-          });
-        }
-      }
+      const response = await fetchFeedAll(selectedFeeds);
+      setAllArticles(response.articles);
     } catch (err) {
       setError(err instanceof Error ? err.message : 'Failed to load feed');
     } finally {
       setIsLoading(false);
-      setIsLoadingMore(false);
     }
   }, [selectedFeeds]);
 
   // Load on mount and when feeds change
   React.useEffect(() => { loadFeed(); }, [loadFeed]);
 
-  // Load more (pagination)
-  const loadMore = React.useCallback(async () => {
-    if (!cursorRef.current || isLoadingMore) return;
-    setIsLoadingMore(true);
-
-    try {
-      const { default: FuseModule } = await import('fuse.js');
-      // ... use FuseModule
-    } catch {
-      // ignore
-    }
-
-    setIsLoadingMore(false);
-  }, [isLoadingMore]);
-
   // Handlers
   const handleFeedSelectionChange = (feeds: string[]) => { setSelectedFeeds(feeds); savePrefs(feeds, selectedTags, sortBy); };
   const handleTagSelectionChange = (tags: string[]) => { setSelectedTags(tags); savePrefs(selectedFeeds, tags, sortBy); };
   const handleSortChange = (sort: 'newest' | 'hn-rank') => { setSortBy(sort); savePrefs(selectedFeeds, selectedTags, sort); };
-
-  const handleBookmarkToggle = (article: Article) => {
-    const existing = bookmarks.find((b) => b.url === article.url);
-    let newBookmarks: BookmarkEntry[];
-    if (existing) {
-      newBookmarks = bookmarks.filter((b) => b.url !== article.url);
-    } else {
-      newBookmarks = [{ url: article.url, title: article.title, feedName: article.feedName, feedId: article.feedId, savedAt: new Date().toISOString() }, ...bookmarks];
-    }
-    setBookmarks(newBookmarks);
-    saveBookmarks(newBookmarks);
-  };
 
   const handleReadArticle = (url: string) => { const updated = addToReadingHistory(url); setReadingHistory(updated); };
 
@@ -186,7 +136,7 @@ export function FeedPage() {
       if (e.key === 'j' || e.key === 'J') { e.preventDefault(); setFocusedIndex((prev) => (prev < current.length - 1 ? prev + 1 : prev)); }
       else if (e.key === 'k' || e.key === 'K') { e.preventDefault(); setFocusedIndex((prev) => (prev > 0 ? prev - 1 : 0)); }
       else if (e.key === 'Enter' && focusedIndex >= 0) { e.preventDefault(); const a = current[focusedIndex]; if (a) { window.open(a.url, '_blank'); handleReadArticle(a.url); } }
-      else if (e.key === 'b' && focusedIndex >= 0) { e.preventDefault(); const a = current[focusedIndex]; if (a) handleBookmarkToggle(a); }
+      else      if (e.key === 'b' && focusedIndex >= 0) { e.preventDefault(); const a = current[focusedIndex]; if (a) toggleBookmark(a); }
     };
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
@@ -260,7 +210,6 @@ export function FeedPage() {
             <span>b &mdash; bookmark</span>
           </div>
           <div className="flex items-center gap-3">
-            {isLoadingMore && <div className="w-3 h-3 border-2 border-fg-muted/30 border-t-accent rounded-full animate-spin" />}
             <Link href="/feed/bookmarks" className="text-[10px] font-bold uppercase tracking-wider text-fg-muted hover:text-accent transition-colors">
               Bookmarks{bookmarks.length > 0 ? ` (${bookmarks.length})` : ''}
             </Link>
@@ -288,14 +237,14 @@ export function FeedPage() {
           <div className="space-y-3">
             {sortedArticles.map((article, index) => (
               <div key={article.id} ref={(el) => { if (el) articleRefs.current.set(article.id, el); else articleRefs.current.delete(article.id); }}>
-                <ArticleCard article={article} isBookmarked={bookmarks.some((b) => b.url === article.url)} isRead={readingHistory.includes(article.url)} isFocused={index === focusedIndex} onBookmarkToggle={handleBookmarkToggle} onRead={handleReadArticle} />
+                <ArticleCard article={article} isBookmarked={bookmarks.some((b) => b.url === article.url)} isRead={readingHistory.includes(article.url)} isFocused={index === focusedIndex} onBookmarkToggle={toggleBookmark} onRead={handleReadArticle} />
               </div>
             ))}
           </div>
         )}
 
-        {/* Loading indicator for progressive loading */}
-        {(isLoading || isLoadingMore) && allArticles.length > 0 && (
+        {/* Loading indicator */}
+        {isLoading && allArticles.length > 0 && (
           <div className="text-center py-6">
             <div className="inline-block w-5 h-5 border-2 border-fg-muted/30 border-t-accent rounded-full animate-spin" />
           </div>
