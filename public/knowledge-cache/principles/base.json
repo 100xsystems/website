@@ -1,0 +1,16 @@
+{
+  "id": "base",
+  "category": "principles",
+  "label": "BASE",
+  "aliases": [],
+  "description": "Basically Available, Soft state, Eventual consistency — alternative to ACID for distributed systems",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/BASE_(computer_science)",
+    "wikidata": "https://www.wikidata.org/wiki/Q2879255"
+  },
+  "indexedAt": "2026-07-23T14:36:00.394Z"
+}

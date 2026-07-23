@@ -1,0 +1,3182 @@
+{
+  "repoId": "phodal/awesome-iot",
+  "name": "Awesome IoT. A collaborative list of great resources about IoT Framework, Library,  OS, Platform",
+  "description": "Awesome IoT. A collaborative list of great resources about IoT Framework, Library,  OS, Platform",
+  "repoUrl": "https://github.com/phodal/awesome-iot",
+  "stars": 4604,
+  "topics": [
+    "awesome-iot",
+    "awesome-list",
+    "azure-iot",
+    "iot",
+    "iot-application",
+    "iot-cloud",
+    "iot-device",
+    "iot-platform"
+  ],
+  "links": [
+    {
+      "url": "https://github.com/formulahendry/awesome-azure-iot",
+      "title": "Awesome Azure IoT",
+      "description": "A curated list of awesome Azure Internet of Things projects and resources.",
+      "category": "Awesome IoT ![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/amitshekhariitbhu/awesome-android-things",
+      "title": "Awesome Android Things",
+      "description": "A curated list of awesome Android Things tutorials, libraries and much more at one place",
+      "category": "Awesome IoT ![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/Agile-IoT/awesome-open-iot",
+      "title": "Awesome OpenIoT",
+      "description": "A curated list of awesome open source IoT frameworks, libraries and software.",
+      "category": "Awesome IoT ![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/DevifyPlatform/devify-server",
+      "title": "devify-server ★ 53 ⧗ 1",
+      "description": "s extremely light weight, and is very easy to use. It aims to help developers to create IoT application servers, faster.",
+      "category": "Framework",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/charliegerard/Epoc.js",
+      "title": "Epoc.js ★ 27 ⧗ 0",
+      "description": "This framework provides an interface to access data from the Emotiv EPOC brain sensor using Node.js.",
+      "category": "Framework",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/oci-pronghorn/FogLight",
+      "title": "FogLight ★ 10 ⧗ 100",
+      "description": "is a lightweight runtime that enables makers of all ages and skill levels to create highly performant apps for embedded devices like Raspberry Pis.",
+      "category": "Framework",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/jkransen/framboos",
+      "title": "framboos ★ 75 ⧗ 3",
+      "description": "is a small Java wrapper around the default GPIO driver on Linux boards like Raspberry Pi and BeagleBoard.",
+      "category": "Framework",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/freedomotic/freedomotic",
+      "title": "Freedomotic ★ 208 ⧗ 4",
+      "description": "is an open source, flexible, secure Internet of Things (IoT) application framework, useful to build and manage modern smart spaces.",
+      "category": "Framework",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/CommonGarden/Grow-IoT",
+      "title": "Grow IoT ★ 7 ⧗ 7",
+      "description": "is a full javascript based IoT stack with a simple API and basic user interface.",
+      "category": "Framework",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/guh/guh",
+      "title": "guh ★ 50 ⧗ 29",
+      "description": "is an open source IoT (Internet of Things) server, which allows to control a lot of different devices from many different manufacturers.",
+      "category": "Framework",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/roccomuso/iot-433mhz",
+      "title": "IoT 433 MHz ★ 121 ⧗ 11",
+      "description": "IoT System to control 433 MHz RC power sockets, PIR, Door Sensors and much more.",
+      "category": "Framework",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/Azure/iot-edge",
+      "title": "IoT Edge ★ 264 ⧗ 0",
+      "description": "The Azure IoT Gateway SDK was our first step to enabling edge analytics in IoT solutions.",
+      "category": "Framework",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/01org/Intel-iot-services-orchestration-layer",
+      "title": "IoT SOL ★ 38 ⧗ 0",
+      "description": "The total solution that provides visual graphical programming for developing IoT applications.",
+      "category": "Framework",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/iotcloud/iotcloud2",
+      "title": "IoTCloud 2 ★ 14 ⧗ 50",
+      "description": "An open source framework for IoT and Sensor Centric Applications.",
+      "category": "Framework",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/eclipse/kura",
+      "title": "Kura ★ 85 ⧗ 1",
+      "description": "an open-source framework for development of IoT applications",
+      "category": "Framework",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "http://lwmqn.github.io/",
+      "title": "Lightweight MQTT Machine Network ★ 21 ⧗ 1",
+      "description": "LWMQN is a machine network framework with MQTT. See also: IPSO Alliance [Technical Archive](http://www.ipso-alliance.org/ipso-community/resources/technical-archive/).",
+      "category": "Framework",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/vmware/liota",
+      "title": "Liota ★ 162 ⧗ 2",
+      "description": "is an open source offering for IoT solution developers and resides primarily on IoT gateways.",
+      "category": "Framework",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/OpenDevice/OpenDevice",
+      "title": "OpenDevice ★ 23 ⧗ 8",
+      "description": "Open IoT (Internet Of Things) Platform and Framework.",
+      "category": "Framework",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/bad-antics/glowbarn-rs",
+      "title": "GlowBarn",
+      "description": "High-performance Rust-based multi-sensor anomaly detection system with EMF, temperature, barometric, humidity, UV sensor support and real-time WebSocket streaming.",
+      "category": "Framework",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/PandoCloud/pando-cloud",
+      "title": "Pando Cloud ★ 75 ⧗ 2",
+      "description": "is the cloud part of Pando IoT solution. It's made of a bunch of tools, protocols and frameworks below: Pando Cloud, Pando Embedded Framework, Pando Protocol as so on.",
+      "category": "Framework",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/pingo-io/pingo-py",
+      "title": "Pingo ★ 211 ⧗ 0",
+      "description": "Generic API for controlling boards with programmable IO pins.",
+      "category": "Framework",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/labapart/polymcu",
+      "title": "PolyMCU ★ 84 ⧗ 2",
+      "description": "has been designed from the beginning to be as flexible as possible: host OS independent, support any toolchain, any RTOS, any micro-controller vendor SDK.",
+      "category": "Framework",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/JamesBarwell/rpi-gpio.js",
+      "title": "rpi-gpio.js ★ 221 ⧗ 5",
+      "description": "Control Raspberry Pi GPIO pins with node.js.",
+      "category": "Framework",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/simgrid/simgrid",
+      "title": "Simgrid ★ 46 ⧗ 53",
+      "description": "is a scientific instrument to study the behavior of large-scale distributed systems such as Grids, Clouds, HPC or P2P systems.",
+      "category": "Framework",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/thingsboard/thingsboard-gateway",
+      "title": "Thingsboard IoT Gateway ★ 463 ⧗ 246",
+      "description": "open-source IoT Gateway - integrates devices connected to legacy and third-party systems with Thingsboard IoT Platform using OPC-UA and MQTT protocols.",
+      "category": "Framework",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/armbian/build",
+      "title": "Armbian build SDK ★ 630",
+      "description": "for creating customized kernel and Debian based userspace for popular development boards.",
+      "category": "SDK",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/aws/aws-iot-device-sdk-arduino-yun",
+      "title": "AWS IoT Arduino Yún SDK ★ 63 ⧗ 4",
+      "description": "SDK for connecting to AWS IoT from an Arduino Yún.",
+      "category": "SDK",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/Azure/azure-iot-gateway-sdk",
+      "title": "Azure IoT Gateway SDK ★ 26 ⧗ 2",
+      "description": "contains the infrastructure and modules to create IoT gateway solutions.",
+      "category": "SDK",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/hybridgroup/cylon-intel-iot",
+      "title": "Cylon.js For Intel IoT ★ 29 ⧗ 40",
+      "description": "is a JavaScript framework for robotics, physical computing, and the Internet of Things (IoT).",
+      "category": "SDK",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/spark/electron",
+      "title": "Electron ★ 41 ⧗ 16",
+      "description": "The Electron is a tiny cellular development kit based around U-Blox's SARA U-series (3G) or G-series (2G) cellular modem module and a STM32F205 ARM Cortex M3 microcontroller.",
+      "category": "SDK",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/marvell-iot/aws_starter_sdk",
+      "title": "EZ-Connect Lite SDK ★ 67 ⧗ 16",
+      "description": "Marvell's Starter SDK for AWS IoT Service.",
+      "category": "SDK",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/Azure/azure-iot-sdks",
+      "title": "Microsoft Azure IoT SDK ★ 203 ⧗ 1",
+      "description": "SDKs for a variety of languages and platforms that help connect devices to Microsoft Azure IoT services.",
+      "category": "SDK",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/gioblu/PJON",
+      "title": "PJON ★ 427 ⧗ 4",
+      "description": "Digital communication framework for Arduino and IOT.",
+      "category": "Arduino",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/ms-iot/remote-wiring",
+      "title": "Windows Remote Arduino ★ 98 ⧗ 13",
+      "description": "Remote \"Arduino Wiring\" interface for Windows 8.1, Windows Phone 8.1 and Windows 10. Used to control an Arduino from a Universal Windows Platform application.",
+      "category": "Arduino",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/WiringPi/WiringPi",
+      "title": "WiringPi ★ 455 ⧗ 11",
+      "description": "Gordon's Arduino wiring-like WiringPi Library for the Raspberry Pi.",
+      "category": "Arduino",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://decoder.theengs.io",
+      "title": "Theengs decoder",
+      "description": null,
+      "category": "Arduino",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/armzilla/amazon-echo-ha-bridge",
+      "title": "Amazon Echo Bridge ★ 452 ⧗ 1",
+      "description": "Amazon Echo Bridge allows you to quickly emulate a Phillips Hue bridge, bringing the ability to seamlessly integrate an Amazon Echo into various home automation systems.",
+      "category": "Low Level",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/lasselukkari/aWOT",
+      "title": "aWOT ★ 69 ⧗ 8",
+      "description": "Web server library for Arduino, Teensy, ESP8266 and ESP32",
+      "category": "Low Level",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/bluekitchen/btstack",
+      "title": "btstack ★ 151 ⧗ 1",
+      "description": "Dual-mode Bluetooth stack, with small memory footprint.",
+      "category": "Low Level",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/emqtt/CocoaMQTT",
+      "title": "CocoaMQTT ★ 210 ⧗ 0",
+      "description": "MQTT for iOS and OS X written with Swift.",
+      "category": "Low Level",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://bitbucket.org/xoseperez/fauxmoesp",
+      "title": "fauxmoESP",
+      "description": "Belkin WeMo emulator library for ESP8266.",
+      "category": "Low Level",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/DotNetToscana/IoTHelpers",
+      "title": "IoT Helpers ★ 37 ⧗ 8",
+      "description": "A library that allows to easily interact with Windows 10 IoT Core features like GPIO, I2C and SPI devices.",
+      "category": "Low Level",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/xshellinc/iotit",
+      "title": "IoTit Flashing tool ★ 18 ⧗ 2",
+      "description": "is an open source command-line utility for flashing (initializing) IoT devices.",
+      "category": "Low Level",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/cesanta/krypton",
+      "title": "krypton ★ 7 ⧗ 35",
+      "description": "Embedded TLS/DTLS library, source and binary compatible OpenSSL subset",
+      "category": "Low Level",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/ory-am/ladon",
+      "title": "Ladon ★ 114 ⧗ 2",
+      "description": "is a library written in Go for access control policies, similar to Role Based Access Control or Access Control Lists.",
+      "category": "Low Level",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/Samsung/libtuv",
+      "title": "libtuv ★ 19 ⧗ 17",
+      "description": "Asynchronous I/O for IoT.js and embedded system.",
+      "category": "Low Level",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/littlekernel/lk",
+      "title": "LK ★ 312 ⧗ 0",
+      "description": "The LK embedded kernel. An SMP-aware kernel designed for small systems.",
+      "category": "Low Level",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/fuchsia-mirror/magenta",
+      "title": "Magenta ★ 286 ⧗ 0",
+      "description": "Magenta is a new kernel that powers the Fuchsia OS.",
+      "category": "Low Level",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/matrix-io/matrix-os",
+      "title": "MATRIX OS ★ 29 ⧗ 12",
+      "description": "is a platform for running applications on the MATRIX Creator.",
+      "category": "Low Level",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/matrixssl/matrixssl",
+      "title": "matrixssl ★ 36 ⧗ 0",
+      "description": "is an embedded SSL and TLS implementation designed for small footprint IoT devices requiring low overhead per connection.",
+      "category": "Low Level",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/runtimeco/mcuboot",
+      "title": "MCUBoot ★ 43 ⧗ 3",
+      "description": "is a secure bootloader for 32-bit MCUs.",
+      "category": "Low Level",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/ARMmbed/mbed-cloud-client",
+      "title": "Pelion Device Management Client ★ 19 ⧗ 41",
+      "description": "a library that connects devices to Pelion Device Management service and to Mbed-enabled cloud services from our partners.",
+      "category": "Low Level",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/GeiserX/PiSpot-Show",
+      "title": "PiSpot-Show",
+      "description": "Raspberry Pi WiFi voucher display system with weather integration and PiJuice battery management.",
+      "category": "Low Level",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/trifork/secure-device-grid",
+      "title": "Secure Device Grid ★ 4 ⧗ 20",
+      "description": "Secure device-to-device communication solution for IOT.",
+      "category": "Low Level",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/PeterEB/smartobject",
+      "title": "SmartObject ★ 8 ⧗ 2",
+      "description": "A Smart Object Class that helps you with creating IPSO Smart Objects in your JS apps. See also: IPSO Alliance [Technical Archive](http://www.ipso-alliance.org/ipso-community/resources/technical-archive/).",
+      "category": "Low Level",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/solettaproject/soletta",
+      "title": "Soletta ★ 96 ⧗ 2",
+      "description": "Soletta Project is a framework for making IoT devices. With Soletta Project's libraries developers can easily write software for devices that control actuators/sensors and communicate using standard technologies.",
+      "category": "Low Level",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/pellepl/spiffs",
+      "title": "SPIFFS ★ 174 ⧗ 0",
+      "description": "Wear-leveled SPI flash file system for embedded devices.",
+      "category": "Low Level",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/webvariants/susi",
+      "title": "SUSI ★ 13 ⧗ 150",
+      "description": "is an application framework to build interfaces for arbitrary systems.",
+      "category": "Low Level",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/wifidog/wifidog-gateway",
+      "title": "WifiDog ★ 291 ⧗ 1",
+      "description": "a complete and embeddable captive portal solution for wireless community groups or individuals.",
+      "category": "Low Level",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/Dot-and-Net/IoTHelpers",
+      "title": "Windows 10 IoT Core IoT Helpers ★ 25 ⧗ 0",
+      "description": "his library allows to easily interact with GPIO, I2C and SPI devices in Windows 10 IoT Core.",
+      "category": "Low Level",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/KunTengRom/xfrp",
+      "title": "xfrp ★ 14 ⧗ 2",
+      "description": "frp client for openwrt&LEDE, frp is a fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.",
+      "category": "Low Level",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/xipki/xipki",
+      "title": "XiPKI ★ 34 ⧗ 10",
+      "description": "eXtensible sImple Public Key Infrastructure consists of CA and OCSP responder.",
+      "category": "Low Level",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/liudf0716/xkcptun",
+      "title": "xkcptun ★ 104 ⧗ 25",
+      "description": "xkcptun is kcp tunnel for OpenWRT&LEDE, implemented in c language",
+      "category": "Low Level",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/evothings/cordova-ble",
+      "title": "Cordova BLE ★ 149 ⧗ 3",
+      "description": "Bluetooth Low Energy plugin for Cordova",
+      "category": "App",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/arcoirislabs/cordova-plugin-mqtt",
+      "title": "Cordova MQTT Plugin ★ 24 ⧗ 11",
+      "description": "MQTT Cordova Plugin for Apache Cordova",
+      "category": "App",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/EspressifApp/IOT-Espressif-Android",
+      "title": "IOT Espressif Android ★ 46 ⧗ 1",
+      "description": "is used to control ESP8266 device by Android pad or phone.",
+      "category": "App",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/chariotsolutions/phonegap-nfc",
+      "title": "PhoneGap NFC ★ 312 ⧗ 2",
+      "description": "PhoneGap NFC Plugin",
+      "category": "App",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/vladikoff/PWAify",
+      "title": "PWAify ★ 269 ⧗ 8",
+      "description": "Experimental project to convert your PWA (Progressive Web App) into a cross-platform Electron app. Brings PWAs to your desktop.",
+      "category": "App",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/lab11/summon",
+      "title": "Summon ★ 7 ⧗ 52",
+      "description": "A platform for mobile devices that provides a convenient and scalable mechanism for IoT device interactivity, enabled by web-based interfaces and driven by the devices themselves.",
+      "category": "App",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://app.theengs.io",
+      "title": "Theengs App",
+      "description": null,
+      "category": "App",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/Muterra/py_hypergolix",
+      "title": "hypergolix ★ 72 ⧗ 11",
+      "description": "is programmable cloud sync -- like Dropbox, but you integrate it into your applications instead of using it from the filesystem.",
+      "category": "Storage",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/dpjanes/iotdb-iotql",
+      "title": "IoTDL ★ 9 ⧗ 8",
+      "description": "an SQL-like language for the IoT.",
+      "category": "Storage",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/dpjanes/node-iotdb",
+      "title": "node-iotdb ★ 19 ⧗ 61",
+      "description": "Easily control the Internet of Things using Semantics.",
+      "category": "Storage",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/aimdb-dev/aimdb",
+      "title": "AimDB ★ 2",
+      "description": "An async, in-memory data bridge that syncs records across microcontrollers, edge gateways and cloud instances. Define once, stream and sync everywhere.",
+      "category": "Storage",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/reductstore/reductstore",
+      "title": "ReductStore ★ 360",
+      "description": "high-performance blob and time-series storage for industrial IoT, with edge deployment, selective replication, and efficient querying of multimodal data.",
+      "category": "Storage",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/rapid7/IoTSeeker",
+      "title": "IoTSeeker",
+      "description": null,
+      "category": "Security",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/hookprobe/hookprobe",
+      "title": "HookProbe",
+      "description": "Edge-first autonomous SOC and AI-native IDS for IoT network security. Runs on Raspberry Pi.",
+      "category": "Security",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/fnzv/nShield",
+      "title": "nShield ★ 66 ⧗ 35",
+      "description": "An Easy and Simple Anti-DDoS solution for VPS,Dedicated Servers and IoT devices based on iptables.",
+      "category": "Security",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/We5ter/Scanners-Box",
+      "title": "Scanners-Box ★ 424 ⧗ 0",
+      "description": "the toolbox of open source scanners.",
+      "category": "Security",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/trezor/trezor-crypto",
+      "title": "trezor-crypto ★ 94 ⧗ 1",
+      "description": "📙 Heavily optimized cryptography algorithms for embedded devices.",
+      "category": "Security",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/plusultra-tools/data-act-iot-kit",
+      "title": "data-act-iot-kit",
+      "description": "EU Data Act Art. 4-5 reference implementation. Drop-in user-data-access HTTP endpoint for connected products, with verbatim-cited compliance manifest. Targets the 2026-09-12 access-by-design obligation.",
+      "category": "Security",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/apache/mynewt-core",
+      "title": "Mynewt",
+      "description": null,
+      "category": "OS",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://www.armbian.com",
+      "title": "Armbian",
+      "description": "Debian based Docker enabled lightweight Linux for popular development boards. Optimised for embedded usage.",
+      "category": "OS",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://developers.google.com/brillo/",
+      "title": "Brillo",
+      "description": "Brillo extends the Android platform to all your connected devices.",
+      "category": "OS",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/f9micro/f9-kernel",
+      "title": "f9-kernel ★ 316 ⧗ 4",
+      "description": "An efficient and secure microkernel built for ARM Cortex-M cores, inspired by L4",
+      "category": "OS",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/FlingOS/FlingOS",
+      "title": "FlingOS ★ 176 ⧗ 0",
+      "description": "An educational operating system written in C#. A great stepping stone from high to low level development.",
+      "category": "OS",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/LITEOS/LiteOS_Kernel",
+      "title": "Huawei LiteOS ★ 341 ⧗ 3",
+      "description": "Huawei LiteOS Kernel.",
+      "category": "OS",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/hypriot/image-builder-rpi",
+      "title": "Hypriot ★ 253 ⧗ 62",
+      "description": "HypriotOS for the Raspberry Pi is a Debian-based Container OS optimized for Docker.",
+      "category": "OS",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/jan-os/janos",
+      "title": "JanOS ★ 138 ⧗ 0",
+      "description": "JanOS is an operating system designed to run on the chipset of mobile phones.",
+      "category": "OS",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/arduino/linino",
+      "title": "Linino ★ 83 ⧗ 13",
+      "description": "Linino is a GNU/Linux distribution based on OpenWRT and maintained by DogHunter.",
+      "category": "OS",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/whitecatboard/Lua-RTOS-ESP32",
+      "title": "Lua-RTOS-ESP32 ★ 131 ⧗ 2",
+      "description": "is a real-time operating system designed to run on embedded systems, with minimal requirements of FLASH and RAM memory.",
+      "category": "OS",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/macchina-io/macchina.io",
+      "title": "macchina.io ★ 144 ⧗ 0",
+      "description": "An open-source toolkit for building embedded IoT applications that connect sensors, devices and cloud services.",
+      "category": "OS",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "http://nuttx.org/",
+      "title": "NuttX",
+      "description": "is a real-time operating system (RTOS) with an emphasis on standards compliance and small footprint. Scalable from 8-bit to 32-bit microcontroller environments, the primary governing standards in NuttX are Posix and ANSI standards.",
+      "category": "OS",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/openwrt/openwrt",
+      "title": "OpenWrt ★ 230 ⧗ 173",
+      "description": "OpenWrt is described as a Linux distribution for embedded devices.",
+      "category": "OS",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/Piko-RT/pikoRT",
+      "title": "pikoRT ★ 164 ⧗ 5",
+      "description": "A tiny Linux-like real-time kernel optimized for ARM Cortex-M chips.",
+      "category": "OS",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "http://raspbian.org/",
+      "title": "Raspbian",
+      "description": "Raspbian is a free operating system based on Debian optimized for the Raspberry Pi hardware.",
+      "category": "OS",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/EDI-Systems/M5P1_MuProkaron",
+      "title": "RMP ★ 19 ⧗ 8",
+      "description": "A single-file rapid development RTOS for IoT with integrated graphics.",
+      "category": "OS",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/RT-Thread/rt-thread",
+      "title": "RT-Thread ★ 493 ⧗ 0",
+      "description": "RT-Thread is an open source real-time operating system for embedded devices from China.",
+      "category": "OS",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/silklabs/silk",
+      "title": "Silk ★ 74 ⧗ 2",
+      "description": "is a free (as in free beer) firmware for a number of smartphones based on the open-source Android operating system with a nodejs layer on top of it that makes it possible to write programs and get access to hardware aspects using only simple JavaScript.",
+      "category": "OS",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "http://developer.ubuntu.com/en/snappy/",
+      "title": "Snappy Ubuntu Core",
+      "description": "Canonical, A new, transactionally updated Ubuntu for clouds and devices.",
+      "category": "OS",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/fritzprix/TachyOS",
+      "title": "TachyOS ★ 7 ⧗ 82",
+      "description": "is the RTOS based on microkernel architecture which includes only minimal components like thread / synchronization, memory management, inter-thread communication while supporting execution context / address space isolation(protection) and extensible modular interface.",
+      "category": "OS",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/Samsung/TinyAra",
+      "title": "TinyAra ★ 35 ⧗ 1",
+      "description": "is a lightweight RTOS-based platform to support low-end IoT devices.",
+      "category": "OS",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/helena-project/tock",
+      "title": "Tock OS ★ 243 ⧗ 1",
+      "description": "is an operating system designed for running multiple concurrent, mutually distrustful applications on Cortex-M based embedded platforms.",
+      "category": "OS",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/liuxuming/trochili",
+      "title": "trochili ★ 75 ⧗ 6",
+      "description": "A small RTOS optimized for the embedded/iot devices. Support Cortex M3.",
+      "category": "OS",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/zephyrproject-rtos/zephyr",
+      "title": "Zephyr ★ 352 ⧗ 5",
+      "description": "is a small, scalable real-time operating system for use on resource-constrained systems supporting multiple architectures.",
+      "category": "OS",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/androidthings/contrib-drivers",
+      "title": "Android Things user-space drivers ★ 140 ⧗ 2",
+      "description": "Sample peripheral drivers for Android Things.",
+      "category": "Android Things",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/damianFC/alexa-rubykit",
+      "title": "alexa-rubykit ★ 109 ⧗ 6",
+      "description": "implements a quick back-end service for deploying applications for Amazon's Echo (Alexa).",
+      "category": "Voice Controller",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/sammachin/AlexaPi",
+      "title": "AlexaPi ★ 17 ⧗ 1",
+      "description": "Turn a Raspberry Pi into an Alexa Client.",
+      "category": "Voice Controller",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/actorcloud/ActorCloud",
+      "title": "ActorCloud ★ 32 ⧗ 0",
+      "description": "ActorCloud is an IoT platform that provides one-stop platform services for enterprises with low-power IoT networks. It provides multiple protocol access, message flow management, data parsing and data processing capabilities for devices on a secure and reliable basis.",
+      "category": "Platform",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/astarte-platform/astarte",
+      "title": "Astarte ★ 19 ⧗ 0",
+      "description": "Astarte is an Open Source IoT platform written in Elixir. It is a turnkey solution which packs in everything you need for connecting a device fleet to a set of remote applications. It performs data modeling, automated data reduction, real-time events, and provides you with any feature you might expect in a modern IoT platform. Right now, Linux and ESP32 devices are supported out of the box using the provided SDKs.",
+      "category": "Platform",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/EricssonResearch/calvin-base",
+      "title": "Clavin ★ 212 ⧗ 2",
+      "description": "Calvin is an application environment that lets things talk to things. It comprises of both a development framework for application developers, and a runtime environment that handles the running application.",
+      "category": "Platform",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/devicehive",
+      "title": "DeviceHive",
+      "description": "IoT Data Platform. Wide range of connectivity options, device management, security and data processing.",
+      "category": "Platform",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/foss-for-synopsys-dwc-arc-processors/embarc_osp",
+      "title": "embARC Open Software Platform (OSP) ★ 23 ⧗ 9",
+      "description": "is a software distribution aimed at facilitating the development of embedded systems based on ARCv2 Processors.",
+      "category": "Platform",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/flowchain/flowchain-app",
+      "title": "flowchain-app ★ 22 ⧗ 50",
+      "description": "A Flowchain plugin that provides the flow-based programming (FBP) engine.",
+      "category": "Platform",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/DexterInd/GrovePi",
+      "title": "GrovePi ★ 330 ⧗ 0",
+      "description": "is an open source platform for connecting Grove Sensors to the Raspberry Pi.",
+      "category": "Platform",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/hivemq/hivemq-community-edition",
+      "title": "HiveMQ ★ 329 ⧗ 0",
+      "description": "is an open source MQTT platform and MQTT broker.",
+      "category": "Platform",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://hologram.io/",
+      "title": "Hologram",
+      "description": "Open source, full stack platform with standalone devices and usb plug in. Offers a free developer tier.",
+      "category": "Platform",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/itead/IoTgo",
+      "title": "IoTgo ★ 173 ⧗ 0",
+      "description": "is an open source IoT platform, like WordPress, ZenCart and all other open source software, you can deploy your own IoTgo cloud service.",
+      "category": "Platform",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://iotellect.com",
+      "title": "Iotellect",
+      "description": "A low-code IoT/IIoT Application Enablement Platform (AEP) for building, deploying and managing industrial automation, remote monitoring and smart infrastructure solutions. Integrates edge and cloud capabilities with MQTT, OPC-UA, Modbus and 100+ protocols support.",
+      "category": "Platform",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "http://jasperproject.github.io/",
+      "title": "Jasper",
+      "description": "Jasper is an open source platform for developing always-on, voice-controlled applications.",
+      "category": "Platform",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/kerberos-io/web",
+      "title": "KERBEROS.IO Web ★ 176 ⧗ 16",
+      "description": "a  GUI to configure the machinery and to view events that were detected by the machinery.",
+      "category": "Platform",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/monostable/kitnic",
+      "title": "Kitnic ★ 124 ⧗ 0",
+      "description": "A registry for ready to build open hardware electronics projects.",
+      "category": "Platform",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/phodal/lan",
+      "title": "Lan ★ 105 ⧗ 0",
+      "description": "Internet of Things Server Layer with CoAP, WebSocket, MQTT, HTTP f",
+      "category": "Platform",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/Mainflux/mainflux",
+      "title": "Mainflux ★ 33 ⧗ 3",
+      "description": "Mainflux is an open source and patent-free IoT cloud platform based on microservices.",
+      "category": "Platform",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/IoTKETI/Mobius",
+      "title": "Mobius ★ 46 ⧗ 2",
+      "description": "is the open source IoT server platform based on the oneM2M standard.",
+      "category": "Platform",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/cesanta/iot",
+      "title": "Mongoose IoT ★ 487 ⧗ 0",
+      "description": "is a full-stack IoT platform including firmware and cloud components available for ESP8266.",
+      "category": "Platform",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "http://nebula.readthedocs.io",
+      "title": "Nebula",
+      "description": "A docker orchestrator designed to manage IoT devices",
+      "category": "Platform",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/monteslu/pagenodes",
+      "title": "Pagenodes ★ 99 ⧗ 0",
+      "description": "Completely Browser Based IOT Platform, A Chrome Progressive Web App.",
+      "category": "Platform",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "http://spark.github.io/",
+      "title": "Particle(Spark)",
+      "description": "Particle (formally Spark) is a complete, open source, full-stack solution for cloud-connected devices.",
+      "category": "Platform",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/pharo-iot/PharoThings",
+      "title": "PharoThings ★ 37 ⧗ 29",
+      "description": "is a Live programming platform for IoT projects based on Pharo.",
+      "category": "Platform",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://www.siemens.com/global/en/home/products/software/mindsphere.html",
+      "title": "Siemens MindSphere",
+      "description": "Open, cloud-based IoT operating system (uses OPC UA as communication standard) from Siemens which is extensible with services.",
+      "category": "Platform",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/Stanford-Mobisocial-IoT-Lab/thingengine-core",
+      "title": "ThingEngine ★ 3 ⧗ 0",
+      "description": "An open source platform for IoT rules that you can execute anywhere you want.",
+      "category": "Platform",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/united-manufacturing-hub/united-manufacturing-hub",
+      "title": "United Manufacturing Hub ★ 9 ⧗ 0",
+      "description": "The Open-Source Manufacturing App Platform (combines various open source solutions and packages them in a Helm chart, for example nodered, VerneMQ and timescaleDB)",
+      "category": "Platform",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/larionovavi-stack/bitscada",
+      "title": "BitSCADA ★ 0 ⧗ 0",
+      "description": "Complete industrial SCADA/HMI system that runs from a single HTML file. Supports IEC 61850 (MMS, GOOSE, SV), OPC UA, Modbus TCP, MQTT. 53 function blocks, 65 graphic elements, Python gateway for real PLC/RTU/IED connections. Zero installation — any browser.",
+      "category": "Platform",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/frangoteam/FUXA",
+      "title": "Fuxa SCADA/HMI/Dashboard ★ 2115 ⧗ 632",
+      "description": "FUXA is a web-based Process Visualization (SCADA/HMI/Dashboard) software. With FUXA you can create modern process visualizations/dashboards with individual designs for your machines/IOT application with real-time data display. Supports MQTT, OPC-UA, Modbus RTU/TCP, Siemens S7 Protocol, BACnet IP, Ethernet/IP (Allen Bradley), WebAPI",
+      "category": "Platform",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/larionovavi-stack/awtscada",
+      "title": "awtSCADA",
+      "description": "Industrial SCADA/HMI system that runs from a single HTML file in any browser. Supports IEC 61850, OPC UA, Modbus TCP. 53 function blocks, 65 graphic elements. No installation required.",
+      "category": "Platform",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://www.aylanetworks.com/products/iot-platform",
+      "title": "Agile IoT Platform",
+      "description": "Ayla Networks IoT Platform (with cloud services).",
+      "category": "IoT Clouds",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://intl.aliyun.com/solutions/IoT",
+      "title": "AlibabaCloud",
+      "description": "\"A cloud computing solution\"",
+      "category": "IoT Clouds",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://www.pelion.com/",
+      "title": "ARM Pelion",
+      "description": "\"Arm Pelion IoT Platform including Connectivity, Device and Data management service\"",
+      "category": "IoT Clouds",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://artik.cloud/",
+      "title": "Artik Cloud",
+      "description": "Samsung cloud for the IoT.",
+      "category": "IoT Clouds",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://aws.amazon.com/iot/",
+      "title": "AWS IoT",
+      "description": "Amazon cloud for the IoT.",
+      "category": "IoT Clouds",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://azure.microsoft.com/en-us/services/iot-hub/",
+      "title": "Azure IoT Hub",
+      "description": "Microsoft cloud for the IoT.",
+      "category": "IoT Clouds",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://www.bosch-si.com/products/bosch-iot-suite/iot-cloud/bosch-iot-cloud-2.html",
+      "title": "Bosch IoT Cloud",
+      "description": "Highly scalable cloud infrastructure based on Cloud Foundry.",
+      "category": "IoT Clouds",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://cloudplugs.com/",
+      "title": "CloudPlugs IoT",
+      "description": "\"An end-to-end Fog Computing Platform for IoT.\"",
+      "category": "IoT Clouds",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://exosite.com/platform/",
+      "title": "Exosite murano",
+      "description": "IoT platform by Exosite.",
+      "category": "IoT Clouds",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://cloud.google.com/solutions/iot/",
+      "title": "Google Cloud IoT",
+      "description": "Google Cloud Platform IoT solutions.",
+      "category": "IoT Clouds",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://www.huaweicloud.com/product/iothub.html",
+      "title": "Huawei Cloud IoTDA",
+      "description": "Huawei cloud for the IoT.",
+      "category": "IoT Clouds",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "http://www.ibm.com/watson/",
+      "title": "IBM Watson",
+      "description": "IBM cloud for the IoT.",
+      "category": "IoT Clouds",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://cloud.oracle.com/iot",
+      "title": "Oracle IoT Cloud",
+      "description": "ORACLE Cloud for the Internet of Things.",
+      "category": "IoT Clouds",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://app.rightech.io",
+      "title": "Rightech IoT Cloud",
+      "description": "IoT platform.",
+      "category": "IoT Clouds",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "http://www.salesforce.com/iot-cloud/",
+      "title": "Salesforce IoT Cloud",
+      "description": "Salesforce cloud for the Internet of Things.",
+      "category": "IoT Clouds",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://www.sap.com/products/iot-platform-cloud.html",
+      "title": "SAP HANA",
+      "description": "SAP cloud for the Internet of Things.",
+      "category": "IoT Clouds",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "http://www.siemens.com/global/en/home/company/topic-areas/digitalization/mindsphere.html",
+      "title": "Siemens MindSphere",
+      "description": "Open IoT ecosystem as PaaS.",
+      "category": "IoT Clouds",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://www.xively.com/",
+      "title": "Xively IoT Cloud",
+      "description": "IoT platform.",
+      "category": "IoT Clouds",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://yaler.net/",
+      "title": "Yaler",
+      "description": "\"Relay infrastructure for secure access to embedded systems\".",
+      "category": "IoT Clouds",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "http://www.zatar.com/",
+      "title": "Zatar",
+      "description": "\"Zatar is the first ARMmbed standards-based IoT cloud service\".",
+      "category": "IoT Clouds",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://www.emqx.com/en/cloud",
+      "title": "EMQX Cloud",
+      "description": "Fully managed MQTT service for IoT. Connect your IoT devices to any cloud without the burden of maintaining infrastructure.",
+      "category": "IoT Clouds",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/IoTSharp/IoTSharp",
+      "title": "IoTSharp",
+      "description": "IoTSharp is an open-source IoT platform.",
+      "category": "IoT Clouds",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://www.scytec.com/",
+      "title": "DataXChange",
+      "description": "Cloud manufacturing.",
+      "category": "IIoT Clouds",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "http://www.telit.com/solutions/industries/smart-manufacturing/",
+      "title": "deviceWISE for Factory",
+      "description": "Telit IIoT cloud.",
+      "category": "IIoT Clouds",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://www.predix.com/",
+      "title": "Predix",
+      "description": "Industrial IoT cloud (by General Electric).",
+      "category": "IIoT Clouds",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "http://www.spacetimeinsight.com/solutions/internet-of-things/",
+      "title": "Space-Time Insight IIoT",
+      "description": "Industrial IoT cloud (formerly go-factory.com).",
+      "category": "IIoT Clouds",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://www.thingworx.com/platforms/industrial-connectivity/",
+      "title": "Thingworx",
+      "description": "Industrial IoT cloud.",
+      "category": "IIoT Clouds",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "http://www.parker.com/portal/site/PARKER/menuitem.17c8315d31f057bc86a6c3544256d1ca/?vgnextoid=244744e25684b510VgnVCM100000e6651dacRCRD&vgnextchannel=9f45216358d55510VgnVCM100000e6651dacRCRD&vgnextfmt=",
+      "title": "Voice of the Machine",
+      "description": "Industrial IoT cloud (by Parker Hannifin, based on Exosite).",
+      "category": "IIoT Clouds",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://foresthub.ai",
+      "title": "ForestHub",
+      "description": "Edge AI agent platform; its open-source runtime [edge-agents](https://github.com/ForestHubAI/edge-agents) runs AI agents offline on Linux edge gateways with local SLMs, cloud LLMs and MQTT as first-class nodes.",
+      "category": "IIoT Clouds",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/opengeospatial/sensorthings",
+      "title": "OGC SensorThings API ★ 21 ⧗ 15",
+      "description": "The OGC SensorThings API is an OGC standard specification for providing an open and unified way to interconnect IoT devices, data, and applications over the Web",
+      "category": "APIs",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://opencagedata.com/",
+      "title": "OpenCage",
+      "description": "provide a reverse geocoding API based on open data for high volume conversion of device coordinates (lat,lon) into useful location information (address, timezone, etc).",
+      "category": "APIs",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/brunodebus/tinq-core",
+      "title": "Qeo Tinq ★ 6 ⧗ 392",
+      "description": "Tinq is completely based on the Qeo publish/subscribe framework produced by Technicolor as explained in the license section.",
+      "category": "APIs",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://superhighway.walls.sh/guides/manufacturing-research-agent",
+      "title": "Superhighway",
+      "description": "Live web search API for AI agents. Build a Python agent that researches manufacturing markets, IIoT landscapes, OEE benchmarks, and supply chain trends. Pay-per-call with USDC via x402.",
+      "category": "APIs",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/kaaproject/kaa",
+      "title": "Kaa ★ 234 ⧗ 0",
+      "description": "Kaa open-source middleware platform for building, managing, and integrating connected products with the Internet of Everything.",
+      "category": "Middleware",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/bkupidura/meact",
+      "title": "Meact ★ 6 ⧗ 43",
+      "description": "task is to get metric from external stuff, write it to  and perform various action.",
+      "category": "Middleware",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/OpenIotOrg/openiot",
+      "title": "OpenIoT ★ 205 ⧗ 0",
+      "description": "The OpenIoT middleware infrastructure will support flexible configuration and deployment of algorithms for collection",
+      "category": "Middleware",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/sitewhere/sitewhere",
+      "title": "SiteWhere ★ 61 ⧗ 0",
+      "description": "SiteWhere open-source IoT platform for device connectivity & management, data persistence, processing, integration, and analytics -- both in cloud and on-premise.",
+      "category": "Middleware",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/mathcoll/t6",
+      "title": "t6 ★ 21 ⧗ 4",
+      "description": "Data-first IoT platform to connect physical Objects with time-series DB and perform Data Analysis.",
+      "category": "Middleware",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/yoelf22/electrum",
+      "title": "Electrum ★ 4 ⧗ 1",
+      "description": "A structured, AI-assisted toolkit for defining hardware products that have software inside — from concept through engineering spec to presentation-ready materials in eight phases.",
+      "category": "Toolkits Include Non-OS",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/connectIOT/iottoolkit",
+      "title": "IoT Toolkit ★ 39 ⧗ 41",
+      "description": "Reference implementation of the smart object API",
+      "category": "Toolkits Include Non-OS",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/ms-iot/iot-adk-addonkit",
+      "title": "iot-adk-addonkit ★ 8 ⧗ 1",
+      "description": "Contains command line scripts for package creation and image creation process and samples for iot products based on RPi2/MBM.",
+      "category": "Toolkits Include Non-OS",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/Kinoma/kinomajs",
+      "title": "KinomaJS ★ 293 ⧗ 0",
+      "description": "A JavaScript runtime optimized for the applications that power IoT devices.",
+      "category": "Toolkits Include Non-OS",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/arduino/OpenOCD",
+      "title": "OpenOCD ★ 10 ⧗ 34",
+      "description": "OpenOCD provides on-chip programming and debugging support with a layered architecture of JTAG interface and TAP support",
+      "category": "Toolkits Include Non-OS",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/mbedmicro/pyOCD",
+      "title": "pyOCD ★ 112 ⧗ 0",
+      "description": "Open source python library for programming and debugging ARM Cortex-M microcontrollers using CMSIS-DAP.",
+      "category": "Toolkits Include Non-OS",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/renode/renode",
+      "title": "Renode ★ 81 ⧗ 0",
+      "description": "a virtual development tool for multinode embedded networks.",
+      "category": "Toolkits Include Non-OS",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/walkingtree/arbela",
+      "title": "Arbela ★ 12 ⧗ 2",
+      "description": "Rich, Extensible, Customizable, and Configurable Dashboard.",
+      "category": "Data Visualization",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/edfungus/Crouton",
+      "title": "Crouton ★ 75 ⧗ 0",
+      "description": "is a dashboard that lets you visualize and control your IOT devices with minimal setup.",
+      "category": "Data Visualization",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://www.devicepilot.com",
+      "title": "DevicePilot",
+      "description": "Operational analytics for connected devices (includes free-forever tier).",
+      "category": "Data Visualization",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/electrocoder/iotdashboard",
+      "title": "iotdashboard ★ 7 ⧗ 14",
+      "description": "Fast Django server for IOT Devices.",
+      "category": "Data Visualization",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/shelloid/shelloid",
+      "title": "Shelloid ★ 20 ⧗ 1",
+      "description": "is an open source IoT-ready real-time big data web application platform built using Node.js and Clojure.",
+      "category": "Data Visualization",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/streamdal/streamdal",
+      "title": "Streamdal",
+      "description": "An IoT-ready, Wasm-powered workflow engine you embed directly into application code for ridiculously fast, real-time data transformations.",
+      "category": "Real-time Data",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/AprilBrother/APixel",
+      "title": "APixel ★ 8 ⧗ 31",
+      "description": "APixel is a combination of a ESP8266 dev board with a WS2812B (Addressable RGB) LED all in one.",
+      "category": "Hardware",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://www.arduino.cc/en/Main/ArduinoBoardZero",
+      "title": "Arduino ZERO",
+      "description": "This board aims to provide a platform for innovative projects in smart IoT devices, wearable technology, high-tech automation, crazy robotics, and much more.",
+      "category": "Hardware",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/autopi-io/autopi-core",
+      "title": "AutoPi",
+      "description": "Open-source core software for the AutoPi dongle, a Raspberry Pi-based OBD-II device for vehicle telematics, CAN bus data collection, and automotive IoT applications.",
+      "category": "Hardware",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "http://beagleboard.org/getting-started/",
+      "title": "BeagleBone",
+      "description": "BeagleBone Black is a low-cost, community-supported development platform for developers and hobbyists.",
+      "category": "Hardware",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/bitsybits/bitsybits-core",
+      "title": "Bitsy Bits ★ 3 ⧗ 36",
+      "description": "is an IoT composite project. This means it has all parts to implement the full user experience.",
+      "category": "Hardware",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/carloop/carloop-library",
+      "title": "Carloop ★ 6 ⧗ 0",
+      "description": "Make apps for your car using signals from OBD-II, CAN and GPS. Publish data online using the Particle platform.",
+      "category": "Hardware",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "http://www.dfrobot.com/wiki/index.php/CheapDuino_(SKU:DFR0236",
+      "title": "Cheapduino",
+      "description": null,
+      "category": "Hardware",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/Jeija/esp8266-smartwatch",
+      "title": "ESP8266 Smartwatch ★ 39 ⧗ 0",
+      "description": "ESP8266 DIY WiFi Smartwatch with MPU-9250, RTC, OLED, FT232, ...",
+      "category": "Hardware",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "http://www.arduino.cc/en/ArduinoCertified/IntelGalileo",
+      "title": "Intel Galileo",
+      "description": "Galileo is a microcontroller board based on the Intel® Quark SoC X1000 Application Processor, a 32-bit Intel Pentium-class system on a chip",
+      "category": "Hardware",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://www.microduino.cc/",
+      "title": "Microduino",
+      "description": "Microduino is about the size of a quarter and less than half the size of the original Arduino board.",
+      "category": "Hardware",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "http://www.nodemcu.com/",
+      "title": "NodeMCU",
+      "description": "a firmware based on ESP8266 wifi-soc.",
+      "category": "Hardware",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/GeiserX/PiSpot-Watch",
+      "title": "PiSpot Watch",
+      "description": "Wrist-wearable Raspberry Pi Zero smartwatch with e-ink display for generating WiFi voucher codes on demand.",
+      "category": "Hardware",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/dekuNukem/Powerduino",
+      "title": "Powerduino ★ 53 ⧗ 102",
+      "description": "A fully programmable power strip with energy monitoring and wireless connectivity.",
+      "category": "Hardware",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/pulp-platform/pulpino",
+      "title": "PULPino ★ 201 ⧗ 0",
+      "description": "PULPino is an open-source microcontroller system, based on a small 32-bit RISC-V core developed at ETH Zurich.",
+      "category": "Hardware",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://www.raspberrypi.org/",
+      "title": "Raspberry Pi",
+      "description": "a tiny and affordable computer that you can use to learn programming through fun, practical projects",
+      "category": "Hardware",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://rinho.com.ar/en",
+      "title": "Rinho Telematics",
+      "description": "ESP32-based GPS trackers with native CAN Bus (J1939/FMS), WiFi fallback when cellular coverage is unavailable, and BLE 5.0 sensors. Compatible with Traccar and Wialon.",
+      "category": "Hardware",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "http://rayshobby.net/sqrwear/",
+      "title": "SquareWear",
+      "description": "An Open-Source Arduino-based Wearable Microcontroller",
+      "category": "Hardware",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "http://www.wemos.cc",
+      "title": "Wemos",
+      "description": "Very-cheap firmware based on ESP8266 wifi-soc.",
+      "category": "Hardware",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/widora/openwrt_widora",
+      "title": "Widora ★ 15 ⧗ 21",
+      "description": "Widora is open source WiFi development hardware prototype with sound card based on MT7688A running [OpenWrt](https://github.com/openwrt/openwrt).",
+      "category": "Hardware",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/chkr1011/CK.HomeAutomation",
+      "title": "CK.HomeAutomation ★ 15 ⧗ 9",
+      "description": "The first open source Home Automation SDK for Windows 10 IoT Core.",
+      "category": "Home Automation",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "http://eclipse.org/smarthome/",
+      "title": "Eclipse SmartHome",
+      "description": "Smart Home adoption will only gain momentum if the different devices can be connected into over-arching use cases, but currently the market for Smart Home systems and IoT gadgets is heavily fragmented.",
+      "category": "Home Automation",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/denschu/home.pi",
+      "title": "home.pi ★ 145 ⧗ 1",
+      "description": "Home Automation with AngularJS and MQTT on a Raspberry Pi",
+      "category": "Home Automation",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/BitWise-0x/homebridge-blink-security",
+      "title": "homebridge-blink-security",
+      "description": "Homebridge plugin for Blink cameras, doorbells, and sirens with live streaming, arm/disarm, and motion detection via Apple HomeKit.",
+      "category": "Home Automation",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/BitWise-0x/homebridge-smartrent",
+      "title": "homebridge-smartrent",
+      "description": "Homebridge plugin for SmartRent locks, thermostats, leak sensors, and switches with real-time WebSocket updates via Apple HomeKit.",
+      "category": "Home Automation",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/jonathanrjpereira/Lumos",
+      "title": "Lumos ★ 70 ⧗ 1",
+      "description": "aims to change that by pairing with WiFi and uses Machine Learning to adjust the light to match your sleep schedule.",
+      "category": "Home Automation",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/mozilla/smarthome.iot",
+      "title": "Mozilla Smart Home ★ 4 ⧗ 8",
+      "description": "offers a middle ground between \"in a box\" solutions like Apple Homekit and DIY solutions like Raspberry Pi",
+      "category": "Home Automation",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/mycontroller-org/mycontroller",
+      "title": "MyController ★ 110 ⧗ 0",
+      "description": "is automation controller for home, office or any place.",
+      "category": "Home Automation",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://ninjablocks.com/",
+      "title": "Ninja Blocks",
+      "description": "Smart home controller. A computer for the coffee table.",
+      "category": "Home Automation",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/pimatic/pimatic",
+      "title": "Pimatic ★ 362 ⧗ 0",
+      "description": "A home automation server and framework for the raspberry pi running on node.js.",
+      "category": "Home Automation",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "http://projects.privateeyepi.com/",
+      "title": "PrivateEyePi",
+      "description": "Home Automation and Monitoring Projects for Raspberry Pi",
+      "category": "Home Automation",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "http://razberry.z-wave.me/",
+      "title": "RaZberry",
+      "description": "RaZberry brings Z-Wave to the Raspberry PI platform.",
+      "category": "Home Automation",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/KmanOz/Sonoff-HomeAssistant",
+      "title": "Sonoff-HomeAssistant ★ 336 ⧗ 1",
+      "description": "is alternative firmware for the brilliant & cheap ($ not quality) range of Sonoff range of ESP-8266 based WiFi controlled switches.",
+      "category": "Home Automation",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/futurice/vor",
+      "title": "Vör ★ 31 ⧗ 2",
+      "description": "is open source software and hardware for turning your open office into an open, real-time map for finding people, open work places and current events.",
+      "category": "Home Automation",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/node-red/node-red",
+      "title": "Node-RED",
+      "description": "Node-RED is a programming tool for wiring together hardware devices, APIs and online services in new and interesting ways.",
+      "category": "Home Automation",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/hkontrol/hkontroller",
+      "title": "hkontroller",
+      "description": "Apple HomeKit Controller implemented in Go programming language.",
+      "category": "Home Automation",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/hkontrol/hkmobile",
+      "title": "hkmobile",
+      "description": "Apple HomeKit Controller for Android.",
+      "category": "Home Automation",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/zhac-project/zhac-platform",
+      "title": "ZHAC",
+      "description": "A dual-chip ESP32-P4 + ESP32-S3 Zigbee home automation controller with a Lua rule engine, local web UI, and MQTT gateway.",
+      "category": "Home Automation",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/urish/angular2-iot",
+      "title": "Angular 2 IoT ★ 10 ⧗ 4",
+      "description": "is an experimental technology that allows you to program physical hardware (buttons, LEDs, etc.) using Angular 2.",
+      "category": "IDE",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/gepd/Deviot",
+      "title": "DevIoT ★ 70 ⧗ 1",
+      "description": "Sublime Text plugin for IoT development.",
+      "category": "IDE",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/platformio/platformio-atom-ide",
+      "title": "Platformio Atom IDE ★ 108 ⧗ 2",
+      "description": "The next generation integrated development environment for IoT.",
+      "category": "IDE",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/Wyliodrin/WyliodrinSTUDIO",
+      "title": "WyliodrinSTUDIO ★ 25 ⧗ 2",
+      "description": "Wyliodrin STUDIO is a Chrome based IDE for software and hardware development for IoT and Embedded Linux systems.",
+      "category": "IDE",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/cortoproject/corto",
+      "title": "Corto ★ 15 ⧗ 4",
+      "description": "Corto is a tested, proven architecture for normalizing data from different technologies into one view regardless of location, format or datamodel.",
+      "category": "Others",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/emul8/emul8",
+      "title": "Emul8 ★ 50 ⧗ 71",
+      "description": "is an emulator of various embedded systems. With Emul8 you can develop embedded software entirely in a virtual environment that runs within your PC.",
+      "category": "Others",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/LigaData/Kamanja",
+      "title": "Kamanja ★ 21 ⧗ 1",
+      "description": "is an open-source continuous decisioning engine that is hardened for enterprise reliability requirements, scalable to IoT level data volumes, and enables low latency use cases.",
+      "category": "Others",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://docs.openmqttgateway.com",
+      "title": "OpenMQTTGateway",
+      "description": "BLE, 433Mhz, LoRa to MQTT gateway with hundreds of devices supported. Integrate with Home-Assistant, OpenHAB, Jeedom, Domoticz, FHEM and many more.",
+      "category": "Others",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/sushantkumarkhobian-lab/Smart-Plantation",
+      "title": "Smart Plantation",
+      "description": "ESP32-based smart agriculture platform featuring real-time environmental monitoring, automated irrigation, crop-yield prediction, pest detection, secure sensor-data logging, and dashboard visualization.",
+      "category": "Others",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/PromenadeSoftware/Parlay",
+      "title": "Parlay ★ 8 ⧗ 160",
+      "description": "is software that brings visibility and accessibility to embedded devices.",
+      "category": "Others",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/muka/redzilla",
+      "title": "redzilla ★ 13 ⧗ 37",
+      "description": "is a service which allow to create easily instances of node-red.",
+      "category": "Others",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/JoaoLopesF/RemoteDebug",
+      "title": "RemoteDebug ★ 17 ⧗ 11",
+      "description": "A library to remote debug over telnet connection!",
+      "category": "Others",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/SolidStateGroup/rio",
+      "title": "rio ★ 68 ⧗ 0",
+      "description": "An open source library allowing you to create an internet connected LED wall",
+      "category": "Others",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/lyegoshin/tinyVP",
+      "title": "tinyVP ★ 12 ⧗ 48",
+      "description": "is a very small and lean hypervisor using MIPS R5 hardware VZ option",
+      "category": "Others",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/eclipse/vorto",
+      "title": "vorto ★ 32 ⧗ 3",
+      "description": "is a toolset that lets you describe devices using a simple language and share these descriptions, so-called Information Models, in a centralized Vorto Repository.",
+      "category": "Others",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/michaelthomasletts/boto3-refresh-session",
+      "title": "boto3-refresh-session",
+      "description": "A drop-in replacement for `boto3.session.Session` for automatically refreshing temporary AWS credentials from the AWS IoT Core credential provider (using an X.509 certificate).",
+      "category": "Others",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/c3d/elfe",
+      "title": "ELIoT ★ 76 ⧗ 48",
+      "description": "Extensible Language for Everyday (and the Internet of Things)",
+      "category": "Language",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/elua/elua",
+      "title": "eLua ★ 393 ⧗ 1",
+      "description": "Quickly prototype and develop embedded software applications with the power of Lua and run them on a wide range of microcontroller architectures.",
+      "category": "Language",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/esp8266/Basic",
+      "title": "ESP Basic ★ 144 ⧗ 0",
+      "description": "Basic Interpreter for the ESP8266",
+      "category": "Language",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/dimkr/szl",
+      "title": "szl ★ 100 ⧗ 0",
+      "description": "is a tiny, embeddable scripting engine inspired by Tcl and shell.",
+      "category": "Language",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/JanGoe/esp8266-wifi-relay",
+      "title": "ESP8266-Wifi-Relay ★ 31 ⧗ 19",
+      "description": "ESP8266-ESP12e Wifi Doppel Relay IOT Unterputz Montage möglich / Schaltaktor.",
+      "category": "Others",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/k3po/k3po",
+      "title": "K3PO ★ 22 ⧗ 9",
+      "description": "is a network driver and language agnostic testing tool.",
+      "category": "Others",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/cesanta/mongoose-flashing-tool",
+      "title": "Mongoose Flashing Tool ★ 36 ⧗ 7",
+      "description": "Mongoose Flashing Tool (also called MFT) is the Mongoose IoT Platform flashing tool.",
+      "category": "Others",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/IBM-Swift/Aphid",
+      "title": "Aphid ★ 58 ⧗ 4",
+      "description": "A lightweight MQTT 3.1.1 client written in pure Swift 3.",
+      "category": "MQTT",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/256dpi/arduino-mqtt",
+      "title": "arduino-mqtt ★ 95 ⧗ 6",
+      "description": "MQTT library for Arduino based on the Eclipse Paho projects.",
+      "category": "MQTT",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/eclipse/paho.mqtt.c",
+      "title": "Eclipse Paho MQTT C client ★ 142 ⧗ 3",
+      "description": "This code builds libraries which enable applications to connect to an MQTT broker to publish messages, and to subscribe to topics and receive published messages.",
+      "category": "MQTT",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/tuanpmt/esp_mqtt",
+      "title": "ESP8266 MQTT ★ 440 ⧗ 0",
+      "description": "MQTT client library for ESP8266 Soc",
+      "category": "MQTT",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://bitbucket.org/xoseperez/espurna",
+      "title": "Espruna",
+      "description": "Firmware for ESP8266 based smart switches. Includes Web GUI, MQTT and AOT software updates.",
+      "category": "MQTT",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/mikespook/gleam",
+      "title": "gLeam ★ 50 ⧗ 108",
+      "description": "A operation cluster based on MQTT.",
+      "category": "MQTT",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/hivemq",
+      "title": "HiveMQ",
+      "description": "a MQTT broker and MQTT client in Java.",
+      "category": "MQTT",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/marvinroger/homie-esp8266",
+      "title": "Homie for ESP8266 ★ 115 ⧗ 1",
+      "description": "An Arduino for ESP8266 implementation of Homie, an MQTT convention for the IoT.",
+      "category": "MQTT",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/marvinroger/homie-server",
+      "title": "Homie Server ★ 45 ⧗ 3",
+      "description": "A Web server for Homie, an MQTT convention for the IoT.",
+      "category": "MQTT",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/fusesource/mqtt-client",
+      "title": "Java mqtt-client ★ 405 ⧗ 2",
+      "description": "A Java MQTT Client.",
+      "category": "MQTT",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/PasiSalenius/LightMQTT",
+      "title": "LightMQTT ★ 32 ⧗ 11",
+      "description": "is a lightweight MQTT client, written in Swift.",
+      "category": "MQTT",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/ppatierno/m2mqtt",
+      "title": "m2mqtt ★ 69 ⧗ 11",
+      "description": "MQTT Client Library for .Net and WinRT.",
+      "category": "MQTT",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/moquette-io/moquette",
+      "title": "moquette ★ 2239 ⧗ 2",
+      "description": "Java MQTT lightweight broker.",
+      "category": "MQTT",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/eclipse/mosquitto",
+      "title": "Mosquitto ★ 158 ⧗ 0",
+      "description": "An Open Source MQTT v3.1/v3.1.1 Broker.",
+      "category": "MQTT",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://mqtt-explorer.com/",
+      "title": "MQTT Explorer",
+      "description": "Tool to visualize your MQTT topics in a topic hierarchy, a MQTT swiss-army knife.",
+      "category": "MQTT",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/jacklund/mqttKafkaBridge",
+      "title": "MQTT Kafka Bridge ★ 28 ⧗ 35",
+      "description": "Bridge which consumes MQTT messages and republishes them on Kafka on the same topic.",
+      "category": "MQTT",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/linkgo/neurite",
+      "title": "neurite ★ 4 ⧗ 5",
+      "description": "A serial to MQTT bridge, an easier way to build IoT product with esp8266 Arduino.",
+      "category": "MQTT",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/tennessine/paho.mqtt.wxapp",
+      "title": "paho.mqtt.wxapp ★ 196 ⧗ 0",
+      "description": "paho.mqtt.javascript可以让你在微信小程序里连接MQTT broker，实现在小程序里控制硬件，也可用于游戏。",
+      "category": "MQTT",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/strongloop/strong-pubsub",
+      "title": "strong-pubsub ★ 97 ⧗ 1",
+      "description": "PubSub for Node.js, Browser, Mobile and IoT",
+      "category": "MQTT",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/wolfSSL/wolfMQTT",
+      "title": "WolfSSL MQTT ★ 155 ⧗ 14",
+      "description": "A C MQTT library that works with WolfSSL.",
+      "category": "MQTT",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://waterstream.io/",
+      "title": "Waterstream",
+      "description": "MQTT broker leveraging Apache Kafka as its own storage and distribution engine.",
+      "category": "MQTT",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/nanomq/nanomq",
+      "title": "NanoMQ",
+      "description": "A light-weight and Blazing-fast MQTT Broker for IoT Edge platform.",
+      "category": "MQTT",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/eclipse/californium",
+      "title": "Californium ★ 36 ⧗ 0",
+      "description": "Californium is a Java implementation of CoAP for the IoT backend and less constrained IoT devices.",
+      "category": "CoAP",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/smeshlink/CoAP.NET",
+      "title": "CoAP.NET ★ 47 ⧗ 4",
+      "description": "A C# implementation of the CoAP protocol.",
+      "category": "CoAP",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/mkovatsc/Copper",
+      "title": "Copper ★ 46 ⧗ 14",
+      "description": "A Firefox add-on to browse the Internet of Things.",
+      "category": "CoAP",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/dustin/go-coap",
+      "title": "Go CoAP ★ 110 ⧗ 8",
+      "description": "Implementation of CoAP in go.",
+      "category": "CoAP",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/morkai/h5.coap",
+      "title": "h5.coap ★ 36 ⧗ 26",
+      "description": "Implementation of the Constrained Application Protocol (CoAP) client for node.js.",
+      "category": "CoAP",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/stuffrabbit/iCoAP",
+      "title": "iCoAP ★ 28 ⧗ 21",
+      "description": "Objective-C Client Implementation of CoAP.",
+      "category": "CoAP",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/open-coap/java-coap",
+      "title": "java-coap ★ 3 ⧗ 0",
+      "description": "Complete CoAP implementation in java (it is a fork with lots of improvements).",
+      "category": "CoAP",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/Lobaro/lobaro-coap",
+      "title": "lobaro-coap ★ 74 ⧗ 4",
+      "description": "Complete CoAP Implementation in C.",
+      "category": "CoAP",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/ARMmbed/java-coap",
+      "title": "mbed CoAP ★ 23 ⧗ 11",
+      "description": "makes it easy to integrate a Java SE enabled device with coap based services like mbed Cloud.",
+      "category": "CoAP",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/ckrey/MQTT-Client-Framework",
+      "title": "MQTT Client Framework ★ 312 ⧗ 1",
+      "description": "iOS, OSX, tvOS native ObjectiveC MQTT Client Framework.",
+      "category": "CoAP",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/mcollina/node-coap",
+      "title": "Node CoAP ★ 176 ⧗ 11",
+      "description": "node-coap is a client and server library for CoAP modeled after the http module.",
+      "category": "CoAP",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/openwsn-berkeley/coap",
+      "title": "Python CoAP ★ 36 ⧗ 5",
+      "description": "A CoAP Python library.",
+      "category": "CoAP",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/stuffrabbit/SwiftCoAP",
+      "title": "SwiftCoAP ★ 22 ⧗ 12",
+      "description": "Swift Server/Client Implementation of CoAP.",
+      "category": "CoAP",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/siskin/txThings",
+      "title": "txThings ★ 48 ⧗ 3",
+      "description": "CoAP library for Twisted framework.",
+      "category": "CoAP",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/spark/spark-protocol",
+      "title": "spark-protocol ★ 81 ⧗ 14",
+      "description": "Node.JS module for hosting direct encrypted CoAP socket connections.",
+      "category": "Spark",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/spark/spark-server",
+      "title": "spark-server ★ 371 ⧗ 13",
+      "description": "An API compatible open source server for interacting with devices speaking the spark-protocol",
+      "category": "Spark",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/kakopappa/arduino-esp8266-alexa-multiple-wemo-switch",
+      "title": "arduino-esp8266-alexa-multiple-wemo-switch ★ 213 ⧗ 0",
+      "description": "#Arduino Esp8266 Alexa Multiple Belkin wemo switch emulator.",
+      "category": "WeMo",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/kakopappa/arduino-esp8266-alexa-wemo-switch",
+      "title": "arduino-esp8266-alexa-wemo-switch ★ 213 ⧗ 5",
+      "description": "Amazon Alexa + WeMos switch made with Arduino D1 Mini.",
+      "category": "WeMo",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/makermusings/fauxmo",
+      "title": "fauxmo ★ 430 ⧗ 0",
+      "description": "Emulated Belkin WeMo devices that work with the Amazon Echo.",
+      "category": "WeMo",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/rudders/homebridge-platform-wemo",
+      "title": "homebridge-platform-wemo ★ 106 ⧗ 24",
+      "description": "Belkin WeMo Platform plugin for the awesome Homebridge project.",
+      "category": "WeMo",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/iancmcc/ouimeaux",
+      "title": "ouimeaux ★ 319 ⧗ 0",
+      "description": "Open source control for Belkin WeMo devices.",
+      "category": "WeMo",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/thatguydan/wemo.js",
+      "title": "wemo.js ★ 19 ⧗ 288",
+      "description": "This library aims to provide a simple interface to a Belkin WeMo Power Sockets.",
+      "category": "WeMo",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/dhleong/wemore",
+      "title": "wemore ★ 26 ⧗ 10",
+      "description": "A more awesome library for Belkin WeMo interactions.",
+      "category": "WeMo",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/darconeous/smcp",
+      "title": "SMCP ★ 55 ⧗ 0",
+      "description": "is an experimental CoAP-based machine-to-machine (M2M) protocol that is in the early stages of development.",
+      "category": "SMCP",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/brocaar/lora-gateway-bridge",
+      "title": "LoRa Gateway Bridge ★ 78 ⧗ 0",
+      "description": "is a service which abstracts the packet_forwarder UDP protocol running on most LoRa gateways into JSON over MQTT.",
+      "category": "Lora",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/brocaar/loraserver",
+      "title": "LoRa Server ★ 237 ⧗ 0",
+      "description": "LoRa Server is an open-source LoRaWAN network-server.",
+      "category": "Lora",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/hallard/LoRasPI",
+      "title": "LoRaPI ★ 28 ⧗ 31",
+      "description": "Raspberry PI Lora Gateway/Node for RFM92/95/96/98/69HCW Modules.",
+      "category": "Lora",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/CongducPham/LowCostLoRaGw",
+      "title": "LowCostLoRaGw ★ 161 ⧗ 4",
+      "description": "Low-cost LoRa IoT & gateway with SX1272/76, Raspberry and Arduino.",
+      "category": "Lora",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/OSGP/Platform",
+      "title": "OSGP Platform ★ 35 ⧗ 7",
+      "description": "is an open, generic, scalable and independent 'Internet of Things' platform, which enables various connected smart objects in the public space to be easily controlled and monitored.",
+      "category": "OSGP",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/openthread/borderrouter",
+      "title": "OpenThread Border Router ★ 64 ⧗ 0",
+      "description": "An open source border router, built to work with OpenThread.",
+      "category": "OpenThread",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/AVSystem/Anjay",
+      "title": "Anjay ★ 16 ⧗ 23",
+      "description": "is a C library that aims to be the reference implementation of the OMA Lightweight Machine-to-Machine (LwM2M) device management protocol.",
+      "category": "Others",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/MOSAIC-LoPoW/dash7-ap-open-source-stack",
+      "title": "OSS-7 ★ 44 ⧗ 37",
+      "description": "is an open source implementation of the DASH7 Alliance protocol for ultra low power wireless sensor communication.",
+      "category": "Others",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/leaberg69/aem-modbus-simulator",
+      "title": "aem-modbus-simulator ★ 0 ⧗ 0",
+      "description": "Open-source Modbus RTU/TCP slave simulator for the LRI AEM-60DC8 industrial DC monitor. Mirrors 147 holding registers, supports six baudrates (4,800–115,200), TCP and Serial modes. Useful for SCADA/PLC integration testing without physical hardware.",
+      "category": "Modbus",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/pymodbus-dev/pymodbus",
+      "title": "pymodbus ★ 2400 ⧗ 100",
+      "description": "A full Modbus protocol implementation for Python, supporting RTU, TCP, ASCII over serial and network transports.",
+      "category": "Modbus",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/stephane/libmodbus",
+      "title": "libmodbus ★ 2400 ⧗ 50",
+      "description": "A Modbus library for Linux, Mac OS, FreeBSD, QNX and Windows, written in C.",
+      "category": "Modbus",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/ianmas-aws/iot-button-emulator",
+      "title": "AWS IoT Button ★ 5 ⧗ 4",
+      "description": "Emulate the AWS IoT Button on a Raspberry Pi with a simple push button using this C++ sample.",
+      "category": "Fork",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/PureSwift/BluetoothLinux",
+      "title": "BluetoothLinux",
+      "description": null,
+      "category": "Bluetooth",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://gateway.theengs.io",
+      "title": "Theengs gateway",
+      "description": null,
+      "category": "Bluetooth",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/rusel1989/react-native-bluetooth-serial",
+      "title": "React Native Bluetooth Serial ★ 299 ⧗ 2",
+      "description": "React Native version of BluetoothSerial plugin. For both android and ios",
+      "category": "Bluetooth",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/adafruit/Adafruit_NFCShield_I2C",
+      "title": "Adafruit_NFCShield_I2C ★ 110 ⧗ 13",
+      "description": "I2C Driver for Adafruit's PN532-based NFC Shield",
+      "category": "NFC",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/GoogleChrome/chrome-nfc",
+      "title": "Chrome App NFC Library ★ 117 ⧗ 4",
+      "description": "With this simple library, you can build a Chrome App that communicates over USB with NFC Readers.",
+      "category": "NFC",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/islog/liblogicalaccess",
+      "title": "LibLogicalAccess ★ 53 ⧗ 17",
+      "description": "C++ RFID Library for Windows/Linux/Mac. For PC/SC, NFC, ISO compliant and proprietary hardware.",
+      "category": "NFC",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/nfc-tools/libnfc",
+      "title": "libnfc ★ 119 ⧗ 4",
+      "description": "Platform independent Near Field Communication library.",
+      "category": "NFC",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/grundid/nfctools",
+      "title": "NFC Tools for Java ★ 183 ⧗ 26",
+      "description": "NFCTools is a collection of libraries and tools for NFC in Java.",
+      "category": "NFC",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/camme/node-nfc",
+      "title": "Node NFC ★ 41 ⧗ 38",
+      "description": "A first try at binding libnfc to node.",
+      "category": "NFC",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/AdamLaurie/RFIDIOt",
+      "title": "RFIDIOt ★ 314 ⧗ 6",
+      "description": "python RFID / NFC library & tools.",
+      "category": "NFC",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/rxtx/rxtx",
+      "title": "rxtx ★ 67 ⧗ 4",
+      "description": "a Java cross platform wrapper library for the serial port",
+      "category": "Serial",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/resin-os/balena",
+      "title": "Balena ★ 329 ⧗ 3",
+      "description": "is a new container engine purpose-built for embedded and IoT use cases and compatible with Docker containers.",
+      "category": "Others",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/ibm-messaging",
+      "title": "IBM messaging",
+      "description": "Community around IBM Messaging products.",
+      "category": "Others",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/sensaura-public/iotweb",
+      "title": "IotWeb ★ 4 ⧗ 9",
+      "description": "A Embedded HTTP and WebSocket Server for UWP/.NET 4.5.",
+      "category": "Others",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/mendersoftware/deployments",
+      "title": "Mender: Deployment Service ★ 8 ⧗ 14",
+      "description": "Microservice for managing software deployments for IIoT devices within Mender ecosystem.",
+      "category": "Others",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/kipe/enocean",
+      "title": "Python Enocean ★ 13 ⧗ 45",
+      "description": "A Python library for reading and controlling EnOcean devices.",
+      "category": "Others",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/tuanpmt/react-native-smartconfig",
+      "title": "React Native ESP8266 Smartconfig ★ 75 ⧗ 5",
+      "description": "a react-native module for ESP8266 ESPTOUCH Smart config.",
+      "category": "Others",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/shellhub-io/shellhub",
+      "title": "ShellHub ★ 702 ⧗ 70",
+      "description": "Centralized SSH for the the edge and cloud computing.",
+      "category": "Others",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/TheThingsNetwork/lorawan-stack",
+      "title": "The Things Stack ★ 887 ⧗ 4",
+      "description": "The Things Stack, an open source LoRaWAN network server created by The Things Industries. Creators of the global open crowdsourced Internet of Things data network The Things Network.",
+      "category": "Others",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/TheThingsNetwork/arduino-device-lib",
+      "title": "The Things Network Arduino Library ★ 82 ⧗ 9",
+      "description": "is an Arduino Library for Arduino devices like The Things Uno and Node to communicate via The Things Network.",
+      "category": "Others",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/wamp-proto/wamp-proto",
+      "title": "WAMP Protocol ★ 228 ⧗ 1",
+      "description": "The Web Application Messaging Protocol The Web Application Messaging Protocol.",
+      "category": "Others",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "http://www.eclipse.org/paho",
+      "title": "Paho",
+      "description": "The Paho project provides open-source client implementations of MQTT and MQTT-SN messaging protocols aimed at new, existing, and emerging applications for Machine‑to‑Machine (M-2-M) and Internet of Things (IoT).",
+      "category": "Tools",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/cesanta/smart.js",
+      "title": "Smart.js ★ 487 ⧗ 0",
+      "description": "Embedded Javascript engine for C/C++ with networking, file, database and device interfaces",
+      "category": "Tools",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/volkanalkilic/ThingsOn.MQTT.Bench",
+      "title": "ThingsOn MQTT Bench",
+      "description": "ThingsOn MQTT Bench is a simple Cross-platform .NET Core benchmark tool for MQTT brokers. It measures the maximum number of messages that can be sent to the broker in a specified amount of time.",
+      "category": "Tools",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/iotmertech/iot-data-generator",
+      "title": "Mer",
+      "description": "A developer-friendly IoT test data generator CLI written in Rust. Supports MQTT, HTTP, and TCP for simulating realistic sensor payloads.",
+      "category": "Tools",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/volkanalkilic/Mqtt-File-Uploader",
+      "title": "MQTT File Uploader",
+      "description": "MQTT File Uploader is a simple Cross-platform .NET Core application that watches local directories for changes and uploads new or modified files to an MQTT broker.",
+      "category": "Tools",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/chelexa/chelexa",
+      "title": "chelexa ★ 2 ⧗ 25",
+      "description": "Natural voice recognition IoT cloud chess solution via the Amazon Echo platform.",
+      "category": "Voice",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://mycroft.ai/",
+      "title": "Mycroft",
+      "description": "Mycroft is the world’s first open source voice assistant.",
+      "category": "Voice",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://www.cybrary.it/course/advanced-penetration-testing/",
+      "title": "Advanced Penetration Testing",
+      "description": "Free",
+      "category": "Course",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://www.coursera.org/specializations/iot",
+      "title": "An Introduction to Programming the Internet of Things (IOT) Specialization",
+      "description": "Landing page of 6 courses (Introduction to the Internet of Things and Embedded Systems / The Arduino Platform and C Programming / Interfacing with the Arduino / The Raspberry Pi Platform and Python Programming for the Raspberry Pi / Interfacing with the Raspberry Pi / Programming for the Internet of Things Capstone).",
+      "category": "Course",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://www.coursera.org/learn/iot-architecture",
+      "title": "Architecting Smart IoT Devices",
+      "description": "Free",
+      "category": "Course",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://www.pluralsight.com/courses/building-intelligent-system-embedded-to-cloud",
+      "title": "Build an Intelligent System: From Embedded to Cloud (NOT FREE)",
+      "description": "None",
+      "category": "Course",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://www.cybrary.it/course/cryptography/",
+      "title": "Cryptography",
+      "description": "Free",
+      "category": "Course",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "http://online.stanford.edu/course/cyber-security-graduate-certificate",
+      "title": "Cyber Security Graduate Certificate",
+      "description": "Courses: Operating Systems and Systems Programming, Introduction to Computer Networking, Computer and Network Security, Bitcoin and Crypto Currencies, Introduction to Cryptography, Technology and National Security (Paid).",
+      "category": "Course",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://www.coursera.org/learn/iot-devices",
+      "title": "Introduction to Architecting Smart IoT Devices",
+      "description": "Free",
+      "category": "Course",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://www.cybrary.it/course/ethical-hacking/",
+      "title": "Penetration Testing and Ethical Hacking",
+      "description": "Free",
+      "category": "Course",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://www.cybrary.it/course/secure-coding/",
+      "title": "Secure Coding",
+      "description": "Free",
+      "category": "Course",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/awslabs/lambda-refarch-iotbackend",
+      "title": "Serverless Reference Architecture: IoT Backend ★ 134 ⧗ 3",
+      "description": "demonstrates how to use AWS Lambda in conjunction with Amazon Kinesis, Amazon DynamoDB, Amazon Simple Storage Service (Amazon S3), and Amazon CloudWatch to build a serverless system for ingesting and processing sensor data.",
+      "category": "Course",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://www.cybrary.it/course/social-engineering/",
+      "title": "Social Engineering and Manipulation",
+      "description": "Free",
+      "category": "Course",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://www.coursera.org/learn/iot-software-architecture",
+      "title": "Software Architecture for the Internet of Things",
+      "description": "Free",
+      "category": "Course",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "http://computersecurity.stanford.edu/?q=certificate-overview",
+      "title": "Stanford Advanced Computer Security Certificate",
+      "description": "Required courses: Using Cryptography Correctly, Writing Secure Code, Exploiting and Protecting Web Applications; Elective courses: Software Security Foundations, Mobile Security, Network Security, Emerging Threats & Defenses (Paid).",
+      "category": "Course",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://www.cybrary.it/course/web-application-pen-testing/",
+      "title": "Web Application Penetration Testing",
+      "description": "Free",
+      "category": "Course",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://www.coursera.org/learn/iot-connectivity-security",
+      "title": "Web Connectivity and Security in Embedded Systems",
+      "description": "Free",
+      "category": "Course",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://skillcombo.com/topic/internet-of-things/free/",
+      "title": "IOT online courses",
+      "description": "Free",
+      "category": "Course",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://iot.eclipse.org",
+      "title": "Eclipse IoT",
+      "description": "Eclipse Foundation IoT top level project and working group.",
+      "category": "WebSite",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://hackaday.io/projects",
+      "title": "Hackaday",
+      "description": "Discover. Get inspired. Repeat. Hack things for the better.",
+      "category": "WebSite",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "http://www.ibm.com/developerworks/cn/iot",
+      "title": "IBM IoT",
+      "description": "IBM DeveloperWorks for IoT",
+      "category": "WebSite",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "http://www.infoq.com/cn/adf",
+      "title": "Infoq IoT Weekly",
+      "description": "Weekly IoT News, Open Source Project, Hardware",
+      "category": "WebSite",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "http://www.instructables.com/tag/type-id/category-technology/",
+      "title": "Instructables - tech",
+      "description": "Explore the Biggest How To and DIY community where people make and share inspiring, entertaining, and useful projects, recipes, and hacks.",
+      "category": "WebSite",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://makezine.com/",
+      "title": "Makezine",
+      "description": "DIY Projects and Ideas for Makers.",
+      "category": "WebSite",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://kandi.openweaver.com/explore/internet-of-things",
+      "title": "Explore IoT",
+      "description": "A search engine 🔎 tool to discover & find a curated list of popular & new IoT libraries across all languages, top authors, trending project kits, discussions, tutorials & learning resources.",
+      "category": "WebSite",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://create.arduino.cc",
+      "title": "Arduino Create",
+      "description": "None",
+      "category": "Blog",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "http://edi.wang/",
+      "title": "http://edi.wang/",
+      "description": "``ASP.NET``, ``Windows 10 IoT``",
+      "category": "Blog",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://www.ibm.com/blogs/internet-of-things/",
+      "title": "IBM IoT Blog",
+      "description": "None",
+      "category": "Blog",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://industrial-iot.com/",
+      "title": "Industrial IoT blog",
+      "description": "\"Industrial IoT/Industrie 4.0 Viewpoints\".",
+      "category": "Blog",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://software.intel.com/zh-cn/iot/home",
+      "title": "Intel IoT Blog",
+      "description": "None",
+      "category": "Blog",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://blogs.microsoft.com/iot/",
+      "title": "Microsoft IoT Blog",
+      "description": "None",
+      "category": "Blog",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "http://www.cnblogs.com/lsjwq/",
+      "title": "唯笑志在-ServerSuperIO",
+      "description": "None",
+      "category": "Blog",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://blog.bosch-si.com/",
+      "title": "Bosch ConnectedWorld Blog",
+      "description": "IoT articles from the world of Bosch.",
+      "category": "Blog",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://www.iotforall.com/",
+      "title": "IoT for All",
+      "description": "High-quality IoT content, resources, and news.",
+      "category": "Blog",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "http://www.guokr.com/group/27/",
+      "title": "Guokr DIY",
+      "description": "A Chinese DIY Group.",
+      "category": "Group",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/intel-iot-devkit",
+      "title": "Intel iot-devkit libraries",
+      "description": "Official github repo for Intel IoT developer kit libraries & samples",
+      "category": "GitHub Org.",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/ms-iot/",
+      "title": "Microsoft IoT",
+      "description": "Microsoft IoT Team",
+      "category": "GitHub Org.",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/hybridgroup",
+      "title": "The Hybrid Group",
+      "description": "the create of cylon.js",
+      "category": "GitHub Org.",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/nladuo/IoT-Firstep",
+      "title": "IoT-Firstep ★ 24 ⧗ 9",
+      "description": "A Ebook to tech your create IoT System.",
+      "category": "Free Book",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "http://github.com/marcozennaro/IPv6-WSN-book",
+      "title": "IPv6-WSN-Book",
+      "description": "an easy guide to Wireless Sensor Networks (WSN), IPv6 and the Internet of Things (IoT).",
+      "category": "Free Book",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://www.manning.com/books/using-the-web-to-build-the-iot",
+      "title": "Using the Web to Build the IoT",
+      "description": "A collection of six hand-picked chapters that introduce the key technologies and concepts for building the application layer of the IoT.",
+      "category": "Free Book",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/fkromer/awesome-embedded-systems",
+      "title": "awesome-embedded-systems ★ 0 ⧗ 29",
+      "description": "The website [awesome-embedded-systems.org](http://awesome-embedded-systems.org) lists resources about embedded system, software and hardware development.",
+      "category": "Related Resources Projects",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/kritishmohapatra/100_Days_100_IoT_Projects",
+      "title": "100 Days 100 IoT Projects",
+      "description": "A 100-day challenge building real-world IoT projects with MicroPython on ESP32, ESP8266 and Raspberry Pi Pico 2W. Step-by-step documented with wiring diagrams and code for beginners.",
+      "category": "Tutorial",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/nearform/micro-services-tutorial-iot",
+      "title": "micro-services-tutorial-iot ★ 20 ⧗ 13",
+      "description": "An instructor led microservices workshop.",
+      "category": "Tutorial",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://tutorialsearch.io/browse/programming-languages/iot-systems",
+      "title": "TutorialSearch",
+      "description": "Free cross-platform search engine indexing 50,000+ tutorials from Udemy, Skillshare, Pluralsight, and other major learning platforms across 45+ categories.",
+      "category": "Tutorial",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://www.udemy.com/unpacking-the-internet-of-things/learn/v4/overview",
+      "title": "Unpacking the Internet of Things",
+      "description": "Shows use cases to help to identify possible potential for enterprise specific products.",
+      "category": "Tutorial",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/sofianinho/training/tree/master/iot",
+      "title": "Arduino, RaspberryPi and MQTT",
+      "description": "Builds an end to end IoT application that ties together several aspects of the MQTT protocol.",
+      "category": "Tutorial",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/lf-edge/eden",
+      "title": "Eden ★ 25 ⧗ 0",
+      "description": "CLI for Edge Virtualization Engine (EVE)",
+      "category": "Edge",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/bashrc/libdeep",
+      "title": "libdeep",
+      "description": "A deep learning library for C/C++.",
+      "category": "AI",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/kerberos-io/machinery",
+      "title": "Machinery ★ 174 ⧗ 0",
+      "description": "is a low-budget video surveillance solution, that uses computer vision algorithms to detect changes, and that can trigger other devices.",
+      "category": "AI",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/samjabrahams/tensorflow-on-raspberry-pi",
+      "title": "TensorFlow for Raspberry Pi ★ 317 ⧗ 0",
+      "description": "step-by-step instructions for installing TensorFlow from source using Bazel (which is also compiled from-scratch), as well as pre-built TensorFlow binaries.",
+      "category": "AI",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/larionovavi-stack/genesis2-cascade-moe",
+      "title": "Genesis 2",
+      "description": "Cascade MoE neural network for IoT edge deployments. CPU-only inference (18ms), no GPU required, patented architecture with zero catastrophic forgetting.",
+      "category": "AI",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/samsara/samsara",
+      "title": "Samsara ★ 64 ⧗ 1",
+      "description": "is a real-time analytics platform.",
+      "category": "Analytics",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/eclipse/ditto",
+      "title": "Eclipse Ditto",
+      "description": null,
+      "category": "Digital Twins",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/Azure/connectthedots",
+      "title": "connectthedots ★ 307 ⧗ 0",
+      "description": "Connect tiny devices to Microsoft Azure services to build IoT solutions",
+      "category": "Others",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/foxmask/django-th",
+      "title": "django-th ★ 275 ⧗ 0",
+      "description": "take the control of your data with this opensource clone of IFTTT, a bridge between your internet services.",
+      "category": "Others",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    },
+    {
+      "url": "https://github.com/souliss/souliss",
+      "title": "souliss ★ 137 ⧗ 8",
+      "description": "Arduino based Distributed Networking Framework for Smart Homes and IoT.",
+      "category": "Others",
+      "source": "phodal/awesome-iot",
+      "indexedAt": "2026-07-23T14:54:18.401Z"
+    }
+  ],
+  "categories": [
+    "Awesome IoT ![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)",
+    "Framework",
+    "SDK",
+    "Arduino",
+    "Low Level",
+    "App",
+    "Storage",
+    "Security",
+    "OS",
+    "Android Things",
+    "Voice Controller",
+    "Platform",
+    "IoT Clouds",
+    "IIoT Clouds",
+    "APIs",
+    "Middleware",
+    "Toolkits Include Non-OS",
+    "Data Visualization",
+    "Real-time Data",
+    "Hardware",
+    "Home Automation",
+    "IDE",
+    "Others",
+    "Language",
+    "Others",
+    "MQTT",
+    "CoAP",
+    "Spark",
+    "WeMo",
+    "SMCP",
+    "Lora",
+    "OSGP",
+    "OpenThread",
+    "Others",
+    "Modbus",
+    "Fork",
+    "Bluetooth",
+    "NFC",
+    "Serial",
+    "Others",
+    "Software",
+    "Tools",
+    "Voice",
+    "Course",
+    "WebSite",
+    "Blog",
+    "Group",
+    "GitHub Org.",
+    "Free Book",
+    "Related Resources Projects",
+    "Tutorial",
+    "Edge",
+    "AI",
+    "Analytics",
+    "Digital Twins",
+    "Others"
+  ],
+  "crawledAt": "2026-07-23T14:54:18.401Z"
+}

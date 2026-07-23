@@ -1,0 +1,16 @@
+{
+  "id": "command",
+  "category": "patterns",
+  "label": "Command",
+  "aliases": [],
+  "description": "Encapsulates a request as an object, allowing parameterization of clients",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Command_pattern",
+    "wikidata": "https://www.wikidata.org/wiki/Q791060"
+  },
+  "indexedAt": "2026-07-23T14:36:43.386Z"
+}

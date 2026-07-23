@@ -1,0 +1,16 @@
+{
+  "id": "convention-over-configuration",
+  "category": "principles",
+  "label": "Convention over Configuration",
+  "aliases": [],
+  "description": "Software design paradigm",
+  "summary": "Convention over configuration is a software design paradigm used by software frameworks that attempts to decrease the number of decisions that a developer using the framework is required to make without necessarily losing flexibility and don't repeat yourself (DRY) principles.",
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Convention_over_configuration",
+    "wikidata": "https://www.wikidata.org/wiki/Q1129629"
+  },
+  "indexedAt": "2026-07-23T14:36:04.468Z"
+}

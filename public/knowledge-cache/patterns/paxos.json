@@ -1,0 +1,16 @@
+{
+  "id": "paxos",
+  "category": "patterns",
+  "label": "Paxos",
+  "aliases": [],
+  "description": "Consensus algorithm for reaching agreement in a distributed system",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Paxos_(computer_science)",
+    "wikidata": "https://www.wikidata.org/wiki/Q1279830"
+  },
+  "indexedAt": "2026-07-23T14:36:47.612Z"
+}

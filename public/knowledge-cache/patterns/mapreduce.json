@@ -1,0 +1,16 @@
+{
+  "id": "mapreduce",
+  "category": "patterns",
+  "label": "MapReduce",
+  "aliases": [],
+  "description": "Programming model for processing large datasets in parallel across clusters",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/MapReduce",
+    "wikidata": "https://www.wikidata.org/wiki/Q163493"
+  },
+  "indexedAt": "2026-07-23T14:36:47.283Z"
+}

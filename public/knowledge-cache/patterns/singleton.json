@@ -1,0 +1,16 @@
+{
+  "id": "singleton",
+  "category": "patterns",
+  "label": "Singleton",
+  "aliases": [],
+  "description": "Ensures a class has only one instance and provides a global access point",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Singleton_pattern",
+    "wikidata": "https://www.wikidata.org/wiki/Q167258"
+  },
+  "indexedAt": "2026-07-23T14:36:39.579Z"
+}

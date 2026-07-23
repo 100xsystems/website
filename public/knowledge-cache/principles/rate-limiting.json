@@ -1,0 +1,13 @@
+{
+  "id": "rate-limiting",
+  "category": "principles",
+  "label": "Rate Limiting",
+  "aliases": [],
+  "description": "Control the rate of incoming requests to protect system resources",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {},
+  "indexedAt": "2026-07-23T14:36:09.980Z"
+}

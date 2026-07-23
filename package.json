@@ -11,7 +11,7 @@
     "build-storybook": "storybook build -c src/presentation/__components/_storybook/config",
     "presync": "node scripts/sync-curriculum.mjs",
     "fetch-feed-cache": "node scripts/fetch-feed-cache.mjs",
-    "prebuild": "npm run presync && node scripts/copy-content-images.mjs && npm run fetch-feed-cache && node scripts/fetch-awesome-cache.mjs"
+    "prebuild": "npm run presync && node scripts/copy-content-images.mjs && npm run fetch-feed-cache && node scripts/fetch-awesome-cache.mjs && node scripts/fetch-knowledge-cache.mjs"
   },
   "dependencies": {
     "@animateicons/react": "^0.3.4",

@@ -1,0 +1,16 @@
+{
+  "id": "bloom-filter",
+  "category": "patterns",
+  "label": "Bloom Filter",
+  "aliases": [],
+  "description": "Data structure for approximate set membership",
+  "summary": "In computing, a Bloom filter is a space-efficient probabilistic data structure, conceived by Burton Howard Bloom in 1970, that is used to test whether an element is a member of a set. False positive matches are possible, but false negatives are not – in other words, a query returns either \"possibly in set\" or \"definitely not in set\". Elements can be added to the set, but not removed ; the more items added, the larger the probability of false positives.",
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Bloom_filter",
+    "wikidata": "https://www.wikidata.org/wiki/Q483303"
+  },
+  "indexedAt": "2026-07-23T14:36:48.978Z"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "leader-follower",
+  "category": "patterns",
+  "label": "Leader-Follower Replication",
+  "aliases": [],
+  "description": "One node handles writes, others replicate and serve reads",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {},
+  "indexedAt": "2026-07-23T14:36:50.299Z"
+}

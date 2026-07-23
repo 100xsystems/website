@@ -2,7 +2,7 @@
 
 import React from 'react';
 import type { Article } from './feed.types';
-import { timeAgo, truncate } from './feed.utils';
+import { timeAgo, truncate, highlightMatches } from './feed.utils';
 import { cn } from '@/application/lib/utils';
 import { Badge, Tag, Text, Icon } from '@/presentation/__components';
 
@@ -13,9 +13,11 @@ interface ArticleCardProps {
   isFocused: boolean;
   onBookmarkToggle: (article: Article) => void;
   onRead?: (url: string) => void;
+  /** If provided, matched terms in title & summary get highlighted */
+  searchQuery?: string;
 }
 
-export function ArticleCard({ article, isBookmarked, isRead, isFocused, onBookmarkToggle, onRead }: ArticleCardProps) {
+export function ArticleCard({ article, isBookmarked, isRead, isFocused, onBookmarkToggle, onRead, searchQuery }: ArticleCardProps) {
   const handleShare = async () => {
     if (navigator.share) {
       await navigator.share({ title: article.title, url: article.url });
@@ -51,14 +53,16 @@ export function ArticleCard({ article, isBookmarked, isRead, isFocused, onBookma
       {/* Article title */}
       <a href={article.url} target="_blank" rel="noopener noreferrer" className="block" onClick={() => onRead?.(article.url)}>
         <h3 className={cn('text-base font-bold leading-snug mb-1.5 transition-colors duration-200', isFocused ? 'text-white' : 'text-fg group-hover:text-accent')}>
-          {article.title}
+          {searchQuery ? highlightMatches(article.title, searchQuery) : article.title}
         </h3>
       </a>
 
       {/* Summary */}
       {article.summary && (
         <Text variant="body" className={cn('mb-3 line-clamp-2 transition-colors duration-200', isFocused ? 'text-white/70' : 'text-fg-tertiary')}>
-          {truncate(article.summary, 200)}
+          {searchQuery
+            ? highlightMatches(truncate(article.summary, 200), searchQuery)
+            : truncate(article.summary, 200)}
         </Text>
       )}
 

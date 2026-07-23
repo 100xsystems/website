@@ -1,0 +1,16 @@
+{
+  "id": "graceful-degradation",
+  "category": "principles",
+  "label": "Graceful Degradation",
+  "aliases": [],
+  "description": "Resilience of systems to component failures or errors",
+  "summary": "Fault tolerance is the ability of a system to contain the propagation of faults. Faults may manifest as errors causing incorrect system state. Failure tolerant systems mask errors and maintain failure-free operation in the presence of one or more faulty components. This capability is essential for high-availability, mission-critical, or even life-critical systems.",
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Graceful_degradation",
+    "wikidata": "https://www.wikidata.org/wiki/Q5590987"
+  },
+  "indexedAt": "2026-07-23T14:36:09.230Z"
+}

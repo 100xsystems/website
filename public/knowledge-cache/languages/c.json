@@ -1,0 +1,16 @@
+{
+  "id": "c",
+  "category": "languages",
+  "label": "C",
+  "aliases": [],
+  "description": "General-purpose programming language",
+  "summary": "C is a general-purpose programming language created in the 1970s by Dennis Ritchie. By design, C gives programmers relatively direct access to the features of typical CPU architectures, customized for the target instruction set. It has been and continues to be used to implement operating systems, device drivers, and protocol stacks, though its use in application software is decreasing. C is used on computers ranging from supercomputers to microcontrollers and embedded systems.",
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/C_(programming_language)",
+    "wikidata": "https://www.wikidata.org/wiki/Q15777"
+  },
+  "indexedAt": "2026-07-23T14:36:14.057Z"
+}

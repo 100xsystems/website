@@ -1,0 +1,2307 @@
+{
+  "repoId": "anaibol/awesome-serverless",
+  "name": ":cloud: A curated list of awesome services, solutions and resources for serverless / nobackend applications.",
+  "description": ":cloud: A curated list of awesome services, solutions and resources for serverless / nobackend applications.",
+  "repoUrl": "https://github.com/anaibol/awesome-serverless",
+  "stars": 7585,
+  "topics": [
+    "cloud",
+    "cloud-computing",
+    "microservice",
+    "nobackend",
+    "serverless-applications",
+    "webservices"
+  ],
+  "links": [
+    {
+      "url": "https://www.quora.com/What-is-serverless-computing",
+      "title": "Quora: What is Serverless Computing?",
+      "description": null,
+      "category": "What is \"serverless\" computing?",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://appdrag.com",
+      "title": "AppDrag",
+      "description": "Cloud Backend with SQL database and serverless API builder, Cloud CMS with domain management and email marketing tools",
+      "category": "All in one solutions",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.firebase.com",
+      "title": "Firebase",
+      "description": "Realtime database, authentication, hosting. A powerful platform for your mobile or web application.",
+      "category": "All in one solutions",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.back4app.com",
+      "title": "Back4App",
+      "description": "A Backend as a Service platform powered by Parse Open Source which you can use to build your app faster, host it with no hassles and keep full control over your Backend.",
+      "category": "All in one solutions",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://leancloud.app",
+      "title": "LeanCloud",
+      "description": "Serverless cloud for lightning-fast development.",
+      "category": "All in one solutions",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://nitric.io",
+      "title": "Nitric",
+      "description": "An Open Source framework for rapidly building serverless applications.",
+      "category": "All in one solutions",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://backendless.com",
+      "title": "Backendless",
+      "description": "Realtime database, authentication, hosting.",
+      "category": "All in one solutions",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "http://www.kinvey.com",
+      "title": "Kinvey",
+      "description": "Build your digital business faster with mobile Backend as a Service.",
+      "category": "All in one solutions",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://syncano.io",
+      "title": "Syncano",
+      "description": "An all-in-one platform to create realtime apps without a server.",
+      "category": "All in one solutions",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "http://hood.ie",
+      "title": "Hoodie",
+      "description": "Hoodie is a complete backend for your apps: develop your frontend code.",
+      "category": "All in one solutions",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://paraio.com",
+      "title": "Para",
+      "description": "Flexible and lightweight backend service for rapid prototyping, based on open source software.",
+      "category": "All in one solutions",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://parseplatform.org/",
+      "title": "Parse Server",
+      "description": "Parse Server is an open source version of the Parse backend that can be deployed to any infrastructure that can run Node.js. You can find the source on the [GitHub repo](https://github.com/parse-community/parse-server).",
+      "category": "All in one solutions",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.wolkenkit.io",
+      "title": "wolkenkit",
+      "description": "wolkenkit is a CQRS and event-sourcing framework for JavaScript and Node.js which fits perfectly with domain-driven design (DDD).",
+      "category": "All in one solutions",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://kuzzle.io",
+      "title": "Kuzzle",
+      "description": "High performance cloud agnostic backend solution including persistence, authentication, realtime database and geofencing with a full featured cluster mode.",
+      "category": "All in one solutions",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.serverless-cqrs.com",
+      "title": "serverless-cqrs",
+      "description": "A collection tools to help you build a fully functioning backend based on the principles of CQRS, Event Sourcing, Domain Driven Design, and Onion Architecture.",
+      "category": "All in one solutions",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://ops.city",
+      "title": "ops",
+      "description": "A free open source tool that allows anyone to build, run and deploy normal linux applications as unikernels.",
+      "category": "All in one solutions",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://codehooks.io",
+      "title": "codehooks.io",
+      "description": "A modern, lightweight serverless backend platform tailored for building data-powered APIs fast using JavaScript/TypeScript and NoSQL. Free plan.",
+      "category": "All in one solutions",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://github.com/vuics/h9y",
+      "title": "HyperAgency",
+      "description": "Serverless agentic AI operating system (h9y.ai). Open-source, self-hosted/cloud, omni-channel, decentralized, extensible.",
+      "category": "All in one solutions",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://faastruby.io",
+      "title": "FaaStRuby",
+      "description": "Serverless Software Development Platform for Ruby and Crystal developers.",
+      "category": "Hosting and code execution in the cloud",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://aws.amazon.com/lambda",
+      "title": "AWS Lambda",
+      "description": "Run code without thinking about servers. Pay for only the compute time you consume.",
+      "category": "Hosting and code execution in the cloud",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://cloud.google.com/functions/docs",
+      "title": "Google Cloud Functions",
+      "description": "Lightweight, event-based, asynchronous compute solution that allows you to create small, single-purpose functions that respond to cloud events without the need to manage a server or a runtime environment.",
+      "category": "Hosting and code execution in the cloud",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.mongodb.com/cloud/stitch",
+      "title": "MongoDB Stitch",
+      "description": "Serverless platform from MongoDB.",
+      "category": "Hosting and code execution in the cloud",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://spotinst.com/products/spotinst-functions/",
+      "title": "Spotinst Functions",
+      "description": "Deploy serverless functions with our easy to use framework that launch onto the Spot Market for cheap and convenient use.",
+      "category": "Hosting and code execution in the cloud",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://azure.microsoft.com/en-us/services/functions",
+      "title": "Azure Functions",
+      "description": "Listen and react to events across your stack.",
+      "category": "Hosting and code execution in the cloud",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "http://fission.io",
+      "title": "Fission",
+      "description": "Fast, extensible, open source serverless functions on any Kubernetes cluster",
+      "category": "Hosting and code execution in the cloud",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://console.bluemix.net/openwhisk/",
+      "title": "IBM Cloud Functions",
+      "description": "Distributed compute service to execute application logic in response to events.",
+      "category": "Hosting and code execution in the cloud",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://knative.dev/",
+      "title": "Knative",
+      "description": "Kubernetes-based platform to build, deploy, and manage modern serverless workloads",
+      "category": "Hosting and code execution in the cloud",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://kubeless.io/",
+      "title": "Kubeless",
+      "description": "is a Kubernetes-native serverless solution.",
+      "category": "Hosting and code execution in the cloud",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.iron.io/platform/ironworker",
+      "title": "iron.io",
+      "description": "Isolates code and dependencies of individual tasks so they can be processed on demand.",
+      "category": "Hosting and code execution in the cloud",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://weblab.io",
+      "title": "weblab.io",
+      "description": "Microservices at your fingertips.",
+      "category": "Hosting and code execution in the cloud",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.peer5.com",
+      "title": "Peer5",
+      "description": "The serverless CDN. Limitless, affordable video delivery. More traffic means a stronger network.",
+      "category": "Hosting and code execution in the cloud",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://stdlib.com",
+      "title": "StdLib",
+      "description": "Function as a service library and platform.",
+      "category": "Hosting and code execution in the cloud",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.webscript.io",
+      "title": "Webscripts",
+      "description": null,
+      "category": "Hosting and code execution in the cloud",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "http://surge.sh",
+      "title": "Surge",
+      "description": "Deploy static sites from the command line.",
+      "category": "Hosting and code execution in the cloud",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://netlify.com",
+      "title": "Netlify",
+      "description": "All-in-one platform for automating modern web projects. Build and host static sites, deploy AWS lambda functions, and more, all from git repositories.",
+      "category": "Hosting and code execution in the cloud",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.aerobatic.com",
+      "title": "Aerobatic",
+      "description": "Deploy static sites from the command line with plugins including password protection, CORS proxy, and [more](https://www.aerobatic.com/docs/plugins).",
+      "category": "Hosting and code execution in the cloud",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://github.com/siscia/effe",
+      "title": "Effe",
+      "description": "a simple Open Source building block to emulate AWS Lambda.",
+      "category": "Hosting and code execution in the cloud",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://vercel.com",
+      "title": "Vercel",
+      "description": "Build and deploy 40 different web frameworks with zero configuration along with Node.js, Python, Go, and Ruby Serverless Functions",
+      "category": "Hosting and code execution in the cloud",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://opencomponents.github.io",
+      "title": "OpenComponents",
+      "description": "Serverless microservices for front-end components.",
+      "category": "Hosting and code execution in the cloud",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://github.com/openfaas/openfaas-cloud",
+      "title": "OpenFaaS Cloud",
+      "description": "OpenFaaS Cloud: multi-user serverless functions driven by git.",
+      "category": "Hosting and code execution in the cloud",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.stackery.io/",
+      "title": "Stackery",
+      "description": "Stackery enables teams of developers to design, deploy, and monitor their serverless infrastructure on cloud services providers like AWS.",
+      "category": "Hosting and code execution in the cloud",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://algorithmia.com/",
+      "title": "Algorithmia",
+      "description": "Automating the use of AI/ML models at every scale with the Serverless AI Layer.",
+      "category": "Hosting and code execution in the cloud",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.triggermesh.com",
+      "title": "TriggerMesh",
+      "description": "Serverless Management Platform with advanced event triggers.",
+      "category": "Hosting and code execution in the cloud",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.cloudflareworkers.com",
+      "title": "Cloudflare Workers",
+      "description": "Workers allow you to deploy Serverless apps to 165+ data centers across the globe simultaneously, along with the ability to agument or alter exsisting websites and APIs on the fly.",
+      "category": "Hosting and code execution in the cloud",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://fnproject.io",
+      "title": "fn",
+      "description": "The container native, cloud agnostic serverless platform.",
+      "category": "Hosting and code execution in the cloud",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://tinyfunction.com",
+      "title": "TinyFunction",
+      "description": "Fastest way to create cloud functions. Write your function, deploy and call them from anywhere.",
+      "category": "Hosting and code execution in the cloud",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://github.com/Artificial-Engineering/lycheejs",
+      "title": "lychee.js",
+      "description": "Isomorphic adapters allow peer-to-peer event-graphed WebSockets and HTTP1.1, SPDY and HTTP2.0 sockets for node, node-sdl, html, html-nwjs and html-webview (both native and embedded).",
+      "category": "Isomorphic Engines",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://github.com/tmaiaroto/aegis",
+      "title": "Aegis",
+      "description": "A Golang serverless application development framework for AWS with deploy tool.",
+      "category": "Frameworks",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "http://arc.codes",
+      "title": "Architect",
+      "description": "Provision and deploy from a super simple plaintext manifest.",
+      "category": "Frameworks",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://aws-amplify.github.io/",
+      "title": "AWS Amplify",
+      "description": "A declarative JavaScript library for application development using cloud services.",
+      "category": "Frameworks",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://github.com/IBM/browser-functions",
+      "title": "Browser Functions",
+      "description": "A lightweight serverless platform that uses Web Browsers as execution engines.",
+      "category": "Frameworks",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://up.docs.apex.sh/",
+      "title": "Up",
+      "description": "Deploy infinitely scalable serverless apps, apis, and sites in seconds.",
+      "category": "Frameworks",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://github.com/awslabs/chalice",
+      "title": "Chalice",
+      "description": "Python serverless microframework from Amazon for AWS lambda.",
+      "category": "Frameworks",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://github.com/thestackshack/cim",
+      "title": "CIM",
+      "description": "A CloudFormation first approach to AWS Lambdas.",
+      "category": "Frameworks",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://github.com/claudiajs/claudia",
+      "title": "ClaudiaJS",
+      "description": "Deploy Node.js microservices to AWS easily.",
+      "category": "Frameworks",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://github.com/MitocGroup/deep-framework",
+      "title": "DEEP",
+      "description": "Full-stack Web Framework for Cloud-Native Applications and Platforms using Microservices Architecture.",
+      "category": "Frameworks",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://faasjs.com",
+      "title": "FaasJS",
+      "description": "A Node.js Serverless Application Framework.",
+      "category": "Frameworks",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://github.com/alex20465/flowbject",
+      "title": "flowbject",
+      "description": "A high-level library whose aim is to help with writing state-machine flows.",
+      "category": "Frameworks",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://github.com/puresec/FunctionShield",
+      "title": "FunctionShield",
+      "description": "A security library that equips developers with the ability to easily enforce strict security controls on AWS Lambda function runtime by addressing 3 common use cases: 1) Disable outbound internet connectivity. 2) Disable read/write on the /tmp/ directory 3) Disable child process execution.",
+      "category": "Frameworks",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://genez.io/?utm_source=awesome-serverless-github&utm_medium=website&utm_campaign=awesome-serverless",
+      "title": "genezio",
+      "description": "a platform for developers to write, deploy and use a serverless API.",
+      "category": "Frameworks",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://github.com/jorgebastida/gordon",
+      "title": "Gordon",
+      "description": "λ Gordon is a tool to create, wire and deploy AWS Lambdas using CloudFormation.",
+      "category": "Frameworks",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://rubyonjets.com",
+      "title": "Jets",
+      "description": "Ruby Serverless Framework for AWS. Jets allows you to create serverless applications with a beautiful language: Ruby. It includes everything required to build an application and deploy it to AWS Lambda.",
+      "category": "Frameworks",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://github.com/garnaat/kappa",
+      "title": "Kappa",
+      "description": "a command line tool that (hopefully) makes it easier to deploy, update, and test functions for AWS Lambda.",
+      "category": "Frameworks",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "http://laconiajs.io",
+      "title": "Laconia",
+      "description": "A microframework for building Node.js serverless applications (AWS Lambda). Create well-crafted serverless applications, effortlessly!",
+      "category": "Frameworks",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://github.com/jeremydaly/lambda-api",
+      "title": "Lambda API",
+      "description": "Lightweight web framework for your serverless applications.",
+      "category": "Frameworks",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://github.com/tdsis/lambda-forest",
+      "title": "Lambda Forest",
+      "description": "Microframework that makes it easier to develop REST API's using AWS Lambda Function and API Gateway.",
+      "category": "Frameworks",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://github.com/lambadaframework/lambadaframework",
+      "title": "Lambada Framework",
+      "description": "JAX-RS implementation for AWS Lambda.",
+      "category": "Frameworks",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://github.com/kksharma1618/lambda-restify",
+      "title": "lambda-restify",
+      "description": "A restify/expressjs like interface for aws lamda with api gateway event.",
+      "category": "Frameworks",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://github.com/kubek2k/lambdoku",
+      "title": "Lambdoku",
+      "description": "Heroku-like experience when using AWS Lambda.",
+      "category": "Frameworks",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://github.com/ebridges/lgw",
+      "title": "lgw",
+      "description": "Simply & easily configure an AWS Gateway & domain name in front of a Lambda.",
+      "category": "Frameworks",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://github.com/CloudSnorkel/lovage",
+      "title": "Lovage",
+      "description": "Python-only serverless framework that's more RPC-like and less HTTP service oriented.",
+      "category": "Frameworks",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://middy.js.org/",
+      "title": "middy",
+      "description": "Node.js middleware engine for AWS Lambda.",
+      "category": "Frameworks",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://modofun.js.org",
+      "title": "modofun",
+      "description": "A lightweight no-dependencies function router for both AWS Lambda and Google Cloud Functions, and that supports Connect/Express middleware.",
+      "category": "Frameworks",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.openfaas.com",
+      "title": "OpenFaaS",
+      "description": "Serverless Functions Made Simple for Docker and Kubernetes.",
+      "category": "Frameworks",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://pulumi.io",
+      "title": "Pulumi",
+      "description": "A cloud development platform for serverless, containers, infrastructure. Multi-cloud (and Kubernetes) and works with JS, TS, Python, Go",
+      "category": "Frameworks",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://github.com/nficano/python-lambda",
+      "title": "Python-λ",
+      "description": "A toolkit for developing and deploying serverless Python code in AWS Lambda.",
+      "category": "Frameworks",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "http://www.serverless.com",
+      "title": "Serverless Framework",
+      "description": "Build and maintain web, mobile and IoT applications running on AWS Lambda, Azure Cloud Functions, IBM Cloud Functions, Apache OpenWhisk, and Google Cloud Functions (formerly known as JAWS).",
+      "category": "Frameworks",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://github.com/DavidJFelix/serverless-compose",
+      "title": "Serverless Compose",
+      "description": "A lightweight, functional, composable, middleware framework for AWS lambda that stays out of the way.",
+      "category": "Frameworks",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://github.com/bustlelabs/shep",
+      "title": "Shep",
+      "description": "A framework for building APIs using AWS API Gateway and Lambda.",
+      "category": "Frameworks",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.slappforge.com/sigma",
+      "title": "Sigma",
+      "description": "An all-in-one, browser-based IDE toolkit for drag-n-drop composing, testing and deploying of serverless applications, with fully automated configuration management.",
+      "category": "Frameworks",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "http://gosparta.io",
+      "title": "Sparta",
+      "description": "A framework that transforms a Go application into an AWS Lambda powered microservice.",
+      "category": "Frameworks",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://stacktape.com",
+      "title": "Stacktape",
+      "description": "DevOps-free cloud framework. Deploy lambdas, containers, databases & more to AWS with 98% less config.",
+      "category": "Frameworks",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://github.com/awslabs/aws-sam-local",
+      "title": "SAM Local",
+      "description": "Is the AWS CLI tool for managing Serverless applications written with [AWS Serverless Application Model (SAM)](https://github.com/awslabs/serverless-application-model)",
+      "category": "Frameworks",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://github.com/iopipe/turtle/",
+      "title": "Turtle",
+      "description": "library for building functional and actor-driven NodeJS apps on Lambda.",
+      "category": "Frameworks",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://github.com/Miserlou/Zappa",
+      "title": "Zappa",
+      "description": "Serverless Python WSGI with AWS Lambda + API Gateway.",
+      "category": "Frameworks",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "http://zhukovalexander.github.io/lambdify",
+      "title": "λambdify",
+      "description": "AWS Lambda automation and integration for Python",
+      "category": "Frameworks",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://squeezer.io",
+      "title": "Squeezer Framework",
+      "description": "Event-driven APIs & Web apps on microservices, serverless.",
+      "category": "Frameworks",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://github.com/spring-cloud/spring-cloud-function",
+      "title": "Spring Cloud Function",
+      "description": "Java framework for doing Functions using Spring ecosystem.",
+      "category": "Frameworks",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://github.com/fission/fission-workflows",
+      "title": "Fission Workflows",
+      "description": "Fast workflow-based function composition for serverless functions.",
+      "category": "Frameworks",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://github.com/yvele/azure-function-express",
+      "title": "azure-functions-express",
+      "description": "Allows Express.js usage with Azure Functions.",
+      "category": "Frameworks",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://projectriff.io/",
+      "title": "Riff",
+      "description": "Kubernetes based serverless framework supporting multiple languages.",
+      "category": "Frameworks",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://fuseless.org/",
+      "title": "FuseLess",
+      "description": "toolkit for running functions written in CFML (ColdFusion Markup Language) on AWS Lambda.",
+      "category": "Frameworks",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://dropfaas.com/",
+      "title": "DropFaaS",
+      "description": "Serverless framework for running functions written in any languages.",
+      "category": "Frameworks",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.puresec.io",
+      "title": "PureSec",
+      "description": "Enabling Secure and Reliable Serverless Applications.",
+      "category": "Security",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://github.com/puresec/sas-top-10",
+      "title": "Serverless Security Top 10 Guide",
+      "description": "The Ten Most Critical Risks for Serverless Applications.",
+      "category": "Security",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.puresec.io/aws-lambda-security-best-practices",
+      "title": "AWS Lambda Security Best-Practices eBook",
+      "description": "An AWS Lambda security best-practices eBook",
+      "category": "Security",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.puresec.io/blog/aws-lambda-security-quick-guide",
+      "title": "AWS Lambda Security Quick-Start Guide",
+      "description": "A Quick-Start guide for AWS Lambda Security",
+      "category": "Security",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.puresec.io/blog/aws-security-best-practices-config-rules-lambda-security",
+      "title": "AWS Security Best Practices: Config Rules for AWS Lambda Security",
+      "description": "A guide on how to use AWS Config rules for governing and securing your Lambda functions, with a free set of 4 open source rules developed in SAM.",
+      "category": "Security",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://serverless.com/blog/cloudtrail-security",
+      "title": "Using AWS CloudTrail to enhance your serverless application security",
+      "description": "A guide on how to use CloudTrail to improve AWS Lambda security posture.",
+      "category": "Security",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.owasp.org/index.php/OWASP_Serverless_Goat",
+      "title": "OWASP ServerlessGoat",
+      "description": "OWASP ServerlessGoat is a deliberately insecure realistic AWS Lambda serverless application, maintained by OWASP and contributed by PureSec. Install ServerlessGoat and learn about the vulnerabilities, how to exploit them, and how to remediate each issue. Installation is just a 1-click through the [AWS Serverless Application Repository](https://serverlessrepo.aws.amazon.com/applications/arn:aws:serverlessrepo:us-east-1:761130837472:applications~serverless-goat)",
+      "category": "Security",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://github.com/puresec/awesome-serverless-security/",
+      "title": "Awesome-Serverless-Security",
+      "description": "A curated list of awesome serverless security resources such as (e)books, articles, whitepapers, blogs and research papers.",
+      "category": "Security",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.protego.io",
+      "title": "Protego",
+      "description": "your apps became serverless. Your security also need to be serverless too.",
+      "category": "Security",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.nuweba.com",
+      "title": "Nuweba",
+      "description": "Unified solution for serverless security, monitoring and performance.",
+      "category": "Security",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://seed.run",
+      "title": "seed.run",
+      "description": "Seed manages pipelines, configures environments, and monitors deployments for Serverless Framework projects.",
+      "category": "CI/CD",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://github.com/automatictester/lambda-test-runner",
+      "title": "AWS Lambda Test Runner",
+      "description": "Run your unit tests with Maven or SBT directly on AWS Lambda.",
+      "category": "CI/CD",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://github.com/lambci/lambci",
+      "title": "LambCI",
+      "description": "A continuous integration system built on AWS Lambda",
+      "category": "CI/CD",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.serverless.com/pro/",
+      "title": "Serverless Framework Pro",
+      "description": "Serverless Framework Pro provides CI/CD, troubleshooting and monitoring for serverless applications",
+      "category": "CI/CD",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://docs.stackery.io/docs/using-stackery/verification-pipeline/",
+      "title": "Stackery CICD",
+      "description": "Stackery Verification and Deployment Pipelines",
+      "category": "CI/CD",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "http://serverlesscalc.com",
+      "title": "serverlesscalc",
+      "description": "Calculating cost for AWS Lambda, Azure Functions, Google Cloud Functions, and IBM Cloud Functions.",
+      "category": "Cost calculators",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://servers.lol",
+      "title": "servers.lol",
+      "description": "calculator to decide Lambda vs EC2.",
+      "category": "Cost calculators",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://github.com/kachkaev/aws-iot-button-logger-to-git/",
+      "title": "AWS IoT Button logger to git",
+      "description": "A simple and customisable AWS Lambda function that logs events from IoT devices into a git repository of your choice.",
+      "category": "Observability Tools (Logging / Monitoring / Performance / Tracing)",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://aws.amazon.com/xray/",
+      "title": "AWS Xray",
+      "description": "Analyze and debug production, distributed applications.",
+      "category": "Observability Tools (Logging / Monitoring / Performance / Tracing)",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://axiom.co/",
+      "title": "Axiom",
+      "description": "Serverless first logging with a generous free tier.",
+      "category": "Observability Tools (Logging / Monitoring / Performance / Tracing)",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.dashbird.io",
+      "title": "Dashbird",
+      "description": "Performance Tracking and Error Alerting for serverless applications.",
+      "category": "Observability Tools (Logging / Monitoring / Performance / Tracing)",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://functionmetric.com",
+      "title": "functionmetric",
+      "description": "Unlimited AWS Lambda monitoring via a self hosted CloudFormation template. All metrics and logs remain in your own AWS account.",
+      "category": "Observability Tools (Logging / Monitoring / Performance / Tracing)",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://newrelic.com/products/serverless-aws-lambda",
+      "title": "New Relic",
+      "description": "Monitor, visualize, troubleshoot, and alert on all your AWS Lambda functions.",
+      "category": "Observability Tools (Logging / Monitoring / Performance / Tracing)",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.thundra.io",
+      "title": "Thundra",
+      "description": "Thundra brings observability into your AWS Lambda functions by bringing metrics, logs, distributed tracing, and alerting together.",
+      "category": "Observability Tools (Logging / Monitoring / Performance / Tracing)",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.epsagon.com",
+      "title": "Epsagon",
+      "description": "Epsagon automatically analyses your serverless application, identifies potential issues, and allows fast troubleshooting.",
+      "category": "Observability Tools (Logging / Monitoring / Performance / Tracing)",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.srvrlss.io/blog/lambda-live-debugger/",
+      "title": "Lambda Live Debugger",
+      "description": "Real-time debugging tool for AWS Lambda functions, enabling live troubleshooting and observability without redeployment delays. Streamline your serverless development and catch issues as they happen.",
+      "category": "Observability Tools (Logging / Monitoring / Performance / Tracing)",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.lumigo.io",
+      "title": "Lumigo",
+      "description": "Lumigo provides a visual debugging platform for serverless monitoring, tracing and troubleshooting (Free tier available).",
+      "category": "Observability Tools (Logging / Monitoring / Performance / Tracing)",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://github.com/ccverak/serverless-es-logger",
+      "title": "serverless-es-logger",
+      "description": "serverless-es-logger is a package which allows you to send logs directly to Elasticsearch.",
+      "category": "Observability Tools (Logging / Monitoring / Performance / Tracing)",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://github.com/fourTheorem/slic-watch",
+      "title": "SLIC Watch",
+      "description": "Automatic alarms and dashboards for Lambda, Kinesis and more AWS services.",
+      "category": "Observability Tools (Logging / Monitoring / Performance / Tracing)",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://github.com/Theodo-UK/sls-dev-tools",
+      "title": "sls-dev-tools",
+      "description": "In terminal developer dashboard for AWS Serverless architectures. *(Does not replace your framework or logging/monitoring, it's used in addition)*",
+      "category": "Observability Tools (Logging / Monitoring / Performance / Tracing)",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.sensedeep.com",
+      "title": "SenseDeep",
+      "description": "SenseDeep serverless developer studio helps to quickly diagnose, debug and deliver reliable serverless apps.",
+      "category": "Observability Tools (Logging / Monitoring / Performance / Tracing)",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://auth0.com",
+      "title": "Auth0",
+      "description": "Single Sign On & Token Based Authentication.",
+      "category": "Authentication and authorization",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://aws.amazon.com/cognito/",
+      "title": "Amazon Cognito",
+      "description": "Amazon Cognito lets you easily add user sign-up and sign-in to your mobile and web apps.",
+      "category": "Authentication and authorization",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.dailycred.com/",
+      "title": "DailyCred",
+      "description": "Registration, user management, single-sign-on.",
+      "category": "Authentication and authorization",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://oauth.io/",
+      "title": "OAuth.io",
+      "description": "OAuth integration, user management, provides OAuth 2.0 layer to existing APIs.",
+      "category": "Authentication and authorization",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://developer.okta.com/",
+      "title": "Okta",
+      "description": "Provides authentication, authorization, and user management, merged with [Stormpath](https://stormpath.com/) in August 2017.",
+      "category": "Authentication and authorization",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://serverless.com/blog/faunadb-serverless-authentication/",
+      "title": "Serverless Authentication Boilerplate with FaunaDB",
+      "description": "Single sign on using Amazon API Gateway custom authorizer to provision database access tokens for your Lambda functions. [See TodoMVC integration in this meetup talk video.](https://fauna.com/blog/developing-serverless-authentication-and-persistence)",
+      "category": "Authentication and authorization",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://github.com/puresec/serverless-puresec-cli",
+      "title": "PureSec CLI",
+      "description": "Magically creates least privileged IAM roles for you.",
+      "category": "IAM",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://github.com/eahefnawy/serverless-stripe-webhook",
+      "title": "Stripe Serverless webhook",
+      "description": "Serverless Module that creates a webhook for Stripe.",
+      "category": "Payments",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://github.com/TaylorBriggs/stripe-lambda",
+      "title": "Stripe Lambda function",
+      "description": "A Lambda function for charging cards with Stripe.",
+      "category": "Payments",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://github.com/rldaulton/GCF-Stripe",
+      "title": "GCF-Stripe",
+      "description": "serverless use of Stripe over Google Cloud Functions.",
+      "category": "Payments",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://github.com/sdras/sample-stripe-handler",
+      "title": "Stripe Azure function",
+      "description": "An Azure Function that uses the Stripe api for a checkout process in a Vue application",
+      "category": "Payments",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://snipcart.com",
+      "title": "Snipcart",
+      "description": "Fully customizable, HTML and JavaScript-based shopping cart for any website.",
+      "category": "eCommerce",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "http://commercejs.com/",
+      "title": "CommerceJS",
+      "description": "Full-stack ecommerce api for developers & designers.",
+      "category": "eCommerce",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://github.com/endless-commerce/endless",
+      "title": "EndlessCommerce",
+      "description": "Open source ecommerce platform based on Serverless framework.",
+      "category": "eCommerce",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://medusajs.com/",
+      "title": "Medusa",
+      "description": "Medusa is an open-source headless commerce engine that enables developers to create amazing digital commerce experiences.",
+      "category": "eCommerce",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.contentful.com/",
+      "title": "Contentful",
+      "description": "A content infrastructure that enables teams to power content in any digital product via a RESTful API.",
+      "category": "Content Management Systems",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://graphcms.com/",
+      "title": "GraphCMS",
+      "description": "GraphQL based, no opinion CMS for your digital products.",
+      "category": "Content Management Systems",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://sanity.io",
+      "title": "Sanity",
+      "description": "A hosted backend for structured content with a real-time API, globally distributed CDN, and a powerful, but simple query language.",
+      "category": "Content Management Systems",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.webiny.com/",
+      "title": "Webiny",
+      "description": "Developer-friendly Serverless CMS powered by GraphQL and React.",
+      "category": "Content Management Systems",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://github.com/anddimario/stiva",
+      "title": "Stiva",
+      "description": "Stiva is a headless CMS for multisite and dynamic multicontent, based on lambda, dynamodb and s3.",
+      "category": "Content Management Systems",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://forestry.io/",
+      "title": "Forestry",
+      "description": "Git-backed CMS for Static Site Generators like Gatsby, Gridsome, Eleventy, Hugo, VuePress, Jekyll, etc.",
+      "category": "Content Management Systems",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://airform.io",
+      "title": "Airform.io",
+      "description": "Functional HTML forms for Front-End Developers.",
+      "category": "Forms",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://form.io",
+      "title": "Form.io",
+      "description": "JSON Powered Form and Data Management Platform for Serverless applications.",
+      "category": "Forms",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://formcake.com",
+      "title": "Formcake",
+      "description": "Form backend built for developers with spam protection, Zapier integration, and API access.",
+      "category": "Forms",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://formcarry.com",
+      "title": "Formcarry",
+      "description": "Hassle-free HTML form endpoints for your form, powerful dashboard, reliable spam blocking, attachment uploads and Zapier integrations.",
+      "category": "Forms",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://formspark.io",
+      "title": "Formspark",
+      "description": "A backend for your HTML forms.",
+      "category": "Forms",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://formspree.io",
+      "title": "Formspree",
+      "description": "Functional HTML forms.",
+      "category": "Forms",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://formkeep.com",
+      "title": "FormKeep",
+      "description": "Form endpoints for designers and developers. No iframes, JavaScript embeds, or CSS overrides.",
+      "category": "Forms",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://github.com/danielireson/formplug-serverless",
+      "title": "Formplug",
+      "description": "Form forwarding service for AWS Lambda.",
+      "category": "Forms",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "http://www.formassembly.com/",
+      "title": "FormAssembly",
+      "description": null,
+      "category": "Forms",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "http://getform.io/",
+      "title": "Getform",
+      "description": "Free form backend platform for your HTML forms and static websites. Provides Zapier and Webhook support and submissions API.",
+      "category": "Forms",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://docs.google.com/forms/",
+      "title": "Google Forms",
+      "description": "Create and analyze online forms and surveys.",
+      "category": "Forms",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://pageclip.co/",
+      "title": "Pageclip",
+      "description": "A Server for your HTML Forms - Collect info from users without a server—Pageclip is your server. Lead capture forms, surveys, newsletter forms, contact forms, etc. Setup any form in seconds.",
+      "category": "Forms",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://surveyvista.com",
+      "title": "SurveyVista",
+      "description": "Salesforce Survey, Form, and Assessment - Turn Survey & Form Data into Actionable Insights.",
+      "category": "Forms",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.typeform.com/",
+      "title": "Typeform",
+      "description": "Pretty, intuitive, slick forms for almost any use.",
+      "category": "Forms",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "http://www.tectite.com/",
+      "title": "Tectite FormMail",
+      "description": "FormMail, form Encryption, hosted Forms.",
+      "category": "Forms",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "http://www.wufoo.com/",
+      "title": "Wufoo",
+      "description": null,
+      "category": "Forms",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.filestack.com",
+      "title": "Filestack",
+      "description": "Image management system with Filestack - upload files, transform images, videos, and documents, store content and deliver fast via CDN.",
+      "category": "Media management and File storage",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://kloudless.com",
+      "title": "Kloudless",
+      "description": "Integrate with one, universal API and connect to many file storage and CRM services.",
+      "category": "Media management and File storage",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://github.com/kevincolemaninc/letter-avatar-serverless",
+      "title": "Letter Avatar",
+      "description": "Generates Google-like binary avatar images",
+      "category": "Media management and File storage",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://mux.com",
+      "title": "Mux",
+      "description": "Streaming video infrastructure for developers. Add a live stream or upload a video file, then get thumbnails, animated gifs and more via simple API calls.",
+      "category": "Media management and File storage",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://uploadcare.com",
+      "title": "Uploadcare",
+      "description": "HTML5 widget, API to manage files in cloud storage, smart and fast CDN to deliver them to your end users. Crop, resize and transform uploaded images using URL commands.",
+      "category": "Media management and File storage",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.ably.io/",
+      "title": "Ably",
+      "description": "Global distributed realtime data delivery platform with pub/sub, presence, device awareness, history, connection state recovery, authentication and encryption.",
+      "category": "Realtime",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://pusher.com/",
+      "title": "Pusher",
+      "description": "Build Apps, Not Infrastructure.",
+      "category": "Realtime",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.pubnub.com/",
+      "title": "Pubnub",
+      "description": "PubNub utilizes a Publish/Subscribe[2] model for realtime data streaming.",
+      "category": "Realtime",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://posthook.io/",
+      "title": "Posthook",
+      "description": "Run code only when you need to by scheduling webhooks for later. Set up workflows from your functions and run them on a repeating schedule.",
+      "category": "Scheduling",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://upstash.com/qstash",
+      "title": "qStash",
+      "description": "Push based messaging and scheduling over HTTP for serverless and edge runtimes with 50 requests per day for free.",
+      "category": "Scheduling",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://github.com/eahefnawy/lambda-mailer",
+      "title": "Lambda Mailer",
+      "description": "AWS Lambda for sending emails.",
+      "category": "Email sending, subscriptions and newsletters",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://github.com/eahefnawy/serverless-mailer",
+      "title": "Serverless Mailer",
+      "description": "Serverless Module for sending emails.",
+      "category": "Email sending, subscriptions and newsletters",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://github.com/TaylorBriggs/mailchimp-lambda",
+      "title": "Mailchimp Lambda",
+      "description": "A Lambda function for subscribing to a MailChimp list.",
+      "category": "Email sending, subscriptions and newsletters",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://github.com/anaibol/lambda-mailchimp-single-opt-in",
+      "title": "Mailchimp Lambda Single Opt-in",
+      "description": "An Amazon Lambda function for creating MailChimp subscriptions with single opt-in.",
+      "category": "Email sending, subscriptions and newsletters",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://github.com/eahefnawy/serverless-twilio",
+      "title": "serverless-twilio",
+      "description": "Serverless Module to send SMS via twilio.",
+      "category": "SMS sending",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://aws.amazon.com/sns",
+      "title": "Amazon SNS",
+      "description": "A flexible, fully managed pub/sub messaging and mobile notifications service (including SMS) for coordinating the delivery of messages to subscribing endpoints and clients.",
+      "category": "SMS sending",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://pushover.net/",
+      "title": "Pushover",
+      "description": null,
+      "category": "Push notifications",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://zeropush.com",
+      "title": "ZeroPush",
+      "description": null,
+      "category": "Push notifications",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://pushwizard.com/",
+      "title": "PushWizard",
+      "description": null,
+      "category": "Push notifications",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://pushed.co/",
+      "title": "Pushed",
+      "description": null,
+      "category": "Push notifications",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "http://www.plotprojects.com/",
+      "title": "Plot Projects",
+      "description": null,
+      "category": "Push notifications",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://xtremepush.com/",
+      "title": "XtremePush",
+      "description": null,
+      "category": "Push notifications",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://aws.amazon.com/rds/aurora/serverless/",
+      "title": "Amazon Aurora Serverless",
+      "description": "Serverless MySQL Database service",
+      "category": "Databases",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.algolia.com",
+      "title": "Algolia",
+      "description": "Hosted cloud search as a service.",
+      "category": "Databases",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://fauna.com/",
+      "title": "FaunaDB",
+      "description": "Pay-as-you-go cloud database with ACID transactions and on-premise licensing available.",
+      "category": "Databases",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://cloudant.com/",
+      "title": "Cloudant",
+      "description": "Based on the Apache-backed CouchDB, Cloudant is the distributed database as a service (DBaaS) built from the ground up to deliver fast-growing application data to the edge.",
+      "category": "Databases",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://developers.cloudflare.com/workers/reference/storage",
+      "title": "Cloudflare Workers KV",
+      "description": "Global, low-latency, key-value data store for Cloudflare Workers.",
+      "category": "Databases",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://azure.microsoft.com/en-us/services/cosmos-db/",
+      "title": "Azure CosmosDB",
+      "description": "Globally distributed, multi-model database service",
+      "category": "Databases",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://cloud.google.com/datastore/",
+      "title": "Google Cloud Datastore",
+      "description": "Hosted NoSQL database service by Google",
+      "category": "Databases",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://deta.sh",
+      "title": "Deta Base",
+      "description": "A super easy to use production-grade NoSQL database.that supports complex queries and search.",
+      "category": "Databases",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://upstash.com/",
+      "title": "Upstash",
+      "description": "Serverless Database for Redis",
+      "category": "Databases",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.harperdb.io/",
+      "title": "HarperDB",
+      "description": "Peer-to-peer database that is independent of hardware and network providers, accommodates both NoSQL and SQL workloads.",
+      "category": "Databases",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://neon.tech",
+      "title": "Neon",
+      "description": "fully managed serverless PostgreSQL. Neon separates storage and compute to offer modern developer features such as serverless, branching, bottomless storage, and more.",
+      "category": "Databases",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "http://functionlibrary.azurewebsites.net",
+      "title": "Azure Function Library",
+      "description": "An open source set of common use cases for Azure Functions that are ready to deploy!",
+      "category": "Others",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://argonaut.dev/",
+      "title": "Argonaut",
+      "description": "Deploy apps and infrastructure on your cloud in minutes. Support for custom and third-party app deployments on Kubernetes and Lambda environments. Free tier allows unlimited apps and deployments for 5 environments and 2 users.",
+      "category": "Others",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://github.com/backstage/functions",
+      "title": "Backstage Functions",
+      "description": "An Open Source Serverless Platform able to store and execute code maintained by [Globo.com](http://www.globo.com)",
+      "category": "Others",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://remotestorage.io",
+      "title": "remoteStorage",
+      "description": "An open protocol for per-user storage.",
+      "category": "Others",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://github.com/grycap/scar",
+      "title": "SCAR",
+      "description": "Serverless Container-aware ARchitectures (e.g. run containers out of your Docker images in AWS Lambda).",
+      "category": "Others",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "http://sockethub.org",
+      "title": "Sockethub",
+      "description": "A polyglot (speaking many different protocols and APIs) messaging service for social and other interactive messaging applications.",
+      "category": "Others",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://github.com/eahefnawy/serverless-slack-webhook",
+      "title": "serverless-slack-webhook",
+      "description": "Serverless Module that creates a webhook for Slack.",
+      "category": "Others",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://github.com/synacker/daggy",
+      "title": "Daggy",
+      "description": "Data Aggregation Utility. Remote or local data aggregation and streaming",
+      "category": "Others",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://github.com/lambci/docker-lambda",
+      "title": "Docker Lambda",
+      "description": "Docker images and test runners that replicate the live AWS Lambda environment",
+      "category": "Others",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://github.com/alexellis/faas",
+      "title": "faas",
+      "description": "Run Docker containers as functions on Swarm Mode ([blog post](http://blog.alexellis.io/functions-as-a-service/))",
+      "category": "Others",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://github.com/rgfindl/functionci",
+      "title": "FunctionCI",
+      "description": "Continuous Integration for AWS Lambdas.",
+      "category": "Others",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://github.com/nuveo/gofn",
+      "title": "gofn",
+      "description": "Go package for function process via container provider (serverless minimalist)",
+      "category": "Others",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://github.com/jimpick/lambda-comments",
+      "title": "Lambda Comments",
+      "description": "Blog commenting system built with AWS Lambda",
+      "category": "Others",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://github.com/trek10inc/aws-lambda-debugger",
+      "title": "AWS Lambda Debugger",
+      "description": "Remote debugging tool for Lambda functions running on Node 6.10",
+      "category": "Others",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://localstack.cloud/",
+      "title": "Local stack",
+      "description": "A fully functional local AWS cloud stack",
+      "category": "Others",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.serverless.com/examples/",
+      "title": "Serverless Examples",
+      "description": "A collection of boilerplates and examples of serverless architectures built with the Serverless Framework",
+      "category": "Others",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://github.com/antonbabenko/serverless.tf-playground",
+      "title": "serverless.tf playground",
+      "description": "serverless.tf playground to show Terraform with Serverless in action.",
+      "category": "Others",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://github.com/ffleet/shim",
+      "title": "Lambda Shim",
+      "description": "A node.js shim library to simplify Lambda function development",
+      "category": "Others",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://github.com/hmngwy/mutton",
+      "title": "Mutton",
+      "description": "A Python shim library for better AWS Lambda Handlers",
+      "category": "Others",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://github.com/Open-SL/serverless-permission-generator",
+      "title": "Serverless Permission Policy Generator",
+      "description": "An Online Application to generate AWS IAM permissions required for deploying a Serverless stack.",
+      "category": "Others",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.npmjs.com/package/dynamodb-onetable",
+      "title": "DynamoDB Onetable",
+      "description": "DynamoDB access library for single-table designs using NodeJS.",
+      "category": "Others",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "http://cloudacademy.com/blog/serverless-framework-aws-lambda-api-gateway-python",
+      "title": "Serverless Framework (CloudAcademy)",
+      "description": "A Deep Overview of the Best AWS Lambda + API Gateway Automation Solution",
+      "category": "Related articles",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://medium.com/getty-logs/a-aws-lambda-microservices-architecture-for-node-js-4513799101d4#.k99m6yvvz",
+      "title": "AWS Lambda Microservices Architecture for Node.js",
+      "description": null,
+      "category": "Related articles",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.nginx.com/blog/adopting-microservices-at-netflix-lessons-for-team-and-process-design/",
+      "title": "Designing Teams around Microservices",
+      "description": null,
+      "category": "Related articles",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "http://highscalability.com/blog/2015/12/7/the-serverless-start-up-down-with-servers.html",
+      "title": "The Serverless Start-Up - Down With Servers!",
+      "description": null,
+      "category": "Related articles",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://medium.com/think-serverless",
+      "title": "Think Serverless!",
+      "description": "Publications encompassing a deep insight into the future of serverless application development",
+      "category": "Related articles",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://aws.amazon.com/blogs/compute/microservices-without-the-servers",
+      "title": "Microservices without the Servers",
+      "description": null,
+      "category": "Related articles",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://medium.com/@benorama/a-startup-journey-on-aws-from-bare-metal-monolith-to-serverless-microservices-80231624fbd9",
+      "title": "A startup journey on AWS: from bare metal monolith to serverless microservices",
+      "description": null,
+      "category": "Related articles",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "http://nobackend.org",
+      "title": "nobackend.org",
+      "description": null,
+      "category": "Related articles",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://unhosted.org/",
+      "title": "unhosted.org",
+      "description": "unhosted web apps. freedom from web 2.0's monopoly platforms",
+      "category": "Related articles",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://staticapps.org",
+      "title": "Static Web Applications",
+      "description": null,
+      "category": "Related articles",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://serverlesscode.com",
+      "title": "Serverlesscode",
+      "description": null,
+      "category": "Related articles",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "http://martinfowler.com/articles/serverless.html",
+      "title": "Serverless Architectures",
+      "description": null,
+      "category": "Related articles",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "http://serverless-stack.com/",
+      "title": "Serverless Stack",
+      "description": "A step-by-step guide to creating full-stack serverless apps.",
+      "category": "Related articles",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://aws.amazon.com/blogs/compute/migrating-a-native-java-rest-api-to-a-serverless-architecture-with-the-lambada-framework-for-aws/",
+      "title": "Migrating a Native JAVA REST API to a Serverless Architecture with the Lambada Framework for AWS",
+      "description": null,
+      "category": "Related articles",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://medium.com/tech-travelstart/using-kotlin-in-a-serverless-architecture-with-aws-lambda-part-1-setting-up-the-project-87033790e2f4",
+      "title": "Using Kotlin with AWS Lambda",
+      "description": "Using Kotlin in a serverless architecture with AWS Lambda.",
+      "category": "Related articles",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://semaphoreci.com/blog/2018/08/22/continuous-delivery-patterns-with-serverless.html",
+      "title": "Continuous Delivery Patterns with Serverless Applications",
+      "description": "patterns for effective Continuous Delivery when building Serverless applications.",
+      "category": "Related articles",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.unusual.vc/post/unusual-tech-serverless-white-paper",
+      "title": "Serverless White Paper",
+      "description": "Informative White Paper on Serverless with deep analysis by Unusual VC.",
+      "category": "Related articles",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.svix.com/blog/receive-webhooks-with-netlify-functions/",
+      "title": "Receiving Webhooks with Netlify Functions",
+      "description": "Using Netlify's serverless functions to receive webhooks and verify the signature.",
+      "category": "Related articles",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://leanpub.com/serverless",
+      "title": "Serverless",
+      "description": "Patterns of Modern Application Design Using Microservices (Amazon Web Services Edition).",
+      "category": "Books",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://pragprog.com/book/brapps/serverless-single-page-apps",
+      "title": "Serverless Single Page Apps",
+      "description": "The Pragmatic Bookshelf.",
+      "category": "Books",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.goingserverless.co/",
+      "title": "Going Serverless",
+      "description": "Practical guide to building applications with the Serverless Framework.",
+      "category": "Books",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.manning.com/books/serverless-architectures-on-aws",
+      "title": "Serverless Architectures on AWS",
+      "description": null,
+      "category": "Books",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.amazon.co.uk/Building-Serverless-Architectures-Cagatay-Gurturk/dp/1787129195",
+      "title": "Building Serverless Architectures",
+      "description": null,
+      "category": "Books",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.manning.com/books/aws-lambda-in-action",
+      "title": "AWS Lambda in Action",
+      "description": null,
+      "category": "Books",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://thepulumibook.com",
+      "title": "The Pulumi Book",
+      "description": "A book that shows you how to use Pulumi, an open-source infrastructure-as-code platform, to build serverless applications of all kinds using TypeScript and Amazon Web Services.",
+      "category": "Books",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.manning.com/books/serverless-apps-with-node-and-claudiajs",
+      "title": "Serverless Applications with Node.js",
+      "description": null,
+      "category": "Books",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.manning.com/books/agile-development-for-serverless-platforms",
+      "title": "Agile Development for Serverless Platforms",
+      "description": null,
+      "category": "Books",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.manning.com/books/cloud-native-applications",
+      "title": "Cloud Native Applications",
+      "description": null,
+      "category": "Books",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.manning.com/books/exploring-cloud-computing",
+      "title": "Exploring Cloud Computing",
+      "description": null,
+      "category": "Books",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "http://www.oreilly.com/programming/free/developing-serverless-applications.csp",
+      "title": "Developing Serverless Applications - A Practical Introduction with Apache OpenWhisk",
+      "description": null,
+      "category": "Books",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://azure.microsoft.com/en-us/resources/azure-serverless-computing-cookbook",
+      "title": "Azure Serverless Computing Cookbook",
+      "description": null,
+      "category": "Books",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.manning.com/books/ai-as-a-service",
+      "title": "AI as a Service",
+      "description": null,
+      "category": "Books",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.manning.com/books/azure-data-engineering",
+      "title": "Azure Data Engineering",
+      "description": "This book teaches you to build high-capacity data analytics systems using Azure cloud services for storing, collecting and analyzing data.",
+      "category": "Books",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.manning.com/books/google-cloud-platform-in-action",
+      "title": "Google Cloud Platform in Action",
+      "description": "A book that teaches you to to deploy scalable cloud applications on Google Cloud Platform.",
+      "category": "Books",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.manning.com/books/cloud-native-patterns",
+      "title": "Cloud Native Patterns",
+      "description": "A guide to developing cloud-native applications, along with the patterns, practices, and tooling that set them apart.",
+      "category": "Books",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.manning.com/books/learn-azure-in-a-month-of-lunches",
+      "title": "Learn Azure in a Month of Lunches",
+      "description": "A book that teaches you the foundational techniques for writing, deploying, and running cloud-based applications in Azure.",
+      "category": "Books",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.manning.com/books/learn-amazon-web-services-in-a-month-of-lunches",
+      "title": "Learn Amazon Web Services in a Month of Lunches",
+      "description": "A book that guides you through the process of building a robust and secure web application using the core AWS services you really need to know.",
+      "category": "Books",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://buttercms.com/blog/what-is-serverless-and-how-to-use-it-in-practice",
+      "title": "Build a Serverless React Application",
+      "description": "A full understanding of serverless architecture and how to use it in practice.",
+      "category": "Books",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.manning.com/books/learn-azure-in-a-month-of-lunches-second-edition",
+      "title": "Learn Azure in a Month of Lunches, Second Edition",
+      "description": "In this fully updated and new edition, you’ll get hands-on practice with the basics, including setting up cloud-based virtual machines, deploying web servers, and using hosted data stores.",
+      "category": "Books",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.manning.com/books/getting-started-with-kubernetes",
+      "title": "Getting Started with Kubernetes",
+      "description": "A hands-on guide to Kubernetes using Google Kubernetes Engine service.",
+      "category": "Books",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.manning.com/books/cloud-operations",
+      "title": "Cloud Operations",
+      "description": "A book that provides a holistic approach to CloudOps.",
+      "category": "Books",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.manning.com/books/serverless-machine-learning-in-action",
+      "title": "Serverless Machine Learning in Action",
+      "description": "A book on how to build serverless machine learning applications on public clouds like AWS, Azure, and GCP.",
+      "category": "Books",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.manning.com/books/spring-microservices-in-action-second-edition",
+      "title": "Spring Microservices in Action, Second Edition",
+      "description": "A book on how to build microservice-based applications using Java and the Spring platform and how to efficiently monitor and log your microservices operations.",
+      "category": "Books",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.manning.com/books/spring-quickly",
+      "title": "Spring Quickly",
+      "description": "A book that teaches you how to build professional-quality applications using Spring and Spring Boot.",
+      "category": "Books",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.manning.com/books/aws-security",
+      "title": "AWS Security",
+      "description": "A guide to solving common AWS security issues.",
+      "category": "Books",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.manning.com/books/pipeline-as-code",
+      "title": "Pipeline as Code",
+      "description": "A hands-on experience on how to build CI/CD pipelines with Jenkins for cloud-native applications (including Serverless apps).",
+      "category": "Books",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://ServerlessSecurityBook.com",
+      "title": "Serverless Security",
+      "description": "An Apress book that discusses serverless security on AWS, Azure and Google Cloud.",
+      "category": "Books",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://MasteringAWSServerlessBook.com",
+      "title": "Mastering AWS Serverless",
+      "description": "Learn Serverless Step by Step.",
+      "category": "Books",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.manning.com/books/azure-infrastructure-as-code",
+      "title": "Azure Infrastructure as Code",
+      "description": "Master ARM templates, Bicep scripting, and other Azure Infrastructure-as-Code tools, techniques, and practices to run application infrastructure on the Azure cloud.",
+      "category": "Books",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.manning.com/books/serverless-architectures-on-aws-second-edition",
+      "title": "Serverless Architectures on AWS, Second Edition",
+      "description": "Book that teaches you how to design, secure and manage serverless backends that can power the most demanding web and mobile apps.",
+      "category": "Books",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.manning.com/books/designing-cloud-data-platforms",
+      "title": "Designing Cloud Data Platforms",
+      "description": "A hands-on guide to envisioning and designing a modern scalable data platform that takes full advantage of the flexibility of the cloud.",
+      "category": "Books",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.manning.com/books/kubernetes-in-action-second-edition",
+      "title": "Kubernetes in Action, Second Edition",
+      "description": "A fully-updated and comprehensive guide to developing and running applications in a Kubernetes environment.",
+      "category": "Books",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.manning.com/books/podman-in-action",
+      "title": "Podman in Action",
+      "description": "A book about developing and managing rootless containers using Podman.",
+      "category": "Books",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.packtpub.com/web-development/serverless-javascript-example-video",
+      "title": "Serverless JavaScript by Example",
+      "description": "Become dexterous with live demonstrations on serverless web development.",
+      "category": "Courses",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.manning.com/livevideo/aws-lambda-in-motion",
+      "title": "AWS Lambda in Motion",
+      "description": "An example-driven tutorial that focuses on helping you understand and tackle the operational challenges with running AWS Lambda in production.",
+      "category": "Courses",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.manning.com/livevideo/serverless-applications-with-AWS",
+      "title": "Serverless Applications with AWS",
+      "description": "Serverless Applications with AWS teaches you to build serverless applications using AWS Lambda and other cloud-based services.",
+      "category": "Courses",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://egghead.io/courses/develop-a-serverless-backend-using-node-js-on-aws-lambda",
+      "title": "Develop a Serverless Backend using Node.js on AWS Lambda",
+      "description": "Learn how to create a serverless API and connecting it to DynamoDB using leveraging Lambda's new async/await syntax",
+      "category": "Courses",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.manning.com/livevideo/aws-in-motion",
+      "title": "AWS in Motion",
+      "description": "A liveVideo course that guides you through your first steps of deploying a web application on AWS, teaching you the basics of the AWS ecosystem.",
+      "category": "Courses",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.manning.com/livevideo/production-ready-serverless",
+      "title": "Production-Ready Serverless",
+      "description": "This liveVideo teaches you how to build applications that take advantage of AWS Lambda and other AWS platform features like API Gateway and Kinesis.",
+      "category": "Courses",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.npmjs.com/package/openwhisk-workshop",
+      "title": "Apache OpenWhisk Workshop",
+      "description": "Interactive workshop to learn about building serverless applications with OpenWhisk.",
+      "category": "Workshops",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://serverless.email/",
+      "title": "Serverless Status",
+      "description": "A weekly digest of the latest serverless news and articles.",
+      "category": "Newsletters",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://symphonia.us15.list-manage.com/subscribe?u=8fe3a0d260ada7ca9aafdbf14&id=d4b4244107",
+      "title": "Serverless Insights",
+      "description": "Symphonia's Serverless Insights.",
+      "category": "Newsletters",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.jeremydaly.com/newsletter/",
+      "title": "Off-by-none",
+      "description": "Weekly newsletter that focuses on using serverless technology to build products in the cloud",
+      "category": "Newsletters",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.getrevue.co/profile/serverless-transformation",
+      "title": "Serverless Transformation",
+      "description": "Weekly newsletter of a limited set of articles about serverless. Each article is graded on complexity level.",
+      "category": "Newsletters",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://faun.dev",
+      "title": "Shipped",
+      "description": "A weekly newsletter from FAUN: Hand-curated tutorials, news and stories from the Serverless space.",
+      "category": "Newsletters",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCqlcVgk8SkUmve4Kw4xSlgw",
+      "title": "Serverlessconf",
+      "description": null,
+      "category": "Videos from conferences",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCYzAnR_SebAmLRkKIbK_YoQ",
+      "title": "ServerlessDays",
+      "description": null,
+      "category": "Videos from conferences",
+      "source": "anaibol/awesome-serverless",
+      "indexedAt": "2026-07-23T14:53:32.669Z"
+    }
+  ],
+  "categories": [
+    "What is \"serverless\" computing?",
+    "All in one solutions",
+    "Hosting and code execution in the cloud",
+    "Isomorphic Engines",
+    "Frameworks",
+    "Security",
+    "CI/CD",
+    "Cost calculators",
+    "Observability Tools (Logging / Monitoring / Performance / Tracing)",
+    "Optimization and Management",
+    "Authentication and authorization",
+    "IAM",
+    "Payments",
+    "eCommerce",
+    "Content Management Systems",
+    "Forms",
+    "Media management and File storage",
+    "Realtime",
+    "Scheduling",
+    "Email sending, subscriptions and newsletters",
+    "SMS sending",
+    "Push notifications",
+    "Databases",
+    "Others",
+    "Related articles",
+    "Books",
+    "Courses",
+    "Workshops",
+    "Newsletters",
+    "AWS re:Invent videos",
+    "Videos from conferences"
+  ],
+  "crawledAt": "2026-07-23T14:53:32.669Z"
+}

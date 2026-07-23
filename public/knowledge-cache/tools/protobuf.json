@@ -1,0 +1,16 @@
+{
+  "id": "protobuf",
+  "category": "tools",
+  "label": "Protocol Buffers",
+  "aliases": [],
+  "description": "Google's language-neutral serialization format for structured data",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Protocol_Buffers",
+    "wikidata": "https://www.wikidata.org/wiki/Q1058454"
+  },
+  "indexedAt": "2026-07-23T14:36:38.082Z"
+}

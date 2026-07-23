@@ -1,0 +1,16 @@
+{
+  "id": "typescript",
+  "category": "languages",
+  "label": "TypeScript",
+  "aliases": [],
+  "description": "Strict syntactical superset of JavaScript that adds static typing",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/TypeScript",
+    "wikidata": "https://www.wikidata.org/wiki/Q1050638"
+  },
+  "indexedAt": "2026-07-23T14:36:12.856Z"
+}

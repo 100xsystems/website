@@ -1,0 +1,16 @@
+{
+  "id": "svelte",
+  "category": "tools",
+  "label": "Svelte",
+  "aliases": [],
+  "description": "Compiler-driven framework for building fast web applications",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Svelte",
+    "wikidata": "https://www.wikidata.org/wiki/Q60558331"
+  },
+  "indexedAt": "2026-07-23T14:36:30.050Z"
+}

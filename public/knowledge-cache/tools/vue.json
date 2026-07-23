@@ -1,0 +1,16 @@
+{
+  "id": "vue",
+  "category": "tools",
+  "label": "Vue.js",
+  "aliases": [],
+  "description": "Progressive JavaScript framework for building user interfaces",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Vue.js",
+    "wikidata": "https://www.wikidata.org/wiki/Q20650778"
+  },
+  "indexedAt": "2026-07-23T14:36:29.398Z"
+}

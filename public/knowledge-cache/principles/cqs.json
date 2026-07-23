@@ -1,0 +1,16 @@
+{
+  "id": "cqs",
+  "category": "principles",
+  "label": "Command–Query Separation",
+  "aliases": [],
+  "description": "IT architecture separating actions and reads",
+  "summary": "Command-query separation (CQS) is a principle of imperative computer programming. It was devised by Bertrand Meyer as part of his pioneering work on the Eiffel programming language.",
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Command%E2%80%93query_separation",
+    "wikidata": "https://www.wikidata.org/wiki/Q1115200"
+  },
+  "indexedAt": "2026-07-23T14:36:03.561Z"
+}

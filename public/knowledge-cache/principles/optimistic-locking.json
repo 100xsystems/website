@@ -1,0 +1,13 @@
+{
+  "id": "optimistic-locking",
+  "category": "principles",
+  "label": "Optimistic Locking",
+  "aliases": [],
+  "description": "Assume concurrent modifications are rare; detect conflicts at write time",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {},
+  "indexedAt": "2026-07-23T14:36:07.776Z"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "apache-flink",
+  "category": "tools",
+  "label": "Apache Flink",
+  "aliases": [],
+  "description": "Stream processing framework for real-time data applications",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Apache_Flink",
+    "wikidata": "https://www.wikidata.org/wiki/Q1391626"
+  },
+  "indexedAt": "2026-07-23T14:36:38.728Z"
+}

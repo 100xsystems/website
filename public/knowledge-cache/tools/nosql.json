@@ -1,0 +1,16 @@
+{
+  "id": "nosql",
+  "category": "tools",
+  "label": "NoSQL",
+  "aliases": [],
+  "description": "Non-relational database systems designed for scale and flexibility",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/NoSQL",
+    "wikidata": "https://www.wikidata.org/wiki/Q241317"
+  },
+  "indexedAt": "2026-07-23T14:36:36.081Z"
+}

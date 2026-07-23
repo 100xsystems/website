@@ -1,0 +1,16 @@
+{
+  "id": "rust",
+  "category": "languages",
+  "label": "Rust",
+  "aliases": [],
+  "description": "General-purpose programming language",
+  "summary": "Rust is a general-purpose programming language which emphasizes performance, type safety, concurrency, and memory safety.",
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Rust_(programming_language)",
+    "wikidata": "https://www.wikidata.org/wiki/Q575650"
+  },
+  "indexedAt": "2026-07-23T14:36:11.997Z"
+}

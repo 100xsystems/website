@@ -1,0 +1,16 @@
+{
+  "id": "lsm-tree",
+  "category": "patterns",
+  "label": "LSM Tree",
+  "aliases": [],
+  "description": "Data structure for write-heavy workloads used by many NoSQL databases",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Log-structured_merge-tree",
+    "wikidata": "https://www.wikidata.org/wiki/Q598050"
+  },
+  "indexedAt": "2026-07-23T14:36:50.839Z"
+}

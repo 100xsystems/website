@@ -1,0 +1,1894 @@
+{
+  "repoId": "adriannovegil/awesome-observability",
+  "name": "Awesome observability page",
+  "description": "Awesome observability page",
+  "repoUrl": "https://github.com/adriannovegil/awesome-observability",
+  "stars": 650,
+  "topics": [
+    "awesome",
+    "awesome-list",
+    "observability"
+  ],
+  "links": [
+    {
+      "url": "https://docs.microsoft.com/en-us/azure/architecture/best-practices/monitoring",
+      "title": "Best practices for monitoring cloud applications",
+      "description": null,
+      "category": "1. Best Practices",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://learning.oreilly.com/library/view/distributed-systems-observability/9781492033431/ch04.html",
+      "title": "The Three Pillars of Observability",
+      "description": null,
+      "category": "1. Best Practices",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/brancogao/ssl-certificate-monitor",
+      "title": "SSL Certificate Monitor",
+      "description": "Open-source SSL/TLS certificate expiry monitoring tool with email alerts for observability of certificate health.",
+      "category": "Metrics",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/brancogao/dns-propagation-checker",
+      "title": "DNS Propagation Checker",
+      "description": "Open-source DNS propagation monitoring tool with global DNS server coverage for DNS observability.",
+      "category": "Metrics",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/kuberhealthy/kuberhealthy",
+      "title": "Kuberhealthy",
+      "description": "Kubernetes operator for synthetic monitoring and continuous process verification.",
+      "category": "Metrics",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/foniod/foniod",
+      "title": "ingraind",
+      "description": "Security monitoring agent built around RedBPF for complex containerized environments and endpoints.",
+      "category": "Metrics",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://www.booleanworld.com/guide-linux-top-command/",
+      "title": "top",
+      "description": "Allows users to monitor processes and system resource usage on Linux. It is one of the most useful tools in a sysadmin's toolbox, and it comes pre-installed on every distribution.",
+      "category": "Metrics",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://support.cloudways.com/system-monitoring-using-htop-command/",
+      "title": "htop",
+      "description": "Command line utility that allows you to interactively monitor your system's vital resources or server's processes in real time.",
+      "category": "Metrics",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://opencensus.io/",
+      "title": "OpenCensus",
+      "description": "Set of libraries for various languages that allow you to collect application metrics and distributed traces, then transfer the data to a backend of your choice in real time.",
+      "category": "Metrics",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://opentracing.io/",
+      "title": "Opentracing",
+      "description": "Vendor-neutral APIs and instrumentation for distributed tracing.",
+      "category": "Metrics",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://openmetrics.io/",
+      "title": "Openmetrics",
+      "description": "An effort to create an open standard for transmitting metrics at scale, with support for both text representation and Protocol Buffers.",
+      "category": "Metrics",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://micrometer.io/",
+      "title": "Micrometer",
+      "description": "Simple facade over the instrumentation clients for the most popular monitoring systems, allowing you to instrument your JVM-based application code without vendor lock-in. Think SLF4J, but for metrics.",
+      "category": "Metrics",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/prometheus/node_exporter",
+      "title": "Node-exporter",
+      "description": "Prometheus stack, Exporter for machine metrics.",
+      "category": "Metrics",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "http://collectd.org/",
+      "title": "Collectd",
+      "description": "The system statistics collection daemon.",
+      "category": "Metrics",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/OpenTSDB/tcollector",
+      "title": "Tcollector",
+      "description": "Data collection framework for OpenTSDB.",
+      "category": "Metrics",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://pcp.io/",
+      "title": "Performance Co-Pilot",
+      "description": "System performance analysis toolkit.",
+      "category": "Metrics",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/inspectIT/inspectit-ocelot",
+      "title": "inspectIT Ocelot",
+      "description": "Java agent for collecting performance, tracing and business data.",
+      "category": "Metrics",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://kamon.io/",
+      "title": "Kamon",
+      "description": "Monitoring applications running on the JVM.",
+      "category": "Metrics",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/Netflix/vector",
+      "title": "Netflix Vector",
+      "description": "An on-host performance monitoring framework which exposes hand picked high resolution metrics to every engineer's browser.",
+      "category": "Metrics",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/RafalWilinski/express-status-monitor",
+      "title": "Express State Metrics",
+      "description": "Simple, self-hosted module based on Socket.io and Chart.js to report realtime server metrics for Express-based node servers.",
+      "category": "Metrics",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/LinShunKang/MyPerf4J",
+      "title": "MyPerf4J",
+      "description": "High performance Java APM. Powered by ASM. Try it. Test it. If you feel its better, use it.",
+      "category": "Metrics",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/SkyAPM/SkyAPM-dotnet",
+      "title": "SkyAPM-dotnet",
+      "description": "Native support agent in C# and .NETStandard platform, with the helps from Apache SkyWalking committer team.",
+      "category": "Metrics",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/ns1labs/pktvisor",
+      "title": "pktvisor",
+      "description": "Observability agent for summarizing high volume, information dense data streams down to lightweight, immediately actionable observability data directly at the edge.",
+      "category": "Metrics",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/GeiserX/duplicacy-exporter",
+      "title": "duplicacy-exporter",
+      "description": "Real-time Prometheus exporter for Duplicacy backups with live speed, progress, and completion metrics.",
+      "category": "Metrics",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://spring.io/projects/spring-cloud-sleuth",
+      "title": "Sleuth",
+      "description": "Spring Cloud Sleuth implements a distributed tracing solution for Spring Cloud, borrowing heavily from Dapper, Zipkin and HTrace.",
+      "category": "Tracing",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/grafana/alloy",
+      "title": "Grafana Alloy",
+      "description": "Grafana's OpenTelemetry Collector distribution that unifies logs, metrics, and traces in a single agent; the supported successor to Promtail and Grafana Agent.",
+      "category": "Logging",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "http://ophilipp.free.fr/op_tail.htm",
+      "title": "mTAIL",
+      "description": "Windows program that extract internal monitoring data from application logs for collection in a timeseries database.",
+      "category": "Logging",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/opsgenie/kubernetes-event-exporter",
+      "title": "kubernetes-event-exporter",
+      "description": "This tool allows exporting the often missed Kubernetes events to various outputs so that they can be used for observability or alerting purposes.",
+      "category": "Events & Problems",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/weaveworks-experiments/kspan",
+      "title": "kspan",
+      "description": "Turning Kubernetes Events into spans.",
+      "category": "Events & Problems",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/kubesphere/kubeeye",
+      "title": "KubeEye",
+      "description": "Aims to find various problems on Kubernetes, such as application misconfiguration (using Polaris), cluster components unhealthy and node problems (using Node-Problem-Detector).",
+      "category": "Events & Problems",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/Blazemeter/taurus",
+      "title": "Taurus",
+      "description": "Relies on JMeter, Gatling, Locust.io, Grinder and Selenium WebDriver as its underlying tools. Free and open source under Apache 2.0 License.",
+      "category": "4. Load Generators and Synthetic Traffic",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://k6.io/",
+      "title": "K6",
+      "description": "Developer-centric, free and open-source load testing tool built for making performance testing a productive and enjoyable experience.",
+      "category": "4. Load Generators and Synthetic Traffic",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/straightdave/trunks",
+      "title": "Trunks",
+      "description": "Like every son, is derived from the father Vegeta with some enhanced skills.",
+      "category": "4. Load Generators and Synthetic Traffic",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/yandex/yandex-tank",
+      "title": "Yandex Tank",
+      "description": "Yandex.Tank is an extensible open source load testing tool for advanced Linux users which is especially good as a part of an automated load testing suite.",
+      "category": "4. Load Generators and Synthetic Traffic",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/bojand/ghz",
+      "title": "ghz",
+      "description": "Simple gRPC benchmarking and load testing tool inspired by hey and grpcurl.",
+      "category": "4. Load Generators and Synthetic Traffic",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/yandex/pandora",
+      "title": "Pandora",
+      "description": "High-performance load generator in Go language. It has built-in HTTP(S) and HTTP/2 support and you can write your own load scenarios in Go, compiling them just before your test.",
+      "category": "4. Load Generators and Synthetic Traffic",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/yandex-load/phantom/tree/master/examples",
+      "title": "phantom",
+      "description": "Evgeniy Mamchits' phantom is a very fast (100 000+ RPS) shooter written in C++ (default).",
+      "category": "4. Load Generators and Synthetic Traffic",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/yandex-load/bfg",
+      "title": "BFG",
+      "description": "A modular tool and framework for load generation that supports HTTP/2.",
+      "category": "4. Load Generators and Synthetic Traffic",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/pinterest/bender",
+      "title": "Bender",
+      "description": "Makes it easy to build load testing applications for services using protocols like HTTP, Thrift, Protocol Buffers and many more. Bender provides a library of flexible, powerful primitives that can be combined (with plain Go code) to build load testers customized to any use case and that evolve with your service over time.",
+      "category": "4. Load Generators and Synthetic Traffic",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/eventum-generator/eventum",
+      "title": "Eventum",
+      "description": "Data generation platform for producing synthetic event streams based on templates, scripts or log samples.",
+      "category": "4. Load Generators and Synthetic Traffic",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://vector.dev/",
+      "title": "Vector",
+      "description": "Collect, transform, and route all your logs and metrics with one simple tool.",
+      "category": "5. Transport",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/observIQ/stanza",
+      "title": "Stanza",
+      "description": "Fast and lightweight log transport and processing agent. It's designed as a modern replacement for Fluentd, Fluent Bit, and Logstash.",
+      "category": "5. Transport",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://www.rsyslog.com/",
+      "title": "Rsyslog",
+      "description": "The rocket-fast system for log processing.",
+      "category": "5. Transport",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "http://activemq.apache.org/apollo/",
+      "title": "Apollo",
+      "description": "Faster, more reliable, easier to maintain messaging broker built from the foundations of the original ActiveMQ.",
+      "category": "5. Transport",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/mcollina/ascoltatori",
+      "title": "Ascoltatori",
+      "description": "Pub/sub library for Node.",
+      "category": "5. Transport",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "http://kr.github.io/beanstalkd/",
+      "title": "Beanstalk",
+      "description": "Simple, fast work queue.",
+      "category": "5. Transport",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/antirez/disque",
+      "title": "Disque",
+      "description": "Distributed message broker.",
+      "category": "5. Transport",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "http://eventuate.io/",
+      "title": "Eventuate",
+      "description": "A platform for developing asynchronous microservices solving the distributed data management problems.",
+      "category": "5. Transport",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/nanopack/mist",
+      "title": "Mist",
+      "description": "A distributed, tag-based pub/sub service.",
+      "category": "5. Transport",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "http://www.mosca.io/",
+      "title": "Mosca",
+      "description": "MQTT broker as a module.",
+      "category": "5. Transport",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "http://nanomsg.org/",
+      "title": "Nanomsg",
+      "description": "Socket library that provides several common communication patterns for building distributed systems.",
+      "category": "5. Transport",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://vernemq.com/",
+      "title": "VerneMQ",
+      "description": "Open source software, extendable, and enterprise support is available.",
+      "category": "5. Transport",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://grafana.com/oss/mimir/",
+      "title": "Grafana Mimir",
+      "description": "Mimir is an open source, horizontally scalable, highly available, multi-tenant TSDB for long-term storage for Prometheus.",
+      "category": "Metrics",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/github/brubeck",
+      "title": "Brubeck",
+      "description": "Statsd-compatible stats aggregator written in C.",
+      "category": "Logging",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/logdyhq/logdy-core",
+      "title": "logdy",
+      "description": "Supercharge terminal logs with web browser UI and low-code. It's like jq, tail, less, grep and awk merged together and available in a clean UI. Self-hosted, single binary.",
+      "category": "Logging",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://last9.io/docs/logs/",
+      "title": "Last9",
+      "description": "Unified Logs Explorer with search, filters, SQL query support, and OpenTelemetry-native ingestion.",
+      "category": "Logging",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/starkross/augur",
+      "title": "Augur",
+      "description": "Static analysis linter for OpenTelemetry Collector configurations. Detects misconfigurations, hardcoded credentials, and missing critical components (memory limiters, batch processors) before deployment. Built on OPA/Rego with customizable policies and CI/CD integration.",
+      "category": "Configuration & Linters",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://victoriametrics.com/",
+      "title": "VictoriaMetrics",
+      "description": "Fast, cost-effective and scalable monitoring solution and time series database.",
+      "category": "Time Series Database",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "http://kairosdb.github.io/",
+      "title": "kairosDB",
+      "description": "Fast Time Series Database on Cassandra.",
+      "category": "Time Series Database",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://graphiteapp.org/",
+      "title": "Graphite",
+      "description": "Store numeric time-series data and render graphs of this data on demand.",
+      "category": "Time Series Database",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://www.m3db.io/",
+      "title": "M3DB",
+      "description": "Fully open source metrics platform built on M3DB, a distributed timeseries database.",
+      "category": "Time Series Database",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/Netflix/atlas",
+      "title": "Netflix Atlas",
+      "description": "Atlas features in-memory data storage, allowing it to gather and report very large numbers of metrics, very quickly.",
+      "category": "Time Series Database",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/grafana/metrictank",
+      "title": "Metric Tank",
+      "description": "Provides high availability and efficient long-term storage, retrieval, and processing for large-scale environments.",
+      "category": "Time Series Database",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/Comcast/trickster",
+      "title": "Trickster",
+      "description": "Open Source HTTP Reverse Proxy Cache and Time Series Dashboard Accelerator.",
+      "category": "Time Series Cache",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://qryn.metrico.in/",
+      "title": "qryn",
+      "description": "Polyglot monitoring and observability.",
+      "category": "\"Meta Projects\" (data storage, multi-tenant, aggregation, high availability, etc)",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://thanos.io/",
+      "title": "Thanos",
+      "description": "Highly available Prometheus setup with long term storage capabilities.",
+      "category": "\"Meta Projects\" (data storage, multi-tenant, aggregation, high availability, etc)",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/observatorium/observatorium",
+      "title": "Observatorium",
+      "description": "This system will allow you to ingest, store and use common observability signals like metrics, logging and tracing.",
+      "category": "\"Meta Projects\" (data storage, multi-tenant, aggregation, high availability, etc)",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://opstrace.com/",
+      "title": "Opstrace",
+      "description": "The Opstrace Distribution is a secure, horizontally-scalable, open source observability platform that you can install in your cloud account.",
+      "category": "\"Meta Projects\" (data storage, multi-tenant, aggregation, high availability, etc)",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/grafana/tempo",
+      "title": "Grafana Tempo",
+      "description": "Open source, easy-to-use and high-scale distributed tracing backend.",
+      "category": "Tracing",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://expediadotcom.github.io/haystack/",
+      "title": "Haystack",
+      "description": "A resilient, scalable tracing and analysis system.",
+      "category": "Tracing",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://solr.apache.org/",
+      "title": "Apache Solr",
+      "description": "Solr is the popular, blazing-fast, open source enterprise search platform built on Apache Lucene.",
+      "category": "Search Engine",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://www.elastic.co/es/enterprise-search",
+      "title": "Elasticsearch",
+      "description": "Free and Open, Distributed, RESTful Search Engine.",
+      "category": "Search Engine",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://clickhouse.com/",
+      "title": "ClickHouse",
+      "description": "Fast open-source OLAP database management system.",
+      "category": "SQL Database",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://redislabs.com/",
+      "title": "Redis",
+      "description": "Multi-model NoSQL database server enables search, messaging, streaming, graph, and other capabilities.",
+      "category": "NoSQL Database (The Others :-P)",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://couchdb.apache.org/",
+      "title": "CouchDB",
+      "description": "Seamless multi-master sync, that scales from Big Data to Mobile, with an Intuitive HTTP/JSON API and designed for Reliability.",
+      "category": "NoSQL Database (The Others :-P)",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/ExplorViz",
+      "title": "ExplorViz",
+      "description": "Live trace visualization for large software landscapes.",
+      "category": "General & Tools",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://www.brendangregg.com/flamegraphs.html",
+      "title": "Flame Graph",
+      "description": "Visualization of profiled software, allowing the most frequent code-paths to be identified quickly and accurately.",
+      "category": "General & Tools",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/Netflix/flamescope",
+      "title": "Flame Scope",
+      "description": "FlameScope is a visualization tool for exploring different time ranges as Flame Graphs.",
+      "category": "General & Tools",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://grafana.com/oss/grafana/",
+      "title": "Grafana",
+      "description": "The first really good dashboard for displaying metrics.",
+      "category": "Dashboarding",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/skooner-k8s/skooner",
+      "title": "Skooner",
+      "description": "Simple Kubernetes real-time dashboard and management.",
+      "category": "Dashboarding",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/roshan8/slo-tracker",
+      "title": "SLO-Tracker",
+      "description": "A simple but effective way to track SLO's and Error budgets. SLO-tracker can be integrated with few alerting tools via webhook integration to receive SLO voilating incidents.",
+      "category": "Dashboarding",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/influxdata/chronograf",
+      "title": "Chronograf",
+      "description": "User interface and administrative component of the InfluxDB platform.",
+      "category": "Dashboarding",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/nghialv/promviz",
+      "title": "PromViz",
+      "description": "Application that helps you visualize the traffic of your cluster from Prometheus data.",
+      "category": "Dashboarding",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://uchiwa.io/#/",
+      "title": "Uchiwa",
+      "description": "Simple dashboard for the Sensu monitoring framework, built with Go and AngularJS.",
+      "category": "Dashboarding",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/slok/grafterm",
+      "title": "Grafterm",
+      "description": "Visualize metrics dashboards on the terminal, like a simplified and minimalist version of Grafana for terminal.",
+      "category": "Dashboarding",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/grafana/grizzly",
+      "title": "Grizzly",
+      "description": "A utility for managing various observability resources with Jsonnet.",
+      "category": "Dashboarding",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://last9.io/docs/traces/",
+      "title": "Last9",
+      "description": "Traces Explorer with filtering, span attributes, waterfall visualizations, and SQL ad-hoc querying; fully OpenTelemetry-native.",
+      "category": "Tracing",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/NovatecConsulting/novatec-service-dependency-graph-panel",
+      "title": "Novatec Service Dependency Graph Panel",
+      "description": "A Grafana panel for visualizing a Service Dependency Graph.",
+      "category": "Graph of Nodes",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/bluewave-labs/bluewave-uptime",
+      "title": "BlueWave Uptime",
+      "description": "Open-source, self-hosted monitoring tool built with React.js, Node.js, and MongoDB, designed to track server uptime, response times, and incidents in real-time with beautiful visualizations.",
+      "category": "Uptime",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "http://monitive.com",
+      "title": "Monitive",
+      "description": "Free for 1 service, checked every 10 minutes with unlimited email & twitter alerts.",
+      "category": "Uptime",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://uptimerobot.com",
+      "title": "UptimeRobot",
+      "description": "Free for 50 monitors, checked every 5 minutes.",
+      "category": "Uptime",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://uptimeify.io",
+      "title": "Uptimeify.io",
+      "description": "Website and API monitoring with global uptime checks, instant alerts, and hosted status pages.",
+      "category": "Uptime",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://www.overops.com",
+      "title": "OverOps",
+      "description": "Provides Automated Root Cause (ARC) analysis to reduce the time to identify and fix critical production application errors.",
+      "category": "Uptime",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://freshping.io",
+      "title": "Freshping",
+      "description": "Free for 50 monitors, checked every 1 minutes. Status pages, monitoring of HTTP (and DNS, ICMP, TCP/UDP), select region of monitoring.",
+      "category": "Uptime",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://flarewarden.com",
+      "title": "FlareWarden",
+      "description": "Uptime, content, dependency, and SSL monitoring with multi-region verification and status pages. Free plan includes 15 monitors, 5-minute checks, and 90 days of history.",
+      "category": "Uptime",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://ohdear.app",
+      "title": "Oh Dear",
+      "description": "Uptime, performance, SSL certificate, broken link, and DNS monitoring, with hosted status pages.",
+      "category": "Uptime",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://www.elastic.co/es/products/logstash",
+      "title": "Logstash",
+      "description": "Open source, server-side data processing pipeline that ingests data from a multitude of sources simultaneously, transforms it, and then sends it to your favorite \"stash\".",
+      "category": "Processing",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/timberio/vector",
+      "title": "Vector",
+      "description": "High-performance observability data router. It makes collecting, transforming, and sending logs, metrics, and events easy. It decouples data collection & routing from your services, giving you control and data ownership, among many other benefits.",
+      "category": "Processing",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://www.influxdata.com/time-series-platform/kapacitor/",
+      "title": "Kapacitor",
+      "description": "Real-time streaming data processing engine.",
+      "category": "Processing",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/slok/sloth",
+      "title": "Sloth",
+      "description": "Easy and simple Prometheus SLO (service level objectives) generator.",
+      "category": "Alerts",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://bosun.org/",
+      "title": "Bosun",
+      "description": "Is an open-source, MIT licensed, monitoring and alerting system.",
+      "category": "Alerts",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://last9.io/docs/alert-group/",
+      "title": "Last9",
+      "description": "Alert Studio for managing alerts with flexible grouping, routing, and correlation, built on top of OpenTelemetry signals.",
+      "category": "Alerts",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/influxdata/kapacitor",
+      "title": "Kapacitor",
+      "description": "TICK stack, written in go.",
+      "category": "Alerts",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/prometheus/alertmanager",
+      "title": "Prometheus Alertmanager",
+      "description": "Prometheus stack, Prometheus Alertmanager, written in go.",
+      "category": "Alerts",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://www.elastic.co/cn/products/x-pack",
+      "title": "X-Pack",
+      "description": "Elastic stack.",
+      "category": "Alerts",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/moira-alert",
+      "title": "Moira",
+      "description": "Most powerful alerting system, backed by Graphite.",
+      "category": "Alerts",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://alerta.io/",
+      "title": "Alerta",
+      "description": "Tool used to consolidate and de-duplicate alerts from multiple sources for quick \"at-a-glance\" visualisation.",
+      "category": "Alerts",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "http://flapjack.io/",
+      "title": "Flapjack",
+      "description": "Monitoring notification routing & event processing system.",
+      "category": "Alerts",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/scobal/seyren",
+      "title": "Seyren",
+      "description": "An alerting dashboard for Graphite.",
+      "category": "Alerts",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://cabotapp.com/",
+      "title": "Cabot",
+      "description": "Get alerted when services go down or metrics go crazy.",
+      "category": "Alerts",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/rsionnach/nthlayer",
+      "title": "NthLayer",
+      "description": "Reliability requirements as code. Generates Grafana dashboards, Prometheus alerts, SLOs, and PagerDuty configs from service.yaml. Includes deployment gates that block deploys when error budget is exhausted.",
+      "category": "Alerts",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/theycallmemac/odin",
+      "title": "Odin",
+      "description": "A programmable, observable and distributed job orchestration system.",
+      "category": "Triggers",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/imgix/prometheus-am-executor",
+      "title": "prometheus-am-executor",
+      "description": "HTTP server that receives alerts from the Prometheus Alertmanager and executes a given command with alert details set as environment variables.",
+      "category": "Triggers",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://asq.org/quality-resources/fmea",
+      "title": "Failure Mode and Effects Analysis (FMEA)",
+      "description": "Documents current knowledge and actions about the risks of failures, for use in continuous improvement.",
+      "category": "Anomalies Detection",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/bbotte/banshee-detection_system",
+      "title": "Banshee",
+      "description": "Real-time anomalies(outliers) detection system for periodic metrics.",
+      "category": "Anomalies Detection",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/AICoE/log-anomaly-detector",
+      "title": "Project Scorpio",
+      "description": "Log Anomaly Detector.",
+      "category": "Anomalies Detection",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/AICoE/prometheus-anomaly-detector",
+      "title": "Anomaly Detection in Prometheus Metrics",
+      "description": "Prototype for a Prometheus Anomaly Detector (PAD) which can be deployed on OpenShift. The PAD is a framework to deploy a metric prediction model to detect anomalies in prometheus metrics.",
+      "category": "Anomalies Detection",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://adtk.readthedocs.io/en/stable/",
+      "title": "Anomaly Detection Toolkit (ADTK)",
+      "description": "Python package for unsupervised / rule-based time series anomaly detection.",
+      "category": "Anomalies Detection",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/ThoTischner/observability-mcp",
+      "title": "observability-mcp",
+      "description": "Cross-signal anomaly detection (z-score) over Prometheus metrics and Loki logs, exposed to AI agents through the Model Context Protocol. Pluggable connectors for additional backends, weighted health scoring, Web UI, and an ArtifactHub-listed Helm chart.",
+      "category": "Anomalies Detection",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/langfuse/langfuse",
+      "title": "Langfuse",
+      "description": "Open source LLM engineering platform for observability, metrics, evals, prompt management and datasets. Integrates with OpenTelemetry, LangChain, OpenAI SDK, LiteLLM, and more.",
+      "category": "Platforms",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/Arize-ai/phoenix",
+      "title": "Arize Phoenix",
+      "description": "Open-source AI observability platform for tracing, evaluation, datasets, experiments, prompt management and playground. Built on OpenTelemetry with Python and TypeScript support.",
+      "category": "Platforms",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://clevagent.io",
+      "title": "ClevAgent",
+      "description": "Runtime monitoring for AI agents — heartbeat watchdog, loop detection, cost tracking, auto-restart.",
+      "category": "Platforms",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/Helicone/helicone",
+      "title": "Helicone",
+      "description": "Open source LLM observability platform and AI Gateway. One line of code to monitor, evaluate, and experiment across 100+ providers.",
+      "category": "Platforms",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/openlit/openlit",
+      "title": "OpenLIT",
+      "description": "OTel-native observability and evals for LLMs and GPUs.",
+      "category": "Platforms",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/Scale3-Labs/langtrace",
+      "title": "Langtrace",
+      "description": "Open source OpenTelemetry-based observability for LLM applications.",
+      "category": "Platforms",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/JoniMartin27/lookspan",
+      "title": "Lookspan",
+      "description": "Local-first observability for AI agents. One command (`npx lookspan`) runs a dashboard with traces, a timeline/waterfall view, cost tracking, replay & LLM-as-judge, and datasets. MCP-native, with OpenAI/Anthropic drop-ins and an OpenTelemetry receiver — all data stays on your machine.",
+      "category": "Platforms",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/lmnr-ai/lmnr",
+      "title": "Laminar",
+      "description": "Open-source observability and analytics platform purpose-built for AI agents. Built in Rust for performance.",
+      "category": "Platforms",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/Agenta-AI/agenta",
+      "title": "Agenta",
+      "description": "Open-source LLMOps platform for prompt playground, prompt management, LLM evaluation, and observability.",
+      "category": "Platforms",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/pydantic/logfire",
+      "title": "Pydantic Logfire",
+      "description": "AI observability platform for production LLM and agent systems. Built on OpenTelemetry with first-class Pydantic AI support.",
+      "category": "Platforms",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/cueapi/cueapi-core",
+      "title": "CueAPI",
+      "description": "Open-source observability for AI agent execution outcomes. Tracks verified vs. reported success rates, outcome timeouts, and verification-pending backlogs across scheduled agent work. Self-hosted, Apache-2.0.",
+      "category": "Platforms",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://traccia.ai",
+      "title": "Traccia",
+      "description": "Open-source observability and governance platform for AI agents. Integrates with OpenAI Agents SDK, CrewAI, Langchain, Claude Code, and more.",
+      "category": "Platforms",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://www.respan.ai/",
+      "title": "Respan",
+      "description": "Full-stack AI engineering platform for tracing agent workflows, evals with custom graders, prompt management, and an AI gateway routing 250+ models. Supports OTLP ingestion and framework integrations (OpenAI Agents SDK, Vercel AI, LangGraph, Mastra).",
+      "category": "Platforms",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/eladser/seerlens",
+      "title": "Seerlens",
+      "description": "Local-first, .NET-first observability and evals for LLM apps. Live tracing, cost in dollars against a budget, CI-gateable evals, and agent/MCP tool-call scoring. Built on OpenTelemetry with .NET, Python and JS SDKs.",
+      "category": "Platforms",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/Netis/heron",
+      "title": "Heron",
+      "description": "Passive, SDK-free observability for LLM and agent traffic. Reconstructs agent turns and service topology from post-TLS HTTP on the wire — no SDK and no proxy in the request path. Decodes OpenAI/Anthropic/Gemini, folds multi-leg proxy hops, auto-classifies vLLM/SGLang/Ollama backends. Single static binary with embedded console, Apache-2.0.",
+      "category": "Platforms",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://voight.xyz",
+      "title": "Voight",
+      "description": "Real-time LLM observability platform. Drop-in SDK wrappers for OpenAI, Anthropic, Vercel AI SDK + hooks for Claude Code and Cursor capture prompts, tokens, cache reads, tool calls, cost, latency, and errors. OpenTelemetry-compatible via `otel: true` opt-in.",
+      "category": "Platforms",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/traceloop/openllmetry",
+      "title": "OpenLLMetry",
+      "description": "Open-source observability for LLM applications, based on OpenTelemetry.",
+      "category": "Instrumentation & SDKs",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/myscale/myscale-telemetry",
+      "title": "MyScale Telemetry",
+      "description": "Tool designed to enhance the observability of LLM applications by capturing trace data from LangChain-based applications and storing it in MyScaleDB or ClickHouse.",
+      "category": "Instrumentation & SDKs",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/aaronlab/browsertrace",
+      "title": "BrowserTrace",
+      "description": "Local-first trace viewer for AI browser-agent failures, capturing screenshots, URLs, actions, model I/O, status, errors, and public-safe HTML exports.",
+      "category": "Instrumentation & SDKs",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/mnfst/manifest",
+      "title": "Manifest",
+      "description": "Open-source real-time cost observability for AI agents. Tracks tokens, costs, messages, and model usage. Self-hostable, privacy-focused, and OTLP-native.",
+      "category": "Cost & Usage Tracking",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/burn0-dev/burn0",
+      "title": "burn0",
+      "description": "Open-source Node.js cost observability with one import. Auto-detects and tracks per-request costs for 50+ services (LLMs, SaaS, databases) via HTTP interception. Sub-millisecond overhead, local-first with optional cloud dashboard.",
+      "category": "Cost & Usage Tracking",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/garvitsurana/burnd",
+      "title": "Burnd",
+      "description": "Local-first CLI that reads Claude Code JSONL session files and surfaces cost leaks via pattern detectors (retry storms, tool overuse, repeated reads, thrash, etc.). npx-installable, MIT, zero telemetry; findings export to a shareable report URL.",
+      "category": "Cost & Usage Tracking",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/luoyuctl/agenttrace",
+      "title": "agenttrace",
+      "description": "TUI observability for AI coding agents. Tracks cost, tokens, tool failures, anomalies, health, and CI gates across Claude Code, Codex, Gemini CLI, Aider, and Cursor exports.",
+      "category": "Cost & Usage Tracking",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/newrelic-experimental/preflight",
+      "title": "Preflight",
+      "description": "Local-first observability for AI coding assistants. Captures every tool call (reads, edits, commands, searches), tracks USD cost per session/day/week and per model, scores efficiency, and detects anti-patterns (re-reads, blind edits, stuck loops) on a live local dashboard. Offline by default, Apache-2.0; optional New Relic backend for team rollups and alerting. Works with Claude Code, Cursor, Windsurf, Copilot, Zed, Continue.dev, and Amazon Q.",
+      "category": "Cost & Usage Tracking",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/Necmttn/ax",
+      "title": "ax",
+      "description": "Local telemetry for AI coding agents.",
+      "category": "Cost & Usage Tracking",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/SikamikanikoBG/homelab-monitor",
+      "title": "HomeLab Monitor",
+      "description": "Self-hosted dashboard that shows which Docker container is actually holding the GPU - per-container VRAM attribution, not just total utilization. Also covers host vitals, Docker health, systemd services, and multiple machines over SSH. MIT license.",
+      "category": "11. GPU Observability",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/NVIDIA/dcgm-exporter",
+      "title": "NVIDIA DCGM Exporter",
+      "description": "Official NVIDIA Prometheus exporter for GPU metrics via DCGM. Kubernetes-native with Helm support, Grafana dashboards, per-process GPU metrics, MIG support, and TLS/auth.",
+      "category": "11. GPU Observability",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/utkuozdemir/nvidia_gpu_exporter",
+      "title": "nvidia_gpu_exporter",
+      "description": "Lightweight Prometheus exporter for NVIDIA GPUs using nvidia-smi. No DCGM or C bindings required. Works on Linux and Windows with auto-discovered metric fields and Grafana dashboard.",
+      "category": "11. GPU Observability",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/XuehaiPan/nvitop",
+      "title": "nvitop",
+      "description": "Interactive NVIDIA GPU process viewer with rich Python API. Ships nvitop-exporter for Prometheus metrics and Grafana dashboards, plus ResourceMetricCollector API for custom monitoring and ML framework callbacks.",
+      "category": "11. GPU Observability",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/Syllo/nvtop",
+      "title": "NVTOP",
+      "description": "Task monitor for GPUs and accelerators, similar to htop. Multi-vendor support: NVIDIA, AMD, Intel, Apple, Huawei Ascend, Qualcomm Adreno and more.",
+      "category": "11. GPU Observability",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://www.servicenow.com/products/observability.html",
+      "title": "servicenow - Cloud Observability",
+      "description": "Gain AI-powered insights to detect and quickly respond to changes in cloud-native and monolithic applications.",
+      "category": "12. Application Performance Monitoring Solutions (APM)",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/deepflowio/deepflow",
+      "title": "DeepFlow",
+      "description": "Implemented Zero Code data collection with eBPF for metrics, distributed tracing, request logs and function profiling, and is further integrated with SmartEncoding to achieve Full Stack correlation and efficient access to all observability data.",
+      "category": "12. Application Performance Monitoring Solutions (APM)",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://coroot.com/",
+      "title": "coroot",
+      "description": "Open-source eBPF-based observability tool that turns telemetry data into actionable insights, helping you identify and resolve application issues quickly.",
+      "category": "12. Application Performance Monitoring Solutions (APM)",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://home.robusta.dev/",
+      "title": "robusta",
+      "description": "Unified Kubernetes  monitoring, observability, and operations.",
+      "category": "12. Application Performance Monitoring Solutions (APM)",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/keyval-dev/odigos",
+      "title": "Odigos",
+      "description": "Observability Control Plane.",
+      "category": "12. Application Performance Monitoring Solutions (APM)",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://www.kloudfuse.com/",
+      "title": "Kloudfuse",
+      "description": "Single unified observability platform for metrics, events, logs and traces.",
+      "category": "12. Application Performance Monitoring Solutions (APM)",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://www.aspecto.io/",
+      "title": "Aspecto",
+      "description": "Troubleshoot performance bottlenecks and errors within your microservices.",
+      "category": "12. Application Performance Monitoring Solutions (APM)",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/zabbix/zabbix",
+      "title": "Zabbix",
+      "description": "Real-time monitoring of IT components and services, such as networks, servers, VMs, applications and the cloud.",
+      "category": "12. Application Performance Monitoring Solutions (APM)",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://www.circonus.com/",
+      "title": "Circonus",
+      "description": "Unified platform for monitoring and analyzing all of your metrics, infrastructure, and applications.",
+      "category": "12. Application Performance Monitoring Solutions (APM)",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/epsagon",
+      "title": "Epsagon",
+      "description": "Application Monitoring Built for Containers and Serverless.",
+      "category": "12. Application Performance Monitoring Solutions (APM)",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://chronosphere.io/",
+      "title": "Chronosphere",
+      "description": "Scalable, reliable, and customizable monitoring solution built for cloud-native applications.",
+      "category": "12. Application Performance Monitoring Solutions (APM)",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://www.centreon.com/",
+      "title": "Centreon",
+      "description": "Business-aware and AIOps-ready IT Monitoring.",
+      "category": "12. Application Performance Monitoring Solutions (APM)",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://www.catchpoint.com/",
+      "title": "catchpoint",
+      "description": "From the edge to the cloud, our proactive observability platform gives you the power to fix problems before your users notice.",
+      "category": "12. Application Performance Monitoring Solutions (APM)",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://www.bluematador.com/",
+      "title": "Blue Matador",
+      "description": "Easiest and fastest way to monitor your cloud environments on the market.",
+      "category": "12. Application Performance Monitoring Solutions (APM)",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://www.aternity.com/application-performance-monitoring/",
+      "title": "Aternity",
+      "description": "Simplified high-definition APM visibility leveraging Real User Monitoring, Synthetic Monitoring, and OpenTelemetry, that is scalable, easy to use and deploy, and unifies insights across end users, applications, networks, and the cloud-native ecosystem.",
+      "category": "12. Application Performance Monitoring Solutions (APM)",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://www.appoptics.com/",
+      "title": "AppOptics",
+      "description": "Continuous monitoring built to scale with your applications for less downtime and lower resource usage.",
+      "category": "12. Application Performance Monitoring Solutions (APM)",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://docs.px.dev/",
+      "title": "Pixie",
+      "description": "Open source observability tool for Kubernetes applications. Pixie uses eBPF to automatically capture telemetry data without the need for manual instrumentation.",
+      "category": "12. Application Performance Monitoring Solutions (APM)",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://swaggerstats.io/",
+      "title": "swagger-stats",
+      "description": "API Telemetry and APM.",
+      "category": "12. Application Performance Monitoring Solutions (APM)",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/google/cloudprober",
+      "title": "Cloudprober",
+      "description": "An active monitoring software to detect failures before your customers do.",
+      "category": "12. Application Performance Monitoring Solutions (APM)",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/datav-io/datav",
+      "title": "Datav",
+      "description": "A modern apm solution for enterprise, an open-source alternative to DataDog, New Relic, etc.",
+      "category": "12. Application Performance Monitoring Solutions (APM)",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://last9.io/",
+      "title": "Last9",
+      "description": "OpenTelemetry-native observability platform for APM, metrics, logs, and traces, built to handle high-cardinality telemetry at scale.",
+      "category": "12. Application Performance Monitoring Solutions (APM)",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/SigNoz/signoz",
+      "title": "SigNoz",
+      "description": "Monitor your applications and troubleshoot problems in your deployed applications, an open-source alternative to DataDog, New Relic, etc.",
+      "category": "12. Application Performance Monitoring Solutions (APM)",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/pinpoint-apm/pinpoint",
+      "title": "Pinpoint",
+      "description": "APM (Application Performance Management) tool for large-scale distributed systems written in Java / PHP/PYTHON.",
+      "category": "12. Application Performance Monitoring Solutions (APM)",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/open-falcon/falcon-plus",
+      "title": "Falcon Plus",
+      "description": "An open-source and enterprise-level monitoring system.",
+      "category": "12. Application Performance Monitoring Solutions (APM)",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://www.dynatrace.com/platform/application-performance-monitoring/",
+      "title": "dynatrace APM",
+      "description": "Best-in-class APM from the category leader. Ensure application performance, innovate faster, collaborate efficiently, and deliver more value with dramatically less effort.",
+      "category": "12. Application Performance Monitoring Solutions (APM)",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://www.elastic.co/es/apm",
+      "title": "Elastic APM",
+      "description": "Application performance monitoring system built on the Elastic Stack.",
+      "category": "12. Application Performance Monitoring Solutions (APM)",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://www.honeycomb.io/",
+      "title": "Honeycomb",
+      "description": "Give all software engineering teams the observability they need to eliminate toil and delight their users.",
+      "category": "12. Application Performance Monitoring Solutions (APM)",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://newrelic.com/",
+      "title": "NewRelic",
+      "description": "Complete view of your applications and operating environment.",
+      "category": "12. Application Performance Monitoring Solutions (APM)",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://www.appdynamics.com/",
+      "title": "AppDynamics",
+      "description": "Business and application performance monitoring.",
+      "category": "12. Application Performance Monitoring Solutions (APM)",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://instrumentalapp.com",
+      "title": "Instrumental",
+      "description": "Real-time application and server monitoring.",
+      "category": "12. Application Performance Monitoring Solutions (APM)",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://kamon.io/apm/",
+      "title": "Kamon apm",
+      "description": "Point and click to find the endpoints, database queries, and API calls that affect your user's experience.",
+      "category": "12. Application Performance Monitoring Solutions (APM)",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/scouter-project/scouter",
+      "title": "Scouter",
+      "description": "Open source APM (Application Performance Management) tool.",
+      "category": "12. Application Performance Monitoring Solutions (APM)",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://www.netdata.cloud/",
+      "title": "Netdata",
+      "description": "Troubleshoot slowdowns and anomalies in your infrastructure with thousands of per-second metrics, meaningful visualizations, and insightful health alarms with zero configuration.",
+      "category": "12. Application Performance Monitoring Solutions (APM)",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://www.stagemonitor.org/",
+      "title": "Stagemonitor",
+      "description": "An open source solution to application performance monitoring for java server applications.",
+      "category": "12. Application Performance Monitoring Solutions (APM)",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://checkmk.com/",
+      "title": "Checkmk Server",
+      "description": "Monitor your entire hybrid IT infrastructure.",
+      "category": "12. Application Performance Monitoring Solutions (APM)",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://icinga.com/",
+      "title": "Icinga",
+      "description": "The Icinga stack spans six core strengths that cover all aspects of monitoring.",
+      "category": "12. Application Performance Monitoring Solutions (APM)",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://sentry.io/welcome/",
+      "title": "Sentry",
+      "description": "From error tracking to performance monitoring, developers can see what actually matters, solve quicker, and learn continuously about their applications - from the frontend to the backend.",
+      "category": "12. Application Performance Monitoring Solutions (APM)",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://www.nagios.com/",
+      "title": "Nagios",
+      "description": "Computer system, network and infrastructure monitoring software application.",
+      "category": "12. Application Performance Monitoring Solutions (APM)",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://sensu.io/",
+      "title": "Sensu",
+      "description": "The Observability Pipeline that delivers monitoring as code on any cloud.",
+      "category": "12. Application Performance Monitoring Solutions (APM)",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://kieker-monitoring.net/",
+      "title": "Kieker",
+      "description": "Monitoring, analysis and tool integration.",
+      "category": "12. Application Performance Monitoring Solutions (APM)",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/sodadata/soda-sql",
+      "title": "Soda Sql",
+      "description": "Data profiling, testing, and monitoring for SQL accessible data.",
+      "category": "12. Application Performance Monitoring Solutions (APM)",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://sematext.com/",
+      "title": "Sematext Cloud",
+      "description": "Infrastructure, log, and digital experience monitoring with service and log auto-discovery. Basic plan is free.",
+      "category": "12. Application Performance Monitoring Solutions (APM)",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://tracekit.dev",
+      "title": "TraceKit",
+      "description": "Lightweight APM combining distributed tracing, live breakpoints, and session replay. Built on OpenTelemetry with SDKs for 13+ languages (frontend to backend).",
+      "category": "12. Application Performance Monitoring Solutions (APM)",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://apitally.io",
+      "title": "Apitally",
+      "description": "API monitoring, analytics, and request logging for REST APIs, with lightweight open-source SDKs for Python, Node.js, Go, .NET, and Java.",
+      "category": "12. Application Performance Monitoring Solutions (APM)",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://www.groundcover.com/",
+      "title": "groundcover",
+      "description": "eBPF-based observability platform for Kubernetes with logs, metrics, traces, and APM; deployed entirely inside the user's own cloud (BYOC) for data residency.",
+      "category": "12. Application Performance Monitoring Solutions (APM)",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://coredash.app",
+      "title": "CoreDash",
+      "description": "Real user monitoring for Core Web Vitals (LCP, INP, CLS, TTFB, FCP) with element level attribution, phase breakdowns, LoAF data, and a built in MCP server for AI agents. EU hosted, GDPR compliant.",
+      "category": "12. Application Performance Monitoring Solutions (APM)",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://istio.io/latest/docs/concepts/observability/",
+      "title": "Istio",
+      "description": "Generates detailed telemetry for all service communications within a mesh.",
+      "category": "13. Service Mesh",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://www.kiali.io/",
+      "title": "Kiali",
+      "description": "Observability console for Istio with service mesh configuration capabilities. It helps you to understand the structure of your service mesh by inferring the topology, and also provides the health of your mesh.",
+      "category": "13. Service Mesh",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://www.servicepilot.com/en/",
+      "title": "servicepilot",
+      "description": "Modern monitoring platform.",
+      "category": "14. Observability as a Service",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://www.ibm.com/es-es/products/instana",
+      "title": "Instana",
+      "description": "IBM® Instana® Observability is the gold standard of incident prevention with automated full-stack visibility, 1-second granularity and 3 seconds to notify.",
+      "category": "14. Observability as a Service",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://en.mackerel.io/",
+      "title": "Mackerel",
+      "description": "A SaaS server monitoring service with an intuitive UI, optimized for the cloud era, that fosters a culture of team-based system monitoring/operation.",
+      "category": "14. Observability as a Service",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://grafana.com/products/cloud/?plcmt=nav-products-cta1&cta=cloud",
+      "title": "Grafana Cloud",
+      "description": "Composable observability platform, integrating metrics, traces and logs with Grafana.",
+      "category": "14. Observability as a Service",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/NexClipper",
+      "title": "NexClipper",
+      "description": "Full stack visibility and intelligence for cloud native applications.",
+      "category": "14. Observability as a Service",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://whatap.io/en/",
+      "title": "WhaTap",
+      "description": "Provides an integrated monitoring service for DevOps that analyzes application performance issue running on Kubernetes in real time.",
+      "category": "14. Observability as a Service",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://aws.amazon.com/es/cloudwatch/",
+      "title": "CloudWatch",
+      "description": "Observability of your AWS resources and applications on AWS and on-premises.",
+      "category": "14. Observability as a Service",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://cloud.google.com/monitoring",
+      "title": "Google Cloud Monitoring",
+      "description": "Gain visibility into the performance, availability, and health of your applications and infrastructure.",
+      "category": "14. Observability as a Service",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://azure.microsoft.com/en-us/services/monitor/#overview",
+      "title": "Azure Monitor",
+      "description": "Full observability into your applications, infrastructure, and network.",
+      "category": "14. Observability as a Service",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://www.guance.com",
+      "title": "Guance",
+      "description": "China local \"All in one\" observability platform, it can integrate any open source collecting method.",
+      "category": "14. Observability as a Service",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://www.alibabacloud.com/es/product/log-service",
+      "title": "Alibaba Cloud Logs Service",
+      "description": "Complete real-time data logging service that has been developed by Alibaba Group.",
+      "category": "14. Observability as a Service",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://www.humio.com/",
+      "title": "humio",
+      "description": "Modern log management with streaming observability and affordable Unlimited Plans.",
+      "category": "14. Observability as a Service",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://www.loggly.com/",
+      "title": "loggly",
+      "description": "See it all in one place. Dozens of log sources, no proprietary agents.",
+      "category": "14. Observability as a Service",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://www.scalyr.com/",
+      "title": "SCALYR",
+      "description": "Log analytics - blazing fast at petabyte scale, feature rich at surprisingly low cost.",
+      "category": "14. Observability as a Service",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://www.splunk.com/",
+      "title": "splunk",
+      "description": "Extensible data platform powers unified security, full-stack observability and limitless custom applications.",
+      "category": "14. Observability as a Service",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://www.sumologic.com/",
+      "title": "sumo logic",
+      "description": "Reduce downtime with real-time alerting, dashboards, and machine-learning-powered analytics for all three types of telemetry — logs, metrics, and traces.",
+      "category": "14. Observability as a Service",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://cloud.tencent.com/product/cls",
+      "title": "Tencent Cloud Log Service",
+      "description": "Tencent is an internet service portal offering value-added internet, mobile, telecom, and online advertising services.",
+      "category": "14. Observability as a Service",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://www.itrsgroup.com/products/geneos",
+      "title": "Geneos",
+      "description": "Real-time monitoring for all your environments in one platform.",
+      "category": "14. Observability as a Service",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://last9.io/levitate-tsdb",
+      "title": "Levitate",
+      "description": "A Time Series Data Warehouse and Cloud Native Monitoring Solution.",
+      "category": "14. Observability as a Service",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://www.dash0.com/",
+      "title": "Dash0",
+      "description": "Modern OpenTelemetry Native Observability, built on CNCF Open Standards such as PromQL, Perses and OLTP with full cost control. Supports monitoring metrics, logs and traces. With dashboarding and alerting capabilities.",
+      "category": "14. Observability as a Service",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://uptrack.app",
+      "title": "Uptrack",
+      "description": "Uptime monitoring with 30-second checks on the free tier, consecutive-check alert confirmation (multi-region majority vote), hosted status pages, and a built-in MCP server for AI-agent-driven incident triage. HTTP, SSL, TCP, DNS, Ping, Heartbeat, and Cron monitors.",
+      "category": "14. Observability as a Service",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://rivana.io",
+      "title": "Rivana",
+      "description": "Storage-fleet monitoring for enterprise SSD/HDD fleets, tracking 10,000+ devices across thousands of hosts to surface latency and performance issues that generic monitoring and SMART alerts miss.",
+      "category": "14. Observability as a Service",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://yorkermonitoring.com",
+      "title": "Yorker",
+      "description": "OpenTelemetry-native synthetic monitoring. Runs HTTP and Playwright browser checks and forwards each run as enriched OTLP (anomaly scoring, third-party attribution, W3C traceparent) to any OTel backend.",
+      "category": "14. Observability as a Service",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/Olivr/app-node-js",
+      "title": "Node.js boilerplate app (JavaScript)",
+      "description": "Docker and Kubernetes ready. Observability (logs, metrics, traces) included.",
+      "category": "15. Examples and Sandboxes",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/adriannovegil/observability-sandbox",
+      "title": "Observability Sandbox",
+      "description": "Get up and running with Prometheus, Thanos, Grafana, and more using Docker and Docker Compose.",
+      "category": "15. Examples and Sandboxes",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/spring-petclinic/spring-petclinic-microservices",
+      "title": "Spring PetClinic Sample Application",
+      "description": "Distributed version of the Spring PetClinic Sample Application built with Spring Cloud.",
+      "category": "15. Examples and Sandboxes",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/adriannovegil/spring-petclinic-microservices-sre",
+      "title": "My Spring PetClinic Sample Application",
+      "description": "My fork of the official repository.",
+      "category": "15. Examples and Sandboxes",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/Blueswen/fastapi-observability",
+      "title": "FastAPI with Observability",
+      "description": "Docker ready. Telemetry FastAPI application with three pillars of observability: Traces (Tempo), Metrics (Prometheus), Logs (Loki) on Grafana through OpenTelemetry and OpenMetrics. Using examplar for cross querying between traces, metrics and logs.",
+      "category": "15. Examples and Sandboxes",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/ChainBench/OpenChainBench",
+      "title": "OpenChainBench",
+      "description": "Open benchmark stack for blockchain RPC providers. Multi-region harnesses scrape live tx-landing, latency and finality metrics; Next.js front-end exposes the dashboards and the raw Prometheus data ([website](https://openchainbench.com)).",
+      "category": "15. Examples and Sandboxes",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/adriannovegil/awesome-sre",
+      "title": "My Awesome SRE Repo ;-)",
+      "description": null,
+      "category": "16. References",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/adriannovegil/awesome-chaos-engineering",
+      "title": "My Awesome Chaos Engineering Repo ;-)",
+      "description": null,
+      "category": "16. References",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://github.com/adriannovegil/awesome-profiling",
+      "title": "My Awesome Profiling Repo ;-)",
+      "description": null,
+      "category": "16. References",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    },
+    {
+      "url": "https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg",
+      "title": "![CC0",
+      "description": null,
+      "category": "17. License",
+      "source": "adriannovegil/awesome-observability",
+      "indexedAt": "2026-07-23T14:54:03.277Z"
+    }
+  ],
+  "categories": [
+    "1. Best Practices",
+    "Metrics",
+    "Tracing",
+    "Logging",
+    "Events & Problems",
+    "4. Load Generators and Synthetic Traffic",
+    "5. Transport",
+    "Metrics",
+    "Logging",
+    "Configuration & Linters",
+    "Time Series Database",
+    "Time Series Cache",
+    "\"Meta Projects\" (data storage, multi-tenant, aggregation, high availability, etc)",
+    "Tracing",
+    "Search Engine",
+    "Graph Database",
+    "SQL Database",
+    "NoSQL Database (The Others :-P)",
+    "General & Tools",
+    "Dashboarding",
+    "Tracing",
+    "Graph of Nodes",
+    "Uptime",
+    "Processing",
+    "Alerts",
+    "Triggers",
+    "Anomalies Detection",
+    "Platforms",
+    "Instrumentation & SDKs",
+    "Cost & Usage Tracking",
+    "11. GPU Observability",
+    "12. Application Performance Monitoring Solutions (APM)",
+    "13. Service Mesh",
+    "14. Observability as a Service",
+    "15. Examples and Sandboxes",
+    "16. References",
+    "17. License"
+  ],
+  "crawledAt": "2026-07-23T14:54:03.277Z"
+}

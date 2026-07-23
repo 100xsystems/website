@@ -1,0 +1,49 @@
+{
+  "repoId": "aniftyco/awesome-tailwindcss",
+  "name": "😎 Awesome things related to Tailwind CSS",
+  "description": "😎 Awesome things related to Tailwind CSS",
+  "repoUrl": "https://github.com/aniftyco/awesome-tailwindcss",
+  "stars": 15085,
+  "topics": [
+    "apps",
+    "awesome",
+    "awesome-list",
+    "css",
+    "postcss",
+    "resources",
+    "tailwind",
+    "tailwindcss",
+    "websites"
+  ],
+  "links": [
+    {
+      "url": "https://tailwindweekly.com/",
+      "title": "Tailwind Weekly",
+      "description": "Weekly newsletter about all things Tailwind CSS.",
+      "category": "Useful links",
+      "source": "aniftyco/awesome-tailwindcss",
+      "indexedAt": "2026-07-23T14:54:16.259Z"
+    },
+    {
+      "url": "https://github.com/merrickluo/lsp-tailwindcss",
+      "title": "LSP support for Emacs",
+      "description": "Provides IntelliSense in Emacs.",
+      "category": "IDE extensions",
+      "source": "aniftyco/awesome-tailwindcss",
+      "indexedAt": "2026-07-23T14:54:16.259Z"
+    },
+    {
+      "url": "https://github.com/theron-wang/VS2022-Editor-Support-for-Tailwind-CSS",
+      "title": "Editor support for VS2022",
+      "description": "IntelliSense, linting, sorting, and more in Visual Studio 2022.",
+      "category": "IDE extensions",
+      "source": "aniftyco/awesome-tailwindcss",
+      "indexedAt": "2026-07-23T14:54:16.259Z"
+    }
+  ],
+  "categories": [
+    "Useful links",
+    "IDE extensions"
+  ],
+  "crawledAt": "2026-07-23T14:54:16.259Z"
+}

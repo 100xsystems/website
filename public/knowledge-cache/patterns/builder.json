@@ -1,0 +1,16 @@
+{
+  "id": "builder",
+  "category": "patterns",
+  "label": "Builder",
+  "aliases": [],
+  "description": "Separates the construction of a complex object from its representation",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Builder_pattern",
+    "wikidata": "https://www.wikidata.org/wiki/Q852548"
+  },
+  "indexedAt": "2026-07-23T14:36:40.552Z"
+}

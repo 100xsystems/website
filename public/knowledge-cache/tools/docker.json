@@ -1,0 +1,16 @@
+{
+  "id": "docker",
+  "category": "tools",
+  "label": "Docker",
+  "aliases": [],
+  "description": "Platform for developing, shipping, and running applications in containers",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Docker_(software)",
+    "wikidata": "https://www.wikidata.org/wiki/Q11049214"
+  },
+  "indexedAt": "2026-07-23T14:36:22.854Z"
+}

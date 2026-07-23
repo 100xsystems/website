@@ -1,0 +1,16 @@
+{
+  "id": "angular",
+  "category": "tools",
+  "label": "Angular",
+  "aliases": [],
+  "description": "TypeScript-based web application framework by Google",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Angular_(web_framework)",
+    "wikidata": "https://www.wikidata.org/wiki/Q17086734"
+  },
+  "indexedAt": "2026-07-23T14:36:29.720Z"
+}

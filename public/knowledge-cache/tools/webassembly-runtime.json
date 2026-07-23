@@ -1,0 +1,13 @@
+{
+  "id": "webassembly-runtime",
+  "category": "tools",
+  "label": "WebAssembly Runtime",
+  "aliases": [],
+  "description": "Runtime engine for executing WebAssembly modules outside the browser",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {},
+  "indexedAt": "2026-07-23T14:36:39.265Z"
+}

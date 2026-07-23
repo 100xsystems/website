@@ -85,6 +85,7 @@ const headerItems = [
   { id: 'discover', label: 'Discover', children: [
     { id: 'feed', label: 'Feed', href: '/feed', description: 'Engineering blogs & articles' },
     { id: 'awesome', label: 'Awesome Lists', href: '/discover/awesome', description: 'Curated GitHub resource collections' },
+    { id: 'knowledge', label: 'Knowledge Graph', href: '/knowledge', description: 'Interconnected engineering concepts from Wikidata' },
   ]},
   { id: 'cli-docs', label: 'CLI Docs', href: '/cli-docs' },
   { id: 'search', label: 'Search', href: '/search' },

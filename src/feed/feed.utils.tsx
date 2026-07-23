@@ -1,3 +1,4 @@
+import React from 'react';
 import type { Article } from './feed.types';
 
 /**
@@ -123,6 +124,39 @@ export function timeAgo(dateStr: string | null): string {
   if (seconds < 31536000)
     return `${Math.floor(seconds / 2592000)}mo ago`;
   return `${Math.floor(seconds / 31536000)}y ago`;
+}
+
+/**
+ * Highlight search query terms within a text string.
+ * Splits on the query (case-insensitive) and wraps matches in a styled <mark>.
+ * Returns plain text if query < 2 chars or no matches found.
+ */
+export function highlightMatches(
+  text: string,
+  query: string
+): React.ReactNode {
+  if (!query.trim() || query.trim().length < 2) return text;
+
+  const escaped = query
+    .trim()
+    .replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const regex = new RegExp(`(${escaped})`, 'gi');
+  const parts = text.split(regex).filter(Boolean);
+
+  if (parts.length <= 1) return text;
+
+  const lowerQuery = query.trim().toLowerCase();
+
+  return parts.map((part, i) => {
+    if (part.toLowerCase() === lowerQuery) {
+      return (
+        <mark key={i} className="bg-amber-200 text-amber-900 rounded-sm px-0.5">
+          {part}
+        </mark>
+      );
+    }
+    return <span key={i}>{part}</span>;
+  });
 }
 
 /**

@@ -1,0 +1,16 @@
+{
+  "id": "adapter",
+  "category": "patterns",
+  "label": "Adapter",
+  "aliases": [],
+  "description": "Allows incompatible interfaces to work together",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Adapter_pattern",
+    "wikidata": "https://www.wikidata.org/wiki/Q467071"
+  },
+  "indexedAt": "2026-07-23T14:36:42.050Z"
+}

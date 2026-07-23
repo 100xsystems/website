@@ -1,0 +1,16 @@
+{
+  "id": "separation-of-concerns",
+  "category": "principles",
+  "label": "Separation of Concerns",
+  "aliases": [],
+  "description": "Design principle for computer programming",
+  "summary": "Separation of concerns (SoC) is a design principle in computer science and software engineering, it holds that a complex problem should be divided into distinct concerns — aspects or issues — that can be analyzed, addressed or managed individually, even when they belong to the same system. This allows focusing on one issue at a time, reducing cognitive load and complexity.",
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Separation_of_concerns",
+    "wikidata": "https://www.wikidata.org/wiki/Q175131"
+  },
+  "indexedAt": "2026-07-23T14:36:06.445Z"
+}

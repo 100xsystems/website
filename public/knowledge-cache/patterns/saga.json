@@ -1,0 +1,16 @@
+{
+  "id": "saga",
+  "category": "patterns",
+  "label": "Saga Pattern",
+  "aliases": [],
+  "description": "Manages distributed transactions through a series of compensating actions",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Saga_pattern",
+    "wikidata": "https://www.wikidata.org/wiki/Q7396993"
+  },
+  "indexedAt": "2026-07-23T14:36:46.007Z"
+}

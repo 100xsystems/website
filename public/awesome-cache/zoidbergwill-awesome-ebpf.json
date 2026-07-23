@@ -19,7 +19,7 @@
       "description": "A gateway to discover all the basics of eBPF, including a listing of the main related projects and of community resources.",
       "category": "eBPF Essentials",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "http://docs.cilium.io/en/latest/bpf/",
@@ -27,7 +27,7 @@
       "description": "In-depth documentation about most features and aspects of eBPF.",
       "category": "eBPF Essentials",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://docs.ebpf.io/",
@@ -35,7 +35,7 @@
       "description": "Providing technical documentation for eBPF.",
       "category": "eBPF Essentials",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://www.kernel.org/doc/html/latest/bpf/index.html",
@@ -43,7 +43,7 @@
       "description": "Index for BPF-related documentation coming with the Linux kernel.",
       "category": "Kernel Documentation",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/networking/filter.rst",
@@ -51,7 +51,7 @@
       "description": "eBPF specification (somewhat outdated; information should still be valid, but not exhaustive).",
       "category": "Kernel Documentation",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://www.kernel.org/doc/html/latest/bpf/bpf_design_QA.html",
@@ -59,7 +59,7 @@
       "description": "Frequently Asked Questions on the decisions behind the BPF infrastructure.",
       "category": "Kernel Documentation",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://www.kernel.org/doc/html/latest/bpf/bpf_devel_QA.html",
@@ -67,7 +67,7 @@
       "description": "Frequently Asked Questions about contributing to eBPF development.",
       "category": "Kernel Documentation",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "http://man7.org/linux/man-pages/man2/bpf.2.html",
@@ -75,7 +75,7 @@
       "description": "Manual page about the `bpf()` system call, used to manage BPF programs and maps from userspace.",
       "category": "Manual Pages",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "http://man7.org/linux/man-pages/man8/tc-bpf.8.html",
@@ -83,7 +83,7 @@
       "description": "Manual page about using BPF with tc, including example commands and samples of code.",
       "category": "Manual Pages",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "http://man7.org/linux/man-pages/man7/bpf-helpers.7.html",
@@ -91,7 +91,7 @@
       "description": "Description of the in-kernel helper functions forming the BPF standard library.",
       "category": "Manual Pages",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://www.rfc-editor.org/rfc/rfc9669.html",
@@ -99,7 +99,7 @@
       "description": "IETF specification for eBPF",
       "category": "Other",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://prototype-kernel.readthedocs.io/en/latest/bpf/index.html",
@@ -107,7 +107,7 @@
       "description": "Work in progress, contributions welcome.",
       "category": "Other",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://www.spinics.net/lists/xdp-newbies/msg00179.html",
@@ -115,7 +115,7 @@
       "description": null,
       "category": "Other",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://www.spinics.net/lists/xdp-newbies/msg00181.html",
@@ -123,7 +123,7 @@
       "description": null,
       "category": "Other",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://www.spinics.net/lists/xdp-newbies/msg00185.html",
@@ -131,7 +131,7 @@
       "description": null,
       "category": "Other",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/iovisor/bcc/blob/master/docs/kernel-versions.md",
@@ -139,7 +139,7 @@
       "description": null,
       "category": "Other",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://pchaigno.github.io/bpf/2025/01/07/research-papers-bpf.html",
@@ -147,7 +147,7 @@
       "description": null,
       "category": "Other",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://blogs.igalia.com/dpino/2019/01/07/introduction-to-xdp-and-ebpf/",
@@ -155,7 +155,7 @@
       "description": "An accessible introduction providing context, history, and details about the functioning of eBPF.",
       "category": "Generic eBPF Presentations and Articles",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://www.collabora.com/news-and-blog/blog/2019/04/05/an-ebpf-overview-part-1-introduction/",
@@ -163,7 +163,7 @@
       "description": null,
       "category": "Generic eBPF Presentations and Articles",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://www.collabora.com/news-and-blog/blog/2019/04/15/an-ebpf-overview-part-2-machine-and-bytecode/",
@@ -171,7 +171,7 @@
       "description": null,
       "category": "Generic eBPF Presentations and Articles",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://ferrisellis.com/tags/ebpf/",
@@ -179,7 +179,7 @@
       "description": "They have a few posts about eBPF:",
       "category": "Generic eBPF Presentations and Articles",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://ferrisellis.com/content/ebpf_past_present_future/",
@@ -187,7 +187,7 @@
       "description": null,
       "category": "Generic eBPF Presentations and Articles",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://ferrisellis.com/content/ebpf_syscall_and_maps/",
@@ -195,7 +195,7 @@
       "description": null,
       "category": "Generic eBPF Presentations and Articles",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/iovisor/bcc/blob/master/docs/reference_guide.md",
@@ -203,7 +203,7 @@
       "description": "About BPF C and bcc Python helpers, from bcc repository.",
       "category": "Generic eBPF Presentations and Articles",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://speakerdeck.com/tuxology/the-bsd-packet-filter",
@@ -211,7 +211,7 @@
       "description": "An introduction mostly covering the tracing aspects.",
       "category": "Generic eBPF Presentations and Articles",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://www.slideshare.net/slideshow/bpf-tracing-and-more/71128334",
@@ -219,7 +219,7 @@
       "description": "An introduction mostly covering the tracing aspects.",
       "category": "Generic eBPF Presentations and Articles",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://www.slideshare.net/slideshow/linux-bpf-superpowers/58986111",
@@ -227,7 +227,7 @@
       "description": "An introduction mostly covering the tracing aspects, first part with flame graphs.",
       "category": "Generic eBPF Presentations and Articles",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://www.socallinuxexpo.org/sites/default/files/presentations/Room%20211%20-%20IOVisor%20-%20SCaLE%2014x.pdf",
@@ -235,7 +235,7 @@
       "description": "Also introduces [IO Visor project](https://www.iovisor.org/).",
       "category": "Generic eBPF Presentations and Articles",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "http://vger.kernel.org/netconf2015Starovoitov-bpf_collabsummit_2015feb20.pdf",
@@ -243,7 +243,7 @@
       "description": "Presentation by the author of eBPF.",
       "category": "Generic eBPF Presentations and Articles",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://lwn.net/Articles/603983/",
@@ -251,7 +251,7 @@
       "description": "A blog post from 2014 on the development of BPF and demonstrating what can be done with it, using an example of stateful socket filtering by attaching an eBPF program to a socket.",
       "category": "Generic eBPF Presentations and Articles",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://blogs.oracle.com/linux/post/bpf-a-tour-of-program-types",
@@ -259,7 +259,7 @@
       "description": "A description of all existing hooks for BPF program types, and of their interest.",
       "category": "Generic eBPF Presentations and Articles",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://blogs.oracle.com/linux/post/bpf-in-depth-bpf-helper-functions",
@@ -267,7 +267,7 @@
       "description": "A review of the kernel functions that can be called from within eBPF programs.",
       "category": "Generic eBPF Presentations and Articles",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://blogs.oracle.com/linux/post/bpf-in-depth-communicating-with-userspace",
@@ -275,7 +275,7 @@
       "description": "How BPF communicates with userspace - BPF maps, perf events, bpf_trace_printk.",
       "category": "Generic eBPF Presentations and Articles",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://blogs.oracle.com/linux/post/bpf-in-depth-building-bpf-programs",
@@ -283,7 +283,7 @@
       "description": "Setting up your environment to build BPF programs.",
       "category": "Generic eBPF Presentations and Articles",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://blogs.oracle.com/linux/post/bpf-in-depth-the-bpf-bytecode-and-the-bpf-verifier",
@@ -291,7 +291,7 @@
       "description": "How does BPF ensure that programs are safe?",
       "category": "Generic eBPF Presentations and Articles",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://blogs.oracle.com/linux/post/bpf-using-bpf-to-do-packet-transformation",
@@ -299,7 +299,7 @@
       "description": "One eBPF usage about packet transformation.",
       "category": "Generic eBPF Presentations and Articles",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://sematext.com/blog/linux-kernel-observability-ebpf/",
@@ -307,7 +307,7 @@
       "description": "A blog post covering the basics of eBPF as well as code samples in Go on how to build and load a minimal eBPF program into the kernel.",
       "category": "Generic eBPF Presentations and Articles",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://www.researchgate.net/publication/349173667_eBPF_-_From_a_Programmer%27s_Perspective",
@@ -315,7 +315,7 @@
       "description": "A short paper describing the fundamentals of eBPF and how to get started with writing eBPF programs.",
       "category": "Generic eBPF Presentations and Articles",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://blog.cloudflare.com/tag/ebpf/",
@@ -323,7 +323,7 @@
       "description": "Different blog posts about networking use cases and low-level aspects of eBPF.",
       "category": "Generic eBPF Presentations and Articles",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://www.brendangregg.com/ebpf.html",
@@ -331,7 +331,7 @@
       "description": "An in-depth collection of information around examples of performance analysis tools using eBPF. Contains also a section at the end of the page about other resources.",
       "category": "Generic eBPF Presentations and Articles",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/lizrice/ebpf-beginners",
@@ -339,7 +339,7 @@
       "description": "A set of live-coding talks and the accompanying code examples, introducing eBPF programming using a variety of libraries and program types.",
       "category": "Generic eBPF Presentations and Articles",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://ebpf.io/blog/",
@@ -347,7 +347,7 @@
       "description": "Links to many community blogs posts.",
       "category": "Generic eBPF Presentations and Articles",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://fosdem.org/2017/schedule/event/ebpf_xdp/",
@@ -355,7 +355,7 @@
       "description": null,
       "category": "BPF Internals",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "http://netdevconf.org/1.2/session.html?daniel-borkmann",
@@ -363,7 +363,7 @@
       "description": "Details on eBPF, its use for tunneling and encapsulation, direct packet access, and more.",
       "category": "BPF Internals",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "http://netdevconf.org/1.2/slides/oct5/07_tcws_daniel_borkmann_2016_tcws.pdf",
@@ -371,7 +371,7 @@
       "description": "Part of [this tc workshop](http://netdevconf.org/1.2/session.html?jamal-tc-workshop).",
       "category": "BPF Internals",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "http://www.netdevconf.org/1.1/proceedings/slides/borkmann-tc-classifier-cls-bpf.pdf",
@@ -379,7 +379,7 @@
       "description": "Introduction to eBPF, including several features (map management, tail calls, verifier). The full paper [is also available here](http://www.netdevconf.org/1.1/proceedings/papers/On-getting-tc-classifier-fully-programmable-with-cls-bpf.pdf).",
       "category": "BPF Internals",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://archive.fosdem.org/2016/schedule/event/ebpf/attachments/slides/1159/export/events/attachments/ebpf/slides/1159/ebpf.pdf",
@@ -387,7 +387,7 @@
       "description": null,
       "category": "BPF Internals",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://www.slideshare.net/slideshow/linux-networking-explained/65287988",
@@ -395,7 +395,7 @@
       "description": "Linux networking internals, with a part about eBPF.",
       "category": "BPF Internals",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://www.joyfulbikeshedding.com/blog/2019-01-31-full-system-dynamic-tracing-on-linux-using-ebpf-and-bpftrace.html",
@@ -403,7 +403,7 @@
       "description": "A detailed introduction to tracing with eBPF, from listing the available trace points to running bpftrace programs.",
       "category": "Kernel Tracing",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://www.slideshare.net/slideshow/meet-cutebetweenebpfandtracing/62446985",
@@ -411,7 +411,7 @@
       "description": "Kprobes, uprobes, ftrace.",
       "category": "Kernel Tracing",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://www.slideshare.net/slideshow/linux-kernel-tracing/65201573",
@@ -419,7 +419,7 @@
       "description": "Systemtap, Kernelshark, trace-cmd, LTTng, perf-tool, ftrace, hist-trigger, perf, function tracer, tracepoint, kprobe/uprobe, and more.",
       "category": "Kernel Tracing",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://blogs.igalia.com/dpino/2019/01/10/the-express-data-path/",
@@ -427,7 +427,7 @@
       "description": "A very accessible introduction to XDP, providing sample code to show how to process packets.",
       "category": "XDP",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://prototype-kernel.readthedocs.io/en/latest/networking/XDP/index.html",
@@ -435,7 +435,7 @@
       "description": null,
       "category": "XDP",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://www.iovisor.org/technology/xdp",
@@ -443,7 +443,7 @@
       "description": null,
       "category": "XDP",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/iovisor/bpf-docs/raw/master/Express_Data_Path.pdf",
@@ -451,7 +451,7 @@
       "description": "The first presentation about XDP.",
       "category": "XDP",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://www.slideshare.net/slideshow/express-data-path-linux-meetup-santa-clara-july-2016/64525115",
@@ -459,7 +459,7 @@
       "description": "Contains some benchmark results obtained with the mlx4 driver.",
       "category": "XDP",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "http://people.netfilter.org/hawk/presentations/xdp2016/xdp_intro_and_use_cases_sep2016.pdf",
@@ -467,7 +467,7 @@
       "description": "Linux Kernel's fight against DPDK. Future plans (as of this writing) for XDP and comparison with DPDK.",
       "category": "XDP",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "http://people.netfilter.org/hawk/presentations/OpenSourceDays2017/XDP_DDoS_protecting_osd2017.pdf",
@@ -475,7 +475,7 @@
       "description": "Details and use cases about XDP, with benchmark results, and code snippets for benchmarking as well as for basic DDoS protection with eBPF/XDP (based on an IP blacklisting scheme).",
       "category": "XDP",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "http://people.netfilter.org/hawk/presentations/MM-summit2017/MM-summit2017-JesperBrouer.pdf",
@@ -483,7 +483,7 @@
       "description": "Advanced details about current memory issues faced by XDP developers.",
       "category": "XDP",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "http://netdevconf.org/2.1/session.html?gospodarek",
@@ -491,7 +491,7 @@
       "description": "How to get started with eBPF and XDP for normal humans. Also summarized by Julia Evans on [her blog](http://jvns.ca/blog/2017/04/07/xdp-bpf-tutorial/).",
       "category": "XDP",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "http://people.netfilter.org/hawk/presentations/LLC2018/XDP_LLC2018_redirect.pdf",
@@ -499,7 +499,7 @@
       "description": "Update on XDP, and in particular on the redirect actions.",
       "category": "XDP",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://cdn.shopify.com/s/files/1/0177/9886/files/phv2017-gbertin.pdf",
@@ -507,7 +507,7 @@
       "description": "About packet filtering on Linux, DDoS protection, packet processing in the kernel, kernel bypass, XDP and eBPF.",
       "category": "XDP",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://blog.cloudflare.com/how-to-drop-10-million-packets/",
@@ -515,7 +515,7 @@
       "description": "Cloudflare's blog post talking about their move to using XDP for packet filtering.",
       "category": "XDP",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://www.kernel.org/doc/html/latest/networking/af_xdp.html",
@@ -523,7 +523,7 @@
       "description": "Kernel documentation on the AF_XDP address family.",
       "category": "AF_XDP",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://archive.fosdem.org/2018/schedule/event/af_xdp/",
@@ -531,7 +531,7 @@
       "description": null,
       "category": "AF_XDP",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://cilium.io/blog/2018/04/17/why-is-the-kernel-community-replacing-iptables/",
@@ -539,7 +539,7 @@
       "description": "A blog post by Cilium on the motivations behind eBPF and bpfilter, with a couple examples and links to other projects using eBPF and bpfilter.",
       "category": "bpfilter",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://qmo.fr/docs/talk_20180316_frnog_bpfilter.pdf",
@@ -547,7 +547,7 @@
       "description": "Slides from a talk by Quentin Monnet with a background on eBPF and comparing bpfilter to iptables.",
       "category": "bpfilter",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://www.kernel.org/doc/html/latest/bpf/btf.html",
@@ -555,7 +555,7 @@
       "description": "Kernel documentation about BTF, explaining how to use it.",
       "category": "BTF",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://facebookmicrosites.github.io/bpf/blog/2018/11/14/btf-enhancement.html",
@@ -563,7 +563,7 @@
       "description": "A description of the work done with BTF to provide debugging information for BPF programs.",
       "category": "BTF",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://cloudchirp.substack.com/p/what-is-btf-bpf-type-format",
@@ -571,7 +571,7 @@
       "description": "A community-authored newsletter enriched with useful code illustrations and hands-on examples.",
       "category": "BTF",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "http://www.tcpdump.org/papers/bpf-usenix93.pdf",
@@ -579,7 +579,7 @@
       "description": "The original paper about (classic) BPF.",
       "category": "cBPF",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://www.freebsd.org/cgi/man.cgi?query=bpf&sektion=4",
@@ -587,7 +587,7 @@
       "description": null,
       "category": "cBPF",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "http://borkmann.ch/talks/2013_devconf.pdf",
@@ -595,7 +595,7 @@
       "description": null,
       "category": "cBPF",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "http://borkmann.ch/talks/2014_devconf.pdf",
@@ -603,7 +603,7 @@
       "description": null,
       "category": "cBPF",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://blog.cloudflare.com/introducing-the-bpf-tools/",
@@ -611,7 +611,7 @@
       "description": "Usage of BPF bytecode with the `xt_bpf` module for iptables.",
       "category": "cBPF",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "http://biot.com/capstats/bpf.html",
@@ -619,7 +619,7 @@
       "description": null,
       "category": "cBPF",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://www.netdevconf.org/2.2/session.html?viljoen-xdpoffload-talk",
@@ -627,7 +627,7 @@
       "description": "An update on the topic above.",
       "category": "Hardware Offload",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/rprinz08/hBPF",
@@ -635,7 +635,7 @@
       "description": "An eBPF CPU written for FPGAs.",
       "category": "Hardware Offload",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/Dantali0n/qemu-csd",
@@ -643,7 +643,7 @@
       "description": "Computational Storage simulation (QEMU) platform with FUSE LFS filesystem for Zoned Namespaces NVMe SSDs using uBPF for compute kernel offloading, all in userspace.",
       "category": "Hardware Offload",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://dl.acm.org/doi/pdf/10.1145/3592980.3595319",
@@ -651,7 +651,7 @@
       "description": "Delilah is a Computational Storage Processor (CSP) built for eBPF offload to storage devices.",
       "category": "Hardware Offload",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://ebpf.party/",
@@ -659,7 +659,7 @@
       "description": "Browser-based playground to learn, write, compile, and run eBPF programs.",
       "category": "Tutorials",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/iovisor/bcc/blob/master/docs/tutorial_bcc_python_developer.md",
@@ -667,7 +667,7 @@
       "description": "Comes with bcc, but targets the Python bits across seventeen \"lessons\".",
       "category": "Tutorials",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://nakryiko.com/posts/libbpf-bootstrap/",
@@ -675,7 +675,7 @@
       "description": "Helps generate minimal or advanced templates to bootstrap your own applications (kernel side and user space management for maps and programs) with features like CO-RE, global variables, and ring buffer.",
       "category": "Tutorials",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://bolinfest.github.io/opensnoop-native/",
@@ -683,7 +683,7 @@
       "description": "A thorough walk-through of how to write eBPF programs, first using only bpf() syscall, and then libbpf library, with reproducible code examples.",
       "category": "Tutorials",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/goldshtn/linux-tracing-workshop",
@@ -691,7 +691,7 @@
       "description": "Involves the use of several BPF tools for tracing.",
       "category": "Tutorials",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://blog.yadutaf.fr/2017/07/28/tracing-a-packet-journey-using-linux-tracepoints-perf-ebpf/",
@@ -699,7 +699,7 @@
       "description": "Troubleshooting ping requests and replies with perf and bcc programs.",
       "category": "Tutorials",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://open-nfp.org/dataplanes-ebpf/technical-papers/",
@@ -707,7 +707,7 @@
       "description": "Operated by Netronome: some tutorials for network-related eBPF use cases, including an eBPF Offload Starting Guide.",
       "category": "Tutorials",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/xdp-project/xdp-tutorial",
@@ -715,7 +715,7 @@
       "description": "A progressive (three levels of difficulty) tutorial to learn how to process packets with XDP.",
       "category": "Tutorials",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://blog.trailofbits.com/2021/11/09/all-your-tracing-are-belong-to-bpf/",
@@ -723,7 +723,7 @@
       "description": "A step-by-step walkthrough to integrate tracing capabilities in your C++ applications with the LLVM libraries.",
       "category": "Tutorials",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://arthurchiao.art/blog/firewalling-with-bpf-xdp/",
@@ -731,7 +731,7 @@
       "description": "A simple guide to build basic firewalls with TC and XDP.",
       "category": "Tutorials",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://medium.com/@nurkholish.halim/a-deep-dive-into-ebpf-writing-an-efficient-dns-monitoring-2c9dea92abdf",
@@ -739,7 +739,7 @@
       "description": "A detailed explanation of methods used to capture DNS requests at the socket filter layer.",
       "category": "Tutorials",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://eunomia.dev/tutorials/",
@@ -747,7 +747,7 @@
       "description": "Start with eBPF basics and progress to advanced topics using 20+ hands-on tutorials and examples. Covers performance, networking, and security with libbpf and CO-RE. Available in Chinese and English.",
       "category": "Tutorials",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://bencher.dev/docs/explanation/talks/#linuxcon-2023-12-may-23",
@@ -755,7 +755,7 @@
       "description": "A step-by-step guide to benchmarking both the client and kernel eBPF code written in Rust.",
       "category": "Tutorials",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://cloudchirp.substack.com/p/loops-and-iterators-in-ebpf",
@@ -763,7 +763,7 @@
       "description": "Newsletter about all the ways to loop and iterate in eBPF.",
       "category": "Tutorials",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://cloudchirp.substack.com/p/what-insights-can-ebpf-provide-into",
@@ -771,7 +771,7 @@
       "description": "A step-by-step guide how eBPF can observe encrypted network traffic.",
       "category": "Tutorials",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://cloudchirp.substack.com/p/can-ebpf-detect-redis-message-patterns",
@@ -779,7 +779,7 @@
       "description": "A step-by-step guide how eBPF can observe Redis communication between client and server.",
       "category": "Tutorials",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://cloudchirp.substack.com/p/transparent-proxy-implementation",
@@ -787,7 +787,7 @@
       "description": "A step-by-step guide on how to implement a transparent proxy using eBPF.",
       "category": "Tutorials",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://cloudchirp.substack.com/p/ebpf-powered-load-balancing-for-so_reuseport",
@@ -795,7 +795,7 @@
       "description": "Learn how eBPF can infer custom load-balancing for services listening on the same port, through the SO_REUSEPORT TCP option.",
       "category": "Tutorials",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://ebpfchirp.substack.com/p/unit-testing-ebpf-programs",
@@ -803,7 +803,7 @@
       "description": "Learn how you can unit test your eBPF programs using libbpf.",
       "category": "Tutorials",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://cloudchirp.substack.com/p/optimizing-local-socket-communication",
@@ -811,7 +811,7 @@
       "description": "Learn how eBPF can speed-up local socket communication up to 30%.",
       "category": "Tutorials",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://blog.maxgio.me/posts/unleashing-power-frame-pointers-writing-simple-continuous-profiler/",
@@ -819,7 +819,7 @@
       "description": "A step-by-step guide to write an appliation continuous profiler leveraging the eBPF instrumentation, with a complete project as a reference.",
       "category": "Tutorials",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://inspektor-gadget.io/docs/latest/gadget-devel/hello-world-gadget",
@@ -827,7 +827,7 @@
       "description": "An introductory guide to writing image-based eBPF gadgets and sharing them via OCI registries.",
       "category": "Tutorials",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://inspektor-gadget.io/docs/latest/gadget-devel/hello-world-gadget-wasm",
@@ -835,7 +835,7 @@
       "description": "An introductory guide to writing image-based eBPF gadgets and performing post-processing with WASM.",
       "category": "Tutorials",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://ebpf.io/labs/",
@@ -843,7 +843,7 @@
       "description": "List of community developed labs.",
       "category": "Tutorials",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/tree/samples/bpf",
@@ -851,7 +851,7 @@
       "description": "In the kernel tree: some sample eBPF programs.",
       "category": "Examples",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/tools/testing/selftests/bpf",
@@ -859,7 +859,7 @@
       "description": "In the kernel tree: Linux BPF selftests, with many eBPF programs.",
       "category": "Examples",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/netoptimizer/prototype-kernel/tree/master/kernel/samples/bpf",
@@ -867,7 +867,7 @@
       "description": "Jesper Dangaard Brouer's prototype-kernel repository contains some additional examples that can be compiled outside of kernel infrastructure.",
       "category": "Examples",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://git.kernel.org/pub/scm/network/iproute2/iproute2-next.git/tree/examples/bpf",
@@ -875,7 +875,7 @@
       "description": "Some networking programs to attach to the TC interface.",
       "category": "Examples",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/Netronome/bpf-samples/",
@@ -883,7 +883,7 @@
       "description": "Provides basic but complete examples of eBPF applications also compatible with hardware offload.",
       "category": "Examples",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/iovisor/bcc/tree/master/examples",
@@ -891,7 +891,7 @@
       "description": "Examples coming along with the bcc tools, mostly about tracing.",
       "category": "Examples",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/iovisor/bcc/tree/master/tools",
@@ -899,7 +899,7 @@
       "description": "These tools themselves can be seen as example use cases for BPF programs, mostly for tracing and monitoring. bcc tools have been packaged for some Linux distributions.",
       "category": "Examples",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/fzakaria/eBPF-mpls-encap-decap",
@@ -907,7 +907,7 @@
       "description": "A heavily commented sample demonstrating how to encapsulate and decapsulate MPLS within IP. The code is commented for those new to BPF development.",
       "category": "Examples",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/vbpf/ebpf-samples",
@@ -915,7 +915,7 @@
       "description": "A collection of compiled (as ELF object files) samples gathered from several projects, primarily intended to serve as test cases for user space verifiers.",
       "category": "Examples",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/niclashedam/ebpf-kill-example",
@@ -923,7 +923,7 @@
       "description": "A fully documented and tested example of an eBPF probe that logs all force-kills and prints them out in user-space.",
       "category": "Examples",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/foniod/redbpf/tree/main/examples",
@@ -931,7 +931,7 @@
       "description": "Example programs for using RedBPF to write eBPF programs in Rust.",
       "category": "Examples",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/netfoundry/zfw",
@@ -939,7 +939,7 @@
       "description": "Program that uses XDP/TC-eBPF to provide statefull firewalling and socket redirection.",
       "category": "Examples",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/iovisor/bcc/",
@@ -947,7 +947,7 @@
       "description": "Framework and set of tools - One way to handle BPF programs, in particular for tracing and monitoring. Also includes some utilities that may help inspect maps or programs on the system.",
       "category": "bcc",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/iovisor/bcc/tree/master/src/lua",
@@ -955,7 +955,7 @@
       "description": "Another alternative to C, and even to most of the Python code used in bcc.",
       "category": "bcc",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://git.kernel.org/pub/scm/network/iproute2/iproute2.git",
@@ -963,7 +963,7 @@
       "description": "Package containing tools for network management on Linux. In particular, it contains `tc`, used to manage eBPF filters and actions, and `ip`, used to manage XDP programs. Most of the code related to BPF is in lib/bpf.c.",
       "category": "iproute2",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://git.kernel.org/pub/scm/network/iproute2/iproute2-next.git",
@@ -971,7 +971,7 @@
       "description": "The development tree, synchronised with net-next.",
       "category": "iproute2",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://git.kernel.org/pub/scm/linux/kernel/git/davem/net-next.git/tree/tools/lib/bpf",
@@ -979,7 +979,7 @@
       "description": "A C library used for handling BPF objects (programs and maps), and manipulating ELF object files containing them. It is shipped with the kernel and [mirrored on GitHub](https://github.com/libbpf/libbpf).",
       "category": "libbpf",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/libbpf/libbpf-bootstrap",
@@ -987,7 +987,7 @@
       "description": "Scaffolding for BPF application development with libbpf and BPF CO-RE.",
       "category": "libbpf",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/aquasecurity/libbpfgo",
@@ -995,7 +995,7 @@
       "description": "eBPF library for Go, powered by libbpf.",
       "category": "Go libraries",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/aya-rs/aya-template",
@@ -1003,7 +1003,7 @@
       "description": "Templates for writing BPF applications in Aya that can be used with [`cargo generate`](https://github.com/cargo-generate/cargo-generate).",
       "category": "Aya",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/tw4452852/zbpf",
@@ -1011,7 +1011,7 @@
       "description": "A pure Zig framework for writing cross platform eBPF programs, powered by libbpf and Zig toolchain.",
       "category": "zbpf",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/eunomia-bpf/eunomia-bpf",
@@ -1019,7 +1019,7 @@
       "description": "A compilation framework and runtime library to build, distribute, dynamically load, and run CO-RE eBPF applications in multiple languages and WebAssembly. It supports writing eBPF kernel code only (to build simple CO-RE libbpf eBPF applications), writing the kernel part in both BCC and libbpf styles, and writing userspace in multiple languages in a WASM module and distributing it with simple JSON data or WASM OCI images. The runtime is based on libbpf only and provides CO-RE to BCC-style eBPF programs without depending on the LLVM library.",
       "category": "eunomia-bpf",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next.git/tree/tools/bpf/bpftool",
@@ -1027,7 +1027,7 @@
       "description": "Also some other tools in the kernel tree, under [linux/tools/net/](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/tools/net?h=v4.14) for versions earlier than 4.15, or [linux/tools/bpf/](https://git.kernel.org/pub/scm/linux/kernel/git/davem/net-next.git/tree/tools/bpf) after that:",
       "category": "bpftool and Other Tools from the Kernel Tree",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next.git/tree/tools/bpf/bpf_asm.c",
@@ -1035,7 +1035,7 @@
       "description": "A minimal cBPF assembler.",
       "category": "bpftool and Other Tools from the Kernel Tree",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next.git/tree/tools/bpf/bpf_dbg.c",
@@ -1043,7 +1043,7 @@
       "description": "A small debugger for cBPF programs.",
       "category": "bpftool and Other Tools from the Kernel Tree",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next.git/tree/tools/bpf/bpf_jit_disasm.c",
@@ -1051,7 +1051,7 @@
       "description": "A disassembler for both BPF flavors and could be highly useful for JIT debugging.",
       "category": "bpftool and Other Tools from the Kernel Tree",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/iovisor/ubpf/",
@@ -1059,7 +1059,7 @@
       "description": "Written in C. Contains an interpreter, a JIT compiler for x86_64 architecture, an assembler and a disassembler.",
       "category": "User Space eBPF",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/YutaroHayakawa/generic-ebpf",
@@ -1067,7 +1067,7 @@
       "description": "With support for FreeBSD kernel, FreeBSD user space, Linux kernel, Linux user space and macOS user space. Used for the [VALE software switch](https://www.unix.com/man-page/freebsd/4/vale/)'s [BPF extension module](https://github.com/YutaroHayakawa/vale-bpf).",
       "category": "User Space eBPF",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/qmonnet/rbpf",
@@ -1075,7 +1075,7 @@
       "description": "Written in Rust. Interpreter for Linux, macOS and Windows, and JIT-compiler for x86_64 under Linux.",
       "category": "User Space eBPF",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/vbpf/ebpf-verifier",
@@ -1083,7 +1083,7 @@
       "description": "A user space verifier for eBPF [using an abstract interpretation layer](https://elazarg.github.io/pldi19main-final.pdf), with support for loops.",
       "category": "User Space eBPF",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://rubrikinc.github.io/wachy/",
@@ -1091,7 +1091,7 @@
       "description": "A tracing profiler that aims to make eBPF uprobe-based debugging easier to use. This is done by displaying traces in a UI next to the source code and allowing interactive drilldown analysis.",
       "category": "User Space eBPF",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/microsoft/ebpf-for-windows",
@@ -1099,7 +1099,7 @@
       "description": "This project is a work-in-progress that allows using existing eBPF toolchains and APIs familiar in the Linux ecosystem to be used on top of Windows.",
       "category": "eBPF on Other Platforms",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/zlim/bcc-docker",
@@ -1107,7 +1107,7 @@
       "description": null,
       "category": "Testing in Virtual Environments",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/Kernel-Guard/bpfcompat",
@@ -1115,7 +1115,7 @@
       "description": "Boots real Linux kernels in disposable QEMU/KVM VMs to load- and attach-validate compiled eBPF objects across a multi-distro, multi-architecture kernel matrix, classifying failures (missing BTF, unsupported map/program type, CO-RE relocations); runs as a CI gate and GitHub Action.",
       "category": "Testing in Virtual Environments",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://ovsorbit.org/#e11",
@@ -1123,7 +1123,7 @@
       "description": "Related to the former item. Audio interview of John Fastabend by Ben Pfaff, one of the core maintainers of Open vSwitch.",
       "category": "Networking",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/p4lang/p4c/blob/master/backends/ebpf/README.md",
@@ -1131,7 +1131,7 @@
       "description": null,
       "category": "Networking",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://cilium.io/",
@@ -1139,7 +1139,7 @@
       "description": null,
       "category": "Networking",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://www.slideshare.net/slideshow/clium-container-networking-with-bpf-xdp/68194576",
@@ -1147,7 +1147,7 @@
       "description": "Also featuring a load balancer use case",
       "category": "Networking",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://www.slideshare.net/slideshow/cilium-bpf-xdp-for-containers-66969823/66969823",
@@ -1155,7 +1155,7 @@
       "description": "[video](https://www.youtube.com/watch?v=TnJF7ht3ZYc&list=PLkA60AVN3hh8oPas3cq2VA9xB7WazcIgs)",
       "category": "Networking",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://www.slideshare.net/slideshow/cilium-fast-ipv6-container-networking-with-bpf-and-xdp/65332240",
@@ -1163,7 +1163,7 @@
       "description": null,
       "category": "Networking",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://fosdem.org/2017/schedule/event/cilium/",
@@ -1171,7 +1171,7 @@
       "description": null,
       "category": "Networking",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://ovsorbit.benpfaff.org/",
@@ -1179,7 +1179,7 @@
       "description": "Interview of Thomas Graf by Ben Pfaff.",
       "category": "Networking",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://opensource.googleblog.com/2016/11/cilium-networking-and-security.html",
@@ -1187,7 +1187,7 @@
       "description": null,
       "category": "Networking",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://blog.ipspace.net/2016/10/fast-linux-packet-forwarding-with/",
@@ -1195,7 +1195,7 @@
       "description": "Ivan Pepelnjak interviewing Thomas, October 2016, on eBPF, P4, XDP and Cilium.",
       "category": "Networking",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://code.fb.com/open-source/open-sourcing-katran-a-scalable-network-load-balancer/",
@@ -1203,7 +1203,7 @@
       "description": "A layer 4 load-balancer based on XDP, open-sourced by Facebook.",
       "category": "Networking",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://dpdkuserspace2018.sched.com/event/G45Z/dpdk-pmd-for-afxdp",
@@ -1211,7 +1211,7 @@
       "description": null,
       "category": "Networking",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "http://www.slideshare.net/IOVisor/ceth-for-xdp-linux-meetup-santa-clara-july-2016",
@@ -1219,7 +1219,7 @@
       "description": "Common Ethernet Driver Framework for faster network I/O, a technology initiated by Mellanox.",
       "category": "Networking",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "http://suricata.readthedocs.io/en/latest/capture-hardware/ebpf-xdp.html?highlight=XDP#ebpf-and-xdp",
@@ -1227,7 +1227,7 @@
       "description": null,
       "category": "Networking",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/pevma/SEPTun-Mark-II",
@@ -1235,7 +1235,7 @@
       "description": "Extreme Performance Tuning guide - Mark II.",
       "category": "Networking",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://www.stamus-networks.com/blog/2016/09/28/suricata-bypass-feature",
@@ -1243,7 +1243,7 @@
       "description": null,
       "category": "Networking",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "http://netdevconf.org/1.2/slides/oct6/10_suricata_ebpf.pdf",
@@ -1251,7 +1251,7 @@
       "description": null,
       "category": "Networking",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://www.slideshare.net/ennael/kernel-recipes-2017-ebpf-and-xdp-eric-leblond",
@@ -1259,7 +1259,7 @@
       "description": null,
       "category": "Networking",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://projectcalico.docs.tigera.io/about/about-calico",
@@ -1267,7 +1267,7 @@
       "description": "Calico is an open source networking and network security solution for containers, virtual machines, and native host-based workloads. Calico's eBPF data plane delivers a low latency, high throughput data plane with a rich network security policy model.",
       "category": "Networking",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://projectcalico.docs.tigera.io/maintenance/ebpf/enabling-bpf",
@@ -1275,15 +1275,7 @@
       "description": null,
       "category": "Networking",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
-    },
-    {
-      "url": "https://github.com/merbridge/merbridge/",
-      "title": "merbridge",
-      "description": "Use eBPF to speed up your Service Mesh. Merbridge replaces iptables rules with eBPF to intercept traffic. It also combines msg_redirect to reduce latency with a shortened datapath between sidecars and services.",
-      "category": "Networking",
-      "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://pcapplusplus.github.io/",
@@ -1291,7 +1283,7 @@
       "description": "An open-source C++ library for capturing, parsing and crafting network packets. It features a C++ interface for creating AF_XDP sockets, making it easy to [send and receive packets through them](https://pcapplusplus.github.io/docs/next/features#af_xdp-support-beta).",
       "category": "Networking",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/liudf0716/apfree-wifidog",
@@ -1299,7 +1291,7 @@
       "description": "A high performance and lightweight captive portal solution for wireless networks. It leverages eBPF for traffic control and deep packet inspection capabilities, with plans to gradually replace nftables firewall functionality with eBPF-based solutions.",
       "category": "Networking",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/twisted-pear/ipx_wrap",
@@ -1307,7 +1299,7 @@
       "description": "A proof-of-concept IPX implementation for Linux using eBPF.",
       "category": "Networking",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/iovisor/bpf-docs/blob/master/university/sigcomm-ccr-InKev-2016.pdf",
@@ -1315,7 +1307,7 @@
       "description": null,
       "category": "Observability",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://www.slideshare.net/slideshow/deepmon-dynamic-and-energy-efficient-power-monitoring-for-containerbased-infrastructures/97832653",
@@ -1323,15 +1315,7 @@
       "description": "Helps with measuring power consumption for servers and uses eBPF programs for in-kernel aggregation of data.",
       "category": "Observability",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
-    },
-    {
-      "url": "https://github.com/pixie-io/pixie",
-      "title": "pixie",
-      "description": "Observability for Kubernetes using eBPF. Features include protocol tracing, application profiling, and support for distributed bpftrace deployments.",
-      "category": "Observability",
-      "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/apache/skywalking-rover",
@@ -1339,7 +1323,7 @@
       "description": "[Apache SkyWalking](https://skywalking.apache.org/) is an open-source Application Performance Monitoring (APM) platform specially designed for distributed systems with microservices, cloud-native and container-based (Kubernetes) architectures. SkyWalking Rover is an eBPF-based profiler and metrics collector for C, C++, Golang, and Rust applications.",
       "category": "Observability",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/parca-dev/parca-agent",
@@ -1347,7 +1331,7 @@
       "description": "eBPF based always-on continuous profiler for analysis of CPU and memory usage, down to the line number and throughout time.",
       "category": "Observability",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/javierhonduco/rbperf",
@@ -1355,7 +1339,7 @@
       "description": "Sampling profiler and tracer for Ruby.",
       "category": "Observability",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/overyonder/rstat",
@@ -1363,23 +1347,7 @@
       "description": "Sub-millisecond system monitoring using eBPF tracepoints on sched_switch, sched_process_exit, and sched_process_free, with zero heap allocations in steady state.",
       "category": "Observability",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
-    },
-    {
-      "url": "https://github.com/cilium/hubble",
-      "title": "Hubble",
-      "description": "Network, service and security observability for Kubernetes using eBPF.",
-      "category": "Observability",
-      "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
-    },
-    {
-      "url": "https://github.com/ingero-io/ingero",
-      "title": "Ingero",
-      "description": "eBPF-based GPU causal observability agent. Traces CUDA Runtime and Driver APIs via uprobes and host kernel events via tracepoints to build causal chains explaining GPU latency, with <2% overhead.",
-      "category": "Observability",
-      "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/groundcover-com/caretta",
@@ -1387,7 +1355,7 @@
       "description": "Instant Kubernetes service dependency map generated by eBPF, right to a Grafana instance.",
       "category": "Observability",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/pjs7678/kpod-metrics",
@@ -1395,15 +1363,7 @@
       "description": "eBPF-based pod-level kernel metrics collector for Kubernetes. Exports per-pod CPU, network, memory, syscall, disk I/O, and L7 protocol metrics to Prometheus. BPF programs are defined using a [Kotlin DSL](https://github.com/pjs7678/kotlin-ebpf-dsl) instead of C.",
       "category": "Observability",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
-    },
-    {
-      "url": "https://github.com/deepflowio/deepflow",
-      "title": "DeepFlow",
-      "description": "Instant observability for cloud-native and AI applications based on eBPF.",
-      "category": "Observability",
-      "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/coroot/coroot",
@@ -1411,7 +1371,7 @@
       "description": "Coroot is an open-source APM and observability tool, a DataDog and NewRelic alternative.",
       "category": "Observability",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/hengyoush/kyanos",
@@ -1419,7 +1379,7 @@
       "description": "Kyanos is an eBPF-based network issue analysis tool that enables you to capture network requests, such as HTTP, Redis, and MySQL requests.",
       "category": "Observability",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/bhanuprakasheagala/eTraceGen-eBPFEventTelemetryEngine",
@@ -1427,15 +1387,7 @@
       "description": "eTraceGen is a Linux telemetry engine built with eBPF and Modern C++ that captures kernel-level events for processes, files, system calls, and network with a modular pipeline for decoding, enrichment, filtering, and JSON output.",
       "category": "Observability",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
-    },
-    {
-      "url": "https://falco.org/",
-      "title": "Falco",
-      "description": "A cloud-native runtime security project used as a Kubernetes threat detection engine.",
-      "category": "Security",
-      "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/Sysinternals/SysmonForLinux",
@@ -1443,7 +1395,7 @@
       "description": "A security monitoring tool. It depends on [SysinternalsEBPF](https://github.com/Sysinternals/SysinternalsEBPF).",
       "category": "Security",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://redcanary.com/blog/ebpf-for-security",
@@ -1451,7 +1403,7 @@
       "description": "Red Canary has started to incorporate eBPF to their Linux security sensor.",
       "category": "Security",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/aquasecurity/tracee",
@@ -1459,7 +1411,7 @@
       "description": "A runtime security and forensics tool for Linux which uses eBPF technology to trace the system and applications at runtime, and analyze collected events to detect suspicious behavioral patterns.",
       "category": "Security",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/redcanaryco/redcanary-ebpf-sensor",
@@ -1467,7 +1419,7 @@
       "description": "A set of BPF programs that gather security relevant event data from the Linux kernel. The BPF programs are combined into a single ELF file from which individual probes can be selectively loaded, depending on the running operating system and kernel version.",
       "category": "Security",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/linux-lock/bpflock",
@@ -1475,15 +1427,7 @@
       "description": "An eBPF driven security tool for locking and auditing Linux machines.",
       "category": "Security",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
-    },
-    {
-      "url": "https://github.com/cilium/tetragon",
-      "title": "Tetragon",
-      "description": "Kubernetes-aware, eBPF-based security observability and runtime enforcement.",
-      "category": "Security",
-      "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/alegrey91/harpoon",
@@ -1491,7 +1435,7 @@
       "description": "Trace syscalls from user-space functions, by using eBPF.",
       "category": "Security",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/gen0sec/synapse",
@@ -1499,7 +1443,7 @@
       "description": "Extended detection and response (XDR) with eBPF-powered firewall and proxy, to protect your Linux servers.",
       "category": "Security",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/gen0sec/bpfjailer",
@@ -1507,7 +1451,7 @@
       "description": "BpfJailer is an eBPF-based process jailing system that provides mandatory access control (MAC) for Linux.",
       "category": "Security",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/bombinisecurity/bombini",
@@ -1515,7 +1459,7 @@
       "description": "An eBPF-based security agent written entirely in Rust using the [Aya](https://github.com/aya-rs/aya) library and built on LSM (Linux Security Module) BPF hooks.",
       "category": "Security",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/Cybereason-Public/owLSM",
@@ -1523,7 +1467,7 @@
       "description": "Open source agent that implements a stateful Sigma rules engine focused on monitoring and prevention using eBPF LSM.",
       "category": "Security",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/sched-ext/scx",
@@ -1531,7 +1475,7 @@
       "description": "sched_ext schedulers and tools.",
       "category": "Linux Scheduler",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/Gthulhu/Gthulhu",
@@ -1539,7 +1483,7 @@
       "description": "Gthulhu optimizes cloud-native workloads using the Linux Scheduler Extension for different application scenarios.",
       "category": "Linux Scheduler",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://wkz.github.io/ply/",
@@ -1547,7 +1491,7 @@
       "description": "A small but flexible open source dynamic tracer for Linux, with features similar to the bcc tools, but with a simpler language inspired by awk and DTrace.",
       "category": "Tools",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://bpftrace.org/",
@@ -1555,7 +1499,7 @@
       "description": "A tool for tracing with its own high-level tracing language. It is flexible enough to be envisioned as a Linux replacement for DTrace and SystemTap.",
       "category": "Tools",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://www.brendangregg.com/BPF/bpftrace-cheat-sheet.html",
@@ -1563,15 +1507,7 @@
       "description": "Summary and cheat sheet for programming in bpftrace. Contains information about syntax, probe types, variables and functions.",
       "category": "Tools",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
-    },
-    {
-      "url": "https://github.com/iovisor/kubectl-trace",
-      "title": "kubectl trace",
-      "description": "A kubectl plug-in for executing bpftrace programs in a Kubernetes cluster.",
-      "category": "Tools",
-      "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://inspektor-gadget.io",
@@ -1579,7 +1515,7 @@
       "description": "A collection tools and framework for data collection and system inspection on Kubernetes clusters and Linux hosts using eBPF.",
       "category": "Tools",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/genuinetools/bpfd",
@@ -1587,7 +1523,7 @@
       "description": "Framework for running BPF programs with rules on Linux as a daemon. Container aware.",
       "category": "Tools",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/joelagnel/bpfd",
@@ -1595,7 +1531,7 @@
       "description": "A distinct BPF daemon, trying to leverage the flexibility of the bcc tools to trace and debug remote targets, and in particular devices running with Android.",
       "category": "Tools",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/joelagnel/adeb",
@@ -1603,7 +1539,7 @@
       "description": "A Linux shell environment for using tracing tools on Android with BPFd.",
       "category": "Tools",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/olcf/greggd",
@@ -1611,7 +1547,7 @@
       "description": "System daemon to compile and load eBPF programs into the kernel, and forward program output to socket for metric aggregation.",
       "category": "Tools",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://events.linuxfoundation.org/wp-content/uploads/2017/11/When-eBPF-Meets-FUSE-Improving-Performance-of-User-File-Systems-Ashish-Bijlani-Georgia-Tech.pdf",
@@ -1619,7 +1555,7 @@
       "description": "Considers using eBPF.",
       "category": "Tools",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/navarrothiago/upf-bpf",
@@ -1627,7 +1563,7 @@
       "description": "An in-kernel solution based on XDP for 5G UPF.",
       "category": "Tools",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/foniod/redbpf",
@@ -1635,7 +1571,7 @@
       "description": "Tooling and framework to write eBPF code in Rust efficiently.",
       "category": "Tools",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/ebpfdev/explorer",
@@ -1643,7 +1579,7 @@
       "description": "A web interface to explore system's maps and programs.",
       "category": "Tools",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/redcanaryco/ebpfmon",
@@ -1651,7 +1587,7 @@
       "description": "A TUI (terminal user interface) application for real time monitoring of eBPF programs.",
       "category": "Tools",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/bpfman/bpfman",
@@ -1659,7 +1595,7 @@
       "description": "An eBPF Manager for Linux and Kubernetes. Includes a built-in program loader that supports program cooperation for XDP and TC programs, as well as deployment of eBPF programs from OCI images.",
       "category": "Tools",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/mozillazg/ptcpdump",
@@ -1667,7 +1603,7 @@
       "description": "A process-aware, eBPF-based tcpdump-like tool.",
       "category": "Tools",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/pythops/oryx",
@@ -1675,7 +1611,7 @@
       "description": "A TUI for sniffing network traffic using eBPF on Linux.",
       "category": "Tools",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/swananan/ghostscope",
@@ -1683,7 +1619,7 @@
       "description": "A DWARF-aware eBPF tracer for source-level userspace tracing, with an interactive TUI and a scriptable CLI.",
       "category": "Tools",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/eunomia-bpf/AgentSight",
@@ -1691,7 +1627,7 @@
       "description": "Zero-instrumentation eBPF observability for LLM and coding agents, capturing syscall-level traces (file, network, process) without modifying the agent.",
       "category": "Tools",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/eunomia-bpf/ActPlane",
@@ -1699,7 +1635,7 @@
       "description": "OS-level agent harness that compiles a policy DSL to an in-kernel eBPF engine for labeled information-flow control at the syscall boundary, enforcing constraints across any tool or subprocess.",
       "category": "Tools",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://embracethered.com/blog/tags/ebpf",
@@ -1707,7 +1643,7 @@
       "description": "A series of posts around the introduction into BPF with a focus to an offensive setting, and also how its misuse can be detected. Posts include discussions on the rootkit capabilities of eBPF, or on which tracing type is needed for different use cases.",
       "category": "Tools",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://djalal.opendz.org/post/ebpf-block-linux-fileless-payload-execution-with-bpf-lsm/",
@@ -1715,7 +1651,7 @@
       "description": "Blog post about how BPF can help detection and blocking fileless malware.",
       "category": "Tools",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://www.blackhat.com/us-21/briefings/schedule/#with-friends-like-ebpf-who-needs-enemies-23619",
@@ -1723,7 +1659,7 @@
       "description": "Talk about an eBPF rootkit and how the capabilities of eBPF could be abused. The rootkit was also the object of a talk at Defcon, [eBPF, I thought we were friends !](https://defcon.org/html/defcon-29/dc-29-speakers.html#fournier).",
       "category": "Tools",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/Gui774ume/ebpfkit",
@@ -1731,7 +1667,7 @@
       "description": "A rootkit that leverages multiple eBPF features to implement offensive security techniques.",
       "category": "Tools",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/Gui774ume/ebpfkit-monitor",
@@ -1739,7 +1675,7 @@
       "description": "An utility to statically analyze eBPF bytecode or monitor suspicious eBPF activity at runtime. It was specifically designed to detect ebpfkit.",
       "category": "Tools",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/pathtofile/bad-bpf",
@@ -1747,7 +1683,7 @@
       "description": "A collection of malicious eBPF programs that make use of eBPF's ability to read and write user data in between the usermode program and the kernel.",
       "category": "Tools",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/h3xduck/TripleCross",
@@ -1755,7 +1691,7 @@
       "description": "A Linux eBPF rootkit with a backdoor, C2, library injection, execution hijacking, persistence and stealth capabilities.",
       "category": "Tools",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/tree/include/linux/bpf.h",
@@ -1763,7 +1699,7 @@
       "description": "with [linux/include/uapi/bpf.h](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/tree/include/uapi/linux/bpf.h): definitions related to eBPF, to be used respectively in the kernel and to interface with userspace programs.",
       "category": "The Code",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/tree/include/linux/filter.h",
@@ -1771,7 +1707,7 @@
       "description": "with [linux/include/uapi/filter.h](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/tree/include/uapi/linux/filter.h): information used to run the BPF programs themselves.",
       "category": "The Code",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/tree/kernel/bpf",
@@ -1779,7 +1715,7 @@
       "description": "This directory contains most of BPF-related code. In particular, those files are worth of interest:",
       "category": "The Code",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/kernel/bpf/syscall.c",
@@ -1787,7 +1723,7 @@
       "description": "Different operations permitted by the system call, such as program loading or map management.",
       "category": "The Code",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/kernel/bpf/core.c",
@@ -1795,7 +1731,7 @@
       "description": "BPF interpreter.",
       "category": "The Code",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/kernel/bpf/verifier.c",
@@ -1803,7 +1739,7 @@
       "description": "BPF verifier.",
       "category": "The Code",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/tree/net/core/filter.c",
@@ -1811,7 +1747,7 @@
       "description": "Functions and eBPF helpers related to networking (TC, XDP etc.); also contains the code to migrate cBPF bytecode to eBPF (all cBPF programs are translated to eBPF in recent kernels).",
       "category": "The Code",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/tree/kernel/trace/bpf_trace.c",
@@ -1819,7 +1755,7 @@
       "description": "Functions and eBPF helpers related to tracing and monitoring (kprobes, tracepoints, etc.).",
       "category": "The Code",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/tree/net/sched",
@@ -1827,7 +1763,7 @@
       "description": "and in particular in files `act_bpf.c` (action) and `cls_bpf.c` (filter): code related to BPF actions and filters with TC.",
       "category": "The Code",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/tree/kernel/seccomp.c",
@@ -1835,7 +1771,7 @@
       "description": null,
       "category": "The Code",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/tree/net/core/dev.c",
@@ -1843,7 +1779,7 @@
       "description": "contains the function `dev_change_xdp_fd()` that is called through a Netlink command to hook a XDP program to a device, after is has been loaded into the kernel from user space. This function in turns uses a callback from the relevant driver.",
       "category": "The Code",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next.git/",
@@ -1851,7 +1787,7 @@
       "description": "BPF patches land in this tree. It is regularly merged into [net-next](https://git.kernel.org/pub/scm/linux/kernel/git/davem/net-next.git), which is itself merged for each release to Linus' tree.",
       "category": "Development and Community",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://git.kernel.org/pub/scm/linux/kernel/git/davem/net-next.git/tree/Documentation/bpf/bpf_devel_QA.rst",
@@ -1859,7 +1795,7 @@
       "description": "About contributions to BPF.",
       "category": "Development and Community",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "http://lists.openwall.net/netdev/",
@@ -1867,7 +1803,7 @@
       "description": "Mailing list for Linux kernel networking stack development. All patches are sent there for review and inclusion.",
       "category": "Development and Community",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "http://vger.kernel.org/vger-lists.html#xdp-newbies",
@@ -1875,7 +1811,7 @@
       "description": "A mailing list specially dedicated to XDP programming (both for architecture or for asking for help).",
       "category": "Development and Community",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/xdp-project/xdp-project",
@@ -1883,7 +1819,7 @@
       "description": "A GitHub repository with notes and ideas regarding the future evolutions of XDP.",
       "category": "Development and Community",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/iovisor/bcc/tree/master/docs",
@@ -1891,7 +1827,7 @@
       "description": null,
       "category": "Other Lists of Resources on eBPF",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://github.com/iovisor/bpf-docs/",
@@ -1899,7 +1835,7 @@
       "description": null,
       "category": "Other Lists of Resources on eBPF",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     },
     {
       "url": "https://qmonnet.github.io/whirl-offload/2016/09/01/dive-into-bpf/",
@@ -1907,7 +1843,7 @@
       "description": null,
       "category": "Other Lists of Resources on eBPF",
       "source": "zoidbergwill/awesome-ebpf",
-      "indexedAt": "2026-07-23T13:30:52.420Z"
+      "indexedAt": "2026-07-23T14:54:09.551Z"
     }
   ],
   "categories": [
@@ -1947,5 +1883,5 @@
     "Development and Community",
     "Other Lists of Resources on eBPF"
   ],
-  "crawledAt": "2026-07-23T13:30:52.420Z"
+  "crawledAt": "2026-07-23T14:54:09.551Z"
 }

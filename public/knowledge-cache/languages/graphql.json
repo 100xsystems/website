@@ -1,0 +1,16 @@
+{
+  "id": "graphql",
+  "category": "languages",
+  "label": "GraphQL",
+  "aliases": [],
+  "description": "Query language and runtime for APIs, enabling declarative data fetching",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/GraphQL",
+    "wikidata": "https://www.wikidata.org/wiki/Q22430306"
+  },
+  "indexedAt": "2026-07-23T14:36:21.793Z"
+}

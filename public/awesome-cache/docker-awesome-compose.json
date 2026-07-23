@@ -1,0 +1,59 @@
+{
+  "repoId": "docker/awesome-compose",
+  "name": "Awesome Docker Compose samples",
+  "description": "Awesome Docker Compose samples",
+  "repoUrl": "https://github.com/docker/awesome-compose",
+  "stars": 45910,
+  "topics": [
+    "awesome",
+    "awesome-list",
+    "docker-compose"
+  ],
+  "links": [
+    {
+      "url": "https://github.com/docker/awesome-compose/tree/master/minecraft",
+      "title": "`Minecraft server`",
+      "description": null,
+      "category": "Single service samples",
+      "source": "docker/awesome-compose",
+      "indexedAt": "2026-07-23T14:53:35.768Z"
+    },
+    {
+      "url": "https://github.com/docker/awesome-compose/tree/master/plex",
+      "title": "`Plex`",
+      "description": null,
+      "category": "Single service samples",
+      "source": "docker/awesome-compose",
+      "indexedAt": "2026-07-23T14:53:35.768Z"
+    },
+    {
+      "url": "https://github.com/docker/awesome-compose/tree/master/portainer",
+      "title": "`Portainer`",
+      "description": null,
+      "category": "Single service samples",
+      "source": "docker/awesome-compose",
+      "indexedAt": "2026-07-23T14:53:35.768Z"
+    },
+    {
+      "url": "https://github.com/docker/awesome-compose/tree/master/wireguard",
+      "title": "`Wireguard`",
+      "description": null,
+      "category": "Single service samples",
+      "source": "docker/awesome-compose",
+      "indexedAt": "2026-07-23T14:53:35.768Z"
+    },
+    {
+      "url": "https://www.docker.com/get-started",
+      "title": "Install Docker Desktop",
+      "description": null,
+      "category": "Prerequisites",
+      "source": "docker/awesome-compose",
+      "indexedAt": "2026-07-23T14:53:35.768Z"
+    }
+  ],
+  "categories": [
+    "Single service samples",
+    "Prerequisites"
+  ],
+  "crawledAt": "2026-07-23T14:53:35.768Z"
+}

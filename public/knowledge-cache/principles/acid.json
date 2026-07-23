@@ -1,0 +1,16 @@
+{
+  "id": "acid",
+  "category": "principles",
+  "label": "ACID",
+  "aliases": [],
+  "description": "Robustness properties for database transactions",
+  "summary": "In computer science, ACID is a set of properties of database transactions intended to guarantee data validity despite errors, power failures, and other mishaps. For example, a transfer of funds from one bank account to another, involving multiple changes such as debiting one account and crediting another, is a single transaction.",
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/ACID",
+    "wikidata": "https://www.wikidata.org/wiki/Q215616"
+  },
+  "indexedAt": "2026-07-23T14:35:59.728Z"
+}

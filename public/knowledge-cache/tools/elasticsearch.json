@@ -1,0 +1,16 @@
+{
+  "id": "elasticsearch",
+  "category": "tools",
+  "label": "Elasticsearch",
+  "aliases": [],
+  "description": "Distributed search and analytics engine built on Apache Lucene",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Elasticsearch",
+    "wikidata": "https://www.wikidata.org/wiki/Q6502323"
+  },
+  "indexedAt": "2026-07-23T14:36:27.744Z"
+}

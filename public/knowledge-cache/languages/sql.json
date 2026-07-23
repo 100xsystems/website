@@ -1,0 +1,16 @@
+{
+  "id": "sql",
+  "category": "languages",
+  "label": "SQL",
+  "aliases": [],
+  "description": "Relational database programming language",
+  "summary": "Structured Query Language (SQL) is a domain-specific language used to manage data, especially in a relational database management system (RDBMS). It is particularly useful in handling structured data, i.e., data incorporating relations among entities and variables.",
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/SQL",
+    "wikidata": "https://www.wikidata.org/wiki/Q47607"
+  },
+  "indexedAt": "2026-07-23T14:36:18.035Z"
+}

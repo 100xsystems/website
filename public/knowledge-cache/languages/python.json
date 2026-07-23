@@ -1,0 +1,16 @@
+{
+  "id": "python",
+  "category": "languages",
+  "label": "Python",
+  "aliases": [],
+  "description": "General-purpose programming language",
+  "summary": "Python is a high-level, general-purpose programming language that emphasizes code readability, simplicity, and ease-of-writing with the use of significant indentation, an extensive (\"batteries-included\") standard library, and garbage collection. Python supports multiple programming paradigms but with an emphasis on object-oriented programming and dynamic typing.",
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+    "wikidata": "https://www.wikidata.org/wiki/Q28865"
+  },
+  "indexedAt": "2026-07-23T14:36:13.075Z"
+}

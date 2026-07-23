@@ -1,0 +1,16 @@
+{
+  "id": "zig",
+  "category": "languages",
+  "label": "Zig",
+  "aliases": [],
+  "description": "General-purpose systems language prioritizing simplicity and performance",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Zig_(programming_language)",
+    "wikidata": "https://www.wikidata.org/wiki/Q48815245"
+  },
+  "indexedAt": "2026-07-23T14:36:17.539Z"
+}

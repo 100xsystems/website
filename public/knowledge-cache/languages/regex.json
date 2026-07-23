@@ -1,0 +1,16 @@
+{
+  "id": "regex",
+  "category": "languages",
+  "label": "Regular Expressions",
+  "aliases": [],
+  "description": "Sequence of characters that forms a search pattern",
+  "summary": "A regular expression, sometimes referred to as a rational expression, is a sequence of characters that specifies a match pattern in text. Usually such patterns are used by string-searching algorithms for \"find\" or \"find and replace\" operations on strings, or for input validation. Regular expression techniques are developed in theoretical computer science and formal language theory.",
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Regular_expression",
+    "wikidata": "https://www.wikidata.org/wiki/Q185612"
+  },
+  "indexedAt": "2026-07-23T14:36:22.020Z"
+}

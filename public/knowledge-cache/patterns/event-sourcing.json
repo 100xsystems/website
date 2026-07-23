@@ -1,0 +1,16 @@
+{
+  "id": "event-sourcing",
+  "category": "patterns",
+  "label": "Event Sourcing",
+  "aliases": [],
+  "description": "Stores state changes as a sequence of immutable events",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Event_sourcing",
+    "wikidata": "https://www.wikidata.org/wiki/Q5416482"
+  },
+  "indexedAt": "2026-07-23T14:36:45.685Z"
+}

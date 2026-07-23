@@ -1,0 +1,16 @@
+{
+  "id": "html",
+  "category": "languages",
+  "label": "HTML",
+  "aliases": [],
+  "description": "Standard markup language for creating web pages",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/HTML",
+    "wikidata": "https://www.wikidata.org/wiki/Q8811"
+  },
+  "indexedAt": "2026-07-23T14:36:18.442Z"
+}

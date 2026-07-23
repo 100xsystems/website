@@ -1,0 +1,16 @@
+{
+  "id": "rest",
+  "category": "tools",
+  "label": "REST",
+  "aliases": [],
+  "description": "Architectural style for designing networked applications",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/REST",
+    "wikidata": "https://www.wikidata.org/wiki/Q749568"
+  },
+  "indexedAt": "2026-07-23T14:36:32.719Z"
+}

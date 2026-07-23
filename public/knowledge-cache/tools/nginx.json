@@ -1,0 +1,16 @@
+{
+  "id": "nginx",
+  "category": "tools",
+  "label": "NGINX",
+  "aliases": [],
+  "description": "Open source web server and a reverse proxy server",
+  "summary": "nginx is a web server that can also be used as a reverse proxy, load balancer, mail proxy and HTTP cache. The software was created by Russian developer Igor Sysoev and publicly released in 2004. nginx is free and open-source software, released under the terms of the 2-clause BSD license. A large fraction of web servers use nginx, often as a load balancer.",
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Nginx",
+    "wikidata": "https://www.wikidata.org/wiki/Q178364"
+  },
+  "indexedAt": "2026-07-23T14:36:25.094Z"
+}

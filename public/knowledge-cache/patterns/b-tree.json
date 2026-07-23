@@ -1,0 +1,16 @@
+{
+  "id": "b-tree",
+  "category": "patterns",
+  "label": "B-Tree",
+  "aliases": [],
+  "description": "Tree-based computer data structure",
+  "summary": "In computer science, a B-tree is a self-balancing tree data structure that maintains sorted data and allows searches, sequential access, insertions, and deletions in logarithmic time. The B-tree generalizes the binary search tree, allowing nodes to have more than two children.",
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/B-tree",
+    "wikidata": "https://www.wikidata.org/wiki/Q193666"
+  },
+  "indexedAt": "2026-07-23T14:36:50.512Z"
+}

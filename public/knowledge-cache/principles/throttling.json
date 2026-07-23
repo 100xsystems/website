@@ -1,0 +1,16 @@
+{
+  "id": "throttling",
+  "category": "principles",
+  "label": "Throttling",
+  "aliases": [],
+  "description": "Regulating the flow of data or requests to prevent overload",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Throttling_(computing)",
+    "wikidata": "https://www.wikidata.org/wiki/Q2822795"
+  },
+  "indexedAt": "2026-07-23T14:36:10.307Z"
+}

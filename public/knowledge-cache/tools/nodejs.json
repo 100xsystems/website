@@ -1,0 +1,16 @@
+{
+  "id": "nodejs",
+  "category": "tools",
+  "label": "Node.js",
+  "aliases": [],
+  "description": "JavaScript runtime environment",
+  "summary": "Node.js is a cross-platform, open-source JavaScript runtime environment that can run on Windows, Linux, Unix, macOS, and more. Node.js runs on the V8 JavaScript engine, and executes JavaScript code outside a web browser. According to the Stack Overflow Developer Survey, Node.js is one of the most commonly used web technologies.",
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Node.js",
+    "wikidata": "https://www.wikidata.org/wiki/Q756100"
+  },
+  "indexedAt": "2026-07-23T14:36:30.264Z"
+}

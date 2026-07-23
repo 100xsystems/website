@@ -22,7 +22,7 @@
       "description": "[109k ⭐] - Awesome compilation of resources, including Anki flashcard decks.",
       "category": "Introduction / Interviews",
       "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
+      "indexedAt": "2026-07-23T14:53:40.771Z"
     },
     {
       "url": "https://www.freecodecamp.org/news/systems-design-for-interviews/",
@@ -30,7 +30,7 @@
       "description": "A curated list of topics to introduce you to system design.",
       "category": "Introduction / Interviews",
       "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
+      "indexedAt": "2026-07-23T14:53:40.771Z"
     },
     {
       "url": "https://www.educative.io/courses/grokking-the-system-design-interview",
@@ -38,7 +38,7 @@
       "description": "[Paid 💵] - Grokking System Design preparation is one of the most talked about course. The best thing about it is the design of applications it suggests rather than explanations of what each tool is supposed to do.",
       "category": "Introduction / Interviews",
       "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
+      "indexedAt": "2026-07-23T14:53:40.771Z"
     },
     {
       "url": "https://medium.com/the-andela-way/system-design-in-software-development-f360ce6fcbb9",
@@ -46,7 +46,7 @@
       "description": "Basic article on the topics of system design and architecture.",
       "category": "Introduction / Interviews",
       "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
+      "indexedAt": "2026-07-23T14:53:40.771Z"
     },
     {
       "url": "https://www.interviewbit.com/courses/system-design/",
@@ -54,7 +54,7 @@
       "description": "Introductory interview preparation resources.",
       "category": "Introduction / Interviews",
       "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
+      "indexedAt": "2026-07-23T14:53:40.771Z"
     },
     {
       "url": "https://www.codemag.com/Article/1909071/Design-Patterns-for-Distributed-Systems",
@@ -62,7 +62,7 @@
       "description": "Article talking about some patterns as well as some technologies to be considered.",
       "category": "Introduction / Interviews",
       "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
+      "indexedAt": "2026-07-23T14:53:40.771Z"
     },
     {
       "url": "https://codemia.io",
@@ -70,7 +70,7 @@
       "description": "A tool which allows you to practice system design problems interactively like an interview with AI. There's iterative feedback and final evaluation which scores your performance",
       "category": "Introduction / Interviews",
       "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
+      "indexedAt": "2026-07-23T14:53:40.771Z"
     },
     {
       "url": "https://en.wikipedia.org/wiki/Distributed_computing",
@@ -78,7 +78,7 @@
       "description": "Wikipedia article broadening the view of distributed system design.",
       "category": "Advanced",
       "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
+      "indexedAt": "2026-07-23T14:53:40.771Z"
     },
     {
       "url": "https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing",
@@ -86,7 +86,7 @@
       "description": "Wikipedia article introducing the topic of fallacies of distributed computing and its effects.",
       "category": "Advanced",
       "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
+      "indexedAt": "2026-07-23T14:53:40.771Z"
     },
     {
       "url": "http://www.rgoarchitects.com/Files/fallacies.pdf",
@@ -94,7 +94,7 @@
       "description": "In depth explanation of the fallacies mentioned above.",
       "category": "Advanced",
       "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
+      "indexedAt": "2026-07-23T14:53:40.771Z"
     },
     {
       "url": "https://www.ibm.com/cloud/learn/cap-theorem",
@@ -102,7 +102,7 @@
       "description": "IBM Article about CAP Theorem, Microservices and NoSQL DBs.",
       "category": "Advanced",
       "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
+      "indexedAt": "2026-07-23T14:53:40.771Z"
     },
     {
       "url": "https://microservices.io/patterns/microservices.html",
@@ -110,7 +110,7 @@
       "description": "Good article talking about Microservice architecture as well as its drawbacks.",
       "category": "Advanced",
       "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
+      "indexedAt": "2026-07-23T14:53:40.771Z"
     },
     {
       "url": "https://www.cs.rutgers.edu/~pxk/rutgers/notes/content/01-intro.pdf",
@@ -118,7 +118,7 @@
       "description": "11 Page lecture classifying distributed systems and specifically why we need them.",
       "category": "Advanced",
       "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
+      "indexedAt": "2026-07-23T14:53:40.771Z"
     },
     {
       "url": "https://wiki.sei.cmu.edu/confluence/display/seccode/Top+10+Secure+Coding+Practices",
@@ -126,7 +126,7 @@
       "description": "Brief article talking about good practices for code securities.",
       "category": "Advanced",
       "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
+      "indexedAt": "2026-07-23T14:53:40.771Z"
     },
     {
       "url": "http://www.aosabook.org/en/distsys.html",
@@ -134,7 +134,7 @@
       "description": "Good article about distributed systems as well as some of the potential tools.",
       "category": "Advanced",
       "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
+      "indexedAt": "2026-07-23T14:53:40.771Z"
     },
     {
       "url": "https://www.amazon.com/Designing-Distributed-Systems-Patterns-Paradigms/dp/1491983647",
@@ -142,7 +142,7 @@
       "description": "[Paid 💵] - Book that talks about disitributed systems as well as lightly demonstrating some code of what it looks like.",
       "category": "",
       "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
+      "indexedAt": "2026-07-23T14:53:40.771Z"
     },
     {
       "url": "https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321/ref=pd_lpo_14_t_0/140-0179130-4076567?_encoding=UTF8&pd_rd_i=1449373321&pd_rd_r=e1f26397-6b89-4ffe-923f-21ad2d124b7a&pd_rd_w=7kW0U&pd_rd_wg=HYohZ&pf_rd_p=7b36d496-f366-4631-94d3-61b87b52511b&pf_rd_r=FC1XXD2Q6DDAJ4Z1RN2K&psc=1&refRID=FC1XXD2Q6DDAJ4Z1RN2K",
@@ -150,7 +150,7 @@
       "description": "[Paid 💵] - Goes in depth to explain various resources we use when working with distributed systems, as well as how it came to be and what problems it aims to solve.",
       "category": "",
       "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
+      "indexedAt": "2026-07-23T14:53:40.771Z"
     },
     {
       "url": "https://systemdesignmanual.com/",
@@ -158,7 +158,7 @@
       "description": "[Paid 💵] - Covers the core aspects of distributed systems, like: network fundamentals, the theory underpinning distributed systems, architectural patterns of scalable systems, stability patterns that harden systems against failures and operational best-practices on how to maintain large-scale systems with a small team.",
       "category": "",
       "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
+      "indexedAt": "2026-07-23T14:53:40.771Z"
     },
     {
       "url": "http://ce.sharif.edu/courses/96-97/1/ce924-1/resources/root/Books/building-microservices-designing-fine-grained-systems.pdf",
@@ -166,7 +166,7 @@
       "description": "[Free 👍] - Awesome book that talks about designing sytem architecture with microservices in depth, includes most relevant topics in this regard.",
       "category": "",
       "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
+      "indexedAt": "2026-07-23T14:53:40.771Z"
     },
     {
       "url": "https://www.nginx.com/resources/library/monolith-to-microservices/",
@@ -174,7 +174,7 @@
       "description": "[Free 👍] - Written by the same author as the one above, this book will cover the migration from Monolith to Microservices, it's recommended you start by the previous book.",
       "category": "",
       "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
+      "indexedAt": "2026-07-23T14:53:40.771Z"
     },
     {
       "url": "https://www.distributed-systems.net/index.php/books/ds3/",
@@ -182,7 +182,7 @@
       "description": "[Free 👍] - Great overview of and in-depth introduction to distributed systems. Recommended for intermediate level readers.",
       "category": "",
       "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
+      "indexedAt": "2026-07-23T14:53:40.771Z"
     },
     {
       "url": "https://github.com/SanQri/safe-by-design/",
@@ -190,7 +190,7 @@
       "description": "[Free 👍] - Great book on enforcing code correctness by design.",
       "category": "",
       "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
+      "indexedAt": "2026-07-23T14:53:40.771Z"
     },
     {
       "url": "https://www.youtube.com/c/SystemDesignInterview/",
@@ -198,15 +198,7 @@
       "description": "YouTube channel focussed on content specific to system design interviews, with detailed explanation of a variety of problems.",
       "category": "Introduction / Interviews",
       "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
-    },
-    {
-      "url": "https://www.youtube.com/playlist?list=PLOE1GTZ5ouRPbpTnrZ3Wqjamfwn_Q5Y9A",
-      "title": "Distributed Systems",
-      "description": "This is an introductory course in Distributed Systems made by Chris Colohan. He got PhD from Carnegie Mellon, then spent 10 years working at Google building distributed systems.",
-      "category": "Introduction / Interviews",
-      "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
+      "indexedAt": "2026-07-23T14:53:40.771Z"
     },
     {
       "url": "https://www.youtube.com/channel/UCVZfU1sp66H9d4sdYx4iNkQ",
@@ -214,7 +206,7 @@
       "description": "Up and coming channel with easy to understand videos about Distributed Systems.",
       "category": "Introduction / Interviews",
       "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
+      "indexedAt": "2026-07-23T14:53:40.771Z"
     },
     {
       "url": "https://dev.mysql.com/",
@@ -222,7 +214,7 @@
       "description": "Widely used relational database.",
       "category": "Relational Database Management System",
       "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
+      "indexedAt": "2026-07-23T14:53:40.771Z"
     },
     {
       "url": "https://www.sqlite.org/index.html",
@@ -230,7 +222,7 @@
       "description": "Another widely used database that is built into all mobile phones and most computers.",
       "category": "Relational Database Management System",
       "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
+      "indexedAt": "2026-07-23T14:53:40.771Z"
     },
     {
       "url": "https://www.microsoft.com/en-us/sql-server",
@@ -238,7 +230,7 @@
       "description": "Widely used relational database.",
       "category": "Relational Database Management System",
       "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
+      "indexedAt": "2026-07-23T14:53:40.771Z"
     },
     {
       "url": "https://GitHub.com/apache/ignite",
@@ -246,7 +238,7 @@
       "description": "[3.3k ⭐] - In memory caching with ACID properties.",
       "category": "Cache (Key-Value)",
       "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
+      "indexedAt": "2026-07-23T14:53:40.771Z"
     },
     {
       "url": "https://developer.couchbase.com/open-source-projects",
@@ -254,7 +246,7 @@
       "description": "Inspired by memcached, adding features such as replication and persistance.",
       "category": "Cache (Key-Value)",
       "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
+      "indexedAt": "2026-07-23T14:53:40.771Z"
     },
     {
       "url": "https://GitHub.com/oracle/coherence",
@@ -262,7 +254,7 @@
       "description": "[126 ⭐] - High scaling, low latency in-memory caching.",
       "category": "Cache (Key-Value)",
       "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
+      "indexedAt": "2026-07-23T14:53:40.771Z"
     },
     {
       "url": "https://GitHub.com/memcached/memcached",
@@ -270,15 +262,7 @@
       "description": "[10.2k ⭐] - One of the first in-memory caching database, high performing and multi-threaded.",
       "category": "Cache (Key-Value)",
       "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
-    },
-    {
-      "url": "https://GitHub.com/redis/redis",
-      "title": "Redis",
-      "description": "[44k ⭐] - Widely used in-memory caching database with many added features such as persistent storage and supporting strings, lists, sets, hashses, streams, bitmaps, etc.",
-      "category": "Cache (Key-Value)",
-      "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
+      "indexedAt": "2026-07-23T14:53:40.771Z"
     },
     {
       "url": "https://GitHub.com/apple/foundationdb",
@@ -286,7 +270,7 @@
       "description": "[10k ⭐] - Multi-model (many data types in a single database), ACID key-value store. Easily scalable and fault tolerant.",
       "category": "Store (Key-Value)",
       "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
+      "indexedAt": "2026-07-23T14:53:40.771Z"
     },
     {
       "url": "https://docs.microsoft.com/en-us/azure/cosmos-db/introduction",
@@ -294,39 +278,7 @@
       "description": "Microsoft's globally distributed, multi-model database service. Eastically and independently scale throughput and storage. SQL, MongoDB, Cassandra, Tables, Gremlin, and Spark APIs.",
       "category": "Store (Key-Value)",
       "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
-    },
-    {
-      "url": "https://GitHub.com/apache/couchdb",
-      "title": "CouchDB",
-      "description": "[4.6k ⭐] - ACID compliant NoSQL document-store DB, provides a RESTful HTTP API for reading and updating database documents.",
-      "category": "Document Store",
-      "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
-    },
-    {
-      "url": "https://www.mongodb.com/",
-      "title": "MongoDB",
-      "description": "One of the most popular 'NoSQL' database for general purpose.",
-      "category": "Document Store",
-      "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
-    },
-    {
-      "url": "https://GitHub.com/elastic/elasticsearch",
-      "title": "ElasticSearch",
-      "description": "[49.9k ⭐] - Widely popular 'NoSQL' database for fast and scalable search engines.",
-      "category": "Document Store",
-      "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
-    },
-    {
-      "url": "https://aws.amazon.com/dynamodb/",
-      "title": "Amazon DynamoDB",
-      "description": "Key-Value and Document database, highly performant, scalable and secure.",
-      "category": "Wide Column Store",
-      "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
+      "indexedAt": "2026-07-23T14:53:40.771Z"
     },
     {
       "url": "https://cloud.google.com/bigtable",
@@ -334,23 +286,7 @@
       "description": "Scalable and performant 'NoSQL' database for large analytical and operational workload.",
       "category": "Wide Column Store",
       "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
-    },
-    {
-      "url": "https://cassandra.apache.org/",
-      "title": "Cassandra",
-      "description": "Facebook-born project very fast, easily scalable, with option to include consistency with each operation.",
-      "category": "Wide Column Store",
-      "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
-    },
-    {
-      "url": "https://GitHub.com/scylladb/scylla",
-      "title": "Scylla",
-      "description": "[4.9k ⭐] - 'NoSQL' data store using seastar framework, compatible with Cassandra.",
-      "category": "Wide Column Store",
-      "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
+      "indexedAt": "2026-07-23T14:53:40.771Z"
     },
     {
       "url": "https://GitHub.com/apache/hbase",
@@ -358,7 +294,7 @@
       "description": "[3.6k ⭐] - Modeled after Google's Bigtable and written in Java. Developed as a part of Apache Hadoop project and runs on top of HDFS or Alluxio. (See [Hadoop Related](##hadoop-related))",
       "category": "Wide Column Store",
       "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
+      "indexedAt": "2026-07-23T14:53:40.771Z"
     },
     {
       "url": "https://aws.amazon.com/neptune/",
@@ -366,15 +302,7 @@
       "description": "Fast, reliable and fully managed graph database service.",
       "category": "Graph",
       "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
-    },
-    {
-      "url": "https://GitHub.com/arangodb/arangodb",
-      "title": "ArangoDB",
-      "description": "[10k ⭐] - Flexible database for documents, key-value, graphs. Uses its own query language, AQL.",
-      "category": "Graph",
-      "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
+      "indexedAt": "2026-07-23T14:53:40.771Z"
     },
     {
       "url": "https://hadoop.apache.org/",
@@ -382,7 +310,7 @@
       "description": "Hadoop File System is a a widely popular choice among its big data competitors, providing high throughput access.",
       "category": "Distributed File Systems",
       "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
+      "indexedAt": "2026-07-23T14:53:40.771Z"
     },
     {
       "url": "http://lustre.org/",
@@ -390,7 +318,7 @@
       "description": "File system for computer clusters.",
       "category": "Distributed File Systems",
       "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
+      "indexedAt": "2026-07-23T14:53:40.771Z"
     },
     {
       "url": "https://ceph.io/",
@@ -398,15 +326,7 @@
       "description": "Unified, distributed storage system.",
       "category": "Distributed File Systems",
       "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
-    },
-    {
-      "url": "https://www.gluster.org/",
-      "title": "GlusterFS",
-      "description": "Scale-out NAS file system.",
-      "category": "Distributed File Systems",
-      "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
+      "indexedAt": "2026-07-23T14:53:40.771Z"
     },
     {
       "url": "https://moosefs.com/",
@@ -414,15 +334,7 @@
       "description": "POSIX-compliant distributed file system.",
       "category": "Distributed File Systems",
       "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
-    },
-    {
-      "url": "http://www.xtreemfs.org/",
-      "title": "XtreemFS",
-      "description": "Fault tolerant file system.",
-      "category": "Distributed File Systems",
-      "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
+      "indexedAt": "2026-07-23T14:53:40.771Z"
     },
     {
       "url": "https://kubernetes.io/",
@@ -430,23 +342,7 @@
       "description": "Highly popular way to deploy, manage and automatically scale a cluster of containers on bare-metal or virtual servers.",
       "category": "Resource Management",
       "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
-    },
-    {
-      "url": "http://samza.apache.org/",
-      "title": "Apache Samza",
-      "description": "Build stateful applications that process data in real time from multiple sources, including Kafka. Easy and inexpensive multi-subscriber model, can eliminate backpressure and has reliable persistency with low latency.",
-      "category": "Stream Processing",
-      "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
-    },
-    {
-      "url": "https://flink.apache.org/",
-      "title": "Apache Flink",
-      "description": "Based on the concept of streams and transofrmations. Uses maven, handles batch tasks as data streams with finite boundaries. Low latency, high throughput.",
-      "category": "Stream Processing",
-      "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
+      "indexedAt": "2026-07-23T14:53:40.771Z"
     },
     {
       "url": "https://aws.amazon.com/kinesis/data-streams/",
@@ -454,7 +350,7 @@
       "description": "Durable, scalable, real-tme service. Collects gigabytes of data per second from hundreds of thousands of sources, including database event streams, website clickstreams, financial transactions, etc.",
       "category": "Stream Processing",
       "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
+      "indexedAt": "2026-07-23T14:53:40.771Z"
     },
     {
       "url": "https://azure.microsoft.com/en-us/services/stream-analytics/",
@@ -462,7 +358,7 @@
       "description": "Real-time analytics service that is designed for mission-critical workloads.",
       "category": "Stream Processing",
       "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
+      "indexedAt": "2026-07-23T14:53:40.771Z"
     },
     {
       "url": "https://aws.amazon.com/amazon-mq/",
@@ -470,31 +366,7 @@
       "description": "Open source message broker from Amazon.",
       "category": "Message Broker",
       "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
-    },
-    {
-      "url": "https://activemq.apache.org/",
-      "title": "Apache ActiveMQ",
-      "description": "It's a multi-protocol, java based messaging server.",
-      "category": "Message Broker",
-      "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
-    },
-    {
-      "url": "https://kafka.apache.org/",
-      "title": "Apache Kafka",
-      "description": "Widely popular message broker with low latency for data streaming.",
-      "category": "Message Broker",
-      "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
-    },
-    {
-      "url": "https://www.rabbitmq.com/",
-      "title": "RabbitMQ",
-      "description": "Widely popular lightweight",
-      "category": "Message Broker",
-      "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
+      "indexedAt": "2026-07-23T14:53:40.771Z"
     },
     {
       "url": "https://www.iron.io/mq",
@@ -502,15 +374,7 @@
       "description": "Very fast and highly scalable messaging broker. (not open source)",
       "category": "Message Broker",
       "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
-    },
-    {
-      "url": "https://pulsar.apache.org/",
-      "title": "Apache Pulsar",
-      "description": "Created by yahoo, also highly scalable, low latency, geo-replication and multi-tenacy.",
-      "category": "Message Broker",
-      "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
+      "indexedAt": "2026-07-23T14:53:40.771Z"
     },
     {
       "url": "https://github.com/twitter-archive/kestrel",
@@ -518,7 +382,7 @@
       "description": "Written in Scala and speaks the memcached protocol. It works much like Kafka.",
       "category": "Message Broker",
       "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
+      "indexedAt": "2026-07-23T14:53:40.771Z"
     },
     {
       "url": "https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-messaging-overview",
@@ -526,7 +390,7 @@
       "description": "A fully managed enterprise integration message broker.",
       "category": "Message Broker",
       "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
+      "indexedAt": "2026-07-23T14:53:40.771Z"
     },
     {
       "url": "https://GitHub.com/google/seesaw",
@@ -534,7 +398,7 @@
       "description": "[5.1k ⭐] - Used by Google, developed in Go, linux-based virtual load balancer server.",
       "category": "Open Source Software",
       "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
+      "indexedAt": "2026-07-23T14:53:40.771Z"
     },
     {
       "url": "https://www.haproxy.org/",
@@ -542,7 +406,7 @@
       "description": "Widely popular option, provides high-availability, proxy, TCP/HTTP load balancing. Used by Reddit, Imgur, MaxCDN, GitHub, AirBNB.",
       "category": "Open Source Software",
       "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
+      "indexedAt": "2026-07-23T14:53:40.771Z"
     },
     {
       "url": "https://www.zevenet.com/products/community/#repository",
@@ -550,7 +414,7 @@
       "description": "Supports L3, L4 and L7. Easy install with a docker repo. Supports advanced health-check monitorining.",
       "category": "Open Source Software",
       "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
+      "indexedAt": "2026-07-23T14:53:40.771Z"
     },
     {
       "url": "https://neutrinoslb.GitHub.io/",
@@ -558,7 +422,7 @@
       "description": "Used by eBay, built with Scala and Netty. Supports round-robin and least-connection algorithms.",
       "category": "Open Source Software",
       "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
+      "indexedAt": "2026-07-23T14:53:40.771Z"
     },
     {
       "url": "https://www.nginx.com/",
@@ -566,7 +430,7 @@
       "description": "Wait, isn't Nginx a web server? Yes, the open source does support basic level of content switching and request routing. Plus edition supports load balancing, WAF, monitoring, etc.",
       "category": "Open Source Software",
       "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
+      "indexedAt": "2026-07-23T14:53:40.771Z"
     },
     {
       "url": "https://github.com/openresty/openresty",
@@ -574,7 +438,7 @@
       "description": "Nginx + Lua, perfect combination.",
       "category": "Open Source Software",
       "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
+      "indexedAt": "2026-07-23T14:53:40.771Z"
     },
     {
       "url": "https://www.f5.com/services/resources/glossary/load-balancer",
@@ -582,7 +446,7 @@
       "description": "Robust hardware load balancer option, supporting multiple protocols (IP, TCP, FTP, UDP, HTTP).",
       "category": "Hardware",
       "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
+      "indexedAt": "2026-07-23T14:53:40.771Z"
     },
     {
       "url": "https://www.tp-link.com/",
@@ -590,7 +454,7 @@
       "description": "Cheaper alternative that works as a load balancer.",
       "category": "Hardware",
       "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
+      "indexedAt": "2026-07-23T14:53:40.771Z"
     },
     {
       "url": "https://www.barracuda.com/products/loadbalancer",
@@ -598,7 +462,7 @@
       "description": "One of the top choices for load balancing when it comes to in-house servers. Top security measures built in, comprehensive reports and monitoring outbound traffic for data loss prevention.",
       "category": "Hardware",
       "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
+      "indexedAt": "2026-07-23T14:53:40.771Z"
     },
     {
       "url": "https://aws.amazon.com/elasticloadbalancing/",
@@ -606,7 +470,7 @@
       "description": "Popular choice for amazon customers, supports lambda functions, highly scalable.",
       "category": "Cloud",
       "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
+      "indexedAt": "2026-07-23T14:53:40.771Z"
     },
     {
       "url": "https://cloud.google.com/load-balancing",
@@ -614,7 +478,7 @@
       "description": "Popular choice for google customers, comes with auto-scaling feature, very fast, has intergrated CDN.",
       "category": "Cloud",
       "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
+      "indexedAt": "2026-07-23T14:53:40.771Z"
     },
     {
       "url": "https://www.cloudflare.com/load-balancing/",
@@ -622,7 +486,7 @@
       "description": "Scalable load balancing by Cloudflare, feature fast failover and a dashboard.",
       "category": "Cloud",
       "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
+      "indexedAt": "2026-07-23T14:53:40.771Z"
     },
     {
       "url": "https://www.digitalocean.com/docs/networking/load-balancers/",
@@ -630,7 +494,7 @@
       "description": "If you're a digitalocean customer, this is a good option, very cheap, regional availability, scalable, easy to deploy among your other droplets.",
       "category": "Cloud",
       "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
+      "indexedAt": "2026-07-23T14:53:40.771Z"
     },
     {
       "url": "https://docs.microsoft.com/en-us/azure/load-balancer/load-balancer-overview",
@@ -638,7 +502,7 @@
       "description": "Popular choice for Microsoft's Azure customers. Supports internal and external traffics, ipv6, monitorining and the standard load balancing set of features.",
       "category": "Cloud",
       "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
+      "indexedAt": "2026-07-23T14:53:40.771Z"
     },
     {
       "url": "https://ambari.apache.org/",
@@ -646,39 +510,7 @@
       "description": "Dashboard that integrates most of hadoop related technologies for easy management and executions.",
       "category": "Dashboard",
       "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
-    },
-    {
-      "url": "https://sqoop.apache.org/",
-      "title": "Sqoop",
-      "description": "Efficiently transfer data between Hadoop and structured datastores such as relational databases.",
-      "category": "Data Ingestion",
-      "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
-    },
-    {
-      "url": "https://flume.apache.org/",
-      "title": "Flume",
-      "description": "Distributed, highly available and efficient in collecting, aggregating and moving large amounts of log data.",
-      "category": "Data Ingestion",
-      "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
-    },
-    {
-      "url": "https://oozie.apache.org/",
-      "title": "Oozie",
-      "description": "Create workflows in xml to execute jobs (from other hadoop-ecosystem applications) in steps, allows for parallel execution as well.",
-      "category": "Workflow Scheduler",
-      "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
-    },
-    {
-      "url": "https://hive.apache.org/",
-      "title": "Hive",
-      "description": "Query hadoop stored data in SQL.",
-      "category": "Query",
-      "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
+      "indexedAt": "2026-07-23T14:53:40.771Z"
     },
     {
       "url": "https://pig.apache.org/",
@@ -686,31 +518,7 @@
       "description": "Scriping language that looks like SQL to query hadoop data.",
       "category": "Query",
       "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
-    },
-    {
-      "url": "https://tez.apache.org/",
-      "title": "Tez",
-      "description": "Solves a similar problem to Spark and MapReduce, it's more efficient than MapReduce because it calculates the most efficient way of doing it.",
-      "category": "Processing",
-      "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
-    },
-    {
-      "url": "https://hadoop.apache.org/docs/current/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html",
-      "title": "Map Reduce",
-      "description": "MapReduce, as the name implies, maps data and reduce the results.",
-      "category": "Processing",
-      "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
-    },
-    {
-      "url": "https://spark.apache.org/",
-      "title": "Spark",
-      "description": "Powerful data processing to not only process data like Tez (and MapReduce), it can process streams of data in real time, apply regression analysis algorithms in ML and much more.",
-      "category": "Processing",
-      "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
+      "indexedAt": "2026-07-23T14:53:40.771Z"
     },
     {
       "url": "https://apex.apache.org/",
@@ -718,7 +526,7 @@
       "description": "\\*Retired project, it's a YARN-native platform that unifies stream and batch processing.",
       "category": "Processing",
       "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
+      "indexedAt": "2026-07-23T14:53:40.771Z"
     },
     {
       "url": "https://hadoop.apache.org/docs/current/hadoop-yarn/hadoop-yarn-site/YARN.html",
@@ -726,7 +534,7 @@
       "description": "'Yet Another Resource Negotiator', works like a kernel to manage computer resources across the clusters.",
       "category": "Resource Management",
       "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
+      "indexedAt": "2026-07-23T14:53:40.771Z"
     },
     {
       "url": "http://mesos.apache.org/",
@@ -734,31 +542,7 @@
       "description": "Works like a Linux Kernel by managing CPU, memory, storage and other resources across the cluster.",
       "category": "Resource Management",
       "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
-    },
-    {
-      "url": "https://github.com/gin-gonic/gin",
-      "title": "Gin",
-      "description": "[40.6k ⭐] - Blazingly fast microservice framework using Golang, high throughput capacity.",
-      "category": "REST Framework",
-      "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
-    },
-    {
-      "url": "https://github.com/phoenixframework/phoenix",
-      "title": "Phoenix",
-      "description": "[15.5k ⭐] - Distributed processing, easily scalable, support for channels and live chat. This framework - written in Elixir, uses BEAM and Erlang, very efficient for large scale systems and supports high throughput.",
-      "category": "REST Framework",
-      "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
-    },
-    {
-      "url": "https://github.com/expressjs/express",
-      "title": "Express.js",
-      "description": "[49.6k ⭐] - Fast node.js rest api that can perform well under many scenarios.",
-      "category": "REST Framework",
-      "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
+      "indexedAt": "2026-07-23T14:53:40.771Z"
     },
     {
       "url": "https://github.com/rails/rails",
@@ -766,23 +550,7 @@
       "description": "[46.2k ⭐] - Written in Ruby, Rails delivers quick apis from prototype to production in an efficient manner.",
       "category": "REST Framework",
       "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
-    },
-    {
-      "url": "https://github.com/playframework/playframework",
-      "title": "Play Framework",
-      "description": "[11.6k ⭐] - Very fast, high throughput framework written in Scala/Java that is RESTful by default.",
-      "category": "REST Framework",
-      "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
-    },
-    {
-      "url": "https://github.com/pallets/flask",
-      "title": "Flask",
-      "description": "[51.6k ⭐] - A lightweight Python Microframework for fast prototyping and production.",
-      "category": "REST Framework",
-      "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
+      "indexedAt": "2026-07-23T14:53:40.771Z"
     },
     {
       "url": "https://github.com/tiangolo/fastapi",
@@ -790,15 +558,7 @@
       "description": "[22.7k ⭐] - A lightweight Python Microframework inspired in Flask but more modern, using Python async.",
       "category": "REST Framework",
       "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
-    },
-    {
-      "url": "https://github.com/encode/django-rest-framework",
-      "title": "Django REST",
-      "description": "[18.4k ⭐] - Written in Python, Django Rest is a powerful and flexible REST API. The efficiency and time to market resembles Rails.",
-      "category": "REST Framework",
-      "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
+      "indexedAt": "2026-07-23T14:53:40.771Z"
     },
     {
       "url": "https://docs.microsoft.com/en-us/aspnet/core/mvc/overview?view=aspnetcore-3.1",
@@ -806,15 +566,7 @@
       "description": "A rich framework for building web apps and APIs using the Model-View-Controller design pattern in C# or F#. Number 6 on [TechEmpower Composite Benchmarks](https://www.techempower.com/benchmarks/#section=data-r19&hw=ph&test=composite) for web frameworks.",
       "category": "REST Framework",
       "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
-    },
-    {
-      "url": "https://github.com/fastify/fastify",
-      "title": "Fastify",
-      "description": "[15.4k ⭐] - A Node.js web framework highly focused on providing the best developer experience with the least overhead and a powerful plugin architecture.",
-      "category": "REST Framework",
-      "source": "madd86/awesome-system-design",
-      "indexedAt": "2026-07-23T13:30:32.064Z"
+      "indexedAt": "2026-07-23T14:53:40.771Z"
     }
   ],
   "categories": [
@@ -845,5 +597,5 @@
     "Resource Management",
     "REST Framework"
   ],
-  "crawledAt": "2026-07-23T13:30:32.064Z"
+  "crawledAt": "2026-07-23T14:53:40.771Z"
 }

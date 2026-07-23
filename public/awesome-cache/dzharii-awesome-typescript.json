@@ -1,0 +1,1060 @@
+{
+  "repoId": "dzharii/awesome-typescript",
+  "name": "A collection of awesome TypeScript resources for client-side and server-side development. Write your awesome JavaScript in TypeScript",
+  "description": "A collection of awesome TypeScript resources for client-side and server-side development. Write your awesome JavaScript in TypeScript",
+  "repoUrl": "https://github.com/dzharii/awesome-typescript",
+  "stars": 5115,
+  "topics": [],
+  "links": [
+    {
+      "url": "https://github.com/kriasoft/react-starter-kit",
+      "title": "React Starter Kit",
+      "description": "A full-stack boilerplate for building modern web applications with Bun, TypeScript, React, tRPC, Drizzle ORM, and Cloudflare Workers.",
+      "category": "Typescript Project Starters",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/bitjson/typescript-starter",
+      "title": "typescript-starter",
+      "description": "A CLI to quickly generate and configure new libraries and Node.js projects",
+      "category": "Typescript Project Starters",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/csprance/next-smrt",
+      "title": "next-smrt",
+      "description": "A Typescript/NextJs boilerplate with Redux/Styled Components/Material UI and TypeSafe Actions.",
+      "category": "Typescript Project Starters",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://www.npmjs.com/package/microts",
+      "title": "MicroTS",
+      "description": null,
+      "category": "Typescript Project Starters",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/pankod/next-boilerplate",
+      "title": "pankod/next-boilerplate",
+      "description": null,
+      "category": "Typescript Project Starters",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/jsynowiec/node-typescript-boilerplate",
+      "title": "jsynowiec/node-typescript-boilerplate",
+      "description": null,
+      "category": "Typescript Project Starters",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/ljlm0402/typescript-express-starter",
+      "title": "typescript-express-starter",
+      "description": "Quick and Easy TypeScript Express Starter.",
+      "category": "Typescript Project Starters",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/tudorconstantin/knests/",
+      "title": "The Knests Stack",
+      "description": "Full stack boilerplate (hackathon starter) with: PostgreSQL, Knex.js, NestJS, Next.js, GraphQL, React (with hooks and typescript), Material-UI, Docker multistage images for, Docker compose and a Gitlab CI/CD pipeline fully configured.",
+      "category": "Typescript Project Starters",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://trpc.io/docs/nextjs/introduction",
+      "title": "tRPC + Next.js",
+      "description": "Full-stack starter projects for end-to-end type safe development with React",
+      "category": "Typescript Project Starters",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/heyayushh/nd.ts/",
+      "title": "nd.ts",
+      "description": "setup bare minimum Node.ts project asap",
+      "category": "Typescript Project Starters",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/hein-htut-aung/create-typescript-app",
+      "title": "create-typescript-app",
+      "description": "provides a starting point for TypeScript web applications. pnpm, Rollup, Jest, and CSS Modules with SCSS.",
+      "category": "Typescript Project Starters",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/kaandesu/ts-vite-npm-template",
+      "title": "ts-vite-npm-template",
+      "description": "An all-in-one solution for crafting TypeScript-based NPM packages with Vite, complete with built-in GitHub Pages live-demo deployment, automated test-and-build workflows, and Vite-powered unit test configuration, including coverage analysis and a README.md template for your package.",
+      "category": "Typescript Project Starters",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://welldan97.github.io/typescript-reference/",
+      "title": "TypeScript Reference for JS developers",
+      "description": "Glossary of keywords, operators, statements and directives",
+      "category": "Reference Lists",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://catchts.com/",
+      "title": "@captain-yossarian's blog",
+      "description": "fully dedicated to static typings in TypeScript",
+      "category": "Blogs",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/antfu/taze",
+      "title": "Taze",
+      "description": null,
+      "category": "CLI and REPL",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://www.visualstudio.com/products/visual-studio-community-vs",
+      "title": "Visual Studio Community Edition 2015",
+      "description": "free (conditionally) IDE with integrated TypeScript support",
+      "category": "Visual Studio",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://visualstudiogallery.msdn.microsoft.com/eb0887f8-3ac1-434a-b50b-f0112f1572f7",
+      "title": "VS Addon - TypescriptSyntaxPaste",
+      "description": "Allow you to copy C# source code, then paste as Typescript syntax which help you with converting DTO or interface",
+      "category": "Visual Studio",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/Microsoft/nodejstools",
+      "title": "NodeJS Tools for Visual Studio",
+      "description": null,
+      "category": "Visual Studio",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://www.visualstudio.com/en-us/products/code-vs.aspx",
+      "title": "Visual Studio Code",
+      "description": null,
+      "category": "Other (Plugins || Cross-platform || OSS || Free)",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://www.jetbrains.com/phpstorm/download/",
+      "title": "PhpStorm",
+      "description": null,
+      "category": "Other (Plugins || Cross-platform || OSS || Free)",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://www.jetbrains.com/webstorm/download/",
+      "title": "WebStorm",
+      "description": null,
+      "category": "Other (Plugins || Cross-platform || OSS || Free)",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "http://jbaron.github.io/cats/",
+      "title": "CATS",
+      "description": null,
+      "category": "Other (Plugins || Cross-platform || OSS || Free)",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/Microsoft/TypeScript-Sublime-Plugin",
+      "title": "TypeScript Sublime Plugin",
+      "description": null,
+      "category": "Other (Plugins || Cross-platform || OSS || Free)",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/TypeStrong/atom-typescript",
+      "title": "Atom TypeScript",
+      "description": null,
+      "category": "Other (Plugins || Cross-platform || OSS || Free)",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/ananthakumaran/tide",
+      "title": "TypeScript Interactive Development Environment for Emacs",
+      "description": null,
+      "category": "Other (Plugins || Cross-platform || OSS || Free)",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/leafgarland/typescript-vim",
+      "title": "TypeScript Syntax for VIM",
+      "description": null,
+      "category": "Other (Plugins || Cross-platform || OSS || Free)",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/mhartington/nvim-typescript",
+      "title": "Typescript tooling for Neovim",
+      "description": null,
+      "category": "Other (Plugins || Cross-platform || OSS || Free)",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/neoclide/coc.nvim",
+      "title": "Coc",
+      "description": null,
+      "category": "Other (Plugins || Cross-platform || OSS || Free)",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://agentcooper.github.io/typescript-play/",
+      "title": "TypeScript playground",
+      "description": null,
+      "category": "Playground",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/hi104/typescript-playground-on-ace",
+      "title": "TypeScript playground-on-ace",
+      "description": null,
+      "category": "Playground",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "http://www.typescriptlang.org/Playground/",
+      "title": "TypeScript official Playground",
+      "description": null,
+      "category": "Playground",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "http://jsbin.com/?js",
+      "title": "JS Bin",
+      "description": null,
+      "category": "Playground",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "http://codepen.io/",
+      "title": "Codepen",
+      "description": null,
+      "category": "Playground",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "http://niutech.github.io/typescript-interpret/",
+      "title": "TypeScript Interpret - Terminal Emulator",
+      "description": null,
+      "category": "Playground",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "http://drake7707.github.io/Typescript-Editor/",
+      "title": "TypeScript Editor",
+      "description": null,
+      "category": "Playground",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "http://gruntjs.com/",
+      "title": "Grunt",
+      "description": null,
+      "category": "Build Systems",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://www.npmjs.com/package/grunt-ts",
+      "title": "grunt-ts",
+      "description": "Grunt-ts is an npm package that handles TypeScript compilation work in GruntJS build scripts",
+      "category": "Build Systems",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/lastmjs/zwitterion",
+      "title": "Zwitterion",
+      "description": "Super simple development server with built-in support for TypeScript files.",
+      "category": "Build Systems",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/nrwl/nx",
+      "title": "Nx",
+      "description": "Smart, Fast and Extensible Build System",
+      "category": "Build Systems",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/neuledge/ddb-table",
+      "title": "DDB-Table",
+      "description": null,
+      "category": "Cloud Data Warehousing",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/dynamodb-toolbox/dynamodb-toolbox",
+      "title": "DynamoDB-Toolbox",
+      "description": null,
+      "category": "Cloud Data Warehousing",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://farm-fe.github.io/",
+      "title": "Farm",
+      "description": "Extremely fast Vite-compatible web build tool written in Rust",
+      "category": "Module Bundlers",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://www.rspack.dev/",
+      "title": "Rspack",
+      "description": "A fast Rust-based web bundler 🦀️",
+      "category": "Module Bundlers",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://vitejs.dev/",
+      "title": "Vite",
+      "description": "Next Generation Frontend Tooling",
+      "category": "Module Bundlers",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "http://webpack.github.io/",
+      "title": "Webpack",
+      "description": "supports CommonJS and AMD module bundling",
+      "category": "Module Bundlers",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "http://browserify.org/",
+      "title": "Browserify",
+      "description": "CommonJS module bundler. Does not support TypeScript \"out of the box\", but can be applied with * [Grunt](http://gruntjs.com/) tasks: [grunt-ts](https://www.npmjs.com/package/grunt-ts), [grunt-browserify](https://www.npmjs.com/package/grunt-browserify), [grunt-contrib-uglify](https://www.npmjs.com/package/grunt-contrib-uglify)",
+      "category": "Module Bundlers",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://factor.dev",
+      "title": "Factor",
+      "description": "The Javascript CMS (TypeScript supported natively)",
+      "category": "CMS",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/JasonShin/sqlx-ts",
+      "title": "sqlx-ts",
+      "description": "SQLx-ts is a CLI application featuring compile-time checked queries without a DSL and generates types against SQLs to keep your code type-safe",
+      "category": "Tools",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://deno.land/",
+      "title": "deno",
+      "description": "A secure runtime for JavaScript and TypeScript",
+      "category": "Tools",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/web-infra-dev/oxc",
+      "title": "OXC",
+      "description": "A suite of high-performance tools for JavaScript and TypeScript written in Rust",
+      "category": "Tools",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/SweetIQ/schemats",
+      "title": "SweetIQ/schemats",
+      "description": null,
+      "category": "Tools",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "http://typedoc.org/",
+      "title": "TypeDoc",
+      "description": "A documentation generator for TypeScript projects",
+      "category": "Tools",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/e2tox/typescript-standard",
+      "title": "TypeScript Standard",
+      "description": "Zero-configuration TypeScript 2 Standard Validation",
+      "category": "Tools",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/xavdid/typed-install",
+      "title": "typed-install",
+      "description": "Easily install new dependencies and their typings, no matter where they may be",
+      "category": "Tools",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/Saul-Mirone/type-config",
+      "title": "type-config",
+      "description": "A generator for tsconfig.",
+      "category": "Tools",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://jawj.github.io/zapatos/",
+      "title": "Zapatos",
+      "description": "Zero-Abstraction Postgres for TypeScript",
+      "category": "Tools",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/gabotechs/dep-tree",
+      "title": "dep-tree",
+      "description": "Render your project's file dependency tree and/or validate it against your own rules.",
+      "category": "Tools",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/Smoren/itertools-ts",
+      "title": "itertools-ts",
+      "description": "Extended itertools port for TypeScript and JavaScript. Provides a huge set of functions for working with iterable collections (including async ones).",
+      "category": "Tools",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://inlang.com/m/gerre34r/library-inlang-paraglideJs",
+      "title": "ParaglideJS",
+      "description": "An i18n compiler that generates fully typesafe translations",
+      "category": "Tools",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/datawan-labs/pg",
+      "title": "pg",
+      "description": "Browser PostgreSQL Playground, no server, just client and pglite (postgresql wasm)",
+      "category": "Tools",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/nocodb/nocodb",
+      "title": "nocodb",
+      "description": "🔥 🔥 🔥 Open Source Airtable Alternative",
+      "category": "Tools",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/Jay-Karia/jqlite",
+      "title": "jqlite",
+      "description": "⚡ The query language for JSON",
+      "category": "Tools",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/pompelmi/pompelmi",
+      "title": "pompelmi",
+      "description": "File-upload malware scanning for Node.js to help prevent Remote File Inclusion (RFI), with adapters for Express, Koa, and Next.js",
+      "category": "Tools",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://codableslib.com/",
+      "title": "codables",
+      "description": "Decorators based, declarative, type-rich JSON (de)serializer able to handle almost any data type",
+      "category": "Tools",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/jayu/rev-dep",
+      "title": "Rev-dep",
+      "description": "Trace imports, identify circular dependencies, find unused code, clean node modules — all from a blazing-fast CLI.",
+      "category": "Tools",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/tani/jsonup",
+      "title": "jsonup",
+      "description": "Compile-time JSON parser",
+      "category": "Types",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/stereobooster/type-o-rama",
+      "title": "type-o-rama",
+      "description": "JS type systems interoperability",
+      "category": "Types",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/piotrwitek/utility-types",
+      "title": "utility-types",
+      "description": "Utility Types for TypeScript (provide compatibility with Flow's Utility Types)",
+      "category": "Types",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/gcanti/elm-ts",
+      "title": "elm-ts",
+      "description": "Port of Elm architecture to TypeScript featuring fp-ts, io-ts, rxjs5 and React",
+      "category": "Types",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/krzkaczor/ts-essentials",
+      "title": "ts-essentials",
+      "description": "All essential TypeScript types in one place",
+      "category": "Types",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/LeDDGroup/typescript-conditional-types",
+      "title": "typescript-conditional-types",
+      "description": "Helpers for typescript generic types",
+      "category": "Types",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/LeDDGroup/ts-types-utils",
+      "title": "ts-types-utils",
+      "description": "Type utilities for typescript",
+      "category": "Types",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/jeffijoe/typesync",
+      "title": "typesync",
+      "description": "Install missing TypeScript typings for dependencies in your package.json.",
+      "category": "Types",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/sindresorhus/type-fest",
+      "title": "type-fest",
+      "description": "A collection of essential TypeScript types",
+      "category": "Types",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/mistlog/typetype",
+      "title": "typetype",
+      "description": "A programming language designed for typescript type generation",
+      "category": "Types",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/Coder-Spirit/nominal",
+      "title": "nominal",
+      "description": "nominal types & dependent types for Typescript.",
+      "category": "Types",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/tool-belt/type-predicates",
+      "title": "@tool-belt/type-predicates",
+      "description": "Type Predicates, Assertion Functions and Utilities.",
+      "category": "Types",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/halchester/getmytypes",
+      "title": "getmytypes",
+      "description": "Install @types files into your devDependencies.",
+      "category": "Types",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/millsp/ts-toolbelt",
+      "title": "ts-toolbelt",
+      "description": "Large collection of type utilities for TypeScript",
+      "category": "Types",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/gustavoguichard/string-ts",
+      "title": "string-ts",
+      "description": "Strongly-typed string functions for all",
+      "category": "Types",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/AhmedOsman101/lib-result",
+      "title": "lib-result",
+      "description": "A lightweight, Rust-inspired `Result` type for type-safe error handling in TypeScript and JavaScript.",
+      "category": "Types",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/reacture-io/iso-locale",
+      "title": "iso-locale",
+      "description": "A comprehensive TypeScript library providing ISO standards for handling countries, languages, dialects, and currencies.",
+      "category": "Types",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://panda-css.com/",
+      "title": "PandaCSS",
+      "description": "CSS-in-JS with build time generated styles, RSC compatible, multi-variant support, and best-in-class developer experience",
+      "category": "CSS In JS With Types",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://vanilla-extract.style/",
+      "title": "Vanilla-Extract",
+      "description": "Use TypeScript as your preprocessor. Write type‑safe, locally scoped classes, variables and themes, then generate static CSS files at build time",
+      "category": "CSS In JS With Types",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://stylexjs.com/",
+      "title": "StyleX",
+      "description": "StyleX is a JavaScript library for defining styles for optimized user interfaces",
+      "category": "CSS In JS With Types",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/venil7/json-decoder",
+      "title": "json-decoder",
+      "description": "Typesafe JSON decoder and runtime checker",
+      "category": "Runtime",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/woutervh-/typescript-is",
+      "title": "typescript-is",
+      "description": "TypeScript transformer that generates run-time type-checks.",
+      "category": "Runtime",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/unional/type-plus",
+      "title": "type-plus",
+      "description": "Additional types and type adjusted utilities",
+      "category": "Runtime",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/agentframework/agentframework",
+      "title": "Agent Framework",
+      "description": null,
+      "category": "Runtime",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/LancerComet/SunTori",
+      "title": "SunTori",
+      "description": "A JSON de/serializer to ensure everything is safe at runtime.",
+      "category": "Runtime",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/mrspartak/config",
+      "title": "config",
+      "description": "Runtime configuration resolver",
+      "category": "Runtime",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/tani/ts-match",
+      "title": "@core/match",
+      "description": "Type-safe destructuring assignment with pattern-match validation",
+      "category": "Validation",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/gcanti/io-ts",
+      "title": "io-ts",
+      "description": "Runtime type system for IO decoding/encoding",
+      "category": "Validation",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/vriad/zod",
+      "title": "zod",
+      "description": "TypeScript-first schema validation with static type inference",
+      "category": "Validation",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/fabian-hiller/valibot",
+      "title": "valibot",
+      "description": "Valibot is a Typescript schema library with static type inference, and it's exceptionally lightweight compared to Zod, with no dependencies.",
+      "category": "Validation",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/pelotom/runtypes",
+      "title": "runtypes",
+      "description": "Runtime validation for static types",
+      "category": "Validation",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/julienvincent/ts-codec",
+      "title": "ts-codec",
+      "description": "TypeScript Codecs for encoding, decoding and validating data",
+      "category": "Validation",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/sindresorhus/ow",
+      "title": "ow",
+      "description": "Function argument validation for humans",
+      "category": "Validation",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/neuledge/computed-types",
+      "title": "computed-types",
+      "description": "🦩 Joi like validations for TypeScript",
+      "category": "Validation",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/thomasaribart/json-schema-to-ts",
+      "title": "json-schema-to-ts",
+      "description": "Dynamic type inference from JSON schemas",
+      "category": "Validation",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/LancerComet/MyWebLibs/tree/master/Yunomix",
+      "title": "Yunomix",
+      "description": "A form validation toolkit which is designed in AOP form.",
+      "category": "Validation",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/samchon/typia",
+      "title": "typia",
+      "description": "20,000x times faster runtime validator using pure TypeScript type. Only one line required like `typia.assert<T>(input)`. Also, supports 200x faster JSON serialization, and Protocol Buffer features. 🚀 (see also https://typia.io/docs)",
+      "category": "Validation",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/sgb-io/fta",
+      "title": "fta",
+      "description": "Rust-based static analysis to monitor code quality",
+      "category": "Validation",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/rsinger86/dto-classes",
+      "title": "dto-classes",
+      "description": "Developer-friendly parsing, validation & serialization. Static types by default. Uses properties for field schemas, not decorators.",
+      "category": "Validation",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://microsoft.github.io/monaco-editor/",
+      "title": "Monaco Editor",
+      "description": null,
+      "category": "Mobile",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/cglotr/lc-mate",
+      "title": "lc-mate",
+      "description": "Extension that adds contest rating to usernames in LC",
+      "category": "Chrome Extensions",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/mumu-lhl/duckduckgo-ai-chat",
+      "title": "duckduckgo-ai-chat",
+      "description": "Providing Duckduckgo AI Chat API, which can use gpt-4o-mini for free.",
+      "category": "Libraries",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/juspay/neurolink",
+      "title": "Neurolink",
+      "description": "Universal AI development platform that unifies 12+ AI providers (OpenAI, Anthropic, Google, Bedrock, Azure) with MCP support, multi-provider failover, and production-ready enterprise features. TypeScript SDK + CLI.",
+      "category": "Libraries",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/rehydra-ai/rehydra-sdk",
+      "title": "rehydra",
+      "description": "A zero-trust SDK to anonymize PII locally before sending prompts to LLMs and seamlessly rehydrate the response.",
+      "category": "Libraries",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://mva.microsoft.com/en-US/training-courses/angular-applications-with-typescript-14330",
+      "title": "Angular Applications with TypeScript",
+      "description": null,
+      "category": ":free: Free Courses",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://www.pluralsight.com/courses/typescript",
+      "title": "TypeScript Fundamentals",
+      "description": null,
+      "category": ":dollar: Paid Courses",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://www.pluralsight.com/courses/typescript-practical-migration",
+      "title": "Practical TypeScript Migration",
+      "description": null,
+      "category": ":dollar: Paid Courses",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "http://www.pluralsight.com/courses/angular-typescript",
+      "title": "Angular with TypeScript",
+      "description": null,
+      "category": ":dollar: Paid Courses",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://www.pluralsight.com/courses/using-typescript-large-angularjs-apps",
+      "title": "Using TypeScript for Large AngularJS Applications",
+      "description": null,
+      "category": ":dollar: Paid Courses",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://www.packtpub.com/application-development/introduction-typescript-video",
+      "title": "Introduction to TypeScript",
+      "description": null,
+      "category": ":dollar: Paid Courses",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://www.packtpub.com/web-development/mastering-typescript-video",
+      "title": "Mastering TypeScript",
+      "description": null,
+      "category": ":dollar: Paid Courses",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://www.udemy.com/typescript-the-complete-developers-guide/",
+      "title": "TypeScript: The Complete Developer's Guide",
+      "description": null,
+      "category": ":dollar: Paid Courses",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://www.manning.com/livevideo/angular-for-java-developers-typescript/",
+      "title": "Angular with TypeScript",
+      "description": null,
+      "category": ":dollar: Paid Courses",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://www.udemy.com/course/learn-typescript/",
+      "title": "Mastering TypeScript - 2022 Edition",
+      "description": null,
+      "category": ":dollar: Paid Courses",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://www.useanvil.com/blog/engineering/converting-vanilla-javascript-to-typescript",
+      "title": "Converting your vanilla JavaScript app to TypeScript",
+      "description": null,
+      "category": ":dollar: Paid Courses",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://www.scaler.com/topics/typescript-vs-javascript/",
+      "title": "Difference Between TypeScript and JavaScript",
+      "description": null,
+      "category": ":dollar: Paid Courses",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://roadmap.sh/typescript",
+      "title": "TypeScript Roadmap",
+      "description": null,
+      "category": ":dollar: Paid Courses",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://github.com/ellerbrock/typescript-badges/",
+      "title": "TypeScript Badges",
+      "description": null,
+      "category": "Badges",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ellerbrock/typescript-badges/master/badges/awesome/typescript125x28.png",
+      "title": "![TypeScript",
+      "description": null,
+      "category": "Badges",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://twitter.com/typescriptlang",
+      "title": "@typescriptlang",
+      "description": "Official Typescript Twitter",
+      "category": "Social",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://twitter.com/angularjs",
+      "title": "@angularjs",
+      "description": "Official Angularjs Twitter using Typescript Since 2.0",
+      "category": "Social",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://twitter.com/jntrnr",
+      "title": "@jntrnr",
+      "description": "Typescript Program Manager at Microsoft",
+      "category": "Social",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    },
+    {
+      "url": "https://twitter.com/ahejlsberg",
+      "title": "@ahejlsberg",
+      "description": "Technical Fellow at Microsoft involved with the Typescript project",
+      "category": "Social",
+      "source": "dzharii/awesome-typescript",
+      "indexedAt": "2026-07-23T14:52:54.365Z"
+    }
+  ],
+  "categories": [
+    "Typescript Project Starters",
+    "Reference Lists",
+    "Blogs",
+    "CLI and REPL",
+    "Visual Studio",
+    "Other (Plugins || Cross-platform || OSS || Free)",
+    "Playground",
+    "Build Systems",
+    "Cloud Data Warehousing",
+    "Module Bundlers",
+    "CMS",
+    "Tools",
+    "Types",
+    "CSS In JS With Types",
+    "Runtime",
+    "Validation",
+    "Mobile",
+    "Chrome Extensions",
+    "Libraries",
+    ":free: Free Courses",
+    ":dollar: Paid Courses",
+    "Badges",
+    "Social"
+  ],
+  "crawledAt": "2026-07-23T14:52:54.365Z"
+}

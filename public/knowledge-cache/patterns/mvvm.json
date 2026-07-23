@@ -1,0 +1,16 @@
+{
+  "id": "mvvm",
+  "category": "patterns",
+  "label": "Model-View-ViewModel",
+  "aliases": [],
+  "description": "Architectural pattern separating UI rendering from business logic",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel",
+    "wikidata": "https://www.wikidata.org/wiki/Q1376840"
+  },
+  "indexedAt": "2026-07-23T14:36:44.709Z"
+}

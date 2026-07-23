@@ -1,0 +1,2151 @@
+{
+  "repoId": "sbilly/awesome-security",
+  "name": "A collection of awesome software, libraries, documents, books, resources and cools stuffs about security.",
+  "description": "A collection of awesome software, libraries, documents, books, resources and cools stuffs about security.",
+  "repoUrl": "https://github.com/sbilly/awesome-security",
+  "stars": 14655,
+  "topics": [
+    "awesome-list",
+    "security"
+  ],
+  "links": [
+    {
+      "url": "https://github.com/sergiomarotco/Network-segmentation-cheat-sheet",
+      "title": "Network-segmentation-cheat-sheet",
+      "description": "This project was created to publish the best practices for segmentation of the corporate network of any company. In general, the schemes in this project are suitable for any company.",
+      "category": "Network architecture",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "http://www.openvas.org/",
+      "title": "OpenVAS",
+      "description": "OpenVAS is a framework of several services and tools offering a comprehensive and powerful vulnerability scanning and vulnerability management solution.",
+      "category": "Scanning / Pentesting",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://www.kali.org/",
+      "title": "Kali",
+      "description": "Kali Linux is a Debian-derived Linux distribution designed for digital forensics and penetration testing. Kali Linux is preinstalled with numerous penetration-testing programs, including nmap (a port scanner), Wireshark (a packet analyzer), John the Ripper (a password cracker), and Aircrack-ng (a software suite for penetration-testing wireless LANs).",
+      "category": "Scanning / Pentesting",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://tsurugi-linux.org/",
+      "title": "tsurugi",
+      "description": "heavily customized Linux distribution that designed to support DFIR investigations, malware analysis and OSINT activities. It is based on Ubuntu 20.04(64-bit with a 5.15.12 custom kernel)",
+      "category": "Scanning / Pentesting",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/rafael-santiago/pig",
+      "title": "pig",
+      "description": "A Linux packet crafting tool.",
+      "category": "Scanning / Pentesting",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/gpotter2/awesome-scapy",
+      "title": "scapy",
+      "description": "Scapy: the python-based interactive packet manipulation program & library.",
+      "category": "Scanning / Pentesting",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/rfunix/Pompem",
+      "title": "Pompem",
+      "description": "Pompem is an open source tool, which is designed to automate the search for exploits in major databases. Developed in Python, has a system of advanced search, thus facilitating the work of pentesters and ethical hackers. In its current version, performs searches in databases: Exploit-db, 1337day, Packetstorm Security...",
+      "category": "Scanning / Pentesting",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://nmap.org",
+      "title": "Nmap",
+      "description": "Nmap is a free and open source utility for network discovery and security auditing.",
+      "category": "Scanning / Pentesting",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/owasp-amass/amass",
+      "title": "Amass",
+      "description": "Amass performs DNS subdomain enumeration by scraping the largest number of disparate data sources, recursive brute forcing, crawling of web archives, permuting and altering names, reverse DNS sweeping and other techniques.",
+      "category": "Scanning / Pentesting",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/rozgo/anevicon",
+      "title": "Anevicon",
+      "description": "The most powerful UDP-based load generator, written in Rust.",
+      "category": "Scanning / Pentesting",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/isgasho/finshir",
+      "title": "Finshir",
+      "description": "A coroutines-driven Low & Slow traffic generator, written in Rust.",
+      "category": "Scanning / Pentesting",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/GoVanguard/legion",
+      "title": "Legion",
+      "description": "Open source semi-automated discovery and reconnaissance network penetration testing framework.",
+      "category": "Scanning / Pentesting",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/RustScan/RustScan",
+      "title": "RustScan",
+      "description": "Faster Nmap scanning with Rust. Take a 17 minute Nmap scan down to 19 seconds.",
+      "category": "Scanning / Pentesting",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/jtpereyda/boofuzz",
+      "title": "Boofuzz",
+      "description": "Fuzzing engine and fuzz testing framework.",
+      "category": "Scanning / Pentesting",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/RedTeamPentesting/monsoon",
+      "title": "monsoon",
+      "description": "Very flexible and fast interactive HTTP enumeration/fuzzing.",
+      "category": "Scanning / Pentesting",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/spectralops/netz",
+      "title": "Netz",
+      "description": "Discover internet-wide misconfigurations, using zgrab2 and others.",
+      "category": "Scanning / Pentesting",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/padok-team/cognito-scanner",
+      "title": "Cognito Scanner",
+      "description": "CLI tool to pentest Cognito AWS instance. It implements three attacks: unwanted account creation, account oracle and identity pool escalation",
+      "category": "Scanning / Pentesting",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/retracedhq/retraced",
+      "title": "BoxyHQ",
+      "description": "Open source API for security and compliance audit logging.",
+      "category": "Monitoring / Logging",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "http://justniffer.sourceforge.net/",
+      "title": "justniffer",
+      "description": "Justniffer is a network protocol analyzer that captures network traffic and produces logs in a customized way, can emulate Apache web server log files, track response times and extract all \"intercepted\" files from the HTTP traffic.",
+      "category": "Monitoring / Logging",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "http://dumpsterventures.com/jason/httpry/",
+      "title": "httpry",
+      "description": "httpry is a specialized packet sniffer designed for displaying and logging HTTP traffic. It is not intended to perform analysis itself, but to capture, parse, and log the traffic for later analysis. It can be run in real-time displaying the traffic as it is parsed, or as a daemon process that logs to an output file. It is written to be as lightweight and flexible as possible, so that it can be easily adaptable to different applications.",
+      "category": "Monitoring / Logging",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "http://ngrep.sourceforge.net/",
+      "title": "ngrep",
+      "description": "ngrep strives to provide most of GNU grep's common features, applying them to the network layer. ngrep is a pcap-aware tool that will allow you to specify extended regular or hexadecimal expressions to match against data payloads of packets. It currently recognizes IPv4/6, TCP, UDP, ICMPv4/6, IGMP and Raw across Ethernet, PPP, SLIP, FDDI, Token Ring and null interfaces, and understands BPF filter logic in the same fashion as more common packet sniffing tools, such as tcpdump and snoop.",
+      "category": "Monitoring / Logging",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/gamelinux/passivedns",
+      "title": "passivedns",
+      "description": "A tool to collect DNS records passively to aid Incident handling, Network Security Monitoring (NSM) and general digital forensics. PassiveDNS sniffs traffic from an interface or reads a pcap-file and outputs the DNS-server answers to a log file. PassiveDNS can cache/aggregate duplicate DNS answers in-memory, limiting the amount of data in the logfile without loosing the essens in the DNS answer.",
+      "category": "Monitoring / Logging",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "http://sagan.quadrantsec.com/",
+      "title": "sagan",
+      "description": "Sagan uses a 'Snort like' engine and rules to analyze logs (syslog/event log/snmptrap/netflow/etc).",
+      "category": "Monitoring / Logging",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "http://www.ntop.org/products/traffic-analysis/ntop/",
+      "title": "ntopng",
+      "description": "Ntopng is a network traffic probe that shows the network usage, similar to what the popular top Unix command does.",
+      "category": "Monitoring / Logging",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/rabbitstack/fibratus",
+      "title": "Fibratus",
+      "description": "Fibratus is a tool for exploration and tracing of the Windows kernel. It is able to capture the most of the Windows kernel activity - process/thread creation and termination, file system I/O, registry, network activity, DLL loading/unloading and much more. Fibratus has a very simple CLI which encapsulates the machinery to start the kernel event stream collector, set kernel event filters or run the lightweight Python modules called filaments.",
+      "category": "Monitoring / Logging",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/evilsocket/opensnitch",
+      "title": "opensnitch",
+      "description": "OpenSnitch is a GNU/Linux port of the Little Snitch application firewall",
+      "category": "Monitoring / Logging",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/wazuh/wazuh",
+      "title": "wazuh",
+      "description": "Wazuh is a free and open source platform used for threat prevention, detection, and response. It is capable of monitoring file system  changes, system calls and inventory changes.",
+      "category": "Monitoring / Logging",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/matanolabs/matano",
+      "title": "Matano",
+      "description": "Open source serverless security lake platform on AWS that lets you ingest, store, and analyze petabytes of security data into an Apache Iceberg data lake and run realtime Python detections as code.",
+      "category": "Monitoring / Logging",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://falco.org/",
+      "title": "Falco",
+      "description": "The cloud-native runtime security project and de facto Kubernetes threat detection engine now part of the CNCF.",
+      "category": "Monitoring / Logging",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/tenzir/vast",
+      "title": "VAST",
+      "description": "Open source security data pipeline engine for structured event data, supporting high-volume telemetry ingestion, compaction, and retrieval; purpose-built for security content execution, guided threat hunting, and large-scale investigation.",
+      "category": "Monitoring / Logging",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/Khadinxc/Sigma2KQL",
+      "title": "Sigma2KQL",
+      "description": "A repository of all SIGMA rules converted to KQL that runs on a weekly schedule to update the repository and align with the up to date version of the SIGMA rules repository.",
+      "category": "Monitoring / Logging",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/Khadinxc/Sigma2SPL",
+      "title": "Sigma2SPL",
+      "description": "A repository of all SIGMA rules converted to SPL that runs on a weekly schedule to update the repository and align with the up to date version of the SIGMA rules repository.",
+      "category": "Monitoring / Logging",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/Khadinxc/TerraSigma",
+      "title": "TerraSigma",
+      "description": "A repository of all SIGMA rules converted to Microsoft Sentinel Terraform Scheduled analytic resources. The repository runs on a weekly schedule to update the repository and align with the up to date version of the SIGMA rules repository. Proper entity mapping is completed for the rules to ensure the repo is plug-and-play.",
+      "category": "Monitoring / Logging",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://www.snort.org/",
+      "title": "Snort",
+      "description": "Snort is a free and open source network intrusion prevention system (NIPS) and network intrusion detection system (NIDS)created by Martin Roesch in 1998. Snort is now developed by Sourcefire, of which Roesch is the founder and CTO. In 2009, Snort entered InfoWorld's Open Source Hall of Fame as one of the \"greatest [pieces of] open source software of all time\".",
+      "category": "IDS / IPS / Host IDS / Host IPS",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://zeek.org/",
+      "title": "Zeek",
+      "description": "Zeek is a powerful network analysis framework that is much different from the typical IDS you may know.",
+      "category": "IDS / IPS / Host IDS / Host IPS",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/corelight/zeek2es",
+      "title": "zeek2es",
+      "description": "An open source tool to convert Zeek logs to Elastic/OpenSearch.  You can also output pure JSON from Zeek's TSV logs!",
+      "category": "IDS / IPS / Host IDS / Host IPS",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://drkeithjones.com",
+      "title": "DrKeithJones.com",
+      "description": "A blog on cyber security and network security monitoring.",
+      "category": "IDS / IPS / Host IDS / Host IPS",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://ossec.github.io/",
+      "title": "OSSEC",
+      "description": "Comprehensive Open Source HIDS. Not for the faint of heart. Takes a bit to get your head around how it works. Performs log analysis, file integrity checking, policy monitoring, rootkit detection, real-time alerting and active response. It runs on most operating systems, including Linux, MacOS, Solaris, HP-UX, AIX and Windows. Plenty of reasonable documentation. Sweet spot is medium to large deployments.",
+      "category": "IDS / IPS / Host IDS / Host IPS",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "http://suricata-ids.org/",
+      "title": "Suricata",
+      "description": "Suricata is a high performance Network IDS, IPS and Network Security Monitoring engine. Open Source and owned by a community run non-profit foundation, the Open Information Security Foundation (OISF). Suricata is developed by the OISF and its supporting vendors.",
+      "category": "IDS / IPS / Host IDS / Host IPS",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "http://blog.securityonion.net/",
+      "title": "Security Onion",
+      "description": "Security Onion is a Linux distro for intrusion detection, network security monitoring, and log management. It's based on Ubuntu and contains Snort, Suricata, Zeek, OSSEC, Sguil, Squert, Snorby, ELSA, Xplico, NetworkMiner, and many other security tools. The easy-to-use Setup wizard allows you to build an army of distributed sensors for your enterprise in minutes!",
+      "category": "IDS / IPS / Host IDS / Host IPS",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/marshyski/sshwatch",
+      "title": "sshwatch",
+      "description": "IPS for SSH similar to DenyHosts written in Python.  It also can gather information about attacker during the attack in a log.",
+      "category": "IDS / IPS / Host IDS / Host IPS",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://fbb-git.gitlab.io/stealth/",
+      "title": "Stealth",
+      "description": "File integrity checker that leaves virtually no sediment. Controller runs from another machine, which makes it hard for an attacker to know that the file system is being checked at defined pseudo random intervals over SSH. Highly recommended for small to medium deployments.",
+      "category": "IDS / IPS / Host IDS / Host IPS",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://bitbucket.org/camp0/aiengine",
+      "title": "AIEngine",
+      "description": "AIEngine is a next generation interactive/programmable Python/Ruby/Java/Lua packet inspection engine with capabilities of learning without any human intervention, NIDS(Network Intrusion Detection System) functionality, DNS domain classification, network collector, network forensics and many others.",
+      "category": "IDS / IPS / Host IDS / Host IPS",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "http://denyhosts.sourceforge.net/",
+      "title": "Denyhosts",
+      "description": "Thwart SSH dictionary based attacks and brute force attacks.",
+      "category": "IDS / IPS / Host IDS / Host IPS",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "http://www.fail2ban.org/wiki/index.php/Main_Page",
+      "title": "Fail2Ban",
+      "description": "Scans log files and takes action on IPs that show malicious behavior.",
+      "category": "IDS / IPS / Host IDS / Host IPS",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "http://www.sshguard.net/",
+      "title": "SSHGuard",
+      "description": "A software to protect services in addition to SSH, written in C",
+      "category": "IDS / IPS / Host IDS / Host IPS",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/crowdsecurity/crowdsec",
+      "title": "CrowdSec",
+      "description": "CrowdSec is a free, modern & collaborative behavior detection engine, coupled with a global IP reputation network. It stacks on Fail2Ban's philosophy but is IPV6 compatible and 60x faster (Go vs Python), uses Grok patterns to parse logs and YAML scenario to identify behaviors. CrowdSec is engineered for modern Cloud / Containers / VM based infrastructures (by decoupling detection and remediation). Once detected, you can remedy threats with various bouncers (firewall block, nginx http 403, Captchas, etc.) while the aggressive IPs can be sent to CrowdSec for curation before being shared among all users to further strengthen the community",
+      "category": "IDS / IPS / Host IDS / Host IPS",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/foospidy/HoneyPy",
+      "title": "HoneyPy",
+      "description": "HoneyPy is a low to medium interaction honeypot. It is intended to be easy to: deploy, extend functionality with plugins, and apply custom configurations.",
+      "category": "Honey Pot / Honey Net",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "http://conpot.org/",
+      "title": "Conpot",
+      "description": "ICS/SCADA Honeypot. Conpot is a low interactive server side Industrial Control Systems honeypot designed to be easy to deploy, modify and extend. By providing a range of common industrial control protocols we created the basics to build your own system, capable to emulate complex infrastructures to convince an adversary that he just found a huge industrial complex. To improve the deceptive capabilities, we also provided the possibility to server a custom human machine interface to increase the honeypots attack surface. The response times of the services can be artificially delayed to mimic the behaviour of a system under constant load. Because we are providing complete stacks of the protocols, Conpot can be accessed with productive HMI's or extended with real hardware. Conpot is developed under the umbrella of the Honeynet Project and on the shoulders of a couple of very big giants.",
+      "category": "Honey Pot / Honey Net",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/zeroq/amun",
+      "title": "Amun",
+      "description": "Amun Python-based low-interaction Honeypot.",
+      "category": "Honey Pot / Honey Net",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "http://glastopf.org/",
+      "title": "Glastopf",
+      "description": "Glastopf is a Honeypot which emulates thousands of vulnerabilities to gather data from attacks targeting web applications. The principle behind it is very simple: Reply the correct response to the attacker exploiting the web application.",
+      "category": "Honey Pot / Honey Net",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/desaster/kippo",
+      "title": "Kippo",
+      "description": "Kippo is a medium interaction SSH honeypot designed to log brute force attacks and, most importantly, the entire shell interaction performed by the attacker.",
+      "category": "Honey Pot / Honey Net",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "http://kojoney.sourceforge.net/",
+      "title": "Kojoney",
+      "description": "Kojoney is a low level interaction honeypot that emulates an SSH server. The daemon is written in Python using the Twisted Conch libraries.",
+      "category": "Honey Pot / Honey Net",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/tnich/honssh",
+      "title": "HonSSH",
+      "description": "HonSSH is a high-interaction Honey Pot solution. HonSSH will sit between an attacker and a honey pot, creating two separate SSH connections between them.",
+      "category": "Honey Pot / Honey Net",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "http://sourceforge.net/projects/bifrozt/",
+      "title": "Bifrozt",
+      "description": "Bifrozt is a NAT device with a DHCP server that is usually deployed with one NIC connected directly to the Internet and one NIC connected to the internal network. What differentiates Bifrozt from other standard NAT devices is its ability to work as a transparent SSHv2 proxy between an attacker and your honeypot. If you deployed an SSH server on Bifrozt’s internal network it would log all the interaction to a TTY file in plain text that could be viewed later and capture a copy of any files that were downloaded. You would not have to install any additional software, compile any kernel modules or use a specific version or type of operating system on the internal SSH server for this to work. It will limit outbound traffic to a set number of ports and will start to drop outbound packets on these ports when certain limits are exceeded.",
+      "category": "Honey Pot / Honey Net",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "http://bruteforce.gr/honeydrive",
+      "title": "HoneyDrive",
+      "description": "HoneyDrive is the premier honeypot Linux distro. It is a virtual appliance (OVA) with Xubuntu Desktop 12.04.4 LTS edition installed. It contains over 10 pre-installed and pre-configured honeypot software packages such as Kippo SSH honeypot, Dionaea and Amun malware honeypots, Honeyd low-interaction honeypot, Glastopf web honeypot and Wordpot, Conpot SCADA/ICS honeypot, Thug and PhoneyC honeyclients and more. Additionally it includes many useful pre-configured scripts and utilities to analyze, visualize and process the data it can capture, such as Kippo-Graph, Honeyd-Viz, DionaeaFR, an ELK stack and much more. Lastly, almost 90 well-known malware analysis, forensics and network monitoring related tools are also present in the distribution.",
+      "category": "Honey Pot / Honey Net",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "http://www.cuckoosandbox.org/",
+      "title": "Cuckoo Sandbox",
+      "description": "Cuckoo Sandbox is an Open Source software for automating analysis of suspicious files. To do so it makes use of custom components that monitor the behavior of the malicious processes while running in an isolated environment.",
+      "category": "Honey Pot / Honey Net",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "http://dtag-dev-sec.github.io/mediator/feature/2017/11/07/t-pot-17.10.html",
+      "title": "T-Pot Honeypot Distro",
+      "description": "T-Pot is based on the network installer of Ubuntu Server 16/17.x LTS. The honeypot daemons as well as other support components being used have been containerized using docker. This allows us to run multiple honeypot daemons on the same network interface while maintaining a small footprint and constrain each honeypot within its own environment. Installation over vanilla Ubuntu - [T-Pot Autoinstall](https://github.com/dtag-dev-sec/t-pot-autoinstall) - This script will install T-Pot 16.04/17.10 on a fresh Ubuntu 16.04.x LTS (64bit). It is intended to be used on hosted servers, where an Ubuntu base image is given and there is no ability to install custom ISO images. Successfully tested on vanilla Ubuntu 16.04.3 in VMware.",
+      "category": "Honey Pot / Honey Net",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/simsong/tcpflow",
+      "title": "tcpflow",
+      "description": "tcpflow is a program that captures data transmitted as part of TCP connections (flows), and stores the data in a way that is convenient for protocol analysis and debugging. Each TCP flow is stored in its own file. Thus, the typical TCP flow will be stored in two files, one for each direction. tcpflow can also process stored 'tcpdump' packet flows.",
+      "category": "Full Packet Capture / Forensic",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/deepfence/PacketStreamer",
+      "title": "Deepfence PacketStreamer",
+      "description": "High-performance remote packet capture and collection tool, distributed tcpdump for cloud native environments.",
+      "category": "Full Packet Capture / Forensic",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "http://www.xplico.org/",
+      "title": "Xplico",
+      "description": "The goal of Xplico is extract from an internet traffic capture the applications data contained. For example, from a pcap file Xplico extracts each email (POP, IMAP, and SMTP protocols), all HTTP contents, each VoIP call (SIP), FTP, TFTP, and so on. Xplico isn’t a network protocol analyzer. Xplico is an open source Network Forensic Analysis Tool (NFAT).",
+      "category": "Full Packet Capture / Forensic",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/aol/moloch",
+      "title": "Moloch",
+      "description": "Moloch is an open source, large scale IPv4 packet capturing (PCAP), indexing and database system. A simple web interface is provided for PCAP browsing, searching, and exporting. APIs are exposed that allow PCAP data and JSON-formatted session data to be downloaded directly. Simple security is implemented by using HTTPS and HTTP digest password support or by using apache in front. Moloch is not meant to replace IDS engines but instead work along side them to store and index all the network traffic in standard PCAP format, providing fast access. Moloch is built to be deployed across many systems and can scale to handle multiple gigabits/sec of traffic.",
+      "category": "Full Packet Capture / Forensic",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "http://www.openfpc.org",
+      "title": "OpenFPC",
+      "description": "OpenFPC is a set of tools that combine to provide a lightweight full-packet network traffic recorder & buffering system. It's design goal is to allow non-expert users to deploy a distributed network traffic recorder on COTS hardware while integrating into existing alert and log management tools.",
+      "category": "Full Packet Capture / Forensic",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/USArmyResearchLab/Dshell",
+      "title": "Dshell",
+      "description": "Dshell is a network forensic analysis framework. Enables rapid development of plugins to support the dissection of network packet captures.",
+      "category": "Full Packet Capture / Forensic",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/google/stenographer",
+      "title": "stenographer",
+      "description": "Stenographer is a packet capture solution which aims to quickly spool all packets to disk, then provide simple, fast access to subsets of those packets.",
+      "category": "Full Packet Capture / Forensic",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://www.wireshark.org",
+      "title": "wireshark",
+      "description": "Wireshark is a free and open-source packet analyzer. It is used for network troubleshooting, analysis, software and communications protocol development, and education. Wireshark is very similar to tcpdump, but has a graphical front-end, plus some integrated sorting and filtering options.",
+      "category": "Sniffer",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "http://netsniff-ng.org/",
+      "title": "netsniff-ng",
+      "description": "netsniff-ng is a free Linux networking toolkit, a Swiss army knife for your daily Linux network plumbing if you will. Its gain of performance is reached by zero-copy mechanisms, so that on packet reception and transmission the kernel does not need to copy packets from kernel space to user space and vice versa.",
+      "category": "Sniffer",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/http-header-live/",
+      "title": "Live HTTP headers",
+      "description": "Live HTTP headers is a free firefox addon to see your browser requests in real time. It shows the entire headers of the requests and can be used to find the security loopholes in implementations.",
+      "category": "Sniffer",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://www.prelude-siem.org/",
+      "title": "Prelude",
+      "description": "Prelude is a Universal \"Security Information & Event Management\" (SIEM) system. Prelude collects, normalizes, sorts, aggregates, correlates and reports all security-related events independently of the product brand or license giving rise to such events; Prelude is \"agentless\".",
+      "category": "Security Information & Event Management",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://www.alienvault.com/open-threat-exchange/projects",
+      "title": "OSSIM",
+      "description": "OSSIM provides all of the features that a security professional needs from a SIEM offering – event collection, normalization, and correlation.",
+      "category": "Security Information & Event Management",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/certsocietegenerale/FIR",
+      "title": "FIR",
+      "description": "Fast Incident Response, a cybersecurity incident management platform.",
+      "category": "Security Information & Event Management",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/dogoncouch/LogESP",
+      "title": "LogESP",
+      "description": "Open Source SIEM (Security Information and Event Management system).",
+      "category": "Security Information & Event Management",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://openvpn.net/",
+      "title": "OpenVPN",
+      "description": "OpenVPN is an open source software application that implements virtual private network (VPN) techniques for creating secure point-to-point or site-to-site connections in routed or bridged configurations and remote access facilities. It uses a custom security protocol that utilizes SSL/TLS for key exchange.",
+      "category": "VPN",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/jery0843/torforge",
+      "title": "TorForge",
+      "description": "Advanced transparent Tor proxy with kernel-level iptables routing, post-quantum encryption (Kyber768), kill switch, steganography mode, and AI-powered circuit selection.",
+      "category": "VPN",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "http://dpdk.org/",
+      "title": "DPDK",
+      "description": "DPDK is a set of libraries and drivers for fast packet processing.",
+      "category": "Fast Packet Processing",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/pfq/PFQ",
+      "title": "PFQ",
+      "description": "PFQ is a functional networking framework designed for the Linux operating system that allows efficient packets capture/transmission (10G and beyond), in-kernel functional processing and packets steering across sockets/end-points.",
+      "category": "Fast Packet Processing",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "http://www.ntop.org/products/packet-capture/pf_ring/",
+      "title": "PF_RING",
+      "description": "PF_RING is a new type of network socket that dramatically improves the packet capture speed.",
+      "category": "Fast Packet Processing",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "http://www.ntop.org/products/packet-capture/pf_ring/pf_ring-zc-zero-copy/",
+      "title": "PF_RING ZC (Zero Copy)",
+      "description": "PF_RING ZC (Zero Copy) is a flexible packet processing framework that  allows you to achieve 1/10 Gbit line rate packet processing (both RX and TX) at any packet size. It implements zero copy operations including patterns for inter-process and inter-VM (KVM) communications.",
+      "category": "Fast Packet Processing",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://elixir.bootlin.com/linux/latest/source/Documentation/networking/packet_mmap.rst",
+      "title": "PACKET_MMAP/TPACKET/AF_PACKET",
+      "description": "It's fine to use PACKET_MMAP to improve the performance of the capture and transmission process in Linux.",
+      "category": "Fast Packet Processing",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "http://info.iet.unipi.it/~luigi/netmap/",
+      "title": "netmap",
+      "description": "netmap is a framework for high speed packet I/O. Together with its companion VALE software switch, it is implemented as a single kernel module and available for FreeBSD, Linux and now also Windows.",
+      "category": "Fast Packet Processing",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://www.pfsense.org/",
+      "title": "pfSense",
+      "description": "Firewall and Router FreeBSD distribution.",
+      "category": "Firewall",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://opnsense.org/",
+      "title": "OPNsense",
+      "description": "is an open source, easy-to-use and easy-to-build FreeBSD based firewall and routing platform. OPNsense includes most of the features available in expensive commercial firewalls, and more in many cases. It brings the rich feature set of commercial offerings with the benefits of open and verifiable sources.",
+      "category": "Firewall",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://www.cipherdyne.org/fwknop/",
+      "title": "fwknop",
+      "description": "Protects ports via Single Packet Authorization in your firewall.",
+      "category": "Firewall",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/spamscanner",
+      "title": "Spam Scanner",
+      "description": "Anti-Spam Scanning Service and Anti-Spam API by [@niftylettuce](https://github.com/niftylettuce).",
+      "category": "Anti-Spam",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/rspamd/rspamd",
+      "title": "rspamd",
+      "description": "Fast, free and open-source spam filtering system.",
+      "category": "Anti-Spam",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://spamassassin.apache.org/",
+      "title": "SpamAssassin",
+      "description": "A powerful and popular email spam filter employing a variety of detection technique.",
+      "category": "Anti-Spam",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://scammerlist.now.sh/",
+      "title": "Scammer-List",
+      "description": "A free open source AI based Scam and Spam Finder with a free API",
+      "category": "Anti-Spam",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/codeyourweb/fastfinder",
+      "title": "Fastfinder",
+      "description": "Fast customisable cross-platform suspicious file finder. Supports md5/sha1/sha256 hashs, litteral/wildcard strings, regular expressions and YARA rules. Can easily be packed to be deployed on any windows / linux host.",
+      "category": "Anti-Virus / Anti-Malware",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://www.rfxn.com/projects/linux-malware-detect/",
+      "title": "Linux Malware Detect",
+      "description": "A malware scanner for Linux designed around the threats faced in shared hosted environments.",
+      "category": "Anti-Virus / Anti-Malware",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/Neo23x0/Loki",
+      "title": "LOKI",
+      "description": "Simple Indicators of Compromise and Incident Response Scanner",
+      "category": "Anti-Virus / Anti-Malware",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "http://rkhunter.sourceforge.net/",
+      "title": "rkhunter",
+      "description": "A Rootkit Hunter for Linux",
+      "category": "Anti-Virus / Anti-Malware",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "http://www.clamav.net/",
+      "title": "ClamAv",
+      "description": "ClamAV® is an open-source antivirus engine for detecting trojans, viruses, malware & other malicious threats.",
+      "category": "Anti-Virus / Anti-Malware",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/docbleach/DocBleach",
+      "title": "DocBleach",
+      "description": "An open-source Content Disarm & Reconstruct software sanitizing Office, PDF and RTF Documents.",
+      "category": "Content Disarm & Reconstruct",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "http://www.rudder-project.org/",
+      "title": "Rudder",
+      "description": "Rudder is an easy to use, web-driven, role-based solution for IT Infrastructure Automation & Compliance. Automate common system administration tasks (installation, configuration); Enforce configuration over time (configuring once is good, ensuring that configuration is valid and automatically fixing it is better); Inventory of all managed nodes; Web interface to configure and manage nodes and their configuration; Compliance reporting, by configuration and/or by node.",
+      "category": "Configuration Management",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/google/google-authenticator",
+      "title": "google-authenticator",
+      "description": "The Google Authenticator project includes implementations of one-time passcode generators for several mobile platforms, as well as a pluggable authentication module (PAM). One-time passcodes are generated using open standards developed by the Initiative for Open Authentication (OATH) (which is unrelated to OAuth). These implementations support the HMAC-Based One-time Password (HOTP) algorithm specified in RFC 4226 and the Time-based One-time Password (TOTP) algorithm specified in RFC 6238. [Tutorials: How to set up two-factor authentication for SSH login on Linux](http://xmodulo.com/two-factor-authentication-ssh-login-linux.html)",
+      "category": "Authentication",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "http://wiki.secmobi.com/",
+      "title": "SecMobi Wiki",
+      "description": "A collection of mobile security resources which including articles, blogs, books, groups, projects, tools and conferences. *",
+      "category": "Mobile / Android / iOS",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/OWASP/owasp-mstg",
+      "title": "OWASP Mobile Security Testing Guide",
+      "description": "A comprehensive manual for mobile app security testing and reverse engineering.",
+      "category": "Mobile / Android / iOS",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/kai5263499/osx-security-awesome",
+      "title": "OSX Security Awesome",
+      "description": "A collection of OSX and iOS security resources",
+      "category": "Mobile / Android / iOS",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://mobilesecuritywiki.com/",
+      "title": "Mobile Security Wiki",
+      "description": "A collection of mobile security resources.",
+      "category": "Mobile / Android / iOS",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/iBotPeaches/Apktool",
+      "title": "Apktool",
+      "description": "A tool for reverse engineering Android apk files.",
+      "category": "Mobile / Android / iOS",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/skylot/jadx",
+      "title": "jadx",
+      "description": "Command line and GUI tools for produce Java source code from Android Dex and Apk files.",
+      "category": "Mobile / Android / iOS",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/Storyyeller/enjarify",
+      "title": "enjarify",
+      "description": "A tool for translating Dalvik bytecode to equivalent Java bytecode.",
+      "category": "Mobile / Android / iOS",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/51j0/Android-Storage-Extractor",
+      "title": "Android Storage Extractor",
+      "description": "A tool to extract local data storage of an Android application in one click.",
+      "category": "Mobile / Android / iOS",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/quark-engine/quark-engine",
+      "title": "Quark-Engine",
+      "description": "An Obfuscation-Neglect Android Malware Scoring System.",
+      "category": "Mobile / Android / iOS",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://www.jetbrains.com/decompiler/",
+      "title": "dotPeek",
+      "description": "Free-of-charge standalone tool based on ReSharper's bundled decompiler.",
+      "category": "Mobile / Android / iOS",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/GrapheneOS/hardened_malloc",
+      "title": "hardened_malloc",
+      "description": "Hardened allocator designed for modern systems. It has integration into Android's Bionic libc and can be used externally with musl and glibc as a dynamic library for use on other Linux-based platforms. It will gain more portability / integration over time.",
+      "category": "Mobile / Android / iOS",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/ir193/AMExtractor",
+      "title": "AMExtractor",
+      "description": "AMExtractor can dump out the physical content of your Android device even without kernel source code.",
+      "category": "Mobile / Android / iOS",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/frida/frida",
+      "title": "frida",
+      "description": "Dynamic instrumentation toolkit for developers, reverse-engineers, and security researchers.",
+      "category": "Mobile / Android / iOS",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/UDcide/udcide",
+      "title": "UDcide",
+      "description": "Android Malware Behavior Editor.",
+      "category": "Mobile / Android / iOS",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/ptswarm/reFlutter",
+      "title": "reFlutter",
+      "description": "Flutter Reverse Engineering Framework",
+      "category": "Mobile / Android / iOS",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/google/grr",
+      "title": "grr",
+      "description": "GRR Rapid Response is an incident response framework focused on remote live forensics.",
+      "category": "Forensics",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/volatilityfoundation/volatility",
+      "title": "Volatility",
+      "description": "Python based memory extraction and analysis framework.",
+      "category": "Forensics",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "http://mig.mozilla.org/",
+      "title": "mig",
+      "description": "MIG is a platform to perform investigative surgery on remote endpoints. It enables investigators to obtain information from large numbers of systems in parallel, thus accelerating investigation of incidents and day-to-day operations security.",
+      "category": "Forensics",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/diogo-fernan/ir-rescue",
+      "title": "ir-rescue",
+      "description": "*ir-rescue* is a Windows Batch script and a Unix Bash script to comprehensively collect host forensic data during incident response.",
+      "category": "Forensics",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/dogoncouch/logdissect",
+      "title": "Logdissect",
+      "description": "CLI utility and Python API for analyzing log files and other data.",
+      "category": "Forensics",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/TonyPhipps/Meerkat",
+      "title": "Meerkat",
+      "description": "PowerShell-based Windows artifact collection for threat hunting and incident response.",
+      "category": "Forensics",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/google/rekall",
+      "title": "Rekall",
+      "description": "The Rekall Framework is a completely open collection of tools, implemented in Python under the Apache and GNU General Public License, for the extraction and analysis of digital artifacts computer systems.",
+      "category": "Forensics",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/504ensicsLabs/LiME.git",
+      "title": "LiME",
+      "description": "Linux Memory Extractor",
+      "category": "Forensics",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/soxoj/maigret",
+      "title": "Maigret",
+      "description": "Maigret collect a dossier on a person by username only, checking for accounts on a huge number of sites and gathering all the available information from web pages.",
+      "category": "Forensics",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://www.abuse.ch/",
+      "title": "abuse.ch",
+      "description": "ZeuS Tracker / SpyEye Tracker / Palevo Tracker / Feodo Tracker tracks Command&Control servers (hosts) around the world and provides you a domain- and an IP-blocklist.",
+      "category": "Threat Intelligence",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://cyware.com/community/ctix-feeds",
+      "title": "Cyware Threat Intelligence Feeds",
+      "description": "Cyware’s Threat Intelligence feeds brings to you the valuable threat data from a wide range of open and trusted sources to deliver a consolidated stream of valuable and actionable threat intelligence. Our threat intel feeds are fully compatible with STIX 1.x and 2.0, giving you the latest information on malicious malware hashes, IPs and domains uncovered across the globe in real-time.",
+      "category": "Threat Intelligence",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "http://doc.emergingthreats.net/bin/view/Main/EmergingFAQ",
+      "title": "Emerging Threats - Open Source",
+      "description": "Emerging Threats began 10 years ago as an open source community for collecting Suricata and SNORT® rules, firewall rules, and other IDS rulesets. The open source community still plays an active role in Internet security, with more than 200,000 active users downloading the ruleset daily. The ETOpen Ruleset is open to any user or organization, as long as you follow some basic guidelines. Our ETOpen Ruleset is available for download any time.",
+      "category": "Threat Intelligence",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "http://www.phishtank.com/",
+      "title": "PhishTank",
+      "description": "PhishTank is a collaborative clearing house for data and information about phishing on the Internet. Also, PhishTank provides an open API for developers and researchers to integrate anti-phishing data into their applications at no charge.",
+      "category": "Threat Intelligence",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "http://www.spamhaus.org/",
+      "title": "SBL / XBL / PBL / DBL / DROP / ROKSO",
+      "description": "The Spamhaus Project is an international nonprofit organization whose mission is to track the Internet's spam operations and sources, to provide dependable realtime anti-spam protection for Internet networks, to work with Law Enforcement Agencies to identify and pursue spam and malware gangs worldwide, and to lobby governments for effective anti-spam legislation.",
+      "category": "Threat Intelligence",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://www.dshield.org/reports.html",
+      "title": "Internet Storm Center",
+      "description": "The ISC was created in 2001 following the successful detection, analysis, and widespread warning of the Li0n worm. Today, the ISC provides a free analysis and warning service to thousands of Internet users and organizations, and is actively working with Internet Service Providers to fight back against the most malicious attackers.",
+      "category": "Threat Intelligence",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://www.autoshun.org/",
+      "title": "AutoShun",
+      "description": "AutoShun is a Snort plugin that allows you to send your Snort IDS logs to a centralized server that will correlate attacks from your sensor logs with other snort sensors, honeypots, and mail filters from around the world.",
+      "category": "Threat Intelligence",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "http://www.malwaredomains.com/",
+      "title": "DNS-BH",
+      "description": "The DNS-BH project creates and maintains a listing of domains that are known to be used to propagate malware and spyware. This project creates the Bind and Windows zone files required to serve fake replies to localhost for any requests to these, thus preventing many spyware installs and reporting.",
+      "category": "Threat Intelligence",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "http://www.alienvault.com/open-threat-exchange/dashboard",
+      "title": "AlienVault Open Threat Exchange",
+      "description": "AlienVault Open Threat Exchange (OTX), to help you secure your networks from data loss, service disruption and system compromise caused by malicious IP addresses.",
+      "category": "Threat Intelligence",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://metrics.torproject.org/collector.html",
+      "title": "Tor Bulk Exit List",
+      "description": "CollecTor, your friendly data-collecting service in the Tor network. CollecTor fetches data from various nodes and services in the public Tor network and makes it available to the world. If you're doing research on the Tor network, or if you're developing an application that uses Tor network data, this is your place to start. [TOR Node List](https://www.dan.me.uk/tornodes) /  [DNS Blacklists](https://www.dan.me.uk/dnsbl) / [Tor Node List](http://torstatus.blutmagie.de/)",
+      "category": "Threat Intelligence",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "http://www.leakedin.com/",
+      "title": "leakedin.com",
+      "description": "The primary purpose of leakedin.com is to make visitors aware about the risks of loosing data. This blog just compiles samples of data lost or disclosed on sites like pastebin.com.",
+      "category": "Threat Intelligence",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/fireeye/iocs",
+      "title": "FireEye OpenIOCs",
+      "description": "FireEye Publicly Shared Indicators of Compromise (IOCs)",
+      "category": "Threat Intelligence",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "http://www.openvas.org/openvas-nvt-feed.html",
+      "title": "OpenVAS NVT Feed",
+      "description": "The public feed of Network Vulnerability Tests (NVTs). It contains more than 35,000 NVTs (as of April 2014), growing on a daily basis. This feed is configured as the default for OpenVAS.",
+      "category": "Threat Intelligence",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "http://www.projecthoneypot.org/",
+      "title": "Project Honey Pot",
+      "description": "Project Honey Pot is the first and only distributed system for identifying spammers and the spambots they use to scrape addresses from your website. Using the Project Honey Pot system you can install addresses that are custom-tagged to the time and IP address of a visitor to your site. If one of these addresses begins receiving email we not only can tell that the messages are spam, but also the exact moment when the address was harvested and the IP address that gathered it.",
+      "category": "Threat Intelligence",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://www.virustotal.com/",
+      "title": "virustotal",
+      "description": "VirusTotal, a subsidiary of Google, is a free online service that analyzes files and URLs enabling the identification of viruses, worms, trojans and other kinds of malicious content detected by antivirus engines and website scanners. At the same time, it may be used as a means to detect false positives, i.e. innocuous resources detected as malicious by one or more scanners.",
+      "category": "Threat Intelligence",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/certtools/intelmq/",
+      "title": "IntelMQ",
+      "description": "IntelMQ is a solution for CERTs for collecting and processing security feeds, pastebins, tweets using a message queue protocol. It's a community driven initiative called IHAP (Incident Handling Automation Project) which was conceptually designed by European CERTs during several InfoSec events. Its main goal is to give to incident responders an easy way to collect & process threat intelligence thus improving the incident handling processes of CERTs. [ENSIA Homepage](https://www.enisa.europa.eu/activities/cert/support/incident-handling-automation).",
+      "category": "Threat Intelligence",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/csirtgadgets/massive-octo-spice",
+      "title": "CIFv2",
+      "description": "CIF is a cyber threat intelligence management system. CIF allows you to combine known malicious threat information from many sources and use that information for identification (incident response), detection (IDS) and mitigation (null route).",
+      "category": "Threat Intelligence",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://www.misp-project.org/",
+      "title": "MISP - Open Source Threat Intelligence Platform",
+      "description": "MISP threat sharing platform is a free and open source software helping information sharing of threat intelligence including cyber security indicators.  A threat intelligence platform for gathering, sharing, storing and correlating Indicators of Compromise of targeted attacks, threat intelligence, financial fraud information, vulnerability information or even counter-terrorism information. The MISP project includes software, common libraries ([taxonomies](https://www.misp-project.org/taxonomies.html), [threat-actors and various malware](https://www.misp-project.org/galaxy.html)), an extensive data model to share new information using [objects](https://www.misp-project.org/objects.html) and default [feeds](https://www.misp-project.org/feeds/).",
+      "category": "Threat Intelligence",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://phishstats.info/",
+      "title": "PhishStats",
+      "description": "Phishing Statistics with search for IP, domain and website title.",
+      "category": "Threat Intelligence",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://threatjammer.com",
+      "title": "Threat Jammer",
+      "description": "REST API service that allows developers, security engineers, and other IT professionals to access curated threat intelligence data from a variety of sources.",
+      "category": "Threat Intelligence",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/karimhabush/cyberowl",
+      "title": "Cyberowl",
+      "description": "A daily updated summary of the most frequent types of security incidents currently being reported from different sources.",
+      "category": "Threat Intelligence",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://getgophish.com/",
+      "title": "Gophish",
+      "description": "An Open-Source Phishing Framework.",
+      "category": "Social Engineering",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "http://www.owasp.org",
+      "title": "OWASP",
+      "description": "The Open Web Application Security Project (OWASP) is a 501(c)(3) worldwide not-for-profit charitable organization focused on improving the security of software.",
+      "category": "Organization",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://portswigger.net",
+      "title": "Portswigger",
+      "description": "PortSwigger offers tools for web application security, testing & scanning. Choose from a wide range of security tools & identify the very latest vulnerabilities.",
+      "category": "Organization",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "http://www.modsecurity.org/",
+      "title": "ModSecurity",
+      "description": "ModSecurity is a toolkit for real-time web application monitoring, logging, and access control.",
+      "category": "Web Application Firewall",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/nbs-system/naxsi",
+      "title": "NAXSI",
+      "description": "NAXSI is an open-source, high performance, low rules maintenance WAF for NGINX, NAXSI means Nginx Anti Xss & Sql Injection.",
+      "category": "Web Application Firewall",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/uptimejp/sql_firewall",
+      "title": "sql_firewall",
+      "description": null,
+      "category": "Web Application Firewall",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/ironbee/ironbee",
+      "title": "ironbee",
+      "description": "IronBee is an open source project to build a universal web application security sensor. IronBee as a framework for developing a system for securing web applications - a framework for building a web application firewall (WAF).",
+      "category": "Web Application Firewall",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/openappsec/openappsec",
+      "title": "open-appsec",
+      "description": "open-appsec is an open source machine-learning security engine that preemptively and automatically prevents threats against Web Application & APIs.",
+      "category": "Web Application Firewall",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://spyse.com/",
+      "title": "Spyse",
+      "description": "Spyse is an OSINT search engine that provides fresh data about the entire web. All the data is stored in its own DB for instant access and interconnected with each other for flexible search.",
+      "category": "Scanning / Pentesting",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "http://sqlmap.org/",
+      "title": "sqlmap",
+      "description": "sqlmap is an open source penetration testing tool that automates the process of detecting and exploiting SQL injection flaws and taking over of database servers. It comes with a powerful detection engine, many niche features for the ultimate penetration tester and a broad range of switches lasting from database fingerprinting, over data fetching from the database, to accessing the underlying file system and executing commands on the operating system via out-of-band connections.",
+      "category": "Scanning / Pentesting",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project",
+      "title": "ZAP",
+      "description": "The Zed Attack Proxy (ZAP) is an easy to use integrated penetration testing tool for finding vulnerabilities in web applications. It is designed to be used by people with a wide range of security experience and as such is ideal for developers and functional testers who are new to penetration testing. ZAP provides automated scanners as well as a set of tools that allow you to find security vulnerabilities manually.",
+      "category": "Scanning / Pentesting",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://www.owasp.org/index.php/Testing_Checklist",
+      "title": "OWASP Testing Checklist v4",
+      "description": "List of some controls to test during a web vulnerability assessment. Markdown version may be found [here](https://github.com/amocrenco/owasp-testing-checklist-v4-markdown/blob/master/README.md).",
+      "category": "Scanning / Pentesting",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "http://w3af.org/",
+      "title": "w3af",
+      "description": "w3af is a Web Application Attack and Audit Framework. The project’s goal is to create a framework to help you secure your web applications by finding and exploiting all web application vulnerabilities.",
+      "category": "Scanning / Pentesting",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/lanmaster53/recon-ng",
+      "title": "Recon-ng",
+      "description": "Recon-ng is a full-featured Web Reconnaissance framework written in Python. Recon-ng has a look and feel similar to the Metasploit Framework.",
+      "category": "Scanning / Pentesting",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/trustedsec/ptf",
+      "title": "PTF",
+      "description": "The Penetration Testers Framework (PTF) is a way for modular support for up-to-date tools.",
+      "category": "Scanning / Pentesting",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/guardicore/monkey",
+      "title": "Infection Monkey",
+      "description": "A semi automatic pen testing tool for mapping/pen-testing networks. Simulates a human attacker.",
+      "category": "Scanning / Pentesting",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/tijme/angularjs-csti-scanner",
+      "title": "ACSTIS",
+      "description": "ACSTIS helps you to scan certain web applications for AngularJS Client-Side Template Injection (sometimes referred to as CSTI, sandbox escape or sandbox bypass). It supports scanning a single request but also crawling the entire web application for the AngularJS CSTI vulnerability.",
+      "category": "Scanning / Pentesting",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/KishanBagaria/padding-oracle-attacker",
+      "title": "padding-oracle-attacker",
+      "description": "padding-oracle-attacker is a CLI tool and library to execute padding oracle attacks (which decrypts data encrypted in CBC mode) easily, with support for concurrent network requests and an elegant UI.",
+      "category": "Scanning / Pentesting",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/lirantal/is-website-vulnerable",
+      "title": "is-website-vulnerable",
+      "description": "finds publicly known security vulnerabilities in a website's frontend JavaScript libraries.",
+      "category": "Scanning / Pentesting",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/SpectralOps/keyscope",
+      "title": "Keyscope",
+      "description": "Keyscope is an extensible key and secret validation for checking active secrets against multiple SaaS vendors built in Rust",
+      "category": "Scanning / Pentesting",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/v8blink/Chromium-based-XSS-Taint-Tracking",
+      "title": "Cyclops",
+      "description": "The Cyclops is a web browser with XSS detection feature, it is chromium-based xss detection that used to find the flows from a source to a sink.",
+      "category": "Scanning / Pentesting",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/marcinguy/scanmycode-ce",
+      "title": "Scanmycode CE (Community Edition)",
+      "description": "Code Scanning/SAST/Static Analysis/Linting using many tools/Scanners with One Report. Currently supports: PHP, Java, Scala, Python, Ruby, Javascript, GO, Secret Scanning, Dependency Confusion, Trojan Source, Open Source and Proprietary Checks (total ca. 1000 checks)",
+      "category": "Scanning / Pentesting",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/rusty-ferris-club/recon",
+      "title": "recon",
+      "description": "a fast Rust based CLI that uses SQL to query over files, code, or malware with content classification and processing for security experts",
+      "category": "Scanning / Pentesting",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/Zigrin-Security/CakeFuzzer",
+      "title": "CakeFuzzer",
+      "description": "The ultimate web application security testing tool for CakePHP-based web applications. CakeFuzzer employs a predefined set of attacks that are randomly modified before execution. Leveraging its deep understanding of the Cake PHP framework, Cake Fuzzer launches attacks on all potential application entry points.",
+      "category": "Scanning / Pentesting",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/CERT-Polska/Artemis/",
+      "title": "Artemis",
+      "description": "A modular vulnerability scanner with automatic report generation capabilities.",
+      "category": "Scanning / Pentesting",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/nxgn-kd01/react2shell-scanner",
+      "title": "react2shell-scanner",
+      "description": "Detect CVE-2025-55182 (React2Shell) RCE vulnerability in React Server Components. Scans React 19.x and Next.js projects for critical remote code execution flaws.",
+      "category": "Scanning / Pentesting",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/nxgn-kd01/shai-hulud-scanner",
+      "title": "shai-hulud-scanner",
+      "description": "Detect indicators of compromise from the Shai Hulud 2.0 npm supply chain attack that compromised 796+ packages. Performs comprehensive security checks for malicious files, hashes, and patterns.",
+      "category": "Scanning / Pentesting",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://www.sqreen.io/",
+      "title": "Sqreen",
+      "description": "Sqreen is a Runtime Application Self-Protection (RASP) solution for software teams. An in-app agent instruments and monitors the app. Suspicious user activities are reported and attacks are blocked at runtime without code modification or traffic redirection.",
+      "category": "Runtime Application Self-Protection",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://www.manning.com/books/api-security-in-action",
+      "title": "API Security in Action",
+      "description": "Book covering API security including secure development, token-based authentication, JSON Web Tokens, OAuth 2, and Macaroons. (early access, published continuously, final release summer 2020)",
+      "category": "Development",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://www.manning.com/books/understanding-api-security",
+      "title": "Understanding API Security",
+      "description": "Free eBook sampler that gives some context for how API security works in the real world by showing how APIs are put together and how the OAuth protocol can be used to protect them.",
+      "category": "Development",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://www.manning.com/books/oauth-2-in-action",
+      "title": "OAuth 2 in Action",
+      "description": "Book that teaches you practical use and deployment of OAuth 2 from the perspectives of a client, an authorization server, and a resource server.",
+      "category": "Development",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/zaproxy/zap-api-nodejs",
+      "title": "OWASP ZAP Node API",
+      "description": "Leverage the OWASP Zed Attack Proxy (ZAP) within your NodeJS applications with this official API.",
+      "category": "Development",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/Bearer/bearer",
+      "title": "Bearer",
+      "description": "Scan code for security risks and vulnerabilities leading to sensitive data exposures.",
+      "category": "Development",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/tfsec/tfsec/",
+      "title": "TFSec",
+      "description": "A static analysis tool for infrastucture as code (Terraform).",
+      "category": "Development",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/insidersec/insider",
+      "title": "Insider CLI",
+      "description": "A open source Static Application Security Testing tool (SAST) written in GoLang for Java (Maven and Android), Kotlin (Android), Swift (iOS), .NET Full Framework, C# and Javascript (Node.js).",
+      "category": "Development",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://www.manning.com/books/full-stack-python-security",
+      "title": "Full Stack Python Security",
+      "description": "A comprehensive look at cybersecurity for Python developers",
+      "category": "Development",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://www.manning.com/books/making-sense-of-cyber-security",
+      "title": "Making Sense of Cyber Security",
+      "description": "A jargon-free, practical guide to the key concepts, terminology, and technologies of cybersecurity perfect for anyone planning or implementing a security strategy. (early access, published continuously, final release early 2022)",
+      "category": "Development",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://owasp.org/www-project-application-security-verification-standard/",
+      "title": "Security Checklist by OWASP",
+      "description": "A checklist by OWASP for testing web applications based on assurance level. Covers multiple topics like Architecture, IAM, Sanitization, Cryptography and Secure Configuration.",
+      "category": "Development",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/khast3x/Redcloud",
+      "title": "Redcloud",
+      "description": "A automated Red Team Infrastructure deployement using Docker.",
+      "category": "Red Team Infrastructure Deployment",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/pry0cc/axiom",
+      "title": "Axiom",
+      "description": null,
+      "category": "Red Team Infrastructure Deployment",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/MutableSecurity/mutablesecurity",
+      "title": "MutableSecurity",
+      "description": "CLI program for automating the setup, configuration, and use of cybersecurity solutions.",
+      "category": "Blue Team Infrastructure Deployment",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://pt.coursera.org/learn/usable-security",
+      "title": "Usable Security Course",
+      "description": "Usable Security course at coursera. Quite good for those looking for how security and usability intersects.",
+      "category": "Usability",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/ClickSecurity/data_hacking",
+      "title": "data_hacking",
+      "description": "Examples of using IPython, Pandas, and Scikit Learn to get the most out of your security data.",
+      "category": "Big Data",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/RIPE-NCC/hadoop-pcap",
+      "title": "hadoop-pcap",
+      "description": "Hadoop library to read packet capture (PCAP) files.",
+      "category": "Big Data",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "http://workbench.readthedocs.org/",
+      "title": "Workbench",
+      "description": "A scalable python framework for security research and development teams.",
+      "category": "Big Data",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/OpenSOC/opensoc",
+      "title": "OpenSOC",
+      "description": "OpenSOC integrates a variety of open source big data technologies in order to offer a centralized tool for security monitoring and analysis.",
+      "category": "Big Data",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/apache/incubator-metron",
+      "title": "Apache Metron (incubating)",
+      "description": "Metron integrates a variety of open source big data technologies in order to offer a centralized tool for security monitoring and analysis.",
+      "category": "Big Data",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/apache/incubator-spot",
+      "title": "Apache Spot (incubating)",
+      "description": "Apache Spot is open source software for leveraging insights from flow and packet analysis.",
+      "category": "Big Data",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/endgameinc/binarypig",
+      "title": "binarypig",
+      "description": "Scalable Binary Data Extraction in Hadoop. Malware Processing and Analytics over Pig, Exploration through Django, Twitter Bootstrap, and Elasticsearch.",
+      "category": "Big Data",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://manning.com/books/securing-devops",
+      "title": "Securing DevOps",
+      "description": "A book on Security techniques for DevOps that reviews state of the art practices used in securing web applications and their infrastructure.",
+      "category": "DevOps",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/dev-sec/ansible-os-hardening",
+      "title": "ansible-os-hardening",
+      "description": "Ansible role for OS hardening",
+      "category": "DevOps",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/spectralops/preflight",
+      "title": "Preflight",
+      "description": "helps you verify scripts and executables to mitigate supply chain attacks in your CI and other systems.",
+      "category": "DevOps",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/spectralops/teller",
+      "title": "Teller",
+      "description": "a secrets management tool for devops and developers - manage secrets across multiple vaults and keystores from a single place.",
+      "category": "DevOps",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/baalmor/cve-ape",
+      "title": "cve-ape",
+      "description": "A non-intrusive CVE scanner for embedding in test and CI environments that can scan package lists and individual packages for existing CVEs via locally stored CVE database. Can also be used as an offline CVE scanner for e.g. OT/ICS.",
+      "category": "DevOps",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/selefra/selefra",
+      "title": "Selefra",
+      "description": "An open-source policy-as-code software that provides analytics for multi-cloud and SaaS.",
+      "category": "DevOps",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/kaplanelad/shellfirm",
+      "title": "shellfirm",
+      "description": "It is a handy utility to help avoid running dangerous commands with an extra approval step. You will immediately get a small prompt challenge that will double verify your action when risky patterns are detected.",
+      "category": "Terminal",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/rusty-ferris-club/shellclear",
+      "title": "shellclear",
+      "description": "It helps you to Secure your shell history commands by finding sensitive commands in your all history commands and allowing you to clean them.",
+      "category": "Terminal",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://www.whonix.org",
+      "title": "Whonix",
+      "description": "Operating System designed for anonymity.",
+      "category": "Privacy & Security",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://tails.boum.org/",
+      "title": "Tails OS",
+      "description": "Tails is a portable operating system that protects against surveillance and censorship.",
+      "category": "Privacy & Security",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://inventory.raw.pm/operating_systems.html",
+      "title": "Security related Operating Systems @ Rawsec",
+      "description": "Complete list of security related operating systems",
+      "category": "Online resources",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://www.cyberpunk.rs/category/pentest-linux-distros",
+      "title": "Best Linux Penetration Testing Distributions @ CyberPunk",
+      "description": "Description of main penetration testing distributions",
+      "category": "Online resources",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "http://distrowatch.com/search.php?category=Security",
+      "title": "Security @ Distrowatch",
+      "description": "Website dedicated to talking about, reviewing and keeping up to date with open source operating systems",
+      "category": "Online resources",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://www.hardenwindows10forsecurity.com/",
+      "title": "Hardening Windows 10",
+      "description": "Guide for hardening Windows 10",
+      "category": "Online resources",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://databunker.org/",
+      "title": "databunker",
+      "description": "Databunker is an address book on steroids for storing personal data. GDPR and encryption are out of the box.",
+      "category": "Datastores",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/StackExchange/blackbox",
+      "title": "blackbox",
+      "description": "Safely store secrets in a VCS repo using GPG",
+      "category": "Datastores",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/lyft/confidant",
+      "title": "confidant",
+      "description": "Stores secrets in AWS DynamoDB, encrypted at rest and integrates with IAM",
+      "category": "Datastores",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/ConradIrwin/dotgpg",
+      "title": "dotgpg",
+      "description": "A tool for backing up and versioning your production secrets or shared passwords securely and easily.",
+      "category": "Datastores",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/cloudflare/redoctober",
+      "title": "redoctober",
+      "description": "Server for two-man rule style file encryption and decryption.",
+      "category": "Datastores",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/99designs/aws-vault",
+      "title": "aws-vault",
+      "description": "Store AWS credentials in the OSX Keychain or an encrypted file",
+      "category": "Datastores",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/fugue/credstash",
+      "title": "credstash",
+      "description": "Store secrets using AWS KMS and DynamoDB",
+      "category": "Datastores",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/segmentio/chamber",
+      "title": "chamber",
+      "description": "Store secrets using AWS KMS and SSM Parameter Store",
+      "category": "Datastores",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/starkandwayne/safe",
+      "title": "Safe",
+      "description": "A Vault CLI that makes reading from and writing to the Vault easier to do.",
+      "category": "Datastores",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/mozilla/sops",
+      "title": "Sops",
+      "description": "An editor of encrypted files that supports YAML, JSON and BINARY formats and encrypts with AWS KMS and PGP.",
+      "category": "Datastores",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://www.passbolt.com/",
+      "title": "passbolt",
+      "description": "The password manager your team was waiting for. Free, open source, extensible, based on OpenPGP.",
+      "category": "Datastores",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/marcwebbie/passpie",
+      "title": "passpie",
+      "description": "Multiplatform command-line password manager",
+      "category": "Datastores",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/lunasec-io/lunasec",
+      "title": "LunaSec",
+      "description": "Database for PII with automatic encryption/tokenization, sandboxed components for handling data, and centralized authorization controls.",
+      "category": "Datastores",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/fingerprintjs/fingerprintjs",
+      "title": "FingerprintJS",
+      "description": "Identifies browser and hybrid mobile application users even when they purge data storage. Allows you to detect account takeovers, account sharing and repeated malicious activity.",
+      "category": "Fraud prevention",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/fingerprintjs/fingerprint-android",
+      "title": "FingerprintJS Android",
+      "description": "Identifies Android application users even when they purge data storage. Allows you to detect account takeovers, account sharing and repeated malicious activity.",
+      "category": "Fraud prevention",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://holisticinfosecforwebdevelopers.com/",
+      "title": "Holistic Info-Sec for Web Developers",
+      "description": "Free and downloadable book series with very broad and deep coverage of what Web Developers and DevOps Engineers need to know in order to create robust, reliable, maintainable and secure software, networks and other, that are delivered continuously, on time, with no nasty surprises",
+      "category": "EBooks",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://books2read.com/u/bWzdBx",
+      "title": "How to Hack Like a Pornstar",
+      "description": "A step by step process for breaking into a BANK, Sparc Flow, 2017",
+      "category": "EBooks",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://amzn.to/2uWh1Up",
+      "title": "How to Hack Like a Legend",
+      "description": "A hacker’s tale breaking into a secretive offshore company, Sparc Flow, 2018",
+      "category": "EBooks",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://books2read.com/u/4jDWoZ",
+      "title": "How to Investigate Like a Rockstar",
+      "description": "Live a real crisis to master the secrets of forensic analysis, Sparc Flow, 2017",
+      "category": "EBooks",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://www.manning.com/books/real-world-cryptography",
+      "title": "Real World Cryptography",
+      "description": "This early-access book teaches you applied cryptographic techniques to understand and apply security at every level of your systems and applications.",
+      "category": "EBooks",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://www.manning.com/books/the-art-of-network-penetration-testing",
+      "title": "The Art of Network Penetration Testing",
+      "description": "Book that is a hands-on guide to running your own penetration test on an enterprise network. (early access, published continuously, final release December 2020)",
+      "category": "EBooks",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://www.manning.com/books/spring-boot-in-practice",
+      "title": "Spring Boot in Practice",
+      "description": "Book that is a practical guide which presents dozens of relevant scenarios in a convenient problem-solution-discussion format.. (early access, published continuously, final release fall 2021)",
+      "category": "EBooks",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://www.manning.com/books/self-sovereign-identity",
+      "title": "Self-Sovereign Identity",
+      "description": "A book about how SSI empowers us to receive digitally-signed credentials, store them in private wallets, and securely prove our online identities. (early access, published continuously, final release fall 2021)",
+      "category": "EBooks",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://www.manning.com/books/data-privacy",
+      "title": "Data Privacy",
+      "description": "A book that teaches you to implement technical privacy solutions and tools at scale. (early access, published continuously, final release January 2022)",
+      "category": "EBooks",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://www.manning.com/books/cyber-security-career-guide",
+      "title": "Cyber Security Career Guide",
+      "description": "Kickstart a career in cyber security by learning how to adapt your existing technical and non-technical skills. (early access, published continuously, final release Summer 2022)",
+      "category": "EBooks",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://www.manning.com/books/secret-key-cryptography",
+      "title": "Secret Key Cryptography",
+      "description": "A book about cryptographic techniques and Secret Key methods. (early access, published continuously, final release Summer 2022)",
+      "category": "EBooks",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://securityhandbook.io/",
+      "title": "The Security Engineer Handbook",
+      "description": "A short read that discusses the dos and dont's of working in a security team, and the many tricks and tips that can help you in your day-to-day as a security engineer.",
+      "category": "EBooks",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://www.manning.com/books/cyber-threat-hunting",
+      "title": "Cyber Threat Hunting",
+      "description": "Practical guide to cyber threat hunting.",
+      "category": "EBooks",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://www.manning.com/books/edge-computing-technology-and-applications",
+      "title": "Edge Computing Technology and Applications",
+      "description": "A book about the business and technical foundation you need to create your edge computing strategy.",
+      "category": "EBooks",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://www.manning.com/books/spring-security-in-action-second-edition",
+      "title": "Spring Security in Action, Second Edition",
+      "description": "A book about designing and developing Spring applications that are secure right from the start.",
+      "category": "EBooks",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://www.manning.com/books/azure-security-2",
+      "title": "Azure Security",
+      "description": "A practical guide to the native security services of Microsoft Azure.",
+      "category": "EBooks",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://www.nodejs-security.com",
+      "title": "Node.js Secure Coding: Defending Against Command Injection Vulnerabilities",
+      "description": "Learn secure coding conventions in Node.js by executing command injection attacks on real-world npm packages and analyzing vulnerable code.",
+      "category": "EBooks",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://www.nodejs-security.com/book/path-traversal",
+      "title": "Node.js Secure Coding: Prevention and Exploitation of Path Traversal Vulnerabilities",
+      "description": "Master secure coding in Node.js with real-world vulnerable dependencies and experience firsthand secure coding techniques against Path Traversal vulnerabilities.",
+      "category": "EBooks",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/HenryHoggard/awesome-arm-exploitation",
+      "title": "Awesome ARM Exploitation",
+      "description": "A curated list of ARM exploitation resources.",
+      "category": "Other Security Awesome Lists",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/joe-shenouda/awesome-cyber-skills",
+      "title": "Awesome Cyber Skills",
+      "description": "A curated list of hacking environments where you can train your cyber skills legally and safely.",
+      "category": "Other Security Awesome Lists",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/Lissy93/personal-security-checklist",
+      "title": "Awesome Personal Security",
+      "description": "A curated list of digital security and privacy tips, with links to further resources.",
+      "category": "Other Security Awesome Lists",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/TalEliyahu/awesome-security-newsletters",
+      "title": "Awesome Security Newsletters",
+      "description": "A curated list of awesome newsletters to keep up to date on security news via e-mail.",
+      "category": "Other Security Awesome Lists",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/enaqx/awesome-pentest",
+      "title": "Awesome Pentest",
+      "description": "A collection of awesome penetration testing resources, tools and other shiny things.",
+      "category": "Other Security Awesome Lists",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/lissy93/awesome-privacy",
+      "title": "Awesome Privacy",
+      "description": "A curated list of privacy-respecting software and services.",
+      "category": "Other Security Awesome Lists",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/infoslack/awesome-web-hacking",
+      "title": "Awesome Web Hacking",
+      "description": "This list is for anyone wishing to learn about web application security but do not have a starting point.",
+      "category": "Other Security Awesome Lists",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/doyensec/awesome-electronjs-hacking",
+      "title": "Awesome Electron.js Hacking",
+      "description": "A curated list of awesome resources about Electron.js (in)security",
+      "category": "Other Security Awesome Lists",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/hslatman/awesome-threat-intelligence",
+      "title": "Awesome Threat Intelligence",
+      "description": "A curated list of threat intelligence resources.",
+      "category": "Other Security Awesome Lists",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/redshiftzero/awesome-threat-modeling",
+      "title": "Awesome Threat Modeling",
+      "description": "A curated list of Threat Modeling resources.",
+      "category": "Other Security Awesome Lists",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/coreb1t/awesome-pentest-cheat-sheets",
+      "title": "Awesome Pentest Cheat Sheets",
+      "description": "Collection of the cheat sheets useful for pentesting",
+      "category": "Other Security Awesome Lists",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/mpesen/awesome-industrial-control-system-security",
+      "title": "Awesome Industrial Control System Security",
+      "description": "A curated list of resources related to Industrial Control System (ICS) security.",
+      "category": "Other Security Awesome Lists",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/InQuest/awesome-yara",
+      "title": "Awesome YARA",
+      "description": "A curated list of awesome YARA rules, tools, and people.",
+      "category": "Other Security Awesome Lists",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/0x4D31/awesome-threat-detection",
+      "title": "Awesome Threat Detection and Hunting",
+      "description": "A curated list of awesome threat detection and hunting resources.",
+      "category": "Other Security Awesome Lists",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/kai5263499/container-security-awesome",
+      "title": "Awesome Container Security",
+      "description": "A curated list of awesome resources related to container building and runtime security",
+      "category": "Other Security Awesome Lists",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/jakejarvis/awesome-shodan-queries",
+      "title": "Awesome Shodan Search Queries",
+      "description": "A collection of interesting, funny, and depressing search queries to plug into Shodan.io.",
+      "category": "Other Security Awesome Lists",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/thehappydinoa/awesome-censys-queries",
+      "title": "Awesome Censys Queries",
+      "description": "A collection of fascinating and bizarre Censys Search Queries.",
+      "category": "Other Security Awesome Lists",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/remiflavien1/awesome-anti-forensic",
+      "title": "Awesome Anti Forensics",
+      "description": "A collection of awesome tools used to counter forensics activities.",
+      "category": "Other Security Awesome Lists",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/PaulSec/awesome-sec-talks",
+      "title": "Awesome Security Talks & Videos",
+      "description": "A curated list of awesome security talks, organized by year and then conference.",
+      "category": "Other Security Awesome Lists",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/engn33r/awesome-bluetooth-security",
+      "title": "Awesome Bluetooth Security",
+      "description": "A curated list of Bluetooth security resources.",
+      "category": "Other Security Awesome Lists",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/PalindromeLabs/awesome-websocket-security",
+      "title": "Awesome WebSocket Security",
+      "description": "A curated list of WebSocket security resources.",
+      "category": "Other Security Awesome Lists",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/cloudsecurelab/security-acronyms",
+      "title": "Security Acronyms",
+      "description": "A curated list of security related acronyms and concepts",
+      "category": "Other Security Awesome Lists",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/correlatedsecurity/Awesome-SOAR",
+      "title": "Awesome SOAR",
+      "description": "A curated Cyber \"Security Orchestration, Automation and Response (SOAR)\" resources list.",
+      "category": "Other Security Awesome Lists",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/decalage2/awesome-security-hardening",
+      "title": "Awesome Security Hardening",
+      "description": "A collection of awesome security hardening guides, best practices, checklists, benchmarks, tools and other resources.",
+      "category": "Other Security Awesome Lists",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/k4m4/movies-for-hackers",
+      "title": "Movies For Hacker",
+      "description": "A curated list of movies every hacker & cyberpunk must watch.",
+      "category": "Other Common Awesome Lists",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    },
+    {
+      "url": "https://github.com/awesome-foss/awesome-sysadmin",
+      "title": "Awesome Sysadmin",
+      "description": null,
+      "category": "Other Common Awesome Lists",
+      "source": "sbilly/awesome-security",
+      "indexedAt": "2026-07-23T14:53:50.978Z"
+    }
+  ],
+  "categories": [
+    "Network architecture",
+    "Scanning / Pentesting",
+    "Monitoring / Logging",
+    "IDS / IPS / Host IDS / Host IPS",
+    "Honey Pot / Honey Net",
+    "Full Packet Capture / Forensic",
+    "Sniffer",
+    "Security Information & Event Management",
+    "VPN",
+    "Fast Packet Processing",
+    "Firewall",
+    "Anti-Spam",
+    "Anti-Virus / Anti-Malware",
+    "Content Disarm & Reconstruct",
+    "Configuration Management",
+    "Authentication",
+    "Mobile / Android / iOS",
+    "Forensics",
+    "Threat Intelligence",
+    "Social Engineering",
+    "Organization",
+    "Web Application Firewall",
+    "Scanning / Pentesting",
+    "Runtime Application Self-Protection",
+    "Development",
+    "Exploits & Payloads",
+    "Red Team Infrastructure Deployment",
+    "Blue Team Infrastructure Deployment",
+    "Usability",
+    "Big Data",
+    "DevOps",
+    "Terminal",
+    "Privacy & Security",
+    "Online resources",
+    "Datastores",
+    "Fraud prevention",
+    "EBooks",
+    "Other Security Awesome Lists",
+    "Other Common Awesome Lists"
+  ],
+  "crawledAt": "2026-07-23T14:53:50.978Z"
+}

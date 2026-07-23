@@ -1,0 +1,2275 @@
+{
+  "repoId": "heynickc/awesome-ddd",
+  "name": "A curated list of Domain-Driven Design (DDD), Command Query Responsibility Segregation (CQRS), Event Sourcing, and Event Storming resources",
+  "description": "A curated list of Domain-Driven Design (DDD), Command Query Responsibility Segregation (CQRS), Event Sourcing, and Event Storming resources",
+  "repoUrl": "https://github.com/heynickc/awesome-ddd",
+  "stars": 12305,
+  "topics": [
+    "awesome",
+    "awesome-list",
+    "list"
+  ],
+  "links": [
+    {
+      "url": "https://buildplease.com/pages/now-what/",
+      "title": "Applying Domain Driven Design with CQRS and Event Sourcing",
+      "description": "A walkthrough of using EventStorming and other modeling techniques to build a CQRS and Event Sourcing-based prototype for a fictional business domain.",
+      "category": "Books",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://www.manning.com/books/architecture-modernization",
+      "title": "Architecture Modernization",
+      "description": "Concrete tools, techniques, and processes to align software architecture with your business domains, organizational design, team topologies, and corporate strategy.",
+      "category": "Books",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://www.manning.com/books/collaborative-software-design",
+      "title": "Collaborative Software Design",
+      "description": "A practical guide for effectively involving all stakeholders in the design of software.A practical guide for effectively involving all stakeholders in the design of software.",
+      "category": "Books",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://leanpub.com/cqrs",
+      "title": "CQRS",
+      "description": "Notes by Mark Nijhof from his experiences learning DDD and CQRS from Greg Young.  There is an extensive sample project that accompanies this book.",
+      "category": "Books",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://amzn.com/0321125215",
+      "title": "Domain-Driven Design: Tackling the Complexity at the Heart of Software",
+      "description": "The canonical book that coined the term Domain-Driven Design.  Also known as the \"Blue Book.\"",
+      "category": "Books",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://www.amazon.com/Domain-Driven-Design-Distilled-Vaughn-Vernon/dp/0134434420",
+      "title": "Domain-Driven Design Distilled",
+      "description": "Very good starter book before you read [Implementing Domain-Driven Design](https://vaughnvernon.co/?page_id=168#iddd) or [Domain-Driven Design: Tackling the Complexity at the Heart of Software](https://amzn.com/0321125215).",
+      "category": "Books",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://leanpub.com/ddd-in-php",
+      "title": "Domain-Driven Design in PHP",
+      "description": "Real examples written in PHP showcasing DDD Architectural Styles, Tactical Design, and Bounded Context Integration.",
+      "category": "Books",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://blog.arkency.com/domain-driven-rails/",
+      "title": "Domain-Driven Rails",
+      "description": "Domain-Driven Rails describes 11 techniques (from Bounded Contexts to Event Sourcing) that you can use separately and together in new and old Rails apps to achieve better architecture.",
+      "category": "Books",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://pragprog.com/book/swdddf/domain-modeling-made-functional",
+      "title": "Domain Modeling Made Functional",
+      "description": "Tackle Software Complexity with Domain-Driven Design and F#.",
+      "category": "Books",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "http://martinfowler.com/books/dsl.html",
+      "title": "Domain Specific Languages",
+      "description": "Tangentially connected to DDD, describes the importance of the Ubiquitous Language and working together with domain experts, along with lots of technical details.",
+      "category": "Books",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://buildplease.com/products/fpc-v2/",
+      "title": "Event Sourcing and CQRS with .NET Core and SQL Server",
+      "description": "A walkthrough of using Domain-Driven Design with Event Sourcing and CQRS using ASP.NET Core and SQL Server in production.",
+      "category": "Books",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://www.amazon.com/Hands-Domain-Driven-Design-NET-dp-1788834097/dp/1788834097",
+      "title": "Hands-On Domain-Driven Design with .NET Core",
+      "description": "Tackling complexity in the heart of software by putting DDD principles into practice by Alexey Zimarev.",
+      "category": "Books",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://www.amazon.com/Implementing-Domain-Driven-Design-Vaughn-Vernon/dp/0321834577",
+      "title": "Implementing Domain-Driven Design",
+      "description": "Also a canonical book presenting a top-down approach to understanding Domain-Driven Design.  Also known as the \"Red Book.\"",
+      "category": "Books",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://leanpub.com/implementing-ddd-cqrs-and-event-sourcing",
+      "title": "Implementing DDD, CQRS and Event Sourcing",
+      "description": "Learn how to implement DDD, CQRS and Event Sourcing. Understand the theory and put it into practice with JavaScript and Node.js.",
+      "category": "Books",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://leanpub.com/introducing_eventstorming",
+      "title": "Introducing Event Storming: An act of Deliberate Collective Learning",
+      "description": "The deepest tutorial and explanation about EventStorming, straight from the inventor.",
+      "category": "Books",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://www.amazon.com/Learning-Domain-Driven-Design-Aligning-Architecture/dp/1098100131/",
+      "title": "Learning Domain-Driven Design: Aligning Software Architecture and Business Strategy",
+      "description": "Learn the essential patterns and practices of domain-driven design and how to apply them in your day-to-day work, both in greenfield and brownfield projects.",
+      "category": "Books",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://www.amazon.com/Microsoft-NET-Architecting-Applications-Enterprise/dp/0735685355/",
+      "title": "Microsoft .NET - Architecting Applications for the Enterprise (2nd Edition)",
+      "description": "A software architect’s digest of core practices, pragmatically applied.",
+      "category": "Books",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://www.amazon.com/Patterns-Principles-Practices-Domain-Driven-Design/dp/1118714709",
+      "title": "Patterns, Principles, and Practices of Domain-Driven Design (1st Edition)",
+      "description": "Methods for managing complex software construction following the practices, principles and patterns of Domain-Driven Design with code examples in C#.",
+      "category": "Books",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://www.manning.com/books/secure-by-design?a_aid=danbjson&a_bid=0b3fac80",
+      "title": "Secure by Design",
+      "description": "Shows how to use Domain-Driven Design to avoid security vulnerabilities.",
+      "category": "Books",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://www.manning.com/books/specification-by-example",
+      "title": "Specification by Example",
+      "description": "This book distills from the experience of leading teams worldwide effective ways to specify, test, and deliver software in short, iterative delivery cycles. Case studies in this book range from small web startups to large financial institutions, working in many processes including XP, Scrum, and Kanban.",
+      "category": "Books",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://leanpub.com/esversioning",
+      "title": "Versioning in an Event Sourced System",
+      "description": "Have you had troubles with versioning an Event Sourced system? Just getting into a new Event Sourced system for the first time? This book is the definitive guide of how to handle versioning over long periods of time.",
+      "category": "Books",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://learning.oreilly.com/library/view/what-is-domain-driven/9781492057802/",
+      "title": "What is Domain-Driven Design?",
+      "description": "A quick read exploring the core patterns and principles of Domain-Driven Design, as well as strategies for applying DDD in brownfield projects.",
+      "category": "Books",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://www.manning.com/books/writing-great-specifications",
+      "title": "Writing Great Specifications",
+      "description": "Writing Great Specifications is an example-rich tutorial that teaches you how to write good Gherkin specification documents that take advantage of Specification by Example's benefits.",
+      "category": "Books",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://leanpub.com/theanatomyofdomain-drivendesign",
+      "title": "The Anatomy of Domain-Driven Design - The Infographic",
+      "description": "An infographic on the anatomy of Domain-Driven Design.",
+      "category": "Free eBooks",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://dotnet.microsoft.com/download/thank-you/aspnet-ebook",
+      "title": "Architecting Modern Web Applications with ASP.NET Core and Microsoft Azure",
+      "description": "Provides end-to-end guidance on building monolithic web applications using DDD, ASP.NET Core, and Azure. [eShopOnWeb sample](https://github.com/dotnet-architecture/eShopOnWeb)",
+      "category": "Free eBooks",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://www.cosmicpython.com/book/preface.html",
+      "title": "Architecture Patterns with Python",
+      "description": "A book about Pythonic application architecture patterns for managing complexity.",
+      "category": "Free eBooks",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://msdn.microsoft.com/en-us/library/jj554200.aspx",
+      "title": "CQRS Journey",
+      "description": "Exploring CQRS and Event Sourcing.",
+      "category": "Free eBooks",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://dddeurope.com/15years",
+      "title": "Domain-Driven Design: The First 15 Years",
+      "description": "To celebrate the anniversary, we've asked prominent authors in the software design world to contribute old and new essays. With contributions by Martin Fowler, James Coplien, Rebecca Wirfs-Brock, Mel Conway, and many more.",
+      "category": "Free eBooks",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "http://domainlanguage.com/wp-content/uploads/2016/05/DDD_Reference_2015-03.pdf",
+      "title": "DDD Reference",
+      "description": "A summary of the patterns and definitions of DDD.",
+      "category": "Free eBooks",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://www.infoq.com/minibooks/domain-driven-design-quickly",
+      "title": "Domain Driven Design Quickly",
+      "description": "Domain Driven Design Quickly is a short, quick-readable summary and introduction to the fundamentals of DDD.",
+      "category": "Free eBooks",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "http://dddcommunity.org/library/vernon_2011/",
+      "title": "Effective Aggregate Design",
+      "description": "In this three-part series, Vaughn Vernon walks through some common design pitfalls, discusses the pros and cons of various aggregate modeling choices, and provides rules of thumb to guide modeling of aggregates.",
+      "category": "Free eBooks",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "http://domainlanguage.com/wp-content/uploads/2016/04/GettingStartedWithDDDWhenSurroundedByLegacySystemsV1.pdf",
+      "title": "Getting Started with DDD when Surrounded by Legacy Systems",
+      "description": "Describes three strategies for getting started with DDD when you have a big commitment to legacy systems.",
+      "category": "Free eBooks",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://leanpub.com/livingdocumentation",
+      "title": "Living Documentation by Design, with Domain-Driven Design",
+      "description": "Discover how a Living Documentation can help you in all aspects of your projects, from the business goals to the business domain knowledge, architecture and design, processes and deployment, even if you hate writing documentation.",
+      "category": "Free eBooks",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://dotnet.microsoft.com/download/thank-you/microservices-architecture-ebook",
+      "title": ".NET Microservices: Architecture for Containerized .NET Applications",
+      "description": "An introduction to developing microservices-based applications and managing them using containers. [eShopOnContainers sample](https://github.com/dotnet-architecture/eShopOnContainers)",
+      "category": "Free eBooks",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://docs.wolkenkit.io/1.1.0/downloads/brochure/",
+      "title": "The Semantic JavaScript Backend for Event-Driven Development",
+      "description": "A 68 pages long free ebook on what DDD, CQRS and event-sourcing are, and how they fit each other.",
+      "category": "Free eBooks",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://pages.xebia.com/domain-driven-design-magazine-xebia",
+      "title": "DDD Magazine from Xebia #1",
+      "description": "This magazine is packed with visionary and practical insights, based on personal, business, and customer experiences to support you on your DDD journey",
+      "category": "Free eBooks",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://leanpub.com/visualcollaborationtools/",
+      "title": "Visual Collaboration Tools",
+      "description": "Visual Collaboration Tools is a book for teams building software. It describes tools that help us in our daily job, and also present field stories from different practitioners.",
+      "category": "Free eBooks",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://learn-particular.thinkific.com/courses/adsd-online",
+      "title": "Advanced Distributed Systems Design",
+      "description": "Online training course from Udi Dahan.  Udi's live training schedule can be found [here](http://udidahan.com/training/).",
+      "category": "Training Courses",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://training.dddeurope.com/",
+      "title": "DDD Workshops across Europe and Online",
+      "description": "Public Workshops by Eric Evans, Alberto Brandolini, Mathias Verraes, Rebecca Wirfs-Brock, Nick Tune, and many more.",
+      "category": "Training Courses",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://xebia.com/academy/en/search?query=Domain-driven%20design",
+      "title": "DDD Workshop by Xebia",
+      "description": "public and in-house Domain-driven design workshops from foundation to professional level.",
+      "category": "Training Courses",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://www.informit.com/store/domain-driven-design-livelessons-video-training-9780134597324",
+      "title": "Distilling Domain-Driven Design",
+      "description": "Vaughn Vernon's online training course.",
+      "category": "Training Courses",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "http://elearn.domainlanguage.com/",
+      "title": "Domain Language eLearning",
+      "description": "Using our video lessons with Eric Evans, author of the original book on Domain-Driven Design (DDD), teach yourself techniques for evolving practical models that improve your software — not just your documents.",
+      "category": "Training Courses",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://www.youtube.com/@EventSourcery",
+      "title": "Event Sourcery",
+      "description": "Introduction to DDD, CQRS, and Event Sourcing.",
+      "category": "Training Courses",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://elearning.dsolemorera.com/courses/eventstorming-fundamentals",
+      "title": "EventStorming Fundamentals Course",
+      "description": null,
+      "category": "Training Courses",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "http://subscriptions.viddler.com/GregYoung/",
+      "title": "Greg Young's CQRS Class",
+      "description": "These videos include the entirety of Greg Young's DDD, CQRS, and Event Sourcing class.",
+      "category": "Training Courses",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/DevLyon/mixter",
+      "title": "Mixter",
+      "description": "CQRS and Event Sourcing Koans.",
+      "category": "Training Courses",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://nomadphp.com/product/introduction-event-sourcing-cqrs/",
+      "title": "Nomad PHP",
+      "description": "Introduction to Event Sourcing and CQRS.",
+      "category": "Training Courses",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://pluralsight.com",
+      "title": "Pluralsight",
+      "description": null,
+      "category": "Training Courses",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://www.pluralsight.com/courses/domain-driven-design-fundamentals",
+      "title": "Domain-Driven Design Fundamentals",
+      "description": "Teaches the fundamentals of Domain-Driven Design (DDD) through a demonstration of customer interactions and a complex demo application, along with advice from Eric Evans.",
+      "category": "Training Courses",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://www.pluralsight.com/courses/domain-driven-design-in-practice",
+      "title": "Domain-Driven Design in Practice",
+      "description": "A descriptive, in-depth walk-through for applying Domain-Driven Design principles in practice.",
+      "category": "Training Courses",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://www.pluralsight.com/courses/modern-software-architecture-domain-models-cqrs-event-sourcing",
+      "title": "Modern Software Architecture: Domain Models, CQRS, and Event Sourcing",
+      "description": "This course covers DDD analysis patterns helpful in discovering the top-level architecture of a business domain. Architects and developers will find details of implementation patterns such as Domain Model, CQRS, and Event Sourcing.",
+      "category": "Training Courses",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://blog.arkency.com/ddd-training/",
+      "title": "Rails + Domain Driven Design Workshop",
+      "description": "Introduction to DDD, fundamentals of CQRS & Event Sourcing for Ruby/Rails developers.",
+      "category": "Training Courses",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://cognitiveclass.ai/courses/reactive-architecture-cqrs/",
+      "title": "Reactive Architecture: CQRS and Event Sourcing",
+      "description": "This course will discuss the reasons we use CQRS/ES, what benefits it provides us, but also what it will cost us to use. We will see how CQRS/ES can impact the scalability, consistency, and availability of our application.",
+      "category": "Training Courses",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://cognitiveclass.ai/courses/reactive-architecture-ddd/",
+      "title": "Reactive Architecture: Domain Driven Design",
+      "description": "Use DDD to decompose a problem domain into manageable parts. Learn how those parts can become the foundation of Reactive Microservices and Reactive Architecture. Free, online, self-paced. Certificate offered upon completion.",
+      "category": "Training Courses",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://spatie.be/products/event-sourcing-in-laravel",
+      "title": "Spatie's Event Sourcing Course",
+      "description": "Learn how to build event sourced applications in Laravel using Spatie's event-sourcing package. Has 2 hours of video content and an accompanying ebook.",
+      "category": "Training Courses",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://dddeurope.com/videos",
+      "title": "DDD Europe",
+      "description": "Recordings of talks given at DDD Europe.",
+      "category": "Video Collections",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://skillsmatter.com/skillscasts",
+      "title": "SkillsCasts by SkillsMatter",
+      "description": "Searching DDD returns various talks given by Greg Young, Alberto Brandolini, and Dan North, etc.",
+      "category": "Video Collections",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://vimeo.com/showcase/gatengineering",
+      "title": "GlobalAppTesting TechTalks",
+      "description": "A vimeo channel focused on DDD and CQRS.",
+      "category": "Video Collections",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCcpKGt6MVvz7dISXLlMGmag",
+      "title": "Explore DDD videos",
+      "description": "Recordings of the talks given at the Explore DDD conference.",
+      "category": "Video Collections",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCJCpnslPdb_Dl8DKokXC3HA",
+      "title": "KanDDDinsky",
+      "description": "A YouTube collection of talks given at KanDDDinsky.",
+      "category": "Video Collections",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCob_jOzzpxBp-di-x0vLlwA",
+      "title": "Virtual Domain-driven design",
+      "description": "A youtube collection of recorded meetups session from Virtual Domain-driven design",
+      "category": "Video Collections",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://groups.google.com/g/ddd-es",
+      "title": "DDD-es Google Group",
+      "description": "The Google Group to discuss Domain-Driven Design in Spanish.",
+      "category": "Community Resources",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://groups.google.com/g/eventstorming",
+      "title": "EventStorming Google Group",
+      "description": "The Google Group to discuss EventStorming.",
+      "category": "Community Resources",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://www.visuality.pl/posts/introduction-to-ddd-in-ruby-on-rails",
+      "title": "DDD in Ruby on Rails",
+      "description": "A collection of articles on Domain-Driven Design in Ruby on Rails",
+      "category": "Community Resources",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://www.reddit.com/r/ddd_ruby/",
+      "title": "DDD in Ruby subreddit",
+      "description": "A subreddit for Ruby developers interested in Domain-Driven Design.",
+      "category": "Community Resources",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/ddd-cqrs-es/community",
+      "title": "DDD/CQRS/ES Discord",
+      "description": "A Discord (old Slack) team for those who want to chat about Domain-Driven Design, CQRS, Event Sourcing and sometimes random things. Main channel is language and framework agnostic.",
+      "category": "Community Resources",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://discord.gg/KsYaHNNn33",
+      "title": "Domain StoryTelling Discord",
+      "description": "A Discord team about Domain StoryTelling (#domain-storytelling channel) by [@hofstef](https://twitter.com/hofstef). The homepage is at [domainstorytelling.org](http://domainstorytelling.org/).",
+      "category": "Community Resources",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "http://softwareengineering.stackexchange.com/questions/tagged/domain-driven-design",
+      "title": "Software Engineering Stack Exchange",
+      "description": "Software Engineering Stack Exchange questions tagged *domain-driven-design*.",
+      "category": "Community Resources",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "http://codereview.stackexchange.com/questions/tagged/ddd",
+      "title": "Code Review Stack Exchange",
+      "description": "Code Review Stack Exchange questions tagged *domain-driven-design*.",
+      "category": "Community Resources",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://stackoverflow.com/questions/tagged/domain-driven-design",
+      "title": "Stack Overflow",
+      "description": "Stack Overflow questions tagged *domain-driven-design*.",
+      "category": "Community Resources",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/sebastianharko/adv-es-cqrs-ddd",
+      "title": "Advanced Topics in Event Sourcing / CQRS / DDD",
+      "description": "Advanced Topics in Event Sourcing / CQRS / DDD list compiled and maintaned by @[sebastianharko](https://github.com/sebastianharko).",
+      "category": "Community Resources",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://www.quora.com/topic/Domain-Driven-Design-DDD",
+      "title": "Quora",
+      "description": "Questions tagged *domain-driven-design*.",
+      "category": "Community Resources",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "http://slackin.wolkenkit.io/",
+      "title": "wolkenkit Slack",
+      "description": "A Slack team on DDD, event-sourcing, CQRS and wolkenkit.",
+      "category": "Community Resources",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/mariuszgil/awesome-eventstorming",
+      "title": "Awesome Event Storming",
+      "description": "awesome list that focuses only on Event Storming.",
+      "category": "Community Resources",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/hofstef/awesome-domain-storytelling",
+      "title": "Awesome Domain Storytelling",
+      "description": "awesome list that focuses only on Domain Storytelling.",
+      "category": "Community Resources",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://virtualddd.com",
+      "title": "Virtual Domain-driven design community",
+      "description": "Online meetups with panel discussions, online collaborations and resource sharing.",
+      "category": "Community Resources",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://www.dddheuristics.com/",
+      "title": "Domain-driven design heuristics",
+      "description": "Domain-Driven Design Heuristics is a community driven site to document and discuss about Design Heuristics.",
+      "category": "Community Resources",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/valignatev/ddd-dynamic",
+      "title": "Domain-Driven Design in dynamic languages GitHub",
+      "description": "GitHub's profile of Domain-Driven Design in dynamic languages.",
+      "category": "Community Resources",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/ddd-crew",
+      "title": "Domain-Driven Design Crew GitHub",
+      "description": "GitHub's profile of Domain-Driven Design Crew.",
+      "category": "Community Resources",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/ddd-crew/context-mapping",
+      "title": "Context Mapping by ddd-crew",
+      "description": "Context Mapping Cheatsheet and Starter Kit by ddd-crew.",
+      "category": "Community Resources",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://dddna.net/",
+      "title": "DDD North America",
+      "description": "Upcoming live training, events, and user groups across North America.",
+      "category": "Community Resources",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://aardling.eu/en/insights",
+      "title": "Aardling Blog",
+      "description": "DDD and software design articles from Mathias Verraes and others.",
+      "category": "Blogs",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://buildplease.com",
+      "title": "Nick Chamberlain",
+      "description": "Helpful development and design advice for .NET developers.",
+      "category": "Blogs",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://ardalis.com/blog",
+      "title": "Ardalis.com",
+      "description": "Steve Smith. Pluralsight author and author of [DDD Fundamentals](https://www.pluralsight.com/courses/domain-driven-design-fundamentals) course and Microsoft [eShopOnWeb sample app](https://github.com/dotnet-architecture/eShopOnWeb).",
+      "category": "Blogs",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "http://dddweekly.com",
+      "title": "DDD Weekly",
+      "description": "Weekly curated links related to DDD/CQRS/ES.",
+      "category": "Blogs",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "http://danielwhittaker.me",
+      "title": "Daniel Whittaker",
+      "description": "Want to learn about CQRS and Event Sourcing? This blog is packed with step-by-step articles to give you a head start.",
+      "category": "Blogs",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "http://cyrille.martraire.com",
+      "title": "Cyrille Martraire",
+      "description": "Being so immersed in finance while still in love with programming, I’m naturally a big fan of Domain-Driven Design by Eric Evans, along with TDD, BDD and agile/XP practices.",
+      "category": "Blogs",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://lostechies.com/jimmybogard/",
+      "title": "Jimmy Bogard",
+      "description": "I focus on DDD, distributed systems, and any other acronym-centric design/architecture/methodology.",
+      "category": "Blogs",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "http://codebetter.com",
+      "title": "CodeBetter",
+      "description": "CodeBetter.Com exists in order to help foster awareness of better practices, superior tools, proven methodologies and techniques within the software development community.",
+      "category": "Blogs",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://goodenoughsoftware.net/",
+      "title": "Greg Young",
+      "description": "Good Enough Software is By Definition Good Enough.",
+      "category": "Blogs",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://www.infoq.com/domaindrivendesign/",
+      "title": "InfoQ Blog",
+      "description": "Domain-Driven Design Content on InfoQ.",
+      "category": "Blogs",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://dannorth.net/blog/",
+      "title": "Dan North",
+      "description": "Inventor of Behavior-Driven Design.  Blogs and talks about Event Storming also.",
+      "category": "Blogs",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "http://blog.sapiensworks.com",
+      "title": "Mike Mogosanu",
+      "description": "Maintainable code is a business advantage.  Creator of Domain Map: The Domain Modeling Tool - Easy And Powerful Domain Driven Design.",
+      "category": "Blogs",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "http://blog.christianposta.com",
+      "title": "Christian Posta",
+      "description": "Principal Middleware Architect @ Red Hat, open-source enthusiast, committer @ Apache, Cloud, Integration, Kubernetes, Docker, OpenShift, Fabric8.",
+      "category": "Blogs",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "http://enterprisecraftsmanship.com",
+      "title": "Vladimir Khorikov",
+      "description": "Pluralsight author.  Blogs about software development principles and best practices.",
+      "category": "Blogs",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "http://techbeacon.com/",
+      "title": "TechBeacon",
+      "description": "Articles on TechBeacon tagged *domain driven design*.",
+      "category": "Blogs",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "http://codeopinion.com",
+      "title": "Derek Comartin",
+      "description": "Articles under the category *Domain Driven Design*.",
+      "category": "Blogs",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://ziobrando.blogspot.it",
+      "title": "Alberto Brandolini",
+      "description": "Inventor of Event Storming. Asserting that problems cannot be solved with the same mindset that originated them, Alberto switches perspective frequently assuming the architect, mentor, coach, manager or developer point of view.",
+      "category": "Blogs",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "http://thinkbeforecoding.com/",
+      "title": "Jérémie Chassaing",
+      "description": "Various articles about DDD/CQRS.  Implemented Greg Young's SimpleCQRS sample in F#.",
+      "category": "Blogs",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://vaughnvernon.co",
+      "title": "Vaughn Vernon",
+      "description": "Vaughn Vernon understands the unique demands of software development and the challenges you face as you improve your craft in a fast-paced industry.",
+      "category": "Blogs",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "http://vladikk.com/",
+      "title": "Vladik Khononov",
+      "description": "Various DDD-related articles.",
+      "category": "Blogs",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://blog.eventsourcing.com",
+      "title": "Eventsourcing Publications",
+      "description": "Practical event sourcing.",
+      "category": "Blogs",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "http://www.jefclaes.be/",
+      "title": "Jef Claes",
+      "description": "Excellent articles and talks on Domain-Driven Design.",
+      "category": "Blogs",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "http://udidahan.com/articles/",
+      "title": "Udi Dahan",
+      "description": "From the creator of NServiceBus.",
+      "category": "Blogs",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://lostechies.com/chrispatterson/",
+      "title": "Chris Patterson",
+      "description": "From the creator of the MassTransit distributed application framework.",
+      "category": "Blogs",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "http://www.aaronstannard.com/",
+      "title": "Aaron Stannard",
+      "description": "From the CTO and co-founder of Petabridge, developers of the Akka.NET Actor Model framework.",
+      "category": "Blogs",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://rogeralsing.com/",
+      "title": "Roger Johansson",
+      "description": "Mostly C#, DDD, and Akka.NET.",
+      "category": "Blogs",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "http://squirrel.pl/blog/",
+      "title": "Konrad Garus",
+      "description": "Ranting and Programming in Java, Clojure, and JavaScript.  Articles tagged under *cqrs*.",
+      "category": "Blogs",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "http://blog.oasisdigital.com/category/cqrs/",
+      "title": "Oasis Digital",
+      "description": "Content by Oasis Digital tagged under *cqrs*.",
+      "category": "Blogs",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "http://adaptechsolutions.net/blog/",
+      "title": "Adaptech",
+      "description": "Adaptech Solutions blog.  Our founder, Adam Dymitruk, debated the merits of CQRS with Greg Young before Greg coined the term. Adam and business partner Robert Reppel are among the leading practitioners of event-sourced microservices.",
+      "category": "Blogs",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "http://gorodinski.com/",
+      "title": "Lev Gorodinski",
+      "description": "Several articles about DDD from 2013, which are still relevant.",
+      "category": "Blogs",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://software2cents.wordpress.com/",
+      "title": "Dino Esposito",
+      "description": "Software architect, trainer, book author.  Author of [Microsoft .NET - Architecting Applications for the Enterprise (2nd Edition)](https://www.amazon.com/Microsoft-NET-Architecting-Applications-Enterprise/dp/0735685355/).",
+      "category": "Blogs",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "http://dearjunior.blogspot.se/search/label/domain%20driven%20design",
+      "title": "Dan Bergh Johnsson \"Dear Junior\"",
+      "description": "Domain-Driven Design mixed with security, and agile in general. Written as fictional letters to a younger programmer.",
+      "category": "Blogs",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://www.thenativeweb.io/blog/2017-10-25-09-46-ddd-and-co-part-1-whats-wrong-with-crud/",
+      "title": "the native web",
+      "description": "DDD & Co. series",
+      "category": "Blogs",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://blog.arkency.com/",
+      "title": "Arkency",
+      "description": "Various DDD, CQRS, Event Sourcing related articles from Ruby experts.",
+      "category": "Blogs",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "http://svatasimara.cz/",
+      "title": "Svaťa Šimara",
+      "description": "DDD series - language, domain, modeling, infrastructure, implementation in PHP",
+      "category": "Blogs",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://xhafan.com/blog/",
+      "title": "Martin Havlišta",
+      "description": "DDD, CQRS, TDD blog posts with code samples in C# .NET",
+      "category": "Blogs",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://khalilstemmler.com/articles/categories/domain-driven-design",
+      "title": "Khalil Stemmler",
+      "description": "DDD series introduction and talk about how to implement DDD with TypeScript",
+      "category": "Blogs",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://baasie.com/",
+      "title": "Kenny Baas-Schwegler",
+      "description": "DDD, BDD, Socio-technical, EventStorming and continuous delivery blogs.",
+      "category": "Blogs",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://joaorosa.io",
+      "title": "João Rosa",
+      "description": "Personal blog about Domain-Driven Design, Visual Collaboration, leadership and organisational design. And other things in between. Curator of [Visual Collaboration Tools](https://leanpub.com/visualcollaborationtools/) and host of the [Software Crafts Podcast](https://www.softwarecraftspodcast.com/)",
+      "category": "Blogs",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://gat.engineering",
+      "title": "GlobalAppTesting engineering",
+      "description": "GlobalAppTesting's engineering blog with materials on practical DDD and CQRS.",
+      "category": "Blogs",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/JankariTech/bsDateServer",
+      "title": "BDD in GO",
+      "description": "Sample app demonstrating the use of Cucumber + GO for a BDD testing approach. Blog post can be found [here](https://dev.to/jankaritech/demonstrating-bdd-behavior-driven-development-in-go-1eci).",
+      "category": "GO",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/marcusolsson/goddd",
+      "title": "Citerus DDD Sample App GO Port",
+      "description": "This is an attempt to port the [DDD Sample App](https://github.com/citerus/dddsample-core) to idiomatic Go. It can be run in a dockerized mode for previewing the application.",
+      "category": "GO",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/ThreeDotsLabs/wild-workouts-go-ddd-example",
+      "title": "DDD by Refactoring",
+      "description": "Complete serverless application to show how to apply DDD, Clean Architecture, and CQRS by practical refactoring of a Go project. A full blog series about it can be found at <https://threedots.tech/>.",
+      "category": "GO",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/victorsteven/food-app-server",
+      "title": "DDD Food App",
+      "description": "Sample DDD application implementing the 4 layers (Domain, Infrastructure, Application and Interface) and considering two domain patterns. There's a blog article written for it [here](https://dev.to/stevensunflash/using-domain-driven-design-ddd-in-golang-3ee5).",
+      "category": "GO",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/takashabe/go-ddd-sample",
+      "title": "DDD Sample in GO",
+      "description": "Just another sample application implementing the four layers of DDD.",
+      "category": "GO",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/friendsofgo/gopherapi",
+      "title": "Evolutive CRUD API",
+      "description": "API implementation with full CRUD using a SOLID, Hexagonal Architecture. There is a series of blog post written for it at <https://blog.friendsofgo.tech/>.",
+      "category": "GO",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/tomiok/patients-API",
+      "title": "Simple Hexagonal Architecture PoC API",
+      "description": "PoC for a patients API using the hexagonal architecture pattern.",
+      "category": "GO",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/joshpme/azure-go-ddd-boilerplate",
+      "title": "Azure DDD boilerplate",
+      "description": "A boilerplate project for DDD in Azure using a custom handler and Cosmos DB for event sourcing",
+      "category": "GO",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/asc-lab/better-code-with-ddd",
+      "title": "Better code with DDD building blocks",
+      "description": "solution presents usage of DDD tactical patterns to achieve better readability and expressiveness of the code. Applying DDD patterns together with ubiquitous language closes the gap between language spoken by experts and the team and language used in the code.",
+      "category": ".NET (C#/F#)",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/dcomartin/DDD-CQRS-ES-Example",
+      "title": "CQRS-DDD Example",
+      "description": "Domain Driven Design, CQRS, & Event Sourcing Example using GetEventStore, CommonDomain, NServiceBus, Entity Framework, SQL Server, SignalR.",
+      "category": ".NET (C#/F#)",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/mastreeno/Merp",
+      "title": "Companion Code for Microsoft .NET Architecting Applications for the Enterprise",
+      "description": "An event based Micro ERP.",
+      "category": ".NET (C#/F#)",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/jbogard/ContosoUniversityCore",
+      "title": "ContosoUniversityCore",
+      "description": "ContosoUniversity on ASP.NET Core with Full .NET Framework.",
+      "category": ".NET (C#/F#)",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/itlibrium/DDD-starter-dotnet",
+      "title": "DDD-starter-dotnet",
+      "description": "Sample implementation and comparison of various approaches to building DDD applications. Useful as a baseline to quickly start a DDD .net project.",
+      "category": ".NET (C#/F#)",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/eulerfx/DDDInventoryItemFSharp",
+      "title": "DDDInventoryItemFSharp",
+      "description": "An idiomatic F# implementation of Domain-Driven Design",
+      "category": ".NET (C#/F#)",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/andras-nemes/DDDSkeletonNet",
+      "title": "DDDSkeletonNet",
+      "description": null,
+      "category": ".NET (C#/F#)",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/asc-lab/dotnet-cqrs-intro",
+      "title": "DotNet CQRS Intro",
+      "description": "Examples of implementation CQRS with Event Sourcing - evolutionary approach (no CQRS, separate models and commands with the same model, separate models and commands with separate models, separate storage engines, event sourcing).",
+      "category": ".NET (C#/F#)",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/eisk",
+      "title": "EISK",
+      "description": ".NET CLI and VS Templates with simple use cases to build scalable applications on top of .net core with architectural best practices (DDD, onion architecture etc).",
+      "category": ".NET (C#/F#)",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/xhafan/emailmaker",
+      "title": "EmailMaker",
+      "description": "Email marketing ASP.NET Core MVC and ASP.NET MVC demo app demonstrating [CoreDdd](https://github.com/xhafan/coreddd) usage",
+      "category": ".NET (C#/F#)",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/EduardoPires/EquinoxProject",
+      "title": "Equinox Project",
+      "description": "Full ASP.NET Core 3.1 application with Clean Architecture, DDD, CQRS and Event Sourcing concepts",
+      "category": ".NET (C#/F#)",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/dotnet-architecture/eShopOnWeb",
+      "title": "eShopOnWeb",
+      "description": "Full ASP.NET Core 3.1 reference application from Microsoft showing monolithic deployment architecture",
+      "category": ".NET (C#/F#)",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/volak/eShopOnContainersDDD",
+      "title": "eShopOnContainersDDD",
+      "description": "eShop fullstack example featuring catalog, basket, checkout, and order bounded contexts",
+      "category": ".NET (C#/F#)",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://gist.github.com/swlaschin/2ad8627d0400b2ab70e9f3da08902c9d",
+      "title": "Example of Domain-Driven Design in F#",
+      "description": "Example of Domain Driven Design for the game of checkers. There are two files: a scratch file with a series of designs, and a final version.",
+      "category": ".NET (C#/F#)",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/oskardudycz/EventSourcing.NetCore",
+      "title": "Event Sourcing .NET",
+      "description": "samples and resources about Event Sourcing and CQRS in .NET. Contains also a self-paced kit of how to built own Event Store",
+      "category": ".NET (C#/F#)",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/OKTAYKIR/EventFlow.Example",
+      "title": "EventFlow.Example",
+      "description": "DDD, CQRS, and Event-Sourcing example and contains following technology stack: [EventFlow](https://github.com/eventflow/EventFlow), [EventStore](https://eventstore.com), [RabbitMQ](https://www.rabbitmq.com), [MongoDB](https://www.mongodb.com), [PostgreSQL](https://www.postgresql.org), [Docker](https://www.docker.com)",
+      "category": ".NET (C#/F#)",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/MarkNijhof/Fohjin",
+      "title": "Fohjin",
+      "description": "Example project that accompanies Mark Nijhof's [CQRS](https://leanpub.com/cqrs) book.",
+      "category": ".NET (C#/F#)",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/thinkbeforecoding/FsUno",
+      "title": "FsUno",
+      "description": "Event sourcing implementation sample in F#.",
+      "category": ".NET (C#/F#)",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/VaughnVernon/IDDD_Samples_NET",
+      "title": "IDDD Samples in .NET",
+      "description": "These are the sample Bounded Contexts for C#.NET from the book \"Implementing Domain-Driven Design\" by Vaughn Vernon.",
+      "category": ".NET (C#/F#)",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/ryletko/LexiQuest-Modular-DDD",
+      "title": "LexiQuest-Modular-DDD",
+      "description": "Modular application built with Clean Architecture and DDD principles which is ready to quickly get splitted into microserves.",
+      "category": ".NET (C#/F#)",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/mspnp/cqrs-journey",
+      "title": "Microsoft Patterns and Practices: CQRS Journey Sample Code",
+      "description": "Sample code from CQRS Journey.",
+      "category": ".NET (C#/F#)",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/kgrzybek/modular-monolith-with-ddd",
+      "title": "Modular Monolith",
+      "description": "Full Modular Monolith .NET application with Domain-Driven Design approach.",
+      "category": ".NET (C#/F#)",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/ryletko/Modular.StarterTemplate",
+      "title": "Modular.StarterTemplate",
+      "description": "Starter template for a modular application in Clean Architecture DDD style with synchronous interaction between modules within single transaction. Perfect for ERP applications.",
+      "category": ".NET (C#/F#)",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/cesarcastrocuba/nlayerappv3",
+      "title": "NLayerAppV3",
+      "description": null,
+      "category": ".NET (C#/F#)",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/mr0zek/Photostock",
+      "title": "Photostock CQRS-DDD Example",
+      "description": null,
+      "category": ".NET (C#/F#)",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/AdaptiveConsulting/ReactiveTraderCloud",
+      "title": "Reactive Trader Cloud",
+      "description": "Reactive Trader Cloud by Adaptive Consulting.",
+      "category": ".NET (C#/F#)",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/kgrzybek/sample-dotnet-core-cqrs-api",
+      "title": "Sample .NET Core CQRS REST API",
+      "description": ".NET Core REST API CQRS implementation with raw SQL and DDD using Clean Architecture.",
+      "category": ".NET (C#/F#)",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/ToJans/Scritchy",
+      "title": "Scritchy",
+      "description": "CQRS without the Plumbing, [video](http://www.youtube.com/watch?v=5DKTFZD3hu8).",
+      "category": ".NET (C#/F#)",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/thinkbeforecoding/m-r",
+      "title": "Simple CQRS in F#",
+      "description": "Greg Young's SimpleCQRS in F#.",
+      "category": ".NET (C#/F#)",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/gregoryyoung/m-r",
+      "title": "SimpleCQRS",
+      "description": "Greg Young's \"Simplest Thing\" CQRS with Event Sourcing project.",
+      "category": ".NET (C#/F#)",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/hamed-shirbandi/TaskoMask",
+      "title": "TaskoMask",
+      "description": "Task management system based on .NET Core with DDD, CQRS and Event Sourcing Concepts.",
+      "category": ".NET (C#/F#)",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/volak/TodoMVC-DDD-CQRS-EventSourcing",
+      "title": "TodoMVC-DDD-CQRS-EventSourcing",
+      "description": "Implementation of basic Todo app via tastejs/todomvc in C#/Typescript with eventsourcing, cqrs, and domain driven design",
+      "category": ".NET (C#/F#)",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/Eventuria/gsd",
+      "title": "Eventuria gsd",
+      "description": "Haskell todo list reactive application with DDD, CQRS and Event Sourcing, FRP.",
+      "category": "Haskell",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "http://github.com/andorp/order-taking",
+      "title": "OrderTaking",
+      "description": "Dependently typed implementation of the Domain Modeling Made Functional book. An example project how to formalize Bounded Context and Workflow diagram with dependent types. A NodeJS deployable demo.",
+      "category": "Idris",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://docs.wolkenkit.io/latest/media/sample-applications/wolkenkit-boards/",
+      "title": "wolkenkit Sample Applications",
+      "description": "A collection of DDD sample applications, such as TodoMVC, a geocaching app, collaborative boards etc.",
+      "category": "JavaScript / TypeScript",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/boostercloud/booster/tree/master/docs/examples",
+      "title": "Booster framework examples",
+      "description": null,
+      "category": "JavaScript / TypeScript",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/bitloops/ddd-hexagonal-cqrs-es-eda",
+      "title": "Over-engineered ToDo app",
+      "description": "Complete working example of using Domain Driven Design (DDD), Hexagonal Architecture, CQRS, Event Sourcing (ES), Event Driven Architecture (EDA), Behaviour Driven Development (BDD) using TypeScript and NestJS generated using the [Bitloops Language (BL)](https://github.com/bitloops/bitloops-language).",
+      "category": "JavaScript / TypeScript",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/mdonkers/akka-cqrs-es-demo",
+      "title": "Akka CQRS ES Demo",
+      "description": "Demo project to implement the CQRS and Event Sourcing patterns in Scala-Akka.",
+      "category": "JVM languages",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/ddd-by-examples/library",
+      "title": "DDD By Examples - Library",
+      "description": "sample project of a library driven by real business requirements. Modular monolith implemented with the help od DDD, BDD, EventStorming, Example Mapping, CQRS, and more.",
+      "category": "JVM languages",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/BottegaIT/ddd-leaven-v2",
+      "title": "DDD Leaven",
+      "description": "DDD-CQRS sample v2.0 project that helps you with starting out advanced domain modeling using Spring, JPA and testing.",
+      "category": "JVM languages",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/mkopylec/project-manager",
+      "title": "DDD Workshop - Project Manager",
+      "description": "\"Do It Yourself\" DDD workshop and a sample DDD application at the same time. Based on a project managing domain.",
+      "category": "JVM languages",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/Pragmatists/eventsourcing-java-example",
+      "title": "Event Sourcing Example",
+      "description": "A simplified (in memory) example of Event Sourcing and CQRS implementation for Java code (modeled for banking domain use cases).",
+      "category": "JVM languages",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/andreschaffer/event-sourcing-cqrs-examples",
+      "title": "Event Sourcing and CQRS Examples",
+      "description": "A pragmatic application of Event Sourcing and CQRS in Java with good references for common related problems, e.g. event ordering and idempotency.",
+      "category": "JVM languages",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/pilloPl/event-source-cqrs-sample",
+      "title": "Event Sourcing and CQRS Sample",
+      "description": "Sample event sourced application with Command Query Responsibility Segregation",
+      "category": "JVM languages",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/VaughnVernon/IDDD_Samples",
+      "title": "IDDD Samples",
+      "description": "These are the sample Bounded Contexts from the book \"Implementing Domain-Driven Design\" by Vaughn Vernon.",
+      "category": "JVM languages",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/asc-lab/java-cqrs-intro",
+      "title": "Java CQRS Intro",
+      "description": "Examples of implementation CQRS with Event Sourcing - evolutionary approach (no CQRS, separate models and commands with the same model, separate models and commands with separate models, separate storage engines, event sourcing).",
+      "category": "JVM languages",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/fabriciorissetto/kotlin-ddd-sample",
+      "title": "Kotlin DDD Sample",
+      "description": "Sample DDD/CQRS project written in Kotlin.",
+      "category": "JVM languages",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/humank/EventStormingWorkShop/",
+      "title": "EventStormingWorkshop - Designing Cloud Native Microservices On AWS",
+      "description": "A concrete sample to go through EventStorming workshop and implement DDD tactical design pattern in Java, apply AWS cloud native services to build up business Event based Coffeeshop scenario.",
+      "category": "JVM languages",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/citerus/dddsample-core",
+      "title": "DDDSample",
+      "description": "Sample DDD project using Spring Boot (originally hosted in http://dddsample.sourceforge.net/)",
+      "category": "JVM languages",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://eclipse-ee4j.github.io/cargotracker/",
+      "title": "Eclipse CargoTracker",
+      "description": "This project demonstrates how you can develop applications with the Jakarta EE platform using widely adopted architectural best practices like Domain-Driven Design (DDD). [The code](https://github.com/eclipse-ee4j/cargotracker/) is intended to mirror a non-trivial application that developers in the real work would work on. It attempts to demonstrate first-hand how you can use Jakarta EE to effectively meet practical enterprise concerns such as productivity, agility, testability, flexibility, maintainability, scalability and security. The project is directly based on the well known original [Java DDD sample application](https://github.com/citerus/dddsample-core) developed by DDD pioneer Eric Evans' company Domain Language and the Swedish software consulting company Citerus.",
+      "category": "JVM languages",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/felipexw/clean-arch-ddd-intro",
+      "title": "https://github.com/felipexw/clean-arch-ddd-intro",
+      "description": "Simple DDD + Clean Architecture using Micronaut.",
+      "category": "JVM languages",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/ferrius/ddd-cqrs-example",
+      "title": "DDD CQRS Todo Sample",
+      "description": "DDD CQRS ADR hexagonal architecture implementation built with PHP 7 and Symfony 5.",
+      "category": "PHP",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/janikredpandadev/ddd-modulith",
+      "title": "DDD Modulith",
+      "description": "A DDD Onion Architecture implementation with Symfony 7 as modulith.",
+      "category": "PHP",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/franzose/symfony-ddd-wishlist",
+      "title": "DDD Wish List",
+      "description": "A sample application in PHP built with Symfony 3 and Vue.js.",
+      "category": "PHP",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/jorge07/ddd-playground/",
+      "title": "DDD Playground",
+      "description": "Sample implementation in PHP.",
+      "category": "PHP",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/codeliner/php-ddd-cargo-sample",
+      "title": "Eric Evans DDD Cargo Sample",
+      "description": "PHP 7 Version of the cargo sample used in Eric Evans DDD book",
+      "category": "PHP",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/simara-svatopluk/cart",
+      "title": "Shop Cart in PHP",
+      "description": "Sample project that demonstrates how simple shop cart can look like. Domain objects,Doctrine integration.,TDD,layers,unit testing",
+      "category": "PHP",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/jorge07/symfony-5-es-cqrs-boilerplate",
+      "title": "Symfony 5 DDD ES CQRS backend",
+      "description": "DDD, CQRS and Event Sourcing app using Symfony and PHP 8.",
+      "category": "PHP",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/onsi/ginkgo",
+      "title": "Ginkgo",
+      "description": "Ginkgo builds on Go's testing package, allowing expressive Behavior-Driven Development (\"BDD\") style tests.",
+      "category": "GO",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/go-bdd/gobdd",
+      "title": "GOBDD",
+      "description": "Small BDD framework for GO.",
+      "category": "GO",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/volak/Aggregates.NET",
+      "title": "Aggregates.NET",
+      "description": ".NET event sourced domain driven design model via NServicebus and GetEventStore.",
+      "category": ".NET",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/yreynhout/aggregateSource",
+      "title": "AggregateSource",
+      "description": "Lightweight infrastructure for doing eventsourcing using aggregates.",
+      "category": ".NET",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "http://getakka.net/",
+      "title": "Akka.NET",
+      "description": "Akka.NET is a toolkit and runtime for building highly concurrent, distributed, and fault tolerant event-driven applications on .NET & Mono.",
+      "category": ".NET",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://abp.io",
+      "title": "ABP",
+      "description": "Successor of ASP.NET Boilerplate - ASP.NET Core based application framework to create NLayered, Domain Driven Designed web applications with a microservice focused modular architecture",
+      "category": ".NET",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "http://aspnetboilerplate.com/",
+      "title": "ASP.NET Boilerplate",
+      "description": "ASP.NET MVC, Web API and ASP.NET Core based application framework to create NLayered, Domain Driven Designed web Applications implementing best practices.",
+      "category": ".NET",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/sm-g/ByValue",
+      "title": "ByValue",
+      "description": "This library helps to create ValueObjects (even with collection properties) with properly implemented equality behavior.",
+      "category": ".NET",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/damianh/Cedar.CommandHandling",
+      "title": "Cedar.CommandHandling",
+      "description": "Middleware to handling commands over HTTP; typically used in CQRS applications.",
+      "category": ".NET",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/d60/Cirqus",
+      "title": "Cirqus",
+      "description": "d60 event sourcing + CQRS framework.",
+      "category": ".NET",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/hlaueriksson/CommandQuery",
+      "title": "CommandQuery",
+      "description": "Command Query Separation for 🌐ASP.NET Core ⚡AWS Lambda ⚡Azure Functions ⚡Google Cloud Functions 🌐ASP.NET Web API 2",
+      "category": ".NET",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/xhafan/coreddd",
+      "title": "CoreDdd",
+      "description": "Set of open-source .NET libraries helping with DDD and CQRS, with NHibernate persistence",
+      "category": ".NET",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/MerrionComputing/CQRSAzure",
+      "title": "CQRS on Azure",
+      "description": null,
+      "category": ".NET",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://dolittle.com",
+      "title": "Dolittle",
+      "description": "Build better applications with Dolittle. An Event Sourced, Microservice platform oriented around DDD with developer productivity and simplicity front and center.",
+      "category": ".NET",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://www.cqrs.nu/",
+      "title": "Edument CQRS and Intentful BDD Testing Starter Kit",
+      "description": "Library and tutorial for how to build CQRS/ES applications, including a BDD style testing framework.",
+      "category": ".NET",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/eventflow/EventFlow",
+      "title": "EventFlow",
+      "description": "Async/await first CQRS+ES and DDD framework for .NET http://geteventflow.net/.",
+      "category": ".NET",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/younos1986/Core.EventStore",
+      "title": "Core.EventStore",
+      "description": "A library to facilitate communication between CommandService and QueryService. The Idea is when any event occures in commandService, it should be persisted in QueryService in MongoDb.",
+      "category": ".NET",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/jonsequitur/Its.Cqrs",
+      "title": "Its.Cqrs",
+      "description": "A set of libraries for CQRS and Event Sourcing, with a Domain-Driven Design flavor.",
+      "category": ".NET",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/JasperFx/marten",
+      "title": "Marten",
+      "description": "Postgresql as a Document Database and Event Store for .Net Applications.",
+      "category": ".NET",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/MassTransit/MassTransit",
+      "title": "MassTransit",
+      "description": "Distributed Application Framework for .NET.",
+      "category": ".NET",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/jbogard/MediatR",
+      "title": "MediatR",
+      "description": "Supports request/response, commands, queries, notifications and events, synchronous and async with intelligent dispatching via C# generic variance.",
+      "category": ".NET",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/QuickenLoans/MessageRouter",
+      "title": "MessageRouter",
+      "description": "Described in this video: [The Beating Heart of CQRS, or Actor-Based Message Routing on the CLR](https://vimeo.com/171178586) by Paulmichael Blasucci at the New York F# .NET User Group.",
+      "category": ".NET",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/netdevpack",
+      "title": "NetDevPack",
+      "description": "A smart set of common classes and implementations to improve your development productivity using .NET (DDD, CQRS, Specification Pattern, MediatR, Validations, Notifications).",
+      "category": ".NET",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/NEventStore/NEventStore",
+      "title": "NEventStore",
+      "description": "A persistence library used to abstract different storage implementations when using event sourcing as storage mechanism.",
+      "category": ".NET",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/Particular/NServiceBus",
+      "title": "NServiceBus",
+      "description": "Service bus for .NET.",
+      "category": ".NET",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/yreynhout/Projac",
+      "title": "Projac",
+      "description": "Projac is a set of projection libraries that allow you to write projections targetting various backing stores.",
+      "category": ".NET",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/ElderJames/shriek-fx",
+      "title": "shriek-fx",
+      "description": "An simple,elegant and useful Domain-Driven Design and CQRS framework developed using .NET Core 2.0.",
+      "category": ".NET",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/damianh/SqlStreamStore",
+      "title": "SqlStreamStore",
+      "description": ".NET Stream Store library targeting SQL based implementations.",
+      "category": ".NET",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/yevhen/Streamstone",
+      "title": "Streamstone",
+      "description": "Event Store for Azure Table Storage.",
+      "category": ".NET",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/mission202/Stringly.Typed",
+      "title": "Stringly.Typed",
+      "description": "Making it easier to convert strings to/from .NET types.",
+      "category": ".NET",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/jeyjeyemem/Xer.Cqrs",
+      "title": "Xer.Cqrs",
+      "description": "A simple library for creating applications based on the CQRS pattern with support for attribute routing and hosted handlers. Developed in C# targeting .NET Standard 1.0.",
+      "category": ".NET",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/deveel/deveel.repository",
+      "title": "Deveel Repository",
+      "description": "A simple implementation of the Repository pattern for .NET, supporting MongoDB and Entity Framework, extending the model with further utilities (caching, paging, validation, etc.).",
+      "category": ".NET",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://geteventstore.com",
+      "title": "Event Store",
+      "description": "The open-source, functional database with Complex Event Processing in JavaScript.",
+      "category": "Databases",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://eventsourcing.com",
+      "title": "Eventsourcing",
+      "description": "Business event capture and querying framework.",
+      "category": "Databases",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/message-db/message-db",
+      "title": "Message DB",
+      "description": "Microservice Native Event Store and Message Store for Postgres. A fully-featured event store and message store implemented in PostgreSQL for Pub/Sub, Event Sourcing, Messaging, and Evented Microservices applications.",
+      "category": "Databases",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://serialized.io",
+      "title": "Serialized",
+      "description": "Complete platform for Event Sourcing & CQRS.",
+      "category": "Databases",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/otobus/event_bus",
+      "title": "Event Bus",
+      "description": "Traceable, extendable and minimalist event bus implementation for Elixir with built-in event store and event watcher based on ETS.",
+      "category": "Elixir",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "http://cqrs.js.org",
+      "title": "cqrs.js",
+      "description": "CQRS implementations in node.js.  Includes [node-eventstore](https://github.com/adrai/node-eventstore), [node-cqrs-domain](https://github.com/adrai/node-cqrs-domain), [node-eventdenormalizer](https://github.com/adrai/node-cqrs-eventdenormalizer), [node-cqrs-saga](https://github.com/adrai/node-cqrs-saga).",
+      "category": "JavaScript / TypeScript",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/bitloops/bitloops-language",
+      "title": "Bitloops Language (BL)",
+      "description": "Open-source, 4th-generation, transpiled programming language that helps you write clean code, well-designed systems, and build high-quality software that is testable, auditable and maintainable using DDD and Hexagonal Architecture.",
+      "category": "JavaScript / TypeScript",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/talyssonoc/node-api-boilerplate",
+      "title": "Node API Boilerplate",
+      "description": "NodeJS web API boilerplate for DDD and Clean Architecture applications.",
+      "category": "JavaScript / TypeScript",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/pawelkaczor/akka-ddd",
+      "title": "akka-ddd",
+      "description": "Reusable artifacts for building applications on top of the Akka platform following CQRS/DDDD-based approach.",
+      "category": "JVM",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://isis.apache.org/index.html",
+      "title": "Apache Isis",
+      "description": "Apache Isis is a framework for rapidly developing domain-driven apps in Java.",
+      "category": "JVM",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "http://www.axonframework.org/",
+      "title": "Axon Framework",
+      "description": "The axon framework is focused on making life easier for developers that want to create a java application based on the CQRS principles.",
+      "category": "JVM",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/funkygao/cp-ddd-framework",
+      "title": "DDDplus framework",
+      "description": "A lightweight flexible development framework for complex business architecture based on DDD.",
+      "category": "JVM",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/yreynhout/JESA",
+      "title": "JESA",
+      "description": "Event sourced aggregates for Java.",
+      "category": "JVM",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://www.lagomframework.com",
+      "title": "Lagom",
+      "description": "The Lagom Framework is a microservices framework for the Java Virtual Machine, with APIs for the Java and Scala languages. It includes an Event Sourcing/CQRS based persistence module.",
+      "category": "JVM",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "http://seedstack.org/docs/business/",
+      "title": "SeedStack's Business Framework",
+      "description": "A set of building blocks that enable you to code business logic according to the Domain-Driven Design (DDD) approach.",
+      "category": "JVM",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://spine.io/",
+      "title": "Spine Event Engine",
+      "description": "a CQRS/ES framework for building cloud applications. Defines Bounded Contexts with their Commands, Events, and Entity states in Protobuf. The backend logic is written in Java, on top of the Proto-generated code. Client code in Java, JS or Dart communicates with the backend via gRPC.",
+      "category": "JVM",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/broadway/broadway",
+      "title": "Broadway",
+      "description": "Broadway is a (PHP) project providing infrastructure and testing helpers for creating CQRS and event sourced applications.",
+      "category": "PHP",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/codefyphp/",
+      "title": "CodefyPHP Framework",
+      "description": "A PHP framework for codefying and building complex applications using Domain-Driven Design, CQRS, and Event Sourcing.",
+      "category": "PHP",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "http://ecotone.tech",
+      "title": "Ecotone",
+      "description": "Enables message driven architecture in PHP and provides building blocks to follow DDD and CQRS principles.",
+      "category": "PHP",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/javanile/php-glossary",
+      "title": "PHP Glossary",
+      "description": "Apply a Term Analysis to extract domain terms vs out-of-scope terms in a DDD manner.",
+      "category": "PHP",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/johnbywater/eventsourcing",
+      "title": "Eventsoucing in Python",
+      "description": "Mature, stable Python library for event sourcing and DDD. Supports wide variety of databases, different kinds of orderings of domain events, application level encryption, snapshotting, optimistic concurrency control, and process events. Applications, and entire systems of applications, can be defined independently of infrastructure, and run in different ways (single threaded, multi-threaded, clocked, stepping, multi-process, actor model) and with different infrastructure.",
+      "category": "Python",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/dry-python",
+      "title": "dry-python",
+      "description": "A set of libraries for pluggable business logic components.",
+      "category": "Python",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://github.com/knucklesuganda/py_assimilator/",
+      "title": "PyAssimilator",
+      "description": "Quickly create DDD Python patterns, Event-Based Systems, CRUD applications. Set of Python patterns for database access that support SQLAlchemy, MongoDB, Redis, or Pure Python. PyAssimilator allows you to write code without dependencies, meaning you can switch SQL to NoSQL without changing a single file in your system.",
+      "category": "Python",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://railseventstore.org",
+      "title": "Rails Event Store",
+      "description": "Rails Event Store (RES) is a library for publishing, consuming, storing and retrieving events. It's your best companion for going with an event-driven architecture for your Rails application.",
+      "category": "Ruby",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "http://dotnetrocks.com/?show=1151",
+      "title": "Deeper into DDD on DotNetRocks with David Real",
+      "description": "11 June 2015.",
+      "category": "Podcasts and Interviews",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "http://www.beingtheworst.com",
+      "title": "Being the Worst",
+      "description": "2012 thru 2016.",
+      "category": "Podcasts and Interviews",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "http://www.se-radio.net/2015/05/se-radio-episode-226-eric-evans-on-domain-driven-design-at-10-years/",
+      "title": "Software Engineering Radio Episode 225: Eric Evans on Domain-Driven Design at 10 Years",
+      "description": "13 May 2015.",
+      "category": "Podcasts and Interviews",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "http://www.se-radio.net/2015/01/episode-218-udi-dahan-on-cqrs-command-query-responsibility-segregation/",
+      "title": "Software Engineering Radio Episode 218: Udi Dahan on CQRS (Command Query Responsibility Segregation)",
+      "description": "30 January 2015.",
+      "category": "Podcasts and Interviews",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://dddeurope.com",
+      "title": "Domain-Driven Design Europe",
+      "description": "The Leading DDD conference (online during COVID19)",
+      "category": "Conferences",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://dddeurope.com/2020/#eventsourcing",
+      "title": "EventSourcing",
+      "description": "A new event for the CQRS/EventSourcing community",
+      "category": "Conferences",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "http://exploreddd.com/",
+      "title": "Explore DDD - USA",
+      "description": null,
+      "category": "Conferences",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "http://kandddinsky.com/",
+      "title": "Kandddinsky - Germany",
+      "description": null,
+      "category": "Conferences",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://sessionize.com/ddd-meetups",
+      "title": "Collective CFP",
+      "description": "Submit your talks to all the DDD user groups at once.",
+      "category": "User Groups",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://datawrapper.dwcdn.net/9FNZI/",
+      "title": "Map of user groups in Europe",
+      "description": null,
+      "category": "User Groups",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://datawrapper.dwcdn.net/nbZkd/",
+      "title": "Map of user groups in North America",
+      "description": null,
+      "category": "User Groups",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://datawrapper.dwcdn.net/oin66/",
+      "title": "Map of user groups in Asia",
+      "description": null,
+      "category": "User Groups",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://datawrapper.dwcdn.net/yaEOa/",
+      "title": "Map of user groups in Africa",
+      "description": null,
+      "category": "User Groups",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://www.meetup.com/worldwide-eventstorming-meetup/",
+      "title": "Worldwide",
+      "description": "Specific about EventStorming",
+      "category": "User Groups",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://www.meetup.com/ddd-vienna/",
+      "title": "Austria",
+      "description": null,
+      "category": "User Groups",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://www.meetup.com/dddbcn/",
+      "title": "Barcelona",
+      "description": null,
+      "category": "User Groups",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://dddbelfast.com/",
+      "title": "Belfast",
+      "description": null,
+      "category": "User Groups",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "http://www.meetup.com/dddbelgium/",
+      "title": "Belgium",
+      "description": null,
+      "category": "User Groups",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "http://www.meetup.com/Domain-Driven-Design-Berlin/",
+      "title": "Berlin",
+      "description": null,
+      "category": "User Groups",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://www.meetup.com/Domain-Driven-Design-Koln-Bonn/",
+      "title": "Cologne/Bonn",
+      "description": null,
+      "category": "User Groups",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://www.meetup.com/copenhagen-domain-driven-design-meetup/",
+      "title": "Copenhagen",
+      "description": null,
+      "category": "User Groups",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "http://www.meetup.com/ddd-krk/",
+      "title": "Cracow",
+      "description": null,
+      "category": "User Groups",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://www.facebook.com/groups/dddtaiwan/",
+      "title": "DDD Taiwan Community",
+      "description": null,
+      "category": "User Groups",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://www.meetup.com/ddd-denver/",
+      "title": "Denver",
+      "description": null,
+      "category": "User Groups",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://t.me/ddd_iran/",
+      "title": "Iran",
+      "description": null,
+      "category": "User Groups",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://www.meetup.com/dddgreece/",
+      "title": "Greece",
+      "description": null,
+      "category": "User Groups",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://www.meetup.com/DDD-HH-Domain-driven-Design-Hamburg/",
+      "title": "Hamburg",
+      "description": null,
+      "category": "User Groups",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "http://www.meetup.com/dddlondon/",
+      "title": "London",
+      "description": null,
+      "category": "User Groups",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://www.meetup.com/Microservices-Meetup-Munich/",
+      "title": "Munich",
+      "description": null,
+      "category": "User Groups",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "http://www.meetup.com/Domain-Driven-Design-Nederland/",
+      "title": "Nederland",
+      "description": null,
+      "category": "User Groups",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://www.meetup.com/dddnorway/",
+      "title": "Norway",
+      "description": null,
+      "category": "User Groups",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://www.meetup.com/DDD-Phoenix",
+      "title": "Phoenix",
+      "description": null,
+      "category": "User Groups",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://www.meetup.com/DDD-WAW",
+      "title": "Warsaw",
+      "description": null,
+      "category": "User Groups",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "http://www.meetup.com/DDD-WRO",
+      "title": "Wroclaw",
+      "description": null,
+      "category": "User Groups",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "https://t.me/dddevotion",
+      "title": "Russia",
+      "description": null,
+      "category": "User Groups",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    },
+    {
+      "url": "http://www.domainstorytelling.org/",
+      "title": "Domain Storytelling",
+      "description": "a knowledge-crunching technique that helps the people involved to familiarize themselves with the domain and work out a model that expresses their shared understanding. Available as a [print-out template](http://www.domainstorytelling.org/images/DST_Whiteboard-Kit.pdf), as well as open-source online tool, [WPS Modeler](https://www.wps.de/modeler) ([source](https://github.com/wps/domain-story-modeler)).",
+      "category": "Tools",
+      "source": "heynickc/awesome-ddd",
+      "indexedAt": "2026-07-23T14:53:44.535Z"
+    }
+  ],
+  "categories": [
+    "Books",
+    "Free eBooks",
+    "Training Courses",
+    "Video Collections",
+    "Community Resources",
+    "Blogs",
+    "GO",
+    ".NET (C#/F#)",
+    "Haskell",
+    "Idris",
+    "JavaScript / TypeScript",
+    "JVM languages",
+    "PHP",
+    "GO",
+    ".NET",
+    "Databases",
+    "Elixir",
+    "JavaScript / TypeScript",
+    "JVM",
+    "PHP",
+    "Python",
+    "Ruby",
+    "Podcasts and Interviews",
+    "Conferences",
+    "User Groups",
+    "Tools"
+  ],
+  "crawledAt": "2026-07-23T14:53:44.535Z"
+}

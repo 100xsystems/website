@@ -1,0 +1,1123 @@
+{
+  "repoId": "enaqx/awesome-react",
+  "name": "A collection of awesome things regarding React ecosystem",
+  "description": "A collection of awesome things regarding React ecosystem",
+  "repoUrl": "https://github.com/enaqx/awesome-react",
+  "stars": 74054,
+  "topics": [
+    "awesome",
+    "awesome-list",
+    "javascript",
+    "react",
+    "react-apps",
+    "react-native",
+    "react-tutorial",
+    "samples",
+    "tutorial",
+    "typescript"
+  ],
+  "links": [
+    {
+      "url": "https://react.dev/",
+      "title": "React Official Website",
+      "description": null,
+      "category": "React General Resources",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/facebook/react",
+      "title": "React GitHub",
+      "description": null,
+      "category": "React General Resources",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://www.reactiflux.com/",
+      "title": "Reactiflux Discord Channel",
+      "description": null,
+      "category": "React General Resources",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://react.dev/community",
+      "title": "React Community",
+      "description": null,
+      "category": "React General Resources",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://react.dev/community/conferences",
+      "title": "React Conferences",
+      "description": null,
+      "category": "React General Resources",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://codesandbox.io/s/new",
+      "title": "React CodeSandbox Playground",
+      "description": null,
+      "category": "React General Resources",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://react.dev/learn",
+      "title": "React Official Tutorial",
+      "description": null,
+      "category": "React Tutorials",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://code.visualstudio.com/docs/nodejs/reactjs-tutorial",
+      "title": "Using React in Visual Studio Code",
+      "description": null,
+      "category": "React Tutorials",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/sudheerj/reactjs-interview-questions",
+      "title": "React Interview Questions & Answers",
+      "description": null,
+      "category": "React Tutorials",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://www.patterns.dev/",
+      "title": "Design patterns and Component patterns for building powerful Web Apps",
+      "description": null,
+      "category": "React Tutorials",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/alan2207/bulletproof-react",
+      "title": "A simple, scalable, and powerful architecture for building production ready React applications",
+      "description": null,
+      "category": "React Tutorials",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/typescript-cheatsheets/react",
+      "title": "Cheatsheets for experienced React developers getting started with TypeScript",
+      "description": null,
+      "category": "React Tutorials",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/gatsbyjs/gatsby",
+      "title": "gatsby",
+      "description": "Build modern websites with React",
+      "category": "React Frameworks",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/remix-run/remix",
+      "title": "remix",
+      "description": "Full-stack web Framework that lets you focus on the user interface",
+      "category": "React Frameworks",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/marmelab/react-admin",
+      "title": "react-admin",
+      "description": "A frontend Framework for building B2B applications",
+      "category": "React Frameworks",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/refinedev/refine",
+      "title": "refine",
+      "description": "Build your React-based CRUD applications, without constraints",
+      "category": "React Frameworks",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/vikejs/vike",
+      "title": "vike",
+      "description": "The Modular Framework - Next.js & Nuxt alternative",
+      "category": "React Frameworks",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/shadcn-ui/ui",
+      "title": "shadcn-ui",
+      "description": "Beautifully designed components built using Radix UI and Tailwind CSS",
+      "category": "React Component Libraries",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/ant-design/ant-design",
+      "title": "ant-design",
+      "description": "An enterprise-class UI design language and React UI library",
+      "category": "React Component Libraries",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/mui/material-ui",
+      "title": "material-ui",
+      "description": "Ready-to-use foundational React components",
+      "category": "React Component Libraries",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/chakra-ui/chakra-ui",
+      "title": "chakra-ui",
+      "description": "Component system for building SaaS products with speed",
+      "category": "React Component Libraries",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/DavidHDev/react-bits",
+      "title": "react-bits",
+      "description": "A collection of animated, interactive & fully customizable React components",
+      "category": "React Component Libraries",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/mantinedev/mantine",
+      "title": "mantine",
+      "description": "Fully featured React components library",
+      "category": "React Component Libraries",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/react-bootstrap/react-bootstrap",
+      "title": "react-bootstrap",
+      "description": "Bootstrap components built with React",
+      "category": "React Component Libraries",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/microsoft/fluentui",
+      "title": "fluentui",
+      "description": "Microsoft's Fluent UI",
+      "category": "React Component Libraries",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/framework7io/framework7",
+      "title": "framework7",
+      "description": "Full featured HTML framework for building iOS & Android apps",
+      "category": "React Component Libraries",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/ariakit/ariakit",
+      "title": "ariakit",
+      "description": "Toolkit for building accessible web apps with React",
+      "category": "React Component Libraries",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/resend/react-email",
+      "title": "react-email",
+      "description": "Unstyled components for creating beautiful emails",
+      "category": "React Component Libraries",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/TheOrcDev/8bitcn-ui",
+      "title": "8bitcn-ui",
+      "description": "A retro 8-bit themed React component library built on top of shadcn",
+      "category": "React Component Libraries",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/tailwindlabs/headlessui",
+      "title": "headlessui",
+      "description": "Completely unstyled, accessible UI components for React",
+      "category": "React Component Libraries",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/ruixenui/ruixen.com",
+      "title": "ruixen-ui",
+      "description": "Modern, lightweight React component library with elegant design",
+      "category": "React Component Libraries",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/reduxjs/redux",
+      "title": "redux",
+      "description": "Predictable State Container for JavaScript Apps",
+      "category": "React State Management and Data Fetching",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/mobxjs/mobx",
+      "title": "mobx",
+      "description": "Simple, scalable state management",
+      "category": "React State Management and Data Fetching",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/pmndrs/zustand",
+      "title": "zustand",
+      "description": "Bear necessities for state management in React",
+      "category": "React State Management and Data Fetching",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/TanStack/query",
+      "title": "tanstack-query",
+      "description": "Powerful asynchronous state management",
+      "category": "React State Management and Data Fetching",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/vercel/swr",
+      "title": "swr",
+      "description": "React Hooks for Data Fetching",
+      "category": "React State Management and Data Fetching",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/apollographql/apollo-client",
+      "title": "apollo-client",
+      "description": "A fully-featured, production ready caching GraphQL client",
+      "category": "React State Management and Data Fetching",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/facebook/relay",
+      "title": "relay",
+      "description": "A framework for building data-driven React applications",
+      "category": "React State Management and Data Fetching",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/pmndrs/jotai",
+      "title": "jotai",
+      "description": "Primitive and flexible state management for React",
+      "category": "React State Management and Data Fetching",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/statelyai/xstate",
+      "title": "xstate",
+      "description": "State machines and statecharts for the modern web",
+      "category": "React State Management and Data Fetching",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/effector/effector",
+      "title": "effector",
+      "description": "Business logic with ease",
+      "category": "React State Management and Data Fetching",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/immerjs/immer",
+      "title": "immer",
+      "description": "Create the next immutable state by mutating the current one",
+      "category": "React State Management and Data Fetching",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/pubkey/rxdb",
+      "title": "rxdb",
+      "description": "A fast, offline-first, reactive database for JavaScript Applications",
+      "category": "React State Management and Data Fetching",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/styled-components/styled-components",
+      "title": "styled-components",
+      "description": "Visual primitives for the component age",
+      "category": "React Styling",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/emotion-js/emotion",
+      "title": "emotion",
+      "description": "CSS-in-JS library designed for high performance style composition",
+      "category": "React Styling",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/vanilla-extract-css/vanilla-extract",
+      "title": "vanilla-extract",
+      "description": "Zero-runtime Stylesheets-in-TypeScript",
+      "category": "React Styling",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/react-icons/react-icons",
+      "title": "react-icons",
+      "description": "SVG React icons of popular icon packs",
+      "category": "React Icon Libraries",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/lucide-icons/lucide",
+      "title": "lucide-react",
+      "description": "Beautiful & consistent icon toolkit",
+      "category": "React Icon Libraries",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/tailwindlabs/heroicons",
+      "title": "heroicons",
+      "description": "Beautiful hand-crafted SVG icons by the makers of Tailwind CSS",
+      "category": "React Icon Libraries",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/GLINCKER/thesvg",
+      "title": "thesvg",
+      "description": "A collection of free SVG icons for popular brands and technologies",
+      "category": "React Icon Libraries",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/remix-run/react-router",
+      "title": "react-router",
+      "description": "Declarative routing for React",
+      "category": "React Routing",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/TanStack/router",
+      "title": "tanstack-router",
+      "description": "Type-safe router with built-in caching & URL state management",
+      "category": "React Routing",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/infinitered/reactotron",
+      "title": "reactotron",
+      "description": "A desktop app for inspecting your React and React Native projects",
+      "category": "React Development Tools",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/jsx-eslint/eslint-plugin-react",
+      "title": "eslint-plugin-react",
+      "description": "React specific linting rules for ESLint",
+      "category": "React Development Tools",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/aidenybai/react-scan",
+      "title": "react-scan",
+      "description": "Scan for React performance issues and eliminate slow renders in your app",
+      "category": "React Development Tools",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/welldone-software/why-did-you-render",
+      "title": "why-did-you-render",
+      "description": "Monkey patches React to notify you about avoidable re-renders",
+      "category": "React Development Tools",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/vercel/ai",
+      "title": "ai-sdk",
+      "description": "The AI Toolkit for TypeScript and React from the creators of Next.js",
+      "category": "React Libraries",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/preactjs/preact",
+      "title": "preact",
+      "description": "Fast React alternative with the same modern API",
+      "category": "React Libraries",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/floating-ui/floating-ui",
+      "title": "floating-ui",
+      "description": "Toolkit to create floating elements",
+      "category": "React Libraries",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/gregberge/loadable-components",
+      "title": "loadable-components",
+      "description": "The recommended Code Splitting library for React",
+      "category": "React Libraries",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/rpldy/react-uploady",
+      "title": "react-uploady",
+      "description": "Modern file-upload components & hooks for React",
+      "category": "React Libraries",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/downshift-js/downshift",
+      "title": "downshift",
+      "description": "React autocomplete, combobox or select dropdown components",
+      "category": "React Libraries",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/bvaughn/react-error-boundary",
+      "title": "react-error-boundary",
+      "description": "A React error boundary component that lets you catch errors",
+      "category": "React Libraries",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest",
+      "title": "jest",
+      "description": "Delightful JavaScript Testing",
+      "category": "React Testing",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/testing-library/react-testing-library",
+      "title": "react-testing-library",
+      "description": "Simple and complete React DOM testing utilities",
+      "category": "React Testing",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress",
+      "title": "cypress",
+      "description": "Fast, easy and reliable testing for anything that runs in a browser",
+      "category": "React Testing",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/brillout/awesome-react-components",
+      "title": "Awesome React Components",
+      "description": null,
+      "category": "React Awesome Components",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/JedWatson/react-select",
+      "title": "react-select",
+      "description": "The Select Component for React",
+      "category": "React Awesome Components",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/bigcalendar/react-big-calendar",
+      "title": "react-big-calendar",
+      "description": "Calendar component",
+      "category": "React Awesome Components",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/Hacker0x01/react-datepicker/",
+      "title": "react-datepicker",
+      "description": "A simple and reusable datepicker component for React",
+      "category": "React Awesome Components",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/zpao/qrcode.react",
+      "title": "react-qrcode",
+      "description": "QR component for use with React",
+      "category": "React Awesome Components",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/pierpo/react-archer",
+      "title": "react-archer",
+      "description": "Draw arrows between React elements",
+      "category": "React Awesome Components",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/lukasbach/react-complex-tree",
+      "title": "react-complex-tree",
+      "description": "Unopinionated Accessible Tree",
+      "category": "React Awesome Components",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/mohitk05/react-insta-stories",
+      "title": "react-insta-stories",
+      "description": "A React component for Instagram like stories",
+      "category": "React Awesome Components",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/timolins/react-hot-toast",
+      "title": "react-hot-toast",
+      "description": "Lightweight and customizable toast notifications for React",
+      "category": "React Awesome Components",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/nolimits4web/swiper",
+      "title": "swiper",
+      "description": "Most modern mobile touch slider",
+      "category": "React Awesome Components",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/rcbyr/keen-slider",
+      "title": "keen-slider",
+      "description": "The Touch slider carousel",
+      "category": "React Awesome Components",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/anatoliygatt/heart-switch",
+      "title": "heart-switch",
+      "description": "A heart-shaped toggle switch component for React",
+      "category": "React Awesome Components",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/timc1/kbar",
+      "title": "kbar",
+      "description": "Fast, portable, and extensible cmd+k interface for your site",
+      "category": "React Awesome Components",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/yairEO/tagify",
+      "title": "tagify",
+      "description": "Lightweight, efficient Tags input component",
+      "category": "React Awesome Components",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/puckeditor/puck",
+      "title": "puck",
+      "description": "The visual editor for React",
+      "category": "React Awesome Components",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/CarlosNZ/json-edit-react",
+      "title": "json-edit-react",
+      "description": "Highly configurable JSON/Object tree editor/viewer",
+      "category": "React Awesome Components",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/storybookjs/storybook",
+      "title": "storybook",
+      "description": "Storybook is a frontend workshop for building UI components and pages in isolation",
+      "category": "React Components Sandboxes",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/react-cosmos/react-cosmos",
+      "title": "react-cosmos",
+      "description": "Dev tool for creating reusable React components",
+      "category": "React Components Sandboxes",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/react-hook-form/react-hook-form",
+      "title": "react-hook-form",
+      "description": "React Hooks for form state management and validation",
+      "category": "React Forms",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/rjsf-team/react-jsonschema-form",
+      "title": "react-jsonschema-form",
+      "description": "A React component for building Web forms from JSON Schema",
+      "category": "React Forms",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/alibaba/formily",
+      "title": "formily",
+      "description": "Alibaba Group Unified Form Solution",
+      "category": "React Forms",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/TanStack/form",
+      "title": "tanstack-form",
+      "description": "Headless, performant, and type-safe form state management",
+      "category": "React Forms",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/react-grid-layout/react-grid-layout",
+      "title": "react-grid-layout",
+      "description": "A draggable and resizable grid layout with responsive breakpoints",
+      "category": "React Tables and Grids",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/TanStack/table",
+      "title": "tanstack-table",
+      "description": "Headless UI for building powerful tables & datagrids",
+      "category": "React Tables and Grids",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/Comcast/react-data-grid",
+      "title": "react-data-grid",
+      "description": "Feature-rich and customizable data grid React component",
+      "category": "React Tables and Grids",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/visgl/react-map-gl",
+      "title": "react-map-gl",
+      "description": "React friendly API wrapper around MapboxGL JS",
+      "category": "React Maps",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/PaulLeCam/react-leaflet",
+      "title": "react-leaflet",
+      "description": "React components for Leaflet maps",
+      "category": "React Maps",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/recharts/recharts",
+      "title": "recharts",
+      "description": "Redefined chart library built with React and D3",
+      "category": "React Charts",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/airbnb/visx",
+      "title": "visx",
+      "description": "Visualization components",
+      "category": "React Charts",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/FormidableLabs/victory",
+      "title": "victory",
+      "description": "A collection of composable React components for building interactive data visualizations",
+      "category": "React Charts",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/uber/react-vis",
+      "title": "react-vis",
+      "description": "Data Visualization Components",
+      "category": "React Charts",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/plouc/nivo",
+      "title": "nivo",
+      "description": "Provides a rich set of data visualization components built on top of the D3 and React libraries",
+      "category": "React Charts",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/xyflow/xyflow",
+      "title": "xyflow",
+      "description": "A customizable React component for building node-based editors and interactive diagrams",
+      "category": "React Charts",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/pmndrs/react-three-fiber",
+      "title": "react-three-fiber",
+      "description": "A React renderer for Three.js",
+      "category": "React Renderers",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/remotion-dev/remotion",
+      "title": "remotion",
+      "description": "Make videos programmatically with React",
+      "category": "React Renderers",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/diegomura/react-pdf",
+      "title": "react-pdf",
+      "description": "Create PDF files using React",
+      "category": "React Renderers",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/react-figma/react-figma",
+      "title": "react-figma",
+      "description": "A React renderer for Figma",
+      "category": "React Renderers",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/quantizor/markdown-to-jsx",
+      "title": "markdown-to-jsx",
+      "description": "A very fast and versatile markdown toolchain",
+      "category": "React Renderers",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/formatjs/formatjs",
+      "title": "formatjs",
+      "description": "Internationalize your web apps",
+      "category": "React Internationalization",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/i18next/react-i18next",
+      "title": "react-i18next",
+      "description": "Internationalization for React done right",
+      "category": "React Internationalization",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/aymericzip/intlayer",
+      "title": "react-intlayer",
+      "description": "Internationalization focused on maintainability for React",
+      "category": "React Internationalization",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/pmndrs/react-spring",
+      "title": "react-spring",
+      "description": "A spring physics based React animation library",
+      "category": "React Graphics and Animations",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/motiondivision/motion",
+      "title": "framer-motion",
+      "description": "Open source, production-ready animation and gesture library for React",
+      "category": "React Graphics and Animations",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/formkit/auto-animate",
+      "title": "auto-animate",
+      "description": "A zero-config, drop-in animation utility that adds smooth transitions",
+      "category": "React Graphics and Animations",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/tsparticles/tsparticles",
+      "title": "react-tsparticles",
+      "description": "Easily create highly customizable particles effects",
+      "category": "React Graphics and Animations",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/mkosir/react-parallax-tilt",
+      "title": "react-parallax-tilt",
+      "description": "Easily apply tilt hover effect on React components",
+      "category": "React Graphics and Animations",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/geosigno/simpleParallax.js",
+      "title": "simple-parallax-js",
+      "description": "The easiest way to get a parallax effect with React and JavaScript",
+      "category": "React Graphics and Animations",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/rescript-lang/rescript",
+      "title": "rescript-compiler",
+      "description": "A robustly typed language that compiles to efficient and human-readable JavaScript",
+      "category": "React Integration",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/fulcrologic/fulcro",
+      "title": "fulcro",
+      "description": "A library for development of web applications in clj/cljs",
+      "category": "React Integration",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/mattermost/mattermost",
+      "title": "mattermost-server",
+      "description": "An open source platform for secure collaboration",
+      "category": "React Real Apps",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/elastic/kibana",
+      "title": "kibana",
+      "description": "Your window into the Elastic Stack",
+      "category": "React Real Apps",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/captbaritone/webamp",
+      "title": "webamp",
+      "description": "Winamp 2 reimplemented for the browser",
+      "category": "React Real Apps",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/gaearon/overreacted.io",
+      "title": "overreacted",
+      "description": "Personal blog by Dan Abramov",
+      "category": "React Real Apps",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/wavetermdev/waveterm",
+      "title": "wave",
+      "description": "An open-source, cross-platform terminal for seamless workflows",
+      "category": "React Real Apps",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/readest/readest",
+      "title": "readest",
+      "description": "A minimalistic, feature-rich and cross-platform eBook reader",
+      "category": "React Real Apps",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/aelassas/bookcars",
+      "title": "bookcars",
+      "description": "Car rental platform",
+      "category": "React Real Apps",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/Notifuse/notifuse",
+      "title": "notifuse",
+      "description": "Modern self-hosted emailing platform to send newsletters & transactional emails",
+      "category": "React Real Apps",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://reactnative.dev/",
+      "title": "React Native Official Website",
+      "description": null,
+      "category": "React Native General Resources",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/facebook/react-native",
+      "title": "React Native GitHub",
+      "description": null,
+      "category": "React Native General Resources",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://reactnative.dev/community/overview",
+      "title": "React Native Community",
+      "description": null,
+      "category": "React Native General Resources",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://expo.dev/",
+      "title": "Expo",
+      "description": null,
+      "category": "React Native General Resources",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/react-navigation/react-navigation",
+      "title": "react-navigation",
+      "description": "Routing and navigation for your React Native apps",
+      "category": "React Native Navigation",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/oblador/react-native-vector-icons",
+      "title": "react-native-vector-icons",
+      "description": "Customizable Icons for React Native",
+      "category": "React Native Awesome Components",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/FaridSafi/react-native-gifted-chat",
+      "title": "react-native-gifted-chat",
+      "description": "The most complete chat UI for React Native",
+      "category": "React Native Awesome Components",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/realm/realm-js",
+      "title": "realm-js",
+      "description": "A mobile database: an alternative to SQLite & key-value stores",
+      "category": "React Native Libraries",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/react-native-device-info/react-native-device-info",
+      "title": "react-native-device-info",
+      "description": "Device Information for React Native iOS and Android",
+      "category": "React Native Libraries",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://github.com/react-native-maps/react-native-maps",
+      "title": "react-native-maps",
+      "description": "React Native Mapview component",
+      "category": "React Native Libraries",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    },
+    {
+      "url": "https://i.creativecommons.org/l/by/4.0/88x31.png",
+      "title": "![CC0",
+      "description": null,
+      "category": "Contribution",
+      "source": "enaqx/awesome-react",
+      "indexedAt": "2026-07-23T14:52:56.340Z"
+    }
+  ],
+  "categories": [
+    "React General Resources",
+    "React Tutorials",
+    "React Frameworks",
+    "React Component Libraries",
+    "React State Management and Data Fetching",
+    "React Styling",
+    "React Icon Libraries",
+    "React Routing",
+    "React Development Tools",
+    "React Libraries",
+    "React Testing",
+    "React Awesome Components",
+    "React Components Sandboxes",
+    "React Forms",
+    "React Tables and Grids",
+    "React Maps",
+    "React Charts",
+    "React Renderers",
+    "React Internationalization",
+    "React Graphics and Animations",
+    "React Integration",
+    "React Real Apps",
+    "React Native General Resources",
+    "React Native Navigation",
+    "React Native Awesome Components",
+    "React Native Libraries",
+    "Contribution"
+  ],
+  "crawledAt": "2026-07-23T14:52:56.340Z"
+}

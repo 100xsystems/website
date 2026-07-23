@@ -1,0 +1,16 @@
+{
+  "id": "kafka",
+  "category": "tools",
+  "label": "Apache Kafka",
+  "aliases": [],
+  "description": "Distributed event streaming platform for high-throughput data pipelines",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Apache_Kafka",
+    "wikidata": "https://www.wikidata.org/wiki/Q1064721"
+  },
+  "indexedAt": "2026-07-23T14:36:24.879Z"
+}

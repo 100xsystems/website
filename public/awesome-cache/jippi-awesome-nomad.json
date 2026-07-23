@@ -1,0 +1,324 @@
+{
+  "repoId": "jippi/awesome-nomad",
+  "name": "A curated list of amazingly awesome Nomad tools and shiny things.",
+  "description": "A curated list of amazingly awesome Nomad tools and shiny things.",
+  "repoUrl": "https://github.com/jippi/awesome-nomad",
+  "stars": 914,
+  "topics": [
+    "awesome",
+    "awesome-list",
+    "hashicorp",
+    "hashicorp-nomad",
+    "nomad"
+  ],
+  "links": [
+    {
+      "url": "https://github.com/hashicorp/damon",
+      "title": "hashicorp/damon",
+      "description": "An early stage terminal dashboard for Nomad.",
+      "category": "User interfaces",
+      "source": "jippi/awesome-nomad",
+      "indexedAt": "2026-07-23T14:53:34.149Z"
+    },
+    {
+      "url": "https://github.com/robinovitch61/wander",
+      "title": "robinovitch61/wander",
+      "description": "A terminal UI for Nomad.",
+      "category": "User interfaces",
+      "source": "jippi/awesome-nomad",
+      "indexedAt": "2026-07-23T14:53:34.149Z"
+    },
+    {
+      "url": "https://github.com/hashicorp/nomad-autoscaler/",
+      "title": "hashicorp/nomad-autoscaler",
+      "description": "HashiCorp's official Nomad Autoscaler. Supports scaling allocations within Nomad and scaling nodes on AWS, Azure, GCP, or arbitrary infrastructure via plugins.",
+      "category": "Autoscaling",
+      "source": "jippi/awesome-nomad",
+      "indexedAt": "2026-07-23T14:53:34.149Z"
+    },
+    {
+      "url": "https://github.com/lucretius/nomad-elastigroup-autoscaler",
+      "title": "lucretius/nomad-elastigroup-autoscaler",
+      "description": "Nomad Autoscaler plugin for [Spot.io Elastigroup](https://spot.io/products/elastigroup/).",
+      "category": "Autoscaling",
+      "source": "jippi/awesome-nomad",
+      "indexedAt": "2026-07-23T14:53:34.149Z"
+    },
+    {
+      "url": "https://getnelson.io/",
+      "title": "getnelson/nelson",
+      "description": "Lights-out deployment and lifecycle manager for Nomad (and other pluggable schedulers). Fully integrated with Vault and Consul. Optionally can act as a control plane for your traffic routing teir.",
+      "category": "CI / CD",
+      "source": "jippi/awesome-nomad",
+      "indexedAt": "2026-07-23T14:53:34.149Z"
+    },
+    {
+      "url": "https://github.com/jenkinsci/nomad-plugin",
+      "title": "jenkinsci/nomad-plugin",
+      "description": "Jenkins plugin to allow using Nomad Jobs to scale out Jenkins build slaves.",
+      "category": "CI / CD",
+      "source": "jippi/awesome-nomad",
+      "indexedAt": "2026-07-23T14:53:34.149Z"
+    },
+    {
+      "url": "https://github.com/hashicorp/levant",
+      "title": "hashicorp/levant",
+      "description": "A templating and deployment tool for HashiCorp Nomad jobs that provides realtime feedback and detailed failure messages upon deployment issues.",
+      "category": "CI / CD",
+      "source": "jippi/awesome-nomad",
+      "indexedAt": "2026-07-23T14:53:34.149Z"
+    },
+    {
+      "url": "https://github.com/marketplace/actions/setup-hashicorp-nomad-pack",
+      "title": "hashicorp/setup-nomad-pack",
+      "description": "HashiCorp-maintained GitHub Action for `nomad-pack`.",
+      "category": "CI / CD",
+      "source": "jippi/awesome-nomad",
+      "indexedAt": "2026-07-23T14:53:34.149Z"
+    },
+    {
+      "url": "https://github.com/nomad-ops/nomad-ops",
+      "title": "nomad-ops/nomad-ops",
+      "description": "A simple way to deploy workloads via GitOps. Similar to ArgoCD with a UI.",
+      "category": "CI / CD",
+      "source": "jippi/awesome-nomad",
+      "indexedAt": "2026-07-23T14:53:34.149Z"
+    },
+    {
+      "url": "https://github.com/sunshard-prism/prism-nomad",
+      "title": "sunshard-prism/prism-nomad)",
+      "description": "Prism is a tool that simplifies the creation of Nomad job configuration templates and deploys them to a remote cluster.",
+      "category": "CI / CD",
+      "source": "jippi/awesome-nomad",
+      "indexedAt": "2026-07-23T14:53:34.149Z"
+    },
+    {
+      "url": "https://github.com/gerrowadat/nomad-gitops",
+      "title": "gerrowadat/nomad-gitops",
+      "description": "Another implementation of 'gitops' style drift detection and deployment for Nomad.",
+      "category": "CI / CD",
+      "source": "jippi/awesome-nomad",
+      "indexedAt": "2026-07-23T14:53:34.149Z"
+    },
+    {
+      "url": "https://gitlab.com/CarbonCollins/nomad-usb-device-plugin",
+      "title": "CarbonCollins/nomad-usb-device-plugin",
+      "description": "A USB device plugin for nomad deployments.",
+      "category": "Plugins",
+      "source": "jippi/awesome-nomad",
+      "indexedAt": "2026-07-23T14:53:34.149Z"
+    },
+    {
+      "url": "https://git.deuxfleurs.fr/Deuxfleurs/nomad-driver-nix2",
+      "title": "Deuxfleurs/nomad-driver-nix2",
+      "description": "A driver to run Nix jobs on Nomad.",
+      "category": "Plugins",
+      "source": "jippi/awesome-nomad",
+      "indexedAt": "2026-07-23T14:53:34.149Z"
+    },
+    {
+      "url": "https://github.com/JanMa/nomad-driver-nspawn",
+      "title": "JanMa/nomad-driver-nspawn",
+      "description": "A nomad task driver to run containers with [systemd-nspawn](https://www.freedesktop.org/software/systemd/man/systemd-nspawn.html).",
+      "category": "Plugins",
+      "source": "jippi/awesome-nomad",
+      "indexedAt": "2026-07-23T14:53:34.149Z"
+    },
+    {
+      "url": "https://github.com/Roblox/nomad-driver-containerd",
+      "title": "Roblox/nomad-driver-containerd",
+      "description": "A nomad task driver for [containerd](https://containerd.io). Documentation on [`nomadproject.io`](https://www.nomadproject.io/docs/drivers/external/containerd).",
+      "category": "Plugins",
+      "source": "jippi/awesome-nomad",
+      "indexedAt": "2026-07-23T14:53:34.149Z"
+    },
+    {
+      "url": "https://github.com/Roblox/nomad-driver-iis",
+      "title": "Roblox/nomad-driver-iis",
+      "description": "A nomad task driver to run [windows IIS](https://www.iis.net/) tasks.",
+      "category": "Plugins",
+      "source": "jippi/awesome-nomad",
+      "indexedAt": "2026-07-23T14:53:34.149Z"
+    },
+    {
+      "url": "https://github.com/sevensolutions/nomad-iis",
+      "title": "sevensolutions/nomad-iis",
+      "description": "A nomad task driver to run [windows IIS](https://www.iis.net/) tasks.",
+      "category": "Plugins",
+      "source": "jippi/awesome-nomad",
+      "indexedAt": "2026-07-23T14:53:34.149Z"
+    },
+    {
+      "url": "https://github.com/sorenisanerd/nomad-docker-driver-external",
+      "title": "sorenisanerd/nomad-docker-driver-external",
+      "description": "External version of the docker driver for Nomad.",
+      "category": "Plugins",
+      "source": "jippi/awesome-nomad",
+      "indexedAt": "2026-07-23T14:53:34.149Z"
+    },
+    {
+      "url": "https://github.com/hashicorp/nomad-pack-community-registry",
+      "title": "hashicorp/nomad-pack-community-registry",
+      "description": "The official community registry for Nomad Pack templates.",
+      "category": "Job Files and Packs",
+      "source": "jippi/awesome-nomad",
+      "indexedAt": "2026-07-23T14:53:34.149Z"
+    },
+    {
+      "url": "https://github.com/perrymanuk/hashi-homelab",
+      "title": "perrymanuk/hashi-homelab",
+      "description": null,
+      "category": "Job Files and Packs",
+      "source": "jippi/awesome-nomad",
+      "indexedAt": "2026-07-23T14:53:34.149Z"
+    },
+    {
+      "url": "http://github.com/axsuul/nomad-event-streamer",
+      "title": "axsuul/nomad-event-streamer",
+      "description": "A tool for sending Nomad events to your favorite destinations like Discord and Slack.",
+      "category": "Utilities",
+      "source": "jippi/awesome-nomad",
+      "indexedAt": "2026-07-23T14:53:34.149Z"
+    },
+    {
+      "url": "https://github.com/ngine-io/chaotic",
+      "title": "ngine-io/chaotic",
+      "description": "Chaos monkey with integrated nomad support. Runs as batch job or service and kills allocations periodically and randomly.",
+      "category": "Utilities",
+      "source": "jippi/awesome-nomad",
+      "indexedAt": "2026-07-23T14:53:34.149Z"
+    },
+    {
+      "url": "https://github.com/jsiebens/hashi-up",
+      "title": "jsiebens/hashi-up",
+      "description": "A lightweight utility to install Nomad (and other HashiCorp tools) on any remote Linux host.",
+      "category": "Utilities",
+      "source": "jippi/awesome-nomad",
+      "indexedAt": "2026-07-23T14:53:34.149Z"
+    },
+    {
+      "url": "https://github.com/let-sh/nomad-deploy-result-action",
+      "title": "let-sh/nomad-deploy-result-action",
+      "description": "A GitHub action for automating Nomad deploys with GitOps.",
+      "category": "Utilities",
+      "source": "jippi/awesome-nomad",
+      "indexedAt": "2026-07-23T14:53:34.149Z"
+    },
+    {
+      "url": "https://github.com/koyeb/kreconciler",
+      "title": "koyeb/kreconciler",
+      "description": "A library for building operators and reconcilers on top of Nomad (or other schedulers).",
+      "category": "Utilities",
+      "source": "jippi/awesome-nomad",
+      "indexedAt": "2026-07-23T14:53:34.149Z"
+    },
+    {
+      "url": "https://github.com/mr-karan/nomad-events-sink",
+      "title": "mr-karan/nomad-events-sink",
+      "description": "Ships nomad event logs to dedicated sinks",
+      "category": "Utilities",
+      "source": "jippi/awesome-nomad",
+      "indexedAt": "2026-07-23T14:53:34.149Z"
+    },
+    {
+      "url": "https://github.com/mr-karan/nomcfg",
+      "title": "mr-karan/nomcfg",
+      "description": "A ui for generating nomad job specs",
+      "category": "Utilities",
+      "source": "jippi/awesome-nomad",
+      "indexedAt": "2026-07-23T14:53:34.149Z"
+    },
+    {
+      "url": "https://github.com/Roblox/nomad-node-problem-detector",
+      "title": "Roblox/nomad-node-problem-detector",
+      "description": "A tool used to detect problems on Nomad nodes based on user-defined health checks.",
+      "category": "Utilities",
+      "source": "jippi/awesome-nomad",
+      "indexedAt": "2026-07-23T14:53:34.149Z"
+    },
+    {
+      "url": "https://github.com/hashicorp/nomad-pack",
+      "title": "hashicorp/nomad-pack",
+      "description": "An official templating tool and package manager for Nomad, currently a Tech Preview.",
+      "category": "Utilities",
+      "source": "jippi/awesome-nomad",
+      "indexedAt": "2026-07-23T14:53:34.149Z"
+    },
+    {
+      "url": "https://github.com/dmaes/nomad-logger",
+      "title": "dmaes/nomad-logger",
+      "description": "Watch Nomad allocations and update logshipper config.",
+      "category": "Utilities",
+      "source": "jippi/awesome-nomad",
+      "indexedAt": "2026-07-23T14:53:34.149Z"
+    },
+    {
+      "url": "https://git.deuxfleurs.fr/Deuxfleurs/albatros",
+      "title": "Deuxfleurs/albatros",
+      "description": "A lightweight and (quasi-)stateless CI built on top of Nomad.",
+      "category": "Utilities",
+      "source": "jippi/awesome-nomad",
+      "indexedAt": "2026-07-23T14:53:34.149Z"
+    },
+    {
+      "url": "https://github.com/Kamilcuk/nomad-tools",
+      "title": "kamilcuk/nomad-tools",
+      "description": "`docker run` for Nomad, watch all logs and events of a job in the terminal, copy files to/from host and allocations, manage Nomad variables as files, list ports associated with job, implementation of [custom `gitlab-runner` executor](https://docs.gitlab.com/runner/executors/custom.html) that executes Gitlab CI/CD jobs as Nomad jobs.",
+      "category": "Utilities",
+      "source": "jippi/awesome-nomad",
+      "indexedAt": "2026-07-23T14:53:34.149Z"
+    },
+    {
+      "url": "https://github.com/anubhavmishra/envoy-consul-sds",
+      "title": "anubhavmishra/envoy-consul-sds",
+      "description": "A tutorial on how to get Envoy running on Nomad and using Envoy's SDS(Service Discovery Service) to access Consul API.",
+      "category": "Tutorials",
+      "source": "jippi/awesome-nomad",
+      "indexedAt": "2026-07-23T14:53:34.149Z"
+    },
+    {
+      "url": "https://github.com/kelseyhightower/hashiconf-eu-2016",
+      "title": "kelseyhightower/hashiconf-eu-2016",
+      "description": "Repo from a talk on building out a deployment with GCE/Consul/Nomad/Fabio loadbalancer. Check out the talk on youtube: https://www.youtube.com/watch?v=Nosa5-xcATw",
+      "category": "Tutorials",
+      "source": "jippi/awesome-nomad",
+      "indexedAt": "2026-07-23T14:53:34.149Z"
+    },
+    {
+      "url": "https://github.com/pete0emerson/hashipoc",
+      "title": "pete0emerson/hashipoc",
+      "description": "A Vagrant driven example of getting Consul / Vault / Nomad up and running with a sample app deployed",
+      "category": "Examples / Demos",
+      "source": "jippi/awesome-nomad",
+      "indexedAt": "2026-07-23T14:53:34.149Z"
+    },
+    {
+      "url": "https://github.com/fhemberger/nomad-demo",
+      "title": "fhemberger/nomad-demo",
+      "description": "Vagrant based demo setup for running Hashicorp Consul, Nomad and Vault, including sample apps for Docker, JRE and a basic monitoring setup. Uses Traefik as load balancer to pick up services directly from Consul catalog.",
+      "category": "Examples / Demos",
+      "source": "jippi/awesome-nomad",
+      "indexedAt": "2026-07-23T14:53:34.149Z"
+    },
+    {
+      "url": "https://github.com/prabirshrestha/synology-nomad",
+      "title": "prabirshrestha/synology-nomad",
+      "description": "HashiCorp Nomad Package for Synology DSM 7+. Includes client and server.",
+      "category": "Other",
+      "source": "jippi/awesome-nomad",
+      "indexedAt": "2026-07-23T14:53:34.149Z"
+    }
+  ],
+  "categories": [
+    "User interfaces",
+    "Autoscaling",
+    "CI / CD",
+    "Plugins",
+    "Job Files and Packs",
+    "Utilities",
+    "Tutorials",
+    "Examples / Demos",
+    "Other"
+  ],
+  "crawledAt": "2026-07-23T14:53:34.149Z"
+}

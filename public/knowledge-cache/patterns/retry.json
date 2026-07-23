@@ -1,0 +1,13 @@
+{
+  "id": "retry",
+  "category": "patterns",
+  "label": "Retry Pattern",
+  "aliases": [],
+  "description": "Automatically retries failed operations to handle transient faults",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {},
+  "indexedAt": "2026-07-23T14:36:46.559Z"
+}

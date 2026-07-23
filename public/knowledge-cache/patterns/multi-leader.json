@@ -1,0 +1,13 @@
+{
+  "id": "multi-leader",
+  "category": "patterns",
+  "label": "Multi-Leader Replication",
+  "aliases": [],
+  "description": "Multiple nodes accept writes that are replicated to all others",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {},
+  "indexedAt": "2026-07-23T14:36:50.299Z"
+}

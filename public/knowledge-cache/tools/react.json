@@ -1,0 +1,16 @@
+{
+  "id": "react",
+  "category": "tools",
+  "label": "React",
+  "aliases": [],
+  "description": "JavaScript library for building user interfaces",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/React_(web_framework)",
+    "wikidata": "https://www.wikidata.org/wiki/Q17492534"
+  },
+  "indexedAt": "2026-07-23T14:36:28.734Z"
+}

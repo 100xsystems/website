@@ -1,0 +1,16 @@
+{
+  "id": "template-method",
+  "category": "patterns",
+  "label": "Template Method",
+  "aliases": [],
+  "description": "Defines the skeleton of an algorithm, letting subclasses implement specific steps",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Template_method_pattern",
+    "wikidata": "https://www.wikidata.org/wiki/Q565328"
+  },
+  "indexedAt": "2026-07-23T14:36:44.386Z"
+}

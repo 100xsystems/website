@@ -1,0 +1,16 @@
+{
+  "id": "publish-subscribe",
+  "category": "patterns",
+  "label": "Publisher-Subscriber",
+  "aliases": [],
+  "description": "Messaging pattern where senders publish events to channels consumed by subscribers",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern",
+    "wikidata": "https://www.wikidata.org/wiki/Q1330257"
+  },
+  "indexedAt": "2026-07-23T14:36:46.904Z"
+}

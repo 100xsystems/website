@@ -1,0 +1,16 @@
+{
+  "id": "webassembly",
+  "category": "languages",
+  "label": "WebAssembly",
+  "aliases": [],
+  "description": "Binary instruction format for stack-based virtual machines in web browsers",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/WebAssembly",
+    "wikidata": "https://www.wikidata.org/wiki/Q27780718"
+  },
+  "indexedAt": "2026-07-23T14:36:19.120Z"
+}

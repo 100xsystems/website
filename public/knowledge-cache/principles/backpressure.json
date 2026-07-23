@@ -1,0 +1,16 @@
+{
+  "id": "backpressure",
+  "category": "principles",
+  "label": "Backpressure",
+  "aliases": [],
+  "description": "A mechanism to regulate data flow between components when a receiver is overwhelmed",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Back_pressure",
+    "wikidata": "https://www.wikidata.org/wiki/Q4839716"
+  },
+  "indexedAt": "2026-07-23T14:36:08.513Z"
+}

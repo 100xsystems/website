@@ -1,0 +1,16 @@
+{
+  "id": "express",
+  "category": "tools",
+  "label": "Express.js",
+  "aliases": [],
+  "description": "Minimal and flexible Node.js web application framework",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Express.js",
+    "wikidata": "https://www.wikidata.org/wiki/Q645997"
+  },
+  "indexedAt": "2026-07-23T14:36:32.086Z"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "replication",
+  "category": "patterns",
+  "label": "Replication",
+  "aliases": [],
+  "description": "Sharing information to ensure consistency in computing",
+  "summary": "Replication in computing refers to maintain multiple copies of data, processes, or resources to ensure consistency across redundant components. This fundamental technique spans databases, file systems, and distributed systems, serving to improve availability, fault-tolerance, accessibility, and performance. Through replication, systems can continue operating when components fail (failover), serve requests from geographically distributed locations, and balance load across multiple machines. The challenge lies in maintaining consistency between replicas while managing the fundamental tradeoffs between data consistency, system availability, and network partition tolerance – constraints known as the CAP theorem.",
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Replication_(computing)",
+    "wikidata": "https://www.wikidata.org/wiki/Q1506682"
+  },
+  "indexedAt": "2026-07-23T14:36:50.297Z"
+}

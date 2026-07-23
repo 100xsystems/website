@@ -1,0 +1,16 @@
+{
+  "id": "nextjs",
+  "category": "tools",
+  "label": "Next.js",
+  "aliases": [],
+  "description": "React framework for production-grade full-stack web applications",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Next.js",
+    "wikidata": "https://www.wikidata.org/wiki/Q25162925"
+  },
+  "indexedAt": "2026-07-23T14:36:29.053Z"
+}

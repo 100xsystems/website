@@ -1,0 +1,16 @@
+{
+  "id": "two-phase-commit",
+  "category": "patterns",
+  "label": "Two-Phase Commit",
+  "aliases": [],
+  "description": "Computer science transaction algorithm",
+  "summary": "In transaction processing, databases, and computer networking, the two-phase commit protocol is a type of atomic commitment protocol (ACP). It is a distributed algorithm that coordinates all the processes that participate in a distributed atomic transaction on whether to commit or abort the transaction. This protocol achieves its goal even in many cases of temporary system failure, and is thus widely used.\nHowever, it is not resilient to all possible failure configurations, and in rare cases, manual intervention is needed to remedy an outcome. To accommodate recovery from failure the protocol's participants use logging of the protocol's states. Log records, which are typically slow to generate but survive failures, are used by the protocol's recovery procedures. Many protocol variants exist that primarily differ in logging strategies and recovery mechanisms. Though usually intended to be used infrequently, recovery procedures compose a substantial portion of the protocol, due to many possible failure scenarios to be considered and supported by the protocol.",
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Two-phase_commit_protocol",
+    "wikidata": "https://www.wikidata.org/wiki/Q606607"
+  },
+  "indexedAt": "2026-07-23T14:36:46.232Z"
+}

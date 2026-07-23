@@ -1,0 +1,16 @@
+{
+  "id": "elixir",
+  "category": "languages",
+  "label": "Elixir",
+  "aliases": [],
+  "description": "Functional language built on Erlang VM for fault-tolerant distributed systems",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Elixir_(programming_language)",
+    "wikidata": "https://www.wikidata.org/wiki/Q13335577"
+  },
+  "indexedAt": "2026-07-23T14:36:16.982Z"
+}

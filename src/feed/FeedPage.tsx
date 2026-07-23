@@ -8,10 +8,10 @@ import { ArticleCard } from './ArticleCard';
 import { fetchFeedAll } from './feed.api';
 import { sortByNewest, sortByHnScore, filterByTags } from './feed.utils';
 import { useBookmarks } from './useBookmarks';
+import { useFeedPreferences } from './useFeedPreferences';
 import type { Article } from './feed.types';
 import { Heading, Text, SkeletonBlock, Alert, Icon } from '@/presentation/__components';
 
-const PREFS_KEY = '100xfeed-preferences';
 const HISTORY_KEY = '100xfeed-history';
 
 function loadFromStorage<T>(key: string, fallback: T): T {
@@ -22,9 +22,6 @@ function loadFromStorage<T>(key: string, fallback: T): T {
 function saveToStorage<T>(key: string, value: T): void {
   try { localStorage.setItem(key, JSON.stringify(value)); } catch { /* unavailable */ }
 }
-
-interface SavedPreferences { selectedFeeds: string[]; selectedTags: string[]; sortBy: 'newest' | 'hn-rank'; }
-const DEFAULT_PREFS: SavedPreferences = { selectedFeeds: [], selectedTags: [], sortBy: 'newest' };
 
 function loadReadingHistory(): string[] { return loadFromStorage<string[]>(HISTORY_KEY, []); }
 function saveReadingHistory(history: string[]): void { saveToStorage(HISTORY_KEY, history); }
@@ -63,10 +60,16 @@ export function FeedPage({ initialTag }: { initialTag?: string }) {
   const [allArticles, setAllArticles] = React.useState<Article[]>([]);
   const [isLoading, setIsLoading] = React.useState(true);
   const [error, setError] = React.useState<string | null>(null);
-  const [selectedFeeds, setSelectedFeeds] = React.useState<string[]>([]);
-  const [selectedTags, setSelectedTags] = React.useState<string[]>([]);
-  const [sortBy, setSortBy] = React.useState<'newest' | 'hn-rank'>('newest');
-  const { bookmarks, isBookmarked, toggleBookmark, isSyncing } = useBookmarks();
+  const { bookmarks, isBookmarked, toggleBookmark, isSyncing: bmSyncing } = useBookmarks();
+  const {
+    selectedFeeds,
+    selectedTags,
+    sortBy,
+    setSelectedFeeds,
+    setSelectedTags,
+    setSortBy,
+    isSyncing: prefsSyncing,
+  } = useFeedPreferences(initialTag);
   const [readingHistory, setReadingHistory] = React.useState<string[]>([]);
   const [searchQuery, setSearchQuery] = React.useState('');
 
@@ -74,17 +77,9 @@ export function FeedPage({ initialTag }: { initialTag?: string }) {
   const [focusedIndex, setFocusedIndex] = React.useState(-1);
   const sortedArticlesRef = React.useRef<Article[]>([]);
 
-  // Restore preferences and apply initial tag if provided (from /feed/[tag] page)
+  // Restore reading history on mount
   React.useEffect(() => {
-    const prefs = loadFromStorage<SavedPreferences>(PREFS_KEY, DEFAULT_PREFS);
-    setSelectedFeeds(prefs.selectedFeeds);
-    setSelectedTags(initialTag ? [initialTag] : prefs.selectedTags);
-    setSortBy(prefs.sortBy);
     setReadingHistory(loadReadingHistory());
-  }, [initialTag]);
-
-  const savePrefs = React.useCallback((feeds: string[], tags: string[], sort: 'newest' | 'hn-rank') => {
-    saveToStorage<SavedPreferences>(PREFS_KEY, { selectedFeeds: feeds, selectedTags: tags, sortBy: sort });
   }, []);
 
   // Load feed — reads from registry cache via API (fast, no timeout risk)
@@ -106,10 +101,10 @@ export function FeedPage({ initialTag }: { initialTag?: string }) {
   // Load on mount and when feeds change
   React.useEffect(() => { loadFeed(); }, [loadFeed]);
 
-  // Handlers
-  const handleFeedSelectionChange = (feeds: string[]) => { setSelectedFeeds(feeds); savePrefs(feeds, selectedTags, sortBy); };
-  const handleTagSelectionChange = (tags: string[]) => { setSelectedTags(tags); savePrefs(selectedFeeds, tags, sortBy); };
-  const handleSortChange = (sort: 'newest' | 'hn-rank') => { setSortBy(sort); savePrefs(selectedFeeds, selectedTags, sort); };
+  // Handlers — use the hook's setter functions which save to localStorage + Turso
+  const handleFeedSelectionChange = (feeds: string[]) => { setSelectedFeeds(feeds); };
+  const handleTagSelectionChange = (tags: string[]) => { setSelectedTags(tags); };
+  const handleSortChange = (sort: 'newest' | 'hn-rank') => { setSortBy(sort); };
 
   const handleReadArticle = (url: string) => { const updated = addToReadingHistory(url); setReadingHistory(updated); };
 
@@ -237,7 +232,7 @@ export function FeedPage({ initialTag }: { initialTag?: string }) {
           <div className="space-y-3">
             {sortedArticles.map((article, index) => (
               <div key={article.id} ref={(el) => { if (el) articleRefs.current.set(article.id, el); else articleRefs.current.delete(article.id); }}>
-                <ArticleCard article={article} isBookmarked={bookmarks.some((b) => b.url === article.url)} isRead={readingHistory.includes(article.url)} isFocused={index === focusedIndex} onBookmarkToggle={toggleBookmark} onRead={handleReadArticle} />
+                <ArticleCard article={article} isBookmarked={bookmarks.some((b) => b.url === article.url)} isRead={readingHistory.includes(article.url)} isFocused={index === focusedIndex} onBookmarkToggle={toggleBookmark} onRead={handleReadArticle} searchQuery={searchQuery} />
               </div>
             ))}
           </div>

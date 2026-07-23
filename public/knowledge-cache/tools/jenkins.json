@@ -1,0 +1,16 @@
+{
+  "id": "jenkins",
+  "category": "tools",
+  "label": "Jenkins",
+  "aliases": [],
+  "description": "Open-source automation server for continuous integration and delivery",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Jenkins_(software)",
+    "wikidata": "https://www.wikidata.org/wiki/Q1192605"
+  },
+  "indexedAt": "2026-07-23T14:36:28.400Z"
+}

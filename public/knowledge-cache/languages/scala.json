@@ -1,0 +1,16 @@
+{
+  "id": "scala",
+  "category": "languages",
+  "label": "Scala",
+  "aliases": [],
+  "description": "General-purpose programming language",
+  "summary": "Scala is a strongly statically typed high-level general-purpose programming language that supports both object-oriented programming and functional programming. Designed to be concise, many of Scala's design decisions are intended to address criticism of Java.",
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Scala_(programming_language)",
+    "wikidata": "https://www.wikidata.org/wiki/Q460584"
+  },
+  "indexedAt": "2026-07-23T14:36:16.647Z"
+}

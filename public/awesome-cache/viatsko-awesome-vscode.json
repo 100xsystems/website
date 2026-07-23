@@ -1,0 +1,258 @@
+{
+  "repoId": "viatsko/awesome-vscode",
+  "name": "🎨 A curated list of delightful VS Code packages and resources.",
+  "description": "🎨 A curated list of delightful VS Code packages and resources.",
+  "repoUrl": "https://github.com/viatsko/awesome-vscode",
+  "stars": 28903,
+  "topics": [
+    "awesome",
+    "awesome-list",
+    "list",
+    "visual-studio",
+    "visual-studio-code",
+    "visual-studio-code-extension",
+    "visual-studio-code-theme",
+    "visualstudio",
+    "vscode",
+    "vscode-extension",
+    "vscode-theme"
+  ],
+  "links": [
+    {
+      "url": "https://devblogs.microsoft.com/cppblog/vscode-cpp-may-2019-update/",
+      "title": "Microsoft's tutorial on using VSCode for remote C/C++ development",
+      "description": null,
+      "category": "More",
+      "source": "viatsko/awesome-vscode",
+      "indexedAt": "2026-07-23T14:54:12.697Z"
+    },
+    {
+      "url": "https://www.drupal.org/docs/develop/development-tools/configuring-visual-studio-code",
+      "title": "Configuring Visual Studio Code for Drupal",
+      "description": null,
+      "category": "Read more",
+      "source": "viatsko/awesome-vscode",
+      "indexedAt": "2026-07-23T14:54:12.697Z"
+    },
+    {
+      "url": "https://github.com/essence-language/vscode-extension",
+      "title": "Essence",
+      "description": null,
+      "category": "UI",
+      "source": "viatsko/awesome-vscode",
+      "indexedAt": "2026-07-23T14:54:12.697Z"
+    },
+    {
+      "url": "https://twitter.com/code",
+      "title": "@code",
+      "description": "The official VS Code Twitter",
+      "category": "[Niketa Theme by Dejan Toteff](https://vscodethemes.com/e/selfrefactor.niketa-theme)",
+      "source": "viatsko/awesome-vscode",
+      "indexedAt": "2026-07-23T14:54:12.697Z"
+    },
+    {
+      "url": "https://twitter.com/auchenberg",
+      "title": "@auchenberg",
+      "description": "VS Code Program Manager",
+      "category": "[Niketa Theme by Dejan Toteff](https://vscodethemes.com/e/selfrefactor.niketa-theme)",
+      "source": "viatsko/awesome-vscode",
+      "indexedAt": "2026-07-23T14:54:12.697Z"
+    },
+    {
+      "url": "https://twitter.com/BenjaminPasero",
+      "title": "@BenjaminPasero",
+      "description": "VS Code Dev",
+      "category": "[Niketa Theme by Dejan Toteff](https://vscodethemes.com/e/selfrefactor.niketa-theme)",
+      "source": "viatsko/awesome-vscode",
+      "indexedAt": "2026-07-23T14:54:12.697Z"
+    },
+    {
+      "url": "https://twitter.com/chrisdias",
+      "title": "@chrisdias",
+      "description": "VS Code Program Manager",
+      "category": "[Niketa Theme by Dejan Toteff](https://vscodethemes.com/e/selfrefactor.niketa-theme)",
+      "source": "viatsko/awesome-vscode",
+      "indexedAt": "2026-07-23T14:54:12.697Z"
+    },
+    {
+      "url": "https://twitter.com/_clarkio",
+      "title": "@_clarkio",
+      "description": "Developer Advocate @ Azure. Creator of VS Code release highlight videos",
+      "category": "[Niketa Theme by Dejan Toteff](https://vscodethemes.com/e/selfrefactor.niketa-theme)",
+      "source": "viatsko/awesome-vscode",
+      "indexedAt": "2026-07-23T14:54:12.697Z"
+    },
+    {
+      "url": "https://twitter.com/eamodio",
+      "title": "@eamodio",
+      "description": "GitLens creator",
+      "category": "[Niketa Theme by Dejan Toteff](https://vscodethemes.com/e/selfrefactor.niketa-theme)",
+      "source": "viatsko/awesome-vscode",
+      "indexedAt": "2026-07-23T14:54:12.697Z"
+    },
+    {
+      "url": "https://twitter.com/ErichGamma",
+      "title": "@ErichGamma",
+      "description": "VS Code Dev",
+      "category": "[Niketa Theme by Dejan Toteff](https://vscodethemes.com/e/selfrefactor.niketa-theme)",
+      "source": "viatsko/awesome-vscode",
+      "indexedAt": "2026-07-23T14:54:12.697Z"
+    },
+    {
+      "url": "https://twitter.com/IsidorN",
+      "title": "@IsidorN",
+      "description": "VS Code Dev",
+      "category": "[Niketa Theme by Dejan Toteff](https://vscodethemes.com/e/selfrefactor.niketa-theme)",
+      "source": "viatsko/awesome-vscode",
+      "indexedAt": "2026-07-23T14:54:12.697Z"
+    },
+    {
+      "url": "https://twitter.com/joaomoreno",
+      "title": "@joaomoreno",
+      "description": "VS Code Dev",
+      "category": "[Niketa Theme by Dejan Toteff](https://vscodethemes.com/e/selfrefactor.niketa-theme)",
+      "source": "viatsko/awesome-vscode",
+      "indexedAt": "2026-07-23T14:54:12.697Z"
+    },
+    {
+      "url": "https://twitter.com/lannonbr",
+      "title": "@lannonbr",
+      "description": "Creator of vscode.rocks & JS Parameter Annotations extension",
+      "category": "[Niketa Theme by Dejan Toteff](https://vscodethemes.com/e/selfrefactor.niketa-theme)",
+      "source": "viatsko/awesome-vscode",
+      "indexedAt": "2026-07-23T14:54:12.697Z"
+    },
+    {
+      "url": "https://twitter.com/maeschli",
+      "title": "@maeschli",
+      "description": "VS Code Dev",
+      "category": "[Niketa Theme by Dejan Toteff](https://vscodethemes.com/e/selfrefactor.niketa-theme)",
+      "source": "viatsko/awesome-vscode",
+      "indexedAt": "2026-07-23T14:54:12.697Z"
+    },
+    {
+      "url": "https://twitter.com/mattbierner",
+      "title": "@mattbierner",
+      "description": "VS Code Dev",
+      "category": "[Niketa Theme by Dejan Toteff](https://vscodethemes.com/e/selfrefactor.niketa-theme)",
+      "source": "viatsko/awesome-vscode",
+      "indexedAt": "2026-07-23T14:54:12.697Z"
+    },
+    {
+      "url": "https://twitter.com/MrAhmadAwais",
+      "title": "@MrAhmadAwais",
+      "description": "JS/WordPress Core Dev. Creator of VSCode.pro course & Shades of Purple theme",
+      "category": "[Niketa Theme by Dejan Toteff](https://vscodethemes.com/e/selfrefactor.niketa-theme)",
+      "source": "viatsko/awesome-vscode",
+      "indexedAt": "2026-07-23T14:54:12.697Z"
+    },
+    {
+      "url": "https://twitter.com/ramyanexus",
+      "title": "@ramyanexus",
+      "description": "VS Code Dev. Maintainer of Go extension",
+      "category": "[Niketa Theme by Dejan Toteff](https://vscodethemes.com/e/selfrefactor.niketa-theme)",
+      "source": "viatsko/awesome-vscode",
+      "indexedAt": "2026-07-23T14:54:12.697Z"
+    },
+    {
+      "url": "https://twitter.com/Tyriar",
+      "title": "@Tyriar",
+      "description": "VS Code Dev. Creator of xterm.js",
+      "category": "[Niketa Theme by Dejan Toteff](https://vscodethemes.com/e/selfrefactor.niketa-theme)",
+      "source": "viatsko/awesome-vscode",
+      "indexedAt": "2026-07-23T14:54:12.697Z"
+    },
+    {
+      "url": "https://code.visualstudio.com/api",
+      "title": "Visual Studio Code API",
+      "description": null,
+      "category": "Documentation",
+      "source": "viatsko/awesome-vscode",
+      "indexedAt": "2026-07-23T14:54:12.697Z"
+    },
+    {
+      "url": "https://www.npmjs.com/package/typed-vscode",
+      "title": "typed-vscode",
+      "description": "Generates types from contribution points of your extension manifest",
+      "category": "Libraries",
+      "source": "viatsko/awesome-vscode",
+      "indexedAt": "2026-07-23T14:54:12.697Z"
+    },
+    {
+      "url": "https://el-angel.github.io/theme-editor/",
+      "title": "Online TextMate Themes Editor",
+      "description": "since VS Code supports TextMate themes, you can create them in this online editor and then create a new VS Code package using [Yo Code](https://code.visualstudio.com/docs/extensions/yocode) tool",
+      "category": "Tools",
+      "source": "viatsko/awesome-vscode",
+      "indexedAt": "2026-07-23T14:54:12.697Z"
+    },
+    {
+      "url": "https://code.visualstudio.com/docs/extensions/yocode",
+      "title": "Yo Code - Extension Generator",
+      "description": null,
+      "category": "Tools",
+      "source": "viatsko/awesome-vscode",
+      "indexedAt": "2026-07-23T14:54:12.697Z"
+    },
+    {
+      "url": "https://github.com/sozercan/OpenInCode",
+      "title": "Open in Code",
+      "description": "macOS Finder toolbar app to open current folder in Visual Studio Code",
+      "category": "Tools",
+      "source": "viatsko/awesome-vscode",
+      "indexedAt": "2026-07-23T14:54:12.697Z"
+    },
+    {
+      "url": "https://themer.dev",
+      "title": "Themer",
+      "description": "Easily create your own theme for VS Code (and matching ones for your other tools).",
+      "category": "Tools",
+      "source": "viatsko/awesome-vscode",
+      "indexedAt": "2026-07-23T14:54:12.697Z"
+    },
+    {
+      "url": "https://vscode.pro/",
+      "title": "VSCode.pro",
+      "description": "📺 Huge five hours 65 videos VSCode course.",
+      "category": "Visual Studio Code Power User Course (commercial)",
+      "source": "viatsko/awesome-vscode",
+      "indexedAt": "2026-07-23T14:54:12.697Z"
+    }
+  ],
+  "categories": [
+    "1C",
+    "C++",
+    "More",
+    "C\\#, ASP .NET and .NET Core",
+    "[CSS Peek](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek)",
+    "Go",
+    "Groovy",
+    "Haskell",
+    "HLSL",
+    "Shell",
+    "Java",
+    "JavaScript",
+    "Linters",
+    "Framework-specific",
+    "Facebook Flow",
+    "IntelliSense",
+    "Laravel",
+    "Twig",
+    "Other extensions",
+    "Read more",
+    "POV-Ray",
+    "Python",
+    "TensorFlow",
+    "ReasonML",
+    "Ruby",
+    "Rust",
+    "Terraform",
+    "UI",
+    "[Niketa Theme by Dejan Toteff](https://vscodethemes.com/e/selfrefactor.niketa-theme)",
+    "Documentation",
+    "Libraries",
+    "Tools",
+    "Visual Studio Code Power User Course (commercial)"
+  ],
+  "crawledAt": "2026-07-23T14:54:12.697Z"
+}

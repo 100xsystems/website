@@ -1,0 +1,16 @@
+{
+  "id": "sharding",
+  "category": "patterns",
+  "label": "Sharding",
+  "aliases": [],
+  "description": "Horizontal partitioning of a database across multiple servers",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Shard_(database_architecture)",
+    "wikidata": "https://www.wikidata.org/wiki/Q2272893"
+  },
+  "indexedAt": "2026-07-23T14:36:50.069Z"
+}

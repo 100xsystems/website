@@ -1,0 +1,13 @@
+{
+  "id": "consistency-pattern",
+  "category": "principles",
+  "label": "Consistency Patterns",
+  "aliases": [],
+  "description": "Patterns for managing data consistency in distributed systems: strong, eventual, causal, read-your-writes",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {},
+  "indexedAt": "2026-07-23T14:36:07.364Z"
+}

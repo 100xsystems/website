@@ -1,0 +1,2182 @@
+{
+  "repoId": "igorbarinov/awesome-data-engineering",
+  "name": "A curated list of data engineering tools for software developers",
+  "description": "A curated list of data engineering tools for software developers",
+  "repoUrl": "https://github.com/igorbarinov/awesome-data-engineering",
+  "stars": 8885,
+  "topics": [
+    "awesome",
+    "awesome-list"
+  ],
+  "links": [
+    {
+      "url": "https://www.percona.com/software/mysql-database/percona-xtrabackup",
+      "title": "Percona XtraBackup",
+      "description": "A free, open source, complete online backup solution for all versions of Percona Server, MySQL® and MariaDB®.",
+      "category": "Databases",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/pinterest/mysql_utils",
+      "title": "mysql_utils",
+      "description": "Pinterest MySQL Management Tools.",
+      "category": "Databases",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://rivestack.io/",
+      "title": "Rivestack",
+      "description": "Managed PostgreSQL with pgvector for AI workloads. HNSW indexing, sub-4ms latency, and built-in SQL editor with automatic embedding generation.",
+      "category": "Databases",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://aws.amazon.com/rds/",
+      "title": "Amazon RDS",
+      "description": "Makes it easy to set up, operate, and scale a relational database in the cloud.",
+      "category": "Databases",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://crate.io/",
+      "title": "Crate.IO",
+      "description": "Scalable SQL database with the NOSQL goodies.",
+      "category": "Databases",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://redis.io/",
+      "title": "Redis",
+      "description": "An open source, BSD licensed, advanced key-value cache and store.",
+      "category": "Databases",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://docs.basho.com/riak/kv/",
+      "title": "Riak",
+      "description": "A distributed database designed to deliver maximum data availability by distributing data across multiple servers.",
+      "category": "Databases",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/rescrv/HyperDex",
+      "title": "HyperDex",
+      "description": "A scalable, searchable key-value store. Deprecated.",
+      "category": "Databases",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://ssdb.io",
+      "title": "SSDB",
+      "description": "A high performance NoSQL database supporting many data structures, an alternative to Redis.",
+      "category": "Databases",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/alticelabs/kyoto",
+      "title": "Kyoto Tycoon",
+      "description": "A lightweight network server on top of the Kyoto Cabinet key-value database, built for high-performance and concurrency.",
+      "category": "Databases",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/iondbproject/iondb",
+      "title": "IonDB",
+      "description": "A key-value store for microcontroller and IoT applications.",
+      "category": "Databases",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://cassandra.apache.org/",
+      "title": "Cassandra",
+      "description": "The right choice when you need scalability and high availability without compromising performance.",
+      "category": "Databases",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://www.ecyrd.com/cassandracalculator/",
+      "title": "Cassandra Calculator",
+      "description": "This simple form allows you to try out different values for your Apache Cassandra cluster and see what the impact is for your application.",
+      "category": "Databases",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/pcmanus/ccm",
+      "title": "CCM",
+      "description": "A script to easily create and destroy an Apache Cassandra cluster on localhost.",
+      "category": "Databases",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/scylladb/scylla",
+      "title": "ScyllaDB",
+      "description": "NoSQL data store using the seastar framework, compatible with Apache Cassandra.",
+      "category": "Databases",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://hbase.apache.org/",
+      "title": "HBase",
+      "description": "The Hadoop database, a distributed, scalable, big data store.",
+      "category": "Databases",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://aws.amazon.com/redshift/",
+      "title": "AWS Redshift",
+      "description": "A fast, fully managed, petabyte-scale data warehouse that makes it simple and cost-effective to analyze all your data using your existing business intelligence tools.",
+      "category": "Databases",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/filodb/FiloDB",
+      "title": "FiloDB",
+      "description": "Distributed. Columnar. Versioned. Streaming. SQL.",
+      "category": "Databases",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://www.vertica.com",
+      "title": "Vertica",
+      "description": "Distributed, MPP columnar database with extensive analytics SQL.",
+      "category": "Databases",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://clickhouse.tech",
+      "title": "ClickHouse",
+      "description": "Distributed columnar DBMS for OLAP. SQL.",
+      "category": "Databases",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://www.mongodb.com",
+      "title": "MongoDB",
+      "description": "An open-source, document database designed for ease of development and scaling.",
+      "category": "Databases",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://www.percona.com/software/mongo-database/percona-server-for-mongodb",
+      "title": "Percona Server for MongoDB",
+      "description": "Percona Server for MongoDB® is a free, enhanced, fully compatible, open source, drop-in replacement for the MongoDB® Community Edition that includes enterprise-grade features and functionality.",
+      "category": "Databases",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/rain1017/memdb",
+      "title": "MemDB",
+      "description": "Distributed Transactional In-Memory Database (based on MongoDB).",
+      "category": "Databases",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://www.couchbase.com/",
+      "title": "Couchbase",
+      "description": "The highest performing NoSQL distributed database.",
+      "category": "Databases",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://rethinkdb.com/",
+      "title": "RethinkDB",
+      "description": "The open-source database for the realtime web.",
+      "category": "Databases",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://ravendb.net/",
+      "title": "RavenDB",
+      "description": "Fully Transactional NoSQL Document Database.",
+      "category": "Databases",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://neo4j.com/",
+      "title": "Neo4j",
+      "description": "The world's leading graph database.",
+      "category": "Databases",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/ModernRelay/omnigraph",
+      "title": "Omnigraph",
+      "description": "Typed graph database where agents branch and merge like Git. S3-native, Rust, traversal + vector + BM25 in one runtime.",
+      "category": "Databases",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://orientdb.com",
+      "title": "OrientDB",
+      "description": "2nd Generation Distributed Graph Database with the flexibility of Documents in one product with an Open Source commercial friendly license.",
+      "category": "Databases",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://titan.thinkaurelius.com",
+      "title": "Titan",
+      "description": "A scalable graph database optimized for storing and querying graphs containing hundreds of billions of vertices and edges distributed across a multi-machine cluster.",
+      "category": "Databases",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/twitter-archive/flockdb",
+      "title": "FlockDB",
+      "description": "A distributed, fault-tolerant graph database by Twitter. Deprecated.",
+      "category": "Databases",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/kakao/actionbase",
+      "title": "Actionbase",
+      "description": "A database for user interactions (likes, views, follows) represented as graphs, with precomputed reads served in real-time.",
+      "category": "Databases",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://www.datomic.com",
+      "title": "DAtomic",
+      "description": "The fully transactional, cloud-ready, distributed database.",
+      "category": "Databases",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/gchq/Gaffer",
+      "title": "Gaffer",
+      "description": "A large-scale graph database.",
+      "category": "Databases",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/influxdata/influxdb",
+      "title": "InfluxDB",
+      "description": "Scalable datastore for metrics, events, and real-time analytics.",
+      "category": "Databases",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/OpenTSDB/opentsdb",
+      "title": "OpenTSDB",
+      "description": "A scalable, distributed Time Series Database.",
+      "category": "Databases",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://questdb.io/",
+      "title": "QuestDB",
+      "description": "A relational column-oriented database designed for real-time analytics on time series and event data.",
+      "category": "Databases",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/kairosdb/kairosdb",
+      "title": "kairosdb",
+      "description": "Fast scalable time series database.",
+      "category": "Databases",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/spotify/heroic",
+      "title": "Heroic",
+      "description": "A scalable time series database based on Cassandra and Elasticsearch, by Spotify.",
+      "category": "Databases",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/apache/incubator-druid",
+      "title": "Druid",
+      "description": "Column oriented distributed data store ideal for powering interactive applications.",
+      "category": "Databases",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://basho.com/products/riak-ts/",
+      "title": "Riak-TS",
+      "description": "Riak TS is the only enterprise-grade NoSQL time series database optimized specifically for IoT and Time Series data.",
+      "category": "Databases",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/akumuli/Akumuli",
+      "title": "Akumuli",
+      "description": "A numeric time-series database. It can be used to capture, store and process time-series data in real-time. The word \"akumuli\" can be translated from esperanto as \"accumulate\".",
+      "category": "Databases",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/Pardot/Rhombus",
+      "title": "Rhombus",
+      "description": "A time-series object store for Cassandra that handles all the complexity of building wide row indexes.",
+      "category": "Databases",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/dalmatinerdb/dalmatinerdb",
+      "title": "Dalmatiner DB",
+      "description": "Fast distributed metrics database.",
+      "category": "Databases",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/rackerlabs/blueflood",
+      "title": "Blueflood",
+      "description": "A distributed system designed to ingest and process time series data.",
+      "category": "Databases",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/NationalSecurityAgency/timely",
+      "title": "Timely",
+      "description": "A time series database application that provides secure access to time series data based on Accumulo and Grafana.",
+      "category": "Databases",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/tarantool/tarantool/",
+      "title": "Tarantool",
+      "description": "An in-memory database and application server.",
+      "category": "Databases",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/greenplum-db/gpdb",
+      "title": "GreenPlum",
+      "description": "The Greenplum Database (GPDB) - An advanced, fully featured, open source data warehouse. It provides powerful and rapid analytics on petabyte scale data volumes.",
+      "category": "Databases",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/cayleygraph/cayley",
+      "title": "cayley",
+      "description": "An open-source graph database. Google.",
+      "category": "Databases",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/SnappyDataInc/snappydata",
+      "title": "Snappydata",
+      "description": "OLTP + OLAP Database built on Apache Spark.",
+      "category": "Databases",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://www.timescale.com/",
+      "title": "TimescaleDB",
+      "description": "Built as an extension on top of PostgreSQL, TimescaleDB is a time-series SQL database providing fast analytics, scalability, with automated data management on a proven storage engine.",
+      "category": "Databases",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://chdb.io",
+      "title": "chDB",
+      "description": "Embedded ClickHouse — full ClickHouse SQL dialect, ~80 data formats, and 12+ source connectors (S3, Postgres, MongoDB, Kafka, Iceberg) in core. Python, Go, Rust, Node, Bun, Zig, and Ruby bindings.",
+      "category": "Databases",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/capitalone/datacompy",
+      "title": "datacompy",
+      "description": "A Python library that facilitates the comparison of two DataFrames in Pandas, Polars, Spark and more. The library goes beyond basic equality checks by providing detailed insights into discrepancies at both row and column levels.",
+      "category": "Data Comparison",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/GoogleCloudPlatform/professional-services-data-validator",
+      "title": "dvt",
+      "description": "Data Validation Tool compares data from source and target tables to ensure that they match. It provides column validation, row validation, schema validation, custom query validation, and ad hoc SQL exploration.",
+      "category": "Data Comparison",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/godalida/koala-diff",
+      "title": "koala-diff",
+      "description": "A high-performance Python library for comparing large datasets (CSV, Parquet) locally using Rust and Polars. It features zero-copy streaming to prevent OOM errors and generates interactive HTML data quality reports.",
+      "category": "Data Comparison",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/futuresearch/futuresearch-python",
+      "title": "FutureSearch SDK",
+      "description": "Python SDK that dispatches parallel web-research agents across",
+      "category": "Data Comparison",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/dataspoclab/dataspoc-pipe",
+      "title": "DataSpoc Pipe",
+      "description": "Data ingestion engine that connects 400+ Singer taps to Parquet files in cloud buckets (S3, GCS, Azure). Streaming, incremental, with auto-catalog.",
+      "category": "Data Ingestion",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://enrich.sh",
+      "title": "Enrich.sh",
+      "description": "Managed event ingestion service that converts JSON sent to a REST API into Hive-partitioned Parquet on Cloudflare R2, queryable from DuckDB, ClickHouse, BigQuery, Snowflake, and Python.",
+      "category": "Data Ingestion",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/Alessandro114/enrich-companies",
+      "title": "enrich-companies",
+      "description": "CLI tool to enrich CSV files with company data (financials, contacts, metadata) from 250M+ company records. Available on [npm](https://www.npmjs.com/package/enrich-companies).",
+      "category": "Data Ingestion",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/bruin-data/ingestr",
+      "title": "ingestr",
+      "description": "CLI tool to copy data between databases with a single command. Supports 50+ sources including PostgreSQL, MySQL, MongoDB, Salesforce, Shopify to any data warehouse.",
+      "category": "Data Ingestion",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/confluentinc/bottledwater-pg",
+      "title": "BottledWater",
+      "description": "Change data capture from PostgreSQL into Kafka. Deprecated.",
+      "category": "Data Ingestion",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/airbnb/kafkat",
+      "title": "kafkat",
+      "description": "Simplified command-line administration for Kafka brokers.",
+      "category": "Data Ingestion",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/edenhill/kafkacat",
+      "title": "kafkacat",
+      "description": "Generic command line non-JVM Apache Kafka producer and consumer.",
+      "category": "Data Ingestion",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/xstevens/pg_kafka",
+      "title": "pg-kafka",
+      "description": "A PostgreSQL extension to produce messages to Apache Kafka.",
+      "category": "Data Ingestion",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/wurstmeister/kafka-docker",
+      "title": "kafka-docker",
+      "description": "Kafka in Docker.",
+      "category": "Data Ingestion",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/yahoo/kafka-manager",
+      "title": "kafka-manager",
+      "description": "A tool for managing Apache Kafka.",
+      "category": "Data Ingestion",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/SOHU-Co/kafka-node",
+      "title": "kafka-node",
+      "description": "Node.js client for Apache Kafka 0.8.",
+      "category": "Data Ingestion",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/pinterest/secor",
+      "title": "Secor",
+      "description": "Pinterest's Kafka to S3 distributed consumer.",
+      "category": "Data Ingestion",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/uber/kafka-logger",
+      "title": "Kafka-logger",
+      "description": "Kafka-winston logger for Node.js from Uber.",
+      "category": "Data Ingestion",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/kroxylicious/kroxylicious",
+      "title": "Kroxylicious",
+      "description": "A Kafka Proxy, solving problems like encrypting your Kafka data at rest.",
+      "category": "Data Ingestion",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://aws.amazon.com/kinesis/",
+      "title": "AWS Kinesis",
+      "description": "A fully managed, cloud-based service for real-time data processing over large, distributed data streams.",
+      "category": "Data Ingestion",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://www.rabbitmq.com/",
+      "title": "RabbitMQ",
+      "description": "Robust messaging for applications.",
+      "category": "Data Ingestion",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://www.dlthub.com",
+      "title": "dlt",
+      "description": "A fast&simple pipeline building library for Python data devs, runs in notebooks, cloud functions, airflow, etc.",
+      "category": "Data Ingestion",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/drt-hub/drt",
+      "title": "drt",
+      "description": "OSS Reverse ETL CLI. Sync data from warehouses to business tools via YAML.",
+      "category": "Data Ingestion",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://www.fluentd.org",
+      "title": "FluentD",
+      "description": "An open source data collector for unified logging layer.",
+      "category": "Data Ingestion",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://www.embulk.org",
+      "title": "Embulk",
+      "description": "An open source bulk data loader that helps data transfer between various databases, storages, file formats, and cloud services.",
+      "category": "Data Ingestion",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://sqoop.apache.org",
+      "title": "Apache Sqoop",
+      "description": "A tool designed for efficiently transferring bulk data between Apache Hadoop and structured datastores such as relational databases.",
+      "category": "Data Ingestion",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/mozilla-services/heka",
+      "title": "Heka",
+      "description": "Data Acquisition and Processing Made Easy. Deprecated.",
+      "category": "Data Ingestion",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/apache/incubator-gobblin",
+      "title": "Gobblin",
+      "description": "Universal data ingestion framework for Hadoop from LinkedIn.",
+      "category": "Data Ingestion",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://nakadi.io",
+      "title": "Nakadi",
+      "description": "An open source event messaging platform that provides a REST API on top of Kafka-like queues.",
+      "category": "Data Ingestion",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://www.pravega.io",
+      "title": "Pravega",
+      "description": "Provides a new storage abstraction - a stream - for continuous and unbounded data.",
+      "category": "Data Ingestion",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/awslabs/aws-data-wrangler",
+      "title": "AWS Data Wrangler",
+      "description": "Utility belt to handle data on AWS.",
+      "category": "Data Ingestion",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://airbyte.io/",
+      "title": "Airbyte",
+      "description": "Open-source data integration for modern data teams.",
+      "category": "Data Ingestion",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://streams.dbconvert.com",
+      "title": "DBConvert Streams",
+      "description": "self-hosted database migration and change data capture (CDC) tool with built-in SQL IDE.",
+      "category": "Data Ingestion",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://www.artie.com/",
+      "title": "Artie",
+      "description": "Real-time data ingestion tool leveraging change data capture.",
+      "category": "Data Ingestion",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://slingdata.io/",
+      "title": "Sling",
+      "description": "CLI data integration tool specialized in moving data between databases, as well as storage systems.",
+      "category": "Data Ingestion",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://meltano.com/",
+      "title": "Meltano",
+      "description": "CLI & code-first ELT.",
+      "category": "Data Ingestion",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://sdk.meltano.com",
+      "title": "Singer SDK",
+      "description": "The fastest way to build custom data extractors and loaders compliant with the Singer Spec.",
+      "category": "Data Ingestion",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/fulldecent/google-sheets-etl",
+      "title": "Google Sheets ETL",
+      "description": "Live import all your Google Sheets to your data warehouse.",
+      "category": "Data Ingestion",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://www.csvpath.org/",
+      "title": "CsvPath Framework",
+      "description": "A delimited data preboarding framework that fills the gap between MFT and the data lake.",
+      "category": "Data Ingestion",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://estuary.dev",
+      "title": "Estuary Flow",
+      "description": "No/low-code data pipeline platform that handles both batch and real-time data ingestion.",
+      "category": "Data Ingestion",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/bahador-r/db2lake",
+      "title": "db2lake",
+      "description": "Lightweight Node.js ETL framework for databases → data lakes/warehouses.",
+      "category": "Data Ingestion",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/pujansrt/data-genie",
+      "title": "data-genie",
+      "description": "High-performance, streaming-first ETL engine for Node.js and TypeScript with constant memory footprint.",
+      "category": "Data Ingestion",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/kreuzberg-dev/kreuzberg",
+      "title": "Kreuzberg",
+      "description": "Polyglot document intelligence library with a Rust core and bindings for Python, TypeScript, Go, and more. Extracts text, tables, and metadata from 62+ document formats for data pipeline ingestion.",
+      "category": "Data Ingestion",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/NameetP/pdfmux",
+      "title": "pdfmux",
+      "description": "Python PDF-to-Markdown orchestrator. Classifies each page and routes to the optimal backend (PyMuPDF, Docling, RapidOCR, Gemini Flash), emitting Markdown plus a per-page confidence score so ingestion pipelines can quarantine low-trust pages before feeding LLMs or retrieval.",
+      "category": "Data Ingestion",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://dataraven.io/",
+      "title": "DataRaven",
+      "description": "Managed cloud object storage transfers for ingestion workflows.",
+      "category": "Data Ingestion",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://xquik.com",
+      "title": "Xquik",
+      "description": "Real-time X (Twitter) data extraction platform with REST API (76 endpoints), 20 bulk extraction tools, account monitoring, HMAC-signed webhooks, and MCP server for AI agent integration.",
+      "category": "Data Ingestion",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://www.arpe.io/",
+      "title": "Arpe.io",
+      "description": "High-speed CLI tools for database export, import, replication and migration with parallel streaming to CSV, Parquet, JSON and cloud storage, supporting PostgreSQL, MySQL, Oracle, SQL Server and 80+ sources.",
+      "category": "Data Ingestion",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://crustdata.com",
+      "title": "Crustdata",
+      "description": "A real-time B2B data API for company and people intelligence, providing firmographics, headcount signals, job listings, web traffic, and funding events via REST API and webhooks for data enrichment pipelines.",
+      "category": "Data Ingestion",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/mgillr/crdt-merge",
+      "title": "crdt-merge",
+      "description": "Conflict-free merge for DataFrames, JSON, ML models & distributed agents — powered by CRDTs.",
+      "category": "Data Ingestion",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://apify.com/cryptosignals/linkedin-jobs-scraper",
+      "title": "LinkedIn Jobs Scraper",
+      "description": "Crawlee-based actor extracting structured LinkedIn job listings at scale without API keys.",
+      "category": "Data Ingestion",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/whispering3/CARQ",
+      "title": "CARQ",
+      "description": "Context-Aware RAG Processing Queue for high availability and adaptive rate-limiting.",
+      "category": "Data Ingestion",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/mirlan-irokez/rawbbit",
+      "title": "Rawbbit",
+      "description": "Open-source self-hosted analytics pipeline that lands raw events as Parquet in your own object storage. Uses NATS JetStream for durable buffering and BigQuery external tables for querying. Designed for teams that want to own their raw event data.",
+      "category": "Data Ingestion",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/PawanSikawat/faucet-stream",
+      "title": "faucet-stream",
+      "description": "Config-driven data-movement platform for Rust with pluggable source and sink connectors, running ETL, CDC, and streaming pipelines declaratively from YAML or embedded as a library.",
+      "category": "Data Ingestion",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-hdfs/HdfsDesign.html",
+      "title": "HDFS",
+      "description": "A distributed file system designed to run on commodity hardware.",
+      "category": "File System",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/spotify/snakebite",
+      "title": "Snakebite",
+      "description": "A pure python HDFS client.",
+      "category": "File System",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://aws.amazon.com/s3/",
+      "title": "AWS S3",
+      "description": "Object storage built to retrieve any amount of data from anywhere.",
+      "category": "File System",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/RaRe-Technologies/smart_open",
+      "title": "smart_open",
+      "description": "Utils for streaming large files (S3, HDFS, gzip, bz2).",
+      "category": "File System",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://www.alluxio.org/",
+      "title": "Alluxio",
+      "description": "A memory-centric distributed storage system enabling reliable data sharing at memory-speed across cluster frameworks, such as Spark and MapReduce.",
+      "category": "File System",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://ceph.com/",
+      "title": "CEPH",
+      "description": "A unified, distributed storage system designed for excellent performance, reliability, and scalability.",
+      "category": "File System",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://www.orangefs.org/",
+      "title": "OrangeFS",
+      "description": "Orange File System is a branch of the Parallel Virtual File System.",
+      "category": "File System",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/tuplejump/snackfs-release",
+      "title": "SnackFS",
+      "description": "A bite-sized, lightweight HDFS compatible file system built over Cassandra.",
+      "category": "File System",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://www.gluster.org/",
+      "title": "GlusterFS",
+      "description": "Gluster Filesystem.",
+      "category": "File System",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://www.xtreemfs.org/",
+      "title": "XtreemFS",
+      "description": "Fault-tolerant distributed file system for all storage needs.",
+      "category": "File System",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/s3ql/s3ql/",
+      "title": "S3QL",
+      "description": "A file system that stores all its data online using storage services like Google Storage, Amazon S3, or OpenStack.",
+      "category": "File System",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://lizardfs.com/",
+      "title": "LizardFS",
+      "description": "Software Defined Storage is a distributed, parallel, scalable, fault-tolerant, Geo-Redundant and highly available file system.",
+      "category": "File System",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/HMAKT99/AKF",
+      "title": "AKF",
+      "description": "The AI native file format. Trust scores, source provenance, and compliance metadata that embed into 20+ formats (DOCX, PDF, images, code). EXIF for AI.",
+      "category": "Serialization format",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/google/snappy",
+      "title": "Snappy",
+      "description": "A fast compressor/decompressor. Used with Parquet.",
+      "category": "Serialization format",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://zlib.net/pigz/",
+      "title": "PigZ",
+      "description": "A parallel implementation of gzip for modern multi-processor, multi-core machines.",
+      "category": "Serialization format",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://wiki.apache.org/hadoop/SequenceFile",
+      "title": "SequenceFile",
+      "description": "A flat file consisting of binary key/value pairs. It is extensively used in MapReduce as input/output formats.",
+      "category": "Serialization format",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/ImpossibleForge/pfc-jsonl",
+      "title": "PFC-JSONL",
+      "description": "Specialized JSONL log compressor with block-level timestamp indexing and DuckDB integration. Achieves ~9% compression ratio (better than gzip) with time-range random access queries.",
+      "category": "Serialization format",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://parquetkit.com",
+      "title": "ParquetKit",
+      "description": "Browser-based viewer, SQL workbench and converter for Parquet files powered by DuckDB-WASM. Fully client-side, no upload.",
+      "category": "Serialization format",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://beam.apache.org/",
+      "title": "Apache Beam",
+      "description": "A unified programming model that implements both batch and streaming data processing jobs that run on many execution engines.",
+      "category": "Stream Processing",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://spark.apache.org/streaming/",
+      "title": "Spark Streaming",
+      "description": "Makes it easy to build scalable fault-tolerant streaming applications.",
+      "category": "Stream Processing",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://samza.apache.org",
+      "title": "Apache Samza",
+      "description": "A distributed stream processing framework.",
+      "category": "Stream Processing",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://nifi.apache.org/",
+      "title": "Apache NiFi",
+      "description": "An easy to use, powerful, and reliable system to process and distribute data.",
+      "category": "Stream Processing",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://hudi.apache.org/",
+      "title": "Apache Hudi",
+      "description": "An open source framework for managing storage for real time processing, one of the most interesting feature is the Upsert.",
+      "category": "Stream Processing",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://voltdb.com/",
+      "title": "VoltDB",
+      "description": "An ACID-compliant RDBMS which uses a [shared nothing architecture](https://en.wikipedia.org/wiki/Shared-nothing_architecture).",
+      "category": "Stream Processing",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/pipelinedb/pipelinedb",
+      "title": "PipelineDB",
+      "description": "The Streaming SQL Database.",
+      "category": "Stream Processing",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://cloud.spring.io/spring-cloud-dataflow/",
+      "title": "Spring Cloud Dataflow",
+      "description": "Streaming and tasks execution between Spring Boot apps.",
+      "category": "Stream Processing",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://www.bonobo-project.org/",
+      "title": "Bonobo",
+      "description": "A data-processing toolkit for python 3.5+.",
+      "category": "Stream Processing",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/faust-streaming/faust",
+      "title": "Robinhood's Faust",
+      "description": "Forever scalable event processing & in-memory durable K/V store as a library with asyncio & static typing.",
+      "category": "Stream Processing",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/hstreamdb/hstream",
+      "title": "HStreamDB",
+      "description": "The streaming database built for IoT data storage and real-time processing.",
+      "category": "Stream Processing",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/emqx/kuiper",
+      "title": "Kuiper",
+      "description": "An edge lightweight IoT data analytics/streaming software implemented by Golang, and it can be run at all kinds of resource-constrained edge devices.",
+      "category": "Stream Processing",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/aklivity/zilla",
+      "title": "Zilla",
+      "description": "- An API gateway built for event-driven architectures and streaming that supports standard protocols such as HTTP, SSE, gRPC, MQTT, and the native Kafka protocol.",
+      "category": "Stream Processing",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/swimos/swim-rust",
+      "title": "SwimOS",
+      "description": "A framework for building real-time streaming data processing applications that supports a wide range of ingestion sources.",
+      "category": "Stream Processing",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://hadoop.apache.org/docs/current/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html",
+      "title": "Hadoop MapReduce",
+      "description": "A software framework for easily writing applications which process vast amounts of data (multi-terabyte data-sets) - in-parallel on large clusters (thousands of nodes) - of commodity hardware in a reliable, fault-tolerant manner.",
+      "category": "Batch Processing",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://spark.apache.org/",
+      "title": "Spark",
+      "description": "A multi-language engine for executing data engineering, data science, and machine learning on single-node machines or clusters.",
+      "category": "Batch Processing",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://spark-packages.org",
+      "title": "Spark Packages",
+      "description": "A community index of packages for Apache Spark.",
+      "category": "Batch Processing",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/Stratio/deep-spark",
+      "title": "Deep Spark",
+      "description": "Connecting Apache Spark with different data stores. Deprecated.",
+      "category": "Batch Processing",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://homepage.cs.latrobe.edu.au/zhe/ZhenHeSparkRDDAPIExamples.html",
+      "title": "Spark RDD API Examples",
+      "description": "Examples by Zhen He.",
+      "category": "Batch Processing",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://livy.incubator.apache.org",
+      "title": "Livy",
+      "description": "The REST Spark Server.",
+      "category": "Batch Processing",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/datamechanics/delight",
+      "title": "Delight",
+      "description": "A free & cross platform monitoring tool (Spark UI / Spark History Server alternative).",
+      "category": "Batch Processing",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://aws.amazon.com/emr/",
+      "title": "AWS EMR",
+      "description": "A web service that makes it easy to quickly and cost-effectively process vast amounts of data.",
+      "category": "Batch Processing",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://www.datamechanics.co",
+      "title": "Data Mechanics",
+      "description": "A cloud-based platform deployed on Kubernetes making Apache Spark more developer-friendly and cost-effective.",
+      "category": "Batch Processing",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://tez.apache.org/",
+      "title": "Tez",
+      "description": "An application framework which allows for a complex directed-acyclic-graph of tasks for processing data.",
+      "category": "Batch Processing",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/asavinov/bistro",
+      "title": "Bistro",
+      "description": "A light-weight engine for general-purpose data processing including both batch and stream analytics. It is based on a novel unique data model, which represents data via _functions_ and processes data via _columns operations_ as opposed to having only set operations in conventional approaches like MapReduce or SQL.",
+      "category": "Batch Processing",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/brexhq/substation",
+      "title": "Substation",
+      "description": "A cloud native data pipeline and transformation toolkit written in Go.",
+      "category": "Batch Processing",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/shmlkv/dna-claude-analysis",
+      "title": "dna-claude-analysis",
+      "description": "Personal genome analysis toolkit with Python scripts analyzing raw DNA data across 17 categories (health risks, ancestry, pharmacogenomics, nutrition, psychology, etc.) and generating a terminal-style single-page HTML visualization.",
+      "category": "Batch Processing",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://www.h2o.ai/",
+      "title": "H2O",
+      "description": "Fast scalable machine learning API for smarter applications.",
+      "category": "Batch Processing",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://spark.apache.org/docs/latest/ml-guide.html",
+      "title": "Spark MLlib",
+      "description": "Spark's scalable machine learning library consisting of common learning algorithms and utilities, including classification, regression, clustering, collaborative filtering, dimensionality reduction, as well as underlying optimization primitives.",
+      "category": "Batch Processing",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://www.zingg.ai/",
+      "title": "Zingg",
+      "description": "Open source Master Data Management platform using machine learning for entity resolution at scale. Native to Databricks, Microsoft Fabric, Snowflake, AWS, and GCP. Golden records are maintained through a persistent Zingg ID across all systems and sources.",
+      "category": "Batch Processing",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://turi.com/products/create/docs/",
+      "title": "GraphLab Create",
+      "description": "A machine learning platform that enables data scientists and app developers to easily create intelligent apps at scale.",
+      "category": "Batch Processing",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://giraph.apache.org/",
+      "title": "Giraph",
+      "description": "An iterative graph processing system built for high scalability.",
+      "category": "Batch Processing",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://spark.apache.org/graphx/",
+      "title": "Spark GraphX",
+      "description": "Apache Spark's API for graphs and graph-parallel computation.",
+      "category": "Batch Processing",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://prestodb.github.io/docs/current/index.html",
+      "title": "Presto",
+      "description": "A distributed SQL query engine designed to query large data sets distributed over one or more heterogeneous data sources.",
+      "category": "Batch Processing",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://hive.apache.org",
+      "title": "Hive",
+      "description": "Data warehouse software facilitates querying and managing large datasets residing in distributed storage.",
+      "category": "Batch Processing",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/apache/incubator-hivemall",
+      "title": "Hivemall",
+      "description": "Scalable machine learning library for Hive/Hadoop.",
+      "category": "Batch Processing",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/dropbox/PyHive",
+      "title": "PyHive",
+      "description": "Python interface to Hive and Presto.",
+      "category": "Batch Processing",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://www.highcharts.com/",
+      "title": "Highcharts",
+      "description": "A charting library written in pure JavaScript, offering an easy way of adding interactive charts to your web site or web application.",
+      "category": "Charts and Dashboards",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://www.zingchart.com/",
+      "title": "ZingChart",
+      "description": "Fast JavaScript charts for any data set.",
+      "category": "Charts and Dashboards",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://c3js.org",
+      "title": "C3.js",
+      "description": "D3-based reusable chart library.",
+      "category": "Charts and Dashboards",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://d3js.org/",
+      "title": "D3.js",
+      "description": "A JavaScript library for manipulating documents based on data.",
+      "category": "Charts and Dashboards",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://d3plus.org",
+      "title": "D3Plus",
+      "description": "D3's simpler, easier to use cousin. Mostly predefined templates that you can just plug data in.",
+      "category": "Charts and Dashboards",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://smoothiecharts.org",
+      "title": "SmoothieCharts",
+      "description": "A JavaScript Charting Library for Streaming Data.",
+      "category": "Charts and Dashboards",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/stitchfix/pyxley",
+      "title": "PyXley",
+      "description": "Python helpers for building dashboards using Flask and React.",
+      "category": "Charts and Dashboards",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/plotly/dash",
+      "title": "Plotly",
+      "description": "Flask, JS, and CSS boilerplate for interactive, web-based visualization apps in Python.",
+      "category": "Charts and Dashboards",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/apache/incubator-superset",
+      "title": "Apache Superset",
+      "description": "A modern, enterprise-ready business intelligence web application.",
+      "category": "Charts and Dashboards",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://redash.io/",
+      "title": "Redash",
+      "description": "Make Your Company Data Driven. Connect to any data source, easily visualize and share your data.",
+      "category": "Charts and Dashboards",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/metabase/metabase",
+      "title": "Metabase",
+      "description": "The easy, open source way for everyone in your company to ask questions and learn from data.",
+      "category": "Charts and Dashboards",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://stratif.io",
+      "title": "stratif.io",
+      "description": "Open-source, self-hosted, warehouse-native product analytics. Runs funnels, retention, and paths directly on DuckDB, Postgres, Snowflake, or ClickHouse.",
+      "category": "Charts and Dashboards",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://www.pyqtgraph.org/",
+      "title": "PyQtGraph",
+      "description": "A pure-python graphics and GUI library built on PyQt4 / PySide and numpy. It is intended for use in mathematics / scientific / engineering applications.",
+      "category": "Charts and Dashboards",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://seaborn.pydata.org",
+      "title": "Seaborn",
+      "description": "A Python visualization library based on matplotlib. It provides a high-level interface for drawing attractive statistical graphics.",
+      "category": "Charts and Dashboards",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/MKY508/QueryGPT",
+      "title": "QueryGPT",
+      "description": "Natural language database query interface with automatic chart generation, supporting Chinese and English queries.",
+      "category": "Charts and Dashboards",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://aifordatabase.com/",
+      "title": "AI for Database",
+      "description": "Agentic AI platform to connect any database (PostgreSQL, MySQL, MongoDB, etc.) and query in plain English; includes self-refreshing intelligent dashboards and action workflows triggered by data changes.",
+      "category": "Charts and Dashboards",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/dekart-xyz/dekart",
+      "title": "Dekart",
+      "description": "Open-source SQL to map platform for BigQuery, Snowflake, and PostGIS.",
+      "category": "Charts and Dashboards",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://lunapad.dev/",
+      "title": "LunaPad",
+      "description": "Open-source analytics notebook for reusable SQL workflows, interactive reports, and AI-assisted data exploration.",
+      "category": "Charts and Dashboards",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://bonnard.dev/",
+      "title": "Bonnard",
+      "description": "Governed, multi-tenant MCP access to your customers' data. Turn your warehouse, dbt, or semantic layer into a secure, per-customer MCP for AI agents.",
+      "category": "Workflow",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/supernovae-st/nika",
+      "title": "Nika",
+      "description": "Intent-as-code workflow engine for AI data pipelines: reviewable YAML DAGs statically checked (schema, permits, cost floor) before execution, with tamper-evident run traces.",
+      "category": "Workflow",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/ralfbecher/orionbelt-semantic-layer",
+      "title": "OrionBelt Semantic Layer",
+      "description": "Open-source semantic sidecar that compiles YAML-defined dimensions, measures, and metrics into optimized SQL across 8 engines (BigQuery, ClickHouse, Databricks, Dremio, DuckDB, MySQL, PostgreSQL, Snowflake). Unified REST, MCP, and Postgres wire protocol; one model powers AI agents, analytics, DQ rules, and KPIs.",
+      "category": "Workflow",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/bruin-data/bruin",
+      "title": "Bruin",
+      "description": "End-to-end data pipeline tool that combines ingestion, transformation (SQL + Python), and data quality in a single CLI. Connects to BigQuery, Snowflake, PostgreSQL, Redshift, and more. Includes VS Code extension with live previews.",
+      "category": "Workflow",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/OpenDCAI/DataFlow",
+      "title": "DataFlow",
+      "description": "Open-source platform for data preparation, synthetic data generation, and AI/data pipelines. Includes reusable skills for automating workflow steps across data and AI tasks.",
+      "category": "Workflow",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/seatgeek/cronq",
+      "title": "CronQ",
+      "description": "An application cron-like system. [Used](https://chairnerd.seatgeek.com/building-out-the-seatgeek-data-pipeline/) w/Luigi. Deprecated.",
+      "category": "Workflow",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://www.cascading.org/",
+      "title": "Cascading",
+      "description": "Java based application development platform.",
+      "category": "Workflow",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://azkaban.github.io/",
+      "title": "Azkaban",
+      "description": "A batch workflow job scheduler created at LinkedIn to run Hadoop jobs. Azkaban resolves the ordering through job dependencies and provides an easy-to-use web user interface to maintain and track your workflows.",
+      "category": "Workflow",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://oozie.apache.org/",
+      "title": "Oozie",
+      "description": "A workflow scheduler system to manage Apache Hadoop jobs.",
+      "category": "Workflow",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/pinterest/pinball",
+      "title": "Pinball",
+      "description": "DAG based workflow manager. Job flows are defined programmatically in Python. Support output passing between jobs.",
+      "category": "Workflow",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/dagworks-inc/hamilton",
+      "title": "Hamilton",
+      "description": "A lightweight library to define data transformations as a directed-acyclic graph (DAG). If you like dbt for SQL transforms, you will like Hamilton for Python processing.",
+      "category": "Workflow",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://kedro.readthedocs.io/en/latest/",
+      "title": "Kedro",
+      "description": "A framework that makes it easy to build robust and scalable data pipelines by providing uniform project templates, data abstraction, configuration and pipeline assembly.",
+      "category": "Workflow",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://dataform.co/",
+      "title": "Dataform",
+      "description": "An open-source framework and web based IDE to manage datasets and their dependencies. SQLX extends your existing SQL warehouse dialect to add features that support dependency management, testing, documentation and more.",
+      "category": "Workflow",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/dotflow-io/dotflow",
+      "title": "Dotflow",
+      "description": "A lightweight Python library for building execution pipelines with retry, parallel execution, cron scheduling, and async support.",
+      "category": "Workflow",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://getcensus.com/",
+      "title": "Census",
+      "description": "A reverse-ETL tool that let you sync data from your cloud data warehouse to SaaS applications like Salesforce, Marketo, HubSpot, Zendesk, etc. No engineering favors required—just SQL.",
+      "category": "Workflow",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://getdbt.com/",
+      "title": "dbt",
+      "description": "A command line tool that enables data analysts and engineers to transform data in their warehouses more effectively.",
+      "category": "Workflow",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/kestra-io/kestra",
+      "title": "Kestra",
+      "description": "Scalable, event-driven, language-agnostic orchestration and scheduling platform to manage millions of workflows declaratively in code.",
+      "category": "Workflow",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/rudderlabs/rudder-server",
+      "title": "RudderStack",
+      "description": "A warehouse-first Customer Data Platform that enables you to collect data from every application, website and SaaS platform, and then activate it in your warehouse and business tools.",
+      "category": "Workflow",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/getstrm/pace",
+      "title": "PACE",
+      "description": "An open source framework that allows you to enforce agreements on how data should be accessed, used, and transformed, regardless of the data platform (Snowflake, BigQuery, DataBricks, etc.)",
+      "category": "Workflow",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/wordbricks/onequery",
+      "title": "OneQuery",
+      "description": "Self-hosted gateway for safe, auditable queries for agents across approved data sources.",
+      "category": "Workflow",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://prefect.io/",
+      "title": "Prefect",
+      "description": "An orchestration and observability platform. With it, developers can rapidly build and scale resilient code, and triage disruptions effortlessly.",
+      "category": "Workflow",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://www.suprsend.com/products/workflows",
+      "title": "SuprSend",
+      "description": "Create automated workflows and logic using API's for your notification service. Add templates, batching, preferences, inapp inbox with workflows to trigger notifications directly from your data warehouse.",
+      "category": "Workflow",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://www.mage.ai",
+      "title": "Mage",
+      "description": "Open-source data pipeline tool for transforming and integrating data.",
+      "category": "Workflow",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://sqlmesh.readthedocs.io",
+      "title": "SQLMesh",
+      "description": "An open-source data transformation framework for managing, testing, and deploying SQL and Python-based data pipelines with version control, environment isolation, and automatic dependency resolution.",
+      "category": "Workflow",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/treeverse/lakeFS",
+      "title": "lakeFS",
+      "description": "An open source platform that delivers resilience and manageability to object-storage based data lakes.",
+      "category": "Data Lake Management",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/projectnessie/nessie",
+      "title": "Project Nessie",
+      "description": "A Transactional Catalog for Data Lakes with Git-like semantics. Works with Apache Iceberg tables.",
+      "category": "Data Lake Management",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://ilum.cloud/",
+      "title": "Ilum",
+      "description": "A modular Data Lakehouse platform that simplifies the management and monitoring of Apache Spark clusters across Kubernetes and Hadoop environments.",
+      "category": "Data Lake Management",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/apache/gravitino",
+      "title": "Gravitino",
+      "description": "An open-source, unified metadata management for data lakes, data warehouses, and external catalogs.",
+      "category": "Data Lake Management",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://www.flightpathdata.com",
+      "title": "FlightPath Data",
+      "description": "FlightPath is a gateway to a data lake's bronze layer, protecting it from invalid external data file feeds as a trusted publisher.",
+      "category": "Data Lake Management",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://rawquery.dev",
+      "title": "rawquery",
+      "description": "Managed lakehouse platform on Apache Iceberg with DuckDB query compute, S3 storage, Postgres wire protocol, and SQL transforms.",
+      "category": "Data Lake Management",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/pblittle/docker-logstash",
+      "title": "docker-logstash",
+      "description": "A highly configurable Logstash (1.4.4) - Docker image running Elasticsearch (1.7.0) - and Kibana (3.1.2).",
+      "category": "ELK Elastic Logstash Kibana",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/jprante/elasticsearch-jdbc",
+      "title": "elasticsearch-jdbc",
+      "description": "JDBC importer for Elasticsearch.",
+      "category": "ELK Elastic Logstash Kibana",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/zombodb/zombodb",
+      "title": "ZomboDB",
+      "description": "PostgreSQL Extension that allows creating an index backed by Elasticsearch.",
+      "category": "ELK Elastic Logstash Kibana",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/redbooth/gockerize",
+      "title": "Gockerize",
+      "description": "Package golang service into minimal Docker containers.",
+      "category": "Docker",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/ClusterHQ/flocker",
+      "title": "Flocker",
+      "description": "Easily manage Docker containers & their data.",
+      "category": "Docker",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://rancher.com/rancher-os/",
+      "title": "Rancher",
+      "description": "RancherOS is a 20mb Linux distro that runs the entire OS as Docker containers.",
+      "category": "Docker",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://www.kontena.io/",
+      "title": "Kontena",
+      "description": "Application Containers for Masses.",
+      "category": "Docker",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/weaveworks/weave",
+      "title": "Weave",
+      "description": "Weaving Docker containers into applications.",
+      "category": "Docker",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/CenturyLinkLabs/zodiac",
+      "title": "Zodiac",
+      "description": "A lightweight tool for easy deployment and rollback of dockerized applications.",
+      "category": "Docker",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/google/cadvisor",
+      "title": "cAdvisor",
+      "description": "Analyzes resource usage and performance characteristics of running containers.",
+      "category": "Docker",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/figadore/micro-s3-persistence",
+      "title": "Micro S3 persistence",
+      "description": "Docker microservice for saving/restoring volume data to S3.",
+      "category": "Docker",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/grammarly/rocker-compose",
+      "title": "Rocker-compose",
+      "description": "Docker composition tool with idempotency features for deploying apps composed of multiple containers. Deprecated.",
+      "category": "Docker",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/hashicorp/nomad",
+      "title": "Nomad",
+      "description": "A cluster manager, designed for both long-lived services and short-lived batch processing workloads.",
+      "category": "Docker",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://imagelayers.io/",
+      "title": "ImageLayers",
+      "description": "Visualize Docker images and the layers that compose them.",
+      "category": "Docker",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://api.dexpaprika.com",
+      "title": "DexPaprika",
+      "description": "Free real-time DEX data via SSE streaming across 34 blockchains. 30M+ pools, 27M+ tokens, ~1 second price updates. No API key, no rate limits. [Docs](https://docs.dexpaprika.com)",
+      "category": "Realtime",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/connerlambden/helium-mcp",
+      "title": "Helium MCP",
+      "description": "Remote MCP server for real-time financial data, 3.2M+ news articles, ML options pricing, and news bias analysis. Free, no API key. [MCP](https://heliumtrades.com/mcp)",
+      "category": "Realtime",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://developer.twitter.com/en/docs/tweets/filter-realtime/overview",
+      "title": "Twitter Realtime",
+      "description": "The Streaming APIs give developers low latency access to Twitter's global stream of Tweet data.",
+      "category": "Realtime",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://api.sorsa.io",
+      "title": "Sorsa API",
+      "description": "Real-time X (Twitter) data API providing tweets, profiles, search, communities and engagement metrics. Up to 50x cheaper than the official X API with 20 req/sec rate limit, JSON output.",
+      "category": "Realtime",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/Interana/eventsim",
+      "title": "Eventsim",
+      "description": "Event data simulator. Generates a stream of pseudo-random events from a set of users, designed to simulate web traffic.",
+      "category": "Realtime",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://eventum.run",
+      "title": "Eventum",
+      "description": "Data generation platform for producing synthetic event streams with complex correlations.",
+      "category": "Realtime",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://www.reddit.com/r/datasets/comments/3mk1vg/realtime_data_is_available_including_comments/",
+      "title": "Reddit",
+      "description": "Real-time data is available including comments, submissions and links posted to reddit.",
+      "category": "Realtime",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://www.gharchive.org/",
+      "title": "GitHub Archive",
+      "description": "GitHub's public timeline since 2011, updated every hour.",
+      "category": "Data Dumps",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://commoncrawl.org/",
+      "title": "Common Crawl",
+      "description": "Open source repository of web crawl data.",
+      "category": "Data Dumps",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://dumps.wikimedia.org/enwiki/latest/",
+      "title": "Wikipedia",
+      "description": "Wikipedia's complete copy of all wikis, in the form of Wikitext source and metadata embedded in XML. A number of raw database tables in SQL form are also available.",
+      "category": "Data Dumps",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://jeevesagency.github.io/quiet-broke-index/",
+      "title": "The Quiet-Broke Index",
+      "description": "A 30-metro composite of US household cost burdens (housing, taxes, childcare, healthcare, transport) aggregated from Census ACS, BLS Consumer Expenditure Survey, and HUD Fair Market Rents. Open methodology, free, no email gate.",
+      "category": "Data Dumps",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/MLT-OSS/FirstData",
+      "title": "FirstData",
+      "description": "The world's most comprehensive authoritative data source knowledge base. 160+ curated sources from governments, international organizations, and research institutions with MCP integration.",
+      "category": "Data Dumps",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/MindweaveTech/sme-sim-sample",
+      "title": "Mindweave Synthetic Business Data",
+      "description": "42-table synthetic SME dataset with double-entry accounting, tax compliance (AU/US/UK), and temporal realism. CSV, SQL, Parquet, SQLite. Ideal for ETL pipeline testing.",
+      "category": "Data Dumps",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://apify.com/jmendozapuche/latam-synth",
+      "title": "LatAm Synth",
+      "description": "Synthetic financial savings behavior generator for Latin America: users, savings goals, and transactions calibrated on 506K real records (2015–2024). Reproducible by seed, 100% synthetic.",
+      "category": "Data Dumps",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/prometheus/haproxy_exporter",
+      "title": "HAProxy Exporter",
+      "description": "Simple server that scrapes HAProxy stats and exports them via HTTP for Prometheus consumption.",
+      "category": "Prometheus",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/sortlist/signals-cli",
+      "title": "Signals CLI",
+      "description": "Intent signal monitoring CLI. Track LinkedIn engagers, keyword posters, job changers, funding events. JSON output for data pipelines.",
+      "category": "Prometheus",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/capitalone/dataprofiler",
+      "title": "Data Profiler",
+      "description": "The DataProfiler is a Python library designed to make data analysis, monitoring, and sensitive data detection easy.",
+      "category": "Data Profiler",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://docs.profiling.ydata.ai/latest/",
+      "title": "YData Profiling",
+      "description": "A general-purpose open-source data profiler for high-level analysis of a dataset.",
+      "category": "Data Profiler",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/aegis-dq/aegis-dq",
+      "title": "Aegis DQ",
+      "description": "Open-source agentic data quality framework with LLM-powered diagnosis, root-cause analysis, SQL auto-fix proposals, and 31 rule types — DuckDB, Postgres, BigQuery, Databricks, Athena, Snowflake.",
+      "category": "Testing",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/grai-io/grai-core/",
+      "title": "Grai",
+      "description": "A data catalog tool that integrates into your CI system exposing downstream impact testing of data changes. These tests prevent data changes which might break data pipelines or BI dashboards from making it to production.",
+      "category": "Testing",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/dqops/dqo",
+      "title": "DQOps",
+      "description": "An open-source data quality platform for the whole data platform lifecycle from profiling new data sources to applying full automation of data quality monitoring.",
+      "category": "Testing",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://datakitchen.io/",
+      "title": "DataKitchen",
+      "description": "Open Source Data Observability for end-to-end Data Journey Observability, data profiling, anomaly detection, and auto-created data quality validation tests.",
+      "category": "Testing",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://greatexpectations.io/",
+      "title": "GreatExpectation",
+      "description": "Open Source data validation framework to manage data quality. Users can define and document “expectations” rules about how data should look and behave.",
+      "category": "Testing",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/provero-org/provero",
+      "title": "Provero",
+      "description": "A vendor-neutral, declarative data quality engine. Define checks in YAML, run anywhere. Includes 16 built-in check types, SQL batch optimizer, anomaly detection, and data contracts.",
+      "category": "Testing",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/rbmuller/scherlok",
+      "title": "Scherlok",
+      "description": "Zero-config data quality CLI. Profiles every table on first run, then auto-detects anomalies (volume drops, schema drift, freshness misses, distribution shifts) on subsequent runs. No YAML, no rules to write. Works with Postgres, BigQuery, Snowflake, and dbt.",
+      "category": "Testing",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://runsql.com/",
+      "title": "RunSQL",
+      "description": "Free online SQL playground for MySQL, PostgreSQL, and SQL Server. Create database structures, run queries, and share results instantly.",
+      "category": "Testing",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://www.sparkplayground.com/",
+      "title": "Spark Playground",
+      "description": "Write, run, and test PySpark code on Spark Playground's online compiler. Access real-world sample datasets & solve interview questions to enhance your PySpark skills for data engineering roles.",
+      "category": "Testing",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/vertti/daffy/",
+      "title": "daffy",
+      "description": "Decorator-first DataFrame contracts/validation (columns/dtypes/constraints) at function boundaries. Supports Pandas/Polars/PyArrow/Modin.",
+      "category": "Testing",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://github.com/nnnkkk7/snowflake-emulator",
+      "title": "Snowflake Emulator",
+      "description": "A Snowflake-compatible emulator for local development and testing.",
+      "category": "Testing",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://datascreeniq.com",
+      "title": "DataScreenIQ",
+      "description": "Real-time data quality firewall for pipelines and APIs. Screens rows in milliseconds for schema drift, null spikes, type mismatches, and data anomalies with PASS / WARN / BLOCK decisions.",
+      "category": "Testing",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://www.datadriven.io/",
+      "title": "DataDriven",
+      "description": "Interview practice with SQL query execution, Python, and data modeling exercises.",
+      "category": "Testing",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://fixzi.ai",
+      "title": "Fixzi",
+      "description": "JSON/XML validation and API contract monitoring tool for debugging and testing structured data.",
+      "category": "Testing",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://www.reddit.com/r/dataengineering/",
+      "title": "/r/dataengineering",
+      "description": "News, tips, and background on Data Engineering.",
+      "category": "Forums",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://www.reddit.com/r/ETL/",
+      "title": "/r/etl",
+      "description": "Subreddit focused on ETL.",
+      "category": "Forums",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://aidevboard.com",
+      "title": "AI Dev Jobs",
+      "description": "Job board focused on AI, ML, and data engineering roles with 7,400+ listings, salary data, and a free REST API.",
+      "category": "Forums",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://www.datacouncil.ai/about",
+      "title": "Data Council",
+      "description": "The first technical conference that bridges the gap between data scientists, data engineers and data analysts.",
+      "category": "Conferences",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://www.chainofthought.show/",
+      "title": "Chain of Thought",
+      "description": "Interviews with AI and data infrastructure leaders on building production systems.",
+      "category": "Podcasts",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://www.dataengineeringpodcast.com/",
+      "title": "Data Engineering Podcast",
+      "description": "The show about modern data infrastructure.",
+      "category": "Podcasts",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://www.latent.space/podcast",
+      "title": "Latent Space",
+      "description": "Technical deep dives on AI engineering, from model training to deployment.",
+      "category": "Podcasts",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://practicalai.fm/",
+      "title": "Practical AI",
+      "description": "Making AI practical, productive, and accessible to everyone.",
+      "category": "Podcasts",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://softwareengineeringdaily.com/",
+      "title": "Software Engineering Daily",
+      "description": "Daily interviews about technical software topics, including data infrastructure.",
+      "category": "Podcasts",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://roundup.getdbt.com/s/the-analytics-engineering-podcast",
+      "title": "The Analytics Engineering Podcast",
+      "description": "How analytics engineers build and maintain data pipelines at scale.",
+      "category": "Podcasts",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://datastackshow.com/",
+      "title": "The Data Stack Show",
+      "description": "A show where they talk to data engineers, analysts, and data scientists about their experience around building and maintaining data infrastructure, delivering data and data products, and driving better outcomes across their businesses with data.",
+      "category": "Podcasts",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://www.manning.com/books/snowflake-data-engineering",
+      "title": "Snowflake Data Engineering",
+      "description": "A practical introduction to data engineering on the Snowflake cloud data platform.",
+      "category": "Books",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://www.appliedaicourse.com/blog/data-science-books/",
+      "title": "Best Data Science Books",
+      "description": "This blog offers a curated list of top data science books, categorized by topics and learning stages, to aid readers in building foundational knowledge and staying updated with industry trends.",
+      "category": "Books",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://www.manning.com/books/architecting-an-apache-iceberg-lakehouse",
+      "title": "Architecting an Apache Iceberg Lakehouse",
+      "description": "A guide to designing an Apache Iceberg lakehouse from scratch.",
+      "category": "Books",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    },
+    {
+      "url": "https://www.manning.com/books/learn-ai-data-engineering-in-a-month-of-lunches",
+      "title": "Learn AI Data Engineering in a Month of Lunches",
+      "description": "A fast, friendly guide to integrating large language models into your data workflows.",
+      "category": "Books",
+      "source": "igorbarinov/awesome-data-engineering",
+      "indexedAt": "2026-07-23T14:53:22.221Z"
+    }
+  ],
+  "categories": [
+    "Databases",
+    "Data Comparison",
+    "Data Ingestion",
+    "File System",
+    "Serialization format",
+    "Stream Processing",
+    "Batch Processing",
+    "Charts and Dashboards",
+    "Workflow",
+    "Data Lake Management",
+    "ELK Elastic Logstash Kibana",
+    "Docker",
+    "Realtime",
+    "Data Dumps",
+    "Prometheus",
+    "Data Profiler",
+    "Schema",
+    "Testing",
+    "Forums",
+    "Conferences",
+    "Podcasts",
+    "Books"
+  ],
+  "crawledAt": "2026-07-23T14:53:22.221Z"
+}

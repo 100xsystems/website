@@ -1,0 +1,16 @@
+{
+  "id": "dependency-inversion",
+  "category": "principles",
+  "label": "Dependency Inversion Principle",
+  "aliases": [],
+  "description": "Software programming object-oriented design methodology",
+  "summary": "In object-oriented design, the dependency inversion principle is a specific methodology for loosely coupled software modules. When following this principle, the conventional dependency relationships established from high-level, policy-setting modules to low-level, dependency modules are reversed, thus rendering high-level modules independent of the low-level module implementation details. The principle states:",
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Dependency_inversion_principle",
+    "wikidata": "https://www.wikidata.org/wiki/Q1192488"
+  },
+  "indexedAt": "2026-07-23T14:36:02.499Z"
+}

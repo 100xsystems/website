@@ -1,0 +1,16 @@
+{
+  "id": "factory",
+  "category": "patterns",
+  "label": "Factory Method",
+  "aliases": [],
+  "description": "Provides an interface for creating objects without specifying their concrete classes",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Factory_method_pattern",
+    "wikidata": "https://www.wikidata.org/wiki/Q464318"
+  },
+  "indexedAt": "2026-07-23T14:36:39.903Z"
+}

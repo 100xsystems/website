@@ -1,0 +1,16 @@
+{
+  "id": "lru-cache",
+  "category": "patterns",
+  "label": "LRU Cache",
+  "aliases": [],
+  "description": "Cache eviction policy that discards the least recently used items first",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Cache_replacement_policies",
+    "wikidata": "https://www.wikidata.org/wiki/Q881780"
+  },
+  "indexedAt": "2026-07-23T14:36:49.301Z"
+}

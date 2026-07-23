@@ -1,0 +1,13 @@
+{
+  "id": "strangler-fig",
+  "category": "patterns",
+  "label": "Strangler Fig Pattern",
+  "aliases": [],
+  "description": "Incrementally replaces a legacy system by building a new system alongside it",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {},
+  "indexedAt": "2026-07-23T14:36:46.007Z"
+}

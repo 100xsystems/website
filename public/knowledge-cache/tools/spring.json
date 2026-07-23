@@ -1,0 +1,16 @@
+{
+  "id": "spring",
+  "category": "tools",
+  "label": "Spring Framework",
+  "aliases": [],
+  "description": "Application framework and inversion of control container for Java",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Spring_Framework",
+    "wikidata": "https://www.wikidata.org/wiki/Q379845"
+  },
+  "indexedAt": "2026-07-23T14:36:30.972Z"
+}

@@ -1,48 +1,96 @@
 {
-  "listCount": 17,
-  "totalLinks": 12332,
-  "generatedAt": "2026-07-23T13:30:58.661Z",
+  "listCount": 56,
+  "totalLinks": 29119,
+  "generatedAt": "2026-07-23T14:54:20.581Z",
   "topicSummary": {
-    "debugging": 1,
-    "hacktoberfest": 2,
-    "post-mortem": 1,
-    "architecture": 1,
-    "awesome": 12,
-    "awesome-list": 10,
-    "backend": 1,
-    "big-data": 1,
-    "computer-science": 1,
-    "design-patterns": 1,
-    "devops": 1,
-    "distributed-systems": 2,
-    "interview": 2,
-    "interview-practice": 1,
-    "interview-questions": 1,
-    "lists": 3,
-    "machine-learning": 3,
-    "programming": 1,
-    "resources": 3,
-    "scalability": 1,
-    "system": 1,
-    "system-design": 1,
-    "web-development": 1,
-    "hadoop-ecosystem": 1,
-    "message-broker": 1,
-    "microservices": 1,
-    "microservices-architecture": 1,
-    "nosql": 1,
-    "relational-database": 1,
-    "stream-processing": 1,
+    "awesome": 39,
+    "awesome-list": 39,
+    "lists": 4,
+    "resources": 4,
     "unicorns": 1,
+    "kernel": 1,
+    "linux": 2,
+    "linux-kernel": 1,
+    "operating-system": 1,
+    "os": 1,
+    "os-dev": 1,
+    "osdev": 1,
     "go": 1,
     "golang": 1,
     "golang-library": 1,
+    "hacktoberfest": 3,
     "rust": 1,
     "collections": 1,
     "python": 1,
     "python-frameworks": 1,
     "python-libraries": 1,
     "python-tools": 1,
+    "c": 1,
+    "c-plus-plus": 1,
+    "cpp": 1,
+    "cpp-library": 1,
+    "cppcon": 1,
+    "libraries": 1,
+    "list": 11,
+    "programming-tutorial": 1,
+    "javascript": 3,
+    "node": 1,
+    "nodejs": 1,
+    "react": 1,
+    "react-apps": 1,
+    "react-native": 1,
+    "react-tutorial": 1,
+    "samples": 1,
+    "tutorial": 1,
+    "typescript": 1,
+    "angular": 1,
+    "angular-components": 1,
+    "angular10": 1,
+    "angular11": 1,
+    "angular2": 1,
+    "angular4": 1,
+    "angular9": 1,
+    "sapper": 1,
+    "svelte": 1,
+    "sveltejs": 1,
+    "framework": 1,
+    "isomorphic": 1,
+    "nextjs": 1,
+    "reactjs": 1,
+    "routing": 1,
+    "server-side-rendering": 1,
+    "tutorials": 1,
+    "universal": 1,
+    "awesome-lists": 1,
+    "awesome-swift": 1,
+    "ios": 1,
+    "swift": 1,
+    "swift-extensions": 1,
+    "swift-framework": 1,
+    "swift-language": 1,
+    "swift-library": 1,
+    "android-development": 1,
+    "java": 1,
+    "kotlin": 1,
+    "kotlin-android": 1,
+    "kotlin-language": 1,
+    "kotlin-plugin": 1,
+    "collection": 1,
+    "curated-list": 1,
+    "ruby": 1,
+    "ruby-libraries": 1,
+    "scala": 1,
+    "scala-library": 1,
+    "scalajs": 1,
+    "lua-nginx": 1,
+    "lua-resty": 1,
+    "nginx": 1,
+    "nginx-http": 1,
+    "nginx-server": 1,
+    "ngx-lua": 1,
+    "mongodb": 1,
+    "mongodb-resources": 1,
+    "graphql": 1,
     "container": 1,
     "docker": 2,
     "docker-api": 1,
@@ -56,7 +104,6 @@
     "docker-security": 1,
     "docker-swarm": 1,
     "dockerfile": 1,
-    "list": 3,
     "moby": 1,
     "tools": 1,
     "aws": 1,
@@ -67,43 +114,272 @@
     "enterprise-kubernetes-products": 1,
     "google-cloud": 1,
     "google-kubernetes": 1,
-    "kubernetes": 1,
+    "kubernetes": 2,
     "kubernetes-cluster": 1,
     "kubernetes-sources": 1,
+    "machine-learning": 6,
     "meetup": 1,
     "minikube": 1,
     "monitoring-kubernetes": 1,
     "resource": 1,
     "schedule": 1,
-    "c": 1,
-    "c-plus-plus": 1,
-    "cpp": 1,
-    "cpp-library": 1,
-    "cppcon": 1,
-    "libraries": 1,
-    "programming-tutorial": 1,
-    "lua-nginx": 1,
-    "lua-resty": 1,
-    "nginx": 1,
-    "nginx-http": 1,
-    "nginx-server": 1,
-    "ngx-lua": 1,
-    "bcc": 1,
-    "bpf": 1,
-    "ebpf": 1,
-    "xdp": 1,
+    "devops": 3,
+    "hashicorp-terraform": 1,
+    "infrastructure-as-code": 1,
+    "opentofu": 1,
+    "terraform": 1,
+    "terraform-modules": 1,
+    "cloud-native": 2,
+    "containers": 1,
+    "microservices": 3,
+    "cloud": 1,
+    "cloud-computing": 2,
+    "microservice": 2,
+    "nobackend": 1,
+    "serverless-applications": 1,
+    "webservices": 1,
+    "hashicorp": 1,
+    "hashicorp-nomad": 1,
+    "nomad": 1,
+    "docker-compose": 1,
+    "microservices-architecture": 3,
+    "service-mesh": 1,
+    "architecture": 1,
+    "backend": 2,
+    "big-data": 1,
+    "computer-science": 2,
+    "design-patterns": 1,
+    "distributed-systems": 3,
+    "interview": 3,
+    "interview-practice": 1,
+    "interview-questions": 2,
+    "programming": 1,
+    "scalability": 2,
+    "system": 1,
+    "system-design": 2,
+    "web-development": 1,
+    "hadoop-ecosystem": 1,
+    "message-broker": 1,
+    "nosql": 1,
+    "relational-database": 1,
+    "stream-processing": 1,
+    "high-level-design": 1,
+    "hld": 1,
     "penetration-testing": 1,
-    "security": 1,
+    "security": 2,
     "web": 1,
     "websecurity": 1,
-    "deep-learning": 1,
+    "analysis-framework": 1,
+    "automated-analysis": 1,
+    "chinese": 1,
+    "chinese-translation": 1,
+    "domain-analysis": 1,
+    "drop-ice": 1,
+    "dynamic-analysis": 1,
+    "malware-analysis": 1,
+    "malware-collection": 1,
+    "malware-research": 1,
+    "malware-samples": 1,
+    "network-traffic": 1,
+    "static-analysis": 1,
+    "threat-intelligence": 1,
+    "threat-sharing": 1,
+    "threatintel": 1,
+    "deep-learning": 3,
     "deep-learning-tutorial": 1,
     "deep-networks": 1,
     "face-images": 1,
     "neural-network": 1,
-    "recurrent-networks": 1
+    "recurrent-networks": 1,
+    "analytics": 1,
+    "data-mining": 1,
+    "data-science": 1,
+    "data-scientists": 1,
+    "data-visualization": 1,
+    "science": 1,
+    "language": 1,
+    "natural-language-processing": 1,
+    "nlp": 1,
+    "text-mining": 1,
+    "observability": 1,
+    "debugging": 1,
+    "post-mortem": 1,
+    "bcc": 1,
+    "bpf": 1,
+    "ebpf": 1,
+    "xdp": 1,
+    "neovim": 1,
+    "neovim-plugins": 1,
+    "nvim-lua": 1,
+    "visual-studio": 1,
+    "visual-studio-code": 1,
+    "visual-studio-code-extension": 1,
+    "visual-studio-code-theme": 1,
+    "visualstudio": 1,
+    "vscode": 1,
+    "vscode-extension": 1,
+    "vscode-theme": 1,
+    "bash": 1,
+    "cli": 1,
+    "fish": 1,
+    "shell": 1,
+    "zsh": 1,
+    "apps": 1,
+    "css": 1,
+    "postcss": 1,
+    "tailwind": 1,
+    "tailwindcss": 1,
+    "websites": 1,
+    "awesome-iot": 1,
+    "azure-iot": 1,
+    "iot": 1,
+    "iot-application": 1,
+    "iot-cloud": 1,
+    "iot-device": 1,
+    "iot-platform": 1,
+    "motion-planning": 1,
+    "multibody-dynamics": 1,
+    "optimization": 1,
+    "robotics": 1,
+    "robotics-libraries": 1,
+    "robotics-library": 1,
+    "robotics-simulation": 1,
+    "simulation": 1,
+    "slam": 1
   },
   "lists": [
+    {
+      "repoId": "sindresorhus/awesome",
+      "name": "😎 Awesome lists about all kinds of interesting topics",
+      "linkCount": 684,
+      "stars": 488012
+    },
+    {
+      "repoId": "embedded-boston/awesome-embedded-systems",
+      "name": "A curated list of delightful Embedded Systems libraries, RTOSes, modules, references and more!",
+      "linkCount": 111,
+      "stars": 996
+    },
+    {
+      "repoId": "jubalh/awesome-os",
+      "name": "A list of operating systems and stuff",
+      "linkCount": 225,
+      "stars": 2243
+    },
+    {
+      "repoId": "avelino/awesome-go",
+      "name": "A curated list of awesome Go frameworks, libraries and software",
+      "linkCount": 3003,
+      "stars": 178947
+    },
+    {
+      "repoId": "rust-unofficial/awesome-rust",
+      "name": "A curated list of Rust code and resources.",
+      "linkCount": 1719,
+      "stars": 58485
+    },
+    {
+      "repoId": "vinta/awesome-python",
+      "name": "An opinionated list of Python frameworks, libraries, tools, and resources",
+      "linkCount": 565,
+      "stars": 309855
+    },
+    {
+      "repoId": "fffaraz/awesome-cpp",
+      "name": "A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff.",
+      "linkCount": 1335,
+      "stars": 72390
+    },
+    {
+      "repoId": "akullpp/awesome-java",
+      "name": "A curated list of awesome frameworks, libraries and software for the Java programming language.",
+      "linkCount": 876,
+      "stars": 48537
+    },
+    {
+      "repoId": "sindresorhus/awesome-nodejs",
+      "name": ":zap: Delightful Node.js packages and resources [BECAUSE OF TOO MUCH SPAM AND LOW-QUALITY SUBMISSIONS, SUBMISSIONS ARE PAUSED UNTIL JULY]",
+      "linkCount": 571,
+      "stars": 66328
+    },
+    {
+      "repoId": "dzharii/awesome-typescript",
+      "name": "A collection of awesome TypeScript resources for client-side and server-side development. Write your awesome JavaScript in TypeScript",
+      "linkCount": 128,
+      "stars": 5115
+    },
+    {
+      "repoId": "enaqx/awesome-react",
+      "name": "A collection of awesome things regarding React ecosystem",
+      "linkCount": 134,
+      "stars": 74054
+    },
+    {
+      "repoId": "vuejs/awesome-vue",
+      "name": "🎉 A curated list of awesome things related to Vue.js",
+      "linkCount": 987,
+      "stars": 73563
+    },
+    {
+      "repoId": "PatrickJS/awesome-angular",
+      "name": ":page_facing_up: A curated list of awesome Angular resources",
+      "linkCount": 1947,
+      "stars": 10042
+    },
+    {
+      "repoId": "TheComputerM/awesome-svelte",
+      "name": "⚡ A curated list of awesome Svelte resources",
+      "linkCount": 175,
+      "stars": 2135
+    },
+    {
+      "repoId": "unicodeveloper/awesome-nextjs",
+      "name": ":notebook_with_decorative_cover: :books: A curated list of awesome resources : books, videos, articles about using Next.js (A minimalistic framework for universal server-rendered React applications) ",
+      "linkCount": 188,
+      "stars": 11095
+    },
+    {
+      "repoId": "matteocrippa/awesome-swift",
+      "name": "A collaborative list of awesome Swift libraries and resources. Feel free to contribute!",
+      "linkCount": 1089,
+      "stars": 26164
+    },
+    {
+      "repoId": "mcxiaoke/awesome-kotlin",
+      "name": "A curated list of awesome Kotlin frameworks, libraries, documents and other resources",
+      "linkCount": 593,
+      "stars": 2871
+    },
+    {
+      "repoId": "markets/awesome-ruby",
+      "name": "💎 A collection of awesome Ruby libraries, tools, frameworks and software",
+      "linkCount": 955,
+      "stars": 14113
+    },
+    {
+      "repoId": "lauris/awesome-scala",
+      "name": "A community driven list of useful Scala libraries, frameworks and software.",
+      "linkCount": 300,
+      "stars": 9223
+    },
+    {
+      "repoId": "h4cc/awesome-elixir",
+      "name": "A curated list of amazingly awesome Elixir and Erlang libraries, resources and shiny things. Updates:",
+      "linkCount": 1502,
+      "stars": 13155
+    },
+    {
+      "repoId": "LewisJEllis/awesome-lua",
+      "name": "A curated list of quality Lua packages and resources.",
+      "linkCount": 198,
+      "stars": 4537
+    },
+    {
+      "repoId": "agile6v/awesome-nginx",
+      "name": "A curated list of awesome Nginx distributions, 3rd party modules, Active developers, etc. :octocat:  ",
+      "linkCount": 264,
+      "stars": 1284
+    },
     {
       "repoId": "dhamaniasad/awesome-databases",
       "name": "A curated list of awesome databases",
@@ -111,51 +387,27 @@
       "stars": 20
     },
     {
-      "repoId": "danluu/post-mortems",
-      "name": "A collection of postmortems. Sorry for the delay in merging PRs!",
-      "linkCount": 243,
-      "stars": 12187
+      "repoId": "ramnes/awesome-mongodb",
+      "name": ":leaves: A curated list of awesome MongoDB resources, libraries, tools and applications",
+      "linkCount": 156,
+      "stars": 2648
     },
     {
-      "repoId": "binhnguyennus/awesome-scalability",
-      "name": "The Patterns of Scalable, Reliable, and Performant Large-Scale Systems",
-      "linkCount": 887,
-      "stars": 72621
+      "repoId": "chentsulin/awesome-graphql",
+      "name": "Awesome list of GraphQL",
+      "linkCount": 420,
+      "stars": 15077
     },
     {
-      "repoId": "madd86/awesome-system-design",
-      "name": "A curated list of awesome System Design (A.K.A. Distributed Systems) resources. ",
-      "linkCount": 100,
-      "stars": 12296
-    },
-    {
-      "repoId": "sindresorhus/awesome",
-      "name": "😎 Awesome lists about all kinds of interesting topics",
-      "linkCount": 684,
-      "stars": 487985
-    },
-    {
-      "repoId": "avelino/awesome-go",
-      "name": "A curated list of awesome Go frameworks, libraries and software",
-      "linkCount": 3002,
-      "stars": 178941
-    },
-    {
-      "repoId": "rust-unofficial/awesome-rust",
-      "name": "A curated list of Rust code and resources.",
-      "linkCount": 1719,
-      "stars": 58484
-    },
-    {
-      "repoId": "vinta/awesome-python",
-      "name": "An opinionated list of Python frameworks, libraries, tools, and resources",
-      "linkCount": 563,
-      "stars": 309847
+      "repoId": "igorbarinov/awesome-data-engineering",
+      "name": "A curated list of data engineering tools for software developers",
+      "linkCount": 268,
+      "stars": 8885
     },
     {
       "repoId": "veggiemonk/awesome-docker",
       "name": ":whale: A curated list of Docker resources and projects",
-      "linkCount": 344,
+      "linkCount": 338,
       "stars": 36503
     },
     {
@@ -165,39 +417,93 @@
       "stars": 16030
     },
     {
-      "repoId": "fffaraz/awesome-cpp",
-      "name": "A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff.",
-      "linkCount": 1342,
-      "stars": 72390
+      "repoId": "shuaibiyy/awesome-terraform",
+      "name": "Curated list of resources on HashiCorp's Terraform and OpenTofu",
+      "linkCount": 423,
+      "stars": 6549
     },
     {
-      "repoId": "akullpp/awesome-java",
-      "name": "A curated list of awesome frameworks, libraries and software for the Java programming language.",
-      "linkCount": 871,
-      "stars": 48537
+      "repoId": "rootsongjc/awesome-cloud-native",
+      "name": "A curated list for awesome cloud native tools, software and tutorials.",
+      "linkCount": 670,
+      "stars": 2430
     },
     {
-      "repoId": "agile6v/awesome-nginx",
-      "name": "A curated list of awesome Nginx distributions, 3rd party modules, Active developers, etc. :octocat:  ",
-      "linkCount": 270,
-      "stars": 1284
+      "repoId": "anaibol/awesome-serverless",
+      "name": ":cloud: A curated list of awesome services, solutions and resources for serverless / nobackend applications.",
+      "linkCount": 282,
+      "stars": 7585
     },
     {
-      "repoId": "zoidbergwill/awesome-ebpf",
-      "name": "A curated list of awesome projects related to eBPF.",
-      "linkCount": 237,
-      "stars": 5122
+      "repoId": "jippi/awesome-nomad",
+      "name": "A curated list of amazingly awesome Nomad tools and shiny things.",
+      "linkCount": 37,
+      "stars": 914
+    },
+    {
+      "repoId": "docker/awesome-compose",
+      "name": "Awesome Docker Compose samples",
+      "linkCount": 5,
+      "stars": 45910
+    },
+    {
+      "repoId": "festum/awesome-servicemesh",
+      "name": "A curated list of tools implements the concept of Server Mesh",
+      "linkCount": 17,
+      "stars": 56
+    },
+    {
+      "repoId": "binhnguyennus/awesome-scalability",
+      "name": "The Patterns of Scalable, Reliable, and Performant Large-Scale Systems",
+      "linkCount": 884,
+      "stars": 72622
+    },
+    {
+      "repoId": "madd86/awesome-system-design",
+      "name": "A curated list of awesome System Design (A.K.A. Distributed Systems) resources. ",
+      "linkCount": 69,
+      "stars": 12296
+    },
+    {
+      "repoId": "mfornos/awesome-microservices",
+      "name": "A curated list of Microservice Architecture related principles and technologies.",
+      "linkCount": 283,
+      "stars": 14452
+    },
+    {
+      "repoId": "heynickc/awesome-ddd",
+      "name": "A curated list of Domain-Driven Design (DDD), Command Query Responsibility Segregation (CQRS), Event Sourcing, and Event Storming resources",
+      "linkCount": 279,
+      "stars": 12305
+    },
+    {
+      "repoId": "ashishps1/awesome-system-design-resources",
+      "name": "Learn System Design concepts and prepare for interviews using free resources.",
+      "linkCount": 98,
+      "stars": 39837
     },
     {
       "repoId": "qazbnm456/awesome-web-security",
       "name": "🐶 A curated list of Web Security materials and resources.",
-      "linkCount": 411,
-      "stars": 13615
+      "linkCount": 408,
+      "stars": 13614
+    },
+    {
+      "repoId": "sbilly/awesome-security",
+      "name": "A collection of awesome software, libraries, documents, books, resources and cools stuffs about security.",
+      "linkCount": 262,
+      "stars": 14655
+    },
+    {
+      "repoId": "rshipp/awesome-malware-analysis",
+      "name": "Defund the Police.",
+      "linkCount": 369,
+      "stars": 13979
     },
     {
       "repoId": "josephmisiti/awesome-machine-learning",
       "name": "A curated list of awesome Machine Learning frameworks, libraries and software.",
-      "linkCount": 1082,
+      "linkCount": 1046,
       "stars": 73662
     },
     {
@@ -205,6 +511,78 @@
       "name": "A curated list of awesome Deep Learning tutorials, projects and communities.",
       "linkCount": 514,
       "stars": 28655
+    },
+    {
+      "repoId": "academic/awesome-datascience",
+      "name": ":memo: An awesome Data Science repository to learn and apply for real world problems.",
+      "linkCount": 772,
+      "stars": 29676
+    },
+    {
+      "repoId": "jbhuang0604/awesome-computer-vision",
+      "name": "A curated list of awesome computer vision resources",
+      "linkCount": 446,
+      "stars": 23449
+    },
+    {
+      "repoId": "keon/awesome-nlp",
+      "name": ":book: A curated list of resources dedicated to Natural Language Processing (NLP)",
+      "linkCount": 575,
+      "stars": 18849
+    },
+    {
+      "repoId": "adriannovegil/awesome-observability",
+      "name": "Awesome observability page",
+      "linkCount": 230,
+      "stars": 650
+    },
+    {
+      "repoId": "danluu/post-mortems",
+      "name": "A collection of postmortems. Sorry for the delay in merging PRs!",
+      "linkCount": 243,
+      "stars": 12187
+    },
+    {
+      "repoId": "zoidbergwill/awesome-ebpf",
+      "name": "A curated list of awesome projects related to eBPF.",
+      "linkCount": 229,
+      "stars": 5122
+    },
+    {
+      "repoId": "rockerBOO/awesome-neovim",
+      "name": "Collections of awesome neovim plugins.",
+      "linkCount": 1410,
+      "stars": 21178
+    },
+    {
+      "repoId": "viatsko/awesome-vscode",
+      "name": "🎨 A curated list of delightful VS Code packages and resources.",
+      "linkCount": 25,
+      "stars": 28903
+    },
+    {
+      "repoId": "alebcay/awesome-shell",
+      "name": "A curated list of awesome command-line frameworks, toolkits, guides and gizmos. Inspired by awesome-php.",
+      "linkCount": 326,
+      "stars": 37315
+    },
+    {
+      "repoId": "aniftyco/awesome-tailwindcss",
+      "name": "😎 Awesome things related to Tailwind CSS",
+      "linkCount": 3,
+      "stars": 15085
+    },
+    {
+      "repoId": "phodal/awesome-iot",
+      "name": "Awesome IoT. A collaborative list of great resources about IoT Framework, Library,  OS, Platform",
+      "linkCount": 388,
+      "stars": 4604
+    },
+    {
+      "repoId": "jslee02/awesome-robotics-libraries",
+      "name": ":sunglasses: A curated list of robotics libraries and software",
+      "linkCount": 32,
+      "stars": 2998
     }
   ]
 }

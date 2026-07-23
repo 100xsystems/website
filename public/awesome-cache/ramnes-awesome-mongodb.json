@@ -1,0 +1,1308 @@
+{
+  "repoId": "ramnes/awesome-mongodb",
+  "name": ":leaves: A curated list of awesome MongoDB resources, libraries, tools and applications",
+  "description": ":leaves: A curated list of awesome MongoDB resources, libraries, tools and applications",
+  "repoUrl": "https://github.com/ramnes/awesome-mongodb",
+  "stars": 2648,
+  "topics": [
+    "awesome",
+    "awesome-list",
+    "list",
+    "mongodb",
+    "mongodb-resources"
+  ],
+  "links": [
+    {
+      "url": "https://www.mongodb.com/docs/manual/introduction/",
+      "title": "MongoDB Server Introduction",
+      "description": null,
+      "category": "Documentation",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://www.mongodb.com/docs/manual/",
+      "title": "MongoDB Server Documentation",
+      "description": null,
+      "category": "Documentation",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://www.mongodb.com/docs/manual/tutorial/",
+      "title": "MongoDB Tutorials",
+      "description": null,
+      "category": "Documentation",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://www.mongodb.com/docs/guides/",
+      "title": "MongoDB Guides",
+      "description": null,
+      "category": "Documentation",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://www.mongodb.com/docs/drivers/",
+      "title": "MongoDB Driver Documentation",
+      "description": null,
+      "category": "Documentation",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://www.mongodb.com/connectors/",
+      "title": "MongoDB Connectors",
+      "description": null,
+      "category": "Documentation",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://www.infoq.com/articles/Starting-With-MongoDB/",
+      "title": "14 Things I Wish I'd Known When Starting with MongoDB (Phil Factor)",
+      "description": null,
+      "category": "Articles",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://ahmadawais.com/wordpress-mongodb-atlas-microsoft-azure-serverless-functions/",
+      "title": "A Custom WordPress Dashboard with MongoDB Atlas, Microsoft Azure, & Serverless Functions (Ahmad Awais)",
+      "description": null,
+      "category": "Articles",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://www.mongodb.com/blog/post/building-with-patterns-a-summary",
+      "title": "Building with Patterns",
+      "description": "Series of articles regarding MongoDB Design Patterns and common use case of each Design Pattern with real world examples.",
+      "category": "Articles",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://emptysqua.re/blog/five-things/",
+      "title": "Five Things About Scaling MongoDB (A. Jesse Jiryu Davis, MongoDB Inc.)",
+      "description": "Scale 101",
+      "category": "Articles",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://emptysqua.re/blog/optimizing-mongodb-compound-indexes/",
+      "title": "Optimizing MongoDB Compound Indexes (A. Jesse Jiryu Davis, MongoDB Inc.)",
+      "description": "Everything you need/have to know about indexes",
+      "category": "Articles",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://emptysqua.re/blog/server-discovery-and-monitoring-in-pymongo-perl-and-c/",
+      "title": "Server Discovery And Monitoring In PyMongo, Perl, And C (A. Jesse Jiryu Davis, MongoDB Inc.)",
+      "description": null,
+      "category": "Articles",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://www.datadoghq.com/blog/monitoring-mongodb-performance-metrics-wiredtiger/",
+      "title": "Monitoring MongoDB performance metrics (Jean-Mathieu Saponaro, Datadog)",
+      "description": null,
+      "category": "Articles",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://blog.apify.com/tuning-mongodb-performance/",
+      "title": "Tuning MongoDB performance for production systems (Marek Trunkat, Apify)",
+      "description": "The techniques and MongoDB Cloud features to debug performance issues and expose sub-optimal queries",
+      "category": "Articles",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://www.oreilly.com/library/view/50-tips-and/9781449306779/",
+      "title": "50 Tips and Tricks for MongoDB Developers",
+      "description": "Advanced MongoDB tips and tricks, given by a MongoDB inc. engineer",
+      "category": "Books",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://www.oreilly.com/library/view/mongodb-applied-design/9781449340056/",
+      "title": "MongoDB Applied Design Patterns (Rick Copeland)",
+      "description": null,
+      "category": "Books",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://www.manning.com/books/mongodb-in-action-third-edition",
+      "title": "MongoDB in Action, Third Edition (Arek Borucki)",
+      "description": null,
+      "category": "Books",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://www.practical-mongodb-aggregations.com/",
+      "title": "Practical MongoDB Aggregations E-Book",
+      "description": "Free e-book: How to develop effective and optimal data manipulation and analytics pipelines",
+      "category": "Books",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/mongodb-developer/the-little-mongodb-book",
+      "title": "The Little MongoDB Book",
+      "description": "Basic introduction",
+      "category": "Books",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://eladnava.com/deploy-a-highly-available-mongodb-replica-set-on-aws/",
+      "title": "Deploy a Highly-Available MongoDB Replica Set on AWS",
+      "description": null,
+      "category": "Tutorials",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/minhhungit/mongodb-cluster-docker-compose",
+      "title": "Sharded Cluster with Docker Compose",
+      "description": null,
+      "category": "Tutorials",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/mongodb/mongo",
+      "title": "MongoDB source code",
+      "description": null,
+      "category": "More",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://learn.mongodb.com/",
+      "title": "MongoDB University",
+      "description": "Certifications and free online courses",
+      "category": "More",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://studio3t.com/academy/",
+      "title": "MongoDB 101 by Academy 3T",
+      "description": "Free and self-paced MongoDB courses for beginners",
+      "category": "More",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/ballerina-platform/module-ballerinax-mongodb",
+      "title": "ballerina-mongodb",
+      "description": "Official Ballerina driver",
+      "category": "Ballerina",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/mongodb/mongo-csharp-driver",
+      "title": "mongo-csharp-driver",
+      "description": "Official C# driver",
+      "category": "C#/.NET ###",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/mongodb/mongo-efcore-provider",
+      "title": "mongo-efcore-provider",
+      "description": "Official Entity Framework (EF) Core provider for MongoDB",
+      "category": "C#/.NET ###",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/RobThree/MongoRepository",
+      "title": "MongoRepository",
+      "description": "Repository abstraction layer on top of the C# driver",
+      "category": "C#/.NET ###",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://vibed.org/docs#mongo",
+      "title": "vibe.d",
+      "description": "D web framework shipping with a MongoDB driver",
+      "category": "D",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/mongo-dart/mongo_dart",
+      "title": "mongo_dart",
+      "description": "Community Dart driver",
+      "category": "Dart",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/MagicFoundation/Alcinoe",
+      "title": "Alcinoe",
+      "description": "Library for Delphi that includes a MongoDB client",
+      "category": "Delphi",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/stijnsanders/TMongoWire",
+      "title": "TMongoWire",
+      "description": "Minimal community Delphi driver",
+      "category": "Delphi",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/kobil-systems/mongodb",
+      "title": "mongodb",
+      "description": "Community Elixir driver",
+      "category": "Elixir",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/kobil-systems/mongodb_ecto",
+      "title": "mongodb_ecto",
+      "description": "Adapter for the Ecto database wrapper",
+      "category": "Elixir",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/comtihon/mongodb-erlang",
+      "title": "mongodb-erlang",
+      "description": "Community Erlang driver",
+      "category": "Erlang",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/go-bongo/bongo",
+      "title": "Bongo",
+      "description": "ODM based on mgo",
+      "category": "Go",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/kyle-williams-1/bsonic",
+      "title": "bsonic",
+      "description": "Parse Lucene-style query syntax into BSON filters for MongoDB",
+      "category": "Go",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/mongodb-haskell/mongodb/",
+      "title": "mongodb",
+      "description": "Community Haskell driver",
+      "category": "Haskell",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/bguerout/jongo",
+      "title": "Jongo",
+      "description": "Query in Java as in Mongo shell",
+      "category": "Java",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/hibernate/hibernate-ogm",
+      "title": "Hibernate OGM",
+      "description": "The power and simplicity of JPA for NoSQL datastores",
+      "category": "Java",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/mongodb/mongo-java-driver",
+      "title": "mongo-java-driver",
+      "description": "Official Java driver",
+      "category": "Java",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/mongojack/mongojack",
+      "title": "Mongojack",
+      "description": "Based on Jackson, allows you to easily handle your mongo objects as POJOs",
+      "category": "Java",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/MorphiaOrg/morphia",
+      "title": "Morphia",
+      "description": "Java ODM",
+      "category": "Java",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/sboesebeck/morphium",
+      "title": "Morphium",
+      "description": "Java ODM and caching layer",
+      "category": "Java",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/spring-projects/spring-data-mongodb",
+      "title": "Spring Data MongoDB",
+      "description": "Spring based, object-document support and repositories",
+      "category": "Java",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/scottwrobinson/camo",
+      "title": "Camo",
+      "description": "Class-based ES6 ODM for Mongo-like databases",
+      "category": "JavaScript",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/jdesboeufs/connect-mongo",
+      "title": "connect-mongo",
+      "description": "MongoDB session store for Connect and Express written in Typescript.",
+      "category": "JavaScript",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/denodrivers/mongo",
+      "title": "deno_mongo",
+      "description": "Community Deno driver",
+      "category": "JavaScript",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/meanjs/mean",
+      "title": "MEAN.JS",
+      "description": "Full stack based on MongoDB, Express, AngularJS, and Node.js",
+      "category": "JavaScript",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/Hashnode/mern-starter",
+      "title": "MERN (mern-starter)",
+      "description": "Full stack based on MongoDB, Express, React and Node.js",
+      "category": "JavaScript",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/monarch-orm/monarch",
+      "title": "Monarch ORM",
+      "description": "Type-safe ODM for MongoDB with complete type inference",
+      "category": "JavaScript",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/morris/mongomq2",
+      "title": "MongoMQ2",
+      "description": "A general-purpose message and event queuing library for MongoDB",
+      "category": "JavaScript",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/stalniy/casl/tree/master/packages/casl-mongoose",
+      "title": "CASL Mongoose",
+      "description": "Permissions management library integrated with Mongoose",
+      "category": "JavaScript",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/awapps/mongration",
+      "title": "mongration",
+      "description": "Node.js migration framework",
+      "category": "JavaScript",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/neuledge/engine-js",
+      "title": "Neuledge",
+      "description": "Universal schema-based ORM with multi-state representation for entities",
+      "category": "JavaScript",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/typegoose/typegoose",
+      "title": "Typegoose",
+      "description": "Define Mongoose models using TypeScript classes",
+      "category": "JavaScript",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/mongodb/mongo-java-driver/tree/master/driver-kotlin-coroutine",
+      "title": "driver-kotlin-coroutine",
+      "description": "Official Kotlin driver",
+      "category": "Kotlin",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/Litote/kmongo",
+      "title": "kmongo",
+      "description": "Kotlin toolkit based on the Java driver",
+      "category": "Kotlin",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/fons/cl-mongo",
+      "title": "cl-mongo",
+      "description": "Community Common Lisp interface",
+      "category": "Lisp",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "http://massd.github.io/mongo/",
+      "title": "Mongo.ml",
+      "description": "Community OCaml driver",
+      "category": "OCaml",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/mongodb/laravel-mongodb",
+      "title": "laravel-mongodb",
+      "description": "Official Eloquent model and query builder for Laravel",
+      "category": "PHP",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/mongodb/mongo-php-driver",
+      "title": "PHP Driver",
+      "description": "Official PHP driver",
+      "category": "PHP",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/doctrine/mongodb-odm",
+      "title": "Doctrine MongoDB ODM",
+      "description": null,
+      "category": "PHP",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/facile-it/mongodb-bundle",
+      "title": "MongoDB Bundle",
+      "description": "Integration of the official library with Symfony, without ORM",
+      "category": "PHP",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/yiisoft/yii2-mongodb",
+      "title": "yii-mongodb",
+      "description": "Yii 2 MongoDB extension",
+      "category": "PHP",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/opentelemetry-php/contrib-auto-mongodb",
+      "title": "opentelemetry php auto-mongodb",
+      "description": "Automatic monitoring of MongoDB commands with OpenTelemetry",
+      "category": "PHP",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/alcaeus/mongo-php-adapter",
+      "title": "mongo-php-adapter",
+      "description": "Adapter for applications using `ext-mongo`",
+      "category": "PHP",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/nightroman/Mdbc",
+      "title": "Mdbc",
+      "description": "MongoDB cmdlets for PowerShell",
+      "category": "PowerShell",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/certego/AtlasQ",
+      "title": "AtlasQ",
+      "description": "MongoDB Atlas Search wrapper with MongoEngine syntax",
+      "category": "Python",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/roman-right/beanie",
+      "title": "Beanie",
+      "description": "Asynchronous ODM based on [Motor](https://motor.readthedocs.io/en/stable/) and [Pydantic](https://pydantic-docs.helpmanual.io/), which supports migrations out of the box",
+      "category": "Python",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/nesdis/djongo",
+      "title": "Djongo",
+      "description": "MongoDB connector for Django compatible with Django ORM",
+      "category": "Python",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/numberly/mongo-thingy",
+      "title": "Mongo-Thingy",
+      "description": "Powerful schema-less ODM for MongoDB and Python (sync + async)",
+      "category": "Python",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/mongodb/motor",
+      "title": "Motor",
+      "description": "Official non-blocking Python driver for Tornado or asyncio",
+      "category": "Python",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/art049/odmantic",
+      "title": "ODMantic",
+      "description": "Asynchronous ODM on top of pydantic",
+      "category": "Python",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/twisted/txmongo",
+      "title": "TxMongo",
+      "description": "Twisted's MongoDB driver",
+      "category": "Python",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/jeroen/mongolite",
+      "title": "mongolite",
+      "description": "Fast and simple client for R",
+      "category": "R",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/pbosetti/mdbplyr",
+      "title": "mdbplyr",
+      "description": "Build MongoDB queries and aggregations as if you were using `dplyr`, no more head-crushing JSON fights!",
+      "category": "R",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/mongodb/mongo-java-driver/tree/master/driver-scala",
+      "title": "driver-scala",
+      "description": "Official Scala driver",
+      "category": "Scala",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/Stratio/Spark-MongoDB",
+      "title": "Spark-MongoDB",
+      "description": "Read/write data with Spark SQL",
+      "category": "Scala",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/pharo-nosql/mongotalk",
+      "title": "MongoTalk",
+      "description": "Community Smalltalk driver",
+      "category": "Smalltalk",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/mongodb/mongo-swift-driver",
+      "title": "MongoSwift",
+      "description": "Official MongoDB Swift driver (discontinued)",
+      "category": "Swift",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/stefanprodan/mgob",
+      "title": "mgob",
+      "description": "Full-featured MongoDB dockerized backup agent",
+      "category": "Administration",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/mongolab/mongoctl",
+      "title": "mongoctl",
+      "description": "Manage MongoDB servers and replica sets using JSON configurations",
+      "category": "Administration",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/jwilder/mongodb-tools",
+      "title": "mongodb-tools",
+      "description": "Three neat Python scripts to work with collections and indexes",
+      "category": "Administration",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/rueckstiess/mtools",
+      "title": "mtools",
+      "description": "Collection of scripts to set up test environments and visualize log files",
+      "category": "Administration",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://www.percona.com/doc/percona-toolkit/LATEST/pt-mongodb-query-digest.html",
+      "title": "pt-mongodb-query-digest",
+      "description": "Aggregates queries from query profiler and reports query usage statistics",
+      "category": "Administration",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://www.percona.com/doc/percona-toolkit/LATEST/pt-mongodb-summary.html",
+      "title": "pt-mongodb-summary",
+      "description": "MongoDB cluster status overview command line tool",
+      "category": "Administration",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://www.mongodb.com/products/platform",
+      "title": "MongoDB Atlas",
+      "description": "MongoDB Inc. DBaaS offer (works with AWS, Azure, or GCP)",
+      "category": "Administration",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://www.mongodb.com/cloud/cloud-manager",
+      "title": "MongoDB Cloud Manager",
+      "description": "MongoDB Inc. databases management offer",
+      "category": "Administration",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://www.objectrocket.com/",
+      "title": "ObjectRocket",
+      "description": "Rackspace DBaaS offer (has other database types too)",
+      "category": "Administration",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://scalegrid.io",
+      "title": "Scalegrid",
+      "description": "Fully managed DBaaS (with option to bring your own Azure/AWS account)",
+      "category": "Administration",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/yougov/mongo-connector",
+      "title": "mongo-connector",
+      "description": "Streaming replication to Elasticsearch, Solr, or MongoDB",
+      "category": "Data",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/EnterpriseDB/mongo_fdw",
+      "title": "mongo_fdw",
+      "description": "PostgreSQL foreign data wrapper",
+      "category": "Data",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/mongodb/mongo-hadoop",
+      "title": "mongo-hadoop",
+      "description": "Hadoop connector",
+      "category": "Data",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/ozlerhakan/mongolastic",
+      "title": "Mongolastic",
+      "description": "MongoDB to Elasticsearch (and vice-versa) migration tool",
+      "category": "Data",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://www.mongodb.com/products/cluster-to-cluster-sync",
+      "title": "Cluster to cluster sync",
+      "description": "MongoDB Inc. solution for continuous data sync between separate clusters",
+      "category": "Data",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/UnderGreen/ansible-role-mongodb",
+      "title": "ansible-role-mongodb",
+      "description": "Ansible role",
+      "category": "Deployment",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/edelight/chef-mongodb",
+      "title": "chef-mongodb",
+      "description": "Chef cookbook",
+      "category": "Deployment",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://hub.docker.com/_/mongo/",
+      "title": "DockerHub Official Docker Image",
+      "description": null,
+      "category": "Deployment",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/helm/charts/tree/master/stable/mongodb",
+      "title": "Helm Chart",
+      "description": null,
+      "category": "Deployment",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/voxpupuli/puppet-mongodb",
+      "title": "puppet-mongodb",
+      "description": "Puppet module (formerly puppetlabs-mongodb)",
+      "category": "Deployment",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/mongodb-js/compass",
+      "title": "Compass",
+      "description": "Free Cross-platform GUI from MongoDB",
+      "category": "Desktop",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/geek-fun/dockit",
+      "title": "DocKit",
+      "description": "Open-source MongoDB GUI client with built-in Data AI Agent for natural language queries, collection management, and import/export. Cross-platform (Tauri + Vue 3).",
+      "category": "Desktop",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/mongodb-js/mongodb-mcp-server",
+      "title": "MongoDB MCP Server",
+      "description": "Official Model Context Protocol server for interacting with MongoDB databases and MongoDB Atlas",
+      "category": "Desktop",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/jeromelebel/MongoHub-Mac",
+      "title": "MongoHub",
+      "description": "Mac native client",
+      "category": "Desktop",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/mqlens/mqlens-mongodb",
+      "title": "MQLens",
+      "description": "Free, native, cross-platform GUI with all auth modes, TLS/SSH/SOCKS5, aggregation explain plans, schema analysis, GridFS, embedded mongosh and an optional AI query assistant; encrypted credentials, zero telemetry",
+      "category": "Desktop",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/WebDB-App/app",
+      "title": "WebDB",
+      "description": "Web-based and open-source \"efficient database IDE\". Provides ERDs, data generators, an AI assistant, a NoSQL structure manager, a time machine, auto-completion and more",
+      "category": "Desktop",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://www.jetbrains.com/datagrip/",
+      "title": "DataGrip",
+      "description": "Cross-platform JetBrains' IDE",
+      "category": "Desktop",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://mingo.io/",
+      "title": "Mingo",
+      "description": "MongoDB Admin. Intuitive UI. Fast. Reliable",
+      "category": "Desktop",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://www.monghoul.com/",
+      "title": "Monghoul",
+      "description": "MongoDB GUI with smart autocomplete, visual aggregation builder, and built-in MCP server",
+      "category": "Desktop",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://www.datensen.com/",
+      "title": "Moon Modeler",
+      "description": "Data modeling tool for MongoDB and relational databases",
+      "category": "Desktop",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://nosqlbooster.com",
+      "title": "NoSQLBooster",
+      "description": "Feature-rich but easy-to-use cross-platform IDE (formerly MongoBooster)",
+      "category": "Desktop",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://studio3t.com/",
+      "title": "Studio 3T",
+      "description": "Cross-platform GUI, stable and powerful (formerly MongoChef and Robo 3T)",
+      "category": "Desktop",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://tableplus.com/",
+      "title": "TablePlus",
+      "description": "Native, lightweight GUI on macOS",
+      "category": "Desktop",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://visualeaf.com/",
+      "title": "VisuaLeaf",
+      "description": "MongoDB GUI designed for speed, clarity, and effortless data exploration",
+      "category": "Desktop",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/argon-lab/argon",
+      "title": "Argon",
+      "description": "Git-style branching, time travel, and merge; create disposable database sandboxes for tests and AI agents",
+      "category": "Development",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/mongodb/mongo-csharp-analyzer",
+      "title": "C# Analyzer",
+      "description": "View the MongoDB Query API equivalents of your builder expressions in Visual Studio",
+      "category": "Development",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/feliixx/mgodatagen",
+      "title": "mgodatagen",
+      "description": "Random data generator",
+      "category": "Development",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/seppevs/migrate-mongo",
+      "title": "migrate-mongo",
+      "description": "Database migration tool",
+      "category": "Development",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/feliixx/mongoplayground",
+      "title": "Mongo Playground",
+      "description": "Online query playground",
+      "category": "Development",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/mongoeye/mongoeye",
+      "title": "Mongoeye",
+      "description": "Schema and data analyzer: explore data in your collections",
+      "category": "Development",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/vincentrussell/sql-to-mongo-db-query-converter",
+      "title": "sql-to-mongo-db-query-converter",
+      "description": "Query converter from SQL to MongoDB",
+      "category": "Development",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/variety/variety",
+      "title": "Variety",
+      "description": "Schema analyzer: see what fields are in your collection and what's their content",
+      "category": "Development",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/mongodb-js/vscode",
+      "title": "VS Code Extension",
+      "description": null,
+      "category": "Development",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://www.mongodb.com/atlas/app-services",
+      "title": "MongoDB Atlas App Services",
+      "description": "MongoDB Inc. solution to run code without the operational overhead",
+      "category": "Development",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://www.mongodb.com/realm",
+      "title": "MongoDB Realm",
+      "description": "MongoDB Inc. solution for mobile data sync",
+      "category": "Development",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/erh/mongo-munin",
+      "title": "mongo-munin",
+      "description": "Collection of Munin plugins",
+      "category": "Monitoring",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/mzupan/nagios-plugin-mongodb",
+      "title": "nagios-plugin-mongodb",
+      "description": "Nagios plugin (in Python)",
+      "category": "Monitoring",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/percona/pmm",
+      "title": "Percona Monitoring and Management",
+      "description": "Free and open-source platform for managing and monitoring databases performances",
+      "category": "Monitoring",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/mrsarm/mongotail",
+      "title": "mongotail",
+      "description": "Log all MongoDB queries in a \"tail\"able way",
+      "category": "Monitoring",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://www.datadoghq.com/blog/monitor-mongodb-performance-with-datadog/",
+      "title": "Datadog",
+      "description": "SaaS-based monitoring",
+      "category": "Monitoring",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://www.solarwinds.com/database-performance-monitor",
+      "title": "Solarwindws Database Performance Monitor",
+      "description": "SaaS-based query performance analytics and monitoring",
+      "category": "Monitoring",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/appsmithorg/appsmith",
+      "title": "Appsmith",
+      "description": "Open-source Retool alternative",
+      "category": "Low-Code",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/Budibase/budibase",
+      "title": "Budibase",
+      "description": "Open-source Retool alternative",
+      "category": "Low-Code",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/illacloud/illa-builder",
+      "title": "ILLA Builder",
+      "description": "Open-source Retool alternative",
+      "category": "Low-Code",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/ToolJet/ToolJet",
+      "title": "Tooljet",
+      "description": "Open-source Retool alternative",
+      "category": "Low-Code",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://www.dronahq.com/",
+      "title": "DronaHQ",
+      "description": "Retool alternative",
+      "category": "Low-Code",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://retool.com/",
+      "title": "Retool",
+      "description": "Drag-and-drop editor with pre-built components to build internal tools",
+      "category": "Low-Code",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/mongodb/mongodb-atlas-cli",
+      "title": "MongoDB Atlas CLI",
+      "description": "Official Atlas API command-line client",
+      "category": "Shell",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/mongodb-js/mongosh",
+      "title": "mongosh",
+      "description": "Official command-line client",
+      "category": "Shell",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/mrvautin/adminMongo",
+      "title": "adminMongo",
+      "description": "Web-based user interface to handle connections and databases needs",
+      "category": "Web",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/mongo-express/mongo-express",
+      "title": "mongo-express",
+      "description": "Web-based admin interface built with Express",
+      "category": "Web",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/thomasst/mongoadmin",
+      "title": "mongoadmin",
+      "description": "Admin interface built with Django",
+      "category": "Web",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/huggingface/Mongoku",
+      "title": "Mongoku",
+      "description": "MongoDB client for the web",
+      "category": "Web",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/iwind/rockmongo",
+      "title": "Rockmongo",
+      "description": "PHPMyAdmin for MongoDB, sort of",
+      "category": "Web",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://www.humongous.io",
+      "title": "HumongouS.io",
+      "description": "Easy online GUI and data-visualization dashboards",
+      "category": "Web",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/codecombat/codecombat",
+      "title": "CodeCombat",
+      "description": "Multiplayer programming game for learning how to code",
+      "category": "Applications",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/countly/countly-server",
+      "title": "Countly",
+      "description": "Mobile & web analytics and marketing platform built with Node.js",
+      "category": "Applications",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/fiction-com/factor",
+      "title": "FactorJS",
+      "description": "JavaScript CMS built with Mongoose",
+      "category": "Applications",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/grandnode/grandnode",
+      "title": "GrandNode",
+      "description": "Multi-platform e-commerce shopping cart built with ASP.NET",
+      "category": "Applications",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/jonradoff/lastsaas",
+      "title": "LastSaaS",
+      "description": "Open-source SaaS platform foundation with multi-tenant auth, Stripe billing, and MCP server, built with Go and MongoDB",
+      "category": "Applications",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/leanote/leanote",
+      "title": "Leanote",
+      "description": "Evernote clone built with Go",
+      "category": "Applications",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/reactioncommerce/reaction",
+      "title": "Reaction",
+      "description": "Event-driven, real-time commerce platform built with ES6",
+      "category": "Applications",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/async-labs/saas",
+      "title": "SaaS Boilerplate",
+      "description": "Boilerplate for SaaS products, built with TypeScript, React and Express",
+      "category": "Applications",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/fzaninotto/uptime",
+      "title": "uptime",
+      "description": "Remote monitoring application built with Node.js and Bootstrap",
+      "category": "Applications",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    },
+    {
+      "url": "https://github.com/nodemailer/wildduck",
+      "title": "WildDuck Mail Server",
+      "description": "Scalable high availability email server that uses MongoDB for email storage",
+      "category": "Applications",
+      "source": "ramnes/awesome-mongodb",
+      "indexedAt": "2026-07-23T14:53:19.013Z"
+    }
+  ],
+  "categories": [
+    "Documentation",
+    "Articles",
+    "Books",
+    "Talks",
+    "Tutorials",
+    "More",
+    "Ballerina",
+    "C",
+    "C++",
+    "C#/.NET ###",
+    "D",
+    "Dart",
+    "Delphi",
+    "Elixir",
+    "Erlang",
+    "Go",
+    "Haskell",
+    "Java",
+    "JavaScript",
+    "Kotlin",
+    "Lisp",
+    "OCaml",
+    "PHP",
+    "PowerShell",
+    "Python",
+    "R",
+    "Ruby",
+    "Rust",
+    "Scala",
+    "Smalltalk",
+    "Swift",
+    "Administration",
+    "Data",
+    "Deployment",
+    "Desktop",
+    "Development",
+    "Monitoring",
+    "Low-Code",
+    "Shell",
+    "Web",
+    "Applications"
+  ],
+  "crawledAt": "2026-07-23T14:53:19.013Z"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "iterator",
+  "category": "patterns",
+  "label": "Iterator",
+  "aliases": [],
+  "description": "Provides a way to access elements of a collection sequentially",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Iterator_pattern",
+    "wikidata": "https://www.wikidata.org/wiki/Q849857"
+  },
+  "indexedAt": "2026-07-23T14:36:43.711Z"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "github-actions",
+  "category": "tools",
+  "label": "GitHub Actions",
+  "aliases": [],
+  "description": "CI/CD platform for automating software workflows directly in GitHub repositories",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {},
+  "indexedAt": "2026-07-23T14:36:28.072Z"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "defensive-programming",
+  "category": "principles",
+  "label": "Defensive Programming",
+  "aliases": [],
+  "description": "Software development methodology",
+  "summary": "Defensive programming is a form of defensive design intended to develop programs that are capable of detecting potential security abnormalities and make predetermined responses. It ensures the continuing function of a piece of software under unforeseen circumstances. Defensive programming practices are often used where high availability, safety, or security is needed.",
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Defensive_programming",
+    "wikidata": "https://www.wikidata.org/wiki/Q1182478"
+  },
+  "indexedAt": "2026-07-23T14:36:06.015Z"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "circuit-breaker-pattern",
+  "category": "patterns",
+  "label": "Circuit Breaker Pattern",
+  "aliases": [],
+  "description": "Prevents cascading failures by detecting failures and opening circuits",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Circuit_breaker_design_pattern",
+    "wikidata": "https://www.wikidata.org/wiki/Q5121829"
+  },
+  "indexedAt": "2026-07-23T14:36:46.558Z"
+}

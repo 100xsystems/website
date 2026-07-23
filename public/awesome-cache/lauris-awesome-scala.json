@@ -1,0 +1,2462 @@
+{
+  "repoId": "lauris/awesome-scala",
+  "name": "A community driven list of useful Scala libraries, frameworks and software.",
+  "description": "A community driven list of useful Scala libraries, frameworks and software.",
+  "repoUrl": "https://github.com/lauris/awesome-scala",
+  "stars": 9223,
+  "topics": [
+    "awesome",
+    "awesome-list",
+    "scala",
+    "scala-library",
+    "scalajs"
+  ],
+  "links": [
+    {
+      "url": "https://github.com/innFactory/akka-persistence-gcp-datastore",
+      "title": "akka-persistence-gcp-datastore",
+      "description": null,
+      "category": "Database",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/playframework/anorm",
+      "title": "anorm",
+      "description": null,
+      "category": "Database",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/crobox/clickhouse-scala-client",
+      "title": "clickhouse-scala-client",
+      "description": null,
+      "category": "Database",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/couchbase/couchbase-jvm-clients",
+      "title": "couchbase-jvm-clients",
+      "description": null,
+      "category": "Database",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/typelevel/doobie",
+      "title": "**doobie**",
+      "description": null,
+      "category": "Database",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/Philippus/elastic4s",
+      "title": "**elastic4s**",
+      "description": null,
+      "category": "Database",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/mingchuno/etcd4s",
+      "title": "etcd4s",
+      "description": null,
+      "category": "Database",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/laserdisc-io/laserdisc",
+      "title": "laserdisc",
+      "description": null,
+      "category": "Database",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/laserdisc-io/mysql-binlog-stream",
+      "title": "mysql-binlog-stream",
+      "description": null,
+      "category": "Database",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/neotypes/neotypes",
+      "title": "neotypes",
+      "description": null,
+      "category": "Database",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/CleverCloud/pulsar4s",
+      "title": "pulsar4s",
+      "description": null,
+      "category": "Database",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/zio/zio-quill",
+      "title": "**zio-quill**",
+      "description": null,
+      "category": "Database",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/ReactiveMongo/ReactiveMongo",
+      "title": "**ReactiveMongo**",
+      "description": null,
+      "category": "Database",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/etaty/rediscala",
+      "title": "**rediscala**",
+      "description": null,
+      "category": "Database",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/lucidsoftware/relate",
+      "title": "relate",
+      "description": null,
+      "category": "Database",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/sangria-graphql/sangria",
+      "title": "**sangria**",
+      "description": null,
+      "category": "Database",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/lastland/scala-forklift",
+      "title": "scala-forklift",
+      "description": null,
+      "category": "Database",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/outr/scalarelational",
+      "title": "scalarelational",
+      "description": null,
+      "category": "Database",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/scalikejdbc/scalikejdbc",
+      "title": "**scalikejdbc**",
+      "description": null,
+      "category": "Database",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/scanamo/scanamo",
+      "title": "scanamo",
+      "description": null,
+      "category": "Database",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/slick/slick",
+      "title": "**slick**",
+      "description": null,
+      "category": "Database",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/tminglei/slick-pg",
+      "title": "**slick-pg**",
+      "description": null,
+      "category": "Database",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/sake92/squery",
+      "title": "squery",
+      "description": null,
+      "category": "Database",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/squeryl/squeryl",
+      "title": "**squeryl**",
+      "description": null,
+      "category": "Database",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/scalamolecule/molecule",
+      "title": "molecule",
+      "description": null,
+      "category": "Database",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/zio/zio-redis",
+      "title": "zio-redis",
+      "description": null,
+      "category": "Database",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/typelevel/skunk",
+      "title": "**skunk**",
+      "description": null,
+      "category": "Database",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/zero-deps/kvs",
+      "title": "kvs",
+      "description": null,
+      "category": "Database",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/scalafx/scalafx",
+      "title": "**scalafx**",
+      "description": null,
+      "category": "Graphical User Interfaces",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/analogweb/analogweb-scala",
+      "title": "analogweb-scala",
+      "description": null,
+      "category": "Web Frameworks",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/com-lihaoyi/cask",
+      "title": "**cask**",
+      "description": null,
+      "category": "Web Frameworks",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/twitter/finatra",
+      "title": "**finatra**",
+      "description": null,
+      "category": "Web Frameworks",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/lift/framework",
+      "title": "**framework**",
+      "description": null,
+      "category": "Web Frameworks",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/playframework/playframework",
+      "title": "**playframework**",
+      "description": null,
+      "category": "Web Frameworks",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/japgolly/scalajs-react",
+      "title": "**scalajs-react**",
+      "description": null,
+      "category": "Web Frameworks",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/scalatra/scalatra",
+      "title": "**scalatra**",
+      "description": null,
+      "category": "Web Frameworks",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/sake92/sharaf",
+      "title": "sharaf",
+      "description": null,
+      "category": "Web Frameworks",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/unfiltered/unfiltered",
+      "title": "**unfiltered**",
+      "description": null,
+      "category": "Web Frameworks",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/outr/youi",
+      "title": "youi",
+      "description": null,
+      "category": "Web Frameworks",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/ThoughtWorksInc/Binding.scala",
+      "title": "**Binding.scala**",
+      "description": null,
+      "category": "Reactive Web Frameworks",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/UdashFramework/udash-core",
+      "title": "udash-core",
+      "description": null,
+      "category": "Reactive Web Frameworks",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/vert-x3/vertx-lang-scala",
+      "title": "vertx-lang-scala",
+      "description": null,
+      "category": "Reactive Web Frameworks",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/yakivy/dupin",
+      "title": "dupin",
+      "description": null,
+      "category": "Data Binding and Validation",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/krzemin/octopus",
+      "title": "octopus",
+      "description": null,
+      "category": "Data Binding and Validation",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/xitrum-framework/scaposer",
+      "title": "scaposer",
+      "description": null,
+      "category": "i18n",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/guardian/play-googleauth",
+      "title": "play-googleauth",
+      "description": null,
+      "category": "Authentication",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/pac4j/play-pac4j",
+      "title": "play-pac4j",
+      "description": null,
+      "category": "Authentication",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/nulab/scala-oauth2-provider",
+      "title": "**scala-oauth2-provider**",
+      "description": null,
+      "category": "Authentication",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/input-output-hk/scrypto",
+      "title": "scrypto",
+      "description": null,
+      "category": "Cryptography",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/blackdoor/jose",
+      "title": "jose",
+      "description": null,
+      "category": "Cryptography",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/agourlay/cornichon",
+      "title": "cornichon",
+      "description": null,
+      "category": "Testing",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/gatling/gatling",
+      "title": "**gatling**",
+      "description": null,
+      "category": "Testing",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/monix/minitest",
+      "title": "minitest",
+      "description": null,
+      "category": "Testing",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/mockito/mockito-scala",
+      "title": "mockito-scala",
+      "description": null,
+      "category": "Testing",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/scalameta/munit",
+      "title": "munit",
+      "description": null,
+      "category": "Testing",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/typelevel/scalacheck",
+      "title": "**scalacheck**",
+      "description": null,
+      "category": "Testing",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/paulbutcher/ScalaMock",
+      "title": "**ScalaMock**",
+      "description": null,
+      "category": "Testing",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/scalaprops/scalaprops",
+      "title": "scalaprops",
+      "description": null,
+      "category": "Testing",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/scalatest/scalatest",
+      "title": "**scalatest**",
+      "description": null,
+      "category": "Testing",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/etorreborre/specs2",
+      "title": "**specs2**",
+      "description": null,
+      "category": "Testing",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/stryker-mutator/stryker4s",
+      "title": "stryker4s",
+      "description": null,
+      "category": "Testing",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/disneystreaming/weaver-test",
+      "title": "weaver-test",
+      "description": null,
+      "category": "Testing",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/testcontainers/testcontainers-scala",
+      "title": "**testcontainers-scala**",
+      "description": null,
+      "category": "Testing",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/com-lihaoyi/utest",
+      "title": "utest",
+      "description": null,
+      "category": "Testing",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/argonaut-io/argonaut",
+      "title": "**argonaut**",
+      "description": null,
+      "category": "JSON",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/sirthias/borer",
+      "title": "borer",
+      "description": null,
+      "category": "JSON",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/circe/circe",
+      "title": "**circe**",
+      "description": null,
+      "category": "JSON",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/gnieh/diffson",
+      "title": "diffson",
+      "description": null,
+      "category": "JSON",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/FasterXML/jackson-module-scala",
+      "title": "**jackson-module-scala**",
+      "description": null,
+      "category": "JSON",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/typelevel/jawn",
+      "title": "jawn",
+      "description": null,
+      "category": "JSON",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/json4s/json4s",
+      "title": "**json4s**",
+      "description": null,
+      "category": "JSON",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/plokhotnyuk/jsoniter-scala",
+      "title": "**jsoniter-scala**",
+      "description": null,
+      "category": "JSON",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/nrktkt/ninny-json",
+      "title": "ninny-json",
+      "description": null,
+      "category": "JSON",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/playframework/play-json",
+      "title": "play-json",
+      "description": null,
+      "category": "JSON",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/gzoller/ScalaJack",
+      "title": "ScalaJack",
+      "description": null,
+      "category": "JSON",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/spray/spray-json",
+      "title": "**spray-json**",
+      "description": null,
+      "category": "JSON",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/sake92/tupson",
+      "title": "tupson",
+      "description": null,
+      "category": "JSON",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/zio/zio-json",
+      "title": "zio-json",
+      "description": null,
+      "category": "JSON",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/nrinaudo/kantan.csv",
+      "title": "kantan.csv",
+      "description": null,
+      "category": "CSV",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/tototoshi/scala-csv",
+      "title": "**scala-csv**",
+      "description": null,
+      "category": "CSV",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/fingo/spata",
+      "title": "spata",
+      "description": null,
+      "category": "CSV",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/sksamuel/avro4s",
+      "title": "**avro4s**",
+      "description": null,
+      "category": "Serialization",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/twitter/chill",
+      "title": "**chill**",
+      "description": null,
+      "category": "Serialization",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/scalapb/ScalaPB",
+      "title": "**ScalaPB**",
+      "description": null,
+      "category": "Serialization",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/scodec/scodec",
+      "title": "**scodec**",
+      "description": null,
+      "category": "Serialization",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/twitter/scrooge",
+      "title": "**scrooge**",
+      "description": null,
+      "category": "Serialization",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/com-lihaoyi/upickle",
+      "title": "**upickle**",
+      "description": null,
+      "category": "Serialization",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/zero-deps/proto",
+      "title": "proto",
+      "description": null,
+      "category": "Serialization",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/twitter/algebird",
+      "title": "**algebird**",
+      "description": null,
+      "category": "Science and Data Analysis",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/intel-analytics/ipex-llm",
+      "title": "**ipex-llm**",
+      "description": null,
+      "category": "Science and Data Analysis",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/scalanlp/breeze",
+      "title": "**breeze**",
+      "description": null,
+      "category": "Science and Data Analysis",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/picnicml/doddle-model",
+      "title": "doddle-model",
+      "description": null,
+      "category": "Science and Data Analysis",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/to-ithaca/libra",
+      "title": "libra",
+      "description": null,
+      "category": "Science and Data Analysis",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/anskarl/LoMRF",
+      "title": "LoMRF",
+      "description": null,
+      "category": "Science and Data Analysis",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/openmole/mgo",
+      "title": "mgo",
+      "description": null,
+      "category": "Science and Data Analysis",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://spark.apache.org/mllib/",
+      "title": "MLLib",
+      "description": null,
+      "category": "Science and Data Analysis",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/botkop/numsca",
+      "title": "numsca",
+      "description": null,
+      "category": "Science and Data Analysis",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/EmergentOrder/onnx-scala",
+      "title": "onnx-scala",
+      "description": null,
+      "category": "Science and Data Analysis",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/openmole/openmole",
+      "title": "openmole",
+      "description": null,
+      "category": "Science and Data Analysis",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/vagmcs/Optimus",
+      "title": "Optimus",
+      "description": null,
+      "category": "Science and Data Analysis",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://bitbucket.org/oscarlib/oscar/wiki/Home",
+      "title": "OscaR",
+      "description": null,
+      "category": "Science and Data Analysis",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/PoslavskySV/rings",
+      "title": "rings",
+      "description": null,
+      "category": "Science and Data Analysis",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/typelevel/spire",
+      "title": "**spire**",
+      "description": null,
+      "category": "Science and Data Analysis",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/typelevel/squants",
+      "title": "**squants**",
+      "description": null,
+      "category": "Science and Data Analysis",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/apache/zeppelin",
+      "title": "**zeppelin**",
+      "description": null,
+      "category": "Science and Data Analysis",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/JohnSnowLabs/spark-nlp",
+      "title": "**spark-nlp**",
+      "description": null,
+      "category": "Science and Data Analysis",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/ScalaMath/VecMatLib",
+      "title": "VecMatLib",
+      "description": null,
+      "category": "Science and Data Analysis",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/apache/flink",
+      "title": "**flink**",
+      "description": null,
+      "category": "Big Data",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/openmole/gridscale",
+      "title": "gridscale",
+      "description": null,
+      "category": "Big Data",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/apache/kafka",
+      "title": "**kafka**",
+      "description": null,
+      "category": "Big Data",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/akka/alpakka-kafka",
+      "title": "**alpakka-kafka**",
+      "description": null,
+      "category": "Big Data",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/spotify/scio",
+      "title": "**scio**",
+      "description": null,
+      "category": "Big Data",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "http://crunch.apache.org/scrunch.html",
+      "title": "Scrunch",
+      "description": null,
+      "category": "Big Data",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/galliaproject/gallia-core",
+      "title": "gallia-core",
+      "description": null,
+      "category": "Big Data",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/TouK/nussknacker",
+      "title": "**nussknacker**",
+      "description": null,
+      "category": "Big Data",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/bkirwi/decline",
+      "title": "**decline**",
+      "description": null,
+      "category": "Command Line Interfaces",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/com-lihaoyi/mainargs",
+      "title": "mainargs",
+      "description": null,
+      "category": "Command Line Interfaces",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/scallop/scallop",
+      "title": "**scallop**",
+      "description": null,
+      "category": "Command Line Interfaces",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/scopt/scopt",
+      "title": "**scopt**",
+      "description": null,
+      "category": "Command Line Interfaces",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/unibas-gravis/scalismo",
+      "title": "scalismo",
+      "description": null,
+      "category": "Image processing and image analysis",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/sksamuel/scrimage",
+      "title": "**scrimage**",
+      "description": null,
+      "category": "Image processing and image analysis",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/typelevel/fs2",
+      "title": "**fs2**",
+      "description": null,
+      "category": "Functional Reactive Programming",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/travisbrown/iteratee",
+      "title": "iteratee",
+      "description": null,
+      "category": "Functional Reactive Programming",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/monix/monix",
+      "title": "**monix**",
+      "description": null,
+      "category": "Functional Reactive Programming",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/rescala-lang/REScala",
+      "title": "REScala",
+      "description": null,
+      "category": "Functional Reactive Programming",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/zio/zio",
+      "title": "**zio**",
+      "description": null,
+      "category": "Functional Reactive Programming",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/wvlet/airframe",
+      "title": "**airframe**",
+      "description": null,
+      "category": "Modularization and Dependency Injection",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/7mind/izumi",
+      "title": "**izumi**",
+      "description": null,
+      "category": "Modularization and Dependency Injection",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/softwaremill/macwire",
+      "title": "**macwire**",
+      "description": null,
+      "category": "Modularization and Dependency Injection",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/scaldi/scaldi",
+      "title": "scaldi",
+      "description": null,
+      "category": "Modularization and Dependency Injection",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/yakivy/jam",
+      "title": "jam",
+      "description": null,
+      "category": "Modularization and Dependency Injection",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/akka/akka",
+      "title": "**akka**",
+      "description": null,
+      "category": "Distributed Systems",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/annetteplatform/annette",
+      "title": "annette",
+      "description": null,
+      "category": "Distributed Systems",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/twitter/finagle",
+      "title": "**finagle**",
+      "description": null,
+      "category": "Distributed Systems",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/yakivy/poppet",
+      "title": "poppet",
+      "description": null,
+      "category": "Distributed Systems",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/automorph-org/automorph",
+      "title": "automorph",
+      "description": null,
+      "category": "Distributed Systems",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/com-lihaoyi/Ammonite",
+      "title": "**Ammonite**",
+      "description": null,
+      "category": "Extensions",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/pathikrit/better-files",
+      "title": "**better-files**",
+      "description": null,
+      "category": "Extensions",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/tersesystems/blindsight",
+      "title": "blindsight",
+      "description": null,
+      "category": "Extensions",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/typelevel/cats",
+      "title": "**cats**",
+      "description": null,
+      "category": "Extensions",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/scalalandio/chimney",
+      "title": "**chimney**",
+      "description": null,
+      "category": "Extensions",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/chronoscala/chronoscala",
+      "title": "chronoscala",
+      "description": null,
+      "category": "Extensions",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/ThoughtWorksInc/Dsl.scala",
+      "title": "Dsl.scala",
+      "description": null,
+      "category": "Extensions",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/ThoughtWorksInc/each",
+      "title": "each",
+      "description": null,
+      "category": "Extensions",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/atnos-org/eff",
+      "title": "**eff**",
+      "description": null,
+      "category": "Extensions",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/ThoughtWorksInc/enableIf.scala",
+      "title": "enableIf.scala",
+      "description": null,
+      "category": "Extensions",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/lloydmeta/enumeratum",
+      "title": "**enumeratum**",
+      "description": null,
+      "category": "Extensions",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/Log4s/log4s",
+      "title": "log4s",
+      "description": null,
+      "category": "Extensions",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/optics-dev/Monocle",
+      "title": "**Monocle**",
+      "description": null,
+      "category": "Extensions",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/nscala-time/nscala-time",
+      "title": "**nscala-time**",
+      "description": null,
+      "category": "Extensions",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/softwaremill/quicklens",
+      "title": "**quicklens**",
+      "description": null,
+      "category": "Extensions",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/fthomas/refined",
+      "title": "**refined**",
+      "description": null,
+      "category": "Extensions",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/scala/scala-async",
+      "title": "**scala-async**",
+      "description": null,
+      "category": "Extensions",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/scala-graph/scala-graph",
+      "title": "**scala-graph**",
+      "description": null,
+      "category": "Extensions",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/lightbend-labs/scala-logging",
+      "title": "**scala-logging**",
+      "description": null,
+      "category": "Extensions",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/scalameta/scalameta",
+      "title": "**scalameta**",
+      "description": null,
+      "category": "Extensions",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/scalaz/scalaz",
+      "title": "**scalaz**",
+      "description": null,
+      "category": "Extensions",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/outr/scribe",
+      "title": "**scribe**",
+      "description": null,
+      "category": "Extensions",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/milessabin/shapeless",
+      "title": "**shapeless**",
+      "description": null,
+      "category": "Extensions",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/typelevel/simulacrum",
+      "title": "**simulacrum**",
+      "description": null,
+      "category": "Extensions",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/epfldata/squid",
+      "title": "squid",
+      "description": null,
+      "category": "Extensions",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/tinylog-org/tinylog",
+      "title": "**tinylog**",
+      "description": null,
+      "category": "Extensions",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/twitter/util",
+      "title": "**util**",
+      "description": null,
+      "category": "Extensions",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/softwaremill/bootzooka",
+      "title": "**bootzooka**",
+      "description": null,
+      "category": "Misc",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/ACINQ/eclair",
+      "title": "**eclair**",
+      "description": null,
+      "category": "Misc",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/com-lihaoyi/fansi",
+      "title": "fansi",
+      "description": null,
+      "category": "Misc",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/laserdisc-io/fs2-aws",
+      "title": "fs2-aws",
+      "description": null,
+      "category": "Misc",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/outr/mailgun4s",
+      "title": "mailgun4s",
+      "description": null,
+      "category": "Misc",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/dvgica/managerial",
+      "title": "managerial",
+      "description": null,
+      "category": "Misc",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/outr/media4s",
+      "title": "media4s",
+      "description": null,
+      "category": "Misc",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/iheartradio/play-swagger",
+      "title": "play-swagger",
+      "description": null,
+      "category": "Misc",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/com-lihaoyi/PPrint",
+      "title": "PPrint",
+      "description": null,
+      "category": "Misc",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/pureconfig/pureconfig",
+      "title": "**pureconfig**",
+      "description": null,
+      "category": "Misc",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/allawala/service-chassis",
+      "title": "service-chassis",
+      "description": null,
+      "category": "Misc",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/sirthias/spliff",
+      "title": "spliff",
+      "description": null,
+      "category": "Misc",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/lambdaworks/scountries",
+      "title": "scountries",
+      "description": null,
+      "category": "Misc",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/lambdaworks/scurl-detector",
+      "title": "scurl-detector",
+      "description": null,
+      "category": "Misc",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/aptusproject/aptus-core",
+      "title": "aptus-core",
+      "description": null,
+      "category": "Misc",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/pocorall/scaloid",
+      "title": "**scaloid**",
+      "description": null,
+      "category": "Android",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/akka/akka-http",
+      "title": "**akka-http**",
+      "description": null,
+      "category": "HTTP",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/dispatch/reboot",
+      "title": "reboot",
+      "description": null,
+      "category": "HTTP",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/finagle/finch",
+      "title": "**finch**",
+      "description": null,
+      "category": "HTTP",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/http4s/http4s",
+      "title": "**http4s**",
+      "description": null,
+      "category": "HTTP",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/criteo/lolhttp",
+      "title": "lolhttp",
+      "description": null,
+      "category": "HTTP",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/com-lihaoyi/requests-scala",
+      "title": "**requests-scala**",
+      "description": null,
+      "category": "HTTP",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/eed3si9n/scalaxb",
+      "title": "scalaxb",
+      "description": null,
+      "category": "HTTP",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/softwaremill/sttp",
+      "title": "**sttp**",
+      "description": null,
+      "category": "HTTP",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/softwaremill/tapir",
+      "title": "**tapir**",
+      "description": null,
+      "category": "HTTP",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/endpoints4s/endpoints4s",
+      "title": "endpoints4s",
+      "description": null,
+      "category": "HTTP",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/zero-deps/frontier",
+      "title": "frontier",
+      "description": null,
+      "category": "HTTP",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/phenoscape/scowl",
+      "title": "scowl",
+      "description": null,
+      "category": "Semantic Web",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/erikvanoosten/metrics-scala",
+      "title": "metrics-scala",
+      "description": null,
+      "category": "Metrics and Monitoring",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/tpolecat/atto",
+      "title": "atto",
+      "description": null,
+      "category": "Parsing",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/com-lihaoyi/fastparse",
+      "title": "**fastparse**",
+      "description": null,
+      "category": "Parsing",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/sirthias/parboiled2",
+      "title": "**parboiled2**",
+      "description": null,
+      "category": "Parsing",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/scala/scala-parser-combinators",
+      "title": "**scala-parser-combinators**",
+      "description": null,
+      "category": "Parsing",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/typelevel/cats-parse",
+      "title": "cats-parse",
+      "description": null,
+      "category": "Parsing",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/oleg-py/better-monadic-for",
+      "title": "**better-monadic-for**",
+      "description": null,
+      "category": "Sbt plugins",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/coursier/coursier",
+      "title": "**coursier**",
+      "description": null,
+      "category": "Sbt plugins",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/scalameta/mdoc",
+      "title": "mdoc",
+      "description": null,
+      "category": "Sbt plugins",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/ThoughtWorksInc/sbt-api-mappings",
+      "title": "sbt-api-mappings",
+      "description": null,
+      "category": "Sbt plugins",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/sbt/sbt-assembly",
+      "title": "**sbt-assembly**",
+      "description": null,
+      "category": "Sbt plugins",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/sbt/sbt-buildinfo",
+      "title": "**sbt-buildinfo**",
+      "description": null,
+      "category": "Sbt plugins",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/sbt/sbt-ci-release",
+      "title": "sbt-ci-release",
+      "description": null,
+      "category": "Sbt plugins",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/albuch/sbt-dependency-check",
+      "title": "sbt-dependency-check",
+      "description": null,
+      "category": "Sbt plugins",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/marcuslonnberg/sbt-docker",
+      "title": "**sbt-docker**",
+      "description": null,
+      "category": "Sbt plugins",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/tkawachi/sbt-doctest",
+      "title": "sbt-doctest",
+      "description": null,
+      "category": "Sbt plugins",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/sbt/sbt-ghpages",
+      "title": "sbt-ghpages",
+      "description": null,
+      "category": "Sbt plugins",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/sbt/sbt-header",
+      "title": "sbt-header",
+      "description": null,
+      "category": "Sbt plugins",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/sake92/sbt-hepek",
+      "title": "sbt-hepek",
+      "description": null,
+      "category": "Sbt plugins",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/JetBrains/sbt-ide-settings",
+      "title": "sbt-ide-settings",
+      "description": null,
+      "category": "Sbt plugins",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/sbt/sbt-jmh",
+      "title": "**sbt-jmh**",
+      "description": null,
+      "category": "Sbt plugins",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/47degrees/sbt-microsites",
+      "title": "sbt-microsites",
+      "description": null,
+      "category": "Sbt plugins",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/lightbend-labs/mima",
+      "title": "mima",
+      "description": null,
+      "category": "Sbt plugins",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/sbt/sbt-native-packager",
+      "title": "**sbt-native-packager**",
+      "description": null,
+      "category": "Sbt plugins",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/xerial/sbt-pack",
+      "title": "sbt-pack",
+      "description": null,
+      "category": "Sbt plugins",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/sbt/sbt-pgp",
+      "title": "sbt-pgp",
+      "description": null,
+      "category": "Sbt plugins",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/sbt/sbt-release",
+      "title": "**sbt-release**",
+      "description": null,
+      "category": "Sbt plugins",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/ThoughtWorksInc/sbt-scala-js-map",
+      "title": "sbt-scala-js-map",
+      "description": null,
+      "category": "Sbt plugins",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/scalameta/sbt-scalafmt",
+      "title": "sbt-scalafmt",
+      "description": null,
+      "category": "Sbt plugins",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/scoverage/sbt-scoverage",
+      "title": "**sbt-scoverage**",
+      "description": null,
+      "category": "Sbt plugins",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/sbt/sbt-site",
+      "title": "sbt-site",
+      "description": null,
+      "category": "Sbt plugins",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/xerial/sbt-sonatype",
+      "title": "sbt-sonatype",
+      "description": null,
+      "category": "Sbt plugins",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/sbt/sbt-unidoc",
+      "title": "sbt-unidoc",
+      "description": null,
+      "category": "Sbt plugins",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/rtimush/sbt-updates",
+      "title": "**sbt-updates**",
+      "description": null,
+      "category": "Sbt plugins",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/sbt/sbt-eclipse",
+      "title": "**sbt-eclipse**",
+      "description": null,
+      "category": "Sbt plugins",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/tek/splain",
+      "title": "splain",
+      "description": null,
+      "category": "Sbt plugins",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/earldouglas/xsbt-web-plugin",
+      "title": "xsbt-web-plugin",
+      "description": null,
+      "category": "Sbt plugins",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/sbt/sbt-git",
+      "title": "sbt-git",
+      "description": null,
+      "category": "Sbt plugins",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/ruippeixotog/scala-scraper",
+      "title": "**scala-scraper**",
+      "description": null,
+      "category": "XML / HTML",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/ScalaWilliam/xs4s",
+      "title": "xs4s",
+      "description": null,
+      "category": "XML / HTML",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/valentiay/phobos",
+      "title": "phobos",
+      "description": null,
+      "category": "XML / HTML",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/typelevel/Laika",
+      "title": "Laika",
+      "description": null,
+      "category": "Markdown",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/scala-js/scala-js",
+      "title": "**scala-js**",
+      "description": null,
+      "category": "JavaScript",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/enragedginger/akka-quartz-scheduler",
+      "title": "**akka-quartz-scheduler**",
+      "description": null,
+      "category": "Scheduling",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/com-lihaoyi/scalatags",
+      "title": "**scalatags**",
+      "description": null,
+      "category": "Templating",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/scalate/scalate",
+      "title": "**scalate**",
+      "description": null,
+      "category": "Templating",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/playframework/twirl",
+      "title": "**twirl**",
+      "description": null,
+      "category": "Templating",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/sake92/hepek",
+      "title": "hepek",
+      "description": null,
+      "category": "Templating",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/scalacenter/bloop",
+      "title": "**bloop**",
+      "description": null,
+      "category": "Tools",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/plokhotnyuk/fast-string-interpolator",
+      "title": "fast-string-interpolator",
+      "description": null,
+      "category": "Tools",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/Atry/fastring",
+      "title": "fastring",
+      "description": null,
+      "category": "Tools",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/gitbucket/gitbucket",
+      "title": "**gitbucket**",
+      "description": null,
+      "category": "Tools",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/foundweekends/giter8",
+      "title": "**giter8**",
+      "description": null,
+      "category": "Tools",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/scalameta/metals",
+      "title": "**metals**",
+      "description": null,
+      "category": "Tools",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/com-lihaoyi/mill",
+      "title": "**mill**",
+      "description": null,
+      "category": "Tools",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/sbt/sbt",
+      "title": "**sbt**",
+      "description": null,
+      "category": "Tools",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/scalacenter/scalafix",
+      "title": "**scalafix**",
+      "description": null,
+      "category": "Tools",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://scalameta.org/scalafmt/",
+      "title": "Scalafmt",
+      "description": null,
+      "category": "Tools",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/scala-ide/scalariform",
+      "title": "**scalariform**",
+      "description": null,
+      "category": "Tools",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/scapegoat-scala/scapegoat",
+      "title": "**scapegoat**",
+      "description": null,
+      "category": "Tools",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/wartremover/wartremover",
+      "title": "**wartremover**",
+      "description": null,
+      "category": "Tools",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/BotTech/scala2plantuml",
+      "title": "scala2plantuml",
+      "description": null,
+      "category": "Tools",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/locationtech/geotrellis",
+      "title": "**geotrellis**",
+      "description": null,
+      "category": "Geospatial",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/simplexspatial/osm4scala",
+      "title": "osm4scala",
+      "description": null,
+      "category": "Geospatial",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/plokhotnyuk/rtree2d",
+      "title": "rtree2d",
+      "description": null,
+      "category": "Geospatial",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/stac-utils/stac4s",
+      "title": "stac4s",
+      "description": null,
+      "category": "Geospatial",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/azavea/franklin",
+      "title": "franklin",
+      "description": null,
+      "category": "Geospatial",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/hagay3/skuber",
+      "title": "skuber",
+      "description": null,
+      "category": "Devops",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://underscore.io/books/essential-scala/",
+      "title": "Essential Scala",
+      "description": null,
+      "category": "Books",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://www.manning.com/books/functional-and-reactive-domain-modeling",
+      "title": "Functional and Reactive Domain Modeling",
+      "description": null,
+      "category": "Books",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://leanpub.com/fpmortals/read",
+      "title": "Functional Programming for Mortals",
+      "description": null,
+      "category": "Books",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://www.manning.com/books/functional-programming-in-scala",
+      "title": "Functional Programming in Scala",
+      "description": null,
+      "category": "Books",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://alvinalexander.com/scala/fp-book/learning-functional-programming-in-scala/",
+      "title": "Functional Programming, Simplified (Scala edition)",
+      "description": null,
+      "category": "Books",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://www.manning.com/books/get-programming-with-scala",
+      "title": "Get Programming with Scala",
+      "description": null,
+      "category": "Books",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://leanpub.com/pfp-scala",
+      "title": "Practical FP in Scala: A hands-on approach",
+      "description": null,
+      "category": "Books",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://www.artima.com/shop/programming_in_scala_4ed",
+      "title": "Programming in Scala",
+      "description": null,
+      "category": "Books",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://leanpub.com/pfhais",
+      "title": "Pure functional HTTP APIs in Scala",
+      "description": null,
+      "category": "Books",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://www.amazon.com/Reactive-Programming-Scala-Akka/dp/1783984341",
+      "title": "Reactive Programming with Scala and Akka",
+      "description": "Use the concepts of reactive programming to build distributed systems running on multiple nodes",
+      "category": "Books",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "http://scalacookbook.com",
+      "title": "Scala Cookbook",
+      "description": null,
+      "category": "Books",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://horstmann.com/scala/",
+      "title": "Scala for the Impatient",
+      "description": null,
+      "category": "Books",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://underscore.io/books/scala-with-cats/",
+      "title": "Scala With Cats",
+      "description": null,
+      "category": "Books",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://underscore.io/books/shapeless-guide/",
+      "title": "The Type Astronaut's Guide to Shapeless",
+      "description": null,
+      "category": "Books",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://www.zionomicon.com",
+      "title": "Zionomicon",
+      "description": null,
+      "category": "Books",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "http://aperiodic.net/phil/scala/s-99",
+      "title": "S-99",
+      "description": "Ninety-Nine Scala Problems",
+      "category": "Exercises",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "http://scala-exercises.47deg.com/",
+      "title": "Scala Exercises",
+      "description": "Brings the popular Scala Koans to the web. Offering hundreds of solvable exercises organized into 42 categories covering the basics of the Scala language.",
+      "category": "Exercises",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://exercism.org/tracks/scala/exercises",
+      "title": "Exercism - Scala Exercises",
+      "description": "Community-driven Scala exercises.",
+      "category": "Exercises",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/dehun/learn-fp/",
+      "title": "Learn-by-doing functional programming course on Scala",
+      "description": "Covers type classes, functors, applicatives, monads, monad transformers, free monad",
+      "category": "Exercises",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "http://docs.scala-lang.org/tour/tour-of-scala.html",
+      "title": "A Tour of Scala",
+      "description": "Bite-sized introductions to some of the core language concepts.",
+      "category": "Tutorials and courses",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://www.coursera.org/specializations/scala",
+      "title": "Functional Programming in Scala",
+      "description": "Coursera Specialization (5 courses) created by  Martin Odersky et al. at the EPFL (Ecole polytechnique fédérale de Lausanne).",
+      "category": "Tutorials and courses",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://stepik.org/course/2294/",
+      "title": "Introduction to programming with dependent types in Scala",
+      "description": "Video Course by Dmytro Mitin",
+      "category": "Tutorials and courses",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "http://colobu.com/ScalaCollectionsCookbook/",
+      "title": "Scala Collections Cookbook",
+      "description": "Scala collections introduction. written in Chinese.",
+      "category": "Tutorials and courses",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://skillcombo.com/topic/scala/free/",
+      "title": "Free Scala Courses",
+      "description": "A curated list of free Scala courses.",
+      "category": "Tutorials and courses",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/SaeidDadkhah/clean-arch-example",
+      "title": "Clean Architecture Example",
+      "description": "A step-by-step guide to develop an application using Clean Architecture in Scala.",
+      "category": "Tutorials and courses",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://www.fp-tower.com/courses/foundations",
+      "title": "Foundations of Functional Programming in Scala",
+      "description": "a professional video course with exercises covering covers functional principles, custom IO (effects) and functional design.",
+      "category": "Commercial courses",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://www.scala-algorithms.com/",
+      "title": "Scala Algorithms",
+      "description": "a collection of nearly 100 algorithms in pure-functional Scala with test cases, explanations and a web-based IDE. Built with http4s & Scala.js.",
+      "category": "Commercial courses",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://functional.works-hub.com/learn/",
+      "title": "Functional Works / Learn",
+      "description": "Quality resources maintained by functional works",
+      "category": "Company Blogs",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://scalatimes.com/",
+      "title": "Scala Times",
+      "description": "Weekly newsletter about scala",
+      "category": "Company Blogs",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://www.47deg.com/blog/",
+      "title": "47 Degrees",
+      "description": "Functional Programming news, updates, and more.",
+      "category": "Company Blogs",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://twitter.com/thescalalogs",
+      "title": "The Scala Logs",
+      "description": "Interviewing developers, open source contributors, subject matter experts, and the like to talk about FP, Scala, open source, and their interests.",
+      "category": "Podcasts",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://scala.love/",
+      "title": "Scala Love",
+      "description": "Podcast about the Scala Programming Language and its community",
+      "category": "Podcasts",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://corecursive.com/",
+      "title": "CoRecursive Interviews",
+      "description": "In-depth Interviews with software developers, often on the subject of scala libraries and functional programming.",
+      "category": "Podcasts",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://podcasters.spotify.com/pod/show/julien-truffaut",
+      "title": "Scala for Fun & Profit",
+      "description": "Interviewing Scala users and companies.",
+      "category": "Podcasts",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://t.me/scala_ukraine",
+      "title": "Scala Ukraine",
+      "description": "Telegram chat of Ukrainian Scala Community",
+      "category": "Communities",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://hackr.io/tutorials/learn-scala",
+      "title": "Programming Community Curated Resources for Learning Scala",
+      "description": null,
+      "category": "Misc.",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "http://www.scalera.es",
+      "title": "Scalera Blog",
+      "description": "Blog about Scala language and its environment (howto's, good practices, tips,...). Weekly posts written in both spanish and english",
+      "category": "Misc.",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://scala.libhunt.com",
+      "title": "Scala @LibHunt",
+      "description": "A community driven list of useful Scala libraries, frameworks and software",
+      "category": "Misc.",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://classpert.com/scala-programming",
+      "title": "List of Scala Online Courses",
+      "description": "A list of free and paid Scala online courses by Classpert, An online course search and comparison website",
+      "category": "Misc.",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCOHg8YCiyMVRRxb3mJT_0Mg",
+      "title": "Scala Days Conferences",
+      "description": "A youtube channel that provides full fledged videos, recorded at Scala Days Conferences",
+      "category": "Misc.",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    },
+    {
+      "url": "https://github.com/makingthematrix/ca_art",
+      "title": "CA Art",
+      "description": "A small project aimed at learning Scala on intermediate level by experimenting with Cellular Automata",
+      "category": "Misc.",
+      "source": "lauris/awesome-scala",
+      "indexedAt": "2026-07-23T14:53:09.989Z"
+    }
+  ],
+  "categories": [
+    "Database",
+    "Graphical User Interfaces",
+    "Web Frameworks",
+    "Reactive Web Frameworks",
+    "Data Binding and Validation",
+    "i18n",
+    "Authentication",
+    "Cryptography",
+    "Testing",
+    "JSON",
+    "CSV",
+    "Serialization",
+    "Science and Data Analysis",
+    "Big Data",
+    "Command Line Interfaces",
+    "Image processing and image analysis",
+    "Functional Reactive Programming",
+    "Modularization and Dependency Injection",
+    "Distributed Systems",
+    "Extensions",
+    "Misc",
+    "Android",
+    "HTTP",
+    "Semantic Web",
+    "Metrics and Monitoring",
+    "Parsing",
+    "Sbt plugins",
+    "XML / HTML",
+    "Markdown",
+    "JavaScript",
+    "Scheduling",
+    "Templating",
+    "Tools",
+    "Geospatial",
+    "Devops",
+    "Books",
+    "Exercises",
+    "Tutorials and courses",
+    "Commercial courses",
+    "Company Blogs",
+    "Podcasts",
+    "Communities",
+    "Misc."
+  ],
+  "crawledAt": "2026-07-23T14:53:09.989Z"
+}

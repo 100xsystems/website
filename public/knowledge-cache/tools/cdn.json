@@ -1,0 +1,16 @@
+{
+  "id": "cdn",
+  "category": "tools",
+  "label": "Content Delivery Network",
+  "aliases": [],
+  "description": "Geographically distributed network of proxy servers and data centers",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Content_delivery_network",
+    "wikidata": "https://www.wikidata.org/wiki/Q176552"
+  },
+  "indexedAt": "2026-07-23T14:36:36.835Z"
+}

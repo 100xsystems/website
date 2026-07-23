@@ -1,0 +1,293 @@
+{
+  "repoId": "jslee02/awesome-robotics-libraries",
+  "name": ":sunglasses: A curated list of robotics libraries and software",
+  "description": ":sunglasses: A curated list of robotics libraries and software",
+  "repoUrl": "https://github.com/jslee02/awesome-robotics-libraries",
+  "stars": 2998,
+  "topics": [
+    "awesome",
+    "awesome-list",
+    "machine-learning",
+    "motion-planning",
+    "multibody-dynamics",
+    "optimization",
+    "robotics",
+    "robotics-libraries",
+    "robotics-library",
+    "robotics-simulation",
+    "simulation",
+    "slam"
+  ],
+  "links": [
+    {
+      "url": "http://graphics.berkeley.edu/resources/ARCSim/index.html",
+      "title": "ARCSim",
+      "description": "Adaptive remeshing cloth and shell simulator for thin deformable objects.",
+      "category": "[Dynamics Simulation](#contents)",
+      "source": "jslee02/awesome-robotics-libraries",
+      "indexedAt": "2026-07-23T14:54:20.072Z"
+    },
+    {
+      "url": "http://www.interactive-graphics.de/index.php/downloads/12-ibds",
+      "title": "IBDS",
+      "description": "Impulse-based dynamics simulation for rigid bodies and particle systems.",
+      "category": "[Dynamics Simulation](#contents)",
+      "source": "jslee02/awesome-robotics-libraries",
+      "indexedAt": "2026-07-23T14:54:20.072Z"
+    },
+    {
+      "url": "https://www.mbdyn.org/",
+      "title": "MBDyn",
+      "description": "General-purpose multibody dynamics analysis software. [[code](https://www.mbdyn.org/?Software_Download)]",
+      "category": "[Dynamics Simulation](#contents)",
+      "source": "jslee02/awesome-robotics-libraries",
+      "indexedAt": "2026-07-23T14:54:20.072Z"
+    },
+    {
+      "url": "https://robwork.dk/",
+      "title": "RobWork",
+      "description": "Framework for simulation and control of robot systems. [[gitlab](https://gitlab.com/sdurobotics/RobWork)]",
+      "category": "[Dynamics Simulation](#contents)",
+      "source": "jslee02/awesome-robotics-libraries",
+      "indexedAt": "2026-07-23T14:54:20.072Z"
+    },
+    {
+      "url": "http://www.iri.upc.edu/people/porta/Soft/CuikSuite2-Doc/html",
+      "title": "CuiKSuite",
+      "description": "Applications to solve position analysis and path planning problems.",
+      "category": "[Motion Planning and Control](#contents)",
+      "source": "jslee02/awesome-robotics-libraries",
+      "indexedAt": "2026-07-23T14:54:20.072Z"
+    },
+    {
+      "url": "https://humanoid-path-planner.github.io/hpp-doc/",
+      "title": "HPP",
+      "description": "Path planning for kinematic chains in environments cluttered with obstacles.",
+      "category": "[Motion Planning and Control](#contents)",
+      "source": "jslee02/awesome-robotics-libraries",
+      "indexedAt": "2026-07-23T14:54:20.072Z"
+    },
+    {
+      "url": "http://proceedings.mlr.press/v37/izbicki15.pdf",
+      "title": "Faster cover trees",
+      "description": "by Mike Izbicki et al., ICML 2015.",
+      "category": "Nearest Neighbor",
+      "source": "jslee02/awesome-robotics-libraries",
+      "indexedAt": "2026-07-23T14:54:20.072Z"
+    },
+    {
+      "url": "http://sdformat.org/",
+      "title": "SDF",
+      "description": "XML format that describes objects and environments for robot simulators, visualization, and control. [[bitbucket](https://bitbucket.org/osrf/sdformat)]",
+      "category": "Robot Model Description Format",
+      "source": "jslee02/awesome-robotics-libraries",
+      "indexedAt": "2026-07-23T14:54:20.072Z"
+    },
+    {
+      "url": "https://www.rock-robotics.org/",
+      "title": "Rock",
+      "description": "Software framework for robotic systems.",
+      "category": "[Robot Platform](#contents)",
+      "source": "jslee02/awesome-robotics-libraries",
+      "indexedAt": "2026-07-23T14:54:20.072Z"
+    },
+    {
+      "url": "https://www.ros.org/",
+      "title": "ROS",
+      "description": "Flexible framework for writing robot software.",
+      "category": "[Robot Platform](#contents)",
+      "source": "jslee02/awesome-robotics-libraries",
+      "indexedAt": "2026-07-23T14:54:20.072Z"
+    },
+    {
+      "url": "https://foxglove.dev",
+      "title": "Foxglove Studio",
+      "description": "A fully integrated visualization and debugging desktop app for your robotics data.",
+      "category": "[ETC](#contents)",
+      "source": "jslee02/awesome-robotics-libraries",
+      "indexedAt": "2026-07-23T14:54:20.072Z"
+    },
+    {
+      "url": "https://neurorobotics.net/",
+      "title": "Neurorobotics Platform",
+      "description": "Internet-accessible simulation of robots controlled by spiking neural networks. [[bitbucket](https://bitbucket.org/hbpneurorobotics/neurorobotics-platform)]",
+      "category": "Free or Open Source",
+      "source": "jslee02/awesome-robotics-libraries",
+      "indexedAt": "2026-07-23T14:54:20.072Z"
+    },
+    {
+      "url": "http://simbad.sourceforge.net/",
+      "title": "Simbad",
+      "description": "Java 3D robot simulator with custom controller and sensor support.",
+      "category": "Free or Open Source",
+      "source": "jslee02/awesome-robotics-libraries",
+      "indexedAt": "2026-07-23T14:54:20.072Z"
+    },
+    {
+      "url": "http://www.energid.com/",
+      "title": "Actin Simulation",
+      "description": "Real-time robot simulation and control software.",
+      "category": "Commercial",
+      "source": "jslee02/awesome-robotics-libraries",
+      "indexedAt": "2026-07-23T14:54:20.072Z"
+    },
+    {
+      "url": "https://www.artiminds.com/",
+      "title": "Artiminds",
+      "description": "Planning, programming, operation, analysis and optimization.",
+      "category": "Commercial",
+      "source": "jslee02/awesome-robotics-libraries",
+      "indexedAt": "2026-07-23T14:54:20.072Z"
+    },
+    {
+      "url": "https://www.plm.automation.siemens.com/global/en/products/plm-components/kineo.html",
+      "title": "Kineo",
+      "description": "Path planning and trajectory optimization for industrial robotics.",
+      "category": "Commercial",
+      "source": "jslee02/awesome-robotics-libraries",
+      "indexedAt": "2026-07-23T14:54:20.072Z"
+    },
+    {
+      "url": "http://www.robotvirtualworlds.com/",
+      "title": "Robot Virtual Worlds",
+      "description": "Virtual reality software for educational robotics.",
+      "category": "Commercial",
+      "source": "jslee02/awesome-robotics-libraries",
+      "indexedAt": "2026-07-23T14:54:20.072Z"
+    },
+    {
+      "url": "https://robodk.com/",
+      "title": "RobotDK",
+      "description": "Simulation and OLP for robots.",
+      "category": "Commercial",
+      "source": "jslee02/awesome-robotics-libraries",
+      "indexedAt": "2026-07-23T14:54:20.072Z"
+    },
+    {
+      "url": "https://www.abb.com/global/en/areas/robotics/products/software/robotstudio-suite",
+      "title": "RobotStudio",
+      "description": "ABB's simulation and offline programming software for robotics.",
+      "category": "Commercial",
+      "source": "jslee02/awesome-robotics-libraries",
+      "indexedAt": "2026-07-23T14:54:20.072Z"
+    },
+    {
+      "url": "https://www.virtualroboticstoolkit.com/",
+      "title": "Virtual Robotics Toolkit",
+      "description": "3D virtual environment for programming and testing robots.",
+      "category": "Commercial",
+      "source": "jslee02/awesome-robotics-libraries",
+      "indexedAt": "2026-07-23T14:54:20.072Z"
+    },
+    {
+      "url": "https://www.visualcomponents.com/",
+      "title": "Visual Components",
+      "description": "3D manufacturing simulation and visualization platform.",
+      "category": "Commercial",
+      "source": "jslee02/awesome-robotics-libraries",
+      "indexedAt": "2026-07-23T14:54:20.072Z"
+    },
+    {
+      "url": "https://aws.amazon.com/robomaker/",
+      "title": "AWS RoboMaker",
+      "description": "Service that makes it easy to develop, test, and deploy intelligent robotics applications at scale.",
+      "category": "Cloud",
+      "source": "jslee02/awesome-robotics-libraries",
+      "indexedAt": "2026-07-23T14:54:20.072Z"
+    },
+    {
+      "url": "https://github.com/jslee02/awesome-collision-detection",
+      "title": "Awesome Collision Detection",
+      "description": "Curated list of collision detection libraries and resources.",
+      "category": "[Other Awesome Lists](#contents)",
+      "source": "jslee02/awesome-robotics-libraries",
+      "indexedAt": "2026-07-23T14:54:20.072Z"
+    },
+    {
+      "url": "https://github.com/fkromer/awesome-gazebo",
+      "title": "Awesome Gazebo",
+      "description": "Curated list of Gazebo simulation framework resources.",
+      "category": "[Other Awesome Lists](#contents)",
+      "source": "jslee02/awesome-robotics-libraries",
+      "indexedAt": "2026-07-23T14:54:20.072Z"
+    },
+    {
+      "url": "https://github.com/Po-Jen/awesome-grasping",
+      "title": "Awesome Grasping",
+      "description": "Curated list of grasping libraries and resources.",
+      "category": "[Other Awesome Lists](#contents)",
+      "source": "jslee02/awesome-robotics-libraries",
+      "indexedAt": "2026-07-23T14:54:20.072Z"
+    },
+    {
+      "url": "https://github.com/Po-Jen/awesome-human-robot-interaction",
+      "title": "Awesome Human Robot Interaction",
+      "description": "Curated list of human-robot interaction libraries and resources.",
+      "category": "[Other Awesome Lists](#contents)",
+      "source": "jslee02/awesome-robotics-libraries",
+      "indexedAt": "2026-07-23T14:54:20.072Z"
+    },
+    {
+      "url": "https://github.com/keon/awesome-physical-ai",
+      "title": "Awesome Physical AI",
+      "description": "Curated list of academic papers and resources on Physical AI.",
+      "category": "[Other Awesome Lists](#contents)",
+      "source": "jslee02/awesome-robotics-libraries",
+      "indexedAt": "2026-07-23T14:54:20.072Z"
+    },
+    {
+      "url": "https://github.com/Ly0n/awesome-robotic-tooling",
+      "title": "Awesome Robotic Tooling",
+      "description": "Tooling for professional robotic development in C++ and Python with ROS and autonomous driving.",
+      "category": "[Other Awesome Lists](#contents)",
+      "source": "jslee02/awesome-robotics-libraries",
+      "indexedAt": "2026-07-23T14:54:20.072Z"
+    },
+    {
+      "url": "https://github.com/ahundt/awesome-robotics",
+      "title": "Awesome Robotics",
+      "description": "Curated list of robotics links and software libraries (ahundt).",
+      "category": "[Other Awesome Lists](#contents)",
+      "source": "jslee02/awesome-robotics-libraries",
+      "indexedAt": "2026-07-23T14:54:20.072Z"
+    },
+    {
+      "url": "https://github.com/MilkClouds/awesome-vla-study",
+      "title": "Awesome VLA Study",
+      "description": "A curated VLA (Vision-Language-Action) study guide that organizes ~30 key papers into a 6-phase, 14-week reading curriculum — covering diffusion/flow matching foundations, robot foundation model architectures, data scaling, efficient inference, RL fine-tuning, and world models.",
+      "category": "[Other Awesome Lists](#contents)",
+      "source": "jslee02/awesome-robotics-libraries",
+      "indexedAt": "2026-07-23T14:54:20.072Z"
+    },
+    {
+      "url": "https://github.com/mithi/robotics-coursework",
+      "title": "Robotics Coursework",
+      "description": "A list of robotics courses you can take online.",
+      "category": "[Other Awesome Lists](#contents)",
+      "source": "jslee02/awesome-robotics-libraries",
+      "indexedAt": "2026-07-23T14:54:20.072Z"
+    },
+    {
+      "url": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+      "title": "![CC0",
+      "description": null,
+      "category": "[License](#contents)",
+      "source": "jslee02/awesome-robotics-libraries",
+      "indexedAt": "2026-07-23T14:54:20.072Z"
+    }
+  ],
+  "categories": [
+    "[Dynamics Simulation](#contents)",
+    "[Motion Planning and Control](#contents)",
+    "Nearest Neighbor",
+    "Robot Model Description Format",
+    "[Robot Platform](#contents)",
+    "[ETC](#contents)",
+    "Free or Open Source",
+    "Commercial",
+    "Cloud",
+    "[Other Awesome Lists](#contents)",
+    "[License](#contents)"
+  ],
+  "crawledAt": "2026-07-23T14:54:20.072Z"
+}

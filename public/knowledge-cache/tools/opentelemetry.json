@@ -1,0 +1,16 @@
+{
+  "id": "opentelemetry",
+  "category": "tools",
+  "label": "OpenTelemetry",
+  "aliases": [],
+  "description": "Linux Foundation project",
+  "summary": "The Cloud Native Computing Foundation (CNCF) is a subsidiary of the Linux Foundation founded in 2015 to support cloud-native computing.",
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/OpenTelemetry",
+    "wikidata": "https://www.wikidata.org/wiki/Q106484173"
+  },
+  "indexedAt": "2026-07-23T14:36:39.264Z"
+}

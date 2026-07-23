@@ -1,0 +1,16 @@
+{
+  "id": "go",
+  "category": "languages",
+  "label": "Go",
+  "aliases": [],
+  "description": "Statically typed compiled language designed for simplicity and concurrency",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Go_(programming_language)",
+    "wikidata": "https://www.wikidata.org/wiki/Q37227"
+  },
+  "indexedAt": "2026-07-23T14:36:12.313Z"
+}

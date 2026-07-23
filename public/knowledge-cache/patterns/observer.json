@@ -1,0 +1,16 @@
+{
+  "id": "observer",
+  "category": "patterns",
+  "label": "Observer",
+  "aliases": [],
+  "description": "Defines a subscription mechanism for notifying multiple objects of state changes",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Observer_pattern",
+    "wikidata": "https://www.wikidata.org/wiki/Q150954"
+  },
+  "indexedAt": "2026-07-23T14:36:40.956Z"
+}

@@ -16,7 +16,7 @@
       "description": null,
       "category": "Config Errors",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://aws.amazon.com/message/74876-2/",
@@ -24,7 +24,7 @@
       "description": null,
       "category": "Config Errors",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://discuss.circleci.com/t/incident-report-november-8-2021-jobs-stuck-in-a-not-running-state/41890",
@@ -32,7 +32,7 @@
       "description": null,
       "category": "Config Errors",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://discuss.circleci.com/t/post-incident-report-april-4-2025-circleci-ui-loading-build-triggering-issues/53208",
@@ -40,7 +40,7 @@
       "description": null,
       "category": "Config Errors",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://web.archive.org/web/20211006135542/https://blog.cloudflare.com/todays-outage-post-mortem-82515/",
@@ -48,7 +48,7 @@
       "description": null,
       "category": "Config Errors",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://web.archive.org/web/20211016040522/https://blog.cloudflare.com/cloudflare-outage-on-july-17-2020/",
@@ -56,7 +56,7 @@
       "description": null,
       "category": "Config Errors",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://web.archive.org/web/20220621124002/https://blog.cloudflare.com/cloudflare-outage-on-june-21-2022/",
@@ -64,7 +64,7 @@
       "description": null,
       "category": "Config Errors",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://web.archive.org/web/20221112015610/https://blog.cloudflare.com/partial-cloudflare-outage-on-october-25-2022/",
@@ -72,7 +72,7 @@
       "description": null,
       "category": "Config Errors",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://blog.cloudflare.com/cloudflare-incident-on-january-24th-2023/",
@@ -80,7 +80,7 @@
       "description": null,
       "category": "Config Errors",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://blog.cloudflare.com/1-1-1-1-lookup-failures-on-october-4th-2023/",
@@ -88,7 +88,7 @@
       "description": null,
       "category": "Config Errors",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://blog.cloudflare.com/18-november-2025-outage/",
@@ -96,7 +96,7 @@
       "description": null,
       "category": "Config Errors",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://www.datadoghq.com/blog/2020-09-25-infrastructure-connectivity-issue/",
@@ -104,7 +104,7 @@
       "description": null,
       "category": "Config Errors",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://enomstatus.com/incidents/03q064h6rb7x",
@@ -112,7 +112,7 @@
       "description": null,
       "category": "Config Errors",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://web.archive.org/web/20211201033341/https://codeascraft.com/2012/01/23/solr-bittorrent-index-replication/",
@@ -120,7 +120,7 @@
       "description": null,
       "category": "Config Errors",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://engineering.fb.com/2021/10/05/networking-traffic/outage-details/",
@@ -128,7 +128,7 @@
       "description": null,
       "category": "Config Errors",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://blog.thousandeyes.com/facebook-outage-deep-dive/",
@@ -136,7 +136,7 @@
       "description": null,
       "category": "Config Errors",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://web.archive.org/web/20250314111052/https://hacks.mozilla.org/2022/02/retrospective-and-technical-details-on-the-recent-firefox-outage/",
@@ -144,7 +144,7 @@
       "description": null,
       "category": "Config Errors",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://github.blog/news-insights/the-library/dns-outage-post-mortem/",
@@ -152,7 +152,7 @@
       "description": null,
       "category": "Config Errors",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://github.blog/news-insights/company-news/github-availability-report-august-2024/",
@@ -160,7 +160,7 @@
       "description": null,
       "category": "Config Errors",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://github.blog/news-insights/company-news/github-availability-report-february-2026/",
@@ -168,7 +168,7 @@
       "description": null,
       "category": "Config Errors",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://gocardless.com/blog/incident-review-api-and-dashboard-outage-on-10th-october/",
@@ -176,7 +176,7 @@
       "description": null,
       "category": "Config Errors",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://cloud.google.com/blog/products/infrastructure/details-of-google-cloud-gcve-incident",
@@ -184,7 +184,7 @@
       "description": null,
       "category": "Config Errors",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://status.cloud.google.com/incident/compute/16007",
@@ -192,7 +192,7 @@
       "description": null,
       "category": "Config Errors",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://googleblog.blogspot.com/2014/01/todays-outage-for-several-google.html",
@@ -200,7 +200,7 @@
       "description": null,
       "category": "Config Errors",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://web.archive.org/web/20151008061104/http://code.google.com/p/chromium/issues/detail?id=165171",
@@ -208,7 +208,7 @@
       "description": null,
       "category": "Config Errors",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://googleblog.blogspot.com/2009/01/this-site-may-harm-your-computer-on.html",
@@ -216,7 +216,7 @@
       "description": null,
       "category": "Config Errors",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://status.cloud.google.com/incident/compute/17007#5659118702428160",
@@ -224,7 +224,7 @@
       "description": null,
       "category": "Config Errors",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://status.cloud.google.com/incident/storage/19002",
@@ -232,7 +232,7 @@
       "description": null,
       "category": "Config Errors",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://status.cloud.google.com/incident/cloud-networking/19009",
@@ -240,7 +240,7 @@
       "description": null,
       "category": "Config Errors",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://status.cloud.google.com/incidents/1xkAB1KmLrh5g3v9ZEZ7",
@@ -248,7 +248,7 @@
       "description": null,
       "category": "Config Errors",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://status.cloud.google.com/incidents/6PM5mNd43NbMqjCZ5REh",
@@ -256,7 +256,7 @@
       "description": null,
       "category": "Config Errors",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://status.cloud.google.com/incidents/vLsxuKoRvykNHW3nnhsJ",
@@ -264,7 +264,7 @@
       "description": null,
       "category": "Config Errors",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://status.heroku.com/incidents/1091",
@@ -272,7 +272,7 @@
       "description": null,
       "category": "Config Errors",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://blog.heroku.com/how-i-broke-git-push-heroku-main",
@@ -280,7 +280,7 @@
       "description": null,
       "category": "Config Errors",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://web.archive.org/web/20201101133510/https://keepthescore.co/blog/posts/deleting_the_production_database/",
@@ -288,7 +288,7 @@
       "description": null,
       "category": "Config Errors",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://azure.microsoft.com/en-us/blog/update-on-azure-storage-service-interruption/",
@@ -296,7 +296,7 @@
       "description": null,
       "category": "Config Errors",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://blog.npmjs.org/post/74949623024/2014-01-28-outage-postmortem.html",
@@ -304,7 +304,7 @@
       "description": null,
       "category": "Config Errors",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://web.archive.org/web/20210226170650/https://indyweek.com/news/archives/human-error-caused-owasa-fluoride-overdose-owasa-sorry/",
@@ -312,7 +312,7 @@
       "description": null,
       "category": "Config Errors",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://status.pagerduty.com/incidents/vbp7ht2647l8",
@@ -320,7 +320,7 @@
       "description": null,
       "category": "Config Errors",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://web.archive.org/web/20250207075402/https://razorpay.com/blog/day-of-rds-multi-az-failover/",
@@ -328,7 +328,7 @@
       "description": null,
       "category": "Config Errors",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://blog.rust-lang.org/inside-rust/2023/02/08/dns-outage-portmortem.html",
@@ -336,7 +336,7 @@
       "description": null,
       "category": "Config Errors",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://blog.rust-lang.org/inside-rust/2023/07/21/crates-io-postmortem.html",
@@ -344,7 +344,7 @@
       "description": null,
       "category": "Config Errors",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://web.archive.org/web/20201020103424/https://stackstatus.net/post/96025967369/outage-post-mortem-august-25th-2014",
@@ -352,7 +352,7 @@
       "description": null,
       "category": "Config Errors",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://blog.sentry.io/2016/06/14/security-incident-june-12-2016",
@@ -360,7 +360,7 @@
       "description": null,
       "category": "Config Errors",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://www.traviscistatus.com/incidents/khzk8bg4p9sy",
@@ -368,7 +368,7 @@
       "description": null,
       "category": "Config Errors",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://web.archive.org/web/20221220114914/https://blog.travis-ci.com/2016-09-30-the-day-we-deleted-our-vm-images/",
@@ -376,7 +376,7 @@
       "description": null,
       "category": "Config Errors",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://www.traviscistatus.com/incidents/sxrh0l46czqn",
@@ -384,7 +384,7 @@
       "description": null,
       "category": "Config Errors",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://www.traviscistatus.com/incidents/z2b3lz2kwcfp",
@@ -392,7 +392,7 @@
       "description": null,
       "category": "Config Errors",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://assets.publishing.service.gov.uk/media/604f423be90e077fdf88493f/Boeing_737-8K5_G-TAWG_04-21.pdf",
@@ -400,7 +400,7 @@
       "description": null,
       "category": "Config Errors",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://blog.turso.tech/incident-2023-12-04-data-leak-and-loss-in-some-free-tier-databases-7cba5bc7",
@@ -408,7 +408,7 @@
       "description": null,
       "category": "Config Errors",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://blog.thousandeyes.com/steam-outage-monitor-data-center-connectivity/",
@@ -416,7 +416,7 @@
       "description": null,
       "category": "Config Errors",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://aws.amazon.com/message/2329B7/",
@@ -424,7 +424,7 @@
       "description": null,
       "category": "Hardware/Power Failures",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://aws.amazon.com/message/67457/",
@@ -432,7 +432,7 @@
       "description": null,
       "category": "Hardware/Power Failures",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://aws.amazon.com/message/4372T8/",
@@ -440,7 +440,7 @@
       "description": null,
       "category": "Hardware/Power Failures",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://aws.amazon.com/message/656481/",
@@ -448,7 +448,7 @@
       "description": null,
       "category": "Hardware/Power Failures",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://aws.amazon.com/message/56489/",
@@ -456,7 +456,7 @@
       "description": null,
       "category": "Hardware/Power Failures",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://datatracker.ietf.org/doc/html/rfc789.html",
@@ -464,7 +464,7 @@
       "description": null,
       "category": "Hardware/Power Failures",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://web.archive.org/web/20211015231917/https://blog.cloudflare.com/a-byzantine-failure-in-the-real-world/",
@@ -472,7 +472,7 @@
       "description": null,
       "category": "Hardware/Power Failures",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://blog.cloudflare.com/post-mortem-on-cloudflare-control-plane-and-analytics-outage/",
@@ -480,7 +480,7 @@
       "description": null,
       "category": "Hardware/Power Failures",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://en.wikipedia.org/wiki/Northeast_blackout_of_2003",
@@ -488,7 +488,7 @@
       "description": null,
       "category": "Hardware/Power Failures",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://github.com/blog/2106-january-28th-incident-report",
@@ -496,7 +496,7 @@
       "description": null,
       "category": "Hardware/Power Failures",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://status.cloud.google.com/incident/compute/15056#5719570367119360",
@@ -504,7 +504,7 @@
       "description": null,
       "category": "Hardware/Power Failures",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://status.cloud.google.com/incidents/fmEL9i2fArADKawkZAa2",
@@ -512,7 +512,7 @@
       "description": null,
       "category": "Hardware/Power Failures",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://blog.pythonanywhere.com/189/",
@@ -520,7 +520,7 @@
       "description": null,
       "category": "Hardware/Power Failures",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://www.forbes.com/forbes/2000/1113/6613068a.html#6d1bdc036162",
@@ -528,7 +528,7 @@
       "description": null,
       "category": "Hardware/Power Failures",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://aws.amazon.com/message/101925/",
@@ -536,7 +536,7 @@
       "description": null,
       "category": "Conflicts",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://community.eveonline.com/news/dev-blogs/about-the-boot.ini-issue/",
@@ -544,7 +544,7 @@
       "description": null,
       "category": "Conflicts",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://github.blog/news-insights/the-library/downtime-last-saturday/",
@@ -552,7 +552,7 @@
       "description": null,
       "category": "Conflicts",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://blog.github.com/2018-10-30-oct21-post-incident-analysis/",
@@ -560,7 +560,7 @@
       "description": null,
       "category": "Conflicts",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://github.blog/news-insights/company-news/github-availability-report-october-2020/",
@@ -568,7 +568,7 @@
       "description": null,
       "category": "Conflicts",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://gocardless.com/blog/zero-downtime-postgres-migrations-the-hard-parts/",
@@ -576,7 +576,7 @@
       "description": null,
       "category": "Conflicts",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://status.cloud.google.com/incident/compute/17003#5660850647990272",
@@ -584,7 +584,7 @@
       "description": null,
       "category": "Conflicts",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://status.cloud.google.com/incidents/eo76pxZiDgWVz4z3kmUv",
@@ -592,7 +592,7 @@
       "description": null,
       "category": "Conflicts",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://incident.io/blog/one-two-skip-a-few",
@@ -600,7 +600,7 @@
       "description": null,
       "category": "Conflicts",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://dougseven.com/2014/04/17/knightmare-a-devops-cautionary-tale/",
@@ -608,7 +608,7 @@
       "description": null,
       "category": "Conflicts",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://web.archive.org/web/20210306015541/https://digital.ai/catalyst-blog/subversion-sha1-collision-problem-statement-prevention-and-remediation-options",
@@ -616,7 +616,7 @@
       "description": null,
       "category": "Conflicts",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://azure.microsoft.com/en-us/blog/summary-of-windows-azure-service-disruption-on-feb-29th-2012/",
@@ -624,7 +624,7 @@
       "description": null,
       "category": "Time",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://web.archive.org/web/20211104160742/https://blog.cloudflare.com/how-and-why-the-leap-second-affected-cloudflare-dns/",
@@ -632,7 +632,7 @@
       "description": null,
       "category": "Time",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://web.archive.org/web/20220427012208/https://lkml.org/lkml/2009/1/2/373",
@@ -640,7 +640,7 @@
       "description": null,
       "category": "Time",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://web.archive.org/web/20220320100036/https://lkml.org/lkml/2012/7/1/203",
@@ -648,7 +648,7 @@
       "description": null,
       "category": "Time",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://web.archive.org/web/20250303152906/https://hacks.mozilla.org/2019/07/add-ons-outage-post-mortem-result/",
@@ -656,7 +656,7 @@
       "description": null,
       "category": "Time",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://status.circleci.com/incidents/8rklh3qqckp1",
@@ -664,7 +664,7 @@
       "description": null,
       "category": "Database",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://discuss.circleci.com/t/post-incident-report-april-4-2025-delays-in-starting-workflows/53113",
@@ -672,7 +672,7 @@
       "description": null,
       "category": "Database",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://github.blog/news-insights/the-library/github-availability-this-week/",
@@ -680,7 +680,7 @@
       "description": null,
       "category": "Database",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://github.blog/news-insights/company-news/february-service-disruptions-post-incident-analysis/",
@@ -688,7 +688,7 @@
       "description": null,
       "category": "Database",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://github.blog/news-insights/company-news/github-availability-report-may-2021/",
@@ -696,7 +696,7 @@
       "description": null,
       "category": "Database",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://github.blog/2022-03-23-an-update-on-recent-service-disruptions/",
@@ -704,7 +704,7 @@
       "description": null,
       "category": "Database",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://github.blog/news-insights/company-news/addressing-githubs-recent-availability-issues/",
@@ -712,7 +712,7 @@
       "description": null,
       "category": "Database",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://github.blog/news-insights/company-news/addressing-githubs-recent-availability-issues-2/",
@@ -720,7 +720,7 @@
       "description": null,
       "category": "Database",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://github.blog/2021-12-01-github-availability-report-november-2021/",
@@ -728,7 +728,7 @@
       "description": null,
       "category": "Database",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://status.heroku.com/incidents/2558",
@@ -736,7 +736,7 @@
       "description": null,
       "category": "Database",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://incident.io/blog/database-performance",
@@ -744,7 +744,7 @@
       "description": null,
       "category": "Database",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://status.incident.io/incidents/01JRDFKAGE07YYDY0KZR137BX3/write-up",
@@ -752,7 +752,7 @@
       "description": null,
       "category": "Database",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://allegro.tech/2015/01/allegro-cast-post-mortem.html",
@@ -760,7 +760,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://aws.amazon.com/message/41926/",
@@ -768,7 +768,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://web.archive.org/web/20220403060108/https://status.aws.amazon.com/s3-20080720.html",
@@ -776,7 +776,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://aws.amazon.com/message/65648/",
@@ -784,7 +784,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://aws.amazon.com/message/680342/",
@@ -792,7 +792,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://aws.amazon.com/message/680587/",
@@ -800,7 +800,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://aws.amazon.com/message/5467D2/",
@@ -808,7 +808,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://aws.amazon.com/message/11201/",
@@ -816,7 +816,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://aws.amazon.com/message/12721/",
@@ -824,7 +824,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://aws.amazon.com/message/65649/",
@@ -832,7 +832,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://aws.amazon.com/message/17908/",
@@ -840,7 +840,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://aws.amazon.com/message/061323/",
@@ -848,7 +848,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://aws.amazon.com/message/073024/",
@@ -856,7 +856,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://web.archive.org/web/20250505112812/https://medium.com/xandr-tech/2013-09-17-outage-postmortem-586b19ae4307",
@@ -864,7 +864,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://users.csc.calpoly.edu/~jdalbey/SWE/Papers/att_collapse.html",
@@ -872,7 +872,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://www.atlassian.com/engineering/post-incident-review-april-2022-outage",
@@ -880,7 +880,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://signalvnoise.com/posts/3729-basecamp-network-attack-postmortem",
@@ -888,7 +888,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://web.archive.org/web/20220529044310/https://m.signalvnoise.com/postmortem-on-the-read-only-outage-of-basecamp-on-november-9th-2018/",
@@ -896,7 +896,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://www.bbc.co.uk/blogs/internet/entries/a37b0470-47d4-3991-82bb-a7d5b8803771",
@@ -904,7 +904,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://web.archive.org/web/20210421222929/https://status.bintray.com/incidents/w4dfr0rpznkt",
@@ -912,7 +912,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://blog.bitly.com/post/85260908544/more-detail",
@@ -920,7 +920,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://www.browserstack.com/attack-and-downtime-on-9-November",
@@ -928,7 +928,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://building.buildkite.com/outage-post-mortem-for-august-23rd-82b619a3679b",
@@ -936,7 +936,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://web.archive.org/web/20230504222953/https://www.bungie.net/en/News/Article/48723",
@@ -944,7 +944,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://community.eveonline.com/news/dev-blogs/behind-the-scenes-of-a-long-eve-online-downtime/",
@@ -952,7 +952,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://community.eveonline.com/news/dev-blogs/sleeping-beauty/",
@@ -960,7 +960,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://www.chef.io/blog/2014/07/10/supermarket-intermittent-unresponsiveness-postmortem/",
@@ -968,7 +968,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://circleci.statuspage.io/incidents/hr0mm9xmm3x6",
@@ -976,7 +976,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://circleci.com/blog/jan-4-2023-incident-report/",
@@ -984,7 +984,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://web.archive.org/web/20180121023549/http://circleci.com/blog/mongohq-security-incident-response/",
@@ -992,7 +992,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://discuss.circleci.com/t/postmortem-march-26-april-10-workflow-delay-incidents/30060",
@@ -1000,7 +1000,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://discuss.circleci.com/t/postmortem-may-21-2021-delay-in-starting-docker-jobs-machine-remote-docker-environments-blocked/40274",
@@ -1008,7 +1008,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://status.circleci.com/incidents/dcqb3fykhgvg",
@@ -1016,7 +1016,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://web.archive.org/web/20211029020126/https://blog.cloudflare.com/incident-report-on-memory-leak-caused-by-cloudflare-parser-bug/",
@@ -1024,7 +1024,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://web.archive.org/web/20211006055154/https://blog.cloudflare.com/details-of-the-cloudflare-outage-on-july-2-2019/",
@@ -1032,7 +1032,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://www.crowdstrike.com/falcon-content-update-remediation-and-guidance-hub/",
@@ -1040,7 +1040,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://www.datadoghq.com/blog/2023-03-08-multiregion-infrastructure-connectivity-issue/",
@@ -1048,7 +1048,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://status.discordapp.com/incidents/dj3l6lw926kl",
@@ -1056,7 +1056,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://status.discordapp.com/incidents/qk9cdgnqnhcn",
@@ -1064,7 +1064,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://blogs.dropbox.com/tech/2014/01/outage-post-mortem/",
@@ -1072,7 +1072,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://status.duo.com/incidents/4w07bmvnt359",
@@ -1080,7 +1080,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://web.archive.org/web/20220430011642/https://www.epicgames.com/fortnite/en-US/news/postmortem-of-service-outage-at-3-4m-ccu",
@@ -1088,7 +1088,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://en.wikipedia.org/wiki/Cluster_%28spacecraft%29?oldid=217305667",
@@ -1096,7 +1096,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://www.elastic.co/blog/elastic-cloud-january-18-2019-incident-report",
@@ -1104,7 +1104,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://www.elastic.co/blog/elastic-cloud-incident-report-feburary-4-2019",
@@ -1112,7 +1112,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://eslint.org/blog/2018/07/postmortem-for-malicious-package-publishes",
@@ -1120,7 +1120,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://blog.etsy.com/news/2012/demystifying-site-outages/",
@@ -1128,7 +1128,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://www.fastly.com/blog/summary-of-june-8-outage",
@@ -1136,7 +1136,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://web.archive.org/web/20220704223244/https://flowdock-resources.s3.amazonaws.com/legal/Flowdock-RCA-For-Incident-On-2020-04-21.pdf",
@@ -1144,7 +1144,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://web.archive.org/web/20230602082218/https://news.ycombinator.com/item?id=1769761",
@@ -1152,7 +1152,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://wiki.gentoo.org/wiki/Github/2018-06-28",
@@ -1160,7 +1160,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://githubengineering.com/ddos-incident-report/",
@@ -1168,7 +1168,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://github.blog/news-insights/the-library/network-problems-last-friday/",
@@ -1176,7 +1176,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://github.blog/news-insights/the-library/denial-of-service-attacks/",
@@ -1184,7 +1184,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://github.blog/news-insights/company-news/github-availability-report-july-2024/",
@@ -1192,7 +1192,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://github.blog/news-insights/company-news/github-availability-report-october-2024/",
@@ -1200,7 +1200,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://docs.google.com/document/d/1ScqXAdb6BjhsDzCo3qdPYbt1uULzgZqPO8zHeHHarS0/preview?sle=true&hl=en&forcehl=1#heading=h.dfbilqgnc5sf",
@@ -1208,7 +1208,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://about.gitlab.com/2017/02/10/postmortem-of-database-outage-of-january-31/",
@@ -1216,7 +1216,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://gist.github.com/jomo/2bae3821acb433d0446d",
@@ -1224,7 +1224,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://status.cloud.google.com/incidents/X8SNkK2BPyCrc1sveeiu",
@@ -1232,7 +1232,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://www.google.com/appsstatus/dashboard/incidents/k71P8nHp32hgcMSsC3mR",
@@ -1240,7 +1240,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://status.cloud.google.com/incidents/mREMLwZFe3FuLLn3zfTw",
@@ -1248,7 +1248,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://status.cloud.google.com/incidents/ow5i3PPK96RduMcb1SsW",
@@ -1256,7 +1256,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://web.archive.org/web/20250903124227/https://www.gps.gov/governance/advisory/meetings/2014-06/beutler1.pdf",
@@ -1264,7 +1264,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://web.archive.org/web/20201108122248/https://www.bloomberg.com/opinion/articles/2015-09-16/how-healthcare-gov-went-so-so-wrong",
@@ -1272,7 +1272,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://status.heroku.com/incidents/642?postmortem",
@@ -1280,7 +1280,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://engineering.heroku.com/blogs/2017-02-15-filesystem-corruption-on-heroku-dynos/",
@@ -1288,7 +1288,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://status.heroku.com/incidents/1042",
@@ -1296,7 +1296,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://blog.heroku.com/april-2022-incident-review",
@@ -1304,7 +1304,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://status.heroku.com/incidents/2451",
@@ -1312,7 +1312,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://web.archive.org/web/20210813020247/https://brew.sh/2018/08/05/security-incident-disclosure/",
@@ -1320,7 +1320,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://www.honeycomb.io/blog/incident-resolution-september-retrospective/",
@@ -1328,7 +1328,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://www.honeycomb.io/blog/incident-review-designed-failing/",
@@ -1336,7 +1336,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://www.honeycomb.io/blog/incident-review-shepherd-cache-delays/",
@@ -1344,7 +1344,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://www.honeycomb.io/blog/incident-review-what-comes-up-must-first-go-down/",
@@ -1352,7 +1352,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://incident.io/blog/intermittent-downtime",
@@ -1360,7 +1360,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://incident.io/blog/clouds-caches-and-connection-conundrums",
@@ -1368,7 +1368,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://incident.io/blog/service-disruption-october-20th-2025",
@@ -1376,7 +1376,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://web.archive.org/web/20220124104632/https://cercind.gov.in/2012/orders/Final_Report_Grid_Disturbance.pdf",
@@ -1384,7 +1384,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://web.archive.org/web/20211124170124/https://medium.com/making-instapaper/instapaper-outage-cause-recovery-3c32a7e9cc5f",
@@ -1392,7 +1392,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://web.archive.org/web/20241105190743/http://42gems.com/blog/?p=735",
@@ -1400,7 +1400,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://web.archive.org/web/20220528044329/https://www.joyent.com/blog/manta-postmortem-7-27-2015",
@@ -1408,7 +1408,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://web.archive.org/web/20220406095752/https://www.joyent.com/blog/postmortem-for-outage-of-us-east-1-may-27-2014",
@@ -1416,7 +1416,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://web.archive.org/web/20170728131458/https://kickstarter.engineering/the-day-the-replication-died-e543ba45f262",
@@ -1424,7 +1424,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://regmedia.co.uk/2017/02/23/kcl_external_review.pdf",
@@ -1432,7 +1432,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://status.launchdarkly.com/incidents/yltrp45vtxm2",
@@ -1440,7 +1440,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://launchdarkly.com/blog/what-happened-what-we-learned-and-how-were-improving/",
@@ -1448,7 +1448,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://status.mailgun.com/incidents/p9nxxql8g9rh",
@@ -1456,7 +1456,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://mailchimp.com/what-we-learned-from-the-recent-mandrill-outage/",
@@ -1464,7 +1464,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://web.archive.org/web/20160426163728/https://medium.com/medium-eng/the-curious-case-of-disappearing-polish-s-fa398313d4df",
@@ -1472,7 +1472,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://web.archive.org/web/20230927050430/https://metrist.io/blog/how-we-found-azures-unannounced-breaking-change/",
@@ -1480,7 +1480,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://www.doneyles.com/LM/Tales.html",
@@ -1488,7 +1488,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://en.wikipedia.org/wiki/Mars_Climate_Orbiter",
@@ -1496,7 +1496,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://web.archive.org/web/20161230103247/https://research.microsoft.com/en-us/um/people/mbj/Mars_Pathfinder/Authoritative_Account.html",
@@ -1504,7 +1504,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://netflixtechblog.com/post-mortem-of-october-22-2012-aws-degradation-efcee3ab40d5",
@@ -1512,7 +1512,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://www3.epa.gov/region1/npdes/merrimackstation/pdfs/ar/AR-1165.pdf",
@@ -1520,7 +1520,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://www.okta.com/blog/2022/03/oktas-investigation-of-the-january-2022-compromise/",
@@ -1528,7 +1528,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://web.archive.org/web/20240426015133/https://openai.com/blog/march-20-chatgpt-outage",
@@ -1536,7 +1536,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://web.archive.org/web/20211019062735/https://www.pagerduty.com/blog/outage-post-mortem-april-13-2013/",
@@ -1544,7 +1544,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://status.pagerduty.com/incidents/70m30bh7qfmx",
@@ -1552,7 +1552,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://web.archive.org/web/20180830181639/https://paritytech.io/the-multi-sig-hack-a-postmortem/",
@@ -1560,7 +1560,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://web.archive.org/web/20201202234639/https://medium.com/@florian_7764/technical-post-mortem-of-the-august-incident-82ab4c3d6547",
@@ -1568,7 +1568,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://web.archive.org/web/20221029203405/https://www.reddit.com/r/announcements/comments/4y0m56/why_reddit_was_down_on_aug_11/",
@@ -1576,7 +1576,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://web.archive.org/web/20230727225235/https://www.reddit.com/r/RedditEng/comments/11xx5o0/you_broke_reddit_the_piday_outage/",
@@ -1584,7 +1584,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://blog.roblox.com/2022/01/roblox-return-to-service-10-28-10-31-2021/",
@@ -1592,7 +1592,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://help.salesforce.com/apex/HTViewSolution?urlname=Root-Cause-Message-for-Disruption-of-Service-on-NA14-May-2016&language=en_US",
@@ -1600,7 +1600,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://help.salesforce.com/s/articleView?id=000396429&type=1",
@@ -1608,7 +1608,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://blog.sentry.io/2015/07/23/transaction-id-wraparound-in-postgres",
@@ -1616,7 +1616,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "http://web.archive.org/web/20160610080136/https://www.scribd.com/doc/309574927/ShapeShift-Post-Mortem-Public",
@@ -1624,7 +1624,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://web.archive.org/web/20251230063242/https://blog.skyliner.io/post-mortem-outages-on-1-19-17-and-1-23-17-3f65cc6f693e",
@@ -1632,7 +1632,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://web.archive.org/web/20181208123409/https://slackhq.com/this-was-not-normal-really",
@@ -1640,7 +1640,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://slack.engineering/slacks-outage-on-january-4th-2021/",
@@ -1648,7 +1648,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://slack.engineering/slacks-incident-on-2-22-22/",
@@ -1656,7 +1656,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://labs.spotify.com/2013/06/04/incident-management-at-spotify/",
@@ -1664,7 +1664,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://web.archive.org/web/20210818034431/https://medium.com/square-corner-blog/incident-summary-2017-03-16-2f65be39297",
@@ -1672,7 +1672,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://www.stackdriver.com/post-mortem-october-23-stackdriver-outage/",
@@ -1680,7 +1680,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "http://web.archive.org/web/20150404235419/https://stackstatus.net/post/115305251014/outage-postmortem-march-31-2015",
@@ -1688,7 +1688,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "http://web.archive.org/web/20160720200842/https://stackstatus.net/post/147710624694/outage-postmortem-july-20-2016",
@@ -1696,7 +1696,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://meta.stackoverflow.com/q/340960/2422776",
@@ -1704,7 +1704,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "http://web.archive.org/web/20170130231315/https://stackstatus.net/post/156407746074/outage-postmortem-january-24-2017",
@@ -1712,7 +1712,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://engineering.strava.com/the-upload-outage-of-july-29-2014/",
@@ -1720,7 +1720,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://support.stripe.com/questions/outage-postmortem-2015-10-08-utc",
@@ -1728,7 +1728,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://www.pri.org/stories/2012-02-23/new-clues-emerge-centuries-old-swedish-shipwreck",
@@ -1736,7 +1736,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://mail.tarsnap.com/tarsnap-announce/msg00035.html",
@@ -1744,7 +1744,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://web.archive.org/web/20170202055452/https://www.businessinsider.com.au/a-fire-in-a-telstra-exchange-is-causing-flight-delays-and-network-outages-2017-2",
@@ -1752,7 +1752,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "http://sunnyday.mit.edu/papers/therac.pdf",
@@ -1760,7 +1760,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://tech.trivago.com/2021/10/05/postmortem-removing-all-users-from-github.com/trivago/",
@@ -1768,7 +1768,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://www.twilio.com/blog/2013/07/billing-incident-post-mortem-breakdown-analysis-and-root-cause.html",
@@ -1776,7 +1776,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://status.twilio.com/incidents/wdrlk4qps0z1",
@@ -1784,7 +1784,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://github.com/valvesoftware/steam-for-linux/issues/3671",
@@ -1792,7 +1792,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://lists.ubuntu.com/archives/xubuntu-users/2025-November/012210.html",
@@ -1800,7 +1800,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://web.archive.org/web/20201018145502/http://yellerapp.com/posts/2014-08-04-postmortem1.html",
@@ -1808,7 +1808,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://zerodha.com/marketintel/bulletin/229363/post-mortem-of-technical-issue-august-29-2019",
@@ -1816,7 +1816,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://zerodha.com/marketintel/bulletin/105569/postmortem-trading-and-hanging-orders-on-12th-april-2018",
@@ -1824,7 +1824,7 @@
       "description": null,
       "category": "Uncategorized",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://aws.amazon.com/premiumsupport/technology/pes/",
@@ -1832,7 +1832,7 @@
       "description": null,
       "category": "Other lists of postmortems",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://web.archive.org/web/20190914025003/http://www.availabilitydigest.com:80/articles.htm",
@@ -1840,7 +1840,7 @@
       "description": null,
       "category": "Other lists of postmortems",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://web.archive.org/web/20230329091806/https://postmortems.info/",
@@ -1848,7 +1848,7 @@
       "description": null,
       "category": "Other lists of postmortems",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://github.com/macintux/Service-postmortems",
@@ -1856,7 +1856,7 @@
       "description": null,
       "category": "Other lists of postmortems",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://www.quora.com/Jeff-Hammerbacher/Post-mortems",
@@ -1864,7 +1864,7 @@
       "description": null,
       "category": "Other lists of postmortems",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://llis.nasa.gov/",
@@ -1872,7 +1872,7 @@
       "description": null,
       "category": "Other lists of postmortems",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://pinboard.in/u:peakscale/t:postmortem/",
@@ -1880,7 +1880,7 @@
       "description": null,
       "category": "Other lists of postmortems",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://wikitech.wikimedia.org/wiki/Incident_documentation",
@@ -1888,7 +1888,7 @@
       "description": null,
       "category": "Other lists of postmortems",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://web.archive.org/web/20190101075846/http://autopsy.io/",
@@ -1896,7 +1896,7 @@
       "description": null,
       "category": "Other lists of postmortems",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://sreweekly.com",
@@ -1904,7 +1904,7 @@
       "description": null,
       "category": "Other lists of postmortems",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://github.com/lorin/major-incidents",
@@ -1912,7 +1912,7 @@
       "description": null,
       "category": "Other lists of postmortems",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://github.com/snakescott/awesome-tech-postmortems",
@@ -1920,7 +1920,7 @@
       "description": null,
       "category": "Other lists of postmortems",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://github.com/icco/postmortems",
@@ -1928,7 +1928,7 @@
       "description": null,
       "category": "Other lists of postmortems",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://github.com/dastergon/postmortem-templates",
@@ -1936,7 +1936,7 @@
       "description": null,
       "category": "Other lists of postmortems",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://stuff.mit.edu/afs/athena/course/2/2.75/resources/random/How%20Complex%20Systems%20Fail.pdf",
@@ -1944,7 +1944,7 @@
       "description": null,
       "category": "Analysis",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     },
     {
       "url": "https://www.kitchensoap.com/2011/04/07/resilience-engineering-part-i/",
@@ -1952,7 +1952,7 @@
       "description": null,
       "category": "Analysis",
       "source": "danluu/post-mortems",
-      "indexedAt": "2026-07-23T13:30:27.396Z"
+      "indexedAt": "2026-07-23T14:54:04.922Z"
     }
   ],
   "categories": [
@@ -1965,5 +1965,5 @@
     "Other lists of postmortems",
     "Analysis"
   ],
-  "crawledAt": "2026-07-23T13:30:27.396Z"
+  "crawledAt": "2026-07-23T14:54:04.922Z"
 }

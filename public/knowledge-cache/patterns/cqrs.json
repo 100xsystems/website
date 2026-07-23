@@ -1,0 +1,16 @@
+{
+  "id": "cqrs",
+  "category": "patterns",
+  "label": "CQRS",
+  "aliases": [],
+  "description": "Separates read and write operations into different models",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Command%E2%80%93query_responsibility_segregation",
+    "wikidata": "https://www.wikidata.org/wiki/Q5150026"
+  },
+  "indexedAt": "2026-07-23T14:36:45.462Z"
+}

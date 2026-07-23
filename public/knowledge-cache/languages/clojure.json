@@ -1,0 +1,16 @@
+{
+  "id": "clojure",
+  "category": "languages",
+  "label": "Clojure",
+  "aliases": [],
+  "description": "Modern functional dialect of Lisp on JVM, CLR, and JavaScript runtimes",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Clojure",
+    "wikidata": "https://www.wikidata.org/wiki/Q1138396"
+  },
+  "indexedAt": "2026-07-23T14:36:20.913Z"
+}

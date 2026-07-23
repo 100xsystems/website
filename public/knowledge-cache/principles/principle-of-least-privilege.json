@@ -1,0 +1,16 @@
+{
+  "id": "principle-of-least-privilege",
+  "category": "principles",
+  "label": "Principle of Least Privilege",
+  "aliases": [],
+  "description": "Security by granting only essential access",
+  "summary": "In information security, computer science, and other fields, the Principle of Least Privilege (PoLP), also known as the Principle of Minimal Privilege (PoMP) or the Principle of Least Authority (PoLA), requires that in a particular abstraction layer of a computing environment, every module must be able to access only the information and resources that are necessary for its legitimate purpose.",
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Principle_of_least_privilege",
+    "wikidata": "https://www.wikidata.org/wiki/Q1190669"
+  },
+  "indexedAt": "2026-07-23T14:36:04.880Z"
+}

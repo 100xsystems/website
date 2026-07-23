@@ -1,0 +1,1836 @@
+{
+  "repoId": "jubalh/awesome-os",
+  "name": "A list of operating systems and stuff",
+  "description": "A list of operating systems and stuff",
+  "repoUrl": "https://github.com/jubalh/awesome-os",
+  "stars": 2243,
+  "topics": [
+    "awesome",
+    "awesome-list",
+    "kernel",
+    "linux",
+    "linux-kernel",
+    "operating-system",
+    "os",
+    "os-dev",
+    "osdev"
+  ],
+  "links": [
+    {
+      "url": "http://9front.org",
+      "title": "9front",
+      "description": "A fork of Plan 9, designed for distributed, networked computing.",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://aros.sourceforge.io/",
+      "title": "AROS",
+      "description": "Research Operating System is a lightweight, efficient, and flexible desktop operating system, designed to help you make the most of your computer. It's an independent, portable and free project, aiming at being compatible with AmigaOS at the API level",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/PauloMigAlmeida/AlmeidaOS",
+      "title": "AlmeidaOS",
+      "description": "x86-64 OS with its own bootloader, scheduler and limited libc all written from scratch",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/frednora/animal",
+      "title": "Animal",
+      "description": "32 bit multithreaded operating system (formerly Gramado)",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://asterinas.github.io/",
+      "title": "Asterinas",
+      "description": null,
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/aurixos/os",
+      "title": "AurixOS",
+      "description": "A small multiplatform Operating System designed for developers and creators",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://aquilaos.com",
+      "title": "AquilaOS",
+      "description": "Operating System that is designed to be POSIX compliant and mostly ISA transparent",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://arikoto.nerdnextdoor.net/",
+      "title": "Arikoto",
+      "description": null,
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "http://www.returninfinity.com/",
+      "title": "BareMetal",
+      "description": null,
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/dthain/basekernel",
+      "title": "Basekernel",
+      "description": "A simple OS kernel for research, teaching, and fun",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/Bone-Project/BoneOS",
+      "title": "BoneOS",
+      "description": "OS for everyone built by everyone",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/bottlerocket-os/bottlerocket",
+      "title": "Bottlerocket OS",
+      "description": "Linux-based OS meant for hosting containers.",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/brutal-org/brutal",
+      "title": "Brutal",
+      "description": "An operating system inspired by brutalist design that combines the ideals of UNIX from the 1970s with modern technology and engineering",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/malwarepad/cavOS",
+      "title": "cavOS",
+      "description": "Amd64 operating system in C. Trying to make a full OS, with a simple and readable codebase",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/charlotte-os/charlotte-core",
+      "title": "Charlotte",
+      "description": "CharlotteOS kernel in Rust",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "http://www.chibios.org/",
+      "title": "ChibiOS",
+      "description": "a complete development environment for embedded applications including RTOS, an HAL, peripheral drivers, support files and tools",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://lsub.org/ls/clive.html",
+      "title": "Clive",
+      "description": "A unikernel OS inspired by Plan9 and Nix developed at *Universidad Rey Juan Carlos of Madrid*",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/CorruptedByCPU/Cyjon/",
+      "title": "Cyjon",
+      "description": "pure x64 assembly language operating system (related to [Fern-Night](https://github.com/CorruptedByCPU/Fern-Night/) project).",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/fslongjin/DragonOS",
+      "title": "DragonOS",
+      "description": "An x86-64 OS build from scratch.",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://codeberg.org/dreamos82/DreamOs64",
+      "title": "Dreamos64",
+      "description": "An x86-64 hobby os built from scratch",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://embox.github.io/",
+      "title": "Embox",
+      "description": "Configurable operating system kernel designed for resource constrained and embedded systems.",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/sasdallas/Ethereal",
+      "title": "Ethereal",
+      "description": "Ethereal is an advanced modular operating system with support for networking and USB as well as a GUI-enabled userspace.",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://git.codingworkshop.eu.org/xt-sys/exectos",
+      "title": "ExectOS",
+      "description": null,
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/CorruptedByCPU/Fern-Night/",
+      "title": "Fern-Night",
+      "description": "C language operating system (related to [Cyjon](https://github.com/CorruptedByCPU/Cyjon/) project).",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://www.fiwix.org/",
+      "title": "Fiwix",
+      "description": null,
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/Ruddle/Fomos",
+      "title": "Fomos",
+      "description": "Experimental OS, built with Rust.",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://genode.org/",
+      "title": "Genode",
+      "description": "A FOSS operating system framework consisting of a microkernel abstraction layer and a collection of userspace components",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/streaksu/Gloire",
+      "title": "Gloire",
+      "description": "An OS built with the [Ironclad](https://www.nongnu.org/ironclad/) kernel (a partially formally verified kernel with a small footprint for general-purpose and embedded OSes, written in SPARK and Ada) and GNU tools.",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://greenteaos.github.io/",
+      "title": "GreenteaOS",
+      "description": null,
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://gdsc-kiit.github.io/project-halide/",
+      "title": "HalideOS",
+      "description": "experimental operating system written entirely from scratch.",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://harvey-os.org/",
+      "title": "HarveyOS",
+      "description": "A distributed operating system",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/HelenOS/helenos",
+      "title": "HelenOS",
+      "description": "multikernel multiserver OS",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://hermit-os.org/",
+      "title": "Hermit",
+      "description": "A Rust-based, lightweight unikernel",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://programatica.cs.pdx.edu//House/",
+      "title": "House",
+      "description": "Haskell User's Operating System and Environment.",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://hubris.oxide.computer/",
+      "title": "Hubris",
+      "description": "Hubris is an operating system for microcontrollers developed by Oxide Computer Company in Rust",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://illumos.org/",
+      "title": "Illumos",
+      "description": "illumos is a Unix operating system which provides next-generation features for downstream distributions (like OmniOS, OpenIndiana, and Tribblix)",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/mntmn/interim",
+      "title": "Interim",
+      "description": "Minimalist OS with concepts from Lisp machines and Plan9",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/pgrAm/JSD-OS",
+      "title": "JSD-OS",
+      "description": "A small operating system for 32 bit x86.",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "http://jehanne.io/",
+      "title": "Jehanne",
+      "description": null,
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/FrancisBFTC/KiddieOS_Development",
+      "title": "KiddieOS",
+      "description": "UNIX-like 64-bit operating system written in Assembly, C++.",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/KnightOS/KnightOS",
+      "title": "KnightOS",
+      "description": "for z80 calculators",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "http://www.kolibrios.org",
+      "title": "KolibriOS",
+      "description": "MenuetOS fork",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/bad-antics/lateralus-lang",
+      "title": "Lateralus OS",
+      "description": "Bare-metal OS written in Lateralus with its own pipeline-native programming language, compiler, and VM",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/kernkonzept/l4re-core",
+      "title": "L4re",
+      "description": "Operating system and hypervisor for security/safety-critical and virtualization-enabled applications.",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://lemonos.org/",
+      "title": "LemonOS",
+      "description": null,
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/maestro-os/maestro",
+      "title": "Maestro",
+      "description": null,
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/AjayMT/mako",
+      "title": "Mako",
+      "description": "Hobby OS for x86 from scratch, written in C",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/marceldobehere/MaslOS",
+      "title": "MaslOS",
+      "description": "A 64 bit GUI multitasking Hobby OS written mostly from scratch in C++ and a bit of C/ASM.",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/MarcoCicognani/MeetixOS",
+      "title": "MeetixOS",
+      "description": "A hobby OS written in modern C++20 which aims to be Unix-like.",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/mentos-team/MentOS",
+      "title": "MentOS",
+      "description": "An educational 32-bit linux-like Operating System.",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "http://www.menuetos.net/",
+      "title": "MenuetOS",
+      "description": "Hobby OS supporting 32 and 64 bit, written in Assembly language",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://mimiker.ii.uni.wroc.pl/",
+      "title": "Mimiker",
+      "description": null,
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://icfp20.sigplan.org/details/scheme-2020-papers/3/Running-Scheme-On-Bare-Metal-Experience-Report-",
+      "title": "Mimosa",
+      "description": null,
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/minoca/os",
+      "title": "Minoca OS",
+      "description": "General purpose OS, written in C",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/Meulengracht/MollenOS",
+      "title": "MollenOS",
+      "description": "MollenOS/Vali is a modern operating system that is built with focus on abstraction and a modular design, allowing anyone to port it to any architecture. It currently targets the x86-32 and x86-64 platform",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/badnikhil/MyOS",
+      "title": "myOS",
+      "description": "Under development and Maintenance by a single Undergraduate who just wanted his machine to execute his own instructions.",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://sourceforge.net/projects/myxomycota/",
+      "title": "MyXomycota",
+      "description": "Monolithic kernel in C",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://notin.tokyo/nesos/",
+      "title": "NESOS",
+      "description": "An OS for the Nintendo Entertainment System!",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/nanovms/nanos",
+      "title": "Nanos",
+      "description": "Unikernel that is linux-compatible, written in C",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/NodeOS/NodeOS",
+      "title": "NodeOS",
+      "description": "OS using NodeJS and Linux",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/DeanoBurrito/northport",
+      "title": "Northport",
+      "description": "Monolithic kernel and support libraries for riscv64 and x86_64.",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "http://path-os.duckdns.org/",
+      "title": "PathOS",
+      "description": "Hobby OS based on [MikeOS](https://github.com/mig-hub/mikeOS), written in Assembly Language",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/GandelXIV/pidi-os",
+      "title": "Pidi OS",
+      "description": "Independent and minimalistic OS",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://ponyos.org/",
+      "title": "PonyOS",
+      "description": null,
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/mtribiere/PoulpyOS",
+      "title": "PouplyOS",
+      "description": "Simple OS for fun and learning, named after the ESISAR mascot Poulpy",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/PureDarwin/PureDarwin/wiki",
+      "title": "PureDarwin",
+      "description": "PureDarwin is a community project to extend Darwin into a complete, usable operating system",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://qubes-os.org",
+      "title": "Qubes OS",
+      "description": "Security-focused OS built on the Xen hypervisor, designed to isolate different compartments based on levels of trust.",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/ravynsoft/ravynos",
+      "title": "RavynOS",
+      "description": "A BSD-based OS project that aims to provide an experience like and some compatibility with macOS (formerly known as airyxOS)",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/redox-os/redox",
+      "title": "Redox",
+      "description": "written in Rust",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/krustowski/rou2exOS",
+      "title": "rou2exOS",
+      "description": null,
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "http://www.jbox.dk/sanos/",
+      "title": "Sanos",
+      "description": null,
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/pimnik98/SayoriOS",
+      "title": "SayoriOS",
+      "description": "Hobby OS for x86 computers, currently under active development, written in C",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://genode.org/download/sculpt",
+      "title": "Sculpt OS",
+      "description": "Genode based OS",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/SerenityOS/serenity",
+      "title": "Serenity",
+      "description": "Graphical Unix-like operating system for x86 computers",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/xing1357/SimpleOS",
+      "title": "SimpleOS",
+      "description": "Simple Operating System coded in C and Assembly",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "http://sebastianmihai.com/snowdrop/",
+      "title": "Snowdrop OS",
+      "description": "a homebrew operating system from scratch, in assembly language",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://sortix.org/",
+      "title": "Sortix",
+      "description": "Hobby OS in C and C++ by Jonas 'Sortie' Termansen",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/tayoky/stanix",
+      "title": "Stanix",
+      "description": "An open source modular hobby OS in C, with features such as dynamic linking and a page cache.",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "http://syllable.metaproject.frl/",
+      "title": "Syllable",
+      "description": "Successor of AtheOS, Syllable is designed in the tradition of the Amiga and BeOS, but built using many parts from the GNU project and Linux.",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/SynestiaOS/SynestiaOS",
+      "title": "SynestiaOS",
+      "description": "32/64 bit operating system written in C for arm platform",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/minexew/TempleOS",
+      "title": "TempleOS",
+      "description": "Religious OS :-)",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/theseus-os/Theseus",
+      "title": "Theseus",
+      "description": "A modern experimental OS written from scratch in Rust to explore novel OS structure and state management techniques.",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/wichtounet/thor-os",
+      "title": "Thor",
+      "description": "64bit operating system mostly written in C++",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/klange/toaruos",
+      "title": "ToaruOS",
+      "description": "Hobby operating system from scratch",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "http://www.tyndur.org/",
+      "title": "Týndur",
+      "description": "Hobby operating system build by the Lowlevel community. Written in C and Pascal",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/aswinmohanme/ultronOS",
+      "title": "Ultron OS",
+      "description": "x86 Operating System written in C++, High School Project",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/unikraft/unikraft",
+      "title": "Unikraft",
+      "description": "A modular unikernel for specialization, high efficiency, performance, and security; Linux/POSIX-compatible; mostly in C",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/vlang/vinix",
+      "title": "Vinix",
+      "description": "Vinix is an effort to write a modern, fast, and useful operating system in the V programming language",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://visopsys.org/",
+      "title": "Visopsys",
+      "description": "Open Source Hobby OS developed since 1997",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/felixrieseberg/windows95",
+      "title": "Windows 95 in Electron",
+      "description": "Hobby Windows 95 implementation in Electron",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://pdos.csail.mit.edu/6.828/2019/xv6.html",
+      "title": "Xv6",
+      "description": "A teaching operating system developed in the summer of 2006 for MIT's operating systems course",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/Zeal-Operating-System/ZealOS",
+      "title": "ZealOS",
+      "description": "The Zeal Operating System is a modernized, professional fork of the 64-bit Temple Operating System, TempleOS.",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/ackOS-project/ackOS",
+      "title": "ackOS",
+      "description": "A simple 64-bit operating system.",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/Athryx/aurora_os",
+      "title": "aurora_os",
+      "description": "Written in Rust.",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://dahliaos.io",
+      "title": "dahliaOS",
+      "description": "dahliaOS is a modern, secure, lightweight and responsive operating system, combining the best of GNU/Linux and Fuchsia OS.",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/byteduck/duckOS",
+      "title": "duckOS",
+      "description": "A hobby UNIX-like OS with a graphical window manager for x86 computers.",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/icexin/eggos",
+      "title": "eggos",
+      "description": "A Go unikernel running on x86 bare metal",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/Abb1x/emerald",
+      "title": "emerald",
+      "description": "An operating system kernel written for fun in C",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/gopher-os/gopher-os",
+      "title": "gopher-os",
+      "description": "A proof of concept OS kernel written in Go",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/hhuOS/hhuOS",
+      "title": "hhuOS",
+      "description": "hhuOS is a small operating system written in C++ and Assembler for the x86-architecture. The main purpose of this project is to show how different aspects of operating systems theory can be implemented and linked together. The system is not aimed to be a full-featured operating system for daily use.",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/mszoek/hydrogen",
+      "title": "hydrogen",
+      "description": "toy OS. 64-bit, preemptive multitasking kernel supporting EFI, PCIe, SATA, framebuffer graphics mode, HFS+.",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/lyre-os/lyre",
+      "title": "lyre",
+      "description": "x86 kernel and distribution powered by mlibc, GNU userland tools, and other common *nix software.",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/managarm/managarm",
+      "title": "managarm",
+      "description": "Pragmatic microkernel-based OS with fully asynchronous I/O",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/menix-os/menix",
+      "title": "menix",
+      "description": "A minimal and expandable Unix-like operating system.",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/vinc/moros",
+      "title": "moros",
+      "description": "MOROS is a hobby operating system written in Rust for the x86 architecture.",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/MQuy/mos",
+      "title": "mOS",
+      "description": "A hobby operating system developed from scratch",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/d99kris/nopeos",
+      "title": "nopeos",
+      "description": "Simple OS kernel with BASIC interpreter for x86",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/o8vm/octox",
+      "title": "octox",
+      "description": "Unix-like OS in Rust inspired by xv6-riscv",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/nimelehin/oneOS",
+      "title": "oneOS",
+      "description": "x86-32 and ARMv7 kernel with pre-emptive multi-threading, window manager and editor",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/opuntiaOS-Project/opuntiaOS",
+      "title": "opuntiaOS",
+      "description": "an operating system targeting x86, ARMv7, Aarch64.",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/gamozolabs/orange_slice",
+      "title": "orange_slice",
+      "description": "A research kernel and hypervisor attempting to get fully deterministic emulation with minimum performance cost. In Rust",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/Garnek0/Ovation",
+      "title": "Ovation",
+      "description": "A simple, hobby, 64-bit operating system that focuses on simplicity, portability and maintainability. Written in C.",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/pranaOS/pranaOS",
+      "title": "pranaOS",
+      "description": "A unix operating system written from scratch in c / c++",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/Narasimha1997/r3",
+      "title": "r3",
+      "description": "A hobby x86_64 Operating System kernel written in Rust -- with minimal functionalities",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://skiftos.org/",
+      "title": "skiftOS",
+      "description": null,
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/ozkl/soso",
+      "title": "soso",
+      "description": "Simple unix-like operating system written in Nasm assembly and mostly in C",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/vvaltchev/tilck",
+      "title": "tilck",
+      "description": "A Tiny Linux-Compatible Kernel.",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://www.tockos.org/",
+      "title": "tock",
+      "description": null,
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/bistcuite/unox-os",
+      "title": "unox-os",
+      "description": "Unox is an educational unix-like operating system",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/willdurand/willOS",
+      "title": "willOS",
+      "description": "A minimal 64 bits kernel (Operating System that cannot \"operate\" a lot of things)",
+      "category": "Open Source Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/apple-oss-distributions/xnu",
+      "title": "Darwin XNU",
+      "description": "The XNU kernel source code for use in MacOS and iOS",
+      "category": "Popular Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://freebsd.org/",
+      "title": "FreeBSD",
+      "description": null,
+      "category": "Popular Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "http://freedos.org/",
+      "title": "FreeDOS",
+      "description": "DOS compatible OS",
+      "category": "Popular Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/haiku/haiku",
+      "title": "Haiku",
+      "description": "BeOS inspired OS",
+      "category": "Popular Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/torvalds/linux",
+      "title": "Linux",
+      "description": "Linux kernel",
+      "category": "Popular Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://www.minix3.org/",
+      "title": "Minix",
+      "description": null,
+      "category": "Popular Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/microsoft/MS-DOS",
+      "title": "MS-DOS",
+      "description": "The original sources of MS-DOS 1.25 and 2.0",
+      "category": "Popular Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://www.netbsd.org/",
+      "title": "NetBSD",
+      "description": null,
+      "category": "Popular Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://www.openbsd.org/",
+      "title": "OpenBSD",
+      "description": null,
+      "category": "Popular Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "http://9p.io/plan9/",
+      "title": "Plan 9 from Bell Labs",
+      "description": "An OS from the creators of Unix, extending the Unix philosophy of \"everything is a file\" with a network-centric file system, namespaces and distributed computing.",
+      "category": "Popular Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://reactos.org/",
+      "title": "ReactOS",
+      "description": null,
+      "category": "Popular Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://archive.org/details/ATTUNIXSystemVRelease4Version2",
+      "title": "SystemV",
+      "description": "AT&T UNIX System V Source Code",
+      "category": "Popular Operating Systems",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/SamyPesse/How-to-Make-a-Computer-Operating-System",
+      "title": "How to Make a Computer Operating System",
+      "description": "in C++",
+      "category": "Online books",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://intermezzos.github.io/book/",
+      "title": "Intermezzos",
+      "description": "A follow along book to build IntermezzosOS in Rust",
+      "category": "Online books",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "http://www.kroah.com/lkn/",
+      "title": "Linux Kernel in a Nutshell",
+      "description": "Covers the entire range of kernel tasks, available as chapters or one PDF",
+      "category": "Online books",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "http://littleosbook.github.io/",
+      "title": "The little book about OS development",
+      "description": null,
+      "category": "Online books",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "http://greenteapress.com/thinkos/",
+      "title": "Think OS",
+      "description": "A Brief Introduction to Operating Systems by *Allen B. Downey*",
+      "category": "Online books",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "http://www.brokenthorn.com/Resources/OSDevIndex.html",
+      "title": "Operating System Development Series",
+      "description": "OS from the ground up in C",
+      "category": "Online books",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "http://pages.cs.wisc.edu/~remzi/OSTEP/",
+      "title": "Operating Systems: Three Easy Pieces",
+      "description": "Easy to read book covering virtualization, concurrency and persistence",
+      "category": "Online books",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://pdos.csail.mit.edu/6.828/2019/xv6/book-riscv-rev0.pdf",
+      "title": "xv6: a simple, Unix-like teaching operating system",
+      "description": "Book for Xv6",
+      "category": "Online books",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://tuhdo.github.io/os01/",
+      "title": "Operating Systems: From 0 to 1",
+      "description": "Bootstrap yourself to write an OS from scratch by *Do Hoang Tu*",
+      "category": "Online books",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/dreamos82/Osdev-Notes",
+      "title": "Osdev Notes",
+      "description": "How to write an operating system from scratch by *Ivan G.* and *Dean T.*",
+      "category": "Online books",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://www.cl.cam.ac.uk/projects/raspberrypi/tutorials/os/index.html",
+      "title": "Baking Pi – Operating Systems Development",
+      "description": null,
+      "category": "Tutorials",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/jserv/mini-arm-os",
+      "title": "Build a minimal multi-tasking OS kernel for ARM from scratch",
+      "description": null,
+      "category": "Tutorials",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "http://www.osdever.net/bkerndev/Docs/title.htm",
+      "title": "Bran's Kernel Development",
+      "description": null,
+      "category": "Tutorials",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/gregkh/kernel-tutorial",
+      "title": "How to write a Linux kernel patch and submit it",
+      "description": null,
+      "category": "Tutorials",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/gregkh/kernel-development",
+      "title": "Presentation on how the Linux kernel is developed",
+      "description": null,
+      "category": "Tutorials",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/cfenollosa/os-tutorial",
+      "title": "os-tutorial - How to create an OS from scratch",
+      "description": null,
+      "category": "Tutorials",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "http://jamesmolloy.co.uk/tutorial_html/",
+      "title": "Roll your own toy UNIX-clone OS",
+      "description": null,
+      "category": "Tutorials",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://os.phil-opp.com/",
+      "title": "Writing an OS in Rust",
+      "description": null,
+      "category": "Tutorials",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "http://osblog.stephenmarz.com/",
+      "title": "Making a RISC-V Operating System using Rust",
+      "description": null,
+      "category": "Tutorials",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://medium.com/@lduck11007/operating-systems-development-for-dummies-3d4d786e8ac",
+      "title": "Operating systems development for Dummies",
+      "description": null,
+      "category": "Tutorials",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://arjunsreedharan.org/post/82710718100/kernels-101-lets-write-a-kernel",
+      "title": "Kernels 101 – Let’s write a Kernel",
+      "description": null,
+      "category": "Tutorials",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://arjunsreedharan.org/post/99370248137/kernels-201-lets-write-a-kernel-with-keyboard",
+      "title": "Kernels 201 - Let’s write a Kernel with keyboard and screen support",
+      "description": null,
+      "category": "Tutorials",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://www.joe-bergeron.com/posts/Writing%20a%20Tiny%20x86%20Bootloader/",
+      "title": "Writing a Tiny x86 Bootloader",
+      "description": null,
+      "category": "Tutorials",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "http://3zanders.co.uk/2017/10/13/writing-a-bootloader/",
+      "title": "Writing a Bootloader",
+      "description": null,
+      "category": "Tutorials",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/s-matyukevich/raspberry-pi-os",
+      "title": "Learning operating system development using Linux kernel and Raspberry Pi",
+      "description": null,
+      "category": "Tutorials",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/flydeoo/mya",
+      "title": "mya",
+      "description": null,
+      "category": "Tutorials",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://genodians.org/",
+      "title": "Genodians",
+      "description": "Stories around the Genode Operating System",
+      "category": "Websites",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "http://wiki.osdev.org/Main_Page",
+      "title": "os-dev",
+      "description": "Wiki with everything you need to know",
+      "category": "Websites",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "http://www.lowlevel.eu/wiki/Hauptseite",
+      "title": "Lowlevel",
+      "description": "A wiki about creating an OS from scratch. In German",
+      "category": "Websites",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://pubs.opengroup.org/onlinepubs/9699919799/",
+      "title": "POSIX",
+      "description": "Standards for maintaining compatibility between operating systems",
+      "category": "Websites",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://rust-osdev.com/",
+      "title": "Rust OSDev",
+      "description": "Newsletter about OS development in Rust",
+      "category": "Websites",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://www.osrtos.com/",
+      "title": "OSRTOS",
+      "description": "List of open source real-time operating systems",
+      "category": "Websites",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://www.multicians.org/",
+      "title": "Multicians",
+      "description": "The Multicians web site presents the story of the Multics operating system for people interested in the system's history",
+      "category": "Websites",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://www.usenix.org/conference/osdi18/presentation/cutler",
+      "title": "The benefits and costs of writing a POSIX kernel in a high-level language",
+      "description": null,
+      "category": "Papers",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3447786.3456248",
+      "title": "Unikraft: Fast, Specialized Unikernels the Easy Way",
+      "description": null,
+      "category": "Papers",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCSPIuWADJIMIf9Erf--XAsA",
+      "title": "Nanobyte",
+      "description": null,
+      "category": "Video Tutorials",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=HNIg3TXfdX8&list=PLrGN1Qi7t67V-9uXzj4VSQCffntfvn42v",
+      "title": "Kernel dev from scratch by Dragon Zap Education",
+      "description": null,
+      "category": "Video Tutorials",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://training.linuxfoundation.org/training/a-beginners-guide-to-linux-kernel-development-lfd103",
+      "title": "A Beginner’s Guide to Linux Kernel Development (LFD103)",
+      "description": null,
+      "category": "Linux specific",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://sysprog21.github.io/lkmpg/",
+      "title": "The Linux Kernel Module Programming Guide",
+      "description": null,
+      "category": "Linux specific",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://www.kernel.org/doc/html/latest/",
+      "title": "The Linux Kernel documentation",
+      "description": null,
+      "category": "Linux specific",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://www.kernel.org/doc/html/latest/process/",
+      "title": "Working with the kernel development community",
+      "description": null,
+      "category": "Linux specific",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://linux-kernel-labs.github.io/refs/heads/master",
+      "title": "Linux Kernel Teaching",
+      "description": null,
+      "category": "Linux specific",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://0xax.gitbooks.io/linux-insides/content/",
+      "title": "linux-insides",
+      "description": null,
+      "category": "Linux specific",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://lkw.readthedocs.io/en/latest/index.html",
+      "title": "Linux Kernel Workbook",
+      "description": null,
+      "category": "Linux specific",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://makelinux.github.io/kernel/map/",
+      "title": "bootlins interactive Linux kernel map",
+      "description": null,
+      "category": "Linux specific",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://marcin.juszkiewicz.com.pl/download/tables/syscalls.html",
+      "title": "Linux kernel system call table for all archs",
+      "description": null,
+      "category": "Linux specific",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "http://www.oldlinux.org/",
+      "title": "OldLinux",
+      "description": "A Heavily Commented Linux kernel source and more",
+      "category": "Linux specific",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/sam4k/linux-kernel-resources",
+      "title": "sam4ks Linux Kernel Resources",
+      "description": null,
+      "category": "Linux specific",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/xairy/linux-kernel-exploitation",
+      "title": "xairys Linux Kernel Exploitation",
+      "description": null,
+      "category": "Linux specific",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/sysprog21/fibdrv",
+      "title": "fibdrv Linux kernel module that calculates Fibonacci numbers",
+      "description": null,
+      "category": "Linux specific",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/bsauce/kernel-security-learning",
+      "title": "kernel-security-learning",
+      "description": null,
+      "category": "Linux specific",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://syzkaller.appspot.com/upstream",
+      "title": "syzbot",
+      "description": null,
+      "category": "Linux specific",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/google/syzkaller",
+      "title": "syzkaller",
+      "description": null,
+      "category": "Linux specific",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://media.ccc.de/v/clt23-193-der-linux-kernel-entwicklungs-workflow",
+      "title": "Der Linux Kernel Entwicklungs-Workflow",
+      "description": null,
+      "category": "Linux specific",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://lwn.net/Articles/1024941/",
+      "title": "How to write Rust in the kernel",
+      "description": null,
+      "category": "Linux specific",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/mricon/b4",
+      "title": "b4",
+      "description": null,
+      "category": "Tools",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/SUSE/clang-extract",
+      "title": "clang-extract",
+      "description": null,
+      "category": "Tools",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/sjp38/hackermail",
+      "title": "hackermail",
+      "description": null,
+      "category": "Tools",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/kworkflow/kworkflow",
+      "title": "kworkflow",
+      "description": "reduce the overhead with infrastructure setup for Linux development",
+      "category": "Tools",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://github.com/arighi/virtme-ng",
+      "title": "virtme-ng",
+      "description": "quickly build and run kernels inside a virtualized snapshot of your live system",
+      "category": "Tools",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://planet.kernel.org/",
+      "title": "Planet Kernel",
+      "description": null,
+      "category": "Blogposts",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://javiercarrascocruz.github.io/kernel-contributor-1",
+      "title": "Become a Linux kernel contributor - Part 1",
+      "description": null,
+      "category": "Blogposts",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://javiercarrascocruz.github.io/kernel-contributor-2",
+      "title": "Become a Linux kernel contributor - Part 2",
+      "description": null,
+      "category": "Blogposts",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://javiercarrascocruz.github.io/kernel-contributor-3",
+      "title": "Become a Linux kernel contributor - Part 3",
+      "description": null,
+      "category": "Blogposts",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://javiercarrascocruz.github.io/syzbot",
+      "title": "Fixing bugs in the Linux kernel with Syzbot, Qemu and GDB",
+      "description": null,
+      "category": "Blogposts",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://javiercarrascocruz.github.io/b4-for-kernel-contributors",
+      "title": "b4 for Linux kernel contributors",
+      "description": null,
+      "category": "Blogposts",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://www.marcusfolkesson.se/blog/use-b4-for-kernel-contributions/",
+      "title": "Use b4 for kernel contributions",
+      "description": null,
+      "category": "Blogposts",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://josefbacik.github.io/kernel/2021/10/18/lei-and-b4.html",
+      "title": "Using lei, b4, and mutt to do kernel development",
+      "description": null,
+      "category": "Blogposts",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://people.kernel.org/kuba/netdev-in-2023",
+      "title": "netdev in 2023",
+      "description": null,
+      "category": "Blogposts",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://mpdesouza.com/blog/five-commands-to-crash-the-kernel/",
+      "title": "Five commands to crash the kernel",
+      "description": null,
+      "category": "Blogposts",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://jvns.ca/blog/2014/09/18/you-can-be-a-kernel-hacker/",
+      "title": "You can be a kernel hacker!",
+      "description": null,
+      "category": "Blogposts",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://jvns.ca/blog/2014/01/04/4-paths-to-being-a-kernel-hacker/",
+      "title": "4 paths to being a kernel hacker",
+      "description": null,
+      "category": "Blogposts",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://jvns.ca/blog/2016/01/18/guessing-linux-kernel-registers/",
+      "title": "Guessing Linux kernel registers",
+      "description": null,
+      "category": "Blogposts",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://ariel-miculas.github.io/How-I-got-robbed-of-my-first-kernel-contribution/",
+      "title": "How I got robbed of my first kernel contribution",
+      "description": null,
+      "category": "Blogposts",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://adam.younglogic.com/2022/10/apply-linux-kernel-patches-from-lkml/",
+      "title": "Apply Linux Kernel Patches from LKML",
+      "description": null,
+      "category": "Blogposts",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://josefbacik.github.io/kernel/2021/10/19/patch-review.html",
+      "title": "My patch review workflow",
+      "description": null,
+      "category": "Blogposts",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://gist.github.com/Scott31393/2a8296fe0a04648838117b8ebb21ed40",
+      "title": "Linux Kernel Develop Workflow",
+      "description": null,
+      "category": "Blogposts",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://vimeo.com/8200182",
+      "title": "Apply a Linux kernel patch to the stable tree",
+      "description": null,
+      "category": "Blogposts",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "http://www.kroah.com/log/blog/2019/08/14/patch-workflow-with-mutt-2019/",
+      "title": "Patch Workflow With Mutt 2019",
+      "description": null,
+      "category": "Blogposts",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://www.marcusfolkesson.se/blog/debug-kernel-with-kgdb/",
+      "title": "Debug kernel with KGDB",
+      "description": null,
+      "category": "Blogposts",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://cs4118.github.io/dev-guides/kernel-debugging.html",
+      "title": "Linux Kernel Debugging",
+      "description": null,
+      "category": "Blogposts",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://nasamuffin.github.io/git/open-source/email/code-review/2019/05/22/how-i-learned-to-love-email-patches.html",
+      "title": "How I Learned to Love the Email Patch Developer Workflow",
+      "description": null,
+      "category": "Blogposts",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://www.kernel.org/doc/html/latest/admin-guide/bug-hunting.html",
+      "title": "Bug hunting",
+      "description": null,
+      "category": "Debugging",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://www.kernel.org/doc/html/latest/admin-guide/bug-bisect.html",
+      "title": "Bisecting a bug",
+      "description": null,
+      "category": "Debugging",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "http://www.gonehiking.org/ShuahLinuxBlogs/blog/2018/10/18/who-made-that-change-and-when-using-cregit-for-debugging/",
+      "title": "Who Made That Change and When: Using Cregit for Debugging",
+      "description": null,
+      "category": "Debugging",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://lwn.net/Articles/592724/",
+      "title": "Make stack dump output useful again",
+      "description": null,
+      "category": "Debugging",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://sanjeev1sharma.wordpress.com/tag/debug-kernel-panics/",
+      "title": "Debugging Analysis of Kernel panics and Kernel oopses using System Map",
+      "description": null,
+      "category": "Debugging",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://www.opensourceforu.com/2011/01/understanding-a-kernel-oops/",
+      "title": "Understanding a Kernel Oops!",
+      "description": null,
+      "category": "Debugging",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://nakryiko.com/posts/retsnoop-intro/",
+      "title": "Tracing Linux kernel with retsnoop",
+      "description": null,
+      "category": "Debugging",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://drewdevault.com/2018/07/02/Email-driven-git.html",
+      "title": "The advantages of an email-driven git workflow",
+      "description": null,
+      "category": "Email",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://drewdevault.com/2022/07/25/Code-review-with-aerc.html",
+      "title": "Code review at the speed of email",
+      "description": null,
+      "category": "Email",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://lpc.events/",
+      "title": "Linux Plumbers",
+      "description": null,
+      "category": "Conferences / Presentations",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    },
+    {
+      "url": "https://www.youtube.com/@LinuxfoundationOrg",
+      "title": "The Linux Foundation",
+      "description": null,
+      "category": "Conferences / Presentations",
+      "source": "jubalh/awesome-os",
+      "indexedAt": "2026-07-23T14:52:43.366Z"
+    }
+  ],
+  "categories": [
+    "Open Source Operating Systems",
+    "Popular Operating Systems",
+    "Online books",
+    "Tutorials",
+    "Websites",
+    "Papers",
+    "Video Tutorials",
+    "Linux specific",
+    "Tools",
+    "Blogposts",
+    "Debugging",
+    "Email",
+    "Conferences / Presentations"
+  ],
+  "crawledAt": "2026-07-23T14:52:43.366Z"
+}

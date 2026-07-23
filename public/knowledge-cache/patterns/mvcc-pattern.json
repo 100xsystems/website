@@ -1,0 +1,16 @@
+{
+  "id": "mvcc-pattern",
+  "category": "patterns",
+  "label": "MVCC",
+  "aliases": [],
+  "description": "Concurrency control method that maintains multiple versions of data",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Multiversion_concurrency_control",
+    "wikidata": "https://www.wikidata.org/wiki/Q1571790"
+  },
+  "indexedAt": "2026-07-23T14:36:49.626Z"
+}

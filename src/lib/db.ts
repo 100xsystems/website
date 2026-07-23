@@ -488,6 +488,81 @@ export async function clearFeedBookmarks(userEmail: string): Promise<void> {
   });
 }
 
+// ─── Feed Preferences ──────────────────────────────────────────────────
+
+/**
+ * Schema: feed_preferences
+ *
+ *   user_email      TEXT PRIMARY KEY,
+ *   selected_feeds  TEXT NOT NULL DEFAULT '[]',  -- JSON array of feed IDs
+ *   selected_tags   TEXT NOT NULL DEFAULT '[]',  -- JSON array of tag strings
+ *   sort_by         TEXT NOT NULL DEFAULT 'newest',
+ *   updated_at      TEXT NOT NULL DEFAULT (datetime('now'))
+ */
+
+export interface FeedPreferencesRow {
+  user_email: string;
+  selected_feeds: string;
+  selected_tags: string;
+  sort_by: 'newest' | 'hn-rank';
+  updated_at: string;
+}
+
+export interface FeedPreferencesData {
+  userEmail: string;
+  selectedFeeds: string[];
+  selectedTags: string[];
+  sortBy: 'newest' | 'hn-rank';
+  updatedAt: string;
+}
+
+export async function getFeedPreferences(userEmail: string): Promise<FeedPreferencesData | null> {
+  const db = getDb();
+  const result = await db.execute({
+    sql: 'SELECT * FROM feed_preferences WHERE user_email = ?',
+    args: [userEmail],
+  });
+  const row = result.rows[0] as unknown as FeedPreferencesRow | undefined;
+  if (!row) return null;
+  return {
+    userEmail: row.user_email,
+    selectedFeeds: JSON.parse(row.selected_feeds),
+    selectedTags: JSON.parse(row.selected_tags),
+    sortBy: row.sort_by,
+    updatedAt: row.updated_at,
+  };
+}
+
+export async function upsertFeedPreferences(
+  userEmail: string,
+  prefs: { selectedFeeds: string[]; selectedTags: string[]; sortBy: 'newest' | 'hn-rank' }
+): Promise<void> {
+  const db = getDb();
+  await db.execute({
+    sql: `INSERT INTO feed_preferences (user_email, selected_feeds, selected_tags, sort_by, updated_at)
+          VALUES (?, ?, ?, ?, datetime('now'))
+          ON CONFLICT(user_email) DO UPDATE SET
+            selected_feeds = excluded.selected_feeds,
+            selected_tags = excluded.selected_tags,
+            sort_by = excluded.sort_by,
+            updated_at = datetime('now')`,
+    args: [
+      userEmail,
+      JSON.stringify(prefs.selectedFeeds),
+      JSON.stringify(prefs.selectedTags),
+      prefs.sortBy,
+    ],
+  });
+}
+
+export async function deleteFeedPreferences(userEmail: string): Promise<void> {
+  const db = getDb();
+  await db.execute({
+    sql: 'DELETE FROM feed_preferences WHERE user_email = ?',
+    args: [userEmail],
+  });
+}
+
 export async function isFeedBookmarked(userEmail: string, url: string): Promise<boolean> {
   const db = getDb();
   const result = await db.execute({

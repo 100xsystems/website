@@ -1,0 +1,4698 @@
+{
+  "repoId": "keon/awesome-nlp",
+  "name": ":book: A curated list of resources dedicated to Natural Language Processing (NLP)",
+  "description": ":book: A curated list of resources dedicated to Natural Language Processing (NLP)",
+  "repoUrl": "https://github.com/keon/awesome-nlp",
+  "stars": 18849,
+  "topics": [
+    "awesome",
+    "awesome-list",
+    "deep-learning",
+    "language",
+    "machine-learning",
+    "natural-language-processing",
+    "nlp",
+    "text-mining"
+  ],
+  "links": [
+    {
+      "url": "https://aclanthology.org/",
+      "title": "ACL Anthology",
+      "description": "canonical archive of papers from ACL, EMNLP, NAACL, EACL, COLING, and related venues.",
+      "category": "Research Summaries and Trends",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://nlpprogress.com/",
+      "title": "NLP-Progress",
+      "description": "tracks state-of-the-art results across common NLP tasks and datasets.",
+      "category": "Research Summaries and Trends",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://paperswithcode.com/area/natural-language-processing",
+      "title": "Papers With Code: NLP",
+      "description": "papers, benchmarks, and leaderboards for NLP tasks.",
+      "category": "Research Summaries and Trends",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://newsletter.ruder.io/",
+      "title": "Sebastian Ruder's newsletter",
+      "description": "regular roundups of NLP research and trends.",
+      "category": "Research Summaries and Trends",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://aclrollingreview.org/",
+      "title": "ACL Rolling Review",
+      "description": "the rolling review process feeding ACL-affiliated venues.",
+      "category": "Research Summaries and Trends",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://thegradient.pub/",
+      "title": "The Gradient",
+      "description": "long-form essays on ML and NLP research.",
+      "category": "Research Summaries and Trends",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://amitness.com/categories/#nlp",
+      "title": "Visual NLP Paper Summaries",
+      "description": "illustrated summaries of recent papers.",
+      "category": "Research Summaries and Trends",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://thegradient.pub/nlp-imagenet/",
+      "title": "NLP's ImageNet moment has arrived",
+      "description": "2018 essay on the rise of pretrained language models.",
+      "category": "Historical highlights",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/1703.09902",
+      "title": "Survey of the State of the Art in Natural Language Generation",
+      "description": "2017 NLG survey.",
+      "category": "Historical highlights",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://jalammar.github.io/illustrated-transformer/",
+      "title": "The Illustrated Transformer",
+      "description": null,
+      "category": "Historical highlights",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "http://nlp.cs.berkeley.edu/index.shtml",
+      "title": "The Berkeley NLP Group",
+      "description": "Notable contributions include a tool to reconstruct long dead languages, referenced [here](https://www.bbc.com/news/science-environment-21427896) and by taking corpora from 637 languages currently spoken in Asia and the Pacific and recreating their descendant.",
+      "category": "Prominent NLP Research Labs",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "http://www.cs.cmu.edu/~nasmith/nlp-cl.html",
+      "title": "Language Technologies Institute, Carnegie Mellon University",
+      "description": "Notable projects include [Avenue Project](http://www.cs.cmu.edu/~avenue/), a syntax driven machine translation system for endangered languages like Quechua and Aymara and previously, [Noah's Ark](http://www.cs.cmu.edu/~ark/) which created [AQMAR](http://www.cs.cmu.edu/~ark/AQMAR/) to improve NLP tools for Arabic.",
+      "category": "Prominent NLP Research Labs",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "http://www1.cs.columbia.edu/nlp/index.cgi",
+      "title": "NLP research group, Columbia University",
+      "description": "Responsible for creating BOLT ( interactive error handling for speech translation systems) and an un-named project to characterize laughter in dialogue.",
+      "category": "Prominent NLP Research Labs",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "http://clsp.jhu.edu/",
+      "title": "The Center or Language and Speech Processing, John Hopkins University",
+      "description": "Recently in the news for developing speech recognition software to create a diagnostic test or Parkinson's Disease, [here](https://www.clsp.jhu.edu/2019/03/27/speech-recognition-software-and-machine-learning-tools-are-being-used-to-create-diagnostic-test-for-parkinsons-disease/#.XNFqrIkzYdU).",
+      "category": "Prominent NLP Research Labs",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://wiki.umiacs.umd.edu/clip/index.php/Main_Page",
+      "title": "Computational Linguistics and Information Processing Group, University of Maryland",
+      "description": "Notable contributions include [Human-Computer Cooperation or Word-by-Word Question Answering](http://www.umiacs.umd.edu/~jbg/projects/IIS-1652666) and modeling development of phonetic representations.",
+      "category": "Prominent NLP Research Labs",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://nlp.cis.upenn.edu/",
+      "title": "Penn Natural Language Processing, University of Pennsylvania",
+      "description": "famous for creating the [Penn Treebank](https://catalog.ldc.upenn.edu/LDC99T42) and the [Penn Discourse Treebank](https://www.cis.upenn.edu/~pdtb/).",
+      "category": "Prominent NLP Research Labs",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://docs.google.com/presentation/d/1kSuQyW5DTnkVaZEjGYCkfOxvzCqGEFzWBy4e9Uedd9k/edit?usp=sharing",
+      "title": "Machine Learning 101",
+      "description": null,
+      "category": "Reading Content",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://aiplaybook.a16z.com/",
+      "title": "AI Playbook",
+      "description": "a16z AI playbook is a great link to forward to your managers or content for your presentations",
+      "category": "Reading Content",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://www.lighttag.io/how-to-label-data/",
+      "title": "How To Label Data",
+      "description": null,
+      "category": "Reading Content",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://www.depends-on-the-definition.com/",
+      "title": "Depends on the Definition",
+      "description": null,
+      "category": "Reading Content",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://www.analyticsvidhya.com/blog/2017/01/ultimate-guide-to-understand-implement-natural-language-processing-codes-in-python/",
+      "title": "Understand & Implement Natural Language Processing",
+      "description": null,
+      "category": "Reading Content",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "http://github.com/NirantK/nlp-python-deep-learning",
+      "title": "NLP in Python",
+      "description": "Collection of Github notebooks",
+      "category": "Reading Content",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://academic.oup.com/jamia/article/18/5/544/829676",
+      "title": "Natural Language Processing: An Introduction",
+      "description": "Oxford",
+      "category": "Reading Content",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://pytorch.org/tutorials/intermediate/nlp_from_scratch_index.html",
+      "title": "NLP from Scratch with PyTorch",
+      "description": null,
+      "category": "Reading Content",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/hb20007/hands-on-nltk-tutorial",
+      "title": "Hands-On NLTK Tutorial",
+      "description": "NLTK Tutorials, Jupyter notebooks",
+      "category": "Reading Content",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://www.nltk.org/book/",
+      "title": "Natural Language Processing with Python – Analyzing Text with the Natural Language Toolkit",
+      "description": "An online and print book introducing NLP concepts using NLTK. The book's authors also wrote the NLTK library.",
+      "category": "Reading Content",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://huggingface.co/blog/how-to-train",
+      "title": "Train a new language model from scratch",
+      "description": "Hugging Face 🤗",
+      "category": "Reading Content",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://course.spacy.io/en/",
+      "title": "Advanced NLP with spaCy",
+      "description": "Free online course covering text processing, large-scale data analysis, processing pipelines, and training neural network models for custom NLP tasks.",
+      "category": "Reading Content",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://www.kaggle.com/learn-guide/natural-language-processing",
+      "title": "Kaggle NLP Learning Guide",
+      "description": "Beginner-friendly tutorials including getting started guides, deep learning for NLP, and visual explanations of techniques like BERT, GloVe, and TF-IDF.",
+      "category": "Reading Content",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://colah.github.io/posts/2014-07-NLP-RNNs-Representations/",
+      "title": "Deep Learning, NLP, and Representations",
+      "description": null,
+      "category": "Reading Content",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://jalammar.github.io/illustrated-bert/",
+      "title": "The Illustrated BERT, ELMo, and co. (How NLP Cracked Transfer Learning)",
+      "description": null,
+      "category": "Reading Content",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://nlpers.blogspot.com/",
+      "title": "Natural Language Processing",
+      "description": null,
+      "category": "Reading Content",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/pdf/1103.0398.pdf",
+      "title": "arXiv: Natural Language Processing (Almost) from Scratch",
+      "description": null,
+      "category": "Reading Content",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://machinelearningmastery.com/category/natural-language-processing",
+      "title": "Machine Learning Mastery: Deep Learning for Natural Language Processing",
+      "description": null,
+      "category": "Reading Content",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://people.cs.umass.edu/~miyyer/cs685_f20/",
+      "title": "Advanced Natural Language Processing",
+      "description": "CS 685, UMass Amherst CS",
+      "category": "Videos and Online Courses",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/oxford-cs-deepnlp-2017/lectures",
+      "title": "Deep Natural Language Processing",
+      "description": "Lectures series from Oxford",
+      "category": "Videos and Online Courses",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://web.stanford.edu/class/cs224n/",
+      "title": "Deep Learning for Natural Language Processing (cs224-n)",
+      "description": "Richard Socher and Christopher Manning's Stanford Course",
+      "category": "Videos and Online Courses",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "http://phontron.com/class/nn4nlp2017/",
+      "title": "Neural Networks for NLP",
+      "description": "Carnegie Mellon Language Technology Institute there",
+      "category": "Videos and Online Courses",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/yandexdataschool/nlp_course",
+      "title": "Deep NLP Course",
+      "description": null,
+      "category": "Videos and Online Courses",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://www.fast.ai/2019/07/08/fastai-nlp/",
+      "title": "fast.ai Code-First Intro to Natural Language Processing",
+      "description": "This covers a blend of traditional NLP topics (including regex, SVD, naive bayes, tokenization) and recent neural network approaches (including RNNs, seq2seq, GRUs, and the Transformer), as well as addressing urgent ethical issues, such as bias and disinformation. Find the Jupyter Notebooks [here](https://github.com/fastai/course-nlp)",
+      "category": "Videos and Online Courses",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://www.deeplearning.ai/courses/natural-language-processing-specialization/",
+      "title": "DeepLearning.AI Natural Language Processing Specialization",
+      "description": "4-course program covering sentiment analysis, word embeddings, RNNs, LSTMs, attention mechanisms, and Transformer models like BERT and T5 for tasks including machine translation and summarization.",
+      "category": "Videos and Online Courses",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://stanford-cs336.github.io/",
+      "title": "Stanford CS336: Language Modeling from Scratch",
+      "description": "end-to-end course on building language models, including data, tokenization, training, and evaluation.",
+      "category": "Videos and Online Courses",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://web.stanford.edu/class/cs25/",
+      "title": "Stanford CS25: Transformers United",
+      "description": "seminar series with guest lectures from authors of recent transformer and NLP research.",
+      "category": "Videos and Online Courses",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://cohere.com/llmu",
+      "title": "Cohere LLM University",
+      "description": "free course on LLMs, embeddings, semantic search, and NLP applications.",
+      "category": "Videos and Online Courses",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://huggingface.co/learn/nlp-course",
+      "title": "Hugging Face NLP Course",
+      "description": "hands-on NLP with Transformers, Datasets, and Tokenizers libraries.",
+      "category": "Videos and Online Courses",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://www.nlpdemystified.org/",
+      "title": "NLP Demystified",
+      "description": "Free beginner-friendly course covering NLP fundamentals through transformers, with Python/Jupyter notebooks.",
+      "category": "Videos and Online Courses",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://web.stanford.edu/~jurafsky/slp3/",
+      "title": "Speech and Language Processing",
+      "description": "free, by Prof. Dan Jurafsy",
+      "category": "Books",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/jacobeisenstein/gt-nlp-class",
+      "title": "Natural Language Processing",
+      "description": "free, NLP notes by Dr. Jacob Eisenstein at GeorgiaTech",
+      "category": "Books",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/joosthub/PyTorchNLPBook",
+      "title": "NLP with PyTorch",
+      "description": "Brian & Delip Rao",
+      "category": "Books",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://www.tidytextmining.com",
+      "title": "Text Mining in R",
+      "description": null,
+      "category": "Books",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://www.oreilly.com/library/view/practical-natural-language/9781492054047/",
+      "title": "Practical Natural Language Processing",
+      "description": null,
+      "category": "Books",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://www.oreilly.com/library/view/natural-language-processing/9781492047759/",
+      "title": "Natural Language Processing with Spark NLP",
+      "description": null,
+      "category": "Books",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://www.manning.com/books/real-world-natural-language-processing",
+      "title": "Real-World Natural Language Processing",
+      "description": "by Masato Hagiwara",
+      "category": "Books",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://www.manning.com/books/natural-language-processing-in-action-second-edition",
+      "title": "Natural Language Processing in Action, Second Edition",
+      "description": "by Hobson Lane and Maria Dyshel",
+      "category": "Books",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://www.manning.com/books/transformers-in-action",
+      "title": "Transformers in Action",
+      "description": "by Nicole Koenigstein",
+      "category": "Books",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/benhmoore/Knwl.js",
+      "title": "Knwl.js",
+      "description": "A Natural Language Processor in JS",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/synyi/poplar",
+      "title": "Poplar",
+      "description": "A web-based annotation tool for natural language processing (NLP)",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/huggingface/node-question-answering",
+      "title": "node-question-answering",
+      "description": "Fast and production-ready question answering w/ DistilBERT in Node.js",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/sloev/sentimental-onix",
+      "title": "sentimental-onix",
+      "description": null,
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/QData/TextAttack",
+      "title": "TextAttack",
+      "description": "Adversarial attacks, adversarial training, and data augmentation in NLP",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "http://textblob.readthedocs.org/",
+      "title": "TextBlob",
+      "description": "Providing a consistent API for diving into common natural language processing (NLP) tasks. Stands on the giant shoulders of [Natural Language Toolkit (NLTK)](https://www.nltk.org/) and [Pattern](https://github.com/clips/pattern), and plays nicely with both :+1:",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://radimrehurek.com/gensim/index.html",
+      "title": "gensim",
+      "description": "Python library to conduct unsupervised semantic modelling from plain text :+1:",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/JasonKessler/scattertext",
+      "title": "scattertext",
+      "description": "Python library to produce d3 visualizations of how language differs between corpora",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/dmlc/gluon-nlp",
+      "title": "GluonNLP",
+      "description": null,
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/PetrochukM/PyTorch-NLP",
+      "title": "PyTorch-NLP",
+      "description": "NLP research toolkit designed to support rapid prototyping with better data loaders, word vector loaders, neural network layer representations, common NLP metrics such as BLEU",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/proycon/foliapy",
+      "title": "foliapy",
+      "description": "Python library for working with [FoLiA](https://proycon.github.io/folia/), an XML format for linguistic annotation.",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/datquocnguyen/jPTDP",
+      "title": "jPTDP",
+      "description": "A toolkit for joint part-of-speech (POS) tagging and dependency parsing. jPTDP provides pre-trained models for 40+ languages.",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/chakki-works/chazutsu",
+      "title": "Chazutsu",
+      "description": "A library for downloading&parsing standard NLP research datasets",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/gutfeeling/word_forms",
+      "title": "Word Forms",
+      "description": "Word forms can accurately generate all possible forms of an English word",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/ArtificiAI/Multilingual-Latent-Dirichlet-Allocation-LDA",
+      "title": "Multilingual Latent Dirichlet Allocation (LDA)",
+      "description": "A multilingual and extensible document clustering pipeline",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/NervanaSystems/nlp-architect",
+      "title": "NLP Architect",
+      "description": "A library for exploring the state-of-the-art deep learning topologies and techniques for NLP and NLU",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/zalandoresearch/flair",
+      "title": "Flair",
+      "description": "A very simple framework for state-of-the-art multilingual NLP built on PyTorch. Includes BERT, ELMo and Flair embeddings.",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/BrikerMan/Kashgari",
+      "title": "Kashgari",
+      "description": "Simple, Keras-powered multilingual NLP framework, allows you to build your models in 5 minutes for named entity recognition (NER), part-of-speech tagging (PoS) and text classification tasks. Includes BERT and word2vec embedding.",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/deepset-ai/FARM",
+      "title": "FARM",
+      "description": "Fast & easy transfer learning for NLP. Harvesting language models for the industry. Focus on Question Answering.",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/zaibacu/rita-dsl",
+      "title": "Rita DSL",
+      "description": "a DSL, loosely based on [RUTA on Apache UIMA](https://uima.apache.org/ruta.html). Allows to define language patterns (rule-based NLP) which are then translated into [spaCy](https://spacy.io/), or if you prefer less features and lightweight - regex patterns.",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/pytorch/fairseq",
+      "title": "fairSeq",
+      "description": null,
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/gregversteeg/corex_topic",
+      "title": "corex_topic",
+      "description": "Hierarchical Topic Modeling with Minimal Domain Knowledge",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/awslabs/sockeye",
+      "title": "Sockeye",
+      "description": "Neural Machine Translation (NMT) toolkit that powers Amazon Translate.",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/obss/jury",
+      "title": "Jury",
+      "description": "Evaluation of NLP model outputs offering various automated metrics.",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/zouharvi/pearmut",
+      "title": "Pearmut",
+      "description": "Human annotation tool for multilingual NLP tasks, such as machine translation.",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/UKPLab/sentence-transformers",
+      "title": "Sentence-Transformers",
+      "description": "sentence/document embeddings, semantic search, and re-ranking; current standard for retrieval-style NLP.",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/argilla-io/argilla",
+      "title": "Argilla",
+      "description": "open-source data annotation and feedback collection platform for LLM and NLP datasets.",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/huggingface/datasets",
+      "title": "HuggingFace Datasets",
+      "description": "standardized loaders and processing for thousands of NLP datasets.",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/huggingface/evaluate",
+      "title": "HuggingFace Evaluate",
+      "description": "reference implementations for NLP metrics.",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/mjpost/sacrebleu",
+      "title": "sacrebleu",
+      "description": "reproducible BLEU/chrF/TER scoring for machine translation.",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/Unbabel/COMET",
+      "title": "COMET",
+      "description": "learned MT metrics, current de-facto standard.",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/JohnSnowLabs/langtest",
+      "title": "LangTest",
+      "description": "60+ test types for NLP model robustness, bias, and fairness.",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://taku910.github.io/mecab/",
+      "title": "Mecab (Japanese)",
+      "description": null,
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "http://statmt.org/moses/",
+      "title": "Moses",
+      "description": null,
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/facebookresearch/StarSpace",
+      "title": "StarSpace",
+      "description": "a library from Facebook for creating embeddings of word-level, paragraph-level, document-level and for text classification",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://nlp.stanford.edu/software/index.shtml",
+      "title": "Stanford NLP",
+      "description": null,
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://emorynlp.github.io/nlp4j/",
+      "title": "NLP4J",
+      "description": null,
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://deeplearning4j.org/docs/latest/deeplearning4j-nlp-word2vec",
+      "title": "Word2vec in Java",
+      "description": null,
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/knowitall/reverb/",
+      "title": "ReVerb",
+      "description": null,
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/knowitall/openregex",
+      "title": "OpenRegex",
+      "description": null,
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/datquocnguyen/RDRPOSTagger",
+      "title": "RDRPOSTagger",
+      "description": "A robust POS tagging toolkit available (in both Java & Python) together with pre-trained models for 40+ languages.",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/pemistahl/lingua/",
+      "title": "Lingua",
+      "description": null,
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/meiblorn/kotidgy",
+      "title": "Kotidgy",
+      "description": "an index-based text data generator written in Kotlin",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/ispras/atr4s",
+      "title": "ATR4S",
+      "description": "Toolkit with state-of-the-art [automatic term recognition](https://en.wikipedia.org/wiki/Terminology_extraction) methods.",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/ispras/tm",
+      "title": "tm",
+      "description": "Implementation of topic modeling based on regularized multilingual [PLSA](https://en.wikipedia.org/wiki/Probabilistic_latent_semantic_analysis).",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/Refefer/word2vec-scala",
+      "title": "word2vec-scala",
+      "description": "Scala interface to word2vec model; includes operations on vectors like word-distance and word-analogy.",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/dlwh/epic",
+      "title": "Epic",
+      "description": "Epic is a high performance statistical parser written in Scala, along with a framework for building complex structured prediction models.",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/dselivanov/text2vec",
+      "title": "text2vec",
+      "description": "Fast vectorization, topic modeling, distances and GloVe word embeddings in R.",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/bmschmidt/wordVectors",
+      "title": "wordVectors",
+      "description": "An R package for creating and exploring word2vec and other word embedding models",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/mimno/RMallet",
+      "title": "RMallet",
+      "description": "R package to interface with the Java machine learning tool MALLET",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/agoldst/dfr-browser",
+      "title": "dfr-browser",
+      "description": "Creates d3 visualizations for browsing topic models of text in a web browser.",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/agoldst/dfrtopics",
+      "title": "dfrtopics",
+      "description": "R package for exploring topic models of text.",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://kgjerde.github.io/corporaexplorer/",
+      "title": "corporaexplorer",
+      "description": "An R package for dynamic exploration of text collections",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/juliasilge/tidytext",
+      "title": "tidytext",
+      "description": "Text mining using tidy tools",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/quanteda/spacyr",
+      "title": "spacyr",
+      "description": "R wrapper to spaCy NLP",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/cran-task-views/NaturalLanguageProcessing/",
+      "title": "CRAN Task View: Natural Language Processing",
+      "description": null,
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/fekr/postagga",
+      "title": "postagga",
+      "description": "A library to parse natural language in Clojure and ClojureScript",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/jdkato/prose",
+      "title": "prose",
+      "description": "Text processing library supporting tokenization, part-of-speech tagging, and named-entity extraction.",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/snipsco/snips-nlu-rs",
+      "title": "snips-nlu-rs",
+      "description": null,
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/VisualText/nlp-engine",
+      "title": "nlp-engine",
+      "description": "NLP++ engine to run NLP++ code on Linux including a full English parser",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "http://visualtext.org",
+      "title": "VisualText",
+      "description": "Homepage for the NLP++ Language",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "http://wiki.naturalphilosophy.org/index.php?title=NLP%2B%2B",
+      "title": "NLP++ Wiki",
+      "description": "Wiki entry for the NLP++ language",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/JuliaText/TextModels.jl",
+      "title": "TextModels",
+      "description": "Neural Network based models for Natural Language Processing",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/JuliaText/Word2Vec.jl",
+      "title": "Word2Vec",
+      "description": "Julia interface to word2vec",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/wit-ai/wit",
+      "title": "Wit-ai",
+      "description": "Natural Language Interface for apps and devices",
+      "category": "Services",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/watson-developer-cloud/natural-language-understanding-nodejs",
+      "title": "IBM Watson's Natural Language Understanding",
+      "description": "API and Github demo",
+      "category": "Services",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://aws.amazon.com/comprehend/",
+      "title": "Amazon Comprehend",
+      "description": "NLP and ML suite covers most common tasks like NER, tagging, and sentiment analysis",
+      "category": "Services",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://cloud.google.com/natural-language/",
+      "title": "Google Cloud Natural Language API",
+      "description": "Syntax Analysis, NER, Sentiment Analysis, and Content tagging in atleast 9 languages include English and Chinese (Simplified and Traditional).",
+      "category": "Services",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://www.paralleldots.com/text-analysis-apis",
+      "title": "ParallelDots",
+      "description": "High level Text Analysis API Service ranging from Sentiment Analysis to Intent Analysis",
+      "category": "Services",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://azure.microsoft.com/en-us/services/cognitive-services/text-analytics/",
+      "title": "Microsoft Cognitive Service",
+      "description": null,
+      "category": "Services",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://www.textrazor.com/",
+      "title": "TextRazor",
+      "description": null,
+      "category": "Services",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://www.rosette.com/",
+      "title": "Rosette",
+      "description": null,
+      "category": "Services",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://www.textalytic.com",
+      "title": "Textalytic",
+      "description": "Natural Language Processing in the Browser with sentiment analysis, named entity extraction, POS tagging, word frequencies, topic modeling, word clouds, and more",
+      "category": "Services",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://nlpcloud.io",
+      "title": "NLP Cloud",
+      "description": "SpaCy NLP models (custom and pre-trained ones) served through a RESTful API for named entity recognition (NER), POS tagging, and more.",
+      "category": "Services",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://cloudmersive.com/nlp-api",
+      "title": "Cloudmersive",
+      "description": "Unified and free NLP APIs that perform actions such as speech tagging, text rephrasing, language translation/detection, and sentence parsing",
+      "category": "Services",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://gate.ac.uk/overview.html",
+      "title": "GATE",
+      "description": "General Architecture and Text Engineering is 15+ years old, free and open source",
+      "category": "Annotation Tools",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/weitechen/anafora",
+      "title": "Anafora",
+      "description": null,
+      "category": "Annotation Tools",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://brat.nlplab.org/",
+      "title": "brat",
+      "description": "brat rapid annotation tool is an online environment for collaborative text annotation",
+      "category": "Annotation Tools",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/chakki-works/doccano",
+      "title": "doccano",
+      "description": "doccano is free, open-source, and provides annotation features for text classification, sequence labeling and sequence to sequence",
+      "category": "Annotation Tools",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://inception-project.github.io",
+      "title": "INCEpTION",
+      "description": "A semantic annotation platform offering intelligent assistance and knowledge management",
+      "category": "Annotation Tools",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://prodi.gy/",
+      "title": "prodigy",
+      "description": null,
+      "category": "Annotation Tools",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://lighttag.io",
+      "title": "LightTag",
+      "description": "Hosted and managed text annotation tool for teams, costs $",
+      "category": "Annotation Tools",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://corpling.uis.georgetown.edu/rstweb/info/",
+      "title": "rstWeb",
+      "description": "open source local or online tool for discourse tree annotations",
+      "category": "Annotation Tools",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://corpling.uis.georgetown.edu/gitdox/",
+      "title": "GitDox",
+      "description": "open source server annotation tool with GitHub version control and validation for XML data and collaborative spreadsheet grids",
+      "category": "Annotation Tools",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://datasaur.ai/",
+      "title": "Datasaur",
+      "description": null,
+      "category": "Annotation Tools",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://konfuzio.com/en/",
+      "title": "Konfuzio",
+      "description": "team-first hosted and on-prem text, image and PDF annotation tool powered by active learning, freemium based, costs $",
+      "category": "Annotation Tools",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/AI4Bharat/Shoonya-Backend",
+      "title": "Shoonya",
+      "description": "Shoonya is free and open source data annotation platform with wide varities of organization and workspace level management system. Shoonya is data agnostic, can be used by teams to annotate data with various level of verification stages at scale.",
+      "category": "Annotation Tools",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/proycon/flat",
+      "title": "FLAT",
+      "description": "FLAT is a web-based linguistic annotation environment based around the [FoLiA format](http://proycon.github.io/folia), a rich XML-based format for linguistic annotation. Free and open source.",
+      "category": "Annotation Tools",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/HumanSignal/label-studio",
+      "title": "Label Studio",
+      "description": "open-core multi-modal labeling platform; widely used for NLP labeling.",
+      "category": "Annotation Tools",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/davidjurgens/potato",
+      "title": "Potato",
+      "description": "Free, open-source annotation tool covering 21+ task types (classification, span, coreference, entity linking, agent trace evaluation) with built-in MACE quality control, attention checks, AI-assisted labeling, and 300+ example tasks.",
+      "category": "Annotation Tools",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf",
+      "title": "word2vec",
+      "description": "[implementation](https://code.google.com/archive/p/word2vec/) - [explainer blog](http://colah.github.io/posts/2014-07-NLP-RNNs-Representations/)",
+      "category": "Text Embeddings",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://nlp.stanford.edu/pubs/glove.pdf",
+      "title": "GloVe",
+      "description": "[explainer blog](https://blog.acolyer.org/2016/04/22/glove-global-vectors-for-word-representation/)",
+      "category": "Text Embeddings",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/1607.04606",
+      "title": "fastText",
+      "description": "[implementation](https://github.com/facebookresearch/fastText); subword n-grams handle OOV well, still useful for low-resource languages.",
+      "category": "Text Embeddings",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/1511.06388",
+      "title": "sense2vec",
+      "description": "word sense disambiguation.",
+      "category": "Text Embeddings",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://cs.stanford.edu/~quocle/paragraph_vector.pdf",
+      "title": "Paragraph Vectors / doc2vec",
+      "description": null,
+      "category": "Text Embeddings",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/1802.05365",
+      "title": "ELMo",
+      "description": "deep contextualized word representations.",
+      "category": "Text Embeddings",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/1708.00107",
+      "title": "CoVe",
+      "description": "contextualized vectors learned from MT.",
+      "category": "Text Embeddings",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/1801.06146",
+      "title": "ULMFiT",
+      "description": "language-model fine-tuning for text classification.",
+      "category": "Text Embeddings",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/1705.02364",
+      "title": "InferSent",
+      "description": "sentence representations from NLI.",
+      "category": "Text Embeddings",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/1508.07909",
+      "title": "BPE",
+      "description": null,
+      "category": "Tokenization, Morphology, and Segmentation",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/ufal/udpipe",
+      "title": "UDPipe",
+      "description": "tokenization, tagging, lemmatization, parsing for Universal Dependencies.",
+      "category": "Tokenization, Morphology, and Segmentation",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/aalto-speech/morfessor",
+      "title": "Morfessor",
+      "description": "unsupervised morphological segmentation.",
+      "category": "Tokenization, Morphology, and Segmentation",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2105.13626",
+      "title": "ByT5",
+      "description": "tokenizer-free byte-level model.",
+      "category": "Tokenization, Morphology, and Segmentation",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2103.06874",
+      "title": "CANINE",
+      "description": "tokenization-free encoder operating on Unicode characters.",
+      "category": "Tokenization, Morphology, and Segmentation",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2012.15613",
+      "title": "How Good is Your Tokenizer?",
+      "description": "tokenizer fairness across languages.",
+      "category": "Tokenization, Morphology, and Segmentation",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2412.09871",
+      "title": "Byte Latent Transformer (BLT)",
+      "description": null,
+      "category": "Tokenization, Morphology, and Segmentation",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2503.13423",
+      "title": "SuperBPE",
+      "description": null,
+      "category": "Tokenization, Morphology, and Segmentation",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2501.16975",
+      "title": "Over-Tokenized Transformer",
+      "description": null,
+      "category": "Tokenization, Morphology, and Segmentation",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2407.11606",
+      "title": "Foundations of Tokenization",
+      "description": null,
+      "category": "Tokenization, Morphology, and Segmentation",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2509.05486",
+      "title": "The Token Tax: Systematic Bias in Multilingual Tokenization",
+      "description": null,
+      "category": "Tokenization, Morphology, and Segmentation",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2601.13328",
+      "title": "Reducing Tokenization Premiums for Low-Resource Languages",
+      "description": null,
+      "category": "Tokenization, Morphology, and Segmentation",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://universaldependencies.org/",
+      "title": "Universal Dependencies",
+      "description": "cross-linguistically consistent treebanks, 100+ languages.",
+      "category": "POS Tagging and Dependency Parsing",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/1611.01734",
+      "title": "Deep Biaffine Attention for Neural Dependency Parsing",
+      "description": "foundational neural parsing architecture.",
+      "category": "POS Tagging and Dependency Parsing",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/nlp-uoregon/trankit",
+      "title": "Trankit",
+      "description": "light-weight transformer-based multilingual NLP toolkit.",
+      "category": "POS Tagging and Dependency Parsing",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/1805.01052",
+      "title": "Self-Attentive Constituency Parsing (Kitaev & Klein)",
+      "description": "strong neural constituency parser.",
+      "category": "POS Tagging and Dependency Parsing",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://www.aclweb.org/anthology/W03-0419/",
+      "title": "CoNLL-2003 NER",
+      "description": "canonical English NER benchmark.",
+      "category": "Named Entity Recognition and Information Extraction",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/1603.01360",
+      "title": "Neural Architectures for NER (Lample et al.)",
+      "description": "BiLSTM-CRF, the long-time go-to NER architecture.",
+      "category": "Named Entity Recognition and Information Extraction",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/flairNLP/flair",
+      "title": "Flair",
+      "description": "contextual string embeddings, strong NER across languages.",
+      "category": "Named Entity Recognition and Information Extraction",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://spacy.io/usage/linguistic-features#named-entities",
+      "title": "spaCy NER",
+      "description": "production-ready.",
+      "category": "Named Entity Recognition and Information Extraction",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2308.03279",
+      "title": "Universal NER",
+      "description": "instruction-tuned LM for open-set NER across languages.",
+      "category": "Named Entity Recognition and Information Extraction",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2311.08526",
+      "title": "GLiNER",
+      "description": null,
+      "category": "Named Entity Recognition and Information Extraction",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2310.03668",
+      "title": "GoLLIE",
+      "description": "guideline-following information extraction with LMs.",
+      "category": "Named Entity Recognition and Information Extraction",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/Babelscape/rebel",
+      "title": "REBEL",
+      "description": "end-to-end relation extraction as seq2seq.",
+      "category": "Named Entity Recognition and Information Extraction",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2304.10428",
+      "title": "GPT-NER",
+      "description": "LLMs for named entity recognition.",
+      "category": "Named Entity Recognition and Information Extraction",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2402.10573",
+      "title": "Can LLMs Replace Sentence-Level NER?",
+      "description": null,
+      "category": "Named Entity Recognition and Information Extraction",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2601.17898",
+      "title": "Generative NER in the Era of LLMs",
+      "description": null,
+      "category": "Named Entity Recognition and Information Extraction",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/1707.07045",
+      "title": "End-to-End Neural Coreference (Lee et al.)",
+      "description": "foundation for modern neural coreference.",
+      "category": "Coreference Resolution",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/1907.10529",
+      "title": "SpanBERT",
+      "description": "span-based pretraining; strong coreference baseline.",
+      "category": "Coreference Resolution",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/lxucs/coref-hoi",
+      "title": "coref-hoi",
+      "description": "higher-order inference coreference.",
+      "category": "Coreference Resolution",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/SapienzaNLP/maverick-coref",
+      "title": "maverick-coref",
+      "description": null,
+      "category": "Coreference Resolution",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2205.12644",
+      "title": "LingMess",
+      "description": "linguistically-motivated category-based coreference scoring.",
+      "category": "Coreference Resolution",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2310.05884",
+      "title": "LLMs for Coreference Resolution",
+      "description": "prompting and fine-tuning for coreference.",
+      "category": "Coreference Resolution",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2509.17796",
+      "title": "Multilingual Coreference Shared Task: Can LLMs Dethrone Traditional Approaches?",
+      "description": null,
+      "category": "Coreference Resolution",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/1607.01759",
+      "title": "fastText classifier",
+      "description": "strong, fast linear baseline.",
+      "category": "Text Classification and Sentiment Analysis",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://nlp.stanford.edu/sentiment/",
+      "title": "Sentiment Treebank (SST)",
+      "description": "canonical fine-grained sentiment dataset.",
+      "category": "Text Classification and Sentiment Analysis",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/huggingface/setfit",
+      "title": "SetFit",
+      "description": "few-shot text classification without prompts.",
+      "category": "Text Classification and Sentiment Analysis",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/IBM/fastfit",
+      "title": "FastFit",
+      "description": "fast few-shot for many-class settings.",
+      "category": "Text Classification and Sentiment Analysis",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2111.09543",
+      "title": "SST / IMDB / AG News with DeBERTa-v3",
+      "description": "current encoder-fine-tuning baseline.",
+      "category": "Text Classification and Sentiment Analysis",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2305.13734",
+      "title": "LLMs as Annotators",
+      "description": "using LLMs for text classification labeling, with caveats.",
+      "category": "Text Classification and Sentiment Analysis",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://www.jmlr.org/papers/volume3/blei03a/blei03a.pdf",
+      "title": "Latent Dirichlet Allocation (Blei et al.)",
+      "description": "foundational topic model.",
+      "category": "Topic Modeling",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/MaartenGr/BERTopic",
+      "title": "BERTopic",
+      "description": "clustering-based topic modeling on top of contextual embeddings; common modern default.",
+      "category": "Topic Modeling",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/ddangelov/Top2Vec",
+      "title": "Top2Vec",
+      "description": "jointly learns topic and document vectors.",
+      "category": "Topic Modeling",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://web.eecs.umich.edu/~mihalcea/papers/mihalcea.emnlp04.pdf",
+      "title": "TextRank",
+      "description": "extractive graph-based summarization.",
+      "category": "Summarization",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/1704.04368",
+      "title": "Pointer-Generator Networks (See et al.)",
+      "description": "foundational neural abstractive summarization.",
+      "category": "Summarization",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/1912.08777",
+      "title": "PEGASUS",
+      "description": "gap-sentences pretraining for summarization.",
+      "category": "Summarization",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/1910.13461",
+      "title": "BART",
+      "description": "widely used denoising seq2seq baseline.",
+      "category": "Summarization",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2105.08209",
+      "title": "BookSum",
+      "description": null,
+      "category": "Summarization",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2301.13848",
+      "title": "Benchmarking LLMs for News Summarization",
+      "description": "LLMs vs fine-tuned summarizers.",
+      "category": "Summarization",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2305.13412",
+      "title": "Element-Aware Summarization with LLMs",
+      "description": "structured prompting for summarization.",
+      "category": "Summarization",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2512.03503",
+      "title": "Understanding LLM Reasoning for Abstractive Summarization",
+      "description": null,
+      "category": "Summarization",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/1706.03762",
+      "title": "Attention Is All You Need",
+      "description": "transformer; reset the field.",
+      "category": "Machine Translation",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/marian-nmt/marian",
+      "title": "Marian NMT",
+      "description": "efficient C++ NMT framework.",
+      "category": "Machine Translation",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/facebookresearch/fairseq",
+      "title": "Fairseq",
+      "description": "PyTorch sequence modeling toolkit.",
+      "category": "Machine Translation",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2207.04672",
+      "title": "NLLB-200",
+      "description": "MT for 200 languages.",
+      "category": "Machine Translation",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2309.04662",
+      "title": "MADLAD-400",
+      "description": "400+ language MT.",
+      "category": "Machine Translation",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2312.05187",
+      "title": "SeamlessM4T",
+      "description": "speech and text MT, 100+ languages.",
+      "category": "Machine Translation",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/Tiiiger/bert_score",
+      "title": "BERTScore",
+      "description": "similarity-based generation metric.",
+      "category": "Machine Translation",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2301.08745",
+      "title": "Is ChatGPT a Good Translator?",
+      "description": "LLMs as machine translation systems.",
+      "category": "Machine Translation",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2401.06468",
+      "title": "Adapting LLMs for Document-Level MT",
+      "description": null,
+      "category": "Machine Translation",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2308.03245",
+      "title": "GPT-4 vs Human Translators",
+      "description": "quality comparison on professional MT.",
+      "category": "Machine Translation",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2502.02481",
+      "title": "Multilingual MT with Open LLMs at Practical Scale",
+      "description": null,
+      "category": "Machine Translation",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2504.01919",
+      "title": "Bridging the Linguistic Divide: Survey on LLMs for MT",
+      "description": null,
+      "category": "Machine Translation",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://ai.google.com/research/NaturalQuestions/",
+      "title": "Natural Questions",
+      "description": "real-user questions over Wikipedia.",
+      "category": "Question Answering and Reading Comprehension",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://hotpotqa.github.io/",
+      "title": "HotpotQA",
+      "description": "multi-hop reasoning.",
+      "category": "Question Answering and Reading Comprehension",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "http://nlp.cs.washington.edu/triviaqa/",
+      "title": "TriviaQA",
+      "description": "distantly-supervised QA.",
+      "category": "Question Answering and Reading Comprehension",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/allenai/document-qa",
+      "title": "Document-QA",
+      "description": "multi-paragraph reading comprehension.",
+      "category": "Question Answering and Reading Comprehension",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2004.04906",
+      "title": "DPR",
+      "description": null,
+      "category": "Question Answering and Reading Comprehension",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2208.03299",
+      "title": "Atlas",
+      "description": "retrieval-augmented LM for few-shot QA.",
+      "category": "Question Answering and Reading Comprehension",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2305.06983",
+      "title": "GPT-4 with retrieval on TriviaQA / NQ",
+      "description": null,
+      "category": "Question Answering and Reading Comprehension",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2310.11511",
+      "title": "Self-RAG",
+      "description": null,
+      "category": "Question Answering and Reading Comprehension",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2311.12983",
+      "title": "GAIA",
+      "description": "general AI assistant benchmark including multi-step QA.",
+      "category": "Question Answering and Reading Comprehension",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/dair-iitd/openie6",
+      "title": "OpenIE 6",
+      "description": "schema-free open information extraction.",
+      "category": "Information Extraction Beyond NER",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://www.usna.edu/Users/cs/nchamber/pubs/acl2011-chambers-templates.pdf",
+      "title": "Template-Based Information Extraction without the Templates",
+      "description": null,
+      "category": "Information Extraction Beyond NER",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://www.sebastianzimmeck.de/zimmeckAndBellovin2014Privee.pdf",
+      "title": "Privee: An Architecture for Automatically Analyzing Web Privacy Policies",
+      "description": null,
+      "category": "Information Extraction Beyond NER",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/thunlp/DocRED",
+      "title": "DocRED",
+      "description": "document-level relation extraction benchmark.",
+      "category": "Information Extraction Beyond NER",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2506.05385",
+      "title": "LLMs for Semantic Role Labeling",
+      "description": null,
+      "category": "Information Extraction Beyond NER",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2506.13148",
+      "title": "Adapting LLMs for Minimal-edit GEC",
+      "description": null,
+      "category": "Information Extraction Beyond NER",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2004.12832",
+      "title": "ColBERT",
+      "description": null,
+      "category": "Retrieval and Embeddings",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2212.03533",
+      "title": "E5",
+      "description": null,
+      "category": "Retrieval and Embeddings",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/FlagOpen/FlagEmbedding",
+      "title": "BGE",
+      "description": null,
+      "category": "Retrieval and Embeddings",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2402.01613",
+      "title": "Nomic Embed",
+      "description": null,
+      "category": "Retrieval and Embeddings",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2205.13147",
+      "title": "Matryoshka Representation Learning",
+      "description": "nested embeddings supporting variable dimensionality at inference.",
+      "category": "Retrieval and Embeddings",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2402.09906",
+      "title": "GritLM",
+      "description": null,
+      "category": "Retrieval and Embeddings",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2005.11401",
+      "title": "RAG (Retrieval-Augmented Generation)",
+      "description": "the original retrieval-augmented framework; foundation for modern QA pipelines.",
+      "category": "Retrieval and Embeddings",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2503.07891",
+      "title": "Gemini Embedding",
+      "description": null,
+      "category": "Retrieval and Embeddings",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2506.05176",
+      "title": "Qwen3-Embedding",
+      "description": null,
+      "category": "Retrieval and Embeddings",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2502.18418",
+      "title": "Rank1",
+      "description": null,
+      "category": "Retrieval and Embeddings",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2510.08252",
+      "title": "ReasonEmbed",
+      "description": null,
+      "category": "Retrieval and Embeddings",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.25248",
+      "title": "ColBERT-Att",
+      "description": null,
+      "category": "Retrieval and Embeddings",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2502.13595",
+      "title": "MMTEB",
+      "description": null,
+      "category": "Retrieval and Embeddings",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/facebookresearch/seamless_communication",
+      "title": "SeamlessM4T",
+      "description": "unified speech and text translation.",
+      "category": "Speech and Text",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://huggingface.co/nvidia/canary-1b",
+      "title": "Canary",
+      "description": null,
+      "category": "Speech and Text",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2006.11477",
+      "title": "Wav2Vec 2.0",
+      "description": "foundational self-supervised speech pretraining.",
+      "category": "Speech and Text",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/coqui-ai/TTS",
+      "title": "Coqui TTS",
+      "description": null,
+      "category": "Speech and Text",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/niderhoff/nlp-datasets",
+      "title": "nlp-datasets",
+      "description": "large collection of NLP datasets.",
+      "category": "Datasets",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/RaRe-Technologies/gensim-data",
+      "title": "gensim-data",
+      "description": "data repository for pretrained NLP models and NLP corpora.",
+      "category": "Datasets",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://pile.eleuther.ai/",
+      "title": "The Pile",
+      "description": "825 GiB diverse text corpus.",
+      "category": "Datasets",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/togethercomputer/RedPajama-Data",
+      "title": "RedPajama / RedPajama-V2",
+      "description": null,
+      "category": "Datasets",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/allenai/dolma",
+      "title": "Dolma",
+      "description": null,
+      "category": "Datasets",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/fineweb",
+      "title": "FineWeb / FineWeb-Edu",
+      "description": null,
+      "category": "Datasets",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://huggingface.co/datasets/uonlp/CulturaX",
+      "title": "CulturaX",
+      "description": "6.3T tokens across 167 languages.",
+      "category": "Datasets",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://huggingface.co/datasets/PleIAs/common_corpus",
+      "title": "Common Corpus",
+      "description": null,
+      "category": "Datasets",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://huggingface.co/datasets/allenai/tulu-3-sft-mixture",
+      "title": "Tülu 3 SFT Mixture",
+      "description": null,
+      "category": "Datasets",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/vincentkoc/tiny_qa_benchmark_pp/",
+      "title": "tiny_qa_benchmark_pp",
+      "description": "tiny NLP multi-lingual QA datasets and library to generate your own synthetic copies.",
+      "category": "Datasets",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/adobe/NLP-Cube",
+      "title": "NLP-Cube",
+      "description": "Natural Language Processing Pipeline - Sentence Splitting, Tokenization, Lemmatization, Part-of-speech Tagging and Dependency Parsing. New platform, written in Python with Dynet 2.0. Offers standalone (CLI/Python bindings) and server functionality (REST API).",
+      "category": "Multilingual NLP Frameworks",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/mikahama/uralicNLP",
+      "title": "UralicNLP",
+      "description": null,
+      "category": "Multilingual NLP Frameworks",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/1810.04805",
+      "title": "BERT",
+      "description": "bidirectional transformer pretraining; foundation for most encoder-based NLP work since 2018.",
+      "category": "Pretraining and Adaptation",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/1907.11692",
+      "title": "RoBERTa",
+      "description": "robustly optimized BERT pretraining; common encoder baseline.",
+      "category": "Pretraining and Adaptation",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2003.10555",
+      "title": "ELECTRA",
+      "description": "replaced-token-detection pretraining, sample-efficient.",
+      "category": "Pretraining and Adaptation",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2412.13663",
+      "title": "ModernBERT",
+      "description": null,
+      "category": "Pretraining and Adaptation",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2502.19587",
+      "title": "NeoBERT",
+      "description": null,
+      "category": "Pretraining and Adaptation",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/1910.10683",
+      "title": "T5",
+      "description": null,
+      "category": "Pretraining and Adaptation",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2407.21783",
+      "title": "Llama 3 / 3.1 / 3.3",
+      "description": null,
+      "category": "Pretraining and Adaptation",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://qwenlm.github.io/",
+      "title": "Qwen 2.5 / Qwen 3",
+      "description": null,
+      "category": "Pretraining and Adaptation",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2412.19437",
+      "title": "DeepSeek-V3",
+      "description": null,
+      "category": "Pretraining and Adaptation",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2501.00656",
+      "title": "OLMo 2",
+      "description": null,
+      "category": "Pretraining and Adaptation",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2408.00118",
+      "title": "Gemma 2 / Gemma 3",
+      "description": null,
+      "category": "Pretraining and Adaptation",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2401.04088",
+      "title": "Mistral / Mixtral",
+      "description": "efficient dense and sparse-MoE open models.",
+      "category": "Pretraining and Adaptation",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2204.05832",
+      "title": "What Language Model Architecture and Pretraining Objective Work Best for Zero-Shot Generalization?",
+      "description": "encoder vs decoder vs encoder-decoder for NLP transfer.",
+      "category": "Pretraining and Adaptation",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/1911.02116",
+      "title": "XLM-R",
+      "description": "cross-lingual masked LM trained on CommonCrawl, 100 languages.",
+      "category": "Multilingual and Cross-Lingual Models",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2010.11934",
+      "title": "mT5",
+      "description": "multilingual T5 covering 101 languages.",
+      "category": "Multilingual and Cross-Lingual Models",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2211.05100",
+      "title": "BLOOM",
+      "description": "176B-parameter open multilingual LM, 46 natural languages.",
+      "category": "Multilingual and Cross-Lingual Models",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2412.04261",
+      "title": "Aya 23 / Aya Expanse",
+      "description": null,
+      "category": "Multilingual and Cross-Lingual Models",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2305.12182",
+      "title": "Glot500",
+      "description": "encoder for 500+ languages, focus on low-resource.",
+      "category": "Multilingual and Cross-Lingual Models",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2312.00738",
+      "title": "SEA-LION / SeaLLM",
+      "description": null,
+      "category": "Multilingual and Cross-Lingual Models",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2503.00865",
+      "title": "Babel",
+      "description": null,
+      "category": "Multilingual and Cross-Lingual Models",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2504.06536",
+      "title": "Lugha-Llama",
+      "description": null,
+      "category": "Multilingual and Cross-Lingual Models",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2601.06395",
+      "title": "AfriqueLLM",
+      "description": null,
+      "category": "Multilingual and Cross-Lingual Models",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2601.09012",
+      "title": "TranslateGemma",
+      "description": null,
+      "category": "Multilingual and Cross-Lingual Models",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.11961",
+      "title": "MiLMMT-46",
+      "description": null,
+      "category": "Multilingual and Cross-Lingual Models",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://gluebenchmark.com/",
+      "title": "GLUE",
+      "description": null,
+      "category": "Evaluation and Benchmarks",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://sites.research.google/xtreme",
+      "title": "XTREME",
+      "description": null,
+      "category": "Evaluation and Benchmarks",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/facebookresearch/XNLI",
+      "title": "XNLI",
+      "description": "cross-lingual natural language inference, 15 languages.",
+      "category": "Evaluation and Benchmarks",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/facebookresearch/flores",
+      "title": "FLORES-200",
+      "description": "MT evaluation across 200 languages.",
+      "category": "Evaluation and Benchmarks",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/embeddings-benchmark/mteb",
+      "title": "MTEB",
+      "description": "Massive Text Embedding Benchmark; standard for sentence/document encoders.",
+      "category": "Evaluation and Benchmarks",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/beir-cellar/beir",
+      "title": "BEIR",
+      "description": "heterogeneous IR benchmark for retrieval models.",
+      "category": "Evaluation and Benchmarks",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://crfm.stanford.edu/helm/",
+      "title": "HELM",
+      "description": "holistic evaluation across NLP tasks, accuracy and beyond.",
+      "category": "Evaluation and Benchmarks",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/google/BIG-bench",
+      "title": "BIG-bench",
+      "description": "200+ tasks probing language model capabilities.",
+      "category": "Evaluation and Benchmarks",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/hendrycks/test",
+      "title": "MMLU",
+      "description": "multitask knowledge evaluation across 57 subjects.",
+      "category": "Evaluation and Benchmarks",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2406.01574",
+      "title": "MMLU-Pro",
+      "description": null,
+      "category": "Evaluation and Benchmarks",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2311.12022",
+      "title": "GPQA",
+      "description": "graduate-level Q&A, \"Google-proof\" reasoning evaluation.",
+      "category": "Evaluation and Benchmarks",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://huggingface.co/datasets/BGPT-OFFICIAL/refute",
+      "title": "REFUTE",
+      "description": null,
+      "category": "Evaluation and Benchmarks",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2311.07911",
+      "title": "IFEval",
+      "description": "verifiable instruction-following evaluation.",
+      "category": "Evaluation and Benchmarks",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://lmarena.ai/",
+      "title": "Chatbot Arena (LMSYS)",
+      "description": "human-preference ELO leaderboard for chat models.",
+      "category": "Evaluation and Benchmarks",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://livebench.ai/",
+      "title": "LiveBench",
+      "description": null,
+      "category": "Evaluation and Benchmarks",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/EleutherAI/lm-evaluation-harness",
+      "title": "LM Evaluation Harness",
+      "description": "unified framework for LM benchmark evaluation.",
+      "category": "Evaluation and Benchmarks",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2503.10497",
+      "title": "MMLU-ProX",
+      "description": null,
+      "category": "Evaluation and Benchmarks",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2501.17399",
+      "title": "MultiChallenge",
+      "description": null,
+      "category": "Evaluation and Benchmarks",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2409.12941",
+      "title": "FRAMES",
+      "description": null,
+      "category": "Evaluation and Benchmarks",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/gkamradt/LLMTest_NeedleInAHaystack",
+      "title": "Needle in a Haystack",
+      "description": "retrieval probe for long-context windows.",
+      "category": "Evaluation and Benchmarks",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2404.06654",
+      "title": "RULER",
+      "description": null,
+      "category": "Evaluation and Benchmarks",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/THUDM/LongBench",
+      "title": "LongBench",
+      "description": "bilingual long-context benchmark across NLP tasks.",
+      "category": "Evaluation and Benchmarks",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2412.15204",
+      "title": "LongBench v2",
+      "description": null,
+      "category": "Evaluation and Benchmarks",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2503.00353",
+      "title": "U-NIAH",
+      "description": null,
+      "category": "Evaluation and Benchmarks",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2201.11903",
+      "title": "Chain-of-Thought Prompting",
+      "description": "foundational result; intermediate reasoning steps improve performance.",
+      "category": "Reasoning and Test-Time Compute",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2203.11171",
+      "title": "Self-Consistency",
+      "description": "majority vote over sampled CoT chains.",
+      "category": "Reasoning and Test-Time Compute",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2305.10601",
+      "title": "Tree of Thoughts",
+      "description": "search over reasoning trees.",
+      "category": "Reasoning and Test-Time Compute",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2303.17651",
+      "title": "Self-Refine",
+      "description": null,
+      "category": "Reasoning and Test-Time Compute",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2205.11916",
+      "title": "Large Language Models are Zero-Shot Reasoners",
+      "description": "chain-of-thought for NLP reasoning tasks.",
+      "category": "Reasoning and Test-Time Compute",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2305.20050",
+      "title": "Let's Verify Step by Step",
+      "description": "process-supervised reward models for reasoning.",
+      "category": "Reasoning and Test-Time Compute",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2501.12948",
+      "title": "DeepSeek-R1",
+      "description": null,
+      "category": "Reasoning and Test-Time Compute",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://openai.com/index/learning-to-reason-with-llms/",
+      "title": "OpenAI o1 / o3",
+      "description": null,
+      "category": "Reasoning and Test-Time Compute",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2408.03314",
+      "title": "Scaling LLM Test-Time Compute Optimally",
+      "description": null,
+      "category": "Reasoning and Test-Time Compute",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2501.19393",
+      "title": "s1: Simple Test-Time Scaling",
+      "description": null,
+      "category": "Reasoning and Test-Time Compute",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2501.12599",
+      "title": "Kimi k1.5",
+      "description": null,
+      "category": "Reasoning and Test-Time Compute",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2501.04519",
+      "title": "rStar-Math",
+      "description": null,
+      "category": "Reasoning and Test-Time Compute",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2503.14476",
+      "title": "DAPO",
+      "description": null,
+      "category": "Reasoning and Test-Time Compute",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2504.05118",
+      "title": "VAPO",
+      "description": null,
+      "category": "Reasoning and Test-Time Compute",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2504.16828",
+      "title": "ThinkPRM",
+      "description": null,
+      "category": "Reasoning and Test-Time Compute",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2506.04178",
+      "title": "OpenThoughts",
+      "description": null,
+      "category": "Reasoning and Test-Time Compute",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2312.00752",
+      "title": "Mamba",
+      "description": null,
+      "category": "Long Context and Alternative Architectures",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2305.13048",
+      "title": "RWKV",
+      "description": "RNN-transformer hybrid scaling to large parameter counts.",
+      "category": "Long Context and Alternative Architectures",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2403.19887",
+      "title": "Jamba",
+      "description": null,
+      "category": "Long Context and Alternative Architectures",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2104.09864",
+      "title": "RoPE",
+      "description": null,
+      "category": "Long Context and Alternative Architectures",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2306.15595",
+      "title": "Position Interpolation",
+      "description": "extending context windows with minimal fine-tuning.",
+      "category": "Long Context and Alternative Architectures",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2307.03172",
+      "title": "Lost in the Middle",
+      "description": "long-context degradation patterns in NLP tasks.",
+      "category": "Long Context and Alternative Architectures",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2407.16833",
+      "title": "RAG vs Long-Context LLMs",
+      "description": null,
+      "category": "Long Context and Alternative Architectures",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2501.00663",
+      "title": "Titans: Learning to Memorize at Test Time",
+      "description": null,
+      "category": "Long Context and Alternative Architectures",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2501.08313",
+      "title": "MiniMax-01",
+      "description": null,
+      "category": "Long Context and Alternative Architectures",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2502.11089",
+      "title": "Native Sparse Attention (NSA)",
+      "description": null,
+      "category": "Long Context and Alternative Architectures",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2502.20082",
+      "title": "LongRoPE2",
+      "description": null,
+      "category": "Long Context and Alternative Architectures",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2507.12442",
+      "title": "Characterizing SSM and Hybrid LM Long-Context Performance",
+      "description": null,
+      "category": "Long Context and Alternative Architectures",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2202.03629",
+      "title": "Survey of Hallucination in Natural Language Generation",
+      "description": "taxonomy and mitigation strategies.",
+      "category": "Factuality, Hallucination, Calibration",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/sylinrl/TruthfulQA",
+      "title": "TruthfulQA",
+      "description": "benchmark for truthfulness in question answering.",
+      "category": "Factuality, Hallucination, Calibration",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/shmsw25/FActScore",
+      "title": "FActScore",
+      "description": "fine-grained factual precision in long-form generation.",
+      "category": "Factuality, Hallucination, Calibration",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2403.18802",
+      "title": "LongFact / SAFE",
+      "description": null,
+      "category": "Factuality, Hallucination, Calibration",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/potsawee/selfcheckgpt",
+      "title": "SelfCheckGPT",
+      "description": "sampling-based hallucination detection.",
+      "category": "Factuality, Hallucination, Calibration",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/explodinggradients/ragas",
+      "title": "RAGAS",
+      "description": "reference-free evaluation for RAG and QA pipelines.",
+      "category": "Factuality, Hallucination, Calibration",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2407.07071",
+      "title": "Lookback Lens",
+      "description": null,
+      "category": "Factuality, Hallucination, Calibration",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2402.13887",
+      "title": "Calibration of LLMs on Multiple Choice",
+      "description": null,
+      "category": "Factuality, Hallucination, Calibration",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2504.17550",
+      "title": "HalluLens",
+      "description": null,
+      "category": "Factuality, Hallucination, Calibration",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2410.13246",
+      "title": "Atomic Calibration",
+      "description": null,
+      "category": "Factuality, Hallucination, Calibration",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2505.21072",
+      "title": "FRANQ",
+      "description": null,
+      "category": "Factuality, Hallucination, Calibration",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2511.17081",
+      "title": "MUCH",
+      "description": null,
+      "category": "Factuality, Hallucination, Calibration",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.01031",
+      "title": "HalluHard",
+      "description": null,
+      "category": "Factuality, Hallucination, Calibration",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.12046",
+      "title": "CURE: Think Through Uncertainty",
+      "description": null,
+      "category": "Factuality, Hallucination, Calibration",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2002.12327",
+      "title": "A Primer in BERTology",
+      "description": "what BERT learns about language.",
+      "category": "Probing and Interpretability",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2102.12452",
+      "title": "Probing Classifiers (Belinkov)",
+      "description": "methodology, limitations, alternatives.",
+      "category": "Probing and Interpretability",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://rome.baulab.info/",
+      "title": "Locating and Editing Factual Associations in GPT (ROME)",
+      "description": "causal tracing of factual recall.",
+      "category": "Probing and Interpretability",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2104.07885",
+      "title": "The Pyramid of NLP Probes",
+      "description": "structural probing for linguistic knowledge.",
+      "category": "Probing and Interpretability",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2022/toy_model/",
+      "title": "Toy Models of Superposition",
+      "description": "foundation for the sparse-feature view of transformer representations.",
+      "category": "Probing and Interpretability",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2024/scaling-monosemanticity/",
+      "title": "Towards Monosemanticity / Scaling Monosemanticity",
+      "description": null,
+      "category": "Probing and Interpretability",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2309.08600",
+      "title": "Sparse Autoencoders Find Highly Interpretable Features",
+      "description": "SAE methodology for LM interpretability.",
+      "category": "Probing and Interpretability",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://www.neuronpedia.org/",
+      "title": "Neuronpedia",
+      "description": "open platform browsing SAE features across models.",
+      "category": "Probing and Interpretability",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2308.03296",
+      "title": "Influence Functions Scale to LLMs",
+      "description": null,
+      "category": "Probing and Interpretability",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2025/attribution-graphs/methods.html",
+      "title": "Circuit Tracing: Revealing Computational Graphs in Language Models",
+      "description": null,
+      "category": "Probing and Interpretability",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2025/attribution-graphs/biology.html",
+      "title": "On the Biology of a Large Language Model",
+      "description": null,
+      "category": "Probing and Interpretability",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2501.18823",
+      "title": "Transcoders Beat Sparse Autoencoders for Interpretability",
+      "description": null,
+      "category": "Probing and Interpretability",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2503.05613",
+      "title": "Survey on Sparse Autoencoders for LLM Interpretability",
+      "description": null,
+      "category": "Probing and Interpretability",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.13483",
+      "title": "Finding Highly Interpretable Prompt-Specific Circuits",
+      "description": null,
+      "category": "Probing and Interpretability",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/1910.01108",
+      "title": "DistilBERT",
+      "description": null,
+      "category": "Efficient and Small Language Models",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2412.08905",
+      "title": "Phi-3 / Phi-4",
+      "description": null,
+      "category": "Efficient and Small Language Models",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2502.02737",
+      "title": "SmolLM2",
+      "description": null,
+      "category": "Efficient and Small Language Models",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://huggingface.co/blog/smollm3",
+      "title": "SmolLM3",
+      "description": null,
+      "category": "Efficient and Small Language Models",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2503.19786",
+      "title": "Gemma 3 Technical Report",
+      "description": null,
+      "category": "Efficient and Small Language Models",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2505.09388",
+      "title": "Qwen3 Technical Report",
+      "description": null,
+      "category": "Efficient and Small Language Models",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2507.13575",
+      "title": "Apple Intelligence Foundation Language Models",
+      "description": null,
+      "category": "Efficient and Small Language Models",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://www.sbert.net/",
+      "title": "Sentence-Transformers",
+      "description": "sentence and paragraph embeddings via Siamese BERT.",
+      "category": "Efficient and Small Language Models",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://huggingface.co/thenlper/gte-base",
+      "title": "GTE",
+      "description": null,
+      "category": "Efficient and Small Language Models",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2210.17323",
+      "title": "GPTQ",
+      "description": "post-training quantization for transformers.",
+      "category": "Efficient and Small Language Models",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2306.00978",
+      "title": "AWQ",
+      "description": "activation-aware weight quantization.",
+      "category": "Efficient and Small Language Models",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2502.04420",
+      "title": "KVTuner",
+      "description": null,
+      "category": "Efficient and Small Language Models",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/ggerganov/llama.cpp",
+      "title": "GGUF / llama.cpp",
+      "description": "portable quantized inference.",
+      "category": "Efficient and Small Language Models",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/huggingface/text-generation-inference",
+      "title": "Text Generation Inference (TGI)",
+      "description": "HF production serving for LMs.",
+      "category": "Efficient and Small Language Models",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2106.09685",
+      "title": "LoRA",
+      "description": null,
+      "category": "Efficient and Small Language Models",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2402.09353",
+      "title": "DoRA",
+      "description": null,
+      "category": "Efficient and Small Language Models",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/huggingface/peft",
+      "title": "PEFT",
+      "description": "HuggingFace library bundling LoRA, prefix tuning, IA3, and others.",
+      "category": "Efficient and Small Language Models",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2109.01652",
+      "title": "FLAN",
+      "description": "finetuned language models as zero-shot learners.",
+      "category": "Instruction Tuning and Preference Optimization",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2203.02155",
+      "title": "InstructGPT",
+      "description": "training LMs to follow instructions with human feedback.",
+      "category": "Instruction Tuning and Preference Optimization",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/yizhongw/self-instruct",
+      "title": "Self-Instruct",
+      "description": "bootstrapping instruction data from LMs.",
+      "category": "Instruction Tuning and Preference Optimization",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/allenai/natural-instructions",
+      "title": "Super-NaturalInstructions",
+      "description": "1600+ NLP tasks with instructions.",
+      "category": "Instruction Tuning and Preference Optimization",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2212.08073",
+      "title": "Constitutional AI",
+      "description": "training LMs with AI-generated feedback against a written constitution.",
+      "category": "Instruction Tuning and Preference Optimization",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2305.18290",
+      "title": "Direct Preference Optimization",
+      "description": "simpler alternative to RLHF; widely adopted.",
+      "category": "Instruction Tuning and Preference Optimization",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2411.15124",
+      "title": "Tülu 3",
+      "description": null,
+      "category": "Instruction Tuning and Preference Optimization",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2305.11206",
+      "title": "LIMA",
+      "description": "\"less is more for alignment\"; small high-quality SFT data goes a long way.",
+      "category": "Instruction Tuning and Preference Optimization",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/huggingface/trl",
+      "title": "TRL",
+      "description": "reference library for SFT, DPO, GRPO, and RLHF.",
+      "category": "Instruction Tuning and Preference Optimization",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2406.08464",
+      "title": "Magpie",
+      "description": null,
+      "category": "Instruction Tuning and Preference Optimization",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/moinnadeem/StereoSet",
+      "title": "StereoSet",
+      "description": "measuring stereotypical bias in pretrained LMs.",
+      "category": "Bias, Fairness, Safety in NLP",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/nyu-mll/crows-pairs",
+      "title": "CrowS-Pairs",
+      "description": "social bias measurement in masked LMs.",
+      "category": "Bias, Fairness, Safety in NLP",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/uclanlp/corefBias",
+      "title": "WinoBias",
+      "description": "gender bias in coreference resolution.",
+      "category": "Bias, Fairness, Safety in NLP",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/facebookresearch/ResponsibleNLP",
+      "title": "HolisticBias",
+      "description": "bias measurement across many demographic axes.",
+      "category": "Bias, Fairness, Safety in NLP",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/allenai/real-toxicity-prompts",
+      "title": "RealToxicityPrompts",
+      "description": "toxicity in LM generation.",
+      "category": "Bias, Fairness, Safety in NLP",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2310.13548",
+      "title": "Sycophancy in Language Models",
+      "description": "models tailoring answers to user beliefs.",
+      "category": "Bias, Fairness, Safety in NLP",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2412.14093",
+      "title": "Alignment Faking in Large Language Models",
+      "description": null,
+      "category": "Bias, Fairness, Safety in NLP",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2406.18495",
+      "title": "WildGuard",
+      "description": null,
+      "category": "Bias, Fairness, Safety in NLP",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2502.17424",
+      "title": "Emergent Misalignment",
+      "description": null,
+      "category": "Bias, Fairness, Safety in NLP",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2502.11090",
+      "title": "SafeDialBench",
+      "description": null,
+      "category": "Bias, Fairness, Safety in NLP",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2512.05485",
+      "title": "TeleAI-Safety",
+      "description": null,
+      "category": "Bias, Fairness, Safety in NLP",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.17915",
+      "title": "IndicSafe",
+      "description": null,
+      "category": "Bias, Fairness, Safety in NLP",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.20995",
+      "title": "VLAF: Value-Conflict Alignment Faking",
+      "description": null,
+      "category": "Bias, Fairness, Safety in NLP",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/CAMeL-Lab/camel_tools",
+      "title": "CAMeL Tools",
+      "description": "Python toolkit for Arabic NLP including dialect ID, morphology, NER.",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/01walid/goarabic",
+      "title": "goarabic",
+      "description": "Go package for Arabic text processing.",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/ejtaal/jsastem",
+      "title": "jsastem",
+      "description": "JavaScript Arabic stemmer.",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://pypi.org/project/PyArabic/",
+      "title": "PyArabic",
+      "description": "Python library for Arabic.",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/amir-zeldes/RFTokenizer",
+      "title": "RFTokenizer",
+      "description": "trainable segmenter for Arabic, Hebrew, and Coptic.",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://farasa.qcri.org/",
+      "title": "Farasa",
+      "description": "QCRI segmentation, POS tagging, and NER for Arabic.",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/aub-mind/arabert",
+      "title": "AraBERT",
+      "description": "Arabic BERT family.",
+      "category": "Models and Embeddings",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/CAMeL-Lab/CAMeLBERT",
+      "title": "CAMeLBERT",
+      "description": "BERT models for MSA, dialectal, and Classical Arabic.",
+      "category": "Models and Embeddings",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://aclanthology.org/2021.wanlp-1.20/",
+      "title": "AraELECTRA",
+      "description": "efficient Arabic pretraining (released alongside [AraBERT](https://github.com/aub-mind/arabert)).",
+      "category": "Models and Embeddings",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://huggingface.co/inceptionai/jais-13b",
+      "title": "Jais",
+      "description": null,
+      "category": "Models and Embeddings",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/abs/2407.15390",
+      "title": "ALLaM",
+      "description": null,
+      "category": "Models and Embeddings",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/hadyelsahar/large-arabic-sentiment-analysis-resouces",
+      "title": "Multidomain Datasets",
+      "description": "largest available multi-domain Arabic sentiment analysis resources.",
+      "category": "Datasets",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/mohamedadaly/labr",
+      "title": "LABR",
+      "description": "large Arabic book reviews dataset.",
+      "category": "Datasets",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/mohataher/arabic-stop-words",
+      "title": "Arabic Stopwords",
+      "description": "aggregated Arabic stopwords.",
+      "category": "Datasets",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://huggingface.co/datasets/MBZUAI/ArabicMMLU",
+      "title": "ArabicMMLU",
+      "description": null,
+      "category": "Datasets",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/FudanNLP/fnlp",
+      "title": "FudanNLP",
+      "description": "Java library for Chinese text processing.",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/hankcs/HanLP",
+      "title": "HanLP",
+      "description": "multilingual NLP library with strong Chinese support.",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/HIT-SCIR/ltp",
+      "title": "LTP",
+      "description": "HIT Language Technology Platform: segmentation, POS, NER, parsing.",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/ymcui/Chinese-BERT-wwm",
+      "title": "Chinese-BERT-wwm",
+      "description": "whole-word masking BERT for Chinese.",
+      "category": "Models and Embeddings",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/ymcui/MacBERT",
+      "title": "MacBERT",
+      "description": "improved Chinese BERT with MLM-as-correction pretraining.",
+      "category": "Models and Embeddings",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/QwenLM/Qwen3",
+      "title": "Qwen 2.5 / Qwen 3",
+      "description": "Alibaba's open Chinese-strong LM family.",
+      "category": "Models and Embeddings",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/THUDM/ChatGLM3",
+      "title": "ChatGLM3 / GLM-4",
+      "description": "Tsinghua's bilingual Chinese-English LMs.",
+      "category": "Models and Embeddings",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/baichuan-inc/Baichuan2",
+      "title": "Baichuan 2",
+      "description": "open Chinese LM.",
+      "category": "Models and Embeddings",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/01-ai/Yi",
+      "title": "Yi",
+      "description": "01.AI's bilingual open LMs.",
+      "category": "Models and Embeddings",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3",
+      "title": "DeepSeek-V3",
+      "description": "efficient open MoE model with strong Chinese.",
+      "category": "Models and Embeddings",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/ITUnlp/daner",
+      "title": "Named Entity Recognition for Danish",
+      "description": null,
+      "category": "NLP in Danish",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/alexandrainst/danlp",
+      "title": "DaNLP",
+      "description": "NLP resources in Danish.",
+      "category": "NLP in Danish",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/fnielsen/awesome-danish",
+      "title": "Awesome Danish",
+      "description": "curated list of resources for Danish language technology.",
+      "category": "NLP in Danish",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/rfdj/SimpleNLG-NL",
+      "title": "SimpleNLG_NL",
+      "description": "Dutch surface realiser for natural language generation, based on the SimpleNLG implementation.",
+      "category": "NLP in Dutch",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/rug-compling/alpino",
+      "title": "Alpino",
+      "description": "dependency parser for Dutch (also does POS tagging and lemmatization).",
+      "category": "NLP in Dutch",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/opensource-spraakherkenning-nl/Kaldi_NL",
+      "title": "Kaldi NL",
+      "description": "Dutch speech-recognition models based on [Kaldi](http://kaldi-asr.org/).",
+      "category": "NLP in Dutch",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://spacy.io/models/nl",
+      "title": "spaCy Dutch model",
+      "description": "industrial-strength NLP with a Dutch pipeline.",
+      "category": "NLP in Dutch",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/adbar/German-NLP",
+      "title": "German-NLP",
+      "description": "curated list of open-access, open-source, and off-the-shelf resources and tools developed with a focus on German.",
+      "category": "NLP in German",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/oroszgy/awesome-hungarian-nlp",
+      "title": "awesome-hungarian-nlp",
+      "description": "curated list of free resources for Hungarian NLP.",
+      "category": "NLP in Hungarian",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://ltrc.iiit.ac.in/treebank_H2014/",
+      "title": "Hindi Dependency Treebank",
+      "description": "A multi-representational multi-layered treebank for Hindi and Urdu",
+      "category": "Data, Corpora and Treebanks",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://universaldependencies.org/treebanks/hi_hdtb/index.html",
+      "title": "Universal Dependencies Treebank in Hindi",
+      "description": null,
+      "category": "Data, Corpora and Treebanks",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "http://universaldependencies.org/treebanks/hi_pud/index.html",
+      "title": "Parallel Universal Dependencies Treebank in Hindi",
+      "description": "A smaller part of the above-mentioned treebank.",
+      "category": "Data, Corpora and Treebanks",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://www.isical.ac.in/~fire/data/",
+      "title": "ISI FIRE Stopwords List (Hindi and Bangla)",
+      "description": null,
+      "category": "Data, Corpora and Treebanks",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/6/stopwords-json",
+      "title": "Peter Graham's Stopwords List",
+      "description": null,
+      "category": "Data, Corpora and Treebanks",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://www.nltk.org/book/ch02.html",
+      "title": "NLTK Corpus",
+      "description": null,
+      "category": "Data, Corpora and Treebanks",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/goru001/nlp-for-hindi",
+      "title": "Hindi Movie Reviews Dataset",
+      "description": null,
+      "category": "Data, Corpora and Treebanks",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/NirantK/hindi2vec/releases/tag/bbc-hindi-v0.1",
+      "title": "BBC News Hindi Dataset",
+      "description": null,
+      "category": "Data, Corpora and Treebanks",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/pnisarg/ABSA",
+      "title": "IIT Patna Hindi ABSA Dataset",
+      "description": null,
+      "category": "Data, Corpora and Treebanks",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/AtikRahman/Bangla_Datasets_ABSA",
+      "title": "Bangla ABSA",
+      "description": null,
+      "category": "Data, Corpora and Treebanks",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://www.iitp.ac.in/~ai-nlp-ml/resources.html",
+      "title": "IIT Patna Movie Review Sentiment Dataset",
+      "description": null,
+      "category": "Data, Corpora and Treebanks",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "http://amitavadas.com/SAIL/",
+      "title": "SAIL 2015",
+      "description": null,
+      "category": "Corpora/Datasets that need a login/access can be gained via email",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://www.cfilt.iitb.ac.in/",
+      "title": "IIT Bombay CFILT Resources",
+      "description": "Sentiwordnet, parallel labelled corpora, sense-annotated corpora, and Marathi polarity-labelled corpus.",
+      "category": "Corpora/Datasets that need a login/access can be gained via email",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://tdil-dc.in/index.php?option=com_catalogue&task=viewTools&id=83&lang=en",
+      "title": "TDIL-IC aggregates a lot of useful resources and provides access to otherwise gated datasets",
+      "description": null,
+      "category": "Corpora/Datasets that need a login/access can be gained via email",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://nirantk.com/hindi2vec/",
+      "title": "Hindi2Vec",
+      "description": null,
+      "category": "Language Models and Word Embeddings",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://fasttext.cc/docs/en/crawl-vectors.html",
+      "title": "Fasttext word embeddings in a whole bunch of languages, trained on Common Crawl",
+      "description": null,
+      "category": "Language Models and Word Embeddings",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/Kyubyong/wordvectors",
+      "title": "Hindi and Bengali Word2Vec",
+      "description": null,
+      "category": "Language Models and Word Embeddings",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/HIT-SCIR/ELMoForManyLangs",
+      "title": "Hindi and Urdu Elmo Model",
+      "description": null,
+      "category": "Language Models and Word Embeddings",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://huggingface.co/surajp/albert-base-sanskrit",
+      "title": "Sanskrit Albert",
+      "description": null,
+      "category": "Language Models and Word Embeddings",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/Saurav0074/mt-dma",
+      "title": "Multi-Task Deep Morphological Analyzer",
+      "description": "deep morphological parser for Hindi and Urdu.",
+      "category": "Libraries and Tooling",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/anoopkunchukuttan/indic_nlp_library",
+      "title": "Indic NLP Library",
+      "description": "tokenization, transliteration, MT helpers across 18 Indic languages.",
+      "category": "Libraries and Tooling",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/CalmDownKarm/sivareddydependencyparser",
+      "title": "SivaReddy's Dependency Parser (Python3 port)",
+      "description": "dependency parsing and POS tagging for Kannada, Hindi, and Telugu.",
+      "category": "Libraries and Tooling",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/goru001/inltk",
+      "title": "iNLTK",
+      "description": "NLP toolkit for Indic languages on PyTorch/Fastai.",
+      "category": "Libraries and Tooling",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://ai4bharat.iitm.ac.in/",
+      "title": "AI4Bharat IndicNLP Suite",
+      "description": "tools, datasets, and models across 22 Indic languages.",
+      "category": "Libraries and Tooling",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/AI4Bharat/IndicBERT",
+      "title": "IndicBERT v2",
+      "description": null,
+      "category": "Models and Embeddings",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/AI4Bharat/IndicTrans2",
+      "title": "IndicTrans2",
+      "description": null,
+      "category": "Models and Embeddings",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://huggingface.co/sarvamai/OpenHathi-7B-Hi-v0.1-Base",
+      "title": "OpenHathi",
+      "description": null,
+      "category": "Models and Embeddings",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://huggingface.co/ai4bharat/Airavata",
+      "title": "Airavata",
+      "description": null,
+      "category": "Models and Embeddings",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://www.sarvam.ai/blogs/sarvam-1",
+      "title": "Sarvam-1",
+      "description": null,
+      "category": "Models and Embeddings",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://www.olakrutrim.com/",
+      "title": "BharatGPT / Krutrim",
+      "description": null,
+      "category": "Models and Embeddings",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/kangfend/bahasa",
+      "title": "bahasa",
+      "description": "natural language toolkit for Indonesian.",
+      "category": "Libraries and Embeddings",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/galuhsahid/indonesian-word-embedding",
+      "title": "Indonesian Word Embedding",
+      "description": null,
+      "category": "Libraries and Embeddings",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.id.zip",
+      "title": "Indonesian fastText",
+      "description": null,
+      "category": "Libraries and Embeddings",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/har07/PySastrawi",
+      "title": "PySastrawi",
+      "description": "Python stemmer for Bahasa Indonesia based on the Sastrawi stemming algorithm.",
+      "category": "Libraries and Embeddings",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/indobenchmark/indonlu",
+      "title": "IndoBERT (IndoNLU)",
+      "description": "pretrained Indonesian LM with the IndoNLU benchmark suite.",
+      "category": "Models",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/indolem/indolem",
+      "title": "IndoBERT (IndoLEM)",
+      "description": "alternative IndoBERT with the IndoLEM benchmark.",
+      "category": "Models",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/IndoNLP/nusa-crowd",
+      "title": "NusaCrowd / Cendol",
+      "description": null,
+      "category": "Models",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/sail-sg/sailor-llm",
+      "title": "Sailor",
+      "description": "open Southeast-Asian LMs covering Indonesian.",
+      "category": "Models",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/aisingapore/sealion",
+      "title": "SEA-LION",
+      "description": null,
+      "category": "Models",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "http://www.panl10n.net/english/outputs/Indonesia/UI/0802/UI-1M-tagged.zip",
+      "title": "PANL10N for PoS tagging",
+      "description": "39K sentences and 900K word tokens",
+      "category": "Datasets",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/famrashel/idn-tagged-corpus",
+      "title": "IDN for PoS tagging",
+      "description": "10K sentences and 250K word tokens.",
+      "category": "Datasets",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/famrashel/idn-treebank",
+      "title": "Indonesian Treebank",
+      "description": null,
+      "category": "Datasets",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/kata-ai/indosum",
+      "title": "IndoSum",
+      "description": "text summarization and classification.",
+      "category": "Datasets",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "http://wn-msa.sourceforge.net/",
+      "title": "Wordnet-Bahasa",
+      "description": "large, free, semantic dictionary.",
+      "category": "Datasets",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/SEACrowd/seacrowd-datahub",
+      "title": "SEACrowd",
+      "description": "A multilingual and multimodal data hub providing standardized datasets and benchmarks for Southeast Asian NLP (EMNLP 2024).",
+      "category": "Datasets",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://eunjeon.blogspot.com/",
+      "title": "Mecab (Korean)",
+      "description": "C++ library for Korean NLP.",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://koalanlp.github.io/koalanlp/",
+      "title": "KoalaNLP",
+      "description": "Scala library for Korean NLP.",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://cran.r-project.org/package=KoNLP",
+      "title": "KoNLP",
+      "description": "R package for Korean NLP.",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/hyunwoongko/kss",
+      "title": "kss",
+      "description": "Korean sentence splitter.",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/bab2min/Kiwi",
+      "title": "Kiwi",
+      "description": "fast Korean morphological analyzer.",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/ongjin/garu",
+      "title": "Garu",
+      "description": "browser-native Korean morphological analyzer running fully client-side via WebAssembly (1MB model, offline, MIT).",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/SKTBrain/KoBERT",
+      "title": "KoBERT",
+      "description": "Korean BERT from SKT.",
+      "category": "Models and Embeddings",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/KLUE-benchmark/KLUE",
+      "title": "KLUE-RoBERTa",
+      "description": "models trained on the KLUE benchmark.",
+      "category": "Models and Embeddings",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/EleutherAI/polyglot",
+      "title": "Polyglot-Ko",
+      "description": "open Korean LMs.",
+      "category": "Models and Embeddings",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/LG-AI-EXAONE",
+      "title": "EXAONE 3.5",
+      "description": null,
+      "category": "Models and Embeddings",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://www.ncloud.com/product/aiService/clovaStudio",
+      "title": "HyperCLOVA X",
+      "description": "Naver's Korean foundation model.",
+      "category": "Models and Embeddings",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://dsindex.github.io/",
+      "title": "dsindex's blog",
+      "description": null,
+      "category": "Blogs and Tutorials",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "http://cs.kangwon.ac.kr/~leeck/NLP/",
+      "title": "Kangwon University's NLP course in Korean",
+      "description": null,
+      "category": "Blogs and Tutorials",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "http://semanticweb.kaist.ac.kr/home/index.php/KAIST_Corpus",
+      "title": "KAIST Corpus",
+      "description": "corpus from the Korea Advanced Institute of Science and Technology in Korean.",
+      "category": "Datasets",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/e9t/nsmc/",
+      "title": "Naver Sentiment Movie Corpus in Korean",
+      "description": null,
+      "category": "Datasets",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "http://srchdb1.chosun.com/pdf/i_archive/",
+      "title": "Chosun Ilbo archive",
+      "description": "dataset in Korean from a major South Korean newspaper.",
+      "category": "Datasets",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/songys/Chatbot_data",
+      "title": "Chat data",
+      "description": "chatbot data in Korean.",
+      "category": "Datasets",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/akngs/petitions",
+      "title": "Petitions",
+      "description": "expired petition data from the Blue House National Petition Site.",
+      "category": "Datasets",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/j-min/korean-parallel-corpora",
+      "title": "Korean Parallel corpora",
+      "description": "NMT dataset for Korean to French and Korean to English.",
+      "category": "Datasets",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://korquad.github.io/",
+      "title": "KorQuAD",
+      "description": "Korean SQuAD dataset (v1.0 and v2.1) with Wiki HTML source.",
+      "category": "Datasets",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/roshan-research/hazm",
+      "title": "Hazm",
+      "description": "Persian NLP toolkit.",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/ICTRC/Parsivar",
+      "title": "Parsivar",
+      "description": "Persian language processing toolkit.",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/AlirezaTheH/perke",
+      "title": "Perke",
+      "description": "Persian keyphrase extraction.",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/jonsafari/perstem",
+      "title": "Perstem",
+      "description": "Persian stemmer, morphological analyzer, and partial POS tagger.",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/NarimanN2/ParsiAnalyzer",
+      "title": "ParsiAnalyzer",
+      "description": "Persian analyzer for Elasticsearch.",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/aziz/virastar",
+      "title": "virastar",
+      "description": "Persian text cleaning.",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/hooshvare/parsbert",
+      "title": "ParsBERT",
+      "description": "Persian BERT.",
+      "category": "Models",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://huggingface.co/universitytehran/PersianMind-v1.0",
+      "title": "PersianMind",
+      "description": null,
+      "category": "Models",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://huggingface.co/PartAI/Dorna-Llama3-8B-Instruct",
+      "title": "Dorna",
+      "description": null,
+      "category": "Models",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://dbrg.ut.ac.ir/بیژن%E2%80%8Cخان/",
+      "title": "Bijankhan Corpus",
+      "description": "tagged corpus suitable for Persian (Farsi) NLP research, ~2.6M manually tagged words across 40 POS tags.",
+      "category": "Datasets",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://sites.google.com/site/mojganserajicom/home/upc",
+      "title": "Uppsala Persian Corpus (UPC)",
+      "description": "large freely available Persian corpus, 2.7M tokens annotated with 31 POS tags.",
+      "category": "Datasets",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "http://hdl.handle.net/11234/1-3195",
+      "title": "Large-Scale Colloquial Persian",
+      "description": "LSCP: 120M sentences from 27M casual Persian tweets with dependency, POS, and sentiment annotations.",
+      "category": "Datasets",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/HaniehP/PersianNER",
+      "title": "ArmanPersoNERCorpus",
+      "description": "250K tokens, 7,682 sentences with NER tags in IOB format.",
+      "category": "Datasets",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/Text-Mining/Persian-NER",
+      "title": "FarsiYar PersianNER",
+      "description": "~25M tokens, ~1M Persian sentences from [Persian Wikipedia Corpus](https://github.com/Text-Mining/Persian-Wikipedia-Corpus).",
+      "category": "Datasets",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "http://farsbase.net/PERLEX.html",
+      "title": "PERLEX",
+      "description": "first Persian dataset for relation extraction (translated SemEval-2010 Task 8).",
+      "category": "Datasets",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "http://dadegan.ir/catalog/perdt",
+      "title": "Persian Syntactic Dependency Treebank",
+      "description": "29,982 annotated sentences covering most verbs of the Persian valency lexicon.",
+      "category": "Datasets",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "http://stp.lingfil.uu.se/~mojgan/UPDT.html",
+      "title": "Uppsala Persian Dependency Treebank (UPDT)",
+      "description": "dependency-based syntactically annotated corpus.",
+      "category": "Datasets",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://dbrg.ut.ac.ir/hamshahri/",
+      "title": "Hamshahri",
+      "description": "standard reliable Persian text collection used at CLEF 2008-2009.",
+      "category": "Datasets",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/ksopyla/awesome-nlp-polish",
+      "title": "Polish-NLP",
+      "description": "curated list of resources dedicated to Polish NLP: models, tools, and datasets.",
+      "category": "NLP in Polish",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/ajdavidl/Portuguese-NLP",
+      "title": "Portuguese-nlp",
+      "description": "curated list of Portuguese NLP resources and tools.",
+      "category": "NLP in Portuguese",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/neuralmind-ai/portuguese-bert",
+      "title": "BERTimbau",
+      "description": "BERT for Brazilian Portuguese.",
+      "category": "Models",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://huggingface.co/maritaca-ai",
+      "title": "Sabiá",
+      "description": null,
+      "category": "Models",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://huggingface.co/PORTULAN",
+      "title": "Albertina",
+      "description": null,
+      "category": "Models",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/jfreddypuentes/spanlp",
+      "title": "spanlp",
+      "description": "Python library to detect, censor, and clean profanity, hate speech, and bullying in Spanish, with data from 21 Spanish-speaking countries.",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/dav009/LatinamericanTextResources",
+      "title": "Columbian Political Speeches",
+      "description": null,
+      "category": "Data",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://mbkromann.github.io/copenhagen-dependency-treebank/",
+      "title": "Copenhagen Treebank",
+      "description": null,
+      "category": "Data",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/crscardellino/sbwce",
+      "title": "Spanish Billion Words Corpus with Word2Vec embeddings",
+      "description": null,
+      "category": "Data",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/josecannete/spanish-unannotated-corpora",
+      "title": "Compilation of Spanish Unannotated Corpora",
+      "description": null,
+      "category": "Data",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/dccuchile/beto",
+      "title": "BETO",
+      "description": "BERT for Spanish.",
+      "category": "Models and Embeddings",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://huggingface.co/PlanTL-GOB-ES/roberta-base-bne",
+      "title": "RoBERTa-bne",
+      "description": "Spanish RoBERTa trained on the Spanish National Library corpus.",
+      "category": "Models and Embeddings",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/hitz-zentroa/latxa",
+      "title": "Latxa",
+      "description": null,
+      "category": "Models and Embeddings",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://huggingface.co/BSC-LT/salamandra-7b",
+      "title": "Salamandra",
+      "description": null,
+      "category": "Models and Embeddings",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://huggingface.co/IIC/RigoChat-7b-v2",
+      "title": "RigoChat",
+      "description": null,
+      "category": "Models and Embeddings",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/dccuchile/spanish-word-embeddings",
+      "title": "Spanish Word Embeddings (multiple methods/corpora)",
+      "description": null,
+      "category": "Models and Embeddings",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/BotCenter/spanishWordEmbeddings",
+      "title": "Spanish fastText Embeddings",
+      "description": null,
+      "category": "Models and Embeddings",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/BotCenter/spanishSent2Vec",
+      "title": "Spanish sent2vec Sentence Embeddings",
+      "description": null,
+      "category": "Models and Embeddings",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/PyThaiNLP/pythainlp",
+      "title": "PyThaiNLP",
+      "description": "Thai NLP in Python.",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/wittawatj/jtcc",
+      "title": "JTCC",
+      "description": "character cluster library in Java.",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/pucktada/cutkum",
+      "title": "CutKum",
+      "description": "word segmentation with deep learning in TensorFlow.",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://pypi.python.org/pypi/tltk/",
+      "title": "Thai Language Toolkit",
+      "description": "tokenization and POS tagging.",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/KenjiroAI/SynThai",
+      "title": "SynThai",
+      "description": "word segmentation and POS tagging using deep learning.",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/vistec-AI/thai2transformers",
+      "title": "WangchanBERTa",
+      "description": "pretrained Thai language model.",
+      "category": "Models",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://huggingface.co/scb10x",
+      "title": "Typhoon",
+      "description": null,
+      "category": "Models",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://huggingface.co/openthaigpt",
+      "title": "OpenThaiGPT",
+      "description": null,
+      "category": "Models",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://www.nectec.or.th/corpus/index.php?league=pm",
+      "title": "Inter-BEST",
+      "description": "text corpus with 5M words and word segmentation.",
+      "category": "Data",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/PyThaiNLP/lexicon-thai/tree/master/thai-corpus/Prime%20Minister%2029",
+      "title": "Prime Minister 29",
+      "description": "dataset of speeches by the current Prime Minister of Thailand.",
+      "category": "Data",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/asivokon/awesome-ukrainian-nlp",
+      "title": "awesome-ukrainian-nlp",
+      "description": "curated list of Ukrainian NLP datasets, models, etc.",
+      "category": "NLP in Ukrainian",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/Helsinki-NLP/UkrainianLT",
+      "title": "UkrainianLT",
+      "description": "curated list focused on machine translation and speech processing.",
+      "category": "NLP in Ukrainian",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/urduhack/urduhack",
+      "title": "urduhack",
+      "description": "NLP library for Urdu.",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/mirfan899/Urdu",
+      "title": "Collection of Urdu datasets",
+      "description": "POS, NER, and other NLP tasks.",
+      "category": "Datasets",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/rajantripathi/soas-rag-evaluation",
+      "title": "SOAS English-Uzbek RAG Evaluation",
+      "description": "Bilingual retrieval-evaluation benchmark for culturally grounded RAG. 400 rows, EN+UZ, MIT/CC-BY-4.0.",
+      "category": "Datasets",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/undertheseanlp/underthesea",
+      "title": "underthesea",
+      "description": "Vietnamese NLP toolkit.",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/phuonglh/vn.vitk",
+      "title": "vn.vitk",
+      "description": "Vietnamese text processing toolkit.",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/vncorenlp/VnCoreNLP",
+      "title": "VnCoreNLP",
+      "description": "Vietnamese NLP toolkit.",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/trungtv/pyvi",
+      "title": "pyvi",
+      "description": "Python Vietnamese core NLP toolkit.",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/pnnbao97/VieNeu-TTS",
+      "title": "VieNeu-TTS",
+      "description": "on-device Vietnamese text-to-speech with voice cloning.",
+      "category": "Libraries",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/VinAIResearch/PhoBERT",
+      "title": "PhoBERT",
+      "description": "pretrained LM for Vietnamese.",
+      "category": "Models and Embeddings",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/VinAIResearch/BARTpho",
+      "title": "BARTpho",
+      "description": "sequence-to-sequence pretrained model for Vietnamese.",
+      "category": "Models and Embeddings",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/VinAIResearch/PhoGPT",
+      "title": "PhoGPT",
+      "description": null,
+      "category": "Models and Embeddings",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://huggingface.co/Viet-Mistral/Vistral-7B-Chat",
+      "title": "Vistral",
+      "description": null,
+      "category": "Models and Embeddings",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://vlsp.hpda.vn/demo/?page=resources&lang=en",
+      "title": "Vietnamese Treebank",
+      "description": "10K sentences for the constituency parsing task.",
+      "category": "Data",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://arxiv.org/pdf/1710.05519.pdf",
+      "title": "BKTreeBank",
+      "description": "Vietnamese dependency treebank.",
+      "category": "Data",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/UniversalDependencies/UD_Vietnamese-VTB",
+      "title": "UD_Vietnamese",
+      "description": "Vietnamese Universal Dependency Treebank.",
+      "category": "Data",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://ailab.hcmus.edu.vn/vivos/",
+      "title": "VIVOS",
+      "description": "free Vietnamese speech corpus, 15 hours of recorded speech (HCMUS AILab).",
+      "category": "Data",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "http://viet.jnlp.org/download-du-lieu-tu-vung-corpus",
+      "title": "VNTQcorpus(big).txt",
+      "description": "1.75M news sentences.",
+      "category": "Data",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/VinAIResearch/ViText2SQL",
+      "title": "ViText2SQL",
+      "description": "Vietnamese Text-to-SQL semantic parsing dataset (EMNLP-2020 Findings).",
+      "category": "Data",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/qhungngo/EVBCorpus",
+      "title": "EVB Corpus",
+      "description": "20M words across 15 bilingual books, 100 parallel English-Vietnamese texts, 250 parallel law texts, 5K news articles, and 2K film subtitles.",
+      "category": "Data",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/Hannibal046/Awesome-LLM",
+      "title": "awesome-llm",
+      "description": "general-purpose large language model resources.",
+      "category": "See Also",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/Danielskry/Awesome-RAG",
+      "title": "awesome-rag",
+      "description": "retrieval-augmented generation systems and tooling.",
+      "category": "See Also",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/promptslab/Awesome-Prompt-Engineering",
+      "title": "awesome-prompt-engineering",
+      "description": "prompting techniques and template libraries.",
+      "category": "See Also",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    },
+    {
+      "url": "https://github.com/visenger/awesome-mlops",
+      "title": "awesome-mlops",
+      "description": "production ML, including LLM serving.",
+      "category": "See Also",
+      "source": "keon/awesome-nlp",
+      "indexedAt": "2026-07-23T14:54:01.665Z"
+    }
+  ],
+  "categories": [
+    "Research Summaries and Trends",
+    "Historical highlights",
+    "Prominent NLP Research Labs",
+    "Reading Content",
+    "Videos and Online Courses",
+    "Books",
+    "Libraries",
+    "Services",
+    "Annotation Tools",
+    "Text Embeddings",
+    "Tokenization, Morphology, and Segmentation",
+    "POS Tagging and Dependency Parsing",
+    "Named Entity Recognition and Information Extraction",
+    "Coreference Resolution",
+    "Text Classification and Sentiment Analysis",
+    "Topic Modeling",
+    "Summarization",
+    "Machine Translation",
+    "Question Answering and Reading Comprehension",
+    "Information Extraction Beyond NER",
+    "Retrieval and Embeddings",
+    "Speech and Text",
+    "Datasets",
+    "Multilingual NLP Frameworks",
+    "Pretraining and Adaptation",
+    "Multilingual and Cross-Lingual Models",
+    "Evaluation and Benchmarks",
+    "Reasoning and Test-Time Compute",
+    "Long Context and Alternative Architectures",
+    "Factuality, Hallucination, Calibration",
+    "Probing and Interpretability",
+    "Efficient and Small Language Models",
+    "Instruction Tuning and Preference Optimization",
+    "Bias, Fairness, Safety in NLP",
+    "Libraries",
+    "Models and Embeddings",
+    "Datasets",
+    "Libraries",
+    "Models and Embeddings",
+    "Anthology",
+    "NLP in Danish",
+    "NLP in Dutch",
+    "NLP in German",
+    "NLP in Hungarian",
+    "Data, Corpora and Treebanks",
+    "Corpora/Datasets that need a login/access can be gained via email",
+    "Language Models and Word Embeddings",
+    "Libraries and Tooling",
+    "Models and Embeddings",
+    "Libraries and Embeddings",
+    "Models",
+    "Datasets",
+    "Libraries",
+    "Models and Embeddings",
+    "Blogs and Tutorials",
+    "Datasets",
+    "Libraries",
+    "Models",
+    "Datasets",
+    "NLP in Polish",
+    "NLP in Portuguese",
+    "Models",
+    "Libraries",
+    "Data",
+    "Models and Embeddings",
+    "Libraries",
+    "Models",
+    "Data",
+    "NLP in Ukrainian",
+    "Libraries",
+    "Datasets",
+    "Datasets",
+    "Libraries",
+    "Models and Embeddings",
+    "Data",
+    "See Also"
+  ],
+  "crawledAt": "2026-07-23T14:54:01.665Z"
+}

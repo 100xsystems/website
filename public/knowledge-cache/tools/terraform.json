@@ -1,0 +1,16 @@
+{
+  "id": "terraform",
+  "category": "tools",
+  "label": "Terraform",
+  "aliases": [],
+  "description": "Infrastructure as Code tool for defining and provisioning cloud resources",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Terraform_(software)",
+    "wikidata": "https://www.wikidata.org/wiki/Q24051727"
+  },
+  "indexedAt": "2026-07-23T14:36:26.188Z"
+}

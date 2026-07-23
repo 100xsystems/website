@@ -31,7 +31,7 @@
       "description": null,
       "category": "Official Projects",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/docker/compose/",
@@ -39,7 +39,7 @@
       "description": "Define and run multi-container applications with Docker.",
       "category": "Official Projects",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/containerd/containerd",
@@ -47,7 +47,7 @@
       "description": "An open and reliable container runtime.",
       "category": "Engine & Runtime",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/cri-o/cri-o",
@@ -55,7 +55,7 @@
       "description": "Open Container Initiative-based implementation of Kubernetes Container Runtime Interface.",
       "category": "Engine & Runtime",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/google/gvisor",
@@ -63,7 +63,7 @@
       "description": "Application Kernel for Containers.",
       "category": "Engine & Runtime",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/lxc/lxc",
@@ -71,15 +71,7 @@
       "description": "LXC - Linux Containers.",
       "category": "Engine & Runtime",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
-    },
-    {
-      "url": "https://github.com/us/mocker",
-      "title": "Mocker",
-      "description": "Docker-compatible container CLI for macOS, built on Apple's Containerization framework.",
-      "category": "Engine & Runtime",
-      "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/containers/libpod",
@@ -87,7 +79,7 @@
       "description": "Libpod is a library used to create container pods. Home of Podman.",
       "category": "Engine & Runtime",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/opencontainers/runc",
@@ -95,7 +87,7 @@
       "description": "CLI tool for spawning and running containers according to the OCI specification.",
       "category": "Engine & Runtime",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/opencontainers/runtime-tools",
@@ -103,7 +95,7 @@
       "description": "Oci-runtime-tool is a collection of tools for working with the OCI runtime specification.",
       "category": "Engine & Runtime",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/ansible-community/ansible-bender",
@@ -111,7 +103,7 @@
       "description": "A tool utilising `ansible` and `buildah`.",
       "category": "Builder",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/chainguard-dev/apko",
@@ -119,7 +111,7 @@
       "description": "Declarative OCI image builder from apk packages; reproducible by design.",
       "category": "Builder",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/containers/buildah",
@@ -127,7 +119,7 @@
       "description": "A tool that facilitates building OCI images.",
       "category": "Builder",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/moby/buildkit",
@@ -135,7 +127,7 @@
       "description": "Concurrent, cache-efficient, and Dockerfile-agnostic builder toolkit.",
       "category": "Builder",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/docker/buildx",
@@ -143,7 +135,7 @@
       "description": "Official Docker CLI plugin for multi-platform builds backed by BuildKit.",
       "category": "Builder",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/cekit/cekit",
@@ -151,7 +143,7 @@
       "description": "A tool used by openshift to build base images using different build engines.",
       "category": "Builder",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/orisano/dlayer",
@@ -159,7 +151,7 @@
       "description": "Docker layer analyzer.",
       "category": "Builder",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/mudler/docker-companion",
@@ -167,7 +159,7 @@
       "description": "A command line tool written in Golang to squash and unpack docker images.",
       "category": "Builder",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/orf/docker-repack",
@@ -175,7 +167,7 @@
       "description": "Repacks a Docker image into a smaller, more efficient version that makes it significantly faster to pull.",
       "category": "Builder",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/docker-slim/docker-slim",
@@ -183,7 +175,7 @@
       "description": null,
       "category": "Builder",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/earthly/earthly",
@@ -191,7 +183,7 @@
       "description": "Containerized build automation with Dockerfile-meets-Makefile syntax.",
       "category": "Builder",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/utensils/essex",
@@ -199,7 +191,7 @@
       "description": "Boilerplate for Docker Based Projects: Essex is a CLI utility written in bash to quickly setup clean and consistent Docker projects with Makefile driven workflows.",
       "category": "Builder",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/NVIDIA/hpc-container-maker",
@@ -207,7 +199,7 @@
       "description": "Generates Dockerfiles from a high level Python recipe, including building blocks for High-Performance Computing components.",
       "category": "Builder",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/genuinetools/img",
@@ -215,7 +207,7 @@
       "description": "Standalone, daemon-less, unprivileged Dockerfile and OCI compatible container image builder.",
       "category": "Builder",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/ko-build/ko",
@@ -223,7 +215,7 @@
       "description": "Build and deploy Go applications as container images without a Dockerfile.",
       "category": "Builder",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/nlewo/nix2container",
@@ -231,7 +223,7 @@
       "description": "Build OCI images with Nix without `docker load` round-trips.",
       "category": "Builder",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://developer.hashicorp.com/packer/integrations/hashicorp/docker/latest/components/builder/docker",
@@ -239,7 +231,7 @@
       "description": "Hashicorp tool to build machine images including docker image integrated with configuration management tools like chef, puppet, ansible.",
       "category": "Builder",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://pythonspeed.com/products/pythoncontainer/",
@@ -247,7 +239,7 @@
       "description": ":yen: A template for creating production-ready Docker images for Python applications.",
       "category": "Builder",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/cybersecsi/RAUDI",
@@ -255,7 +247,7 @@
       "description": "A tool to automatically update (and optionally push to Docker Hub) Docker Images for 3rd party software whenever theres is a new release/update/commit.",
       "category": "Builder",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/lavie/runlike",
@@ -263,7 +255,7 @@
       "description": "Generate `docker run`command and options from running containers.",
       "category": "Builder",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/P3GLEG/Whaler",
@@ -271,7 +263,7 @@
       "description": "Program to reverse Docker images into Dockerfiles.",
       "category": "Builder",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/chainguard-images/images",
@@ -279,7 +271,7 @@
       "description": "Minimal, signed, SBOM-attested container images built on Wolfi.",
       "category": "Base Images",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/GoogleContainerTools/distroless",
@@ -287,7 +279,7 @@
       "description": "Language focused docker images, minus the operating system.",
       "category": "Base Images",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/chainguard-dev/melange",
@@ -295,7 +287,7 @@
       "description": "Build apk packages from declarative YAML for use with apko.",
       "category": "Base Images",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/pglayers/pglayers",
@@ -303,7 +295,7 @@
       "description": "Pre-built PostgreSQL extensions as composable Docker layers. 50+ extensions, ready-to-use combined images (full, Azure-compatible).",
       "category": "Base Images",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/wolfi-dev/os",
@@ -311,7 +303,7 @@
       "description": "Undistro Linux designed for containers; glibc-based, signed, daily SBOMs.",
       "category": "Base Images",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/Dockershelf/dockershelf",
@@ -319,7 +311,7 @@
       "description": "A repository that serves as a collector for docker recipes that are universal, efficient and slim. Images are updated, tested and published daily via a Travis cron job.",
       "category": "Dockerfile",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://dockerfile.github.io/",
@@ -327,7 +319,7 @@
       "description": "Trusted Automated Docker Builds. Dockerfile Project maintains a central repository of Dockerfile for various popular open source software services runnable on a Docker container.",
       "category": "Dockerfile",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/deckrun/dockadvisor",
@@ -335,7 +327,7 @@
       "description": "Lightweight Dockerfile linter with 60+ rules, quality scoring, and security checks.",
       "category": "Linter",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/wemake-services/docker-image-size-limit",
@@ -343,7 +335,7 @@
       "description": "A tool to keep an eye on your docker images size.",
       "category": "Linter",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/hadolint/hadolint",
@@ -351,7 +343,7 @@
       "description": "A Dockerfile linter that checks for best practices, common mistakes, and is also able to lint any bash written in `RUN` instructions;.",
       "category": "Linter",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://aws.amazon.com/ecr/",
@@ -359,7 +351,7 @@
       "description": ":yen: Amazon Elastic Container Registry (ECR) is a fully-managed Docker container registry that makes it easy for developers to store, manage, and deploy Docker container images.",
       "category": "Registry",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://azure.microsoft.com/en-us/products/container-registry/#overview",
@@ -367,7 +359,7 @@
       "description": ":yen: Manage a Docker private registry as a first-class Azure resource.",
       "category": "Registry",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://cloudsmith.com/product/formats/docker-registry",
@@ -375,7 +367,7 @@
       "description": ":yen: A fully managed package management SaaS, with first-class support for public and private Docker registries (and many others, incl. Helm charts for the Kubernetes ecosystem). Has a generous free-tier and is also completely free for open-source.",
       "category": "Registry",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://container-registry.com/",
@@ -383,7 +375,7 @@
       "description": ":yen: Harbor based Container Management Solution as a Service for teams and organizations. Free tier offers 1 GB storage for private repositories.",
       "category": "Registry",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://cycle.io/",
@@ -391,7 +383,7 @@
       "description": ":yen: Bare-metal container hosting.",
       "category": "Registry",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://www.digitalocean.com/products/container-registry",
@@ -399,7 +391,7 @@
       "description": ":yen: DigitalOcean Container Registry.",
       "category": "Registry",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://docs.cloud.google.com/artifact-registry/docs",
@@ -407,7 +399,7 @@
       "description": ":yen: Fast, private Docker image storage on Google Cloud Platform.",
       "category": "Registry",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://docs.gitea.com/usage/packages/container",
@@ -415,7 +407,7 @@
       "description": "Integrated Docker registry in Gitea, ideal for private, small-scale image hosting.",
       "category": "Registry",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry",
@@ -423,7 +415,7 @@
       "description": "GitHub's solution for storing and managing Docker images, with tight integration into GitHub Actions.",
       "category": "Registry",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://docs.gitlab.com/user/packages/container_registry/",
@@ -431,7 +423,7 @@
       "description": "Registry focused on using its images in GitLab CI.",
       "category": "Registry",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/goharbor/harbor",
@@ -439,7 +431,7 @@
       "description": null,
       "category": "Registry",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://jfrog.com/artifactory/",
@@ -447,7 +439,7 @@
       "description": ":yen: Artifact Repository Manager, can be used as private Docker Registry as well.",
       "category": "Registry",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/imjasonh/kontain.me",
@@ -455,7 +447,7 @@
       "description": "On-demand container image registry that builds and serves images when they are pulled.",
       "category": "Registry",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/uber/kraken",
@@ -463,7 +455,7 @@
       "description": "Uber's Highly scalable P2P docker registry, capable of distributing TBs of data in seconds.",
       "category": "Registry",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/jhstatewide/nscr",
@@ -471,7 +463,7 @@
       "description": "A light-weight, self-contained container registry that's easy to run and maintain.",
       "category": "Registry",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://quay.io/",
@@ -479,7 +471,7 @@
       "description": ":yen: Secure hosting for private Docker repositories.",
       "category": "Registry",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/inmagik/registryo",
@@ -487,7 +479,7 @@
       "description": "UI and token based authentication server for onpremise docker registry.",
       "category": "Registry",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://www.sonatype.com/products/sonatype-nexus-repository",
@@ -495,7 +487,7 @@
       "description": "Manage binaries and build artifacts across your software supply chain.",
       "category": "Registry",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/google/go-containerregistry/tree/main/cmd/crane",
@@ -503,7 +495,7 @@
       "description": "Lightweight CLI to manipulate registry images, from `go-containerregistry`.",
       "category": "Registry CLI",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/google/go-containerregistry",
@@ -511,7 +503,7 @@
       "description": "Go library and CLI tools (`crane`, `gcrane`, `registry`) for working with container registries.",
       "category": "Registry CLI",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/regclient/regclient",
@@ -519,7 +511,7 @@
       "description": "Daemonless registry client; copy, inspect, modify, and sign OCI images.",
       "category": "Registry CLI",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/containers/skopeo",
@@ -527,7 +519,7 @@
       "description": "Work with remote image registries: retrieve information, copy images, sign content.",
       "category": "Registry CLI",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/SongStitch/anchor/",
@@ -535,7 +527,7 @@
       "description": "A tool to ensure reproducible builds by pinning dependencies inside your Dockerfiles.",
       "category": "Image Scanning & SBOM",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://anchore.com/",
@@ -543,7 +535,7 @@
       "description": ":yen: Analyze images for CVE vulnerabilities and against custom security policies.",
       "category": "Image Scanning & SBOM",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/sktelecom/bomlens",
@@ -551,7 +543,7 @@
       "description": "Scan container images (plus source, binaries, and firmware) into CycloneDX SBOMs with vulnerability, license, and notice reports. Ships as a single Docker image with a web UI.",
       "category": "Image Scanning & SBOM",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/quay/clair",
@@ -559,7 +551,7 @@
       "description": "Clair is an open source project for the static analysis of vulnerabilities in appc and docker containers.",
       "category": "Image Scanning & SBOM",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/docker/scout-cli",
@@ -567,7 +559,7 @@
       "description": "Official Docker CLI for SBOM generation, vulnerability analysis, and policy evaluation.",
       "category": "Image Scanning & SBOM",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/anchore/grype",
@@ -575,7 +567,7 @@
       "description": "A vulnerability scanner for container images, filesystems and SBOMs.",
       "category": "Image Scanning & SBOM",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/OpenSCAP/openscap",
@@ -583,7 +575,7 @@
       "description": "OpenSCAP provides oscap-docker tool which is used to scan Docker containers and images.",
       "category": "Image Scanning & SBOM",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/deadnews/pindock",
@@ -591,7 +583,7 @@
       "description": "Pin and update Docker image digests in Dockerfiles and compose files.",
       "category": "Image Scanning & SBOM",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/aquasecurity/trivy",
@@ -599,7 +591,7 @@
       "description": "Aqua Security's open source simple and comprehensive vulnerability scanner for containers (suitable for CI).",
       "category": "Image Scanning & SBOM",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/in-toto/in-toto",
@@ -607,7 +599,7 @@
       "description": "Framework for supply chain attestations; underpins SLSA and cosign provenance.",
       "category": "Supply Chain",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/sigstore/policy-controller",
@@ -615,7 +607,7 @@
       "description": "Kubernetes admission controller enforcing cosign signatures on container images.",
       "category": "Supply Chain",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/in-toto/witness",
@@ -623,7 +615,7 @@
       "description": "Generate and verify in-toto attestations across the build pipeline.",
       "category": "Supply Chain",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/magicmark/composerize",
@@ -631,7 +623,7 @@
       "description": "Convert docker run commands into docker-compose files.",
       "category": "Composition",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/ctk-hq/ctk",
@@ -639,7 +631,7 @@
       "description": "Visual composer for container based workloads.",
       "category": "Composition",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/kubernetes/kompose",
@@ -647,7 +639,7 @@
       "description": "Go from Docker Compose to Kubernetes.",
       "category": "Composition",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/ihucos/plash",
@@ -655,7 +647,7 @@
       "description": "A container run and build engine - runs inside docker.",
       "category": "Composition",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/containers/podman-compose",
@@ -663,7 +655,7 @@
       "description": "A script to run docker-compose.yml using podman.",
       "category": "Composition",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/roquie/smalte",
@@ -671,7 +663,7 @@
       "description": "Dynamically configure applications that require static configuration in docker container.",
       "category": "Composition",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/CloudSlang/cloud-slang",
@@ -679,7 +671,7 @@
       "description": "CloudSlang is a workflow engine to create Docker process automation.",
       "category": "Orchestration",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/Wowu/docker-rollout",
@@ -687,7 +679,7 @@
       "description": "Zero downtime deployment for Docker Compose services.",
       "category": "Orchestration",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/apache/mesos",
@@ -695,7 +687,7 @@
       "description": "Resource/Job scheduler for containers, VM's and physical hosts.",
       "category": "Orchestration",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/nebula-orchestrator",
@@ -703,15 +695,7 @@
       "description": "A Docker orchestration tool designed to manage massive scale distributed clusters.",
       "category": "Orchestration",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
-    },
-    {
-      "url": "https://github.com/hashicorp/nomad",
-      "title": "Nomad",
-      "description": "Easily deploy applications at any scale. A Distributed, Highly Available, Datacenter-Aware Scheduler.",
-      "category": "Orchestration",
-      "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/rancher/rancher",
@@ -719,7 +703,7 @@
       "description": "An open source project that provides a complete platform for operating Docker in production.",
       "category": "Orchestration",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/crazy-max/swarm-cronjob",
@@ -727,7 +711,7 @@
       "description": "Create jobs on a time-based schedule on Swarm.",
       "category": "Orchestration",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://aws.amazon.com/ecs/",
@@ -735,7 +719,7 @@
       "description": ":yen: A management service on EC2 that supports Docker containers.",
       "category": "Deployment & Platforms",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://appfleet.com/",
@@ -743,7 +727,7 @@
       "description": ":yen: Edge platform to deploy and manage containerized services globally; routes traffic to the closest location for low latency.",
       "category": "Deployment & Platforms",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://azure.microsoft.com/en-us/products/kubernetes-service/",
@@ -751,7 +735,7 @@
       "description": ":yen: Fully managed Kubernetes container orchestration service.",
       "category": "Deployment & Platforms",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://gitlab.com/blackfish/blackfish",
@@ -759,7 +743,7 @@
       "description": "A CoreOS VM to build swarm clusters for Dev & Production.",
       "category": "Deployment & Platforms",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://gitlab.com/n0r1sk/bosnd",
@@ -767,7 +751,7 @@
       "description": "BosnD, the boatswain daemon - A dynamic configuration file writer & service reloader for dynamically changing container environments.",
       "category": "Deployment & Platforms",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/caprover/caprover",
@@ -775,7 +759,7 @@
       "description": "[Previously known as CaptainDuckDuck] Automated Scalable Webserver Package (automated Docker+nginx) - Heroku on Steroids.",
       "category": "Deployment & Platforms",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://www.cloud66.com",
@@ -783,7 +767,7 @@
       "description": ":yen: Full-stack hosted container management as a service.",
       "category": "Deployment & Platforms",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://docs.cloud.google.com/run/docs/deploy-run-compose",
@@ -791,7 +775,7 @@
       "description": ":yen: Deploy `docker-compose.yaml` files directly to Google Cloud Run as a managed service.",
       "category": "Deployment & Platforms",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/convox/rack",
@@ -799,7 +783,7 @@
       "description": "Convox Rack is open source PaaS built on top of expert infrastructure automation and devops best practices.",
       "category": "Deployment & Platforms",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/deploystackio/docker-to-iac",
@@ -807,7 +791,7 @@
       "description": "Translate docker run and commit into Infrastructure as Code templates for AWS, Render.com and DigitalOcean.",
       "category": "Deployment & Platforms",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/kimdre/doco-cd",
@@ -815,7 +799,7 @@
       "description": "Lightweight GitOps and Continuous Deployment tool to deploy Docker Compose projects and Swarm stacks using polling and webhooks.",
       "category": "Deployment & Platforms",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/dokku/dokku",
@@ -823,7 +807,7 @@
       "description": "Docker powered mini-Heroku that helps you build and manage the lifecycle of applications.",
       "category": "Deployment & Platforms",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/exoframejs/exoframe",
@@ -831,7 +815,7 @@
       "description": "A self-hosted tool that allows simple one-command deployments using Docker.",
       "category": "Deployment & Platforms",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://www.giantswarm.io/",
@@ -839,7 +823,7 @@
       "description": ":yen: Simple microservice infrastructure. Deploy your containers in seconds.",
       "category": "Deployment & Platforms",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://docs.cloud.google.com/kubernetes-engine/docs",
@@ -847,7 +831,7 @@
       "description": ":yen: Docker containers on Google Cloud Computing powered by [Kubernetes][kubernetes].",
       "category": "Deployment & Platforms",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/grafeas/grafeas",
@@ -855,7 +839,7 @@
       "description": "A common API for metadata about containers, from image and build details to security vulnerabilities.",
       "category": "Deployment & Platforms",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://d2iq.com/products/dcos",
@@ -863,7 +847,7 @@
       "description": ":yen: Integrated platform for data and containers built on Apache Mesos.",
       "category": "Deployment & Platforms",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://www.redhat.com/en/technologies/cloud-computing/openshift/dedicated",
@@ -871,7 +855,7 @@
       "description": ":yen: Fully-managed Red Hat® OpenShift® service on Amazon Web Services and Google Cloud.",
       "category": "Deployment & Platforms",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/LombardiDaniel/swarm-ansible?tab=readme-ov-file",
@@ -879,7 +863,7 @@
       "description": "Swarm-Ansible bootstraps a production-ready swarm cluster using ansible. Comes with tools to automate CI, help monitoring and traefik pre-configured for SSL certificates and simple-auth. Comes with a private registry and more!.",
       "category": "Deployment & Platforms",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/hansehe/SwarmManagement",
@@ -887,7 +871,7 @@
       "description": "Swarm Management is a python application, installed with pip. The application makes it easy to manage a Docker Swarm by configuring a single yaml file describing which stacks to deploy, and which networks, configs or secrets to create.",
       "category": "Deployment & Platforms",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://www.joyent.com/",
@@ -895,7 +879,7 @@
       "description": ":yen: Elastic container-native infrastructure.",
       "category": "Deployment & Platforms",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/tsuru/tsuru",
@@ -903,7 +887,7 @@
       "description": "Tsuru is an extensible and open source Platform as a Service software.",
       "category": "Deployment & Platforms",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/werf/werf",
@@ -911,7 +895,7 @@
       "description": "Werf is a CI/CD tool for building Docker images efficiently and deploying them to Kubernetes using GitOps.",
       "category": "Deployment & Platforms",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/Yelp/docker-custodian",
@@ -919,7 +903,7 @@
       "description": "Keep docker hosts tidy.",
       "category": "Garbage Collection",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/stepchowfun/docuum",
@@ -927,7 +911,7 @@
       "description": "Least recently used (LRU) eviction of Docker images.",
       "category": "Garbage Collection",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/bytesharky/docker-dns",
@@ -935,7 +919,7 @@
       "description": "Lightweight DNS forwarder for Docker containers, resolves container names with custom suffixes (e.g. `.docker`) on the host to simplify service discovery.",
       "category": "Networking",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/coreos/flannel/",
@@ -943,7 +927,7 @@
       "description": "Flannel is a virtual network that gives a subnet to each host for use with container runtimes.",
       "category": "Networking",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/nicolaka/netshoot",
@@ -951,7 +935,7 @@
       "description": "The netshoot container has a powerful set of networking tools to help troubleshoot Docker networking issues.",
       "category": "Networking",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/jpetazzo/pipework",
@@ -959,7 +943,7 @@
       "description": "Software-Defined Networking for Linux Containers, Pipework works with \"plain\" LXC containers, and with the awesome Docker.",
       "category": "Networking",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/gliderlabs/registrator",
@@ -967,7 +951,7 @@
       "description": "Service registry bridge for Docker.",
       "category": "Networking",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/bunkerity/bunkerweb",
@@ -975,7 +959,7 @@
       "description": "Open-source and next-gen Web Application Firewall (WAF).",
       "category": "Reverse Proxy",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/lucaslorentz/caddy-docker-proxy",
@@ -983,7 +967,7 @@
       "description": "Caddy-based reverse proxy, configured with service or container labels.",
       "category": "Reverse Proxy",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/invzhi/caddy-docker-upstreams",
@@ -991,7 +975,7 @@
       "description": "Docker upstreams module for Caddy, configured with container labels.",
       "category": "Reverse Proxy",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/moonbuggy/docker-dnsmasq-updater",
@@ -999,7 +983,7 @@
       "description": "Update a remote dnsmasq server with Docker container hostnames.",
       "category": "Reverse Proxy",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/docker-flow/docker-flow-proxy",
@@ -1007,7 +991,7 @@
       "description": "Reconfigures proxy every time a new service is deployed, or when a service is scaled.",
       "category": "Reverse Proxy",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/nginx-proxy/docker-letsencrypt-nginx-proxy-companion",
@@ -1015,7 +999,7 @@
       "description": "A lightweight companion container for the nginx-proxy. It allow the creation/renewal of Let's Encrypt certificates automatically.",
       "category": "Reverse Proxy",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/Yundera/mesh-router",
@@ -1023,15 +1007,7 @@
       "description": "Free domain(nsl.sh) provider for Docker containers with automatic HTTPS routing. Uses Wireguard VPN to securely route subdomain requests across networks. Ideal for self-hosted NAS and cloud deployments.",
       "category": "Reverse Proxy",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
-    },
-    {
-      "url": "https://github.com/jc21/nginx-proxy-manager",
-      "title": "Nginx Proxy Manager",
-      "description": "A beautiful web interface for proxying web based services with SSL.",
-      "category": "Reverse Proxy",
-      "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/Safe3/openresty-manager",
@@ -1039,7 +1015,7 @@
       "description": "The easiest using, powerful and beautiful OpenResty Manager(Nginx Enhanced Version), open source alternative to OpenResty Edge.",
       "category": "Reverse Proxy",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/flavioaiello/swarm-router",
@@ -1047,7 +1023,7 @@
       "description": "A zero config service name based router for docker swarm mode with a fresh and more secure approach.",
       "category": "Reverse Proxy",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/resulgg/label-backup",
@@ -1055,7 +1031,7 @@
       "description": "A lightweight, Docker-aware backup agent that automatically discovers and backs up containerized databases (PostgreSQL, MySQL, MongoDB, Redis) based on Docker labels. Supports local storage and S3-compatible destinations with flexible scheduling via cron expressions.",
       "category": "Storage & Data",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/ContainX/docker-volume-netshare",
@@ -1063,7 +1039,7 @@
       "description": null,
       "category": "Storage & Data",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://portworx.com",
@@ -1071,7 +1047,7 @@
       "description": ":yen: Decentralized storage solution for persistent, shared and replicated volumes.",
       "category": "Storage & Data",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://www.quobyte.com/",
@@ -1079,7 +1055,7 @@
       "description": ":yen: Fully fault-tolerant distributed file system with a docker volume driver.",
       "category": "Storage & Data",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/mashb1t/resq",
@@ -1087,7 +1063,7 @@
       "description": "Restic-powered Docker backups for volumes, databases, and .env files, with or without stopping containers. Works with local, SSH, or any S3 compatible storage.",
       "category": "Storage & Data",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/rexray/rexray",
@@ -1095,7 +1071,7 @@
       "description": null,
       "category": "Storage & Data",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/jaldertech/adrg",
@@ -1103,7 +1079,7 @@
       "description": "Dynamic Docker resource governor using cgroups v2 to manage system load.",
       "category": "Observability",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/Appdynamics/docker-monitoring-extension",
@@ -1111,7 +1087,7 @@
       "description": ":yen: Docker Monitoring extension gathers metrics from the Docker Remote API, either using Unix Socket or TCP.",
       "category": "Observability",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/willfarrell/docker-autoheal",
@@ -1119,7 +1095,7 @@
       "description": "Monitor and restart unhealthy docker containers automatically.",
       "category": "Observability",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://betterstack.com/community/guides/scaling-docker/",
@@ -1127,15 +1103,7 @@
       "description": ":yen: A Docker-compatible observability stack that delivers log aggregation and uptime monitoring for containerized apps.",
       "category": "Observability",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
-    },
-    {
-      "url": "https://github.com/google/cadvisor",
-      "title": "cAdvisor",
-      "description": "Analyzes resource usage and performance characteristics of running containers.",
-      "category": "Observability",
-      "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://www.datadoghq.com/",
@@ -1143,7 +1111,7 @@
       "description": ":yen: Full-stack monitoring service with first-class Docker, Kubernetes, and Mesos support.",
       "category": "Observability",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/zorak1103/dlia",
@@ -1151,7 +1119,7 @@
       "description": "DLIA is an AI-powered Docker log monitoring agent that uses Large Language Models (LLMs) to intelligently analyze container logs, detect anomalies, and provide contextual insights over time.",
       "category": "Observability",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/dlepaux/docker-exporter",
@@ -1159,7 +1127,7 @@
       "description": "Lightweight Prometheus exporter for Docker container metrics written in Rust. Correct cgroup v2 memory working set on ARM64 (Raspberry Pi 5), runs non-root with a read-only socket, ~7 MiB idle RAM.",
       "category": "Observability",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/Will-Luck/Docker-Sentinel",
@@ -1167,7 +1135,7 @@
       "description": "Automated container updates with per-container policies, rollback safety, and a real-time web dashboard.",
       "category": "Observability",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/deep-on/dockprobe",
@@ -1175,7 +1143,7 @@
       "description": "Lightweight Docker monitoring dashboard in a single container. Real-time metrics, 6 anomaly detection rules, Telegram alerts, and 16 automated security scans. Zero config, ~50MB RAM.",
       "category": "Observability",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://gitlab.com/n0r1sk/dockproc",
@@ -1183,7 +1151,7 @@
       "description": "I/O monitoring for containers on processlevel.",
       "category": "Observability",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/stefanprodan/dockprom",
@@ -1191,7 +1159,7 @@
       "description": "Docker hosts and containers monitoring with Prometheus, Grafana, cAdvisor, NodeExporter and AlertManager.",
       "category": "Observability",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/amerkurev/doku",
@@ -1199,7 +1167,7 @@
       "description": "Doku is a simple web-based application that allows you to monitor Docker disk usage.",
       "category": "Observability",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/CodesWhat/drydock",
@@ -1207,7 +1175,7 @@
       "description": "Container update monitoring with web dashboard, 23 registry providers, 20 notification triggers, and distributed agent architecture.",
       "category": "Observability",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://docs.dynatrace.com/docs/observe/infrastructure-observability/container-platform-monitoring",
@@ -1215,7 +1183,7 @@
       "description": ":yen: Monitor containerized applications without installing agents or modifying your Run commands.",
       "category": "Observability",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://grafana.com/grafana/dashboards/179-docker-prometheus-monitoring/",
@@ -1223,7 +1191,7 @@
       "description": "A template for your Docker, Grafana and Prometheus stack.",
       "category": "Observability",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/bytestrix/InfraCanvas",
@@ -1231,7 +1199,7 @@
       "description": "Live visual map of containers, pods, volumes, and networks on any Linux server. Single binary, WebSocket-powered live updates.",
       "category": "Observability",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/kolapsis/maintenant",
@@ -1239,7 +1207,7 @@
       "description": "Self-discovering infrastructure monitoring for Docker and Kubernetes. Auto-detects containers via labels, with endpoint monitoring, heartbeats, TLS certificates, resource metrics, update intelligence, and a built-in status page. Single binary with embedded SPA.",
       "category": "Observability",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://middleware.io/",
@@ -1247,7 +1215,7 @@
       "description": ":yen: Monitor Docker hosts, containers, logs, and application performance from a unified observability platform.",
       "category": "Observability",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://www.site24x7.com/docker-monitoring.html",
@@ -1255,7 +1223,7 @@
       "description": ":yen: Docker Monitoring for DevOps and IT, SaaS Pay-per-Host model.",
       "category": "Observability",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://www.sysdig.com/products/monitor",
@@ -1263,7 +1231,7 @@
       "description": ":yen: Software or SaaS service that monitors, alerts, and troubleshoots containers using system calls; container-specific features for Docker and Kubernetes.",
       "category": "Observability",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/codeofmario/wiremap",
@@ -1271,7 +1239,7 @@
       "description": "A self-hosted visual Docker network topology explorer with real-time log streaming, live stats, embedded terminal, and container inspection.",
       "category": "Observability",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://www.aquasec.com",
@@ -1279,7 +1247,7 @@
       "description": ":yen: Securing container-based applications from Dev to Production on any platform.",
       "category": "Security",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/dash14/buildcage",
@@ -1287,7 +1255,7 @@
       "description": "Restricts outbound network access during Docker builds to prevent supply chain attacks, working as a drop-in BuildKit remote driver for Docker Buildx, with ready-to-use GitHub Actions.",
       "category": "Security",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/hectorm/cetusguard",
@@ -1295,7 +1263,7 @@
       "description": "CetusGuard is a tool that protects the Docker daemon socket by filtering calls to its API endpoints.",
       "category": "Security",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/bridgecrewio/checkov",
@@ -1303,7 +1271,7 @@
       "description": "Static analysis for infrastructure as code manifests (Terraform, Kubernetes, Cloudformation, Helm, Dockerfile, Kustomize) find security misconfiguration and fix them.",
       "category": "Security",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/tmatens/compose-lint",
@@ -1311,7 +1279,7 @@
       "description": "Lints Docker Compose files for security misconfigurations — privileged containers, unpinned images, Docker socket mounts, plaintext credentials — grounded in OWASP and the CIS Docker Benchmark.",
       "category": "Security",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/google/container-explorer",
@@ -1319,7 +1287,7 @@
       "description": "Forensic utility to explore Docker and containerd container details from mounted disk images.",
       "category": "Security",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/deepfence/ThreatMapper",
@@ -1327,7 +1295,7 @@
       "description": "Powerful runtime vulnerability scanner for kubernetes, virtual machines and serverless.",
       "category": "Security",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/docker/docker-bench-security",
@@ -1335,7 +1303,7 @@
       "description": "Script that checks for dozens of common best-practices around deploying Docker containers in production.",
       "category": "Security",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/Tecnativa/docker-socket-proxy",
@@ -1343,7 +1311,7 @@
       "description": "HAProxy-based fine-grained filter for the Docker API socket; widely used to expose a restricted socket to reverse proxies and homelab stacks.",
       "category": "Security",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/checkmarx/kics",
@@ -1351,7 +1319,7 @@
       "description": "An infrastructure-as-code scanning tool, find security vulnerabilities, compliance issues, and infrastructure misconfigurations early in the development cycle. Can be extended for additional policies.",
       "category": "Security",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://www.paloaltonetworks.com/prisma/cloud",
@@ -1359,7 +1327,7 @@
       "description": ":yen: (Previously Twistlock Security Suite) detects vulnerabilities, hardens container images, and enforces security policies across the lifecycle of applications.",
       "category": "Security",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/dormstern/segspec",
@@ -1367,7 +1335,7 @@
       "description": "Extracts network dependencies from Docker Compose, Kubernetes manifests, Helm charts, and other config files to generate Kubernetes NetworkPolicies with evidence tracing.",
       "category": "Security",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/falcosecurity/falco",
@@ -1375,7 +1343,7 @@
       "description": "Sysdig Falco is an open source container security monitor. It can monitor application, container, host, and network activity and alert on unauthorized activity.",
       "category": "Security",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://www.sysdig.com/solutions/cloud-detection-and-response-cdr",
@@ -1383,7 +1351,7 @@
       "description": ":yen: Sysdig Secure addresses run-time security through behavioral monitoring and defense, and provides deep forensics based on open source Sysdig for incident response.",
       "category": "Security",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://www.trendmicro.com/en_us/business/products/hybrid-cloud/deep-security.html",
@@ -1391,7 +1359,7 @@
       "description": ":yen: Trend Micro DeepSecurity offers runtime protection for container workloads and hosts as well as preruntime scanning of images to identify vulnerabilities, malware and content such as hardcoded secrets.",
       "category": "Security",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/AbianS/docker-db-manager",
@@ -1399,7 +1367,7 @@
       "description": "Desktop app for managing Docker database containers with visual interface and one-click operations.",
       "category": "Desktop",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://www.docker.com/products/docker-desktop/",
@@ -1407,7 +1375,7 @@
       "description": "Official native app. Only for Windows and MacOS.",
       "category": "Desktop",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/felixgborrego/simple-docker-ui",
@@ -1415,7 +1383,7 @@
       "description": "Built on Electron.",
       "category": "Desktop",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/slonopotamus/stevedore",
@@ -1423,7 +1391,7 @@
       "description": "Good Docker Desktop replacement for Windows. Both Linux and Windows Containers are supported. [slonopotamus](https://github.com/slonopotamus).",
       "category": "Desktop",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/jr-k/d4s",
@@ -1431,7 +1399,7 @@
       "description": "A fast, keyboard-driven terminal UI to manage Docker containers, Compose stacks, and Swarm services with the ergonomics of K9s.",
       "category": "Terminal",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/Falldog/dcinja",
@@ -1439,7 +1407,7 @@
       "description": "The powerful and smallest binary size of template engine for docker command line environment.",
       "category": "Terminal",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/FabienD/docker-stack",
@@ -1447,7 +1415,7 @@
       "description": "Dctl is a Cli tool that helps developers by allowing them to execute all docker compose commands anywhere in the terminal, and more.",
       "category": "Terminal",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/christian-korneck/docker-pushrm",
@@ -1455,7 +1423,7 @@
       "description": "A Docker CLI plugin that lets you push the README.md file from the current directory to Docker Hub. Also supports Quay and Harbor.",
       "category": "Terminal",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/lucabello/docker-captain",
@@ -1463,7 +1431,7 @@
       "description": "A friendly CLI to manage multiple Docker Compose deployments with style — powered by Typer, Rich, questionary, and sh.",
       "category": "Terminal",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/spotify/dockerfile-mode",
@@ -1471,7 +1439,7 @@
       "description": "An Emacs mode for handling Dockerfiles.",
       "category": "Terminal",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/patrickhoefler/dockerfilegraph",
@@ -1479,7 +1447,7 @@
       "description": "Visualize your multi-stage Dockerfiles.",
       "category": "Terminal",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/lirantal/dockly",
@@ -1487,7 +1455,7 @@
       "description": "An interactive shell UI for managing Docker containers.",
       "category": "Terminal",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/shubh-io/dockmate",
@@ -1495,7 +1463,7 @@
       "description": "Lightweight terminal-based Docker and Podman manager with a text-based user interface,.",
       "category": "Terminal",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/GhostWriters/DockSTARTer",
@@ -1503,7 +1471,7 @@
       "description": "DockSTARTer helps you get started with home server apps running in Docker.",
       "category": "Terminal",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/strmax195-hue/docktui",
@@ -1511,7 +1479,7 @@
       "description": "Fast, zero-dependency terminal dashboard for Docker and Compose.",
       "category": "Terminal",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/paulo-amaral/dockup",
@@ -1519,7 +1487,7 @@
       "description": "TUI to install, harden and maintain container runtimes: Docker Engine + Compose v2, NVIDIA Container Toolkit, Podman and Apple container, with a CIS-inspired security audit.",
       "category": "Terminal",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/durableprogramming/dprs",
@@ -1527,7 +1495,7 @@
       "description": "A developer-focused TUI for managing Docker containers with real-time log streaming and container management.",
       "category": "Terminal",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/moncho/dry",
@@ -1535,7 +1503,7 @@
       "description": "An interactive CLI for Docker containers.",
       "category": "Terminal",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/joao-zanutto/easydocker",
@@ -1543,7 +1511,7 @@
       "description": "A Terminal UI highly inpired by k9s levaraging beatiful BubbleTea graphics.",
       "category": "Terminal",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/ajayd-san/gomanagedocker",
@@ -1551,7 +1519,7 @@
       "description": "TUI tool to view and manage your docker objects blazingly fast with sensible keybindings, also supports VIM navigation out of the box.",
       "category": "Terminal",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/jesseduffield/lazydocker",
@@ -1559,7 +1527,7 @@
       "description": "The lazier way to manage everything docker. A simple terminal UI for both docker and docker-compose, written in Go with the gocui library.",
       "category": "Terminal",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/shiwaforce/poco",
@@ -1567,7 +1535,7 @@
       "description": "Proco will help you to organise and manage Docker, Docker-Compose, Kubernetes projects of any complexity using simple YAML config files to shorten the route from finding your project to initialising it in your local environment.",
       "category": "Terminal",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/JonathonReinhart/scuba",
@@ -1575,7 +1543,7 @@
       "description": "Transparently use Docker containers to encapsulate software build environments,.",
       "category": "Terminal",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/segersniels/supdock",
@@ -1583,7 +1551,7 @@
       "description": "Allows for slightly more visual usage of Docker with an interactive prompt.",
       "category": "Terminal",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/Eldara-Tech/swarmcli",
@@ -1591,7 +1559,7 @@
       "description": "Swarm Management at the speed of thought — with real-time log streaming, instant shell access to containers, seamless port forwarding, and on-demand secret reveal capabilities, giving you full control over your Docker Swarm without breaking your flow.",
       "category": "Terminal",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/pivovarit/tdocker",
@@ -1599,7 +1567,7 @@
       "description": "A `docker ps` replacement for everyday container operations.",
       "category": "Terminal",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/idesyatov/wharf",
@@ -1607,7 +1575,7 @@
       "description": "A k9s-inspired TUI for Docker Compose with vim-style navigation, real-time CPU/MEM monitoring with braille charts, container file browser, SSH remote host support, and command mode.",
       "category": "Terminal",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/getarcaneapp/arcane",
@@ -1615,7 +1583,7 @@
       "description": "An easy and modern Docker management platform, built with everybody in mind.",
       "category": "Web",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/knrdl/casa",
@@ -1623,7 +1591,7 @@
       "description": "Outsource the administration of a handful of containers to your co-workers,.",
       "category": "Web",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/wrfly/container-web-tty",
@@ -1631,7 +1599,7 @@
       "description": "Connect your containers via a web-tty.",
       "category": "Web",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/klausmeyer/docker-registry-browser",
@@ -1639,7 +1607,7 @@
       "description": "Web Interface for the Docker Registry HTTP API v2.",
       "category": "Web",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/dockersamples/docker-swarm-visualizer",
@@ -1647,7 +1615,7 @@
       "description": "Visualizes Docker services on a Docker Swarm (for running demos).",
       "category": "Web",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/louislam/dockge",
@@ -1655,7 +1623,7 @@
       "description": "Easy-to-use and reactive self-hosted docker compose.yaml stack-oriented manager.",
       "category": "Web",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/mbecker20/komodo",
@@ -1663,7 +1631,7 @@
       "description": "A tool to build and deploy software on many servers.",
       "category": "Web",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/portainer/portainer",
@@ -1671,7 +1639,7 @@
       "description": "A lightweight management UI for managing your Docker hosts or Docker Swarm clusters.",
       "category": "Web",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/swarmpit/swarmpit",
@@ -1679,7 +1647,7 @@
       "description": "Swarmpit provides simple and easy to use interface for your Docker Swarm cluster. You can manage your stacks, services, secrets, volumes, networks etc.",
       "category": "Web",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/fr4nsys/usulnet",
@@ -1687,7 +1655,7 @@
       "description": "A complete and modern Docker management platform designed for sysadmin, devops with enterprise grade tools, cve scanner, ssh, rdp on web and much more.",
       "category": "Web",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/Silex/docker.el",
@@ -1695,7 +1663,7 @@
       "description": null,
       "category": "IDE Integrations",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/lispyclouds/contajners",
@@ -1703,7 +1671,7 @@
       "description": "An idiomatic, data-driven, REPL friendly Clojure client for OCI container engines.",
       "category": "API Client",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/gesellix/docker-client",
@@ -1711,7 +1679,7 @@
       "description": "A Docker remote api client library for the JVM, written in Groovy.",
       "category": "API Client",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://gitlab.com/masaeedu/docker-client",
@@ -1719,7 +1687,7 @@
       "description": "Docker API client for JavaScript, automatically generated from Swagger API definition from moby repository.",
       "category": "API Client",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/dgongut/docker-controller-bot",
@@ -1727,7 +1695,7 @@
       "description": "Telegram bot to control docker containers.",
       "category": "API Client",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/fabric8io/docker-maven-plugin",
@@ -1735,7 +1703,7 @@
       "description": "A Maven plugin for running and creating Docker images.",
       "category": "API Client",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/Microsoft/Docker.DotNet",
@@ -1743,7 +1711,7 @@
       "description": "C#/.NET HTTP client for the Docker remote API.",
       "category": "API Client",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/ChangemakerStudios/Docker.Registry.DotNet",
@@ -1751,7 +1719,7 @@
       "description": ".NET (C#) Client Library for interacting with a Docker Registry API (v2).",
       "category": "API Client",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/apocas/dockerode",
@@ -1759,7 +1727,7 @@
       "description": "Docker Remote API node.js module.",
       "category": "API Client",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/fsouza/go-dockerclient/",
@@ -1767,7 +1735,7 @@
       "description": "Go HTTP client for the Docker remote API.",
       "category": "API Client",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/gesellix/gradle-docker-plugin",
@@ -1775,7 +1743,7 @@
       "description": "A Docker remote api plugin for Gradle.",
       "category": "API Client",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/greenled/portainer-stack-utils",
@@ -1783,15 +1751,7 @@
       "description": "Bash script to deploy/update/undeploy Docker stacks in a Portainer instance from a docker-compose yaml file.",
       "category": "API Client",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
-    },
-    {
-      "url": "https://github.com/marcuslonnberg/sbt-docker",
-      "title": "sbt-docker",
-      "description": "Create Docker images directly from sbt.",
-      "category": "API Client",
-      "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://buddy.works",
@@ -1799,7 +1759,7 @@
       "description": ":yen: The best of Git, build & deployment tools combined into one powerful tool that supercharged our development.",
       "category": "CI/CD",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/harbur/captain",
@@ -1807,7 +1767,7 @@
       "description": "Convert your Git workflow to Docker containers ready for Continuous Delivery.",
       "category": "CI/CD",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://circleci.com/",
@@ -1815,7 +1775,7 @@
       "description": ":yen: Push or pull Docker images from your build environment, or build and run containers right on CircleCI.",
       "category": "CI/CD",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://octopus.com/codefresh",
@@ -1823,7 +1783,7 @@
       "description": ":yen: End-to-end build, test, and share for Docker applications, with automated testing.",
       "category": "CI/CD",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://concourse-ci.org",
@@ -1831,7 +1791,7 @@
       "description": ":yen: Pipeline-oriented CI SaaS platform for DevOps teams.",
       "category": "CI/CD",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/DefangLabs/defang",
@@ -1839,7 +1799,7 @@
       "description": "Deploy Docker Compose to your favorite cloud in minutes.",
       "category": "CI/CD",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://depot.dev",
@@ -1847,7 +1807,7 @@
       "description": ":yen: Build Docker images fast, in the cloud. Blazing fast compute, automatic intelligent caching, and zero configuration.",
       "category": "CI/CD",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/crazy-max/diun",
@@ -1855,7 +1815,7 @@
       "description": "Receive notifications when an image or repository is updated on a Docker registry.",
       "category": "CI/CD",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/mag37/dockcheck",
@@ -1863,7 +1823,7 @@
       "description": "A script checking updates for docker images without pulling then auto-update selected/all containers. With notifications, pruning and more.",
       "category": "CI/CD",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/jenkinsci/docker-plugin/",
@@ -1871,7 +1831,7 @@
       "description": "The aim of the docker plugin is to be able to use a docker host to dynamically provision a slave, run a single build, then tear-down that slave.",
       "category": "CI/CD",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/shizunge/gantry",
@@ -1879,7 +1839,7 @@
       "description": "Automatically update selected Docker swarm services.",
       "category": "CI/CD",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://gitlab.com/gitlab-org/gitlab-runner",
@@ -1887,7 +1847,7 @@
       "description": "GitLab has integrated CI to test, build and deploy your code with the use of GitLab runners.",
       "category": "CI/CD",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/theSage21/jaypore_ci",
@@ -1895,7 +1855,7 @@
       "description": "Simple, very flexible, powerful CI / CD / automation system configured in Python. Offline and local first.",
       "category": "CI/CD",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/Kraken-CI/kraken",
@@ -1903,7 +1863,7 @@
       "description": "Modern CI/CD, open-source, on-premise system that is highly scalable and focused on testing. One of its executors is Docker. Developed.",
       "category": "CI/CD",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://screwdriver.cd/",
@@ -1911,7 +1871,7 @@
       "description": ":yen: Yahoo's OpenSource buildplatform designed for Continous Delivery.",
       "category": "CI/CD",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/youssefbrr/self-hosted-runner",
@@ -1919,7 +1879,7 @@
       "description": "Dockerized solution for setting up a self-hosted GitHub Actions runner with support for Linux, macOS, and Windows.",
       "category": "CI/CD",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://semaphore.io/",
@@ -1927,7 +1887,7 @@
       "description": ":yen: High-performance cloud CI that builds, tests and ships containers to production.",
       "category": "CI/CD",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/Stratoscale/skipper",
@@ -1935,7 +1895,7 @@
       "description": "Easily dockerize your Git repository.",
       "category": "CI/CD",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://tekton.dev/",
@@ -1943,15 +1903,7 @@
       "description": "A cloud-native pipeline resource.",
       "category": "CI/CD",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
-    },
-    {
-      "url": "https://www.travis-ci.com/",
-      "title": "TravisCI",
-      "description": ":yen: Hosted CI for GitHub projects with Docker support.",
-      "category": "CI/CD",
-      "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/coder/coder",
@@ -1959,7 +1911,7 @@
       "description": "Remote development machines powered by Terraform or Docker.",
       "category": "Development Environment",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/whatwedo/dde",
@@ -1967,7 +1919,7 @@
       "description": "Local development environment toolset based on Docker.",
       "category": "Development Environment",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/bibendi/dip",
@@ -1975,7 +1927,7 @@
       "description": "CLI utility for straightforward provisioning and interacting with an application configured by docker-compose.",
       "category": "Development Environment",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/EnvCLI/EnvCLI",
@@ -1983,7 +1935,7 @@
       "description": "Replace your local installation of Node, Go, ... with project-specific docker containers.",
       "category": "Development Environment",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/potterwhite/HarborPilot",
@@ -1991,7 +1943,7 @@
       "description": "Automated multi-platform Docker image builder for embedded Linux development (RK3588, RV1126, RK3568). Features three-layer config inheritance, PORT_SLOT-based port allocation, and cross-version Ubuntu support (20.04/22.04/24.04).",
       "category": "Development Environment",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/lando/lando",
@@ -1999,7 +1951,7 @@
       "description": "Lando is for developers who want to quickly specify and painlessly spin up the services and tools needed to develop their projects.",
       "category": "Development Environment",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/uniget-org/cli",
@@ -2007,7 +1959,7 @@
       "description": "Uni(versal)get, the installer and updater for container tools and beyond (formerly docker-setup).",
       "category": "Development Environment",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/deluan/zsh-in-docker",
@@ -2015,7 +1967,7 @@
       "description": "Install Zsh, Oh-My-Zsh and plugins inside a Docker container with one line!.",
       "category": "Development Environment",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/apache/openwhisk",
@@ -2023,7 +1975,7 @@
       "description": "A serverless, open source cloud platform that executes functions in response to events at any scale.",
       "category": "Serverless",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://www.koyeb.com/",
@@ -2031,7 +1983,7 @@
       "description": ":yen: Koyeb is a developer-friendly serverless platform to deploy apps globally. Seamlessly run Docker containers, web apps, and APIs with git-based deployment, native autoscaling, a global edge network, and built-in service mesh and discovery.",
       "category": "Serverless",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/openfaas/faas",
@@ -2039,7 +1991,7 @@
       "description": "A complete serverless functions framework for Docker and Kubernetes.",
       "category": "Serverless",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/GoogleContainerTools/container-structure-test",
@@ -2047,7 +1999,7 @@
       "description": "A framework to validate the structure of an image by checking the outputs of commands or the contents of the filesystem.",
       "category": "Testing",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/goss-org/goss/tree/master/extras/dgoss",
@@ -2055,7 +2007,7 @@
       "description": "A fast YAML based tool for validating docker containers.",
       "category": "Testing",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/kurtosis-tech/kurtosis",
@@ -2063,7 +2015,7 @@
       "description": "A composable build system for multi-container test environments that provides developers with: a powerful Python-like SDK for environment configuration, a compile-time validator to verify environment behavior & setup, and a runtime for environment execution, monitoring, & debugging capabilities.",
       "category": "Testing",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/alexei-led/pumba",
@@ -2071,7 +2023,7 @@
       "description": "Chaos testing tool for Docker. Can be deployed on kubernetes and CoreOS cluster.",
       "category": "Testing",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/artsy/hokusai",
@@ -2079,7 +2031,7 @@
       "description": "A Docker + Kubernetes CLI for application developers; used to containerize an application and to manage its lifecycle throughout development, testing, and release cycles. From [artsy](https://github.com/artsy).",
       "category": "Wrappers",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/livecycle/preevy",
@@ -2087,7 +2039,7 @@
       "description": "Preview environments for Docker and Docker Compose projects. Test your changes and get feedback from devs and non-devs (Product/Design) by deploying pull requests to the your cloud provider as part of your CI pipeline.",
       "category": "Wrappers",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/subuser-security/subuser",
@@ -2095,7 +2047,7 @@
       "description": "Makes it easy to securely and portably run graphical desktop applications in Docker.",
       "category": "Wrappers",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/indigo-dc/udocker",
@@ -2103,7 +2055,7 @@
       "description": "A tool to execute simple docker containers in batch or interactive systems without root privileges.",
       "category": "Wrappers",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://developer.hashicorp.com/vagrant/docs/providers/docker/basics",
@@ -2111,7 +2063,7 @@
       "description": "Good starting point is [vagrant-docker-example](https://github.com/bubenkoff/vagrant-docker-example).",
       "category": "Wrappers",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/iximiuz/cdebug",
@@ -2119,7 +2071,7 @@
       "description": "Swiss-army knife for debugging running containers via ephemeral sidecars; works with Docker, containerd, and Kubernetes.",
       "category": "In-Container Tooling",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/nicomt/ckron",
@@ -2127,7 +2079,7 @@
       "description": "A cron-style job scheduler for docker,.",
       "category": "In-Container Tooling",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/jwilder/docker-gen",
@@ -2135,7 +2087,7 @@
       "description": "Generate files from docker container meta-data.",
       "category": "In-Container Tooling",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/powerman/dockerize",
@@ -2143,7 +2095,7 @@
       "description": "Utility to simplify running applications in docker containers.",
       "category": "In-Container Tooling",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/tianon/gosu",
@@ -2151,7 +2103,7 @@
       "description": "Run this specific application as this specific user and get out of the pipeline (entrypoint script tool).",
       "category": "In-Container Tooling",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/sindresorhus/is-docker",
@@ -2159,7 +2111,7 @@
       "description": "Check if the process is running inside a Docker container.",
       "category": "In-Container Tooling",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/tarampampam/microcheck",
@@ -2167,7 +2119,7 @@
       "description": "Lightweight health check utilities for Docker containers (75 KB instead of 9.3 MB for httpcheck versus cURL) in pure C - http(s), port checks, and parallel execution are included.",
       "category": "In-Container Tooling",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/mcuadros/ofelia/",
@@ -2175,7 +2127,7 @@
       "description": "Ofelia is a modern and low footprint job scheduler for docker environments, built on Go. Ofelia aims to be a replacement for the old fashioned cron. Supports configuration from container labels and/or configuration files.",
       "category": "In-Container Tooling",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/ncopa/su-exec",
@@ -2183,7 +2135,7 @@
       "description": "This is a simple tool that will simply execute a program with different privileges. The program will be executed directly and not run as a child, like su and sudo does, which avoids TTY and signal issues. Why reinvent gosu? This does more or less exactly the same thing as gosu but it is only 10kb instead of 1.8MB.",
       "category": "In-Container Tooling",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/aptible/supercronic",
@@ -2191,7 +2143,7 @@
       "description": "Crontab-compatible job runner, designed specifically to run in containers.",
       "category": "In-Container Tooling",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://semaphore.io/blog/docker-benefits",
@@ -2199,7 +2151,7 @@
       "description": null,
       "category": "Where to Start",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://www.manning.com/books/bootstrapping-microservices-with-docker-kubernetes-and-terraform",
@@ -2207,7 +2159,7 @@
       "description": "A practical and project-based guide to building applications with microservices, starts by building a Docker image for a single microservice and publishing it to a private container registry, finishes by deploying a complete microservices application to a production Kubernetes cluster.",
       "category": "Where to Start",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/prakhar1989/docker-curriculum",
@@ -2215,7 +2167,7 @@
       "description": "A comprehensive tutorial for getting started with Docker. Teaches how to use Docker and deploy dockerized apps on AWS with Elastic Beanstalk and Elastic Container Service.",
       "category": "Where to Start",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://docs.docker.com/",
@@ -2223,7 +2175,7 @@
       "description": "the official documentation.",
       "category": "Where to Start",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/groda/big_data/blob/master/docker_for_beginners.md",
@@ -2231,7 +2183,7 @@
       "description": "A tutorial for beginners who need to learn the basics of Docker—from \"Hello world!\" to basic interactions with containers, with simple explanations of the underlying concepts.",
       "category": "Where to Start",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/eficode-academy/docker-katas",
@@ -2239,7 +2191,7 @@
       "description": null,
       "category": "Where to Start",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://training.mirantis.com",
@@ -2247,7 +2199,7 @@
       "description": ":yen:",
       "category": "Where to Start",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/furkan/dockerlings",
@@ -2255,7 +2207,7 @@
       "description": "Learn docker from inside your terminal, with a modern TUI and bite sized exercises.",
       "category": "Where to Start",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://blog.stephane-robert.info/docs/conteneurs/moteurs-conteneurs/docker/",
@@ -2263,7 +2215,7 @@
       "description": null,
       "category": "Where to Start",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/dwyl/learn-docker",
@@ -2271,7 +2223,7 @@
       "description": "step-by-step tutorial and more resources (video, articles, cheat sheets)",
       "category": "Where to Start",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://pagertree.com/learn/docker/overview",
@@ -2279,7 +2231,7 @@
       "description": "A beginner-focused high-level overview of all the major components of Docker and how they fit together. Lots of high-quality images, examples, and resources.",
       "category": "Where to Start",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://training.play-with-docker.com/",
@@ -2287,7 +2239,7 @@
       "description": "PWD is a great way to get started with Docker from beginner to advanced users. Docker runs directly in your browser.",
       "category": "Where to Start",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/brunocascio/docker-espanol",
@@ -2295,7 +2247,7 @@
       "description": null,
       "category": "Where to Start",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/RamiKrispin/vscode-python",
@@ -2303,7 +2255,7 @@
       "description": "A step-by-step tutorial for setting up a dockerized Python development environment with VScode, Docker, and the Dev Container extension.",
       "category": "Where to Start",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://docker-handbook.farhan.dev/",
@@ -2311,7 +2263,7 @@
       "description": null,
       "category": "Where to Start",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/eon01/DockerCheatSheet",
@@ -2319,7 +2271,7 @@
       "description": null,
       "category": "Where to Start",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/dimonomid/docker-quick-ref",
@@ -2327,7 +2279,7 @@
       "description": null,
       "category": "Where to Start",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/JensPiegsa/docker-cheat-sheet",
@@ -2335,7 +2287,7 @@
       "description": null,
       "category": "Where to Start",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/wsargent/docker-cheat-sheet",
@@ -2343,7 +2295,7 @@
       "description": null,
       "category": "Where to Start",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://toedter.com/2015/05/11/docker-on-windows-behind-a-firewall/",
@@ -2351,7 +2303,7 @@
       "description": null,
       "category": "Where to Start (Windows)",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://docs.mirantis.com/containers/v3.0/dockeree-ref-arch/app-dev/modernize-dotnet-apps.html",
@@ -2359,7 +2311,7 @@
       "description": "You will learn to identify the types of .NET Framework applications that are good candidates for containerization, the \"lift-and-shift\" approach to containerization.",
       "category": "Where to Start (Windows)",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://blog.alexellis.io/docker-does-sql2016-aspnet/",
@@ -2367,7 +2319,7 @@
       "description": null,
       "category": "Where to Start (Windows)",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://www.hanselman.com/blog/exploring-aspnet-core-with-docker-in-both-linux-and-windows-containers",
@@ -2375,7 +2327,7 @@
       "description": null,
       "category": "Where to Start (Windows)",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://blog.sixeyed.com/dockerizing-nerd-dinner-part-1-running-a-legacy-asp-net-app-in-a-windows-container/",
@@ -2383,7 +2335,7 @@
       "description": null,
       "category": "Where to Start (Windows)",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://learn.microsoft.com/en-us/virtualization/windowscontainers/about/",
@@ -2391,7 +2343,7 @@
       "description": null,
       "category": "Where to Start (Windows)",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/cncf/landscape",
@@ -2399,7 +2351,7 @@
       "description": null,
       "category": "Books & Tutorials",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://www.docker.com/blog/",
@@ -2407,7 +2359,7 @@
       "description": "Regular updates about Docker, the community and tools.",
       "category": "Books & Tutorials",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://intellipaat.com/docker-training-course/?US",
@@ -2415,7 +2367,7 @@
       "description": ":yen: Will help you to will Learn Docker containerization, running Docker containers, Image creation, Dockerfile, Docker orchestration, security best practices, and more through hands-on projects and case studies and helps to clear Docker Certified Associate.",
       "category": "Books & Tutorials",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://www.codever.dev/search?q=docker",
@@ -2423,7 +2375,7 @@
       "description": "Use the tag [docker](https://www.codever.dev/bookmarks/t/docker).",
       "category": "Books & Tutorials",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://www.manning.com/books/docker-in-action-second-edition",
@@ -2431,7 +2383,7 @@
       "description": null,
       "category": "Books & Tutorials",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://www.manning.com/books/docker-in-practice-second-edition",
@@ -2439,7 +2391,7 @@
       "description": null,
       "category": "Books & Tutorials",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://pythonspeed.com/docker/",
@@ -2447,7 +2399,7 @@
       "description": "A series of detailed articles on the specifics of Docker packaging for Python.",
       "category": "Books & Tutorials",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://www.manning.com/books/learn-docker-in-a-month-of-lunches",
@@ -2455,7 +2407,7 @@
       "description": null,
       "category": "Books & Tutorials",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://coursesity.com/blog/best-docker-tutorials/",
@@ -2463,7 +2415,7 @@
       "description": "Learn Docker - curated list of the top online docker tutorials and courses.",
       "category": "Books & Tutorials",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://hackr.io/tutorials/learn-docker",
@@ -2471,7 +2423,7 @@
       "description": null,
       "category": "Books & Tutorials",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/docker/awesome-compose",
@@ -2479,7 +2431,7 @@
       "description": "Docker Compose samples.",
       "category": "Awesome Lists",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/n1trux/awesome-sysadmin",
@@ -2487,7 +2439,7 @@
       "description": null,
       "category": "Awesome Lists",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://nystudio107.com/blog/an-annotated-docker-config-for-frontend-web-development",
@@ -2495,7 +2447,7 @@
       "description": null,
       "category": "Demos and Examples",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/alexmacarthur/local-docker-db",
@@ -2503,7 +2455,7 @@
       "description": null,
       "category": "Demos and Examples",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/ferbs/webstack-micro",
@@ -2511,7 +2463,7 @@
       "description": null,
       "category": "Demos and Examples",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://docker-saigon.github.io/post/Docker-Caveats/",
@@ -2519,7 +2471,7 @@
       "description": null,
       "category": "Good Tips",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://blog.jessfraz.com/post/docker-containers-on-the-desktop/",
@@ -2527,7 +2479,7 @@
       "description": null,
       "category": "Good Tips",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://www.flexera.com/blog/finops/",
@@ -2535,7 +2487,7 @@
       "description": null,
       "category": "Good Tips",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://medium.com/@kinghuang/docker-compose-anchors-aliases-extensions-a1e4105d70bd",
@@ -2543,7 +2495,7 @@
       "description": null,
       "category": "Good Tips",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://fabiorehm.com/blog/2014/09/11/running-gui-apps-with-docker/",
@@ -2551,7 +2503,7 @@
       "description": null,
       "category": "Good Tips",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://blog.hypriot.com/",
@@ -2559,7 +2511,7 @@
       "description": null,
       "category": "Raspberry Pi & ARM",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/umiddelb/armhf/wiki/Get-Docker-up-and-running-on-the-RaspberryPi-%28ARMv6%29-in-three-steps",
@@ -2567,7 +2519,7 @@
       "description": null,
       "category": "Raspberry Pi & ARM",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://www.balena.io",
@@ -2575,7 +2527,7 @@
       "description": null,
       "category": "Raspberry Pi & ARM",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/umiddelb/armhf/wiki/Installing,-running,-using-docker-on-armhf-%28ARMv7%29-devices",
@@ -2583,7 +2535,7 @@
       "description": null,
       "category": "Raspberry Pi & ARM",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://opensource.com/business/14/9/security-for-docker",
@@ -2591,7 +2543,7 @@
       "description": null,
       "category": "Security Articles",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/tomwillfixit/alpine-cvecheck",
@@ -2599,7 +2551,7 @@
       "description": null,
       "category": "Security Articles",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/AonCyberLabs/Docker-Secure-Deployment-Guidelines",
@@ -2607,7 +2559,7 @@
       "description": null,
       "category": "Security Articles",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://binarymist.io/publication/docker-security/",
@@ -2615,7 +2567,7 @@
       "description": null,
       "category": "Security Articles",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://www.slideshare.net/slideshow/docker-security-are-your-containers-tightly-secured-to-the-ship/43834790",
@@ -2623,7 +2575,7 @@
       "description": null,
       "category": "Security Articles",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://github.com/docker-library/official-images/issues/1448",
@@ -2631,7 +2583,7 @@
       "description": null,
       "category": "Security Articles",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://cisofy.com/lynis/",
@@ -2639,7 +2591,7 @@
       "description": null,
       "category": "Security Articles",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://linux-audit.com/tags/docker/",
@@ -2647,7 +2599,7 @@
       "description": null,
       "category": "Security Articles",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://www.se-radio.net/2017/05/se-radio-episode-290-diogo-monica-on-docker-security/",
@@ -2655,7 +2607,7 @@
       "description": null,
       "category": "Security Articles",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://snyk.io/blog/10-docker-image-security-best-practices/",
@@ -2663,7 +2615,7 @@
       "description": null,
       "category": "Security Articles",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://snyk.io/blog/top-ten-most-popular-docker-images-each-contain-at-least-30-vulnerabilities/",
@@ -2671,7 +2623,7 @@
       "description": null,
       "category": "Security Articles",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://opensource.com/business/15/3/docker-security-tuning",
@@ -2679,7 +2631,7 @@
       "description": null,
       "category": "Security Articles",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://snyk.io/blog/10-best-practices-to-containerize-nodejs-web-applications-with-docker/",
@@ -2687,7 +2639,7 @@
       "description": null,
       "category": "Security Articles",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://vimeo.com/110835013",
@@ -2695,7 +2647,7 @@
       "description": null,
       "category": "Videos",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://vimeo.com/123341629",
@@ -2703,7 +2655,7 @@
       "description": null,
       "category": "Videos",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://www.udacity.com/course/scalable-microservices-with-kubernetes--ud615",
@@ -2711,7 +2663,7 @@
       "description": null,
       "category": "Videos",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://telegram.me/dockerbr",
@@ -2719,7 +2671,7 @@
       "description": null,
       "category": "Brazilian",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://www.docker.com/community/",
@@ -2727,7 +2679,7 @@
       "description": null,
       "category": "English",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://www.docker.com/events/",
@@ -2735,7 +2687,7 @@
       "description": null,
       "category": "English",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://www.meetup.com/en-AU/Docker-Online-Meetup/",
@@ -2743,7 +2695,7 @@
       "description": null,
       "category": "English",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://www.reddit.com/r/docker/",
@@ -2751,7 +2703,7 @@
       "description": null,
       "category": "English",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://t.me/docker_ru",
@@ -2759,7 +2711,7 @@
       "description": null,
       "category": "Russian",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://dockertips.com/",
@@ -2767,7 +2719,7 @@
       "description": null,
       "category": "Spanish",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     },
     {
       "url": "https://starchart.cc/veggiemonk/awesome-docker.svg?variant=adaptive",
@@ -2775,7 +2727,7 @@
       "description": null,
       "category": "Stargazers over time",
       "source": "veggiemonk/awesome-docker",
-      "indexedAt": "2026-07-23T13:30:42.422Z"
+      "indexedAt": "2026-07-23T14:53:24.064Z"
     }
   ],
   "categories": [
@@ -2824,5 +2776,5 @@
     "Spanish",
     "Stargazers over time"
   ],
-  "crawledAt": "2026-07-23T13:30:42.422Z"
+  "crawledAt": "2026-07-23T14:53:24.064Z"
 }

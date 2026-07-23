@@ -1,0 +1,13 @@
+{
+  "id": "fail-fast",
+  "category": "principles",
+  "label": "Fail-Fast",
+  "aliases": [],
+  "description": "A system should immediately report any condition that is likely to be a failure",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {},
+  "indexedAt": "2026-07-23T14:36:03.563Z"
+}

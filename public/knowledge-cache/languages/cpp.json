@@ -1,0 +1,16 @@
+{
+  "id": "cpp",
+  "category": "languages",
+  "label": "C++",
+  "aliases": [],
+  "description": "Systems programming language with object-oriented, generic, and low-level features",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/C%2B%2B",
+    "wikidata": "https://www.wikidata.org/wiki/Q2407"
+  },
+  "indexedAt": "2026-07-23T14:36:13.617Z"
+}

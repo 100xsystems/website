@@ -1,0 +1,13 @@
+{
+  "id": "fanout",
+  "category": "patterns",
+  "label": "Fan-Out / Fan-In",
+  "aliases": [],
+  "description": "Fans out a task to multiple workers and fans in the results",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {},
+  "indexedAt": "2026-07-23T14:36:46.560Z"
+}

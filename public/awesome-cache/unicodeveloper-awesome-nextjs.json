@@ -1,0 +1,1538 @@
+{
+  "repoId": "unicodeveloper/awesome-nextjs",
+  "name": ":notebook_with_decorative_cover: :books: A curated list of awesome resources : books, videos, articles about using Next.js (A minimalistic framework for universal server-rendered React applications) ",
+  "description": ":notebook_with_decorative_cover: :books: A curated list of awesome resources : books, videos, articles about using Next.js (A minimalistic framework for universal server-rendered React applications) ",
+  "repoUrl": "https://github.com/unicodeveloper/awesome-nextjs",
+  "stars": 11095,
+  "topics": [
+    "awesome-list",
+    "framework",
+    "isomorphic",
+    "javascript",
+    "nextjs",
+    "reactjs",
+    "routing",
+    "server-side-rendering",
+    "tutorials",
+    "universal"
+  ],
+  "links": [
+    {
+      "url": "https://github.com/vercel/next.js/discussions",
+      "title": "GitHub discussions for Next.js",
+      "description": null,
+      "category": "Community",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://vercel.community/",
+      "title": "Vercel Community",
+      "description": null,
+      "category": "Community",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://nextjs.org/blog",
+      "title": "Blog",
+      "description": null,
+      "category": "Essentials",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://nextjs.org/learn",
+      "title": "Learn",
+      "description": null,
+      "category": "Essentials",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://vercel.com/tv",
+      "title": "Vercel TV",
+      "description": null,
+      "category": "Essentials",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://getstarted.sh/bulletproof-next",
+      "title": "Bulletproof Next",
+      "description": null,
+      "category": "Essentials",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://echobind.com/post/instant-site-updates-with-on-demand-revalidation-and-directus",
+      "title": "Instant Site Updates with On-Demand Revalidation and Directus",
+      "description": null,
+      "category": "Articles",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://echobind.com/post/dynamic-cms-driven-redirects",
+      "title": "Dynamic CMS-driven Redirects with Next.js",
+      "description": null,
+      "category": "Articles",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://www.permit.io/blog/how-to-add-rbac-in-nextjs",
+      "title": "Implementing RBAC Authorization in Next.js - Step-by-Step Guide",
+      "description": null,
+      "category": "Articles",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://echobind.com/post/getting-started-with-nextjs-graphl-and-react-query",
+      "title": "Getting Started with Next.js, GraphQL and React Query",
+      "description": null,
+      "category": "Articles",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://snipcart.com/blog/nextjs-faunadb",
+      "title": "Using Next.js with FaunaDB: How to Query the Database from Your App",
+      "description": null,
+      "category": "Articles",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://buttercms.com/blog/next-js-cms-tutorial",
+      "title": "How to Build a Serverless Next.js Blog with ButterCMS",
+      "description": null,
+      "category": "Articles",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://auth0.com/blog/building-universal-apps-with-nextjs",
+      "title": "Build a Universal JavaScript App with Next.js",
+      "description": null,
+      "category": "Articles",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://labs.redantler.com/getting-started-with-next-js-article-one-a1d9780ea9e0#.863nl4wnq",
+      "title": "Getting Started with Next.js — Setting Up Your App",
+      "description": null,
+      "category": "Articles",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://labs.redantler.com/getting-started-with-next-js-bringing-data-in-bf40558698e2#.twjv5xk5w",
+      "title": "Getting Started with Next.js — Bringing Data In",
+      "description": null,
+      "category": "Articles",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://medium.com/cosmicjs/how-to-build-a-next-js-react-universal-app-e610a0bc2124#.b8ayt9f39",
+      "title": "How to build a Next.js React Universal App",
+      "description": null,
+      "category": "Articles",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://web.archive.org/web/20170202170122if_/https://jsmantra.com/next-on-next-js-1a134505f346#.bhihzecyc",
+      "title": "Next on Next.js",
+      "description": null,
+      "category": "Articles",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://hackernoon.com/accept-payments-on-your-site-with-nextjs-stripe-and-micro-371de95b22d5?source=activity---post_recommended",
+      "title": "Accept payments on your site with nextjs, stripe, and micro",
+      "description": null,
+      "category": "Articles",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://medium.com/@jthegedus/next-js-on-cloud-functions-for-firebase-with-firebase-hosting-7911465298f2",
+      "title": "Next.js on Cloud Functions for Firebase with Firebase Hosting",
+      "description": null,
+      "category": "Articles",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://timber.io/blog/building-a-blog-with-next-js",
+      "title": "Building a Blog With Next.js",
+      "description": null,
+      "category": "Articles",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://malloc.fi/using-google-analytics-with-next-js",
+      "title": "Using Google Analytics with Next.js",
+      "description": null,
+      "category": "Articles",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://www.codementor.io/tgreco/5-of-the-many-things-to-love-about-zeit-s-next-js-bpszu99g1",
+      "title": "5 (of the Many Reasons) to love Vercel's Next.js",
+      "description": null,
+      "category": "Articles",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://nextjs.org/blog/next-5",
+      "title": "Next.js 5: Universal Webpack, CSS Imports, Plugins and Zones",
+      "description": null,
+      "category": "Articles",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://pusher.com/tutorials/realtime-data-visualization-nextjs",
+      "title": "Realtime data visualization using Next.js and Chart.js",
+      "description": null,
+      "category": "Articles",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://pusher.com/tutorials/chat-sentiment-analysis-nextjs",
+      "title": "Build a chat app with sentiment analysis using Next.js",
+      "description": null,
+      "category": "Articles",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://pusher.com/tutorials/realtime-tables-nextjs",
+      "title": "Build a realtime table with Next.js",
+      "description": null,
+      "category": "Articles",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://www.garymeehan.ie/blog/server-side-rendered-blog-with-nextjs-and-prismic",
+      "title": "SSR blog with Next.js and Prismic.io",
+      "description": null,
+      "category": "Articles",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://www.garymeehan.ie/blog/handling-seo-with-nextjs-and-prismic",
+      "title": "SEO in Next.js and Prismic",
+      "description": null,
+      "category": "Articles",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://www.garymeehan.ie/blog/seo-in-nextjs-with-next-seo",
+      "title": "SEO in Next.js with next-seo",
+      "description": null,
+      "category": "Articles",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://nextjs.org/blog/next-7",
+      "title": "Next.js 7",
+      "description": null,
+      "category": "Articles",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://blog.hasura.io/create-next-js-sites-using-graphql-on-postgres-199224ad1a39",
+      "title": "Create SSR Next.js websites using GraphQL with Postgres",
+      "description": null,
+      "category": "Articles",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://blog.strapi.io/strapi-next-setup",
+      "title": "Cooking a Deliveroo clone with Next.js (React), GraphQL, Strapi and Stripe - Setup (part 1/7)",
+      "description": null,
+      "category": "Articles",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://snipcart.com/blog/next-js-ecommerce-tutorial",
+      "title": "Next.js E-commerce Tutorial: Quick Shopping Cart Integration",
+      "description": null,
+      "category": "Articles",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://ghost.org/docs/api/nextjs/",
+      "title": "Working with Ghost and Next.js",
+      "description": null,
+      "category": "Articles",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://statickit.com/guides/next-js-tailwind",
+      "title": "Using Tailwind CSS with Next.js",
+      "description": null,
+      "category": "Articles",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://medium.com/frontend-digest/using-feature-flags-in-next-js-c5c8d0795a2?source=friends_link&sk=d846a29f376acf9cfa41e926883923ab",
+      "title": "Using Feature Flags in Next.js",
+      "description": null,
+      "category": "Articles",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://thetombomb.com/posts/adding-code-snippets-to-static-markdown-in-Next%20js",
+      "title": "Adding code snippets to Next.js using react-syntax-highlighter",
+      "description": null,
+      "category": "Articles",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://www.wrappixel.com/templates/category/nextjs-templates/?ref=232",
+      "title": "Build company's Website/App with our astonishing Next.js template",
+      "description": null,
+      "category": "Articles",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://www.bharathvaj.me/blog/implement-webhook-nextjs",
+      "title": "Guaranteeing webhook delivery in NextJS Application",
+      "description": null,
+      "category": "Articles",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://www.svix.com/blog/vercel-on-demand-isr-and-svix/",
+      "title": "Building a Guestbook Using Next.js On-Demand ISR",
+      "description": null,
+      "category": "Articles",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://adminmart.com/templates/nextjs/?ref=6",
+      "title": "Useful Admin Templates to build your Website/App",
+      "description": null,
+      "category": "Articles",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://tailwind-elements.com/docs/standard/integrations/next-integration/",
+      "title": "Integrate Next app with Tailwind",
+      "description": null,
+      "category": "Articles",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://blog.codedthemes.com/nextjs-admin-dashboard-templates/",
+      "title": "Top Next.js Admin & Dashboard Templates",
+      "description": null,
+      "category": "Articles",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://blog.codedthemes.com/nextjs-cheatsheet/",
+      "title": "Next.js Cheatsheet",
+      "description": null,
+      "category": "Articles",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://www.debugbear.com/blog/nextjs-performance",
+      "title": "A Guide to Performance Optimization with Next.js",
+      "description": null,
+      "category": "Articles",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/DevxiaLabs/kaiforge-lite",
+      "title": "Kaiforge Lite",
+      "description": "Free admin dashboard template with Next.js 14, Tailwind CSS, TypeScript, dark/light mode, and 5 ready-to-use pages. MIT licensed. [Demo](https://lite.kaiforge.dev)",
+      "category": "Boilerplates",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://kaminari.vercel.app/",
+      "title": "Kaminari Template",
+      "description": "Power packed Next.js and Tailwind CSS template. Built with developer experience in mind. Contains Husky, CommitLint, Prettier, Eslint etc. configs. ✨",
+      "category": "Boilerplates",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/PictureElement/nextjs-strapi-portfolio-starter",
+      "title": "Next.js, Strapi Portfolio Starter",
+      "description": "⚡️ A modern portfolio starter with Next.js, Strapi, and Tailwind CSS, featuring automated XML sitemap, JSON-LD schemas, OpenGraph metadata, and a contact form with spam protection.",
+      "category": "Boilerplates",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://www.cosmicjs.com/apps/nextjs-static-blog",
+      "title": "Next.js Static Blog",
+      "description": "Next.js static blog powered by the Cosmic Headless CMS",
+      "category": "Boilerplates",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/ButterCMS/react-cms-blog-with-next-js",
+      "title": "NextJS Headless CMS Powered Blog Starter",
+      "description": null,
+      "category": "Boilerplates",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/mattdamon108/nextjs-with-lambda",
+      "title": "Next.js App with AWS Lambda",
+      "description": "Deploy a Next.js App to AWS Lambda using Apex Up.",
+      "category": "Boilerplates",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/williamluke4/nitro",
+      "title": "Nitro 🚀",
+      "description": "An Example of a PWA using Nextjs, Material-UI, Typescript and Auth0 💗",
+      "category": "Boilerplates",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/alepacheco/landing-template",
+      "title": "Next & Now 2.0 Typescript template",
+      "description": "Serverless, Typescript, Jest, Github CI, SCSS, prettier boilerplate",
+      "category": "Boilerplates",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/UnlyEd/next-right-now",
+      "title": "Next Right Now",
+      "description": "Flexible **production-grade boilerplate** with Next.js 9 and Vercel, with pre-configured Sentry, cookies, Amplitude, Emotion, FontAwesome, GraphQL/GraphCMS (Apollo), Bootstrap (Reactstrap), i18next (Locize), Jest, Cypress (E2E tests) and CI/CD (GH Actions), with full TypeScript support and **support for B2B multi-tenants web apps (monorepo)**",
+      "category": "Boilerplates",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/Sebastp/Next-react-graphql-apollo_Boostrap",
+      "title": "Next Graphql Apollo Typescript_Boostrap - Pobocha",
+      "description": "React + GraphQL + Next.js + Apollo + Scss + Typescript + Prettier & EsLint boilerplate",
+      "category": "Boilerplates",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/ananddayalan/nextjs-in-firebase-with-bootstrap",
+      "title": "NextJS in Firebase with Bootstrap",
+      "description": "Hosting NextJS app with Bootstrap in Firebase with Cloud Functions.",
+      "category": "Boilerplates",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/ooade/NextSimpleStarter",
+      "title": "Next Simple Starter",
+      "description": "Simple PWA boilerplate with Next.js and Redux.",
+      "category": "Boilerplates",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/iaincollins/nextjs-starter",
+      "title": "NextJS Starter",
+      "description": "Starter project for Next.js with and email and oAuth authentication.",
+      "category": "Boilerplates",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/pbteja1998/nextjs-starter",
+      "title": "nextjs-starter",
+      "description": "An SEO Optimized Next.js 10 starter kit template with React 17 + Typescript + Tailwind CSS 2 + React Query 3 + (GitHub Auth + Passwordless Auth) using (NextAuth.js and Fauna DB), ESLint, Prettier, Pre-commit hook with Husky. Can have different layouts for different pages.",
+      "category": "Boilerplates",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/sly777/ran",
+      "title": "RAN!",
+      "description": "Production-ready boilerplate with support for GraphQL, SSR, Hot-reload, CSS-in-JS, caching, and more.",
+      "category": "Boilerplates",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/tscanlin/next-blog",
+      "title": "Next Simple Blog",
+      "description": "Simple Markdown based blog built with Next.js with static exports.",
+      "category": "Boilerplates",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/herschel666/phox",
+      "title": "phox",
+      "description": "Create a static photo blog.",
+      "category": "Boilerplates",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/MustansirZia/next-express-bootstrap-boilerplate",
+      "title": "Next Express Bootstrap Boilerplate",
+      "description": "Boilerplate for a full stack app built using Next, Express, react-bootstrap, SCSS and SSR with eslint.",
+      "category": "Boilerplates",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/suevalov/next-blog-firestore",
+      "title": "Next Blog Firestore",
+      "description": "Blog with simple CMS built with Next.js, Firebase Firestore, styled-components and mobx-state-tree.",
+      "category": "Boilerplates",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/CodementorIO/nextjs-redux-starter",
+      "title": "Next Redux Starter",
+      "description": "Next.js starter with Express, Redux, and PostCSS.",
+      "category": "Boilerplates",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/joaopaulomoraes/nextjs-with-redux-and-material-ui",
+      "title": "NextJS Redux-Wrapper Material-UI",
+      "description": "🤓 A boilerplate NextJS with Redux and Material UI.",
+      "category": "Boilerplates",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/nmaro/staart",
+      "title": "Staart",
+      "description": "😎 Actively maintained Next.js components library _and_ minimal boilerplate to rapidly get staarted with app with working user accounts based on Ooth.",
+      "category": "Boilerplates",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/deptno/next.js-typescript-starter-kit",
+      "title": "NextJS TypeScript Starter Kit",
+      "description": ":tada: TypeScript + NextJS, Styled-jsx, Redux, PostCSS, configurable SEO",
+      "category": "Boilerplates",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://arefaslani.github.io/next-boilerplate",
+      "title": "Next Boilerplate",
+      "description": "External CSS and Sass + Importing images from anywhere + Prettier and Eslint + Environment variables and many more features.",
+      "category": "Boilerplates",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/YuriBrunetto/next-starter",
+      "title": "next-starter",
+      "description": "A full and simple boilerplate with `sass (.scss)` and `postcss`built in.",
+      "category": "Boilerplates",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/deptno/typescript-monorepo-next-example",
+      "title": "Typescript Monorepo Next Example",
+      "description": "A minimalistic next.js + typescript monorepo.",
+      "category": "Boilerplates",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/tomimick/tm-nextjs-starter",
+      "title": "tomimick/tm-nextjs-starter",
+      "description": "A minimal starter/demo with basic CRUD, axios/localstorage, MobX, SASS, static site export, live demo",
+      "category": "Boilerplates",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/saltyshiomix/nextron",
+      "title": "Nextron",
+      "description": "An Electron with Next.js apps generator ⚡",
+      "category": "Boilerplates",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/oh-my-c0de/oh-my-fullstack",
+      "title": "Oh My Fullstack",
+      "description": "Full stack web application skeleton (Next.js, Redux, RxJS, Immutable, Express)",
+      "category": "Boilerplates",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/brandontle/next-postgres-with-typescript",
+      "title": "Next-Postgres-With-Typescript",
+      "description": "Forum-like fullstack web app with Next 7.0.2 + Sequelize 4/Postgres + Typescript + Redux + Passport Local Auth + Emotion",
+      "category": "Boilerplates",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/pd-smith/next-express-babel",
+      "title": "Next.js with Express and Babel",
+      "description": "An application skeleton for those who want to transpile their Express as well as their Next.js code using Babel.",
+      "category": "Boilerplates",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/hasura/graphql-engine/tree/master/community/sample-apps/nextjs-postgres-graphql",
+      "title": "next-postgres-graphql",
+      "description": "Create SSR Next.js websites using GraphQL with Postgres (Next.js, Postgres, GraphQL)",
+      "category": "Boilerplates",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/hoangvvo/nextjs-mongodb-app",
+      "title": "nextjs-mongodb-app",
+      "description": "Full-fledged app made with Next.JS and MongoDB, with authentication and much more (Next.js 9, MongoDB)",
+      "category": "Boilerplates",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/react-next-boilerplate/react-next-boilerplate",
+      "title": "react-next-boilerplate",
+      "description": ":rocket: A basis for reducing the configuration of your projects with nextJS, best development practices and popular libraries in the developer community.",
+      "category": "Boilerplates",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/novellito/the-nextjs-starter",
+      "title": "The-Nextjs-starter",
+      "description": "typescript + redux + styled-components + react-testing-library + eslint + fontawesome",
+      "category": "Boilerplates",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/vriad/devii",
+      "title": "Devii",
+      "description": "A Medium-inspired dev blog starter built with Next.js, React, and TypeScript, with Markdown rendering, syntax highlighting, SEO/meta tags, and RSS feed generation out of the box.",
+      "category": "Boilerplates",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://creativedesignsguru.com/demo/Nextjs-Blog-Boilerplate/",
+      "title": "Nextjs Blog Starter",
+      "description": "🚀 The perfect starter code for your blog based on Next.js framework. ⚡️ Made with Next.js, TypeScript, ESLint, Prettier, PostCSS, Tailwind CSS.",
+      "category": "Boilerplates",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/wutali/nextjs-netlify-blog-template",
+      "title": "Next.js and Netlify Blogging Template",
+      "description": "A perfect boilerplate for building a blog website on Netlify stacks with standard features like tagging, CMS, and shortcodes.",
+      "category": "Boilerplates",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/inblack67/GraphQL-Next-Setup",
+      "title": "Nextjs Apollo Nexus",
+      "description": "GraphQL Apollo Client-Server integration in Next.js with Nexus Schema (Code first approach).",
+      "category": "Boilerplates",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/vickOnRails/next-starter-peacock",
+      "title": "Nextjs Starter Peacock",
+      "description": "🦚 Beautiful Nextjs portfolio starter for software engineers and designers to show work they're so proud of.",
+      "category": "Boilerplates",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/tancredi/nextatic",
+      "title": "Nextatic",
+      "description": "🌍 Static website multi-language boilerplate with user-editable pages and navigation using Netlify CMS + Next.js + SCSS + Typescript.",
+      "category": "Boilerplates",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/stovv/next-strapi-sitemap",
+      "title": "Sitemap generator for NextJS & StrAPI",
+      "description": "🦾 An additional server on express that runs alongside nextjs and regenerates sitemap ( with index sitemap ) and robots.txt files on request from STR API.",
+      "category": "Boilerplates",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/pankod/superplate",
+      "title": "superplate",
+      "description": "superplate creates Next.js app in seconds with TypeScript, styled-components, SWR, Storybook, and 35+ plugin.",
+      "category": "Boilerplates",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://statichunt.com/themes/nextjs-hydrogen",
+      "title": "Hydrogen",
+      "description": "Hydrogen is a Nextjs blog starter template build with tailwindCss and MDX supports. It has all necessary MDX shortcodes out of the box.",
+      "category": "Boilerplates",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/hrushikedar33/next-fire-auth",
+      "title": "Next-Fire-Auth",
+      "description": "A awesome boilerplate for startup application with authentication using Next.js + Typescript + Tailwind CSS + Firebase-auth + React-Firebase-Hooks",
+      "category": "Boilerplates",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/bharathvaj-ganesan/chargebee-saas-stack",
+      "title": "NextJS Chargebee Subscription",
+      "description": "A Chargebee focused T3 Stack that integrates User Subscriptions, Authentication and Testing. Driven by Prisma ORM.",
+      "category": "Boilerplates",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/Blazity/next-enterprise",
+      "title": "Next.js Enterprise",
+      "description": "enterprise-grade boilerplate for high-performance, maintainable apps. Built with Tailwind CSS, RadixUI, TypeScript and more.",
+      "category": "Boilerplates",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/thefrontkit/a11y-starter-kit-code",
+      "title": "A11y Starter Kit",
+      "description": "Accessibility-first Next.js starter kit with best practices for building inclusive web apps. Demo: https://a11y-starter-kit.vercel.app/",
+      "category": "Boilerplates",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/UnlyEd/universal-language-detector",
+      "title": "Next universal language detector",
+      "description": "Language detector that works universally (browser + server) - Meant to be used with a universal framework, such as Next.js [DEMO](https://universal-language-detector.now.sh/)",
+      "category": "Extensions",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/fridays/next-routes",
+      "title": "Next Routes",
+      "description": "Universal named routes for Next.js.",
+      "category": "Extensions",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/onready/next-pkg",
+      "title": "Next-Pkg",
+      "description": "Extended Next.js server with [pkg](https://github.com/vercel/pkg) support.",
+      "category": "Extensions",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/lfades/next-plugin-graphql",
+      "title": "Next Plugin Graphql",
+      "description": "Next.js plugin for .graphql and .gql files using graphql-tag",
+      "category": "Extensions",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/lfades/next-with-apollo",
+      "title": "Next With Apollo",
+      "description": "Apollo Graphql integration for Next.js",
+      "category": "Extensions",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/garmeeh/next-seo",
+      "title": "Next SEO",
+      "description": "SEO made easy for Next.js",
+      "category": "Extensions",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/iamvishnusankar/next-sitemap",
+      "title": "Next-Sitemap",
+      "description": "Sitemap generator for Next.js",
+      "category": "Extensions",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/tokuda109/next-useragent",
+      "title": "Next UserAgent",
+      "description": "UserAgent parser for Next.js",
+      "category": "Extensions",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/tokuda109/next-cookie",
+      "title": "Next Cookie",
+      "description": "Cookie serializer and deserializer library for Next.js.",
+      "category": "Extensions",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/elmasse/nextein",
+      "title": "Nextein",
+      "description": "A static site generator based in Next.js.",
+      "category": "Extensions",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/hipstersmoothie/next-mdx-blog",
+      "title": "next-mdx-blog",
+      "description": "Easily add a blog to any next.js based project",
+      "category": "Extensions",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/isaachinman/next-i18next",
+      "title": "next-i18next",
+      "description": "The easiest way to translate your NextJs apps.",
+      "category": "Extensions",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/revskill10/next-routes-middleware",
+      "title": "next-routes-middleware",
+      "description": "A NextJS routing middleware",
+      "category": "Extensions",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/danielcondemarin/serverless-nextjs-plugin",
+      "title": "Serverless Framework plugin for Next.js",
+      "description": "Deploy serverless applications with ease.",
+      "category": "Extensions",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/ematipico/terraform-nextjs-plugin",
+      "title": "Terraform For Next.js",
+      "description": "Deploy your application using Terraform",
+      "category": "Extensions",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/hoangvvo/next-session",
+      "title": "next-session",
+      "description": "Session middleware for Next.js",
+      "category": "Extensions",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/vvo/next-iron-session",
+      "title": "next-iron-session",
+      "description": "Next.js stateless session utility using signed and encrypted cookies to store data",
+      "category": "Extensions",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/lucleray/next-purgecss",
+      "title": "Next PurgeCSS",
+      "description": "Easily integrate [Purgecss](https://www.purgecss.com/), which helps you remove unused CSS from your bundle.",
+      "category": "Extensions",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/shadowwalker/next-pwa",
+      "title": "Next PWA",
+      "description": "Zero config PWA plugin for Next.js with workbox",
+      "category": "Extensions",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/piglovesyou/flow-middleware",
+      "title": "flow-middleware",
+      "description": "Run any of Express middlewares on Next.js without polluting native objects.",
+      "category": "Extensions",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/hoangvvo/next-connect",
+      "title": "next-connect",
+      "description": "The Express/Connect-compatible router and middleware layer for Next.js.",
+      "category": "Extensions",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/humaans/next-img/",
+      "title": "next-img",
+      "description": "a plugin for embedding optimized images with ease.",
+      "category": "Extensions",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/iaincollins/next-auth",
+      "title": "next-auth",
+      "description": "Easy authentication for Next.js and Serverless",
+      "category": "Extensions",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/lone-cloud/next-deploy",
+      "title": "next-deploy",
+      "description": "🚀 Effortless deployment to AWS and GitHub Pages.",
+      "category": "Extensions",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/codecoolture/next-joi",
+      "title": "next-joi",
+      "description": "Validate Next.js API Routes, with _joi_.",
+      "category": "Extensions",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/martpie/next-transpile-modules",
+      "title": "next-transpile-modules",
+      "description": "Next.js plugin to transpile code from node_modules. Useful for monorepos.",
+      "category": "Extensions",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/liveduo/destack",
+      "title": "Destack for Next.js",
+      "description": "Next.js extension to visually build landing pages locally.",
+      "category": "Extensions",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/random-bits-studio/use-siwe",
+      "title": "UseSIWE",
+      "description": "React hooks and Next.js API routes that make it super easy to add Sign-In with Ethereum to your app.",
+      "category": "Extensions",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://www.npmjs.com/package/@cuww/runtime-env",
+      "title": "Runtime Environment Variables for Next.js",
+      "description": "Stop configuring ENV variables in CI/CD, use a cloud-native approach.",
+      "category": "Extensions",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/XD2Sketch/next-google-tag-manager",
+      "title": "next-google-tag-manager",
+      "description": "Easily add Google Tag Manager to Next 13 and up.",
+      "category": "Extensions",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/ArtemZhyto/Modal-layout-component",
+      "title": "modal-layout-component",
+      "description": "Lightweight and accessible headless modal layout for Next.js with focus trapping.",
+      "category": "Extensions",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/storyofams/next-api-decorators",
+      "title": "next-api-decorators",
+      "description": "Decorators to create typed Next.js API routes, with easy request validation and transformation.",
+      "category": "Extensions",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/CopilotKit/CopilotKit",
+      "title": "CopilotKit",
+      "description": "React UI + elegant infrastructure for AI Copilots, AI chatbots, and in-app AI agents in your Next.js apps.",
+      "category": "Extensions",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://ogimg.xyz",
+      "title": "ogimg.xyz",
+      "description": "OG image generation API with 10 templates, background patterns, and URL auto-fetch. Built with Next.js + Satori on Vercel Edge.",
+      "category": "Extensions",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/nicepkg/shotog",
+      "title": "ShotOG",
+      "description": "Dynamic OG image generation API for Next.js apps, powered by Cloudflare Workers.",
+      "category": "Extensions",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/farming-labs/docs",
+      "title": "@farming-labs/docs",
+      "description": "A modern documentation framework that works. One config file, zero boilerplate.",
+      "category": "Extensions",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://apistatuscheck.com",
+      "title": "API Status Check",
+      "description": "Real-time status monitoring dashboard tracking 2,500+ APIs and cloud services. Built with Next.js and deployed on Vercel.",
+      "category": "Apps",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/a827681306/devtoolkit",
+      "title": "DevToolKit",
+      "description": "Free online developer tools built with Next.js — JSON Formatter, JWT Decoder, Regex Tester, Base64/URL Encoder, Hash Generator.",
+      "category": "Apps",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/codelit/courselit",
+      "title": "CourseLit",
+      "description": "An open source alternative to Thinkific, Teachable etc.",
+      "category": "Apps",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/fim-ai/fim-agent",
+      "title": "FIM Agent",
+      "description": "AI-powered Connector Hub with a Next.js + shadcn/ui portal frontend. Features agent management, connector configuration, knowledge base, and real-time chat with SSE streaming.",
+      "category": "Apps",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://fastutil.app",
+      "title": "FastUtil",
+      "description": "71+ free browser-based developer utilities with client-side processing, 20 language translations, and no sign-up required. Built with Next.js App Router and shadcn/ui.",
+      "category": "Apps",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/feednext/feednext",
+      "title": "Feednext",
+      "description": "An open source social media application.",
+      "category": "Apps",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/auth0-blog/nextjs-got",
+      "title": "NextJS GOT",
+      "description": "Simple Next.js application that showcases Game of Thrones Characters.",
+      "category": "Apps",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/RelateNow/relate",
+      "title": "Relate",
+      "description": "Mindfulness community - React, GraphQL, Next.js.",
+      "category": "Apps",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/dotcypress/password",
+      "title": "Password",
+      "description": "One password, right way.",
+      "category": "Apps",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/lipp/next-todos",
+      "title": "Next Todos",
+      "description": "Todo list written in Next.js.",
+      "category": "Apps",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/lipp/hackernews",
+      "title": "Hacker News",
+      "description": "Another Hacker News written in Next.js.",
+      "category": "Apps",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/lipp/jet-chat",
+      "title": "Jet Chat",
+      "description": "Jet and Next.js powered Chat demo.",
+      "category": "Apps",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/arunoda/nextgram",
+      "title": "Nextgram",
+      "description": "Sample Next.js v2 app for showing off its capabilities.",
+      "category": "Apps",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/rauchg/blog",
+      "title": "Rauchg Blog",
+      "description": "Blog built by a Next.js core maintainer.",
+      "category": "Apps",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/renatorib/next-jph",
+      "title": "Next JPH",
+      "description": "JsonPlaceholder sample app made with Next.js.",
+      "category": "Apps",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/dawsbot/mailto",
+      "title": "Mailto",
+      "description": "HTML mailto's made easy.",
+      "category": "Apps",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/knipferrc/plate",
+      "title": "Plate",
+      "description": "The task management app to rule them all.",
+      "category": "Apps",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/danielbayerlein/dashboard",
+      "title": "Dashboard",
+      "description": "Create your own team dashboard with custom widgets.",
+      "category": "Apps",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/ritz078/snape",
+      "title": "Snape",
+      "description": "A torrent client to search, stream and download torrents.",
+      "category": "Apps",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/juliandavidmr/TrelloResume",
+      "title": "Trello Resume",
+      "description": "Converts trello data into fast read information.",
+      "category": "Apps",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/estrada9166/server-authentication-next.js",
+      "title": "Server Authentication with JWT",
+      "description": "Server authentication, prevent render before validation.",
+      "category": "Apps",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://gitlab.com/kachkaev/website-frontend/",
+      "title": "Alexander Kachkaev’s website",
+      "description": "personal homepage built with Next.js, GraphQL, Docker and Kubernetes. Uses apollo client, react-intl, styled-components and recompose. Docker images are automatically built by GitLab CI.",
+      "category": "Apps",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/estrada9166/cookie-handler-next.js",
+      "title": "Cookie handler with server render",
+      "description": "Cookie handler with server render, access the cookie before render.",
+      "category": "Apps",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/OrangeXC/gank",
+      "title": "Gank",
+      "description": "A Next.js App use gank-api, mobx and antd",
+      "category": "Apps",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/janit/decoupled-cms-nextjs-graphql",
+      "title": "Decoupled CMS example with GraphQL and Next.js",
+      "description": null,
+      "category": "Apps",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://vr.mozilla.org/",
+      "title": "Mozilla VR Home",
+      "description": "Mozilla VR Home",
+      "category": "Apps",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://www.eltonjohn.com",
+      "title": "Elton John's website",
+      "description": "Elton John's Website",
+      "category": "Apps",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://data.iota.org/",
+      "title": "IOTA's Data Market Place",
+      "description": "IOTA Market Place",
+      "category": "Apps",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://www.magicleap.com/",
+      "title": "magicleap.com",
+      "description": "Magic Leap",
+      "category": "Apps",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://www.npmjs.com/search",
+      "title": "NPM.js Search Page",
+      "description": "NPM's Search Page",
+      "category": "Apps",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://success.docker.com",
+      "title": "Docker Success Center",
+      "description": "Docker Success Center",
+      "category": "Apps",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/neo-search/urteile-gesetze-web",
+      "title": "Urteile & Gesetze",
+      "description": "German Legal Information System licensed under GPLv3.",
+      "category": "Apps",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://www.tiktok.com/",
+      "title": "TikTok's HomePage",
+      "description": "TikTok's Home Page",
+      "category": "Apps",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://njt.now.sh",
+      "title": "njt.now.sh",
+      "description": "npm jump to 🐸 (package navigation shortcuts you dreamed about). Partially statically-rendered, partially deployed as lambda. Automatically updated on each commit to the [github repo](https://github.com/kachkaev/njt), thanks to Now integration.",
+      "category": "Apps",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://caseconverter.pro",
+      "title": "caseconverter.pro",
+      "description": "A text case converter.",
+      "category": "Apps",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/poulainv/tottem",
+      "title": "Tottem",
+      "description": "Bookmark manager on steroid built with NextJs / Auth0 / Apollo Tools / Prisma2",
+      "category": "Apps",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://slowtvmap.com",
+      "title": "Slow TV Map",
+      "description": "A fun way to discover relaxing virtual experiences. Next.js + Chakra UI + MySQL hosted on Vercel.",
+      "category": "Apps",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/AlandSleman/t3-twitter-clone",
+      "title": "Twitter Clone",
+      "description": "Twitter clone built with Next.js + T3 Stack + NextAuth + Supabase + Prisma.",
+      "category": "Apps",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/shadcn/taxonomy",
+      "title": "Taxonomy",
+      "description": "An example app built using Next.js 13 server components.",
+      "category": "Apps",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/shadcn/ui",
+      "title": "shadcn/ui",
+      "description": "Beautifully designed components that you can copy and paste into your apps.",
+      "category": "Apps",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://github.com/AlandSleman/StorageBox",
+      "title": "StorageBox",
+      "description": "A Simple File Storage Service Built with Go and Next.js.",
+      "category": "Apps",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://taskade.com/",
+      "title": "Taskade",
+      "description": "AI-powered workspace for teams with real-time collaboration, AI agents, project management, and workflow automation.",
+      "category": "Apps",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://leanpub.com/hands-on-nextjs",
+      "title": "Hands On Next.js",
+      "description": "A practical fullstack book on universal (server) rendering for react applications.",
+      "category": "Books",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://www.packtpub.com/web-development/nextjs-quick-start-guide",
+      "title": "Next.js Quick Start Guide",
+      "description": "Create, build and deploy universal JavaScript applications using Next.js",
+      "category": "Books",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://flaviocopes.com/page/nextjs-handbook/",
+      "title": "The Next.js Handbook",
+      "description": "Build a frontend React application that transparently handles server-side rendering for you.",
+      "category": "Books",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://www.amazon.com/dp/B0BHRPMF74",
+      "title": "Serverless Web Applications with React and Next.js",
+      "description": "Use Next.js serverless features to access databases and authenticate users in your React applications",
+      "category": "Books",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://www.cutintothejamstack.com/",
+      "title": "Cut Into The Jamstack: Build a SaaS with React and Next.js",
+      "description": "Build a full-stack software-as-a-service application using Next.js, Prisma ORM, Cloudinary API, Chakra-UI and React Hook Form.",
+      "category": "Books",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://www.amazon.com/Real-World-Next-js-high-performance-applications-production-ebook/dp/B08XY1MCV1?Adv-Srch-Books-Submit.x=0&Adv-Srch-Books-Submit.y=0&qid=1652828645&refinements=p_66:9781801079877&s=books&sr=1-1&unfiltered=1&linkCode=sl1&tag=misko0a-20&linkId=1039970a67ec37bfcaa25cf6c77a5591&language=en_US&ref_=as_li_ss_tl",
+      "title": "Real World Next.js",
+      "description": "Build scalable, high-performance, and modern web applications using Next.js, the React framework for production",
+      "category": "Books",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://masteringnextjs.com/",
+      "title": "Mastering Next.js",
+      "description": "50+ lesson video course for building applications with Next.js and React.",
+      "category": "Videos",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://youtu.be/fqXC2V-MSV4",
+      "title": "How to use Credentials Authentication in Next.js with NextAuth?",
+      "description": null,
+      "category": "Videos",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://youtu.be/mqUN4N2q4qY",
+      "title": "Full Stack Netflix Clone in React, Tailwind CSS, Next.JS, Prisma, MongoDB, NextAuth & Vercel (2023)",
+      "description": null,
+      "category": "Projects(Beginner level)",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://youtu.be/ugCN_gynFYw",
+      "title": "Build and Deploy a Modern Next 13 Website With Framer Motion & Tailwind CSS",
+      "description": null,
+      "category": "Projects(Beginner level)",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://youtu.be/OHEMPreO09Q",
+      "title": "Next js 13 project - IMBb Clone - next js tailwind css project - nextjs project",
+      "description": null,
+      "category": "Projects(Beginner level)",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://youtu.be/h9zlVmoUV5I",
+      "title": "Next js 13 project - Google clone (next.js 13, tailwind css 3, google search api, app router",
+      "description": null,
+      "category": "Projects(Beginner level)",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://youtu.be/PnvDPSg5bQM",
+      "title": "next js project - Twitter clone",
+      "description": null,
+      "category": "Projects(Beginner level)",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://youtu.be/ytkG7RT6SvU",
+      "title": "Build and Deploy: TWITTER clone with React, Tailwind, Next, Prisma, Mongo, NextAuth & Vercel (2023)",
+      "description": null,
+      "category": "Projects(Beginner level)",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://youtu.be/Hiabp1GY8fA",
+      "title": "NextJS 13 Tutorial: Create a Static Blog from Markdown Files",
+      "description": null,
+      "category": "Projects(Beginner level)",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://nextjsnews.com",
+      "title": "Next.js News",
+      "description": "Monthly Next.js newsletter showcasing new and upcoming features, best articles, tools, and plugins.",
+      "category": "Newsletters",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    },
+    {
+      "url": "https://nextjsnotes.com",
+      "title": "Next.js Notes",
+      "description": "Monthly Next.js and JavaScript platform news.",
+      "category": "Newsletters",
+      "source": "unicodeveloper/awesome-nextjs",
+      "indexedAt": "2026-07-23T14:53:03.475Z"
+    }
+  ],
+  "categories": [
+    "Community",
+    "Essentials",
+    "Articles",
+    "Boilerplates",
+    "Extensions",
+    "Apps",
+    "Books",
+    "Videos",
+    "Projects(Beginner level)",
+    "Newsletters"
+  ],
+  "crawledAt": "2026-07-23T14:53:03.475Z"
+}

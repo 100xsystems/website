@@ -1,0 +1,13 @@
+{
+  "id": "hash-index",
+  "category": "patterns",
+  "label": "Hash Index",
+  "aliases": [],
+  "description": "Index structure using hash functions for O(1) key lookups",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {},
+  "indexedAt": "2026-07-23T14:36:50.840Z"
+}

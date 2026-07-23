@@ -1,0 +1,16 @@
+{
+  "id": "state",
+  "category": "patterns",
+  "label": "State",
+  "aliases": [],
+  "description": "Allows an object to alter its behavior when its internal state changes",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/State_pattern",
+    "wikidata": "https://www.wikidata.org/wiki/Q950200"
+  },
+  "indexedAt": "2026-07-23T14:36:44.039Z"
+}

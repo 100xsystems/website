@@ -1,0 +1,159 @@
+{
+  "repoId": "festum/awesome-servicemesh",
+  "name": "A curated list of tools implements the concept of Server Mesh",
+  "description": "A curated list of tools implements the concept of Server Mesh",
+  "repoUrl": "https://github.com/festum/awesome-servicemesh",
+  "stars": 56,
+  "topics": [
+    "awesome",
+    "awesome-list",
+    "kubernetes",
+    "microservice",
+    "microservices-architecture",
+    "service-mesh"
+  ],
+  "links": [
+    {
+      "url": "https://github.com/datawire/ambassador",
+      "title": "ambassador",
+      "description": "Open source Kubernetes-native API gateway for microservices built on the Envoy Proxy",
+      "category": "Frameworks / Runtimes",
+      "source": "festum/awesome-servicemesh",
+      "indexedAt": "2026-07-23T14:53:37.440Z"
+    },
+    {
+      "url": "https://github.com/aspenmesh",
+      "title": "aspen-mesh",
+      "description": "Enterprise Service Mesh from F5",
+      "category": "Frameworks / Runtimes",
+      "source": "festum/awesome-servicemesh",
+      "indexedAt": "2026-07-23T14:53:37.440Z"
+    },
+    {
+      "url": "https://github.com/envoyproxy/go-control-plane",
+      "title": "control-plane",
+      "description": "Contains a Go-based implementation of an API server that implements the discovery service APIs defined in data-plane-api",
+      "category": "Frameworks / Runtimes",
+      "source": "festum/awesome-servicemesh",
+      "indexedAt": "2026-07-23T14:53:37.440Z"
+    },
+    {
+      "url": "https://github.com/apache/incubator-dubbo",
+      "title": "dubbo",
+      "description": "Apache Dubbo (incubating) is a high-performance, java based, open source RPC framework",
+      "category": "Frameworks / Runtimes",
+      "source": "festum/awesome-servicemesh",
+      "indexedAt": "2026-07-23T14:53:37.440Z"
+    },
+    {
+      "url": "https://www.envoyproxy.io/",
+      "title": "envoy",
+      "description": "An open source edge and service proxy, designed for cloud-native applications",
+      "category": "Frameworks / Runtimes",
+      "source": "festum/awesome-servicemesh",
+      "indexedAt": "2026-07-23T14:53:37.440Z"
+    },
+    {
+      "url": "https://github.com/istio",
+      "title": "istio",
+      "description": "An open platform to connect, manage, and secure microservices",
+      "category": "Frameworks / Runtimes",
+      "source": "festum/awesome-servicemesh",
+      "indexedAt": "2026-07-23T14:53:37.440Z"
+    },
+    {
+      "url": "https://linkerd.io/",
+      "title": "linkerd",
+      "description": "A service sidecar for Kubernetes gives you instant Grafana dashboards and CLI debugging tools for any Kubernetes service — with no cluster-wide installation",
+      "category": "Frameworks / Runtimes",
+      "source": "festum/awesome-servicemesh",
+      "indexedAt": "2026-07-23T14:53:37.440Z"
+    },
+    {
+      "url": "https://github.com/go-mesh/mesher",
+      "title": "mesher",
+      "description": "A light weight service mesh implementation based on [go chassis](https://github.com/ServiceComb/go-chassis)",
+      "category": "Frameworks / Runtimes",
+      "source": "festum/awesome-servicemesh",
+      "indexedAt": "2026-07-23T14:53:37.440Z"
+    },
+    {
+      "url": "https://github.com/alipay/sofa-mesh",
+      "title": "sofa-mesh",
+      "description": "A solution for large-scale Service Mesh based on Istio",
+      "category": "Frameworks / Runtimes",
+      "source": "festum/awesome-servicemesh",
+      "indexedAt": "2026-07-23T14:53:37.440Z"
+    },
+    {
+      "url": "https://github.com/alipay/sofa-mosn",
+      "title": "sofa-mosn",
+      "description": "SOFAMosn is a modular observable smart network which can be used in service mesh deployed as a data plane sidecar",
+      "category": "Frameworks / Runtimes",
+      "source": "festum/awesome-servicemesh",
+      "indexedAt": "2026-07-23T14:53:37.440Z"
+    },
+    {
+      "url": "https://github.com/Tencent/Tars",
+      "title": "tars",
+      "description": "Tars is a highly performance rpc framework based on naming service using tars protocol and provides a semi-automatic operation platform",
+      "category": "Frameworks / Runtimes",
+      "source": "festum/awesome-servicemesh",
+      "indexedAt": "2026-07-23T14:53:37.440Z"
+    },
+    {
+      "url": "https://traefik.io/",
+      "title": "Traefik",
+      "description": "A reverse proxy / load balancer that's easy, dynamic, automatic, fast, full-featured, open source, production proven, provides metrics, and integrates with every major cluster technologies",
+      "category": "Frameworks / Runtimes",
+      "source": "festum/awesome-servicemesh",
+      "indexedAt": "2026-07-23T14:53:37.440Z"
+    },
+    {
+      "url": "https://blog.buoyant.io/2017/04/25/whats-a-service-mesh-and-why-do-i-need-one/",
+      "title": "What’s a service mesh? And why do I need one?",
+      "description": "(2017-04-25) A service mesh is a dedicated infrastructure layer for making service-to-service communication safe, fast, and reliable. If you’re building a cloud native application, you need a service mesh",
+      "category": "Articles & Papers",
+      "source": "festum/awesome-servicemesh",
+      "indexedAt": "2026-07-23T14:53:37.440Z"
+    },
+    {
+      "url": "http://philcalcado.com/2017/08/03/pattern_service_mesh.html",
+      "title": "Pattern: Service Mesh",
+      "description": "(2017-08-03) A pattern of Microservices Architecture",
+      "category": "Articles & Papers",
+      "source": "festum/awesome-servicemesh",
+      "indexedAt": "2026-07-23T14:53:37.440Z"
+    },
+    {
+      "url": "https://medium.com/microservices-in-practice/service-mesh-for-microservices-2953109a3c9a",
+      "title": "Service Mesh for Microservices",
+      "description": "(2017-09-15) The most complex challenge in realizing microservice architecture is not building the services themselves, but the communication between services",
+      "category": "Articles & Papers",
+      "source": "festum/awesome-servicemesh",
+      "indexedAt": "2026-07-23T14:53:37.440Z"
+    },
+    {
+      "url": "https://blog.envoyproxy.io/service-mesh-data-plane-vs-control-plane-2774e720f7fc",
+      "title": "Service mesh data plane vs. control plane",
+      "description": "(2017-10-10) The situation summarized by the following series of tweets that Matt Klein wrote",
+      "category": "Articles & Papers",
+      "source": "festum/awesome-servicemesh",
+      "indexedAt": "2026-07-23T14:53:37.440Z"
+    },
+    {
+      "url": "https://www.nginx.com/blog/nginmesh-nginx-as-a-proxy-in-an-istio-service-mesh/",
+      "title": "nginMesh",
+      "description": "(2017-12-07) NGINX Proxy in an Istio Service Mesh",
+      "category": "Articles & Papers",
+      "source": "festum/awesome-servicemesh",
+      "indexedAt": "2026-07-23T14:53:37.440Z"
+    }
+  ],
+  "categories": [
+    "Frameworks / Runtimes",
+    "Related Technologies",
+    "Articles & Papers"
+  ],
+  "crawledAt": "2026-07-23T14:53:37.440Z"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "ambassador",
+  "category": "patterns",
+  "label": "Ambassador Pattern",
+  "aliases": [],
+  "description": "Creates a helper service that handles network communication on behalf of another service",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {},
+  "indexedAt": "2026-07-23T14:36:46.233Z"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "load-shedding",
+  "category": "principles",
+  "label": "Load Shedding",
+  "aliases": [],
+  "description": "Dropping lower-priority requests when a system is under heavy load",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {},
+  "indexedAt": "2026-07-23T14:36:10.308Z"
+}

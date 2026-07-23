@@ -1,0 +1,16 @@
+{
+  "id": "kotlin",
+  "category": "languages",
+  "label": "Kotlin",
+  "aliases": [],
+  "description": "General-purpose programming language",
+  "summary": "Kotlin is a cross-platform, statically typed, general-purpose high-level programming language with type inference. Kotlin is designed to interoperate fully with Java, and the Java virtual machine (JVM) version of Kotlin's standard library depends on the Java Class Library.Type inference allows for more concise syntax than Java, while null-safety features reduce a common class of runtime errors. Kotlin mainly targets the JVM, but also compiles to JavaScript or native code via LLVM. JetBrains bears language development costs, while the Kotlin Foundation protects the Kotlin trademark.",
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Kotlin_(programming_language)",
+    "wikidata": "https://www.wikidata.org/wiki/Q21564902"
+  },
+  "indexedAt": "2026-07-23T14:36:14.899Z"
+}

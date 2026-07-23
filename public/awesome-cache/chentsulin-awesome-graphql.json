@@ -1,0 +1,3456 @@
+{
+  "repoId": "chentsulin/awesome-graphql",
+  "name": "Awesome list of GraphQL",
+  "description": "Awesome list of GraphQL",
+  "repoUrl": "https://github.com/chentsulin/awesome-graphql",
+  "stars": 15077,
+  "topics": [
+    "awesome",
+    "awesome-list",
+    "graphql",
+    "list"
+  ],
+  "links": [
+    {
+      "url": "https://github.com/graphql/graphql-spec",
+      "title": "GraphQL",
+      "description": "Working draft of the specification for GraphQL.",
+      "category": "Specifications",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/graphql/graphql-over-http",
+      "title": "GraphQL over HTTP",
+      "description": "Working draft of \"GraphQL over HTTP\" specification.",
+      "category": "Specifications",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://relay.dev/docs/guides/graphql-server-specification/",
+      "title": "GraphQL Relay",
+      "description": "Relay-compliant GraphQL server specification.",
+      "category": "Specifications",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/opencrud/opencrud",
+      "title": "OpenCRUD",
+      "description": "OpenCRUD is a GraphQL CRUD API specification for databases.",
+      "category": "Specifications",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://www.apollographql.com/docs/federation/federation-spec/",
+      "title": "Apollo Federation",
+      "description": "Apollo Federation specification",
+      "category": "Specifications",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://gabotechs.github.io/graphqxl/",
+      "title": "GraphQXL",
+      "description": "GraphQXL is an extension of the GraphQL language with some additional features that help creating big and scalable server-side schemas.",
+      "category": "Specifications",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://www.graphql-scalars.com/",
+      "title": "GraphQL Scalars",
+      "description": "hosts community defined custom Scalar specifications for use with @specifiedBy.",
+      "category": "Specifications",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://graphql.org/foundation/",
+      "title": "GraphQL Foundation",
+      "description": "GraphQL Foundation under the Linux Foundation",
+      "category": "Foundations",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://discord.graphql.org/",
+      "title": "Discord - GraphQL",
+      "description": "Official GraphQL.org discord channel.",
+      "category": "Communities",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://www.graphqlweekly.com/",
+      "title": "GraphQL Weekly",
+      "description": "A weekly newsletter highlighting resources and news from the GraphQL community.",
+      "category": "Communities",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://community.apollographql.com/",
+      "title": "Apollo GraphQL Community",
+      "description": "Connect with other developers and share knowledge about every part of the Apollo GraphQL platform.",
+      "category": "Communities",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "http://join.reactiflux.com/",
+      "title": "Discord - Reactiflux",
+      "description": "Join `#help-graphql` on the Reactiflux Discord server.",
+      "category": "Communities",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://www.facebook.com/groups/795330550572866/",
+      "title": "Facebook",
+      "description": "Group for discussions, articles and knowledge sharing.",
+      "category": "Communities",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://x.com/search?q=%23GraphQL",
+      "title": "X",
+      "description": "Use the hashtag `#graphql`.",
+      "category": "Communities",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://stackoverflow.com/questions/tagged/graphql",
+      "title": "StackOverflow",
+      "description": "Questions and answers. Use the tag `graphql`.",
+      "category": "Communities",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/APIs-guru/graphql-apis",
+      "title": "GraphQL APIs",
+      "description": "A collective list of public GraphQL APIs.",
+      "category": "Communities",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://www.reddit.com/r/graphql/",
+      "title": "/r/GraphQL",
+      "description": "A Subreddit for interesting and informative GraphQL content and discussions.",
+      "category": "Communities",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://relaymeetup.com/",
+      "title": "Relay Meetup",
+      "description": "A global, online meetup on Relay, the GraphQL client.",
+      "category": "Meetups",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://www.meetup.com/Amsterdam-GraphQL-Meetup/",
+      "title": "Amsterdam",
+      "description": null,
+      "category": "Meetups",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://www.meetup.com/graphql-bangalore/",
+      "title": "Bangalore",
+      "description": null,
+      "category": "Meetups",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://www.meetup.com/graphql-berlin/",
+      "title": "Berlin",
+      "description": null,
+      "category": "Meetups",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://www.meetup.com/es-ES/GraphQL-BA/",
+      "title": "Buenos Aires",
+      "description": null,
+      "category": "Meetups",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://www.meetup.com/Copenhagen-GraphQL-Meetup-Group/",
+      "title": "Copenhagen",
+      "description": null,
+      "category": "Meetups",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://www.meetup.com/DFW-GraphQL-Meetup/",
+      "title": "Dallas-Fort Worth",
+      "description": null,
+      "category": "Meetups",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://www.meetup.com/GraphQL-Hamburg/",
+      "title": "Hamburg",
+      "description": null,
+      "category": "Meetups",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://www.meetup.com/GraphQL-London/",
+      "title": "London",
+      "description": null,
+      "category": "Meetups",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://www.meetup.com/GraphQL-Melbourne/",
+      "title": "Melbourne",
+      "description": null,
+      "category": "Meetups",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://www.meetup.com/GraphQL-Munich/",
+      "title": "Munich",
+      "description": null,
+      "category": "Meetups",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://www.meetup.com/GraphQL-NYC/",
+      "title": "New York City",
+      "description": null,
+      "category": "Meetups",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://www.meetup.com/GraphQL-SF/",
+      "title": "San Francisco",
+      "description": null,
+      "category": "Meetups",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://www.meetup.com/Seattle-GraphQL/",
+      "title": "Seattle",
+      "description": null,
+      "category": "Meetups",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://www.meetup.com/GraphQL-Sydney/",
+      "title": "Sydney",
+      "description": null,
+      "category": "Meetups",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://www.meetup.com/GraphQL-TLV/",
+      "title": "Tel Aviv",
+      "description": null,
+      "category": "Meetups",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://www.meetup.com/GraphQL-Wroclaw/",
+      "title": "Wrocław",
+      "description": null,
+      "category": "Meetups",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://www.meetup.com/GraphQL-SG/",
+      "title": "Singapore",
+      "description": null,
+      "category": "Meetups",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://www.meetup.com/GraphQL-Zurich/",
+      "title": "Zurich",
+      "description": null,
+      "category": "Meetups",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/graphql/graphql-js",
+      "title": "graphql-js",
+      "description": "A reference implementation of GraphQL for JavaScript.",
+      "category": "JavaScript/TypeScript",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/zalando-incubator/graphql-jit",
+      "title": "graphql-jit",
+      "description": "GraphQL execution using a JIT compiler.",
+      "category": "JavaScript/TypeScript",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://grafast.org",
+      "title": "Gra*fast*",
+      "description": "a cutting edge planning and execution engine for GraphQL.",
+      "category": "JavaScript/TypeScript",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/prisma-labs/graphql-request",
+      "title": "graphql-request",
+      "description": "A minimal GraphQL client for Node and browsers.",
+      "category": "Clients",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://graphql-code-generator.com/docs/plugins/typescript-graphql-request",
+      "title": "typescript-graphql-request",
+      "description": "Use GraphQL Request as a fully typed SDK.",
+      "category": "Clients",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/graphql-editor/graphql-zeus",
+      "title": "graphql-zeus",
+      "description": "GraphQL Zeus creates autocomplete client library for `JavaScript` or `TypeScript` which provides autocompletion for strongly typed queries.",
+      "category": "Clients",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/hasura/graphqurl",
+      "title": "graphqurl",
+      "description": "curl for GraphQL with autocomplete, subscriptions and GraphiQL. Also a dead-simple universal javascript GraphQL client.",
+      "category": "Clients",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/aws-amplify/amplify-js",
+      "title": "aws-amplify",
+      "description": "A client library developed by Amazon for caching, analytics and more that includes a way to fetch GraphQL queries.",
+      "category": "Clients",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/gqty-dev/gqty",
+      "title": "gqty",
+      "description": "A No GraphQL client for TypeScript",
+      "category": "Clients",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/remorses/genql",
+      "title": "genql",
+      "description": "Type safe TypeScript client for any GraphQL API.",
+      "category": "Clients",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/vuejs/vue-apollo",
+      "title": "vue-apollo",
+      "description": "Apollo/GraphQL integration for VueJS.",
+      "category": "Frontend Framework Integrations",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/timhall/svelte-apollo",
+      "title": "svelte-apollo",
+      "description": "Svelte integration for Apollo GraphQL.",
+      "category": "Frontend Framework Integrations",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/ember-graphql/ember-apollo-client",
+      "title": "ember-apollo-client",
+      "description": "An ember-cli addon for Apollo Client and GraphQL.",
+      "category": "Frontend Framework Integrations",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/apollo-elements/apollo-elements",
+      "title": "apollo-elements",
+      "description": "GraphQL web components that work in any frontend framework.",
+      "category": "Frontend Framework Integrations",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/jycouet/kitql",
+      "title": "sveltekit-kitql",
+      "description": "A set of tools, helping you building efficient apps in a fast way with SvelteKit and GraphQL.",
+      "category": "Frontend Framework Integrations",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://www.apollographql.com/docs/react/",
+      "title": "react-apollo",
+      "description": "The core @apollo/client library provides built-in integration with React.",
+      "category": "React",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/FormidableLabs/urql",
+      "title": "urql",
+      "description": "A simple caching GraphQL client for React.",
+      "category": "React",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/nearform/graphql-hooks",
+      "title": "graphql-hooks",
+      "description": "Minimal hooks-first GraphQL client with caching and server-side rendering support.",
+      "category": "React",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/mobxjs/mst-gql",
+      "title": "mst-gql",
+      "description": "Bindings for mobx-state-tree and GraphQL.",
+      "category": "React",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/arackaf/micro-graphql-react",
+      "title": "micro-graphql-react",
+      "description": "A lightweight utility for adding GraphQL to React. components. Includes simple caching and uses GET requests that could additionally be cached through a service-worker.",
+      "category": "React",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/apollographql/apollo-server",
+      "title": "apollo-server",
+      "description": "Spec-compliant and production ready JavaScript GraphQL server that lets you develop in a schema-first way. Built for Express, Connect, Hapi, Koa, and more.",
+      "category": "Servers",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/SimonDegraeve/hapi-graphql",
+      "title": "hapi-graphql",
+      "description": "Create a GraphQL HTTP server with Hapi.",
+      "category": "Servers",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/rse/hapi-plugin-graphiql",
+      "title": "hapi-plugin-graphiql",
+      "description": "HAPI plugin for GraphiQL integration.",
+      "category": "Servers",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/jaydenseric/graphql-api-koa",
+      "title": "graphql-api-koa",
+      "description": "GraphQL Koa middleware that implements GraphQL.js from scratch and supports native ESM.",
+      "category": "Servers",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/chentsulin/koa-graphql",
+      "title": "koa-graphql",
+      "description": "GraphQL Koa Middleware.",
+      "category": "Servers",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/ryanhs/graphql-koa-scripts",
+      "title": "graphql-koa-scripts",
+      "description": "GraphQL Koa 1 file simplified. usefull for quick test",
+      "category": "Servers",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/deno-libs/gql",
+      "title": "gql",
+      "description": "Universal GraphQL HTTP middleware for Deno.",
+      "category": "Servers",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/mercurius-js/mercurius",
+      "title": "mercurius",
+      "description": "GraphQL plugin for Fastify.",
+      "category": "Servers",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/prisma-labs/graphql-yoga",
+      "title": "graphql-yoga",
+      "description": "Fully-featured GraphQL Server with focus on easy setup, performance and great developer experience.",
+      "category": "Servers",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/graphitejs/server",
+      "title": "graphitejs",
+      "description": "Framework NodeJS for GraphQL.",
+      "category": "Servers",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/contrawork/graphql-helix",
+      "title": "graphql-helix",
+      "description": "A highly evolved GraphQL HTTP Server.",
+      "category": "Servers",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/getcronit/pylon",
+      "title": "pylon",
+      "description": "Write full-feature APIs with just functions. No more boilerplate code, no more setup. Just write functions and deploy.",
+      "category": "Servers",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/hypermodeinc/modus",
+      "title": "modus",
+      "description": "Serverless runtime based on WebAssembly that delivers auto-generated GraphQL APIs.",
+      "category": "Servers",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/mickhansen/graphql-sequelize",
+      "title": "graphql-sequelize",
+      "description": "Sequelize helpers for GraphQL.",
+      "category": "Databases & ORMs",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/brysgo/graphql-bookshelf",
+      "title": "graphql-bookshelf",
+      "description": "Some help defining GraphQL schema around BookshelfJS models.",
+      "category": "Databases & ORMs",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/acarl005/join-monster",
+      "title": "join-monster",
+      "description": "A GraphQL-to-SQL query execution layer for batch data fetching.",
+      "category": "Databases & ORMs",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/ably-labs/graphql-ably-pubsub",
+      "title": "graphql-ably-pubsub",
+      "description": "Ably PubSub implementation for GraphQL to publish mutation updates and subscribe to the result through a subscription query.",
+      "category": "PubSub",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/Urigo/graphql-scalars",
+      "title": "graphql-scalars",
+      "description": "A library of custom GraphQL Scalars for creating precise type-safe GraphQL schemas.",
+      "category": "Custom Scalars",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/19majkel94/type-graphql",
+      "title": "type-graphql",
+      "description": "Create GraphQL schema and resolvers with TypeScript, using classes and decorators!",
+      "category": "Type",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/graphql-nexus/nexus",
+      "title": "graphql-nexus",
+      "description": "Code-First, Type-Safe, GraphQL Schema Construction.",
+      "category": "Type",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/hayes/pothos",
+      "title": "pothos",
+      "description": "Pothos is a plugin based GraphQL schema builder for typescript. It makes building graphql schemas in typescript easy, fast and enjoyable.",
+      "category": "Type",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/stepci/garph",
+      "title": "garph",
+      "description": "Garph is full-stack framework for building type-safe GraphQL APIs in TypeScript.",
+      "category": "Type",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/modevol-com/gqloom",
+      "title": "gqloom",
+      "description": "GQLoom is a GraphQL weaver for TypeScript/JavaScript that weaves GraphQL schema and resolvers using [Valibot](https://github.com/fabian-hiller/valibot), [Zod](https://github.com/colinhacks/zod), or [Yup](https://github.com/jquense/yup).",
+      "category": "Type",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/idurar/fast-graphql",
+      "title": "fast-graphql",
+      "description": "Graphql Tools to Structure, Combine Resolvers and Merge Schema Definitions for Node.js, Next.Js and Graphql Apollo server",
+      "category": "Type",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/lkster/graphql-to-type",
+      "title": "graphql-to-type",
+      "description": "GraphQL query parser written entirely in TypeScript's type system for creating interfaces based on provided query",
+      "category": "Type",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/0no-co/gql.tada",
+      "title": "gql.tada",
+      "description": "GraphQL document authoring library, inferring the result and variables types of GraphQL queries and fragments in the TypeScript type system.",
+      "category": "Type",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/apollographql/graphql-tools",
+      "title": "graphql-tools",
+      "description": "Tool library for building and maintaining GraphQL-JS servers.",
+      "category": "Miscellaneous",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/apollographql/graphql-tag",
+      "title": "graphql-tag",
+      "description": "A JavaScript template literal tag that parses GraphQL queries.",
+      "category": "Miscellaneous",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/KunalSin9h/load-gql",
+      "title": "load-gql",
+      "description": "A tiny, zero dependency GraphQL schema loader from files and folders.",
+      "category": "Miscellaneous",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/graphql-compose/graphql-compose",
+      "title": "graphql-compose",
+      "description": "Tool which allows you to construct flexible graphql schema from different data sources via plugins.",
+      "category": "Miscellaneous",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/Urigo/graphql-modules",
+      "title": "graphql-modules",
+      "description": "Separate GraphQL server into smaller, reusable parts by modules or features.",
+      "category": "Miscellaneous",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/maticzav/graphql-shield",
+      "title": "graphql-shield",
+      "description": "A library that helps creating a permission layer for a graphql api.",
+      "category": "Miscellaneous",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/omar-dulaimi/graphql-shield-generator",
+      "title": "graphql-shield-generator",
+      "description": "Emits a GraphQL Shield from your GraphQL schema.",
+      "category": "Miscellaneous",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/oslabs-beta/GraphQL-Gate",
+      "title": "graphqlgate",
+      "description": "A GraphQL rate-limiting library with query complexity analysis for Node.js",
+      "category": "Miscellaneous",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/piglovesyou/graphql-let",
+      "title": "graphql-let",
+      "description": "A webpack loader to import type-protected codegen results directly from GraphQL documents",
+      "category": "Miscellaneous",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/kamilkisiela/graphql-config",
+      "title": "graphql-config",
+      "description": "One configuration for all your GraphQL tools (supported by most tools, editors & IDEs).",
+      "category": "Miscellaneous",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/urigo/graphql-cli",
+      "title": "graphql-cli",
+      "description": "A command line tool for common GraphQL development workflows.",
+      "category": "Miscellaneous",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/ardatan/graphql-toolkit",
+      "title": "graphql-toolkit",
+      "description": "A set of utils for faster development of GraphQL tools (Schema and documents loading, Schema merging and more).",
+      "category": "Miscellaneous",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/urigo/graphql-mesh",
+      "title": "graphql-mesh",
+      "description": "use GraphQL query language to access data in remote APIs that don't run GraphQL (and also ones that do run GraphQL).",
+      "category": "Miscellaneous",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/Urigo/sofa",
+      "title": "sofa",
+      "description": "Generate REST API from your GraphQL API.",
+      "category": "Miscellaneous",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/aerogear/graphback",
+      "title": "graphback",
+      "description": "Framework and CLI to add a GraphQLCRUD API layer to a GraphQL server using data models.",
+      "category": "Miscellaneous",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/maticzav/graphql-middleware",
+      "title": "graphql-middleware",
+      "description": "Split up your GraphQL resolvers in middleware functions.",
+      "category": "Miscellaneous",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/graphql/graphql-relay-js",
+      "title": "graphql-relay-js",
+      "description": "A library to help construct a graphql-js server supporting react-relay.",
+      "category": "Miscellaneous",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/monojack/graphql-normalizr",
+      "title": "graphql-normalizr",
+      "description": "Normalize GraphQL responses for persisting in the client cache/state.",
+      "category": "Miscellaneous",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/ooflorent/babel-plugin-graphql",
+      "title": "babel-plugin-graphql",
+      "description": "Babel plugin that compile GraphQL tagged template strings.",
+      "category": "Miscellaneous",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/apollographql/eslint-plugin-graphql",
+      "title": "eslint-plugin-graphql",
+      "description": "An ESLint plugin that checks your GraphQL strings against a schema.",
+      "category": "Miscellaneous",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/enisdenjo/graphql-ws",
+      "title": "graphql-ws",
+      "description": "Coherent, zero-dependency, lazy, simple, GraphQL over WebSocket Protocol compliant server and client.",
+      "category": "Miscellaneous",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/n1ru4l/graphql-live-query",
+      "title": "graphql-live-query",
+      "description": "Realtime GraphQL Live Queries with JavaScript.",
+      "category": "Miscellaneous",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/Comcast/graphvinci",
+      "title": "GraphVinci",
+      "description": "An interactive schema visualizer for GraphQL APIs.",
+      "category": "Miscellaneous",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/alexstrat/supertest-graphql",
+      "title": "supertest-graphql",
+      "description": "Extends [supertest](https://github.com/visionmedia/supertest) to easily test a GraphQL endpoint",
+      "category": "Miscellaneous",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/anvilco/graphql-introspection-tools",
+      "title": "microfiber",
+      "description": "Query and manipulate GraphQL introspection query results in useful ways.",
+      "category": "Miscellaneous",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/Escape-Technologies/graphql-armor",
+      "title": "graphql-armor",
+      "description": "An instant security layer for production GraphQL Endpoints.",
+      "category": "Miscellaneous",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/Escape-Technologies/goctopus",
+      "title": "goctopus",
+      "description": "an incredibly fast GraphQL discovery & fingerprinting toolbox.",
+      "category": "Miscellaneous",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/confuser/graphql-constraint-directive",
+      "title": "GraphQL Constraint Directive",
+      "description": "Allows using @constraint as a directive to validate input data. Inspired by Constraints Directives RFC and OpenAPI",
+      "category": "Miscellaneous",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/ktutnik/graphql-directive/tree/master/packages/validator",
+      "title": "Validator.js Wrapper Directive",
+      "description": "A comprehensive list of validator directive wraps Validator.js functionalities",
+      "category": "Miscellaneous",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/wundergraph/cosmo",
+      "title": "WunderGraph Cosmo",
+      "description": "The Open-Source GraphQL Federation Solution with Full Lifecycle API Management for (Federated) GraphQL. Schema Registry, composition checks, analytics, metrics, tracing and routing.",
+      "category": "Miscellaneous",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/wundergraph/graphql-go-tools",
+      "title": "graphql-go-tools",
+      "description": "A graphQL Router / API Gateway framework written in Golang, focussing on correctness, extensibility, and high-performance. Supports Federation v1 & v2, Subscriptions & more.",
+      "category": "Miscellaneous",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/sophiabits/graphql-sunset",
+      "title": "graphql-sunset",
+      "description": "Quickly and easily add support for the `Sunset` header to your GraphQL server, to better communicate upcoming breaking changes.",
+      "category": "Miscellaneous",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://www.schemato.top/graphql-to-typescript",
+      "title": "Schemato",
+      "description": "Browser-only GraphQL SDL converter for generating TypeScript, Zod, Pydantic, Go, Rust, and other typed models.",
+      "category": "Miscellaneous",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/graphql/swapi-graphql",
+      "title": "SWAPI GraphQL Wrapper",
+      "description": "A GraphQL schema and server wrapping SWAPI.",
+      "category": "JavaScript Examples",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/taion/relay-todomvc",
+      "title": "Relay TodoMVC",
+      "description": "Relay TodoMVC with routing.",
+      "category": "JavaScript Examples",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://www.apollographql.com/docs/apollo-server/",
+      "title": "Apollo Server tools documentation",
+      "description": "Documentation, tutorial and examples for building GraphQL server and connecting to SQL, MongoDB and REST endpoints.",
+      "category": "JavaScript Examples",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/fbsamples/f8app",
+      "title": "F8 App 2017",
+      "description": "Source code of the official F8 app of 2016, powered by React Native and other Facebook open source projects.",
+      "category": "JavaScript Examples",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/katopz/react-apollo-graphql-github-example",
+      "title": "Apollo React example for Github GraphQL API",
+      "description": "Usage Examples Apollo React for Github GraphQL API with create-react-app.",
+      "category": "JavaScript Examples",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/zeit/next.js/tree/canary/examples/with-typescript-graphql",
+      "title": "Next.js TypeScript and GraphQL Example",
+      "description": "A type-protected GraphQL example on Next.js running [graphql-codegen](https://graphql-code-generator.com/) under the hood",
+      "category": "JavaScript Examples",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://stackblitz.com/fork/graphql",
+      "title": "GraphQL StackBlitz Starter",
+      "description": "A live, editable demo spinning up in about 2 seconds and running in a browser.",
+      "category": "JavaScript Examples",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/alan345/naperg",
+      "title": "NAPERG",
+      "description": "Fullstack Boilerplate GraphQL. Made with React & Prisma + authentication & roles.",
+      "category": "JavaScript Examples",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "http://vulcanjs.org",
+      "title": "VulcanJS",
+      "description": "The full-stack React+GraphQL framework",
+      "category": "JavaScript Examples",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/kriasoft/nodejs-api-starter",
+      "title": "Node.js API Starter",
+      "description": "Yarn v2 based monorepo template (code-first GraphQL API, PostgreSQL, PnP, Zero-install, serverless).",
+      "category": "TypeScript Examples",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/borisowsky/nextjs-apollo-ts-starter",
+      "title": "Next.js Apollo TypeScript Starter",
+      "description": "Next.js starter project focused on developer experience.",
+      "category": "TypeScript Examples",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/cerino-ligutom/GraphQL-Starter",
+      "title": "GraphQL Starter",
+      "description": "A boilerplate for TypeScript + Node Express + Apollo GraphQL APIs.",
+      "category": "TypeScript Examples",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/setchy/apollo-server-3-mocked-federation",
+      "title": "Mocked Managed Federation - Apollo Server 3",
+      "description": "An example of how to mock a managed federation Supgraph using Apollo Server 3.x",
+      "category": "TypeScript Examples",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/setchy/apollo-server-4-mocked-federation",
+      "title": "Mocked Managed Federation - Apollo Server 4",
+      "description": "An example of how to mock a managed federation Supgraph using Apollo Server 4.x",
+      "category": "TypeScript Examples",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/idurar/starter-advanced-graphql-crud-next-js-mongodb",
+      "title": "Next.js Advanced Graphql Crud MongoDB Starter",
+      "description": "Starter Generic CRUD with Advanced Apollo Graphql server with Next.js and Mongodb (TypeScript)",
+      "category": "TypeScript Examples",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/o2web/graphql-auth",
+      "title": "graphql-auth",
+      "description": "A JWT auth wrapper working with devise.",
+      "category": "Ruby",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/contentful-labs/gqli.rb",
+      "title": "GQLi",
+      "description": "A GraphQL client and DSL. Allowing to write queries in native Ruby.",
+      "category": "Ruby",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/rmosolgo/graphql-ruby-demo",
+      "title": "graphql-ruby-demo",
+      "description": "Use graphql-ruby to expose a Rails app.",
+      "category": "Ruby Examples",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/github/github-graphql-rails-example",
+      "title": "github-graphql-rails-example",
+      "description": "Example Rails app using GitHub's GraphQL API.",
+      "category": "Ruby Examples",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/nethsix/relay-on-rails",
+      "title": "relay-on-rails",
+      "description": "Barebones starter kit for Relay application with Rails GraphQL server.",
+      "category": "Ruby Examples",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/gauravtiwari/relay-rails-blog",
+      "title": "relay-rails-blog",
+      "description": "A graphql, relay and standard rails application powered demo weblog.",
+      "category": "Ruby Examples",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/jcdavison/to_eat_app",
+      "title": "to_eat_app",
+      "description": "A sample graphql/rails/relay application with a related 3-part article series.",
+      "category": "Ruby Examples",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/ohler55/agoo/tree/develop/example/graphql",
+      "title": "agoo-demo",
+      "description": "Use of the Agoo server to demonstrate a simple GraphQL application.",
+      "category": "Ruby Examples",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/zauberware/rails-devise-graphql",
+      "title": "rails-devise-graphql",
+      "description": "A rails 6 boilerplate with devise, graphql & JWT auth.",
+      "category": "Ruby Examples",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/webonyx/graphql-php",
+      "title": "graphql-php",
+      "description": "A PHP port of GraphQL reference implementation.",
+      "category": "PHP",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/ivome/graphql-relay-php",
+      "title": "graphql-relay-php",
+      "description": "Relay helpers for webonyx/graphql-php implementation of GraphQL.",
+      "category": "PHP",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/nuwave/lighthouse",
+      "title": "lighthouse",
+      "description": "A PHP package that allows to serve a GraphQL endpoint from your Laravel application.",
+      "category": "PHP",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/rebing/graphql-laravel",
+      "title": "graphql-laravel",
+      "description": "Laravel wrapper for Facebook's GraphQL.",
+      "category": "PHP",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/overblog/GraphQLBundle",
+      "title": "overblog/graphql-bundle",
+      "description": "This bundle provides tools to build a complete GraphQL server in your Symfony App. Supports react-relay.",
+      "category": "PHP",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/wp-graphql/wp-graphql",
+      "title": "wp-graphql",
+      "description": "GraphQL API for WordPress.",
+      "category": "PHP",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/thecodingmachine/graphqlite",
+      "title": "graphqlite",
+      "description": "Framework agnostic library that allows you to write GraphQL server by annotating your PHP classes.",
+      "category": "PHP",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/leocavalcante/siler",
+      "title": "siler",
+      "description": "Plain-old functions providing a declarative API for GraphQL servers with Subscriptions support.",
+      "category": "PHP",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/dpauli/php-graphql-request-builder",
+      "title": "graphql-request-builder",
+      "description": "Builds request payload in GraphQL structure.",
+      "category": "PHP",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://www.drupal.org/project/graphql",
+      "title": "drupal/graphql",
+      "description": "Craft and expose a GraphQL schema for Drupal 9 and 10.",
+      "category": "PHP",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/jerowork/graphql-attribute-schema",
+      "title": "jerowork/graphql-schema-builder",
+      "description": "Easily build your GraphQL schema for webonyx/graphql-php using PHP attributes instead of large configuration arrays.",
+      "category": "PHP",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/leocavalcante/siler/tree/main/examples/graphql",
+      "title": "siler-graphgl",
+      "description": "An example GraphQL server written with Siler.",
+      "category": "PHP Examples",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/tryolabs/graphql-parser",
+      "title": "graphql-parser",
+      "description": "GraphQL parser for Python.",
+      "category": "Python",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/graphql-python/graphql-core",
+      "title": "graphql-core",
+      "description": "GraphQL implementation for Python based on GraphQL.js v16.3.0 reference implementation",
+      "category": "Python",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/graphql-python/graphql-relay-py",
+      "title": "graphql-relay-py",
+      "description": "A library to help construct a graphql-py server supporting react-relay.",
+      "category": "Python",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/tallstreet/graphql-parser-python",
+      "title": "graphql-parser-python",
+      "description": "A python wrapper around libgraphqlparser.",
+      "category": "Python",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/graphql-python/graphene",
+      "title": "graphene",
+      "description": "A package for creating GraphQL schemas/types in a Pythonic easy way.",
+      "category": "Python",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/graphql-python/graphene-gae",
+      "title": "graphene-gae",
+      "description": "Adds GraphQL support to Google AppEngine (GAE).",
+      "category": "Python",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/GraphQL-python-archive/django-graphiql",
+      "title": "django-graphiql",
+      "description": "Integrate GraphiQL easily into your Django project.",
+      "category": "Python",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/graphql-python/flask-graphql",
+      "title": "flask-graphql",
+      "description": "Adds GraphQL support to your Flask application.",
+      "category": "Python",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/prisma/python-graphql-client",
+      "title": "python-graphql-client",
+      "description": "Simple GraphQL client for Python 2.7+",
+      "category": "Python",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/healx/python-graphjoiner",
+      "title": "python-graphjoiner",
+      "description": "Create GraphQL APIs using joins, SQL or otherwise.",
+      "category": "Python",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/graphql-python/graphene-django",
+      "title": "graphene-django",
+      "description": "A Django integration for Graphene.",
+      "category": "Python",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/callsign-viper/Flask-GraphQL-Auth",
+      "title": "Flask-GraphQL-Auth",
+      "description": "An authentication library for Flask inspired from flask-jwt-extended.",
+      "category": "Python",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/dailymotion/tartiflette",
+      "title": "tartiflette",
+      "description": "GraphQL Implementation, SDL First, for python 3.6+ / asyncio.",
+      "category": "Python",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/dailymotion/tartiflette-aiohttp",
+      "title": "tartiflette-aiohttp",
+      "description": "Wrapper of Tartiflette to expose GraphQL API over HTTP based on aiohttp / 3.6+ / asyncio, [official tutorial available on tartiflette.io](https://tartiflette.io/docs/tutorial/getting-started).",
+      "category": "Python",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/mirumee/ariadne",
+      "title": "Ariadne",
+      "description": "library for implementing GraphQL servers using schema-first approach. Asynchronous query execution, batteries included for ASGI, WSGI and popular webframeworks, [fully documented](https://ariadnegraphql.org).",
+      "category": "Python",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/PedroBern/django-graphql-auth",
+      "title": "django-graphql-auth",
+      "description": "Django registration and authentication with GraphQL.",
+      "category": "Python",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/jhnnsrs/turms",
+      "title": "turms",
+      "description": "A pythonic graphql codegenerator built around graphql-core and pydantic",
+      "category": "Python",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/jhnnsrs/rath",
+      "title": "rath",
+      "description": "An apollo like graphql client with async and sync interface",
+      "category": "Python",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/profusion/sgqlc",
+      "title": "sgqlc",
+      "description": "Simple GraphQL Client makes working with GraphQL API responses easier in Python.",
+      "category": "Python",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/graphql-python/swapi-graphene",
+      "title": "swapi-graphene",
+      "description": "A GraphQL schema and server using [Graphene](https://graphene-python.org).",
+      "category": "Python Examples",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://hasura.io/learn/graphql/backend-stack/languages/python/",
+      "title": "Python Backend Tutorial",
+      "description": "A tutorial on creating a GraphQL server with [Strawberry](https://strawberry.rocks/) and a client with [Qlient](https://qlient-org.github.io/python-qlient/site/).",
+      "category": "Python Examples",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/graphql-java/graphql-java",
+      "title": "graphql-java",
+      "description": "GraphQL Java implementation.",
+      "category": "Java",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/graphql-java-generator",
+      "title": "graphql-java-generator",
+      "description": "A [Maven plugin](https://github.com/graphql-java-generator/graphql-maven-plugin-project) and a [Gradle plugin](https://github.com/graphql-java-generator/graphql-gradle-plugin-project) that can generate both the **Client** and the **Server** (POJOs and utility classes). The server part is based on graphql-java, and hides all its boilerplate codes.",
+      "category": "Java",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/graphql-java/graphql-java-type-generator",
+      "title": "gaphql-java-type-generator",
+      "description": "Auto-generates types for use with GraphQL Java",
+      "category": "Java",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/bpatters/schemagen-graphql",
+      "title": "schemagen-graphql",
+      "description": "Schema generation and execution package that turns POJO's into a GraphQL Java queryable set of objects. Enables exposing any service as a GraphQL service using Annotations.",
+      "category": "Java",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/Enigmatis/graphql-java-annotations",
+      "title": "graphql-java-annotations",
+      "description": "Provides annotations-based syntax for schema definition with GraphQL Java.",
+      "category": "Java",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/kobylynskyi/graphql-java-codegen-maven-plugin",
+      "title": "graphql-java-codegen-maven-plugin",
+      "description": "Schema-first maven plugin for generating Java types and Resolver interfaces. Works perfectly in conjunction with graphql-java-tools. Inspired by [swagger-codegen-maven-plugin](https://github.com/swagger-api/swagger-codegen/tree/master/modules/swagger-codegen-maven-plugin).",
+      "category": "Java",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/kobylynskyi/graphql-java-codegen-gradle-plugin",
+      "title": "graphql-java-codegen-gradle-plugin",
+      "description": "Schema-first gradle plugin for generating Java types and Resolver interfaces. Works perfectly in conjunction with graphql-java-tools. Inspired by [gradle-swagger-generator-plugin](https://github.com/int128/gradle-swagger-generator-plugin).",
+      "category": "Java",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/graphql-java-kickstart/graphql-java-servlet",
+      "title": "graphql-java-servlet",
+      "description": "A framework-agnostic java servlet for exposing graphql-java query endpoints with GET, POST, and multipart uploads.",
+      "category": "Java",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/manifold-systems/manifold/tree/master/manifold-deps-parent/manifold-graphql",
+      "title": "manifold-graphql",
+      "description": "Comprehensive GraphQL client use. Schema-first. Type-safe GraphQL types, queries, and results, no code generators, no POJOs, no annotations. Excellent [IDE support](http://manifold.systems/images/graphql.mp4) with IntelliJ IDEA and Android Studio. See the [Java example](#example-java) below.",
+      "category": "Java",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/oembedler/spring-graphql-common",
+      "title": "spring-graphql-common",
+      "description": "Spring Framework GraphQL Library.",
+      "category": "Java",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/graphql-java-kickstart/graphql-spring-boot",
+      "title": "graphql-spring-boot",
+      "description": "GraphQL and GraphiQL Spring Framework Boot Starters.",
+      "category": "Java",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/engagingspaces/vertx-graphql-service-discovery",
+      "title": "vertx-graphql-service-discovery",
+      "description": "Asynchronous GraphQL service discovery and querying for your microservices.",
+      "category": "Java",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/engagingspaces/vertx-dataloader",
+      "title": "vertx-dataloader",
+      "description": "Port of Facebook DataLoader for efficient, asynchronous batching and caching in clustered GraphQL environments.",
+      "category": "Java",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/leangen/GraphQL-SPQR",
+      "title": "graphql-spqr",
+      "description": "Java 8+ API for rapid development of GraphQL services.",
+      "category": "Java",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/networknt/light-graphql-4j",
+      "title": "Light Java GraphQL",
+      "description": "A lightweight, fast microservices framework with all cross-cutting concerns addressed and ready to plug in GraphQL schema.",
+      "category": "Java",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/apollographql/federation-jvm",
+      "title": "federation-jvm",
+      "description": "Apollo Federation on the JVM.",
+      "category": "Java",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/graph-quilt/graphql-orchestrator-java",
+      "title": "graphql-orchestrator-java",
+      "description": null,
+      "category": "Java",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/graphql-java/graphql-java-extended-validation",
+      "title": "graphql-java-extended-validation",
+      "description": "Provides extended validation of fields and field arguments for graphql-java.",
+      "category": "Java",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/setchy/dgs-extended-formatters",
+      "title": "dgs-extended-formatters",
+      "description": "An experimental set of DGS Directives for common formatting use-cases.",
+      "category": "Java",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/donbeave/graphql-java-datetime",
+      "title": "graphql-java-datetime",
+      "description": "GraphQL ISO Date is a set of RFC 3339 compliant date/time scalar types to be used with graphql-java.",
+      "category": "Custom Scalars",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/graphql-java/graphql-java-extended-scalars",
+      "title": "graphql-java-extended-scalars",
+      "description": "Extended scalars for graphql-java.",
+      "category": "Custom Scalars",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/networknt/light-example-4j/tree/master/graphql",
+      "title": "light-java-graphql examples",
+      "description": "Examples of Light Java GraphQL and tutorials.",
+      "category": "Java Examples",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/leangen/graphql-spqr-samples",
+      "title": "graphql-spqr-samples",
+      "description": "An example GraphQL server written with Spring MVC and GraphQL-SPQR.",
+      "category": "Java Examples",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/manifold-systems/manifold-sample-graphql-app",
+      "title": "manifold-graphql sample",
+      "description": "A simple application, both client and server, demonstrating the Manifold GraphQL library.",
+      "category": "Java Examples",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/graphql-java-kickstart/samples",
+      "title": "graphql-java-kickstart_samples",
+      "description": "Samples for using the GraphQL Java Kickstart projects.",
+      "category": "Java Examples",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/setchy/graphql-java-kickstart-federation-example",
+      "title": "graphql-java-kickstart-federation-example",
+      "description": "A GraphQL Java Kickstart federation example.",
+      "category": "Java Examples",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/Netflix/dgs-federation-example",
+      "title": "dgs-federation-example",
+      "description": "A Netflix DGS federation example.",
+      "category": "Java Examples",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://hasura.io/learn/graphql/backend-stack/languages/java/",
+      "title": "Spring Boot backend tutorial",
+      "description": "A tutorial creating a GraphQL server and client using Spring Boot and Netflix DGS.",
+      "category": "Java Examples",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/aPureBase/KGraphQL",
+      "title": "KGraphQL",
+      "description": "Pure Kotlin implementation to setup a GraphQL server.",
+      "category": "Kotlin",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/ermadmi78/kobby",
+      "title": "Kobby",
+      "description": "Codegen plugin of Kotlin DSL Client by GraphQL schema. The generated DSL supports execution of complex GraphQL queries, mutation and subscriptions in Kotlin with syntax similar to native GraphQL syntax.",
+      "category": "Kotlin",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/cufyorg/graphkt",
+      "title": "Graphkt",
+      "description": "A DSL based graphql server library for kotlin, backed by graphql-java.",
+      "category": "Kotlin",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/manifold-systems/manifold-sample-kotlin-app",
+      "title": "manifold-graphql sample",
+      "description": "A simple GraphQL application, both client and server, demonstrating the Manifold GraphQL library with Kotlin.",
+      "category": "Kotlin Examples",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/graphql/libgraphqlparser",
+      "title": "libgraphqlparser",
+      "description": "A GraphQL query parser in C++ with C and C++ APIs.",
+      "category": "C/C++",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/ohler55/agoo-c",
+      "title": "agoo-c",
+      "description": "A high performance GraphQL server written in C. [benchmarks](https://github.com/the-benchmarker/graphql-benchmarks)",
+      "category": "C/C++",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/Microsoft/cppgraphqlgen",
+      "title": "cppgraphqlgen",
+      "description": "C++ GraphQL schema service generator.",
+      "category": "C/C++",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/caffeinetv/CaffQL",
+      "title": "CaffQL",
+      "description": "Generates C++ client types and request/response serialization from a GraphQL introspection query.",
+      "category": "C/C++",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/graph-gophers/graphql-go",
+      "title": "graphql-go",
+      "description": "GraphQL server with a focus on ease of use.",
+      "category": "Go",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/kadirpekel/gql",
+      "title": "gql",
+      "description": "Code first graphql (graphql-go/graphql) schema builder.",
+      "category": "Go",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/graphql-go/relay",
+      "title": "graphql-relay-go",
+      "description": "A Go/Golang library to help construct a server supporting react-relay.",
+      "category": "Go",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/dosco/graphjin",
+      "title": "graphjin",
+      "description": "Build APIs in 5 minutes with GraphQL. An instant GraphQL to SQL compiler.",
+      "category": "Go",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/Raezil/Thunder",
+      "title": "Thunder",
+      "description": "A scalable microservices framework powered by Go, gRPC-Gateway, Prisma, and Kubernetes. It exposes REST, gRPC and Graphql",
+      "category": "Go",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/ysugimoto/grpc-graphql-gateway",
+      "title": "grpc-graphql-gateway",
+      "description": "A protoc plugin that generates graphql execution code from Protocol Buffers.",
+      "category": "Go",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/sogko/golang-relay-starter-kit",
+      "title": "golang-relay-starter-kit",
+      "description": "Barebones starting point for a Relay application with Golang GraphQL server.",
+      "category": "Go Examples",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/sogko/todomvc-relay-go",
+      "title": "todomvc-relay-go",
+      "description": "Port of the React/Relay TodoMVC app, driven by a Golang GraphQL backend.",
+      "category": "Go Examples",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/ccamel/go-graphql-subscription-example",
+      "title": "go-graphql-subscription-example",
+      "description": "A GraphQL schema and server that demonstrates GraphQL [subscriptions](https://github.com/apollographql/subscriptions-transport-ws/blob/v0.9.4/PROTOCOL.md) (over Websocket) to consume [Apache Kafka](https://kafka.apache.org/) messages.",
+      "category": "Go Examples",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/sangria-graphql/sangria-relay",
+      "title": "sangria-relay",
+      "description": "Sangria Relay Support.",
+      "category": "Scala",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/ghostdogpr/caliban",
+      "title": "caliban",
+      "description": "Caliban is a purely functional library for creating GraphQL backends in Scala.",
+      "category": "Scala",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/sangria-graphql/sangria-akka-http-example",
+      "title": "sangria-akka-http-example",
+      "description": "An example GraphQL server written with akka-http and [sangria](https://sangria-graphql.github.io/)",
+      "category": "Scala Examples",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/sangria-graphql/sangria-playground",
+      "title": "sangria-playground",
+      "description": "An example of GraphQL server written with Play and sangria.",
+      "category": "Scala Examples",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/graphql-dotnet/graphql-dotnet",
+      "title": "graphql-dotnet",
+      "description": "GraphQL for .NET.",
+      "category": ".NET",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/ckimes89/graphql-net",
+      "title": "graphql-net",
+      "description": "GraphQL to IQueryable for .NET.",
+      "category": ".NET",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/ChilliCream/hotchocolate",
+      "title": "Hot Chocolate",
+      "description": "GraphQL server for .Net Core and .NET Framework.",
+      "category": ".NET",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/Zaid-Ajaj/Snowflaqe",
+      "title": "Snowflaqe",
+      "description": "Type-safe GraphQL code generator for F# and [Fable](https://github.com/fable-compiler/Fable)",
+      "category": ".NET",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/EntityGraphQL/EntityGraphQL",
+      "title": "EntityGraphQL",
+      "description": "library to build a GraphQL API on top of data model with the extensibility to bring multiple data sources together in the single GraphQL schema.",
+      "category": ".NET",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/byme8/ZeroQL",
+      "title": "ZeroQL",
+      "description": "type-safe GraphQL client with Linq-like interface for C#",
+      "category": ".NET",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://hasura.io/learn/graphql/backend-stack/languages/dotnet/",
+      "title": ".NET backend tutorial",
+      "description": "A tutorial creating a GraphQL server and client with .NET.",
+      "category": ".NET Examples",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/graphql-elixir/graphql",
+      "title": "graphql-elixir",
+      "description": "GraphQL Elixir. (No longer maintained)",
+      "category": "Elixir",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/graphql-elixir/plug_graphql",
+      "title": "plug_graphql",
+      "description": "Plug integration for GraphQL Elixir.",
+      "category": "Elixir",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/graphql-elixir/graphql_relay",
+      "title": "graphql_relay",
+      "description": "Relay helpers for GraphQL Elixir.",
+      "category": "Elixir",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/asonge/graphql",
+      "title": "graphql",
+      "description": "Elixir GraphQL parser.",
+      "category": "Elixir",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/peburrows/plot",
+      "title": "plot",
+      "description": "GraphQL parser and resolver for Elixir.",
+      "category": "Elixir",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/graphql-elixir/hello_graphql_phoenix",
+      "title": "hello_graphql_phoenix",
+      "description": "Examples of GraphQL Elixir Plug endpoints mounted in Phoenix",
+      "category": "Elixir Examples",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/jdnavarro/graphql-haskell",
+      "title": "graphql-haskell",
+      "description": "GraphQL AST and parser for Haskell.",
+      "category": "Haskell",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/morpheusgraphql/morpheus-graphql",
+      "title": "morpheus-graphql",
+      "description": "Haskell GraphQL Api, Client and Tools.",
+      "category": "Haskell",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/solidsnack/GraphpostgresQL",
+      "title": "GraphpostgresQL",
+      "description": "GraphQL for Postgres.",
+      "category": "SQL",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/rexxars/sql-to-graphql",
+      "title": "sql-to-graphql",
+      "description": "Generate a GraphQL API based on your SQL database structure.",
+      "category": "SQL",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/graphile/postgraphile",
+      "title": "PostGraphile",
+      "description": "Lightning-fast GraphQL APIs for PostgreSQL: highly customisable; extensible via plugins; realtime.",
+      "category": "SQL",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/hasura/graphql-engine",
+      "title": "Hasura",
+      "description": "Hasura gives Instant Realtime GraphQL APIs over PostgreSQL. Works with an existing database too.",
+      "category": "SQL",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://subzero.cloud/",
+      "title": "subZero",
+      "description": "GraphQL & REST API for your database",
+      "category": "SQL",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/dillonkearns/elm-graphql",
+      "title": "elm-graphql",
+      "description": "GraphQL for Elm.",
+      "category": "Elm",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/tendant/graphql-clj",
+      "title": "graphql-clj",
+      "description": "A Clojure library designed to provide GraphQL implementation.",
+      "category": "Clojure",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/walmartlabs/lacinia",
+      "title": "Lacinia",
+      "description": "GraphQL implementation in pure Clojure.",
+      "category": "Clojure",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/district0x/graphql-query",
+      "title": "graphql-query",
+      "description": "Clojure(Script) GraphQL query generation.",
+      "category": "Clojure",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/walmartlabs/clojure-game-geek",
+      "title": "Clojure Game Geek",
+      "description": "Example code for the Lacinia GraphQL framework tutorial.",
+      "category": "Clojure Examples",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/GraphQLSwift/GraphQL",
+      "title": "GraphQL",
+      "description": "The Swift implementation for GraphQL.",
+      "category": "Swift",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/andreas/ocaml-graphql-server",
+      "title": "ocaml-graphql-server",
+      "description": "GraphQL servers in OCaml.",
+      "category": "OCaml",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/apollographql/apollo-android",
+      "title": "apollo-android",
+      "description": "📟 A strongly-typed, caching GraphQL client for Android, written in Java.",
+      "category": "Android",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/rnitame/apollo-frontpage-android-app",
+      "title": "apollo-frontpage-android-app",
+      "description": "📄 Apollo \"hello world\" app, for Android.",
+      "category": "Android Examples",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/apollographql/apollo-ios",
+      "title": "apollo-ios",
+      "description": "📱 A strongly-typed, caching GraphQL client for iOS, written in Swift.",
+      "category": "iOS",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/manicmaniac/ApolloDeveloperKit",
+      "title": "ApolloDeveloperKit",
+      "description": "Apollo Client Devtools bridge for [Apollo iOS].",
+      "category": "iOS",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/nerdsupremacist/Graphaello",
+      "title": "Graphaello",
+      "description": "Type Safe GraphQL directly from SwiftUI.",
+      "category": "iOS",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/apollographql/frontpage-ios-app",
+      "title": "frontpage-ios-app",
+      "description": "📄 Apollo \"hello world\" app, for iOS.",
+      "category": "iOS Examples",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/oliyh/re-graph",
+      "title": "re-graph",
+      "description": "A GraphQL client for ClojureScript with bindings for re-frame applications.",
+      "category": "ClojureScript",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/apollographql/reason-apollo",
+      "title": "reason-apollo",
+      "description": "ReasonML binding for Apollo Client.",
+      "category": "ReasonML",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/sainthkh/reasonql",
+      "title": "ReasonQL",
+      "description": "Type-safe and simple GraphQL Client for ReasonML developers.",
+      "category": "ReasonML",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/FormidableLabs/reason-urql",
+      "title": "reason-urql",
+      "description": "ReasonML binding for urql Client.",
+      "category": "ReasonML",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/zino-app/graphql-flutter",
+      "title": "graphql-flutter",
+      "description": "A GraphQL client for Flutter.",
+      "category": "Dart",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/comigor/artemis",
+      "title": "Artemis",
+      "description": "A GraphQL type and query generator for Dart/Flutter.",
+      "category": "Dart",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/tomhoule/graphql-client",
+      "title": "graphql-client",
+      "description": "GraphQL client library for Rust with WebAssembly (wasm) support.",
+      "category": "Rust",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/graphql-rust/graphql-parser",
+      "title": "graphql-parser",
+      "description": "A parser, formatter and AST for the GraphQL query and schema definition language for Rust.",
+      "category": "Rust",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/tailcallhq/tailcall",
+      "title": "tailcall",
+      "description": "A platform for building high-performance GraphQL backends.",
+      "category": "Rust",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://graphql-rust.github.io/",
+      "title": "Warp GraphQL Juniper",
+      "description": null,
+      "category": "Rust Examples",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://tailcall.run/docs/",
+      "title": "Tailcall",
+      "description": null,
+      "category": "Rust Examples",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/burner/graphqld",
+      "title": "graphqld",
+      "description": "GraphQL server library for D.",
+      "category": "D (dlang)",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/ropensci/ghql",
+      "title": "ghql",
+      "description": "General purpose GraphQL R client.",
+      "category": "R (Rstat)",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/ropensci/graphql",
+      "title": "graphql",
+      "description": "Bindings to the 'libgraphqlparser' C++ library. Parses GraphQL syntax and exports the AST in JSON format.",
+      "category": "R (Rstat)",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/schloerke/gqlr",
+      "title": "gqlr",
+      "description": "R GraphQL Implementation.",
+      "category": "R (Rstat)",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/codeneomatrix/Diana.jl",
+      "title": "Diana.jl",
+      "description": "A Julia GraphQL client/server implementation.",
+      "category": "Julia",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/DeloitteDigitalAPAC/GraphQLClient.jl",
+      "title": "GraphQLClient.jl",
+      "description": "A Julia GraphQL client for seamless integration with a server.",
+      "category": "Julia",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/graphql-crystal/graphql",
+      "title": "graphql",
+      "description": "GraphQL server library.",
+      "category": "Crystal",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/ziprandom/graphql-crystal",
+      "title": "graphql-crystal",
+      "description": "library inspired by [graphql-ruby](https://github.com/rmosolgo/graphql-ruby) & [go-graphql](https://github.com/playlyfe/go-graphql) & [graphql-parser](https://github.com/graphql-dotnet/parser).",
+      "category": "Crystal",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/itsezc/crystal-gql",
+      "title": "crystal-gql",
+      "description": "GraphQL client shard inspired by Apollo client.",
+      "category": "Crystal",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/garymardell/graphql.cr",
+      "title": "graphql.cr",
+      "description": "GraphQL shard.",
+      "category": "Crystal",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/ballerina-platform/module-ballerina-graphql",
+      "title": "graphql",
+      "description": "Ballerina standard library for GraphQL. This library provides a GraphQL client and server implementations including builtin support for GraphQL subscriptions.",
+      "category": "Ballerina",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/ballerina-platform/graphql-tools",
+      "title": "graphql CLI",
+      "description": "A CLI tool to generate Ballerina code from GraphQL schema and GraphQL schema from Ballerina code. It also provides functionality to generate usage-specific GraphQL clients using GraphQL schemas and documents.",
+      "category": "Ballerina",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/ballerina-platform/module-ballerina-graphql/tree/master/examples",
+      "title": "Ballerina GraphQL Examples",
+      "description": null,
+      "category": "Ballerina Samples",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/ThisaruGuruge/weather-rest-api-to-graphql",
+      "title": "Convert Weather REST API to GraphQL API",
+      "description": null,
+      "category": "Ballerina Samples",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/graphql/graphiql",
+      "title": "GraphiQL",
+      "description": "An in-browser IDE for exploring GraphQL.",
+      "category": "Tools - Editors & IDEs & Explorers",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/graphql-editor/graphql-editor",
+      "title": "GraphQL Editor",
+      "description": "Visual Editor & GraphQL IDE.",
+      "category": "Tools - Editors & IDEs & Explorers",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/APIs-guru/graphql-voyager",
+      "title": "GraphQL Voyager",
+      "description": "Represent any GraphQL API as an interactive graph.",
+      "category": "Tools - Editors & IDEs & Explorers",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/altair-graphql/altair",
+      "title": "Altair GraphQL Client",
+      "description": "A beautiful feature-rich GraphQL Client for all platforms.",
+      "category": "Tools - Editors & IDEs & Explorers",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/networkimprov/brangr",
+      "title": "Brangr",
+      "description": "A unique, user-friendly data browser/viewer for any GraphQL service, with attractive result layouts.",
+      "category": "Tools - Editors & IDEs & Explorers",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://insomnia.rest/",
+      "title": "Insomnia",
+      "description": "A full-featured API client with first-party GraphQL query editor.",
+      "category": "Tools - Editors & IDEs & Explorers",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://learning.postman.com/docs/sending-requests/supported-api-frameworks/graphql/",
+      "title": "Postman",
+      "description": "An HTTP Client that supports editing GraphQL queries.",
+      "category": "Tools - Editors & IDEs & Explorers",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/usebruno/bruno",
+      "title": "Bruno",
+      "description": "Fast, open source API client, which stores collections offline-only in a Git-friendly plain text markup language.",
+      "category": "Tools - Editors & IDEs & Explorers",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/Escape-Technologies/graphman",
+      "title": "Escape GraphMan",
+      "description": "Generate a complete Postman collection from a GraphQL endpoint.",
+      "category": "Tools - Editors & IDEs & Explorers",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://sandbox.apollo.dev/",
+      "title": "Apollo Sandbox",
+      "description": "The quickest way to navigate and test your GraphQL endpoints.",
+      "category": "Tools - Editors & IDEs & Explorers",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/Novvum/graphql-birdseye",
+      "title": "GraphQL Birdseye",
+      "description": "View any GraphQL schema as a dynamic and interactive graph.",
+      "category": "Tools - Editors & IDEs & Explorers",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://astexplorer.net/",
+      "title": "AST Explorer",
+      "description": "Select \"GraphQL\" at the top, explore the GraphQL AST and highlight different parts by clicking in the query.",
+      "category": "Tools - Editors & IDEs & Explorers",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://firecamp.io/graphql",
+      "title": "Firecamp - GraphQL Playground",
+      "description": "The fastest collaborative GraphQL playground.",
+      "category": "Tools - Editors & IDEs & Explorers",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/yamafaktory/craftql",
+      "title": "CraftQL",
+      "description": "A CLI tool to visualize GraphQL schemas and to output a graph data structure as a graphviz .dot format.",
+      "category": "Tools - Editors & IDEs & Explorers",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/eerimoq/gqt",
+      "title": "gqt",
+      "description": "Build and execute GraphQL queries in the terminal.",
+      "category": "Tools - Editors & IDEs & Explorers",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://studio.hackolade.com/",
+      "title": "Hackolade",
+      "description": "Visual GraphQL schema editor to generate Schema Definition Language files without any knowledge of the GraphQL syntax. Also visualize and document existing endpoints with introspection.  Additional info and instructions [here](https://hackolade.com/help/GraphQL.html)",
+      "category": "Tools - Editors & IDEs & Explorers",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://smartformatter.com/tools/graphql-query-formatter",
+      "title": "Smart Formatter - GraphQL Query Formatter",
+      "description": "A client-side, browser-only tool to format, beautify, and validate GraphQL queries and schemas instantly.",
+      "category": "Tools - Editors & IDEs & Explorers",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://beeceptor.com/graphql-mock-server/",
+      "title": "Beeceptor",
+      "description": "A no-code platform for creating AI-powered **GraphQL Mock Servers** from your schema (SDL) with rules, stateful mocking, mutation/subscription, to speed up development and integration testing.",
+      "category": "Tools - Testing, Prototyping & Mocking",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/wbaldoumas/graphql-to-karate",
+      "title": "graphql-to-karate",
+      "description": "**Generate Karate API tests** from your GraphQL schemas",
+      "category": "Tools - Testing, Prototyping & Mocking",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/APIs-guru/graphql-faker",
+      "title": "GraphQL Faker",
+      "description": "🎲 Mock or extend your GraphQL API with faked data. No coding required.",
+      "category": "Tools - Testing, Prototyping & Mocking",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://the-guild.dev/graphql/inspector",
+      "title": "GraphQL Inspector",
+      "description": "A tool to **validate schemas**, compare schema changes, find breaking changes, and check document coverage against a schema.",
+      "category": "Tools - Testing, Prototyping & Mocking",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://microcks.io/",
+      "title": "Microcks",
+      "description": "The open source ([CNCF](https://www.cncf.io/projects/microcks/) project), cloud native tool for **API Mocking** and Testing with [GraphQL support](https://microcks.io/blog/graphql-features-what-to-expect/) 🎥 [GraphQL conf 2023](https://youtu.be/UjDnrrTp7uI?si=M6S4l_Bukp9CEYl4)",
+      "category": "Tools - Testing, Prototyping & Mocking",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/getmockd/mockd",
+      "title": "mockd",
+      "description": "Multi-protocol mock server with GraphQL schema mocking, resolver configuration, and query validation. Also supports HTTP, gRPC, WebSocket, MQTT, and SOAP.",
+      "category": "Tools - Testing, Prototyping & Mocking",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://keploy.io/",
+      "title": "Keploy",
+      "description": "Open-source AI Powered API testing tool that generates test cases and **data mocks automatically by recording real API traffic**. Supports GraphQL, REST, and gRPC.",
+      "category": "Tools - Testing, Prototyping & Mocking",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://stepci.com",
+      "title": "Step CI",
+      "description": "Open-Source API **Testing and Monitoring** with GraphQL support",
+      "category": "Tools - Testing, Prototyping & Mocking",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/gsmith257-cyber/GraphCrawler",
+      "title": "GraphCrawler - The all-in-one GraphQL Security toolkit",
+      "description": "The all-in-one automated penetration tester toolkit for GraphQL, written in Python",
+      "category": "Tools - Security",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://graphql.security/",
+      "title": "Escape - The GraphQL Security Scanner",
+      "description": "One-click security scan of your GraphQL endpoints. Free, no login required.",
+      "category": "Tools - Security",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/Escape-Technologies/graphinder",
+      "title": "Escape Graphinder - GraphQL Subdomain Enumeration",
+      "description": "Blazing fast GraphQL endpoints finder using subdomain enumeration, scripts analysis and bruteforce.",
+      "category": "Tools - Security",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://www.stackhawk.com/blog/automated-graphql-security-testing",
+      "title": "StackHawk - GraphQL Vulnerability Scanner",
+      "description": "[StackHawk](https://www.stackhawk.com)",
+      "category": "Tools - Security",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/doyensec/inql",
+      "title": "InQL Scanner",
+      "description": "A Burp Extension for GraphQL Security Testing",
+      "category": "Tools - Security",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://portswigger.net/bappstore/4841f0d78a554ca381c65b26d48207e6",
+      "title": "GraphQL Raider",
+      "description": null,
+      "category": "Tools - Security",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://lab.wallarm.com/api-security-solution/",
+      "title": "WAF for graphQL",
+      "description": "Web Application Firewall for graphQL APIs",
+      "category": "Tools - Security",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/davinerd/gql_intruder",
+      "title": "GraphQL Intruder",
+      "description": "Plugin based python script to perform GraphQL vulnerability assessment.",
+      "category": "Tools - Security",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/dolevf/graphql-cop",
+      "title": "GraphQL Cop",
+      "description": "Security Audit Utility for GraphQL",
+      "category": "Tools - Security",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/omar2535/GraphQLer",
+      "title": "GraphQLer",
+      "description": "Dependency-aware dynamic GraphQL testing tool",
+      "category": "Tools - Security",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/apollographql/apollo-client-devtools",
+      "title": "Apollo Client Developer Tools",
+      "description": "GraphQL debugging tools for Apollo Client in the Chrome developer console",
+      "category": "Tools - Browser Extensions",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://chrome.google.com/webstore/detail/graphql-network-inspector/ndlbedplllcgconngcnfmkadhokfaaln",
+      "title": "GraphQL Network Inspector",
+      "description": "A simple and clean chrome dev-tools extension for GraphQL network inspection.",
+      "category": "Tools - Browser Extensions",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/2fd/graphdoc",
+      "title": "graphdoc",
+      "description": "Static page generator for documenting GraphQL Schema.",
+      "category": "Tools - Docs",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/Code-Hex/gqldoc",
+      "title": "gqldoc",
+      "description": "The easiest way to make API documents for GraphQL.",
+      "category": "Tools - Docs",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/anvilco/spectaql",
+      "title": "spectaql",
+      "description": "Autogenerate static GraphQL API documentation.",
+      "category": "Tools - Docs",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://graphql-markdown.github.io/",
+      "title": "graphql-markdown",
+      "description": "Flexible documentation for GraphQL powered with Docusaurus.",
+      "category": "Tools - Docs",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://xyd.dev",
+      "title": "xyd",
+      "description": "Generate GraphQL API docs.",
+      "category": "Tools - Docs",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/jimkyndemeyer/js-graphql-intellij-plugin/",
+      "title": "js-graphql-intellij-plugin",
+      "description": "GraphQL language support for IntelliJ IDEA and WebStorm, including Relay.QL tagged templates in JavaScript and TypeScript.",
+      "category": "Tools - Editor Plugins",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/jparise/vim-graphql",
+      "title": "vim-graphql",
+      "description": "A Vim plugin that provides GraphQL file detection and syntax highlighting.",
+      "category": "Tools - Editor Plugins",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/orionsoft/atom-graphql-autocomplete",
+      "title": "graphql-autocomplete",
+      "description": "Autocomplete and lint from a GraphQL endpoint in Atom.",
+      "category": "Tools - Editor Plugins",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/yarax/swagger-to-graphql",
+      "title": "swagger-to-graphql",
+      "description": "GraphQL types builder based on REST API described in Swagger. Allows to migrate to GraphQL from REST for 5 minutes",
+      "category": "Tools - Miscellaneous",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/Quramy/ts-graphql-plugin",
+      "title": "ts-graphql-plugin",
+      "description": "A language service plugin complete and validate GraphQL query in TypeScript template strings.",
+      "category": "Tools - Miscellaneous",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/apollographql/apollo-tracing",
+      "title": "apollo-tracing",
+      "description": "GraphQL extension that enables you to easily get resolver-level performance information as part of a GraphQL response.",
+      "category": "Tools - Miscellaneous",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/marmelab/json-graphql-server",
+      "title": "json-graphql-server",
+      "description": "Get a full fake GraphQL API with zero coding in less than 30 seconds, based on a JSON data file.",
+      "category": "Tools - Miscellaneous",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/twinlogix/typetta",
+      "title": "Typetta",
+      "description": "Node.js ORM written in TypeScript for type lovers. Typetta is the perfect ORM for the GraphQL + NodeJS + Typescript stack.",
+      "category": "Tools - Miscellaneous",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/bradleyboy/tuql",
+      "title": "tuql",
+      "description": "Automatically create a GraphQL server from any sqlite database.",
+      "category": "Tools - Miscellaneous",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/ibm/openapi-to-graphql",
+      "title": "openapi-to-graphql",
+      "description": "Take any OpenAPI Specification (OAS) or swagger and create a GraphQL interface - Two minute video and resources [here](https://developer.ibm.com/open/projects/openapi-to-graphql/)",
+      "category": "Tools - Miscellaneous",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/Yelp/dataloader-codegen",
+      "title": "dataloader-codegen",
+      "description": "An opinionated JavaScript library for automatically generating predictable, type safe DataLoaders over a set of resources (e.g. HTTP endpoints).",
+      "category": "Tools - Miscellaneous",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/kamilkisiela/graphql-inspector",
+      "title": "raphql-inspector",
+      "description": "alidate schema, get schema change notifications, validate operations, find breaking changes, look for similar types, schema coverage.",
+      "category": "Tools - Miscellaneous",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/blendbase/blendbase",
+      "title": "Blendbase",
+      "description": "Single open-source GraphQL API to connect CRMs to your SaaS. Query any customer CRM system (Salesforce, Hubspot and more) with a single API query from your SaaS app.",
+      "category": "Tools - Miscellaneous",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://dynaboard.com",
+      "title": "Dynaboard",
+      "description": "Generate low-code web apps from any GraphQL API using AI.",
+      "category": "Tools - Miscellaneous",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/romshark/gqlhash",
+      "title": "gqlhash",
+      "description": "Lightning fast query hasher that ignores formatting diffs and comments and supports multiple hashing functions.",
+      "category": "Tools - Miscellaneous",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/rookieInTraining/apq-debugger",
+      "title": "Apollo APQ Debugger",
+      "description": "Reveal full GraphQL queries behind Apollo APQ hashes. Inspect fallback flow and debug Automatic Persisted Queries in DevTools.",
+      "category": "Tools - Miscellaneous",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://cube.dev",
+      "title": "Cube",
+      "description": "[Headless BI](https://cube.dev/blog/headless-bi) for building data applications with SQL, REST, and [GraphQL API](https://cube.dev/docs/backend/graphql). Connect any database or data warehouse and instantly get a GraphQL API with sub-second latency on top of it. - [Source Code](https://github.com/cube-js/cube.js)",
+      "category": "Databases",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://dgraph.io/",
+      "title": "Dgraph",
+      "description": "Scalable, distributed, low latency, high throughput Graph database with GraphQL as the query language",
+      "category": "Databases",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://edgedb.com/",
+      "title": "EdgeDB",
+      "description": "The next generation object-relational database with native GraphQL support.",
+      "category": "Databases",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/semi-technologies/weaviate",
+      "title": "Weaviate",
+      "description": "Weaviate is a cloud-native, modular, real-time vector search engine with a [GraphQL interface](https://weaviate.io/developers/weaviate/api/graphql) built to scale your machine learning models.",
+      "category": "Databases",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://aws.amazon.com/appsync/",
+      "title": "AWS AppSync",
+      "description": "Scalable managed GraphQL service with subscriptions for building real-time and offline-first apps",
+      "category": "Services",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://www.moesif.com/features/graphql-analytics",
+      "title": "Moesif API Analytics",
+      "description": "A GraphQL analaytics and monitoring service to find functional and performance issues.",
+      "category": "Services",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://booster.cloud/",
+      "title": "Booster framework",
+      "description": "An open-source framework that makes you _completely_ forget about infrastructure and allows you to focus exclusively on your business logic. It autogenerates a GraphQL API for your models, supporting mutations, queries, and subscriptions.",
+      "category": "Services",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://nhost.io/",
+      "title": "Nhost",
+      "description": "Open source Firebase alternative with GraphQL",
+      "category": "Services",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/mirumee/saleor/",
+      "title": "Saleor",
+      "description": "GraphQL-first headless e-commerce platform.",
+      "category": "Services",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://stargate.io/docs/latest/quickstart/qs-graphql-cql-first.html",
+      "title": "Stargate",
+      "description": "Open source data gateway currently supporting Apache Cassandra&reg; and DataStax Enterprise.",
+      "category": "Services",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://vedika.io",
+      "title": "Vedika",
+      "description": "Vedic astrology AI API with GraphQL support for horoscopes, birth charts, kundali matching, and 108+ endpoints.",
+      "category": "Services",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://grafbase.com",
+      "title": "Grafbase",
+      "description": "Instant GraphQL APIs for any data source.",
+      "category": "Services",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://graphcdn.io/",
+      "title": "GraphCDN",
+      "description": "GraphQL CDN for caching GraphQL APIs.",
+      "category": "CDN",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://www.datocms.com/",
+      "title": "DatoCMS",
+      "description": "CDN-based GraphQL based Headless Content Management System.",
+      "category": "CMS",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://apito.io/",
+      "title": "Apito",
+      "description": "A Cloud Based Headless CMS with CDN, Webhooks, Team Collaborations, Content Revision, Cloud Functions.",
+      "category": "CMS",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://hygraph.com/",
+      "title": "Hygraph",
+      "description": "Build Scalable Content Experiences.",
+      "category": "CMS",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://www.cosmicjs.com/",
+      "title": "Cosmic",
+      "description": "GraphQL-powered Headless CMS and API toolkit.",
+      "category": "CMS",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://graphweaver.com/",
+      "title": "Graphweaver",
+      "description": "Turn multiple datasources into a single GraphQL API.",
+      "category": "CMS",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://graphql.guide",
+      "title": "The GraphQL Guide",
+      "description": null,
+      "category": "Books",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://www.roadtographql.com/",
+      "title": "The Road to GraphQL",
+      "description": null,
+      "category": "Books",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://leanpub.com/book-graphql",
+      "title": "Practical GraphQL",
+      "description": null,
+      "category": "Books",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://book.productionreadygraphql.com",
+      "title": "Production Ready GraphQL",
+      "description": null,
+      "category": "Books",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://www.manning.com/books/fullstack-graphql-applications",
+      "title": "Full Stack GraphQL Applications",
+      "description": null,
+      "category": "Books",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://www.youtube.com/embed/UBGzsb2UkeY",
+      "title": "Zero to GraphQL in 30 Minutes",
+      "description": null,
+      "category": "Videos",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://vimeo.com/144817545",
+      "title": "Introduction to GraphQL",
+      "description": null,
+      "category": "Videos",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://moonhighway.teachable.com/p/graphql-is-for-everyone",
+      "title": "GraphQL is for Everyone by Moon Highway",
+      "description": null,
+      "category": "Videos",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8zNjE5NmViMC9wb2RjYXN0L3Jzcw==",
+      "title": "GraphQL.FM",
+      "description": null,
+      "category": "Podcasts",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/Shopify/graphql-design-tutorial",
+      "title": "Shopify GraphQL Design Tutorial",
+      "description": "This tutorial was originally created by Shopify for internal purposes. It's based on lessons learned from creating and evolving production schemas at Shopify over almost 3 years.",
+      "category": "Style Guides",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://docs.gitlab.com/ee/development/api_graphql_styleguide.html",
+      "title": "GitLab GraphQL API Style Guide",
+      "description": "This document outlines the style guide for the GitLab GraphQL API.",
+      "category": "Style Guides",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://yelp.github.io/graphql-guidelines/",
+      "title": "Yelp GraphQL Guidelines",
+      "description": "This repo contains documentation and guidelines for a standardized and mostly reasonable approach to GraphQL (at Yelp).",
+      "category": "Style Guides",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://principledgraphql.com/",
+      "title": "Principled GraphQL",
+      "description": "Apollo's 10 GraphQL Principles, broken out into three categories, in a format inspired by the Twelve Factor App.",
+      "category": "Style Guides",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://graphql.org/blog/",
+      "title": "Official GraphQL blog",
+      "description": null,
+      "category": "Blogs",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://blog.apollographql.com/",
+      "title": "Building Apollo",
+      "description": null,
+      "category": "Blogs",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://medium.com/the-guild",
+      "title": "The Guild blog",
+      "description": null,
+      "category": "Blogs",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://productionreadygraphql.com",
+      "title": "Production Ready GraphQL blog",
+      "description": null,
+      "category": "Blogs",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://escape.tech/blog",
+      "title": "Escape - The GraphQL Security Blog",
+      "description": "Learn about GraphQL security, performance, testing and building production-ready APIs with the latest tools and best practices of the GraphQL ecosystem.",
+      "category": "Blogs - Security",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://escape.tech/blog/9-graphql-security-best-practices/",
+      "title": "9 GraphQL Security Best Practices",
+      "description": null,
+      "category": "Blogs - Security",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://medium.com/@localh0t/discovering-graphql-endpoints-and-sqli-vulnerabilities-5d39f26cea2e",
+      "title": "Discovering GraphQL Endpoints and SQLi Vulnerabilities",
+      "description": null,
+      "category": "Blogs - Security",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://lab.wallarm.com/securing-graphql-api/",
+      "title": "Securing GraphQL API",
+      "description": null,
+      "category": "Blogs - Security",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://nordicapis.com/security-points-to-consider-before-implementing-graphql/",
+      "title": "Security Points to Consider Before Implementing GraphQL",
+      "description": null,
+      "category": "Blogs - Security",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://www.osohq.com/post/graphql-authorization",
+      "title": "Authorization Patterns in GraphQL",
+      "description": null,
+      "category": "Blogs - Security",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://cube.dev/blog/graphql-federation-example-with-apollo-federation-and-apollo-graphos",
+      "title": "GraphQL federation example with Apollo Federation and Apollo GraphOS",
+      "description": null,
+      "category": "Posts",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://cube.dev/blog/graphql-federation-with-hasura-graphql-engine",
+      "title": "GraphQL federation with Hasura GraphQL Engine and Cube",
+      "description": null,
+      "category": "Posts",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://medium.com/@gajus/using-dataloader-to-batch-requests-c345f4b23433",
+      "title": "Using DataLoader to batch GraphQL requests",
+      "description": null,
+      "category": "Posts",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://reactjs.org/blog/2015/02/20/introducing-relay-and-graphql.html",
+      "title": "Introducing Relay and GraphQL",
+      "description": null,
+      "category": "Posts",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://reactjs.org/blog/2015/05/01/graphql-introduction.html",
+      "title": "GraphQL Introduction",
+      "description": null,
+      "category": "Posts",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://gist.github.com/wincent/598fa75e22bdfa44cf47",
+      "title": "Unofficial Relay FAQ",
+      "description": null,
+      "category": "Posts",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://medium.com/the-graphqlhub/your-first-graphql-server-3c766ab4f0a2",
+      "title": "Your First GraphQL Server",
+      "description": null,
+      "category": "Posts",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://blog.risingstack.com/graphql-overview-getting-started-with-graphql-and-nodejs/",
+      "title": "GraphQL Overview - Getting Started with GraphQL and Node.js",
+      "description": null,
+      "category": "Posts",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://medium.freecodecamp.org/introduction-to-graphql-1d8011b80159",
+      "title": "4 Reasons you should try out GraphQL",
+      "description": null,
+      "category": "Posts",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://medium.com/@frikille/moving-from-rest-to-graphql-e3650b6f5247",
+      "title": "Moving from REST to GraphQL",
+      "description": null,
+      "category": "Posts",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "http://davidandsuzi.com/writing-a-basic-api-with-graphql/",
+      "title": "Writing a Basic API with GraphQL",
+      "description": null,
+      "category": "Posts",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://www.reindex.io/blog/building-a-graphql-server-with-node-js-and-sql/",
+      "title": "Building a GraphQL Server with Node.js and SQL",
+      "description": null,
+      "category": "Posts",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://www.slideshare.net/LondonReact/graph-ql",
+      "title": "GraphQL at The Financial Times",
+      "description": null,
+      "category": "Posts",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://www.permit.io/blog/implementing-graphql-authorization",
+      "title": "Implementing GraphQL RBAC Authorization: A Practical Guide",
+      "description": null,
+      "category": "Posts",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://jacobwgillespie.com/2015-10-09-from-rest-to-graphql",
+      "title": "From REST to GraphQL",
+      "description": null,
+      "category": "Posts",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://graphql.org/blog/graphql-a-query-language/",
+      "title": "GraphQL: A data query language",
+      "description": null,
+      "category": "Posts",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://graphql.org/blog/subscriptions-in-graphql-and-relay/",
+      "title": "Subscriptions in GraphQL and Relay",
+      "description": null,
+      "category": "Posts",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://medium.com/@clayallsopp/relay-101-building-a-hacker-news-client-bb8b2bdc76e6",
+      "title": "Relay 101: Building A Hacker News Client",
+      "description": null,
+      "category": "Posts",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://graphql.org/learn/schema/",
+      "title": "GraphQL Schema Reference",
+      "description": "Official documentation explaining GraphQL schema definition language and shorthand notation.",
+      "category": "Posts",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://githubengineering.com/the-github-graphql-api/",
+      "title": "The GitHub GraphQL API",
+      "description": null,
+      "category": "Posts",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://medium.com/@katopz/github-graphql-api-react-example-eace824d7b61",
+      "title": "Github GraphQL API React Example",
+      "description": null,
+      "category": "Posts",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://medium.com/entria/testing-a-graphql-server-using-jest-4e00d0e4980e",
+      "title": "Testing a GraphQL Server using Jest",
+      "description": null,
+      "category": "Posts",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://medium.com/entria/how-to-implement-viewercansee-in-graphql-78cc48de7464",
+      "title": "How to implement viewerCanSee in GraphQL",
+      "description": null,
+      "category": "Posts",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://blog.morethancode.dev/preventing-traversal-attacks-in-your-graphql-api/",
+      "title": "Preventing traversal attacks on your GraphQL API",
+      "description": null,
+      "category": "Posts",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://dev.to/yvonnickfrin/mock-your-graphql-server-realistically-with-faker-js-25oo",
+      "title": "Mock your GraphQL server realistically with faker.js",
+      "description": null,
+      "category": "Posts",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://dev.to/yvonnickfrin/create-an-infinite-loading-list-with-react-and-graphql-19hh",
+      "title": "Create an infinite loading list with React and GraphQL",
+      "description": null,
+      "category": "Posts",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://www.moesif.com/blog/technical/graphql/REST-vs-GraphQL-APIs-the-good-the-bad-the-ugly/",
+      "title": "REST vs GraphQL",
+      "description": null,
+      "category": "Posts",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://www.moesif.com/blog/technical/api-design/Steps-to-Building-Authentication-and-Authorization-For-GraphQL-APIs/",
+      "title": "Authentication and Authorization for GraphQL APIs",
+      "description": null,
+      "category": "Posts",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://www.swoole.co.uk/article/Build-a-GraphQL-API-on-top-of-Swoole",
+      "title": "Build a GraphQL API with Siler on top of Swoole",
+      "description": null,
+      "category": "Posts",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://hasura.io/blog/fluent-graphql-clients-how-to-write-queries-like-a-boss/",
+      "title": "Fluent GraphQL clients: how to write queries like a boss",
+      "description": null,
+      "category": "Posts",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://hasura.io/blog/level-up-your-serverless-game-with-a-graphql-data-as-a-service-layer/",
+      "title": "Level up your serverless game with a GraphQL data-as-a-service layer",
+      "description": null,
+      "category": "Posts",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://hasura.io/blog/deep-dive-into-relay-graphql-client/",
+      "title": "A deep-dive into Relay, the friendly & opinionated GraphQL client",
+      "description": null,
+      "category": "Posts",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://hackernoon.com/make-your-graphql-api-easier-to-adopt-through-components-74b022f195c1",
+      "title": "make your graphql api easier to adopt through components",
+      "description": null,
+      "category": "Posts",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://www.useanvil.com/blog/engineering/undocumented-directive/",
+      "title": "Undocumented: keeping parts of your GraphQL schema hidden from introspection",
+      "description": null,
+      "category": "Posts",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://medium.com/ballerina-techblog/graphql-subscriptions-with-apache-kafka-in-ballerina-b3c296d333cd",
+      "title": "GraphQL Subscriptions with Apache Kafka in Ballerina",
+      "description": null,
+      "category": "Posts",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://escape.tech/blog/8-most-common-graphql-vulnerabilities/",
+      "title": "How to Test your GraphQL Endpoints",
+      "description": null,
+      "category": "Posts",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://blog.tailcall.run/the-truth-about-scaling-automatic-persisted-queries/",
+      "title": "Why Automatic Persisted Queries Don't Scale",
+      "description": null,
+      "category": "Posts",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://www.howtographql.com",
+      "title": "How to GraphQL",
+      "description": "Fullstack Tutorial Website with Tracks for all Major Frameworks & Languages including React, Apollo, Relay, JavaScript, Ruby, Java, Elixir and many more.",
+      "category": "Tutorials",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://odyssey.apollographql.com/",
+      "title": "Apollo Odyssey",
+      "description": "Apollo's free interactive learning platform.",
+      "category": "Tutorials",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://github.com/mugli/learning-graphql",
+      "title": "learning-graphql",
+      "description": "An attempt to learn GraphQL.",
+      "category": "Tutorials",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://roadmap.sh/graphql",
+      "title": "GraphQL Roadmap",
+      "description": "Step by step guide to learn GraphQL.",
+      "category": "Tutorials",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    },
+    {
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/GraphQL_Security_Cheat_Sheet.html",
+      "title": "OWASP GraphQL Security Cheat Sheet",
+      "description": "Comprehensive guide for securing GraphQL endpoints and preventing vulnerabilities.",
+      "category": "Tutorials",
+      "source": "chentsulin/awesome-graphql",
+      "indexedAt": "2026-07-23T14:53:20.685Z"
+    }
+  ],
+  "categories": [
+    "Specifications",
+    "Foundations",
+    "Communities",
+    "Meetups",
+    "JavaScript/TypeScript",
+    "Clients",
+    "Frontend Framework Integrations",
+    "React",
+    "Servers",
+    "Databases & ORMs",
+    "PubSub",
+    "Custom Scalars",
+    "Type",
+    "Miscellaneous",
+    "JavaScript Examples",
+    "TypeScript Examples",
+    "Ruby",
+    "Ruby Examples",
+    "PHP",
+    "PHP Examples",
+    "Python",
+    "Python Examples",
+    "Java",
+    "Custom Scalars",
+    "Java Examples",
+    "Kotlin",
+    "Kotlin Examples",
+    "C/C++",
+    "Go",
+    "Go Examples",
+    "Scala",
+    "Scala Examples",
+    ".NET",
+    ".NET Examples",
+    "Elixir",
+    "Elixir Examples",
+    "Haskell",
+    "SQL",
+    "Lua",
+    "Elm",
+    "Clojure",
+    "Clojure Examples",
+    "Swift",
+    "OCaml",
+    "Android",
+    "Android Examples",
+    "iOS",
+    "iOS Examples",
+    "ClojureScript",
+    "ReasonML",
+    "Dart",
+    "Rust",
+    "Rust Examples",
+    "D (dlang)",
+    "R (Rstat)",
+    "Julia",
+    "Crystal",
+    "Ballerina",
+    "Ballerina Samples",
+    "Tools - Editors & IDEs & Explorers",
+    "Tools - Testing, Prototyping & Mocking",
+    "Tools - Security",
+    "Tools - Browser Extensions",
+    "Tools - Docs",
+    "Tools - Editor Plugins",
+    "Tools - Miscellaneous",
+    "Databases",
+    "Services",
+    "CDN",
+    "CMS",
+    "Books",
+    "Videos",
+    "Podcasts",
+    "Style Guides",
+    "Blogs",
+    "Blogs - Security",
+    "Posts",
+    "Tutorials"
+  ],
+  "crawledAt": "2026-07-23T14:53:20.685Z"
+}

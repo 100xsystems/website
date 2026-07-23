@@ -1,0 +1,16 @@
+{
+  "id": "decorator",
+  "category": "patterns",
+  "label": "Decorator",
+  "aliases": [],
+  "description": "Attaches additional responsibilities to an object dynamically",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Decorator_pattern",
+    "wikidata": "https://www.wikidata.org/wiki/Q119773"
+  },
+  "indexedAt": "2026-07-23T14:36:41.703Z"
+}

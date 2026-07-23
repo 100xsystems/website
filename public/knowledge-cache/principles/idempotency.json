@@ -1,0 +1,16 @@
+{
+  "id": "idempotency",
+  "category": "principles",
+  "label": "Idempotency",
+  "aliases": [],
+  "description": "Property of operations",
+  "summary": "Idempotence is the property of certain operations in mathematics and computer science whereby they can be applied multiple times without changing the result beyond the initial application. The concept of idempotence arises in a number of places in abstract algebra and functional programming.",
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Idempotence",
+    "wikidata": "https://www.wikidata.org/wiki/Q695964"
+  },
+  "indexedAt": "2026-07-23T14:36:08.206Z"
+}

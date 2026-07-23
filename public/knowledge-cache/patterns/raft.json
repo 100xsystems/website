@@ -1,0 +1,16 @@
+{
+  "id": "raft",
+  "category": "patterns",
+  "label": "Raft",
+  "aliases": [],
+  "description": "Consensus algorithm designed to be more understandable than Paxos",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Raft_(computer_science)",
+    "wikidata": "https://www.wikidata.org/wiki/Q17010477"
+  },
+  "indexedAt": "2026-07-23T14:36:48.015Z"
+}

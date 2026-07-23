@@ -1,0 +1,16 @@
+{
+  "id": "haskell",
+  "category": "languages",
+  "label": "Haskell",
+  "aliases": [],
+  "description": "Functional programming language",
+  "summary": "Haskell is a general-purpose, statically typed, purely functional programming language with type inference and lazy evaluation. Haskell pioneered several programming language features including type classes for type-safe operator overloading and monadic input/output (IO). It is named after logician Haskell Curry. Haskell's main implementation is the Glasgow Haskell Compiler (GHC).",
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Haskell",
+    "wikidata": "https://www.wikidata.org/wiki/Q36106"
+  },
+  "indexedAt": "2026-07-23T14:36:17.206Z"
+}

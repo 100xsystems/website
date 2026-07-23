@@ -1,0 +1,16 @@
+{
+  "id": "repository",
+  "category": "patterns",
+  "label": "Repository Pattern",
+  "aliases": [],
+  "description": "Mediates between domain and data mapping layers",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Repository_pattern",
+    "wikidata": "https://www.wikidata.org/wiki/Q7314321"
+  },
+  "indexedAt": "2026-07-23T14:36:45.134Z"
+}

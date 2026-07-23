@@ -1,0 +1,16 @@
+{
+  "id": "facade",
+  "category": "patterns",
+  "label": "Facade",
+  "aliases": [],
+  "description": "Provides a simplified interface to a complex subsystem",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Facade_pattern",
+    "wikidata": "https://www.wikidata.org/wiki/Q810346"
+  },
+  "indexedAt": "2026-07-23T14:36:42.388Z"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "database",
+  "category": "tools",
+  "label": "Database",
+  "aliases": [],
+  "description": "Organized collection of structured data with efficient retrieval and storage",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Database",
+    "wikidata": "https://www.wikidata.org/wiki/Q8513"
+  },
+  "indexedAt": "2026-07-23T14:36:35.324Z"
+}

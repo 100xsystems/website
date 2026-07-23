@@ -1,0 +1,826 @@
+{
+  "repoId": "ashishps1/awesome-system-design-resources",
+  "name": "Learn System Design concepts and prepare for interviews using free resources.",
+  "description": "Learn System Design concepts and prepare for interviews using free resources.",
+  "repoUrl": "https://github.com/ashishps1/awesome-system-design-resources",
+  "stars": 39837,
+  "topics": [
+    "awesome",
+    "backend",
+    "computer-science",
+    "distributed-systems",
+    "high-level-design",
+    "hld",
+    "interview",
+    "interview-questions",
+    "scalability",
+    "system-design"
+  ],
+  "links": [
+    {
+      "url": "https://algomaster.io/learn/system-design/scalability",
+      "title": "Scalability",
+      "description": null,
+      "category": "⚙️ Core Concepts",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://algomaster.io/learn/system-design/availability",
+      "title": "Availability",
+      "description": null,
+      "category": "⚙️ Core Concepts",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://algomaster.io/learn/system-design/reliability",
+      "title": "Reliability",
+      "description": null,
+      "category": "⚙️ Core Concepts",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://algomaster.io/learn/system-design/single-point-of-failure-spof",
+      "title": "SPOF",
+      "description": null,
+      "category": "⚙️ Core Concepts",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://algomaster.io/learn/system-design/latency-vs-throughput",
+      "title": "Latency vs Throughput vs Bandwidth",
+      "description": null,
+      "category": "⚙️ Core Concepts",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://algomaster.io/learn/system-design/consistent-hashing",
+      "title": "Consistent Hashing",
+      "description": null,
+      "category": "⚙️ Core Concepts",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://algomaster.io/learn/system-design/cap-theorem",
+      "title": "CAP Theorem",
+      "description": null,
+      "category": "⚙️ Core Concepts",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://www.druva.com/glossary/what-is-a-failover-definition-and-related-faqs",
+      "title": "Failover",
+      "description": null,
+      "category": "⚙️ Core Concepts",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://www.cockroachlabs.com/blog/what-is-fault-tolerance/",
+      "title": "Fault Tolerance",
+      "description": null,
+      "category": "⚙️ Core Concepts",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://algomaster.io/learn/system-design/osi",
+      "title": "OSI Model",
+      "description": null,
+      "category": "🌐 Networking Fundamentals",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://algomaster.io/learn/system-design/ip-address",
+      "title": "IP Addresses",
+      "description": null,
+      "category": "🌐 Networking Fundamentals",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://blog.algomaster.io/p/how-dns-actually-works",
+      "title": "Domain Name System (DNS)",
+      "description": null,
+      "category": "🌐 Networking Fundamentals",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://blog.algomaster.io/p/proxy-vs-reverse-proxy-explained",
+      "title": "Proxy vs Reverse Proxy",
+      "description": null,
+      "category": "🌐 Networking Fundamentals",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://algomaster.io/learn/system-design/http-https",
+      "title": "HTTP/HTTPS",
+      "description": null,
+      "category": "🌐 Networking Fundamentals",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://algomaster.io/learn/system-design/tcp-vs-udp",
+      "title": "TCP vs UDP",
+      "description": null,
+      "category": "🌐 Networking Fundamentals",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://blog.algomaster.io/p/load-balancing-algorithms-explained-with-code",
+      "title": "Load Balancing",
+      "description": null,
+      "category": "🌐 Networking Fundamentals",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://algomaster.io/learn/system-design/checksums",
+      "title": "Checksums",
+      "description": null,
+      "category": "🌐 Networking Fundamentals",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://algomaster.io/learn/system-design/what-is-an-api",
+      "title": "APIs",
+      "description": null,
+      "category": "🔌 API Fundamentals",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://blog.algomaster.io/p/what-is-an-api-gateway",
+      "title": "API Gateway",
+      "description": null,
+      "category": "🔌 API Fundamentals",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://blog.algomaster.io/p/rest-vs-graphql",
+      "title": "REST vs GraphQL",
+      "description": null,
+      "category": "🔌 API Fundamentals",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://blog.algomaster.io/p/websockets",
+      "title": "WebSockets",
+      "description": null,
+      "category": "🔌 API Fundamentals",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://algomaster.io/learn/system-design/webhooks",
+      "title": "Webhooks",
+      "description": null,
+      "category": "🔌 API Fundamentals",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://algomaster.io/learn/system-design/idempotency",
+      "title": "Idempotency",
+      "description": null,
+      "category": "🔌 API Fundamentals",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://blog.algomaster.io/p/rate-limiting-algorithms-explained-with-code",
+      "title": "Rate limiting",
+      "description": null,
+      "category": "🔌 API Fundamentals",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://abdulrwahab.medium.com/api-architecture-best-practices-for-designing-rest-apis-bf907025f5f",
+      "title": "API Design",
+      "description": null,
+      "category": "🔌 API Fundamentals",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://algomaster.io/learn/system-design/acid-transactions",
+      "title": "ACID Transactions",
+      "description": null,
+      "category": "🗄️ Database Fundamentals",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://algomaster.io/learn/system-design/sql-vs-nosql",
+      "title": "SQL vs NoSQL",
+      "description": null,
+      "category": "🗄️ Database Fundamentals",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://algomaster.io/learn/system-design/indexing",
+      "title": "Database Indexes",
+      "description": null,
+      "category": "🗄️ Database Fundamentals",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://algomaster.io/learn/system-design/sharding",
+      "title": "Database Sharding",
+      "description": null,
+      "category": "🗄️ Database Fundamentals",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://redis.com/blog/what-is-data-replication/",
+      "title": "Data Replication",
+      "description": null,
+      "category": "🗄️ Database Fundamentals",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://blog.algomaster.io/p/system-design-how-to-scale-a-database",
+      "title": "Database Scaling",
+      "description": null,
+      "category": "🗄️ Database Fundamentals",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://blog.algomaster.io/p/15-types-of-databases",
+      "title": "Databases Types",
+      "description": null,
+      "category": "🗄️ Database Fundamentals",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://algomaster.io/learn/system-design/bloom-filters",
+      "title": "Bloom Filters",
+      "description": null,
+      "category": "🗄️ Database Fundamentals",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://www.mongodb.com/developer/products/mongodb/active-active-application-architectures/",
+      "title": "Database Architectures",
+      "description": null,
+      "category": "🗄️ Database Fundamentals",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://algomaster.io/learn/system-design/what-is-caching",
+      "title": "Caching 101",
+      "description": null,
+      "category": "⚡ Caching Fundamentals",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://algomaster.io/learn/system-design/caching-strategies",
+      "title": "Caching Strategies",
+      "description": null,
+      "category": "⚡ Caching Fundamentals",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://blog.algomaster.io/p/7-cache-eviction-strategies",
+      "title": "Cache Eviction Policies",
+      "description": null,
+      "category": "⚡ Caching Fundamentals",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://blog.algomaster.io/p/distributed-caching",
+      "title": "Distributed Caching",
+      "description": null,
+      "category": "⚡ Caching Fundamentals",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://algomaster.io/learn/system-design/content-delivery-network-cdn",
+      "title": "Content Delivery Network (CDN)",
+      "description": null,
+      "category": "⚡ Caching Fundamentals",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://algomaster.io/learn/system-design/pub-sub",
+      "title": "Pub/Sub",
+      "description": null,
+      "category": "🔄 Asynchronous Communication",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://algomaster.io/learn/system-design/message-queues",
+      "title": "Message Queues",
+      "description": null,
+      "category": "🔄 Asynchronous Communication",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://algomaster.io/learn/system-design/change-data-capture-cdc",
+      "title": "Change Data Capture (CDC)",
+      "description": null,
+      "category": "🔄 Asynchronous Communication",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://blog.algomaster.io/p/heartbeats-in-distributed-systems",
+      "title": "HeartBeats",
+      "description": null,
+      "category": "🧩 Distributed System and Microservices",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://blog.algomaster.io/p/service-discovery-in-distributed-systems",
+      "title": "Service Discovery",
+      "description": null,
+      "category": "🧩 Distributed System and Microservices",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://medium.com/@sourabhatta1819/consensus-in-distributed-system-ac79f8ba2b8c",
+      "title": "Consensus Algorithms",
+      "description": null,
+      "category": "🧩 Distributed System and Microservices",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "http://highscalability.com/blog/2023/7/16/gossip-protocol-explained.html",
+      "title": "Gossip Protocol",
+      "description": null,
+      "category": "🧩 Distributed System and Microservices",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://medium.com/geekculture/design-patterns-for-microservices-circuit-breaker-pattern-276249ffab33",
+      "title": "Circuit Breaker",
+      "description": null,
+      "category": "🧩 Distributed System and Microservices",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://cloud.google.com/learn/what-is-disaster-recovery",
+      "title": "Disaster Recovery",
+      "description": null,
+      "category": "🧩 Distributed System and Microservices",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://www.dynatrace.com/news/blog/what-is-distributed-tracing/",
+      "title": "Distributed Tracing",
+      "description": null,
+      "category": "🧩 Distributed System and Microservices",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://algomaster.io/learn/system-design/client-server-architecture",
+      "title": "Client-Server Architecture",
+      "description": null,
+      "category": "🖇️ Architectural Patterns",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://medium.com/hashmapinc/the-what-why-and-how-of-a-microservices-architecture-4179579423a9",
+      "title": "Microservices Architecture",
+      "description": null,
+      "category": "🖇️ Architectural Patterns",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://blog.algomaster.io/p/2edeb23b-cfa5-4b24-845e-3f6f7a39d162",
+      "title": "Serverless Architecture",
+      "description": null,
+      "category": "🖇️ Architectural Patterns",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://www.confluent.io/learn/event-driven-architecture/",
+      "title": "Event-Driven Architecture",
+      "description": null,
+      "category": "🖇️ Architectural Patterns",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://www.spiceworks.com/tech/networking/articles/what-is-peer-to-peer/",
+      "title": "Peer-to-Peer (P2P) Architecture",
+      "description": null,
+      "category": "🖇️ Architectural Patterns",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://blog.algomaster.io/p/system-design-top-15-trade-offs",
+      "title": "Top 15 Tradeoffs",
+      "description": null,
+      "category": "⚖️ System Design Tradeoffs",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://algomaster.io/learn/system-design/vertical-vs-horizontal-scaling",
+      "title": "Vertical vs Horizontal Scaling",
+      "description": null,
+      "category": "⚖️ System Design Tradeoffs",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://blog.algomaster.io/p/concurrency-vs-parallelism",
+      "title": "Concurrency vs Parallelism",
+      "description": null,
+      "category": "⚖️ System Design Tradeoffs",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://blog.algomaster.io/p/long-polling-vs-websockets",
+      "title": "Long Polling vs WebSockets",
+      "description": null,
+      "category": "⚖️ System Design Tradeoffs",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://blog.algomaster.io/p/batch-processing-vs-stream-processing",
+      "title": "Batch vs Stream Processing",
+      "description": null,
+      "category": "⚖️ System Design Tradeoffs",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://blog.algomaster.io/p/stateful-vs-stateless-architecture",
+      "title": "Stateful vs Stateless Design",
+      "description": null,
+      "category": "⚖️ System Design Tradeoffs",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://blog.algomaster.io/p/strong-vs-eventual-consistency",
+      "title": "Strong vs Eventual Consistency",
+      "description": null,
+      "category": "⚖️ System Design Tradeoffs",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://blog.algomaster.io/p/59cae60d-9717-4e20-a59e-759e370db4e5",
+      "title": "Read-Through vs Write-Through Cache",
+      "description": null,
+      "category": "⚖️ System Design Tradeoffs",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://blog.algomaster.io/p/af5fe2fe-9a4f-4708-af43-184945a243af",
+      "title": "Push vs Pull Architecture",
+      "description": null,
+      "category": "⚖️ System Design Tradeoffs",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://blog.algomaster.io/p/106604fb-b746-41de-88fb-60e932b2ff68",
+      "title": "REST vs RPC",
+      "description": null,
+      "category": "⚖️ System Design Tradeoffs",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://blog.algomaster.io/p/aec1cebf-6060-45a7-8e00-47364ca70761",
+      "title": "Synchronous vs. asynchronous communications",
+      "description": null,
+      "category": "⚖️ System Design Tradeoffs",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://aws.amazon.com/compare/the-difference-between-throughput-and-latency/",
+      "title": "Latency vs Throughput",
+      "description": null,
+      "category": "⚖️ System Design Tradeoffs",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://algomaster.io/learn/system-design-interviews/design-url-shortener",
+      "title": "Design URL Shortener like TinyURL",
+      "description": null,
+      "category": "Easy",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://algomaster.io/learn/system-design-interviews/design-instagram",
+      "title": "Design Autocomplete for Search Engines",
+      "description": null,
+      "category": "Easy",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://algomaster.io/learn/system-design-interviews/design-load-balancer",
+      "title": "Design Load Balancer",
+      "description": null,
+      "category": "Easy",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://algomaster.io/learn/system-design-interviews/design-whatsapp",
+      "title": "Design WhatsApp",
+      "description": null,
+      "category": "Medium",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://algomaster.io/learn/system-design-interviews/design-spotify",
+      "title": "Design Spotify",
+      "description": null,
+      "category": "Medium",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://algomaster.io/learn/system-design-interviews/design-notification-service",
+      "title": "Design Notification Service",
+      "description": null,
+      "category": "Medium",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://blog.algomaster.io/p/design-a-distributed-job-scheduler",
+      "title": "Design Distributed Job Scheduler",
+      "description": null,
+      "category": "Medium",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://algomaster.io/learn/system-design/course-introduction",
+      "title": "System Design Fundamentals",
+      "description": null,
+      "category": "📇 Courses",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://algomaster.io/learn/system-design-interviews/introduction",
+      "title": "System Design Interviews",
+      "description": null,
+      "category": "📇 Courses",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://blog.algomaster.io/",
+      "title": "AlgoMaster Newsletter",
+      "description": null,
+      "category": "📩 Newsletters",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://www.amazon.in/dp/9352135245",
+      "title": "Designing Data-Intensive Applications",
+      "description": null,
+      "category": "📚 Books",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://www.youtube.com/@TechDummiesNarendraL",
+      "title": "Tech Dummies Narendra L",
+      "description": null,
+      "category": "📺 YouTube Channels",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://www.youtube.com/@gkcs",
+      "title": "Gaurav Sen",
+      "description": null,
+      "category": "📺 YouTube Channels",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://www.youtube.com/@codeKarle",
+      "title": "codeKarle",
+      "description": null,
+      "category": "📺 YouTube Channels",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://www.youtube.com/@ByteByteGo",
+      "title": "ByteByteGo",
+      "description": null,
+      "category": "📺 YouTube Channels",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://www.youtube.com/@SystemDesignInterview",
+      "title": "System Design Interview",
+      "description": null,
+      "category": "📺 YouTube Channels",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://www.youtube.com/@sudocode",
+      "title": "sudoCODE",
+      "description": null,
+      "category": "📺 YouTube Channels",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://www.youtube.com/@SuccessinTech/videos",
+      "title": "Success in Tech",
+      "description": null,
+      "category": "📺 YouTube Channels",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://discord.com/blog/how-discord-stores-trillions-of-messages",
+      "title": "How Discord stores trillions of messages",
+      "description": null,
+      "category": "📜 Must-Read Engineering Articles",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://netflixtechblog.com/building-in-video-search-936766f0017c",
+      "title": "Building In-Video Search at Netflix",
+      "description": null,
+      "category": "📜 Must-Read Engineering Articles",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://www.canva.dev/blog/engineering/from-zero-to-50-million-uploads-per-day-scaling-media-at-canva/",
+      "title": "How Canva scaled Media uploads from Zero to 50 Million per Day",
+      "description": null,
+      "category": "📜 Must-Read Engineering Articles",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://stripe.com/blog/payment-api-design",
+      "title": "Stripe’s payments APIs - The first 10 years",
+      "description": null,
+      "category": "📜 Must-Read Engineering Articles",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://lamport.azurewebsites.net/pubs/lamport-paxos.pdf",
+      "title": "Paxos: The Part-Time Parliament",
+      "description": null,
+      "category": "🗞️ Must-Read Distributed Systems Papers",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://research.google.com/archive/mapreduce-osdi04.pdf",
+      "title": "MapReduce: Simplified Data Processing on Large Clusters",
+      "description": null,
+      "category": "🗞️ Must-Read Distributed Systems Papers",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf",
+      "title": "The Google File System",
+      "description": null,
+      "category": "🗞️ Must-Read Distributed Systems Papers",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf",
+      "title": "Dynamo: Amazon’s Highly Available Key-value Store",
+      "description": null,
+      "category": "🗞️ Must-Read Distributed Systems Papers",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://notes.stephenholiday.com/Kafka.pdf",
+      "title": "Kafka: a Distributed Messaging System for Log Processing",
+      "description": null,
+      "category": "🗞️ Must-Read Distributed Systems Papers",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf",
+      "title": "Spanner: Google’s Globally-Distributed Database",
+      "description": null,
+      "category": "🗞️ Must-Read Distributed Systems Papers",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://static.googleusercontent.com/media/research.google.com/en//archive/bigtable-osdi06.pdf",
+      "title": "Bigtable: A Distributed Storage System for Structured Data",
+      "description": null,
+      "category": "🗞️ Must-Read Distributed Systems Papers",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://www.usenix.org/legacy/event/usenix10/tech/full_papers/Hunt.pdf",
+      "title": "ZooKeeper: Wait-free coordination for Internet-scale systems",
+      "description": null,
+      "category": "🗞️ Must-Read Distributed Systems Papers",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://www.cs.umb.edu/~poneil/lsmtree.pdf",
+      "title": "The Log-Structured Merge-Tree (LSM-Tree)",
+      "description": null,
+      "category": "🗞️ Must-Read Distributed Systems Papers",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    },
+    {
+      "url": "https://static.googleusercontent.com/media/research.google.com/en//archive/chubby-osdi06.pdf",
+      "title": "The Chubby lock service for loosely-coupled distributed systems",
+      "description": null,
+      "category": "🗞️ Must-Read Distributed Systems Papers",
+      "source": "ashishps1/awesome-system-design-resources",
+      "indexedAt": "2026-07-23T14:53:46.212Z"
+    }
+  ],
+  "categories": [
+    "⚙️ Core Concepts",
+    "🌐 Networking Fundamentals",
+    "🔌 API Fundamentals",
+    "🗄️ Database Fundamentals",
+    "⚡ Caching Fundamentals",
+    "🔄 Asynchronous Communication",
+    "🧩 Distributed System and Microservices",
+    "🖇️ Architectural Patterns",
+    "⚖️ System Design Tradeoffs",
+    "Easy",
+    "Medium",
+    "Hard",
+    "📇 Courses",
+    "📩 Newsletters",
+    "📚 Books",
+    "📺 YouTube Channels",
+    "📜 Must-Read Engineering Articles",
+    "🗞️ Must-Read Distributed Systems Papers"
+  ],
+  "crawledAt": "2026-07-23T14:53:46.212Z"
+}

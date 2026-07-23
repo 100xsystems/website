@@ -1,0 +1,16 @@
+{
+  "id": "lua",
+  "category": "languages",
+  "label": "Lua",
+  "aliases": [],
+  "description": "Lightweight embedded scripting language known for speed and simplicity",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Lua_(programming_language)",
+    "wikidata": "https://www.wikidata.org/wiki/Q207472"
+  },
+  "indexedAt": "2026-07-23T14:36:20.599Z"
+}

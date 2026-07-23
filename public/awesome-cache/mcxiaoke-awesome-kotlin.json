@@ -1,0 +1,4775 @@
+{
+  "repoId": "mcxiaoke/awesome-kotlin",
+  "name": "A curated list of awesome Kotlin frameworks, libraries, documents and other resources",
+  "description": "A curated list of awesome Kotlin frameworks, libraries, documents and other resources",
+  "repoUrl": "https://github.com/mcxiaoke/awesome-kotlin",
+  "stars": 2871,
+  "topics": [
+    "android-development",
+    "java",
+    "kotlin",
+    "kotlin-android",
+    "kotlin-language",
+    "kotlin-plugin"
+  ],
+  "links": [
+    {
+      "url": "https://kotlinlang.org/",
+      "title": "Kotlin Home",
+      "description": null,
+      "category": "Website",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://kotlinlang.org/docs/reference/",
+      "title": "Kotlin Documents",
+      "description": null,
+      "category": "Website",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://play.kotlinlang.org/",
+      "title": "Try Kotlin in your Browser",
+      "description": null,
+      "category": "Website",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "http://blog.jetbrains.com/kotlin",
+      "title": "Kotlin Blog",
+      "description": null,
+      "category": "Website",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/JetBrains/kotlin",
+      "title": "Kotlin GitHub",
+      "description": null,
+      "category": "Website",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/Kotlin/kotlin-koans",
+      "title": "Kotlin Koans",
+      "description": null,
+      "category": "Website",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://youtrack.jetbrains.com/issues/KT",
+      "title": "Issue Tracker",
+      "description": null,
+      "category": "Website",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/square/leakcanary",
+      "title": "leakcanary",
+      "description": "A memory leak detection library for Android.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/afollestad/material-dialogs",
+      "title": "material-dialogs",
+      "description": "😍 A beautiful, fluid, and extensible dialogs API for Kotlin & Android.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/google/flexbox-layout",
+      "title": "flexbox-layout",
+      "description": "Flexbox for Android",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/Kotlin/anko",
+      "title": "anko",
+      "description": "Pleasant Android application development",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/mikepenz/MaterialDrawer",
+      "title": "MaterialDrawer",
+      "description": "The flexible, easy to use, all in one drawer library for your Android project. Now brand new with material 2 design.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/wasabeef/recyclerview-animators",
+      "title": "recyclerview-animators",
+      "description": "An Android Animation library which easily add itemanimator to RecyclerView items.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/AppIntro/AppIntro",
+      "title": "AppIntro",
+      "description": "Make a cool intro for your Android app.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/JakeWharton/RxBinding",
+      "title": "RxBinding",
+      "description": "RxJava binding APIs for Android's UI widgets.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/Kotlin/kotlinx.coroutines",
+      "title": "kotlinx.coroutines",
+      "description": "Library support for Kotlin coroutines",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/JakeWharton/timber",
+      "title": "timber",
+      "description": "A logger with a small, extensible API which provides utility on top of Android's normal Log class.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/ktorio/ktor",
+      "title": "ktor",
+      "description": "Framework for quickly creating connected applications in Kotlin with minimal effort",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/respawn-app/FlowMVI",
+      "title": "FlowMVI",
+      "description": "A Kotlin Multiplatform architectural framework based on coroutines with an extensive feature set, powerful plugin system and a rich DSL.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/square/okio",
+      "title": "okio",
+      "description": "A modern I/O library for Android, Kotlin, and Java.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/YiiGuxing/TranslationPlugin",
+      "title": "TranslationPlugin",
+      "description": ":electric_plug:Translation plugin for IntelliJ based IDEs/Android Studio",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/JetBrains/kotlin-native",
+      "title": "kotlin-native",
+      "description": "Kotlin/Native infrastructure",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/ReactiveX/RxKotlin",
+      "title": "RxKotlin",
+      "description": "RxJava bindings for Kotlin",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/InsertKoinIO/koin",
+      "title": "koin",
+      "description": "Koin - a pragmatic lightweight dependency injection framework for Kotlin",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/zetbaitsu/Compressor",
+      "title": "Compressor",
+      "description": "An android image compression library.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/ACRA/acra",
+      "title": "acra",
+      "description": "Application Crash Reports for Android",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/coil-kt/coil",
+      "title": "coil",
+      "description": "Image loading for Android backed by Kotlin Coroutines.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/JetBrains/ideavim",
+      "title": "ideavim",
+      "description": "Vim emulation plugin for IDEs based on the IntelliJ Platform",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/android/topeka",
+      "title": "topeka",
+      "description": "A fun to play quiz that showcases material design on Android",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/drakeet/MultiType",
+      "title": "MultiType",
+      "description": "Easier and more flexible to create multiple types for Android RecyclerView.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/Tapadoo/Alerter",
+      "title": "Alerter",
+      "description": "An Android Alerting Library",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/JetBrains/Exposed",
+      "title": "Exposed",
+      "description": "Kotlin SQL Framework",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/agrosner/DBFlow",
+      "title": "DBFlow",
+      "description": "A blazing fast, powerful, and very simple ORM android database library that writes database code for you.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/mikepenz/Android-Iconics",
+      "title": "Android-Iconics",
+      "description": "Android-Iconics - Use any icon font, or vector (.svg) as drawable in your application.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/diogobernardino/williamchart",
+      "title": "williamchart",
+      "description": "Android Library to rapidly develop attractive and insightful charts in android applications.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/tipsy/javalin",
+      "title": "javalin",
+      "description": "A simple and modern Java and Kotlin web framework",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/dbacinski/Design-Patterns-In-Kotlin",
+      "title": "Design-Patterns-In-Kotlin",
+      "description": "Design Patterns implemented in Kotlin",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/muzei/muzei",
+      "title": "muzei",
+      "description": "Muzei Live Wallpaper for Android",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/pinterest/ktlint",
+      "title": "ktlint",
+      "description": "An anti-bikeshedding Kotlin linter with built-in formatter",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/ssseasonnn/RxDownload",
+      "title": "RxDownload",
+      "description": "A multi-threaded download tool written with RxJava and Kotlin",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/airbnb/mavericks",
+      "title": "mavericks",
+      "description": "Mavericks: Android on Autopilot",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/kittinunf/fuel",
+      "title": "fuel",
+      "description": "The easiest HTTP networking library for Kotlin/Android",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/cashapp/sqldelight",
+      "title": "sqldelight",
+      "description": "SQLDelight - Generates typesafe Kotlin APIs from SQL",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/Yalantis/Context-Menu.Android",
+      "title": "Context-Menu.Android",
+      "description": "You can easily add awesome animated context menu to your app.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/mockk/mockk",
+      "title": "mockk",
+      "description": "mocking library for Kotlin",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://bitdive.io",
+      "title": "BitDive",
+      "description": "Zero-code integration testing platform that generates tests from runtime application behavior",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/RedApparat/Fotoapparat",
+      "title": "Fotoapparat",
+      "description": "Making Camera for Android more friendly. 📸",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/sharish/ShimmerRecyclerView",
+      "title": "ShimmerRecyclerView",
+      "description": "null",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/corda/corda",
+      "title": "corda",
+      "description": "Corda is an open source blockchain project, designed for business from the start. Only Corda allows you to build interoperable blockchain networks that transact in strict privacy. Corda's smart contract technology allows businesses to transact directly, with value.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/izhangzhihao/intellij-rainbow-brackets",
+      "title": "intellij-rainbow-brackets",
+      "description": "🌈Rainbow Brackets / Rainbow Parentheses for IntelliJ based IDEs/Android Studio",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/Triple-T/gradle-play-publisher",
+      "title": "gradle-play-publisher",
+      "description": "GPP is Android's unofficial release automation Gradle Plugin. It can do anything from building, uploading, and then promoting your App Bundle or APK to publishing app listings and other metadata.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/bufferapp/android-clean-architecture-boilerplate",
+      "title": "android-clean-architecture-boilerplate",
+      "description": "An android boilerplate project using clean architecture",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/detekt/detekt",
+      "title": "detekt",
+      "description": "Static code analysis for Kotlin",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/vipulasri/Timeline-View",
+      "title": "Timeline-View",
+      "description": "Android Timeline View is used to display views like Tracking of shipment/order, steppers etc.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/gradle/kotlin-dsl-samples",
+      "title": "kotlin-dsl-samples",
+      "description": "Samples builds using the Gradle Kotlin DSL",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/edvin/tornadofx",
+      "title": "tornadofx",
+      "description": "Lightweight JavaFX Framework for Kotlin",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/mikepenz/FastAdapter",
+      "title": "FastAdapter",
+      "description": "The bullet proof, fast and easy to use adapter library, which minimizes developing time to a fraction...",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/didi/booster",
+      "title": "booster",
+      "description": "🚀Optimizer for mobile applications",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/moezbhatti/qksms",
+      "title": "qksms",
+      "description": "The most beautiful SMS messenger for Android",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/JetBrains/compose-jb",
+      "title": "compose-jb",
+      "description": "Jetpack Compose for Desktop, a modern UI framework for Kotlin that makes building performant and beautiful user interfaces easy and enjoyable.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/TakuSemba/Spotlight",
+      "title": "Spotlight",
+      "description": "Android Library that lights items for tutorials or walk-throughs etc...",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/YTVanced/VancedManager",
+      "title": "VancedManager",
+      "description": "Vanced Installer",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/KeepSafe/dexcount-gradle-plugin",
+      "title": "dexcount-gradle-plugin",
+      "description": "A Gradle plugin to report the number of method references in your APK on every build.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/Kotlin/kotlinx.serialization",
+      "title": "kotlinx.serialization",
+      "description": "Kotlin multiplatform / multi-format serialization",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/kotest/kotest",
+      "title": "kotest",
+      "description": "Powerful, elegant and flexible test framework for Kotlin",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/worker8/TourGuide",
+      "title": "TourGuide",
+      "description": "TourGuide is an Android library that aims to provide an easy way to add pointers with animations over a desired Android View",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/square/kotlinpoet",
+      "title": "kotlinpoet",
+      "description": "A Kotlin API for generating .kt source files.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/mikepenz/AboutLibraries",
+      "title": "AboutLibraries",
+      "description": "AboutLibraries is a library to offer some information of libraries.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/mockito/mockito-kotlin",
+      "title": "mockito-kotlin",
+      "description": "Using Mockito with Kotlin",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/Kodein-Framework/Kodein-DI",
+      "title": "Kodein-DI",
+      "description": "Painless Kotlin Dependency Injection",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/Tinder/Scarlet",
+      "title": "Scarlet",
+      "description": "A Retrofit inspired WebSocket client for Kotlin, Java, and Android",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/gotev/android-upload-service",
+      "title": "android-upload-service",
+      "description": "Easily upload files (Multipart/Binary/FTP out of the box) in the background with progress notification. Support for persistent upload requests, customizations and custom plugins.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/ToxicBakery/ViewPagerTransforms",
+      "title": "ViewPagerTransforms",
+      "description": "Library containing common animations needed for transforming ViewPager scrolling for Android v13+.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/kizitonwose/CalendarView",
+      "title": "CalendarView",
+      "description": "A highly customizable calendar library for Android, powered by RecyclerView.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/MikeOrtiz/TouchImageView",
+      "title": "TouchImageView",
+      "description": "Adds touch functionality to Android ImageView.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/SimpleMobileTools/Simple-Calendar",
+      "title": "Simple-Calendar",
+      "description": "A simple calendar with events, customizable widgets and no ads.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/DroidNinja/Android-FilePicker",
+      "title": "Android-FilePicker",
+      "description": "Photopicker and document picker for android",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/zagum/Android-SwitchIcon",
+      "title": "Android-SwitchIcon",
+      "description": "Google launcher-style implementation of switch (enable/disable) icon",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/JakeWharton/kotterknife",
+      "title": "kotterknife",
+      "description": "View \"injection\" library for Android.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/terrakok/Cicerone",
+      "title": "Cicerone",
+      "description": "🚦 Cicerone is a lightweight library that makes the navigation in an Android app easy.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/PierfrancescoSoffritti/android-youtube-player",
+      "title": "android-youtube-player",
+      "description": "YouTube Player library for Android and Chromecast, stable and customizable.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/tarek360/RichPath",
+      "title": "RichPath",
+      "description": "💪 Rich Android Path. 🤡 Draw as you want. 🎉 Animate much as you can.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/TonicArtos/SuperSLiM",
+      "title": "SuperSLiM",
+      "description": "A layout manager for the RecyclerView with interchangeable linear, grid, and staggered displays of views, all with configurable section headers including the sticky variety as specified in the material design docs.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/TakuSemba/MultiSnapRecyclerView",
+      "title": "MultiSnapRecyclerView",
+      "description": "Android library for multiple snapping of RecyclerView",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/lapism/search",
+      "title": "search",
+      "description": "Material Design Search component for Android, SearchView",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/dropbox/Store",
+      "title": "Store",
+      "description": "Kotlin Library for Async Data Loading and Caching",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/tommybuonomo/dotsindicator",
+      "title": "dotsindicator",
+      "description": "Three material Dots Indicators for view pagers in Android !",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/garretyoder/Colorful",
+      "title": "Colorful",
+      "description": "Android runtime theme library",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/yairm210/Unciv",
+      "title": "Unciv",
+      "description": "Open-source Android/Desktop remake of Civ V",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/spekframework/spek",
+      "title": "spek",
+      "description": "A specification framework for Kotlin",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/wuseal/JsonToKotlinClass",
+      "title": "JsonToKotlinClass",
+      "description": "🚀Plugin for Android Studio And IntelliJ Idea to generate Kotlin data class code from JSON text ( Json to Kotlin )",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/DanielMartinus/Konfetti",
+      "title": "Konfetti",
+      "description": "Celebrate more with this lightweight confetti particle system 🎊",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/dev-labs-bg/transitioner",
+      "title": "transitioner",
+      "description": "A library for dynamic view-to-view transitions",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/Szaki/XiaomiADBFastbootTools",
+      "title": "XiaomiADBFastbootTools",
+      "description": "A simple tool for managing Xiaomi devices on desktop using ADB and Fastboot",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/pbreault/adb-idea",
+      "title": "adb-idea",
+      "description": "A plugin for Android Studio and Intellij IDEA that speeds up your day to day android development.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/JakeWharton/retrofit2-kotlin-coroutines-adapter",
+      "title": "retrofit2-kotlin-coroutines-adapter",
+      "description": "A Retrofit 2 adapter for Kotlin coroutine's Deferred type.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/Kotlin/dokka",
+      "title": "dokka",
+      "description": "Documentation Engine for Kotlin",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/ingbyr/VDM",
+      "title": "VDM",
+      "description": "GUI for command-line video downloader (youtube-dl annie)",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/saket/InboxRecyclerView",
+      "title": "InboxRecyclerView",
+      "description": "Build expandable descendant navigation, inspired by Google Inbox",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/lopspower/CircularImageView",
+      "title": "CircularImageView",
+      "description": "Create circular ImageView in Android in the simplest way possible",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/CypherpunkArmory/UserLAnd",
+      "title": "UserLAnd",
+      "description": "Main UserLAnd Repository",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/afollestad/drag-select-recyclerview",
+      "title": "drag-select-recyclerview",
+      "description": "👇 Easy Google Photos style multi-selection for RecyclerViews, powered by Kotlin and AndroidX.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/Gurupreet/ComposeCookBook",
+      "title": "ComposeCookBook",
+      "description": "A Collection on all Jetpack compose UI elements, Layouts, Widgets and Demo screens to see it's potential",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/streetcomplete/StreetComplete",
+      "title": "StreetComplete",
+      "description": "Easy to use OpenStreetMap editor for Android",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/fossasia/open-event-attendee-android",
+      "title": "open-event-attendee-android",
+      "description": "Open Event Attendee Android General App https://github.com/fossasia/open-event-android/blob/apk/open-event-dev-app-playStore-debug.apk",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/skydoves/Balloon",
+      "title": "Balloon",
+      "description": ":balloon: A lightweight popup like tooltips, fully customizable with an arrow and animations.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/Gh0u1L5/WechatMagician",
+      "title": "WechatMagician",
+      "description": "WechatMagician is a Xposed module written in Kotlin, that allows you to completely control your Wechat.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/anthonycr/Lightning-Browser",
+      "title": "Lightning-Browser",
+      "description": "A lightweight Android browser with modern navigation",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/android/play-billing-samples",
+      "title": "play-billing-samples",
+      "description": "Samples for Google Play In-app Billing",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/VMadalin/android-modular-architecture",
+      "title": "android-modular-architecture",
+      "description": "📚  Sample Android Components Architecture on a modular word focused on the scalability, testability and maintainability written in Kotlin, following best practices using Jetpack.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/mozilla-mobile/android-components",
+      "title": "android-components",
+      "description": "A collection of Android libraries to build browsers or browser-like applications.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/aritraroy/Flashbar",
+      "title": "Flashbar",
+      "description": "⚡️A highly customizable, powerful and easy-to-use alerting library for Android.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/http4k/http4k",
+      "title": "http4k",
+      "description": "The Functional toolkit for Kotlin HTTP applications. http4k provides a simple and uniform way to serve, consume, and test HTTP services.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/SumiMakito/AwesomeQRCode",
+      "title": "AwesomeQRCode",
+      "description": "An awesome QR code generator for Android.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/Yalantis/SearchFilter",
+      "title": "SearchFilter",
+      "description": "Implementing Search Filter Animation in Kotlin for Quora Meets LinkedIn, Our App Design Concept",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/ChuckerTeam/chucker",
+      "title": "chucker",
+      "description": "🔎 An HTTP inspector for Android & OkHTTP (like Charles but on device) - More Chucker than Chuck",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/LouisCAD/Splitties",
+      "title": "Splitties",
+      "description": "A collection of hand-crafted extensions for your Kotlin projects.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/cbeust/klaxon",
+      "title": "klaxon",
+      "description": "A JSON parser for Kotlin",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/airbnb/paris",
+      "title": "paris",
+      "description": "Define and apply styles to Android views programmatically",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/nekocode/create-android-kotlin-app",
+      "title": "create-android-kotlin-app",
+      "description": "Create kotlin android project with one line of command.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/saket/press",
+      "title": "press",
+      "description": "Cross-platform markdown editor written in Kotlin Multiplatform (work in progress)",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/leandroBorgesFerreira/LoadingButtonAndroid",
+      "title": "LoadingButtonAndroid",
+      "description": "A button to substitute the ProgressDialog",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/stfalcon-studio/StfalconImageViewer",
+      "title": "StfalconImageViewer",
+      "description": "A simple and customizable Android full-screen image viewer with shared image transition support, \"pinch to zoom\" and \"swipe to dismiss\" gestures",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/jkwiecien/EasyImage",
+      "title": "EasyImage",
+      "description": "Library for picking pictures from gallery or camera",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/faruktoptas/FancyShowCaseView",
+      "title": "FancyShowCaseView",
+      "description": "An easy-to-use customisable show case view with circular reveal animation.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/fossasia/badge-magic-android",
+      "title": "badge-magic-android",
+      "description": "Badge Magic with LEDs - Android App https://play.google.com/apps/testing/org.fossasia.badgemagic",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/orbit/orbit",
+      "title": "orbit",
+      "description": "Orbit - Virtual actor framework for building distributed systems",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/klinker24/Android-TextView-LinkBuilder",
+      "title": "Android-TextView-LinkBuilder",
+      "description": "Insanely easy way to define clickable links within a TextView.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/ingokegel/jclasslib",
+      "title": "jclasslib",
+      "description": "jclasslib bytecode viewer is a tool that visualizes all aspects of compiled Java class files and the contained bytecode.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/holgerbrandl/kscript",
+      "title": "kscript",
+      "description": "Scripting enhancements for Kotlin",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/yshrsmz/KeyboardVisibilityEvent",
+      "title": "KeyboardVisibilityEvent",
+      "description": "Android Library to handle software keyboard visibility change event.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/tasks/tasks",
+      "title": "tasks",
+      "description": "Bringing Astrid Tasks back from the dead",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/qingmei2/MVVM-Architecture",
+      "title": "MVVM-Architecture",
+      "description": "The practice of MVVM + Jetpack architecture in Android.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/PaulWoitaschek/Voice",
+      "title": "Voice",
+      "description": "Minimalistic audiobook player",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/saket/cascade",
+      "title": "cascade",
+      "description": "Nested popup menus with smooth height animations",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/ajalt/clikt",
+      "title": "clikt",
+      "description": "Multiplatform command line interface parsing for Kotlin",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/sephiroth74/Material-BottomNavigation",
+      "title": "Material-BottomNavigation",
+      "description": "Bottom Navigation widget component inspired by the Google Material Design Guidelines at https://www.google.com/design/spec/components/bottom-navigation.html",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/ncapdevi/FragNav",
+      "title": "FragNav",
+      "description": "An Android library for managing multiple stacks of fragments",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/Yalantis/Multi-Selection",
+      "title": "Multi-Selection",
+      "description": "Multiselection Solution for Android in Kotlin",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/MicroUtils/kotlin-logging",
+      "title": "kotlin-logging",
+      "description": "Lightweight logging framework for Kotlin. A convenient and performant logging library wrapping slf4j with Kotlin extensions",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/loopeer/shadow",
+      "title": "shadow",
+      "description": "Deprecated because of the performance not fine. Android custom shadow view, can replace your CardView",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/AdevintaSpain/Barista",
+      "title": "Barista",
+      "description": ":coffee: The one who serves a great Espresso",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/Ramotion/fluid-slider-android",
+      "title": "fluid-slider-android",
+      "description": ":octocat:💧 A slider widget with a popup bubble displaying the precise value selected. Android library made by @Ramotion",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/nikhilpanju/FabFilter",
+      "title": "FabFilter",
+      "description": "Android app to showcase complex UI/Animations with and without MotionLayout",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/cashapp/contour",
+      "title": "contour",
+      "description": "Layouts with lambdas 😎",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/igalata/Bubble-Picker",
+      "title": "Bubble-Picker",
+      "description": "An easy-to-use animation which can be used for content picking for Android",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/jaredrummler/Cyanea",
+      "title": "Cyanea",
+      "description": "A theme engine for Android",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/skydoves/TransformationLayout",
+      "title": "TransformationLayout",
+      "description": "🌠 Transform into a different view or activity using morphing animations.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/EmmyLua/IntelliJ-EmmyLua",
+      "title": "IntelliJ-EmmyLua",
+      "description": "Lua IDE/Debugger Plugin for IntelliJ IDEA",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/wching/Android-Indefinite-Pager-Indicator",
+      "title": "Android-Indefinite-Pager-Indicator",
+      "description": "A lightweight, plug-and-play indefinite pager indicator for RecyclerViews & ViewPagers.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/Tinder/StateMachine",
+      "title": "StateMachine",
+      "description": "A Kotlin DSL for finite state machine",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/ibrahimsn98/SmoothBottomBar",
+      "title": "SmoothBottomBar",
+      "description": "A lightweight Android material bottom navigation bar library",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/bufferapp/clean-architecture-components-boilerplate",
+      "title": "clean-architecture-components-boilerplate",
+      "description": "A fork of our clean architecture boilerplate, this time using the Android Architecture Components",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/sephiroth74/android-target-tooltip",
+      "title": "android-target-tooltip",
+      "description": "Create Toast like tooltips, but targets can be specified, plus custom properties and features",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/lopspower/CircularProgressBar",
+      "title": "CircularProgressBar",
+      "description": "Create circular ProgressBar in Android ⭕",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/Kennyc1012/MultiStateView",
+      "title": "MultiStateView",
+      "description": "Android View that displays different content based on its state",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/robertlevonyan/materialChipView",
+      "title": "materialChipView",
+      "description": "Material Chip view. Can be used as tags for categories, contacts or creating text clouds",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/ihsanbal/LoggingInterceptor",
+      "title": "LoggingInterceptor",
+      "description": "An OkHttp interceptor which has pretty logger for request and response. +Mock support",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/JetBrains/idea-gitignore",
+      "title": "idea-gitignore",
+      "description": ".ignore support plugin for IntelliJ IDEA",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/javiersantos/MaterialStyledDialogs",
+      "title": "MaterialStyledDialogs",
+      "description": "A library that shows a beautiful and customizable Material-based dialog with header. API 14+ required.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/hussien89aa/KotlinUdemy",
+      "title": "KotlinUdemy",
+      "description": "Learn how to make online games, and apps for Android O, like Pokémon , twitter,Tic Tac Toe, and notepad using Kotlin",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/JetradarMobile/android-snowfall",
+      "title": "android-snowfall",
+      "description": "Fully customizable implementation of \"Snowfall View\" on Android.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/Kotlin/kotlinx.html",
+      "title": "kotlinx.html",
+      "description": "Kotlin DSL for HTML",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/agoda-com/Kakao",
+      "title": "Kakao",
+      "description": "Nice and simple DSL for Espresso in Kotlin",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/Mygod/VPNHotspot",
+      "title": "VPNHotspot",
+      "description": "Share your VPN connection over hotspot or repeater! (root required)",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/naman14/TimberX",
+      "title": "TimberX",
+      "description": "Material theme music player that works across all form factors (phones, wear, auto, cast, assistant) and uses latest tools (Kotlin, Architecture components, Room, Databinding)",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/jasync-sql/jasync-sql",
+      "title": "jasync-sql",
+      "description": "Java & Kotlin Async DataBase Driver for MySQL and PostgreSQL written in Kotlin",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/tachiyomiorg/tachiyomi-extensions",
+      "title": "tachiyomi-extensions",
+      "description": "Source extensions for the Tachiyomi app.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/Rogero0o/CatLoadingView",
+      "title": "CatLoadingView",
+      "description": "Android CatLoadingView",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/RedMadRobot/input-mask-android",
+      "title": "input-mask-android",
+      "description": "User input masking library repo.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/duanhong169/DrawableToolbox",
+      "title": "DrawableToolbox",
+      "description": "🛠️ The missing drawable toolbox for Android. Create drawables programmatically and get rid of the boring and always repeated drawable.xml files.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/alexjlockwood/kyrie",
+      "title": "kyrie",
+      "description": "🍀 Animated Vector Drawables on steroids 🍀",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/bitvale/Switcher",
+      "title": "Switcher",
+      "description": "Android implementation of switch animation from Oleg Frolov",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/anastr/SpeedView",
+      "title": "SpeedView",
+      "description": "Dynamic Speedometer and Gauge for Android. amazing, powerful, and multi shape :zap:",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/tuskyapp/Tusky",
+      "title": "Tusky",
+      "description": "An Android client for the microblogging server Mastodon",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/vektah/CodeGlance",
+      "title": "CodeGlance",
+      "description": "Intelij IDEA plugin for displaying a code mini-map similar to the one found in Sublime",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/zhanghai/MaterialFiles",
+      "title": "MaterialFiles",
+      "description": "Material Design file manager for Android",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/alorma/TimelineView",
+      "title": "TimelineView",
+      "description": "Cute timeline view for android",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/vector-im/element-android",
+      "title": "element-android",
+      "description": "A glossy Matrix collaboration client for Android.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/ImangazalievM/CircleMenu",
+      "title": "CircleMenu",
+      "description": "CircleMenu is a simple, elegant menu with a circular layout.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/rumboalla/apkupdater",
+      "title": "apkupdater",
+      "description": "APKUpdater is an open source tool that simplifies the process of finding updates for your installed apps.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/ExpediaGroup/graphql-kotlin",
+      "title": "graphql-kotlin",
+      "description": "Libraries for running GraphQL in Kotlin",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/bugsnag/bugsnag-android",
+      "title": "bugsnag-android",
+      "description": "Bugsnag crash monitoring and reporting tool for Android apps",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/afollestad/material-cab",
+      "title": "material-cab",
+      "description": "🚕 An Android & Kotlin library for placing and manipulating Contextual Action Bars in your UI.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/Mauker1/MaterialSearchView",
+      "title": "MaterialSearchView",
+      "description": "Android Search View based on Material design guidelines.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/iammert/ReadableBottomBar",
+      "title": "ReadableBottomBar",
+      "description": "Yet another material bottom bar library for Android",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/mwolfson/android-historian",
+      "title": "android-historian",
+      "description": "A demo of the Android Material Design Support libraries",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/afollestad/photo-affix",
+      "title": "photo-affix",
+      "description": "📷 Stitch your photos together vertically or horizontally easily!",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/KasperskyLab/Kaspresso",
+      "title": "Kaspresso",
+      "description": "Great UI test framework",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/cortinico/kotlin-android-template",
+      "title": "kotlin-android-template",
+      "description": "Android + Kotlin + Github Actions + ktlint + Detekt + Gradle Kotlin DSL + buildSrc = ❤️",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/vanniktech/gradle-dependency-graph-generator-plugin",
+      "title": "gradle-dependency-graph-generator-plugin",
+      "description": "Gradle plugin that generates dependency graphs from your project.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/touchlab/KaMPKit",
+      "title": "KaMPKit",
+      "description": "KaMP Kit by Touchlab is a collection of code and tools designed to get your mobile team started quickly with Kotlin Multiplatform.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/perwendel/spark-kotlin",
+      "title": "spark-kotlin",
+      "description": "A Spark DSL in idiomatic kotlin // dependency: com.sparkjava:spark-kotlin:1.0.0-alpha",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/kizitonwose/Time",
+      "title": "Time",
+      "description": "Type-safe time calculations in Kotlin, powered by generics.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/Hamadakram/Sneaker",
+      "title": "Sneaker",
+      "description": "A lightweight Android library for customizable alerts",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/ahmedeltaher/MVVM-Kotlin-Android-Architecture",
+      "title": "MVVM-Kotlin-Android-Architecture",
+      "description": "MVVM + Kotlin + Retrofit2 + Hilt + Coroutines + Kotlin Flow + mockK + Espresso + Junit5",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/Team-Blox/GraphView",
+      "title": "GraphView",
+      "description": "Android GraphView is used to display data in graph structures.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/MlxChange/WaveDisPlay",
+      "title": "WaveDisPlay",
+      "description": "A view that can be used like recyclerView to see the content of the next or previous page",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/lyrebirdstudio/Croppy",
+      "title": "Croppy",
+      "description": "Image Cropping Library for Android",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/PaperAirplane-Dev-Team/BlackLight",
+      "title": "BlackLight",
+      "description": "A light Sina Weibo client for Android",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/libktx/ktx",
+      "title": "ktx",
+      "description": "LibKTX: Kotlin extensions for LibGDX games and applications",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/chrisbanes/accompanist",
+      "title": "accompanist",
+      "description": "A collection of extension libraries for Jetpack Compose",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/pawegio/KAndroid",
+      "title": "KAndroid",
+      "description": "Kotlin library for Android",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/oneHamidreza/MeowBottomNavigation",
+      "title": "MeowBottomNavigation",
+      "description": "Android Meow Bottm Navigation",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/loopeer/code-reader",
+      "title": "code-reader",
+      "description": "One Multi program language code reader",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/bufferapp/android-clean-architecture-mvi-boilerplate",
+      "title": "android-clean-architecture-mvi-boilerplate",
+      "description": "A fork of our clean architecture boilerplate using the Model-View-Intent pattern",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/MarioAriasC/funKTionale",
+      "title": "funKTionale",
+      "description": "Functional constructs for Kotlin",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/FredJul/Flym",
+      "title": "Flym",
+      "description": "Flym News Reader is a light Android feed reader (RSS/Atom)",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/RocketChat/Rocket.Chat.Android",
+      "title": "Rocket.Chat.Android",
+      "description": "Legacy mobile Rocket.Chat client in Kotlin for Android",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/infinum/android_dbinspector",
+      "title": "android_dbinspector",
+      "description": "Android library for viewing and sharing in app databases.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/armcha/Ribble",
+      "title": "Ribble",
+      "description": "Simple Dribbble Client using Dribbble API, fully written in Kotlin  😱 ❤️",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/Netflix/dgs-framework",
+      "title": "dgs-framework",
+      "description": "null",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/AndroidDeveloperLB/AutoFitTextView",
+      "title": "AutoFitTextView",
+      "description": "A TextView that automatically fit its font and line count based on its available size and content",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/Foso/Jetpack-Compose-Playground",
+      "title": "Jetpack-Compose-Playground",
+      "description": "Community-driven collection of Jetpack Compose example code and tutorials :rocket:  https://foso.github.io/compose",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/smallSohoSolo/McImage",
+      "title": "McImage",
+      "description": "Android Gradle Plugin  -- Auto Check big image and compress image in building.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/TradeMe/MapMe",
+      "title": "MapMe",
+      "description": "The Android maps adapter",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/badoo/MVICore",
+      "title": "MVICore",
+      "description": "MVI framework with events, time-travel, and more",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/home-assistant/android",
+      "title": "android",
+      "description": ":iphone: Home Assistant Companion for Android",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/kiruto/debug-bottle",
+      "title": "debug-bottle",
+      "description": "🍼Debug Bottle is an Android runtime debug / develop tools written using kotlin language.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/RikkaApps/Shizuku",
+      "title": "Shizuku",
+      "description": "Using system APIs directly with adb/root privileges from normal apps through a Java process started with app_process.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/airbnb/Showkase",
+      "title": "Showkase",
+      "description": "🔦 Showkase is an annotation-processor based Android library that helps you organize, discover, search and visualize Jetpack Compose UI elements",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/Zackratos/UltimateBarX",
+      "title": "UltimateBarX",
+      "description": "Make Android transparent statusbar and navigationbar easy.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/iammert/MultiSearchView",
+      "title": "MultiSearchView",
+      "description": "Yet another built-in animated search view for Android.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/joreilly/PeopleInSpace",
+      "title": "PeopleInSpace",
+      "description": "Minimal Kotlin Multiplatform project using Jetpack Compose and SwiftUI",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/jmfayard/refreshVersions",
+      "title": "refreshVersions",
+      "description": "Life is too short to google for dependencies and versions",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/FasterXML/jackson-module-kotlin",
+      "title": "jackson-module-kotlin",
+      "description": "Module that adds support for serialization/deserialization of Kotlin (http://kotlinlang.org) classes and data classes.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/gildor/kotlin-coroutines-retrofit",
+      "title": "kotlin-coroutines-retrofit",
+      "description": "Kotlin Coroutines await() extension for Retrofit Call",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/SusionSuc/rabbit-client",
+      "title": "rabbit-client",
+      "description": "🐰 a simple and easy to use android  apm framework (tools)",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/JakeWharton/adb-event-mirror",
+      "title": "adb-event-mirror",
+      "description": "Mirror the touch/key/button events of one device onto one or more other devices in real-time",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/kotlin-orm/ktorm",
+      "title": "ktorm",
+      "description": "A lightweight ORM framework for Kotlin with strong-typed SQL DSL and sequence APIs.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/AdityaAnand1/Morphing-Material-Dialogs",
+      "title": "Morphing-Material-Dialogs",
+      "description": "Material dialog :heart: morphing animation. An android kotlin UI library for building beautiful animations for converting a floating action button into a material dialog.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/tommybuonomo/morph-bottom-navigation",
+      "title": "morph-bottom-navigation",
+      "description": "This library represents a Bottom Navigation with an awesome morph effect on top of the selected item",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/vsch/idea-multimarkdown",
+      "title": "idea-multimarkdown",
+      "description": "Markdown language support for IntelliJ IDEA.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/Applandeo/Material-Calendar-View",
+      "title": "Material-Calendar-View",
+      "description": "Material Calendar View for Android",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/square/AssistedInject",
+      "title": "AssistedInject",
+      "description": "Assisted injection for JSR 330.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/googlecodelabs/android-testing",
+      "title": "android-testing",
+      "description": "Android Testing Codelab",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/juanchosaravia/KedditBySteps",
+      "title": "KedditBySteps",
+      "description": "Small Reddit Android client developed with Kotlin",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/nitrico/LastAdapter",
+      "title": "LastAdapter",
+      "description": "Don't write a RecyclerView adapter again. Not even a ViewHolder!",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/Kotlin/kotlinx-datetime",
+      "title": "kotlinx-datetime",
+      "description": "KotlinX multiplatform date/time library",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/skydoves/AndroidVeil",
+      "title": "AndroidVeil",
+      "description": ":performing_arts: An easy, flexible way to implement veil skeletons and shimmering effect for Android.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/acejump/AceJump",
+      "title": "AceJump",
+      "description": "🅰️ single character search, select, and jump",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/cortinico/slidetoact",
+      "title": "slidetoact",
+      "description": "A simple 'Slide to Unlock' Material widget for Android, written in Kotlin 📱🎨🦄",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/stripe/stripe-android",
+      "title": "stripe-android",
+      "description": "Stripe Android SDK",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/korlibs/korge",
+      "title": "KorGE",
+      "description": "KorGE Game Engine. Multiplatform Kotlin Game Engine",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/magnusja/libaums",
+      "title": "libaums",
+      "description": "Open source library to access USB Mass Storage devices on Android without rooting your device",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/JetBrains/kotlin-wrappers",
+      "title": "kotlin-wrappers",
+      "description": "Kotlin wrappers for popular JavaScript libraries",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/afollestad/assent",
+      "title": "assent",
+      "description": "🙏 Android Runtime Permissions made easy and compact, for Kotlin and AndroidX. With coroutines support!",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/Droppers/AnimatedBottomBar",
+      "title": "AnimatedBottomBar",
+      "description": "A customizable and easy to use BottomBar navigation view with sleek animations, with support for ViewPager, ViewPager2, NavController, and badges.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/kbiakov/CodeView-Android",
+      "title": "CodeView-Android",
+      "description": "Display code with syntax highlighting :sparkles: in native way.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/tajchert/WaitingDots",
+      "title": "WaitingDots",
+      "description": "null",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/chrisbanes/insetter",
+      "title": "insetter",
+      "description": "Insetter is a library to help apps handle WindowInsets more easily",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/Spikeysanju/MotionToast",
+      "title": "MotionToast",
+      "description": "🌈 A Beautiful Motion Toast Library for Kotlin Android",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/badoo/Reaktive",
+      "title": "Reaktive",
+      "description": "Kotlin multi-platform implementation of Reactive Extensions",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/akexorcist/Localization",
+      "title": "Localization",
+      "description": "[Android] In-app language changing library",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/Ramotion/navigation-toolbar-android",
+      "title": "navigation-toolbar-android",
+      "description": ":octocat: Navigation toolbar is a slide-modeled UI navigation controller made by @Ramotion",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/Kennyc1012/BottomSheetMenu",
+      "title": "BottomSheetMenu",
+      "description": "BottomSheetMenu style dialogs for Android",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/androiddevnotes/awesome-android-learning-resources",
+      "title": "awesome-android-learning-resources",
+      "description": "👓 A curated list of awesome android learning resources for android app developers.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/InflationX/ViewPump",
+      "title": "ViewPump",
+      "description": "View Inflation you can intercept.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/andremion/CounterFab",
+      "title": "CounterFab",
+      "description": "A FloatingActionButton subclass that shows a counter badge on right top corner",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/tajchert/Nammu",
+      "title": "Nammu",
+      "description": "Permission helper for Android M - background check, monitoring and more",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/GwonHyeok/StickySwitch",
+      "title": "StickySwitch",
+      "description": "⭐️ beautiful switch widget with sticky animation ⭐️",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/square/cycler",
+      "title": "cycler",
+      "description": "null",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/MoyuruAizawa/TimetableLayout",
+      "title": "TimetableLayout",
+      "description": "TimetableLayout is a RecyclerView.LayoutManager to display the timetable for Android.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/MarkusAmshove/Kluent",
+      "title": "Kluent",
+      "description": "Fluent Assertion-Library for Kotlin",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/ktorio/ktor-samples",
+      "title": "ktor-samples",
+      "description": "Sample projects for Ktor",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/SalomonBrys/Kotson",
+      "title": "Kotson",
+      "description": "Kotlin bindings for JSON manipulation via Gson",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/tommybuonomo/creative-viewpager",
+      "title": "creative-viewpager",
+      "description": "Creative View Pager easy to use in Android",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/Chrisvin/LiquidSwipe",
+      "title": "LiquidSwipe",
+      "description": "Android LiquidSwipe Library",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/permissions-dispatcher/permissions-dispatcher-plugin",
+      "title": "permissions-dispatcher-plugin",
+      "description": "IntelliJ plugin for supporting PermissionsDispatcher",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/kittinunf/Result",
+      "title": "Result",
+      "description": "The modelling for success/failure of operations in Kotlin",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/JetBrains/kotless",
+      "title": "kotless",
+      "description": "Kotlin Serverless Framework",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/android/gradle-recipes",
+      "title": "gradle-recipes",
+      "description": "Ready-to-use recipes for common build customizations that showcase the Android Gradle plugin's public APIs and DSL.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/hitherejoe/ComposeAcademy-Playground",
+      "title": "ComposeAcademy-Playground",
+      "description": "Playground project for the Jetpack Compose APIs",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/cashapp/turbine",
+      "title": "turbine",
+      "description": "A small testing library for kotlinx.coroutines Flow",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/Karn/notify",
+      "title": "notify",
+      "description": "Simplified notification construction and delivery for Android.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/rock3r/deep-clean",
+      "title": "deep-clean",
+      "description": "When Gradle or the IDE let you down, just --nuke all them caches",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/faob-dev/MotionLayoutCarousel",
+      "title": "MotionLayoutCarousel",
+      "description": "Simple Carousel built with Android MotionLayout",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/wealthfront/magellan",
+      "title": "magellan",
+      "description": "The simplest navigation library for Android.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/natario1/ZoomLayout",
+      "title": "ZoomLayout",
+      "description": "2D zoom and pan behavior for View hierarchies, images, video streams, and much more, written in Kotlin for Android.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/JLLeitschuh/ktlint-gradle",
+      "title": "ktlint-gradle",
+      "description": "A ktlint gradle plugin",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/grote/Transportr",
+      "title": "Transportr",
+      "description": "Free Public Transport Assistant without Ads or Tracking",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/TonnyL/Spark",
+      "title": "Spark",
+      "description": "🎨 An Android library to create gradient animation like Instagram&Spotify",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/robohorse/RoboPOJOGenerator",
+      "title": "RoboPOJOGenerator",
+      "description": "IntelliJ IDEA/Android studio plugin: Json to Java and Kotlin POJO (GSON, Logan Square, Jackson, FastJSON, AutoValue, Moshi)",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/JakeWharton/wormhole",
+      "title": "wormhole",
+      "description": "A time-traveling bytecode rewriter which adds future APIs to android.jar",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/graphql-java-kickstart/graphql-java-tools",
+      "title": "graphql-java-tools",
+      "description": "A schema-first tool for graphql-java inspired by graphql-tools for JS",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/TonnyL/Mango",
+      "title": "Mango",
+      "description": "🏀 An Android app for dribbble.com",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/mplatvoet/kovenant",
+      "title": "kovenant",
+      "description": "Kovenant. Promises for Kotlin.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/Jawnnypoo/PhysicsLayout",
+      "title": "PhysicsLayout",
+      "description": "Android layout that simulates physics using JBox2D",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/ansman/kotshi",
+      "title": "kotshi",
+      "description": "An annotation processor that generates Moshi adapters from immutable Kotlin data classes.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/afollestad/recyclical",
+      "title": "recyclical",
+      "description": "🚀 An easy-to-use, extensible Kotlin DSL for setting up and manipulating RecyclerViews.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/jarroyoesp/KotlinMultiPlatform",
+      "title": "KotlinMultiPlatform",
+      "description": "Kotlin MultiPlatform App (Android, iOS, JVM & JS). MVVM/MVP - Kotlin MultiPlatform",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/razir/ProgressButton",
+      "title": "ProgressButton",
+      "description": "Android Progress Button",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/dkrivoruchko/ScreenStream",
+      "title": "ScreenStream",
+      "description": "Screen Stream over HTTP mobile app",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/Karumi/Shot",
+      "title": "Shot",
+      "description": "Gradle plugin developed to facilitate screenshot testing for Android",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/intellij-solidity/intellij-solidity",
+      "title": "intellij-solidity",
+      "description": "Solidity plugin for IntelliJ",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/aykuttasil/CallRecorder",
+      "title": "CallRecorder",
+      "description": "Android Phone Call Recorder",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/JeroenMols/ModularizationExample",
+      "title": "ModularizationExample",
+      "description": "Easy to understand real-life example of a modularized Android app",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/enricocid/Music-Player-GO",
+      "title": "Music-Player-GO",
+      "description": "🎶🎼 Very slim music player 👨‍🎤 100% made in Italy 🍕🌳🌞🍝🌄",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/JakeWharton/retrofit2-kotlinx-serialization-converter",
+      "title": "retrofit2-kotlinx-serialization-converter",
+      "description": "A Retrofit 2 Converter.Factory for Kotlin serialization.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/niranjan94/show-java",
+      "title": "show-java",
+      "description": "An APK (android application), JAR & Dex decompiler for android.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/chiuki/espresso-samples",
+      "title": "espresso-samples",
+      "description": "A collection of samples demonstrating different Espresso techniques.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/fwcd/kotlin-language-server",
+      "title": "kotlin-language-server",
+      "description": "Intelligent Kotlin support for any editor/IDE using the Language Server Protocol",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/minecraft-dev/MinecraftDev",
+      "title": "MinecraftDev",
+      "description": "Plugin for IntelliJ IDEA that gives special support for Minecraft modding projects.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/ffgiraldez/reactive-mvvm-android",
+      "title": "reactive-mvvm-android",
+      "description": "My way to MVVM using KotlinX Coroutines and Android data-binding",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/SimpleMobileTools/Simple-File-Manager",
+      "title": "Simple-File-Manager",
+      "description": "Easy app for managing your files without ads, respecting your privacy & security",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/JakeWharton/picnic",
+      "title": "picnic",
+      "description": "A Kotlin DSL and Java/Kotlin builder API for constructing HTML-like tables which can be rendered to text",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/DanielMartinus/Stepper-Touch",
+      "title": "Stepper-Touch",
+      "description": "Stepper Touch for Android based on MaterialUp submission",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/patloew/countries",
+      "title": "countries",
+      "description": "An example Android app using Retrofit, Realm, Parceler, Dagger and the MVVM pattern with the data binding lib.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/MindorksOpenSource/android-kotlin-mvp-architecture",
+      "title": "android-kotlin-mvp-architecture",
+      "description": "This repository contains a detailed sample app that implements MVP architecture in Kotlin using Dagger2, Room, RxJava2, FastAndroidNetworking and PlaceholderView",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/chibatching/Kotpref",
+      "title": "Kotpref",
+      "description": "Kotpref - Android SharedPreferences delegation library for Kotlin",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/arunkumar9t2/scabbard",
+      "title": "scabbard",
+      "description": "🗡 A tool to visualize Dagger 2 dependency graphs",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/AdevintaSpain/Leku",
+      "title": "Leku",
+      "description": ":earth_africa: Map location picker component for Android. Based on Google Maps. An alternative to Google Place Picker.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/Spikeysanju/ZoomRecylerLayout",
+      "title": "ZoomRecylerLayout",
+      "description": "🎢 Zoom Recycler Layout Manager For Android Kotlin",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/saket/FluidKeyboardResize",
+      "title": "FluidKeyboardResize",
+      "description": "Smoothly reacting to keyboard visibility changes in Android",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/ReactiveCircus/FlowBinding",
+      "title": "FlowBinding",
+      "description": "Kotlin Coroutines Flow binding APIs for Android's platform and unbundled UI widgets, inspired by RxBinding.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/rjaros/kvision",
+      "title": "kvision",
+      "description": "Object oriented web framework for Kotlin/JS",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/mozilla-lockwise/lockwise-android",
+      "title": "lockwise-android",
+      "description": "Firefox's Lockwise app for Android",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/karntrehan/Posts",
+      "title": "Posts",
+      "description": "A sample Android app using Kotlin, Dagger 2, RxJava, RxAndroid, Retrofit and Android Architecture Components with a modular setup & effective networking",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/ZieIony/GuideToCustomViews",
+      "title": "GuideToCustomViews",
+      "description": "The ultimate guide to Android custom views",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/Dhaval2404/ImagePicker",
+      "title": "ImagePicker",
+      "description": "📸Image Picker for Android, Pick an image from Gallery or Capture a new image with Camera",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/Jire/Charlatano",
+      "title": "Charlatano",
+      "description": "Proves JVM cheats are viable on native games, and demonstrates the longevity against anti-cheat signature detection systems",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/gotson/komga",
+      "title": "komga",
+      "description": "Media server for comics/mangas/BDs with API and OPDS support",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/PortSwigger/turbo-intruder",
+      "title": "turbo-intruder",
+      "description": "Turbo Intruder is a Burp Suite extension for sending large numbers of HTTP requests and analyzing the results.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/reddit/IndicatorFastScroll",
+      "title": "IndicatorFastScroll",
+      "description": "Android library providing a simple UI control for scrolling through RecyclerViews",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/androidstarters/kotlin-android-starter",
+      "title": "kotlin-android-starter",
+      "description": "[Kotlin Android] Kotlin Android starter based MVP/Dagger2/RxJava2/Robolectric/Espresso/Mockito. It provides a generator to fast create a Kotlin Android project.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/idisfkj/android-startup",
+      "title": "android-startup",
+      "description": "🔥The Android Startup library provides a straightforward, performant way to initialize components at the application startup. .",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/feelschaotic/SDKHotFix",
+      "title": "SDKHotFix",
+      "description": "A SDK hotfix library with stable verified in tens of millions of users can be accessed in only five minutes.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/skydoves/ElasticViews",
+      "title": "ElasticViews",
+      "description": ":sparkles: An easy way to implement an elastic touch effect for Android.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/afollestad/vvalidator",
+      "title": "vvalidator",
+      "description": "🤖 An easy to use form validator for Kotlin & Android.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/xiprox/ErrorView",
+      "title": "ErrorView",
+      "description": "A custom view that displays an image, a title, and a subtitle. Use it for errors, empty states, or just messages with images!",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/Kotlin/kotlin-frontend-plugin",
+      "title": "kotlin-frontend-plugin",
+      "description": "Gradle Kotlin (http://kotlinlang.org) plugin for frontend development",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/the-super-toys/glimpse-android",
+      "title": "glimpse-android",
+      "description": "A content-aware cropping library for Android",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/quiph/RecyclerView-FastScroller",
+      "title": "RecyclerView-FastScroller",
+      "description": "A fully customizable Fast Scroller for the RecyclerView in Android, written in Kotlin",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/square/anvil",
+      "title": "anvil",
+      "description": "A Kotlin compiler plugin to make dependency injection with Dagger 2 easier.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/Kotlin/workshop",
+      "title": "workshop",
+      "description": "JetBrains Kotlin Workshop Material",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/Kotlin/kotlinconf-spinner",
+      "title": "kotlinconf-spinner",
+      "description": "null",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/SimpleMobileTools/Simple-Music-Player",
+      "title": "Simple-Music-Player",
+      "description": "A clean music player with a customizable widget, stylish interface and no ads.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/andremion/Theatre",
+      "title": "Theatre",
+      "description": "Pet project using Clean Architecture + MVVM + Reactive Extensions + Android Architecture Components. The data are fetched from LondonTheatreDirect API. 🎭",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/jabbink/PokemonGoBot",
+      "title": "PokemonGoBot",
+      "description": "DEFUNCT - Bot that plays Pokemon Go",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/dkandalov/kotlin-99",
+      "title": "kotlin-99",
+      "description": "Ninety-Nine Problems in Kotlin",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/guolindev/Glance",
+      "title": "Glance",
+      "description": "A simple and handy Android database debugging library.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/guardian/toolargetool",
+      "title": "toolargetool",
+      "description": "A tool to help you debug TransactionTooLargeExceptions on Android 7",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/zawadz88/MaterialPopupMenu",
+      "title": "MaterialPopupMenu",
+      "description": "Shows Material popup menus grouped in sections & more",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/armcha/ElasticView",
+      "title": "ElasticView",
+      "description": "Elastic view is a regular CardView, which can flex from user touches",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/korlibs/klock",
+      "title": "klock",
+      "description": "Multiplatform Date and time library for Kotlin",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/seljabali/java-time-fun",
+      "title": "Java Time Fun",
+      "description": "Java.time Kotlin extension functions library.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/mannodermaus/android-junit5",
+      "title": "android-junit5",
+      "description": "Testing with JUnit 5 for Android.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/JesusM/FingerprintManager",
+      "title": "FingerprintManager",
+      "description": "A small library to handle Android fingerprint API.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/bmaslakov/kotlin-algorithm-club",
+      "title": "kotlin-algorithm-club",
+      "description": "Algorithms and data structures in Kotlin.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/daniel-rusu/pods4k",
+      "title": "pods4k",
+      "description": "Performance-oriented data structures for Kotlin, including Immutable Arrays",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/gojuno/composer",
+      "title": "composer",
+      "description": "Reactive Android Instrumentation Test Runner. Archived. Marathon is recommended as an alternative (https://github.com/Malinskiy/marathon).",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/iammert/AnimatedTabLayout",
+      "title": "AnimatedTabLayout",
+      "description": "Yet another android tab layout",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/JetBrains/intellij-platform-plugin-template",
+      "title": "intellij-platform-plugin-template",
+      "description": "Template repository for creating plugins for IntelliJ Platform",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/opentrace-community/opentrace-android",
+      "title": "opentrace-android",
+      "description": "OpenTrace Android app. Reference implementation of the BlueTrace protocol.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/bassaer/ChatMessageView",
+      "title": "ChatMessageView",
+      "description": "Chat UI library for Android :zap:",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/kwebio/kweb-core",
+      "title": "kweb-core",
+      "description": "A lightweight Kotlin web framework for backend developers 🦆",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/romainguy/kotlin-math",
+      "title": "kotlin-math",
+      "description": "Set of Kotlin APIs to make graphics math easier to write",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/eriksencosta/math-common",
+      "title": "Math Common",
+      "description": "Math conventions to reduce boilerplate code on rounding and exponentiation",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/eriksencosta/math-percentage",
+      "title": "Percentage",
+      "description": "Percentage calculations made easy",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/eriksencosta/money",
+      "title": "Money",
+      "description": "Monetary calculations and allocations made easy 💵",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/sdeleuze/spring-boot-kotlin-demo",
+      "title": "spring-boot-kotlin-demo",
+      "description": "Spring Boot Kotlin project with a REST Webservice and Spring Data",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/bernaferrari/ChangeDetection",
+      "title": "ChangeDetection",
+      "description": "Automatically track websites changes on Android in background.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/JakeWharton/dependency-tree-diff",
+      "title": "dependency-tree-diff",
+      "description": "An intelligent diff tool for the output of Gradle's dependencies task",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/mpv-android/mpv-android",
+      "title": "mpv-android",
+      "description": "#mpv-android @ freenode",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/bernaferrari/EmojiSlider",
+      "title": "EmojiSlider",
+      "description": "🤯 A slider widget rich in emoji and highly customisable.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/ligi/SurvivalManual",
+      "title": "SurvivalManual",
+      "description": "Libre Survival Manual for Android with offline in mind",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/SmartToolFactory/Animation-Tutorials",
+      "title": "Animation-Tutorials",
+      "description": "🍭🚀💗  Tutorials about animations with Animators, Animated Vector Drawables, Shared Transitions, and more",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/google-developer-training/android-kotlin-fundamentals-starter-apps",
+      "title": "android-kotlin-fundamentals-starter-apps",
+      "description": "android-kotlin-fundamentals-starter-apps",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/freeletics/RxRedux",
+      "title": "RxRedux",
+      "description": "Redux implementation based on RxJava",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/grpc/grpc-kotlin",
+      "title": "grpc-kotlin",
+      "description": "null",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/nirukk52/SnapTabLayout",
+      "title": "SnapTabLayout",
+      "description": "Android library for fluid tablayout animation as seen on Snapchat.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/moallemi/gradle-advanced-build-version",
+      "title": "gradle-advanced-build-version",
+      "description": "A plugin to generate the Android version code and version name automatically based on git commits number, date and ...",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/Hexworks/zircon",
+      "title": "zircon",
+      "description": "Zircon is an extensible and user-friendly, multiplatform tile engine.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/googlecodelabs/android-navigation",
+      "title": "android-navigation",
+      "description": "null",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/TonnyL/Light",
+      "title": "Light",
+      "description": "🍭 The usual Snackbar, but elegant",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/skydoves/Needs",
+      "title": "Needs",
+      "description": ":closed_umbrella: An easy way to implement modern permission instructions popup.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp",
+      "title": "openfoodfacts-androidapp",
+      "description": "Native version of Open Food Facts on Android - Coders & Decoders welcome 🤳🥫",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/florent37/KotlinPleaseAnimate",
+      "title": "KotlinPleaseAnimate",
+      "description": "Kotlin, please, can you animate my views ?",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/MindorksOpenSource/Kotlin-Coroutines-Android-Examples",
+      "title": "Kotlin-Coroutines-Android-Examples",
+      "description": "Learn Kotlin Coroutines for Android by Examples. Learn how to use Kotlin Coroutines for Android App Development.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/damianpetla/kotlin-dagger-example",
+      "title": "kotlin-dagger-example",
+      "description": "Example of Android project showing integration with Kotlin and Dagger 2",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/bernaferrari/GradleKotlinConverter",
+      "title": "GradleKotlinConverter",
+      "description": "Convert from Groovy to Kotlin DSL for Gradle, focused on Android.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/alpas/alpas",
+      "title": "Alpas",
+      "description": "The rapid and delightful Kotlin web framework",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/valiktor/valiktor",
+      "title": "Valiktor",
+      "description": "Valiktor is a type-safe, powerful and extensible fluent DSL to validate objects in Kotlin.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/konform-kt/konform",
+      "title": "Konform",
+      "description": "Konform is a type-safe, multiplatform kotlin object validator with fluent dsl.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/MarcinMoskala/ActivityStarter",
+      "title": "ActivityStarter",
+      "description": "Android Library that provide simpler way to start the Activities with multiple arguments.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/square/sqldelight",
+      "title": "SQLDelight",
+      "description": "Generates Java models from CREATE TABLE statements.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/Kotlin/ktor",
+      "title": "ktor",
+      "description": "Kotlin Web backend framework.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/BennyWang/KBinding",
+      "title": "KBinding",
+      "description": "Android MVVM framework write in kotlin.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/MarcinMoskala/KotlinPreferencesObject",
+      "title": "KotlinPreferencesObject",
+      "description": "Kotlin Android Library, that makes preference usage in Kotlin simple and fun, using single object with fields binded to SharedPreferences.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/mcxiaoke/kotlin-koi",
+      "title": "Koi",
+      "description": "A lightweight kotlin library for Android, including many useful extensions, async functions and quick adapter.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/hhariri/wasabi",
+      "title": "Wasabi",
+      "description": "An HTTP Framework",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/TinyMission/kara",
+      "title": "Kara Web Framework",
+      "description": "Kara is a web framework for the JVM written in Kotlin.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/PicsArt/stateful",
+      "title": "Stateful",
+      "description": "Stateful helps you delete all the boilerplate code for saving instance state and lets you forget about saving and restoring your fragment's/activity's state.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/andrewoma/kwery",
+      "title": "Kwery",
+      "description": "Kwery is an SQL library for Kotlin.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/lightningkite/kotlin-core",
+      "title": "kotlin-core",
+      "description": null,
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/cheptsov/kotlin-nosql",
+      "title": "Kotlin NoSQL",
+      "description": "Kotlin NoSQL is a reactive and type-safe DSL for working with NoSQL databases.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/cbeust/kobalt",
+      "title": "Kobalt",
+      "description": "Kobalt is a modern and versatile build system.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/SalomonBrys/Kodein",
+      "title": "Kodein",
+      "description": "Kodein: Kotlin Dependency Injection",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/activedecay/kbuilders",
+      "title": "KBuilders",
+      "description": "KBuilders turns your Java builders into beautiful Type-Safe Builders.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "http://spekframework.org/",
+      "title": "Spek",
+      "description": "A Specification Framework for Kotlin",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/kohesive/klutter",
+      "title": "Klutter",
+      "description": "Library of many small useful things",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/kohesive/kovert",
+      "title": "Kovert",
+      "description": "an invisible, super easy and powerful REST and Web framework overt Vert.x or Undertow",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/kohesive/injekt",
+      "title": "Injekt",
+      "description": "native Kotlin dependency injection (object registry style)",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/kohesive/solr-undertow",
+      "title": "Solr-Undertow",
+      "description": "standalone high perforamnce, simple Solr server. Embeddeable as a library.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/gradle/kotlin-dsl",
+      "title": "Gradle Kotlin DSL",
+      "description": "Kotlin language support for Gradle build scripts.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/nekocode/kotgo",
+      "title": "Kotgo",
+      "description": "An android development framework on kotlin using MVP architecture.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/inaka/KillerTask",
+      "title": "KillerTask",
+      "description": "Android AsyncTask wrapper library, written in Kotlin",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/brianegan/bansa",
+      "title": "Bansa",
+      "description": "A state container for Kotlin & Java, inspired by Elm & Redux",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/MicroUtils/kotlin.logging",
+      "title": "kotlin.logging",
+      "description": "A logging framework for Kotlin",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/edsilfer/android-user-onboarding",
+      "title": "Kotlin User Onboarding",
+      "description": "A simple and customizable android onboarding library written in Kotlin matching Material Guidelines.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/MarcinMoskala/KotlinDiscreteMathToolkit",
+      "title": "KotlinDiscreteMathToolkit",
+      "description": "Set of extensions for Kotlin that provides Discrete math functionalities.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/rahulchowdhury/Mystique",
+      "title": "Mystique",
+      "description": "A generalized adapter for RecyclerView on Android which makes it easy to add heterogeneous items to a list",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/mvysny/vaadin-on-kotlin",
+      "title": "Vaadin-On-Kotlin",
+      "description": "A simple way to write full-stack component-oriented web apps",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/ufoscout/properlty",
+      "title": "Properlty",
+      "description": "Simple configuration library with placeholders resolution and zero magic!",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/hypeapps/NoiseView",
+      "title": "NoiseView",
+      "description": "Android library written in kotlin that add noise effect to image.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/programmerr47/ganalytics",
+      "title": "GAnalytics",
+      "description": "A tiny api layer for any analytics in application",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/MarcinMoskala/PreferenceHolder",
+      "title": "PreferenceHolder",
+      "description": "Library that is making SharedPreference usage in Kotlin simple and fun.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/iglaweb/Ferris-Wheel",
+      "title": "FerrisWheelView",
+      "description": "Simple android library to present an animated ferris wheel.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/michaelbull/kotlin-result",
+      "title": "kotlin-result",
+      "description": "A Result monad for modelling success or failure operations, inspired by Rust, Elm, Haskell & Scala.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/pm-dev/kotlin-gremlin-ogm",
+      "title": "Kotlin-Gremlin-OGM",
+      "description": "A type-safe object/graph mapping framework for Gremlin enabled graph databases.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/frankfarrell/dynamodb-utils",
+      "title": "DynamoDB-utils",
+      "description": "Collection of AWS DynamoDB utility functions. Query DSL, table cloner and batch writer.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/adrielcafe/KBus",
+      "title": "KBus",
+      "description": "Dead simple EventBus for Android made with Kotlin and RxJava 2.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/adrielcafe/AndroidCoroutineScopes",
+      "title": "AndroidCoroutineScopes",
+      "description": "This lib implements the most common CoroutineScopes used in Android apps.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/bakhtiyork/gradients",
+      "title": "Gradients",
+      "description": "A curated collection of splendid gradients",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/SeunAdelekan/Kanary",
+      "title": "Kanary",
+      "description": "A minimalist web framework for building REST APIs in Kotlin/Java.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/netguru/Kissme",
+      "title": "Kissme",
+      "description": "Kissme is a multiplatform library providing encrypted key-value storage.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://arrow-kt.io/",
+      "title": "Arrow",
+      "description": "Arrow is a functional companion to Kotlin's Standard Library around many of Kotlin's pain points.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/sksamuel/hoplite",
+      "title": "Hoplite",
+      "description": "Purely functional config library",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/tschuchortdev/kotlin-compile-testing",
+      "title": "kotlin-compile-testing",
+      "description": "A library for testing Kotlin and Java annotation processors, compiler plugins and code generation",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/GitLiveApp/firebase-kotlin-sdk",
+      "title": "firebase-kotlin-sdk",
+      "description": "A Kotlin-first Multiplatform SDK for Firebase supporting iOS, Android & Web.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/AurityLab/graphql-kotlin-toolkit",
+      "title": "graphql-kotlin-toolkit",
+      "description": "GraphQL toolkit for Kotlin (includes code generator and spring boot integration)",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://insanusmokrassar.github.io/TelegramBotAPI/",
+      "title": "TelegramBotAPI",
+      "description": "Cross-platform (JVM and JS) library which wrap [Telegram Bots API](https://core.telegram.org/bots/api) using strong-typed, object-oriented and useful way",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/corbella83/PopKorn",
+      "title": "PopKorn",
+      "description": "Multiplatform Dependency Injection (JVM, ANDROID, IOS, JS) - Forget about modules and components. DI can be simple.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/doyaaaaaken/kotlin-csv",
+      "title": "kotlin-csv",
+      "description": "Pure Kotlin CSV Reader/Writer",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/openrndr/",
+      "title": "OPENRNDR",
+      "description": "A Kotlin/JVM library for creative coding, real-time and interactive graphics.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/z4kn4fein/kotlin-semver",
+      "title": "kotlin-semver",
+      "description": "Semantic Versioning library for Kotlin Multiplatform.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/canopas/Intro-showcase-view",
+      "title": "IntroShowCaseView",
+      "description": "IntroShowCaseView is an android library to highlight different features of the app built using Jetpack Compose.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/krud-dev/shapeshift",
+      "title": "ShapeShift",
+      "description": "A Kotlin library for intelligent object mapping and conversion between objects.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/kryptokrona/kryptokrona-kotlin-sdk",
+      "title": "Kryptokrona Kotlin SDK",
+      "description": "Kryptokrona SDK in Kotlin for building decentralized private communication and payment systems.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/corbella83/kotliny.network",
+      "title": "kotliny.network",
+      "description": "Simple, powerful and lightweight Kotlin Multiplatform Network Client (JVM, ANDROID, IOS)",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/Ashampoo/kim",
+      "title": "Kim - Kotlin Image Metadata",
+      "description": "Kotlin Multiplatform library for reading and writing image metadata (JVM, ANDROID, IOS)",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/Ashampoo/xmpcore",
+      "title": "XMP Core for Kotlin Multiplatform",
+      "description": "Kotlin Multiplatform library for reading and writing XMP files (JVM, ANDROID, IOS)",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/mahozad/wavy-slider",
+      "title": "Wavy Slider",
+      "description": "A demo (and usable) multiplatform Compose library that shows how to make a UI component targeting multiple platforms",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/nsk90/kstatemachine",
+      "title": "KStateMachine",
+      "description": "KStateMachine is a Kotlin DSL library for creating state machines and statecharts.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/canopas/rich-editor-compose",
+      "title": "RichEditor",
+      "description": null,
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/canopas/compose-animated-navigationbar",
+      "title": "AnimatedBottomBarCompose",
+      "description": null,
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/Ahoo-Wang/CoSec",
+      "title": "CoSec",
+      "description": "RBAC-based And Policy-based Multi-Tenant Security Framework.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/Ahoo-Wang/CoSky",
+      "title": "CoSky",
+      "description": "High-performance, low-cost microservice governance platform. Service Discovery and Configuration Service.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/Ahoo-Wang/Wow",
+      "title": "Wow",
+      "description": "A Modern Reactive CQRS Architecture Microservice development framework based on DDD and EventSourcing.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/cdimascio/dotenv-kotlin",
+      "title": "dotenv-kotlin",
+      "description": "Dotenv is a module that loads environment variables from a .env file",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/Kotlin/kotlindl",
+      "title": "kotlindl",
+      "description": "High-level Deep Learning Framework written in Kotlin and inspired by Keras",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/Kotlin/multik",
+      "title": "multik",
+      "description": "Multidimensional array library for Kotlin",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/composablehorizons/compose-menu/",
+      "title": "compose-menu",
+      "description": "An unstyled Menu (Dropdown) Compose Multiplatform component with keyboard navigation and animation support.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/trueangle/kotlin-native-aws-lambda-runtime",
+      "title": "Kotlin/Native Runtime for AWS Lambda",
+      "description": "A runtime for executing AWS Lambda functions written in Kotlin/Native, designed to reduce cold start issues common with the JVM platform.",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/alexmaryin/docxktm",
+      "title": "DocxKtm",
+      "description": "Create from scratch, open and edit DOCX files, populate templates with intuitive DSL or MVEL evaluations like in docxtpl for python",
+      "category": "Libraries",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/duckduckgo/Android",
+      "title": "DuckDuckGo",
+      "description": "DuckDuckGo Android App",
+      "category": "Applications",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/wordpress-mobile/WordPress-Android",
+      "title": "WordPress-Android",
+      "description": "WordPress for Android",
+      "category": "Applications",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/mozilla-mobile/fenix",
+      "title": "fenix",
+      "description": "Firefox for Android",
+      "category": "Applications",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/google/iosched",
+      "title": "iosched",
+      "description": "The Google I/O 2019 Android App",
+      "category": "Applications",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/tachiyomiorg/tachiyomi",
+      "title": "tachiyomi",
+      "description": "Free and open source manga reader for Android.",
+      "category": "Applications",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/sourcerer-io/sourcerer-app",
+      "title": "sourcerer-app",
+      "description": "🦄 Sourcerer app makes a visual profile from your GitHub and git repositories.",
+      "category": "Applications",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/iSoron/uhabits",
+      "title": "uhabits",
+      "description": "Loop Habit Tracker, a mobile app for creating and maintaining long-term positive habits",
+      "category": "Applications",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/JetBrains/kotlinconf-app",
+      "title": "kotlinconf-app",
+      "description": "KotlinConf Schedule Application",
+      "category": "Applications",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/KieronQuinn/TapTap",
+      "title": "TapTap",
+      "description": "Port of the double tap on back of device feature from Android 11 to any Android 7.0+ device",
+      "category": "Applications",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/SimpleMobileTools/Simple-Gallery",
+      "title": "Simple-Gallery",
+      "description": "Browse your memories without any interruptions with this photo and video gallery",
+      "category": "Applications",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/PatilShreyas/Foodium",
+      "title": "Foodium",
+      "description": "🍲Foodium is a sample food blog Android application 📱 built to demonstrate the use of Modern Android development tools .",
+      "category": "Applications",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/Kunzisoft/KeePassDX",
+      "title": "KeePassDX",
+      "description": ":iphone: KeePass implementation for android with material design and deluxe features",
+      "category": "Applications",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/h4h13/RetroMusicPlayer",
+      "title": "RetroMusicPlayer",
+      "description": "Best material design music player for Android",
+      "category": "Applications",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/videolan/vlc-android",
+      "title": "vlc-android",
+      "description": "VLC for Android, Android TV and ChromeOS",
+      "category": "Applications",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/nhsx/COVID-19-app-Android-BETA",
+      "title": "COVID-19-app-Android-BETA",
+      "description": "Source code of the Beta of the NHS COVID-19 Android app",
+      "category": "Applications",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/orgzly/orgzly-android",
+      "title": "orgzly-android",
+      "description": "Outliner for taking notes and managing to-do lists",
+      "category": "Applications",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/android-password-store/Android-Password-Store",
+      "title": "Android-Password-Store",
+      "description": "Android application compatible with ZX2C4's Pass command line application",
+      "category": "Applications",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/VREMSoftwareDevelopment/WiFiAnalyzer",
+      "title": "WiFiAnalyzer",
+      "description": "Android application to analyze WiFi signals.",
+      "category": "Applications",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/allgood/OpenNoteScanner",
+      "title": "OpenNoteScanner",
+      "description": "Android application for scanning and manipulating handwritten notes and documents.",
+      "category": "Applications",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/immuni-app/immuni-app-android",
+      "title": "immuni-app-android",
+      "description": "Official repository for the Android version of the immuni application",
+      "category": "Applications",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/skydoves/MarvelHeroes",
+      "title": "MarvelHeroes",
+      "description": "❤️ A sample Marvel heroes application based on MVVM (ViewModel, Coroutines, LiveData, Room, Repository, Koin)  architecture.",
+      "category": "Applications",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/ligi/PassAndroid",
+      "title": "PassAndroid",
+      "description": "Android App to view passes",
+      "category": "Applications",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/ProtonMail/proton-mail-android",
+      "title": "proton-mail-android",
+      "description": "ProtonMail Android app",
+      "category": "Applications",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/DroidKaigi/conference-app-2020",
+      "title": "conference-app-2020",
+      "description": "The Official Conference App for DroidKaigi 2020 Tokyo",
+      "category": "Applications",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/DroidKaigi/conference-app-2019",
+      "title": "conference-app-2019",
+      "description": "The Official Conference App for DroidKaigi 2019 Tokyo",
+      "category": "Applications",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/DroidKaigi/conference-app-2018",
+      "title": "conference-app-2018",
+      "description": "The Official Conference App for DroidKaigi 2018 Tokyo",
+      "category": "Applications",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/HabitRPG/habitica-android",
+      "title": "habitica-android",
+      "description": "Native Android app for Habitica",
+      "category": "Applications",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/dlew/android-architecture-counter-sample",
+      "title": "android-architecture-counter-sample",
+      "description": "Sample app using Android architecture components",
+      "category": "Applications",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/MindorksOpenSource/ridesharing-uber-lyft-app",
+      "title": "ridesharing-uber-lyft-app",
+      "description": "Ride-Sharing Uber Lyft Android App - Learn to build a ride-sharing Android Taxi Clone App like Uber, Lyft - Open-Source Project By MindOrks",
+      "category": "Applications",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/ZacSweers/CatchUp",
+      "title": "CatchUp",
+      "description": "An app for catching up on things.",
+      "category": "Applications",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/chrisbanes/tivi",
+      "title": "tivi",
+      "description": "Tivi is a work-in-progress TV show tracking Android app, which connects to Trakt.tv. It is still in its early stages of development and currently only contains two pieces of UI. It is under heavy development.",
+      "category": "Applications",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/antoniolg/Kotlin-for-Android-Developers",
+      "title": "Kotlin-for-Android-Developers",
+      "description": "Companion App for the book",
+      "category": "Applications",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/skydoves/Pokedex",
+      "title": "Pokedex",
+      "description": "🗡️ Android Pokedex using Hilt, Motion, Coroutines, Flow, Jetpack (Room, ViewModel, LiveData) based on MVVM architecture.",
+      "category": "Applications",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/fossasia/susi_android",
+      "title": "susi_android",
+      "description": "SUSI.AI Android App https://play.google.com/apps/testing/ai.susi",
+      "category": "Applications",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/JakeWharton/SdkSearch",
+      "title": "SdkSearch",
+      "description": "An Android app and Chrome extension for searching the Android SDK documentation.",
+      "category": "Applications",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/mrsegev/MovieNight",
+      "title": "MovieNight",
+      "description": "MovieNight is a sample Android application that uses the clean architecture approach and is written in Kotlin.",
+      "category": "Samples",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/amanjeetsingh150/kotlin-android-examples",
+      "title": "kotlin-android-examples",
+      "description": ":muscle: [Examples] Isolated applications purely on Kotlin, for all android devs out there",
+      "category": "Samples",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/igorwojda/android-showcase",
+      "title": "android-showcase",
+      "description": "💎 Android application following best practices:  Kotlin, coroutines, Clean Architecture, feature modules, tests, MVVM, static analysis...",
+      "category": "Samples",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/google-developer-training/android-kotlin-fundamentals-apps",
+      "title": "android-kotlin-fundamentals-apps",
+      "description": "android-kotlin-fundamentals-apps",
+      "category": "Samples",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/mrcsxsiq/Kotlin-Pokedex",
+      "title": "Kotlin-Pokedex",
+      "description": ":cyclone: A Pokedex app using ViewModel, LiveData, Room and Navigation",
+      "category": "Samples",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/Kotlin/kotlin-fullstack-sample",
+      "title": "kotlin-fullstack-sample",
+      "description": "Kotlin Full-stack Application Example",
+      "category": "Samples",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/vinaygaba/Learn-Jetpack-Compose-By-Example",
+      "title": "Learn-Jetpack-Compose-By-Example",
+      "description": "🚀 This project contains various examples that show how you would do things the \"Jetpack Compose\" way",
+      "category": "Samples",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/Kotlin/kotlin-examples",
+      "title": "kotlin-examples",
+      "description": "Various examples for Kotlin",
+      "category": "Samples",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/android/architecture-samples",
+      "title": "architecture-samples",
+      "description": "A collection of samples to discuss and showcase different architectural tools and patterns for Android apps.",
+      "category": "Samples",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/android/architecture-components-samples",
+      "title": "architecture-components-samples",
+      "description": "Samples for Android Architecture Components.",
+      "category": "Samples",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/TobseF/Candy-Crush-Clone",
+      "title": "Candy-Crush-Clone",
+      "description": "🎮🍭 A Kotlin Multiplatform match 3 sample game build with [KorGE](https://github.com/korlibs/korge)",
+      "category": "Samples",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/android/compose-samples",
+      "title": "compose-samples",
+      "description": "Official Jetpack Compose samples.",
+      "category": "Samples",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/chrisbanes/cheesesquare",
+      "title": "cheesesquare",
+      "description": "Demos the new Android Design library.",
+      "category": "Samples",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/android/sunflower",
+      "title": "sunflower",
+      "description": "A gardening app illustrating Android development best practices with Android Jetpack.",
+      "category": "Samples",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/android/uamp",
+      "title": "uamp",
+      "description": "A sample audio app for Android",
+      "category": "Samples",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/android/camera-samples",
+      "title": "camera-samples",
+      "description": "Multiple samples showing the best practices in camera APIs on Android.",
+      "category": "Samples",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/corona-warn-app/cwa-app-android",
+      "title": "cwa-app-android",
+      "description": "Native Android app using the Apple/Google exposure notification API.",
+      "category": "Samples",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/LukasLechnerDev/Kotlin-Coroutine-Use-Cases-on-Android",
+      "title": "Kotlin-Coroutine-Use-Cases-on-Android",
+      "description": "🎓 Learning Kotlin Coroutines for Android by example.",
+      "category": "Samples",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/burhanrashid52/YoutubeUX",
+      "title": "YoutubeUX",
+      "description": "With MVVM Architecture pattern using Android Architecture Components This is a sample app demonstrating Youtube player animation using constraint layout",
+      "category": "Samples",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/android10/Android-CleanArchitecture-Kotlin",
+      "title": "Android-CleanArchitecture-Kotlin",
+      "description": "This is a movies sample app in Kotlin.",
+      "category": "Samples",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/material-components/material-components-android-examples",
+      "title": "material-components-android-examples",
+      "description": "Companion example apps and code for MDC-Android.",
+      "category": "Samples",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/antoniolg/Bandhook-Kotlin",
+      "title": "Bandhook-Kotlin",
+      "description": "A showcase music app for Android entirely written using Kotlin language",
+      "category": "Samples",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/pintowar/sudoscan",
+      "title": "Sudoscan",
+      "description": "Scans and solves Sudoku Puzzles from images using AI",
+      "category": "Samples",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/alpas/fireplace",
+      "title": "Alpas Fireplace",
+      "description": null,
+      "category": "Samples",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/JetBrains/kotlin-examples",
+      "title": "kotlin-examples",
+      "description": null,
+      "category": "Samples",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/inorichi/tachiyomi",
+      "title": "Tachiyomi",
+      "description": null,
+      "category": "Samples",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/dodyg/AndroidRivers",
+      "title": "AndroidRivers",
+      "description": null,
+      "category": "Samples",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/PaulWoitaschek/MaterialAudiobookPlayer",
+      "title": "MaterialAudiobookPlayer",
+      "description": null,
+      "category": "Samples",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/dodyg/Kotlin101",
+      "title": "Kotlin101",
+      "description": null,
+      "category": "Samples",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/nekocode/kotlin_android_base_framework",
+      "title": "kotlin_android_base_framework",
+      "description": null,
+      "category": "Samples",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/inaka/kotlillon",
+      "title": "kotlillon",
+      "description": null,
+      "category": "Samples",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/MakinGiants/todayhistory",
+      "title": "Today History",
+      "description": null,
+      "category": "Samples",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/adrielcafe/GreenHellCompanionApp",
+      "title": "GreenHellCompanionApp",
+      "description": null,
+      "category": "Samples",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/jmfayard/buildSrcVersions",
+      "title": "Gradle buildSrcVersions",
+      "description": null,
+      "category": "Samples",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/PhilippeBoisney/ArchApp",
+      "title": "ArchApp",
+      "description": "Simple Android app to show how to design a multi-modules MVVM Android app (fully tested)",
+      "category": "Samples",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/Eli-Fox/LEGO-Catalog",
+      "title": "LEGO-Catalog",
+      "description": "A LEGO® Catalog app illustrating current Android Architecture state using Android development best practices.",
+      "category": "Samples",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/AkshayChordiya/News",
+      "title": "News",
+      "description": "A sample News 🗞 app built using Modern Android Development (Architecture Components, Coroutines, Retrofit, Room, Kotlin, Dagger)",
+      "category": "Samples",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/skydoves/DisneyMotions",
+      "title": "DisneyMotions",
+      "description": "🦁 A Disney app using transformation motions based on MVVM (ViewModel, Coroutines, Flow, LiveData, Room, Repository, Koin) architecture.",
+      "category": "Samples",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/nickbutcher/AdaptiveIconPlayground",
+      "title": "AdaptiveIconPlayground",
+      "description": "An Android app for experimenting with Adaptive Icons.",
+      "category": "Samples",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/byoutline/kickmaterial",
+      "title": "kickmaterial",
+      "description": "Crowdfunding app concept for Android. Created to showcase new trends in Android development with strong focus on Material Design.",
+      "category": "Samples",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/nickbutcher/plaid",
+      "title": "plaid",
+      "description": "An Android app which provides design news & inspiration as well as being an example of implementing material design.",
+      "category": "Samples",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/TonnyL/PaperPlane",
+      "title": "PaperPlane",
+      "description": "📚 PaperPlane - An Android reading app, including articles from Zhihu Daily, Guokr Handpick and Douban Moment.",
+      "category": "Samples",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/sanogueralorenzo/Android-Kotlin-Clean-Architecture",
+      "title": "Android-Kotlin-Clean-Architecture",
+      "description": "Android Sample Clean Architecture App written in Kotlin",
+      "category": "Samples",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://dev.to/ashokgelal/let-s-build-a-web-app-from-scratch-to-finish-with-alpas-and-kotlin-29eo",
+      "title": "Alpas Tutorials",
+      "description": null,
+      "category": "Tutorials",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "http://antonioleiva.com/kotlin/",
+      "title": "Kotlin for Android (I~IV)",
+      "description": null,
+      "category": "Tutorials",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "http://www.sitepoint.com/streamline-android-java-code-with-kotlin/",
+      "title": "Streamline Android Java Code with Kotlin",
+      "description": null,
+      "category": "Tutorials",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "http://nordicapis.com/building-apis-on-the-jvm-using-kotlin-and-spark-part-1/",
+      "title": "Building APIs on the JVM Using Kotlin and Spark",
+      "description": null,
+      "category": "Tutorials",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://docs.google.com/document/d/1ReS3ep-hjxWA8kZi0YqDbEhCqTt29hG8P44aA9W0DM8/edit",
+      "title": "Using Project Kotlin for Android",
+      "description": null,
+      "category": "Tutorials",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://medium.com/@juanchosaravia/learn-kotlin-while-developing-an-android-app-introduction-567e21ff9664",
+      "title": "Learn Kotlin while developing an Android App",
+      "description": null,
+      "category": "Tutorials",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "http://mavi.logdown.com/posts/1493627",
+      "title": "Writing Vaadin WebApps In Kotlin (I~V)",
+      "description": null,
+      "category": "Tutorials",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "http://natpryce.com/articles/000815.html",
+      "title": "Early Impressions of Kotlin",
+      "description": null,
+      "category": "Articles",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "http://blog.jetbrains.com/kotlin/2015/06/better-annotation-processing-supporting-stubs-in-kapt/",
+      "title": "Better Annotation Processing: Supporting Stubs in kapt",
+      "description": null,
+      "category": "Articles",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://medium.com/@ademar111190/one-month-with-kotlin-2d3d9bbd7840#.73d5en952",
+      "title": "One month with Kotlin",
+      "description": null,
+      "category": "Articles",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://medium.com/@mplatvoet/kotlin-6a09afc655b9#.ut2k99bvl",
+      "title": "Kotlin my productivity language",
+      "description": null,
+      "category": "Articles",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://medium.com/@octskyward/why-kotlin-is-my-next-programming-language-c25c001e26e3#.sxlaz9821",
+      "title": "Why Kotlin is my next programming language",
+      "description": null,
+      "category": "Articles",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "http://blog.paralleluniverse.co/2015/06/04/quasar-kotlin/",
+      "title": "Quasar and Kotlin – a Powerful Match",
+      "description": null,
+      "category": "Articles",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "http://beust.com/weblog/2015/11/04/the-kobalt-diaries-android/",
+      "title": "The Kobalt diaries: Android",
+      "description": null,
+      "category": "Articles",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "http://beust.com/weblog/2015/10/30/exploring-the-kotlin-standard-library/",
+      "title": "Exploring the Kotlin standard library",
+      "description": null,
+      "category": "Articles",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "http://nilhcem.github.io/swift-is-like-kotlin/",
+      "title": "Swift is like Kotlin",
+      "description": null,
+      "category": "Articles",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://backlog.com/blog/backlog-android-from-java-to-kotlin-with-lots-of-fun/",
+      "title": "Backlog Android: From Java to Kotlin With Lots of Fun",
+      "description": null,
+      "category": "Articles",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://jaxenter.com/type-safe-web-with-kotlin-106187.html",
+      "title": "Type-safe Web with Kotlin",
+      "description": null,
+      "category": "Articles",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://medium.com/car2godevs/kotlin-adt-74472319962a",
+      "title": "Kotlin and Algebraic Data Types",
+      "description": null,
+      "category": "Articles",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://adorahack.com/category/kotlin/zero-to-kotlin-hero",
+      "title": "AdoraHack: Zero to Kotlin Hero",
+      "description": null,
+      "category": "Articles",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://steve-yegge.blogspot.com/2017/05/why-kotlin-is-better-than-whatever-dumb.html?m=1",
+      "title": "Why Kotlin Is Better Than Whatever Dumb Language You're Using",
+      "description": null,
+      "category": "Articles",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://www.youtube.com/kotlin",
+      "title": "Kotlin @ YouTube",
+      "description": null,
+      "category": "Videos",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://alpascasts.com/",
+      "title": "AlpasCasts",
+      "description": null,
+      "category": "Videos",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://realm.io/news/droidcon-michael-pardo-kotlin/",
+      "title": "Kotlin: A New Hope in a Java 6 Wasteland",
+      "description": null,
+      "category": "Videos",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://realm.io/news/oredev-jake-wharton-kotlin-advancing-android-dev/",
+      "title": "Advancing Android Development with Kotlin",
+      "description": null,
+      "category": "Videos",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://www.manning.com/livevideo/kotlin-for-android-and-java-developers",
+      "title": "Kotlin for Android & Java Developers",
+      "description": null,
+      "category": "Videos",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://www.manning.com/livevideo/building-spring-boot-applications-with-the-kotlin-programming-language",
+      "title": "Building Spring Boot Applications with the Kotlin Programming Language",
+      "description": null,
+      "category": "Videos",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://leanpub.com/kotlin-for-android-developers",
+      "title": "Kotlin for Android Developers",
+      "description": "This book is not meant to be a language reference, but a tool for Android developers to learn Kotlin and be able to continue with their own projects by themselves.",
+      "category": "Books",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://www.manning.com/books/kotlin-in-action",
+      "title": "Kotlin in Action (MEAP)",
+      "description": "Kotlin in Action takes experienced Java developers from the language basics all the way through building applications to run on the JVM and Android devices.",
+      "category": "Books",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://www.packtpub.com/application-development/programming-kotlin",
+      "title": "Programming Kotlin",
+      "description": "Programming Kotlin is aimed at Java developers who want to make the transition to Kotlin. It covers the complete Kotlin language from basic sytax through to concurrency and testing.",
+      "category": "Books",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://leanpub.com/modern-web-development-with-kotlin",
+      "title": "Modern Web Development with Kotlin",
+      "description": "Modern Web Development with Kotlin is a book by Denis Kalinin about Web development with Kotlin.",
+      "category": "Books",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "http://www.fundamental-kotlin.com/",
+      "title": "Fundamental Kotlin",
+      "description": "Fundamental Kotlin is a book focused on Kotlin programming language and its comparison to Java.",
+      "category": "Books",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://leanpub.com/effectivekotlin/",
+      "title": "Effective Kotlin",
+      "description": "Effective Kotlin summarizes the best practices and experiences of the Kotlin community, together with a deep explanation of some lesser-known Kotlin functionalities. All of the best practices are presented as simple rules with detailed explanations.",
+      "category": "Books",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://www.packtpub.com/application-development/kotlin-blueprints",
+      "title": "Kotlin Blueprints",
+      "description": "a practical guide to help build industry grade web applications (Spring Boot, JavaScript, Node.js), Android, Desktop application using TornadoFX. It also includes building an application with Kotlin Native. It shows how to leverage features of Kotlin in the respective technologies. This book is for developers who already know Kotlin and want to build something using Kotlin for Web/Android/Desktop/Native",
+      "category": "Books",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://www.manning.com/books/functional-programming-in-kotlin",
+      "title": "Functional Programming in Kotlin",
+      "description": "Master techniques and concepts of functional programming to deliver safer, simpler, and more effective Kotlin code.",
+      "category": "Books",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://www.manning.com/books/kotlin-in-action-second-edition",
+      "title": "Kotlin in Action, Second Edition",
+      "description": "A book about Kotlin with expert guidance and amazing examples from core Kotlin’s developers.",
+      "category": "Books",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://typealias.com/start/",
+      "title": "Kotlin: An Illustrated Guide",
+      "description": "An illustrated guide to learning Kotlin.",
+      "category": "Books",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/SonarSource/sonarlint-intellij",
+      "title": "sonarlint-intellij",
+      "description": "An IDE extension that helps you detect and fix quality issues as you write code.",
+      "category": "Tools",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://www.jetbrains.com/idea/download/",
+      "title": "IntelliJ IDEA 15",
+      "description": "The best Kotlin IDE, support Java, Groovy, Scala and Android development.",
+      "category": "Tools",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/udalov/kotlin-vim",
+      "title": "kotlin-vim",
+      "description": "Kotlin plugin for Vim. Featuring syntax highlighting and basic indentation",
+      "category": "Tools",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/vkostyukov/kotlin-sublime-package",
+      "title": "kotlin-sublime-package",
+      "description": "Sublime Text 2 Package for Kotlin Programming Language",
+      "category": "Tools",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://atom.io/packages/language-kotlin",
+      "title": "language-kotlin",
+      "description": "Kotlin language support in Atom",
+      "category": "Tools",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://marketplace.eclipse.org/content/kotlin-plugin-eclipse",
+      "title": "kotlin-plugin-eclipse",
+      "description": "The Kotlin Plugin for Eclipse helps you write, run, debug and test programs in Kotlin language.",
+      "category": "Tools",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/nekocode/android-parcelable-intellij-plugin-kotlin",
+      "title": "android-parcelable-intellij-plugin-kotlin",
+      "description": "Plugin which generates Android Parcelable boilerplate code in Intellji/Android Studio.",
+      "category": "Tools",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/arturbosch/detekt",
+      "title": "detekt",
+      "description": "Static code analysis for Kotlin.",
+      "category": "Tools",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/mkohm/detekt-hint",
+      "title": "detekt-hint",
+      "description": "Detection of design principle violations as a plugin to detekt.",
+      "category": "Tools",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/Kotlin/kotlin-jupyter",
+      "title": "kotlin-jupyter",
+      "description": "Kotlin kernel for Jupyter/IPython",
+      "category": "Tools",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/anschnapp/mutflow",
+      "title": "mutflow",
+      "description": "Lightweight mutation testing that compiles once and runs directly in your test suite - implemented as a Kotlin K2 compiler plugin.",
+      "category": "Tools",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/igorwojda/kotlin-coding-puzzle",
+      "title": "Kotlin coding puzzles",
+      "description": "Set of programming challenges thats helps to improve whiteboard coding and problem-solving skills.",
+      "category": "Resources",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://kandi.openweaver.com/explore/kotlin",
+      "title": "Explore Kotlin",
+      "description": "A curated list of Kotlin libraries, authors, kits, tutorials & learning resources.",
+      "category": "Resources",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://www.reddit.com/r/Kotlin/",
+      "title": "/r/Kotlin",
+      "description": null,
+      "category": "Resources",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/trending/kotlin?since=monthly",
+      "title": "Kotlin Trending on Github",
+      "description": null,
+      "category": "Resources",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://blog.kotlin-academy.com/",
+      "title": "Kotlin Academy",
+      "description": null,
+      "category": "Resources",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://hackr.io/tutorials/learn-kotlin",
+      "title": "Curated Kotlin Resources",
+      "description": null,
+      "category": "Resources",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://composables.com",
+      "title": "Composables.com",
+      "description": "Components for Compose Multiplatform and Jetpack Compose with images and code samples.",
+      "category": "Resources",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://wangjiegulu.gitbooks.io/kotlin-for-android-developers-zh/content/",
+      "title": "kotlin-for-android-developers-zh",
+      "description": null,
+      "category": "Others",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://www.gitbook.com/book/huanglizhuo/kotlin-in-chinese/details",
+      "title": "Kotlin-in-Chinese",
+      "description": null,
+      "category": "Others",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://github.com/cctanfujun/kotlin-web-site-cn",
+      "title": "Kotlin-Website-CN",
+      "description": null,
+      "category": "Others",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://www.kotlincn.net/",
+      "title": "Kotlin Reference in Chinese",
+      "description": null,
+      "category": "Others",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    },
+    {
+      "url": "https://blog.canopas.com/jetpack-compose-mvvm-state-management-in-a-simple-way-4c632fa6f554",
+      "title": "jetpack compose",
+      "description": "We all want to simplify state management. Be it a life or application or a screen, limiting mutable states that a component can be in, benefits everyone.",
+      "category": "Others",
+      "source": "mcxiaoke/awesome-kotlin",
+      "indexedAt": "2026-07-23T14:53:07.169Z"
+    }
+  ],
+  "categories": [
+    "Website",
+    "Libraries",
+    "Applications",
+    "Samples",
+    "Tutorials",
+    "Articles",
+    "Videos",
+    "Books",
+    "Tools",
+    "Resources",
+    "Others"
+  ],
+  "crawledAt": "2026-07-23T14:53:07.169Z"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "consistent-hashing",
+  "category": "patterns",
+  "label": "Consistent Hashing",
+  "aliases": [],
+  "description": "Hashing technique that minimizes re-mapping when the hash table is resized",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Consistent_hashing",
+    "wikidata": "https://www.wikidata.org/wiki/Q2580198"
+  },
+  "indexedAt": "2026-07-23T14:36:48.706Z"
+}

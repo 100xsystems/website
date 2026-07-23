@@ -1,0 +1,13 @@
+{
+  "id": "sidecar",
+  "category": "patterns",
+  "label": "Sidecar Pattern",
+  "aliases": [],
+  "description": "Deploys auxiliary components alongside a main application in a separate container",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {},
+  "indexedAt": "2026-07-23T14:36:46.233Z"
+}

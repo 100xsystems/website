@@ -1,0 +1,3436 @@
+{
+  "repoId": "shuaibiyy/awesome-terraform",
+  "name": "Curated list of resources on HashiCorp's Terraform and OpenTofu",
+  "description": "Curated list of resources on HashiCorp's Terraform and OpenTofu",
+  "repoUrl": "https://github.com/shuaibiyy/awesome-tf",
+  "stars": 6549,
+  "topics": [
+    "awesome",
+    "awesome-list",
+    "devops",
+    "hashicorp-terraform",
+    "infrastructure-as-code",
+    "opentofu",
+    "terraform",
+    "terraform-modules"
+  ],
+  "links": [
+    {
+      "url": "https://www.hashicorp.com/en/blog/products/terraform",
+      "title": "Hashicorp Terraform Blog",
+      "description": null,
+      "category": "Official Resources",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://developer.hashicorp.com/terraform/intro",
+      "title": "Introduction to Terraform",
+      "description": null,
+      "category": "Official Resources",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://developer.hashicorp.com/terraform/docs",
+      "title": "Terraform Documentation",
+      "description": null,
+      "category": "Official Resources",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://developer.hashicorp.com/terraform/tutorials",
+      "title": "Terraform learn",
+      "description": null,
+      "category": "Official Resources",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://www.weekly.tf/",
+      "title": "weekly.tf - Terraform Weekly Newsletter",
+      "description": "Weekly newsletter covering Terraform news, open-source projects, announcements, and discussions.",
+      "category": "Community",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/antonbabenko/terraform-docs-as-pdf",
+      "title": "Complete Terraform documentation as PDF files (Updated nightly)",
+      "description": null,
+      "category": "Community",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/terraform-aws-modules",
+      "title": "Terraform AWS Modules",
+      "description": null,
+      "category": "Community",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/hashicorp/terraform/issues",
+      "title": "Terraform Bug Tracker",
+      "description": null,
+      "category": "Community",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://vivid-badger-c30.notion.site/Terraform-Cheatsheet-352d7b505fb980618d5de73aa086d1d4",
+      "title": "Terraform Cheatsheet",
+      "description": null,
+      "category": "Community",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/terraform-community-modules",
+      "title": "Terraform Community Modules",
+      "description": null,
+      "category": "Community",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://twitter.com/i/communities/1501688565884928007",
+      "title": "Terraform Twitter Community",
+      "description": null,
+      "category": "Community",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://discuss.hashicorp.com/c/terraform-core/27",
+      "title": "Terraform Discuss",
+      "description": null,
+      "category": "Community",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://registry.terraform.io/",
+      "title": "Terraform Provider/Module Registry",
+      "description": null,
+      "category": "Community",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/dohsimpson/terraform-doc-pdf",
+      "title": "Terraform PDF Doc",
+      "description": null,
+      "category": "Community",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://roadmap.sh/terraform",
+      "title": "Terraform Roadmap",
+      "description": null,
+      "category": "Community",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://atulcodes.hashnode.dev/ultimate-terraform-cheatsheet-devops",
+      "title": "The Ultimate Terraform Cheatsheet for DevOps Engineers",
+      "description": null,
+      "category": "Community",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/antonbabenko/terragrunt-reference-architecture",
+      "title": "Terragrunt Reference Architecture",
+      "description": null,
+      "category": "Community",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/antonbabenko/terraform-skill",
+      "title": "The Claude Agent Skill for Terraform and OpenTofu - testing, modules, CI/CD, and production patterns",
+      "description": "Claude Code skill for Terraform and OpenTofu — testing, module design, CI/CD workflows, and production patterns.",
+      "category": "Community",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/antonbabenko/awesome-terraform-compliance",
+      "title": "awesome-terraform-compliance",
+      "description": "Curated list of tools, frameworks, and resources for Terraform compliance and security.",
+      "category": "Community",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://t.me/terraform_ukraine",
+      "title": "Telegram (Ukrainian speak community)",
+      "description": null,
+      "category": "Community",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://www.amazon.com/Big-Little-Book-Terraform-Omos-ebook/dp/B07PWYPNX8/",
+      "title": "Big Little Book On Terraform",
+      "description": null,
+      "category": "Books",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://www.manning.com/books/bootstrapping-microservices-second-edition",
+      "title": "Bootstrapping Microservices with Docker, Kubernetes, and Terraform, Second Edition",
+      "description": null,
+      "category": "Books",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://link.springer.com/book/10.1007/978-1-4842-7328-9",
+      "title": "Deep-Dive Terraform on Azure",
+      "description": null,
+      "category": "Books",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://www.amazon.com/Getting-Started-Terraform-production-infrastructure/dp/1788623533/",
+      "title": "Getting Started with Terraform, 2nd ed.",
+      "description": null,
+      "category": "Books",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://www.amazon.com/HashiCorp-Infrastructure-Automation-Certification-Guide-ebook/dp/B092KM7LXC/",
+      "title": "HashiCorp Infrastructure Automation Certification Guide",
+      "description": null,
+      "category": "Books",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://product.kyobobook.co.kr/detail/S000202478097",
+      "title": "IaC starting with Terraform (Korean)",
+      "description": null,
+      "category": "Books",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://www.oreilly.com/library/view/infrastructure-as-code/9781491924334/",
+      "title": "Infrastructure as Code",
+      "description": null,
+      "category": "Books",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://www.manning.com/books/infrastructure-as-code-patterns-and-practices",
+      "title": "Patterns and Practices for Infrastructure as Code: With examples in Python and Terraform",
+      "description": null,
+      "category": "Books",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://www.terraform-best-practices.com/",
+      "title": "Terraform Best Practices",
+      "description": "[open-source ebook](https://github.com/antonbabenko/terraform-best-practices)",
+      "category": "Books",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://www.amazon.com/Terraform-Cookbook-Efficiently-Infrastructure-platforms/dp/1800207557",
+      "title": "Terraform Cookbook",
+      "description": null,
+      "category": "Books",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://www.terraformforops.com",
+      "title": "Terraform for Ops e-book",
+      "description": null,
+      "category": "Books",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://www.manning.com/books/terraform-in-action",
+      "title": "Terraform in Action",
+      "description": null,
+      "category": "Books",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://www.manning.com/books/terraform-in-depth",
+      "title": "Terraform in Depth",
+      "description": null,
+      "category": "Books",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://www.terraformupandrunning.com/",
+      "title": "Terraform: Up & Running, 3rd ed.",
+      "description": null,
+      "category": "Books",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://terraformbook.com/",
+      "title": "The Terraform Book",
+      "description": null,
+      "category": "Books",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://www.terraformacademy.app",
+      "title": "Terraform Academy",
+      "description": "Interactive Terraform / IaC learning platform with hands-on labs, certification prep (HashiCorp, AWS, GCP, Azure, Docker, Kubernetes, GitOps), AI coaching, and progress tracking. See also the [SRE Pro Tips blog](https://www.terraformacademy.app/protips/?cat=sre-pro-tips) and the mobile/PWA apps below.",
+      "category": "Learning and Studying",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://compliance.tf/docs/",
+      "title": "compliance.tf docs",
+      "description": "Free Terraform implementations of SOC 2, PCI DSS, HIPAA, NIST 800-53, and 35+ other compliance controls — open reference for writing compliant infrastructure code.",
+      "category": "Learning and Studying",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/terraform-academy/id6745738634",
+      "title": "Terraform Academy — iOS",
+      "description": "Native iOS app for the Terraform Academy interactive learning platform. Hands-on labs, certification prep (HashiCorp, AWS, GCP, Azure, Docker, Kubernetes, GitOps), AI coaching, and progress sync across devices.",
+      "category": "Apps",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.terraformacade1.app",
+      "title": "Terraform Academy — Android",
+      "description": "Native Android app for the Terraform Academy learning platform with the same labs, cert prep, and AI coaching as the iOS and web versions.",
+      "category": "Apps",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://www.gruntwork.io/blog/a-comprehensive-guide-to-terraform",
+      "title": "A Comprehensive Guide to Terraform",
+      "description": "Series of blog posts from the author of \"Terraform: Up & Running\" that guide the reader from beginning with Terraform to using it in the real world.",
+      "category": "Beginner Guides",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://dev.to/koenighotze/using-terraform-for-cloud-deployments---part-1",
+      "title": "Using Terraform for Cloud Deployments - Part 1",
+      "description": "Provisioning an EC2 instance.",
+      "category": "Beginner Guides",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://section411.com/2019/07/hello-world/",
+      "title": "Hello, world: The Fargate/Terraform tutorial I wish I had",
+      "description": "Blog post describing setting up an ECS Fargate cluster from scratch",
+      "category": "Beginner Guides",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://sysdig.com/blog/terraform-security-best-practices/",
+      "title": "Terraform Security Guide",
+      "description": "Blog post describing security best practices when working with Terraform",
+      "category": "Beginner Guides",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://www.speakeasy.com/blog/build-terraform-providers",
+      "title": "Building a SaaS API? Don't Forget Your Terraform Provider",
+      "description": "Why you should write a terraform provider",
+      "category": "Beginner Guides",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://blog.stephane-robert.info/docs/infra-as-code/provisionnement/terraform/introduction/",
+      "title": "Complete Terraform Course in French (Free)",
+      "description": "A comprehensive and free course in French to master Terraform, from beginner to advanced usage, with hands-on examples and best practices.",
+      "category": "Beginner Guides",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://blog.pelo.tech/creating-custom-terraform-providers-341311823fa2",
+      "title": "Creating custom terraform providers",
+      "description": "Guide for creating custom providers.",
+      "category": "Writing Custom Providers",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://web.archive.org/web/20220516140659/http://blog.jfabre.net/2017/01/22/writing-terraform-provider/",
+      "title": "Writing a Terraform provider",
+      "description": "Guide for creating custom providers.",
+      "category": "Writing Custom Providers",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://developer.hashicorp.com/terraform/plugin/sdkv2",
+      "title": "Writing Custom Providers",
+      "description": "Official documentation for creating custom providers.",
+      "category": "Writing Custom Providers",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://www.speakeasy.com/docs/terraform/create-terraform",
+      "title": "Terraform Provider Code generation",
+      "description": "Guide to generating a terraform provider from an OpenAPI specification (Vendor Supported)",
+      "category": "Writing Custom Providers",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://scalr.com/learning-center/opa-series-part-1-open-policy-agent-and-terraform",
+      "title": "How To Write OPA for Terraform",
+      "description": "How to use Open Policy Agent to evaluate and enforce policy on your Terraform plans",
+      "category": "How-To",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://www.hashicorp.com/en/blog/deploying-discourse-with-terraform",
+      "title": "Deploying Discourse with Terraform",
+      "description": "Shows how Terraform can create a running instance of Discourse on DigitalOcean in one command.",
+      "category": "How-To",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://testdriven.io/blog/deploying-django-to-ecs-with-terraform/",
+      "title": "Deploying Django to AWS ECS with Terraform",
+      "description": "Looks at how to use Terraform to spin up the required AWS infrastructure for running a Django app on ECS.",
+      "category": "How-To",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://chiefy.github.io/easily-deploy-a-seneca-microservice-to-ecs-with-wercker-and-terraform-part-i/",
+      "title": "Easily Deploy A Seneca Microservice to ECS with Wercker and Terraform: Part I",
+      "description": null,
+      "category": "How-To",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://web.archive.org/web/20210616132857/https://deployeveryday.com/2020/04/13/vpn-aws-azure-terraform.html",
+      "title": "Terraform for a Highly Available VPN between AWS and Azure",
+      "description": "Terraform code to deploy a highly available VPN between AWS and Azure.",
+      "category": "How-To",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://1password.com/blog/terraforming-1password",
+      "title": "Terraforming 1Password",
+      "description": "How 1Password migrated from CloudFormation to Terraform.",
+      "category": "How-To",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://web.archive.org/web/20170611135511/http://www.stratoscale.com/blog/openstack/tutorial-how-to-use-terraform-to-deploy-openstack-workloads/",
+      "title": "Tutorial: How to Use Terraform to Deploy OpenStack Workloads",
+      "description": "Illustrates how easy it is to use the OpenStack Terraform provider to deploy a web server.",
+      "category": "How-To",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://www.hashicorp.com/en/blog/zero-downtime-updates-with-terraform",
+      "title": "Zero Downtime Updates with HashiCorp Terraform",
+      "description": "Ensuring zero downtime of your infrastructure.",
+      "category": "How-To",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/nufailtd/terraform-budget-gcp",
+      "title": "Google Cloud Platform for 10$ a month using terraform",
+      "description": "Shows how to use terraform to create a secure Google Kubernetes Cluster, Google Cloud Run Services and other infrastructure elements for less than [10$](https://nufailtd.github.io/budget-gcp/) a month.",
+      "category": "How-To",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://medium.com/better-programming/infracost-terraform-github-actions-automate-cloud-cost-management-a62b329f2834",
+      "title": "Infracost + Terraform + GitHub Actions = Automate Cloud Cost Management",
+      "description": "How to use Infracost as the guardrail to manage cloud cost during Terraform development.",
+      "category": "How-To",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://www.speakeasy.com/blog/pulumi-terraform-provider",
+      "title": "How To Wrap Your Terraform Provider for Pulumi",
+      "description": "Making your terraform provider pulumi-ready",
+      "category": "How-To",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://medium.com/@StackGuardian/how-to-build-an-aws-account-vending-machine-by-stackguardian-f2895e35a27b",
+      "title": "How to Build an AWS Account Vending Machine",
+      "description": "Automated, self-service AWS account lifecycle management using Terraform stacks orchestrated by StackGuardian, with SSM-based allocation, EventBridge cleanup triggers, and Tirith policy enforcement.",
+      "category": "How-To",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://bensnape.com/2016/01/14/terraform-design-patterns-the-terrafile/",
+      "title": "Terraform Design Patterns: the Terrafile",
+      "description": "Managing Terraform modules and their versions within Terraform projects with Terrafile.",
+      "category": "Multi-Environment Configuration",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://charity.wtf/2016/03/30/terraform-vpc-and-why-you-want-a-tfstate-file-per-env/",
+      "title": "Terraform, VPC, and why you want a tfstate file per env",
+      "description": "Some gotchas surrounding using Terraform in large projects with multiple environments and how to avoid them.",
+      "category": "Multi-Environment Configuration",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://medium.com/@kief/https-medium-com-kief-using-pipelines-to-manage-environments-with-infrastructure-as-code-b37285a1cbf5",
+      "title": "Using Pipelines to Manage Environments with Infrastructure as Code",
+      "description": "Explains different approaches for building a pipeline to handle infrastructure changes moving from one environment to the next.",
+      "category": "Multi-Environment Configuration",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://web.archive.org/web/20201108000713/https://www.g10s.io/hashicorp-terraform/",
+      "title": "Learning HashiCorp Terraform",
+      "description": "Guide for Azure.",
+      "category": "Azure",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://bgelens.nl/terraform-automation-resources/",
+      "title": "New Terraform Azure Automation Resources",
+      "description": "Azure Automation.",
+      "category": "Azure",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://devkimchi.com/2019/01/21/terraforming-azure-paas/",
+      "title": "Terraforming Azure PaaS",
+      "description": "Deploy PaaS Resources on Azure.",
+      "category": "Azure",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/nsriram/lambda-the-terraform-way",
+      "title": "AWS Lambda the Terraform Way",
+      "description": "Understand AWS Lambda in-depth, beyond executing functions, using Terraform. Also includes guides for integration with S3, API Gateway, DynamoDB, Kinesis, SQS.",
+      "category": "AWS",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://spacelift.io/blog/terraform-aws-lambda",
+      "title": "Managing AWS Lambda Functions with Terraform",
+      "description": "What is AWS Lambda used for and how to use Terraform to manage AWS Lambda functions?",
+      "category": "AWS",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://docs.cloud.google.com/docs/terraform/resource-management/managing-infrastructure-as-code",
+      "title": "Managing infrastructure as code with Terraform, Cloud Build, and GitOps",
+      "description": "Setup and manage infrastructure as code with Terraform, Cloud Build, and GitOps.",
+      "category": "Google Cloud",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://docs.cloud.google.com/docs/terraform/create-vm-instance",
+      "title": "Getting started with Terraform on Google Cloud",
+      "description": "Using Terraform to create a VM in Google Cloud and Starting a basic Python Flask server.",
+      "category": "Google Cloud",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://www.skills.google/course_templates/746",
+      "title": "Managing Cloud Infrastructure with Terraform",
+      "description": "Deploy Kubernetes Load Balancer Service with Terraform, HTTPS Content-Based Load Balancer with Terraform, Modular Load Balancing with Terraform - Regional Load Balancer, Custom Providers with Terraform, Cloud SQL with Terraform, Building a VPN Between Google Cloud and AWS with Terraform.",
+      "category": "Google Cloud",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://developer.hashicorp.com/terraform/tutorials/gcp-get-started",
+      "title": "Hashicorp Terraform Tutorials for Google Cloud",
+      "description": "Get started with Terraform on Google Cloud.",
+      "category": "Google Cloud",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://www.academeez.com/courses/terraform",
+      "title": "IAC - Terraform and Terragrunt on Google Cloud",
+      "description": "Open source MIT Licensed course about creating infrastructure on Google Cloud using Terraform/OpenTofu and Terragrunt",
+      "category": "Google Cloud",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/datawranglerai/self-host-n8n-on-gcr",
+      "title": "Self-host n8n on Google Cloud Run",
+      "description": "Terraform configuration and guide for deploying n8n workflow automation on Cloud Run with Cloud SQL, Secret Manager, and optional Queue Mode via Redis.",
+      "category": "Google Cloud",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://web.archive.org/web/20230927082422/https://jamesmckay.net/2016/09/sharing-data-between-terraform-configurations/",
+      "title": "Sharing data between Terraform configurations",
+      "description": "Illustrates how to use remote state to share data between Terraform configurations.",
+      "category": "Miscellaneous",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://web.archive.org/web/20250322120753/https://segment.com/blog/the-segment-aws-stack/",
+      "title": "The Segment AWS Stack",
+      "description": "Shows the behind the scenes of the infrastructure powered by Terraform that solved [The Million Dollar Engineering Problem](https://segment.com/blog/the-million-dollar-eng-problem/) at [Segment](https://segment.com/).",
+      "category": "Miscellaneous",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://www.contino.io/insights/top-3-terraform-testing-strategies-for-ultra-reliable-infrastructure-as-code",
+      "title": "Top 3 Terraform Testing Strategies for Ultra-Reliable Infrastructure-as-Code",
+      "description": null,
+      "category": "Miscellaneous",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://charity.wtf/2016/02/23/two-weeks-with-terraform/",
+      "title": "Two Weeks with Terraform",
+      "description": "Some hard-earned experience from using Terraform in the wild, and some operational wisdom.",
+      "category": "Miscellaneous",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://aws.amazon.com/blogs/apn/terraform-beyond-the-basics-with-aws/",
+      "title": "Terraform: Beyond the Basics with AWS",
+      "description": "Explanation of a demo using Terraform to provision a sample AWS architecture.",
+      "category": "Miscellaneous",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/antonbabenko/terraform-cost-estimation",
+      "title": "Terraform cost estimation",
+      "description": "Anonymized, free cost estimation from a Terraform plan (0.12+) or state file. Also available in the browser at [terraform-cost-estimation.com](https://terraform-cost-estimation.com).",
+      "category": "Miscellaneous",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://spacelift.io/blog/terraform-debug",
+      "title": "How to Debug Terraform Projects: Tutorial",
+      "description": null,
+      "category": "Miscellaneous",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/nis2shield/infrastructure",
+      "title": "nis2shield/infrastructure",
+      "description": "Terraform modules for automated NIS2 compliance and secure infrastructure deployment.",
+      "category": "Community Modules",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/lunagt/rancher-terraform-digitalocean",
+      "title": "rancher-terraform-digitalocean",
+      "description": "Rancher server on digitalocean.",
+      "category": "Community Modules",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/segmentio/stack",
+      "title": "segmentio/stack",
+      "description": "Configures production infrastructure with AWS, Docker, and ECS. :skull:",
+      "category": "Community Modules",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/be-bold/terraform-aws-account-lookup",
+      "title": "terraform-aws-account-lookup",
+      "description": "This Terraform module allows querying AWS accounts and outputs the accounts in various mappings or as a complete list, with the ability to apply a search filter to the account list and group the accounts by existing tags using a submodule.",
+      "category": "Community Modules",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/terraform-aws-modules/terraform-aws-alb",
+      "title": "terraform-aws-alb",
+      "description": "Creates Application load-balancer on AWS (verified module).",
+      "category": "Community Modules",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/terraform-aws-modules/terraform-aws-appconfig",
+      "title": "terraform-aws-appconfig",
+      "description": "Creates AWS AppConfig resources on AWS.",
+      "category": "Community Modules",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/terraform-aws-modules/terraform-aws-atlantis",
+      "title": "terraform-aws-atlantis",
+      "description": "Creates Terraform configurations for running [Atlantis](https://runatlantis.io) on AWS Fargate. Github, Gitlab, and BitBucket are supported.",
+      "category": "Community Modules",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/terraform-aws-modules/terraform-aws-autoscaling",
+      "title": "terraform-aws-autoscaling",
+      "description": "Creates Auto-Scaling Groups and Launch Configurations (verified module).",
+      "category": "Community Modules",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/terraform-aws-modules/terraform-aws-customer-gateway",
+      "title": "terraform-aws-customer-gateway",
+      "description": "Creates Customer Gateway on AWS.",
+      "category": "Community Modules",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/terraform-aws-modules/terraform-aws-datadog-forwarders",
+      "title": "terraform-aws-datadog-forwarders",
+      "description": "Creates resources on AWS to forward logs/metrics to Datadog.",
+      "category": "Community Modules",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/terraform-aws-modules/terraform-aws-dms",
+      "title": "terraform-aws-dms",
+      "description": "Creates AWS DMS (Database Migration Service) resources on AWS.",
+      "category": "Community Modules",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/terraform-aws-modules/terraform-aws-dynamodb-table",
+      "title": "terraform-aws-dynamodb-table",
+      "description": "Creates DynamoDB table on AWS.",
+      "category": "Community Modules",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/terraform-aws-modules/terraform-aws-ec2-instance",
+      "title": "terraform-aws-ec2-instance",
+      "description": "Creates EC2 instances on AWS.",
+      "category": "Community Modules",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/cloudposse/terraform-aws-ecr",
+      "title": "terraform-aws-ecr",
+      "description": "Manages Docker container registries on AWS ECR.",
+      "category": "Community Modules",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/terraform-aws-modules/terraform-aws-ecs",
+      "title": "terraform-aws-ecs",
+      "description": "Creates AWS ECS resources on AWS.",
+      "category": "Community Modules",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/cloudposse/terraform-aws-efs",
+      "title": "terraform-aws-efs",
+      "description": "Defines an EFS Filesystem.",
+      "category": "Community Modules",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/terraform-aws-modules/terraform-aws-eks",
+      "title": "terraform-aws-eks",
+      "description": "Creates Elastic Kubernetes Service on AWS (very popular module).",
+      "category": "Community Modules",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/terraform-aws-modules/terraform-aws-elb",
+      "title": "terraform-aws-elb",
+      "description": "Creates Elastic load-balancer on AWS (verified module).",
+      "category": "Community Modules",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/terraform-aws-modules/terraform-aws-eventbridge",
+      "title": "terraform-aws-eventbridge",
+      "description": "Creates EventBridge resources on AWS.",
+      "category": "Community Modules",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/neiman-marcus/terraform-aws-jenkins-ha-agents",
+      "title": "terraform-aws-jenkins-ha-agents",
+      "description": "EC2 Based Jenkins deployment with HA (spot) agents. Runs on EFS for immutability. Fully customizable, with sensible defaults.",
+      "category": "Community Modules",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/cloudposse-archives/terraform-aws-jenkins",
+      "title": "terraform-aws-jenkins",
+      "description": "Build a Docker image with Jenkins, saves it to an ECR repo, and deploys it to Elastic Beanstalk running a Docker stack. :skull:",
+      "category": "Community Modules",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/cloudposse/terraform-aws-key-pair",
+      "title": "terraform-aws-key-pair",
+      "description": "Automatically Generate SSH Key Pairs (Public/Private Keys).",
+      "category": "Community Modules",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/nozaq/terraform-aws-lambda-auto-package",
+      "title": "terraform-aws-lambda-auto-package",
+      "description": "A terraform module to define a lambda function which source files are automatically built and packaged for lambda deployment.",
+      "category": "Community Modules",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/terraform-aws-modules/terraform-aws-lambda",
+      "title": "terraform-aws-lambda",
+      "description": "Terraform module, which builds dependencies and packages, and also creates AWS Lambda resources in countless combinations.",
+      "category": "Community Modules",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/terraform-aws-modules/terraform-aws-managed-service-prometheus",
+      "title": "terraform-aws-managed-service-prometheus",
+      "description": "Creates AWS Managed Service for Prometheus (AMP) resources on AWS.",
+      "category": "Community Modules",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/terraform-aws-modules/terraform-aws-msk-kafka-cluster",
+      "title": "terraform-aws-msk-kafka-cluster",
+      "description": "Creates AWS MSK (Managed Streaming for Kafka) resources on AWS.",
+      "category": "Community Modules",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/terraform-aws-modules/terraform-aws-notify-slack",
+      "title": "terraform-aws-notify-slack",
+      "description": "Creates SNS topic and Lambda function, which sends notifications to Slack.",
+      "category": "Community Modules",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/azavea/terraform-aws-postgresql-rds",
+      "title": "terraform-aws-postgresql-rds",
+      "description": "Creates PostgreSQL on RDS.",
+      "category": "Community Modules",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/terraform-aws-modules/terraform-aws-rds-aurora",
+      "title": "terraform-aws-rds-aurora",
+      "description": "Creates RDS Aurora cluster resources on AWS (verified module).",
+      "category": "Community Modules",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/terraform-aws-modules/terraform-aws-rds-proxy",
+      "title": "terraform-aws-rds-proxy",
+      "description": "Creates AWS RDS Proxy resources on AWS.",
+      "category": "Community Modules",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/terraform-aws-modules/terraform-aws-rds",
+      "title": "terraform-aws-rds",
+      "description": "Creates RDS resources on AWS (verified module).",
+      "category": "Community Modules",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/terraform-aws-modules/terraform-aws-redshift",
+      "title": "terraform-aws-redshift",
+      "description": "Creates Redshift resources on AWS.",
+      "category": "Community Modules",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/terraform-aws-modules/terraform-aws-route53",
+      "title": "terraform-aws-route53",
+      "description": "Creates Route53 resources on AWS.",
+      "category": "Community Modules",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/terraform-aws-modules/terraform-aws-s3-bucket",
+      "title": "terraform-aws-s3-bucket",
+      "description": "Creates S3 bucket resources on AWS.",
+      "category": "Community Modules",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/nozaq/terraform-aws-secure-baseline",
+      "title": "terraform-aws-secure-baseline",
+      "description": "Set up your AWS account with the secure baseline configuration based on CIS Amazon Web Services Foundations.",
+      "category": "Community Modules",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/terraform-aws-modules/terraform-aws-security-group",
+      "title": "terraform-aws-security-group",
+      "description": "Creates EC2-VPC security groups on AWS (verified module).",
+      "category": "Community Modules",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/joshuamkite/terraform-aws-ssh-bastion-service",
+      "title": "terraform-aws-ssh-bastion-service",
+      "description": "Terraform plan to deploy ssh bastion as a stateless service on AWS.",
+      "category": "Community Modules",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/terraform-aws-modules/terraform-aws-transit-gateway",
+      "title": "terraform-aws-transit-gateway",
+      "description": "Creates Transit Gateway resources on AWS.",
+      "category": "Community Modules",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/terraform-aws-modules/terraform-aws-vpc",
+      "title": "terraform-aws-vpc",
+      "description": "Creates VPC resources on AWS (verified and very popular module).",
+      "category": "Community Modules",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/terraform-aws-modules/terraform-aws-vpn-gateway",
+      "title": "terraform-aws-vpn-gateway",
+      "description": "Creates VPN gateway resources on AWS.",
+      "category": "Community Modules",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://azure.github.io/Azure-Verified-Modules/",
+      "title": "Azure Verified Modules",
+      "description": "Official Microsoft-owned collection of verified Terraform modules for Azure, codifying WAF best practices for consistent infrastructure deployment.",
+      "category": "Community Modules",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/kjanshair/terraform-azurerm-aks",
+      "title": "terraform-azurerm-aks",
+      "description": "Create AKS resources on Azure.",
+      "category": "Community Modules",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/ghostinthewires/terraform-azurerm-iis-install",
+      "title": "terraform-azurerm-iis",
+      "description": "Install IIS Server on Azure VM instance.",
+      "category": "Community Modules",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/foreverXZC/terraform-azurerm-mysql",
+      "title": "terraform-azurerm-mysql",
+      "description": "Create MySql Database on Azure.",
+      "category": "Community Modules",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/rahulkhengare/terraform-azurerm-redis",
+      "title": "terraform-azurerm-redis",
+      "description": "Create Redis on Azure.",
+      "category": "Community Modules",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/metadevpro/terraform-azurerm-sqlserver-seed",
+      "title": "terraform-azurerm-sqlserver",
+      "description": "Create SQl Server Database on Azure.",
+      "category": "Community Modules",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/adinhodovic/terraform-cloudflare-maintenance",
+      "title": "terraform-cloudflare-maintenance",
+      "description": "Module to create a Maintenance Page using Cloudflare Workers.",
+      "category": "Community Modules",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://registry.terraform.io/modules/terraform-digitalocean-modules/droplet/digitalocean/latest",
+      "title": "terraform-digitalocean-droplet",
+      "description": "Terraform module for managing DigitalOcean Droplets and related resources.",
+      "category": "Community Modules",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/shuaibiyy/terraform-ecs-jenkins",
+      "title": "terraform-ecs-jenkins",
+      "description": "Provisions Jenkins on AWS ECS using Terraform.",
+      "category": "Community Modules",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/runatlantis/terraform-gce-atlantis",
+      "title": "terraform-gce-atlantis",
+      "description": "Creates Terraform configurations for running [Atlantis](https://runatlantis.io) on Google Compute Engine.",
+      "category": "Community Modules",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/terraform-google-modules/terraform-google-project-factory",
+      "title": "terraform-google-project-factory",
+      "description": "Opinionated Google Cloud Platform project creation and configuration with Shared VPC, IAM, APIs, etc.",
+      "category": "Community Modules",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/kbst/terraform-kubestack",
+      "title": "terraform-kubestack",
+      "description": "Kubestack is a framework for Kubernetes platform engineering teams to define the entire cloud native stack in one Terraform code base and continuously evolve the platform safely through GitOps.",
+      "category": "Community Modules",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://registry.terraform.io/modules/linode/k8s/linode/latest",
+      "title": "terraform-linode-k8s",
+      "description": "Installs Kubernetes on Linode Instances.",
+      "category": "Community Modules",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/nix-community/terraform-nixos",
+      "title": "terraform-nixos",
+      "description": "A set of Terraform modules that are designed to deploy NixOS.",
+      "category": "Community Modules",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/sergej-brazdeikis/terraform-static-website-s3-cloudfront",
+      "title": "terraform-static-website-s3-cloudfront",
+      "description": "Creates static websites on AWS S3 & Cloudfront based on variables.",
+      "category": "Community Modules",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/terraform-community-modules/tf_aws_bastion_s3_keys",
+      "title": "tf_aws_bastion_s3_keys",
+      "description": "Creates bastion hosts on AWS EC2.",
+      "category": "Community Modules",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/poseidon/typhoon",
+      "title": "typhoon",
+      "description": "Minimal and free Kubernetes distribution with Terraform.",
+      "category": "Community Modules",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/erikvanbrakel/anthology",
+      "title": "anthology",
+      "description": "Private Terraform registry implementation as an alternative to the official registry.",
+      "category": "Self-Hosted Registries",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/boring-registry/boring-registry",
+      "title": "boring-registry",
+      "description": "Private Terraform Module/Provider Registry with API key authentication and blob storage support",
+      "category": "Self-Hosted Registries",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/outsideris/citizen",
+      "title": "citizen",
+      "description": "Private Terraform Module/Provider Registry",
+      "category": "Self-Hosted Registries",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/nrkno/terraform-registry",
+      "title": "nrkno/terraform-registry",
+      "description": "A private Terraform registry with modular store backends.",
+      "category": "Self-Hosted Registries",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/devoteamgcloud/petra",
+      "title": "petra",
+      "description": "Private Terraform Registry Manager",
+      "category": "Self-Hosted Registries",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/philips-labs/terraform-registry",
+      "title": "philips-labs/terraform-registry",
+      "description": "Terraform registry to serve arbitrary Terraform provider releases hosted on Github",
+      "category": "Self-Hosted Registries",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/PacoVK/tapir",
+      "title": "tapir",
+      "description": "Private Terraform Registry.",
+      "category": "Self-Hosted Registries",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/apparentlymart/terraform-simple-registry",
+      "title": "terraform-simple-registry",
+      "description": "Simple implementation of the Terraform registry protocols.",
+      "category": "Self-Hosted Registries",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://terramantle.dev",
+      "title": "terramantle.dev",
+      "description": "A registry that focuses on module & state insights, tackling dependency management",
+      "category": "Self-Hosted Registries",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/matthewjohn/terrareg",
+      "title": "Terrareg",
+      "description": "Terraform module registry.",
+      "category": "Self-Hosted Registries",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/veepee-oss/terustry",
+      "title": "terustry",
+      "description": "Open Source terraform provider registry acting as a proxy for gitlab or github releases.",
+      "category": "Self-Hosted Registries",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/terralist/terralist",
+      "title": "terralist",
+      "description": "Terraform Private Registry for modules and providers manageable from a REST API.",
+      "category": "Self-Hosted Registries",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://docs.cloudsmith.com/formats/terraform-modules-repository",
+      "title": "cloudsmith",
+      "description": "Managed package hoster for internal and external clients. :heavy_dollar_sign:",
+      "category": "Managed Registries",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/hashicorp/terraform-provider-aws",
+      "title": "terraform-provider-aws",
+      "description": "Provider for Amazon Web Services.",
+      "category": "Hashicorp supported providers",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/hashicorp/terraform-provider-azurerm",
+      "title": "terraform-provider-azurerm",
+      "description": "Provider for Azure.",
+      "category": "Hashicorp supported providers",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/hashicorp/terraform-provider-docker",
+      "title": "terraform-provider-docker",
+      "description": "Provider for Docker. :skull:",
+      "category": "Hashicorp supported providers",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/hashicorp/terraform-provider-google",
+      "title": "terraform-provider-google",
+      "description": "Provider for Google Cloud Platform.",
+      "category": "Hashicorp supported providers",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/hashicorp/terraform-provider-helm",
+      "title": "terraform-provider-helm",
+      "description": "Provider for Helm.",
+      "category": "Hashicorp supported providers",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/hashicorp/terraform-provider-kubernetes",
+      "title": "terraform-provider-kubernetes",
+      "description": "Provider for Kubernetes.",
+      "category": "Hashicorp supported providers",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/vmware/terraform-provider-vsphere",
+      "title": "terraform-provider-vsphere",
+      "description": "Provider for VMware vSphere.",
+      "category": "Hashicorp supported providers",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/aliyun/terraform-provider-alicloud",
+      "title": "terraform-provider-alicloud",
+      "description": "Provider for Alibaba Cloud.",
+      "category": "Vendor supported providers",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/jfrog/terraform-provider-artifactory",
+      "title": "terraform-provider-artifactory",
+      "description": "Provider for [JFrog Artifactory](https://jfrog.com/artifactory/).",
+      "category": "Vendor supported providers",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/ariga/terraform-provider-atlas",
+      "title": "terraform-provider-atlas",
+      "description": "Provider for [Atlas](https://atlasgo.io/).",
+      "category": "Vendor supported providers",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/Azure/terraform-provider-azapi",
+      "title": "terraform-provider-azapi",
+      "description": "Provider for Azure Resource Manager Rest API",
+      "category": "Vendor supported providers",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/microsoft/terraform-provider-azuredevops",
+      "title": "terraform-provider-azuredevops",
+      "description": "Provider for Azure DevOps (VSTS).",
+      "category": "Vendor supported providers",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/buildkite/terraform-provider-buildkite",
+      "title": "terraform-provider-buildkite",
+      "description": "Provider for Buildkite.",
+      "category": "Vendor supported providers",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/checkly/terraform-provider-checkly",
+      "title": "terraform-provider-checkly",
+      "description": "Manage [Checkly](https://www.checklyhq.com) resources for API & E2E monitoring.",
+      "category": "Vendor supported providers",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/coder/terraform-provider-coder",
+      "title": "terraform-provider-coder",
+      "description": "Provider for [Coder](https://coder.com)",
+      "category": "Vendor supported providers",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/confluentinc/terraform-provider-confluent",
+      "title": "terraform-provider-confluent",
+      "description": "Provider for Confluent.",
+      "category": "Vendor supported providers",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/DataDog/terraform-provider-datadog",
+      "title": "terraform-provider-datadog",
+      "description": "Provider for Datadog.",
+      "category": "Vendor supported providers",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/devhelmhq/terraform-provider-devhelm",
+      "title": "terraform-provider-devhelm",
+      "description": "Provider for [DevHelm](https://devhelm.io) uptime monitoring — manage monitors, alert channels, and status pages as code.",
+      "category": "Vendor supported providers",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/digitalocean/terraform-provider-digitalocean",
+      "title": "terraform-provider-digitalocean",
+      "description": "Provider for DigitalOcean.",
+      "category": "Vendor supported providers",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/nat-henderson/terraform-provider-dominos",
+      "title": "terraform-provider-dominos",
+      "description": "Provider for Dominos Pizza.",
+      "category": "Vendor supported providers",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/elastic/terraform-provider-elasticstack",
+      "title": "terraform-provider-elasticstack",
+      "description": "Provider for Elasticsearch and Kibana.",
+      "category": "Vendor supported providers",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/env0/terraform-provider-env0",
+      "title": "terraform-provider-env0",
+      "description": "Provider for [env0](https://www.env0.com/)",
+      "category": "Vendor supported providers",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/integrations/terraform-provider-github",
+      "title": "terraform-provider-github",
+      "description": "Provider for GitHub.",
+      "category": "Vendor supported providers",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/gitlabhq/terraform-provider-gitlab",
+      "title": "terraform-provider-gitlab",
+      "description": "Provider for GitLab.",
+      "category": "Vendor supported providers",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/sullivtr/terraform-provider-graphql",
+      "title": "terraform-provider-graphql",
+      "description": "Provider for GraphQL queries and mutations.",
+      "category": "Vendor supported providers",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/hetznercloud/terraform-provider-hcloud",
+      "title": "terraform-provider-hcloud",
+      "description": "Provider for Hetzner Cloud.",
+      "category": "Vendor supported providers",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/kristofferahl/terraform-provider-healthchecksio",
+      "title": "terraform-provider-healthchecksio",
+      "description": "Provider to manage healthchecks.io resources.",
+      "category": "Vendor supported providers",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/heroku/terraform-provider-heroku",
+      "title": "terraform-provider-heroku",
+      "description": "Provider for Heroku.",
+      "category": "Vendor supported providers",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/IBM-Cloud/terraform-provider-ibm",
+      "title": "terraform-provider-ibm",
+      "description": "Provider for IBM Cloud.",
+      "category": "Vendor supported providers",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/iterative/terraform-provider-iterative",
+      "title": "terraform-provider-iterative",
+      "description": "Terraform plugin built with machine learning in mind.",
+      "category": "Vendor supported providers",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/banzaicloud/terraform-provider-k8s",
+      "title": "terraform-provider-k8s",
+      "description": "Simple Kubernetes Provider, works with any manifest.",
+      "category": "Vendor supported providers",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/keycloak/terraform-provider-keycloak",
+      "title": "terraform-provider-keycloak",
+      "description": "Provider to manage the settings of your [Keycloak](https://www.keycloak.org/) identity provider server.",
+      "category": "Vendor supported providers",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/btobolaski/terraform-provider-linode",
+      "title": "terraform-provider-linode",
+      "description": "Provider for Linode.",
+      "category": "Vendor supported providers",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/terraform-provider-openstack/terraform-provider-openstack",
+      "title": "terraform-provider-openstack",
+      "description": "Plugin for OpenStack.",
+      "category": "Vendor supported providers",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/PaloAltoNetworks/terraform-provider-panos",
+      "title": "terraform-provider-panos",
+      "description": "Provider for [Palo Alto Networks next-generation firewalls](https://www.paloaltonetworks.com/network-security).",
+      "category": "Vendor supported providers",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/phare/terraform-provider-phare",
+      "title": "terraform-provider-phare",
+      "description": "Terraform provider for [Phare](https://phare.io).",
+      "category": "Vendor supported providers",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/planetscale/terraform-provider-planetscale",
+      "title": "terraform-provider-planetscale",
+      "description": "Terraform provider for [PlanetScale](https://planetscale.com) (Vitess & Postgres).",
+      "category": "Vendor supported providers",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/Qovery/terraform-provider-qovery",
+      "title": "terraform-provider-qovery",
+      "description": "Provider for [Qovery](https://www.qovery.com/) — manage Kubernetes deployments, environments, applications, databases, Helm charts, and Terraform services on AWS, GCP, Azure, and Scaleway.",
+      "category": "Vendor supported providers",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/russellcardullo/terraform-provider-pingdom",
+      "title": "terraform-provider-pingdom",
+      "description": "Provider to manage Pingdom resources. :skull:",
+      "category": "Vendor supported providers",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/rancher/terraform-provider-rancher2",
+      "title": "terraform-provider-rancher2",
+      "description": "Provider for Rancher v2.",
+      "category": "Vendor supported providers",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/Scalr/terraform-provider-scalr",
+      "title": "terraform-provider-scalr",
+      "description": "Provider for [Scalr](https://www.scalr.com/)",
+      "category": "Vendor supported providers",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/secrethub/terraform-provider-secrethub",
+      "title": "terraform-provider-secrethub",
+      "description": "Provider for SecretHub. :skull:",
+      "category": "Vendor supported providers",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/signalsciences/terraform-provider-sigsci",
+      "title": "terraform-provider-sigsci",
+      "description": "Provider for Signal Sciences.",
+      "category": "Vendor supported providers",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/snowflakedb/terraform-provider-snowflake",
+      "title": "terraform-provider-snowflake",
+      "description": "Provider for Snowflake data warehouse.",
+      "category": "Vendor supported providers",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/armory-io/terraform-provider-spinnaker",
+      "title": "terraform-provider-spinnaker",
+      "description": "Provider for [Spinnaker](https://spinnaker.io/).",
+      "category": "Vendor supported providers",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/spotinst/terraform-provider-spotinst",
+      "title": "terraform-provider-spotinst",
+      "description": "Provider for spotinst.",
+      "category": "Vendor supported providers",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/franckverrot/terraform-provider-stripe",
+      "title": "terraform-provider-stripe",
+      "description": "Provider for Stripe.",
+      "category": "Vendor supported providers",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/ucloud/terraform-provider-ucloud",
+      "title": "terraform-provider-ucloud",
+      "description": "Provider to manage UCloud resources.",
+      "category": "Vendor supported providers",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/louy/terraform-provider-uptimerobot",
+      "title": "terraform-provider-uptimerobot",
+      "description": "Provider to manage uptimerobot resources. :skull:",
+      "category": "Vendor supported providers",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/sumup-oss/terraform-provider-vaulted",
+      "title": "terraform-provider-vaulted",
+      "description": "Encrypted HashiCorp Vault secrets via Terraform that can be stored in SCM such as Git.",
+      "category": "Vendor supported providers",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/splunk/terraform-provider-scp",
+      "title": "terraform-provider-scp",
+      "description": "Provider for Splunk Cloud Platform.",
+      "category": "Vendor supported providers",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/kreuzwerker/terraform-provider-docker",
+      "title": "terraform-provider-docker",
+      "description": "Terraform Docker provider.",
+      "category": "Community providers",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/aminueza/terraform-provider-minio",
+      "title": "terraform-provider-minio",
+      "description": "Terraform provider for managing MinIO S3 buckets and IAM Users.",
+      "category": "Community providers",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/Telmate/terraform-provider-proxmox",
+      "title": "terraform-provider-proxmox",
+      "description": "Terraform Proxmox provider.",
+      "category": "Community providers",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/devops-rob/terraform-provider-terracurl",
+      "title": "terraform-provider-terracurl",
+      "description": "Provider to make managed and unmanaged API calls to your target endpoint.",
+      "category": "Community providers",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/julienlevasseur/terraform-provider-uname",
+      "title": "terraform-provider-uname",
+      "description": "Uname Provider for Terraform.",
+      "category": "Community providers",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/pseudo-dynamic/terraform-provider-value",
+      "title": "terraform-provider-value",
+      "description": "Value Provider for Terraform.",
+      "category": "Community providers",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/todoroff/terraform-provider-multipass",
+      "title": "terraform-provider-multipass",
+      "description": "Terraform provider for Multipass.",
+      "category": "Community providers",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/cloudopsworks/terraform-provider-openrouter",
+      "title": "terraform-provider-openrouter",
+      "description": "Manage OpenRouter as code: workspaces, guardrails, spend-limited API keys, and org members. Terraform + OpenTofu.",
+      "category": "Community providers",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/plancost/terraform-provider-plancost",
+      "title": "terraform-provider-plancost",
+      "description": "Terraform provider for Azure cost estimation and cost guardrails.",
+      "category": "Community providers",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/coolify-terraform/terraform-provider-coolify",
+      "title": "terraform-provider-coolify",
+      "description": "Terraform provider for Coolify.",
+      "category": "Community providers",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/xchapter7x/clarity",
+      "title": "clarity",
+      "description": "A declarative test framework for Terraform for unit testing. :skull:",
+      "category": "Testing",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/newcontext-oss/kitchen-terraform",
+      "title": "kitchen-terraform",
+      "description": "Provides a set of Test Kitchen plugins which enable a system to use Test Kitchen to converge a Terraform configuration and verify the resulting Terraform state with InSpec controls. :skull:",
+      "category": "Testing",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/bsnape/rspec-terraform",
+      "title": "rspec-terraform",
+      "description": "RSpec tests for your Terraform modules. :skull:",
+      "category": "Testing",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/elmundio87/terraform_validate",
+      "title": "terraform_validate",
+      "description": "Assists in the enforcement of user-defined standards in Terraform. :skull:",
+      "category": "Testing",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/terraform-compliance/cli",
+      "title": "terraform-compliance",
+      "description": "BDD Testing for Terraform Files.",
+      "category": "Testing",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/gruntwork-io/terratest",
+      "title": "terratest",
+      "description": "Terratest is a Go library that makes it easier to write automated tests for your infrastructure code.",
+      "category": "Testing",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/gofireflyio/aiac",
+      "title": "AIaC",
+      "description": "Artificial Intelligence Infrastructure-as-Code Generator",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/bridgecrewio/AirIAM",
+      "title": "AirIAM",
+      "description": "AirIAM is a tool for AWS IAM to least privilege Terraform execution framework.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/asdf-community/asdf-hashicorp",
+      "title": "asdf",
+      "description": "HashiCorp plugin for the [asdf](https://github.com/asdf-vm/asdf) version manager",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/uber/astro/",
+      "title": "astro",
+      "description": "Astro is a tool for managing multiple Terraform executions as a single command. :ghost:",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/runatlantis/atlantis",
+      "title": "atlantis",
+      "description": "Unified workflow for collaborating on Terraform through GitHub.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/cloudposse/atmos",
+      "title": "atmos",
+      "description": "A universal tool that converts deep merged YAML to module inputs.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/aws-samples/aws2tf",
+      "title": "aws2tf",
+      "description": "automates the importing of existing AWS resources into Terraform and outputs the Terraform HCL code.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/Azure/aztfexport",
+      "title": "aztfexport",
+      "description": "A tool to bring existing Azure resources under Terraform's management.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://oguzhan-yilmaz.github.io/balcony/",
+      "title": "balcony",
+      "description": "CLI tool for easy AWS API reads. Also generates Terraform import-blocks, and actual Terraform Resource code.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/28mm/blast-radius",
+      "title": "blast radius",
+      "description": "Interactive visualizations of Terraform dependency graphs. :skull:",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/cloudflare/cf-terraforming",
+      "title": "cf-terraforming",
+      "description": "A command line utility to facilitate terraforming your existing Cloudflare resources.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/rogerwelin/cfnctl",
+      "title": "cfnctl",
+      "description": "Cfnctl brings the Terraform cli experience to AWS Cloudformation.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/gebalamariusz/cloud-audit",
+      "title": "cloud-audit",
+      "description": "AWS security auditing CLI with remediation engine that generates Terraform code for fixing misconfigurations.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://coder.com/",
+      "title": "Coder",
+      "description": "Coder provisions software development environments on your infrastructure via Terraform.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/coretech/terrafile",
+      "title": "coretech/terrafile",
+      "description": "Systematically manage external modules from Github for use in Terraform (written in Go). :skull:",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/snyk/driftctl",
+      "title": "driftctl",
+      "description": "Detect, track, and alert on infrastructure drift :skull:",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/drifthoundhq/drifthound",
+      "title": "drifthound",
+      "description": "Continuous infrastructure drift detection with historical tracking and notifications.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/dxw/terrafile",
+      "title": "dxw/terrafile",
+      "description": "Systematically manage external modules from Github for use in Terraform (written in Ruby).",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/ketchoop/flora",
+      "title": "flora",
+      "description": "Terraform version manager.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/chanzuckerberg/fogg",
+      "title": "fogg",
+      "description": "A tool for eliminating toil in managing terraform repositories.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/iann0036/former2",
+      "title": "former2",
+      "description": "Generate terraform configuration from your existing resources within your AWS account.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/paololazzari/fuzzy-terraform-rm",
+      "title": "fuzzy-terraform-rm",
+      "description": "A fuzzy-finder command-line tool for removing resources from terraform state.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/gaia-app/gaia",
+      "title": "gaia",
+      "description": "Gaia is a Terraform 🌍 UI for your modules, and self-service infrastructure 👨‍💻. :skull:",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/tmccombs/hcl2json",
+      "title": "hcl2json",
+      "description": "Convert hcl2 to json.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/magodo/hcldump",
+      "title": "hcldump",
+      "description": "Dump the HCL (v2) abstract syntax tree.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/mercari/hcledit",
+      "title": "hcledit (mercari)",
+      "description": "Go package to edit HCL configuration",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/minamijoyo/hcledit",
+      "title": "hcledit (minamijoyo)",
+      "description": "A command line editor for HCL.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/magodo/hclgrep",
+      "title": "hclgrep",
+      "description": "Syntax based grep for HCL(v2).",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/miller-time/hq",
+      "title": "hq",
+      "description": "command-line HCL processor",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/flosell/iam-policy-json-to-terraform",
+      "title": "iam-policy-json-to-terraform",
+      "description": "Small tool to convert an IAM Policy in JSON format into a Terraform aws_iam_policy_document",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/infracost/infracost",
+      "title": "Infracost",
+      "description": "Cloud cost estimates for Terraform in your CLI and pull requests.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/cycloidio/inframap",
+      "title": "inframap",
+      "description": "Read your tfstate or HCL to generate a graph specific for each provider, showing only the resources that are most important/relevant.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://infrascan.soldevelo.com",
+      "title": "InfraScan",
+      "description": "Advanced Infrastructure Auditor for cost and security analysis of Terraform, AWS, and Kubernetes.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://infrasketch.cloud",
+      "title": "InfraSketch",
+      "description": "Free browser-based tool to visualize Terraform HCL and Docker Compose as architecture diagrams. Supports AWS & Azure. No signup, no credentials needed.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/kvz/json2hcl",
+      "title": "json2hcl",
+      "description": "Convert JSON to HCL and vice versa. :ghost:",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/sl1pm4t/k2tf",
+      "title": "k2tf",
+      "description": "Kubernetes YAML to Terraform HCL converter.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/kapicorp/kapitan",
+      "title": "Kapitan",
+      "description": "Generates Terraform/OpenTofu JSON and other infrastructure configuration from inventory-driven templates.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/briefercloud/layerform",
+      "title": "layerform",
+      "description": "Layerform helps engineers create reusable environment stacks using plain .tf files. Ideal for multiple \"staging\" environments. :skull:",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://library.tf",
+      "title": "library.tf",
+      "description": "Library.tf is built and designed to not just provide you with all of the registry information for Terraform and OpenTofu but to provide all of the insights you need to make decisions. Quickly find modules or providers that are supported and maintained and not full of bugs.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/antonbabenko/modules.tf-lambda",
+      "title": "modules.tf-lambda",
+      "description": "Infrastructure as code generator from visual diagrams created with [Cloudcraft.co](https://cloudcraft.co) to Terraform.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/paraterraform/para",
+      "title": "para",
+      "description": "The missing 3rd-party plugin manager and a \"Swiss army knife\" for Terraform/Terragrunt - just 1 tool to facilitate all workflows. :skull:",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/jamesWoolfenden/pike",
+      "title": "pike",
+      "description": "Pike calculates the permissions or IAM policy required to build your Terraform.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/magodo/pipeform",
+      "title": "pipeform",
+      "description": "Terraform runtime TUI",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/nitinjain999/platform-skills",
+      "title": "platform-skills",
+      "description": "AI-assisted field handbook for Terraform: IAM least privilege review, blast radius analysis, state impact, provider constraints, and rollback planning. Works as a Claude, Codex, Cursor, and Copilot plugin.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://www.pluralith.com/",
+      "title": "pluralith",
+      "description": "Terraform state visualization and automated generation of infrastructure documentation. :heavy_dollar_sign:",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/antonbabenko/pre-commit-terraform",
+      "title": "pre-commit-terraform",
+      "description": "pre-commit git hooks for Terraform and Terragrunt: auto-format, validate, update docs, run security checks, estimate costs, and more.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/raymondbutcher/pretf",
+      "title": "pretf",
+      "description": "drop-in Terraform wrapper that generates Terraform configuration with Python. See [pretf documentation](https://pretf.readthedocs.io/en/latest/) :skull:",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/cloudandthings/terraform-pretty-plan",
+      "title": "prettyplan for TF 0.12+",
+      "description": "Prettyplan for TF 0.12+ ([available online here](https://cloudandthings.github.io/terraform-pretty-plan/)) is a small tool to help you view large Terraform plans with ease.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/chrislewisdev/prettyplan",
+      "title": "prettyplan",
+      "description": "Prettyplan ([available online here](https://chrislewisdev.github.io/prettyplan/)) is a small tool to help you view large Terraform plans with ease. :ghost:",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/leg100/pug",
+      "title": "pug",
+      "description": "The terminal user interface for terraform power users.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/cloud-custodian/pytest-terraform",
+      "title": "pytest-terraform",
+      "description": "pytest terraform plugin with fixtures and offline replay support.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/claranet/python-terrafile",
+      "title": "python-terrafile",
+      "description": "Systematically manage external modules from Github for use in Terraform.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/fugue/regula",
+      "title": "regula",
+      "description": "Evaluates Terraform infrastructure-as-code for potential AWS, Azure, and Google Cloud security misconfigurations and compliance violations prior to deployment.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/wgpsec/redc",
+      "title": "redc",
+      "description": "Next-generation red team infrastructure automation tool built on Terraform, supporting multi-cloud deployment (Alibaba Cloud, Tencent Cloud, AWS, etc.) with one-command deployment for creating, configuring, and destroying red team environments.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/SpotOnInc/renovate-config",
+      "title": "renovate-config",
+      "description": "Sharable Config Presets for Renovatebot, especially useful for DevOps folks.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://riftmap.dev",
+      "title": "Riftmap",
+      "description": "Cross-repo dependency and change impact engine that scans multi-repo infrastructure across Terraform, Docker, Helm, and more to visualize what depends on what and what breaks when something changes.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/im2nguyen/rover",
+      "title": "rover",
+      "description": "Interactive Terraform state and configuration explorer.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/infrablocks/ruby_terraform",
+      "title": "ruby-terraform",
+      "description": "Simple Ruby wrapper for invoking terraform commands.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://releaserun.com/tools/terraform-checker/",
+      "title": "ReleaseRun Terraform Provider Matrix",
+      "description": "Free browser tool to check Terraform provider version compatibility across Terraform and OpenTofu versions.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/JamesWoolfenden/sato",
+      "title": "sato",
+      "description": "Sato helps you convert your legacy Cloudformation into Terraform.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/dmlittle/scenery",
+      "title": "scenery",
+      "description": "Another Terraform plan output prettifier. :ghost: :skull:",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/YakDriver/scratchrelaxtv",
+      "title": "scratchrelaxtv",
+      "description": "Simple Python tool to help with module development - extract vars from `main.tf` to generate `variables.tf` and make module usage stub from `variables.tf`.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://serverless.tf/",
+      "title": "serverless.tf - Doing serverless with Terraform",
+      "description": "serverless.tf is an opinionated open-source framework for developing, building, deploying, and securing serverless applications and infrastructures on AWS using Terraform. [Read more](https://github.com/antonbabenko/serverless.tf).",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://releaserun.com/tools/terraform-security/",
+      "title": "ReleaseRun Terraform Security Scanner",
+      "description": "Free browser-based scanner for `.tf` files. Checks hardcoded credentials, open ports to 0.0.0.0/0, public S3/RDS, unencrypted storage, missing deletion_protection. A-F grade. No install required.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/shieldly-io/cli",
+      "title": "Shieldly",
+      "description": "AI-powered security analysis for Terraform-generated IAM policies and CloudFormation, explaining why a permission is risky and how to fix it. Free tier, CLI and GitHub Action.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/flatt-security/shisho",
+      "title": "Shisho",
+      "description": "Lightweight static analyzer for Terraform.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://www.speakeasy.com/",
+      "title": "Speakeasy",
+      "description": "Generate a terraform provider from an OpenAPI specification.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/cisco-open/stacks",
+      "title": "stacks",
+      "description": "Stacks, the Terraform code pre-processor",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/Thomvaill/tads-boilerplate",
+      "title": "tads-boilerplate",
+      "description": "The power of Ansible and Terraform + the simplicity of Docker Swarm = Infrastructure as Code and DevOps best practices.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/avinor/tau",
+      "title": "tau",
+      "description": "Tau is a thin wrapper on top of terraform to manage multiple deployments, dependencies, and secrets. :skull:",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/tofuutils/tenv",
+      "title": "tenv",
+      "description": "OpenTofu/Terraform/Terragrunt version manager.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/camptocamp/terraboard",
+      "title": "terraboard",
+      "description": "Web dashboard to inspect Terraform States.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/MastodonC/terraboot",
+      "title": "terraboot",
+      "description": "DSL to generate a terraform configuration and run it.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/cycloidio/terracognita",
+      "title": "terracognita",
+      "description": "Reads from existing Cloud Providers (reverse Terraform) and generates your infrastructure as code on Terraform configuration.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/cycloidio/terracost",
+      "title": "terracost",
+      "description": "Cloud cost estimation for Terraform in your CLI.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://elementtech.github.io/terracove/",
+      "title": "terracove",
+      "description": "Recursively test a directory tree for Terraform diffs and coverage.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/derBroBro/TerraDepot",
+      "title": "TerraDepot",
+      "description": "Terraform state repository, based on the default http remote backend. Allows the central administration of tfstates on AWS S3.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/chenrui333/terradozer",
+      "title": "terradozer",
+      "description": "Terraform destroy without configuration files.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/jaceq/terraeasy",
+      "title": "terraeasy",
+      "description": "Easy Terraform wrapper",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/anmolnagpal/terraform-ai-skills",
+      "title": "terraform-ai-skills",
+      "description": "AI-powered skill for GitHub Copilot, Claude, and ChatGPT that automates bulk Terraform module management — provider upgrades, workflow standardization, and releases across 10–200+ repositories on AWS, GCP, Azure, and DigitalOcean.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/cloudandthings/terraform-aws-clickops-notifier",
+      "title": "terraform-aws-clickops-notifier",
+      "description": "Get notified when actions are taken in the AWS Console.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/hashicorp/terraform/tree/main/tools/terraform-bundle",
+      "title": "terraform-bundle",
+      "description": "Easily builds bundles containing a Terraform binary as well as provider binaries. Useful for CI and air-gapped Terraform Enterprise.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/hashicorp/terraform-cdk",
+      "title": "terraform-cdk",
+      "description": "CDK (Cloud Development Kit) for Terraform allows developers to use familiar programming languages to define cloud infrastructure and provision it through HashiCorp Terraform.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/sylwit/terraform-cleaner",
+      "title": "terraform-cleaner",
+      "description": "Tiny utility which detects unused variables in your terraform modules.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/oulman/terraform-credentials-vault",
+      "title": "terraform-credentials-vault",
+      "description": "A Terraform \"credentials helper\" plugin that allows providing credentials for Terraform-native services (private module registries, Terraform Cloud, etc) via environment variables.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/contentful-labs/terraform-diff",
+      "title": "terraform-diff",
+      "description": "Always know where you need to run Terraform plan & apply!",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/terraform-docs/terraform-docs",
+      "title": "terraform-docs",
+      "description": "Quick utility to generate docs from terraform modules.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/pcasteran/terraform-graph-beautifier",
+      "title": "terraform-graph-beautifier",
+      "description": "Command line tool allowing to convert the barely usable output of the terraform graph command to something more meaningful and explanatory.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/awslabs/terraform-iam-policy-validator",
+      "title": "terraform-iam-policy-validator",
+      "description": "CLI validates AWS IAM Policies in a Terraform template against AWS IAM best practices.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/coinbase/terraform-landscape",
+      "title": "terraform-landscape",
+      "description": "*(only 0.11 and earlier)* Improve Terraform's plan output to be easier to read and understand.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/GalleyBytes/terraform-operator",
+      "title": "terraform-operator",
+      "description": "A Kubernetes CRD to handle Terraform operations.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/lifeomic/terraform-plan-parser",
+      "title": "terraform-plan-parser",
+      "description": "Command line utility and JavaScript API for parsing stdout from `terraform plan` and converting it to JSON. :ghost:",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/shuaibiyy/terraform-provisioner",
+      "title": "terraform-provisioner",
+      "description": "Tool for managing multiple provisions of the same Terraform scripts.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/gina-alaska/terraform-rake-tasks",
+      "title": "terraform-rake-tasks",
+      "description": "Shared Rake tasks for managing terraform plans.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/paololazzari/terraform-repl",
+      "title": "terraform-repl",
+      "description": "A terraform console wrapper for a better interactive console experience.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/hieven/terraform-visual",
+      "title": "Terraform-Visual",
+      "description": "A simple but powerful tool to visualize Terraform plan.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/patrickchugh/terravision",
+      "title": "terravision",
+      "description": "Generates professional cloud architecture diagrams from Terraform code using official AWS/Azure/GCP icons and design standards. Runs 100% client-side with CI/CD integration.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/mantl/terraform.py",
+      "title": "terraform.py",
+      "description": "Ansible dynamic inventory script for parsing Terraform state files. :skull:",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/chenrui333/terraformer",
+      "title": "terraformer",
+      "description": "CLI tool to generate terraform files from existing infrastructure. Infrastructure to Code. Supported many providers.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/dtan4/terraforming",
+      "title": "terraforming",
+      "description": "Export existing AWS resources to Terraform style (tf, tfstate). Similar to `terraformer`. :skull:",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/naorlivne/terraformize",
+      "title": "terraformize",
+      "description": "Apply\\Destroy Terraform modules via a simple REST API endpoint. :skull:",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/pwillis-els/terraformsh",
+      "title": "terraformsh",
+      "description": "A wrapper in Bash for easier CLI UX and DRY hierarchical configs",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/transcend-io/terragrunt-atlantis-config",
+      "title": "terragrunt-atlantis-config",
+      "description": "Generate Atlantis config for Terragrunt projects.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/gruntwork-io/terragrunt",
+      "title": "terragrunt",
+      "description": "Terragrunt is a thin wrapper for Terraform that provides extra tools for keeping your Terraform configurations DRY, working with multiple Terraform modules, and managing remote state.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/opencredo/terrahelp",
+      "title": "terrahelp",
+      "description": "Command line utility aimed at providing supplementary functionality which can sometimes prove useful when working with Terraform.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/tfxor/terrahub",
+      "title": "terrahub",
+      "description": "TerraHub is terraform automation and orchestration tool. Seamlessly integrated into console.terrahub.io, enterprise friendly GUI to show realtime terraform executions, as well as auditing and reporting capabilities for historical terraform runs. :heavy_dollar_sign:",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/miltlima/terramagic",
+      "title": "terramagic",
+      "description": "Wizard tool for create folders and terraform files automated, written in Python !",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/terramate-io/terramate",
+      "title": "terramate",
+      "description": "Tool for managing multiple Terraform stacks that comes with support for change detection and code generation",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/sirrend/terrap-cli",
+      "title": "terrap-cli",
+      "description": "Terrap - a powerful CLI tool that scans your infrastructure and identifies any required changes.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/andrewbaxter/terrars",
+      "title": "terrars",
+      "description": "Terrars is a tool for building Terraform stacks in Rust. This is an alternative to the CDK.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/tenable/terrascan",
+      "title": "terrascan",
+      "description": "Collection of security and best practice test for static code analysis of terraform templates",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/spilliams/terrascope",
+      "title": "terrascope",
+      "description": "Build orchestrator for terraform monorepos.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://isawan.github.io/terrashine/",
+      "title": "terrashine",
+      "description": "Terrashine is a terraform provider mirror1 implementation that works by automatically caching dependencies as providers are requested.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://terraspace.cloud",
+      "title": "terraspace",
+      "description": "The Terraform Framework",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/rohinivsenthil/terrastate",
+      "title": "terrastate",
+      "description": "Visual Studio Code extension to monitor/deploy/destroy Terraform resources in your workspace",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/env0/terratag",
+      "title": "terratag",
+      "description": "Terratag is a CLI tool that enables users of Terraform to automatically create and maintain tags across their entire set of AWS, Azure, and GCP resources.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/hayorov/terraform-init-booster",
+      "title": "tf-init-booster",
+      "description": "A Pre-terraform routine that speedups terraform modules download for bulky blueprints.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/dineshba/tf-summarize",
+      "title": "tf-summarize",
+      "description": "A command-line utility to print the summary of the terraform plan",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/Raj-glitch-max/tf.why",
+      "title": "tf-why",
+      "description": "CLI tool that attributes Terraform drift to the AWS actor who caused it, via CloudTrail lookup.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/suzuki-shunsuke/tfaction",
+      "title": "tfaction",
+      "description": "GitHub Actions collection for Opinionated Terraform Workflow",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/busser/tfautomv",
+      "title": "tfautomv",
+      "description": "Generate Terraform `moved` blocks automatically for painless refactoring",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/suzuki-shunsuke/tfcmt",
+      "title": "tfcmt",
+      "description": "CLI to notify the result of plan and apply as Pull Request comment.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/minamijoyo/tfedit",
+      "title": "tfedit",
+      "description": "A refactoring tool for Terraform.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/tfutils/tfenv",
+      "title": "tfenv",
+      "description": "Terraform version manager inspired by rbenv.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/0xDones/tfgen",
+      "title": "tfgen",
+      "description": "Terraform code generator for consistent codebase and DRY.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/flavius-dinu/tfgpt",
+      "title": "tfgpt",
+      "description": "A CLI tool that integrates Terraform with OpenAI's GPT-3.5 Turbo to provide explanations for Terraform commands and concepts.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/coolapso/tfimport",
+      "title": "tfimport",
+      "description": "CLI tool to automate importing existing infrastructure innto tfstate.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/palantir/tfjson",
+      "title": "tfjson",
+      "description": "Utility to read in a Terraform plan file and dump it out in JSON. :skull:",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/jrhouston/tfk8s",
+      "title": "tfk8s",
+      "description": "A tool for converting Kubernetes YAML manifests to Terraform HCL",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/terraform-linters/tflint",
+      "title": "tflint",
+      "description": "Terraform linter for detecting errors that can not be detected by `terraform plan`",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/tfmake/tfmake",
+      "title": "tfmake",
+      "description": "Automating Terraform with the power of make.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/cloudposse-archives/tfmask",
+      "title": "tfmask",
+      "description": "Terraform utility to mask select output from `terraform plan` and `terraform apply` :skull:",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/minamijoyo/tfmigrate",
+      "title": "tfmigrate",
+      "description": "A Terraform state migration tool for GitOps.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/tfmigrator/cli",
+      "title": "tfmigrator",
+      "description": "Go library and CLI to migrate Terraform Configuration and State",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/suzuki-shunsuke/tfmv",
+      "title": "tfmv",
+      "description": "Rename Terraform resources and generate moved blocks",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/suzuki-shunsuke/tfprovidercheck",
+      "title": "tfprovidercheck",
+      "description": "CLI to prevent malicious Terraform Providers from being executed",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/bflad/tfproviderlint",
+      "title": "tfproviderlint",
+      "description": "Terraform Provider Lint Tool.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/ysoftwareab/tfrepl",
+      "title": "tfrepl",
+      "description": "A Terraform REPL, giving you a full shell experience. Readline based. No dependencies. Save config changes. History.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/breml/tfreveal",
+      "title": "tfreveal",
+      "description": "A Terraform utility to show Terraform plans with all the secret (sensitive) values revealed.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/tfutils/tfscaffold",
+      "title": "tfscaffold",
+      "description": "Framework for controlling multi-environment multi-component terraform-managed AWS infrastructure.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/minamijoyo/tfschema",
+      "title": "tfschema",
+      "description": "Schema inspector for Terraform providers.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/aquasecurity/tfsec",
+      "title": "tfsec",
+      "description": "Terraform static analysis tool that supports terraform <0.12 & >=0.12 & directly integrates with HCL parser for better results.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/AlexNabokikh/tfsort",
+      "title": "tfsort",
+      "description": "CLI utility to sort Terraform variables and outputs.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/future-architect/tftarget",
+      "title": "tftarget",
+      "description": "CLI Tool to do `terraform xxx -target={...}` interactively.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/busser/tftree",
+      "title": "tftree",
+      "description": "Display your Terraform module call stack in your terminal.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/idoavrah/terraform-tui",
+      "title": "tftui",
+      "description": "A textual user interface for Terraform state.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/minamijoyo/tfupdate",
+      "title": "tfupdate",
+      "description": "Update version constraints in your Terraform configurations.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/shihanng/tfvar",
+      "title": "tfvar",
+      "description": "tfvar scans your Terraform configurations or modules and extracts the variables into formats of your choice (tfvar, environment variables, etc.) for editing.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/oulman/tfvaultenv",
+      "title": "tfvaultenv",
+      "description": "tfvaultenv reads secrets from HashiCorp Vault and outputs environment variables for various Terraform providers with those secrets.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/manheim/tfwrapper",
+      "title": "tfwrapper",
+      "description": "Rubygem providing rake tasks for running Hashicorp Terraform sanely.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/coveooss/tgf",
+      "title": "tgf",
+      "description": "Terragrunt frontend for executing Terragrunt/Terraform through Docker.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/threatcl/threatcl",
+      "title": "threatcl",
+      "description": "Documenting your Threat Models with HCL",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/tofuutils/tofuenv",
+      "title": "tofuenv",
+      "description": "OpenTofu version manager inspired by tfenv",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/Madh93/tpm",
+      "title": "tpm",
+      "description": "A package manager for Terraform providers.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/ivanilves/travelgrunt",
+      "title": "travelgrunt",
+      "description": "cd inside [mono]repos without fatigue!",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/trupositive-ai/trupositive",
+      "title": "trupositive",
+      "description": "Zero-config wrapper that automatically injects Git metadata (commit SHA, branch, repo) into all Terraform-managed resources.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/gofireflyio/validiac",
+      "title": "validIaC",
+      "description": "ValidIaC combines the best open-source tools to help ensure Terraform best practices, hygiene & security.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/devopsmakers/xterrafile",
+      "title": "xterrafile",
+      "description": "Systematically manage external modules from the module registry, git, or local directories for use in Terraform (written in Go). :skull:",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/sclevine/yj",
+      "title": "yj",
+      "description": "CLI - Convert between YAML, TOML, JSON, and HCL. Preserves map order.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/bridgecrewio/yor",
+      "title": "yor",
+      "description": "Automatically tag and trace infrastructure as code frameworks (Terraform, Cloudformation, and Serverless).",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/henrybravo/zephy",
+      "title": "zephy",
+      "description": "Compare Azure resources deployed in a subscription against resources managed by Terraform Enterprise (HCP & Selfhosted) workspaces *when your cloud's resource tagging strategy is insufficient*.",
+      "category": "Tools",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/hashicorp/setup-terraform",
+      "title": "setup-terraform",
+      "description": "Sets up Terraform CLI in your GitHub Actions workflow.",
+      "category": "CI",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/cds-snc/terraform-plan",
+      "title": "terraform-plan",
+      "description": "GitHub Action to run Terraform plan and add a comment with the changes.",
+      "category": "CI",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/Liam-Johnston/terraform-risk-assessor",
+      "title": "terraform-risk-assessor",
+      "description": "GitHub Action that analyses Terraform plan changes with AI and comments a risk assessment on pull requests.",
+      "category": "CI",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/adamiBs/vscode-terraform-live-graph",
+      "title": "vscode-terraform-live-graph",
+      "description": "Terraform Live Graph Extension for Visual Studio Code is a plugin that allows you to generate a live Terraform graph as you code.",
+      "category": "VS Code Extensions",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/martinohmann/hcl-rs",
+      "title": "hcl-rs",
+      "description": "HCL parsing and encoding libraries for rust with serde support",
+      "category": "Libraries",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/wondrify/hcl4j",
+      "title": "hcl4j",
+      "description": "HCL parser in Java",
+      "category": "Libraries",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/Yethal/nu_plugin_hcl",
+      "title": "nu_plugin_hcl",
+      "description": "HCL parser plugin for [Nushell](https://github.com/nushell/nushell)",
+      "category": "Libraries",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/virtuald/pyhcl",
+      "title": "pyhcl",
+      "description": "HCL parser in Python",
+      "category": "Libraries",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/amplify-education/python-hcl2/",
+      "title": "python-hcl2",
+      "description": "HCL2 parser in Python",
+      "category": "Libraries",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/winebarrel/rhcl",
+      "title": "rhcl",
+      "description": "Pure Ruby HCL parser :skull:",
+      "category": "Libraries",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/tree-sitter-grammars/tree-sitter-hcl",
+      "title": "tree-sitter-hcl",
+      "description": "HCL grammar for tree-sitter",
+      "category": "Libraries",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/sarmakska/terraform-stack",
+      "title": "Solo-Engineer Stack",
+      "description": "Single Terraform repo wiring up Vercel + Supabase + Cloudflare + DigitalOcean as the indie-SaaS platform. One `terraform apply` provisions a Next.js project, a Supabase project with env vars piped to Vercel, a Cloudflare zone with R2 and Workers KV, and a DigitalOcean droplet with monitoring.",
+      "category": "Boilerplates",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/sudokar/generator-tf-module",
+      "title": "Terraform Generator",
+      "description": "Scaffolding for a new terraform module or project with support of test frameworks (terratest and kitchen-terraform)",
+      "category": "Boilerplates",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://www.kubestack.com",
+      "title": "Terraform GitOps Framework",
+      "description": "Everything you need to build reliable automation for AKS, EKS, and GKE Kubernetes clusters in one free and open-source framework.",
+      "category": "Boilerplates",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/leg100/otf",
+      "title": "OTF",
+      "description": "Open Terraforming Framework, an open source alternative to Terraform Enterprise with full Terraform CLI integration.",
+      "category": "Self-hosted Terraform Platforms",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://docs.terrakube.io",
+      "title": "Terrakube",
+      "description": "Open Source alternative to Terraform Enterprise with private registry, remote state, custom flows, scheduled workspaces, and visual states.",
+      "category": "Self-hosted Terraform Platforms",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://digger.dev",
+      "title": "Digger",
+      "description": "Open Source Alternative to Terraform Cloud - Run Terraform plan & apply jobs in your CI.",
+      "category": "Self-hosted Terraform Platforms",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/dragondrop-cloud/cloud-concierge",
+      "title": "cloud-concierge",
+      "description": "Open Source, codify unmanaged resources as Terraform, detect drift, and cloud cost and security analysis, delivered as a Pull Request.",
+      "category": "Self-hosted Terraform Platforms",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/D10S0VSkY-OSS/Stack-Lifecycle-Deployment",
+      "title": "Stack-Lifecycle-Deployment",
+      "description": "OpenSource solution that defines and manages the complete lifecycle of resources used and provisioned into a cloud.",
+      "category": "Self-hosted Terraform Platforms",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/padok-team/burrito",
+      "title": "Burrito",
+      "description": "TACoS Kubernetes Operator - \"ArgoCD for Terraform\"",
+      "category": "Self-hosted Terraform Platforms",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://terrateam.io",
+      "title": "Terrateam",
+      "description": "Open-source alternative to Terraform Cloud/Enterprise, GitOps-first with native GitHub integration and designed for scale, security, and reliability.",
+      "category": "Self-hosted Terraform Platforms",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://compliance.tf",
+      "title": "compliance.tf",
+      "description": "Terraform modules with SOC 2, PCI DSS, HIPAA, NIST 800-53, and 35+ other frameworks built in. Non-compliant configs fail at `terraform plan` before anything applies. :heavy_dollar_sign:",
+      "category": "Managed Terraform Platforms :heavy_dollar_sign:",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://www.controlmonkey.io/",
+      "title": "ControlMonkey",
+      "description": "Alternative to Terraform Cloud with Terraform/OpenTofu code generation, cloud inventory and IaC coverage. Includes out-of-the-box policies, drift remediation, and a ClickOps activity scanner. :heavy_dollar_sign:",
+      "category": "Managed Terraform Platforms :heavy_dollar_sign:",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://www.firefly.ai/",
+      "title": "Firefly",
+      "description": "Alternative to Terraform Cloud by leveraging your CI tool. Firefly platform also scans your cloud to asses the IaC coverage & drift detection. :heavy_dollar_sign:",
+      "category": "Managed Terraform Platforms :heavy_dollar_sign:",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://www.scalr.com/",
+      "title": "Scalr",
+      "description": "Alternative to Terraform Enterprise with OPA integration, organizational structure, custom hooks, native integrations with other DevOps platforms, and centralized reporting. :heavy_dollar_sign:",
+      "category": "Managed Terraform Platforms :heavy_dollar_sign:",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://stategraph.com",
+      "title": "Stategraph",
+      "description": "Terraform and OpenTofu without the state file bottleneck. Replace the flat state file with a real database. Teams plan in parallel, state is queryable via SQL, and plans run in seconds instead of minutes. :heavy_dollar_sign:",
+      "category": "Managed Terraform Platforms :heavy_dollar_sign:",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://www.env0.com/",
+      "title": "env0",
+      "description": "Alternative to Terraform Cloud/Enterprise with OPA integration, custom flows and Terragrunt support :heavy_dollar_sign:",
+      "category": "Managed Terraform Platforms :heavy_dollar_sign:",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://www.brainboard.co",
+      "title": "Brainboard",
+      "description": "Visually Design, Deploy & Manage modern cloud infrastructures starting from any Cloud Provider - AWS, GCP, Azure :heavy_dollar_sign:",
+      "category": "Managed Terraform Platforms :heavy_dollar_sign:",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://spacelift.io/",
+      "title": "Spacelift",
+      "description": "Alternative to Terraform Cloud/Enterprise. Collaborative Infrastructure Delivery Platform for Terraform :heavy_dollar_sign:",
+      "category": "Managed Terraform Platforms :heavy_dollar_sign:",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://stackguardian.io/",
+      "title": "StackGuardian",
+      "description": "Infrastructure codification and orchestration platform that converts existing cloud resources into IaC, featuring policy-driven workflows with Tirith, OPA, and Checkov, with support for private runtimes and no-code templates. :heavy_dollar_sign:",
+      "category": "Managed Terraform Platforms :heavy_dollar_sign:",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/skierkowski/terraform-enterprise-cli",
+      "title": "terraform-enterprise-cli",
+      "description": "Terraform Enterprise Command Line Interface.",
+      "category": "Terraform Enterprise Tooling",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/skierkowski/terraform-enterprise-client",
+      "title": "terraform-enterprise-client",
+      "description": "Terraform Enterprise API Ruby Client and Command Line tool.",
+      "category": "Terraform Enterprise Tooling",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/sil-org/tfc-ops",
+      "title": "terraform-enterprise-migrator",
+      "description": "Script for migrating Terraform Enterprise environments from Legacy to new version of Terraform Enterprise.",
+      "category": "Terraform Enterprise Tooling",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCGH0yYPvlCN1VjSFMGVmFgQ",
+      "title": "Your Weekly Dose of Terraform",
+      "description": "YouTube channel with weekly live streams covering Terraform news, reviews, interviews, Q&A, live coding, and some hacking with Terraform.",
+      "category": "Videos",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://www.hashicorp.com/resources/creating-terraform-provider-for-anything",
+      "title": "Creating a Terraform Provider for Just About Anything",
+      "description": "Learn how to contribute to a Terraform provider or create your own from this walkthrough.",
+      "category": "Videos",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://www.infoq.com/presentations/terraform-consul/",
+      "title": "Orchestrating Containers with Terraform and Consul",
+      "description": "Mitchell Hashimoto shows how Terraform can be used to deploy and scale containerized workloads.",
+      "category": "Videos",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/hcl-emacs/terraform-mode",
+      "title": "Emacs terraform-mode",
+      "description": null,
+      "category": "Editor Plugins",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://plugins.jetbrains.com/plugin/7808-terraform-and-hcl",
+      "title": "Intellij",
+      "description": null,
+      "category": "Editor Plugins",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/hashicorp/terraform-ls",
+      "title": "Terraform-ls",
+      "description": null,
+      "category": "Editor Plugins",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/juliosueiras/terraform-lsp",
+      "title": "Terraform-lsp",
+      "description": null,
+      "category": "Editor Plugins",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/jvirtanen/vim-hcl",
+      "title": "vim-hcl",
+      "description": "Syntax highlighting for HCL",
+      "category": "Editor Plugins",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/juliosueiras/vim-terraform-completion",
+      "title": "Vim-Terraform-Completion",
+      "description": null,
+      "category": "Editor Plugins",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    },
+    {
+      "url": "https://github.com/hashivim/vim-terraform",
+      "title": "Vim-Terraform",
+      "description": null,
+      "category": "Editor Plugins",
+      "source": "shuaibiyy/awesome-terraform",
+      "indexedAt": "2026-07-23T14:53:28.539Z"
+    }
+  ],
+  "categories": [
+    "Official Resources",
+    "Community",
+    "Books",
+    "Learning and Studying",
+    "Apps",
+    "Beginner Guides",
+    "Writing Custom Providers",
+    "How-To",
+    "Multi-Environment Configuration",
+    "Azure",
+    "AWS",
+    "Google Cloud",
+    "Miscellaneous",
+    "Community Modules",
+    "Self-Hosted Registries",
+    "Managed Registries",
+    "Hashicorp supported providers",
+    "Vendor supported providers",
+    "Community providers",
+    "Testing",
+    "Tools",
+    "CI",
+    "VS Code Extensions",
+    "Libraries",
+    "Boilerplates",
+    "Self-hosted Terraform Platforms",
+    "Managed Terraform Platforms :heavy_dollar_sign:",
+    "Terraform Enterprise Tooling",
+    "Videos",
+    "Editor Plugins"
+  ],
+  "crawledAt": "2026-07-23T14:53:28.539Z"
+}

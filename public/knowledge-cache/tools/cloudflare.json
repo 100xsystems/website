@@ -1,0 +1,16 @@
+{
+  "id": "cloudflare",
+  "category": "tools",
+  "label": "Cloudflare",
+  "aliases": [],
+  "description": "American technology company",
+  "summary": "Cloudflare, Inc., is an American technology company headquartered in San Francisco, California, that provides a range of internet services, including content delivery network (CDN) services, cloud cybersecurity, DDoS mitigation, and ICANN-accredited domain registration. The company's services act primarily as a reverse proxy between website visitors and a customer's hosting provider, improving performance and protecting against malicious traffic.",
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Cloudflare",
+    "wikidata": "https://www.wikidata.org/wiki/Q171372"
+  },
+  "indexedAt": "2026-07-23T14:36:34.475Z"
+}

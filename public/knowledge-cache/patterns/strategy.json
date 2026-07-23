@@ -1,0 +1,16 @@
+{
+  "id": "strategy",
+  "category": "patterns",
+  "label": "Strategy",
+  "aliases": [],
+  "description": "Defines a family of algorithms and makes them interchangeable",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Strategy_pattern",
+    "wikidata": "https://www.wikidata.org/wiki/Q588884"
+  },
+  "indexedAt": "2026-07-23T14:36:41.287Z"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "deno",
+  "category": "tools",
+  "label": "Deno",
+  "aliases": [],
+  "description": "Secure runtime for JavaScript and TypeScript by the creator of Node.js",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Deno_(software)",
+    "wikidata": "https://www.wikidata.org/wiki/Q55129270"
+  },
+  "indexedAt": "2026-07-23T14:36:30.586Z"
+}

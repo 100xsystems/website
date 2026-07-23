@@ -1,0 +1,2340 @@
+{
+  "repoId": "mfornos/awesome-microservices",
+  "name": "A curated list of Microservice Architecture related principles and technologies.",
+  "description": "A curated list of Microservice Architecture related principles and technologies.",
+  "repoUrl": "https://github.com/mfornos/awesome-microservices",
+  "stars": 14452,
+  "topics": [
+    "awesome",
+    "cloud-computing",
+    "cloud-native",
+    "microservices",
+    "microservices-architecture"
+  ],
+  "links": [
+    {
+      "url": "https://github.com/1backend/1backend",
+      "title": "1Backend",
+      "description": "AI-native microservices platform.",
+      "category": "Platforms",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://jolie-lang.org",
+      "title": "Jolie",
+      "description": "Open source microservice-oriented programming language.",
+      "category": "Platforms",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/joyent/triton",
+      "title": "Triton",
+      "description": "Open-source cloud management platform that delivers next generation, container-based, service-oriented infrastructure across one or more data centers.",
+      "category": "Platforms",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://ballerina.io",
+      "title": "Ballerina",
+      "description": "Cloud native programming language.",
+      "category": "Frameworks / Runtimes",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://dapr.io",
+      "title": "Dapr",
+      "description": "Open source runtime for writing highly performant microservices using any programming language.",
+      "category": "Frameworks / Runtimes",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://microprofile.io/",
+      "title": "Eclipse Microprofile",
+      "description": "An open forum to optimize Enterprise Java for a microservices architecture by innovating across multiple implementations and collaborating on common areas of interest with a goal of standardization.",
+      "category": "Frameworks / Runtimes",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/erlang/otp",
+      "title": "Erlang/OTP",
+      "description": "Programming language used to build massively scalable soft real-time systems with requirements on high availability.",
+      "category": "Frameworks / Runtimes",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://twitter.github.io/finagle",
+      "title": "Finagle",
+      "description": "Extensible RPC system for the JVM, used to construct high-concurrency servers.",
+      "category": "Frameworks / Runtimes",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://gleam.run/",
+      "title": "Gleam",
+      "description": "A friendly language for building type-safe, scalable systems.",
+      "category": "Frameworks / Runtimes",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://www.graalvm.org/",
+      "title": "GraalVM",
+      "description": "High-performance runtime that provides significant improvements in application performance and efficiency which is ideal for microservices.",
+      "category": "Frameworks / Runtimes",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://moleculer.services/",
+      "title": "Moleculer",
+      "description": "Fast & powerful microservices framework for Node.js, Java, Go and Ruby.",
+      "category": "Frameworks / Runtimes",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://openliberty.io/",
+      "title": "Open Liberty",
+      "description": "A lightweight open framework for building fast and efficient cloud-native Java microservices.",
+      "category": "Frameworks / Runtimes",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/holepunchto/pear",
+      "title": "Pears",
+      "description": "Peer-to-peer runtime, development and deployment.",
+      "category": "Frameworks / Runtimes",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://smallrye.io/",
+      "title": "SmallRye",
+      "description": "APIs and implementations tailored for cloud development, including Eclipse MicroProfile.",
+      "category": "Frameworks / Runtimes",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/scalecube/scalecube",
+      "title": "ScaleCube",
+      "description": "Toolkit for building reactive microservices for the JVM: low-latency, high-throughput, scalable and resilient.",
+      "category": "Frameworks / Runtimes",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/vert-x3/vertx-microservices-toolbox",
+      "title": "Vert.X Toolbox",
+      "description": "A set of Vert.x components to build reactive microservice applications.",
+      "category": "Frameworks / Runtimes",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://www.grpc.io/",
+      "title": "GRPC",
+      "description": "A high performance, open source, general RPC framework that puts mobile and HTTP/2 first. Libraries in C, C++, Java, Go, Node.js, Python, Ruby, Objective-C, PHP and C#.",
+      "category": "Polyglot",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://lwan.ws/",
+      "title": "Lwan",
+      "description": "High-performance and scalable web server.",
+      "category": "C",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/uNetworking/uSockets",
+      "title": "uSockets",
+      "description": "Miniscule cross-platform eventing, networking & crypto for async applications.",
+      "category": "C",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://capnproto.org/cxxrpc.html",
+      "title": "Cap’n Proto RPC",
+      "description": "The Cap’n Proto C++ RPC implementation.",
+      "category": "C++",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/CppMicroServices/CppMicroServices",
+      "title": "C++ Micro Services",
+      "description": "An OSGi-like C++ dynamic module system and service registry.",
+      "category": "C++",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/endurox-dev/endurox/",
+      "title": "Enduro/X",
+      "description": "XATMI based service framework for GNU/Linux.",
+      "category": "C++",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/oktal/pistache",
+      "title": "Pistache",
+      "description": "A high-performance REST toolkit written in C++.",
+      "category": "C++",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://pocoproject.org/",
+      "title": "Poco",
+      "description": "C++ class libraries for building network-based applications and servers.",
+      "category": "C++",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/mjebrahimi/Awesome-Microservices-NetCore",
+      "title": "Awesome Microservices .NET Core",
+      "description": null,
+      "category": "CSharp",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://vibed.org/",
+      "title": "Vibe.d",
+      "description": "Asynchronous I/O that doesn’t get in your way, written in D.",
+      "category": "D",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://www.phoenixframework.org/",
+      "title": "Phoenix",
+      "description": "Framework for building HTML5 apps, API backends and distributed systems.",
+      "category": "Elixir",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/ninenines/cowboy",
+      "title": "Cowboy",
+      "description": "Small, fast, modular HTTP server written in Erlang.",
+      "category": "Erlang",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://echo.labstack.com/",
+      "title": "Echo",
+      "description": "Fast and unfancy HTTP server framework for Go. Up to 10x faster than the rest.",
+      "category": "Go",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/go-chassis/go-chassis",
+      "title": "Go Chassis",
+      "description": "A framework for rapid development of microservices in Go that is easy to integrate with some cloud ecosystems.",
+      "category": "Go",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://www.gorillatoolkit.org/",
+      "title": "Gorilla",
+      "description": "Web toolkit for the Go programming language.",
+      "category": "Go",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/kataras/iris",
+      "title": "Iris",
+      "description": "Fast, simple and efficient micro web framework for Go.",
+      "category": "Go",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/scotty-web/scotty",
+      "title": "Scotty",
+      "description": "Micro web framework inspired by Ruby's Sinatra, using WAI and Warp.",
+      "category": "Haskell",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/haskell-servant/servant",
+      "title": "Servant",
+      "description": "Type-level web DSL.",
+      "category": "Haskell",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/yesodweb/yesod",
+      "title": "Yesod",
+      "description": "The Haskell RESTful web framework.",
+      "category": "Haskell",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/weavejester/compojure",
+      "title": "Compojure",
+      "description": "A concise routing library for Ring/Clojure.",
+      "category": "Clojure",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://duct-framework.org/",
+      "title": "Duct",
+      "description": "A server-side framework for Clojure.",
+      "category": "Clojure",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/danielsz/system",
+      "title": "System",
+      "description": "Built on top of Stuart Sierra's component library, offers a set of readymade components.",
+      "category": "Clojure",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/otto-de/tesla-microservice",
+      "title": "Tesla",
+      "description": "Common basis for some of Otto.de's Clojure microservices.",
+      "category": "Clojure",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/activej/activej",
+      "title": "ActiveJ",
+      "description": "Lightweight and fast library for complex high-load distributed applications and Memcached-like solutions.",
+      "category": "Java",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/airlift/airlift",
+      "title": "Airlift",
+      "description": "Framework for building REST services in Java.",
+      "category": "Java",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://line.github.io/armeria/",
+      "title": "Armeria",
+      "description": "Open-source asynchronous HTTP/2 RPC/REST client/server library built on top of Java 8, Netty, Thrift and gRPC.",
+      "category": "Java",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/LMAX-Exchange/disruptor",
+      "title": "Disruptor",
+      "description": "High-performance inter-thread messaging library.",
+      "category": "Java",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/palantir/conjure-java-runtime",
+      "title": "Conjure",
+      "description": "Opinionated set of libraries for defining and creating RESTish/RPC servers and clients based on Feign or Retrofit as a client and Dropwizard/Jersey with JAX-RS service definitions as a server.",
+      "category": "Java",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/eclipse-ee4j/jersey",
+      "title": "Jersey",
+      "description": "RESTful services in Java. JAX-RS reference implementation.",
+      "category": "Java",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://projects.spring.io/spring-boot/",
+      "title": "Spring Boot",
+      "description": "Makes it easy to create stand-alone, production-grade Spring based applications.",
+      "category": "Java",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://www.http4k.org/",
+      "title": "Http4k",
+      "description": "Lightweight but fully-featured HTTP toolkit written in pure Kotlin that enables the serving and consuming of HTTP services in a functional and consistent way.",
+      "category": "Kotlin",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://ktor.io/",
+      "title": "Ktor",
+      "description": "Framework for building asynchronous servers and clients in connected systems using the Kotlin programming language.",
+      "category": "Kotlin",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://twitter.github.io/finatra/",
+      "title": "Finatra",
+      "description": "Fast, testable, Scala HTTP services built on Twitter-Server and Finagle.",
+      "category": "Scala",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://http4s.org/",
+      "title": "Http4s",
+      "description": "A minimal, idiomatic Scala interface for HTTP",
+      "category": "Scala",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://www.actionherojs.com/",
+      "title": "Actionhero",
+      "description": "Multi-transport Node.js API server with integrated cluster capabilities and delayed tasks.",
+      "category": "Node.js",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://expressjs.com/",
+      "title": "Express",
+      "description": "Fast, unopinionated, minimalist web framework for Node.js",
+      "category": "Node.js",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://www.fastify.io/",
+      "title": "Fastify",
+      "description": "Fastify, Fast and low overhead web framework, for Node.js.",
+      "category": "Node.js",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://feathersjs.com/",
+      "title": "FeathersJS",
+      "description": "An open source REST and realtime API layer for modern applications.",
+      "category": "Node.js",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://hono.dev/",
+      "title": "Hono",
+      "description": "Small, simple, and ultrafast web framework for the Edges. It works on any JavaScript runtime.",
+      "category": "Node.js",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://koajs.com/",
+      "title": "Koa",
+      "description": "Next generation web framework for Node.js",
+      "category": "Node.js",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://loopback.io/",
+      "title": "Loopback",
+      "description": "Node.js framework for creating APIs and easily connecting to backend data sources.",
+      "category": "Node.js",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://docs.nestjs.com/",
+      "title": "NestJS",
+      "description": "A Node.js framework for building efficient and scalable server-side applications with a built-in microservices support.",
+      "category": "Node.js",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://cro.services/",
+      "title": "Cro",
+      "description": "Libraries for creating reactive distributed systems using Perl 6.",
+      "category": "Perl",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://mojolicious.org/",
+      "title": "Mojolicious",
+      "description": "Next generation web framework for Perl.",
+      "category": "Perl",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://api-platform.com/",
+      "title": "API Platform",
+      "description": "API-first web framework on top of Symfony with JSON-LD, Schema.org and Hydra support.",
+      "category": "PHP",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://docs.ecotone.tech/",
+      "title": "Ecotone",
+      "description": "Framework based on architectural principles of DDD, CQRS and Event Sourcing that provides building blocks to create scalable and extensible applications.",
+      "category": "PHP",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/hyperf/hyperf",
+      "title": "Hyperf",
+      "description": "Hyperf is an extremely performant and flexible PHP CLI framework based on Swoole 4.5+, powered by the state-of-the-art coroutine server and a large number of battle-tested components.",
+      "category": "PHP",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://lumen.laravel.com/",
+      "title": "Lumen",
+      "description": "Stunningly fast micro-framework.",
+      "category": "PHP",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://www.slimframework.com/",
+      "title": "Slim",
+      "description": "Micro-framework that helps you quickly write simple yet powerful web applications and APIs.",
+      "category": "PHP",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://spiral.dev/",
+      "title": "Spiral",
+      "description": "Framework designed for long-running applications using [RoadRunner](https://roadrunner.dev/). It offers advanced features like integration with the [Temporal](https://temporal.io/) workflow engine and [Centrifugo](https://centrifugal.dev/) websocket server. It is particularly effective for microservices architecture, providing robust support for REST APIs and gRPC services.",
+      "category": "PHP",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/swoft-cloud/swoft/",
+      "title": "Swoft",
+      "description": "PHP microservices coroutine framework for building high-performance web systems, APIs, middleware, and basic services.",
+      "category": "PHP",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://symfony.com/",
+      "title": "Symfony",
+      "description": "Micro-framework based on the Symfony components.",
+      "category": "PHP",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://bottlepy.org",
+      "title": "Bottle",
+      "description": "Fast, simple and lightweight WSGI micro web-framework for Python.",
+      "category": "Python",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/zalando/connexion",
+      "title": "Connexion",
+      "description": "Swagger/OpenAPI framework for Python on top of Flask with automatic endpoint validation and OAuth2 support.",
+      "category": "Python",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://falconframework.org/",
+      "title": "Falcon",
+      "description": "Bare-metal Python web API framework for building very fast app backends and microservices.",
+      "category": "Python",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/",
+      "title": "FastAPI",
+      "description": "Modern, fast (high-performance), web framework for building APIs with Python 3.6+ based on standard Python type hints.",
+      "category": "Python",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://flask.pocoo.org/",
+      "title": "Flask",
+      "description": "Python framework for microservices based on Werkzeug and Jinja 2.",
+      "category": "Python",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/onefinestay/nameko",
+      "title": "Nameko",
+      "description": "Python framework for building microservices.",
+      "category": "Python",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://www.tornadoweb.org/",
+      "title": "Tornado",
+      "description": "Web framework and asynchronous networking library.",
+      "category": "Python",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://twisted.org/",
+      "title": "Twisted",
+      "description": "Event-driven network programming engine.",
+      "category": "Python",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/webpy/webpy/",
+      "title": "Web.py",
+      "description": "Minimalist web framework for Python.",
+      "category": "Python",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/ruby-grape/grape",
+      "title": "Grape",
+      "description": "An opinionated framework for creating REST-like APIs",
+      "category": "Ruby",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/hanami",
+      "title": "Hanami",
+      "description": "A modern web framework for Ruby.",
+      "category": "Ruby",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/rightscale/praxis",
+      "title": "Praxis",
+      "description": "Framework for both designing and implementing APIs.",
+      "category": "Ruby",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/wardrop/Scorched",
+      "title": "Scorched",
+      "description": "Light-weight web framework for Ruby.",
+      "category": "Ruby",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://www.arewewebyet.org/",
+      "title": "Are we web yet?",
+      "description": null,
+      "category": "Rust",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://actix.rs/",
+      "title": "Actix",
+      "description": "Powerful, pragmatic, and extremely fast web framework for Rust.",
+      "category": "Rust",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/google/tarpc",
+      "title": "Tarpc",
+      "description": "RPC framework for Rust with a focus on ease of use.",
+      "category": "Rust",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://tokio.rs",
+      "title": "Tokio",
+      "description": "Asynchronous runtime for writing network applications.",
+      "category": "Rust",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/tower-rs/tower",
+      "title": "Tower",
+      "description": "Library of modular and reusable components for building robust networking clients and servers.",
+      "category": "Rust",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/ChristianUlbrich/awesome-microfrontends",
+      "title": "Awesome Micro Frontends",
+      "description": null,
+      "category": "Frontend / UI",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/electrode-io",
+      "title": "Electrode",
+      "description": "Universal React/Node.js application platform.",
+      "category": "Frontend / UI",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://micro-frontends.org",
+      "title": "Micro Frontends",
+      "description": "Extending the microservice idea to frontend development.",
+      "category": "Frontend / UI",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://w3c.github.io/miniapp/white-paper/",
+      "title": "MiniApp White Paper",
+      "description": "MiniApp standardization white paper.",
+      "category": "Frontend / UI",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://www.getambassador.io",
+      "title": "Ambassador (c)",
+      "description": "Kubernetes-native API gateway for microservices built on Envoy.",
+      "category": "API Gateways / Edge Services",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/3scale/APIcast",
+      "title": "APIcast",
+      "description": "APIcast is an API gateway built on top of NGINX. It is part of the Red Hat 3scale API Management Platform.",
+      "category": "API Gateways / Edge Services",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://caddyserver.com/",
+      "title": "Caddy",
+      "description": "Extensible HTTP/2 web server with automatic HTTPS.",
+      "category": "API Gateways / Edge Services",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/lyft/envoy",
+      "title": "Envoy",
+      "description": "Open source edge and service proxy, from the developers at Lyft.",
+      "category": "API Gateways / Edge Services",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://istio.io/",
+      "title": "Istio",
+      "description": "An open platform to connect, manage, and secure microservices.",
+      "category": "API Gateways / Edge Services",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://www.keepalived.org/",
+      "title": "Keepalived",
+      "description": "Simple and robust facilities for loadbalancing and high-availability to Linux system and Linux based infrastructures.",
+      "category": "API Gateways / Edge Services",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://krakend.io/",
+      "title": "KrakenD",
+      "description": "Open source ultra performance API Gateway.",
+      "category": "API Gateways / Edge Services",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://kuma.io/",
+      "title": "Kuma",
+      "description": "Platform agnostic open source control plane for service mesh and microservices.",
+      "category": "API Gateways / Edge Services",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/eBay/Neutrino",
+      "title": "Neutrino",
+      "description": "Extensible software load balancer.",
+      "category": "API Gateways / Edge Services",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://openresty.org/",
+      "title": "OpenResty",
+      "description": "Fast web application server built on top of Nginx.",
+      "category": "API Gateways / Edge Services",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://openservicemesh.io/",
+      "title": "Open Service Mesh",
+      "description": "Lightweight and extensible cloud native service mesh.",
+      "category": "API Gateways / Edge Services",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://www.otoroshi.io/",
+      "title": "Otoroshi",
+      "description": "Modern HTTP reverse proxy with lightweight API management.",
+      "category": "API Gateways / Edge Services",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://cloud.spring.io/spring-cloud-gateway/",
+      "title": "Spring Cloud Gateway",
+      "description": "API Gateway on top of Spring MVC. Aims to provide a simple, yet effective way to route to APIs.",
+      "category": "API Gateways / Edge Services",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://tengine.taobao.org/",
+      "title": "Tengine",
+      "description": "A distribution of Nginx with some advanced features.",
+      "category": "API Gateways / Edge Services",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/apache/trafficserver",
+      "title": "Traffic Server",
+      "description": "High-performance building block for cloud services.",
+      "category": "API Gateways / Edge Services",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://tyk.io/",
+      "title": "Tyk",
+      "description": "Open source, fast and scalable API gateway, portal and API management platform.",
+      "category": "API Gateways / Edge Services",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://line.github.io/centraldogma/",
+      "title": "Central Dogma",
+      "description": "Open-source highly-available version-controlled service configuration repository based on Git, ZooKeeper and HTTP/2.",
+      "category": "Configuration & Discovery",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/coreos/etcd",
+      "title": "Etcd",
+      "description": "Highly-available key-value store for shared configuration and service discovery.",
+      "category": "Configuration & Discovery",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/Netflix/eureka/wiki/Eureka-at-a-glance",
+      "title": "Eureka",
+      "description": "REST based service that is primarily used in the AWS cloud for locating services for the purpose of load balancing and failover of middle-tier servers.",
+      "category": "Configuration & Discovery",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/alibaba/nacos",
+      "title": "Nacos",
+      "description": "Easy-to-use dynamic service discovery, configuration and service management platform.",
+      "category": "Configuration & Discovery",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/skynetservices/skydns",
+      "title": "SkyDNS",
+      "description": "Distributed service for announcement and discovery of services built on top of etcd. It utilizes DNS queries to discover available services.",
+      "category": "Configuration & Discovery",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://cloud.spring.io/spring-cloud-config/",
+      "title": "Spring Cloud Config",
+      "description": "Provides server and client-side support for externalized configuration in a distributed system.",
+      "category": "Configuration & Discovery",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://aws.amazon.com/step-functions/",
+      "title": "AWS Step Functions (c)",
+      "description": "Coordinate the components of distributed applications and microservices using visual workflows.",
+      "category": "Workflow Orchestration",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/inngest/inngest",
+      "title": "Inngest",
+      "description": "Durable functions for reliable background logic, from background jobs to complex workflows.",
+      "category": "Workflow Orchestration",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/temporalio/temporal",
+      "title": "Temporal",
+      "description": "Open source microservices orchestration platform for running mission critical code at any scale.",
+      "category": "Workflow Orchestration",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://camunda.com/platform/zeebe/",
+      "title": "Zeebe",
+      "description": "Define, orchestrate, and monitor business processes across microservices.",
+      "category": "Workflow Orchestration",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://hazelcast.org/",
+      "title": "Hazelcast",
+      "description": "Open source in-memory data-grid. Allows you to distribute data and computation across servers, clusters and geographies, and to manage very large data sets or high data ingest rates. Mature technology.",
+      "category": "Elasticity",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://helix.apache.org/",
+      "title": "Helix",
+      "description": "Generic cluster management framework used for the automatic management of partitioned, replicated and distributed resources hosted on a cluster of nodes.",
+      "category": "Elasticity",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://ignite.apache.org/",
+      "title": "Ignite",
+      "description": "High-performance, integrated and distributed in-memory platform for computing and transacting on large-scale data sets in real-time, orders of magnitude faster than possible with traditional disk-based or flash technologies.",
+      "category": "Elasticity",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://libp2p.io/",
+      "title": "Libp2p",
+      "description": "A framework and suite of protocols for building peer-to-peer network applications.",
+      "category": "Elasticity",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://www.nomadproject.io/",
+      "title": "Nomad",
+      "description": "Distributed, highly available, datacenter-aware scheduler.",
+      "category": "Elasticity",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/mrniko/redisson",
+      "title": "Redisson",
+      "description": "Distributed and scalable Java data structures on top of Redis server.",
+      "category": "Elasticity",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://www.serf.io/",
+      "title": "Serf",
+      "description": "Decentralized solution for cluster membership, failure detection and orchestration.",
+      "category": "Elasticity",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/valkey-io/valkey",
+      "title": "Valkey",
+      "description": "A new project to resume development on the formerly open-source Redis project.",
+      "category": "Elasticity",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://zenoh.io/",
+      "title": "Zenoh",
+      "description": "Pub/sub/query protocol unifying data in motion, data at rest and computations. Efficiently blends traditional pub/sub with geo distributed storage, queries and computations.",
+      "category": "Elasticity",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://dkron.io/",
+      "title": "Dkron",
+      "description": "Distributed, fault tolerant job scheduling system.",
+      "category": "Job Schedulers / Workload Automation",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/contribsys/faktory",
+      "title": "Faktory",
+      "description": "Language-agnostic persistent background job server.",
+      "category": "Job Schedulers / Workload Automation",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://rundeck.org/",
+      "title": "Rundeck (c)",
+      "description": "Job scheduler and runbook automation. Enable self-service access to existing scripts and tools.",
+      "category": "Job Schedulers / Workload Automation",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/schedulix/schedulix",
+      "title": "Schedulix",
+      "description": "Open source enterprise job scheduling system lays down ground-breaking standards for the professional automation of IT processes in advanced system environments.",
+      "category": "Job Schedulers / Workload Automation",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://www.elastic.co/products/kibana",
+      "title": "Kibana",
+      "description": "Flexible analytics and visualization platform.",
+      "category": "Logging",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://logdna.com/",
+      "title": "LogDNA (c)",
+      "description": "Centralized log management software. Instantly collect, centralize, and analyze logs in real-time from any platform, at any volume.",
+      "category": "Logging",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://zeromq.org/",
+      "title": "ØMQ",
+      "description": "Brokerless intelligent transport layer.",
+      "category": "Messaging",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://beanstalkd.github.io/",
+      "title": "Beanstalk",
+      "description": "Simple, fast work queue.",
+      "category": "Messaging",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/crossbario/crossbar",
+      "title": "Crossbar",
+      "description": "Open source networking platform for distributed and microservice applications. It implements the open Web Application Messaging Protocol (WAMP).",
+      "category": "Messaging",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/zeromq/malamute",
+      "title": "Malamute",
+      "description": "ZeroMQ enterprise messaging broker.",
+      "category": "Messaging",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://mosquitto.org/",
+      "title": "Mosquitto",
+      "description": "Open source message broker that implements the MQTT protocol.",
+      "category": "Messaging",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://nats.io/",
+      "title": "NATS",
+      "description": "Open source, high-performance, lightweight cloud messaging system.",
+      "category": "Messaging",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/apache/incubator-rocketmq",
+      "title": "RocketMQ",
+      "description": "A low latency, reliable, scalable, easy to use message oriented middleware born from alibaba massive messaging business.",
+      "category": "Messaging",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://www.elastic.co/beats/",
+      "title": "Beats",
+      "description": "Lightweight shippers for Elasticsearch & Logstash.",
+      "category": "Monitoring & Debugging",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/yelp/elastalert",
+      "title": "Elastalert",
+      "description": "Easy & flexible alerting for Elasticsearch.",
+      "category": "Monitoring & Debugging",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://ganglia.info/",
+      "title": "Ganglia",
+      "description": "A scalable distributed monitoring system for high-performance computing systems such as clusters and grids.",
+      "category": "Monitoring & Debugging",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://grafana.org/",
+      "title": "Grafana",
+      "description": "An open source, feature rich metrics dashboard and graph editor for Graphite, InfluxDB & OpenTSDB.",
+      "category": "Monitoring & Debugging",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://graphite.wikidot.com/",
+      "title": "Graphite",
+      "description": "Scalable realtime graphing.",
+      "category": "Monitoring & Debugging",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://www.iopipe.com/",
+      "title": "IOpipe (c)",
+      "description": "Application performance monitoring for Amazon Lambda.",
+      "category": "Monitoring & Debugging",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://www.jaegertracing.io/",
+      "title": "Jaeger",
+      "description": "An open source, end-to-end distributed tracing",
+      "category": "Monitoring & Debugging",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://opentelemetry.io/",
+      "title": "OpenTelemetry",
+      "description": "High-quality, ubiquitous, and portable telemetry to enable effective observability.",
+      "category": "Monitoring & Debugging",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://prometheus.io/",
+      "title": "Prometheus",
+      "description": "An open source service monitoring system and time series database.",
+      "category": "Monitoring & Debugging",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://riemann.io/",
+      "title": "Riemann",
+      "description": "Monitors distributed systems.",
+      "category": "Monitoring & Debugging",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/sensu",
+      "title": "Sensu",
+      "description": "Monitoring for today's infrastructure.",
+      "category": "Monitoring & Debugging",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://skywalking.apache.org/",
+      "title": "SkyWalking",
+      "description": "Application performance monitor tool for distributed systems, especially designed for microservices, cloud native and container-based (Docker, K8s, Mesos) architectures.",
+      "category": "Monitoring & Debugging",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://www.zabbix.com/",
+      "title": "Zabbix",
+      "description": "Open source enterprise-class monitoring solution.",
+      "category": "Monitoring & Debugging",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/reactor",
+      "title": "Reactor.io",
+      "description": "A second-generation Reactive library for building non-blocking applications on the JVM based on the Reactive Streams Specification.",
+      "category": "Reactivity",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://reactivex.io/",
+      "title": "ReactiveX",
+      "description": "API for asynchronous programming with observable streams. Available for idiomatic Java, Scala, C#, C++, Clojure, JavaScript, Python, Groovy, JRuby, and others.",
+      "category": "Reactivity",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://rsocket.io/",
+      "title": "RSocket",
+      "description": "Application protocol providing Reactive Streams semantics.",
+      "category": "Reactivity",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/dastergon/awesome-chaos-engineering",
+      "title": "Awesome Chaos Engineering",
+      "description": null,
+      "category": "Resilience",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://raft.github.io/",
+      "title": "Raft Consensus",
+      "description": "Consensus algorithm that is designed to be easy to understand. It's equivalent to Paxos in fault-tolerance and performance.",
+      "category": "Resilience",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://svix.com",
+      "title": "Svix",
+      "description": "Webhooks service that sends webhooks to your users with full retry schedules, exponential backoff, signature verification, and event types.",
+      "category": "Resilience",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://www.cerbos.dev/product-cerbos-hub",
+      "title": "Cerbos Hub",
+      "description": "Authorization management system for authoring, testing, and deploying access policies. Built scalable, fine-grained authorization in a microservice architecture.",
+      "category": "Security",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/coreos/dex",
+      "title": "Dex",
+      "description": "Opinionated auth/directory service with pluggable connectors. OpenID Connect provider and third-party OAuth 2.0 delegation.",
+      "category": "Security",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://jwt.io/",
+      "title": "JWT",
+      "description": "JSON Web Tokens are an open, industry standard RFC 7519 method for representing claims securely between two parties.",
+      "category": "Security",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://oauth.net/2/",
+      "title": "OAuth",
+      "description": "Provides specific authorization flows for web applications, desktop applications, mobile phones, and living room devices. Many implementations.",
+      "category": "Security",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://openid.net/certified-open-id-developer-tools/",
+      "title": "OpenID Connect",
+      "description": "Libraries, products, and tools implementing current OpenID specifications and related specs.",
+      "category": "Security",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://openziti.io/",
+      "title": "Open Ziti",
+      "description": "Zero trust security and overlay networking as pure open source software.",
+      "category": "Security",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://www.ory.sh/",
+      "title": "ORY",
+      "description": "Open source identity infrastructure and services.",
+      "category": "Security",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/OWASP/www-project-agent-memory-guard",
+      "title": "OWASP Agent Memory Guard",
+      "description": "Runtime defense layer for AI agent memory poisoning (OWASP ASI06). Detects tampered memory entries, prompt injection in memory paths, and secret leakage. YAML policies, microsecond latency, zero external dependencies.",
+      "category": "Security",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://simplecloud.info/",
+      "title": "SCIM",
+      "description": "System for Cross-domain Identity Management.",
+      "category": "Security",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://www.vaultproject.io/",
+      "title": "Vault",
+      "description": "Secures, stores, and tightly controls access to tokens, passwords, certificates, API keys, and other secrets in modern computing.",
+      "category": "Security",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/ochrons/boopickle",
+      "title": "BooPickle",
+      "description": "Binary serialization library for efficient network communication. For Scala and Scala.js",
+      "category": "Serialization",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://capnproto.org/",
+      "title": "Cap’n Proto",
+      "description": "Insanely fast data interchange format and capability-based RPC system.",
+      "category": "Serialization",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://cbor.io/",
+      "title": "CBOR",
+      "description": "Implementations of the CBOR standard (RFC 7049) in many languages.",
+      "category": "Serialization",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://uscilab.github.io/cereal/",
+      "title": "Cereal",
+      "description": "C++11 library for serialization.",
+      "category": "Serialization",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/dakrone/cheshire",
+      "title": "Cheshire",
+      "description": "Clojure JSON and JSON SMILE encoding/decoding.",
+      "category": "Serialization",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://etch.apache.org/",
+      "title": "Etch",
+      "description": "Cross-platform, language and transport-independent framework for building and consuming network services.",
+      "category": "Serialization",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/pquerna/ffjson",
+      "title": "Ffjson",
+      "description": "Faster JSON serialization for Go.",
+      "category": "Serialization",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/FasterXML/jackson-module-afterburner",
+      "title": "Jackson Afterburner",
+      "description": "Jackson module that uses bytecode generation to further speed up data binding (+30-40% throughput for serialization, deserialization).",
+      "category": "Serialization",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/fastserial/lite3",
+      "title": "Lite³",
+      "description": "JSON-compatible zero-copy serialization format.",
+      "category": "Serialization",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://msgpack.org/",
+      "title": "MessagePack",
+      "description": "Efficient binary serialization format.",
+      "category": "Serialization",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/protostuff/protostuff",
+      "title": "Protostuff",
+      "description": "A serialization library with built-in support for forward-backward compatibility (schema evolution) and validation.",
+      "category": "Serialization",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/harrah/sbinary",
+      "title": "SBinary",
+      "description": "Library for describing binary formats for Scala types.",
+      "category": "Serialization",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/Alluxio/alluxio",
+      "title": "Alluxio",
+      "description": "Virtual distributed storage system.",
+      "category": "Storage",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://www.aerospike.com/",
+      "title": "Aerospike (c)",
+      "description": "High performance NoSQL database delivering speed at scale.",
+      "category": "Storage",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/palantir/atlasdb",
+      "title": "AtlasDB",
+      "description": "Transactional layer on top of a key value store.",
+      "category": "Storage",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/citusdata/citus",
+      "title": "Citus",
+      "description": "Distributed PostgreSQL as an extension.",
+      "category": "Storage",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://www.cockroachlabs.com/",
+      "title": "CockroachDB (c)",
+      "description": "A cloud-native SQL database modelled after Google Spanner.",
+      "category": "Storage",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/couchbase",
+      "title": "Couchbase",
+      "description": "A distributed database engineered for performance, scalability, and simplified administration.",
+      "category": "Storage",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://druid.io/",
+      "title": "Druid",
+      "description": "Fast column-oriented distributed data store.",
+      "category": "Storage",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://www.elastic.co/elasticsearch",
+      "title": "Elasticsearch",
+      "description": "Open source distributed, scalable, and highly available search server.",
+      "category": "Storage",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://geode.incubator.apache.org/",
+      "title": "Geode",
+      "description": "Open source, distributed, in-memory database for scale-out applications.",
+      "category": "Storage",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://opentsdb.net",
+      "title": "OpenTSDB",
+      "description": "Scalable and distributed time series database written on top of Apache HBase.",
+      "category": "Storage",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/pilosa/pilosa",
+      "title": "Pilosa",
+      "description": "Open source, distributed bitmap index that dramatically accelerates queries across multiple, massive data sets.",
+      "category": "Storage",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/ssbc/docs",
+      "title": "Secure Scuttlebutt",
+      "description": "P2P database of message-feeds.",
+      "category": "Storage",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/tikv",
+      "title": "TiKV",
+      "description": "Distributed transactional key-value database.",
+      "category": "Storage",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/buger/goreplay",
+      "title": "Goreplay",
+      "description": "A tool for capturing and replaying live HTTP traffic into a test environment.",
+      "category": "Testing",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://mitmproxy.org/",
+      "title": "Mitmproxy",
+      "description": "An interactive console program that allows traffic flows to be intercepted, inspected, modified and replayed.",
+      "category": "Testing",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://www.mbtest.org/",
+      "title": "Mountebank",
+      "description": "Cross-platform, multi-protocol test doubles over the wire.",
+      "category": "Testing",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://docs.pact.io",
+      "title": "Pact",
+      "description": "Contract testing framework for HTTP APIs and non-HTTP asynchronous messaging systems.",
+      "category": "Testing",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/restqa/restqa",
+      "title": "RestQA",
+      "description": "A tool to manage microservices mocking, unit and performance testing locally with best in class developer experience.",
+      "category": "Testing",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://specmatic.io",
+      "title": "Specmatic",
+      "description": "Converts API specifications (OpenAPI, AsyncAPI, GraphQL, gRPC etc) into executable contracts for automated testing, service virtualisation, and backward compatibility validation without writing code.",
+      "category": "Testing",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://cloud.spring.io/spring-cloud-contract/",
+      "title": "Spring Cloud Contract",
+      "description": "TDD to the level of software architecture.",
+      "category": "Testing",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/epam/Wilma",
+      "title": "Wilma",
+      "description": "Combined HTTP/HTTPS service stub and transparent proxy solution.",
+      "category": "Testing",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/asyncapi/spec",
+      "title": "AsyncAPI",
+      "description": "AsyncAPI specification, the industry standard for defining asynchronous APIs.",
+      "category": "Async",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://graphql.org/",
+      "title": "GraphQL",
+      "description": "Query language designed to build client applications by providing an intuitive and flexible syntax and system for describing their data requirements and interactions.",
+      "category": "GraphQL",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://jsonapi.org/",
+      "title": "JSON:API",
+      "description": "A specification for how a client should request that resources be fetched or modified, and how a server should respond to those requests.",
+      "category": "JSON",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://apiblueprint.org/",
+      "title": "API Blueprint",
+      "description": "Tools for your whole API lifecycle. Use it to discuss your API with others. Generate documentation automatically. Or a test suite. Or even some code.",
+      "category": "REST",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://www.openapis.org/",
+      "title": "OpenAPI",
+      "description": "The OpenAPI Specification (OAS) provides a consistent means to carry information through each stage of the API lifecycle.",
+      "category": "REST",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://raml.org/",
+      "title": "RAML",
+      "description": "RESTful API Modeling Language, a simple and succinct way of describing practically-RESTful APIs.",
+      "category": "REST",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/Redocly/redoc",
+      "title": "ReDoc",
+      "description": "OpenAPI/Swagger-generated API Documentation.",
+      "category": "REST",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/scalar/scalar",
+      "title": "Scalar",
+      "description": "Open-source API platform: beautiful API references and 1st-class OpenAPI/Swagger support.",
+      "category": "REST",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/slatedocs/slate",
+      "title": "Slate",
+      "description": "Beautiful static documentation for your API.",
+      "category": "REST",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://projects.spring.io/spring-restdocs/",
+      "title": "Spring REST Docs",
+      "description": "Document RESTful services by combining hand-written documentation with auto-generated snippets produced with Spring MVC Test.",
+      "category": "REST",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://www.w3.org/TR/webarch/",
+      "title": "W3C.REC-Webarch",
+      "description": "Architecture of the World Wide Web, Volume One.",
+      "category": "World Wide Web",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://tools.ietf.org/html/rfc3986",
+      "title": "RFC3986",
+      "description": "Uniform Resource Identifier (URI): Generic Syntax.",
+      "category": "World Wide Web",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://tools.ietf.org/html/rfc6570",
+      "title": "RFC6570",
+      "description": "URI Template.",
+      "category": "World Wide Web",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://tools.ietf.org/html/rfc7320",
+      "title": "RFC7320",
+      "description": "URI Design and Ownership.",
+      "category": "World Wide Web",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://www.w3.org/TR/did-core/",
+      "title": "DID",
+      "description": "W3C specification of Decentralized identifiers (DIDs): a new type of identifier that enables verifiable, decentralized digital identity.",
+      "category": "Self-sovereignty & Decentralisation",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/decentralized-identity/didcomm-messaging",
+      "title": "DIDComm",
+      "description": "Private communication methodology built atop the decentralized design of DIDs.",
+      "category": "Self-sovereignty & Decentralisation",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://didcomm.org/",
+      "title": "DIDComm Protocols",
+      "description": "Registry of protocols built on DIDComm, for high-trust, self-sovereign interactions over any transport.",
+      "category": "Self-sovereignty & Decentralisation",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://internationaldataspaces.org/",
+      "title": "IDSA",
+      "description": "The International Data Spaces Association (IDSA) is on a mission to create the future of the global, digital economy with International Data Spaces (IDS), a secure, sovereign system of data sharing in which all participants can realize the full value of their data.",
+      "category": "Self-sovereignty & Decentralisation",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://tools.ietf.org/html/rfc7230",
+      "title": "RFC7230",
+      "description": "Message Syntax and Routing.",
+      "category": "HTTP/1.1",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://tools.ietf.org/html/rfc7231",
+      "title": "RFC7231",
+      "description": "Semantics and Content.",
+      "category": "HTTP/1.1",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://tools.ietf.org/html/rfc7232",
+      "title": "RFC7232",
+      "description": "Conditional Requests.",
+      "category": "HTTP/1.1",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://tools.ietf.org/html/rfc7233",
+      "title": "RFC7233",
+      "description": "Range Requests.",
+      "category": "HTTP/1.1",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://tools.ietf.org/html/rfc7234",
+      "title": "RFC7234",
+      "description": "Caching.",
+      "category": "HTTP/1.1",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://tools.ietf.org/html/rfc7235",
+      "title": "RFC7235",
+      "description": "Authentication.",
+      "category": "HTTP/1.1",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://tools.ietf.org/html/rfc7807",
+      "title": "RFC7807",
+      "description": "Problem Details for HTTP APIs.",
+      "category": "HTTP/1.1",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://tools.ietf.org/html/rfc7540",
+      "title": "RFC7540",
+      "description": "Hypertext Transfer Protocol Version 2.",
+      "category": "HTTP/2",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://quicwg.org/",
+      "title": "QUIC-WG",
+      "description": "IETF Working Group that is chartered to deliver the next transport protocol for the Internet.",
+      "category": "QUIC",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://tools.ietf.org/html/draft-ietf-quic-transport-27",
+      "title": "QUIC-Transport",
+      "description": "A UDP-based multiplexed and secure transport.",
+      "category": "QUIC",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://www.jsonrpc.org/specification",
+      "title": "JSON-RPC 2.0",
+      "description": "A stateless, light-weight remote procedure call (RPC) protocol.",
+      "category": "RPC",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://open-rpc.org/",
+      "title": "Open RPC",
+      "description": "The OpenRPC Specification defines a standard, programming language-agnostic interface description for JSON-RPC 2.0 APIs.",
+      "category": "RPC",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://www.amqp.org/",
+      "title": "AMQP",
+      "description": "Advanced Message Queuing Protocol.",
+      "category": "Messaging",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://mqtt.org/",
+      "title": "MQTT",
+      "description": "MQ Telemetry Transport.",
+      "category": "Messaging",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://stomp.github.io/",
+      "title": "STOMP",
+      "description": "Simple Text Oriented Messaging Protocol.",
+      "category": "Messaging",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://datatracker.ietf.org/doc/html/draft-ietf-gnap-core-protocol",
+      "title": "GNAP",
+      "description": "Grant Negotiation and Authorization Protocol defines a mechanism for delegating authorization to a piece of software, and conveying that delegation to the software. This delegation can include access to a set of APIs as well as information passed directly to the software.<sup>DRAFT</sup>",
+      "category": "Security",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://openid.net/connect/",
+      "title": "OIDCONN",
+      "description": "OpenID Connect 1.0 is a simple identity layer on top of the OAuth 2.0 protocol. It allows clients to verify the identity of the end-user based on the authentication performed by an Authorization Server, as well as to obtain basic profile information about the end-user in an interoperable and REST-like manner.",
+      "category": "Security",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://paseto.io/",
+      "title": "PASETO",
+      "description": "Paseto is everything you love about JOSE (JWT, JWE, JWS) without any of the many design deficits that plague the JOSE standards. <sup>DRAFT</sup>",
+      "category": "Security",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://tools.ietf.org/html/rfc5246",
+      "title": "RFC5246",
+      "description": "The Transport Layer Security (TLS) Protocol Version 1.2.",
+      "category": "Security",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://tools.ietf.org/html/rfc6066",
+      "title": "RFC6066",
+      "description": "TLS Extensions.",
+      "category": "Security",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://tools.ietf.org/html/rfc6347",
+      "title": "RFC6347",
+      "description": "Datagram Transport Layer Security Version 1.2.",
+      "category": "Security",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://tools.ietf.org/html/rfc6749",
+      "title": "RFC6749",
+      "description": "The OAuth 2.0 authorization framework.",
+      "category": "Security",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://tools.ietf.org/html/rfc6962",
+      "title": "RFC6962",
+      "description": "Certificate transparency.",
+      "category": "Security",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://tools.ietf.org/html/rfc7515",
+      "title": "RFC7515",
+      "description": "JSON Web Signature (JWS) represents content secured with digital signatures or Message Authentication Codes (MACs) using JSON-based data structures.",
+      "category": "Security",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://tools.ietf.org/html/rfc7519",
+      "title": "RFC7519",
+      "description": "JSON Web Token (JWT) is a compact, URL-safe means of representing claims to be transferred between two parties.",
+      "category": "Security",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://tools.ietf.org/html/rfc7642",
+      "title": "RFC7642",
+      "description": "SCIM: Definitions, overview, concepts, and requirements.",
+      "category": "Security",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://tools.ietf.org/html/rfc7643",
+      "title": "RFC7643",
+      "description": "SCIM: Core Schema, provides a platform-neutral schema and extension model for representing users and groups.",
+      "category": "Security",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://tools.ietf.org/html/rfc7644",
+      "title": "RFC7644",
+      "description": "SCIM: Protocol, an application-level, REST protocol for provisioning and managing identity data on the web.",
+      "category": "Security",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://datatracker.ietf.org/doc/html/rfc6763",
+      "title": "DNS-SD",
+      "description": "Mechanism for clients to discover a list of named instances of a service, using standard DNS queries.",
+      "category": "Service Discovery",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://datatracker.ietf.org/doc/html/rfc2782",
+      "title": "RFC2782",
+      "description": "A DNS RR for specifying the location of services (DNS SRV).",
+      "category": "Service Discovery",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://tools.ietf.org/html/rfc4627",
+      "title": "RFC4627",
+      "description": "JavaScript Object Notation (JSON).",
+      "category": "Data Formats",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://tools.ietf.org/html/rfc7049",
+      "title": "RFC7049",
+      "description": "Concise Binary Object Representation (CBOR).",
+      "category": "Data Formats",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://bsonspec.org/",
+      "title": "BSON",
+      "description": "Binary JSON (BSON).",
+      "category": "Data Formats",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://json-ld.org/",
+      "title": "JSON-LD",
+      "description": "JSON for Linking Data.",
+      "category": "Data Formats",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/FIXTradingCommunity/fix-simple-binary-encoding",
+      "title": "SBE",
+      "description": "Simple Binary Encoding (SBE).",
+      "category": "Data Formats",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/msgpack/msgpack/blob/master/spec.md",
+      "title": "MSGPACK",
+      "description": "MessagePack Specification.",
+      "category": "Data Formats",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://json-schema.org/",
+      "title": "JSON Schema",
+      "description": "Vocabulary that allows you to annotate and validate JSON documents.",
+      "category": "Vocabularies",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://schema.org/",
+      "title": "Schema.org",
+      "description": "Collaborative, community activity with a mission to create, maintain, and promote schemas for structured data on the Internet, on web pages, in email messages, and beyond.",
+      "category": "Vocabularies",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://www.unicode.org/versions/Unicode8.0.0/",
+      "title": "UNIV8",
+      "description": "The Unicode Consortium. The Unicode Standard, Version 8.0.0, (Mountain View, CA: The Unicode Consortium, 2015. ISBN 978-1-936213-10-8).",
+      "category": "Unicode",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://tools.ietf.org/html/rfc3629",
+      "title": "RFC3629",
+      "description": "UTF-8, a transformation format of ISO 10646.",
+      "category": "Unicode",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://www.melconway.com/Home/pdf/committees.pdf",
+      "title": "How Do Committees Invent?",
+      "description": null,
+      "category": "Organization Design / Team Dynamics",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://microservices.io/patterns/decomposition/service-per-team.html",
+      "title": "Service per Team",
+      "description": "Each team is responsible for one or more business functions (e.g. business capabilities). A team owns a code base consisting of one or more modules. Its code base is sized so as to not exceed the cognitive capacity of team. The team deploys its code as one or more services. A team should have exactly one service unless there is a proven need to have multiple services.",
+      "category": "Organization Design / Team Dynamics",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://commercetools.com/",
+      "title": "Commercetools",
+      "description": "Headless commerce platform.",
+      "category": "Enterprise & Verticals",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://www.infosysequinox.com/",
+      "title": "Equinox",
+      "description": "Infosys Equinox is a human-centric commerce and marketing platform that supports rich, hyper-personalized experiences across any channel and touchpoint.",
+      "category": "Enterprise & Verticals",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://www.flamingo.me/",
+      "title": "Flamingo",
+      "description": "Framework to build flexible and modern e-commerce applications.",
+      "category": "Enterprise & Verticals",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://www.mdpi.com/2409-9287/6/4/81",
+      "title": "Autonomy, Hyperconnectivity, and Residual Causality",
+      "description": "Philosophical introduction to the design of adaptive hyperliminal systems through complexity science theories.",
+      "category": "Articles & Papers",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://github.com/binhnguyennus/awesome-scalability",
+      "title": "Awesome Scalability",
+      "description": null,
+      "category": "Articles & Papers",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://akfpartners.com/techblog/2008/05/08/splitting-applications-or-services-for-scale/",
+      "title": "AKF Scale Cube",
+      "description": "Model depicting the dimensions to scale a service.",
+      "category": "Articles & Papers",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://db.cs.berkeley.edu/papers/cidr11-bloom.pdf",
+      "title": "CALM",
+      "description": null,
+      "category": "Articles & Papers",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://martinfowler.com/bliki/CanaryRelease.html",
+      "title": "Canary Release",
+      "description": "Technique to reduce the risk of introducing a new software version in production by slowly rolling out the change to a small subset of users before rolling it out to the entire infrastructure and making it available to everybody.",
+      "category": "Articles & Papers",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://blog.thislongrun.com/2015/03/the-cap-theorem-series.html",
+      "title": "CAP Theorem",
+      "description": "States that it is impossible for a distributed computer system to simultaneously provide all three of the following guarantees: Consistency, Availability and Partition tolerance.",
+      "category": "Articles & Papers",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://arxiv.org/pdf/1902.05870.pdf",
+      "title": "Formal Foundations of Serverless Computing",
+      "description": null,
+      "category": "Articles & Papers",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://martinfowler.com/articles/microservices.html",
+      "title": "Microservice Architecture",
+      "description": "Particular way of designing software applications as suites of independently deployable services.",
+      "category": "Articles & Papers",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://www.f5.com/content/dam/f5/corp/global/pdf/ebooks/Microservices_Designing_Deploying.pdf",
+      "title": "Microservices - From Design to Deployment",
+      "description": null,
+      "category": "Articles & Papers",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://riak.com/posts/technical/microservices-please-dont/",
+      "title": "Microservices – Please, don’t",
+      "description": "Critical advice about some problems regarding a microservices approach.",
+      "category": "Articles & Papers",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://martinfowler.com/articles/microservice-trade-offs.html",
+      "title": "Microservices Trade-Offs",
+      "description": "Guide to ponder costs and benefits of the mircoservices architectural style.",
+      "category": "Articles & Papers",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://www.reactivemanifesto.org/",
+      "title": "Reactive Manifesto",
+      "description": "Reactive systems definition.",
+      "category": "Articles & Papers",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://www.reactive-streams.org/",
+      "title": "Reactive Streams",
+      "description": "Initiative to provide a standard for asynchronous stream processing with non-blocking back pressure.",
+      "category": "Articles & Papers",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://resources.1060research.com/docs/2015/Resource-Oriented-Computing-Adaptive-Systems-ROCAS-1.2.pdf",
+      "title": "ROCAS",
+      "description": null,
+      "category": "Articles & Papers",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://ceur-ws.org/Vol-746/IWSECO2011-6-DengYu.pdf",
+      "title": "SECO",
+      "description": null,
+      "category": "Articles & Papers",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://martinfowler.com/articles/microservice-testing/",
+      "title": "Testing Strategies in a Microservice Architecture",
+      "description": "Approaches for managing the additional testing complexity of multiple independently deployable components.",
+      "category": "Articles & Papers",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://monkey.org/~marius/funsrv.pdf",
+      "title": "Your Server as a Function",
+      "description": null,
+      "category": "Articles & Papers",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://www.cncf.io/",
+      "title": "Cloud Native Computing Foundation",
+      "description": "The Cloud Native Computing Foundation builds sustainable ecosystems and fosters a community around a constellation of high-quality projects that orchestrate containers as part of a microservices architecture.",
+      "category": "Sites & Organizations",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "http://microservices.io/",
+      "title": "Microservice Patterns",
+      "description": "Microservice architecture patterns and best practices.",
+      "category": "Sites & Organizations",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    },
+    {
+      "url": "https://www.oreilly.com/ideas/microservices-antipatterns-and-pitfalls",
+      "title": "Microservice Antipatterns and Pitfalls",
+      "description": "Microservice mostly known antipatterns and pitfalls.",
+      "category": "Sites & Organizations",
+      "source": "mfornos/awesome-microservices",
+      "indexedAt": "2026-07-23T14:53:42.492Z"
+    }
+  ],
+  "categories": [
+    "Platforms",
+    "Frameworks / Runtimes",
+    "Polyglot",
+    "C",
+    "C++",
+    "CSharp",
+    "D",
+    "Elixir",
+    "Erlang",
+    "Go",
+    "Haskell",
+    "Clojure",
+    "Java",
+    "Kotlin",
+    "Scala",
+    "Node.js",
+    "Perl",
+    "PHP",
+    "Python",
+    "Ruby",
+    "Rust",
+    "Frontend / UI",
+    "API Gateways / Edge Services",
+    "Configuration & Discovery",
+    "Workflow Orchestration",
+    "Elasticity",
+    "Job Schedulers / Workload Automation",
+    "Logging",
+    "Messaging",
+    "Monitoring & Debugging",
+    "Reactivity",
+    "Resilience",
+    "Security",
+    "Serialization",
+    "Storage",
+    "Testing",
+    "Continuous Integration & Delivery",
+    "Async",
+    "GraphQL",
+    "JSON",
+    "REST",
+    "World Wide Web",
+    "Self-sovereignty & Decentralisation",
+    "HTTP/1.1",
+    "HTTP/2",
+    "QUIC",
+    "RPC",
+    "Messaging",
+    "Security",
+    "Service Discovery",
+    "Data Formats",
+    "Vocabularies",
+    "Unicode",
+    "Organization Design / Team Dynamics",
+    "Enterprise & Verticals",
+    "Articles & Papers",
+    "Sites & Organizations"
+  ],
+  "crawledAt": "2026-07-23T14:53:42.492Z"
+}

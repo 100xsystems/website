@@ -1,0 +1,16 @@
+{
+  "id": "quorum",
+  "category": "principles",
+  "label": "Quorum",
+  "aliases": [],
+  "description": "The minimum number of votes needed for a distributed decision to be valid",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Quorum_(distributed_computing)",
+    "wikidata": "https://www.wikidata.org/wiki/Q4391839"
+  },
+  "indexedAt": "2026-07-23T14:36:11.557Z"
+}

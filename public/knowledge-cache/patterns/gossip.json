@@ -1,0 +1,16 @@
+{
+  "id": "gossip",
+  "category": "patterns",
+  "label": "Gossip Protocol",
+  "aliases": [],
+  "description": "Communication protocol where nodes exchange information with random peers",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Gossip_protocol",
+    "wikidata": "https://www.wikidata.org/wiki/Q1138586"
+  },
+  "indexedAt": "2026-07-23T14:36:48.338Z"
+}

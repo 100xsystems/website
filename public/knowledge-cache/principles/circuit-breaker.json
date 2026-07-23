@@ -1,0 +1,16 @@
+{
+  "id": "circuit-breaker",
+  "category": "principles",
+  "label": "Circuit Breaker",
+  "aliases": [],
+  "description": "Detect failures and prevent cascading failures by opening circuits to failing services",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Circuit_breaker_design_pattern",
+    "wikidata": "https://www.wikidata.org/wiki/Q5121829"
+  },
+  "indexedAt": "2026-07-23T14:36:09.540Z"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "prometheus",
+  "category": "tools",
+  "label": "Prometheus",
+  "aliases": [],
+  "description": "Monitoring and alerting toolkit for cloud-native environments",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Prometheus_(software)",
+    "wikidata": "https://www.wikidata.org/wiki/Q28043068"
+  },
+  "indexedAt": "2026-07-23T14:36:27.029Z"
+}

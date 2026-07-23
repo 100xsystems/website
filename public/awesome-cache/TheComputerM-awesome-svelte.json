@@ -1,0 +1,1462 @@
+{
+  "repoId": "TheComputerM/awesome-svelte",
+  "name": "⚡ A curated list of awesome Svelte resources",
+  "description": "⚡ A curated list of awesome Svelte resources",
+  "repoUrl": "https://github.com/TheComputerM/awesome-svelte",
+  "stars": 2135,
+  "topics": [
+    "awesome",
+    "awesome-list",
+    "sapper",
+    "svelte",
+    "sveltejs"
+  ],
+  "links": [
+    {
+      "url": "https://svelte.dev/tutorial",
+      "title": "Official Guide",
+      "description": null,
+      "category": "Official Resources",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://svelte.dev/docs",
+      "title": "API Reference",
+      "description": null,
+      "category": "Official Resources",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/sveltejs/svelte",
+      "title": "GitHub Repo",
+      "description": null,
+      "category": "Official Resources",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/sveltejs/svelte/blob/master/packages/svelte/CHANGELOG.md",
+      "title": "Changelog",
+      "description": null,
+      "category": "Official Resources",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://bsky.app/profile/svelte.dev",
+      "title": "Bluesky",
+      "description": null,
+      "category": "Community",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://svelte.dev/chat",
+      "title": "Discord",
+      "description": null,
+      "category": "Community",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://www.reddit.com/r/sveltejs/",
+      "title": "Reddit",
+      "description": null,
+      "category": "Community",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://discord.com/invite/YTXq3ZtBbx",
+      "title": "Japan Discord",
+      "description": "Svelte 日本.",
+      "category": "Community",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://sveltesummit.com/",
+      "title": "Svelte Summit",
+      "description": null,
+      "category": "Conferences",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://www.svelteradio.com/",
+      "title": "Svelte Radio",
+      "description": null,
+      "category": "Podcasts",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCZSr5B0l07JXK2FIeWA0-jw",
+      "title": "Svelte Society",
+      "description": null,
+      "category": "YouTube Channels",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCg6SQd5jnWo5Y70rZD9SQFA",
+      "title": "Svelte Mastery",
+      "description": null,
+      "category": "YouTube Channels",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://www.youtube.com/@JoyofCodeDev",
+      "title": "Joy of Code",
+      "description": null,
+      "category": "YouTube Channels",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://www.edistys.dev/blog/getting-started-with-svelte-5-a-guide-for-react-developers",
+      "title": "Getting Started with Svelte 5: A Guide for React Developers",
+      "description": "Edistys",
+      "category": "Tutorials",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://tutorialsearch.io/?q=svelte",
+      "title": "TutorialSearch",
+      "description": "Free cross-platform search engine indexing 50,000+ tutorials from Udemy, Skillshare, Pluralsight, and other major learning platforms across 45+ categories.",
+      "category": "Tutorials",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://svelte-scaling.acmion.com/",
+      "title": "SvelteScaling",
+      "description": "Does Svelte Scale? _(pre-v5)_",
+      "category": "Studies",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/halfnelson/svelte-it-will-scale",
+      "title": "Will it Scale?",
+      "description": "Finding Svelte's inflection point. _(pre-v5)_",
+      "category": "Studies",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/sveltejs/svelte-preprocess",
+      "title": "svelte-preprocess",
+      "description": "A preprocessor for PostCSS, SCSS, Less, Stylus, Coffeescript, TypeScript, Pug and much more.",
+      "category": "Preprocessing",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/pngwn/MDsveX",
+      "title": "MDSveX",
+      "description": "Preprocessor for MDX markdown.",
+      "category": "Preprocessing",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/l-portet/svelte-switch-case",
+      "title": "svelte-switch-case",
+      "description": "Switch case syntax for Svelte.",
+      "category": "Preprocessing",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/ls-age/svelte-preprocess-less",
+      "title": "svelte-preprocess-less",
+      "description": "Preprocessor for less.",
+      "category": "Preprocessing",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/tivac/modular-css/tree/main/packages/svelte",
+      "title": "modular-css",
+      "description": "Preprocessor support for modular-css.",
+      "category": "Preprocessing",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/ls-age/svelte-preprocess-sass",
+      "title": "svelte-preprocess-sass",
+      "description": "Preprocessor for sass.",
+      "category": "Preprocessing",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/AlexxNB/svelte-preprocess-markdown",
+      "title": "svelte-preprocess-markdown",
+      "description": "Write Svelte components in markdown syntax.",
+      "category": "Preprocessing",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/nvlang/sveltex",
+      "title": "@nvl/sveltex",
+      "description": "Svelte + Markdown + LaTeX.",
+      "category": "Preprocessing",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://svelte-native.technology/",
+      "title": "Svelte Native",
+      "description": "Svelte controlling native components via Nativescript.",
+      "category": "Mobile",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://framework7.io/svelte/",
+      "title": "Framework7",
+      "description": "Full featured HTML framework for building iOS & Android apps.",
+      "category": "Mobile",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://capacitorjs.com/solution/svelte",
+      "title": "Capacitor",
+      "description": "Build native mobile apps with web technology and Svelte.",
+      "category": "Mobile",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/sveltetools/svelte-asyncable",
+      "title": "svelte-asyncable",
+      "description": "The Svelte store contract with support for asynchronous values.",
+      "category": "State Libraries",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://tanstack.com/store/latest/docs/framework/svelte/quick-start",
+      "title": "tanstack-store",
+      "description": "Framework agnostic type-safe store w/ reactive framework adapters.",
+      "category": "State Libraries",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://ui.lomer.dev",
+      "title": "lomer-ui",
+      "description": "A dead-simple CLI tool to instantly kickstart your components.",
+      "category": "UI Libraries",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://www.shadcn-svelte.com/",
+      "title": "shadcn-svelte",
+      "description": "Beautifully designed components that you can copy and paste into your apps.",
+      "category": "UI Libraries",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://svelteui.dev/",
+      "title": "SvelteUI",
+      "description": "all inclusive Svelte library - Components, Actions, Utilities, Animations.",
+      "category": "UI Libraries",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://flowbite-svelte.com/",
+      "title": "Flowbite Svelte",
+      "description": "Open-source Svelte UI components built with Tailwind CSS and Flowbite.",
+      "category": "UI Libraries",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://www.skeleton.dev/docs/get-started",
+      "title": "Skeleton",
+      "description": "Skeleton uses Tailwind utility classes and design system to easily create theme-able user interfaces.",
+      "category": "UI Libraries",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/sveltestrap/sveltestrap",
+      "title": "Sveltestrap",
+      "description": "Bootstrap 4 & 5 components.",
+      "category": "UI Libraries",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/IBM/carbon-components-svelte",
+      "title": "carbon-components-svelte",
+      "description": "Svelte implementation of the IBM Carbon Design System.",
+      "category": "UI Libraries",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/hperrin/svelte-material-ui",
+      "title": "Svelte Material UI",
+      "description": "Material UI Components.",
+      "category": "UI Libraries",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/melt-ui/melt-ui",
+      "title": "Melt UI",
+      "description": "A collection of accessible, reusable, and composable headless component builders and utilities.",
+      "category": "UI Libraries",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/illright/attractions",
+      "title": "attractions",
+      "description": "A pretty cool and modern UI kit. _(pre-v5)_",
+      "category": "UI Libraries",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/Tommertom/svelte-ionic-app",
+      "title": "ionic-svelte",
+      "description": "Svelte integration with Ionic's UI for mobile app development, including many starters.",
+      "category": "UI Libraries",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://www.yesvelte.com/",
+      "title": "YeSvelte",
+      "description": "YeSvelte is flexible Svelte UI component library built on top of Bootstrap css.",
+      "category": "UI Libraries",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/techniq/svelte-ux",
+      "title": "Svelte UX",
+      "description": "Large collection of components, actions, stores, and utilities to build highly interactive applications",
+      "category": "UI Libraries",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://stdf.design",
+      "title": "STDF",
+      "description": "Mobile web component library based on Svelte and Tailwind.",
+      "category": "UI Libraries",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/KTibow/m3-svelte",
+      "title": "M3 Svelte",
+      "description": "Robust component library implementing Material Design 3",
+      "category": "UI Libraries",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://daisyui.com/",
+      "title": "daisyUI",
+      "description": "The most popular component library for Tailwind CSS - `daisyUI` adds component class names to Tailwind CSS so you can make beautiful websites faster than ever.",
+      "category": "UI Libraries",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/matyunya/smelte",
+      "title": "Smelte",
+      "description": "UI framework with material components built with Tailwind CSS. _(pre-v5)_",
+      "category": "UI Libraries",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/svar-widgets/core",
+      "title": "SVAR Core for Svelte",
+      "description": "A collection of 20+ Svelte UI components for building fast-performing, interactive and responsive web apps.",
+      "category": "UI Libraries",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/agnosticui/agnosticui",
+      "title": "AgnosticUI",
+      "description": "Accessible Svelte Component Primitives (that also work with React, Vue 3, and Angular).",
+      "category": "UI Libraries",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://animation-svelte.vercel.app",
+      "title": "Svelte Animations",
+      "description": "Consist of Svelte Magic UI, Svelte Aceternity UI, Svelte Luxe Components over 200+ Free Animation Components & 2 Templates",
+      "category": "UI Libraries",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://sv-blocks.vercel.app",
+      "title": "Svelte Marketing Blocks",
+      "description": "A powerful library of 100+ marketing and UI blocks built using Shadcn Svelte, Tailwind CSS v4, and Svelte 5.",
+      "category": "UI Libraries",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://quaff.dev",
+      "title": "Quaff",
+      "description": "An extensive UI framework featuring modern and elegant components following Material Design 3 principles.",
+      "category": "UI Libraries",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://retroui-svelte.netlify.app",
+      "title": "retroui-svelte",
+      "description": "A retro-styled component library for Svelte built on top of shadcn-svelte, offering 40+ customizable UI components for funky and playful interfaces.",
+      "category": "UI Libraries",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://svelte-audio-ui.vercel.app",
+      "title": "svelte-audio-ui",
+      "description": "A set of accessible and composable Audio UI components. Built on top of shadcn-svelte, inspired by audio-ui, it's designed for you to copy, paste, and own.",
+      "category": "UI Libraries",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/vincjo/datatables",
+      "title": "@vincjo/datatables",
+      "description": "A toolkit for creating datatable components with Svelte.",
+      "category": "Table",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/dasDaniel/svelte-table",
+      "title": "svelte-table",
+      "description": "A table implementation that allows sorting and filtering.",
+      "category": "Table",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/ivosdc/svelte-generic-crud-table",
+      "title": "svelte-generic-crud-table",
+      "description": "Agnostic web-component for object-arrays with CRUD functionality. Sort and resize columns. Multiple tables per page.",
+      "category": "Table",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/ivosdc/svelte-generic-table-pager",
+      "title": "svelte-generic-table-pager",
+      "description": "Svelte-generic-crud-table with paginator.",
+      "category": "Table",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/muonw/powertable",
+      "title": "powertable",
+      "description": "PowerTable is a JavaScript component that turns JSON data into an interactive HTML table. This facilitates manual inspection, sorting, filtering, searching, and editing of the data.",
+      "category": "Table",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/jjagielka/svelte-pivottable",
+      "title": "svelte-pivottable",
+      "description": "Svelte-based pivot table library with drag'n'drop functionality.",
+      "category": "Table",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/svar-widgets/grid",
+      "title": "SVAR DataGrid",
+      "description": "A Svelte datagrid with in-cell editing, sorting, context menu, collapsible and frozen columns, tree data view, paging and virtual scrolling.",
+      "category": "Table",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/revolist/svelte-datagrid",
+      "title": "svelte-datagrid",
+      "description": "Powerful data grid library based on [revogrid](https://rv-grid.com) with best features from Excel.",
+      "category": "Table",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/WJSoftware/wjfe-dataview",
+      "title": "@wjfe/dataview",
+      "description": "Table for data visualization purposes with advanced features like column pinning, and the only component in the world that does cross-table column position synchronization for master-child scenarios.",
+      "category": "Table",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/beyonk-adventures/svelte-notifications",
+      "title": "svelte-notifications",
+      "description": "Toast notifications component that can be used in any JS application.",
+      "category": "Notification",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/kevmodrome/svelte-favicon-badge",
+      "title": "svelte-favicon-badge",
+      "description": "A custom component that adds a favicon and a badge that you can use to show for example number of unread messages, etc.",
+      "category": "Notification",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/zerodevx/svelte-toast",
+      "title": "@zerodevx/svelte-toast",
+      "description": "Simple elegant toast notifications.",
+      "category": "Notification",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/kbrgl/svelte-french-toast",
+      "title": "svelte-french-toast",
+      "description": "Buttery smooth toast notifications for Svelte, inspired by React Hot Toast. Lightweight, customizable, and beautiful by default.",
+      "category": "Notification",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/wobsoriano/svelte-sonner",
+      "title": "svelte-sonner",
+      "description": "An opinionated toast component for Svelte.",
+      "category": "Notification",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/andrelmlins/svelte-grid-responsive",
+      "title": "svelte-grid-responsive",
+      "description": "Bootstrap-inspired responsive grid system.",
+      "category": "Grid",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/himynameisdave/svelte-flex",
+      "title": "svelte-flex",
+      "description": "A simple and reusable flexbox component for Svelte.",
+      "category": "Grid",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/Cweili/svelte-fa",
+      "title": "svelte-fa",
+      "description": "Tiny FontAwesome 5 and 6 component.",
+      "category": "Icons",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/RobBrazier/svelte-awesome",
+      "title": "svelte-awesome",
+      "description": "Awesome SVG icon component, built with Font Awesome icons.",
+      "category": "Icons",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/steeze-ui/icons",
+      "title": "steeze-ui/icons",
+      "description": "Effortless Icon Packs & Components for Svelte, React, Vue and more.",
+      "category": "Icons",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/AnxiousDarkly/svelte-icons",
+      "title": "svelte-icons",
+      "description": "Icon components.",
+      "category": "Icons",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/krowten/svelte-heroicons",
+      "title": "svelte-heroicons",
+      "description": "Icons, crafted by the creators of Tailwind CSS.",
+      "category": "Icons",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/aykutkardas/svelte-icomoon",
+      "title": "svelte-icomoon",
+      "description": "It makes it very simple to use SVG icons in your Svelte projects.",
+      "category": "Icons",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/devShamim/svelte-unicons",
+      "title": "svelte-unicons",
+      "description": "Unicons svg icons for Svelte based on @iconscout/unicons.",
+      "category": "Icons",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/leshak/svelte-icons-pack",
+      "title": "svelte-icons-pack",
+      "description": "Based on <https://github.com/react-icons/react-icons>.",
+      "category": "Icons",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/pouchlabs/svesome",
+      "title": "svesome",
+      "description": "A fontawesome v6 icons wrapper for svelte its awesome.",
+      "category": "Icons",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/hugeicons/svelte",
+      "title": "hugeicons",
+      "description": "Beautiful, production-ready icon package for Svelte with complete icon coverage.",
+      "category": "Icons",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/jis3r/icons",
+      "title": "moving icons",
+      "description": "A collection of beautifully crafted, animated Lucide icons.",
+      "category": "Icons",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/YogliB/svelte-fullcalendar",
+      "title": "svelte-fullcalendar",
+      "description": "A component wrapper around FullCalendar.",
+      "category": "Calendar",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/6eDesign/svelte-calendar",
+      "title": "svelte-calendar",
+      "description": "A lightweight datepicker with neat animations and a unique UX.",
+      "category": "Calendar",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/probablykasper/date-picker-svelte",
+      "title": "date-picker-svelte",
+      "description": "A date and time picker for Svelte with clean UX.",
+      "category": "Calendar",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/beyonk-adventures/svelte-googlemaps",
+      "title": "svelte-googlemaps",
+      "description": "Google Maps component.",
+      "category": "Maps",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/beyonk-adventures/svelte-mapbox",
+      "title": "svelte-mapbox",
+      "description": "MapBox map and autocomplete components.",
+      "category": "Maps",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/anoram/leaflet-svelte",
+      "title": "leaflet-svelte",
+      "description": "Svelte wrapper for Leaflet.",
+      "category": "Maps",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/gavinr-maps/esri-svelte-example",
+      "title": "esri-svelte",
+      "description": "Web application that shows how to use the ArcGIS API for JavaScript with Svelte.",
+      "category": "Maps",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/dimfeld/svelte-maplibre",
+      "title": "svelte-maplibre",
+      "description": "Svelte bindings for the MapLibre mapping library.",
+      "category": "Maps",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/himynameisdave/svelte-frappe-charts",
+      "title": "svelte-frappe-charts",
+      "description": "Svelte bindings for frappe-charts.",
+      "category": "Charts",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/mhkeller/layercake",
+      "title": "Layer Cake",
+      "description": "A framework for mostly-reusable graphics with svelte",
+      "category": "Charts",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/techniq/layerchart",
+      "title": "LayerChart",
+      "description": "Large collection of composable Svelte components to build a wide range of visualizations, built upon Layer Cake",
+      "category": "Charts",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/svar-widgets/gantt",
+      "title": "SVAR Gantt Chart",
+      "description": "An interactive, customizable Gantt chart component written in Svelte",
+      "category": "Charts",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://svelteflow.dev",
+      "title": "svelte-flow",
+      "description": "A customizable Svelte component for building node-based editors and interactive diagrams by the creators of React Flow",
+      "category": "Graphs",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/barvian/number-flow",
+      "title": "number-flow",
+      "description": "A component to transition, format, and localize numbers.",
+      "category": "Miscellaneous",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://kitschpatrol.com/svelte-tweakpane-ui",
+      "title": "Svelte Tweakpane UI",
+      "description": "UI elements from [Tweakpane](https://tweakpane.github.io/docs/) wrapped in a collection of idiomatic Svelte components.",
+      "category": "Miscellaneous",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/kpulkit29/svelte-tree-viewer",
+      "title": "svelte-tree-viewer",
+      "description": "A lightweight component to render tree views.",
+      "category": "Miscellaneous",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/himynameisdave/svelte-copyright",
+      "title": "svelte-copyright",
+      "description": "A Svelte component to format and display a copyright notice.",
+      "category": "Miscellaneous",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/orefalo/svelte-splitpanes",
+      "title": "svelte-splitpanes",
+      "description": "Full featured resizeable views panels.",
+      "category": "Miscellaneous",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/WoolDoughnut310/mathjax-svelte",
+      "title": "mathjax-svelte",
+      "description": "A Svelte component for MathJax.",
+      "category": "Miscellaneous",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/efstajas/svelte-stepper",
+      "title": "svelte-stepper",
+      "description": "A Svelte component for building animated step flows.",
+      "category": "Miscellaneous",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/palerdot/svelte-speedometer",
+      "title": "svelte-speedometer",
+      "description": "Svelte component for showing speedometer like gauge using d3.",
+      "category": "Miscellaneous",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/embedz/embedz",
+      "title": "embedz",
+      "description": "Easy, dependency free embeds for Svelte and Vue.",
+      "category": "Miscellaneous",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://www.embedpdf.com/docs/svelte/introduction",
+      "title": "EmbedPDF",
+      "description": "A modular, high-performance PDF viewer and editor built for Svelte, powered by PDFium. Fully extensible with plugins for annotations, redaction, thumbnails, and more.",
+      "category": "Miscellaneous",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://edra.tsuzat.com",
+      "title": "Edra",
+      "description": "Best Rich Text Editor, made for Svelte Developers with Tiptap.",
+      "category": "Miscellaneous",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/beynar/svelte-streamdown",
+      "title": "svelte-streamdown",
+      "description": "Port of [streamdown](https://streamdown.ai/). An all in one markdown renderer optimized for streaming with built in styles, math, mermaid, code highlighting support and more.",
+      "category": "Miscellaneous",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/YusufCeng1z/svelte-bash",
+      "title": "svelte-bash",
+      "description": "A customizable terminal-style component for Svelte 5.",
+      "category": "Miscellaneous",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/vitejs/vite/tree/main/packages/create-vite#readme",
+      "title": "create-vite",
+      "description": "Generates scaffold for a vite + svelte app.",
+      "category": "Scaffold",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/sveltejs/kit/tree/master/packages/create-svelte#readme",
+      "title": "create-svelte",
+      "description": "A CLI for creating a new SvelteKit project.",
+      "category": "Scaffold",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/CriticalMoments/CMSaasStarter",
+      "title": "saasstarter",
+      "description": "A open source, fast, and free to host Svelte SaaS template.",
+      "category": "Scaffold",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/tretapey/svelte-pwa",
+      "title": "svelte-pwa-template",
+      "description": "A starter template for PWAs based in the official Template. _(pre-v5)_",
+      "category": "Scaffold",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/bavragor/vite-svelte-docker-template",
+      "title": "vite-svelte-docker-template",
+      "description": "Template for Svelte + Docker + Vite + Vitest.",
+      "category": "Scaffold",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/code-gio/svelte-docs-starter",
+      "title": "svelte-docs-starter",
+      "description": "A modern documentation template built with Svelte 5, MDSvex, and Tailwind CSS.",
+      "category": "Scaffold",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/phaserjs/template-svelte",
+      "title": "template-svelte",
+      "description": "An official quickstart template with Phaser.",
+      "category": "Scaffold",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/GantonL/templates/tree/main/sveltekit-shadcn-v5",
+      "title": "generic-app-template",
+      "description": "A open-source modern full-stack web application template built with SvelteKit + shadcn-svelte. Supports i18n, theming, cookie managment, SEO management, static content with mdsvex, a shell component and more.",
+      "category": "Scaffold",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://auto-animate.formkit.com/",
+      "title": "AutoAnimate",
+      "description": "A zero-config, drop-in animation utility that adds smooth transitions to your Svelte app.",
+      "category": "Animations",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/henriquehbr/svelte-typewriter",
+      "title": "svelte-typewriter",
+      "description": "A simple and reusable typewriter effect for your Svelte applications.",
+      "category": "Animations",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/PuruVJ/neodrag",
+      "title": "neodrag",
+      "description": "One Draggable to rule them all 💍.",
+      "category": "Drag & Drop",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://superforms.rocks",
+      "title": "Superforms",
+      "description": "SvelteKit library for handling server and client validation, and client-side display of forms.",
+      "category": "Forms",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://www.formsnap.dev/",
+      "title": "Formsnap",
+      "description": "High level Svelte components for forms, built on top of Superforms and Zod.",
+      "category": "Forms",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://felte.dev/",
+      "title": "felte",
+      "description": "Extensible form library, with built-in Yup, Zod, Vest, and Superstruct validation.",
+      "category": "Forms",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/arabdevelop/svelte-formly",
+      "title": "svelte-formly",
+      "description": "A good solution to generate and control a dynamic forms using core and custom rules with customize styles. _(pre-v5)_",
+      "category": "Forms",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/pragmatic-engineering/svelte-form-builder-community",
+      "title": "svelte-form-builder",
+      "description": "A No-code Drag n Drop Form Builder built for Svelte.",
+      "category": "Forms",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://svelte-form-builder.vercel.app",
+      "title": "Svelte Form Builder",
+      "description": "Create forms with Shadcn Svelte, Superforms and ZOD | Valibot Schema within minutes.",
+      "category": "Forms",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://formisch.dev/svelte/guides/introduction/",
+      "title": "Formisch",
+      "description": "A form library for Svelte with focus on performance, type safety and bundle size.",
+      "category": "Forms",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/HosseinShabani/svelte-checkbox",
+      "title": "svelte-checkbox",
+      "description": "A checkbox component (cool animation, customizable). _(pre-v5)_",
+      "category": "Form Components",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/beyonk-adventures/svelte-toggle",
+      "title": "svelte-toggle",
+      "description": "Basic toggle component with styling. _(pre-v5)_",
+      "category": "Form Components",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/ConsoleTVs/sswr",
+      "title": "sswr",
+      "description": "Svelte stale while revalidate (SWR) data fetching strategy.",
+      "category": "HTTP Requests",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://sveltequery.vercel.app/",
+      "title": "svelte-query",
+      "description": "Fetch, cache and update data in your Svelte applications all without touching any \"global state\".",
+      "category": "HTTP Requests",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://tanstack.com/query/latest/docs/svelte/overview",
+      "title": "tanstack-svelte-query",
+      "description": "Framework agnostic type-safe query and mutation library for Svelte.",
+      "category": "HTTP Requests",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/Rajaniraiyn/svelte-sound",
+      "title": "svelte-sound",
+      "description": "Svelte Actions to play interaction sounds on target DOM events.",
+      "category": "Sound & Video",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/vatro/svelthree",
+      "title": "svelthree",
+      "description": "Component library for declarative construction of reactive and reusable three.js scene graphs.",
+      "category": "WebGL",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://threlte.xyz",
+      "title": "threlte",
+      "description": "Threlte is a renderer and component library for using Three.js in a declarative and state-driven way in Svelte apps.",
+      "category": "WebGL",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/hedgehog125/SvelteKit-Adapter-Versioned-Worker",
+      "title": "SvelteKit-Adapter-Versioned-Worker",
+      "description": "An easy-to-use service worker build plugin where you don't need to worry about cache durations.",
+      "category": "PWA",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/romkor/svelte-portal",
+      "title": "svelte-portal",
+      "description": "Component for rendering outside the DOM of parent component.",
+      "category": "Portal",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/nasso/svelte-teleport",
+      "title": "svelte-teleport",
+      "description": "A component to teleport elements across the DOM.",
+      "category": "Portal",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/svelte-web-fonts/google",
+      "title": "svelte-web-fonts/google",
+      "description": "Tiny component for easily loading Fonts via the Google Fonts API including autocompletion.",
+      "category": "Fonts",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/nubolab-ffwd/svelte-fluent",
+      "title": "svelte-fluent",
+      "description": "Components for easy integration of [Fluent](https://projectfluent.org/) localization.",
+      "category": "Internationalization",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/kaisermann/svelte-i18n",
+      "title": "svelte-i18n",
+      "description": "Internationalization library for Svelte.",
+      "category": "Internationalization",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://zhangfisher.github.io/voerka-i18n/",
+      "title": "VoerkaI18n",
+      "description": "Internationalization solution for `Javascript/Typescript/Vue/React/Solidjs/SvelteJs/ReactNative`",
+      "category": "Internationalization",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/jarda-svoboda/sveltekit-i18n",
+      "title": "sveltekit-i18n",
+      "description": "For integrating [i18n](https://www.npmjs.com/package/i18n) style localization in SvelteKit.",
+      "category": "Internationalization",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/tolgee/tolgee-js/tree/main/packages/svelte",
+      "title": "@tolgee/svelte",
+      "description": "Web-based localization tool enabling users to translate directly in the Svelte app they develop.",
+      "category": "Internationalization",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/i18n-pro/svelte",
+      "title": "@i18n-pro/svelte",
+      "description": "Lightweight, simple, flexible, automatic translation internationalization tool for Svelte.",
+      "category": "Internationalization",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://inlang.com/m/dxnzrydw/library-inlang-paraglideJsAdapterSvelteKit",
+      "title": "ParaglideJS",
+      "description": "Tiny, typesafe i18n library with translated links out of the box.",
+      "category": "Internationalization",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/K1DV5/wuchale",
+      "title": "wuchale",
+      "description": "Internationalization library that lets you just write your code, no function calls or other ceremonies needed.",
+      "category": "Internationalization",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/jorgegorka/svelte-router",
+      "title": "svelte-router-spa",
+      "description": "Router adds routing to your Single Page Applications (SPA). Includes localisation, guards and nested layouts.",
+      "category": "Routers",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/EmilTholin/svelte-routing",
+      "title": "svelte-routing",
+      "description": "A declarative Svelte routing library with SSR support.",
+      "category": "Routers",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/AlexxNB/tinro",
+      "title": "tinro",
+      "description": "A tiny, dependency free and highly declarative router.",
+      "category": "Routers",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/ItalyPaleAle/svelte-spa-router",
+      "title": "svelte-spa-router",
+      "description": "Optimized for Single Page Applications (SPA) with hash based routing and support for parameters.",
+      "category": "Routers",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/arthurgermano/svelte-client-router",
+      "title": "svelte-client-router",
+      "description": "Svelte Client Router is everything you need and think when routing SPA's.",
+      "category": "Routers",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/DanielSharkov/svelte-router",
+      "title": "@danielsharkov/svelte-router",
+      "description": "A simple & easy to use SPA router, developed with page transitions in mind.",
+      "category": "Routers",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/shaunlee/svelterouter",
+      "title": "@shaun/svelterouter",
+      "description": "Another vue-router inspired Svelte router.",
+      "category": "Routers",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/howesteve/elegua",
+      "title": "Elegua",
+      "description": "Small (< 180LoC), fast, easy, full featured SPA router",
+      "category": "Routers",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/mateothegreat/svelte5-router",
+      "title": "svelte5-router",
+      "description": "First Svelte 5 SPA router with nesting, hooks, and more.. Use components, snippets, or both!",
+      "category": "Routers",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/WJSoftware/wjfe-n-savant",
+      "title": "@wjfe/n-savant",
+      "description": "Fast, reactive router with always-on path and hash routing, and the router that invented multi-hash routing.",
+      "category": "Routers",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/colinlienard/sv-router",
+      "title": "sv-router",
+      "description": "Type-safe SPA router with file-based or code-based routing.",
+      "category": "Routers",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://svelte.dev/docs/kit/introduction",
+      "title": "SvelteKit",
+      "description": "The fastest way to build Svelte apps.",
+      "category": "Frameworks",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://routify.dev/",
+      "title": "Routify",
+      "description": "Routes for Svelte, automated by your file structure.",
+      "category": "Frameworks",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/elderjs/elderjs",
+      "title": "Elder.js",
+      "description": "Opinionated static site generator and web framework for Svelte built with SEO in mind. _(pre-v5)_",
+      "category": "Frameworks",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://www.junglejs.org/",
+      "title": "JungleJS",
+      "description": "The Jamstack framework for Svelte with GraphQL. _(pre-v5)_",
+      "category": "Frameworks",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/mblouka/svelte-document",
+      "title": "svelte-document",
+      "description": "Create documents (PDFs), resumes, or presentations entirely in Svelte.",
+      "category": "Frameworks",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/frontman-ai/frontman",
+      "title": "Frontman",
+      "description": "Open-source AI coding agent that lives in your browser with click-to-edit and hot reload for Svelte apps.",
+      "category": "Dev Tools",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/Hugo-Dz/exe",
+      "title": "JesterKit EXE",
+      "description": "An adapter to distribute your SvelteKit web app as a single executable binary with zero runtime dependencies. Unlike static builds, it preserves all Kit features like SSR, API endpoints, server hooks, etc.",
+      "category": "Adapters",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/sveltejs/prettier-plugin-svelte",
+      "title": "prettier-plugin-svelte",
+      "description": "Format your components using prettier.",
+      "category": "Lint",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://www.npmjs.com/package/svelte-check",
+      "title": "svelte-check",
+      "description": "Check your code.",
+      "category": "Lint",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/sveltejs/eslint-plugin-svelte",
+      "title": "eslint-plugin-svelte",
+      "description": "An ESLint plugin for Svelte using AST.",
+      "category": "Lint",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/mihar-22/svelte-jester",
+      "title": "svelte-jester",
+      "description": "A Jest transformer to compile your components before importing them into tests.",
+      "category": "Test",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/testing-library/svelte-testing-library",
+      "title": "@testing-library/svelte",
+      "description": "Simple and complete Svelte DOM testing utilities that encourage good testing practices.",
+      "category": "Test",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/rspieker/jest-transform-svelte",
+      "title": "jest-transform-svelte",
+      "description": "Jest Transformer for Svelte components.",
+      "category": "Test",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://packagecontrol.io/packages/Svelte",
+      "title": "Svelte",
+      "description": "Syntax highlighting and support for Sublime Text.",
+      "category": "Sublime Text",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/leafOfTree/vim-svelte-plugin",
+      "title": "vim-svelte-plugin",
+      "description": "Syntax highlighting and support for Vim.",
+      "category": "Vim",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/coc-extensions/coc-svelte",
+      "title": "coc-svelte",
+      "description": "Syntax highlighting and support for (Neo)Vim.",
+      "category": "Vim",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://plugins.jetbrains.com/plugin/12375-svelte",
+      "title": "Svelte",
+      "description": "Syntax highlighting and support for JetBrains.",
+      "category": "JetBrains",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/FerrisMind/oxide-lab",
+      "title": "Oxide-Lab",
+      "description": "Privacy-focused local LLM chat application built with Svelte 5 frontend and Rust backend using the `candle` ML framework.",
+      "category": "Desktop",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    },
+    {
+      "url": "https://github.com/Prismo-Studio/Zephyr",
+      "title": "Zephyr",
+      "description": "Open-source mod manager for PC games with built-in Archipelago multiworld randomizer support, built with Svelte 5 and Tauri 2.",
+      "category": "Desktop",
+      "source": "TheComputerM/awesome-svelte",
+      "indexedAt": "2026-07-23T14:53:01.838Z"
+    }
+  ],
+  "categories": [
+    "Official Resources",
+    "Community",
+    "Conferences",
+    "Podcasts",
+    "YouTube Channels",
+    "Tutorials",
+    "Studies",
+    "Preprocessing",
+    "Mobile",
+    "State Libraries",
+    "UI Libraries",
+    "Table",
+    "Notification",
+    "Grid",
+    "Icons",
+    "Calendar",
+    "Maps",
+    "Charts",
+    "Graphs",
+    "Miscellaneous",
+    "Scaffold",
+    "Animations",
+    "Drag & Drop",
+    "Forms",
+    "Form Components",
+    "HTTP Requests",
+    "Sound & Video",
+    "WebGL",
+    "PWA",
+    "Portal",
+    "Fonts",
+    "Internationalization",
+    "Routers",
+    "Frameworks",
+    "Dev Tools",
+    "Adapters",
+    "Lint",
+    "Test",
+    "Visual Studio Code",
+    "Sublime Text",
+    "Vim",
+    "JetBrains",
+    "Desktop"
+  ],
+  "crawledAt": "2026-07-23T14:53:01.838Z"
+}

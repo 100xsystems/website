@@ -1,0 +1,931 @@
+{
+  "repoId": "embedded-boston/awesome-embedded-systems",
+  "name": "A curated list of delightful Embedded Systems libraries, RTOSes, modules, references and more!",
+  "description": "A curated list of delightful Embedded Systems libraries, RTOSes, modules, references and more!",
+  "repoUrl": "https://github.com/embedded-boston/awesome-embedded-systems",
+  "stars": 996,
+  "topics": [],
+  "links": [
+    {
+      "url": "http://savannah.nongnu.org/projects/lwip/",
+      "title": "lwIP",
+      "description": "lwIP is a small independent implementation of the TCP/IP protocol suite that has been initially developed by Adam Dunkels. Supports DHCP with AutoIP fallback, UDP, TCP, and an interrupt driven model.",
+      "category": "TCP/IP",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://github.com/adamdunkels/uip",
+      "title": "uIP",
+      "description": "A very tiny IP stack, but also a very minimal IP stack. (Not maintained anymore)",
+      "category": "TCP/IP",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://github.com/staropram/cantcoap",
+      "title": "cantcoap",
+      "description": "Small and lightweight coap encoder and decoder. Protocol level stuff is left to the user.",
+      "category": "CoAP",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://libcoap.net/",
+      "title": "libcoap",
+      "description": "libcoap implements a lightweight application-protocol for devices that are constrained their resources such as computing power, RF range, memory, bandwith, or network packet sizes",
+      "category": "CoAP",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://github.com/1248/microcoap",
+      "title": "microcoap",
+      "description": "A small CoAP implementation for microcontrollers",
+      "category": "CoAP",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://github.com/darconeous/libnyoci",
+      "title": "libnyoci",
+      "description": "A flexible CoAP stack for embedded devices and computers. RFC7252 compatible.",
+      "category": "CoAP",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "http://www.canfestival.org/",
+      "title": "CanFestival",
+      "description": "CanFestival focuses on providing an ANSI-C platform independent CANopen® stack that can be built as master or slave nodes on PCs, Real-time IPCs, and Microcontrollers.",
+      "category": "Open Source",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://github.com/CANopenNode/CANopenNode",
+      "title": "CANopenNode",
+      "description": "CANopenNode is written in ANSI C in object-oriented way. It runs on different microcontrollers, as standalone application or with RTOS.",
+      "category": "Open Source",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://gitlab.com/lely_industries/co",
+      "title": "Lely CANopen Library",
+      "description": "A CANopen implementation for both masters and slaves written in C, but with a C++ interface.",
+      "category": "Open Source",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://www.ixxat.com/products/products-industrial/protocol-software-and-apis/protocol-software/canopen-protocol-software",
+      "title": "Ixxat",
+      "description": null,
+      "category": "Proprietary",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "http://www.port.de/en/products/canopen.html",
+      "title": "port",
+      "description": null,
+      "category": "Proprietary",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "http://www.canopenstore.com/pip/microcanopen-plus.html",
+      "title": "ESA's microCANopen Plus",
+      "description": null,
+      "category": "Proprietary",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://www.emtas.de/en/produkte/canopen-master-stack",
+      "title": "emtas",
+      "description": null,
+      "category": "Proprietary",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "http://www.microcontrol.net/en/products/protocol-stacks/canopen/",
+      "title": "MicroControl",
+      "description": null,
+      "category": "Proprietary",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://koti.kapsi.fi/jpa/nanopb/",
+      "title": "nanopb",
+      "description": "Nanopb is a plain-C implementation of Google's Protocol Buffers data format. It is targeted at 32 bit microcontrollers, but is also fit for other embedded systems with tight (2-10 kB ROM, <1 kB RAM) memory constraints.",
+      "category": "Serialization",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://github.com/ludocode/mpack",
+      "title": "mpack",
+      "description": "A C encoder/decoder for [MessagePack](http://msgpack.com) messages suitable for resource constriants embedded systems. Supports disabling dynamic memory allocation and overriding malloc, free, and realloc.",
+      "category": "Serialization",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://github.com/01org/tinycbor",
+      "title": "tinycbor",
+      "description": "Intel's implementation of [CBOR](http://cbor.io/) designed for their IOT-based applications and processors",
+      "category": "Serialization",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://github.com/hit9/bitproto",
+      "title": "bitproto",
+      "description": "A fast, lightweight and easy-to-use bit level data interchange format for serializing data structure. Its syntax is similar to protobuf, but very suitable for the embedded systems.",
+      "category": "Serialization",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://github.com/lcsmuller/json-build",
+      "title": "json-build",
+      "description": "A tiny, zero-allocation JSON serializer written in ANSI C. A good fit for development in memory constrained systems.",
+      "category": "Serialization",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://github.com/tinyos/tinyos-main",
+      "title": "TinyOS",
+      "description": "A operating system designed for low-power wireless devices, such as those used in sensor networks, ubiquitous computing, personal area networks, smart buildings, and smart meters.",
+      "category": "Free or Open Source",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://github.com/contiki-os/contiki",
+      "title": "ContikiOS",
+      "description": "A free Operating System with focus to provide standardized low-power wireless communication for a wide range of hardware platforms.",
+      "category": "Free or Open Source",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "http://www.freertos.org/",
+      "title": "FreeRTOS",
+      "description": "A free use Real Time Operating system which is widely used and supports a large number of platforms.",
+      "category": "Free or Open Source",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://github.com/RIOT-OS/",
+      "title": "RIOT",
+      "description": "A free OS for IoT devices providing foundational trust services. The trust services include device identity, sealing, attestation, and data integrity. The term “Robust” is used because the minimal trusted computing base is tiny, and because RIoT capabilities can remotely re-establish trust in devices that have been compromised by malware.",
+      "category": "Free or Open Source",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://www.rtems.org/",
+      "title": "RTEMS",
+      "description": "Real-Time Executive for Multiprocessor Systems or RTEMS is an open source Real Time Operating System (RTOS) that supports open standard application programming interfaces (API) such as POSIX. It is used in space flight, medical, networking and many more embedded devices using processor architectures including ARM, PowerPC, Intel, Blackfin, MIPS, Microblaze and more.",
+      "category": "Free or Open Source",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://www.highintegritysystems.com/safertos/",
+      "title": "SafeRTOS",
+      "description": "Certified version of FreeRTOS by TUEV SUED against IEC 61508 (basic functional safety standard) up to SIL3 (the highest safety integrity level for a single software component), ISO 26262 ASIL D (automotive standard) and EN62304 (medical device standard).",
+      "category": "Commercial",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "http://www.ghs.com/products/rtos/integrity.html#performance",
+      "title": "INTEGRITY/INTEGRITY-178",
+      "description": "Two commercial RTOS variants targeting to power embedded systems with total reliability, absolute security, and maximum real-time performance. The variant INTEGRYTY-178 has a lot of safety and security certifications.",
+      "category": "Commercial",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://www.sysgo.com/products/pikeos-hypervisor/",
+      "title": "PikeOS",
+      "description": "A commercial micro-kernel based operating system with a small footprint and certified for DO-178 (avionics), IEC-61508 (industrial), ISO-26262 (automotive).",
+      "category": "Commercial",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "http://www.windriver.com/products/operating-systems/rocket/",
+      "title": "Rocket",
+      "description": "A free embedded operating system specifically designed to quickly and easily build small, intelligent devices in Wind Rivers cloud-based development environment, Wind River Helix™ App Cloud.",
+      "category": "Commercial",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://www.mentor.com/embedded-software/nucleus/",
+      "title": "Nucleus RTOS",
+      "description": "Commercial, highly scalable micro-kernel based real-time operating system designed for scalability and reliability.",
+      "category": "Commercial",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://www.micrium.com/rtos/kernels/",
+      "title": "uC/os",
+      "description": "µC/OS-II and µC/OS-III are preemptive, highly portable, and scalable real-time kernels. You can test them out for free, but you must pay to put them into a product.",
+      "category": "Commercial",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://cpputest.github.io/",
+      "title": "CppUTest",
+      "description": "unit testing and mocking framework for C/C++ with a focus on working for embedded systems!",
+      "category": "Testing",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "http://www.throwtheswitch.org/",
+      "title": "ceedling, unity and cmock",
+      "description": "Unit testing, mocking and build framework written in C with ruby for generating and building.",
+      "category": "Testing",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://github.com/onqtam/doctest",
+      "title": "doctest",
+      "description": "A lightweight and feature-rich C++98/C++11 single-header testing framework for unit tests and TDD.",
+      "category": "Testing",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://github.com/tpounds/mockitopp",
+      "title": "Mockitopp",
+      "description": "A C++ mocking framework inspired by the ideas developed for Mockito written by Szczepan Faber, et al. The purpose is to provide similar construction semantics for creating mock objects leading to smaller, more readable test cases. It is designed to be a lightweight framework allowing you to mock dependencies for a system under test using a simple descriptive domain specific language. The goal is to help create simpler, less brittle test cases; ultimately, leading to less maintenance overhead in the future.",
+      "category": "Testing",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://github.com/rollbear/trompeloeil",
+      "title": "Trompeloeil",
+      "description": "A thread safe header only mocking framework for C++14 using the Boost Software License 1.0",
+      "category": "Testing",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://github.com/catchorg/Catch2",
+      "title": "Catch",
+      "description": "A modern, C++-native, header-only, test framework for unit-tests, TDD and BDD - using C++11, C++14, C++17 and later (or C++03 on the Catch1.x branch)",
+      "category": "Testing",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://www.arduino.cc/",
+      "title": "Arduino",
+      "description": null,
+      "category": "Frameworks",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://github.com/aregtech/areg-sdk",
+      "title": "AREG SDK",
+      "description": "An interface-centric real-time asynchronous communication engine for embedded and high-end applications to enable distributed- and [mist-computing](https://csrc.nist.gov/publications/detail/sp/500-325/final), where connected Things interact and provide services, as if they act like thin distributed servers.",
+      "category": "Frameworks",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://www.mbed.com/en/",
+      "title": "ARM mbed",
+      "description": "The ARM mbed IoT Device Platform provides the operating system, cloud services, tools and developer ecosystem to make the creation and deployment of commercial, standards-based IoT solutions possible at scale.",
+      "category": "Frameworks",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://bitbucket.org/timosi/minlibd",
+      "title": "minilibd",
+      "description": "\"This collection has libraries and tools to compile D language programs for embedded or \"bare metal\" systems with the",
+      "category": "D",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://archive.org/details/dconf2014-day02-talk07",
+      "title": "DConf 2014 Talk \"Tiny, Ubiquitous Machines Powered by D\"",
+      "description": "Presentation about D in tiny embedded systems.",
+      "category": "D",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://github.com/oxidecomputer/hubris",
+      "title": "hubris",
+      "description": null,
+      "category": "Rust",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://github.com/rust-embedded/rfcs",
+      "title": "rust-embedded",
+      "description": "RFCs proposed by the Rust community for better embedded systems support.",
+      "category": "Rust",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "http://embed.rs/",
+      "title": "embed.rs",
+      "description": "Articles about doing embedded on rust",
+      "category": "Rust",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "http://nerves-project.org/",
+      "title": "Nerves",
+      "description": "Uses buildroot to deploy Elixir programs running on the Erlang VM to embedded linux boards",
+      "category": "Elixir",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://github.com/AdaCore",
+      "title": "AdaCore",
+      "description": "Open source maintainer of Ada with a focus on embedded use.",
+      "category": "Ada and Spark",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://tessel.io/",
+      "title": "Tessel",
+      "description": "A openWRT based embedded system which can run Javascript.",
+      "category": "Javascript",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://github.com/Samsung/jerryscript",
+      "title": "JerryScript",
+      "description": "A JavaScript engine intended to run on a very constrained devices such as microcontrollers. Designed for the Internet of Things.",
+      "category": "Javascript",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://nim-lang.org/",
+      "title": "Nim",
+      "description": "A statically-typed programming language inspired by Python, Ada and Modula that compiles to C, C++, and Javascript.",
+      "category": "Nim",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://ziglang.org/",
+      "title": "Zig",
+      "description": null,
+      "category": "Zig",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://ferret-lang.org/",
+      "title": "Ferrett",
+      "description": "Ferret is a free software Clojure implementation for real time embedded control systems.",
+      "category": "Clojure",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://github.com/ycoroneos/G.E.R.T",
+      "title": "GERT",
+      "description": "GERT is a modified version of Go that runs bare-metal on armv7a SOCs. The minimal set of OS primitives that Go relies on have been re-implemented entirely in Go and Plan 9 assembly inside the modified runtime. The goal of this project is to bring the benefits of a high-level, type-safe, and garbage-collected language to bare-metal embedded environments.",
+      "category": "Golang",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://micropython.org/",
+      "title": "MicroPython",
+      "description": null,
+      "category": "MicroPython",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://github.com/esrlabs/estl-teaser",
+      "title": "ESTL",
+      "description": "C++ STL-like library for embedded developers with C++ 98 features only to maximize target platform compatibility.",
+      "category": "STL",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://github.com/etlcpp/etl",
+      "title": "ETL",
+      "description": "Embedded Template Library which offers compile time defined container sizes, full C++ 03 and partial C++ 11 compatibility, deterministic behaviour, additional components for the embedded domain, etc.",
+      "category": "STL",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://github.com/msharov/ustl",
+      "title": "uSTL",
+      "description": "Partial, code size implementation of the STL.",
+      "category": "STL",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://github.com/electronicarts/EASTL",
+      "title": "EASTL",
+      "description": "Electronic Arts STL - aimed for console devices. Good descripton avaliable [HERE](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2007/n2271.html)",
+      "category": "STL",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://github.com/nothings/single_file_libs",
+      "title": "Single File Libs",
+      "description": "Single File libraries for C++ and C. Some might be useful for embedded systems use.",
+      "category": "Other Lists",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "http://embedded.fm/",
+      "title": "Embedded",
+      "description": "Elicia White and Christopher White interview makes, hackers and engineers who work on embedded systems",
+      "category": "Podcasts",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "http://www.theamphour.com/",
+      "title": "The Amp Hour",
+      "description": null,
+      "category": "Podcasts",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "http://thesparkgap.net/",
+      "title": "Sparkgap",
+      "description": null,
+      "category": "Podcasts",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://www.twoscomplement.org/",
+      "title": "Two's Complement Podcast",
+      "description": "Discussions between Matt Godbolt and Ben Rady, revolving around testing, best practices, etc in C and C++ development.",
+      "category": "Podcasts",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://embeddedartistry.com/",
+      "title": "Embedded Artistry",
+      "description": null,
+      "category": "Blogs",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://interrupt.memfault.com/blog/",
+      "title": "Interrupt",
+      "description": "Great in-depth blog posts from MemFault. Mostly around ARM Cortex-M series processors.",
+      "category": "Blogs",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://embedsysweekly.com/",
+      "title": "Embedsys Weekly",
+      "description": "A weekly selection of embedded software and hardware articles.",
+      "category": "Newsletters",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://www.eevblog.com/",
+      "title": "EEVBlog",
+      "description": "More on the electronics side, but David L. Jones tears apart embedded systems and electronic devices.",
+      "category": "Videos",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://thesignalpath.com/blogs/",
+      "title": "The Signal Path",
+      "description": "Electronics equipment teardowns",
+      "category": "Videos",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://www.amazon.com/Making-Embedded-Systems-Patterns-Software/dp/1449302149",
+      "title": "Making Embedded Systems by Elicia White",
+      "description": "Covers the basics of embedded systems architecture, design and patterns.",
+      "category": "Books",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://www.amazon.com/Driven-Development-Embedded-Pragmatic-Programmers/dp/193435662X/ref=asap_bc?ie=UTF8",
+      "title": "Test Driven Developmet for Embedded C by James Grenning",
+      "description": "How to approach test driven development for embedded devices written in C.",
+      "category": "Books",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://www.amazon.com/dp/0982337531/ref=pd_lpo_sbs_dp_ss_3?pf_rd_p=1944687682&pf_rd_s=lpo-top-stripe-1&pf_rd_t=201&pf_rd_i=1578201039&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=SVE997FF9MNQ1VYEJCM1",
+      "title": "uC/OS-III, The Real-Time Kernel by Jean J Labrosse",
+      "description": "A book about the Micrium's uC/os III. It is a great resource on how RTOSes for embedded systems should work.",
+      "category": "Books",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://www.amazon.com/Embedded-Software-Primer-David-Simon/dp/020161569X",
+      "title": "An Embedded Software Primer by David E. Simon",
+      "description": "An introduction to embedded systems, with a good explanation to Real-time operating systems(RTOS).",
+      "category": "Books",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "http://www.barrgroup.com/Embedded-Systems/Books/Embedded-C-Coding-Standard",
+      "title": "Embedded C Coding Standards",
+      "description": "Coding standards for embedded C from the Barr Group.",
+      "category": "Standards",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://wiki.sei.cmu.edu/confluence/display/c/SEI+CERT+C+Coding+Standard",
+      "title": "SEI CERT C Coding Standard",
+      "description": "The SEI CERT C Coding Standard is a software coding standard for the C programming language to improve the safety, reliability, and security of software systems.",
+      "category": "Standards",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "http://platformio.org/",
+      "title": "PlatformIO",
+      "description": "PlatformIO is an open source ecosystem for IoT development",
+      "category": "Tools",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "http://energia.nu",
+      "title": "Energia",
+      "description": "Energia is an open-source electronics prototyping platform, it brings the Wiring and Arduino framework to the Texas Instruments MSP430 based LaunchPad, it includes an IDE that is based on Processing.",
+      "category": "Tools",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://xod.io",
+      "title": "XOD",
+      "description": "An open source visual programming platform for Arduino-compatible boards.",
+      "category": "Tools",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://www.yoctoproject.org/",
+      "title": "yocto",
+      "description": "Yocto is a tool for creating custom embedded linux systems",
+      "category": "Embedded Linux",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://buildroot.org/",
+      "title": "Buildroot",
+      "description": "Buildroot is a simple, efficient and easy-to-use tool to generate embedded Linux systems through cross-compilation.",
+      "category": "Embedded Linux",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://github.com/mendersoftware/mender",
+      "title": "Mender",
+      "description": "Open source over-the-air (OTA) software updater for embedded Linux devices.",
+      "category": "Embedded Linux",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://github.com/sbabic/swupdate",
+      "title": "SWUpdate",
+      "description": "Linux Update agent with the goal to provide an efficient and safe way to update (local, remote, multiple update strategies) an embedded system.",
+      "category": "Embedded Linux",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://www.udemy.com/c-programming-creating-applications-with-qt-framework/",
+      "title": "C++ programming in Qt FrameWork Part I (udemy)",
+      "description": "not free",
+      "category": "Courses",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://www.udemy.com/c-programming-in-qt-framework-part-ii",
+      "title": "C++ programming in Qt Framework: Part II (udemy)",
+      "description": "not free",
+      "category": "Courses",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://www.edx.org/course/computer-systems-design-energy-chalmersx-chm007x",
+      "title": "Computer Systems Design for Energy Efficiency (edx)",
+      "description": null,
+      "category": "Courses",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://www.coursera.org/specializations/cyber-security",
+      "title": "Cybersecurity Fundamentals - Construction of Secure Systems (coursera)",
+      "description": null,
+      "category": "Courses",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://www.coursera.org/learn/real-time-systems",
+      "title": "Development of Real-Time Systems (coursera)",
+      "description": null,
+      "category": "Courses",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://www.edx.org/course/embedded-systems-shape-world-utaustinx-ut-6-03x",
+      "title": "Embedded Systems - Shape The World (edx)",
+      "description": null,
+      "category": "Courses",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://www.udemy.com/fpga-turbo-series-communication-protocols/",
+      "title": "FPGA Turbo Series - Communication Protocols",
+      "description": null,
+      "category": "Courses",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://www.udemy.com/fpga-turbo-series-uart/",
+      "title": "FPGA Turbo Series - Implementing a UART",
+      "description": null,
+      "category": "Courses",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://www.udemy.com/fun-easy-embedded-microcontroller-communication-protocols/",
+      "title": "Fun & Easy Embedded Microcontroller Communication Protocols (Udemy)",
+      "description": "Content: I2C/TWI, SPI, UART, MODBUS RTU, CAN, USB, ETHERNET, PCIE",
+      "category": "Courses",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://www.pluralsight.com/courses/introduction-qt-cplusplus-framework",
+      "title": "Introduction to Qt: A C++ Cross Platform Application Framework (pluralsight)",
+      "description": "not free",
+      "category": "Courses",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://www.pluralsight.com/courses/integrating-qt-quick-cpp",
+      "title": "Integrating Qt Quick with C++ (pluralsight)",
+      "description": "not free",
+      "category": "Courses",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://www.udemy.com/freertos-getting-started/",
+      "title": "Learn FreeRTOS from scratch",
+      "description": "not free - Learn about FreeRTOS basics. Practise it's APIs with different examples.",
+      "category": "Courses",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://www.udemy.com/becoming-linux-expert-series-install-linux-operating-system/",
+      "title": "Linux OS in Embedded Systems & Linux Kernel Internals(1/2) (Udemy)",
+      "description": "not free",
+      "category": "Courses",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://www.udemy.com/c-complete-reference/",
+      "title": "Linux OS in Embedded Systems & Linux Kernel Internals(2/2) (Udemy)",
+      "description": "not free",
+      "category": "Courses",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://www.udemy.com/cortex-m-internals-master-pointers-structures-memory-etc/",
+      "title": "ARM Cortex-M Bare-Metal Embedded-C Programming (Udemy)",
+      "description": null,
+      "category": "Courses",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://www.udemy.com/arm-cortex-m-assembly-programming/",
+      "title": "ARM Cortex-M Assembly Programming (Udemy)",
+      "description": null,
+      "category": "Courses",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://www.udemy.com/introduction-to-embedded-systems-using-8051-microcontroller/",
+      "title": "Introduction to Embedded Systems using 8051 Microcontroller (Udemy)",
+      "description": null,
+      "category": "Courses",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://www.udemy.com/mastering-microcontroller-with-peripheral-driver-development/",
+      "title": "Mastering Microcontroller with Peripheral Driver Development (Udemy)",
+      "description": null,
+      "category": "Courses",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://www.udemy.com/embedded-system-programming-on-arm-cortex-m3m4/",
+      "title": "Embedded Systems Programming on ARM Cortex-M3/M4 Processor (Udemy)",
+      "description": null,
+      "category": "Courses",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://www.udemy.com/foundation-course-on-embedded-linux/",
+      "title": "Foundation course on Embedded Linux (Udemy)",
+      "description": null,
+      "category": "Courses",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://www.udemy.com/armcortex-adc/",
+      "title": "Hands-on Embedded Systems, ARM Cortex Tutorials - ADCs (Udemy)",
+      "description": null,
+      "category": "Courses",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://www.coursera.org/learn/automata-system-validation",
+      "title": "System Validation (1): Automata and behavioural equivalences (coursera)",
+      "description": null,
+      "category": "Courses",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://www.coursera.org/learn/system-validation-behavior",
+      "title": "System Validation (2): Model process behaviour (coursera)",
+      "description": null,
+      "category": "Courses",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://www.youtube.com/playlist?list=PLE4462C1C306E2EB2",
+      "title": "UNC Charlotte Embedded Systems Course",
+      "description": null,
+      "category": "Courses",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://www.udemy.com/qt-c-gui-tutorial-for-beginners/",
+      "title": "QT C++ GUI Tutorial For Beginners (udemy)",
+      "description": "not free",
+      "category": "Courses",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://www.udemy.com/how-to-implement-your-first-vhdl-design-on-fpga/",
+      "title": "How To Implement Your First VHDL Design on FPGA (udemy)",
+      "description": null,
+      "category": "Courses",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://www.udemy.com/vhdl-and-fpga-development-for-beginners-and-intermediates/",
+      "title": "Learn VHDL and FPGA Development (udemy)",
+      "description": null,
+      "category": "Courses",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://www.udemy.com/fpga-design-learning-vhdl/",
+      "title": "FPGA Design Learning VHDL (udemy)",
+      "description": null,
+      "category": "Courses",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://www.udemy.com/vhdl-design-and-modeling-of-digital-systems/",
+      "title": "Learn VHDL Design for use in FPGA and ASIC Digital Systems (udemy)",
+      "description": null,
+      "category": "Courses",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://www.udemy.com/getting-started-with-fpga-ise-and-vhdl/",
+      "title": "Learn VHDL, ISE and FPGA by Designing a basic Home Alarm (udemy)",
+      "description": null,
+      "category": "Courses",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    },
+    {
+      "url": "https://www.udemy.com/the-embedded-pre-interview/",
+      "title": "The Embedded Pre-Interview! (udemy)",
+      "description": "not free - Evaluate your Embedded Systems knowledge, in just 100 minutes, for any entry level job",
+      "category": "Courses",
+      "source": "embedded-boston/awesome-embedded-systems",
+      "indexedAt": "2026-07-23T14:52:41.875Z"
+    }
+  ],
+  "categories": [
+    "TCP/IP",
+    "CoAP",
+    "Open Source",
+    "Proprietary",
+    "Serialization",
+    "Free or Open Source",
+    "Commercial",
+    "Testing",
+    "Frameworks",
+    "D",
+    "Rust",
+    "Elixir",
+    "Ada and Spark",
+    "Javascript",
+    "Nim",
+    "Zig",
+    "Clojure",
+    "Golang",
+    "MicroPython",
+    "STL",
+    "Other Lists",
+    "Podcasts",
+    "Blogs",
+    "Newsletters",
+    "Videos",
+    "Books",
+    "Standards",
+    "Tools",
+    "Embedded Linux",
+    "Courses"
+  ],
+  "crawledAt": "2026-07-23T14:52:41.875Z"
+}

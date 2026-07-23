@@ -1,0 +1,16 @@
+{
+  "id": "dart",
+  "category": "languages",
+  "label": "Dart",
+  "aliases": [],
+  "description": "Client-optimized language for fast apps on any platform, by Google",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Dart_(programming_language)",
+    "wikidata": "https://www.wikidata.org/wiki/Q14428566"
+  },
+  "indexedAt": "2026-07-23T14:36:21.398Z"
+}

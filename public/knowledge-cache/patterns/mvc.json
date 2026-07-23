@@ -1,0 +1,16 @@
+{
+  "id": "mvc",
+  "category": "patterns",
+  "label": "Model-View-Controller",
+  "aliases": [],
+  "description": "Software design pattern",
+  "summary": "Model–view–controller (MVC) is a software architectural pattern commonly used for developing user interfaces that divides the related program logic into three interconnected elements. These elements are:the model, the internal representations of information\nthe view, the interface that presents information to and accepts it from the user\nthe controller, the software linking the two.",
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller",
+    "wikidata": "https://www.wikidata.org/wiki/Q133373"
+  },
+  "indexedAt": "2026-07-23T14:36:44.925Z"
+}

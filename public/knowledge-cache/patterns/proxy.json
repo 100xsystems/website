@@ -1,0 +1,16 @@
+{
+  "id": "proxy",
+  "category": "patterns",
+  "label": "Proxy",
+  "aliases": [],
+  "description": "Provides a surrogate or placeholder for another object to control access",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Proxy_pattern",
+    "wikidata": "https://www.wikidata.org/wiki/Q656269"
+  },
+  "indexedAt": "2026-07-23T14:36:42.726Z"
+}

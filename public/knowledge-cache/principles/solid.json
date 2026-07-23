@@ -1,0 +1,16 @@
+{
+  "id": "solid",
+  "category": "principles",
+  "label": "SOLID",
+  "aliases": [],
+  "description": "Object-oriented programming design principles",
+  "summary": "In object-oriented programming and functional programming, SOLID is a mnemonic acronym for five principles intended to make source code more understandable, flexible, and maintainable. Although the principles apply to object-oriented programming, they also form a core philosophy for methodologies such as agile software development and adaptive software development.",
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/SOLID",
+    "wikidata": "https://www.wikidata.org/wiki/Q169304"
+  },
+  "indexedAt": "2026-07-23T14:36:00.747Z"
+}

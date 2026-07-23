@@ -1,0 +1,16 @@
+{
+  "id": "php",
+  "category": "languages",
+  "label": "PHP",
+  "aliases": [],
+  "description": "Server-side scripting language designed for web development",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/PHP",
+    "wikidata": "https://www.wikidata.org/wiki/Q59"
+  },
+  "indexedAt": "2026-07-23T14:36:16.164Z"
+}

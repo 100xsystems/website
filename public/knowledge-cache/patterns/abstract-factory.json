@@ -1,0 +1,16 @@
+{
+  "id": "abstract-factory",
+  "category": "patterns",
+  "label": "Abstract Factory",
+  "aliases": [],
+  "description": "Provides an interface for creating families of related objects without specifying concrete classes",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Abstract_factory_pattern",
+    "wikidata": "https://www.wikidata.org/wiki/Q58025"
+  },
+  "indexedAt": "2026-07-23T14:36:40.227Z"
+}

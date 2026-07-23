@@ -1,0 +1,13 @@
+{
+  "id": "bulkhead",
+  "category": "principles",
+  "label": "Bulkhead Pattern",
+  "aliases": [],
+  "description": "Isolate components into separate pools so a failure in one doesn't cascade",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {},
+  "indexedAt": "2026-07-23T14:36:09.540Z"
+}

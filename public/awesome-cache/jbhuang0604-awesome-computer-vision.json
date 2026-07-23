@@ -1,0 +1,3671 @@
+{
+  "repoId": "jbhuang0604/awesome-computer-vision",
+  "name": "A curated list of awesome computer vision resources",
+  "description": "A curated list of awesome computer vision resources",
+  "repoUrl": "https://github.com/jbhuang0604/awesome-computer-vision",
+  "stars": 23449,
+  "topics": [],
+  "links": [
+    {
+      "url": "https://github.com/zhaoxin94/awesome-domain-adaptation",
+      "title": "Awesome Domain Adaptation",
+      "description": null,
+      "category": "Awesome Lists",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://github.com/amusi/awesome-object-detection",
+      "title": "Awesome Object Detection",
+      "description": null,
+      "category": "Awesome Lists",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://github.com/timzhang642/3D-Machine-Learning",
+      "title": "Awesome 3D Machine Learning",
+      "description": null,
+      "category": "Awesome Lists",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://github.com/jinwchoi/awesome-action-recognition",
+      "title": "Awesome Action Recognition",
+      "description": null,
+      "category": "Awesome Lists",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://github.com/bertjiazheng/awesome-scene-understanding",
+      "title": "Awesome Scene Understanding",
+      "description": null,
+      "category": "Awesome Lists",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://github.com/yenchenlin/awesome-adversarial-machine-learning",
+      "title": "Awesome Adversarial Machine Learning",
+      "description": null,
+      "category": "Awesome Lists",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://github.com/chbrian/awesome-adversarial-examples-dl",
+      "title": "Awesome Adversarial Deep Learning",
+      "description": null,
+      "category": "Awesome Lists",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://github.com/polarisZhao/awesome-face",
+      "title": "Awesome Face",
+      "description": null,
+      "category": "Awesome Lists",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://github.com/ChanChiChoi/awesome-Face_Recognition",
+      "title": "Awesome Face Recognition",
+      "description": null,
+      "category": "Awesome Lists",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://github.com/wangzheallen/awesome-human-pose-estimation",
+      "title": "Awesome Human Pose Estimation",
+      "description": null,
+      "category": "Awesome Lists",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://github.com/fepegar/awesome-medical-imaging",
+      "title": "Awesome medical imaging",
+      "description": null,
+      "category": "Awesome Lists",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://github.com/heyalexej/awesome-images",
+      "title": "Awesome Images",
+      "description": null,
+      "category": "Awesome Lists",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://github.com/ericjang/awesome-graphics",
+      "title": "Awesome Graphics",
+      "description": null,
+      "category": "Awesome Lists",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://github.com/yenchenlin/awesome-NeRF",
+      "title": "Awesome Neural Radiance Fields",
+      "description": null,
+      "category": "Awesome Lists",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://github.com/vsitzmann/awesome-implicit-representations",
+      "title": "Awesome Implicit Neural Representations",
+      "description": null,
+      "category": "Awesome Lists",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://github.com/weihaox/awesome-neural-rendering",
+      "title": "Awesome Neural Rendering",
+      "description": null,
+      "category": "Awesome Lists",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://github.com/jsbroks/awesome-dataset-tools",
+      "title": "Awesome Dataset Tools",
+      "description": null,
+      "category": "Awesome Lists",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://github.com/sunglok/awesome-robotics-datasets",
+      "title": "Awesome Robotics Datasets",
+      "description": null,
+      "category": "Awesome Lists",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://github.com/fritzlabs/Awesome-Mobile-Machine-Learning",
+      "title": "Awesome Mobile Machine Learning",
+      "description": null,
+      "category": "Awesome Lists",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://github.com/wangyongjie-ntu/Awesome-explainable-AI",
+      "title": "Awesome Explainable AI",
+      "description": null,
+      "category": "Awesome Lists",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://github.com/datamllab/awesome-fairness-in-ai",
+      "title": "Awesome Fairness in AI",
+      "description": null,
+      "category": "Awesome Lists",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://github.com/jphall663/awesome-machine-learning-interpretability",
+      "title": "Awesome Machine Learning Interpretability",
+      "description": null,
+      "category": "Awesome Lists",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://github.com/EthicalML/awesome-production-machine-learning",
+      "title": "Awesome Production Machine Learning",
+      "description": null,
+      "category": "Awesome Lists",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://github.com/danieljf24/awesome-video-text-retrieval",
+      "title": "Awesome Video Text Retrieval",
+      "description": null,
+      "category": "Awesome Lists",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://github.com/weihaox/awesome-image-translation",
+      "title": "Awesome Image-to-Image Translation",
+      "description": null,
+      "category": "Awesome Lists",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://github.com/1900zyh/Awesome-Image-Inpainting",
+      "title": "Awesome Image Inpainting",
+      "description": null,
+      "category": "Awesome Lists",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://github.com/vinthony/awesome-deep-hdr",
+      "title": "Awesome Deep HDR",
+      "description": null,
+      "category": "Awesome Lists",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://github.com/matthewvowels1/Awesome-Video-Generation",
+      "title": "Awesome Video Generation",
+      "description": null,
+      "category": "Awesome Lists",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://github.com/nashory/gans-awesome-applications",
+      "title": "Awesome GAN applications",
+      "description": null,
+      "category": "Awesome Lists",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://github.com/zhoubolei/awesome-generative-modeling",
+      "title": "Awesome Generative Modeling",
+      "description": null,
+      "category": "Awesome Lists",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://github.com/weiaicunzai/awesome-image-classification",
+      "title": "Awesome Image Classification",
+      "description": null,
+      "category": "Awesome Lists",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://github.com/XindiWu/Awesome-Machine-Learning-in-Biomedical-Healthcare-Imaging",
+      "title": "Awesome Machine Learning in Biomedical(Healthcare) Imaging",
+      "description": null,
+      "category": "Awesome Lists",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://github.com/abhineet123/Deep-Learning-for-Tracking-and-Detection",
+      "title": "Awesome Deep Learning for Tracking and Detection",
+      "description": null,
+      "category": "Awesome Lists",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://github.com/HuaizhengZhang/Awsome-Deep-Learning-for-Video-Analysis",
+      "title": "Awesome Deep Learning for Video Analysis",
+      "description": null,
+      "category": "Awesome Lists",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://github.com/yuewang-cuhk/awesome-vision-language-pretraining-papers",
+      "title": "Awesome Vision + Language",
+      "description": null,
+      "category": "Awesome Lists",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://github.com/dk-liang/Awesome-Visual-Transformer",
+      "title": "Awesome Visual Transformer",
+      "description": null,
+      "category": "Awesome Lists",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://github.com/ChanganVR/awesome-embodied-vision",
+      "title": "Awesome Embodied Vision",
+      "description": null,
+      "category": "Awesome Lists",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://github.com/hoya012/awesome-anomaly-detection",
+      "title": "Awesome Anomaly Detection",
+      "description": null,
+      "category": "Awesome Lists",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://github.com/thaoshibe/awesome-makeup-transfer",
+      "title": "Awesome Makeup Transfer",
+      "description": null,
+      "category": "Awesome Lists",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://github.com/subeeshvasu/Awesome-Learning-with-Label-Noise",
+      "title": "Awesome Learning with Label Noise",
+      "description": null,
+      "category": "Awesome Lists",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://github.com/subeeshvasu/Awesome-Deblurring",
+      "title": "Awesome Deblurring",
+      "description": null,
+      "category": "Awesome Lists",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://github.com/subeeshvasu/Awsome_Deep_Geometry_Learning",
+      "title": "Awsome Deep Geometry Learning",
+      "description": null,
+      "category": "Awesome Lists",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://github.com/subeeshvasu/Awesome-Image-Distortion-Correction",
+      "title": "Awesome Image Distortion Correction",
+      "description": null,
+      "category": "Awesome Lists",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://github.com/subeeshvasu/Awesome-Neuron-Segmentation-in-EM-Images",
+      "title": "Awesome Neuron Segmentation in EM Images",
+      "description": null,
+      "category": "Awesome Lists",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://github.com/subeeshvasu/Awsome_Delineation",
+      "title": "Awsome Delineation",
+      "description": null,
+      "category": "Awesome Lists",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://github.com/subeeshvasu/Awesome-ImageHarmonization",
+      "title": "Awesome ImageHarmonization",
+      "description": null,
+      "category": "Awesome Lists",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://github.com/subeeshvasu/Awsome-GAN-Training",
+      "title": "Awsome GAN Training",
+      "description": null,
+      "category": "Awesome Lists",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://github.com/tstanislawek/awesome-document-understanding",
+      "title": "Awesome Document Understanding",
+      "description": null,
+      "category": "Awesome Lists",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.computervisionmodels.com/",
+      "title": "Computer Vision:  Models, Learning, and Inference",
+      "description": "Simon J. D. Prince 2012",
+      "category": "Computer Vision",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://szeliski.org/Book/",
+      "title": "Computer Vision: Theory and Application",
+      "description": "Rick Szeliski 2010",
+      "category": "Computer Vision",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.amazon.com/Computer-Vision-Modern-Approach-2nd/dp/013608592X/ref=dp_ob_title_bk",
+      "title": "Computer Vision: A Modern Approach (2nd edition)",
+      "description": "David Forsyth and Jean Ponce 2011",
+      "category": "Computer Vision",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.robots.ox.ac.uk/~vgg/hzbook/",
+      "title": "Multiple View Geometry in Computer Vision",
+      "description": "Richard Hartley and Andrew Zisserman 2004",
+      "category": "Computer Vision",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.amazon.com/Computer-Vision-Linda-G-Shapiro/dp/0130307963",
+      "title": "Computer Vision",
+      "description": "Linda G. Shapiro 2001",
+      "category": "Computer Vision",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.amazon.com/Vision-Science-Phenomenology-Stephen-Palmer/dp/0262161834/",
+      "title": "Vision Science: Photons to Phenomenology",
+      "description": "Stephen E. Palmer 1999",
+      "category": "Computer Vision",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.morganclaypool.com/doi/abs/10.2200/S00332ED1V01Y201103AIM011",
+      "title": "Visual Object Recognition synthesis lecture",
+      "description": "Kristen Grauman and Bastian Leibe 2011",
+      "category": "Computer Vision",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://cvfxbook.com/",
+      "title": "Computer Vision for Visual Effects",
+      "description": "Richard J. Radke, 2012",
+      "category": "Computer Vision",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.amazon.com/High-Dynamic-Range-Imaging-Second/dp/012374914X",
+      "title": "High dynamic range imaging: acquisition, display, and image-based lighting",
+      "description": "Reinhard, E., Heidrich, W., Debevec, P., Pattanaik, S., Ward, G., Myszkowski, K 2010",
+      "category": "Computer Vision",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://people.csail.mit.edu/jsolomon/share/book/numerical_book.pdf",
+      "title": "Numerical Algorithms: Methods for Computer Vision, Machine Learning, and Graphics",
+      "description": "Justin Solomon 2015",
+      "category": "Computer Vision",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://www.amazon.com/Processing-Analysis-Activate-Learning-Engineering/dp/1285179528",
+      "title": "Image Processing and Analysis",
+      "description": "Stan Birchfield 2018",
+      "category": "Computer Vision",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://web.stanford.edu/class/cs231a/",
+      "title": "Computer Vision, From 3D Reconstruction to Recognition",
+      "description": "Silvio Savarese 2018",
+      "category": "Computer Vision",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.amazon.com/Learning-OpenCV-Computer-Vision-Library/dp/0596516134",
+      "title": "Learning OpenCV: Computer Vision with the OpenCV Library",
+      "description": "Gary Bradski and Adrian Kaehler",
+      "category": "OpenCV Programming",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://www.pyimagesearch.com/practical-python-opencv/",
+      "title": "Practical Python and OpenCV",
+      "description": "Adrian Rosebrock",
+      "category": "OpenCV Programming",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.amazon.com/OpenCV-Essentials-Oscar-Deniz-Suarez/dp/1783984244/ref=sr_1_1?s=books&ie=UTF8&qid=1424594237&sr=1-1&keywords=opencv+essentials#",
+      "title": "OpenCV Essentials",
+      "description": "Oscar Deniz Suarez, Mª del Milagro Fernandez Carrobles, Noelia Vallez Enano, Gloria Bueno Garcia, Ismael Serrano Gracia",
+      "category": "OpenCV Programming",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://research.microsoft.com/en-us/um/people/cmbishop/prml/index.htm",
+      "title": "Pattern Recognition and Machine Learning",
+      "description": "Christopher M. Bishop 2007",
+      "category": "Machine Learning",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.engineering.upm.ro/master-ie/sacpi/mat_did/info068/docum/Neural%20Networks%20for%20Pattern%20Recognition.pdf",
+      "title": "Neural Networks for Pattern Recognition",
+      "description": "Christopher M. Bishop 1995",
+      "category": "Machine Learning",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://pgm.stanford.edu/",
+      "title": "Probabilistic Graphical Models: Principles and Techniques",
+      "description": "Daphne Koller and Nir Friedman 2009",
+      "category": "Machine Learning",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.amazon.com/Pattern-Classification-2nd-Richard-Duda/dp/0471056693",
+      "title": "Pattern Classification",
+      "description": "Peter E. Hart, David G. Stork, and Richard O. Duda 2000",
+      "category": "Machine Learning",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.amazon.com/Machine-Learning-Tom-M-Mitchell/dp/0070428077/",
+      "title": "Machine Learning",
+      "description": "Tom M. Mitchell 1997",
+      "category": "Machine Learning",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.gaussianprocess.org/gpml/",
+      "title": "Gaussian processes for machine learning",
+      "description": "Carl Edward Rasmussen and Christopher K. I. Williams 2005",
+      "category": "Machine Learning",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://work.caltech.edu/telecourse.html",
+      "title": "Learning From Data",
+      "description": "Yaser S. Abu-Mostafa, Malik Magdon-Ismail and Hsuan-Tien Lin 2012",
+      "category": "Machine Learning",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.cs.ucl.ac.uk/staff/d.barber/brml/",
+      "title": "Bayesian Reasoning and Machine Learning",
+      "description": "David Barber, Cambridge University Press, 2012",
+      "category": "Machine Learning",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.amazon.com/Linear-Algebra-Its-Applications-4th/dp/0030105676/ref=sr_1_4?ie=UTF8&qid=1421433773&sr=8-4&keywords=Linear+Algebra+and+Its+Applications",
+      "title": "Linear Algebra and Its Applications",
+      "description": "Gilbert Strang 1995",
+      "category": "Fundamentals",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://inside.mines.edu/~whoff/courses/EENG512/",
+      "title": "EENG 512 / CSCI 512 - Computer Vision",
+      "description": "William Hoff (Colorado School of Mines)",
+      "category": "Computer Vision",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://sites.google.com/site/ucbcs29443/",
+      "title": "Visual Object and Activity Recognition",
+      "description": "Alexei A. Efros and Trevor Darrell (UC Berkeley)",
+      "category": "Computer Vision",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://courses.cs.washington.edu/courses/cse455/12wi/",
+      "title": "Computer Vision",
+      "description": "Steve Seitz (University of Washington)",
+      "category": "Computer Vision",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.tamaraberg.com/teaching/Spring_15/",
+      "title": "Language and Vision",
+      "description": "Tamara Berg (UNC Chapel Hill)",
+      "category": "Computer Vision",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://vision.stanford.edu/teaching/cs231n/",
+      "title": "Convolutional Neural Networks for Visual Recognition",
+      "description": "Fei-Fei Li and Andrej Karpathy (Stanford University)",
+      "category": "Computer Vision",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://cs.nyu.edu/~fergus/teaching/vision/index.html",
+      "title": "Computer Vision",
+      "description": "Rob Fergus (NYU)",
+      "category": "Computer Vision",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://courses.engr.illinois.edu/cs543/sp2015/",
+      "title": "Computer Vision",
+      "description": "Derek Hoiem (UIUC)",
+      "category": "Computer Vision",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://vision.stanford.edu/teaching/cs131_fall1415/index.html",
+      "title": "Computer Vision: Foundations and Applications",
+      "description": "Kalanit Grill-Spector and Fei-Fei Li (Stanford University)",
+      "category": "Computer Vision",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://vision.stanford.edu/teaching/cs431_spring1314/",
+      "title": "High-Level Vision: Behaviors, Neurons and Computational Models",
+      "description": "Fei-Fei Li (Stanford University)",
+      "category": "Computer Vision",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://6.869.csail.mit.edu/fa15/",
+      "title": "Advances in Computer Vision",
+      "description": "Antonio Torralba and Bill Freeman (MIT)",
+      "category": "Computer Vision",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.vision.rwth-aachen.de/course/11/",
+      "title": "Computer Vision",
+      "description": "Bastian Leibe (RWTH Aachen University)",
+      "category": "Computer Vision",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.vision.rwth-aachen.de/course/9/",
+      "title": "Computer Vision 2",
+      "description": "Bastian Leibe (RWTH Aachen University)",
+      "category": "Computer Vision",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://klewel.com/conferences/epfl-computer-vision/",
+      "title": "Computer Vision",
+      "description": null,
+      "category": "Computer Vision",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://cvlab-dresden.de/courses/computer-vision-1/",
+      "title": "Computer Vision 1",
+      "description": null,
+      "category": "Computer Vision",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://cvlab-dresden.de/courses/CV2/",
+      "title": "Computer Vision 2",
+      "description": null,
+      "category": "Computer Vision",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://youtu.be/RDkwklFGMfo?list=PLTBdjV_4f-EJn6udZ34tht9EVIW7lbeo4",
+      "title": "Multiple View Geometry",
+      "description": null,
+      "category": "Computer Vision",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://inst.eecs.berkeley.edu/~cs194-26/fa14/",
+      "title": "Image Manipulation and Computational Photography",
+      "description": "Alexei A. Efros (UC Berkeley)",
+      "category": "Computational Photography",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://graphics.cs.cmu.edu/courses/15-463/2012_fall/463.html",
+      "title": "Computational Photography",
+      "description": "Alexei A. Efros (CMU)",
+      "category": "Computational Photography",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://courses.engr.illinois.edu/cs498dh3/",
+      "title": "Computational Photography",
+      "description": "Derek Hoiem (UIUC)",
+      "category": "Computational Photography",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://cs.brown.edu/courses/csci1290/",
+      "title": "Computational Photography",
+      "description": "James Hays (Brown University)",
+      "category": "Computational Photography",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://stellar.mit.edu/S/course/6/sp12/6.815/",
+      "title": "Digital & Computational Photography",
+      "description": "Fredo Durand (MIT)",
+      "category": "Computational Photography",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://ocw.mit.edu/courses/media-arts-and-sciences/mas-531-computational-camera-and-photography-fall-2009/",
+      "title": "Computational Camera and Photography",
+      "description": "Ramesh Raskar (MIT Media Lab)",
+      "category": "Computational Photography",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://www.udacity.com/course/computational-photography--ud955",
+      "title": "Computational Photography",
+      "description": "Irfan Essa (Georgia Tech)",
+      "category": "Computational Photography",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://graphics.stanford.edu/courses/",
+      "title": "Courses in Graphics",
+      "description": "Stanford University",
+      "category": "Computational Photography",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://cs.nyu.edu/~fergus/teaching/comp_photo/index.html",
+      "title": "Computational Photography",
+      "description": "Rob Fergus (NYU)",
+      "category": "Computational Photography",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.cs.toronto.edu/~kyros/courses/320/",
+      "title": "Introduction to Visual Computing",
+      "description": "Kyros Kutulakos (University of Toronto)",
+      "category": "Computational Photography",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.cs.toronto.edu/~kyros/courses/2530/",
+      "title": "Computational Photography",
+      "description": "Kyros Kutulakos (University of Toronto)",
+      "category": "Computational Photography",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://www.ecse.rpi.edu/~rjradke/cvfxcourse.html",
+      "title": "Computer Vision for Visual Effects",
+      "description": "Rich Radke (Rensselaer Polytechnic Institute)",
+      "category": "Computational Photography",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://www.ecse.rpi.edu/~rjradke/improccourse.html",
+      "title": "Introduction to Image Processing",
+      "description": "Rich Radke (Rensselaer Polytechnic Institute)",
+      "category": "Computational Photography",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://www.coursera.org/learn/machine-learning",
+      "title": "Machine Learning",
+      "description": "Andrew Ng (Stanford University)",
+      "category": "Machine Learning and Statistical Learning",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://class.stanford.edu/courses/HumanitiesandScience/StatLearning/Winter2015/about",
+      "title": "Statistical Learning",
+      "description": "Trevor Hastie and Rob Tibshirani (Stanford University)",
+      "category": "Machine Learning and Statistical Learning",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.mit.edu/~9.520/fall14/",
+      "title": "Statistical Learning Theory and Applications",
+      "description": "Tomaso Poggio, Lorenzo Rosasco, Carlo Ciliberto, Charlie Frogner, Georgios Evangelopoulos, Ben Deen (MIT)",
+      "category": "Machine Learning and Statistical Learning",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.stat.rice.edu/~gallen/stat640.html",
+      "title": "Statistical Learning",
+      "description": "Genevera Allen (Rice University)",
+      "category": "Machine Learning and Statistical Learning",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.cs.berkeley.edu/~jordan/courses/294-fall09/",
+      "title": "Practical Machine Learning",
+      "description": "Michael Jordan (UC Berkeley)",
+      "category": "Machine Learning and Statistical Learning",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://videolectures.net/course_information_theory_pattern_recognition/",
+      "title": "Course on Information Theory, Pattern Recognition, and Neural Networks",
+      "description": "David MacKay (University of Cambridge)",
+      "category": "Machine Learning and Statistical Learning",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://web.stanford.edu/~lmackey/stats306b/",
+      "title": "Methods for Applied Statistics: Unsupervised Learning",
+      "description": "Lester Mackey (Stanford)",
+      "category": "Machine Learning and Statistical Learning",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.robots.ox.ac.uk/~az/lectures/ml/index.html",
+      "title": "Machine Learning",
+      "description": "Andrew Zisserman (University of Oxford)",
+      "category": "Machine Learning and Statistical Learning",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://www.udacity.com/course/intro-to-machine-learning--ud120",
+      "title": "Intro to Machine Learning",
+      "description": "Sebastian Thrun (Stanford University)",
+      "category": "Machine Learning and Statistical Learning",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://www.udacity.com/course/machine-learning--ud262",
+      "title": "Machine Learning",
+      "description": "Charles Isbell, Michael Littman (Georgia Tech)",
+      "category": "Machine Learning and Statistical Learning",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://youtu.be/QZmZFeZxEKI?list=PLTBdjV_4f-EIiongKlS9OKrBEp8QR47Wl",
+      "title": "Machine Learning for Computer Vision",
+      "description": "Rudolph Triebel (TU Munich)",
+      "category": "Machine Learning and Statistical Learning",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://stanford.edu/class/ee364a/",
+      "title": "Convex Optimization I",
+      "description": "Stephen Boyd (Stanford University)",
+      "category": "Optimization",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://stanford.edu/class/ee364b/",
+      "title": "Convex Optimization II",
+      "description": "Stephen Boyd (Stanford University)",
+      "category": "Optimization",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://class.stanford.edu/courses/Engineering/CVX101/Winter2014/about",
+      "title": "Convex Optimization",
+      "description": "Stephen Boyd (Stanford University)",
+      "category": "Optimization",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://optimization.mit.edu/classes.php",
+      "title": "Optimization at MIT",
+      "description": "(MIT)",
+      "category": "Optimization",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.stat.cmu.edu/~ryantibs/convexopt/",
+      "title": "Convex Optimization",
+      "description": "Ryan Tibshirani (CMU)",
+      "category": "Optimization",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.cvpapers.com/",
+      "title": "CVPapers",
+      "description": "Computer vision papers on the web",
+      "category": "Conference papers on the web",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://kesen.realtimerendering.com/",
+      "title": "SIGGRAPH Paper on the web",
+      "description": "Graphics papers on the web",
+      "category": "Conference papers on the web",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://papers.nips.cc/",
+      "title": "NIPS Proceedings",
+      "description": "NIPS papers on the web",
+      "category": "Conference papers on the web",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.cv-foundation.org/openaccess/menu.py",
+      "title": "Computer Vision Foundation open access",
+      "description": null,
+      "category": "Conference papers on the web",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://iris.usc.edu/Vision-Notes/bibliography/contents.html",
+      "title": "Annotated Computer Vision Bibliography",
+      "description": "Keith Price (USC)",
+      "category": "Conference papers on the web",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://iris.usc.edu/Information/Iris-Conferences.html",
+      "title": "Calendar of Computer Image Analysis, Computer Vision Conferences",
+      "description": "(USC)",
+      "category": "Conference papers on the web",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://surveys.visionbib.com/index.html",
+      "title": "Visionbib Survey Paper List",
+      "description": null,
+      "category": "Survey Papers",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.nowpublishers.com/CGV",
+      "title": "Foundations and Trends® in Computer Graphics and Vision",
+      "description": null,
+      "category": "Survey Papers",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://link.springer.com/book/10.1007/978-0-387-31439-6",
+      "title": "Computer Vision: A Reference Guide",
+      "description": null,
+      "category": "Survey Papers",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://github.com/shubham-shahh/Open-Source-Models",
+      "title": "List of Computer Vision models",
+      "description": null,
+      "category": "Pre-trained Computer Vision Models",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.computervisiontalks.com/",
+      "title": "Computer Vision Talks",
+      "description": "Lectures, keynotes, panel discussions on computer vision",
+      "category": "Computer Vision",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://videolectures.net/epsrcws08_blake_amv/",
+      "title": "Applications to Machine Vision",
+      "description": "Andrew Blake (Microsoft Research) 2008",
+      "category": "Computer Vision",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://videolectures.net/kdd08_malik_fis/?q=image",
+      "title": "The Future of Image Search",
+      "description": "Jitendra Malik (UC Berkeley) 2008",
+      "category": "Computer Vision",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.ipam.ucla.edu/programs/summer-schools/graduate-summer-school-computer-vision/?tab=schedule",
+      "title": "Graduate Summer School 2013: Computer Vision",
+      "description": "IPAM, 2013",
+      "category": "Computer Vision",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.pamitc.org/cvpr15/",
+      "title": "CVPR 2015",
+      "description": "Jun 2015",
+      "category": "Recent Conference Talks",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://videolectures.net/eccv2014_zurich/",
+      "title": "ECCV 2014",
+      "description": "Sep 2014",
+      "category": "Recent Conference Talks",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://techtalks.tv/cvpr-2014-oral-talks/",
+      "title": "CVPR 2014",
+      "description": "Jun 2014",
+      "category": "Recent Conference Talks",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://techtalks.tv/iccv2013/",
+      "title": "ICCV 2013",
+      "description": "Dec 2013",
+      "category": "Recent Conference Talks",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://techtalks.tv/icml/2013/",
+      "title": "ICML 2013",
+      "description": "Jul 2013",
+      "category": "Recent Conference Talks",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://techtalks.tv/cvpr2013/",
+      "title": "CVPR 2013",
+      "description": "Jun 2013",
+      "category": "Recent Conference Talks",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://videolectures.net/eccv2012_firenze/",
+      "title": "ECCV 2012",
+      "description": "Oct 2012",
+      "category": "Recent Conference Talks",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://techtalks.tv/icml/2012/orals/",
+      "title": "ICML 2012",
+      "description": "Jun 2012",
+      "category": "Recent Conference Talks",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://techtalks.tv/cvpr2012webcast/",
+      "title": "CVPR 2012",
+      "description": "Jun 2012",
+      "category": "Recent Conference Talks",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.technologyreview.com/video/426265/meet-2011-tr35-winner-noah-snavely/",
+      "title": "The Distributed Camera",
+      "description": "Noah Snavely (Cornell University) 2011",
+      "category": "Internet Vision",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://videolectures.net/nipsworkshops2011_weiss_deconvolution/",
+      "title": "Old and New algorithm for Blind Deconvolution",
+      "description": "Yair Weiss (The Hebrew University of Jerusalem) 2011",
+      "category": "Computational Photography",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://videolectures.net/nipsworkshops2010_milanfar_tmi/",
+      "title": "A Tour of Modern \"Image Processing\"",
+      "description": "Peyman Milanfar (UC Santa Cruz/Google) 2010",
+      "category": "Computational Photography",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://videolectures.net/mlss07_blake_tiivp/",
+      "title": "Topics in image and video processing",
+      "description": null,
+      "category": "Computational Photography",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://videolectures.net/colt2011_freeman_help/?q=computer%20vision",
+      "title": "Where machine vision needs help from machine learning",
+      "description": "William T. Freeman (MIT) 2011",
+      "category": "Learning and Vision",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://videolectures.net/mlss08au_lucey_linv/",
+      "title": "Learning in Computer Vision",
+      "description": "Simon Lucey (CMU) 2008",
+      "category": "Learning and Vision",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://videolectures.net/nips09_weiss_lil/?q=computer%20vision",
+      "title": "Learning and Inference in Low-Level Vision",
+      "description": "Yair Weiss (The Hebrew University of Jerusalem) 2009",
+      "category": "Learning and Vision",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://research.microsoft.com/apps/video/dl.aspx?id=231358",
+      "title": "Object Recognition",
+      "description": "Larry Zitnick (Microsoft Research)",
+      "category": "Object Recognition",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://videolectures.net/mlas06_li_gmvoo/?q=Fei-Fei%20Li",
+      "title": "Generative Models for Visual Objects and Object Recognition via Bayesian Inference",
+      "description": "Fei-Fei Li (Stanford University)",
+      "category": "Object Recognition",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://videolectures.net/uai2012_felzenszwalb_computer_vision/?q=computer%20vision",
+      "title": "Graphical Models for Computer Vision",
+      "description": "Pedro Felzenszwalb (Brown University) 2012",
+      "category": "Graphical Models",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://videolectures.net/mlss09uk_ghahramani_gm/",
+      "title": "Graphical Models",
+      "description": "Zoubin Ghahramani (University of Cambridge) 2009",
+      "category": "Graphical Models",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://videolectures.net/mlss06tw_roweis_mlpgm/",
+      "title": "Machine Learning, Probability and Graphical Models",
+      "description": "Sam Roweis (NYU) 2006",
+      "category": "Graphical Models",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://videolectures.net/mlss09us_weiss_gma/?q=Graphical%20Models",
+      "title": "Graphical Models and Applications",
+      "description": "Yair Weiss (The Hebrew University of Jerusalem) 2009",
+      "category": "Graphical Models",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://nikola-rt.ee.washington.edu/people/bulyko/papers/em.pdf",
+      "title": "A Gentle Tutorial of the EM Algorithm",
+      "description": "Jeff A. Bilmes (UC Berkeley) 1998",
+      "category": "Machine Learning",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://videolectures.net/mlss09uk_bishop_ibi/",
+      "title": "Introduction To Bayesian Inference",
+      "description": "Christopher Bishop (Microsoft Research) 2009",
+      "category": "Machine Learning",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://videolectures.net/mlss06tw_lin_svm/",
+      "title": "Support Vector Machines",
+      "description": "Chih-Jen Lin (National Taiwan University) 2006",
+      "category": "Machine Learning",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://videolectures.net/mlss09uk_jordan_bfway/",
+      "title": "Bayesian or Frequentist, Which Are You?",
+      "description": "Michael I. Jordan (UC Berkeley)",
+      "category": "Machine Learning",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://videolectures.net/nips2010_wright_oaml/",
+      "title": "Optimization Algorithms in Machine Learning",
+      "description": "Stephen J. Wright (University of Wisconsin-Madison)",
+      "category": "Optimization",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://videolectures.net/mlss07_vandenberghe_copt/?q=convex%20optimization",
+      "title": "Convex Optimization",
+      "description": "Lieven Vandenberghe (University of California, Los Angeles)",
+      "category": "Optimization",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://videolectures.net/sahd2014_bach_stochastic_gradient/",
+      "title": "Beyond stochastic gradient descent for large-scale machine learning",
+      "description": "Francis Bach (INRIA)",
+      "category": "Optimization",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://videolectures.net/jul09_hinton_deeplearn/",
+      "title": "A tutorial on Deep Learning",
+      "description": "Geoffrey E. Hinton (University of Toronto)",
+      "category": "Deep Learning",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://videolectures.net/kdd2014_salakhutdinov_deep_learning/?q=Hidden%20Markov%20model#",
+      "title": "Deep Learning",
+      "description": "Ruslan Salakhutdinov (University of Toronto)",
+      "category": "Deep Learning",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://videolectures.net/kdd2014_bengio_deep_learning/",
+      "title": "Scaling up Deep Learning",
+      "description": "Yoshua Bengio (University of Montreal)",
+      "category": "Deep Learning",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://videolectures.net/machine_krizhevsky_imagenet_classification/?q=deep%20learning",
+      "title": "ImageNet Classification with Deep Convolutional Neural Networks",
+      "description": "Alex Krizhevsky (University of Toronto)",
+      "category": "Deep Learning",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://videolectures.net/sahd2014_lecun_deep_learning/",
+      "title": "The Unreasonable Effectivness Of Deep Learning",
+      "description": null,
+      "category": "Deep Learning",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://videolectures.net/sahd2014_mallat_dimensional_learning/",
+      "title": "High-dimensional learning with deep network contractions",
+      "description": "Stéphane Mallat (Ecole Normale Superieure)",
+      "category": "Deep Learning",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.ipam.ucla.edu/programs/summer-schools/graduate-summer-school-deep-learning-feature-learning/?tab=schedule",
+      "title": "Graduate Summer School 2012: Deep Learning, Feature Learning",
+      "description": "IPAM, 2012",
+      "category": "Deep Learning",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.fields.utoronto.ca/programs/scientific/14-15/bigdata/machine/",
+      "title": "Workshop on Big Data and Statistical Machine Learning",
+      "description": null,
+      "category": "Deep Learning",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://www.youtube.com/channel/UC3ywjSv5OsDiDAnOP8C1NiQ",
+      "title": "Machine Learning Summer School",
+      "description": "Reykjavik, Iceland 2014",
+      "category": "Deep Learning",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://commacoloring.herokuapp.com/",
+      "title": "Comma Coloring",
+      "description": null,
+      "category": "Annotation tools",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://annotorious.github.io/",
+      "title": "Annotorious",
+      "description": null,
+      "category": "Annotation tools",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://labelme.csail.mit.edu/Release3.0/",
+      "title": "LabelME",
+      "description": null,
+      "category": "Annotation tools",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://github.com/sanko-shoko/gtmaker",
+      "title": "gtmaker",
+      "description": null,
+      "category": "Annotation tools",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://sites.google.com/site/jbhuang0604/resources/vision",
+      "title": "Computer Vision Resources",
+      "description": "Jia-Bin Huang (UIUC)",
+      "category": "External Resource Links",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.cvpapers.com/rr.html",
+      "title": "Computer Vision Algorithm Implementations",
+      "description": "CVPapers",
+      "category": "External Resource Links",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.csee.wvu.edu/~xinl/reproducible_research.html",
+      "title": "Source Code Collection for Reproducible Research",
+      "description": "Xin Li (West Virginia University)",
+      "category": "External Resource Links",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.cs.cmu.edu/afs/cs/project/cil/ftp/html/v-source.html",
+      "title": "CMU Computer Vision Page",
+      "description": null,
+      "category": "External Resource Links",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.mathworks.com/products/computer-vision/",
+      "title": "Matlab Computer Vision System Toolbox",
+      "description": null,
+      "category": "General Purpose Computer Vision Library",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://vision.ucsd.edu/~pdollar/toolbox/doc/index.html",
+      "title": "Piotr's Computer Vision Matlab Toolbox",
+      "description": null,
+      "category": "General Purpose Computer Vision Library",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://pointclouds.org/",
+      "title": "PCL: Point Cloud Library",
+      "description": null,
+      "category": "General Purpose Computer Vision Library",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://gitorious.org/imageutilities",
+      "title": "ImageUtilities",
+      "description": null,
+      "category": "General Purpose Computer Vision Library",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.robots.ox.ac.uk/~vgg/hzbook/code/",
+      "title": "MATLAB Functions for Multiple View Geometry",
+      "description": null,
+      "category": "Multiple-view Computer Vision",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://staffhome.ecm.uwa.edu.au/~00011811/Research/MatlabFns/index.html",
+      "title": "Peter Kovesi's Matlab Functions for Computer Vision and Image Analysis",
+      "description": null,
+      "category": "Multiple-view Computer Vision",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://laurentkneip.github.io/opengv/",
+      "title": "OpenGV",
+      "description": "geometric computer vision algorithms",
+      "category": "Multiple-view Computer Vision",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://cmp.felk.cvut.cz/mini/",
+      "title": "MinimalSolvers",
+      "description": "Minimal problems solver",
+      "category": "Multiple-view Computer Vision",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.gcc.tu-darmstadt.de/home/proj/mve/",
+      "title": "Multi-View Environment",
+      "description": null,
+      "category": "Multiple-view Computer Vision",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://ccwu.me/vsfm/",
+      "title": "Visual SFM",
+      "description": null,
+      "category": "Multiple-view Computer Vision",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.cs.cornell.edu/~snavely/bundler/",
+      "title": "Bundler SFM",
+      "description": null,
+      "category": "Multiple-view Computer Vision",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://imagine.enpc.fr/~moulonp/openMVG/",
+      "title": "openMVG: open Multiple View Geometry",
+      "description": "Multiple View Geometry; Structure from Motion library & softwares",
+      "category": "Multiple-view Computer Vision",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.di.ens.fr/pmvs/",
+      "title": "Patch-based Multi-view Stereo V2",
+      "description": null,
+      "category": "Multiple-view Computer Vision",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.di.ens.fr/cmvs/",
+      "title": "Clustering Views for Multi-view Stereo",
+      "description": null,
+      "category": "Multiple-view Computer Vision",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.gris.informatik.tu-darmstadt.de/projects/floating-scale-surface-recon/",
+      "title": "Floating Scale Surface Reconstruction",
+      "description": null,
+      "category": "Multiple-view Computer Vision",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.gcc.tu-darmstadt.de/home/proj/texrecon/",
+      "title": "Large-Scale Texturing of 3D Reconstructions",
+      "description": null,
+      "category": "Multiple-view Computer Vision",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://github.com/openMVG/awesome_3DReconstruction_list",
+      "title": "Awesome 3D reconstruction list",
+      "description": null,
+      "category": "Multiple-view Computer Vision",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.cs.ubc.ca/~lowe/keypoints/",
+      "title": "SIFT",
+      "description": null,
+      "category": "Feature Detection and Extraction",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.robots.ox.ac.uk/~vedaldi/code/siftpp.html",
+      "title": "SIFT++",
+      "description": null,
+      "category": "Feature Detection and Extraction",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.asl.ethz.ch/people/lestefan/personal/BRISK",
+      "title": "BRISK",
+      "description": null,
+      "category": "Feature Detection and Extraction",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.vision.ee.ethz.ch/~surf/",
+      "title": "SURF",
+      "description": null,
+      "category": "Feature Detection and Extraction",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.ivpe.com/freak.htm",
+      "title": "FREAK",
+      "description": null,
+      "category": "Feature Detection and Extraction",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.robesafe.com/personal/pablo.alcantarilla/kaze.html",
+      "title": "AKAZE",
+      "description": null,
+      "category": "Feature Detection and Extraction",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://github.com/nourani/LBP",
+      "title": "Local Binary Patterns",
+      "description": null,
+      "category": "Feature Detection and Extraction",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://github.com/banterle/HDR_Toolbox",
+      "title": "HDR_Toolbox",
+      "description": null,
+      "category": "High Dynamic Range Imaging",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.it-caesar.com/list-of-contemporary-semantic-segmentation-datasets/",
+      "title": "List of Semantic Segmentation algorithms",
+      "description": null,
+      "category": "Semantic Segmentation",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://vision.middlebury.edu/stereo/",
+      "title": "Middlebury Stereo Vision",
+      "description": null,
+      "category": "Stereo Vision",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.cvlibs.net/datasets/kitti/eval_stereo_flow.php?benchmark=stero",
+      "title": "The KITTI Vision Benchmark Suite",
+      "description": null,
+      "category": "Stereo Vision",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.cvlibs.net/software/libelas/",
+      "title": "LIBELAS: Library for Efficient Large-scale Stereo Matching",
+      "description": null,
+      "category": "Stereo Vision",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.6d-vision.com/ground-truth-stixel-dataset",
+      "title": "Ground Truth Stixel Dataset",
+      "description": null,
+      "category": "Stereo Vision",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://vision.middlebury.edu/flow/",
+      "title": "Middlebury Optical Flow Evaluation",
+      "description": null,
+      "category": "Optical Flow",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://sintel.is.tue.mpg.de/",
+      "title": "MPI-Sintel Optical Flow Dataset and Evaluation",
+      "description": null,
+      "category": "Optical Flow",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://hci.iwr.uni-heidelberg.de/Benchmarks/document/Challenging_Data_for_Stereo_and_Optical_Flow/",
+      "title": "HCI Challenge",
+      "description": null,
+      "category": "Optical Flow",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://people.csail.mit.edu/celiu/OpticalFlow/",
+      "title": "Coarse2Fine Optical Flow",
+      "description": "Ce Liu (MIT)",
+      "category": "Optical Flow",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://cs.brown.edu/~dqsun/code/cvpr10_flow_code.zip",
+      "title": "Secrets of Optical Flow Estimation and Their Principles",
+      "description": null,
+      "category": "Optical Flow",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.ctim.es/research_works/parallel_robust_optical_flow/",
+      "title": "Parallel Robust Optical Flow by Sánchez Pérez et al.",
+      "description": null,
+      "category": "Optical Flow",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.robots.ox.ac.uk/~vgg/software/SR/",
+      "title": "Multi-frame image super-resolution",
+      "description": null,
+      "category": "Super-resolution",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://people.csail.mit.edu/billf/project%20pages/sresCode/Markov%20Random%20Fields%20for%20Super-Resolution.html",
+      "title": "Markov Random Fields for Super-Resolution",
+      "description": null,
+      "category": "Super-resolution",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://people.mpi-inf.mpg.de/~kkim/supres/supres.htm",
+      "title": "Sparse regression and natural image prior",
+      "description": null,
+      "category": "Super-resolution",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.cs.technion.ac.il/~elad/Various/SingleImageSR_TIP14_Box.zip",
+      "title": "Single-Image Super Resolution via a Statistical Model",
+      "description": null,
+      "category": "Super-resolution",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.cs.technion.ac.il/~elad/Various/Single_Image_SR.zip",
+      "title": "Sparse Coding for Super-Resolution",
+      "description": null,
+      "category": "Super-resolution",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.ifp.illinois.edu/~jyang29/ScSR.htm",
+      "title": "Patch-wise Sparse Recovery",
+      "description": null,
+      "category": "Super-resolution",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.jdl.ac.cn/user/hchang/doc/code.rar",
+      "title": "Neighbor embedding",
+      "description": null,
+      "category": "Super-resolution",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://sites.google.com/site/yuzhushome/single-image-super-resolution-using-deformable-patches",
+      "title": "Deformable Patches",
+      "description": null,
+      "category": "Super-resolution",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://mmlab.ie.cuhk.edu.hk/projects/SRCNN.html",
+      "title": "SRCNN",
+      "description": null,
+      "category": "Super-resolution",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.vision.ee.ethz.ch/~timofter/ACCV2014_ID820_SUPPLEMENTARY/index.html",
+      "title": "A+: Adjusted Anchored Neighborhood Regression",
+      "description": null,
+      "category": "Super-resolution",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://sites.google.com/site/jbhuang0604/publications/struct_sr",
+      "title": "Transformed Self-Exemplars",
+      "description": null,
+      "category": "Super-resolution",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://homes.cs.washington.edu/~shanqi/work/spvdeconv/",
+      "title": "Spatially variant non-blind deconvolution",
+      "description": null,
+      "category": "Image Deblurring",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://cg.postech.ac.kr/research/deconv_outliers/",
+      "title": "Handling Outliers in Non-blind Image Deconvolution",
+      "description": null,
+      "category": "Image Deblurring",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://cs.nyu.edu/~dilip/research/fast-deconvolution/",
+      "title": "Hyper-Laplacian Priors",
+      "description": null,
+      "category": "Image Deblurring",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://people.csail.mit.edu/danielzoran/epllcode.zip",
+      "title": "From Learning Models of Natural Image Patches to Whole Image Restoration",
+      "description": null,
+      "category": "Image Deblurring",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://lxu.me/projects/dcnn/",
+      "title": "Deep Convolutional Neural Network for Image Deconvolution",
+      "description": null,
+      "category": "Image Deblurring",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://webdav.is.mpg.de/pixel/neural_deconvolution/",
+      "title": "Neural Deconvolution",
+      "description": null,
+      "category": "Image Deblurring",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.cs.nyu.edu/~fergus/research/deblur.html",
+      "title": "Removing Camera Shake From A Single Photograph",
+      "description": null,
+      "category": "Image Deblurring",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.cse.cuhk.edu.hk/leojia/projects/motion_deblurring/",
+      "title": "High-quality motion deblurring from a single image",
+      "description": null,
+      "category": "Image Deblurring",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.cse.cuhk.edu.hk/leojia/projects/robust_deblur/",
+      "title": "Two-Phase Kernel Estimation for Robust Motion Deblurring",
+      "description": null,
+      "category": "Image Deblurring",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://people.csail.mit.edu/taegsang/Documents/RadonDeblurringCode.zip",
+      "title": "Blur kernel estimation using the radon transform",
+      "description": null,
+      "category": "Image Deblurring",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://cg.postech.ac.kr/research/fast_motion_deblurring/",
+      "title": "Fast motion deblurring",
+      "description": null,
+      "category": "Image Deblurring",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://cs.nyu.edu//~dilip/research/blind-deconvolution/",
+      "title": "Blind Deconvolution Using a Normalized Sparsity Measure",
+      "description": null,
+      "category": "Image Deblurring",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.cs.huji.ac.il/~raananf/projects/deblur/",
+      "title": "Blur-kernel estimation from spectral irregularities",
+      "description": null,
+      "category": "Image Deblurring",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.wisdom.weizmann.ac.il/~levina/papers/LevinEtalCVPR2011Code.zip",
+      "title": "Efficient marginal likelihood optimization in blind deconvolution",
+      "description": null,
+      "category": "Image Deblurring",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.cse.cuhk.edu.hk/leojia/projects/l0deblur/",
+      "title": "Unnatural L0 Sparse Representation for Natural Image Deblurring",
+      "description": null,
+      "category": "Image Deblurring",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://cs.brown.edu/~lbsun/deblur2013/deblur2013iccp.html",
+      "title": "Edge-based Blur Kernel Estimation Using Patch Priors",
+      "description": null,
+      "category": "Image Deblurring",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.wisdom.weizmann.ac.il/~vision/BlindDeblur.html",
+      "title": "Blind Deblurring Using Internal Patch Recurrence",
+      "description": null,
+      "category": "Image Deblurring",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.di.ens.fr/willow/research/deblurring/",
+      "title": "Non-uniform Deblurring for Shaken Images",
+      "description": null,
+      "category": "Image Deblurring",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://grail.cs.washington.edu/projects/mdf_deblurring/",
+      "title": "Single Image Deblurring Using Motion Density Functions",
+      "description": null,
+      "category": "Image Deblurring",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://research.microsoft.com/en-us/um/redmond/groups/ivm/imudeblurring/",
+      "title": "Image Deblurring using Inertial Measurement Sensors",
+      "description": null,
+      "category": "Image Deblurring",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://webdav.is.mpg.de/pixel/fast_removal_of_camera_shake/",
+      "title": "Fast Removal of Non-uniform Camera Shake",
+      "description": null,
+      "category": "Image Deblurring",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://registry.gimp.org/node/27986",
+      "title": "GIMP Resynthesizer",
+      "description": null,
+      "category": "Image Completion",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://lafarren.com/image-completer/",
+      "title": "Priority BP",
+      "description": null,
+      "category": "Image Completion",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.ece.ucsb.edu/~psen/melding",
+      "title": "ImageMelding",
+      "description": null,
+      "category": "Image Completion",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://sites.google.com/site/jbhuang0604/publications/struct_completion",
+      "title": "PlanarStructureCompletion",
+      "description": null,
+      "category": "Image Completion",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://people.csail.mit.edu/mrub/retargetme/",
+      "title": "RetargetMe",
+      "description": null,
+      "category": "Image Retargeting",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.alphamatting.com/",
+      "title": "Alpha Matting Evaluation",
+      "description": null,
+      "category": "Alpha Matting",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://people.csail.mit.edu/alevin/matting.tar.gz",
+      "title": "Closed-form image matting",
+      "description": null,
+      "category": "Alpha Matting",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.vision.huji.ac.il/SpectralMatting/",
+      "title": "Spectral Matting",
+      "description": null,
+      "category": "Alpha Matting",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.mathworks.com/matlabcentral/fileexchange/31412-learning-based-digital-matting",
+      "title": "Learning-based Matting",
+      "description": null,
+      "category": "Alpha Matting",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.alphamatting.com/ImprovingMattingComprehensiveSamplingSets_CVPR2013.zip",
+      "title": "Improving Image Matting using Comprehensive Sampling Sets",
+      "description": null,
+      "category": "Alpha Matting",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.cns.nyu.edu/~eero/steerpyr/",
+      "title": "The Steerable Pyramid",
+      "description": null,
+      "category": "Image Pyramid",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.curvelet.org/",
+      "title": "CurveLab",
+      "description": null,
+      "category": "Image Pyramid",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://people.csail.mit.edu/sparis/bf/",
+      "title": "Fast Bilateral Filter",
+      "description": null,
+      "category": "Edge-preserving image processing",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.cs.cityu.edu.hk/~qiyang/publications/code/qx.cvpr09.ctbf.zip",
+      "title": "O(1) Bilateral Filter",
+      "description": null,
+      "category": "Edge-preserving image processing",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.cs.cityu.edu.hk/~qiyang/publications/eccv-12/",
+      "title": "Recursive Bilateral Filtering",
+      "description": null,
+      "category": "Edge-preserving image processing",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.cse.cuhk.edu.hk/leojia/projects/rollguidance/",
+      "title": "Rolling Guidance Filter",
+      "description": null,
+      "category": "Edge-preserving image processing",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.cse.cuhk.edu.hk/leojia/projects/texturesep/index.html",
+      "title": "Relative Total Variation",
+      "description": null,
+      "category": "Edge-preserving image processing",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.cse.cuhk.edu.hk/leojia/projects/L0smoothing/index.html",
+      "title": "L0 Gradient Optimization",
+      "description": null,
+      "category": "Edge-preserving image processing",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.inf.ufrgs.br/~eslgastal/DomainTransform/",
+      "title": "Domain Transform",
+      "description": null,
+      "category": "Edge-preserving image processing",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://inf.ufrgs.br/~eslgastal/AdaptiveManifolds/",
+      "title": "Adaptive Manifold",
+      "description": null,
+      "category": "Edge-preserving image processing",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://research.microsoft.com/en-us/um/people/kahe/eccv10/",
+      "title": "Guided image filtering",
+      "description": null,
+      "category": "Edge-preserving image processing",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://people.tuebingen.mpg.de/mkiefel/projects/intrinsic/",
+      "title": "Recovering Intrinsic Images with a global Sparsity Prior on Reflectance",
+      "description": null,
+      "category": "Intrinsic Images",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://giga.cps.unizar.es/~elenag/projects/EGSR2012_intrinsic/",
+      "title": "Intrinsic Images by Clustering",
+      "description": null,
+      "category": "Intrinsic Images",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://coewww.rutgers.edu/riul/research/code/EDISON/",
+      "title": "Mean Shift Segmentation",
+      "description": null,
+      "category": "Contour Detection and Image Segmentation",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://cs.brown.edu/~pff/segment/",
+      "title": "Graph-based Segmentation",
+      "description": null,
+      "category": "Contour Detection and Image Segmentation",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.cis.upenn.edu/~jshi/software/",
+      "title": "Normalized Cut",
+      "description": null,
+      "category": "Contour Detection and Image Segmentation",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://grabcut.weebly.com/background--algorithm.html",
+      "title": "Grab Cut",
+      "description": null,
+      "category": "Contour Detection and Image Segmentation",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/resources.html",
+      "title": "Contour Detection and Image Segmentation",
+      "description": null,
+      "category": "Contour Detection and Image Segmentation",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://research.microsoft.com/en-us/downloads/389109f6-b4e8-404c-84bf-239f7cbf4e3d/",
+      "title": "Structured Edge Detection",
+      "description": null,
+      "category": "Contour Detection and Image Segmentation",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://web.mit.edu/phillipi/pmi-boundaries/",
+      "title": "Pointwise Mutual Information",
+      "description": null,
+      "category": "Contour Detection and Image Segmentation",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://ivrl.epfl.ch/research/superpixels",
+      "title": "SLIC Super-pixel",
+      "description": null,
+      "category": "Contour Detection and Image Segmentation",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.vlfeat.org/overview/quickshift.html",
+      "title": "QuickShift",
+      "description": null,
+      "category": "Contour Detection and Image Segmentation",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.cs.toronto.edu/~babalex/research.html",
+      "title": "TurboPixels",
+      "description": null,
+      "category": "Contour Detection and Image Segmentation",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://mingyuliu.net/",
+      "title": "Entropy Rate Superpixel",
+      "description": null,
+      "category": "Contour Detection and Image Segmentation",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.vsi.cs.uni-frankfurt.de/research/current-projects/research/superpixel-segmentation/",
+      "title": "Contour Relaxed Superpixels",
+      "description": null,
+      "category": "Contour Detection and Image Segmentation",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.mvdblive.org/seeds/",
+      "title": "SEEDS",
+      "description": null,
+      "category": "Contour Detection and Image Segmentation",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://github.com/davidstutz/seeds-revised",
+      "title": "SEEDS Revised",
+      "description": null,
+      "category": "Contour Detection and Image Segmentation",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/mcg/",
+      "title": "Multiscale Combinatorial Grouping",
+      "description": null,
+      "category": "Contour Detection and Image Segmentation",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://github.com/pdollar/edges",
+      "title": "Fast Edge Detection Using Structured Forests",
+      "description": null,
+      "category": "Contour Detection and Image Segmentation",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://cns.bu.edu/~lgrady/software.html",
+      "title": "Random Walker",
+      "description": null,
+      "category": "Interactive Image Segmentation",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.tc.umn.edu/~baixx015/",
+      "title": "Geodesic Segmentation",
+      "description": null,
+      "category": "Interactive Image Segmentation",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://research.microsoft.com/apps/pubs/default.aspx?id=69040",
+      "title": "Lazy Snapping",
+      "description": null,
+      "category": "Interactive Image Segmentation",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://powerwatershed.sourceforge.net/",
+      "title": "Power Watershed",
+      "description": null,
+      "category": "Interactive Image Segmentation",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.adobe.com/technology/people/san-jose/brian-price.html",
+      "title": "Geodesic Graph Cut",
+      "description": null,
+      "category": "Interactive Image Segmentation",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.cs.cmu.edu/~olivierd/",
+      "title": "Segmentation by Transduction",
+      "description": null,
+      "category": "Interactive Image Segmentation",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.mpi-inf.mpg.de/departments/computer-vision-and-multimodal-computing/research/image-and-video-segmentation/video-segmentation-with-superpixels/",
+      "title": "Video Segmentation with Superpixels",
+      "description": null,
+      "category": "Video Segmentation",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.cc.gatech.edu/cpl/projects/videosegmentation/",
+      "title": "Efficient hierarchical graph-based video segmentation",
+      "description": null,
+      "category": "Video Segmentation",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://lmb.informatik.uni-freiburg.de/Publications/2011/OB11/",
+      "title": "Object segmentation in video",
+      "description": null,
+      "category": "Video Segmentation",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.cse.buffalo.edu/~jcorso/r/supervoxels/",
+      "title": "Streaming hierarchical video segmentation",
+      "description": null,
+      "category": "Video Segmentation",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.vision.caltech.edu/bouguetj/calib_doc/",
+      "title": "Camera Calibration Toolbox for Matlab",
+      "description": null,
+      "category": "Camera calibration",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://docs.opencv.org/trunk/doc/tutorials/calib3d/camera_calibration/camera_calibration.html#",
+      "title": "Camera calibration With OpenCV",
+      "description": null,
+      "category": "Camera calibration",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://sites.google.com/site/prclibo/toolbox",
+      "title": "Multiple Camera Calibration Toolbox",
+      "description": null,
+      "category": "Camera calibration",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://www.openslam.org/",
+      "title": "openSLAM",
+      "description": null,
+      "category": "SLAM community:",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.cvlibs.net/datasets/kitti/eval_odometry.php",
+      "title": "Kitti Odometry: benchmark for outdoor visual odometry (codes may be available)",
+      "description": null,
+      "category": "SLAM community:",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.cvlibs.net/software/libviso/",
+      "title": "LIBVISO2: C++ Library for Visual Odometry 2",
+      "description": null,
+      "category": "Tracking/Odometry:",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.robots.ox.ac.uk/~gk/PTAM/",
+      "title": "PTAM: Parallel tracking and mapping",
+      "description": null,
+      "category": "Tracking/Odometry:",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://github.com/GerhardR/kfusion",
+      "title": "KFusion: Implementation of KinectFusion",
+      "description": null,
+      "category": "Tracking/Odometry:",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://github.com/Nerei/kinfu_remake",
+      "title": "kinfu_remake: Lightweight, reworked and optimized version of Kinfu.",
+      "description": null,
+      "category": "Tracking/Odometry:",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://las-vegas.uni-osnabrueck.de/related-projects/lvr-kinfu/",
+      "title": "LVR-KinFu: kinfu_remake based Large Scale KinectFusion with online reconstruction",
+      "description": null,
+      "category": "Tracking/Odometry:",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.robots.ox.ac.uk/~victor/infinitam/",
+      "title": "InfiniTAM: Implementation of multi-platform large-scale depth tracking and fusion",
+      "description": null,
+      "category": "Tracking/Odometry:",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://github.com/nachtmar/VoxelHashing",
+      "title": "VoxelHashing: Large-scale KinectFusion",
+      "description": null,
+      "category": "Tracking/Odometry:",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://apt.cs.manchester.ac.uk/projects/PAMELA/tools/SLAMBench/",
+      "title": "SLAMBench: Multiple-implementation of KinectFusion",
+      "description": null,
+      "category": "Tracking/Odometry:",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://github.com/uzh-rpg/rpg_svo",
+      "title": "SVO: Semi-direct visual odometry",
+      "description": null,
+      "category": "Tracking/Odometry:",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://github.com/tum-vision/dvo_slam",
+      "title": "DVO: dense visual odometry",
+      "description": null,
+      "category": "Tracking/Odometry:",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://code.google.com/p/fovis/",
+      "title": "FOVIS: RGB-D visual odometry",
+      "description": null,
+      "category": "Tracking/Odometry:",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://collab.cc.gatech.edu/borg/gtsam?destination=node%2F299",
+      "title": "GTSAM: General smoothing and mapping library for Robotics and SFM",
+      "description": null,
+      "category": "Graph Optimization:",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://github.com/RainerKuemmerle/g2o",
+      "title": "G2O: General framework for graph optomization",
+      "description": null,
+      "category": "Graph Optimization:",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.robots.ox.ac.uk/~mjc/Software.htm",
+      "title": "FabMap: appearance-based loop closure system",
+      "description": "also available in [OpenCV2.4.11](http://docs.opencv.org/2.4/modules/contrib/doc/openfabmap.html)",
+      "category": "Loop Closure:",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://webdiis.unizar.es/~dorian/index.php?p=32",
+      "title": "DBoW2: binary bag-of-words loop detection system",
+      "description": null,
+      "category": "Loop Closure:",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://code.google.com/p/ratslam/",
+      "title": "RatSLAM",
+      "description": null,
+      "category": "Localization & Mapping:",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://github.com/tum-vision/lsd_slam",
+      "title": "LSD-SLAM",
+      "description": null,
+      "category": "Localization & Mapping:",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://github.com/raulmur/ORB_SLAM",
+      "title": "ORB-SLAM",
+      "description": null,
+      "category": "Localization & Mapping:",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://web.engr.illinois.edu/~dhoiem/projects/software.html",
+      "title": "Geometric Context",
+      "description": "Derek Hoiem (CMU)",
+      "category": "Single-view Spatial Understanding",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://web.engr.illinois.edu/~dhoiem/software/counter.php?Down=varsha_spatialLayout.zip",
+      "title": "Recovering Spatial Layout",
+      "description": "Varsha Hedau (UIUC)",
+      "category": "Single-view Spatial Understanding",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.cs.cmu.edu/~./dclee/code/index.html",
+      "title": "Geometric Reasoning",
+      "description": "David C. Lee (CMU)",
+      "category": "Single-view Spatial Understanding",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://github.com/arron2003/rgbd2full3d",
+      "title": "RGBD2Full3D",
+      "description": "Ruiqi Guo (UIUC)",
+      "category": "Single-view Spatial Understanding",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://pascal.inrialpes.fr/soft/olt/",
+      "title": "INRIA Object Detection and Localization Toolkit",
+      "description": null,
+      "category": "Object Detection",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.cs.berkeley.edu/~rbg/latent/",
+      "title": "Discriminatively trained deformable part models",
+      "description": null,
+      "category": "Object Detection",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://github.com/rbgirshick/voc-dpm",
+      "title": "VOC-DPM",
+      "description": null,
+      "category": "Object Detection",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.ics.uci.edu/~dramanan/software/sparse/",
+      "title": "Histograms of Sparse Codes for Object Detection",
+      "description": null,
+      "category": "Object Detection",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://github.com/rbgirshick/rcnn",
+      "title": "R-CNN: Regions with Convolutional Neural Network Features",
+      "description": null,
+      "category": "Object Detection",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://github.com/ShaoqingRen/SPP_net",
+      "title": "SPP-Net",
+      "description": null,
+      "category": "Object Detection",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://mmcheng.net/bing/comment-page-9/",
+      "title": "BING: Objectness Estimation",
+      "description": null,
+      "category": "Object Detection",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://github.com/Russell91/ReInspect",
+      "title": "ReInspect",
+      "description": null,
+      "category": "Object Detection",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.cs.umd.edu/~mount/ANN/",
+      "title": "ANN: A Library for Approximate Nearest Neighbor Searching",
+      "description": null,
+      "category": "General purpose nearest neighbor search",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.cs.ubc.ca/research/flann/",
+      "title": "FLANN - Fast Library for Approximate Nearest Neighbors",
+      "description": null,
+      "category": "General purpose nearest neighbor search",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://vincentfpgarcia.github.io/kNN-CUDA/",
+      "title": "Fast k nearest neighbor search using GPU",
+      "description": null,
+      "category": "General purpose nearest neighbor search",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://gfx.cs.princeton.edu/gfx/pubs/Barnes_2009_PAR/index.php",
+      "title": "PatchMatch",
+      "description": null,
+      "category": "Nearest Neighbor Field Estimation",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://gfx.cs.princeton.edu/pubs/Barnes_2010_TGP/index.php",
+      "title": "Generalized PatchMatch",
+      "description": null,
+      "category": "Nearest Neighbor Field Estimation",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.eng.tau.ac.il/~simonk/CSH/",
+      "title": "Coherency Sensitive Hashing",
+      "description": null,
+      "category": "Nearest Neighbor Field Estimation",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://github.com/fbesse/pmbp",
+      "title": "PMBP: PatchMatch Belief Propagation",
+      "description": null,
+      "category": "Nearest Neighbor Field Estimation",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.eng.tau.ac.il/~avidan/papers/TreeCANN_code_20121022.rar",
+      "title": "TreeCANN",
+      "description": null,
+      "category": "Nearest Neighbor Field Estimation",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://sites.google.com/site/trackerbenchmark/benchmarks/v10",
+      "title": "Visual Tracker Benchmark",
+      "description": null,
+      "category": "Visual Tracking",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.votchallenge.net/",
+      "title": "Visual Tracking Challenge",
+      "description": null,
+      "category": "Visual Tracking",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.ces.clemson.edu/~stb/klt/",
+      "title": "Kanade-Lucas-Tomasi Feature Tracker",
+      "description": null,
+      "category": "Visual Tracking",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.eng.tau.ac.il/~oron/ELK/ELK.html",
+      "title": "Extended Lucas-Kanade Tracking",
+      "description": null,
+      "category": "Visual Tracking",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.vision.ee.ethz.ch/boostingTrackers/",
+      "title": "Online-boosting Tracking",
+      "description": null,
+      "category": "Visual Tracking",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www4.comp.polyu.edu.hk/~cslzhang/STC/STC.htm",
+      "title": "Spatio-Temporal Context Learning",
+      "description": null,
+      "category": "Visual Tracking",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.shengfenghe.com/visual-tracking-via-locality-sensitive-histograms.html",
+      "title": "Locality Sensitive Histograms",
+      "description": null,
+      "category": "Visual Tracking",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.cv-foundation.org/openaccess/content_iccv_workshops_2013/W03/papers/Xiao_An_Enhanced_Adaptive_2013_ICCV_paper.pdf",
+      "title": "Enhanced adaptive coupled-layer LGTracker++",
+      "description": null,
+      "category": "Visual Tracking",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://personal.ee.surrey.ac.uk/Personal/Z.Kalal/tld.html",
+      "title": "TLD: Tracking - Learning - Detection",
+      "description": null,
+      "category": "Visual Tracking",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.gnebehay.com/cmt/",
+      "title": "CMT: Clustering of Static-Adaptive Correspondences for Deformable Object Tracking",
+      "description": null,
+      "category": "Visual Tracking",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://home.isr.uc.pt/~henriques/circulant/",
+      "title": "Kernelized Correlation Filters",
+      "description": null,
+      "category": "Visual Tracking",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.cvl.isy.liu.se/en/research/objrec/visualtracking/scalvistrack/index.html",
+      "title": "Accurate Scale Estimation for Robust Visual Tracking",
+      "description": null,
+      "category": "Visual Tracking",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://cs-people.bu.edu/jmzhang/MEEM/MEEM.html",
+      "title": "Multiple Experts using Entropy Minimization",
+      "description": null,
+      "category": "Visual Tracking",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.dabi.temple.edu/~hbling/code/TGPR.htm",
+      "title": "TGPR",
+      "description": null,
+      "category": "Visual Tracking",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://sites.google.com/site/jbhuang0604/publications/cf2",
+      "title": "CF2: Hierarchical Convolutional Features for Visual Tracking",
+      "description": null,
+      "category": "Visual Tracking",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://webdocs.cs.ualberta.ca/~vis/mtf/index.html",
+      "title": "Modular Tracking Framework",
+      "description": null,
+      "category": "Visual Tracking",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://ab-initio.mit.edu/wiki/index.php/NLopt",
+      "title": "NLopt",
+      "description": "Nonlinear least-square problem and unconstrained optimization solver",
+      "category": "Optimization",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://hci.iwr.uni-heidelberg.de/opengm2/",
+      "title": "OpenGM",
+      "description": "Factor graph based discrete optimization and inference solver",
+      "category": "Optimization",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://idiap.github.io/bob/",
+      "title": "Bob: a free signal processing and machine learning toolbox for researchers",
+      "description": null,
+      "category": "Machine Learning",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.cvpapers.com/datasets.html",
+      "title": "CV Datasets on the web",
+      "description": "CVPapers",
+      "category": "External Dataset Link Collection",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://rodrigob.github.io/are_we_there_yet/build/",
+      "title": "Are we there yet?",
+      "description": "Which paper provides the best results on standard dataset X?",
+      "category": "External Dataset Link Collection",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://riemenschneider.hayko.at/vision/dataset/",
+      "title": "Yet Another Computer Vision Index To Datasets",
+      "description": null,
+      "category": "External Dataset Link Collection",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.computervisiononline.com/datasets",
+      "title": "ComputerVisionOnline Datasets",
+      "description": null,
+      "category": "External Dataset Link Collection",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://homepages.inf.ed.ac.uk/cgi/rbf/CVONLINE/entries.pl?TAG363",
+      "title": "CVOnline Dataset",
+      "description": null,
+      "category": "External Dataset Link Collection",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://clickdamage.com/sourcecode/cv_datasets.php",
+      "title": "CV datasets",
+      "description": null,
+      "category": "External Dataset Link Collection",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://datasets.visionbib.com/info-index.html",
+      "title": "visionbib",
+      "description": null,
+      "category": "External Dataset Link Collection",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.visualdata.io/",
+      "title": "VisualData",
+      "description": null,
+      "category": "External Dataset Link Collection",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://davischallenge.org/",
+      "title": "DAVIS: Densely Annotated VIdeo Segmentation",
+      "description": null,
+      "category": "Video Object Segmentation",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://web.engr.oregonstate.edu/~lif/SegTrack2/dataset.html",
+      "title": "SegTrack v2",
+      "description": null,
+      "category": "Video Object Segmentation",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.gti.ssr.upm.es/data/LASIESTA",
+      "title": "Labeled and Annotated Sequences for Integral Evaluation of SegmenTation Algorithms",
+      "description": null,
+      "category": "Change Detection",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.changedetection.net/",
+      "title": "ChangeDetection.net",
+      "description": null,
+      "category": "Change Detection",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://eng.ucmerced.edu/people/cyang35/ECCV14/ECCV14.html",
+      "title": "Single-Image Super-Resolution: A Benchmark",
+      "description": null,
+      "category": "Image Super-resolutions",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.mit.edu/~kimo/publications/intrinsic/",
+      "title": "Ground-truth dataset and baseline evaluations for intrinsic image algorithms",
+      "description": null,
+      "category": "Intrinsic Images",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://opensurfaces.cs.cornell.edu/intrinsic/",
+      "title": "Intrinsic Images in the Wild",
+      "description": null,
+      "category": "Intrinsic Images",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.cic.uab.cat/Datasets/synthetic_intrinsic_image_dataset/",
+      "title": "Intrinsic Image Evaluation on Synthetic Complex Scenes",
+      "description": null,
+      "category": "Intrinsic Images",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://opensurfaces.cs.cornell.edu/",
+      "title": "OpenSurface",
+      "description": null,
+      "category": "Material Recognition",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://people.csail.mit.edu/celiu/CVPR2010/",
+      "title": "Flickr Material Database",
+      "description": null,
+      "category": "Material Recognition",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://opensurfaces.cs.cornell.edu/publications/minc/",
+      "title": "Materials in Context Dataset",
+      "description": null,
+      "category": "Material Recognition",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://vision.middlebury.edu/mview/",
+      "title": "Multi-View Stereo Reconstruction",
+      "description": null,
+      "category": "Multi-view Reconsturction",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://sites.google.com/site/benchmarkpami/",
+      "title": "Visual Tracker Benchmark v1.1",
+      "description": null,
+      "category": "Visual Tracking",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://tracking.cs.princeton.edu/",
+      "title": "Princeton Tracking Benchmark",
+      "description": null,
+      "category": "Visual Tracking",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://webdocs.cs.ualberta.ca/~vis/trackDB/",
+      "title": "Tracking Manipulation Tasks (TMT)",
+      "description": null,
+      "category": "Visual Tracking",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.viratdata.org/",
+      "title": "VIRAT",
+      "description": null,
+      "category": "Visual Surveillance",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://cam2.ecn.purdue.edu/",
+      "title": "CAM2",
+      "description": null,
+      "category": "Visual Surveillance",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://pascallin.ecs.soton.ac.uk/challenges/VOC/",
+      "title": "The PASCAL Visual Object Classes",
+      "description": null,
+      "category": "Image Classification",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.image-net.org/challenges/LSVRC/2014/",
+      "title": "ImageNet Large Scale Visual Recognition Challenge",
+      "description": null,
+      "category": "Image Classification",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://github.com/yukimasano/PASS",
+      "title": "PASS: An An ImageNet replacement for self-supervised pretraining without humans",
+      "description": null,
+      "category": "Self-supervised Learning",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://groups.csail.mit.edu/vision/SUN/",
+      "title": "SUN Database",
+      "description": null,
+      "category": "Scene Recognition",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://places.csail.mit.edu/",
+      "title": "Place Dataset",
+      "description": null,
+      "category": "Scene Recognition",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://mscoco.org/",
+      "title": "Microsoft COCO",
+      "description": null,
+      "category": "Object Detection",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://dags.stanford.edu/projects/scenedataset.html",
+      "title": "Stanford background dataset",
+      "description": null,
+      "category": "Semantic labeling",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://mi.eng.cam.ac.uk/research/projects/VideoRec/CamVid/",
+      "title": "CamVid",
+      "description": null,
+      "category": "Semantic labeling",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.cs.unc.edu/~jtighe/Papers/ECCV10/",
+      "title": "Barcelona Dataset",
+      "description": null,
+      "category": "Semantic labeling",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.cs.unc.edu/~jtighe/Papers/ECCV10/siftflow/SiftFlowDataset.zip",
+      "title": "SIFT Flow Dataset",
+      "description": null,
+      "category": "Semantic labeling",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://cvgl.stanford.edu/resources.html",
+      "title": "3D Object Dataset",
+      "description": null,
+      "category": "Multi-view Object Detection",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://cvlab.epfl.ch/data/pose",
+      "title": "EPFL Car Dataset",
+      "description": null,
+      "category": "Multi-view Object Detection",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.cvlibs.net/datasets/kitti/eval_object.php",
+      "title": "KTTI Dection Dataset",
+      "description": null,
+      "category": "Multi-view Object Detection",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://sun3d.cs.princeton.edu/",
+      "title": "SUN 3D Dataset",
+      "description": null,
+      "category": "Multi-view Object Detection",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://cvgl.stanford.edu/projects/pascal3d.html",
+      "title": "PASCAL 3D+",
+      "description": null,
+      "category": "Multi-view Object Detection",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://nyc3d.cs.cornell.edu/",
+      "title": "NYU Car Dataset",
+      "description": null,
+      "category": "Multi-view Object Detection",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://sites.google.com/site/fgcomp2013/",
+      "title": "Fine-grained Classification Challenge",
+      "description": null,
+      "category": "Fine-grained Visual Recognition",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.vision.caltech.edu/visipedia/CUB-200.html",
+      "title": "Caltech-UCSD Birds 200",
+      "description": null,
+      "category": "Fine-grained Visual Recognition",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.vision.caltech.edu/Image_Datasets/CaltechPedestrians/",
+      "title": "Caltech Pedestrian Detection Benchmark",
+      "description": null,
+      "category": "Pedestrian Detection",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://data.vision.ee.ethz.ch/cvl/aess/dataset/",
+      "title": "ETHZ Pedestrian Detection",
+      "description": null,
+      "category": "Pedestrian Detection",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.di.ens.fr/~laptev/actions/hollywood2/",
+      "title": "HOLLYWOOD2 Dataset",
+      "description": null,
+      "category": "Video-based",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://crcv.ucf.edu/data/UCF_Sports_Action.php",
+      "title": "UCF Sports Action Data Set",
+      "description": null,
+      "category": "Video-based",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.wisdom.weizmann.ac.il/~levina/papers/LevinEtalCVPR09Data.rar",
+      "title": "Levin dataset",
+      "description": null,
+      "category": "Image Deblurring",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://people.csail.mit.edu/fredo/student.html",
+      "title": "Resources for students",
+      "description": "Frédo Durand (MIT)",
+      "category": "Resource link collection",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.dgp.toronto.edu/~hertzman/advice/",
+      "title": "Advice for Graduate Students",
+      "description": "Aaron Hertzmann (Adobe Research)",
+      "category": "Resource link collection",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.dgp.toronto.edu/~hertzman/courses/gradSkills/2010/",
+      "title": "Graduate Skills Seminars",
+      "description": "Yashar Ganjali, Aaron Hertzmann (University of Toronto)",
+      "category": "Resource link collection",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://research.microsoft.com/en-us/um/people/simonpj/papers/giving-a-talk/giving-a-talk.htm",
+      "title": "Research Skills",
+      "description": "Simon Peyton Jones (Microsoft Research)",
+      "category": "Resource link collection",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://web.engr.illinois.edu/~taoxie/advice.htm",
+      "title": "Resource collection",
+      "description": "Tao Xie (UIUC) and Yuan Xie (UCSB)",
+      "category": "Resource link collection",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://people.csail.mit.edu/fredo/FredoGoodWriting.pdf",
+      "title": "Write Good Papers",
+      "description": "Frédo Durand (MIT)",
+      "category": "Writing",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://people.csail.mit.edu/fredo/PUBLI/writing.pdf",
+      "title": "Notes on writing",
+      "description": "Frédo Durand (MIT)",
+      "category": "Writing",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://people.csail.mit.edu/fredo/FredoBadWriting.pdf",
+      "title": "How to Write a Bad Article",
+      "description": "Frédo Durand (MIT)",
+      "category": "Writing",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://billf.mit.edu/sites/default/files/documents/cvprPapers.pdf",
+      "title": "How to write a good CVPR submission",
+      "description": "William T. Freeman (MIT)",
+      "category": "Writing",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.slideshare.net/jdily/how-to-write-a-siggraph-paper",
+      "title": "How to write a SIGGRAPH paper",
+      "description": "SIGGRAPH ASIA 2011 Course",
+      "category": "Writing",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.dgp.toronto.edu/~hertzman/advice/writing-technical-papers.pdf",
+      "title": "Writing Research Papers",
+      "description": "Aaron Hertzmann (Adobe Research)",
+      "category": "Writing",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.computer.org/csdl/mags/cg/1987/12/mcg1987120062.pdf",
+      "title": "How to Write a Paper for SIGGRAPH",
+      "description": "Jim Blinn",
+      "category": "Writing",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.siggraph.org/sites/default/files/kajiya.pdf",
+      "title": "How to Get Your SIGGRAPH Paper Rejected",
+      "description": "Jim Kajiya (Microsoft Research)",
+      "category": "Writing",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www-hagen.informatik.uni-kl.de/~bertram/talks/getpublished.pdf",
+      "title": "How to Write a Great Paper",
+      "description": "Martin Martin Hering Hering--Bertram (Hochschule Bremen University of Applied Sciences)",
+      "category": "Writing",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www-ui.is.s.u-tokyo.ac.jp/~takeo/writings/siggraph.html",
+      "title": "How to have a paper get into SIGGRAPH?",
+      "description": "Takeo Igarashi (The University of Tokyo)",
+      "category": "Writing",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.cs.cmu.edu/~pausch/Randy/Randy/raibert.htm",
+      "title": "Good Writing",
+      "description": "Marc H. Raibert (Boston Dynamics, Inc.)",
+      "category": "Writing",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://web.engr.illinois.edu/~dhoiem/presentations/How%20to%20Write%20a%20Computer%20Vison%20Paper.ppt",
+      "title": "How to Write a Computer Vision Paper",
+      "description": "Derek Hoiem (UIUC)",
+      "category": "Writing",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.cs.dartmouth.edu/~wjarosz/writing.html",
+      "title": "Common mistakes in technical writing",
+      "description": "Wojciech Jarosz (Dartmouth College)",
+      "category": "Writing",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://people.csail.mit.edu/fredo/TalkAdvice.pdf",
+      "title": "Giving a Research Talk",
+      "description": "Frédo Durand (MIT)",
+      "category": "Presentation",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.dgp.toronto.edu/~hertzman/courses/gradSkills/2010/GivingGoodTalks.pdf",
+      "title": "How to give a good talk",
+      "description": "David Fleet (University of Toronto) and Aaron Hertzmann (Adobe Research)",
+      "category": "Presentation",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://colinpurrington.com/tips/poster-design",
+      "title": "Designing conference posters",
+      "description": "Colin Purrington",
+      "category": "Presentation",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://people.csail.mit.edu/billf/www/papers/doresearch.pdf",
+      "title": "How to do research",
+      "description": "William T. Freeman (MIT)",
+      "category": "Research",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.cs.virginia.edu/~robins/YouAndYourResearch.html",
+      "title": "You and Your Research",
+      "description": "Richard Hamming",
+      "category": "Research",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://yima.csl.illinois.edu/psfile/bogus.pdf",
+      "title": "Warning Signs of Bogus Progress in Research in an Age of Rich Computation and Information",
+      "description": "Yi Ma (UIUC)",
+      "category": "Research",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.quackwatch.com/01QuackeryRelatedTopics/signs.html",
+      "title": "Seven Warning Signs of Bogus Science",
+      "description": "Robert L. Park",
+      "category": "Research",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.cs.indiana.edu/mit.research.how.to.html",
+      "title": "How To Do Research In the MIT AI Lab",
+      "description": "David Chapman (MIT)",
+      "category": "Research",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.slideshare.net/antiw/recent-advances-in-computer-vision",
+      "title": "Recent Advances in Computer Vision",
+      "description": "Ming-Hsuan Yang (UC Merced)",
+      "category": "Research",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.slideshare.net/jbhuang/how-to-come-up-with-new-research-ideas-4005840",
+      "title": "How to Come Up with Research Ideas in Computer Vision?",
+      "description": "Jia-Bin Huang (UIUC)",
+      "category": "Research",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.slideshare.net/jbhuang/how-to-read-academic-papers",
+      "title": "How to Read Academic Papers",
+      "description": "Jia-Bin Huang (UIUC)",
+      "category": "Research",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.learnopencv.com/",
+      "title": "Learn OpenCV",
+      "description": "Satya Mallick",
+      "category": "Blogs",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.computervisionblog.com/",
+      "title": "Tombone's Computer Vision Blog",
+      "description": "Tomasz Malisiewicz",
+      "category": "Blogs",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.visiondummy.com/",
+      "title": "Computer vision for dummies",
+      "description": "Vincent Spruyt",
+      "category": "Blogs",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://karpathy.github.io/",
+      "title": "Andrej Karpathy blog",
+      "description": "Andrej Karpathy",
+      "category": "Blogs",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://aishack.in/",
+      "title": "AI Shack",
+      "description": "Utkarsh Sinha",
+      "category": "Blogs",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://computer-vision-talks.com/",
+      "title": "Computer Vision Talks",
+      "description": "Eugene Khvedchenya",
+      "category": "Blogs",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "https://github.com/jrobchin/Computer-Vision-Basics-with-Python-Keras-and-OpenCV",
+      "title": "Computer Vision Basics with Python Keras and OpenCV",
+      "description": "Jason Chin (University of Western Ontario)",
+      "category": "Blogs",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.cs.ubc.ca/~lowe/vision.html",
+      "title": "The Computer Vision Industry",
+      "description": "David Lowe",
+      "category": "Links",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://hci.iwr.uni-heidelberg.de/Links/German_Vision/",
+      "title": "German Computer Vision Research Groups & Companies",
+      "description": null,
+      "category": "Links",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.eecs.berkeley.edu/~junyanz/cat/cat_papers.html",
+      "title": "Cat Paper Collection",
+      "description": null,
+      "category": "Links",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://www.rsipvision.com/computer-vision-news/",
+      "title": "Computer Vision News",
+      "description": null,
+      "category": "Links",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://danielwedge.com/fmatrix/",
+      "title": "The Fundamental Matrix Song",
+      "description": null,
+      "category": "Songs",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    },
+    {
+      "url": "http://danielwedge.com/ransac/",
+      "title": "The RANSAC Song",
+      "description": null,
+      "category": "Songs",
+      "source": "jbhuang0604/awesome-computer-vision",
+      "indexedAt": "2026-07-23T14:53:59.901Z"
+    }
+  ],
+  "categories": [
+    "Awesome Lists",
+    "Computer Vision",
+    "OpenCV Programming",
+    "Machine Learning",
+    "Fundamentals",
+    "Computer Vision",
+    "Computational Photography",
+    "Machine Learning and Statistical Learning",
+    "Optimization",
+    "Conference papers on the web",
+    "Survey Papers",
+    "Pre-trained Computer Vision Models",
+    "Computer Vision",
+    "Recent Conference Talks",
+    "3D Computer Vision",
+    "Internet Vision",
+    "Computational Photography",
+    "Learning and Vision",
+    "Object Recognition",
+    "Graphical Models",
+    "Machine Learning",
+    "Optimization",
+    "Deep Learning",
+    "Annotation tools",
+    "External Resource Links",
+    "General Purpose Computer Vision Library",
+    "Multiple-view Computer Vision",
+    "Feature Detection and Extraction",
+    "High Dynamic Range Imaging",
+    "Semantic Segmentation",
+    "Stereo Vision",
+    "Optical Flow",
+    "Super-resolution",
+    "Image Deblurring",
+    "Image Completion",
+    "Image Retargeting",
+    "Alpha Matting",
+    "Image Pyramid",
+    "Edge-preserving image processing",
+    "Intrinsic Images",
+    "Contour Detection and Image Segmentation",
+    "Interactive Image Segmentation",
+    "Video Segmentation",
+    "Camera calibration",
+    "SLAM community:",
+    "Tracking/Odometry:",
+    "Graph Optimization:",
+    "Loop Closure:",
+    "Localization & Mapping:",
+    "Single-view Spatial Understanding",
+    "Object Detection",
+    "General purpose nearest neighbor search",
+    "Nearest Neighbor Field Estimation",
+    "Visual Tracking",
+    "Image Captioning",
+    "Optimization",
+    "Deep Learning",
+    "Machine Learning",
+    "External Dataset Link Collection",
+    "Stereo Vision",
+    "Optical Flow",
+    "Video Object Segmentation",
+    "Change Detection",
+    "Image Super-resolutions",
+    "Intrinsic Images",
+    "Material Recognition",
+    "Multi-view Reconsturction",
+    "Visual Tracking",
+    "Visual Surveillance",
+    "Change detection",
+    "Image Classification",
+    "Self-supervised Learning",
+    "Scene Recognition",
+    "Object Detection",
+    "Semantic labeling",
+    "Multi-view Object Detection",
+    "Fine-grained Visual Recognition",
+    "Pedestrian Detection",
+    "Video-based",
+    "Image Deblurring",
+    "Image Captioning",
+    "Resource link collection",
+    "Writing",
+    "Presentation",
+    "Research",
+    "Time Management",
+    "Blogs",
+    "Links",
+    "Songs",
+    "Licenses"
+  ],
+  "crawledAt": "2026-07-23T14:53:59.901Z"
+}

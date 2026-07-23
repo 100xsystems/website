@@ -1,0 +1,16 @@
+{
+  "id": "erlang",
+  "category": "languages",
+  "label": "Erlang",
+  "aliases": [],
+  "description": "Concurrent functional language designed for fault-tolerant telecom systems",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Erlang_(programming_language)",
+    "wikidata": "https://www.wikidata.org/wiki/Q332351"
+  },
+  "indexedAt": "2026-07-23T14:36:20.271Z"
+}

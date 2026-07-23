@@ -1,0 +1,13 @@
+{
+  "id": "pessimistic-locking",
+  "category": "principles",
+  "label": "Pessimistic Locking",
+  "aliases": [],
+  "description": "Lock data at read time to prevent concurrent modifications",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {},
+  "indexedAt": "2026-07-23T14:36:07.776Z"
+}
