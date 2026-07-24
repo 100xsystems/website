@@ -90,6 +90,7 @@ const headerItems = [
   ]},
   { id: 'cli-docs', label: 'CLI Docs', href: '/cli-docs' },
   { id: 'search', label: 'Search', href: '/search' },
+  { id: 'about', label: 'About', href: '/about' },
 
 ];
 
