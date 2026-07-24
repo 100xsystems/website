@@ -25,16 +25,26 @@ function ensureOutputDir() {
   }
 }
 
+/** Only copy these essential files (avoids thousands of batch files in public/) */
+const ESSENTIAL_FILES = ['featured.json', 'meta.json', 'index.json', 'changes-latest.json'];
+
 function copyFromLocal() {
   const localYcDir = path.join(LOCAL_REGISTRY_DIR, 'yc');
   if (!fs.existsSync(localYcDir)) return false;
 
   console.log('  Copying YC data from local registry...');
   ensureOutputDir();
-  execSync(`cp -r "${localYcDir}/." "${OUTPUT_DIR}/"`, { stdio: 'pipe' });
 
-  const files = fs.readdirSync(OUTPUT_DIR, { recursive: true }).filter(f => f.endsWith('.json')).length;
-  console.log(`  ✓ Copied YC cache (${files} JSON files)`);
+  let copied = 0;
+  for (const file of ESSENTIAL_FILES) {
+    const src = path.join(localYcDir, file);
+    if (fs.existsSync(src)) {
+      fs.copyFileSync(src, path.join(OUTPUT_DIR, file));
+      copied++;
+    }
+  }
+
+  console.log(`  ✓ Copied ${copied} essential YC cache files`);
   return true;
 }
 
@@ -54,7 +64,16 @@ function cloneFromGitHub() {
     }
 
     ensureOutputDir();
-    execSync(`cp -r "${ycDir}/." "${OUTPUT_DIR}/"`, { stdio: 'pipe' });
+    let copied = 0;
+    for (const file of ESSENTIAL_FILES) {
+      const src = path.join(ycDir, file);
+      if (fs.existsSync(src)) {
+        fs.copyFileSync(src, path.join(OUTPUT_DIR, file));
+        copied++;
+      }
+    }
+
+    console.log(`  ✓ Copied ${copied} essential YC cache files from registry`);
     try { fs.rmSync(cacheDir, { recursive: true, force: true }); } catch {}
     return true;
   } catch (err) {
