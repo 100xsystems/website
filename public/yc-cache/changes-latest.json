@@ -1,0 +1,1133 @@
+{
+  "generated_at": "2026-07-24T01:51:06.209Z",
+  "summary": {
+    "previous_total": 6072,
+    "current_total": 6077,
+    "added": 5,
+    "removed": 0,
+    "updated": 37
+  },
+  "added": [
+    {
+      "id": 32256,
+      "name": "Zaplar",
+      "slug": "zaplar",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c3ccfe3188152229b75f7e38241a91f40b4c9edd.png",
+      "website": "https://zaplar.com",
+      "all_locations": "Stockholm, Stockholm County, Sweden",
+      "long_description": "Zaplar is the AI-native operating system for hotels.\r\n\r\nWe consolidate the 5-15 separate tools the average hotel runs on into one software that can handle hotel operations autonomously.\r\n\r\nLearn more at https://zaplar.com",
+      "one_liner": "Agentic Hotel Operating System",
+      "team_size": 8,
+      "industry": "B2B",
+      "subindustry": "B2B -> Operations",
+      "launched_at": 1784823049,
+      "tags": [
+        "B2B",
+        "AI"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Summer 2026",
+      "status": "Active",
+      "industries": [
+        "B2B",
+        "Operations"
+      ],
+      "regions": [
+        "Sweden",
+        "Europe"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/zaplar",
+      "api": "https://yc-oss.github.io/api/batches/summer-2026/zaplar.json"
+    },
+    {
+      "id": 32717,
+      "name": "Neuron Industries",
+      "slug": "neuron-industries",
+      "former_names": [],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/12fc3438894b5a05c8d3d1997a329d2c5053c9b8.png",
+      "website": "https://neuronindustries.com",
+      "all_locations": "Los Angeles, CA, USA",
+      "long_description": "Neuron is crafting the world’s first purpose-built industrial controller for AI, replacing the antiquated PLCs running every machine and factory. We help customers from chemical processing to nuclear reactors compress controls projects from weeks to hours. ",
+      "one_liner": "Industrial Controllers built for AI",
+      "team_size": 2,
+      "industry": "Industrials",
+      "subindustry": "Industrials -> Manufacturing and Robotics",
+      "launched_at": 1784835700,
+      "tags": [
+        "Robotic Process Automation",
+        "Manufacturing",
+        "Automation",
+        "Industrial"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Summer 2026",
+      "status": "Active",
+      "industries": [
+        "Industrials",
+        "Manufacturing and Robotics"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/neuron-industries",
+      "api": "https://yc-oss.github.io/api/batches/summer-2026/neuron-industries.json"
+    },
+    {
+      "id": 33050,
+      "name": "Derya",
+      "slug": "derya",
+      "former_names": [
+        "Derya Maritime / Meridian Forwarding (forwarding office)"
+      ],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e0512b453e994207fdf56052eb221e687d29dc51.png",
+      "website": "http://usederya.com",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "Derya is the AI-native logistics office: the one-stop shop that startups, SMEs, and enterprises outsource their entire logistics function to, from booking and coordination through to financing the freight itself. \r\n\r\nOur mission is to rebuild the supply chain from the ground up, turning one of the world’s hardest coordination problems into an AI native system that moves global trade faster, more reliably, and with working capital that no longer sits trapped in transit.",
+      "one_liner": "AI-Native Logistics Office",
+      "team_size": 2,
+      "industry": "B2B",
+      "subindustry": "B2B -> Supply Chain and Logistics",
+      "launched_at": 1784839627,
+      "tags": [
+        "AIOps",
+        "Digital Freight Brokerage",
+        "Finance",
+        "Logistics",
+        "Supply Chain"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Summer 2026",
+      "status": "Active",
+      "industries": [
+        "B2B",
+        "Supply Chain and Logistics"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/derya",
+      "api": "https://yc-oss.github.io/api/batches/summer-2026/derya.json"
+    },
+    {
+      "id": 33314,
+      "name": "Avoca Systems",
+      "slug": "avoca-systems",
+      "former_names": [
+        "Avoca"
+      ],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/555346995ae2b6c3163f5ec605c10e5d27db2e8d.png",
+      "website": "https://avocasystems.com",
+      "all_locations": "San Francisco, CA, USA",
+      "long_description": "Avoca is the AI patient access platform built for radiology. It integrates with a network’s existing systems and operational knowledge to automate calls, online scheduling, faxes, e-referrals and patient communications, from referral through to results and follow-up. Unlike generic scheduling tools, Avoca understands the clinical, operational and resource constraints behind every radiology booking, helping providers capture more demand, reduce administrative work and fill more scan capacity.",
+      "one_liner": "The AI-powered operating system for radiology networks",
+      "team_size": 8,
+      "industry": "Healthcare",
+      "subindustry": "Healthcare",
+      "launched_at": 1784843716,
+      "tags": [
+        "Healthcare",
+        "Enterprise Software",
+        "Healthcare IT"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Summer 2026",
+      "status": "Active",
+      "industries": [
+        "Healthcare"
+      ],
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/avoca-systems",
+      "api": "https://yc-oss.github.io/api/batches/summer-2026/avoca-systems.json"
+    },
+    {
+      "id": 33771,
+      "name": "Blaise",
+      "slug": "blaise",
+      "former_names": [
+        "Blue"
+      ],
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/2bff3fcdc434c99cf544f6ebe967ec66cea3af59.png",
+      "website": "https://blaise.new/",
+      "all_locations": "Stockholm, Stockholm County, Sweden",
+      "long_description": "Blaise is an AI system that scopes, builds and deploys enterprise software, end to end.\r\n\r\nLearn more at www.blaise.new",
+      "one_liner": "AI native software factory",
+      "team_size": null,
+      "industry": "B2B",
+      "subindustry": "B2B",
+      "launched_at": 1784805283,
+      "tags": [
+        "Artificial Intelligence",
+        "SaaS",
+        "B2B",
+        "Enterprise Software"
+      ],
+      "tags_highlighted": [],
+      "top_company": false,
+      "isHiring": false,
+      "nonprofit": false,
+      "batch": "Summer 2026",
+      "status": "Active",
+      "industries": [
+        "B2B"
+      ],
+      "regions": [
+        "Sweden",
+        "Europe"
+      ],
+      "stage": "Early",
+      "app_video_public": false,
+      "demo_day_video_public": false,
+      "app_answers": null,
+      "question_answers": false,
+      "url": "https://www.ycombinator.com/companies/blaise",
+      "api": "https://yc-oss.github.io/api/batches/summer-2026/blaise.json"
+    }
+  ],
+  "removed": [],
+  "updated": [
+    {
+      "id": 1682,
+      "name": "Officely",
+      "slug": "officely",
+      "batch": "Summer 2017",
+      "url": "https://www.ycombinator.com/companies/officely",
+      "changed_fields": [
+        "api",
+        "former_names",
+        "industries",
+        "long_description",
+        "name",
+        "one_liner",
+        "slug",
+        "small_logo_thumb_url",
+        "subindustry",
+        "tags",
+        "team_size",
+        "url",
+        "website"
+      ],
+      "changes": {
+        "api": {
+          "before": "https://yc-oss.github.io/api/batches/summer-2017/tempa.json",
+          "after": "https://yc-oss.github.io/api/batches/summer-2017/officely.json"
+        },
+        "former_names": {
+          "before": [
+            "HotelFlex",
+            "Officely",
+            "Officely (formerly HotelFlex)",
+            "Officely"
+          ],
+          "after": [
+            "HotelFlex",
+            "Officely",
+            "Officely (formerly HotelFlex)",
+            "Officely",
+            "Tempa"
+          ]
+        },
+        "industries": {
+          "before": [
+            "B2B",
+            "Marketing"
+          ],
+          "after": [
+            "B2B",
+            "Office Management"
+          ]
+        },
+        "long_description": {
+          "before": "We'll build out your paid growth system across Meta, Linkedin and Google Search to accelerate your startup to your next funding round. ",
+          "after": "Officely takes in every kind of workplace data — desk bookings, badge swipes, Wi-Fi logins — and turns it into one accurate record of how your offices are really used. Then everything your team needs runs on top, built around how your business actually works."
+        },
+        "name": {
+          "before": "Tempa",
+          "after": "Officely"
+        },
+        "one_liner": {
+          "before": "Drop in growth system for scaling startups",
+          "after": "Office management software for hybrid workspaces"
+        },
+        "slug": {
+          "before": "tempa",
+          "after": "officely"
+        },
+        "small_logo_thumb_url": {
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/449fd573c386e7baa458a54ae13760ecb96c0551.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/82aabff5fa61346351a232a5d89a04da87334aff.png"
+        },
+        "subindustry": {
+          "before": "B2B -> Marketing",
+          "after": "B2B -> Office Management"
+        },
+        "tags": {
+          "before": [
+            "SaaS",
+            "B2B",
+            "Marketing"
+          ],
+          "after": [
+            "SaaS",
+            "B2B"
+          ]
+        },
+        "team_size": {
+          "before": 2,
+          "after": 3
+        },
+        "url": {
+          "before": "https://www.ycombinator.com/companies/tempa",
+          "after": "https://www.ycombinator.com/companies/officely"
+        },
+        "website": {
+          "before": "https://tempa.agency/",
+          "after": "https://getofficely.com/"
+        }
+      }
+    },
+    {
+      "id": 1828,
+      "name": "Substack",
+      "slug": "substack",
+      "batch": "Winter 2018",
+      "url": "https://www.ycombinator.com/companies/substack",
+      "changed_fields": [
+        "isHiring"
+      ],
+      "changes": {
+        "isHiring": {
+          "before": true,
+          "after": false
+        }
+      }
+    },
+    {
+      "id": 1876,
+      "name": "Veriff",
+      "slug": "veriff",
+      "batch": "Winter 2018",
+      "url": "https://www.ycombinator.com/companies/veriff",
+      "changed_fields": [
+        "stage"
+      ],
+      "changes": {
+        "stage": {
+          "before": "Early",
+          "after": "Growth"
+        }
+      }
+    },
+    {
+      "id": 12743,
+      "name": "Loop Health",
+      "slug": "loop-health",
+      "batch": "Winter 2020",
+      "url": "https://www.ycombinator.com/companies/loop-health",
+      "changed_fields": [
+        "stage"
+      ],
+      "changes": {
+        "stage": {
+          "before": "Early",
+          "after": "Growth"
+        }
+      }
+    },
+    {
+      "id": 13099,
+      "name": "Ophelia",
+      "slug": "ophelia",
+      "batch": "Winter 2020",
+      "url": "https://www.ycombinator.com/companies/ophelia",
+      "changed_fields": [
+        "stage"
+      ],
+      "changes": {
+        "stage": {
+          "before": "Early",
+          "after": "Growth"
+        }
+      }
+    },
+    {
+      "id": 21795,
+      "name": "QuestDB",
+      "slug": "questdb",
+      "batch": "Summer 2020",
+      "url": "https://www.ycombinator.com/companies/questdb",
+      "changed_fields": [
+        "isHiring"
+      ],
+      "changes": {
+        "isHiring": {
+          "before": true,
+          "after": false
+        }
+      }
+    },
+    {
+      "id": 21959,
+      "name": "Stacker",
+      "slug": "stacker",
+      "batch": "Summer 2020",
+      "url": "https://www.ycombinator.com/companies/stacker",
+      "changed_fields": [
+        "stage"
+      ],
+      "changes": {
+        "stage": {
+          "before": "Early",
+          "after": "Growth"
+        }
+      }
+    },
+    {
+      "id": 22004,
+      "name": "Notabene",
+      "slug": "notabene",
+      "batch": "Summer 2020",
+      "url": "https://www.ycombinator.com/companies/notabene",
+      "changed_fields": [
+        "stage"
+      ],
+      "changes": {
+        "stage": {
+          "before": "Growth",
+          "after": "Early"
+        }
+      }
+    },
+    {
+      "id": 22878,
+      "name": "Popl",
+      "slug": "popl",
+      "batch": "Winter 2021",
+      "url": "https://www.ycombinator.com/companies/popl",
+      "changed_fields": [
+        "long_description",
+        "one_liner"
+      ],
+      "changes": {
+        "long_description": {
+          "before": "Capture leads, scan badges, enrich data, and sync it all to your CRM—at events, conferences, and beyond. Powered by AI and our proprietary data engine, Popl helps companies around the world turn in-person events into a measurable & scalable growth channel.",
+          "after": "Popl is the AI GTM platform for in-person events — the data layer for everything that happens face-to-face. Powered by AI and its proprietary data engine, Popl helps companies worldwide turn events into a measurable, scalable growth channel: universal badge scanning, AI-powered conversation recording, real-time data enrichment, and automatic CRM sync."
+        },
+        "one_liner": {
+          "before": "Your AI GTM platform for event lead capture",
+          "after": "Your AI GTM platform for In-Person Events"
+        }
+      }
+    },
+    {
+      "id": 22997,
+      "name": "Codingal",
+      "slug": "codingal",
+      "batch": "Winter 2021",
+      "url": "https://www.ycombinator.com/companies/codingal",
+      "changed_fields": [
+        "team_size",
+        "website"
+      ],
+      "changes": {
+        "team_size": {
+          "before": 60,
+          "after": 100
+        },
+        "website": {
+          "before": "https://www.codingal.com",
+          "after": "https://www.codingal.com/?utm_source=yc"
+        }
+      }
+    },
+    {
+      "id": 23796,
+      "name": "Slope",
+      "slug": "slope",
+      "batch": "Summer 2021",
+      "url": "https://www.ycombinator.com/companies/slope",
+      "changed_fields": [
+        "isHiring"
+      ],
+      "changes": {
+        "isHiring": {
+          "before": true,
+          "after": false
+        }
+      }
+    },
+    {
+      "id": 24379,
+      "name": "Formance",
+      "slug": "formance",
+      "batch": "Summer 2021",
+      "url": "https://www.ycombinator.com/companies/formance",
+      "changed_fields": [
+        "stage"
+      ],
+      "changes": {
+        "stage": {
+          "before": "Early",
+          "after": "Growth"
+        }
+      }
+    },
+    {
+      "id": 24598,
+      "name": "Ferveret",
+      "slug": "ferveret-inc",
+      "batch": "Summer 2021",
+      "url": "https://www.ycombinator.com/companies/ferveret-inc",
+      "changed_fields": [
+        "industries",
+        "long_description",
+        "one_liner",
+        "subindustry",
+        "team_size"
+      ],
+      "changes": {
+        "industries": {
+          "before": [
+            "Industrials",
+            "Climate"
+          ],
+          "after": [
+            "Industrials",
+            "Energy"
+          ]
+        },
+        "long_description": {
+          "before": "Ferveret develops liquid cooling solutions inspired by nuclear power plant cooling. We save data centers 96% in cooling costs, 68% on capital costs, and reduce their carbon footprint by 40% while increasing chip performance by 2X. Today, about 40% of the electricity used in these facilities is wasted on cooling. \r\n\r\nOur technology eliminates this wasted energy.",
+          "after": "Ferveret is developing Adaptive Phase Cooling, a next-generation thermal solution for AI data centers inspired by heat transfer principles used in nuclear reactor systems. Our rack-integrated design delivers 35% more usable compute from the same power envelope, with a PUE of 1.03 (vs. the 1.2 industry standard), zero water consumption, and 45°C inlet temperatures that eliminate the need for chillers. Compatible with NVIDIA MGX and HGX architectures, Ferveret's solution uses a proprietary dielectric fluid that is not part of any regulated PFAS category, giving AI infrastructure operators a scalable, water-free path to higher compute density without redesigning their facilities."
+        },
+        "one_liner": {
+          "before": "Liquid cooling solutions inspired by nuclear reactor cooling",
+          "after": "Nuclear-inspired cooling that turns wasted power into more AI compute"
+        },
+        "subindustry": {
+          "before": "Industrials -> Climate",
+          "after": "Industrials -> Energy"
+        },
+        "team_size": {
+          "before": 13,
+          "after": 16
+        }
+      }
+    },
+    {
+      "id": 26662,
+      "name": "Paces",
+      "slug": "paces",
+      "batch": "Summer 2022",
+      "url": "https://www.ycombinator.com/companies/paces",
+      "changed_fields": [
+        "stage"
+      ],
+      "changes": {
+        "stage": {
+          "before": "Early",
+          "after": "Growth"
+        }
+      }
+    },
+    {
+      "id": 26713,
+      "name": "Pasito",
+      "slug": "pasito",
+      "batch": "Summer 2022",
+      "url": "https://www.ycombinator.com/companies/pasito",
+      "changed_fields": [
+        "isHiring"
+      ],
+      "changes": {
+        "isHiring": {
+          "before": false,
+          "after": true
+        }
+      }
+    },
+    {
+      "id": 27686,
+      "name": "DrDroid",
+      "slug": "drdroid",
+      "batch": "Winter 2023",
+      "url": "https://www.ycombinator.com/companies/drdroid",
+      "changed_fields": [
+        "isHiring"
+      ],
+      "changes": {
+        "isHiring": {
+          "before": true,
+          "after": false
+        }
+      }
+    },
+    {
+      "id": 27952,
+      "name": "Finic",
+      "slug": "finic",
+      "batch": "Winter 2023",
+      "url": "https://www.ycombinator.com/companies/finic",
+      "changed_fields": [
+        "isHiring"
+      ],
+      "changes": {
+        "isHiring": {
+          "before": true,
+          "after": false
+        }
+      }
+    },
+    {
+      "id": 28417,
+      "name": "Yuma AI",
+      "slug": "yuma-ai",
+      "batch": "Winter 2023",
+      "url": "https://www.ycombinator.com/companies/yuma-ai",
+      "changed_fields": [
+        "isHiring"
+      ],
+      "changes": {
+        "isHiring": {
+          "before": true,
+          "after": false
+        }
+      }
+    },
+    {
+      "id": 29069,
+      "name": "HappyRobot",
+      "slug": "happyrobot",
+      "batch": "Summer 2023",
+      "url": "https://www.ycombinator.com/companies/happyrobot",
+      "changed_fields": [
+        "stage"
+      ],
+      "changes": {
+        "stage": {
+          "before": "Early",
+          "after": "Growth"
+        }
+      }
+    },
+    {
+      "id": 29684,
+      "name": "Parahelp",
+      "slug": "parahelp",
+      "batch": "Summer 2024",
+      "url": "https://www.ycombinator.com/companies/parahelp",
+      "changed_fields": [
+        "long_description",
+        "one_liner",
+        "stage",
+        "tags",
+        "team_size"
+      ],
+      "changes": {
+        "long_description": {
+          "before": "Set up Parahelp in just 1 day without engineers to resolve your complex support tickets end-to-end. It connects with your existing ticketing system (such as Zendesk, Intercom, Front), tools (like Stripe, Slack, Linear), knowledge, and procedures.",
+          "after": "Build an AI support agent in hours that resolves even your most complex tickets end-to-end. If a tool has an API, you can connect it to your agent - just by chatting with Parahelp.\r\n\r\nFor example, you can connect Stripe so your agent can resolve billing questions and refund requests."
+        },
+        "one_liner": {
+          "before": "The AI agent that resolves complex support tickets, effortlessly",
+          "after": "Build an AI support agent that can use all your tools"
+        },
+        "stage": {
+          "before": "Growth",
+          "after": "Early"
+        },
+        "tags": {
+          "before": [],
+          "after": [
+            "Customer Success",
+            "Customer Service",
+            "Customer Support",
+            "AI",
+            "Conversational AI"
+          ]
+        },
+        "team_size": {
+          "before": 7,
+          "after": 11
+        }
+      }
+    },
+    {
+      "id": 29727,
+      "name": "Overstand Labs",
+      "slug": "overstand-labs",
+      "batch": "Winter 2025",
+      "url": "https://www.ycombinator.com/companies/overstand-labs",
+      "changed_fields": [
+        "isHiring"
+      ],
+      "changes": {
+        "isHiring": {
+          "before": true,
+          "after": false
+        }
+      }
+    },
+    {
+      "id": 30653,
+      "name": "Async",
+      "slug": "withasync",
+      "batch": "Summer 2026",
+      "url": "https://www.ycombinator.com/companies/withasync",
+      "changed_fields": [
+        "long_description",
+        "one_liner"
+      ],
+      "changes": {
+        "long_description": {
+          "before": "Async partners with small businesses across law, healthcare and real estate to build and deploy custom agents. We audit existing processes, rework them to become agent-first, deploy custom agents to automate the process and up-skill employees on AI. ",
+          "after": "Async builds skilled digital labor that changes how small businesses run. Law firms, healthcare clinics and real estate companies hire our AI agents to automate work that's never been economical to staff with humans, letting us capture labor spend that didn't previously exist."
+        },
+        "one_liner": {
+          "before": "AI Agents for Small Businesses",
+          "after": "Skilled Digital Labor for Small Businesses"
+        }
+      }
+    },
+    {
+      "id": 30696,
+      "name": "GhostEye",
+      "slug": "ghosteye",
+      "batch": "Summer 2025",
+      "url": "https://www.ycombinator.com/companies/ghosteye",
+      "changed_fields": [
+        "long_description",
+        "one_liner",
+        "team_size"
+      ],
+      "changes": {
+        "long_description": {
+          "before": "GhostEye manages your employee attack surface with the first autonomous security loop for attacks on your people. It tracks the tactics attackers are using now, safely tests where your company is exposed, and helps close the gap before an attack turns into a breach.",
+          "after": "We emulate the attacks real adversaries run today: help-desk vishing, deepfaked executives, MFA fatigue, and the payloads that follow. We run them against your people and the controls around them to reveal what is actually exploitable, not what looks compliant. Then we close the gap, retest until the fix holds, and give your leadership the evidence that risk actually went down. From initial access to remediation."
+        },
+        "one_liner": {
+          "before": "AI-Powered Social Engineering Defense",
+          "after": "Your always-on red team."
+        },
+        "team_size": {
+          "before": 7,
+          "after": 10
+        }
+      }
+    },
+    {
+      "id": 30738,
+      "name": "Altur",
+      "slug": "altur",
+      "batch": "Summer 2025",
+      "url": "https://www.ycombinator.com/companies/altur",
+      "changed_fields": [
+        "isHiring"
+      ],
+      "changes": {
+        "isHiring": {
+          "before": true,
+          "after": false
+        }
+      }
+    },
+    {
+      "id": 30781,
+      "name": "Duranium",
+      "slug": "duranium",
+      "batch": "Summer 2025",
+      "url": "https://www.ycombinator.com/companies/duranium",
+      "changed_fields": [
+        "team_size"
+      ],
+      "changes": {
+        "team_size": {
+          "before": 10,
+          "after": 12
+        }
+      }
+    },
+    {
+      "id": 30844,
+      "name": "Uplane",
+      "slug": "uplane",
+      "batch": "Fall 2025",
+      "url": "https://www.ycombinator.com/companies/uplane",
+      "changed_fields": [
+        "tags",
+        "team_size"
+      ],
+      "changes": {
+        "tags": {
+          "before": [
+            "SaaS",
+            "B2B",
+            "Analytics",
+            "Advertising",
+            "AI"
+          ],
+          "after": [
+            "Artificial Intelligence",
+            "SaaS",
+            "B2B",
+            "Analytics",
+            "Advertising"
+          ]
+        },
+        "team_size": {
+          "before": 19,
+          "after": 22
+        }
+      }
+    },
+    {
+      "id": 30943,
+      "name": "Aside",
+      "slug": "aside",
+      "batch": "Fall 2025",
+      "url": "https://www.ycombinator.com/companies/aside",
+      "changed_fields": [
+        "isHiring",
+        "long_description",
+        "question_answers",
+        "team_size"
+      ],
+      "changes": {
+        "isHiring": {
+          "before": false,
+          "after": true
+        },
+        "long_description": {
+          "before": "Aside is an AI browser that completes real work across the websites you already use. It can sign in through your browser, work inside email, dashboards, internal tools, docs, and spreadsheets, and keep going when a task takes minutes or hours.\r\n\r\nUnlike agents that depend on integrations, Aside uses the web the way you do. Browsing history becomes local memory, so it knows which tools and context matter. Its password manager lets agents autofill credentials without exposing secrets to the AI. Sensitive actions like payments, posts, and messages wait for your approval.\r\n\r\nAside achieved a state-of-the-art on agentic browsing tasks. Aside is ranked #1 across Mind2Web, Odyssey, bu-bench-v1, outperforming Claude Cowork and ChatGPT Atlas's result.",
+          "after": "Aside is an AI browser that completes real work across the websites you already use. It can sign in through your browser, work inside email, dashboards, internal tools, docs, and spreadsheets, and keep going when a task takes minutes or hours.\r\n\r\nUnlike agents that depend on integrations, Aside uses the web the way you do. Browsing history becomes local memory, so it knows which tools and context matter. Its password manager lets agents autofill credentials without exposing secrets to the AI. Sensitive actions like payments, posts, and messages wait for your approval.\r\n\r\nWe achieved state-of-the-art on agentic browsing benchmarks, surpassing OpenAI and Anthropic's result- Aside ranked #1 across Mind2Web, Odyssey, bu-bench-v1."
+        },
+        "question_answers": {
+          "before": true,
+          "after": false
+        },
+        "team_size": {
+          "before": 3,
+          "after": 5
+        }
+      }
+    },
+    {
+      "id": 31002,
+      "name": "Clicks",
+      "slug": "clicks",
+      "batch": "Fall 2025",
+      "url": "https://www.ycombinator.com/companies/clicks",
+      "changed_fields": [
+        "all_locations",
+        "long_description",
+        "regions",
+        "tags"
+      ],
+      "changes": {
+        "all_locations": {
+          "before": "ZH, Switzerland",
+          "after": "San Francisco, CA, USA"
+        },
+        "long_description": {
+          "before": "Clicks is the AI-native BPO backed by Y Combinator. We replace traditional BPOs and shared service centers by automating back-office work with AI agents that operate your existing tools and follow your existing processes. We achieve higher accuracy and faster turn-around times at a fraction of the cost, with SOC 2 Type 2 and HIPAA compliance built in.",
+          "after": "Clicks builds AI agents that automate back-office operations for RCM companies and healthcare providers. Our agents work across EHRs, payer portals, desktop applications, and legacy systems, following existing processes, handling exceptions, and escalating when human judgment is needed. Backed by Y Combinator, Clicks helps teams improve accuracy, shorten turnaround times, and reduce operating costs, with SOC 2 Type II and HIPAA compliance built in."
+        },
+        "regions": {
+          "before": [
+            "Switzerland",
+            "Europe"
+          ],
+          "after": [
+            "United States of America",
+            "America / Canada"
+          ]
+        },
+        "tags": {
+          "before": [
+            "AI"
+          ],
+          "after": [
+            "Artificial Intelligence",
+            "Health Tech",
+            "Healthcare",
+            "Health Insurance"
+          ]
+        }
+      }
+    },
+    {
+      "id": 31123,
+      "name": "21st",
+      "slug": "21st",
+      "batch": "Winter 2026",
+      "url": "https://www.ycombinator.com/companies/21st",
+      "changed_fields": [
+        "long_description",
+        "one_liner"
+      ],
+      "changes": {
+        "long_description": {
+          "before": "21st.dev is the largest React component registry for AI applications, used by 2M developers (370K MAU).\r\nWe provide the building blocks to create AI agents and agent-powered apps: UI components, agent templates, and an SDK with built-in UI, tools, memory, observability, and managed infrastructure.",
+          "after": "21st.dev is the largest React component registry for AI applications, used by 2M developers \r\nWe provide the building blocks to create agent-powered apps: UI components, agent templates."
+        },
+        "one_liner": {
+          "before": "Infrastructure and UI building blocks for the agentic internet",
+          "after": "UI building blocks for the agentic internet"
+        }
+      }
+    },
+    {
+      "id": 31224,
+      "name": "Servo7",
+      "slug": "servo7",
+      "batch": "Winter 2026",
+      "url": "https://www.ycombinator.com/companies/servo7",
+      "changed_fields": [
+        "one_liner",
+        "tags"
+      ],
+      "changes": {
+        "one_liner": {
+          "before": "Robots that unload containers in warehouses",
+          "after": "Container unloading robots for warehouses"
+        },
+        "tags": {
+          "before": [
+            "Robotics",
+            "Logistics",
+            "Automation",
+            "AI"
+          ],
+          "after": [
+            "Artificial Intelligence",
+            "Robotics",
+            "Logistics",
+            "Automation"
+          ]
+        }
+      }
+    },
+    {
+      "id": 31268,
+      "name": "Cova",
+      "slug": "cova",
+      "batch": "Summer 2026",
+      "url": "https://www.ycombinator.com/companies/cova",
+      "changed_fields": [
+        "tags",
+        "team_size"
+      ],
+      "changes": {
+        "tags": {
+          "before": [
+            "Artificial Intelligence",
+            "Consumer Health Services",
+            "Healthcare"
+          ],
+          "after": [
+            "Consumer Health Services",
+            "Healthcare",
+            "AI"
+          ]
+        },
+        "team_size": {
+          "before": 5,
+          "after": 19
+        }
+      }
+    },
+    {
+      "id": 31466,
+      "name": "Walter",
+      "slug": "walter",
+      "batch": "Spring 2026",
+      "url": "https://www.ycombinator.com/companies/walter",
+      "changed_fields": [
+        "long_description"
+      ],
+      "changes": {
+        "long_description": {
+          "before": "Walter is an AI employee for manufacturing operations.",
+          "after": "Walter is an AI employee for manufacturing operations. The company sold its assets to Automat, a Series A startup that has raised $20M from Felicis, Initialized Capital, Khosla Ventures, and Y Combinator."
+        }
+      }
+    },
+    {
+      "id": 32551,
+      "name": "Bloomy",
+      "slug": "bloomy",
+      "batch": "Summer 2026",
+      "url": "https://www.ycombinator.com/companies/bloomy",
+      "changed_fields": [
+        "isHiring"
+      ],
+      "changes": {
+        "isHiring": {
+          "before": false,
+          "after": true
+        }
+      }
+    },
+    {
+      "id": 32751,
+      "name": "Vestris",
+      "slug": "vestris",
+      "batch": "Summer 2026",
+      "url": "https://www.ycombinator.com/companies/vestris",
+      "changed_fields": [
+        "one_liner",
+        "team_size"
+      ],
+      "changes": {
+        "one_liner": {
+          "before": "Replaces title searchers and closes property deals",
+          "after": "AI agents for the full real estate closing stack"
+        },
+        "team_size": {
+          "before": 0,
+          "after": 2
+        }
+      }
+    },
+    {
+      "id": 33016,
+      "name": "Gamgee",
+      "slug": "gamgee",
+      "batch": "Summer 2026",
+      "url": "https://www.ycombinator.com/companies/gamgee",
+      "changed_fields": [
+        "all_locations",
+        "tags"
+      ],
+      "changes": {
+        "all_locations": {
+          "before": "Tampa, FL, USA; Remote",
+          "after": "San Francisco, CA, USA; Remote"
+        },
+        "tags": {
+          "before": [
+            "Artificial Intelligence",
+            "Biotech",
+            "Genomics",
+            "Oncology"
+          ],
+          "after": [
+            "Biotech",
+            "Genomics",
+            "Oncology",
+            "AI"
+          ]
+        }
+      }
+    },
+    {
+      "id": 33283,
+      "name": "Locke",
+      "slug": "locke",
+      "batch": "Summer 2026",
+      "url": "https://www.ycombinator.com/companies/locke",
+      "changed_fields": [
+        "api",
+        "former_names",
+        "long_description",
+        "name",
+        "slug",
+        "small_logo_thumb_url",
+        "url",
+        "website"
+      ],
+      "changes": {
+        "api": {
+          "before": "https://yc-oss.github.io/api/batches/summer-2026/justinian.json",
+          "after": "https://yc-oss.github.io/api/batches/summer-2026/locke.json"
+        },
+        "former_names": {
+          "before": [
+            "Overton"
+          ],
+          "after": [
+            "Overton",
+            "Justinian"
+          ]
+        },
+        "long_description": {
+          "before": "Justinian is an applied AI company changing the way companies and governments work together. \r\n\r\nOur first focus is building Justinian Government Affairs, an AI-native government affairs firm helping early-stage companies monitor regulations, lobby policymakers, and win government contracts.",
+          "after": "Locke is an applied AI company changing the way companies and governments work together. \r\n\r\nOur first focus is building Locke Government Affairs, an AI-native government affairs firm helping early-stage companies monitor regulations, lobby policymakers, and win government contracts."
+        },
+        "name": {
+          "before": "Justinian",
+          "after": "Locke"
+        },
+        "slug": {
+          "before": "justinian",
+          "after": "locke"
+        },
+        "small_logo_thumb_url": {
+          "before": "https://bookface-images.s3.amazonaws.com/small_logos/05d00b332191d31f20aa45f1bbec7b3fd866e683.png",
+          "after": "https://bookface-images.s3.amazonaws.com/small_logos/ef45315b5a753af3ca5decc639d785a08eb897be.png"
+        },
+        "url": {
+          "before": "https://www.ycombinator.com/companies/justinian",
+          "after": "https://www.ycombinator.com/companies/locke"
+        },
+        "website": {
+          "before": "https://justinianai.com",
+          "after": "https://locke.inc"
+        }
+      }
+    },
+    {
+      "id": 33342,
+      "name": "Nex",
+      "slug": "nex",
+      "batch": "Summer 2026",
+      "url": "https://www.ycombinator.com/companies/nex",
+      "changed_fields": [
+        "one_liner"
+      ],
+      "changes": {
+        "one_liner": {
+          "before": "Claude Cowork for GTM Engineering",
+          "after": "Claude Cowork for GTM Automations"
+        }
+      }
+    }
+  ]
+}

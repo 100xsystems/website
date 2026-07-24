@@ -13,7 +13,14 @@ interface YcCompany {
   tags: string[];
   top_company: boolean;
   isHiring: boolean;
+  team_size: number;
   stage: string;
+}
+
+interface YcFeatured {
+  fetchedAt: string;
+  count: number;
+  companies: YcCompany[];
 }
 
 interface YcMeta {
@@ -23,13 +30,6 @@ interface YcMeta {
   fetchedAt: string;
 }
 
-interface YcIndex {
-  companyCount: number;
-  fetchedAt: string;
-}
-
-const FEATURED_BATCHES = ['summer-2025', 'winter-2025', 'summer-2024', 'winter-2024'];
-const COMPANIES_PER_BATCH = 4;
 const TOTAL_DISPLAY = 8;
 
 export function HomeYC() {
@@ -53,36 +53,13 @@ export function HomeYC() {
         if (!mounted) return;
         setMeta(metaData);
 
-        // Fetch recent batch companies
-        const allCompanies: YcCompany[] = [];
-        for (const batch of FEATURED_BATCHES) {
-          try {
-            const batchRes = await fetch(`/yc-cache/batches/${batch}.json`);
-            if (batchRes.ok) {
-              const batchData: YcCompany[] = await batchRes.json();
-              const items = Array.isArray(batchData) ? batchData : [];
-              allCompanies.push(...items.slice(0, COMPANIES_PER_BATCH));
-            }
-          } catch {
-            // Batch may not exist
+        // Fetch featured companies (pre-computed by registry script)
+        const featuredRes = await fetch('/yc-cache/featured.json');
+        if (featuredRes.ok) {
+          const featured: YcFeatured = await featuredRes.json();
+          if (mounted) {
+            setCompanies(featured.companies.slice(0, TOTAL_DISPLAY));
           }
-          if (allCompanies.length >= TOTAL_DISPLAY) break;
-        }
-
-        // If no batch data, try reading individual companies from meta
-        if (allCompanies.length === 0) {
-          // Fallback: read the top_company list from meta
-          const topRes = await fetch('/yc-cache/changes-latest.json');
-          if (topRes.ok) {
-            const topData = await topRes.json();
-            if (Array.isArray(topData)) {
-              allCompanies.push(...topData.slice(0, TOTAL_DISPLAY));
-            }
-          }
-        }
-
-        if (mounted) {
-          setCompanies(allCompanies.slice(0, TOTAL_DISPLAY));
         }
       } catch (err) {
         if (mounted) {

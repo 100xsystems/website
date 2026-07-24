@@ -1,0 +1,764 @@
+{
+  "fetchedAt": "2026-07-24T06:14:46.968Z",
+  "count": 48,
+  "companies": [
+    {
+      "id": "28841",
+      "name": "Baud",
+      "slug": "baud",
+      "website": "https://baudlabs.ai",
+      "one_liner": "AI chips for ultra-fast model training and inference",
+      "batch": "Summer 2026",
+      "tags": [
+        "Hard Tech",
+        "Semiconductors",
+        "AI"
+      ],
+      "top_company": false,
+      "isHiring": false,
+      "team_size": 3,
+      "stage": "Early"
+    },
+    {
+      "id": "30653",
+      "name": "Async",
+      "slug": "withasync",
+      "website": "https://withasync.com",
+      "one_liner": "Skilled Digital Labor for Small Businesses",
+      "batch": "Summer 2026",
+      "tags": [
+        "B2B",
+        "AI"
+      ],
+      "top_company": false,
+      "isHiring": false,
+      "team_size": 2,
+      "stage": "Early"
+    },
+    {
+      "id": "30672",
+      "name": "Induction Labs",
+      "slug": "induction-labs",
+      "website": "https://inductionlabs.com",
+      "one_liner": "Building intellectually curious AI",
+      "batch": "Summer 2026",
+      "tags": [
+        "Deep Learning",
+        "Hard Tech",
+        "AI"
+      ],
+      "top_company": false,
+      "isHiring": false,
+      "team_size": 2,
+      "stage": "Early"
+    },
+    {
+      "id": "30728",
+      "name": "OS3",
+      "slug": "os3",
+      "website": "https://os3robotics.com/",
+      "one_liner": "Intelligence and Machines for Physical Labor",
+      "batch": "Summer 2026",
+      "tags": [
+        "Artificial Intelligence",
+        "Hardware",
+        "Robotics",
+        "B2B"
+      ],
+      "top_company": false,
+      "isHiring": false,
+      "team_size": 2,
+      "stage": "Early"
+    },
+    {
+      "id": "31074",
+      "name": "TrustAI",
+      "slug": "trustai",
+      "website": "https://trytrust.ai",
+      "one_liner": "Continuous compliance and governance for agents on sensitive systems",
+      "batch": "Summer 2026",
+      "tags": [
+        "B2B",
+        "Compliance",
+        "Security",
+        "AI"
+      ],
+      "top_company": false,
+      "isHiring": false,
+      "team_size": 3,
+      "stage": "Early"
+    },
+    {
+      "id": "31086",
+      "name": "Prescience, Inc.",
+      "slug": "prescience-inc",
+      "website": "https://www.getprescience.com/",
+      "one_liner": "Healthcare for the age of abundant intelligence.",
+      "batch": "Summer 2026",
+      "tags": [
+        "Health Insurance",
+        "Insurance"
+      ],
+      "top_company": false,
+      "isHiring": false,
+      "team_size": 2,
+      "stage": "Early"
+    },
+    {
+      "id": "31161",
+      "name": "Rapidfolio",
+      "slug": "rapidfolio",
+      "website": "https://rapidfolio.com/",
+      "one_liner": "AI for fintechs & banks",
+      "batch": "Summer 2026",
+      "tags": [
+        "Fintech",
+        "SaaS",
+        "Automation",
+        "AI"
+      ],
+      "top_company": false,
+      "isHiring": false,
+      "team_size": 0,
+      "stage": "Early"
+    },
+    {
+      "id": "31184",
+      "name": "Assemble",
+      "slug": "assemble",
+      "website": "https://www.assemble.ai/",
+      "one_liner": "Agents for Enterprise IT",
+      "batch": "Summer 2026",
+      "tags": [
+        "SaaS",
+        "Enterprise Software",
+        "AI"
+      ],
+      "top_company": false,
+      "isHiring": false,
+      "team_size": 3,
+      "stage": "Early"
+    },
+    {
+      "id": "31216",
+      "name": "Archal",
+      "slug": "archal",
+      "website": "https://www.archal.ai/",
+      "one_liner": "The improvement loop for AI agents",
+      "batch": "Summer 2026",
+      "tags": [
+        "Artificial Intelligence",
+        "Developer Tools",
+        "API",
+        "Infrastructure"
+      ],
+      "top_company": false,
+      "isHiring": false,
+      "team_size": 2,
+      "stage": "Early"
+    },
+    {
+      "id": "31223",
+      "name": "Datoric",
+      "slug": "datoric",
+      "website": "https://www.datoric.com",
+      "one_liner": "Security-first training data",
+      "batch": "Summer 2026",
+      "tags": [
+        "Artificial Intelligence",
+        "Data Labeling",
+        "ML"
+      ],
+      "top_company": false,
+      "isHiring": false,
+      "team_size": 2,
+      "stage": "Early"
+    },
+    {
+      "id": "31226",
+      "name": "Libra Robotics",
+      "slug": "libra-robotics",
+      "website": "https://www.librabots.com/",
+      "one_liner": "Autonomous robots for solar farm construction",
+      "batch": "Summer 2026",
+      "tags": [
+        "Robotic Process Automation",
+        "Solar Power",
+        "Sustainability"
+      ],
+      "top_company": false,
+      "isHiring": false,
+      "team_size": 0,
+      "stage": "Early"
+    },
+    {
+      "id": "31234",
+      "name": "Ekpa",
+      "slug": "ekpa",
+      "website": "https://goekpa.com/",
+      "one_liner": "Building Autonomous Research Agents for Trading",
+      "batch": "Summer 2026",
+      "tags": [
+        "Consumer Finance"
+      ],
+      "top_company": false,
+      "isHiring": false,
+      "team_size": 2,
+      "stage": "Early"
+    },
+    {
+      "id": "28879",
+      "name": "Menza",
+      "slug": "menza",
+      "website": "https://menza.ai/",
+      "one_liner": "The AI data analyst for consumer brands",
+      "batch": "Winter 2026",
+      "tags": [],
+      "top_company": false,
+      "isHiring": true,
+      "team_size": 3,
+      "stage": "Early"
+    },
+    {
+      "id": "30620",
+      "name": "Bidflow",
+      "slug": "bidflow",
+      "website": "https://usebidflow.com",
+      "one_liner": "AI Takeoffs for Electrical",
+      "batch": "Winter 2026",
+      "tags": [
+        "SaaS",
+        "Computer Vision",
+        "Construction",
+        "Infrastructure"
+      ],
+      "top_company": false,
+      "isHiring": false,
+      "team_size": 2,
+      "stage": "Early"
+    },
+    {
+      "id": "30635",
+      "name": "Galactic Resource Utilization Space, Inc. (GRU Space)",
+      "slug": "galactic-resource-utilization-space-inc-gru-space",
+      "website": "https://gru.space",
+      "one_liner": "Moon Hotel -> The Intergalactic Construction Company of Earth",
+      "batch": "Winter 2026",
+      "tags": [],
+      "top_company": false,
+      "isHiring": true,
+      "team_size": 5,
+      "stage": "Early"
+    },
+    {
+      "id": "30639",
+      "name": "Signals",
+      "slug": "signals",
+      "website": "https://www.returnsignals.com",
+      "one_liner": "iMessage revenue channel for DTC brands that brings customers back",
+      "batch": "Winter 2026",
+      "tags": [],
+      "top_company": false,
+      "isHiring": false,
+      "team_size": 2,
+      "stage": "Early"
+    },
+    {
+      "id": "30641",
+      "name": "Overdrive Health",
+      "slug": "overdrive-health",
+      "website": "https://overdrive.health",
+      "one_liner": "AI-Native Medical Billing Services",
+      "batch": "Winter 2026",
+      "tags": [],
+      "top_company": false,
+      "isHiring": true,
+      "team_size": 1,
+      "stage": "Early"
+    },
+    {
+      "id": "30715",
+      "name": "Autumn AI",
+      "slug": "autumn-ai",
+      "website": "https://autumnai.com",
+      "one_liner": "Stalk your prospects at scale.",
+      "batch": "Winter 2026",
+      "tags": [],
+      "top_company": false,
+      "isHiring": false,
+      "team_size": 2,
+      "stage": "Early"
+    },
+    {
+      "id": "30765",
+      "name": "Pollen",
+      "slug": "pollen",
+      "website": "https://www.pollen.cx/",
+      "one_liner": "AI agents that automate customer success",
+      "batch": "Winter 2026",
+      "tags": [],
+      "top_company": false,
+      "isHiring": false,
+      "team_size": 3,
+      "stage": "Early"
+    },
+    {
+      "id": "30770",
+      "name": "Button Computer",
+      "slug": "button-computer",
+      "website": "https://buttoncomputer.com",
+      "one_liner": "The tiny computer built for voice AI.",
+      "batch": "Winter 2026",
+      "tags": [],
+      "top_company": false,
+      "isHiring": false,
+      "team_size": 1,
+      "stage": "Early"
+    },
+    {
+      "id": "30860",
+      "name": "Alt-X",
+      "slug": "alt-x",
+      "website": "https://alt-x.co",
+      "one_liner": "Building the best venue for private markets exposure.",
+      "batch": "Winter 2026",
+      "tags": [],
+      "top_company": false,
+      "isHiring": false,
+      "team_size": 2,
+      "stage": "Early"
+    },
+    {
+      "id": "30876",
+      "name": "Velum Labs",
+      "slug": "velum-labs",
+      "website": "https://www.velum-labs.com/",
+      "one_liner": "The OS for data quality across any stack",
+      "batch": "Winter 2026",
+      "tags": [
+        "Machine Learning",
+        "Data Engineering"
+      ],
+      "top_company": false,
+      "isHiring": false,
+      "team_size": 2,
+      "stage": "Early"
+    },
+    {
+      "id": "30905",
+      "name": "Travo",
+      "slug": "travo",
+      "website": "https://www.travoai.com/",
+      "one_liner": "The data infrastructure for real estate",
+      "batch": "Winter 2026",
+      "tags": [],
+      "top_company": false,
+      "isHiring": false,
+      "team_size": 4,
+      "stage": "Early"
+    },
+    {
+      "id": "30906",
+      "name": "Agentic Fabriq",
+      "slug": "agentic-fabriq",
+      "website": "https://www.agenticfabriq.com",
+      "one_liner": "The control plane for AI agents.",
+      "batch": "Winter 2026",
+      "tags": [
+        "Artificial Intelligence",
+        "B2B",
+        "Identity",
+        "Cybersecurity"
+      ],
+      "top_company": false,
+      "isHiring": false,
+      "team_size": 2,
+      "stage": "Early"
+    },
+    {
+      "id": "29697",
+      "name": "Stormy",
+      "slug": "stormy",
+      "website": "https://stormy.ai",
+      "one_liner": "Al platform that makes social marketing as easy as running a Google…",
+      "batch": "Summer 2025",
+      "tags": [
+        "SaaS",
+        "B2B",
+        "Marketing",
+        "AI"
+      ],
+      "top_company": false,
+      "isHiring": false,
+      "team_size": 5,
+      "stage": "Early"
+    },
+    {
+      "id": "30086",
+      "name": "Autumn",
+      "slug": "autumn",
+      "website": "https://useautumn.com",
+      "one_liner": "Billing infrastructure for AI",
+      "batch": "Summer 2025",
+      "tags": [],
+      "top_company": false,
+      "isHiring": true,
+      "team_size": 5,
+      "stage": "Early"
+    },
+    {
+      "id": "30352",
+      "name": "Monte",
+      "slug": "monte",
+      "website": "https://trymonte.ai",
+      "one_liner": "Continual Learning for Agents",
+      "batch": "Summer 2025",
+      "tags": [
+        "Artificial Intelligence",
+        "Reinforcement Learning",
+        "B2B",
+        "Infrastructure"
+      ],
+      "top_company": false,
+      "isHiring": false,
+      "team_size": 3,
+      "stage": "Early"
+    },
+    {
+      "id": "30362",
+      "name": "Ambral",
+      "slug": "ambral",
+      "website": "https://www.ambral.com/",
+      "one_liner": "AI for account management and customer success",
+      "batch": "Summer 2025",
+      "tags": [],
+      "top_company": false,
+      "isHiring": true,
+      "team_size": 3,
+      "stage": "Early"
+    },
+    {
+      "id": "30364",
+      "name": "Wayline",
+      "slug": "wayline",
+      "website": "https://wayline.com",
+      "one_liner": "AI voice for property managers",
+      "batch": "Summer 2025",
+      "tags": [],
+      "top_company": false,
+      "isHiring": true,
+      "team_size": 3,
+      "stage": "Early"
+    },
+    {
+      "id": "30413",
+      "name": "Serafis",
+      "slug": "serafis",
+      "website": "https://serafis.ai",
+      "one_liner": "Narrative intelligence for investors",
+      "batch": "Summer 2025",
+      "tags": [
+        "Artificial Intelligence",
+        "SaaS",
+        "Finance",
+        "Investing",
+        "Search"
+      ],
+      "top_company": false,
+      "isHiring": false,
+      "team_size": 4,
+      "stage": "Early"
+    },
+    {
+      "id": "30494",
+      "name": "Nixo",
+      "slug": "nixo",
+      "website": "https://withnixo.com/",
+      "one_liner": "The first ops platform for forward deployed engineers",
+      "batch": "Summer 2025",
+      "tags": [],
+      "top_company": false,
+      "isHiring": true,
+      "team_size": 4,
+      "stage": "Early"
+    },
+    {
+      "id": "30510",
+      "name": "Cactus",
+      "slug": "cactus",
+      "website": "https://www.cactuscompute.com/",
+      "one_liner": "Low-latency AI engine for mobile devices & wearables",
+      "batch": "Summer 2025",
+      "tags": [
+        "Artificial Intelligence",
+        "Developer Tools",
+        "Hard Tech",
+        "Open Source",
+        "AI"
+      ],
+      "top_company": false,
+      "isHiring": false,
+      "team_size": 8,
+      "stage": "Early"
+    },
+    {
+      "id": "30520",
+      "name": "Synthetic Society",
+      "slug": "synthetic-society",
+      "website": "https://syntheticsociety.ai/",
+      "one_liner": "Synthetic Users to Simulate Real Users",
+      "batch": "Summer 2025",
+      "tags": [],
+      "top_company": false,
+      "isHiring": false,
+      "team_size": 2,
+      "stage": "Early"
+    },
+    {
+      "id": "30566",
+      "name": "Preseen",
+      "slug": "preseen",
+      "website": "https://preseen.com",
+      "one_liner": "The AI forecasting company for global macro events. ",
+      "batch": "Summer 2025",
+      "tags": [],
+      "top_company": false,
+      "isHiring": false,
+      "team_size": 1,
+      "stage": "Early"
+    },
+    {
+      "id": "30582",
+      "name": "Pingo",
+      "slug": "pingo",
+      "website": "https://pingo.ai",
+      "one_liner": "AI companion that helps you learn languages",
+      "batch": "Summer 2025",
+      "tags": [],
+      "top_company": false,
+      "isHiring": true,
+      "team_size": 6,
+      "stage": "Early"
+    },
+    {
+      "id": "30596",
+      "name": "Adaptional",
+      "slug": "adaptional",
+      "website": "https://www.adaptional.com/",
+      "one_liner": "AI-powered insurance claims review",
+      "batch": "Summer 2025",
+      "tags": [
+        "AIOps",
+        "Artificial Intelligence",
+        "Insurance",
+        "Enterprise",
+        "Enterprise Software"
+      ],
+      "top_company": false,
+      "isHiring": true,
+      "team_size": 0,
+      "stage": "Early"
+    },
+    {
+      "id": "28922",
+      "name": "Egress Health",
+      "slug": "egress-health",
+      "website": "https://tryegress.com",
+      "one_liner": "Automated revenue cycle management, starting with dentists",
+      "batch": "Winter 2025",
+      "tags": [],
+      "top_company": false,
+      "isHiring": false,
+      "team_size": 2,
+      "stage": "Early"
+    },
+    {
+      "id": "29727",
+      "name": "Overstand Labs",
+      "slug": "overstand-labs",
+      "website": "https://overstandlabs.com",
+      "one_liner": "Navigate any set of data - no matter how large - in minutes.",
+      "batch": "Winter 2025",
+      "tags": [
+        "Artificial Intelligence",
+        "LegalTech",
+        "Data Science",
+        "Data Engineering",
+        "Conversational AI"
+      ],
+      "top_company": false,
+      "isHiring": false,
+      "team_size": 4,
+      "stage": "Early"
+    },
+    {
+      "id": "29790",
+      "name": "YouShift",
+      "slug": "youshift",
+      "website": "https://www.you-shift.com/",
+      "one_liner": "The OS for hospital workforce management",
+      "batch": "Winter 2025",
+      "tags": [
+        "Artificial Intelligence",
+        "Health Tech",
+        "Healthcare",
+        "HR Tech",
+        "Operations"
+      ],
+      "top_company": false,
+      "isHiring": true,
+      "team_size": 10,
+      "stage": "Early"
+    },
+    {
+      "id": "29959",
+      "name": "Uncommon Therapeutics",
+      "slug": "uncommon-therapeutics",
+      "website": "https://uncommontherapeutics.com",
+      "one_liner": "A Disease Focused Biotech, Building Multiple Billion Dollar Drugs",
+      "batch": "Winter 2025",
+      "tags": [
+        "Gene Therapy",
+        "CRISPR",
+        "Biotechnology"
+      ],
+      "top_company": false,
+      "isHiring": false,
+      "team_size": 2,
+      "stage": "Early"
+    },
+    {
+      "id": "29986",
+      "name": "Exin Therapeutics",
+      "slug": "exin-therapeutics",
+      "website": "https://www.exintherapeutics.com/",
+      "one_liner": "AI drug discovery platform for neurotherapeutics",
+      "batch": "Winter 2025",
+      "tags": [
+        "Neurotechnology",
+        "Biotech",
+        "Therapeutics"
+      ],
+      "top_company": false,
+      "isHiring": false,
+      "team_size": 9,
+      "stage": "Early"
+    },
+    {
+      "id": "29988",
+      "name": "Delineate",
+      "slug": "delineate",
+      "website": "https://delineate.pro/",
+      "one_liner": "Agents for Accelerated Clinical Trial Design",
+      "batch": "Winter 2025",
+      "tags": [
+        "SaaS",
+        "Biotech",
+        "AI"
+      ],
+      "top_company": false,
+      "isHiring": false,
+      "team_size": 20,
+      "stage": "Early"
+    },
+    {
+      "id": "29999",
+      "name": "Onlook",
+      "slug": "onlook",
+      "website": "https://onlook.com/",
+      "one_liner": "Cursor for Designers",
+      "batch": "Winter 2025",
+      "tags": [
+        "Artificial Intelligence",
+        "Developer Tools",
+        "Design",
+        "Design Tools"
+      ],
+      "top_company": false,
+      "isHiring": true,
+      "team_size": 4,
+      "stage": "Early"
+    },
+    {
+      "id": "30020",
+      "name": "Invo",
+      "slug": "invo",
+      "website": "https://www.tryinvo.com/",
+      "one_liner": "infra for computer use agents",
+      "batch": "Winter 2025",
+      "tags": [],
+      "top_company": false,
+      "isHiring": false,
+      "team_size": 1,
+      "stage": "Early"
+    },
+    {
+      "id": "30160",
+      "name": "Quantstruct",
+      "slug": "quantstruct",
+      "website": "https://quantstruct.com",
+      "one_liner": "AI documentation engineer – test & autoimprove stale product docs",
+      "batch": "Winter 2025",
+      "tags": [
+        "Artificial Intelligence",
+        "Developer Tools",
+        "B2B",
+        "API",
+        "Automation"
+      ],
+      "top_company": false,
+      "isHiring": false,
+      "team_size": 2,
+      "stage": "Early"
+    },
+    {
+      "id": "30165",
+      "name": "Edexia",
+      "slug": "edexia",
+      "website": "https://www.edexia.com/",
+      "one_liner": "AI Teacher Assistant for Grading Essays",
+      "batch": "Winter 2025",
+      "tags": [
+        "AI-Enhanced Learning",
+        "Artificial Intelligence",
+        "Education",
+        "SaaS",
+        "AI Assistant"
+      ],
+      "top_company": false,
+      "isHiring": true,
+      "team_size": 4,
+      "stage": "Early"
+    },
+    {
+      "id": "30172",
+      "name": "Enhanced Radar",
+      "slug": "enhanced-radar",
+      "website": "https://www.enhancedradar.com/",
+      "one_liner": "AI for air traffic control",
+      "batch": "Winter 2025",
+      "tags": [],
+      "top_company": false,
+      "isHiring": true,
+      "team_size": 2,
+      "stage": "Early"
+    },
+    {
+      "id": "30174",
+      "name": "Revise Robotics",
+      "slug": "revise-robotics",
+      "website": "https://www.reviserobotics.com/",
+      "one_liner": "Automating refurbishment of $1T in consumer electronics",
+      "batch": "Winter 2025",
+      "tags": [
+        "Robotic Process Automation",
+        "ClimateTech",
+        "Electronics"
+      ],
+      "top_company": false,
+      "isHiring": true,
+      "team_size": 3,
+      "stage": "Early"
+    }
+  ]
+}
