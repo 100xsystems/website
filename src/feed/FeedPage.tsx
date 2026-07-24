@@ -4,15 +4,32 @@ import React from 'react';
 import Link from 'next/link';
 import Fuse from 'fuse.js';
 import { FeedHeader } from './FeedHeader';
-import { ArticleCard } from './ArticleCard';
 import { fetchFeedAll } from './feed.api';
 import { sortByNewest, sortByHnScore, filterByTags } from './feed.utils';
 import { useBookmarks } from './useBookmarks';
 import { useFeedPreferences } from './useFeedPreferences';
 import type { Article } from './feed.types';
-import { Heading, Text, SkeletonBlock, Alert, Icon } from '@/presentation/__components';
+import { Text, SkeletonBlock, Alert, Icon } from '@/presentation/__components';
+import { FeedFlatView } from './FeedFlatView';
+import { FeedGridView } from './FeedGridView';
 
 const HISTORY_KEY = '100xfeed-history';
+const VIEW_KEY = '100xfeed-view';
+
+type FeedViewMode = 'flat' | 'grid';
+
+function loadFeedView(): FeedViewMode {
+  if (typeof window === 'undefined') return 'flat';
+  try {
+    const raw = localStorage.getItem(VIEW_KEY);
+    if (raw === 'grid' || raw === 'flat') return raw;
+    return 'flat';
+  } catch { return 'flat'; }
+}
+
+function saveFeedView(mode: FeedViewMode): void {
+  try { localStorage.setItem(VIEW_KEY, mode); } catch { /* unavailable */ }
+}
 
 function loadFromStorage<T>(key: string, fallback: T): T {
   if (typeof window === 'undefined') return fallback;
@@ -60,7 +77,7 @@ export function FeedPage({ initialTag }: { initialTag?: string }) {
   const [allArticles, setAllArticles] = React.useState<Article[]>([]);
   const [isLoading, setIsLoading] = React.useState(true);
   const [error, setError] = React.useState<string | null>(null);
-  const { bookmarks, isBookmarked, toggleBookmark, isSyncing: bmSyncing } = useBookmarks();
+  const { bookmarks, toggleBookmark, isSyncing: bmSyncing } = useBookmarks();
   const {
     selectedFeeds,
     selectedTags,
@@ -72,6 +89,12 @@ export function FeedPage({ initialTag }: { initialTag?: string }) {
   } = useFeedPreferences(initialTag);
   const [readingHistory, setReadingHistory] = React.useState<string[]>([]);
   const [searchQuery, setSearchQuery] = React.useState('');
+  const [viewMode, setViewMode] = React.useState<FeedViewMode>('flat');
+
+  // Restore view mode from localStorage on mount
+  React.useEffect(() => {
+    setViewMode(loadFeedView());
+  }, []);
 
   const articleRefs = React.useRef<Map<string, HTMLDivElement>>(new Map());
   const [focusedIndex, setFocusedIndex] = React.useState(-1);
@@ -107,6 +130,14 @@ export function FeedPage({ initialTag }: { initialTag?: string }) {
   const handleSortChange = (sort: 'newest' | 'hn-rank') => { setSortBy(sort); };
 
   const handleReadArticle = (url: string) => { const updated = addToReadingHistory(url); setReadingHistory(updated); };
+
+  const toggleViewMode = () => {
+    setViewMode((prev) => {
+      const next = prev === 'flat' ? 'grid' : 'flat';
+      saveFeedView(next);
+      return next;
+    });
+  };
 
   // ── Filtering, searching, sorting ──
   // First: filter by tags
@@ -163,6 +194,89 @@ export function FeedPage({ initialTag }: { initialTag?: string }) {
     );
   }
 
+  // ── Grid mode: pageless, edge-to-edge ──
+  // In flat mode: keep the max-w-[860px] centered container
+  // In grid mode: full bleed, no margins
+  if (viewMode === 'grid') {
+    return (
+      <div className="min-h-screen">
+        {/* Top section: header + search + controls (still padded) */}
+        <div className="px-6 lg:px-12 max-w-[1400px] mx-auto py-16">
+          <FeedHeader selectedFeeds={selectedFeeds} onFeedSelectionChange={handleFeedSelectionChange} selectedTags={selectedTags} onTagSelectionChange={handleTagSelectionChange} sortBy={sortBy} onSortChange={handleSortChange} articles={allArticles} isLoading={isLoading} onRefresh={loadFeed} />
+
+          {/* Error state */}
+          {error && (
+            <div className="mb-6">
+              <Alert variant="error" title="Failed to load feed" dismissible>
+                <span className="text-sm">{error}</span>
+                <button onClick={loadFeed} className="ml-3 px-3 py-1 text-[10px] font-bold uppercase tracking-wider bg-accent text-white hover:bg-accent-hover transition-colors">Try again</button>
+              </Alert>
+            </div>
+          )}
+
+          {/* Search bar */}
+          <div className="relative mb-5">
+            <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3 text-fg-muted">
+              <Icon name="search" size={16} />
+            </div>
+            <input
+              type="text"
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              placeholder="Search articles by title, author, or topic..."
+              className="w-full bg-surface-secondary border-2 border-black py-3 pl-10 pr-10 text-sm text-fg placeholder:text-fg-muted outline-none focus:border-accent transition-colors"
+            />
+            {searchQuery && (
+              <button onClick={() => setSearchQuery('')} className="absolute inset-y-0 right-0 flex items-center pr-3 text-fg-muted hover:text-fg">
+                <Icon name="x" size={14} />
+              </button>
+            )}
+          </div>
+
+          {/* Bottom bar */}
+          <div className="mb-4 flex items-center justify-between">
+            <div className="flex items-center gap-3 text-[10px] text-fg-muted/50" />
+            <div className="flex items-center gap-3">
+              <button
+                onClick={toggleViewMode}
+                className="flex items-center gap-1.5 px-3 py-1.5 text-[10px] font-bold uppercase tracking-wider border-2 border-black text-fg-muted hover:text-accent hover:border-accent transition-all duration-150"
+                title="Switch to Flat view"
+              >
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <line x1="8" y1="6" x2="21" y2="6" /><line x1="8" y1="12" x2="21" y2="12" /><line x1="8" y1="18" x2="21" y2="18" /><line x1="3" y1="6" x2="3.01" y2="6" /><line x1="3" y1="12" x2="3.01" y2="12" /><line x1="3" y1="18" x2="3.01" y2="18" />
+                </svg>
+                List
+              </button>
+              <Link href="/feed/bookmarks" className="text-[10px] font-bold uppercase tracking-wider text-fg-muted hover:text-accent transition-colors">
+                Bookmarks{bookmarks.length > 0 ? ` (${bookmarks.length})` : ''}
+              </Link>
+            </div>
+          </div>
+        </div>
+
+        {/* Grid content — pageless, full bleed */}
+        <FeedGridView
+          articles={sortedArticles}
+          isLoading={isLoading}
+          searchQuery={searchQuery}
+          bookmarks={bookmarks}
+          readingHistory={readingHistory}
+          onBookmarkToggle={toggleBookmark}
+          onRead={handleReadArticle}
+          onClearFilters={() => { setSearchQuery(''); setSelectedFeeds([]); setSelectedTags([]); }}
+        />
+
+        {/* Loading indicator */}
+        {isLoading && allArticles.length > 0 && (
+          <div className="text-center py-6">
+            <div className="inline-block w-5 h-5 border-2 border-fg-muted/30 border-t-accent rounded-full animate-spin" />
+          </div>
+        )}
+      </div>
+    );
+  }
+
+  // ── Flat mode: centered, max-w-[860px] ──
   return (
     <div className="min-h-screen py-16 px-4">
       <div className="max-w-[860px] mx-auto">
@@ -205,38 +319,34 @@ export function FeedPage({ initialTag }: { initialTag?: string }) {
             <span>b &mdash; bookmark</span>
           </div>
           <div className="flex items-center gap-3">
+            <button
+              onClick={toggleViewMode}
+              className="flex items-center gap-1.5 px-3 py-1.5 text-[10px] font-bold uppercase tracking-wider border-2 border-black text-fg-muted hover:text-accent hover:border-accent transition-all duration-150"
+              title="Switch to Grid view"
+            >
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <rect x="3" y="3" width="7" height="7" /><rect x="14" y="3" width="7" height="7" /><rect x="3" y="14" width="7" height="7" /><rect x="14" y="14" width="7" height="7" />
+              </svg>
+              Grid
+            </button>
             <Link href="/feed/bookmarks" className="text-[10px] font-bold uppercase tracking-wider text-fg-muted hover:text-accent transition-colors">
               Bookmarks{bookmarks.length > 0 ? ` (${bookmarks.length})` : ''}
             </Link>
           </div>
         </div>
 
-        {/* Article count */}
-        <Text variant="caption" className="mb-4 text-fg-muted/60">
-          {searchQuery && `Found ${sortedArticles.length} article${sortedArticles.length !== 1 ? 's' : ''} for "${searchQuery}"`}
-          {!searchQuery && (sortedArticles.length === 0 ? 'No articles found' : `${sortedArticles.length} article${sortedArticles.length !== 1 ? 's' : ''}`)}
-          {!searchQuery && selectedFeeds.length > 0 && ` from ${selectedFeeds.length} source${selectedFeeds.length !== 1 ? 's' : ''}`}
-        </Text>
-
-        {/* Article list */}
-        {sortedArticles.length === 0 && !isLoading ? (
-          <div className="text-center py-20 border-2 border-black px-8">
-            <Heading variant="h2" className="mb-2">✦</Heading>
-            <Text variant="body" className="mb-1">No articles{searchQuery ? ` match "${searchQuery}"` : ' match your current filters'}.</Text>
-            <Text variant="muted" className="mb-6">Try adjusting your search or filters.</Text>
-            <button onClick={() => { setSearchQuery(''); setSelectedFeeds([]); setSelectedTags([]); }} className="px-5 py-2 text-[10px] font-bold uppercase tracking-wider bg-accent-yellow text-black hover:bg-yellow-400 transition-colors">
-              Clear all filters
-            </button>
-          </div>
-        ) : (
-          <div className="space-y-3">
-            {sortedArticles.map((article, index) => (
-              <div key={article.id} ref={(el) => { if (el) articleRefs.current.set(article.id, el); else articleRefs.current.delete(article.id); }}>
-                <ArticleCard article={article} isBookmarked={bookmarks.some((b) => b.url === article.url)} isRead={readingHistory.includes(article.url)} isFocused={index === focusedIndex} onBookmarkToggle={toggleBookmark} onRead={handleReadArticle} searchQuery={searchQuery} />
-              </div>
-            ))}
-          </div>
-        )}
+        <FeedFlatView
+          articles={sortedArticles}
+          isLoading={isLoading}
+          bookmarks={bookmarks}
+          readingHistory={readingHistory}
+          focusedIndex={focusedIndex}
+          searchQuery={searchQuery}
+          articleRefs={articleRefs}
+          onBookmarkToggle={toggleBookmark}
+          onRead={handleReadArticle}
+          onClearFilters={() => { setSearchQuery(''); setSelectedFeeds([]); setSelectedTags([]); }}
+        />
 
         {/* Loading indicator */}
         {isLoading && allArticles.length > 0 && (
