@@ -28,8 +28,8 @@ interface PhCache {
 
 const PRODUCTS_TO_SHOW = 8;
 
-// Registry raw URL for Product Hunt products.json
-const PH_PRODUCTS_URL = 'https://raw.githubusercontent.com/100xsystems/registry/main/producthunt/products.json';
+// Local build cache — populated by scripts/fetch-yc-cache.mjs (clones registry at build time)
+const PH_PRODUCTS_URL = '/ph-cache/products.json';
 
 export function HomeProductHunt() {
   const [products, setProducts] = useState<PhProduct[]>([]);
