@@ -5,7 +5,7 @@ import { HomeSearch } from '@/presentation/features/homeSearch.feature';
 import { HomeYC } from '@/presentation/features/homeYC.feature';
 import { HomeProductHunt } from '@/presentation/features/homeProductHunt.feature';
 import { HomeUnifiedSearch } from '@/presentation/features/homeUnifiedSearch.feature';
-import type { FeedCache, Article, RegistryFeedData } from '@/feed/feed.types';
+import type { FeedCache, Article } from '@/feed/feed.types';
 
 // ── Featured sources shown on the homepage ─────────────────────────
 

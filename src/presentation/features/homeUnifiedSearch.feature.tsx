@@ -198,12 +198,11 @@ function ResultCard({ item, sectionId, type }: {
 // SECTION RENDERER
 // ══════════════════════════════════════════════════════════════════════
 
-function ResultSection({ section, items, empty }: {
+function ResultSection({ section, items }: {
   section: SourceSection;
   items: Array<{ title: string; url: string; description?: string | null; metadata?: Record<string, unknown> }>;
-  empty?: boolean;
 }) {
-  if (empty || items.length === 0) return null;
+  if (items.length === 0) return null;
 
   return (
     <div className="space-y-3">
@@ -530,15 +529,8 @@ export function HomeUnifiedSearch() {
                 {/* LOCAL SECTIONS */}
                 {LOCAL_SECTIONS.map((section) => {
                   const items = results[section.id] ?? [];
-                  const isEmpty = items.length === 0;
-                  return (
-                    <ResultSection
-                      key={section.id}
-                      section={section}
-                      items={items}
-                      empty={liveResults && Object.keys(liveResults).length > 0 ? isEmpty : undefined}
-                    />
-                  );
+                  if (items.length === 0) return null;
+                  return <ResultSection key={section.id} section={section} items={items} />;
                 })}
 
                 {/* Divider between local and live */}
@@ -556,13 +548,7 @@ export function HomeUnifiedSearch() {
                 {LIVE_SECTIONS.map((section) => {
                   const items = liveResults[section.id] ?? [];
                   if (items.length === 0) return null;
-                  return (
-                    <ResultSection
-                      key={section.id}
-                      section={section}
-                      items={items}
-                    />
-                  );
+                  return <ResultSection key={section.id} section={section} items={items} />;
                 })}
 
                 {/* Errors from live sources */}
