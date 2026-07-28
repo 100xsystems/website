@@ -210,20 +210,20 @@ function FeedCard({ item, config }: { item: LocalSearchItem; config: SourceConfi
   const m = item.metadata;
   return (
     <a href={item.url} target="_blank" rel="noopener noreferrer"
-      className={cn('block bg-white border-2 border-black/20 p-5 transition-all duration-300', config.hoverBg, 'group hover:border-transparent')}>
-      <div className="flex items-center gap-2 mb-2">
-        <span className="text-[9px] font-bold uppercase tracking-widest text-fg-muted group-hover:text-white/60 transition-colors">
+      className={cn('block bg-white p-6 sm:p-8 transition-all duration-300', config.hoverBg, 'group')}>
+      <div className="flex items-center gap-3 mb-3">
+        <span className="text-xs font-bold uppercase tracking-widest text-fg-muted group-hover:text-white/60 transition-colors">
           {v(m?.feedName)}
         </span>
         {v(m?.publishedAt) && (
-          <span className="text-[9px] text-fg-muted/50 group-hover:text-white/40 transition-colors">· {timeAgo(v(m?.publishedAt))}</span>
+          <span className="text-xs text-fg-muted/50 group-hover:text-white/40 transition-colors">· {timeAgo(v(m?.publishedAt))}</span>
         )}
       </div>
-      <h3 className="text-xs font-bold leading-snug text-fg group-hover:text-white transition-colors line-clamp-2">
+      <h3 className="text-base sm:text-lg font-bold leading-snug text-fg group-hover:text-white transition-colors line-clamp-3">
         {item.title}
       </h3>
       {v(m?.author) && (
-        <p className="mt-1.5 text-[9px] text-fg-muted/60 group-hover:text-white/50 transition-colors">by {v(m?.author)}</p>
+        <p className="mt-2 text-xs text-fg-muted/60 group-hover:text-white/50 transition-colors">by {v(m?.author)}</p>
       )}
     </a>
   );
@@ -233,16 +233,16 @@ function YcCard({ item, config }: { item: LocalSearchItem; config: SourceConfig 
   const m = item.metadata;
   return (
     <a href={item.url} target="_blank" rel="noopener noreferrer"
-      className={cn('block bg-white border-2 border-black/20 p-5 transition-all duration-300', config.hoverBg, 'group hover:border-transparent')}>
-      <div className="flex items-center justify-between gap-2 mb-1">
-        <h3 className="text-sm font-bold uppercase tracking-wide text-fg group-hover:text-white transition-colors">{item.title}</h3>
-        {m?.hiring === true && <span className="flex items-center gap-1 text-[8px] font-bold uppercase tracking-wider text-green-600 group-hover:text-white/80"><span className="w-1.5 h-1.5 rounded-full bg-green-600 group-hover:bg-white" />Hiring</span>}
+      className={cn('block bg-white p-6 sm:p-8 transition-all duration-300', config.hoverBg, 'group')}>
+      <div className="flex items-center justify-between gap-3 mb-2">
+        <h3 className="text-base sm:text-lg font-bold uppercase tracking-wide text-fg group-hover:text-white transition-colors">{item.title}</h3>
+        {m?.hiring === true && <span className="flex items-center gap-1.5 text-[10px] font-bold uppercase tracking-wider text-green-600 group-hover:text-white/80"><span className="w-2 h-2 rounded-full bg-green-600 group-hover:bg-white" />Hiring</span>}
       </div>
-      {item.description && <p className="text-xs text-fg-secondary leading-relaxed group-hover:text-white/80 transition-colors line-clamp-2">{item.description}</p>}
-      <div className="mt-3 flex items-center gap-2 flex-wrap">
-        {v(m?.batch) && <span className="px-1.5 py-0.5 text-[8px] font-semibold uppercase tracking-wider bg-surface-secondary text-fg-muted group-hover:bg-white/20 group-hover:text-white/80 transition-colors">{v(m?.batch)}</span>}
-        {v(m?.stage) && <span className="text-[8px] text-fg-muted/60 group-hover:text-white/50 transition-colors uppercase tracking-wider">{v(m?.stage)}</span>}
-        {m?.top_company === true && <span className="text-[8px] font-bold uppercase tracking-wider text-orange-500 group-hover:text-white/90 transition-colors">Top</span>}
+      {item.description && <p className="text-sm sm:text-base text-fg-secondary leading-relaxed group-hover:text-white/80 transition-colors line-clamp-3">{item.description}</p>}
+      <div className="mt-4 flex items-center gap-3 flex-wrap">
+        {v(m?.batch) && <span className="px-2 py-1 text-[10px] font-semibold uppercase tracking-wider bg-surface-secondary text-fg-muted group-hover:bg-white/20 group-hover:text-white/80 transition-colors">{v(m?.batch)}</span>}
+        {v(m?.stage) && <span className="text-[10px] text-fg-muted/60 group-hover:text-white/50 transition-colors uppercase tracking-wider">{v(m?.stage)}</span>}
+        {m?.top_company === true && <span className="text-[10px] font-bold uppercase tracking-wider text-orange-500 group-hover:text-white/90 transition-colors">Top</span>}
       </div>
     </a>
   );
@@ -252,12 +252,12 @@ function PhCard({ item, config }: { item: LocalSearchItem; config: SourceConfig 
   const m = item.metadata;
   return (
     <a href={item.url} target="_blank" rel="noopener noreferrer"
-      className={cn('block bg-white border-2 border-black/20 p-5 transition-all duration-300', config.hoverBg, 'group hover:border-transparent')}>
-      <div className="flex items-start justify-between gap-2">
-        <h3 className="text-sm font-bold uppercase tracking-wide text-fg group-hover:text-white transition-colors">{item.title}</h3>
-        {n(m?.votesCount) > 0 && <span className="shrink-0 flex items-center gap-1 text-[10px] font-bold text-fg-muted group-hover:text-white/70 transition-colors"><Icon name="arrow-up" size={10} />{n(m?.votesCount)}</span>}
+      className={cn('block bg-white p-6 sm:p-8 transition-all duration-300', config.hoverBg, 'group')}>
+      <div className="flex items-start justify-between gap-3">
+        <h3 className="text-base sm:text-lg font-bold uppercase tracking-wide text-fg group-hover:text-white transition-colors">{item.title}</h3>
+        {n(m?.votesCount) > 0 && <span className="shrink-0 flex items-center gap-1.5 text-sm font-bold text-fg-muted group-hover:text-white/70 transition-colors"><Icon name="arrow-up" size={14} />{n(m?.votesCount)}</span>}
       </div>
-      {item.description && <p className="mt-1 text-xs text-fg-secondary leading-relaxed group-hover:text-white/80 transition-colors line-clamp-2">{item.description}</p>}
+      {item.description && <p className="mt-2 text-sm sm:text-base text-fg-secondary leading-relaxed group-hover:text-white/80 transition-colors line-clamp-3">{item.description}</p>}
     </a>
   );
 }
@@ -266,11 +266,9 @@ function HnCard({ result, config }: { result: LiveSearchResult; config: SourceCo
   const m = result.metadata;
   return (
     <a href={result.url} target="_blank" rel="noopener noreferrer"
-      className={cn('block bg-white border-2 border-black/20 p-5 transition-all duration-300', config.hoverBg, 'group hover:border-transparent')}>
-      <div className="flex items-center justify-between gap-2 mb-1">
-        <h3 className="text-xs font-bold leading-snug text-fg group-hover:text-white transition-colors line-clamp-2">{result.title}</h3>
-      </div>
-      <div className="flex items-center gap-2 text-[9px] text-fg-muted/60 group-hover:text-white/50 transition-colors">
+      className={cn('block bg-white p-6 sm:p-8 transition-all duration-300', config.hoverBg, 'group')}>
+      <h3 className="text-base sm:text-lg font-bold leading-snug text-fg group-hover:text-white transition-colors line-clamp-3">{result.title}</h3>
+      <div className="flex items-center gap-3 mt-3 text-sm text-fg-muted/60 group-hover:text-white/50 transition-colors">
         {n(m?.points) > 0 && <span>{n(m?.points)} points</span>}
         {v(m?.author) && <><span>·</span><span>by {v(m?.author)}</span></>}
         {n(m?.comments) > 0 && <><span>·</span><span>{n(m?.comments)} comments</span></>}
@@ -283,12 +281,12 @@ function GitHubCard({ result, config }: { result: LiveSearchResult; config: Sour
   const m = result.metadata;
   return (
     <a href={result.url} target="_blank" rel="noopener noreferrer"
-      className={cn('block bg-white border-2 border-black/20 p-5 transition-all duration-300', config.hoverBg, 'group hover:border-transparent')}>
-      <h3 className="text-xs font-bold leading-snug text-fg group-hover:text-white transition-colors mb-1">{result.title}</h3>
-      {result.description && <p className="text-[11px] text-fg-secondary leading-relaxed group-hover:text-white/80 transition-colors line-clamp-2 mb-2">{result.description}</p>}
-      <div className="flex items-center gap-2 text-[9px] text-fg-muted/60 group-hover:text-white/50 transition-colors flex-wrap">
+      className={cn('block bg-white p-6 sm:p-8 transition-all duration-300', config.hoverBg, 'group')}>
+      <h3 className="text-base sm:text-lg font-bold leading-snug text-fg group-hover:text-white transition-colors mb-2">{result.title}</h3>
+      {result.description && <p className="text-sm sm:text-base text-fg-secondary leading-relaxed group-hover:text-white/80 transition-colors line-clamp-3 mb-3">{result.description}</p>}
+      <div className="flex items-center gap-3 text-sm text-fg-muted/60 group-hover:text-white/50 transition-colors flex-wrap">
         {n(m?.stars) > 0 && <span>★ {n(m?.stars)}</span>}
-        {v(m?.language) && <span className="px-1.5 py-0.5 bg-surface-secondary text-fg-muted group-hover:bg-white/20 group-hover:text-white/70 text-[8px] font-semibold uppercase tracking-wider">{v(m?.language)}</span>}
+        {v(m?.language) && <span className="px-2 py-1 bg-surface-secondary text-fg-muted group-hover:bg-white/20 group-hover:text-white/70 text-[10px] font-semibold uppercase tracking-wider">{v(m?.language)}</span>}
         {n(m?.forks) > 0 && <span>{n(m?.forks)} forks</span>}
       </div>
     </a>
@@ -299,14 +297,14 @@ function SOCard({ result, config }: { result: LiveSearchResult; config: SourceCo
   const m = result.metadata;
   return (
     <a href={result.url} target="_blank" rel="noopener noreferrer"
-      className={cn('block bg-white border-2 border-black/20 p-5 transition-all duration-300', config.hoverBg, 'group hover:border-transparent')}>
-      <h3 className="text-xs font-bold leading-snug text-fg group-hover:text-white transition-colors line-clamp-2 mb-1">{result.title}</h3>
-      <div className="flex items-center gap-2 text-[9px] text-fg-muted/60 group-hover:text-white/50 transition-colors flex-wrap">
+      className={cn('block bg-white p-6 sm:p-8 transition-all duration-300', config.hoverBg, 'group')}>
+      <h3 className="text-base sm:text-lg font-bold leading-snug text-fg group-hover:text-white transition-colors line-clamp-3 mb-2">{result.title}</h3>
+      <div className="flex items-center gap-3 text-sm text-fg-muted/60 group-hover:text-white/50 transition-colors flex-wrap">
         {n(m?.score) > 0 && <span>{n(m?.score)} votes</span>}
         {n(m?.answerCount) > 0 && <><span>·</span><span>{n(m?.answerCount)} answers</span></>}
         {m?.isAnswered === true && <span className="text-green-600 group-hover:text-white/80">✓ answered</span>}
         {Array.isArray(m?.tags) && (m.tags as string[]).slice(0, 3).map((t) => (
-          <span key={t} className="px-1.5 py-0.5 bg-surface-secondary text-fg-muted group-hover:bg-white/20 group-hover:text-white/70 text-[8px] font-semibold uppercase tracking-wider">{t}</span>
+          <span key={t} className="px-2 py-1 bg-surface-secondary text-fg-muted group-hover:bg-white/20 group-hover:text-white/70 text-[10px] font-semibold uppercase tracking-wider">{t}</span>
         ))}
       </div>
     </a>
@@ -317,10 +315,10 @@ function NpmCard({ result, config }: { result: LiveSearchResult; config: SourceC
   const m = result.metadata;
   return (
     <a href={result.url} target="_blank" rel="noopener noreferrer"
-      className={cn('block bg-white border-2 border-black/20 p-5 transition-all duration-300', config.hoverBg, 'group hover:border-transparent')}>
-      <h3 className="text-xs font-bold leading-snug text-fg group-hover:text-white transition-colors mb-1 font-mono">{result.title}</h3>
-      {result.description && <p className="text-[11px] text-fg-secondary leading-relaxed group-hover:text-white/80 transition-colors line-clamp-2 mb-2">{result.description}</p>}
-      <div className="flex items-center gap-2 text-[9px] text-fg-muted/60 group-hover:text-white/50 transition-colors">
+      className={cn('block bg-white p-6 sm:p-8 transition-all duration-300', config.hoverBg, 'group')}>
+      <h3 className="text-base sm:text-lg font-bold leading-snug text-fg group-hover:text-white transition-colors mb-2 font-mono">{result.title}</h3>
+      {result.description && <p className="text-sm sm:text-base text-fg-secondary leading-relaxed group-hover:text-white/80 transition-colors line-clamp-3 mb-3">{result.description}</p>}
+      <div className="flex items-center gap-3 text-sm text-fg-muted/60 group-hover:text-white/50 transition-colors">
         {v(m?.version) && <span className="font-mono">v{v(m?.version)}</span>}
         {n(m?.score) > 0 && <span>score: {n(m?.score).toFixed(2)}</span>}
       </div>
@@ -332,13 +330,13 @@ function DevtoCard({ result, config }: { result: LiveSearchResult; config: Sourc
   const m = result.metadata;
   return (
     <a href={result.url} target="_blank" rel="noopener noreferrer"
-      className={cn('block bg-white border-2 border-black/20 p-5 transition-all duration-300', config.hoverBg, 'group hover:border-transparent')}>
-      <h3 className="text-xs font-bold leading-snug text-fg group-hover:text-white transition-colors line-clamp-2 mb-1">{result.title}</h3>
-      <div className="flex items-center gap-2 text-[9px] text-fg-muted/60 group-hover:text-white/50 transition-colors flex-wrap">
+      className={cn('block bg-white p-6 sm:p-8 transition-all duration-300', config.hoverBg, 'group')}>
+      <h3 className="text-base sm:text-lg font-bold leading-snug text-fg group-hover:text-white transition-colors line-clamp-3 mb-2">{result.title}</h3>
+      <div className="flex items-center gap-3 text-sm text-fg-muted/60 group-hover:text-white/50 transition-colors flex-wrap">
         {n(m?.positiveReactions) > 0 && <span>{n(m?.positiveReactions)} ❤</span>}
         {n(m?.readingTime) > 0 && <><span>·</span><span>{n(m?.readingTime)} min read</span></>}
         {Array.isArray(m?.tags) && (m.tags as string[]).slice(0, 3).map((t) => (
-          <span key={t} className="px-1.5 py-0.5 bg-surface-secondary text-fg-muted group-hover:bg-white/20 group-hover:text-white/70 text-[8px] font-semibold uppercase tracking-wider">{t}</span>
+          <span key={t} className="px-2 py-1 bg-surface-secondary text-fg-muted group-hover:bg-white/20 group-hover:text-white/70 text-[10px] font-semibold uppercase tracking-wider">{t}</span>
         ))}
       </div>
     </a>
@@ -349,9 +347,9 @@ function MediumCard({ result, config }: { result: LiveSearchResult; config: Sour
   const m = result.metadata;
   return (
     <a href={result.url} target="_blank" rel="noopener noreferrer"
-      className={cn('block bg-white border-2 border-black/20 p-5 transition-all duration-300', config.hoverBg, 'group hover:border-transparent')}>
-      <h3 className="text-xs font-bold leading-snug text-fg group-hover:text-white transition-colors line-clamp-2 mb-1">{result.title}</h3>
-      <div className="flex items-center gap-2 text-[9px] text-fg-muted/60 group-hover:text-white/50 transition-colors">
+      className={cn('block bg-white p-6 sm:p-8 transition-all duration-300', config.hoverBg, 'group')}>
+      <h3 className="text-base sm:text-lg font-bold leading-snug text-fg group-hover:text-white transition-colors line-clamp-3 mb-2">{result.title}</h3>
+      <div className="flex items-center gap-3 text-sm text-fg-muted/60 group-hover:text-white/50 transition-colors">
         {v(m?.author) && <span>by {v(m?.author)}</span>}
         {v(m?.publishedAt) && <><span>·</span><span>{new Date(v(m?.publishedAt)).toLocaleDateString()}</span></>}
       </div>
@@ -363,10 +361,10 @@ function DdgCard({ result, config }: { result: LiveSearchResult; config: SourceC
   const m = result.metadata;
   return (
     <a href={result.url} target="_blank" rel="noopener noreferrer"
-      className={cn('block bg-white border-2 border-black/20 p-5 transition-all duration-300', config.hoverBg, 'group hover:border-transparent')}>
-      <h3 className="text-xs font-bold leading-snug text-fg group-hover:text-white transition-colors line-clamp-2 mb-1">{result.title}</h3>
-      {result.description && <p className="text-[11px] text-fg-secondary leading-relaxed group-hover:text-white/80 transition-colors line-clamp-2">{result.description}</p>}
-      {v(m?.source) && <p className="mt-1 text-[9px] text-fg-muted/50 group-hover:text-white/40 transition-colors">via {v(m?.source)}</p>}
+      className={cn('block bg-white p-6 sm:p-8 transition-all duration-300', config.hoverBg, 'group')}>
+      <h3 className="text-base sm:text-lg font-bold leading-snug text-fg group-hover:text-white transition-colors line-clamp-3 mb-2">{result.title}</h3>
+      {result.description && <p className="text-sm sm:text-base text-fg-secondary leading-relaxed group-hover:text-white/80 transition-colors line-clamp-3">{result.description}</p>}
+      {v(m?.source) && <p className="mt-2 text-sm text-fg-muted/50 group-hover:text-white/40 transition-colors">via {v(m?.source)}</p>}
     </a>
   );
 }
@@ -375,12 +373,12 @@ function RedditCard({ result, config }: { result: LiveSearchResult; config: Sour
   const m = result.metadata;
   return (
     <a href={result.url} target="_blank" rel="noopener noreferrer"
-      className={cn('block bg-white border-2 border-black/20 p-5 transition-all duration-300', config.hoverBg, 'group hover:border-transparent')}>
-      <div className="flex items-center gap-2 mb-1">
-        {v(m?.subreddit) && <span className="text-[9px] font-bold uppercase tracking-wider text-fg-muted group-hover:text-white/70 transition-colors">r/{v(m?.subreddit)}</span>}
+      className={cn('block bg-white p-6 sm:p-8 transition-all duration-300', config.hoverBg, 'group')}>
+      <div className="flex items-center gap-3 mb-2">
+        {v(m?.subreddit) && <span className="text-xs font-bold uppercase tracking-wider text-fg-muted group-hover:text-white/70 transition-colors">r/{v(m?.subreddit)}</span>}
       </div>
-      <h3 className="text-xs font-bold leading-snug text-fg group-hover:text-white transition-colors line-clamp-2">{result.title}</h3>
-      <div className="flex items-center gap-2 mt-1 text-[9px] text-fg-muted/60 group-hover:text-white/50 transition-colors">
+      <h3 className="text-base sm:text-lg font-bold leading-snug text-fg group-hover:text-white transition-colors line-clamp-3">{result.title}</h3>
+      <div className="flex items-center gap-3 mt-3 text-sm text-fg-muted/60 group-hover:text-white/50 transition-colors">
         {n(m?.points) > 0 && <span>{n(m?.points)} points</span>}
         {v(m?.author) && <><span>·</span><span>by {v(m?.author)}</span></>}
         {n(m?.comments) > 0 && <><span>·</span><span>{n(m?.comments)} comments</span></>}
@@ -430,17 +428,16 @@ function createFuseIndex(items: LocalSearchItem[]) {
 
 function SourceSection({ source, count, children }: { source: SourceConfig; count: number; children: React.ReactNode }) {
   return (
-    <section id={`search-${source.id}`}>
-      {/* Section label — follows the design system pattern */}
-      <div className="mb-8">
-        <div className={cn('inline-flex items-center gap-2 px-3 py-1.5 text-[10px] font-bold uppercase tracking-widest text-white mb-4', source.bgColor)}>
-          {source.brandEl && <span className="w-4 h-4 flex items-center justify-center">{source.brandEl}</span>}
+    <section id={`search-${source.id}`} className="mb-16 sm:mb-20">
+      <div className="mb-6 sm:mb-8">
+        <div className={cn('inline-flex items-center gap-3 px-4 py-2 text-xs font-bold uppercase tracking-widest text-white', source.bgColor)}>
+          {source.brandEl && <span className="w-5 h-5 flex items-center justify-center">{source.brandEl}</span>}
           {source.label}
-          <span className="text-white/60 font-mono text-[9px]">({count})</span>
+          <span className="text-white/60 font-mono text-[10px]">({count})</span>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {children}
-        </div>
+      </div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8 lg:gap-10">
+        {children}
       </div>
     </section>
   );
@@ -628,10 +625,10 @@ export function HomeUnifiedSearch() {
         </div>
       </section>
 
-      {/* ── RESULTS (full-page, borderless, flowing naturally) ── */}
+      {/* ── RESULTS — borderless, immersive, pageless ── */}
       {hasSearched && (
-        <section className="py-16 bg-white">
-          <div className="max-w-[1200px] mx-auto px-6 lg:px-12">
+        <section className="py-20 sm:py-28 bg-white">
+          <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
 
             {/* Loading state */}
             {loading && (
