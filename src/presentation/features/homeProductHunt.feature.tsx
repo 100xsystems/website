@@ -4,12 +4,20 @@ import React, { useState, useEffect } from 'react';
 import { Icon, Button } from '@/presentation/__components';
 
 interface PhProduct {
+  id: string;
   name: string;
-  upvotes: string;
-  link: string;
-  producthunt_link: string;
-  description: string;
-  tags: string;
+  tagline: string;
+  description: string | null;
+  url: string;
+  website: string;
+  slug: string;
+  votesCount: number;
+  commentsCount: number;
+  featuredAt: string | null;
+  createdAt: string;
+  makers: { name: string; username: string }[];
+  topics: { name: string; slug: string }[];
+  thumbnail: { type: string; url: string } | null;
 }
 
 interface PhCache {
@@ -19,6 +27,9 @@ interface PhCache {
 }
 
 const PRODUCTS_TO_SHOW = 8;
+
+// Registry raw URL for Product Hunt products.json
+const PH_PRODUCTS_URL = 'https://raw.githubusercontent.com/100xsystems/registry/main/producthunt/products.json';
 
 export function HomeProductHunt() {
   const [products, setProducts] = useState<PhProduct[]>([]);
@@ -33,14 +44,14 @@ export function HomeProductHunt() {
       setError(null);
 
       try {
-        const res = await fetch('/ph-cache/products.json');
+        const res = await fetch(PH_PRODUCTS_URL);
         if (!res.ok) throw new Error('Product Hunt data not available');
         const data: PhCache = await res.json();
         if (!mounted) return;
 
-        // Sort by upvotes (descending), take top N
+        // Sort by votesCount (descending), take top N
         const sorted = [...data.products]
-          .sort((a, b) => parseInt(b.upvotes || '0', 10) - parseInt(a.upvotes || '0', 10))
+          .sort((a, b) => (b.votesCount || 0) - (a.votesCount || 0))
           .slice(0, PRODUCTS_TO_SHOW);
 
         setProducts(sorted);
@@ -109,8 +120,8 @@ export function HomeProductHunt() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {products.map((product, i) => (
               <a
-                key={product.name + i}
-                href={product.producthunt_link || product.link || '#'}
+                key={product.id + i}
+                href={product.url || product.website || '#'}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group border border-border p-5 flex flex-col transition-all duration-300 hover:bg-red-500 hover:border-red-500"
@@ -119,26 +130,26 @@ export function HomeProductHunt() {
                   <h3 className="text-sm font-bold uppercase tracking-wide text-fg transition-colors duration-300 group-hover:text-white flex-1">
                     {product.name}
                   </h3>
-                  {product.upvotes && (
+                  {product.votesCount > 0 && (
                     <span className="shrink-0 flex items-center gap-1 text-[10px] font-bold text-fg-muted transition-colors duration-300 group-hover:text-white/80">
                       <Icon name="arrow-up" size={12} />
-                      {product.upvotes}
+                      {product.votesCount}
                     </span>
                   )}
                 </div>
-                {product.description && (
+                {product.tagline && (
                   <p className="mt-2 text-xs text-fg-secondary leading-relaxed transition-colors duration-300 group-hover:text-white/80 line-clamp-2">
-                    {product.description}
+                    {product.tagline}
                   </p>
                 )}
-                {product.tags && (
+                {product.topics && product.topics.length > 0 && (
                   <div className="mt-auto pt-3 flex items-center gap-1 flex-wrap">
-                    {product.tags.split(',').slice(0, 3).map((tag) => (
+                    {product.topics.slice(0, 3).map((topic) => (
                       <span
-                        key={tag}
+                        key={topic.slug}
                         className="px-1.5 py-0.5 text-[8px] font-semibold uppercase tracking-wider bg-surface-secondary text-fg-muted transition-colors duration-300 group-hover:bg-white/20 group-hover:text-white/80"
                       >
-                        {tag.trim().replace(/^#/, '')}
+                        {topic.name}
                       </span>
                     ))}
                   </div>

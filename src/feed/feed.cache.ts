@@ -29,8 +29,8 @@ import { FEED_REGISTRY } from './feed.constants';
 
 // ── Configuration ─────────────────────────────────────────────────────
 
-const CACHE_LIFETIME_MS = 6 * 60 * 60 * 1000; // 6 hours (registry runs 4x daily now)
-const FULL_FETCH_THRESHOLD_MS = 18 * 60 * 60 * 1000; // 18 hours — if cache is older, do full fetch
+const CACHE_LIFETIME_MS = 6 * 60 * 60 * 1000; // 6 hours (registry runs once daily at midnight UTC)
+const FULL_FETCH_THRESHOLD_MS = 18 * 60 * 60 * 1000; // 18 hours — if cache is older (>2 missed cycles), do full fetch
 const BUILD_CACHE_PATH = path.join(process.cwd(), 'public', 'feed-cache.json');
 const TMP_CACHE_PATH = '/tmp/feed-cache.json';
 
