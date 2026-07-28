@@ -1,6 +1,8 @@
 {
   "type": "yc-combinator",
-  "fetchedAt": "2026-07-24T06:14:46.969Z",
-  "source": "https://github.com/yc-oss/api.git",
-  "featuredCount": 48
+  "fetchedAt": "2026-07-28T11:05:57.182Z",
+  "totalCompanies": 6089,
+  "totalBatches": 50,
+  "totalTags": 334,
+  "totalIndustries": 59
 }

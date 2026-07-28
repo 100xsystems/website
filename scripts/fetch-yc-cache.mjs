@@ -2,12 +2,12 @@
 /**
  * fetch-yc-cache.mjs
  *
- * Build-time script that fetches Y Combinator data from the registry repo
- * and generates public/yc-cache/ for the website.
+ * Build/CI script that ALWAYS clones the registry repo from GitHub
+ * and copies YC data to `public/yc-cache/`.
  *
- * Two strategies:
- *   A) Copy from local registry path (development)
- *   B) Shallow clone the registry repo from GitHub (CI/build)
+ * Environment variables:
+ *   REGISTRY_REPO      — GitHub repo path (default: "100xsystems/registry")
+ *   REGISTRY_BRANCH    — Branch to use (default: "main")
  */
 
 import { execSync } from 'node:child_process';
@@ -16,159 +16,72 @@ import * as path from 'node:path';
 
 const REGISTRY_REPO = process.env.REGISTRY_REPO || '100xsystems/registry';
 const REGISTRY_BRANCH = process.env.REGISTRY_BRANCH || 'main';
-const LOCAL_REGISTRY_DIR = path.resolve(process.cwd(), process.env.LOCAL_REGISTRY_DIR || '../registry');
-const YC_OUTPUT_DIR = path.resolve(process.cwd(), 'public', 'yc-cache');
-const PH_OUTPUT_DIR = path.resolve(process.cwd(), 'public', 'ph-cache');
+const CACHE_DIR = path.resolve(process.cwd(), '.registry-cache');
+const PUBLIC_DIR = path.resolve(process.cwd(), 'public');
 
-function ensureOutputDir(dir) {
-  if (!fs.existsSync(dir)) {
-    fs.mkdirSync(dir, { recursive: true });
-  }
+const YC_ESSENTIAL = ['featured.json', 'meta.json', 'index.json', 'companies.json'];
+
+function ensureDir(dir) {
+  if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
 }
 
-/** Only copy these essential YC files (avoids thousands of batch files in public/) */
-const YC_ESSENTIAL_FILES = ['featured.json', 'meta.json', 'index.json', 'companies.json'];
-
-/** Only copy these essential PH files */
-const PH_ESSENTIAL_FILES = ['products.json', 'index.json'];
-
-/**
- * Copy a directory with filtering, returning count of files copied.
- */
-function copyDirWithFilter(srcDir, destDir, filterFn) {
-  if (!fs.existsSync(srcDir)) return 0;
-  ensureOutputDir(destDir);
-  let count = 0;
-  const files = fs.readdirSync(srcDir).filter(filterFn);
-  for (const file of files) {
-    fs.copyFileSync(path.join(srcDir, file), path.join(destDir, file));
-    count++;
-  }
-  return count;
+function cloneRegistry() {
+  try { fs.rmSync(CACHE_DIR, { recursive: true, force: true }); } catch {}
+  const url = `https://github.com/${REGISTRY_REPO}.git`;
+  console.log(`  Cloning ${REGISTRY_REPO} (shallow)...`);
+  execSync(`git clone --depth=1 --branch=${REGISTRY_BRANCH} "${url}" "${CACHE_DIR}"`, {
+    stdio: 'pipe',
+    timeout: 60000,
+  });
 }
 
-/**
- * Copy YC data from a registry directory to public/yc-cache/
- */
-function copyYcData(ycDir) {
-  if (!fs.existsSync(ycDir)) return 0;
-  
-  ensureOutputDir(YC_OUTPUT_DIR);
+function copyYcData() {
+  const ycDir = path.join(CACHE_DIR, 'yc');
+  if (!fs.existsSync(ycDir)) {
+    console.warn('  ⚠ No yc/ directory in registry');
+    return 0;
+  }
+
+  const outDir = path.join(PUBLIC_DIR, 'yc-cache');
+  ensureDir(outDir);
   let copied = 0;
 
-  // Essential files
-  for (const file of YC_ESSENTIAL_FILES) {
+  for (const file of YC_ESSENTIAL) {
     const src = path.join(ycDir, file);
     if (fs.existsSync(src)) {
-      fs.copyFileSync(src, path.join(YC_OUTPUT_DIR, file));
+      fs.copyFileSync(src, path.join(outDir, file));
       copied++;
     }
   }
 
-  // Daily changes directory
+  // Daily changes
   const changesDir = path.join(ycDir, 'changes');
-  copied += copyDirWithFilter(
-    changesDir,
-    path.join(YC_OUTPUT_DIR, 'changes'),
-    (f) => f.endsWith('.json') || f.endsWith('.md'),
-  );
+  if (fs.existsSync(changesDir)) {
+    const changesOut = path.join(outDir, 'changes');
+    ensureDir(changesOut);
+    for (const f of fs.readdirSync(changesDir)) {
+      if (f.endsWith('.json') || f.endsWith('.md')) {
+        fs.copyFileSync(path.join(changesDir, f), path.join(changesOut, f));
+        copied++;
+      }
+    }
+  }
 
   return copied;
-}
-
-/**
- * Copy PH data from a registry directory to public/ph-cache/
- */
-function copyPhData(phDir) {
-  if (!fs.existsSync(phDir)) return 0;
-  
-  ensureOutputDir(PH_OUTPUT_DIR);
-  let copied = 0;
-
-  // Essential files
-  for (const file of PH_ESSENTIAL_FILES) {
-    const src = path.join(phDir, file);
-    if (fs.existsSync(src)) {
-      fs.copyFileSync(src, path.join(PH_OUTPUT_DIR, file));
-      copied++;
-    }
-  }
-
-  // Day-wise archive files (YYYY-MM-DD.json)
-  copied += copyDirWithFilter(
-    phDir,
-    PH_OUTPUT_DIR,
-    (f) => /^\d{4}-\d{2}-\d{2}\.json$/.test(f),
-  );
-
-  return copied;
-}
-
-function copyFromLocal() {
-  const localYcDir = path.join(LOCAL_REGISTRY_DIR, 'yc');
-  const localPhDir = path.join(LOCAL_REGISTRY_DIR, 'producthunt');
-  
-  if (!fs.existsSync(localYcDir) && !fs.existsSync(localPhDir)) return false;
-
-  let totalCopied = 0;
-
-  if (fs.existsSync(localYcDir)) {
-    console.log('  Copying YC data from local registry...');
-    totalCopied += copyYcData(localYcDir);
-  }
-
-  if (fs.existsSync(localPhDir)) {
-    console.log('  Copying Product Hunt data from local registry...');
-    totalCopied += copyPhData(localPhDir);
-  }
-
-  console.log(`  ✓ Copied ${totalCopied} cache files from local registry`);
-  return true;
-}
-
-function cloneFromGitHub() {
-  try {
-    const cacheDir = path.resolve(process.cwd(), '.registry-cache');
-    if (fs.existsSync(cacheDir)) {
-      execSync(`git -C "${cacheDir}" pull origin ${REGISTRY_BRANCH} --depth=1`, { stdio: 'pipe', timeout: 30000 });
-    } else {
-      execSync(`git clone --depth=1 --branch=${REGISTRY_BRANCH} https://github.com/${REGISTRY_REPO}.git "${cacheDir}"`, { stdio: 'pipe', timeout: 60000 });
-    }
-
-    const ycDir = path.join(cacheDir, 'yc');
-    const phDir = path.join(cacheDir, 'producthunt');
-    
-    let totalCopied = 0;
-
-    if (fs.existsSync(ycDir)) {
-      console.log('  Copying YC data from registry...');
-      totalCopied += copyYcData(ycDir);
-    } else {
-      console.warn('  ⚠ No yc/ directory in registry');
-    }
-
-    if (fs.existsSync(phDir)) {
-      console.log('  Copying Product Hunt data from registry...');
-      totalCopied += copyPhData(phDir);
-    } else {
-      console.warn('  ⚠ No producthunt/ directory in registry');
-    }
-
-    console.log(`  ✓ Copied ${totalCopied} cache files from registry`);
-    try { fs.rmSync(cacheDir, { recursive: true, force: true }); } catch {}
-    return totalCopied > 0;
-  } catch (err) {
-    console.warn(`  ⚠ Failed: ${err instanceof Error ? err.message : String(err)}`);
-    return false;
-  }
 }
 
 function main() {
-  console.log('\n📦 Fetching registry cache...');
-  const ok = copyFromLocal() || cloneFromGitHub();
-  if (!ok) {
-    console.warn('  ⚠ No registry data available. Skipping cache.');
-  }
+  console.log('\n📦 Fetching YC cache from registry...');
+  const startTime = Date.now();
+
+  cloneRegistry();
+  const copied = copyYcData();
+  console.log(`  ✓ Copied ${copied} files to public/yc-cache/`);
+
+  try { fs.rmSync(CACHE_DIR, { recursive: true, force: true }); } catch {}
+
+  const elapsed = ((Date.now() - startTime) / 1000).toFixed(1);
+  console.log('   Done in ' + elapsed + 's\n');
 }
 
 main();

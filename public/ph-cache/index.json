@@ -1,6 +1,12 @@
 {
   "type": "producthunt",
-  "fetchedAt": "2026-07-24T06:14:39.262Z",
-  "source": "https://github.com/bennyblanco4/producthunt-scraper.git",
-  "productCount": 930
+  "fetchedAt": "2026-07-28T11:12:20.984Z",
+  "lastFetchedDate": "2026-07-28",
+  "firstFetchedDate": "2026-07-27",
+  "totalDaysFetched": 2,
+  "totalProducts": 100,
+  "availableDates": [
+    "2026-07-27",
+    "2026-07-28"
+  ]
 }
