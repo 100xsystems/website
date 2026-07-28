@@ -170,6 +170,30 @@ function n(val: unknown, fallback = 0): number {
   return fallback;
 }
 
+/** Extract domain from a URL for favicon lookup */
+function getDomain(url: string): string | null {
+  try {
+    return new URL(url).hostname;
+  } catch {
+    return null;
+  }
+}
+
+/** Website favicon fetched via Google's favicon service */
+function Favicon({ url, className = 'w-5 h-5' }: { url: string; className?: string }) {
+  const domain = getDomain(url);
+  if (!domain) return null;
+  return (
+    <img
+      src={`https://www.google.com/s2/favicons?domain=${domain}&sz=32`}
+      alt=""
+      className={`${className} shrink-0 rounded-sm`}
+      onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }}
+      loading="lazy"
+    />
+  );
+}
+
 // ══════════════════════════════════════════════════════════════════════
 // SOURCE CONFIG
 // ══════════════════════════════════════════════════════════════════════
@@ -211,7 +235,8 @@ function FeedCard({ item, config }: { item: LocalSearchItem; config: SourceConfi
   return (
     <a href={item.url} target="_blank" rel="noopener noreferrer"
       className={cn('block bg-white p-6 sm:p-8 transition-all duration-300', config.hoverBg, 'group')}>
-      <div className="flex items-center gap-3 mb-3">
+      <div className="flex items-center gap-2 mb-3">
+        <Favicon url={item.url} className="w-4 h-4" />
         <span className="text-xs font-bold uppercase tracking-widest text-fg-muted group-hover:text-white/60 transition-colors">
           {v(m?.feedName)}
         </span>
@@ -235,8 +260,11 @@ function YcCard({ item, config }: { item: LocalSearchItem; config: SourceConfig 
     <a href={item.url} target="_blank" rel="noopener noreferrer"
       className={cn('block bg-white p-6 sm:p-8 transition-all duration-300', config.hoverBg, 'group')}>
       <div className="flex items-center justify-between gap-3 mb-2">
-        <h3 className="text-base sm:text-lg font-bold uppercase tracking-wide text-fg group-hover:text-white transition-colors">{item.title}</h3>
-        {m?.hiring === true && <span className="flex items-center gap-1.5 text-[10px] font-bold uppercase tracking-wider text-green-600 group-hover:text-white/80"><span className="w-2 h-2 rounded-full bg-green-600 group-hover:bg-white" />Hiring</span>}
+        <div className="flex items-center gap-2 min-w-0">
+          <Favicon url={item.url} />
+          <h3 className="text-base sm:text-lg font-bold uppercase tracking-wide text-fg group-hover:text-white transition-colors truncate">{item.title}</h3>
+        </div>
+        {m?.hiring === true && <span className="shrink-0 flex items-center gap-1.5 text-[10px] font-bold uppercase tracking-wider text-green-600 group-hover:text-white/80"><span className="w-2 h-2 rounded-full bg-green-600 group-hover:bg-white" />Hiring</span>}
       </div>
       {item.description && <p className="text-sm sm:text-base text-fg-secondary leading-relaxed group-hover:text-white/80 transition-colors line-clamp-3">{item.description}</p>}
       <div className="mt-4 flex items-center gap-3 flex-wrap">
@@ -254,7 +282,10 @@ function PhCard({ item, config }: { item: LocalSearchItem; config: SourceConfig 
     <a href={item.url} target="_blank" rel="noopener noreferrer"
       className={cn('block bg-white p-6 sm:p-8 transition-all duration-300', config.hoverBg, 'group')}>
       <div className="flex items-start justify-between gap-3">
-        <h3 className="text-base sm:text-lg font-bold uppercase tracking-wide text-fg group-hover:text-white transition-colors">{item.title}</h3>
+        <div className="flex items-center gap-2 min-w-0">
+          <Favicon url={item.url} />
+          <h3 className="text-base sm:text-lg font-bold uppercase tracking-wide text-fg group-hover:text-white transition-colors truncate">{item.title}</h3>
+        </div>
         {n(m?.votesCount) > 0 && <span className="shrink-0 flex items-center gap-1.5 text-sm font-bold text-fg-muted group-hover:text-white/70 transition-colors"><Icon name="arrow-up" size={14} />{n(m?.votesCount)}</span>}
       </div>
       {item.description && <p className="mt-2 text-sm sm:text-base text-fg-secondary leading-relaxed group-hover:text-white/80 transition-colors line-clamp-3">{item.description}</p>}
@@ -267,6 +298,10 @@ function HnCard({ result, config }: { result: LiveSearchResult; config: SourceCo
   return (
     <a href={result.url} target="_blank" rel="noopener noreferrer"
       className={cn('block bg-white p-6 sm:p-8 transition-all duration-300', config.hoverBg, 'group')}>
+      <div className="flex items-center gap-2 mb-3">
+        <Favicon url={result.url} className="w-4 h-4" />
+        <span className="text-xs font-bold uppercase tracking-widest text-fg-muted group-hover:text-white/60 transition-colors">Hacker News</span>
+      </div>
       <h3 className="text-base sm:text-lg font-bold leading-snug text-fg group-hover:text-white transition-colors line-clamp-3">{result.title}</h3>
       <div className="flex items-center gap-3 mt-3 text-sm text-fg-muted/60 group-hover:text-white/50 transition-colors">
         {n(m?.points) > 0 && <span>{n(m?.points)} points</span>}
@@ -282,6 +317,10 @@ function GitHubCard({ result, config }: { result: LiveSearchResult; config: Sour
   return (
     <a href={result.url} target="_blank" rel="noopener noreferrer"
       className={cn('block bg-white p-6 sm:p-8 transition-all duration-300', config.hoverBg, 'group')}>
+      <div className="flex items-center gap-2 mb-3">
+        <Favicon url={result.url} className="w-4 h-4" />
+        <span className="text-xs font-bold uppercase tracking-widest text-fg-muted group-hover:text-white/60 transition-colors">GitHub</span>
+      </div>
       <h3 className="text-base sm:text-lg font-bold leading-snug text-fg group-hover:text-white transition-colors mb-2">{result.title}</h3>
       {result.description && <p className="text-sm sm:text-base text-fg-secondary leading-relaxed group-hover:text-white/80 transition-colors line-clamp-3 mb-3">{result.description}</p>}
       <div className="flex items-center gap-3 text-sm text-fg-muted/60 group-hover:text-white/50 transition-colors flex-wrap">
@@ -298,6 +337,10 @@ function SOCard({ result, config }: { result: LiveSearchResult; config: SourceCo
   return (
     <a href={result.url} target="_blank" rel="noopener noreferrer"
       className={cn('block bg-white p-6 sm:p-8 transition-all duration-300', config.hoverBg, 'group')}>
+      <div className="flex items-center gap-2 mb-3">
+        <Favicon url={result.url} className="w-4 h-4" />
+        <span className="text-xs font-bold uppercase tracking-widest text-fg-muted group-hover:text-white/60 transition-colors">Stack Overflow</span>
+      </div>
       <h3 className="text-base sm:text-lg font-bold leading-snug text-fg group-hover:text-white transition-colors line-clamp-3 mb-2">{result.title}</h3>
       <div className="flex items-center gap-3 text-sm text-fg-muted/60 group-hover:text-white/50 transition-colors flex-wrap">
         {n(m?.score) > 0 && <span>{n(m?.score)} votes</span>}
@@ -316,6 +359,10 @@ function NpmCard({ result, config }: { result: LiveSearchResult; config: SourceC
   return (
     <a href={result.url} target="_blank" rel="noopener noreferrer"
       className={cn('block bg-white p-6 sm:p-8 transition-all duration-300', config.hoverBg, 'group')}>
+      <div className="flex items-center gap-2 mb-3">
+        <Favicon url={result.url} className="w-4 h-4" />
+        <span className="text-xs font-bold uppercase tracking-widest text-fg-muted group-hover:text-white/60 transition-colors">npm</span>
+      </div>
       <h3 className="text-base sm:text-lg font-bold leading-snug text-fg group-hover:text-white transition-colors mb-2 font-mono">{result.title}</h3>
       {result.description && <p className="text-sm sm:text-base text-fg-secondary leading-relaxed group-hover:text-white/80 transition-colors line-clamp-3 mb-3">{result.description}</p>}
       <div className="flex items-center gap-3 text-sm text-fg-muted/60 group-hover:text-white/50 transition-colors">
@@ -331,6 +378,10 @@ function DevtoCard({ result, config }: { result: LiveSearchResult; config: Sourc
   return (
     <a href={result.url} target="_blank" rel="noopener noreferrer"
       className={cn('block bg-white p-6 sm:p-8 transition-all duration-300', config.hoverBg, 'group')}>
+      <div className="flex items-center gap-2 mb-3">
+        <Favicon url={result.url} className="w-4 h-4" />
+        <span className="text-xs font-bold uppercase tracking-widest text-fg-muted group-hover:text-white/60 transition-colors">Dev.to</span>
+      </div>
       <h3 className="text-base sm:text-lg font-bold leading-snug text-fg group-hover:text-white transition-colors line-clamp-3 mb-2">{result.title}</h3>
       <div className="flex items-center gap-3 text-sm text-fg-muted/60 group-hover:text-white/50 transition-colors flex-wrap">
         {n(m?.positiveReactions) > 0 && <span>{n(m?.positiveReactions)} ❤</span>}
@@ -348,6 +399,10 @@ function MediumCard({ result, config }: { result: LiveSearchResult; config: Sour
   return (
     <a href={result.url} target="_blank" rel="noopener noreferrer"
       className={cn('block bg-white p-6 sm:p-8 transition-all duration-300', config.hoverBg, 'group')}>
+      <div className="flex items-center gap-2 mb-3">
+        <Favicon url={result.url} className="w-4 h-4" />
+        <span className="text-xs font-bold uppercase tracking-widest text-fg-muted group-hover:text-white/60 transition-colors">Medium</span>
+      </div>
       <h3 className="text-base sm:text-lg font-bold leading-snug text-fg group-hover:text-white transition-colors line-clamp-3 mb-2">{result.title}</h3>
       <div className="flex items-center gap-3 text-sm text-fg-muted/60 group-hover:text-white/50 transition-colors">
         {v(m?.author) && <span>by {v(m?.author)}</span>}
@@ -362,6 +417,10 @@ function DdgCard({ result, config }: { result: LiveSearchResult; config: SourceC
   return (
     <a href={result.url} target="_blank" rel="noopener noreferrer"
       className={cn('block bg-white p-6 sm:p-8 transition-all duration-300', config.hoverBg, 'group')}>
+      <div className="flex items-center gap-2 mb-3">
+        <Favicon url={result.url} className="w-4 h-4" />
+        <span className="text-xs font-bold uppercase tracking-widest text-fg-muted group-hover:text-white/60 transition-colors">DuckDuckGo</span>
+      </div>
       <h3 className="text-base sm:text-lg font-bold leading-snug text-fg group-hover:text-white transition-colors line-clamp-3 mb-2">{result.title}</h3>
       {result.description && <p className="text-sm sm:text-base text-fg-secondary leading-relaxed group-hover:text-white/80 transition-colors line-clamp-3">{result.description}</p>}
       {v(m?.source) && <p className="mt-2 text-sm text-fg-muted/50 group-hover:text-white/40 transition-colors">via {v(m?.source)}</p>}
@@ -374,7 +433,8 @@ function RedditCard({ result, config }: { result: LiveSearchResult; config: Sour
   return (
     <a href={result.url} target="_blank" rel="noopener noreferrer"
       className={cn('block bg-white p-6 sm:p-8 transition-all duration-300', config.hoverBg, 'group')}>
-      <div className="flex items-center gap-3 mb-2">
+      <div className="flex items-center gap-2 mb-2">
+        <Favicon url={result.url} className="w-4 h-4" />
         {v(m?.subreddit) && <span className="text-xs font-bold uppercase tracking-wider text-fg-muted group-hover:text-white/70 transition-colors">r/{v(m?.subreddit)}</span>}
       </div>
       <h3 className="text-base sm:text-lg font-bold leading-snug text-fg group-hover:text-white transition-colors line-clamp-3">{result.title}</h3>
