@@ -3,7 +3,8 @@
   "version": "0.1.1",
   "private": true,
   "scripts": {
-    "dev": "next dev -H 0.0.0.0",
+    "dev-cache": "node scripts/dev-cache.mjs",
+    "dev": "npm run dev-cache && next dev -H 0.0.0.0",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
@@ -11,7 +12,10 @@
     "build-storybook": "storybook build -c src/presentation/__components/_storybook/config",
     "presync": "node scripts/sync-curriculum.mjs",
     "fetch-feed-cache": "node scripts/fetch-feed-cache.mjs",
-    "prebuild": "npm run presync && node scripts/copy-content-images.mjs && npm run fetch-feed-cache && node scripts/fetch-awesome-cache.mjs && node scripts/fetch-knowledge-cache.mjs && node scripts/fetch-yc-cache.mjs && node scripts/fetch-ph-cache.mjs"
+    "fetch-yc-cache": "node scripts/fetch-yc-cache.mjs",
+    "fetch-ph-cache": "node scripts/fetch-ph-cache.mjs",
+    "build-cache": "npm run fetch-feed-cache && node scripts/fetch-awesome-cache.mjs && node scripts/fetch-knowledge-cache.mjs && npm run fetch-yc-cache && npm run fetch-ph-cache",
+    "prebuild": "npm run presync && node scripts/copy-content-images.mjs && npm run build-cache"
   },
   "dependencies": {
     "@animateicons/react": "^0.3.4",

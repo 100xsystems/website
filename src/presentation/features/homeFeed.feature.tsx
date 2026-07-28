@@ -1,25 +1,10 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { FEED_REGISTRY } from '@/feed/feed.constants';
-import { fetchFeedAll } from '@/feed/feed.api';
-import { sortByNewest } from '@/feed/feed.utils';
 import { timeAgo } from '@/feed/feed.utils';
 import { Icon, Button } from '@/presentation/__components';
 import type { Article } from '@/feed/feed.types';
-
-// ─── Featured sources shown on the homepage ──────────────────────────
-
-const HOME_FEATURED_SOURCES = [
-  'netflix-tech-blog',
-  'cloudflare-blog',
-  'aws-architecture',
-  'spotify-engineering',
-  'stripe-engineering',
-  'discord-engineering',
-];
-
-const ARTICLES_PER_SOURCE = 3;
 
 // ─── Source-specific SVG Icons with brand colors ─────────────────────
 
@@ -92,49 +77,18 @@ function BrandSvg({ feedId, size = 28, className = '' }: { feedId: string; size?
 
 // ─── Component ───────────────────────────────────────────────────────
 
-export function HomeFeed() {
-  const [articlesBySource, setArticlesBySource] = useState<Record<string, Article[]>>({});
-  const [isLoading, setIsLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
+interface HomeFeedProps {
+  /** Articles pre-loaded at SSG build time, keyed by feed ID */
+  initialArticles: Record<string, Article[]> | null;
+}
 
-  useEffect(() => {
-    let mounted = true;
-
-    async function load() {
-      setIsLoading(true);
-      setError(null);
-
-      try {
-        const response = await fetchFeedAll(HOME_FEATURED_SOURCES);
-        if (!mounted) return;
-
-        const grouped: Record<string, Article[]> = {};
-        for (const article of response.articles) {
-          if (!grouped[article.feedId]) grouped[article.feedId] = [];
-          grouped[article.feedId].push(article);
-        }
-
-        for (const feedId of Object.keys(grouped)) {
-          grouped[feedId] = sortByNewest(grouped[feedId]).slice(0, ARTICLES_PER_SOURCE);
-        }
-
-        setArticlesBySource(grouped);
-      } catch (err) {
-        if (mounted) {
-          setError(err instanceof Error ? err.message : 'Failed to load');
-        }
-      } finally {
-        if (mounted) setIsLoading(false);
-      }
-    }
-
-    load();
-    return () => { mounted = false; };
-  }, []);
-
-  const availableSources = HOME_FEATURED_SOURCES.filter(
+export function HomeFeed({ initialArticles }: HomeFeedProps) {
+  const articlesBySource = initialArticles ?? {};
+  // Featured sources that have articles
+  const availableSources = Object.keys(articlesBySource).filter(
     (id) => (articlesBySource[id]?.length ?? 0) > 0
   );
+  const hasError = initialArticles === null;
 
   return (
     <section className="py-20 sm:py-28 bg-white">
@@ -155,31 +109,16 @@ export function HomeFeed() {
           </p>
         </div>
 
-        {/* Loading state */}
-        {isLoading && (
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {Array.from({ length: 6 }).map((_, i) => (
-              <div key={i} className="bg-white p-5">
-                <div className="h-7 w-7 bg-surface-secondary animate-pulse mb-4" />
-                <div className="h-4 w-2/3 bg-surface-secondary animate-pulse mb-4" />
-                {Array.from({ length: 3 }).map((_, j) => (
-                  <div key={j} className="h-3 w-full bg-surface-secondary animate-pulse mb-2" />
-                ))}
-              </div>
-            ))}
-          </div>
-        )}
-
-        {/* Error state */}
-        {error && !isLoading && (
+        {/* Error state — cache not found at build time */}
+        {hasError && (
           <div className="p-6 text-center bg-surface-secondary">
-            <p className="text-sm text-fg-secondary mb-3">Unable to load latest articles right now.</p>
-            <p className="text-xs text-fg-muted/60">{error}</p>
+            <p className="text-sm text-fg-secondary mb-3">Feed data being fetched...</p>
+            <p className="text-xs text-fg-muted/60">Run the daily registry workflow or wait for next build.</p>
           </div>
         )}
 
-        {/* Grid of sources — each card has a group-level hover that turns it purple */}
-        {!isLoading && !error && availableSources.length > 0 && (
+        {/* Grid of sources — SSG data loaded at build time */}
+        {!hasError && availableSources.length > 0 && (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {availableSources.map((feedId) => {
               const source = FEED_REGISTRY.find((f) => f.id === feedId);
@@ -262,8 +201,8 @@ export function HomeFeed() {
           </div>
         )}
 
-        {/* Empty state */}
-        {!isLoading && !error && availableSources.length === 0 && (
+        {/* Empty state — cache exists but no articles for featured sources */}
+        {!hasError && availableSources.length === 0 && (
           <div className="bg-surface-secondary p-10 text-center">
             <p className="text-sm text-fg-secondary">No articles available right now.</p>
             <p className="text-xs text-fg-muted/60 mt-1">Check back later or visit the full feed.</p>
