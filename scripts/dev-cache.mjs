@@ -28,14 +28,20 @@ function ensureDir(dir) {
 }
 
 function cleanClone() {
-  // Remove old cache if exists to get fresh every time
-  try { fs.rmSync(CACHE_DIR, { recursive: true, force: true }); } catch {}
   const url = `https://github.com/${REGISTRY_REPO}.git`;
-  console.log(`  Cloning ${REGISTRY_REPO} (shallow)...`);
-  execSync(`git clone --depth=1 --branch=${REGISTRY_BRANCH} "${url}" "${CACHE_DIR}"`, {
-    stdio: 'pipe',
-    timeout: 60000,
-  });
+  if (fs.existsSync(CACHE_DIR)) {
+    console.log(`  Pulling ${REGISTRY_REPO} (shallow)...`);
+    execSync(`git -C "${CACHE_DIR}" pull origin ${REGISTRY_BRANCH} --depth=1`, {
+      stdio: 'pipe',
+      timeout: 30000,
+    });
+  } else {
+    console.log(`  Cloning ${REGISTRY_REPO} (shallow)...`);
+    execSync(`git clone --depth=1 --branch=${REGISTRY_BRANCH} "${url}" "${CACHE_DIR}"`, {
+      stdio: 'pipe',
+      timeout: 60000,
+    });
+  }
 }
 
 // ── Feed Cache ────────────────────────────────────────────────────────

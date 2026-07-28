@@ -11,9 +11,6 @@
     "storybook": "storybook dev -p 6006 -c src/presentation/__components/_storybook/config",
     "build-storybook": "storybook build -c src/presentation/__components/_storybook/config",
     "presync": "node scripts/sync-curriculum.mjs",
-    "fetch-feed-cache": "node scripts/fetch-feed-cache.mjs",
-    "fetch-yc-cache": "node scripts/fetch-yc-cache.mjs",
-    "fetch-ph-cache": "node scripts/fetch-ph-cache.mjs",
     "build-cache": "node scripts/dev-cache.mjs && node scripts/fetch-awesome-cache.mjs && node scripts/fetch-knowledge-cache.mjs",
     "prebuild": "npm run presync && node scripts/copy-content-images.mjs && npm run build-cache"
   },
