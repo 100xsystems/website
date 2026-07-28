@@ -12,7 +12,7 @@
  * INCREMENTAL DELTA OPTIMIZATION:
  *   Instead of re-downloading all feed JSON files every ISR cycle (which could be
  *   MBs of data), the system fetches ONLY the daily/delta.json file from the registry.
- *   This file contains only items added in the last 6 hours (typically 0-10 items).
+ *   This file contains only items added in the last 24 hours (typically 0-10 items).
  *   New items are merged into the existing /tmp/ cache, avoiding the full re-fetch.
  *
  *   On cold start (no /tmp/ or public/ cache), falls back to the full fetch.
@@ -191,7 +191,7 @@ function mergeDeltaIntoCache(existingCache: FeedCache, delta: DeltaCache): FeedC
  * Fetch ALL individual feed JSON files from GitHub raw and build a complete cache.
  * Used as a fallback when:
  *   - No local cache exists (cold start)
- *   - Cache is very stale (>72h) — delta would miss multiple days
+ *   - Cache is very stale (>18h) — delta would miss multiple runs
  *   - Delta fetch failed
  */
 async function fetchFromRegistryRaw(): Promise<FeedCache | null> {
@@ -257,9 +257,8 @@ async function fetchFromRegistryRaw(): Promise<FeedCache | null> {
  * Priority:
  *  1. /tmp/feed-cache.json (ISR revalidation) — return immediately
  *  2. public/feed-cache.json (build-time artifact):
- *     a. Not stale → return immediately
- *     b. Stale but < 72h → try delta merge into /tmp/ and return
- *     c. Very stale (>72h) → full re-fetch from GitHub raw
+ *     a. Not stale → return immediately *   b. Stale but < 18h → try delta merge into /tmp/ and return
+ *     c. Very stale (>18h) → full re-fetch from GitHub raw
  *  3. Nothing local → try delta first, then full fetch
  *
  * The delta optimization means that instead of re-downloading all individual feed JSON
@@ -267,19 +266,19 @@ async function fetchFromRegistryRaw(): Promise<FeedCache | null> {
  * (< 1KB) and merge it into the existing cache in /tmp/.
  *
  * IMPORTANT: /tmp/ is also checked for staleness. If the /tmp/ cache is
- * older than 6h, we fetch a fresh delta and merge, updating /tmp/. This
- * ensures frequent updates are picked up even when /tmp/ persists between ISR cycles.
+ * older than 24h, we fetch a fresh delta and merge, updating /tmp/. This
+ * ensures daily updates are picked up even when /tmp/ persists between ISR cycles.
  */
 export async function loadFeedCache(): Promise<FeedCache | null> {
   // 1. Try /tmp/ first (ISR revalidation from a previous cycle)
-  //    But check staleness — if /tmp/ is old, try delta merge
+  //    But check staleness — if /tmp/ is >24h old, try delta merge to refresh
   const tmpCache = readCacheFromDisk(TMP_CACHE_PATH);
   if (tmpCache) {
     if (!isCacheStale(TMP_CACHE_PATH)) {
       // Fresh enough — return as-is
       return tmpCache;
     }
-    // /tmp/ is stale — try delta merge to refresh it
+    // /tmp/ is stale — try delta merge to refresh
     console.log('[feed.cache] /tmp/ cache is stale. Fetching delta...');
     const delta = await fetchDeltaFromRegistry();
     if (delta) {
@@ -303,7 +302,9 @@ export async function loadFeedCache(): Promise<FeedCache | null> {
     // 2a. Not stale — return build cache as-is
     if (!isCacheStale(BUILD_CACHE_PATH)) {
       return buildCache;
-    }        // 2b. Stale, but not VERY stale (< 18h) — try delta merge
+    }
+
+    // 2b. Stale, but not VERY stale (< 18h) — try delta merge
     if (!isCacheVeryStale(BUILD_CACHE_PATH)) {
       console.log('[feed.cache] Build cache is stale. Trying delta merge...');
       const delta = await fetchDeltaFromRegistry();
@@ -330,7 +331,7 @@ export async function loadFeedCache(): Promise<FeedCache | null> {
       const freshCache = await fetchFromRegistryRaw();
       return freshCache ?? buildCache;
     }        // 2c. Very stale (> 18h) — do full fetch (delta would miss multiple runs)
-    console.log('[feed.cache] Build cache is very stale (>72h). Doing full re-sync...');
+    console.log('[feed.cache] Build cache is very stale (>18h). Doing full re-sync...');
     const freshCache = await fetchFromRegistryRaw();
     return freshCache ?? buildCache;
   }
