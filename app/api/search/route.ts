@@ -303,6 +303,31 @@ async function searchReddit(query: string, limit = 10): Promise<SearchResult[]> 
   return results;
 }
 
+// ─── Wikipedia (REST API) ─────────────────────────────────────────
+
+async function searchWikipedia(query: string, limit = 10): Promise<SearchResult[]> {
+  const url = `https://en.wikipedia.org/api/rest_v1/search/title?q=${encodeURIComponent(query)}&limit=${limit}`;
+  const res = await fetch(url, {
+    headers: {
+      'User-Agent': '100xSystems-Search/1.0 (https://100xsystems.dev)',
+      'Accept': 'application/json',
+    },
+  });
+  if (!res.ok) throw new Error(`Wikipedia API: ${res.status}`);
+  const data = await res.json() as { pages?: Array<Record<string, unknown>> };
+  return (data.pages || []).map((page: Record<string, unknown>) => ({
+    source: 'wikipedia',
+    title: (page.title as string) || '',
+    url: `https://en.wikipedia.org/wiki/${encodeURIComponent((page.title as string).replace(/ /g, '_'))}`,
+    description: (page.description as string) || (page.extract as string) || null,
+    metadata: {
+      pageId: page.page_id ?? page.id,
+      key: page.key,
+      thumbnail: page.thumbnail,
+    },
+  }));
+}
+
 // ─── Medium (RSS feed per tag) ────────────────────────────────────
 
 /**
@@ -414,6 +439,7 @@ const SOURCES: Record<string, SourceHandler> = {
   ddg: { name: 'ddg', label: 'DuckDuckGo', handler: searchDuckDuckGo },
   reddit: { name: 'reddit', label: 'Reddit', handler: searchReddit },
   medium: { name: 'medium', label: 'Medium', handler: searchMedium },
+  wikipedia: { name: 'wikipedia', label: 'Wikipedia', handler: searchWikipedia },
 };
 
 // ─── Route Handler ──────────────────────────────────────────────────
@@ -421,7 +447,7 @@ const SOURCES: Record<string, SourceHandler> = {
 export async function GET(request: NextRequest) {
   const { searchParams } = new URL(request.url);
   const query = searchParams.get('q')?.trim();
-  const sourcesParam = searchParams.get('sources') || 'hn,github,stackoverflow,npm,devto,ddg,reddit,medium';
+  const sourcesParam = searchParams.get('sources') || 'hn,github,stackoverflow,npm,devto,ddg,reddit,medium,wikipedia';
   const limit = Math.min(Number(searchParams.get('limit')) || 10, 25);
 
   if (!query || query.length < 2) {

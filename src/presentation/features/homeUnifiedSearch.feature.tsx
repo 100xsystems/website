@@ -84,6 +84,14 @@ function BrandSvgDDG({ className }: { className?: string }) {
   );
 }
 
+function BrandSvgWikipedia({ className }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" className={className}>
+      <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1.5 15.5c-.26 0-.52-.13-.67-.38l-2.5-4.33-2.5 4.33c-.15.25-.41.38-.67.38-.58 0-.96-.62-.67-1.12l3-5.2-3-5.2c-.29-.5.09-1.12.67-1.12.26 0 .52.13.67.38l2.5 4.33 2.5-4.33c.15-.25.41-.38.67-.38.58 0 .96.62.67 1.12L8.5 13l3 5.2c.29.5-.09 1.12-.67 1.12zM18 13h-2.5v4.5c0 .28-.22.5-.5.5h-1c-.28 0-.5-.22-.5-.5V13H11c-.28 0-.5-.22-.5-.5v-1c0-.28.22-.5.5-.5h3.5V6.5c0-.28.22-.5.5-.5h1c.28 0 .5.22.5.5V11H18c.28 0 .5.22.5.5v1c0 .28-.22.5-.5.5z" />
+    </svg>
+  );
+}
+
 function BrandSvgYC({ className }: { className?: string }) {
   return (
     <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" className={className}>
@@ -221,6 +229,7 @@ const SOURCES: SourceConfig[] = [
   { id: 'medium', label: 'Medium', type: 'live', color: 'text-black', bgColor: 'bg-black', hoverBg: 'hover:bg-black', brandEl: <BrandSvgMedium /> },
   { id: 'ddg', label: 'DuckDuckGo', type: 'live', color: 'text-orange-600', bgColor: 'bg-orange-600', hoverBg: 'hover:bg-orange-600', brandEl: <BrandSvgDDG /> },
   { id: 'reddit', label: 'Reddit', type: 'live', color: 'text-orange-500', bgColor: 'bg-orange-500', hoverBg: 'hover:bg-orange-500', brandEl: <BrandSvgReddit /> },
+  { id: 'wikipedia', label: 'Wikipedia', type: 'live', color: 'text-gray-700', bgColor: 'bg-gray-700', hoverBg: 'hover:bg-gray-700', brandEl: <BrandSvgWikipedia /> },
 ];
 
 const SOURCE_MAP = new Map(SOURCES.map((s) => [s.id, s]));
@@ -429,6 +438,22 @@ function DdgCard({ result, config }: { result: LiveSearchResult; config: SourceC
   );
 }
 
+function WikipediaCard({ result, config }: { result: LiveSearchResult; config: SourceConfig }) {
+  const m = result.metadata;
+  return (
+    <a href={result.url} target="_blank" rel="noopener noreferrer"
+      className={cn('block bg-white p-6 sm:p-8 transition-all duration-300', config.hoverBg, 'group')}>
+      <div className="flex items-center gap-2 mb-3">
+        <Favicon url={result.url} className="w-4 h-4" />
+        <span className="text-xs font-bold uppercase tracking-widest text-fg-muted group-hover:text-white/60 transition-colors">Wikipedia</span>
+      </div>
+      <h3 className="text-base sm:text-lg font-bold leading-snug text-fg group-hover:text-white transition-colors line-clamp-3">{result.title}</h3>
+      {result.description && <p className="mt-2 text-sm sm:text-base text-fg-secondary leading-relaxed group-hover:text-white/80 transition-colors line-clamp-3">{result.description}</p>}
+      {v(m?.key) && <p className="mt-2 text-[10px] text-fg-muted/40 group-hover:text-white/30 transition-colors">Page ID: {v(m?.pageId)}</p>}
+    </a>
+  );
+}
+
 function RedditCard({ result, config }: { result: LiveSearchResult; config: SourceConfig }) {
   const m = result.metadata;
   return (
@@ -490,6 +515,7 @@ function SourceCard({ item, config, result }: { item?: LocalSearchItem; config: 
     case 'medium': return <MediumCard result={result!} config={config} />;
     case 'ddg': return <DdgCard result={result!} config={config} />;
     case 'reddit': return <RedditCard result={result!} config={config} />;
+    case 'wikipedia': return <WikipediaCard result={result!} config={config} />;
     default: return null;
   }
 }
