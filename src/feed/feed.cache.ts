@@ -7,12 +7,12 @@
  *   1. /tmp/feed-cache.json — ISR revalidation output (fastest, per-cycle)
  *   2. public/feed-cache.json — Build-time artifact (deployed with static assets)
  *   3. Delta merge — Fetch daily/delta.json (tiny, < 1KB) and merge into existing cache
- *   4. GitHub raw — Fallback: fetch all 51 feed JSON files (full re-sync)
+ *   4. GitHub raw — Fallback: fetch all feed JSON files (full re-sync)
  *
  * INCREMENTAL DELTA OPTIMIZATION:
- *   Instead of re-downloading all 51 feed JSON files every ISR cycle (which could be
+ *   Instead of re-downloading all feed JSON files every ISR cycle (which could be
  *   MBs of data), the system fetches ONLY the daily/delta.json file from the registry.
- *   This file contains only items added in the last 24 hours (typically 0-10 items).
+ *   This file contains only items added in the last 6 hours (typically 0-10 items).
  *   New items are merged into the existing /tmp/ cache, avoiding the full re-fetch.
  *
  *   On cold start (no /tmp/ or public/ cache), falls back to the full fetch.
@@ -29,8 +29,8 @@ import { FEED_REGISTRY } from './feed.constants';
 
 // ── Configuration ─────────────────────────────────────────────────────
 
-const CACHE_LIFETIME_MS = 24 * 60 * 60 * 1000; // 24 hours
-const FULL_FETCH_THRESHOLD_MS = 72 * 60 * 60 * 1000; // 72 hours — if cache is older, do full fetch
+const CACHE_LIFETIME_MS = 6 * 60 * 60 * 1000; // 6 hours (registry runs 4x daily now)
+const FULL_FETCH_THRESHOLD_MS = 18 * 60 * 60 * 1000; // 18 hours — if cache is older, do full fetch
 const BUILD_CACHE_PATH = path.join(process.cwd(), 'public', 'feed-cache.json');
 const TMP_CACHE_PATH = '/tmp/feed-cache.json';
 
@@ -262,13 +262,13 @@ async function fetchFromRegistryRaw(): Promise<FeedCache | null> {
  *     c. Very stale (>72h) → full re-fetch from GitHub raw
  *  3. Nothing local → try delta first, then full fetch
  *
- * The delta optimization means that instead of fetching all 51 feed JSON files
- * on every ISR cycle (potentially MBs), we fetch a single tiny delta.json file
+ * The delta optimization means that instead of re-downloading all individual feed JSON
+ * files on every ISR cycle (potentially MBs), we fetch a single tiny delta.json file
  * (< 1KB) and merge it into the existing cache in /tmp/.
  *
  * IMPORTANT: /tmp/ is also checked for staleness. If the /tmp/ cache is
- * older than 24h, we fetch a fresh delta and merge, updating /tmp/. This
- * ensures daily updates are picked up even when /tmp/ persists between ISR cycles.
+ * older than 6h, we fetch a fresh delta and merge, updating /tmp/. This
+ * ensures frequent updates are picked up even when /tmp/ persists between ISR cycles.
  */
 export async function loadFeedCache(): Promise<FeedCache | null> {
   // 1. Try /tmp/ first (ISR revalidation from a previous cycle)
@@ -303,9 +303,7 @@ export async function loadFeedCache(): Promise<FeedCache | null> {
     // 2a. Not stale — return build cache as-is
     if (!isCacheStale(BUILD_CACHE_PATH)) {
       return buildCache;
-    }
-
-    // 2b. Stale, but not VERY stale (< 72h) — try delta merge
+    }        // 2b. Stale, but not VERY stale (< 18h) — try delta merge
     if (!isCacheVeryStale(BUILD_CACHE_PATH)) {
       console.log('[feed.cache] Build cache is stale. Trying delta merge...');
       const delta = await fetchDeltaFromRegistry();
@@ -331,9 +329,7 @@ export async function loadFeedCache(): Promise<FeedCache | null> {
       console.log('[feed.cache] Delta unavailable. Falling back to full fetch...');
       const freshCache = await fetchFromRegistryRaw();
       return freshCache ?? buildCache;
-    }
-
-    // 2c. Very stale (> 72h) — do full fetch (delta would miss multiple days)
+    }        // 2c. Very stale (> 18h) — do full fetch (delta would miss multiple runs)
     console.log('[feed.cache] Build cache is very stale (>72h). Doing full re-sync...');
     const freshCache = await fetchFromRegistryRaw();
     return freshCache ?? buildCache;
