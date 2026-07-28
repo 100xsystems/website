@@ -25,7 +25,7 @@
 import * as fs from 'node:fs';
 import * as path from 'node:path';
 import type { FeedCache, RegistryFeedData, RegistryFeedItem, DeltaCache } from './feed.types';
-import { FEED_REGISTRY } from './feed.constants';
+import type { FeedSource } from './feed.types';
 
 // ── Configuration ─────────────────────────────────────────────────────
 
@@ -40,6 +40,7 @@ const REGISTRY_BRANCH = 'main';
 const RAW_BASE = `https://raw.githubusercontent.com/${REGISTRY_OWNER}/${REGISTRY_REPO}/${REGISTRY_BRANCH}`;
 const FEEDS_RAW_BASE = `${RAW_BASE}/feeds`;
 const DELTA_RAW_URL = `${RAW_BASE}/daily/delta.json`;
+const FEED_REGISTRY_URL = `${RAW_BASE}/scripts/github-workflow/feed-registry.json`;
 
 // ── Helpers ───────────────────────────────────────────────────────────
 
@@ -122,14 +123,43 @@ async function fetchDeltaFromRegistry(): Promise<DeltaCache | null> {
 }
 
 /**
+ * Fetch a single feed JSON file from the registry to get its metadata.
+ * Used when a feed appears in the delta but doesn't exist in the local cache.
+ */
+async function fetchFeedFromRegistry(feedId: string): Promise<RegistryFeedData | null> {
+  try {
+    const url = `${FEEDS_RAW_BASE}/${feedId}.json`;
+    const res = await fetch(url);
+    if (!res.ok) return null;
+    return (await res.json()) as RegistryFeedData;
+  } catch {
+    return null;
+  }
+}
+
+/**
+ * Fetch the feed-registry.json from the registry to get the live list of feeds.
+ * This replaces the hardcoded FEED_REGISTRY import from feed.constants.
+ */
+async function fetchFeedRegistryFromRemote(): Promise<FeedSource[] | null> {
+  try {
+    const res = await fetch(FEED_REGISTRY_URL);
+    if (!res.ok) return null;
+    return (await res.json()) as FeedSource[];
+  } catch {
+    return null;
+  }
+}
+
+/**
  * Merge new items from a delta into an existing cache.
  * For each feed in the delta:
  *   1. Find the existing feed data in the cache
  *   2. If it exists, prepend new items (filtering by GUID to avoid duplicates)
- *   3. If it doesn't exist yet, create a new entry
+ *   3. If it doesn't exist yet, fetch the feed metadata from the registry to create a new entry
  *   4. Cap at 10,000 items per feed
  */
-function mergeDeltaIntoCache(existingCache: FeedCache, delta: DeltaCache): FeedCache {
+async function mergeDeltaIntoCache(existingCache: FeedCache, delta: DeltaCache): Promise<FeedCache> {
   const merged = structuredClone(existingCache);
   let totalAdded = 0;
 
@@ -157,16 +187,19 @@ function mergeDeltaIntoCache(existingCache: FeedCache, delta: DeltaCache): FeedC
 
       totalAdded += trulyNew.length;
     } else {
-      // Feed doesn't exist in cache yet — create a new entry
-      const feedDef = FEED_REGISTRY.find((f) => f.id === feedId);
-      if (!feedDef) continue;
+      // Feed doesn't exist in cache yet — fetch its metadata from the registry
+      const feedData = await fetchFeedFromRegistry(feedId);
+      if (!feedData) {
+        console.warn(`[feed.cache] Could not fetch metadata for new feed: ${feedId}. Skipping.`);
+        continue;
+      }
 
       merged.feeds[feedId] = {
-        feedId,
-        feedName: feedDef.name,
-        feedSiteUrl: feedDef.siteUrl,
-        feedRssUrl: feedDef.rssUrl,
-        tags: feedDef.tags,
+        feedId: feedData.feedId,
+        feedName: feedData.feedName,
+        feedSiteUrl: feedData.feedSiteUrl,
+        feedRssUrl: feedData.feedRssUrl,
+        tags: feedData.tags,
         updatedAt: delta.generatedAt,
         items: newItems.slice(0, 10_000),
         totalIndexed: newItems.length,
@@ -193,17 +226,29 @@ function mergeDeltaIntoCache(existingCache: FeedCache, delta: DeltaCache): FeedC
  *   - No local cache exists (cold start)
  *   - Cache is very stale (>18h) — delta would miss multiple runs
  *   - Delta fetch failed
+ *
+ * Discovers feeds dynamically from the registry's feed-registry.json instead
+ * of using the hardcoded FEED_REGISTRY from feed.constants.
  */
 async function fetchFromRegistryRaw(): Promise<FeedCache | null> {
   console.log('[feed.cache] Fetching ALL feeds from registry (full re-sync)...');
+
+  // 1. First fetch the feed registry to discover which feeds exist
+  const registry = await fetchFeedRegistryFromRemote();
+  if (!registry || registry.length === 0) {
+    console.error('[feed.cache] Could not fetch feed-registry.json from registry');
+    return null;
+  }
+
+  console.log(`[feed.cache] Discovered ${registry.length} feeds from registry`);
 
   const feeds: Record<string, RegistryFeedData> = {};
   let totalItems = 0;
   let feedCount = 0;
 
-  const feedIds = FEED_REGISTRY.map((f) => f.id);
+  const feedIds = registry.map((f) => f.id);
 
-  // Fetch all feed files in parallel
+  // 2. Fetch all feed files in parallel
   const results = await Promise.allSettled(
     feedIds.map(async (feedId) => {
       const url = `${FEEDS_RAW_BASE}/${feedId}.json`;
@@ -283,7 +328,7 @@ export async function loadFeedCache(): Promise<FeedCache | null> {
     const delta = await fetchDeltaFromRegistry();
     if (delta) {
       if (delta.totalNewItems > 0) {
-        const merged = mergeDeltaIntoCache(tmpCache, delta);
+        const merged = await mergeDeltaIntoCache(tmpCache, delta);
         writeCacheToDisk(merged, TMP_CACHE_PATH);
         return merged;
       }
@@ -311,7 +356,7 @@ export async function loadFeedCache(): Promise<FeedCache | null> {
 
       if (delta && delta.totalNewItems > 0) {
         // Merge delta into the build cache and write to /tmp/
-        const merged = mergeDeltaIntoCache(buildCache, delta);
+        const merged = await mergeDeltaIntoCache(buildCache, delta);
         writeCacheToDisk(merged, TMP_CACHE_PATH);
         return merged;
       }
