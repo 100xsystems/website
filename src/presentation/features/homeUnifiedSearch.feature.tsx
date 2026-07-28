@@ -144,7 +144,7 @@ interface LiveSearchResponse {
 }
 
 interface LocalSearchItem {
-  type: 'feed' | 'yc' | 'ph';
+  type: 'knowledge' | 'feed' | 'yc' | 'ph';
   title: string;
   url: string;
   description: string | null;
@@ -209,6 +209,7 @@ interface SourceConfig {
 }
 
 const SOURCES: SourceConfig[] = [
+  { id: 'knowledge', label: 'Knowledge Curriculum', type: 'local', color: 'text-blue-600', bgColor: 'bg-blue-600', hoverBg: 'hover:bg-blue-600', brandEl: <BrandSvgKnowledge /> },
   { id: 'feed', label: 'Engineering Blogs', type: 'local', color: 'text-accent', bgColor: 'bg-accent', hoverBg: 'hover:bg-accent', brandEl: null },
   { id: 'yc', label: 'YC Companies', type: 'local', color: 'text-orange-500', bgColor: 'bg-orange-500', hoverBg: 'hover:bg-orange-500', brandEl: <BrandSvgYC /> },
   { id: 'ph', label: 'Product Hunt', type: 'local', color: 'text-red-500', bgColor: 'bg-red-500', hoverBg: 'hover:bg-red-500', brandEl: <BrandSvgPH /> },
@@ -447,10 +448,37 @@ function RedditCard({ result, config }: { result: LiveSearchResult; config: Sour
   );
 }
 
+// ─── Knowledge Card ─────────────────────────────────────────────────
+
+function KnowledgeCard({ item, config }: { item: LocalSearchItem; config: SourceConfig }) {
+  const m = item.metadata;
+  return (
+    <a href={item.url} target="_blank" rel="noopener noreferrer"
+      className={cn('block bg-white p-6 sm:p-8 transition-all duration-300', config.hoverBg, 'group')}>
+      <div className="flex items-center gap-2 mb-3">
+        <span className="w-4 h-4 flex items-center justify-center shrink-0 rounded-sm bg-blue-100 text-blue-700 text-[8px] font-bold uppercase">
+          {v(m?.category)?.slice(0, 3)}
+        </span>
+        <span className="text-xs font-bold uppercase tracking-widest text-fg-muted group-hover:text-white/60 transition-colors">
+          {v(m?.category)}
+        </span>
+        <span className="text-[9px] text-fg-muted/40 group-hover:text-white/30 transition-colors uppercase tracking-wider">
+          concept
+        </span>
+      </div>
+      <h3 className="text-base sm:text-lg font-bold leading-snug text-fg group-hover:text-white transition-colors">{item.title}</h3>
+      {item.description && (
+        <p className="mt-2 text-sm sm:text-base text-fg-secondary leading-relaxed group-hover:text-white/80 transition-colors line-clamp-3">{item.description}</p>
+      )}
+    </a>
+  );
+}
+
 // ─── Card Router ────────────────────────────────────────────────────
 
 function SourceCard({ item, config, result }: { item?: LocalSearchItem; config: SourceConfig; result?: LiveSearchResult }) {
   switch (config.id) {
+    case 'knowledge': return <KnowledgeCard item={item!} config={config} />;
     case 'feed': return <FeedCard item={item!} config={config} />;
     case 'yc': return <YcCard item={item!} config={config} />;
     case 'ph': return <PhCard item={item!} config={config} />;
@@ -480,6 +508,13 @@ function createFuseIndex(items: LocalSearchItem[]) {
     includeScore: true,
     minMatchCharLength: 2,
   });
+}
+function BrandSvgKnowledge({ className }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" className={className}>
+      <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+    </svg>
+  );
 }
 
 // ══════════════════════════════════════════════════════════════════════
@@ -519,14 +554,46 @@ export function HomeUnifiedSearch() {
   const inputRef = useRef<HTMLInputElement>(null);
   const abortRef = useRef<AbortController | null>(null);
   const fuseRef = useRef<ReturnType<typeof createFuseIndex> | null>(null);
+  // Pageless browse: keep all items for empty-query browse mode
+  const allLocalRef = useRef<Record<string, LocalSearchItem[]>>({ knowledge: [], feed: [], yc: [], ph: [] });
 
   // ── Load local data on mount ──────────────────────────────────────
   useEffect(() => {
     let mounted = true;
     async function load() {
+      const knowledgeItems: LocalSearchItem[] = [];
       const feedItems: LocalSearchItem[] = [];
       const ycItems: LocalSearchItem[] = [];
       const phItems: LocalSearchItem[] = [];
+
+      // Knowledge graph — FIRST in order
+      let knowledgeDescriptions: Record<string, string> = {};
+      try {
+        const seedsRes = await fetch('/knowledge-cache/seeds.json');
+        if (seedsRes.ok) {
+          const seeds = await seedsRes.json() as Array<{ id: string; description: string }>;
+          for (const s of seeds) {
+            knowledgeDescriptions[s.id] = s.description;
+          }
+        }
+      } catch {}
+
+      try {
+        const manifestRes = await fetch('/knowledge-cache/manifest.json');
+        if (manifestRes.ok) {
+          const manifest = await manifestRes.json() as { labelMap: Record<string, string>; categoryMap: Record<string, string> };
+          for (const [slug, label] of Object.entries(manifest.labelMap)) {
+            const category = manifest.categoryMap[slug] || 'other';
+            knowledgeItems.push({
+              type: 'knowledge',
+              title: label,
+              url: `/knowledge/${slug}`,
+              description: knowledgeDescriptions[slug] || null,
+              metadata: { category, slug },
+            });
+          }
+        }
+      } catch {}
 
       try {
         const feedRes = await fetch('/feed-cache.json');
@@ -570,7 +637,14 @@ export function HomeUnifiedSearch() {
       } catch {}
 
       if (!mounted) return;
-      fuseRef.current = createFuseIndex([...feedItems, ...ycItems, ...phItems]);
+      const allItems = {
+        knowledge: knowledgeItems,
+        feed: feedItems,
+        yc: ycItems,
+        ph: phItems,
+      };
+      allLocalRef.current = allItems;
+      fuseRef.current = createFuseIndex([...knowledgeItems, ...feedItems, ...ycItems, ...phItems]);
     }
     load();
     return () => { mounted = false; };
@@ -589,7 +663,7 @@ export function HomeUnifiedSearch() {
     setLoading(true); setHasSearched(true); setLiveErrors([]);
 
     // Local Fuse search
-    const hits: Record<string, LocalSearchItem[]> = { feed: [], yc: [], ph: [] };
+    const hits: Record<string, LocalSearchItem[]> = { knowledge: [], feed: [], yc: [], ph: [] };
     if (fuseRef.current) {
       for (const { item } of fuseRef.current.search(q.toLowerCase())) {
         hits[item.type].push(item);
@@ -627,7 +701,13 @@ export function HomeUnifiedSearch() {
   useEffect(() => () => abortRef.current?.abort(), []);
 
   // ── Count helpers ─────────────────────────────────────────────────
-  const totalLocal = Object.values(localResults).reduce((s, a) => s + a.length, 0);
+  const totalLocal = query.trim().length < 2
+    // Browse mode: count all items from allLocalRef (filtered by selectedSource if any)
+    ? Object.entries(allLocalRef.current)
+      .filter(([key]) => !selectedSource || selectedSource === key)
+      .reduce((s, [, a]) => s + a.length, 0)
+    // Search mode: count Fuse results
+    : Object.values(localResults).reduce((s, a) => s + a.length, 0);
   const totalLive = Object.values(liveResults).reduce((s, a) => s + a.length, 0);
 
   return (
@@ -638,13 +718,13 @@ export function HomeUnifiedSearch() {
           <div className="text-center mb-8">
             <div className="inline-flex items-center gap-2 px-3 py-1.5 text-[10px] font-bold uppercase tracking-widest bg-accent text-white mb-5">
               <span className="w-1.5 h-1.5 rounded-full bg-white animate-pulse" />
-              100X DISCOVERY
+              100X KNOWLEDGE
             </div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-fg tracking-tight uppercase leading-none mb-4">
-              Search across&nbsp;<span className="text-accent">everything</span>
+              Software engineering&nbsp;<span className="text-accent">knowledge</span>
             </h1>
             <p className="text-sm text-fg-secondary max-w-xl mx-auto">
-              Type a query — results from local cache and live web APIs appear below.
+              One search across curated concepts, engineering blogs, YC startups, GitHub, Hacker News, and more.
             </p>
           </div>
 
@@ -671,11 +751,15 @@ export function HomeUnifiedSearch() {
               )}
             </div>
 
-            {/* Source pills */}
+            {/* Source pills — browse sections without polluting query */}
             {!hasSearched && !query && (
               <div className="flex flex-wrap items-center justify-center gap-1.5 mt-4">
                 {SOURCES.map((s) => (
-                  <button key={s.id} type="button" onClick={() => { setQuery(s.label.split(' ')[0].toLowerCase()); inputRef.current?.focus(); }}
+                  <button key={s.id} type="button"
+                    onClick={() => {
+                      setSelectedSource(s.id);
+                      setHasSearched(true);
+                    }}
                     className={cn('inline-flex items-center gap-1.5 px-2.5 py-1.5 text-[9px] font-semibold uppercase tracking-wider bg-surface-secondary text-fg-muted hover:text-white transition-all duration-150', s.hoverBg)}>
                     {s.brandEl && <span className="w-3.5 h-3.5 flex items-center justify-center">{s.brandEl}</span>}
                     {s.label}
@@ -794,7 +878,12 @@ export function HomeUnifiedSearch() {
                 {/* LOCAL SECTIONS */}
                 {LOCAL_SOURCES.map((source) => {
                   if (selectedSource && selectedSource !== source.id) return null;
-                  const items = localResults[source.id] ?? [];
+                  // If query is empty, show all items from the full cache (browse mode)
+                  // Otherwise show Fuse search results
+                  const items = (query.trim().length < 2
+                    ? (allLocalRef.current[source.id] ?? [])
+                    : (localResults[source.id] ?? [])
+                  );
                   if (items.length === 0) return null;
                   return (
                     <SourceSection key={source.id} source={source} count={items.length}>
@@ -810,8 +899,9 @@ export function HomeUnifiedSearch() {
                   <div className="border-t border-border my-12" />
                 )}
 
-                {/* LIVE SECTIONS */}
+                {/* LIVE SECTIONS — only show when searching (need query for live APIs) */}
                 {LIVE_SOURCES.map((source) => {
+                  if (query.trim().length < 2) return null;
                   if (selectedSource && selectedSource !== source.id) return null;
                   const items = liveResults[source.id] ?? [];
                   if (items.length === 0) return null;

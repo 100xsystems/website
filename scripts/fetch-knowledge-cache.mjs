@@ -65,6 +65,13 @@ function copyFromLocal() {
     fs.copyFileSync(manifestSrc, path.join(CACHE_DIR, 'manifest.json'));
   }
 
+  // Copy seeds.json (contains entity descriptions for search)
+  const seedsSrc = path.join(LOCAL_REGISTRY_DIR, 'seeds.json');
+  if (fs.existsSync(seedsSrc)) {
+    fs.copyFileSync(seedsSrc, path.join(CACHE_DIR, 'seeds.json'));
+    console.log('  Copied seeds.json (entity descriptions)');
+  }
+
   // Copy each category directory (principles, languages, tools, patterns)
   let totalFiles = 0;
   for (const cat of CATEGORY_DIRS) {
@@ -114,7 +121,7 @@ function cloneFromGit() {
     fs.mkdirSync(CACHE_DIR, { recursive: true });
   }
 
-  // Copy recursively
+  // Copy recursively (includes seeds.json + manifest + category dirs)
   execSync(`cp -r "${knowledgeDir}/." "${CACHE_DIR}/"`, { stdio: 'pipe' });
 
   // Cleanup
