@@ -575,7 +575,6 @@ export function HomeUnifiedSearch() {
   const [liveErrors, setLiveErrors] = useState<Array<{ source: string; error: string }>>([]);
   const [loading, setLoading] = useState(false);
   const [hasSearched, setHasSearched] = useState(false);
-  const [filterOpen, setFilterOpen] = useState(false);
   const [selectedSource, setSelectedSource] = useState<string | null>(null);
   const inputRef = useRef<HTMLInputElement>(null);
   const abortRef = useRef<AbortController | null>(null);
@@ -739,7 +738,7 @@ export function HomeUnifiedSearch() {
   return (
     <>
       {/* ── SEARCH HERO ── */}
-      <section className="py-20 sm:py-28 bg-white border-b border-border">
+      <section className="py-20 sm:py-28 bg-white">
         <div className="max-w-[1200px] mx-auto px-6 lg:px-12">
           <div className="text-center mb-8">
             <div className="inline-flex items-center gap-2 px-3 py-1.5 text-[10px] font-bold uppercase tracking-widest bg-accent text-white mb-5">
@@ -776,35 +775,18 @@ export function HomeUnifiedSearch() {
                 </button>
               )}
             </div>
-
-            {/* Source pills — browse sections without polluting query */}
-            {!hasSearched && !query && (
-              <div className="flex flex-wrap items-center justify-center gap-1.5 mt-4">
-                {SOURCES.map((s) => (
-                  <button key={s.id} type="button"
-                    onClick={() => {
-                      setSelectedSource(s.id);
-                      setHasSearched(true);
-                    }}
-                    className={cn('inline-flex items-center gap-1.5 px-2.5 py-1.5 text-[9px] font-semibold uppercase tracking-wider bg-surface-secondary text-fg-muted hover:text-white transition-all duration-150', s.hoverBg)}>
-                    {s.brandEl && <span className="w-3.5 h-3.5 flex items-center justify-center">{s.brandEl}</span>}
-                    {s.label}
-                  </button>
-                ))}
-              </div>
-            )}
           </div>
         </div>
       </section>
 
       {/* ── RESULTS — borderless, immersive, pageless ── */}
       {hasSearched && (
-        <section className="py-20 sm:py-28 bg-white">
+        <section className="pb-20 sm:pb-28 bg-white">
           <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
 
             {/* Loading state */}
             {loading && (
-              <div className="space-y-12">
+              <div className="space-y-12 mt-8">
                 <div className="space-y-4">
                   <div className="h-6 w-40 bg-surface-secondary animate-pulse" />
                   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -817,87 +799,33 @@ export function HomeUnifiedSearch() {
             {/* Results */}
             {!loading && (
               <>
-                {/* ── FILTER — tiny self-contained card ── */}
+                {/* ── SOURCE FILTER CARDS — always visible, always big ── */}
                 {(totalLocal > 0 || totalLive > 0) && (
-                  <div className="relative mb-12 sm:mb-16">
-                    {/* Filter button - tiny card */}
-                    <button
-                      type="button"
-                      onClick={() => setFilterOpen((v) => !v)}
-                      className={
-                        selectedSource && SOURCE_MAP.get(selectedSource)
-                          ? 'inline-flex items-center gap-2 px-3 py-2 bg-accent text-white border-accent text-xs font-bold uppercase tracking-widest transition-all duration-200'
-                          : 'inline-flex items-center gap-2 px-3 py-2 bg-white text-fg border-border hover:border-fg/30 text-xs font-bold uppercase tracking-widest transition-all duration-200'
-                      }
-                    >
-                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                        <path d="M4 4h16v2.172a2 2 0 01-.586 1.414L15 12v7l-6 3V12L4.586 7.586A2 2 0 014 6.172V4z" />
-                      </svg>
-                      {selectedSource && SOURCE_MAP.get(selectedSource)
-                        ? SOURCE_MAP.get(selectedSource)!.label
-                        : 'Filter'
-                      }
-                    </button>
-
-                    {/* Filter cards - animate in when open */}
-                    {filterOpen && (
-                      <div className="mt-2 space-y-1">
-                        {SOURCES.map((source, index) => {
-                          const isSelected = selectedSource === source.id;
-                          return (
-                            <button
-                              key={source.id}
-                              type="button"
-                              onClick={() => {
-                                setSelectedSource((prev) => prev === source.id ? null : source.id);
-                                setFilterOpen(false);
-                              }}
-                              style={{
-                                opacity: 0,
-                                animation: `filterSlideIn 0.35s ease-out ${index * 50}ms forwards`,
-                              }}
-                              className={cn(
-                                'block w-full text-left transition-all duration-200',
-                                'bg-white border border-border hover:border-fg/30',
-                                isSelected
-                                  ? 'bg-accent text-white border-accent'
-                                  : 'text-fg'
-                              )}
-                            >
-                              <div className="flex items-center gap-3 px-4 py-3">
-                                <span className={cn(
-                                  'w-5 h-5 flex items-center justify-center shrink-0',
-                                  isSelected ? 'text-white' : 'text-fg-muted'
-                                )}>
-                                  {source.brandEl}
-                                </span>
-                                <div className="flex-1 min-w-0">
-                                  <div className={cn(
-                                    'text-[11px] font-bold uppercase tracking-wider',
-                                  )}>
-                                    {source.label}
-                                  </div>
-                                  <div className={cn(
-                                    'text-[9px] uppercase tracking-widest',
-                                    isSelected ? 'text-white/60' : 'text-fg-muted/50'
-                                  )}>
-                                    {source.type === 'local' ? 'Local cache' : 'Live search'}
-                                  </div>
-                                </div>
-                                {isSelected && (
-                                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="shrink-0">
-                                    <polyline points="20 6 9 17 4 12" />
-                                  </svg>
-                                )}
-                              </div>
-                            </button>
-                          );
-                        })}
-                      </div>
-                    )}
-
-                    {/* Global keyframes used by the staggered slide-in */}
-                    <style>{`@keyframes filterSlideIn{from{opacity:0;transform:translateY(-8px) scale(0.97)}to{opacity:1;transform:translateY(0) scale(1)}}`}</style>
+                  <div className="flex flex-wrap gap-2 sm:gap-3 mt-6 mb-10 sm:mb-12">
+                    {SOURCES.map((source) => {
+                      const isSelected = selectedSource === source.id;
+                      return (
+                        <button
+                          key={source.id}
+                          type="button"
+                          onClick={() => setSelectedSource((prev) => prev === source.id ? null : source.id)}
+                          className={cn(
+                            'flex items-center gap-2.5 px-4 py-3 border transition-all duration-200 text-left',
+                            isSelected
+                              ? cn(source.bgColor, 'text-white border-transparent')
+                              : 'bg-white text-fg border-border hover:text-white',
+                            !isSelected && source.hoverBg,
+                          )}
+                        >
+                          {source.brandEl && (
+                            <span className={cn('w-5 h-5 flex items-center justify-center shrink-0', isSelected ? 'text-white' : 'text-fg-muted')}>
+                              {source.brandEl}
+                            </span>
+                          )}
+                          <span className="text-xs font-bold uppercase tracking-wider whitespace-nowrap">{source.label}</span>
+                        </button>
+                      );
+                    })}
                   </div>
                 )}
 
