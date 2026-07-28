@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 import { Icon, Button } from '@/presentation/__components';
 
 interface YcCompany {
-  id: string;
+  id: number;
   name: string;
   slug: string;
   website: string;
@@ -25,9 +25,10 @@ interface YcFeatured {
 
 interface YcMeta {
   last_updated: string;
-  total_companies: number;
-  total_batches: number;
-  fetchedAt: string;
+  totalCompanies: number;
+  totalBatches: number;
+  totalTags: number;
+  totalIndustries: number;
 }
 
 const TOTAL_DISPLAY = 8;
@@ -89,7 +90,7 @@ export function HomeYC() {
           </h2>
           <p className="mt-3 text-sm text-fg-secondary max-w-xl">
             The latest companies from Y Combinator&apos;s recent batches.
-            {meta && ` ${meta.total_companies} companies indexed.`}
+            {meta && ` ${meta.totalCompanies} companies indexed.`}
           </p>
         </div>
 

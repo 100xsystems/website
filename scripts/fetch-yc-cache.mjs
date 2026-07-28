@@ -26,7 +26,7 @@ function ensureOutputDir() {
 }
 
 /** Only copy these essential files (avoids thousands of batch files in public/) */
-const ESSENTIAL_FILES = ['featured.json', 'meta.json', 'index.json', 'changes-latest.json'];
+const ESSENTIAL_FILES = ['featured.json', 'meta.json', 'index.json', 'companies.json'];
 
 function copyFromLocal() {
   const localYcDir = path.join(LOCAL_REGISTRY_DIR, 'yc');
@@ -42,6 +42,20 @@ function copyFromLocal() {
       fs.copyFileSync(src, path.join(OUTPUT_DIR, file));
       copied++;
     }
+  }
+
+  // Also copy the changes/ directory for daily change tracking
+  const localChangesDir = path.join(localYcDir, 'changes');
+  const outputChangesDir = path.join(OUTPUT_DIR, 'changes');
+  if (fs.existsSync(localChangesDir)) {
+    if (!fs.existsSync(outputChangesDir)) {
+      fs.mkdirSync(outputChangesDir, { recursive: true });
+    }
+    const changeFiles = fs.readdirSync(localChangesDir).filter(f => f.endsWith('.json') || f.endsWith('.md'));
+    for (const file of changeFiles) {
+      fs.copyFileSync(path.join(localChangesDir, file), path.join(outputChangesDir, file));
+    }
+    copied += changeFiles.length;
   }
 
   console.log(`  ✓ Copied ${copied} essential YC cache files`);
@@ -71,6 +85,20 @@ function cloneFromGitHub() {
         fs.copyFileSync(src, path.join(OUTPUT_DIR, file));
         copied++;
       }
+    }
+
+    // Also copy the changes/ directory
+    const remoteChangesDir = path.join(ycDir, 'changes');
+    const outputChangesDir = path.join(OUTPUT_DIR, 'changes');
+    if (fs.existsSync(remoteChangesDir)) {
+      if (!fs.existsSync(outputChangesDir)) {
+        fs.mkdirSync(outputChangesDir, { recursive: true });
+      }
+      const changeFiles = fs.readdirSync(remoteChangesDir).filter(f => f.endsWith('.json') || f.endsWith('.md'));
+      for (const file of changeFiles) {
+        fs.copyFileSync(path.join(remoteChangesDir, file), path.join(outputChangesDir, file));
+      }
+      copied += changeFiles.length;
     }
 
     console.log(`  ✓ Copied ${copied} essential YC cache files from registry`);
