@@ -454,6 +454,8 @@ export function HomeUnifiedSearch() {
   const [liveErrors, setLiveErrors] = useState<Array<{ source: string; error: string }>>([]);
   const [loading, setLoading] = useState(false);
   const [hasSearched, setHasSearched] = useState(false);
+  const [filterOpen, setFilterOpen] = useState(false);
+  const [enabledSources, setEnabledSources] = useState(() => new Set(SOURCES.map((s) => s.id)));
   const inputRef = useRef<HTMLInputElement>(null);
   const abortRef = useRef<AbortController | null>(null);
   const fuseRef = useRef<ReturnType<typeof createFuseIndex> | null>(null);
@@ -564,6 +566,27 @@ export function HomeUnifiedSearch() {
 
   useEffect(() => () => abortRef.current?.abort(), []);
 
+  // ── Filter toggle ─────────────────────────────────────────────────
+  const toggleSource = useCallback((id: string) => {
+    setEnabledSources((prev) => {
+      const next = new Set(prev);
+      if (next.has(id)) {
+        if (next.size > 1) next.delete(id);
+      } else {
+        next.add(id);
+      }
+      return next;
+    });
+  }, []);
+
+  const toggleAllSources = useCallback(() => {
+    setEnabledSources((prev) =>
+      prev.size === SOURCES.length
+        ? new Set([SOURCES[0].id]) // Keep at least one
+        : new Set(SOURCES.map((s) => s.id))
+    );
+  }, []);
+
   // ── Count helpers ─────────────────────────────────────────────────
   const totalLocal = Object.values(localResults).reduce((s, a) => s + a.length, 0);
   const totalLive = Object.values(liveResults).reduce((s, a) => s + a.length, 0);
@@ -645,8 +668,106 @@ export function HomeUnifiedSearch() {
             {/* Results */}
             {!loading && (
               <>
+                {/* ── FILTER DROPDOWN — just above first section ── */}
+                {(totalLocal > 0 || totalLive > 0) && (
+                  <div className="mb-12 sm:mb-16">
+                    <div className={cn(
+                      'transition-all duration-300 bg-surface-secondary',
+                      filterOpen ? 'p-6 sm:p-8' : 'p-0'
+                    )}>
+                      {/* Toggle bar */}
+                      <button
+                        type="button"
+                        onClick={() => setFilterOpen((v) => !v)}
+                        className={cn(
+                          'w-full flex items-center gap-4 text-left transition-all duration-150',
+                          filterOpen ? 'mb-6' : ''
+                        )}
+                      >
+                        {/* Filter icon */}
+                        <span className="shrink-0 w-10 h-10 flex items-center justify-center bg-accent text-white">
+                          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                            <path d="M4 4h16v2.172a2 2 0 01-.586 1.414L15 12v7l-6 3V12L4.586 7.586A2 2 0 014 6.172V4z" />
+                          </svg>
+                        </span>
+                        <div className="flex-1 min-w-0">
+                          <div className="flex items-center gap-3">
+                            <span className="text-xs font-bold uppercase tracking-widest text-fg">Filter sources</span>
+                            <span className="text-[10px] font-mono text-fg-muted">
+                              {enabledSources.size} of {SOURCES.length} active
+                            </span>
+                          </div>
+                          {!filterOpen && (
+                            <div className="flex items-center gap-1.5 mt-2 flex-wrap">
+                              {SOURCES.filter((s) => enabledSources.has(s.id)).map((s) => (
+                                <span
+                                  key={s.id}
+                                  className={cn('inline-flex items-center gap-1.5 px-2 py-1 text-[10px] font-semibold uppercase tracking-wider text-white', s.bgColor)}
+                                >
+                                  {s.brandEl && <span className="w-3 h-3 flex items-center justify-center">{s.brandEl}</span>}
+                                  {s.label}
+                                </span>
+                              ))}
+                            </div>
+                          )}
+                        </div>
+                        <span className="shrink-0 text-fg-muted transition-transform duration-200" style={{ transform: filterOpen ? 'rotate(180deg)' : 'rotate(0deg)' }}>
+                          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                            <polyline points="6 9 12 15 18 9" />
+                          </svg>
+                        </span>
+                      </button>
+
+                      {/* Expanded filter grid */}
+                      {filterOpen && (
+                        <div>
+                          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2">
+                            {SOURCES.map((s) => {
+                              const active = enabledSources.has(s.id);
+                              return (
+                                <button
+                                  key={s.id}
+                                  type="button"
+                                  onClick={() => toggleSource(s.id)}
+                                  className={cn(
+                                    'flex items-center gap-3 p-3 text-left transition-all duration-150',
+                                    active
+                                      ? 'bg-white text-fg shadow-sm'
+                                      : 'bg-transparent text-fg-muted/50 hover:text-fg-muted'
+                                  )}
+                                >
+                                  <span className={cn(
+                                    'w-5 h-5 flex items-center justify-center transition-all duration-150',
+                                    active ? 'opacity-100' : 'opacity-30'
+                                  )}>
+                                    {s.brandEl}
+                                  </span>
+                                  <span className="flex-1 text-xs font-semibold uppercase tracking-wider">{s.label}</span>
+                                  {active && (
+                                    <span className={cn('shrink-0 w-2 h-2 rounded-full', s.color)} />
+                                  )}
+                                </button>
+                              );
+                            })}
+                          </div>
+                          <div className="mt-4 flex items-center gap-2">
+                            <button
+                              type="button"
+                              onClick={toggleAllSources}
+                              className="text-[10px] font-semibold uppercase tracking-wider text-accent hover:text-fg transition-colors"
+                            >
+                              {enabledSources.size === SOURCES.length ? 'Deselect all' : 'Select all'}
+                            </button>
+                          </div>
+                        </div>
+                      )}
+                    </div>
+                  </div>
+                )}
+
                 {/* LOCAL SECTIONS */}
                 {LOCAL_SOURCES.map((source) => {
+                  if (!enabledSources.has(source.id)) return null;
                   const items = localResults[source.id] ?? [];
                   if (items.length === 0) return null;
                   return (
@@ -665,6 +786,7 @@ export function HomeUnifiedSearch() {
 
                 {/* LIVE SECTIONS */}
                 {LIVE_SOURCES.map((source) => {
+                  if (!enabledSources.has(source.id)) return null;
                   const items = liveResults[source.id] ?? [];
                   if (items.length === 0) return null;
                   return (
