@@ -1,7 +1,8 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { Icon, Button } from '@/presentation/__components';
+import { cn } from '@/application/lib/utils';
 import { timeAgo } from '@/feed/feed.utils';
 
 // ─── Full YC Company Interface ──────────────────────────────────────
@@ -77,19 +78,21 @@ function getDomain(url: string): string | null {
   try { return new URL(url).hostname; } catch { return null; }
 }
 
-function CompanyLogo({ website, name, size = 32 }: { website: string; name: string; size?: number }) {
-  const domain = getDomain(website);
+function CompanyLogo({ website, name, size = 48 }: { website?: string; name: string; size?: number }) {
+  const domain = website ? getDomain(website) : null;
   if (!domain) return null;
   return (
-    <img
-      src={`https://www.google.com/s2/favicons?domain=${domain}&sz=64`}
-      alt={name}
-      width={size}
-      height={size}
-      className="shrink-0 rounded-lg bg-white/10"
-      onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }}
-      loading="lazy"
-    />
+    <div className="shrink-0">
+      <img
+        src={`https://www.google.com/s2/favicons?domain=${domain}&sz=128`}
+        alt={name}
+        width={size}
+        height={size}
+        className="rounded-xl"
+        onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }}
+        loading="lazy"
+      />
+    </div>
   );
 }
 
@@ -124,7 +127,7 @@ function CompanyModal({ company, onClose }: { company: YcCompany; onClose: () =>
         {/* Header */}
         <div className="px-8 pt-8 pb-6 border-b border-border">
           <div className="flex items-start gap-5">
-            <CompanyLogo website={company.url || company.website} name={company.name} size={64} />
+            <CompanyLogo website={company.website} name={company.name} size={72} />
             <div className="min-w-0 flex-1">
               <h2 className="text-2xl font-bold uppercase tracking-wide text-fg">{company.name}</h2>
               {company.one_liner && (
@@ -254,6 +257,7 @@ export function HomeYC() {
   const [allCompanies, setAllCompanies] = useState<YcCompany[]>([]);
   const [latestChanges, setLatestChanges] = useState<YcChangeSet | null>(null);
   const [selectedCompany, setSelectedCompany] = useState<YcCompany | null>(null);
+  const [selectedTag, setSelectedTag] = useState<string | null>(null);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
@@ -305,18 +309,32 @@ export function HomeYC() {
   // Build display companies: merge changes with full data from the catalog
   const companiesById = new Map(allCompanies.map((c) => [c.id, c]));
 
-  const displayCompanies = latestChanges
+  const rawDisplayCompanies = latestChanges
     ? [
-        ...(latestChanges.added ?? []).map((c) => ({ ...c, _changeType: 'added' as const })),
+        ...(latestChanges.added ?? []).map((c) => ({ ...c, _changeType: 'new' as const })),
         ...(latestChanges.updated ?? []).slice(0, 6).map((c) => {
           const full = companiesById.get(c.id);
           return {
             ...(full ?? c),
-            _changeType: 'updated' as const,
-          } as YcCompany & { _changeType: 'added' | 'updated' | 'featured' };
+            _changeType: 'new' as const,
+          } as YcCompany & { _changeType: 'new' | 'featured' };
         }),
       ].slice(0, TOTAL_DISPLAY)
-    : allCompanies.slice(0, TOTAL_DISPLAY).map((c) => ({ ...c, _changeType: 'featured' as const } as YcCompany & { _changeType: 'added' | 'updated' | 'featured' }));
+    : allCompanies.slice(0, TOTAL_DISPLAY).map((c) => ({ ...c, _changeType: 'featured' as const } as YcCompany & { _changeType: 'new' | 'featured' }));
+
+  // Extract all unique tags
+  const allTags = useMemo(() => {
+    const tagSet = new Set<string>();
+    for (const c of rawDisplayCompanies) {
+      if (c.tags) c.tags.forEach((t) => tagSet.add(t));
+    }
+    return Array.from(tagSet).sort();
+  }, [rawDisplayCompanies]);
+
+  const displayCompanies = useMemo(() => {
+    if (!selectedTag) return rawDisplayCompanies;
+    return rawDisplayCompanies.filter((c) => c.tags && c.tags.includes(selectedTag));
+  }, [rawDisplayCompanies, selectedTag]);
 
   const hasContent = displayCompanies.length > 0;
 
@@ -339,18 +357,10 @@ export function HomeYC() {
           </p>
           {latestChanges && (
             <div className="mt-4 flex items-center gap-6 text-base text-fg-muted">
-              {'added' in latestChanges && latestChanges.added && (
-                <span className="flex items-center gap-2">
-                  <span className="w-2 h-2 rounded-full bg-green-500" />
-                  {latestChanges.added.length} new
-                </span>
-              )}
-              {'updated' in latestChanges && latestChanges.updated && (
-                <span className="flex items-center gap-2">
-                  <span className="w-2 h-2 rounded-full bg-blue-500" />
-                  {latestChanges.updated.length} updated
-                </span>
-              )}
+              <span className="flex items-center gap-2">
+                <span className="w-2 h-2 rounded-full bg-green-500" />
+                {(latestChanges.added?.length ?? 0) + (latestChanges.updated?.length ?? 0)} new changes
+              </span>
               <span className="text-sm text-fg-muted/60">
                 {'fetchedAt' in latestChanges && latestChanges.fetchedAt ? timeAgo(latestChanges.fetchedAt) : ''}
               </span>
@@ -360,13 +370,13 @@ export function HomeYC() {
 
         {/* Loading */}
         {isLoading && (
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             {Array.from({ length: 8 }).map((_, i) => (
-              <div key={i} className="bg-white p-6">
-                <div className="h-7 w-3/4 bg-surface-secondary animate-pulse mb-4" />
-                <div className="h-5 w-full bg-surface-secondary animate-pulse mb-3" />
-                <div className="h-5 w-2/3 bg-surface-secondary animate-pulse mb-5" />
-                <div className="h-6 w-1/3 bg-surface-secondary animate-pulse" />
+              <div key={i} className="bg-white p-8">
+                <div className="h-9 w-3/4 bg-surface-secondary animate-pulse mb-5" />
+                <div className="h-6 w-full bg-surface-secondary animate-pulse mb-4" />
+                <div className="h-6 w-2/3 bg-surface-secondary animate-pulse mb-6" />
+                <div className="h-8 w-1/3 bg-surface-secondary animate-pulse" />
               </div>
             ))}
           </div>
@@ -380,84 +390,113 @@ export function HomeYC() {
           </div>
         )}
 
-        {/* Companies grid — full rich cards */}
+        {/* Tag filter cards */}
+        {!isLoading && !error && allTags.length > 0 && (
+          <div className="mb-10 flex flex-wrap items-center gap-3">
+            <button
+              type="button"
+              onClick={() => setSelectedTag(null)}
+              className={cn(
+                'px-5 py-3 text-base font-bold uppercase tracking-wider transition-all duration-200',
+                !selectedTag
+                  ? 'bg-orange-500 text-white shadow-lg'
+                  : 'bg-surface-secondary text-fg-muted hover:bg-orange-500/10 hover:text-orange-600'
+              )}
+            >
+              All Companies
+            </button>
+            {allTags.map((tag) => (
+              <button
+                key={tag}
+                type="button"
+                onClick={() => setSelectedTag(selectedTag === tag ? null : tag)}
+                className={cn(
+                  'px-5 py-3 text-base font-bold uppercase tracking-wider transition-all duration-200',
+                  selectedTag === tag
+                    ? 'bg-orange-500 text-white shadow-lg'
+                    : 'bg-surface-secondary text-fg-muted hover:bg-orange-500/10 hover:text-orange-600'
+                )}
+              >
+                {tag.replace(/-/g, ' ')}
+              </button>
+            ))}
+          </div>
+        )}
+
+        {/* Companies grid — BIGGER cards */}
         {!isLoading && !error && hasContent && (
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             {displayCompanies.map((company) => (
               <button
                 type="button"
                 key={`${company._changeType}-${company.id}`}
                 onClick={() => setSelectedCompany(company as YcCompany)}
-                className="group bg-white p-6 flex flex-col text-left transition-all duration-300 hover:scale-[1.02] hover:shadow-xl hover:bg-orange-500 cursor-pointer border-0 w-full"
+                className="group bg-white p-8 flex flex-col text-left transition-all duration-300 hover:scale-[1.03] hover:shadow-2xl hover:bg-orange-500 cursor-pointer border-0 w-full"
               >
-                {/* Logo + Name + Badge */}
-                <div className="flex items-center gap-4 mb-3">
-                  <CompanyLogo website={company.url || company.website} name={company.name} size={44} />
+                {/* Logo + Name */}
+                <div className="flex items-center gap-5 mb-4">
+                  <CompanyLogo website={company.website} name={company.name} size={52} />
                   <div className="min-w-0 flex-1">
-                    <div className="flex items-center gap-2">
-                      <h3 className="text-lg font-bold uppercase tracking-wide text-fg truncate transition-colors duration-300 group-hover:text-white">
-                        {company.name}
-                      </h3>
-                      {'_changeType' in company && company._changeType === 'added' && (
-                        <span className="shrink-0 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider bg-green-100 text-green-700 group-hover:bg-white/20 group-hover:text-white/80">
-                          New
-                        </span>
-                      )}
-                    </div>
+                    <h3 className="text-xl font-bold uppercase tracking-wide text-fg truncate transition-colors duration-300 group-hover:text-white">
+                      {company.name}
+                    </h3>
                     {company.batch && (
-                      <span className="inline-block mt-1 text-xs font-semibold uppercase tracking-wider text-fg-muted transition-colors duration-300 group-hover:text-white/70">
+                      <span className="inline-block mt-1.5 text-sm font-semibold uppercase tracking-wider text-fg-muted transition-colors duration-300 group-hover:text-white/70">
                         {company.batch}
                       </span>
                     )}
                   </div>
                 </div>
 
-                {/* One-liner */}
+                {/* One-liner — bigger */}
                 {company.one_liner && (
-                  <p className="mt-1 text-base text-fg-secondary leading-relaxed transition-colors duration-300 group-hover:text-white/80 line-clamp-2">
+                  <p className="text-lg text-fg-secondary leading-relaxed transition-colors duration-300 group-hover:text-white/80 line-clamp-3">
                     {company.one_liner}
                   </p>
                 )}
 
                 {/* Meta row */}
-                <div className="mt-auto pt-4 flex items-center justify-between flex-wrap gap-2">
-                  <div className="flex items-center gap-2">
+                <div className="mt-5 pt-5 border-t border-border/40 flex items-center justify-between flex-wrap gap-3">
+                  <div className="flex items-center gap-3">
                     {company.industry && (
-                      <span className="text-xs font-semibold uppercase tracking-wider text-fg-muted transition-colors duration-300 group-hover:text-white/70">
+                      <span className="text-sm font-bold uppercase tracking-wider text-fg-muted transition-colors duration-300 group-hover:text-white/70">
                         {company.industry}
                       </span>
                     )}
                     {company.team_size > 0 && (
-                      <span className="text-xs text-fg-muted/60 transition-colors duration-300 group-hover:text-white/50">
+                      <span className="text-sm text-fg-muted/60 transition-colors duration-300 group-hover:text-white/50">
                         · {company.team_size} {company.team_size === 1 ? 'person' : 'people'}
                       </span>
                     )}
                   </div>
-                  <div className="flex items-center gap-2">
+                  <div className="flex items-center gap-3">
                     {company.isHiring && (
-                      <span className="flex items-center gap-1 text-[10px] font-bold uppercase tracking-wider text-green-600 transition-colors duration-300 group-hover:text-white/90">
-                        <span className="w-1.5 h-1.5 rounded-full bg-green-600 group-hover:bg-white/90" />
+                      <span className="flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-green-600 transition-colors duration-300 group-hover:text-white/90">
+                        <span className="w-2 h-2 rounded-full bg-green-600 group-hover:bg-white/90" />
                         Hiring
                       </span>
                     )}
                     {company.top_company && (
-                      <span className="text-[10px] font-bold uppercase tracking-wider text-orange-500 transition-colors duration-300 group-hover:text-white/90">
+                      <span className="text-xs font-bold uppercase tracking-wider text-orange-500 transition-colors duration-300 group-hover:text-white/90">
                         Top
                       </span>
                     )}
                   </div>
                 </div>
 
-                {/* Stage or tags */}
-                {(company.stage || (company.tags && company.tags.length > 0)) && (
-                  <div className="mt-3 flex items-center gap-1.5 flex-wrap">
-                    {company.stage && (
-                      <span className="px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wider bg-surface-secondary text-fg-muted transition-colors duration-300 group-hover:bg-white/20 group-hover:text-white/80">
-                        {company.stage}
-                      </span>
-                    )}
-                    {(company.tags ?? []).slice(0, 2).map((tag) => (
-                      <span key={tag} className="px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wider bg-surface-secondary text-fg-muted transition-colors duration-300 group-hover:bg-white/20 group-hover:text-white/80">
+                {/* Tags — bigger */}
+                {(company.tags && company.tags.length > 0) && (
+                  <div className="mt-4 flex items-center gap-2 flex-wrap">
+                    {company.tags.slice(0, 3).map((tag) => (
+                      <span
+                        key={tag}
+                        className={cn(
+                          'px-3 py-1.5 text-xs font-bold uppercase tracking-wider transition-colors duration-300',
+                          selectedTag === tag
+                            ? 'bg-orange-500 text-white'
+                            : 'bg-surface-secondary text-fg-muted group-hover:bg-white/20 group-hover:text-white/80'
+                        )}
+                      >
                         {tag.replace(/-/g, ' ')}
                       </span>
                     ))}
@@ -471,8 +510,12 @@ export function HomeYC() {
         {/* Empty */}
         {!isLoading && !error && !hasContent && (
           <div className="bg-white p-12 text-center">
-            <p className="text-lg text-fg-secondary">No YC company data available.</p>
-            <p className="text-base text-fg-muted/60 mt-2">Run the daily update workflow first.</p>
+            <p className="text-lg text-fg-secondary">
+              {selectedTag ? `No companies found for "${selectedTag.replace(/-/g, ' ')}"` : 'No YC company data available.'}
+            </p>
+            <p className="text-base text-fg-muted/60 mt-2">
+              {selectedTag ? 'Try selecting a different tag.' : 'Run the daily update workflow first.'}
+            </p>
           </div>
         )}
 

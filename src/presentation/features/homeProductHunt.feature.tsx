@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { Icon, Button } from '@/presentation/__components';
 import { cn } from '@/application/lib/utils';
 
@@ -91,6 +91,7 @@ export function HomeProductHunt() {
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [selectedProduct, setSelectedProduct] = useState<PhProduct | null>(null);
+  const [selectedTopic, setSelectedTopic] = useState<string | null>(null);
 
   useEffect(() => {
     let mounted = true;
@@ -172,6 +173,21 @@ export function HomeProductHunt() {
     return () => { mounted = false; };
   }, []);
 
+  // Extract all unique topics from products
+  const allTopics = useMemo(() => {
+    const topicSet = new Set<string>();
+    for (const p of products) {
+      if (p.topics) p.topics.forEach((t) => topicSet.add(t.slug));
+    }
+    return Array.from(topicSet).sort();
+  }, [products]);
+
+  // Filter products by selected topic
+  const filteredProducts = useMemo(() => {
+    if (!selectedTopic) return products;
+    return products.filter((p) => p.topics && p.topics.some((t) => t.slug === selectedTopic));
+  }, [products, selectedTopic]);
+
   return (
     <section className="py-16 sm:py-24 bg-white">
       <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
@@ -197,21 +213,21 @@ export function HomeProductHunt() {
 
         {/* Loading */}
         {isLoading && (
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {Array.from({ length: 6 }).map((_, i) => (
-              <div key={i} className="border border-border p-6">
-                <div className="flex items-center gap-4 mb-4">
-                  <div className="w-20 h-20 bg-surface-secondary animate-pulse rounded-lg shrink-0" />
-                  <div className="flex-1 space-y-2">
-                    <div className="h-7 w-3/4 bg-surface-secondary animate-pulse" />
+              <div key={i} className="bg-white p-8">
+                <div className="flex items-center gap-5 mb-5">
+                  <div className="w-20 h-20 bg-surface-secondary animate-pulse rounded-xl shrink-0" />
+                  <div className="flex-1 space-y-3">
+                    <div className="h-8 w-3/4 bg-surface-secondary animate-pulse" />
                     <div className="h-5 w-full bg-surface-secondary animate-pulse" />
                   </div>
                 </div>
-                <div className="h-5 w-full bg-surface-secondary animate-pulse mb-2" />
-                <div className="h-5 w-2/3 bg-surface-secondary animate-pulse mb-4" />
+                <div className="h-5 w-full bg-surface-secondary animate-pulse mb-3" />
+                <div className="h-5 w-2/3 bg-surface-secondary animate-pulse mb-5" />
                 <div className="flex gap-4">
-                  <div className="h-5 w-16 bg-surface-secondary animate-pulse" />
-                  <div className="h-5 w-20 bg-surface-secondary animate-pulse" />
+                  <div className="h-6 w-16 bg-surface-secondary animate-pulse" />
+                  <div className="h-6 w-20 bg-surface-secondary animate-pulse" />
                 </div>
               </div>
             ))}
@@ -220,28 +236,61 @@ export function HomeProductHunt() {
 
         {/* Error */}
         {error && !isLoading && (
-          <div className="p-8 text-center border border-border">
+          <div className="p-8 text-center bg-white">
             <p className="text-lg text-fg-secondary mb-3">Product Hunt data not available yet.</p>
             <p className="text-base text-fg-muted/60">Run the daily workflow to fetch Product Hunt data.</p>
           </div>
         )}
 
-        {/* Products grid — rich cards using all available data */}
-        {!isLoading && !error && products.length > 0 && (
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-            {products.map((product) => (
+        {/* Tag filter cards */}
+        {!isLoading && !error && filteredProducts.length > 0 && allTopics.length > 0 && (
+          <div className="mb-10 flex flex-wrap items-center gap-3">
+            <button
+              type="button"
+              onClick={() => setSelectedTopic(null)}
+              className={cn(
+                'px-5 py-3 text-base font-bold uppercase tracking-wider transition-all duration-200',
+                !selectedTopic
+                  ? 'bg-red-500 text-white shadow-lg'
+                  : 'bg-surface-secondary text-fg-muted hover:bg-red-500/10 hover:text-red-600'
+              )}
+            >
+              All Products
+            </button>
+            {allTopics.map((topic) => (
+              <button
+                key={topic}
+                type="button"
+                onClick={() => setSelectedTopic(selectedTopic === topic ? null : topic)}
+                className={cn(
+                  'px-5 py-3 text-base font-bold uppercase tracking-wider transition-all duration-200',
+                  selectedTopic === topic
+                    ? 'bg-red-500 text-white shadow-lg'
+                    : 'bg-surface-secondary text-fg-muted hover:bg-red-500/10 hover:text-red-600'
+                )}
+              >
+                {topic.replace(/-/g, ' ')}
+              </button>
+            ))}
+          </div>
+        )}
+
+        {/* Products grid — borderless rich cards */}
+        {!isLoading && !error && filteredProducts.length > 0 && (
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {filteredProducts.map((product) => (
               <button
                 type="button"
                 key={product.id}
                 onClick={() => setSelectedProduct(product)}
-                className="group border border-border p-6 flex flex-col text-left transition-all duration-300 hover:bg-red-500 hover:border-red-500 hover:scale-[1.02] hover:shadow-xl cursor-pointer w-full"
+                className="group bg-white p-8 flex flex-col text-left transition-all duration-300 hover:bg-red-500 hover:scale-[1.03] hover:shadow-2xl cursor-pointer w-full border-0"
               >
                 {/* Thumbnail + Name + Votes */}
-                <div className="flex items-start gap-4 mb-4">
-                  <ProductThumbnail thumbnail={product.thumbnail} name={product.name} size={80} />
+                <div className="flex items-start gap-5 mb-5">
+                  <ProductThumbnail thumbnail={product.thumbnail} name={product.name} size={88} />
                   <div className="min-w-0 flex-1">
                     <div className="flex items-start justify-between gap-2">
-                      <h3 className="text-lg font-bold uppercase tracking-wide text-fg transition-colors duration-300 group-hover:text-white">
+                      <h3 className="text-xl font-bold uppercase tracking-wide text-fg transition-colors duration-300 group-hover:text-white">
                         {product.name}
                       </h3>
                       {product.votesCount > 0 && (
@@ -251,7 +300,7 @@ export function HomeProductHunt() {
                         </span>
                       )}
                     </div>
-                    <p className="mt-1 text-sm text-fg-secondary leading-relaxed transition-colors duration-300 group-hover:text-white/70 line-clamp-2">
+                    <p className="mt-2 text-base text-fg-secondary leading-relaxed transition-colors duration-300 group-hover:text-white/70 line-clamp-2">
                       {product.tagline}
                     </p>
                   </div>
@@ -259,17 +308,22 @@ export function HomeProductHunt() {
 
                 {/* Description */}
                 {product.description && (
-                  <p className="mt-1 text-sm text-fg-tertiary leading-relaxed transition-colors duration-300 group-hover:text-white/60 line-clamp-2">
+                  <p className="text-sm text-fg-tertiary leading-relaxed transition-colors duration-300 group-hover:text-white/60 line-clamp-2 mb-4">
                     {product.description}
                   </p>
                 )}
 
                 {/* Topics + Makers */}
-                <div className="mt-auto pt-4 flex items-center gap-2 flex-wrap">
+                <div className="mt-auto pt-5 border-t border-border/40 flex items-center gap-2 flex-wrap">
                   {(product.topics ?? []).slice(0, 3).map((topic) => (
                     <span
                       key={topic.slug}
-                      className="px-2.5 py-1 text-xs font-semibold uppercase tracking-wider bg-surface-secondary text-fg-muted transition-colors duration-300 group-hover:bg-white/20 group-hover:text-white/80"
+                      className={cn(
+                        'px-3 py-1.5 text-xs font-bold uppercase tracking-wider transition-colors duration-300',
+                        selectedTopic === topic.slug
+                          ? 'bg-red-500 text-white'
+                          : 'bg-surface-secondary text-fg-muted group-hover:bg-white/20 group-hover:text-white/80'
+                      )}
                     >
                       {topic.name}
                     </span>
@@ -291,10 +345,14 @@ export function HomeProductHunt() {
         )}
 
         {/* Empty */}
-        {!isLoading && !error && products.length === 0 && (
-          <div className="border border-border p-12 text-center">
-            <p className="text-lg text-fg-secondary">No Product Hunt products available.</p>
-            <p className="text-base text-fg-muted/60 mt-2">Run the daily update workflow first.</p>
+        {!isLoading && !error && filteredProducts.length === 0 && (
+          <div className="bg-white p-12 text-center">
+            <p className="text-lg text-fg-secondary">
+              {selectedTopic ? `No products found for "${selectedTopic.replace(/-/g, ' ')}"` : 'No Product Hunt products available.'}
+            </p>
+            <p className="text-base text-fg-muted/60 mt-2">
+              {selectedTopic ? 'Try selecting a different topic.' : 'Run the daily update workflow first.'}
+            </p>
           </div>
         )}
 
