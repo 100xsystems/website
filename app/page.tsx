@@ -1,58 +1,67 @@
-import { readFileSync } from 'node:fs';
+import { readFileSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 import { HomeFeed } from '@/presentation/features/homeFeed.feature';
-
 import { HomeYC } from '@/presentation/features/homeYC.feature';
 import { HomeProductHunt } from '@/presentation/features/homeProductHunt.feature';
 import { HomeUnifiedSearch } from '@/presentation/features/homeUnifiedSearch.feature';
-import type { FeedCache, Article } from '@/feed/feed.types';
-
-// ── Featured sources shown on the homepage ─────────────────────────
-
-const HOME_FEATURED_SOURCES = [
-  'netflix-tech-blog',
-  'cloudflare-blog',
-  'aws-architecture',
-  'spotify-engineering',
-  'stripe-engineering',
-  'discord-engineering',
-];
-
-const ARTICLES_PER_SOURCE = 3;
+import type { FeedCache, RegistryFeedItem, RegistryFeedData } from '@/feed/feed.types';
 
 // ── Server-side data loading (SSG) ─────────────────────────────────
 
-function loadFeedArticles(): Record<string, Article[]> | null {
+interface EnrichedArticle {
+  id: string;
+  feedId: string;
+  feedName: string;
+  feedSiteUrl: string;
+  feedRssUrl: string;
+  tags: string[];
+  title: string;
+  url: string;
+  author: string | null;
+  summary: string | null;
+  publishedAt: string | null;
+  updatedAt: string;
+}
+
+function loadAllLatestFeedArticles(): EnrichedArticle[] | null {
   try {
     const cachePath = join(process.cwd(), 'public', 'feed-cache.json');
+    if (!existsSync(cachePath)) return null;
     const raw = readFileSync(cachePath, 'utf-8');
     const cache: FeedCache = JSON.parse(raw);
 
-    const grouped: Record<string, Article[]> = {};
+    const articles: EnrichedArticle[] = [];
 
-    for (const feedId of HOME_FEATURED_SOURCES) {
-      const feedData = cache.feeds[feedId];
-      if (!feedData?.items?.length) continue;
+    for (const [feedId, feedData] of Object.entries(cache.feeds)) {
+      const fd = feedData as RegistryFeedData;
+      if (!fd?.items?.length) continue;
 
-      const articles: Article[] = feedData.items.slice(0, ARTICLES_PER_SOURCE).map((item) => ({
-        id: `${feedId}-${item.guid}`,
-        feedId,
-        feedName: feedData.feedName,
-        feedSiteUrl: feedData.feedSiteUrl,
-        title: item.title,
-        url: item.link,
-        author: item.author,
-        summary: item.summary,
-        contentSnippet: item.summary?.slice(0, 300) ?? null,
-        publishedAt: item.publishedAt,
-        tags: feedData.tags ?? [],
-        upvotes: 0,
-      }));
-
-      grouped[feedId] = articles;
+      for (const item of fd.items) {
+        articles.push({
+          id: `${feedId}-${item.guid}`,
+          feedId,
+          feedName: fd.feedName,
+          feedSiteUrl: fd.feedSiteUrl,
+          feedRssUrl: fd.feedRssUrl,
+          tags: fd.tags ?? [],
+          title: item.title,
+          url: item.link,
+          author: item.author,
+          summary: item.summary,
+          publishedAt: item.publishedAt,
+          updatedAt: fd.updatedAt,
+        });
+      }
     }
 
-    return Object.keys(grouped).length > 0 ? grouped : null;
+    // Sort by publishedAt descending (newest first), push items without dates to end
+    articles.sort((a, b) => {
+      const dateA = a.publishedAt ? new Date(a.publishedAt).getTime() : 0;
+      const dateB = b.publishedAt ? new Date(b.publishedAt).getTime() : 0;
+      return dateB - dateA;
+    });
+
+    return articles.slice(0, 48); // Top 48 most recent articles
   } catch {
     return null;
   }
@@ -61,15 +70,15 @@ function loadFeedArticles(): Record<string, Article[]> | null {
 // ── Page ────────────────────────────────────────────────────────────
 
 export default function HomePage() {
-  const feedArticles = loadFeedArticles();
+  const latestArticles = loadAllLatestFeedArticles();
 
   return (
     <>
-      {/* Unified Search — at the very top, first section */}
+      {/* Unified Search — at the very top */}
       <HomeUnifiedSearch />
 
-      {/* Feed — data loaded at SSG build time, no client-side API call */}
-      <HomeFeed initialArticles={feedArticles} />
+      {/* Feed — latest articles from ALL feeds, sorted by recency */}
+      <HomeFeed initialArticles={latestArticles} />
 
       <HomeYC />
       <HomeProductHunt />

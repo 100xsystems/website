@@ -2,12 +2,14 @@
 /**
  * dev-cache.mjs
  *
- * ALWAYS clones the registry repo from GitHub and extracts all cached data:
- *   - Feeds   → public/feed-cache.json
- *   - YC      → public/yc-cache/
- *   - PH      → public/ph-cache/
+ * Builds the feed, YC, and PH cache for the website from the registry.
  *
- * No local path fallback — always fresh from GitHub.
+ * Strategy A (development): Copy from local filesystem (../registry/)
+ * Strategy B (CI/build):    Shallow clone the registry repo from GitHub
+ *
+ * When pushing to GitHub: once the registry changes are pushed, the website
+ * CI will pick them up via the clone strategy. For local dev, the local
+ * filesystem path is used so you can iterate without pushing.
  */
 
 import { execSync } from 'node:child_process';
@@ -18,7 +20,8 @@ import * as path from 'node:path';
 
 const REGISTRY_REPO = process.env.REGISTRY_REPO || '100xsystems/registry';
 const REGISTRY_BRANCH = process.env.REGISTRY_BRANCH || 'main';
-const CACHE_DIR = path.resolve(process.cwd(), '.registry-cache');
+const LOCAL_REGISTRY_DIR = path.resolve(process.cwd(), '..', 'registry');
+const CLONE_DIR = path.resolve(process.cwd(), '.registry-cache');
 const PUBLIC_DIR = path.resolve(process.cwd(), 'public');
 
 // ── Helpers ───────────────────────────────────────────────────────────
@@ -27,17 +30,25 @@ function ensureDir(dir) {
   if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
 }
 
-function cleanClone() {
+/** Check if a directory contains any actual .json data files (not .gitkeep) */
+function hasJsonData(dir) {
+  if (!fs.existsSync(dir)) return false;
+  const files = fs.readdirSync(dir);
+  return files.some((f) => f.endsWith('.json') && f !== '.gitkeep');
+}
+
+/** Shallow clone or pull the registry repo from GitHub */
+function cloneFromGitHub() {
   const url = `https://github.com/${REGISTRY_REPO}.git`;
-  if (fs.existsSync(CACHE_DIR)) {
+  if (fs.existsSync(CLONE_DIR)) {
     console.log(`  Pulling ${REGISTRY_REPO} (shallow)...`);
-    execSync(`git -C "${CACHE_DIR}" pull origin ${REGISTRY_BRANCH} --depth=1`, {
+    execSync(`git -C "${CLONE_DIR}" pull origin ${REGISTRY_BRANCH} --depth=1`, {
       stdio: 'pipe',
       timeout: 30000,
     });
   } else {
     console.log(`  Cloning ${REGISTRY_REPO} (shallow)...`);
-    execSync(`git clone --depth=1 --branch=${REGISTRY_BRANCH} "${url}" "${CACHE_DIR}"`, {
+    execSync(`git clone --depth=1 --branch=${REGISTRY_BRANCH} "${url}" "${CLONE_DIR}"`, {
       stdio: 'pipe',
       timeout: 60000,
     });
@@ -46,10 +57,10 @@ function cleanClone() {
 
 // ── Feed Cache ────────────────────────────────────────────────────────
 
-function buildFeedCache() {
-  const feedsDir = path.join(CACHE_DIR, 'feeds');
+function buildFeedCache(baseDir) {
+  const feedsDir = path.join(baseDir, 'dynamic-data', 'feeds');
   if (!fs.existsSync(feedsDir)) {
-    console.warn('  ⚠ No feeds/ directory in registry');
+    console.warn('  ⚠ No dynamic-data/feeds/ directory in registry');
     return;
   }
 
@@ -94,10 +105,10 @@ function buildFeedCache() {
 
 // ── YC Cache ──────────────────────────────────────────────────────────
 
-function buildYcCache() {
-  const ycDir = path.join(CACHE_DIR, 'yc');
+function buildYcCache(baseDir) {
+  const ycDir = path.join(baseDir, 'dynamic-data', 'yc');
   if (!fs.existsSync(ycDir)) {
-    console.warn('  ⚠ No yc/ directory in registry');
+    console.warn('  ⚠ No dynamic-data/yc/ directory in registry');
     return;
   }
 
@@ -114,7 +125,7 @@ function buildYcCache() {
     }
   }
 
-  // Daily changes
+  // Changes directory
   const changesDir = path.join(ycDir, 'changes');
   if (fs.existsSync(changesDir)) {
     const changesOut = path.join(outDir, 'changes');
@@ -132,10 +143,10 @@ function buildYcCache() {
 
 // ── PH Cache ──────────────────────────────────────────────────────────
 
-function buildPhCache() {
-  const phDir = path.join(CACHE_DIR, 'producthunt');
+function buildPhCache(baseDir) {
+  const phDir = path.join(baseDir, 'dynamic-data', 'producthunt');
   if (!fs.existsSync(phDir)) {
-    console.warn('  ⚠ No producthunt/ directory in registry');
+    console.warn('  ⚠ No dynamic-data/producthunt/ directory in registry');
     return;
   }
 
@@ -157,22 +168,37 @@ function buildPhCache() {
 
 function main() {
   const startTime = Date.now();
-  console.log('\n📦 Cloning registry from GitHub...');
 
-  try {
-    cleanClone();
-  } catch (err) {
-    console.error(`  ✗ Failed to clone registry: ${err.message}`);
-    console.error('  ✗ Ensure the registry repo exists at https://github.com/' + REGISTRY_REPO);
-    process.exit(1);
+  // Decide source: local filesystem (dev) or GitHub clone (CI)
+  const localDynamic = path.join(LOCAL_REGISTRY_DIR, 'dynamic-data');
+  const localHasData = hasJsonData(path.join(localDynamic, 'feeds')) ||
+                       hasJsonData(path.join(localDynamic, 'yc')) ||
+                       hasJsonData(path.join(localDynamic, 'producthunt'));
+
+  let registryBaseDir;
+  if (localHasData) {
+    registryBaseDir = LOCAL_REGISTRY_DIR;
+    console.log(`\n📦 Using local registry: ${LOCAL_REGISTRY_DIR}`);
+  } else {
+    console.log('\n📦 Cloning registry from GitHub...');
+    try {
+      cloneFromGitHub();
+      registryBaseDir = CLONE_DIR;
+    } catch (err) {
+      console.error(`  ✗ Failed to clone registry: ${err.message}`);
+      console.error(`  ✗ Ensure the registry repo exists at https://github.com/${REGISTRY_REPO}`);
+      process.exit(1);
+    }
   }
 
-  buildFeedCache();
-  buildYcCache();
-  buildPhCache();
+  buildFeedCache(registryBaseDir);
+  buildYcCache(registryBaseDir);
+  buildPhCache(registryBaseDir);
 
-  // Cleanup
-  try { fs.rmSync(CACHE_DIR, { recursive: true, force: true }); } catch {}
+  // Cleanup clone dir if it was used
+  if (registryBaseDir === CLONE_DIR) {
+    try { fs.rmSync(CLONE_DIR, { recursive: true, force: true }); } catch {}
+  }
 
   const elapsed = ((Date.now() - startTime) / 1000).toFixed(1);
   console.log(`📦 Dev cache complete in ${elapsed}s\n`);

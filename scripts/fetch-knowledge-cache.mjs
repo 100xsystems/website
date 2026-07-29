@@ -18,7 +18,7 @@ import { execSync } from 'node:child_process';
 const CACHE_DIR = path.resolve('public', 'knowledge-cache');
 const REGISTRY_REPO = process.env.REGISTRY_REPO || '100xsystems/registry';
 const REGISTRY_BRANCH = process.env.REGISTRY_BRANCH || 'main';
-const LOCAL_REGISTRY_DIR = path.resolve('..', 'registry', 'knowledge');
+const LOCAL_REGISTRY_DIR = path.resolve('..', 'registry', 'static-data', 'knowledge');
 
 // Category directories to copy from the registry
 const CATEGORY_DIRS = ['principles', 'languages', 'tools', 'patterns'];
@@ -111,9 +111,9 @@ function cloneFromGit() {
     return false;
   }
 
-  const knowledgeDir = path.join(tmpDir, 'knowledge');
+  const knowledgeDir = path.join(tmpDir, 'static-data', 'knowledge');
   if (!fs.existsSync(knowledgeDir)) {
-    console.log('  No knowledge/ directory in registry');
+    console.log('  No static-data/knowledge/ directory in registry');
     return false;
   }
 

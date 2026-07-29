@@ -36,7 +36,7 @@ function ensureOutputDir() {
  * Strategy A: Copy awesome JSON files from a local registry path.
  */
 function copyFromLocal() {
-  const localAwesomeDir = path.join(LOCAL_REGISTRY_DIR, 'awesome');
+  const localAwesomeDir = path.join(LOCAL_REGISTRY_DIR, 'static-data', 'awesome');
   if (!fs.existsSync(localAwesomeDir)) return false;
   
   const files = fs.readdirSync(localAwesomeDir).filter(
@@ -82,9 +82,9 @@ function cloneFromGitHub() {
       });
     }
 
-    const awesomeDir = path.join(cacheDir, 'awesome');
+    const awesomeDir = path.join(cacheDir, 'static-data', 'awesome');
     if (!fs.existsSync(awesomeDir)) {
-      console.warn('  ⚠ No awesome/ directory in registry');
+      console.warn('  ⚠ No static-data/awesome/ directory in registry');
       return false;
     }
 

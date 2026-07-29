@@ -2,6 +2,9 @@
 
 import React, { useState, useEffect } from 'react';
 import { Icon, Button } from '@/presentation/__components';
+import { cn } from '@/application/lib/utils';
+
+// ─── Types ──────────────────────────────────────────────────────────
 
 interface PhProduct {
   id: string;
@@ -13,28 +16,81 @@ interface PhProduct {
   slug: string;
   votesCount: number;
   commentsCount: number;
+  reviewsCount: number;
+  reviewsRating: number;
+  dailyRank: number | null;
   featuredAt: string | null;
   createdAt: string;
   makers: { name: string; username: string }[];
   topics: { name: string; slug: string }[];
   thumbnail: { type: string; url: string } | null;
+  media: Array<{ type: string; url: string; videoUrl: string | null }>;
 }
 
-interface PhCache {
+interface PhDayFile {
+  date: string;
   fetchedAt: string;
-  count: number;
-  products: PhProduct[];
+  totalCount: number;
+  posts: PhProduct[];
 }
 
-const PRODUCTS_TO_SHOW = 8;
+interface PhIndex {
+  type: 'producthunt';
+  fetchedAt: string;
+  lastFetchedDate: string;
+  firstFetchedDate: string;
+  totalDaysFetched: number;
+  totalProducts: number;
+  availableDates: string[];
+}
 
-// Local build cache — populated by scripts/fetch-yc-cache.mjs (clones registry at build time)
-const PH_PRODUCTS_URL = '/ph-cache/products.json';
+const PRODUCTS_TO_SHOW = 12;
+const MAX_DATE_FALLBACKS = 5; // Try up to 5 most recent days
+
+function getDomain(url: string): string | null {
+  try { return new URL(url).hostname; } catch { return null; }
+}
+
+function ProductThumbnail({ thumbnail, name, size = 80 }: { thumbnail: { type: string; url: string } | null; name: string; size?: number }) {
+  if (!thumbnail?.url) return null;
+  return (
+    <img
+      src={thumbnail.url}
+      alt={name}
+      width={size}
+      height={size}
+      className="shrink-0 rounded-lg object-cover bg-surface-secondary"
+      onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }}
+      loading="lazy"
+    />
+  );
+}
+
+function ProductLogo({ url, name, size = 32 }: { url: string; name: string; size?: number }) {
+  const domain = getDomain(url);
+  if (!domain) return null;
+  return (
+    <img
+      src={`https://www.google.com/s2/favicons?domain=${domain}&sz=64`}
+      alt={name}
+      width={size}
+      height={size}
+      className="shrink-0 rounded-lg bg-white/10"
+      onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }}
+      loading="lazy"
+    />
+  );
+}
+
+// ─── Main Component ─────────────────────────────────────────────────
 
 export function HomeProductHunt() {
   const [products, setProducts] = useState<PhProduct[]>([]);
+  const [latestDate, setLatestDate] = useState<string>('');
+  const [dateLabel, setDateLabel] = useState<string>('');
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [selectedProduct, setSelectedProduct] = useState<PhProduct | null>(null);
 
   useEffect(() => {
     let mounted = true;
@@ -44,17 +100,65 @@ export function HomeProductHunt() {
       setError(null);
 
       try {
-        const res = await fetch(PH_PRODUCTS_URL);
-        if (!res.ok) throw new Error('Product Hunt data not available');
-        const data: PhCache = await res.json();
+        // Fetch index to find available dates
+        const indexRes = await fetch('/ph-cache/index.json');
+        if (!indexRes.ok) throw new Error('Product Hunt index not available');
+        const index: PhIndex = await indexRes.json();
         if (!mounted) return;
 
-        // Sort by votesCount (descending), take top N
-        const sorted = [...data.products]
-          .sort((a, b) => (b.votesCount || 0) - (a.votesCount || 0))
-          .slice(0, PRODUCTS_TO_SHOW);
+        const availableDates = index.availableDates;
+        if (!availableDates || availableDates.length === 0) {
+          throw new Error('No Product Hunt data available');
+        }
 
-        setProducts(sorted);
+        // Try dates in reverse order (newest first) until we find one with products
+        const reversedDates = [...availableDates].reverse();
+        let foundProducts: PhProduct[] = [];
+        let foundDate = '';
+
+        for (let i = 0; i < Math.min(reversedDates.length, MAX_DATE_FALLBACKS); i++) {
+          const dateFile = reversedDates[i];
+          const dayRes = await fetch(`/ph-cache/${dateFile}.json`);
+          if (!dayRes.ok) continue;
+
+          const dayData: PhDayFile = await dayRes.json();
+          if (dayData.posts && dayData.posts.length > 0) {
+            foundProducts = dayData.posts;
+            foundDate = dateFile;
+            break;
+          }
+        }
+
+        // If still no products, try products.json as ultimate fallback
+        if (foundProducts.length === 0) {
+          const fallbackRes = await fetch('/ph-cache/products.json');
+          if (fallbackRes.ok) {
+            const data = await fallbackRes.json() as { products: PhProduct[] };
+            foundProducts = data.products || [];
+            foundDate = 'All time';
+          }
+        }
+
+        if (mounted && foundProducts.length > 0) {
+          // Sort by votes descending, take top N
+          const sorted = [...foundProducts]
+            .sort((a, b) => (b.votesCount || 0) - (a.votesCount || 0))
+            .slice(0, PRODUCTS_TO_SHOW);
+          setProducts(sorted);
+
+          // Build a human-readable label
+          if (foundDate.length >= 10) {
+            const datePart = foundDate.slice(0, 10);
+            setLatestDate(datePart);
+            setDateLabel(new Date(datePart).toLocaleDateString('en-US', {
+              weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'
+            }));
+          } else {
+            setDateLabel(foundDate);
+          }
+        } else if (mounted) {
+          setError('No products found in recent data');
+        }
       } catch (err) {
         if (mounted) {
           setError(err instanceof Error ? err.message : 'Failed to load');
@@ -69,34 +173,45 @@ export function HomeProductHunt() {
   }, []);
 
   return (
-    <section className="py-20 sm:py-28 bg-white">
+    <section className="py-16 sm:py-24 bg-white">
       <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
         {/* Section header */}
-        <div className="mb-12">
-          <div className="inline-flex items-center gap-2 px-3 py-1.5 text-[10px] font-bold uppercase tracking-widest bg-red-500 text-white mb-5">
-            <span className="w-1.5 h-1.5 rounded-full bg-white animate-pulse" />
+        <div className="mb-12 sm:mb-16">
+          <div className="inline-flex items-center gap-3 px-4 py-2 text-sm font-bold uppercase tracking-widest bg-red-500 text-white mb-6">
+            <span className="w-2 h-2 rounded-full bg-white animate-pulse" />
             Product Hunt
           </div>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-fg tracking-tight uppercase leading-tight">
-            Trending&nbsp;
+          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-fg tracking-tight uppercase leading-tight">
+            Latest&nbsp;
             <span className="text-red-500">Products</span>
           </h2>
-          <p className="mt-3 text-sm text-fg-secondary max-w-xl">
-            Popular products and tools launching on Product Hunt, ranked by upvotes.
+          <p className="mt-4 text-lg text-fg-secondary max-w-2xl">
+            The freshest product launches from Product Hunt, ranked by upvotes.
+            {dateLabel && (
+              <span className="block mt-2 text-base text-fg-muted">
+                Most recent data from <span className="font-semibold">{dateLabel}</span>
+              </span>
+            )}
           </p>
         </div>
 
         {/* Loading */}
         {isLoading && (
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-            {Array.from({ length: 8 }).map((_, i) => (
-              <div key={i} className="border border-border p-5">
-                <div className="h-5 w-3/4 bg-surface-secondary animate-pulse mb-3" />
-                <div className="h-3 w-full bg-surface-secondary animate-pulse mb-2" />
-                <div className="h-3 w-2/3 bg-surface-secondary animate-pulse mb-4" />
-                <div className="flex items-center gap-3">
-                  <div className="h-4 w-10 bg-surface-secondary animate-pulse" />
-                  <div className="h-4 w-16 bg-surface-secondary animate-pulse" />
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+            {Array.from({ length: 6 }).map((_, i) => (
+              <div key={i} className="border border-border p-6">
+                <div className="flex items-center gap-4 mb-4">
+                  <div className="w-20 h-20 bg-surface-secondary animate-pulse rounded-lg shrink-0" />
+                  <div className="flex-1 space-y-2">
+                    <div className="h-7 w-3/4 bg-surface-secondary animate-pulse" />
+                    <div className="h-5 w-full bg-surface-secondary animate-pulse" />
+                  </div>
+                </div>
+                <div className="h-5 w-full bg-surface-secondary animate-pulse mb-2" />
+                <div className="h-5 w-2/3 bg-surface-secondary animate-pulse mb-4" />
+                <div className="flex gap-4">
+                  <div className="h-5 w-16 bg-surface-secondary animate-pulse" />
+                  <div className="h-5 w-20 bg-surface-secondary animate-pulse" />
                 </div>
               </div>
             ))}
@@ -105,74 +220,90 @@ export function HomeProductHunt() {
 
         {/* Error */}
         {error && !isLoading && (
-          <div className="p-6 text-center border border-border">
-            <p className="text-sm text-fg-secondary mb-2">
-              Product Hunt data not available yet.
-            </p>
-            <p className="text-xs text-fg-muted/60">
-              Run the daily workflow in the registry repo to fetch Product Hunt data.
-            </p>
+          <div className="p-8 text-center border border-border">
+            <p className="text-lg text-fg-secondary mb-3">Product Hunt data not available yet.</p>
+            <p className="text-base text-fg-muted/60">Run the daily workflow to fetch Product Hunt data.</p>
           </div>
         )}
 
-        {/* Products grid */}
+        {/* Products grid — rich cards using all available data */}
         {!isLoading && !error && products.length > 0 && (
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-            {products.map((product, i) => (
-              <a
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+            {products.map((product) => (
+              <button
+                type="button"
                 key={product.id}
-                href={product.url || product.website || '#'}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group border border-border p-5 flex flex-col transition-all duration-300 hover:bg-red-500 hover:border-red-500"
+                onClick={() => setSelectedProduct(product)}
+                className="group border border-border p-6 flex flex-col text-left transition-all duration-300 hover:bg-red-500 hover:border-red-500 hover:scale-[1.02] hover:shadow-xl cursor-pointer w-full"
               >
-                <div className="flex items-start justify-between gap-2">
-                  <h3 className="text-sm font-bold uppercase tracking-wide text-fg transition-colors duration-300 group-hover:text-white flex-1">
-                    {product.name}
-                  </h3>
-                  {product.votesCount > 0 && (
-                    <span className="shrink-0 flex items-center gap-1 text-[10px] font-bold text-fg-muted transition-colors duration-300 group-hover:text-white/80">
-                      <Icon name="arrow-up" size={12} />
-                      {product.votesCount}
+                {/* Thumbnail + Name + Votes */}
+                <div className="flex items-start gap-4 mb-4">
+                  <ProductThumbnail thumbnail={product.thumbnail} name={product.name} size={80} />
+                  <div className="min-w-0 flex-1">
+                    <div className="flex items-start justify-between gap-2">
+                      <h3 className="text-lg font-bold uppercase tracking-wide text-fg transition-colors duration-300 group-hover:text-white">
+                        {product.name}
+                      </h3>
+                      {product.votesCount > 0 && (
+                        <span className="shrink-0 flex items-center gap-1.5 text-base font-bold text-fg-muted transition-colors duration-300 group-hover:text-white/80">
+                          <Icon name="arrow-up" size={16} />
+                          {product.votesCount}
+                        </span>
+                      )}
+                    </div>
+                    <p className="mt-1 text-sm text-fg-secondary leading-relaxed transition-colors duration-300 group-hover:text-white/70 line-clamp-2">
+                      {product.tagline}
+                    </p>
+                  </div>
+                </div>
+
+                {/* Description */}
+                {product.description && (
+                  <p className="mt-1 text-sm text-fg-tertiary leading-relaxed transition-colors duration-300 group-hover:text-white/60 line-clamp-2">
+                    {product.description}
+                  </p>
+                )}
+
+                {/* Topics + Makers */}
+                <div className="mt-auto pt-4 flex items-center gap-2 flex-wrap">
+                  {(product.topics ?? []).slice(0, 3).map((topic) => (
+                    <span
+                      key={topic.slug}
+                      className="px-2.5 py-1 text-xs font-semibold uppercase tracking-wider bg-surface-secondary text-fg-muted transition-colors duration-300 group-hover:bg-white/20 group-hover:text-white/80"
+                    >
+                      {topic.name}
+                    </span>
+                  ))}
+                  {(product.makers ?? []).length > 0 && (
+                    <span className="text-xs text-fg-muted/60 ml-auto transition-colors duration-300 group-hover:text-white/50">
+                      by {product.makers[0].name}
+                    </span>
+                  )}
+                  {product.commentsCount > 0 && (
+                    <span className="text-xs text-fg-muted/40 flex items-center gap-1 transition-colors duration-300 group-hover:text-white/40">
+                      {product.commentsCount} comments
                     </span>
                   )}
                 </div>
-                {product.tagline && (
-                  <p className="mt-2 text-xs text-fg-secondary leading-relaxed transition-colors duration-300 group-hover:text-white/80 line-clamp-2">
-                    {product.tagline}
-                  </p>
-                )}
-                {product.topics && product.topics.length > 0 && (
-                  <div className="mt-auto pt-3 flex items-center gap-1 flex-wrap">
-                    {product.topics.slice(0, 3).map((topic) => (
-                      <span
-                        key={topic.slug}
-                        className="px-1.5 py-0.5 text-[8px] font-semibold uppercase tracking-wider bg-surface-secondary text-fg-muted transition-colors duration-300 group-hover:bg-white/20 group-hover:text-white/80"
-                      >
-                        {topic.name}
-                      </span>
-                    ))}
-                  </div>
-                )}
-              </a>
+              </button>
             ))}
           </div>
         )}
 
         {/* Empty */}
         {!isLoading && !error && products.length === 0 && (
-          <div className="border border-border p-10 text-center">
-            <p className="text-sm text-fg-secondary">No Product Hunt data available.</p>
-            <p className="text-xs text-fg-muted/60 mt-1">Run the daily update workflow first.</p>
+          <div className="border border-border p-12 text-center">
+            <p className="text-lg text-fg-secondary">No Product Hunt products available.</p>
+            <p className="text-base text-fg-muted/60 mt-2">Run the daily update workflow first.</p>
           </div>
         )}
 
         {/* CTA */}
-        <div className="mt-10 text-center">
+        <div className="mt-12 text-center">
           <Button
             variant="purpleGhost"
-            size="default"
-            icon={<Icon name="arrow-right" size={14} />}
+            size="lg"
+            icon={<Icon name="arrow-right" size={18} />}
             iconPosition="right"
             onClick={() => { window.location.href = 'https://www.producthunt.com'; }}
           >
@@ -180,6 +311,138 @@ export function HomeProductHunt() {
           </Button>
         </div>
       </div>
+
+      {/* Detail modal */}
+      {selectedProduct && (
+        <ProductModal product={selectedProduct} onClose={() => setSelectedProduct(null)} />
+      )}
     </section>
+  );
+}
+
+// ─── Product Detail Modal ───────────────────────────────────────────
+
+function ProductModal({ product, onClose }: { product: PhProduct; onClose: () => void }) {
+  useEffect(() => {
+    const handler = (e: KeyboardEvent) => { if (e.key === 'Escape') onClose(); };
+    document.addEventListener('keydown', handler);
+    document.body.style.overflow = 'hidden';
+    return () => {
+      document.removeEventListener('keydown', handler);
+      document.body.style.overflow = '';
+    };
+  }, [onClose]);
+
+  return (
+    <div
+      className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 bg-black/60 backdrop-blur-sm"
+      onClick={(e) => { if (e.target === e.currentTarget) onClose(); }}
+    >
+      <div className="relative w-full max-w-2xl max-h-[85vh] overflow-y-auto bg-white shadow-2xl">
+        <button
+          type="button"
+          onClick={onClose}
+          className="absolute top-4 right-4 z-10 w-10 h-10 flex items-center justify-center bg-surface-secondary hover:bg-red-500 hover:text-white transition-colors"
+        >
+          <Icon name="x" size={20} />
+        </button>
+
+        {/* Header */}
+        <div className="px-8 pt-8 pb-6 border-b border-border">
+          <div className="flex items-start gap-5">
+            {product.thumbnail?.url ? (
+              <ProductThumbnail thumbnail={product.thumbnail} name={product.name} size={96} />
+            ) : (
+              <ProductLogo url={product.website || product.url} name={product.name} size={64} />
+            )}
+            <div className="min-w-0 flex-1">
+              <h2 className="text-2xl font-bold uppercase tracking-wide text-fg">{product.name}</h2>
+              <p className="mt-2 text-lg text-fg-secondary leading-relaxed">{product.tagline}</p>
+              <div className="mt-3 flex items-center gap-4">
+                {product.votesCount > 0 && (
+                  <span className="flex items-center gap-1.5 text-base font-bold text-fg-muted">
+                    <Icon name="arrow-up" size={16} />
+                    {product.votesCount} upvotes
+                  </span>
+                )}
+                {product.commentsCount > 0 && (
+                  <span className="text-base text-fg-muted/60 flex items-center gap-1.5">
+                    {product.commentsCount} comments
+                  </span>
+                )}
+                {product.reviewsCount > 0 && (
+                  <span className="text-base text-fg-muted/60">
+                    {product.reviewsRating?.toFixed(1)} ★ ({product.reviewsCount} reviews)
+                  </span>
+                )}
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Body */}
+        <div className="px-8 py-6 space-y-6">
+          {product.description && (
+            <div>
+              <h3 className="text-xs font-bold uppercase tracking-widest text-fg-muted mb-2">Description</h3>
+              <p className="text-base text-fg-secondary leading-relaxed">{product.description}</p>
+            </div>
+          )}
+
+          {/* Topics */}
+          {product.topics && product.topics.length > 0 && (
+            <div>
+              <h3 className="text-xs font-bold uppercase tracking-widest text-fg-muted mb-3">Topics</h3>
+              <div className="flex flex-wrap gap-2">
+                {product.topics.map((topic) => (
+                  <span key={topic.slug} className="px-3 py-1 text-xs font-semibold uppercase tracking-wider bg-surface-secondary text-fg-muted">
+                    {topic.name}
+                  </span>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Makers */}
+          {product.makers && product.makers.length > 0 && (
+            <div>
+              <h3 className="text-xs font-bold uppercase tracking-widest text-fg-muted mb-3">Makers</h3>
+              <div className="flex flex-wrap gap-3">
+                {product.makers.map((maker) => (
+                  <span key={maker.username} className="text-sm font-semibold text-fg">
+                    {maker.name}
+                    <span className="text-fg-muted font-normal"> @{maker.username}</span>
+                  </span>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Actions */}
+          <div className="flex items-center gap-4 pt-4 border-t border-border">
+            <a
+              href={product.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-6 py-3 bg-red-500 text-white text-sm font-bold uppercase tracking-wider hover:bg-red-600 transition-colors"
+            >
+              <Icon name="external-link" size={16} />
+              View on Product Hunt
+            </a>
+            {product.website && (
+              <a
+                href={product.website}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-6 py-3 border border-border text-fg text-sm font-bold uppercase tracking-wider hover:bg-surface-secondary transition-colors"
+              >
+                <Icon name="globe" size={16} />
+                Visit Website
+              </a>
+            )}
+          </div>
+        </div>
+      </div>
+    </div>
   );
 }
