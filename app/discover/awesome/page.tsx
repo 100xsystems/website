@@ -68,6 +68,7 @@ export default async function AwesomePage() {
   const allLinks: AwesomeLink[] = [];
   const sourceLabels: Record<string, string> = {};
   const sourceStars: Record<string, number> = {};
+  const categoryCounts: Record<string, number> = {};
   const seenUrls = new Set<string>();
 
   const loadedLists = await Promise.all(
@@ -86,34 +87,52 @@ export default async function AwesomePage() {
       if (seenUrls.has(key)) continue;
       seenUrls.add(key);
       allLinks.push(link);
+      const cat = link.category || 'Uncategorized';
+      categoryCounts[cat] = (categoryCounts[cat] || 0) + 1;
     }
   }
 
+  const sortedCategories = Object.entries(categoryCounts)
+    .sort(([, a], [, b]) => b - a)
+    .map(([cat]) => cat);
+
   return (
-    <main className="mx-auto max-w-[860px] px-4 py-16">
-      {/* Breadcrumb */}
-      <div className="flex items-center gap-2 text-xs text-fg-muted mb-6">
-        <Link href="/discover/feed" className="font-bold uppercase tracking-wider hover:text-accent transition-colors">
-          Feed
-        </Link>
-        <span>/</span>
-        <span className="font-bold uppercase tracking-wider text-fg">Awesome Lists</span>
-      </div>
+    <main className="mx-auto py-16 bg-white">
+      <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
+        {/* Breadcrumb */}
+        <div className="flex items-center gap-2 text-xs text-fg-muted mb-6">
+          <Link href="/discover/feed" className="font-bold uppercase tracking-wider hover:text-accent transition-colors">
+            Feed
+          </Link>
+          <span>/</span>
+          <span className="font-bold uppercase tracking-wider text-fg">Awesome Lists</span>
+        </div>
 
-      {/* Header */}
-      <div className="mb-8">
-        <h1 className="text-xl font-bold text-fg uppercase tracking-wider">Awesome Lists</h1>
-        <p className="text-sm text-fg-muted mt-1.5 max-w-2xl">
-          {allLinks.length.toLocaleString()} resources from {index.listCount} curated GitHub Awesome lists.
-        </p>
-      </div>
+        {/* Header */}
+        <div className="mb-8">
+          <div className="inline-flex items-center gap-3 px-4 py-2 text-sm font-bold uppercase tracking-widest bg-accent text-white mb-6">
+            <span className="w-2 h-2 rounded-full bg-white animate-pulse" />
+            AWESOME LISTS
+          </div>
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-fg tracking-tight uppercase leading-tight">
+            Awesome&nbsp;
+            <span className="text-accent">Resources</span>
+          </h1>
+          <p className="mt-4 text-lg text-fg-secondary max-w-2xl">
+            {allLinks.length.toLocaleString()} resources from {index.listCount} curated GitHub Awesome lists.
+          </p>
+          <p className="mt-2 text-base text-fg-muted/60">{sortedCategories.length} categories</p>
+        </div>
 
-      {/* Feed */}
-      <AwesomeFeed
-        links={allLinks}
-        sourceLabels={sourceLabels}
-        sourceStars={sourceStars}
-      />
+        {/* Feed */}
+        <AwesomeFeed
+          links={allLinks}
+          sourceLabels={sourceLabels}
+          sourceStars={sourceStars}
+          categories={sortedCategories}
+          categoryCounts={categoryCounts}
+        />
+      </div>
     </main>
   );
 }
