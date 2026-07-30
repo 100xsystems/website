@@ -45,6 +45,7 @@ interface TypeConfig {
   description: string;
   itemCount: string;
   filters: FilterDef[];
+  defaultQuery?: string;
 }
 
 interface FilterDef {
@@ -98,6 +99,7 @@ const TYPE_CONFIGS: Record<string, TypeConfig> = {
   'hn': {
     id: 'hn', label: 'Hacker News', type: 'live', bgColor: 'bg-orange-600', hoverBg: 'hover:bg-orange-600', textColor: 'text-orange-600', description: 'Top stories and discussions from the Y Combinator community.',
     itemCount: 'Live search',
+    defaultQuery: 'show',
     filters: [
       { id: 'sort', label: 'Sort', type: 'sort', options: [{ value: 'points', label: 'By Points' }, { value: 'date', label: 'By Date' }] },
     ],
@@ -105,6 +107,7 @@ const TYPE_CONFIGS: Record<string, TypeConfig> = {
   'github': {
     id: 'github', label: 'GitHub Repos', type: 'live', bgColor: 'bg-gray-800', hoverBg: 'hover:bg-gray-800', textColor: 'text-gray-800', description: 'Search public repositories by stars, language, and topics.',
     itemCount: 'Live search',
+    defaultQuery: 'stars:>1000',
     filters: [
       { id: 'sort', label: 'Sort', type: 'sort', options: [{ value: 'stars', label: 'By Stars' }, { value: 'forks', label: 'By Forks' }, { value: 'updated', label: 'Recently Updated' }] },
     ],
@@ -112,6 +115,7 @@ const TYPE_CONFIGS: Record<string, TypeConfig> = {
   'stackoverflow': {
     id: 'stackoverflow', label: 'Stack Overflow', type: 'live', bgColor: 'bg-orange-500', hoverBg: 'hover:bg-orange-500', textColor: 'text-orange-500', description: 'Q&A for programming topics, sorted by votes and relevance.',
     itemCount: 'Live search',
+    defaultQuery: 'javascript',
     filters: [
       { id: 'sort', label: 'Sort', type: 'sort', options: [{ value: 'votes', label: 'By Votes' }, { value: 'answers', label: 'By Answers' }] },
       { id: 'answered', label: 'Only Answered', type: 'toggle' },
@@ -120,6 +124,7 @@ const TYPE_CONFIGS: Record<string, TypeConfig> = {
   'npm': {
     id: 'npm', label: 'NPM Packages', type: 'live', bgColor: 'bg-red-600', hoverBg: 'hover:bg-red-600', textColor: 'text-red-600', description: 'Search the npm registry for packages by score, quality, and maintenance.',
     itemCount: 'Live search',
+    defaultQuery: 'react',
     filters: [
       { id: 'sort', label: 'Sort', type: 'sort', options: [{ value: 'score', label: 'By Score' }, { value: 'popularity', label: 'By Popularity' }] },
     ],
@@ -127,6 +132,7 @@ const TYPE_CONFIGS: Record<string, TypeConfig> = {
   'devto': {
     id: 'devto', label: 'Dev.to', type: 'live', bgColor: 'bg-gray-800', hoverBg: 'hover:bg-gray-800', textColor: 'text-gray-800', description: 'Developer articles and discussions from the DEV community.',
     itemCount: 'Live search',
+    defaultQuery: 'programming',
     filters: [
       { id: 'sort', label: 'Sort', type: 'sort', options: [{ value: 'reactions', label: 'By Reactions' }, { value: 'date', label: 'Most Recent' }] },
     ],
@@ -134,6 +140,7 @@ const TYPE_CONFIGS: Record<string, TypeConfig> = {
   'medium': {
     id: 'medium', label: 'Medium', type: 'live', bgColor: 'bg-black', hoverBg: 'hover:bg-black', textColor: 'text-black', description: 'Articles and stories from Medium publications by tag.',
     itemCount: 'Live search',
+    defaultQuery: 'technology',
     filters: [
       { id: 'sort', label: 'Sort', type: 'sort', options: [{ value: 'date', label: 'Most Recent' }] },
     ],
@@ -141,11 +148,13 @@ const TYPE_CONFIGS: Record<string, TypeConfig> = {
   'ddg': {
     id: 'ddg', label: 'DuckDuckGo', type: 'live', bgColor: 'bg-orange-600', hoverBg: 'hover:bg-orange-600', textColor: 'text-orange-600', description: 'Instant answers and related topics from DuckDuckGo.',
     itemCount: 'Live search',
+    defaultQuery: 'programming',
     filters: [],
   },
   'reddit': {
     id: 'reddit', label: 'Reddit', type: 'live', bgColor: 'bg-orange-500', hoverBg: 'hover:bg-orange-500', textColor: 'text-orange-500', description: 'Discussions and posts from subreddits across programming topics.',
     itemCount: 'Live search',
+    defaultQuery: 'programming',
     filters: [
       { id: 'sort', label: 'Sort', type: 'sort', options: [{ value: 'points', label: 'By Points' }, { value: 'comments', label: 'By Comments' }] },
     ],
@@ -153,6 +162,7 @@ const TYPE_CONFIGS: Record<string, TypeConfig> = {
   'wikipedia': {
     id: 'wikipedia', label: 'Wikipedia', type: 'live', bgColor: 'bg-gray-700', hoverBg: 'hover:bg-gray-700', textColor: 'text-gray-700', description: 'Search Wikipedia articles and reference pages.',
     itemCount: 'Live search',
+    defaultQuery: 'software engineering',
     filters: [],
   },
 };
@@ -353,19 +363,35 @@ export default function DiscoverTypePage() {
   useEffect(() => {
     if (!config || config.type !== 'live') return;
     let mounted = true;
-    setLoading(true); setError(null);
 
-    if (debouncedQuery.trim().length < 2) {
+    // Determine effective query: use user query if entered, otherwise use defaultQuery
+    const effectiveQuery = query.trim().length >= 2
+      ? query.trim()
+      : (config.defaultQuery && query.trim().length === 0 ? config.defaultQuery : '');
+
+    if (!effectiveQuery) {
       if (mounted) { setItems([]); setLoading(false); }
       return;
     }
 
-    loadLive(config.id, debouncedQuery)
+    setLoading(true); setError(null);
+
+    loadLive(config.id, effectiveQuery)
       .then((data) => { if (mounted) setItems(data); })
       .catch((err) => { if (mounted) setError(err instanceof Error ? err.message : String(err)); })
       .finally(() => { if (mounted) setLoading(false); });
     return () => { mounted = false; };
-  }, [config?.id, debouncedQuery]);
+  }, [config?.id, debouncedQuery, query]);
+
+  // Auto-fire default query on mount for live types
+  useEffect(() => {
+    if (!config || config.type !== 'live') return;
+    if (query.trim().length === 0 && config.defaultQuery) {
+      setQuery(config.defaultQuery);
+    }
+    // Only run once on mount when config is determined
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [config?.id]);
 
   // ── Filter and sort items ──────────────────────────────────────
   const filteredItems = useMemo(() => {

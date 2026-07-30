@@ -526,7 +526,7 @@ export function HomeYC() {
             size="lg"
             icon={<Icon name="arrow-right" size={18} />}
             iconPosition="right"
-            onClick={() => { window.location.href = '/yc'; }}
+            onClick={() => { window.location.href = '/discover/yc'; }}
           >
             View All YC Companies
           </Button>

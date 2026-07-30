@@ -141,7 +141,7 @@ interface SourceConfig {
 }
 
 const SOURCE_ROUTES: Record<string, string> = {
-  knowledge: '/discover/knowledge',
+  knowledge: '/knowledge',
   feed: '/discover/feed',
   yc: '/discover/yc',
   ph: '/discover/ph',

@@ -220,7 +220,7 @@ export function HomeFeed({ initialArticles }: HomeFeedProps) {
             size="lg"
             icon={<Icon name="arrow-right" size={18} />}
             iconPosition="right"
-            onClick={() => { window.location.href = '/feed'; }}
+            onClick={() => { window.location.href = '/discover/feed'; }}
           >
             View All Feeds
           </Button>

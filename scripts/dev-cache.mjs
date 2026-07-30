@@ -20,7 +20,6 @@ import * as path from 'node:path';
 
 const REGISTRY_REPO = process.env.REGISTRY_REPO || '100xsystems/registry';
 const REGISTRY_BRANCH = process.env.REGISTRY_BRANCH || 'main';
-const LOCAL_REGISTRY_DIR = path.resolve(process.cwd(), '..', 'registry');
 const CLONE_DIR = path.resolve(process.cwd(), '.registry-cache');
 const PUBLIC_DIR = path.resolve(process.cwd(), 'public');
 
@@ -28,13 +27,6 @@ const PUBLIC_DIR = path.resolve(process.cwd(), 'public');
 
 function ensureDir(dir) {
   if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
-}
-
-/** Check if a directory contains any actual .json data files (not .gitkeep) */
-function hasJsonData(dir) {
-  if (!fs.existsSync(dir)) return false;
-  const files = fs.readdirSync(dir);
-  return files.some((f) => f.endsWith('.json') && f !== '.gitkeep');
 }
 
 /** Shallow clone or pull the registry repo from GitHub */
@@ -169,26 +161,16 @@ function buildPhCache(baseDir) {
 function main() {
   const startTime = Date.now();
 
-  // Decide source: local filesystem (dev) or GitHub clone (CI)
-  const localDynamic = path.join(LOCAL_REGISTRY_DIR, 'dynamic-data');
-  const localHasData = hasJsonData(path.join(localDynamic, 'feeds')) ||
-                       hasJsonData(path.join(localDynamic, 'yc')) ||
-                       hasJsonData(path.join(localDynamic, 'producthunt'));
-
+  // Always clone from GitHub — never use a local registry
+  console.log('\n📦 Cloning registry from GitHub...');
   let registryBaseDir;
-  if (localHasData) {
-    registryBaseDir = LOCAL_REGISTRY_DIR;
-    console.log(`\n📦 Using local registry: ${LOCAL_REGISTRY_DIR}`);
-  } else {
-    console.log('\n📦 Cloning registry from GitHub...');
-    try {
-      cloneFromGitHub();
-      registryBaseDir = CLONE_DIR;
-    } catch (err) {
-      console.error(`  ✗ Failed to clone registry: ${err.message}`);
-      console.error(`  ✗ Ensure the registry repo exists at https://github.com/${REGISTRY_REPO}`);
-      process.exit(1);
-    }
+  try {
+    cloneFromGitHub();
+    registryBaseDir = CLONE_DIR;
+  } catch (err) {
+    console.error(`  ✗ Failed to clone registry: ${err.message}`);
+    console.error(`  ✗ Ensure the registry repo exists at https://github.com/${REGISTRY_REPO}`);
+    process.exit(1);
   }
 
   buildFeedCache(registryBaseDir);

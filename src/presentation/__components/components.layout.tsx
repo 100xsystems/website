@@ -62,6 +62,9 @@ export function Dropdown({ trigger, items, align = 'left', className, onItemSele
     setOpen((prev) => !prev);
   };
 
+  // Detect if items have featured items — if so, render 2-column grid
+  const hasFeatured = items.some((item) => item.featured);
+
   return (
     <div ref={ref} className="relative" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
       <button onClick={handleClick} className="inline-flex items-center">
@@ -82,34 +85,77 @@ export function Dropdown({ trigger, items, align = 'left', className, onItemSele
               className,
             )}
           >
-            {/* Single-column vertical dropdown — no border, no padding on container */}
-            <div className="bg-accent-bg p-0 min-w-[220px]">
-              <div className="flex flex-col">
-                {items.map((item) => (
-                  <a
-                    key={item.id}
-                    href={item.href || '#'}
-                    className="group flex items-center gap-3 px-5 py-4 transition-all duration-200 bg-white hover:bg-accent hover:text-white"
-                    onClick={() => { onItemSelect?.(item); setOpen(false); }}
-                  >
-                    {item.icon && (
-                      <span className="shrink-0 text-fg group-hover:text-white transition-colors">
-                        {item.icon}
-                      </span>
-                    )}
-                    <div className="flex flex-col gap-0.5">
-                      <span className="font-bold tracking-wide text-sm text-fg group-hover:text-white transition-colors">
-                        {item.label.toUpperCase()}
-                      </span>
-                      {item.description && (
-                        <span className="text-xs leading-relaxed text-fg-secondary group-hover:text-white/80 transition-colors uppercase tracking-wide font-medium">
-                          {item.description}
+            <div className="bg-accent-bg p-0">
+              {hasFeatured ? (
+                /* ── Two-column layout ── */
+                <div className="flex gap-0">
+                  {/* Featured items (left column) */}
+                  <div className="flex flex-col min-w-[240px]">
+                    {items.filter((i) => i.featured).map((item) => (
+                      <a
+                        key={item.id}
+                        href={item.href || '#'}
+                        className="group flex items-center gap-3 px-5 py-5 transition-all duration-200 bg-white hover:bg-accent hover:text-white border-r border-border"
+                        onClick={() => { onItemSelect?.(item); setOpen(false); }}
+                      >
+                        <div className="flex flex-col gap-0.5">
+                          <span className="font-bold tracking-wide text-sm text-fg group-hover:text-white transition-colors">
+                            {item.label.toUpperCase()}
+                          </span>
+                          {item.description && (
+                            <span className="text-xs leading-relaxed text-fg-secondary group-hover:text-white/80 transition-colors uppercase tracking-wide font-medium">
+                              {item.description}
+                            </span>
+                          )}
+                        </div>
+                      </a>
+                    ))}
+                  </div>
+                  {/* Regular items (right column) */}
+                  <div className="flex flex-col min-w-[200px]">
+                    {items.filter((i) => !i.featured).map((item) => (
+                      <a
+                        key={item.id}
+                        href={item.href || '#'}
+                        className="group flex items-center gap-3 px-4 py-3 transition-all duration-200 bg-white hover:bg-accent hover:text-white"
+                        onClick={() => { onItemSelect?.(item); setOpen(false); }}
+                      >
+                        <span className="font-bold tracking-wide text-sm text-fg group-hover:text-white transition-colors">
+                          {item.label.toUpperCase()}
+                        </span>
+                      </a>
+                    ))}
+                  </div>
+                </div>
+              ) : (
+                /* ── Single-column layout ── */
+                <div className="flex flex-col min-w-[220px]">
+                  {items.map((item) => (
+                    <a
+                      key={item.id}
+                      href={item.href || '#'}
+                      className="group flex items-center gap-3 px-5 py-4 transition-all duration-200 bg-white hover:bg-accent hover:text-white"
+                      onClick={() => { onItemSelect?.(item); setOpen(false); }}
+                    >
+                      {item.icon && (
+                        <span className="shrink-0 text-fg group-hover:text-white transition-colors">
+                          {item.icon}
                         </span>
                       )}
-                    </div>
-                  </a>
-                ))}
-              </div>
+                      <div className="flex flex-col gap-0.5">
+                        <span className="font-bold tracking-wide text-sm text-fg group-hover:text-white transition-colors">
+                          {item.label.toUpperCase()}
+                        </span>
+                        {item.description && (
+                          <span className="text-xs leading-relaxed text-fg-secondary group-hover:text-white/80 transition-colors uppercase tracking-wide font-medium">
+                            {item.description}
+                          </span>
+                        )}
+                      </div>
+                    </a>
+                  ))}
+                </div>
+              )}
             </div>
           </motion.div>
         )}
