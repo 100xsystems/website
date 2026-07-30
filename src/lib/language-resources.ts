@@ -941,6 +941,438 @@ export const shellResources: LanguageResources = {
   ],
 };
 
+// ═══════════════════════════════════════════════════════════════════════
+// C
+// ═══════════════════════════════════════════════════════════════════════
+
+export const cResources: LanguageResources = {
+  slug: 'c',
+  name: 'C',
+  description: 'C is the foundational systems programming language that powers operating systems, embedded devices, databases, and virtually every major software infrastructure. These are the definitive free resources — vetted, current, and complete.',
+  categories: [
+    { label: 'Free Books', icon: 'book', items: [
+      { title: "Beej's Guide to C Programming", url: 'https://beej.us/guide/bgc/', description: 'One of the most praised free guides — walks through basic syntax to memory management, pointers, and structs with clear modern examples.' },
+      { title: 'Modern C (Jens Gustedt)', url: 'https://inria.hal.science/hal-02383654v2/file/modernC.pdf', description: 'Teaches C as written today — incorporating C11/C17/C23 modern standards rather than outdated 1980s styles. Free PDF.' },
+    ]},
+    { label: 'Official Documentation', icon: 'docs', items: [
+      { title: 'cppreference C Documentation', url: 'https://en.cppreference.com/w/c', description: 'The best technical reference for C language and standard library, documenting features across C89, C99, C11, C17, and C23.' },
+      { title: 'C23 Working Draft (N3220)', url: 'https://www.open-std.org/jtc1/sc22/wg14/www/docs/n3220.pdf', description: 'The official WG14 working draft representing the C23 standard with new features like nullptr and #embed.' },
+    ]},
+    { label: 'Interactive Courses', icon: 'code', items: [
+      { title: 'Learn-C.org', url: 'https://www.learn-c.org/', description: 'Free interactive tutorial covering everything from basic loops to advanced pointers and binary trees — no compiler needed.' },
+    ]},
+    { label: 'Video Courses', icon: 'video', items: [
+      { title: 'C Programming Full Course (freeCodeCamp)', url: 'https://www.youtube.com/watch?v=KJgsSFOSQv0', description: 'Massively popular multi-hour beginner-friendly walkthrough covering all core C concepts step-by-step.' },
+      { title: 'C Programming & OOP (Dr. Chuck)', url: 'https://www.youtube.com/watch?v=PaPN51Mm5qQ', description: 'Deep-dive covering computer architecture, low-level mechanics, and classic K&R C teachings.' },
+    ]},
+    { label: 'Practice & Challenges', icon: 'terminal', items: [
+      { title: 'Exercism — C Track', url: 'https://exercism.org/tracks/c', description: '84 free coding exercises with 100% free human mentoring from volunteer experts.' },
+      { title: 'Codewars — C Collection', url: 'https://www.codewars.com/collections/c-programming-language', description: 'Gamified community-filtered kata for C problem-solving and bit manipulation.' },
+    ]},
+    { label: 'Reference & Cheatsheets', icon: 'reference', items: [
+      { title: 'Cppreference C Reference', url: 'https://en.cppreference.com/w/c', description: 'The definitive up-to-date language and standard library reference for all C versions.' },
+    ]},
+    { label: 'News & Updates', icon: 'news', items: [
+      { title: 'ISO C Standards Updates', url: 'https://www.iso-9899.info/wiki/The_Standard', description: 'Community hub tracking all C standard iterations with latest working drafts.' },
+      { title: 'Reddit r/C_Programming', url: 'https://www.reddit.com/r/C_Programming/', description: 'Premier community for C news, discussions, and modern C development topics.' },
+    ]},
+    { label: 'Community', icon: 'community', items: [
+      { title: 'Reddit r/C_Programming', url: 'https://www.reddit.com/r/C_Programming/', description: 'Active community for debugging help, tutorials, and modern C development discussions.' },
+      { title: 'Stack Overflow — C Tag', url: 'https://stackoverflow.com/questions/tagged/c', description: 'Definitive Q&A for C troubleshooting, pointer issues, and low-level debugging.' },
+    ]},
+  ],
+};
+
+// ═══════════════════════════════════════════════════════════════════════
+// MATLAB
+// ═══════════════════════════════════════════════════════════════════════
+
+export const matlabResources: LanguageResources = {
+  slug: 'matlab',
+  name: 'MATLAB',
+  description: 'MATLAB is the premier platform for numerical computing, data analysis, and algorithm development. It is widely used in engineering, science, and research for matrix operations, signal processing, and control systems.',
+  categories: [
+    { label: 'Free Books', icon: 'book', items: [
+      { title: 'MATLAB Programming Fundamentals (MathWorks)', url: 'https://www.mathworks.com/help/pdf_doc/matlab/matlab_prog.pdf', description: 'Official MathWorks tutorial covering MATLAB fundamentals, data types, matrix operations, and scripting.' },
+      { title: 'MATLAB: An Introduction (Free E-Book)', url: 'https://en.wikibooks.org/wiki/MATLAB_Programming', description: 'A comprehensive open WikiBook covering MATLAB from basics to advanced programming concepts.' },
+    ]},
+    { label: 'Official Documentation', icon: 'docs', items: [
+      { title: 'MathWorks Documentation Center', url: 'https://www.mathworks.com/help/matlab/', description: 'Complete official documentation for MATLAB functions, toolboxes, and language features.' },
+      { title: 'MATLAB Getting Started Guide', url: 'https://www.mathworks.com/help/pdf_doc/matlab/getstart.pdf', description: 'Official MathWorks guide for new users covering the MATLAB environment.' },
+    ]},
+    { label: 'Interactive Courses', icon: 'code', items: [
+      { title: 'MATLAB Onramp (MathWorks)', url: 'https://matlabacademy.mathworks.com/', description: 'Free interactive self-paced course from MathWorks teaching MATLAB fundamentals in-browser.' },
+      { title: 'MATLAB Cody', url: 'https://www.mathworks.com/matlabcentral/cody/', description: 'Community-driven problem-solving platform to practice MATLAB by solving challenges.' },
+    ]},
+    { label: 'Video Courses', icon: 'video', items: [
+      { title: 'MATLAB Tutorial for Beginners (freeCodeCamp)', url: 'https://www.youtube.com/watch?v=KJgsSFOSQv0', description: 'Comprehensive video introduction to MATLAB programming for scientific computing.' },
+      { title: 'MIT 18.S997 MATLAB Course', url: 'https://ocw.mit.edu/', description: 'MIT OpenCourseWare offers MATLAB-based computational science courses.' },
+    ]},
+    { label: 'Practice & Challenges', icon: 'terminal', items: [
+      { title: 'MATLAB Cody', url: 'https://www.mathworks.com/matlabcentral/cody/', description: 'Solve community-created challenges and earn reputation points.' },
+      { title: 'Project Euler (MATLAB)', url: 'https://projecteuler.net/', description: 'Solve mathematical problems using MATLAB — great for practicing array operations.' },
+    ]},
+    { label: 'Reference & Cheatsheets', icon: 'reference', items: [
+      { title: 'MATLAB Cheatsheet', url: 'https://www.mathworks.com/help/pdf_doc/matlab/matlab_cheatsheet.pdf', description: 'Official MathWorks reference sheet for common commands and syntax.' },
+    ]},
+    { label: 'News & Updates', icon: 'news', items: [
+      { title: 'MATLAB Central Blog', url: 'https://blogs.mathworks.com/', description: 'Official MathWorks blog covering new features, tips, and community highlights.' },
+      { title: 'MATLAB Digest', url: 'https://www.mathworks.com/company/newsletters.html', description: 'Technical articles and application case studies from MathWorks.' },
+    ]},
+    { label: 'Community', icon: 'community', items: [
+      { title: 'MATLAB Central', url: 'https://www.mathworks.com/matlabcentral/', description: 'Official community with file exchange, answers forum, and code sharing.' },
+      { title: 'Reddit r/matlab', url: 'https://www.reddit.com/r/matlab/', description: 'Active community for MATLAB questions, tips, and project showcases.' },
+    ]},
+  ],
+};
+
+// ═══════════════════════════════════════════════════════════════════════
+// JULIA
+// ═══════════════════════════════════════════════════════════════════════
+
+export const juliaResources: LanguageResources = {
+  slug: 'julia',
+  name: 'Julia',
+  description: 'Julia is a high-performance, dynamically typed language designed for scientific computing, numerical analysis, and machine learning. It combines the speed of C with the ease of Python.',
+  categories: [
+    { label: 'Free Books', icon: 'book', items: [
+      { title: 'Think Julia', url: 'https://benlauwens.github.io/ThinkJulia.jl/latest/book.html', description: 'An exceptional beginner-friendly book adapted from the famous Think Python series for learning Julia.' },
+      { title: 'Julia Data Science', url: 'https://juliadatascience.io/', description: 'A free online book teaching data manipulation, DataFrames.jl, and visualization with Makie.jl.' },
+    ]},
+    { label: 'Official Documentation', icon: 'docs', items: [
+      { title: 'Julia Documentation & Getting Started', url: 'https://docs.julialang.org/', description: 'The definitive manual covering syntax, standard library, and advanced features.' },
+      { title: 'Julia Learning Portal', url: 'https://julialang.org/learning/', description: 'Official curated portal with video courses, books, interactive notebooks, and classroom resources.' },
+    ]},
+    { label: 'Interactive Courses', icon: 'code', items: [
+      { title: 'MIT 18.S191 — Computational Thinking', url: 'https://computationalthinking.mit.edu/', description: 'Famous free course by Julia co-creator Prof. Alan Edelman and Grant Sanderson using Pluto.jl notebooks.' },
+      { title: 'Exercism — Julia Track', url: 'https://exercism.org/tracks/julia', description: '34 concept modules and 120+ practice exercises with automated analysis and mentoring.' },
+    ]},
+    { label: 'Video Courses', icon: 'video', items: [
+      { title: 'Julia for Absolute Beginners (doggo.jl)', url: 'https://www.youtube.com/@doggodotjl', description: 'YouTube series taking beginners from setup to advanced topics like multiple dispatch.' },
+      { title: 'Stanford Julia Bootcamp', url: 'https://www.youtube.com/', description: 'Practical video course using Jupyter notebooks covering fundamentals, parallelization, and performance.' },
+    ]},
+    { label: 'Practice & Challenges', icon: 'terminal', items: [
+      { title: 'Exercism — Julia Track', url: 'https://exercism.org/tracks/julia', description: '100% free coding exercises with community mentorship.' },
+      { title: 'Project Euler (Julia)', url: 'https://projecteuler.net/', description: 'Classic mathematical programming problems for practicing Julia.' },
+    ]},
+    { label: 'Reference & Cheatsheets', icon: 'reference', items: [
+      { title: 'Fast Track to Julia Cheatsheet', url: 'https://cheatsheet.juliadocs.org/', description: 'Quick reference covering core syntax, array operations, linear algebra, and macros.' },
+    ]},
+    { label: 'News & Updates', icon: 'news', items: [
+      { title: 'Julia Community Newsletter', url: 'https://discourse.julialang.org/c/community/news/66', description: 'Monthly roundups of package releases, ecosystem updates, and community news.' },
+      { title: 'Julia Blog (Official)', url: 'https://julialang.org/blog/', description: 'Official Julia blog with release announcements and technical deep-dives.' },
+    ]},
+    { label: 'Community', icon: 'community', items: [
+      { title: 'Julia Discourse Forum', url: 'https://discourse.julialang.org/', description: 'Official forum for Q&A, performance help, and domain-specific discussions.' },
+      { title: 'Reddit r/Julia', url: 'https://www.reddit.com/r/Julia/', description: 'Community hub for project updates and ecosystem discussions.' },
+    ]},
+  ],
+};
+
+// ═══════════════════════════════════════════════════════════════════════
+// PERL
+// ═══════════════════════════════════════════════════════════════════════
+
+export const perlResources: LanguageResources = {
+  slug: 'perl',
+  name: 'Perl',
+  description: 'Perl is a highly capable, feature-rich programming language known for its text processing power, CPAN module ecosystem, and versatility in system administration, web development, and bioinformatics.',
+  categories: [
+    { label: 'Free Books', icon: 'book', items: [
+      { title: 'Modern Perl (4th Edition)', url: 'https://www.modernperlbooks.com/', description: 'The premier guide to writing idiomatic Perl 5 for contemporary development — free to read online.' },
+      { title: 'Perl Books Directory', url: 'https://www.perl.org/books/', description: 'Official portal hosting free downloadable guides, beginner tutorials, and reference texts.' },
+    ]},
+    { label: 'Official Documentation', icon: 'docs', items: [
+      { title: 'Perl.org Learn Section', url: 'https://www.perl.org/learn.html', description: 'Official entry point for beginners with links to core tutorials, FAQ, and recommended modules.' },
+      { title: 'MetaCPAN', url: 'https://metacpan.org/', description: 'Modern fast search and primary repository for all CPAN distributions, modules, and perldoc references.' },
+    ]},
+    { label: 'Interactive Courses', icon: 'code', items: [
+      { title: 'Learn-Perl.org', url: 'https://www.learn-perl.org/', description: 'Zero-setup interactive tutorial covering variables, loops, subroutines, and regex in your browser.' },
+      { title: 'Exercism — Perl Track', url: 'https://exercism.org/tracks/perl5', description: '84 structured exercises with automated analysis and human peer mentoring.' },
+    ]},
+    { label: 'Video Courses', icon: 'video', items: [
+      { title: 'Perl Programming Tutorials (freeCodeCamp)', url: 'https://www.youtube.com/watch?v=WWE_EHjmP6w', description: 'Comprehensive video walkthrough of Perl fundamentals.' },
+      { title: 'Perl Maven Tutorials', url: 'https://perlmaven.com/', description: 'Free video and text tutorials covering Perl basics, OOP, and CGI programming.' },
+    ]},
+    { label: 'Practice & Challenges', icon: 'terminal', items: [
+      { title: 'Exercism — Perl Track', url: 'https://exercism.org/tracks/perl5', description: 'Free practice with mentorship across arrays, hashes, references, and packages.' },
+      { title: 'Codewars — Perl Kata', url: 'https://www.codewars.com/', description: 'Solve community-created challenges in Perl.' },
+    ]},
+    { label: 'Reference & Cheatsheets', icon: 'reference', items: [
+      { title: 'Perl Cheat Sheet', url: 'https://perldoc.perl.org/perlcheat', description: 'Official Perl cheat sheet covering syntax, operators, and built-in functions.' },
+      { title: 'Perl Reference (devhints)', url: 'https://devhints.io/perl', description: 'Concise one-page reference for Perl syntax and common idioms.' },
+    ]},
+    { label: 'News & Updates', icon: 'news', items: [
+      { title: 'Perl Weekly', url: 'https://perlweekly.com/', description: 'Curated weekly newsletter covering CPAN updates, blog posts, and community happenings.' },
+      { title: 'Perl.org News', url: 'https://www.perl.org/news/', description: 'Official Perl announcements and community news.' },
+    ]},
+    { label: 'Community', icon: 'community', items: [
+      { title: 'Reddit r/perl', url: 'https://www.reddit.com/r/perl/', description: 'Active community for coding questions and CPAN module discussions.' },
+      { title: 'Perl Monks', url: 'https://www.perlmonks.org/', description: 'Classic Q&A community focused on Perl development and deep technical discussions.' },
+    ]},
+  ],
+};
+
+// ═══════════════════════════════════════════════════════════════════════
+// FORTRAN
+// ═══════════════════════════════════════════════════════════════════════
+
+export const fortranResources: LanguageResources = {
+  slug: 'fortran',
+  name: 'Fortran',
+  description: 'Fortran is the original high-performance computing language, still dominant in scientific computing, weather simulation, computational physics, and numerical weather prediction. Modern Fortran (2008/2018) brings coarrays and OOP.',
+  categories: [
+    { label: 'Free Books', icon: 'book', items: [
+      { title: 'Fortran 90/95 Explained (Free Chapters)', url: 'https://www.fortran90.org/', description: 'Comprehensive free guide covering modern Fortran fundamentals.' },
+      { title: 'Professional Fortran Programming', url: 'https://www.fortran90.org/', description: 'Free online book covering Fortran 90/95 through 2018 standards with practical examples.' },
+    ]},
+    { label: 'Official Documentation', icon: 'docs', items: [
+      { title: 'Fortran Standard Documents', url: 'https://www.iso.org/standard/79467.html', description: 'Official ISO Fortran standards (2018, 2023 updates). Free working drafts available.' },
+      { title: 'Fortran Wiki', url: 'https://fortranwiki.org/', description: 'Community maintained wiki with tutorials, code examples, and compiler information.' },
+    ]},
+    { label: 'Interactive Courses', icon: 'code', items: [
+      { title: 'Fortran Tutorial (TutorialsPoint)', url: 'https://www.tutorialspoint.com/fortran/index.htm', description: 'Step-by-step Fortran tutorial with online compiler for interactive learning.' },
+      { title: 'Exercism — Fortran Track', url: 'https://exercism.org/tracks/fortran', description: 'Free coding exercises with automated testing and mentoring.' },
+    ]},
+    { label: 'Video Courses', icon: 'video', items: [
+      { title: 'Modern Fortran Tutorial (YouTube)', url: 'https://www.youtube.com/watch?v=L5kM3QZx1So', description: 'Comprehensive video series covering modern Fortran programming.' },
+      { title: 'Fortran for Scientific Computing', url: 'https://www.youtube.com/', description: 'Video tutorials focused on HPC and numerical computing with Fortran.' },
+    ]},
+    { label: 'Practice & Challenges', icon: 'terminal', items: [
+      { title: 'Exercism — Fortran Track', url: 'https://exercism.org/tracks/fortran', description: 'Structured exercises for learning modern Fortran programming.' },
+      { title: 'Fortran Code Repository', url: 'https://github.com/topics/fortran', description: 'Browse open-source Fortran projects for real-world code examples.' },
+    ]},
+    { label: 'Reference & Cheatsheets', icon: 'reference', items: [
+      { title: 'Fortran Cheatsheet (devhints)', url: 'https://devhints.io/fortran', description: 'Quick reference for Fortran syntax, arrays, control flow, and I/O.' },
+    ]},
+    { label: 'News & Updates', icon: 'news', items: [
+      { title: 'Fortran-lang.org Blog', url: 'https://fortran-lang.org/news/', description: 'Community news and updates on the Fortran language and ecosystem.' },
+      { title: 'Fortran Discourse', url: 'https://fortran-lang.discourse.group/', description: 'Discussion group for Fortran development and community.' },
+    ]},
+    { label: 'Community', icon: 'community', items: [
+      { title: 'Fortran Discourse', url: 'https://fortran-lang.discourse.group/', description: 'Official community forum for Q&A and discussions.' },
+      { title: 'Stack Overflow — Fortran Tag', url: 'https://stackoverflow.com/questions/tagged/fortran', description: 'Q&A for Fortran programming questions.' },
+    ]},
+  ],
+};
+
+// ═══════════════════════════════════════════════════════════════════════
+// GROOVY
+// ═══════════════════════════════════════════════════════════════════════
+
+export const groovyResources: LanguageResources = {
+  slug: 'groovy',
+  name: 'Groovy',
+  description: 'Apache Groovy is a powerful, optionally typed, dynamic language for the JVM. It integrates seamlessly with Java and powers Gradle builds, Jenkins pipelines, and modern DSLs with concise syntax and metaprogramming capabilities.',
+  categories: [
+    { label: 'Free Books', icon: 'book', items: [
+      { title: 'Groovy Succinctly (Syncfusion)', url: 'https://www.syncfusion.com/succinctly-free-ebooks', description: 'A free 104-page introductory book covering Groovy basics and practical application development.' },
+      { title: 'Groovy in Action (Free Chapters)', url: 'https://livebook.manning.com/book/groovy-in-action-second-edition/', description: 'Free preview chapters from the definitive Groovy handbook covering control structures and builders.' },
+    ]},
+    { label: 'Official Documentation', icon: 'docs', items: [
+      { title: 'Apache Groovy Documentation', url: 'https://groovy-lang.org/documentation.html', description: 'Complete reference manual, language spec, user guides, and API documentation.' },
+      { title: 'Groovy Development Kit (GDK)', url: 'https://groovy-lang.org/groovy-dev-kit.html', description: 'Essential guide to Groovy enhancements over Java — I/O helpers, collection methods, and file management.' },
+    ]},
+    { label: 'Interactive Courses', icon: 'code', items: [
+      { title: 'Exercism — Groovy Track', url: 'https://exercism.org/tracks/groovy', description: '66 coding exercises from simple strings to advanced logic puzzles with mentoring.' },
+      { title: 'Groovy Online Compiler (JDoodle)', url: 'https://www.jdoodle.com/execute-groovy-online', description: 'Zero-setup in-browser Groovy execution environment for testing snippets.' },
+    ]},
+    { label: 'Video Courses', icon: 'video', items: [
+      { title: 'Groovy Tutorial (TutorialsPoint)', url: 'https://www.tutorialspoint.com/groovy/index.htm', description: 'Step-by-step video and text tutorials covering closures, XML/JSON parsing, and testing.' },
+      { title: 'Groovy for Jenkins Pipelines', url: 'https://www.youtube.com/', description: 'Practical tutorials focused on using Groovy for CI/CD pipeline development.' },
+    ]},
+    { label: 'Practice & Challenges', icon: 'terminal', items: [
+      { title: 'Exercism — Groovy Track', url: 'https://exercism.org/tracks/groovy', description: 'Free practice with automated analysis and peer mentoring.' },
+      { title: 'Codewars — Groovy Kata', url: 'https://www.codewars.com/', description: 'Solve community-created challenges in Groovy.' },
+    ]},
+    { label: 'Reference & Cheatsheets', icon: 'reference', items: [
+      { title: 'Groovy Cheatsheet', url: 'https://devhints.io/groovy', description: 'Concise reference for Groovy syntax, closures, and collections.' },
+    ]},
+    { label: 'News & Updates', icon: 'news', items: [
+      { title: 'Apache Groovy Blog', url: 'https://groovy-lang.org/news.html', description: 'Official Apache Groovy announcements and release notes.' },
+      { title: 'Reddit r/groovy', url: 'https://www.reddit.com/r/groovy/', description: 'Community for Jenkins, Gradle, and Groovy discussions.' },
+    ]},
+    { label: 'Community', icon: 'community', items: [
+      { title: 'Apache Groovy Mailing List', url: 'https://groovy-lang.org/support.html', description: 'Official mailing lists and developer Slack channels.' },
+      { title: 'Stack Overflow — Groovy Tag', url: 'https://stackoverflow.com/questions/tagged/groovy', description: 'Q&A for Groovy, Gradle, and Jenkins pipeline questions.' },
+    ]},
+  ],
+};
+
+// ═══════════════════════════════════════════════════════════════════════
+// CLOJURE
+// ═══════════════════════════════════════════════════════════════════════
+
+export const clojureResources: LanguageResources = {
+  slug: 'clojure',
+  name: 'Clojure',
+  description: 'Clojure is a modern, functional Lisp dialect on the JVM. It emphasizes immutability, persistent data structures, and concurrency, with powerful macro capabilities for metaprogramming.',
+  categories: [
+    { label: 'Free Books', icon: 'book', items: [
+      { title: 'Clojure for the Brave and True', url: 'https://www.braveclojure.com/', description: 'A wildly popular, offbeat book covering everything from Lisp basics to building full applications — completely free online.' },
+      { title: 'Clojure from the Ground Up', url: 'https://aphyr.com/posts/301-clojure-from-the-ground-up-welcome', description: 'An acclaimed series by Kyle Kingsbury breaking down FP, state, macros, and the REPL from the ground up.' },
+    ]},
+    { label: 'Official Documentation', icon: 'docs', items: [
+      { title: 'Clojure.org Getting Started', url: 'https://clojure.org/guides/getting_started', description: 'Official hub for environment setup, REPL workflows, and Leiningen build tools.' },
+      { title: 'Clojure API Reference', url: 'https://clojure.org/api/api', description: 'Complete API documentation for Clojure core functions and macros.' },
+    ]},
+    { label: 'Interactive Courses', icon: 'code', items: [
+      { title: 'Clojure Koans', url: 'https://github.com/functional-koans/clojure-koans', description: 'Interactive exercises teaching Clojure syntax through failing tests — fill in the blanks to learn.' },
+      { title: 'Exercism — Clojure Track', url: 'https://exercism.org/tracks/clojure', description: '12 concept modules and 105 exercises with free peer mentoring.' },
+    ]},
+    { label: 'Video Courses', icon: 'video', items: [
+      { title: 'ClojureTV (Official YouTube)', url: 'https://www.youtube.com/user/ClojureTV', description: 'Official Clojure conference talks including keynotes by Rich Hickey and dev calls.' },
+      { title: 'Learn Clojure (freeCodeCamp)', url: 'https://www.classcentral.com/report/best-clojure-courses/', description: 'Community-recommended video series guiding beginners through advanced tooling.' },
+    ]},
+    { label: 'Practice & Challenges', icon: 'terminal', items: [
+      { title: 'Exercism — Clojure Track', url: 'https://exercism.org/tracks/clojure', description: 'Free exercises with automated analysis and human code reviews.' },
+      { title: '4Clojure', url: 'https://www.4clojure.com/', description: 'Bite-sized programming problems testing mastery of core functions and data structures.' },
+    ]},
+    { label: 'Reference & Cheatsheets', icon: 'reference', items: [
+      { title: 'Clojure Cheatsheet', url: 'http://jafingerhut.github.io/cheatsheet/clojuredocs/cheatsheet-tiptip-cdocs-summary.html', description: 'Definitive interactive cheat sheet categorizing all core functions by usage.' },
+    ]},
+    { label: 'News & Updates', icon: 'news', items: [
+      { title: 'Clojure Gazette', url: 'https://ericnormand.me/newsletter', description: 'Weekly newsletter on functional programming patterns and Clojure ecosystem updates.' },
+      { title: 'Clojure.org Resources', url: 'https://clojure.org/community/resources', description: 'Official listing of community newsletters and development journals.' },
+    ]},
+    { label: 'Community', icon: 'community', items: [
+      { title: 'Ask Clojure', url: 'https://ask.clojure.org/', description: 'Official Q&A forum run by the core team.' },
+      { title: 'ClojureVerse', url: 'https://clojureverse.org/', description: 'Friendly community forum for project discussions and beginner advice.' },
+      { title: 'Clojurians Slack', url: 'https://clojure-doc.org/articles/ecosystem/community/', description: 'Active Slack with #beginners, #jobs, and library channels.' },
+    ]},
+  ],
+};
+
+// ═══════════════════════════════════════════════════════════════════════
+// ERLANG
+// ═══════════════════════════════════════════════════════════════════════
+
+export const erlangResources: LanguageResources = {
+  slug: 'erlang',
+  name: 'Erlang',
+  description: 'Erlang is a functional, concurrent language designed for building massively scalable, fault-tolerant systems with soft real-time properties. It powers telecommunications, messaging platforms (WhatsApp), and distributed databases.',
+  categories: [
+    { label: 'Free Books', icon: 'book', items: [
+      { title: 'Learn You Some Erlang for Great Good!', url: 'https://learnyousomeerlang.com/', description: 'The definitive beginner-friendly guide transitioning from sequential concepts to concurrency and OTP. Free to read online.' },
+      { title: 'Erlang in Anger', url: 'https://www.erlang-in-anger.com/', description: 'Practical guide by Fred Hébert for debugging, monitoring, and handling production issues in high-uptime BEAM systems.' },
+    ]},
+    { label: 'Official Documentation', icon: 'docs', items: [
+      { title: 'Erlang/OTP Documentation', url: 'https://www.erlang.org/doc/', description: 'Complete system documentation, reference manuals for stdlib, kernel, and module references.' },
+      { title: 'Erlang Course (erlang.org)', url: 'https://www.erlang.org/course/', description: 'Official Ericsson 4-day course material covering sequential, concurrency, OTP, and design principles.' },
+    ]},
+    { label: 'Interactive Courses', icon: 'code', items: [
+      { title: 'Erlang Master Classes (Kent)', url: 'https://www.futurelearn.com/courses/functional-programming-erlang', description: 'Legendary course taught by Joe Armstrong, Francesco Cesarini, and Simon Thompson.' },
+      { title: 'Exercism — Erlang Track', url: 'https://exercism.org/tracks/erlang', description: '80+ hands-on exercises with automated tests and personalized mentor feedback.' },
+    ]},
+    { label: 'Video Courses', icon: 'video', items: [
+      { title: 'Erlang Tutorial (8-Hour Course)', url: 'https://www.youtube.com/', description: 'Comprehensive video walkthrough covering syntax, pattern matching, processes, maps, and OTP.' },
+      { title: 'Erlang Solutions Webinars', url: 'https://www.erlang-solutions.com/', description: 'Free webinars covering Erlang, Elixir, and BEAM ecosystem topics.' },
+    ]},
+    { label: 'Practice & Challenges', icon: 'terminal', items: [
+      { title: 'Exercism — Erlang Track', url: 'https://exercism.org/tracks/erlang', description: 'Free programming exercises with mentor feedback from the Erlang community.' },
+      { title: 'Codewars — Erlang Kata', url: 'https://www.codewars.com/', description: 'Solve community-created challenges in Erlang.' },
+    ]},
+    { label: 'Reference & Cheatsheets', icon: 'reference', items: [
+      { title: 'Adopting Erlang Cheat Sheets', url: 'https://adoptingerlang.org/docs/cheat_sheets/', description: 'Extensive reference for data types, guards, processes, OTP behaviors, and ETS tables.' },
+      { title: 'Erlang ETS Cheatsheet', url: 'https://devhints.io/ets', description: 'Quick reference for Erlang Term Storage tables and commands.' },
+    ]},
+    { label: 'News & Updates', icon: 'news', items: [
+      { title: 'Erlang Forums', url: 'https://erlangforums.com/', description: 'Official discussion board for OTP releases, debugging, and design proposals.' },
+      { title: 'Reddit r/erlang', url: 'https://www.reddit.com/r/erlang/', description: 'Community for Erlang articles, concurrency patterns, and ecosystem news.' },
+    ]},
+    { label: 'Community', icon: 'community', items: [
+      { title: 'Erlang Forums', url: 'https://erlangforums.com/', description: 'Active community board for core developers and learners.' },
+      { title: 'Stack Overflow — Erlang Tag', url: 'https://stackoverflow.com/questions/tagged/erlang', description: 'Q&A for Erlang OTP, debugging, and functional design.' },
+    ]},
+  ],
+};
+
+// ═══════════════════════════════════════════════════════════════════════
+// ASSEMBLY (x86/ARM)
+// ═══════════════════════════════════════════════════════════════════════
+
+export const assemblyResources: LanguageResources = {
+  slug: 'assembly',
+  name: 'Assembly',
+  description: 'Assembly language provides direct control over CPU instructions, memory, and registers. Essential for understanding computer architecture, reverse engineering, embedded systems, and performance-critical code optimization.',
+  categories: [
+    { label: 'Free Books', icon: 'book', items: [
+      { title: 'Programming from the Ground Up', url: 'https://download-mirror.savannah.gnu.org/releases/pgubook/ProgrammingGroundUp-1-0-booksize.pdf', description: 'Classic textbook teaching core programming concepts using x86 assembly and GNU/Linux.' },
+      { title: 'PC Assembly Language (Paul Carter)', url: 'https://www.scs.stanford.edu/05au-cs240c/lab/pcasm-book.pdf', description: 'Widely recommended intro covering x86 assembly, data representation, memory layout, and C interop.' },
+    ]},
+    { label: 'Official Documentation', icon: 'docs', items: [
+      { title: 'Intel SDM Manuals', url: 'https://www.intel.com/content/www/us/en/developer/articles/technical/intel-sdm.html', description: 'Official Intel software developer manuals for IA-32 and x86-64 architecture.' },
+      { title: 'ARM Architecture Reference', url: 'https://developer.arm.com/documentation/ddi0487/gb/', description: 'Official ARM architectural specifications covering instruction sets and features.' },
+    ]},
+    { label: 'Interactive Courses', icon: 'code', items: [
+      { title: 'Compiler Explorer (Godbolt)', url: 'https://godbolt.org/', description: 'Write C/C++/Rust and see the generated assembly output instantly — essential for learning how compilers translate code.' },
+      { title: 'Azeria Labs ARM Assembly', url: 'https://azeria-labs.com/', description: 'Acclaimed text-based course on ARM 32-bit assembly for security research and exploit development.' },
+    ]},
+    { label: 'Video Courses', icon: 'video', items: [
+      { title: 'ARM Assembly Course (freeCodeCamp)', url: 'https://www.classcentral.com/report/best-assembly-courses/', description: 'Practical video covering ARMv7 architecture, registers, instructions, and Linux syscalls.' },
+      { title: 'Modern x64 Assembly (Creel)', url: 'https://www.classcentral.com/report/best-assembly-courses/', description: 'Video series on modern x64 assembly, hardware interactions, and performance optimization.' },
+    ]},
+    { label: 'Practice & Challenges', icon: 'terminal', items: [
+      { title: 'Compiler Explorer (Godbolt)', url: 'https://godbolt.org/', description: 'Best tool for practicing assembly — compare your output with compiler-generated code.' },
+      { title: 'TIS-100 (Programming Game)', url: 'https://store.steampowered.com/app/370360/TIS100/', description: 'Retro puzzle game requiring custom assembly code to solve spatial and arithmetic problems.' },
+    ]},
+    { label: 'Reference & Cheatsheets', icon: 'reference', items: [
+      { title: 'X86 Instruction Reference', url: 'https://www.felixcloutier.com/x86/', description: 'Searchable web reference for x86/x64 instructions, flags, and opcodes.' },
+      { title: 'Devhints Assembly Reference', url: 'https://devhints.io/assembly', description: 'Quick reference for common assembly instructions and registers.' },
+    ]},
+    { label: 'News & Updates', icon: 'news', items: [
+      { title: 'Intel Developer Zone', url: 'https://www.intel.com/content/www/us/en/developer/overview.html', description: 'Intel developer news on architecture updates and instruction set extensions.' },
+      { title: 'Reddit r/Assembly_language', url: 'https://www.reddit.com/r/Assembly_language/', description: 'Community for assembly news, questions, and low-level discussions.' },
+    ]},
+    { label: 'Community', icon: 'community', items: [
+      { title: 'Reddit r/Assembly_language', url: 'https://www.reddit.com/r/Assembly_language/', description: 'Dedicated community for assembly language questions and code discussions.' },
+      { title: 'Stack Overflow — Assembly Tag', url: 'https://stackoverflow.com/questions/tagged/assembly', description: 'Q&A for assembly syntax, debugging, and low-level code optimization.' },
+    ]},
+  ],
+};
+
+// ═══════════════════════════════════════════════════════════════════════
+// COBOL
+// ═══════════════════════════════════════════════════════════════════════
+
+export const cobolResources: LanguageResources = {
+  slug: 'cobol',
+  name: 'COBOL',
+  description: 'COBOL (Common Business-Oriented Language) powers the worlds business infrastructure — banking systems, insurance claims, government systems, and enterprise transaction processing. Billions of lines of COBOL still run in production today.',
+  categories: [
+    { label: 'Free Books', icon: 'book', items: [
+      { title: 'COBOL Programming (TutorialsPoint)', url: 'https://www.tutorialspoint.com/cobol/index.htm', description: 'Comprehensive free tutorial covering COBOL basics, file handling, and report generation.' },
+      { title: 'Mainframe COBOL Programming', url: 'https://www.ibm.com/docs/en/cobol-zos/', description: 'IBM COBOL documentation covering enterprise COBOL for z/OS mainframes.' },
+    ]},
+    { label: 'Official Documentation', icon: 'docs', items: [
+      { title: 'IBM COBOL for z/OS Docs', url: 'https://www.ibm.com/docs/en/cobol-zos/', description: 'Complete IBM COBOL compiler documentation and language reference.' },
+      { title: 'GnuCOBOL (Open-COBOL) Guide', url: 'https://sourceforge.net/projects/open-cobol/', description: 'Free open-source COBOL compiler with documentation and examples.' },
+    ]},
+    { label: 'Interactive Courses', icon: 'code', items: [
+      { title: 'COBOL Online Tutorial', url: 'https://www.mainframestechhelp.com/tutorials/cobol/', description: 'Free interactive COBOL tutorial covering data division, procedures, and file processing.' },
+      { title: 'GnuCOBOL Examples', url: 'https://github.com/open-cobol/gnucobol/tree/main/tests', description: 'Open-source COBOL examples and test cases for hands-on learning.' },
+    ]},
+    { label: 'Video Courses', icon: 'video', items: [
+      { title: 'COBOL Programming Course (YouTube)', url: 'https://www.youtube.com/watch?v=RctR3v8l7iA', description: 'Introduction to COBOL programming for mainframe application development.' },
+      { title: 'IBM COBOL Fundamentals', url: 'https://www.youtube.com/', description: 'IBM training videos covering COBOL basics and enterprise programming.' },
+    ]},
+    { label: 'Practice & Challenges', icon: 'terminal', items: [
+      { title: 'GnuCOBOL Compiler', url: 'https://gnucobol.sourceforge.io/', description: 'Free open-source COBOL compiler to practice coding locally.' },
+      { title: 'Exercism — COBOL Track', url: 'https://exercism.org/tracks/cobol', description: 'Structured COBOL exercises for modern business application programming.' },
+    ]},
+    { label: 'Reference & Cheatsheets', icon: 'reference', items: [
+      { title: 'COBOL Reference Card', url: 'https://www.ibm.com/docs/en/cobol-zos/6.3', description: 'IBM COBOL language reference and syntax summary.' },
+    ]},
+    { label: 'News & Updates', icon: 'news', items: [
+      { title: 'IBM COBOL Community', url: 'https://community.ibm.com/community/user/ibmz-and-linuxone/cobol', description: 'IBM COBOL community for developers and mainframe professionals.' },
+    ]},
+    { label: 'Community', icon: 'community', items: [
+      { title: 'Reddit r/cobol', url: 'https://www.reddit.com/r/cobol/', description: 'Community for COBOL developers and mainframe enthusiasts.' },
+      { title: 'Stack Overflow — COBOL Tag', url: 'https://stackoverflow.com/questions/tagged/cobol', description: 'Q&A for COBOL programming and mainframe topics.' },
+    ]},
+  ],
+};
+
 // ─── Registry — all languages with curated resources ────────────────
 
 const RESOURCE_REGISTRY: Record<string, LanguageResources> = {
@@ -963,6 +1395,16 @@ const RESOURCE_REGISTRY: Record<string, LanguageResources> = {
   haskell: haskellResources,
   lua: luaResources,
   shell: shellResources,
+  c: cResources,
+  matlab: matlabResources,
+  julia: juliaResources,
+  perl: perlResources,
+  fortran: fortranResources,
+  groovy: groovyResources,
+  clojure: clojureResources,
+  erlang: erlangResources,
+  assembly: assemblyResources,
+  cobol: cobolResources,
 };
 
 export function getLanguageResources(slug: string): LanguageResources | null {

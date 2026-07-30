@@ -21,6 +21,14 @@ import {
   SiHaskell,
   SiLua,
   SiGnubash,
+  SiC,
+  SiJulia,
+  SiPerl,
+  SiFortran,
+  SiApachegroovy,
+  SiClojure,
+  SiErlang,
+  SiAssemblyscript,
 } from 'react-icons/si';
 import { FaBook, FaFileAlt, FaLaptopCode, FaPlay, FaTerminal, FaSearch, FaNewspaper, FaUsers } from 'react-icons/fa';
 import { getLanguageMeta, getHandcraftedSystems } from '@/lib/mdx';
@@ -50,6 +58,16 @@ const LANG_ICONS: Record<string, React.ReactNode> = {
   haskell:    <SiHaskell size={28} />,
   lua:        <SiLua size={28} />,
   shell:      <SiGnubash size={28} />,
+  c:          <SiC size={28} />,
+  matlab:     <span className="text-lg font-bold">M</span>,
+  julia:      <SiJulia size={28} />,
+  perl:       <SiPerl size={28} />,
+  fortran:    <SiFortran size={28} />,
+  groovy:     <SiApachegroovy size={28} />,
+  clojure:    <SiClojure size={28} />,
+  erlang:     <SiErlang size={28} />,
+  assembly:   <SiAssemblyscript size={28} />,
+  cobol:      <span className="text-lg font-bold">C</span>,
 };
 
 const LANG_HERO: Record<string, { bg: string; iconBg: string }> = {
@@ -72,6 +90,16 @@ const LANG_HERO: Record<string, { bg: string; iconBg: string }> = {
   haskell:    { bg: 'bg-[#5D4F85]', iconBg: 'bg-[#5D4F85] text-white' },
   lua:        { bg: 'bg-[#000080]', iconBg: 'bg-[#000080] text-white' },
   shell:      { bg: 'bg-[#4EAA25]', iconBg: 'bg-[#4EAA25] text-white' },
+  c:          { bg: 'bg-[#A8B9CC]', iconBg: 'bg-[#A8B9CC] text-black' },
+  matlab:     { bg: 'bg-[#E16737]', iconBg: 'bg-[#E16737] text-white' },
+  julia:      { bg: 'bg-[#4063D8]', iconBg: 'bg-[#4063D8] text-white' },
+  perl:       { bg: 'bg-[#39457E]', iconBg: 'bg-[#39457E] text-white' },
+  fortran:    { bg: 'bg-[#734F96]', iconBg: 'bg-[#734F96] text-white' },
+  groovy:     { bg: 'bg-[#4298B8]', iconBg: 'bg-[#4298B8] text-white' },
+  clojure:    { bg: 'bg-[#5881D8]', iconBg: 'bg-[#5881D8] text-white' },
+  erlang:     { bg: 'bg-[#A90533]', iconBg: 'bg-[#A90533] text-white' },
+  assembly:   { bg: 'bg-[#6E4C13]', iconBg: 'bg-[#6E4C13] text-white' },
+  cobol:      { bg: 'bg-[#005C99]', iconBg: 'bg-[#005C99] text-white' },
 };
 
 const CATEGORY_ICONS: Record<string, React.ReactNode> = {
@@ -100,6 +128,8 @@ const KNOWN_SLUGS = new Set([
   'javascript', 'python', 'typescript', 'java', 'cpp',
   'kotlin', 'swift', 'ruby', 'php', 'csharp', 'go', 'rust',
   'scala', 'r', 'dart', 'elixir', 'haskell', 'lua', 'shell',
+  'c', 'matlab', 'julia', 'perl', 'fortran', 'groovy',
+  'clojure', 'erlang', 'assembly', 'cobol',
 ]);
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {

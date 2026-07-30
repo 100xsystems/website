@@ -22,6 +22,14 @@ import {
   SiHaskell,
   SiLua,
   SiGnubash,
+  SiC,
+  SiJulia,
+  SiPerl,
+  SiFortran,
+  SiApachegroovy,
+  SiClojure,
+  SiErlang,
+  SiAssemblyscript,
 } from 'react-icons/si';
 
 export const metadata: Metadata = {
@@ -48,6 +56,16 @@ const LANG_ICONS: Record<string, React.ReactNode> = {
   haskell:    <SiHaskell size={22} />,
   lua:        <SiLua size={22} />,
   shell:      <SiGnubash size={22} />,
+  c:          <SiC size={22} />,
+  matlab:     <span className="text-[11px] font-bold">M</span>,
+  julia:      <SiJulia size={22} />,
+  perl:       <SiPerl size={22} />,
+  fortran:    <SiFortran size={22} />,
+  groovy:     <SiApachegroovy size={22} />,
+  clojure:    <SiClojure size={22} />,
+  erlang:     <SiErlang size={22} />,
+  assembly:   <SiAssemblyscript size={22} />,
+  cobol:      <span className="text-[11px] font-bold">C</span>,
 };
 
 const LANG_BG: Record<string, string> = {
@@ -70,6 +88,16 @@ const LANG_BG: Record<string, string> = {
   haskell:    'bg-[#5D4F85] text-white',
   lua:        'bg-[#000080] text-white',
   shell:      'bg-[#4EAA25] text-white',
+  c:          'bg-[#A8B9CC] text-black',
+  matlab:     'bg-[#E16737] text-white',
+  julia:      'bg-[#4063D8] text-white',
+  perl:       'bg-[#39457E] text-white',
+  fortran:    'bg-[#734F96] text-white',
+  groovy:     'bg-[#4298B8] text-white',
+  clojure:    'bg-[#5881D8] text-white',
+  erlang:     'bg-[#A90533] text-white',
+  assembly:   'bg-[#6E4C13] text-white',
+  cobol:      'bg-[#005C99] text-white',
 };
 
 const DEFAULT_BG = 'bg-accent text-white';
@@ -108,7 +136,7 @@ export default function LanguagesPage() {
               Programming&nbsp;<span className="text-accent">Languages</span>
             </h1>
             <p className="text-sm text-fg-secondary max-w-xl mx-auto">
-              Curated resource hubs for 19 major programming languages.
+              Curated resource hubs for 29 major programming languages.
               Each hub collects the definitive free resources — books, docs, courses, videos,
               practice, reference, news, and community.
             </p>
