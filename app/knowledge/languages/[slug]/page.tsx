@@ -14,6 +14,7 @@ import {
   SiSpring, SiDjango, SiLaravel, SiNextdotjs, SiTailwindcss, SiBootstrap, SiNginx, SiMongodb, SiElasticsearch, SiMysql,
   SiGrafana, SiPrometheus, SiApachekafka, SiRabbitmq, SiApacheairflow, SiSqlite, SiJenkins, SiGitlab, SiGithubactions, SiNeovim,
   SiAstro,
+  SiBun, SiDeno, SiNestjs, SiRemix, SiFastify, SiHono, SiSelenium, SiCypress, SiVitest, SiJest,
 } from 'react-icons/si';
 import { FaBook, FaFileAlt, FaLaptopCode, FaPlay, FaTerminal, FaSearch, FaNewspaper, FaUsers } from 'react-icons/fa';
 import { getLanguageMeta, getHandcraftedSystems } from '@/lib/mdx';
@@ -124,6 +125,16 @@ const LANG_ICONS: Record<string, React.ReactNode> = {
   'github-actions': <SiGithubactions size={28} />,
   neovim:     <SiNeovim size={28} />,
   astro:      <SiAstro size={28} />,
+  bun:        <SiBun size={28} />,
+  deno:       <SiDeno size={28} />,
+  nestjs:     <SiNestjs size={28} />,
+  remix:      <SiRemix size={28} />,
+  fastify:    <SiFastify size={28} />,
+  hono:       <SiHono size={28} />,
+  selenium:   <SiSelenium size={28} />,
+  cypress:    <SiCypress size={28} />,
+  vitest:     <SiVitest size={28} />,
+  jest:       <SiJest size={28} />,
 };
 
 const LANG_HERO: Record<string, { bg: string; iconBg: string }> = {
@@ -227,6 +238,16 @@ const LANG_HERO: Record<string, { bg: string; iconBg: string }> = {
   'github-actions': { bg: 'bg-[#2088FF]', iconBg: 'bg-[#2088FF] text-white' },
   neovim:     { bg: 'bg-[#57A143]', iconBg: 'bg-[#57A143] text-white' },
   astro:      { bg: 'bg-[#BC52EE]', iconBg: 'bg-[#BC52EE] text-white' },
+  bun:        { bg: 'bg-[#14151A]', iconBg: 'bg-[#14151A] text-white' },
+  deno:       { bg: 'bg-[#000000]', iconBg: 'bg-[#000000] text-white' },
+  nestjs:     { bg: 'bg-[#E0234E]', iconBg: 'bg-[#E0234E] text-white' },
+  remix:      { bg: 'bg-[#121212]', iconBg: 'bg-[#121212] text-white' },
+  fastify:    { bg: 'bg-[#202020]', iconBg: 'bg-[#202020] text-white' },
+  hono:       { bg: 'bg-[#E36002]', iconBg: 'bg-[#E36002] text-white' },
+  selenium:   { bg: 'bg-[#43B02A]', iconBg: 'bg-[#43B02A] text-white' },
+  cypress:    { bg: 'bg-[#17202C]', iconBg: 'bg-[#17202C] text-white' },
+  vitest:     { bg: 'bg-[#6E9F18]', iconBg: 'bg-[#6E9F18] text-white' },
+  jest:       { bg: 'bg-[#C21325]', iconBg: 'bg-[#C21325] text-white' },
 };
 
 const CATEGORY_ICONS: Record<string, React.ReactNode> = {
@@ -272,6 +293,8 @@ const KNOWN_SLUGS = new Set([
   'grafana', 'prometheus', 'kafka', 'rabbitmq', 'airflow',
   'sqlite', 'jenkins', 'gitlab', 'github-actions', 'neovim',
   'astro',
+  'bun', 'deno', 'nestjs', 'remix', 'fastify',
+  'hono', 'selenium', 'cypress', 'vitest', 'jest',
 ]);
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {

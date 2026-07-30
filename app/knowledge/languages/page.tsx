@@ -15,6 +15,7 @@ import {
   SiSpring, SiDjango, SiLaravel, SiNextdotjs, SiTailwindcss, SiBootstrap, SiNginx, SiMongodb, SiElasticsearch, SiMysql,
   SiGrafana, SiPrometheus, SiApachekafka, SiRabbitmq, SiApacheairflow, SiSqlite, SiJenkins, SiGitlab, SiGithubactions, SiNeovim,
   SiAstro,
+  SiBun, SiDeno, SiNestjs, SiRemix, SiFastify, SiHono, SiSelenium, SiCypress, SiVitest, SiJest,
 } from 'react-icons/si';
 
 export const metadata: Metadata = {
@@ -122,6 +123,16 @@ const LANG_ICONS: Record<string, React.ReactNode> = {
   'github-actions': <SiGithubactions size={22} />,
   neovim:     <SiNeovim size={22} />,
   astro:      <SiAstro size={22} />,
+  bun:        <SiBun size={22} />,
+  deno:       <SiDeno size={22} />,
+  nestjs:     <SiNestjs size={22} />,
+  remix:      <SiRemix size={22} />,
+  fastify:    <SiFastify size={22} />,
+  hono:       <SiHono size={22} />,
+  selenium:   <SiSelenium size={22} />,
+  cypress:    <SiCypress size={22} />,
+  vitest:     <SiVitest size={22} />,
+  jest:       <SiJest size={22} />,
 };
 
 const LANG_BG: Record<string, string> = {
@@ -225,6 +236,16 @@ const LANG_BG: Record<string, string> = {
   'github-actions': 'bg-[#2088FF] text-white',
   neovim:     'bg-[#57A143] text-white',
   astro:      'bg-[#BC52EE] text-white',
+  bun:        'bg-[#14151A] text-white',
+  deno:       'bg-[#000000] text-white',
+  nestjs:     'bg-[#E0234E] text-white',
+  remix:      'bg-[#121212] text-white',
+  fastify:    'bg-[#202020] text-white',
+  hono:       'bg-[#E36002] text-white',
+  selenium:   'bg-[#43B02A] text-white',
+  cypress:    'bg-[#17202C] text-white',
+  vitest:     'bg-[#6E9F18] text-white',
+  jest:       'bg-[#C21325] text-white',
 };
 
 const DEFAULT_BG = 'bg-accent text-white';
@@ -263,7 +284,7 @@ export default function LanguagesPage() {
               Programming&nbsp;<span className="text-accent">Languages</span>
             </h1>
             <p className="text-sm text-fg-secondary max-w-xl mx-auto">
-              Curated resource hubs for              100 major programming languages.
+              Curated resource hubs for              110 major programming languages.
               Each hub collects the definitive free resources — books, docs, courses, videos,
               practice, reference, news, and community.
             </p>

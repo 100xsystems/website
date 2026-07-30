@@ -3840,6 +3840,236 @@ export const astroResources: LanguageResources = { slug: 'astro', name: 'Astro',
 { title: 'Reddit r/astrojs', url: 'https://www.reddit.com/r/astrojs/', description: 'Active developer forum sharing projects, CMS integrations, and optimization tips.' },
 ]},],};
 
+
+// ══ BUN ══════════════════════════════════════════════════════════════
+export const bunResources: LanguageResources = { slug: 'bun', name: 'Bun', description: 'Bun is an all-in-one JavaScript runtime, package manager, test runner, and bundler. Designed as a drop-in replacement for Node.js, it delivers blazing-fast startup times and built-in TypeScript support.', categories: [
+{ label: 'Free Books', icon: 'book', items: [
+{ title: 'Bun Official Docs', url: 'https://bun.sh/docs', description: 'The comprehensive official documentation covering runtime APIs, installation, and migration guides.' },
+{ title: 'Bun Guides', url: 'https://bun.sh/docs/guides', description: 'Code samples and walkthroughs for servers, routing, databases, and bundling.' },
+]},{ label: 'Official Documentation', icon: 'docs', items: [
+{ title: 'Bun API Reference', url: 'https://bun.sh/docs/api', description: 'Complete API reference for Bun runtime including file I/O, networking, and SQLite.' },
+{ title: 'Bun CLI Reference', url: 'https://bun.sh/docs/cli', description: 'Command-line reference for bun install, bun run, bun test, and bun build.' },
+]},{ label: 'Interactive Courses', icon: 'code', items: [
+{ title: 'Bun Playground', url: 'https://bun.sh/playground', description: 'Official browser-based sandbox to experiment with Bun code snippets.' },
+]},{ label: 'Video Courses', icon: 'video', items: [
+{ title: 'Bun Tutorial (freeCodeCamp)', url: 'https://www.youtube.com/results?search_query=bun+javascript+runtime+crash+course', description: 'Full-length course on Bun runtime, web servers, routing, and Node.js migration.' },
+]},{ label: 'Practice & Challenges', icon: 'terminal', items: [
+{ title: 'Bun Quickstart', url: 'https://bun.sh/quickstart', description: 'Quickstart guide to create and run your first Bun project.' },
+]},{ label: 'Reference & Cheatsheets', icon: 'reference', items: [
+{ title: 'Bun Cheatsheet (DeployHQ)', url: 'https://www.deployhq.com/cheatsheets/bun', description: 'Command reference for bun install, run, test, build, and Docker patterns.' },
+]},{ label: 'News & Updates', icon: 'news', items: [
+{ title: 'Bun Blog', url: 'https://bun.sh/blog', description: 'Official Bun blog with release notes, feature previews, and ecosystem updates.' },
+]},{ label: 'Community', icon: 'community', items: [
+{ title: 'Bun GitHub', url: 'https://github.com/oven-sh/bun', description: 'Official repository for issues, source code, and roadmap tracking.' },
+{ title: 'Reddit r/bun', url: 'https://www.reddit.com/r/bun/', description: 'Community for share projects, troubleshooting, and best practices.' },
+]},],};
+
+// ══ DENO ═════════════════════════════════════════════════════════════
+export const denoResources: LanguageResources = { slug: 'deno', name: 'Deno', description: 'Deno is a modern JavaScript, TypeScript, and WebAssembly runtime built on V8 and Rust. It provides secure defaults, native TypeScript support, comprehensive standard library, and built-in tooling for linting, formatting, and testing.', categories: [
+{ label: 'Free Books', icon: 'book', items: [
+{ title: 'Deno Runtime Docs', url: 'https://docs.deno.com/runtime/', description: 'Primary documentation covering installation, TypeScript, toolchain, and dependency management.' },
+{ title: 'Deno Handbook (freeCodeCamp)', url: 'https://www.freecodecamp.org/news/the-deno-handbook/', description: 'Comprehensive guide covering Deno architecture, TypeScript usage, and REST API construction.' },
+]},{ label: 'Official Documentation', icon: 'docs', items: [
+{ title: 'Deno Examples & Tutorials', url: 'https://docs.deno.com/examples/', description: '300+ categorized walkthroughs for HTTP servers, WebSockets, databases, and crypto.' },
+{ title: 'Deno Standard Library', url: 'https://jsr.io/@std', description: 'Official standard library with assertions, async, UUIDs, streams, and crypto.' },
+]},{ label: 'Interactive Courses', icon: 'code', items: [
+{ title: 'Deno by Example', url: 'https://docs.deno.com/examples/', description: 'Learn Deno through practical, runnable example programs.' },
+]},{ label: 'Video Courses', icon: 'video', items: [
+{ title: 'Deno Jump-Start (Net Ninja)', url: 'https://www.classcentral.com/subject/deno', description: 'Video walkthrough series on setting up Deno, routing, and server-side apps.' },
+]},{ label: 'Practice & Challenges', icon: 'terminal', items: [
+{ title: 'Deno Playground', url: 'https://deno.com/playground', description: 'Browser-based Deno environment for experimentation.' },
+]},{ label: 'Reference & Cheatsheets', icon: 'reference', items: [
+{ title: 'Deno Agents Guide', url: 'https://deno.com/agents.md', description: 'Official guide for AI coding assistant context and Deno best practices.' },
+]},{ label: 'News & Updates', icon: 'news', items: [
+{ title: 'Deno Blog', url: 'https://deno.com/blog', description: 'Official blog with runtime updates, security deep-dives, and case studies.' },
+]},{ label: 'Community', icon: 'community', items: [
+{ title: 'Deno Discord', url: 'https://discord.gg/deno', description: 'Official Deno community on Discord.' },
+{ title: 'Deno GitHub', url: 'https://github.com/denoland/deno', description: 'Official repository for issues and contributions.' },
+]},],};
+
+// ══ NESTJS ═══════════════════════════════════════════════════════════
+export const nestjsResources: LanguageResources = { slug: 'nestjs', name: 'NestJS', description: 'NestJS is a progressive Node.js framework for building efficient, reliable, and scalable server-side applications. It uses TypeScript by default and combines elements of OOP, FP, and FRP with a modular architecture.', categories: [
+{ label: 'Free Books', icon: 'book', items: [
+{ title: 'NestJS Documentation', url: 'https://docs.nestjs.com/', description: 'The comprehensive official documentation covering controllers, providers, modules, and middleware.' },
+{ title: 'NestJS Fundamentals (Official)', url: 'https://docs.nestjs.com/first-steps', description: 'Official first-steps guide covering installation, CLI, and building your first API.' },
+]},{ label: 'Official Documentation', icon: 'docs', items: [
+{ title: 'NestJS Techniques', url: 'https://docs.nestjs.com/techniques', description: 'Deep dives into database, auth, caching, serialization, and configuration.' },
+{ title: 'NestJS GraphQL Guide', url: 'https://docs.nestjs.com/graphql/quick-start', description: 'Official GraphQL integration guide with code-first and schema-first approaches.' },
+]},{ label: 'Interactive Courses', icon: 'code', items: [
+{ title: 'NestJS Course (Official)', url: 'https://courses.nestjs.com/', description: 'Free and premium courses from the NestJS team covering fundamentals to advanced patterns.' },
+]},{ label: 'Video Courses', icon: 'video', items: [
+{ title: 'NestJS Full Course (freeCodeCamp)', url: 'https://www.youtube.com/results?search_query=nestjs+full+course+2026', description: 'Comprehensive video course covering modules, DI, guards, interceptors, and microservices.' },
+]},{ label: 'Practice & Challenges', icon: 'terminal', items: [
+{ title: 'NestJS CLI', url: 'https://docs.nestjs.com/cli/overview', description: 'CLI for scaffolding projects, modules, controllers, and services.' },
+]},{ label: 'Reference & Cheatsheets', icon: 'reference', items: [
+{ title: 'NestJS Cheatsheet (devhints)', url: 'https://devhints.io/nestjs', description: 'Quick reference for NestJS decorators, guards, pipes, and providers.' },
+]},{ label: 'News & Updates', icon: 'news', items: [
+{ title: 'NestJS Blog', url: 'https://trilon.io/blog', description: 'Official NestJS blog maintained by Trilon with release notes and guides.' },
+]},{ label: 'Community', icon: 'community', items: [
+{ title: 'NestJS Discord', url: 'https://discord.gg/nestjs', description: 'Official NestJS Discord for community support.' },
+{ title: 'Reddit r/nestjs', url: 'https://www.reddit.com/r/nestjs/', description: 'NestJS community for discussions and project showcases.' },
+]},],};
+
+// ══ REMIX ════════════════════════════════════════════════════════════
+export const remixResources: LanguageResources = { slug: 'remix', name: 'Remix', description: 'Remix is a full-stack React framework built on Web Fetch API. It enables server-rendered, progressively enhanced web applications with a focus on web fundamentals, data loading, and form handling.', categories: [
+{ label: 'Free Books', icon: 'book', items: [
+{ title: 'Remix Documentation', url: 'https://remix.run/docs', description: 'The comprehensive official documentation covering routing, data loading, and actions.' },
+{ title: 'Remix Tutorial (Official)', url: 'https://remix.run/docs/en/main/start/tutorial', description: 'Step-by-step official tutorial building a full-stack app from scratch.' },
+]},{ label: 'Official Documentation', icon: 'docs', items: [
+{ title: 'Remix Routing Guide', url: 'https://remix.run/docs/en/main/discussion/routes', description: 'Deep dive into nested routing, layouts, and URL patterns.' },
+{ title: 'Remix Data Loading', url: 'https://remix.run/docs/en/main/guides/data-loading', description: 'Guide to loaders, actions, and fetching strategies in Remix.' },
+]},{ label: 'Interactive Courses', icon: 'code', items: [
+{ title: 'Remix Workshop', url: 'https://remix.run/docs/en/main/start/quickstart', description: 'Quickstart guide and interactive tutorials from the Remix team.' },
+]},{ label: 'Video Courses', icon: 'video', items: [
+{ title: 'Remix Crash Course (YouTube)', url: 'https://www.youtube.com/results?search_query=remix+crash+course+2026', description: 'Video tutorials covering Remix architecture, loaders, forms, and deployment.' },
+]},{ label: 'Practice & Challenges', icon: 'terminal', items: [
+{ title: 'Remix Quickstart', url: 'https://remix.run/docs/en/main/start/quickstart', description: 'Scaffold and deploy a Remix app instantly.' },
+]},{ label: 'Reference & Cheatsheets', icon: 'reference', items: [
+{ title: 'Remix Cheatsheet', url: 'https://remix.run/docs/en/main/guides/api', description: 'API reference for Remix hooks, components, and utilities.' },
+]},{ label: 'News & Updates', icon: 'news', items: [
+{ title: 'Remix Blog', url: 'https://remix.run/blog', description: 'Official Remix blog with release notes and feature announcements.' },
+]},{ label: 'Community', icon: 'community', items: [
+{ title: 'Remix Discord', url: 'https://discord.gg/remix', description: 'Official Remix Discord community.' },
+{ title: 'Remix GitHub Discussions', url: 'https://github.com/remix-run/remix/discussions', description: 'GitHub discussions for Q&A and feature requests.' },
+]},],};
+
+// ══ FASTIFY ══════════════════════════════════════════════════════════
+export const fastifyResources: LanguageResources = { slug: 'fastify', name: 'Fastify', description: 'Fastify is a high-performance, low-overhead Node.js web framework. It features schema-based validation, extreme speed, plugin architecture, and first-class TypeScript support for building efficient APIs.', categories: [
+{ label: 'Free Books', icon: 'book', items: [
+{ title: 'Fastify Docs', url: 'https://fastify.dev/docs/latest/', description: 'Complete official documentation covering getting started, guides, and API reference.' },
+{ title: 'Fastify Getting Started', url: 'https://fastify.dev/docs/latest/Guides/Getting-Started/', description: 'Gentle introduction covering installation, server creation, and plugins.' },
+]},{ label: 'Official Documentation', icon: 'docs', items: [
+{ title: 'Fastify Plugins Reference', url: 'https://fastify.dev/docs/latest/Reference/Plugins/', description: 'Deep dive into encapsulation, scope, and custom plugin authoring.' },
+{ title: 'Fastify Ecosystem', url: 'https://fastify.dev/ecosystem/', description: 'Directory of 60+ core plugins for CORS, JWT, Swagger, and databases.' },
+]},{ label: 'Interactive Courses', icon: 'code', items: [
+{ title: 'Fastify Crash Course', url: 'https://www.classcentral.com/course/youtube-fastify-crash-course-node-js-framework-109133', description: 'Video walkthrough of setup, routing, validation, and Swagger docs.' },
+]},{ label: 'Video Courses', icon: 'video', items: [
+{ title: 'Fastify with Prisma (YouTube)', url: 'https://www.youtube.com/results?search_query=fastify+crash+course', description: 'Video tutorials on Fastify with Prisma, hooks, and decorators.' },
+]},{ label: 'Practice & Challenges', icon: 'terminal', items: [
+{ title: 'Fastify CLI', url: 'https://fastify.dev/docs/latest/Reference/CLI/', description: 'Command-line tools for scaffolding and managing Fastify projects.' },
+]},{ label: 'Reference & Cheatsheets', icon: 'reference', items: [
+{ title: 'Fastify Validation Schema', url: 'https://fastify.dev/docs/latest/Reference/Validation-and-Serialization/', description: 'JSON Schema validation reference for body, querystring, params, and headers.' },
+]},{ label: 'News & Updates', icon: 'news', items: [
+{ title: 'Fastify GitHub Releases', url: 'https://github.com/fastify/fastify/releases', description: 'Release notes, changelogs, and security announcements.' },
+]},{ label: 'Community', icon: 'community', items: [
+{ title: 'Fastify Discord', url: 'https://discord.gg/fastify', description: 'Official Discord community for troubleshooting.' },
+{ title: 'Fastify GitHub', url: 'https://github.com/fastify/fastify', description: 'Official repository and GitHub Discussions.' },
+]},],};
+
+// ══ HONO ═════════════════════════════════════════════════════════════
+export const honoResources: LanguageResources = { slug: 'hono', name: 'Hono', description: 'Hono is a lightweight, ultrafast web framework for building APIs and web apps. It runs on multiple runtimes including Node.js, Deno, Bun, Cloudflare Workers, and Fastly Compute.', categories: [
+{ label: 'Free Books', icon: 'book', items: [
+{ title: 'Hono Documentation', url: 'https://hono.dev/docs/', description: 'Comprehensive official documentation covering all features and runtime integrations.' },
+{ title: 'Hono Getting Started', url: 'https://hono.dev/docs/getting-started/basic', description: 'Quickstart guide for building your first Hono application.' },
+]},{ label: 'Official Documentation', icon: 'docs', items: [
+{ title: 'Hono API Reference', url: 'https://hono.dev/api/', description: 'Complete API reference for routing, middleware, context, and helpers.' },
+{ title: 'Hono Middleware', url: 'https://hono.dev/docs/guides/middleware', description: 'Guide to built-in and custom middleware in Hono.' },
+]},{ label: 'Interactive Courses', icon: 'code', items: [
+{ title: 'Hono Playground', url: 'https://hono.dev/playground', description: 'Online sandbox to experiment with Hono code in the browser.' },
+]},{ label: 'Video Courses', icon: 'video', items: [
+{ title: 'Hono Crash Course (YouTube)', url: 'https://www.youtube.com/results?search_query=hono+framework+crash+course', description: 'Video walkthroughs of building APIs with Hono on various runtimes.' },
+]},{ label: 'Practice & Challenges', icon: 'terminal', items: [
+{ title: 'Hono Starter', url: 'https://hono.dev/docs/getting-started/basic', description: 'Quickstart templates for various runtimes and frameworks.' },
+]},{ label: 'Reference & Cheatsheets', icon: 'reference', items: [
+{ title: 'Hono Cheatsheet', url: 'https://hono.dev/api/', description: 'Quick API reference for Hono context, request, and response helpers.' },
+]},{ label: 'News & Updates', icon: 'news', items: [
+{ title: 'Hono Blog', url: 'https://hono.dev/blog', description: 'Official blog with feature releases and runtime updates.' },
+]},{ label: 'Community', icon: 'community', items: [
+{ title: 'Hono Discord', url: 'https://discord.gg/hono', description: 'Official Hono community on Discord.' },
+{ title: 'Hono GitHub', url: 'https://github.com/honojs/hono', description: 'Official repository for issues and contributions.' },
+]},],};
+
+// ══ SELENIUM ═════════════════════════════════════════════════════════
+export const seleniumResources: LanguageResources = { slug: 'selenium', name: 'Selenium', description: 'Selenium is the most widely used browser automation framework. It supports multiple browsers and programming languages for web application testing, scraping, and automation at scale.', categories: [
+{ label: 'Free Books', icon: 'book', items: [
+{ title: 'Selenium Documentation', url: 'https://www.selenium.dev/documentation/', description: 'Comprehensive official documentation covering WebDriver, Grid, and IDE.' },
+{ title: 'Selenium WebDriver Guide', url: 'https://www.selenium.dev/documentation/webdriver/', description: 'Official WebDriver guide for automating browser interactions.' },
+]},{ label: 'Official Documentation', icon: 'docs', items: [
+{ title: 'Selenium API Docs', url: 'https://www.selenium.dev/selenium/docs/api/', description: 'Complete API reference for Java, Python, JavaScript, and C# bindings.' },
+{ title: 'Selenium Grid Guide', url: 'https://www.selenium.dev/documentation/grid/', description: 'Guide to distributed test execution with Selenium Grid.' },
+]},{ label: 'Interactive Courses', icon: 'code', items: [
+{ title: 'Selenium Tutorial (Guru99)', url: 'https://www.guru99.com/selenium-tutorial.html', description: 'Free comprehensive tutorial covering WebDriver, frameworks, and best practices.' },
+]},{ label: 'Video Courses', icon: 'video', items: [
+{ title: 'Selenium Full Course (YouTube)', url: 'https://www.youtube.com/results?search_query=selenium+full+course+2026', description: 'Multi-hour video courses covering Selenium automation from scratch.' },
+]},{ label: 'Practice & Challenges', icon: 'terminal', items: [
+{ title: 'Selenium Playground', url: 'https://www.selenium.dev/documentation/webdriver/getting_started/', description: 'Getting started guides for setting up and running Selenium tests.' },
+]},{ label: 'Reference & Cheatsheets', icon: 'reference', items: [
+{ title: 'Selenium Cheatsheet', url: 'https://devhints.io/selenium', description: 'Quick reference for WebDriver commands, locators, and waits.' },
+]},{ label: 'News & Updates', icon: 'news', items: [
+{ title: 'Selenium Blog', url: 'https://www.selenium.dev/blog/', description: 'Official Selenium blog with release notes and community updates.' },
+]},{ label: 'Community', icon: 'community', items: [
+{ title: 'Selenium Users Group', url: 'https://groups.google.com/g/selenium-users', description: 'Official Selenium users mailing list.' },
+{ title: 'Selenium GitHub', url: 'https://github.com/SeleniumHQ/selenium', description: 'Official repository for issues and contributions.' },
+]},],};
+
+// ══ CYPRESS ══════════════════════════════════════════════════════════
+export const cypressResources: LanguageResources = { slug: 'cypress', name: 'Cypress', description: 'Cypress is a next-generation frontend testing framework built for the modern web. It enables fast, reliable end-to-end, component, and integration testing with real-time reloads and time-travel debugging.', categories: [
+{ label: 'Free Books', icon: 'book', items: [
+{ title: 'Cypress Documentation', url: 'https://docs.cypress.io/', description: 'Comprehensive official documentation covering getting started, guides, and API reference.' },
+{ title: 'Cypress Guide', url: 'https://docs.cypress.io/guides/overview/why-cypress', description: 'Complete guide explaining Cypress architecture and testing philosophy.' },
+]},{ label: 'Official Documentation', icon: 'docs', items: [
+{ title: 'Cypress API Reference', url: 'https://docs.cypress.io/api/', description: 'Complete API reference for commands, assertions, and utilities.' },
+{ title: 'Cypress Component Testing', url: 'https://docs.cypress.io/guides/component-testing/overview', description: 'Guide to testing individual components in isolation.' },
+]},{ label: 'Interactive Courses', icon: 'code', items: [
+{ title: 'Cypress Testing Library', url: 'https://www.cypress.io/testing-tools', description: 'Free testing resources and interactive tutorials from Cypress.' },
+]},{ label: 'Video Courses', icon: 'video', items: [
+{ title: 'Cypress Full Course (YouTube)', url: 'https://www.youtube.com/results?search_query=cypress+testing+full+course', description: 'Video courses covering E2E testing, component testing, and CI integration.' },
+]},{ label: 'Practice & Challenges', icon: 'terminal', items: [
+{ title: 'Cypress Playground', url: 'https://example.cypress.io/', description: 'Interactive example app for practicing Cypress testing commands.' },
+]},{ label: 'Reference & Cheatsheets', icon: 'reference', items: [
+{ title: 'Cypress Cheatsheet', url: 'https://docs.cypress.io/api/table-of-contents', description: 'Quick reference for all Cypress commands and assertions.' },
+]},{ label: 'News & Updates', icon: 'news', items: [
+{ title: 'Cypress Blog', url: 'https://www.cypress.io/blog/', description: 'Official Cypress blog with features, releases, and case studies.' },
+]},{ label: 'Community', icon: 'community', items: [
+{ title: 'Cypress Discord', url: 'https://discord.gg/cypress', description: 'Official Cypress Discord community.' },
+{ title: 'Reddit r/cypress', url: 'https://www.reddit.com/r/cypress/', description: 'Cypress community for discussions and support.' },
+]},],};
+
+// ══ VITEST ═══════════════════════════════════════════════════════════
+export const vitestResources: LanguageResources = { slug: 'vitest', name: 'Vitest', description: 'Vitest is a blazing-fast unit test framework powered by Vite. It offers Jest-compatible API with native ESM support, TypeScript integration, and instant hot-module reloading for an exceptional testing experience.', categories: [
+{ label: 'Free Books', icon: 'book', items: [
+{ title: 'Vitest Documentation', url: 'https://vitest.dev/guide/', description: 'Comprehensive official documentation covering setup, configuration, and features.' },
+{ title: 'Vitest Getting Started', url: 'https://vitest.dev/guide/', description: 'Quickstart guide for installing and running your first Vitest tests.' },
+]},{ label: 'Official Documentation', icon: 'docs', items: [
+{ title: 'Vitest API Reference', url: 'https://vitest.dev/api/', description: 'Complete API reference for expect, describe, mock, and lifecycle hooks.' },
+{ title: 'Vitest Configuration', url: 'https://vitest.dev/config/', description: 'Full configuration reference with all available options and presets.' },
+]},{ label: 'Interactive Courses', icon: 'code', items: [
+{ title: 'Vitest Examples', url: 'https://vitest.dev/examples/', description: 'Practical examples showing Vitest in action with various frameworks.' },
+]},{ label: 'Video Courses', icon: 'video', items: [
+{ title: 'Vitest Crash Course (YouTube)', url: 'https://www.youtube.com/results?search_query=vitest+testing+crash+course', description: 'Video walkthroughs covering Vitest features, mocking, and integration.' },
+]},{ label: 'Practice & Challenges', icon: 'terminal', items: [
+{ title: 'Vitest Starter', url: 'https://vitest.dev/guide/#examples', description: 'Starter templates for various project setups with Vitest pre-configured.' },
+]},{ label: 'Reference & Cheatsheets', icon: 'reference', items: [
+{ title: 'Vitest Cheatsheet', url: 'https://vitest.dev/api/', description: 'Quick API reference for matchers, hooks, and mocking utilities.' },
+]},{ label: 'News & Updates', icon: 'news', items: [
+{ title: 'Vite Blog', url: 'https://vite.dev/blog/', description: 'Vite ecosystem blog covering Vitest releases and features.' },
+]},{ label: 'Community', icon: 'community', items: [
+{ title: 'Vite Discord', url: 'https://discord.gg/vite', description: 'Vite/Vitest community on Discord.' },
+{ title: 'Vitest GitHub', url: 'https://github.com/vitest-dev/vitest', description: 'Official repository for issues and contributions.' },
+]},],};
+
+// ══ JEST ═════════════════════════════════════════════════════════════
+export const jestResources: LanguageResources = { slug: 'jest', name: 'Jest', description: 'Jest is the most popular JavaScript testing framework. Created by Meta, it provides a zero-config setup, built-in mocking, snapshot testing, and code coverage for projects of any size.', categories: [
+{ label: 'Free Books', icon: 'book', items: [
+{ title: 'Jest Documentation', url: 'https://jestjs.io/docs/getting-started', description: 'Comprehensive official documentation covering setup, configuration, and API.' },
+{ title: 'Jest Getting Started', url: 'https://jestjs.io/docs/getting-started', description: 'Quickstart guide for installing and writing your first Jest test.' },
+]},{ label: 'Official Documentation', icon: 'docs', items: [
+{ title: 'Jest API Reference', url: 'https://jestjs.io/docs/api', description: 'Complete API reference for describe, it, expect, and lifecycle methods.' },
+{ title: 'Jest Mock Functions', url: 'https://jestjs.io/docs/mock-functions', description: 'Guide to using mock functions, spies, and manual mocks in Jest.' },
+]},{ label: 'Interactive Courses', icon: 'code', items: [
+{ title: 'Jest Tutorial (JavaScript.Info)', url: 'https://javascript.info/testing', description: 'Free tutorial covering Jest basics, testing patterns, and async testing.' },
+]},{ label: 'Video Courses', icon: 'video', items: [
+{ title: 'Jest Full Course (YouTube)', url: 'https://www.youtube.com/results?search_query=jest+testing+full+course', description: 'Multi-hour courses covering Jest fundamentals, mocking, and CI integration.' },
+]},{ label: 'Practice & Challenges', icon: 'terminal', items: [
+{ title: 'Jest Playground', url: 'https://codesandbox.io/s/jest-playground', description: 'Online sandbox for experimenting with Jest test cases.' },
+]},{ label: 'Reference & Cheatsheets', icon: 'reference', items: [
+{ title: 'Jest Cheatsheet (devhints)', url: 'https://devhints.io/jest', description: 'Quick reference for Jest matchers, mocking, and snapshot testing.' },
+]},{ label: 'News & Updates', icon: 'news', items: [
+{ title: 'Jest Blog', url: 'https://jestjs.io/blog', description: 'Official Jest blog with release notes and feature announcements.' },
+]},{ label: 'Community', icon: 'community', items: [
+{ title: 'Jest Discord', url: 'https://discord.gg/jest', description: 'Official Jest community on Discord.' },
+{ title: 'Reddit r/javascript', url: 'https://www.reddit.com/r/javascript/', description: 'JavaScript community with Jest discussions.' },
+]},],};
 // ─── Registry — all languages with curated resources ────────────────
 
 const RESOURCE_REGISTRY: Record<string, LanguageResources> = {
@@ -3943,6 +4173,16 @@ const RESOURCE_REGISTRY: Record<string, LanguageResources> = {
   'github-actions': githubactionsResources,
   neovim: neovimResources,
   astro: astroResources,
+  bun: bunResources,
+  deno: denoResources,
+  nestjs: nestjsResources,
+  remix: remixResources,
+  fastify: fastifyResources,
+  hono: honoResources,
+  selenium: seleniumResources,
+  cypress: cypressResources,
+  vitest: vitestResources,
+  jest: jestResources,
 };
 
 export function getLanguageResources(slug: string): LanguageResources | null {
