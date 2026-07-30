@@ -602,30 +602,6 @@ function readFolderEntries(dir: string, tag: string): SystemFolderEntry[] {
   return entries;
 }
 
-export function getSystemTagPaths(systemSlug: string): string[][] {
-  const tags = getSystemFolderTags(systemSlug);
-  const paths: string[][] = [];
-  function walk(prefix: string[], tagDir: string) {
-    if (!fs.existsSync(tagDir)) return;
-    try {
-      const items = fs.readdirSync(tagDir).filter((name) => !name.startsWith('.') && !name.endsWith('.md'));
-      items.forEach((name) => {
-        const fullPath = path.join(tagDir, name);
-        if (isDirectory(fullPath)) {
-          const segments = [...prefix, name];
-          paths.push(segments);
-          walk(segments, fullPath);
-        }
-      });
-    } catch {}
-  }
-  tags.forEach((tag) => {
-    const tagDir = path.join(SYSTEMS_DIR, systemSlug, tag.tag);
-    walk([tag.tag], tagDir);
-  });
-  return paths;
-}
-
 export function getSystemFileAtPath(systemSlug: string, filePathSegments: string[]): SystemFileEntry | null {
   // First try lesson path
   const lesson = getLessonByPath(systemSlug, filePathSegments);
@@ -672,21 +648,6 @@ export function systemHasDirectory(systemSlug: string, pathSegments: string[]): 
   try {
     const dirPath = path.join(SYSTEMS_DIR, systemSlug, ...pathSegments);
     return fs.existsSync(dirPath) && fs.statSync(dirPath).isDirectory();
-  } catch { return false; }
-}
-
-export function systemHasFile(systemSlug: string, pathSegments: string[]): boolean {
-  // Check lessons first
-  if (getLessonByPath(systemSlug, pathSegments)) return true;
-  // Fallback to old structure
-  try {
-    if (pathSegments.length === 0) return false;
-    const dirSegments = pathSegments.slice(0, -1);
-    const fileSlug = pathSegments[pathSegments.length - 1];
-    const dirPath = path.join(SYSTEMS_DIR, systemSlug, ...dirSegments);
-    if (!fs.existsSync(dirPath)) return false;
-    const files = fs.readdirSync(dirPath).filter((f) => f.endsWith('.md'));
-    return files.some((f) => fileToSlug(f) === fileSlug);
   } catch { return false; }
 }
 
@@ -828,7 +789,6 @@ export function getAllSystems(): SystemMeta[] {
 }
 
 export function getHandcraftedSystems(): SystemMeta[] { return getAllSystems(); }
-export function getOutsourcedSystems(): SystemMeta[] { return []; }
 
 // ─── Language Reading ───────────────────────────────────────────────
 
@@ -871,6 +831,4 @@ export function getTagData(tag: string): TagSearchData | null {
   } catch { return null; }
 }
 
-export function getAllTags(): TagSearchData[] {
-  return getAllTagSlugs().map((slug) => getTagData(slug)).filter((t): t is TagSearchData => t !== null);
-}
+
