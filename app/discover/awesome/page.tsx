@@ -93,7 +93,7 @@ export default async function AwesomePage() {
     <main className="mx-auto max-w-[860px] px-4 py-16">
       {/* Breadcrumb */}
       <div className="flex items-center gap-2 text-xs text-fg-muted mb-6">
-        <Link href="/feed" className="font-bold uppercase tracking-wider hover:text-accent transition-colors">
+        <Link href="/discover/feed" className="font-bold uppercase tracking-wider hover:text-accent transition-colors">
           Feed
         </Link>
         <span>/</span>

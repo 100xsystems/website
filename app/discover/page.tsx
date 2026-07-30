@@ -32,7 +32,7 @@ const TYPES: DiscoverType[] = [
     count: '162 concepts',
   },
   {
-    slug: 'engineering-blogs',
+    slug: 'feed',
     label: 'Engineering Blogs',
     description: 'Latest articles from 300+ top engineering blogs across the industry.',
     type: 'local',
@@ -46,7 +46,7 @@ const TYPES: DiscoverType[] = [
     count: '300+ feeds',
   },
   {
-    slug: 'yc-companies',
+    slug: 'yc',
     label: 'YC Companies',
     description: '6,000+ Y Combinator startups with full catalog and daily changes.',
     type: 'local',
@@ -61,7 +61,7 @@ const TYPES: DiscoverType[] = [
     count: '6,000+ companies',
   },
   {
-    slug: 'product-hunt',
+    slug: 'ph',
     label: 'Product Hunt',
     description: '900+ products and trending launches ranked by upvotes.',
     type: 'local',
@@ -75,7 +75,7 @@ const TYPES: DiscoverType[] = [
     count: '900+ products',
   },
   {
-    slug: 'hacker-news',
+    slug: 'hn',
     label: 'Hacker News',
     description: 'Top stories and discussions from the Y Combinator community.',
     type: 'live',
@@ -103,7 +103,7 @@ const TYPES: DiscoverType[] = [
     count: 'Live search',
   },
   {
-    slug: 'stack-overflow',
+    slug: 'stackoverflow',
     label: 'Stack Overflow',
     description: 'Q&A for programming topics, sorted by votes and relevance.',
     type: 'live',
@@ -133,7 +133,7 @@ const TYPES: DiscoverType[] = [
     count: 'Live search',
   },
   {
-    slug: 'dev-to',
+    slug: 'devto',
     label: 'Dev.to',
     description: 'Developer articles and discussions from the DEV community.',
     type: 'live',
@@ -161,7 +161,7 @@ const TYPES: DiscoverType[] = [
     count: 'Live search',
   },
   {
-    slug: 'duckduckgo',
+    slug: 'ddg',
     label: 'DuckDuckGo',
     description: 'Instant answers and related topics from DuckDuckGo.',
     type: 'live',

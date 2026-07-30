@@ -68,7 +68,7 @@ const TYPE_CONFIGS: Record<string, TypeConfig> = {
       ]},
     ],
   },
-  'engineering-blogs': {
+  'feed': {
     id: 'feed', label: 'Engineering Blogs', type: 'local', bgColor: 'bg-accent', hoverBg: 'hover:bg-accent', textColor: 'text-accent', description: 'Latest articles from 300+ top engineering blogs across the industry.',
     itemCount: '300+ feeds',
     filters: [
@@ -78,7 +78,7 @@ const TYPE_CONFIGS: Record<string, TypeConfig> = {
       ]},
     ],
   },
-  'yc-companies': {
+  'yc': {
     id: 'yc', label: 'YC Companies', type: 'local', bgColor: 'bg-orange-500', hoverBg: 'hover:bg-orange-500', textColor: 'text-orange-500', description: '6,000+ Y Combinator startups with full catalog.',
     itemCount: '6,000+ companies',
     filters: [
@@ -88,14 +88,14 @@ const TYPE_CONFIGS: Record<string, TypeConfig> = {
       { id: 'sort', label: 'Sort', type: 'sort', options: [{ value: 'name', label: 'By Name' }, { value: 'batch', label: 'By Batch' }] },
     ],
   },
-  'product-hunt': {
+  'ph': {
     id: 'ph', label: 'Product Hunt', type: 'local', bgColor: 'bg-red-500', hoverBg: 'hover:bg-red-500', textColor: 'text-red-500', description: '900+ products and trending launches ranked by upvotes.',
     itemCount: '900+ products',
     filters: [
       { id: 'sort', label: 'Sort', type: 'sort', options: [{ value: 'votes', label: 'By Votes' }, { value: 'name', label: 'By Name' }] },
     ],
   },
-  'hacker-news': {
+  'hn': {
     id: 'hn', label: 'Hacker News', type: 'live', bgColor: 'bg-orange-600', hoverBg: 'hover:bg-orange-600', textColor: 'text-orange-600', description: 'Top stories and discussions from the Y Combinator community.',
     itemCount: 'Live search',
     filters: [
@@ -109,7 +109,7 @@ const TYPE_CONFIGS: Record<string, TypeConfig> = {
       { id: 'sort', label: 'Sort', type: 'sort', options: [{ value: 'stars', label: 'By Stars' }, { value: 'forks', label: 'By Forks' }, { value: 'updated', label: 'Recently Updated' }] },
     ],
   },
-  'stack-overflow': {
+  'stackoverflow': {
     id: 'stackoverflow', label: 'Stack Overflow', type: 'live', bgColor: 'bg-orange-500', hoverBg: 'hover:bg-orange-500', textColor: 'text-orange-500', description: 'Q&A for programming topics, sorted by votes and relevance.',
     itemCount: 'Live search',
     filters: [
@@ -124,7 +124,7 @@ const TYPE_CONFIGS: Record<string, TypeConfig> = {
       { id: 'sort', label: 'Sort', type: 'sort', options: [{ value: 'score', label: 'By Score' }, { value: 'popularity', label: 'By Popularity' }] },
     ],
   },
-  'dev-to': {
+  'devto': {
     id: 'devto', label: 'Dev.to', type: 'live', bgColor: 'bg-gray-800', hoverBg: 'hover:bg-gray-800', textColor: 'text-gray-800', description: 'Developer articles and discussions from the DEV community.',
     itemCount: 'Live search',
     filters: [
@@ -138,7 +138,7 @@ const TYPE_CONFIGS: Record<string, TypeConfig> = {
       { id: 'sort', label: 'Sort', type: 'sort', options: [{ value: 'date', label: 'Most Recent' }] },
     ],
   },
-  'duckduckgo': {
+  'ddg': {
     id: 'ddg', label: 'DuckDuckGo', type: 'live', bgColor: 'bg-orange-600', hoverBg: 'hover:bg-orange-600', textColor: 'text-orange-600', description: 'Instant answers and related topics from DuckDuckGo.',
     itemCount: 'Live search',
     filters: [],

@@ -141,10 +141,19 @@ interface SourceConfig {
 }
 
 const SOURCE_ROUTES: Record<string, string> = {
-  knowledge: '/knowledge',
-  feed: '/feed',
-  yc: '/yc',
-  ph: '/producthunt',
+  knowledge: '/discover/knowledge',
+  feed: '/discover/feed',
+  yc: '/discover/yc',
+  ph: '/discover/ph',
+  hn: '/discover/hn',
+  github: '/discover/github',
+  stackoverflow: '/discover/stackoverflow',
+  npm: '/discover/npm',
+  devto: '/discover/devto',
+  medium: '/discover/medium',
+  ddg: '/discover/ddg',
+  reddit: '/discover/reddit',
+  wikipedia: '/discover/wikipedia',
 };
 
 const SOURCES: SourceConfig[] = [

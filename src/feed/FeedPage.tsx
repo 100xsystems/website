@@ -247,7 +247,7 @@ export function FeedPage({ initialTag }: { initialTag?: string }) {
                 </svg>
                 List
               </button>
-              <Link href="/feed/bookmarks" className="text-[10px] font-bold uppercase tracking-wider text-fg-muted hover:text-accent transition-colors">
+              <Link href="/discover/feed/bookmarks" className="text-[10px] font-bold uppercase tracking-wider text-fg-muted hover:text-accent transition-colors">
                 Bookmarks{bookmarks.length > 0 ? ` (${bookmarks.length})` : ''}
               </Link>
             </div>
@@ -329,7 +329,7 @@ export function FeedPage({ initialTag }: { initialTag?: string }) {
               </svg>
               Grid
             </button>
-            <Link href="/feed/bookmarks" className="text-[10px] font-bold uppercase tracking-wider text-fg-muted hover:text-accent transition-colors">
+            <Link href="/discover/feed/bookmarks" className="text-[10px] font-bold uppercase tracking-wider text-fg-muted hover:text-accent transition-colors">
               Bookmarks{bookmarks.length > 0 ? ` (${bookmarks.length})` : ''}
             </Link>
           </div>
