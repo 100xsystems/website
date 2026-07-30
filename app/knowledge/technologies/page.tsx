@@ -32,7 +32,7 @@ export default function TechnologiesPage() {
   return (
     <main className="min-h-screen bg-white">
       {/* Hero — split-screen style */}
-      <section className="py-20 sm:py-24 bg-white border-b border-border">
+      <section className="py-20 sm:py-24 bg-white">
         <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -65,7 +65,7 @@ export default function TechnologiesPage() {
             {/* Right: decorative tech grid */}
             <div className="hidden lg:grid grid-cols-4 gap-3">
               {TECH_ICONS.map((Icon, i) => (
-                <div key={i} className="flex items-center justify-center h-20 bg-surface-secondary border border-border">
+                <div key={i} className="flex items-center justify-center h-20 bg-surface-secondary">
                   <Icon size={24} className="text-accent/60" />
                 </div>
               ))}
@@ -82,7 +82,7 @@ export default function TechnologiesPage() {
       ) : (
         <section className="py-16 sm:py-20 bg-white">
           <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
-            <div className="space-y-px border border-border divide-y divide-border">
+            <div className="space-y-px bg-surface-secondary">
               {items.map((item, i) => {
                 const Icon = TECH_ICONS[i % TECH_ICONS.length];
                 const diffStyle = DIFFICULTY_STYLES[item.difficulty] || 'bg-surface-secondary text-fg-muted';

@@ -32,7 +32,7 @@ export default function PatternsPage() {
   return (
     <main className="min-h-screen bg-white">
       {/* Hero */}
-      <section className="py-20 sm:py-28 bg-white border-b border-border">
+      <section className="py-20 sm:py-28 bg-white">
         <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
           <div className="text-center mb-12">
             <div className="inline-flex items-center gap-2 px-3 py-1.5 text-[10px] font-bold uppercase tracking-widest bg-accent-yellow text-black mb-5">
@@ -94,7 +94,7 @@ export default function PatternsPage() {
                     key={item.slug}
                     href={`/knowledge/patterns/read/${item.slug}`}
                     className={cn(
-                      'group block bg-white transition-all duration-300 border border-border hover:bg-accent-yellow',
+                      'group block bg-white transition-all duration-300 hover:bg-accent-yellow',
                       isWide ? 'lg:col-span-2 lg:grid lg:grid-cols-2 lg:gap-8' : '',
                     )}
                   >

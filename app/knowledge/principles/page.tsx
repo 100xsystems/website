@@ -36,7 +36,7 @@ export default function PrinciplesPage() {
   return (
     <main className="min-h-screen bg-white">
       {/* Hero */}
-      <section className="py-20 sm:py-28 bg-white border-b border-border">
+      <section className="py-20 sm:py-28 bg-white">
         <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
           <div className="text-center mb-12">
             <div className="inline-flex items-center gap-2 px-3 py-1.5 text-[10px] font-bold uppercase tracking-widest bg-accent text-white mb-5">
@@ -78,7 +78,7 @@ export default function PrinciplesPage() {
                   <Link
                     key={item.slug}
                     href={`/knowledge/principles/read/${item.slug}`}
-                    className="group block bg-white p-6 sm:p-8 transition-all duration-300 border border-border hover:bg-accent"
+                    className="group block bg-white p-6 sm:p-8 transition-all duration-300 hover:bg-accent"
                   >
                     {/* Icon */}
                     <span className="inline-flex items-center justify-center w-10 h-10 bg-accent/10 text-accent group-hover:bg-white/20 group-hover:text-white mb-4 transition-colors">

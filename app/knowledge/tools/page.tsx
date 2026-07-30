@@ -31,7 +31,7 @@ export default function ToolsPage() {
   return (
     <main className="min-h-screen bg-white">
       {/* Hero — compact, utilitarian */}
-      <section className="py-16 sm:py-20 bg-white border-b border-border">
+      <section className="py-16 sm:py-20 bg-white">
         <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
           <div className="flex items-center justify-between gap-8">
             <div>
@@ -79,7 +79,7 @@ export default function ToolsPage() {
                   <Link
                     key={item.slug}
                     href={`/knowledge/tools/read/${item.slug}`}
-                    className="group flex items-start gap-4 p-5 transition-all duration-200 border border-border hover:bg-fg"
+                    className="group flex items-start gap-4 p-5 transition-all duration-200 hover:bg-fg"
                   >
                     <span className="inline-flex items-center justify-center w-9 h-9 bg-surface-secondary text-fg-muted group-hover:bg-white/20 group-hover:text-white transition-colors shrink-0 mt-0.5">
                       <Icon size={16} />
