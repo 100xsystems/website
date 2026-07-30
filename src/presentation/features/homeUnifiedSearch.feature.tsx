@@ -3,7 +3,7 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import Fuse from 'fuse.js';
 import { cn } from '@/application/lib/utils';
-import { Icon } from '@/presentation/__components';
+import { Icon, IconAnimatedGridPattern } from '@/presentation/__components';
 import { timeAgo } from '@/feed/feed.utils';
 import type { FeedCache, RegistryFeedData } from '@/feed/feed.types';
 
@@ -737,27 +737,31 @@ export function HomeUnifiedSearch() {
 
   return (
     <>
-      {/* ── SEARCH HERO ── */}
-      <section className="py-20 sm:py-28 bg-white">
-        <div className="max-w-[1200px] mx-auto px-6 lg:px-12">
-          <div className="text-center mb-8">
-            <div className="inline-flex items-center gap-2 px-3 py-1.5 text-[10px] font-bold uppercase tracking-widest bg-accent text-white mb-5">
+      {/* ── SEARCH HERO — with dynamic animated background ── */}
+      <section className="relative overflow-hidden flex items-center bg-white" style={{ minHeight: 'calc(100vh - 7rem)' }}>
+        <div className="absolute inset-0 z-0">
+          <IconAnimatedGridPattern />
+        </div>
+
+        <div className="relative z-10 max-w-[1000px] mx-auto px-6 lg:px-12 py-24 sm:py-32 w-full text-center">
+          <div className="mb-10">
+            <div className="inline-flex items-center gap-2 px-4 py-2 text-xs font-bold uppercase tracking-widest bg-accent text-white mb-6">
               <span className="w-1.5 h-1.5 rounded-full bg-white animate-pulse" />
               100X KNOWLEDGE
             </div>
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-fg tracking-tight uppercase leading-none mb-4">
+            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-extrabold text-fg tracking-tight uppercase leading-[1.05] mb-5">
               Software engineering&nbsp;<span className="text-accent">knowledge</span>
             </h1>
-            <p className="text-sm text-fg-secondary max-w-xl mx-auto">
+            <p className="text-base sm:text-lg text-fg-secondary max-w-2xl mx-auto">
               One search across curated concepts, engineering blogs, YC startups, GitHub, Hacker News, and more.
             </p>
           </div>
 
-          {/* Search bar */}
-          <div className="max-w-2xl mx-auto">
+          {/* Bigger search bar */}
+          <div className="max-w-3xl mx-auto">
             <div className="relative">
-              <span className="absolute left-4 top-1/2 -translate-y-1/2 text-fg-muted pointer-events-none">
-                <Icon name="search" size={20} />
+              <span className="absolute left-6 top-1/2 -translate-y-1/2 text-fg-muted pointer-events-none">
+                <Icon name="search" size={28} />
               </span>
               <input
                 ref={inputRef}
@@ -765,13 +769,13 @@ export function HomeUnifiedSearch() {
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
                 placeholder="Search engineering blogs, YC companies, GitHub repos, packages..."
-                className="w-full bg-surface-secondary text-base py-4 pl-12 pr-12 border-0 border-b-2 border-transparent focus:border-accent focus:outline-none focus:ring-0 placeholder:text-fg-muted/60 text-fg transition-all duration-150"
+                className="w-full bg-white/90 backdrop-blur-sm text-xl py-5 pl-16 pr-16 border-0 border-b-2 border-transparent focus:border-accent focus:outline-none focus:ring-0 focus:bg-white placeholder:text-fg-muted/50 text-fg shadow-lg shadow-black/5 transition-all duration-150"
                 autoComplete="off" spellCheck={false} autoFocus
               />
               {query && (
                 <button type="button" onClick={() => { setQuery(''); inputRef.current?.focus(); }}
-                  className="absolute right-3 top-1/2 -translate-y-1/2 text-fg-muted hover:text-fg transition-colors" aria-label="Clear">
-                  <Icon name="x" size={18} />
+                  className="absolute right-5 top-1/2 -translate-y-1/2 text-fg-muted hover:text-fg transition-colors" aria-label="Clear">
+                  <Icon name="x" size={22} />
                 </button>
               )}
             </div>
