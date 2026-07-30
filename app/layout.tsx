@@ -86,7 +86,7 @@ const headerItems = [
   { id: 'discover', label: 'Discover', children: [
     { id: 'feed', label: 'Feed', href: '/discover/feed', description: 'Engineering blogs & articles', featured: true },
     { id: 'yc', label: 'YC Companies', href: '/discover/yc', description: 'Browse Y Combinator startups', featured: true },
-    { id: 'ph', label: 'Product Hunt', href: '/discover/ph', description: 'Latest product launches', featured: true },
+    { id: 'ph', label: 'Product Hunt', href: '/discover/product-hunt', description: 'Latest product launches', featured: true },
     { id: 'awesome', label: 'Awesome Lists', href: '/discover/awesome', description: 'Curated GitHub resources' },
     { id: 'hn', label: 'Hacker News', href: '/discover/hn', description: 'Top stories & discussions' },
     { id: 'github', label: 'GitHub', href: '/discover/github', description: 'Search public repos' },

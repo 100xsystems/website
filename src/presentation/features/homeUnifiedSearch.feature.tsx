@@ -144,7 +144,7 @@ const SOURCE_ROUTES: Record<string, string> = {
   knowledge: '/knowledge',
   feed: '/discover/feed',
   yc: '/discover/yc',
-  ph: '/discover/ph',
+  ph: '/discover/product-hunt',
   hn: '/discover/hn',
   github: '/discover/github',
   stackoverflow: '/discover/stackoverflow',

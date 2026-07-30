@@ -282,7 +282,11 @@ export function HomeProductHunt() {
               >
                 {/* Thumbnail + Name + Votes */}
                 <div className="flex items-start gap-5 mb-5">
-                  <ProductThumbnail thumbnail={product.thumbnail} name={product.name} size={88} />
+                  {product.thumbnail?.url ? (
+                    <ProductThumbnail thumbnail={product.thumbnail} name={product.name} size={80} />
+                  ) : (
+                    <ProductLogo url={product.website || product.url} name={product.name} size={64} />
+                  )}
                   <div className="min-w-0 flex-1">
                     <div className="flex items-start justify-between gap-2">
                       <h3 className="text-xl font-bold uppercase tracking-wide text-fg transition-colors duration-300 group-hover:text-white">
@@ -358,7 +362,7 @@ export function HomeProductHunt() {
             size="lg"
             icon={<Icon name="arrow-right" size={18} />}
             iconPosition="right"
-            onClick={() => { window.location.href = '/discover/ph'; }}
+            onClick={() => { window.location.href = '/discover/product-hunt'; }}
           >
             View All Products
           </Button>

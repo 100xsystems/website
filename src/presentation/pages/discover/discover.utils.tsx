@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback, useRef } from 'react';
 
 // ─── Types ──────────────────────────────────────────────────────────
 
@@ -60,38 +60,53 @@ export function Favicon({ url, className = 'w-5 h-5' }: { url: string; className
   );
 }
 
-// ─── Custom Hook for Live Search ───────────────────────────────────
+// ─── Custom Hook for Live Search with Infinite Scroll ───────────────
 
-export function useLiveSearch(sourceId: string, defaultQuery: string) {
+export function useLiveSearch(sourceId: string, defaultQuery: string, options?: {
+  limit?: number;
+  categories?: { id: string; label: string }[];
+}) {
+  const { limit = 50, categories } = options || {};
   const [query, setQuery] = useState('');
   const [items, setItems] = useState<LiveSearchResult[]>([]);
   const [initialLoading, setInitialLoading] = useState(true);
   const [searchLoading, setSearchLoading] = useState(false);
+  const [loadingMore, setLoadingMore] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
+  const pageRef = useRef(1);
+  const hasMoreRef = useRef(true);
+  const sentinelRef = useRef<HTMLDivElement | null>(null);
 
-  // Auto-load default query on mount
+  // Determine effective search query based on category
+  const effectiveSearchQuery = selectedCategory
+    ? `${defaultQuery} ${selectedCategory}`
+    : query || defaultQuery;
+
+  const fetchItems = useCallback(async (searchQ: string, page: number, append: boolean) => {
+    const url = `/api/search?q=${encodeURIComponent(searchQ)}&limit=${limit}&page=${page}&sources=${sourceId}`;
+    const res = await fetch(url);
+    if (!res.ok) throw new Error(`API: ${res.status}`);
+    const data = await res.json() as { results: LiveSearchResult[] };
+    const newItems = data.results || [];
+    if (newItems.length < limit) hasMoreRef.current = false;
+    else hasMoreRef.current = true;
+    return newItems;
+  }, [sourceId, limit]);
+
+  // Auto-load on mount
   useEffect(() => {
     let mounted = true;
     setInitialLoading(true);
     setError(null);
-
-    fetch(`/api/search?q=${encodeURIComponent(defaultQuery)}&limit=25&sources=${sourceId}`)
-      .then((res) => {
-        if (!res.ok) throw new Error(`API: ${res.status}`);
-        return res.json() as Promise<{ results: LiveSearchResult[] }>;
-      })
-      .then((data) => {
-        if (mounted) setItems(data.results || []);
-      })
-      .catch((err) => {
-        if (mounted) setError(err instanceof Error ? err.message : String(err));
-      })
-      .finally(() => {
-        if (mounted) setInitialLoading(false);
-      });
-
+    pageRef.current = 1;
+    hasMoreRef.current = true;
+    fetchItems(effectiveSearchQuery, 1, false)
+      .then((newItems) => { if (mounted) setItems(newItems); })
+      .catch((err) => { if (mounted) setError(err instanceof Error ? err.message : String(err)); })
+      .finally(() => { if (mounted) setInitialLoading(false); });
     return () => { mounted = false; };
-  }, [sourceId, defaultQuery]);
+  }, [sourceId, defaultQuery, selectedCategory]);
 
   // User search with debounce
   useEffect(() => {
@@ -99,11 +114,11 @@ export function useLiveSearch(sourceId: string, defaultQuery: string) {
     const timer = setTimeout(async () => {
       setSearchLoading(true);
       setError(null);
+      pageRef.current = 1;
+      hasMoreRef.current = true;
       try {
-        const res = await fetch(`/api/search?q=${encodeURIComponent(query.trim())}&limit=25&sources=${sourceId}`);
-        if (!res.ok) throw new Error(`API: ${res.status}`);
-        const data = await res.json() as { results: LiveSearchResult[] };
-        setItems(data.results || []);
+        const newItems = await fetchItems(query.trim(), 1, false);
+        setItems(newItems);
       } catch (err) {
         setError(err instanceof Error ? err.message : String(err));
       } finally {
@@ -113,37 +128,66 @@ export function useLiveSearch(sourceId: string, defaultQuery: string) {
     return () => clearTimeout(timer);
   }, [query, sourceId]);
 
-  return { query, setQuery, items, initialLoading, searchLoading, error, isLoading: initialLoading || searchLoading };
+  // Load more (pagination)
+  const loadMore = useCallback(async () => {
+    if (loadingMore || !hasMoreRef.current) return;
+    setLoadingMore(true);
+    const nextPage = pageRef.current + 1;
+    try {
+      const searchQ = query.trim() || defaultQuery;
+      const newItems = await fetchItems(searchQ, nextPage, true);
+      setItems((prev) => [...prev, ...newItems]);
+      pageRef.current = nextPage;
+    } catch (err) {
+      // Silently fail for load more
+    } finally {
+      setLoadingMore(false);
+    }
+  }, [loadingMore, query, defaultQuery, fetchItems]);
+
+  // Infinite scroll observer
+  useEffect(() => {
+    if (!sentinelRef.current) return;
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting && hasMoreRef.current && !loadingMore && !searchLoading) {
+          loadMore();
+        }
+      },
+      { rootMargin: '400px' }
+    );
+    observer.observe(sentinelRef.current);
+    return () => observer.disconnect();
+  }, [loadMore, loadingMore, searchLoading, items.length]);
+
+  return {
+    query, setQuery, items, initialLoading, searchLoading, loadingMore,
+    error, isLoading: initialLoading || searchLoading,
+    selectedCategory, setSelectedCategory, categories,
+    sentinelRef, hasMore: hasMoreRef.current, loadMore,
+  };
 }
 
 // ─── Shared page shell ─────────────────────────────────────────────
 
-interface PageShellProps {
+export interface PageShellProps {
   title: string;
   subtitle: string;
   brandColor: string;
   brandLabel: string;
-  defaultQuery: string;
   description: string;
-  sourceId: string;
-  totalCount?: string;
+  textColor?: string;
   children: React.ReactNode;
 }
 
 export function DiscoverPageShell({
-  title,
-  subtitle,
-  brandColor,
-  brandLabel,
-  description,
-  sourceId,
-  totalCount,
-  children,
+  title, subtitle, brandColor, brandLabel, description, textColor, children,
 }: PageShellProps) {
+  const subtitleColor = textColor || `text-orange-600`;
   return (
     <main className="min-h-screen bg-white">
       {/* Hero */}
-      <section className={`py-16 sm:py-20 bg-white border-b border-border`}>
+      <section className="py-16 sm:py-20 bg-white border-b border-border">
         <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
           <div className="flex items-center gap-3 mb-3">
             <span className={`inline-flex items-center gap-2 px-4 py-2 text-sm font-bold uppercase tracking-widest text-white ${brandColor}`}>
@@ -153,17 +197,11 @@ export function DiscoverPageShell({
           </div>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-fg tracking-tight uppercase leading-tight">
             {title}{' '}
-            <span className={brandColor.replace('bg-', 'text-')}>{subtitle}</span>
+            <span className={subtitleColor}>{subtitle}</span>
           </h1>
-          <p className="mt-4 text-lg text-fg-secondary max-w-2xl">
-            {description}
-          </p>
-          {totalCount && (
-            <p className="mt-2 text-base text-fg-muted/60">{totalCount}</p>
-          )}
+          <p className="mt-4 text-lg text-fg-secondary max-w-2xl">{description}</p>
         </div>
       </section>
-
       {children}
     </main>
   );

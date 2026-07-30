@@ -61,7 +61,7 @@ const TYPES: DiscoverType[] = [
     count: '6,000+ companies',
   },
   {
-    slug: 'ph',
+    slug: 'product-hunt',
     label: 'Product Hunt',
     description: '900+ products and trending launches ranked by upvotes.',
     type: 'local',

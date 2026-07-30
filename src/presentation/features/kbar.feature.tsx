@@ -63,7 +63,7 @@ const navigationActions: KbarAction[] = createSectionActions('Navigation', [
   { id: 'home', name: 'Home', shortcut: ['h'], keywords: 'home main landing', href: '/' },
   { id: 'feed', name: 'Engineering Feed', shortcut: ['f'], keywords: 'feed engineering articles blogs discover', href: '/discover/feed' },
   { id: 'yc', name: 'YC Companies', shortcut: ['y'], keywords: 'yc y combinator startups companies discover', href: '/discover/yc' },
-  { id: 'ph', name: 'Product Hunt', keywords: 'producthunt products launches discover', href: '/discover/ph' },
+  { id: 'ph', name: 'Product Hunt', keywords: 'producthunt products launches discover', href: '/discover/product-hunt' },
   { id: 'systems', name: 'Systems', shortcut: ['s'], keywords: 'systems software engineering architecture', href: '/systems' },
   { id: 'knowledge-graph', name: 'Knowledge Graph', shortcut: ['k'], keywords: 'knowledge graph concepts wikidata', href: '/knowledge' },
   { id: 'search', name: 'Search Site', shortcut: ['g', 's'], keywords: 'search find lookup', href: '/search' },
