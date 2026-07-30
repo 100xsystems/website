@@ -1373,6 +1373,397 @@ export const cobolResources: LanguageResources = {
   ],
 };
 
+// ═══════════════════════════════════════════════════════════════════════
+// OCaml
+// ═══════════════════════════════════════════════════════════════════════
+
+export const ocamlResources: LanguageResources = {
+  slug: 'ocaml', name: 'OCaml',
+  description: 'OCaml is a functional, imperative, and object-oriented language from the ML family. It excels at type-safe systems programming, formal verification, and high-assurance software with a powerful module system and type inference.',
+  categories: [
+    { label: 'Free Books', icon: 'book', items: [
+      { title: 'OCaml from the Very Beginning', url: 'https://johnwhitington.net/ocamlbook/', description: 'A zero-prerequisites beginner book backed by the OCaml Software Foundation — free to read online or download as PDF.' },
+      { title: 'Real World OCaml (2nd Edition)', url: 'https://dev.realworldocaml.org/', description: 'The definitive intermediate-to-advanced resource covering real-world apps, platform toolchain, and ecosystem libraries.' },
+      { title: 'OCaml Programming: Correct + Efficient + Beautiful', url: 'https://cs3110.github.io/textbook/', description: 'Cornell CS 3110 open textbook emphasizing semantics, data structures, and testing in OCaml.' },
+    ]},
+    { label: 'Official Documentation', icon: 'docs', items: [
+      { title: 'OCaml.org Learn & Manual', url: 'https://ocaml.org/docs', description: 'Official portal with tutorials, exercises, language manuals, and guides from the core community.' },
+    ]},
+    { label: 'Interactive Courses', icon: 'code', items: [
+      { title: 'Exercism — OCaml Track', url: 'https://exercism.org/tracks/ocaml', description: '60 tailored exercises with automated test analysis and free human mentoring.' },
+    ]},
+    { label: 'Video Courses', icon: 'video', items: [
+      { title: 'Cornell CS 3110 Video Lectures', url: 'https://www.youtube.com/playlist?list=PLre5AT9JnKShBOPeuiD9b-I4XROIJhkIU', description: 'Bite-sized lecture series covering FP design, algorithmic complexity, and testing.' },
+    ]},
+    { label: 'Practice & Challenges', icon: 'terminal', items: [
+      { title: 'Exercism — OCaml Track', url: 'https://exercism.org/tracks/ocaml', description: 'Pattern matching, algebraic data types, and functional programming exercises.' },
+    ]},
+    { label: 'Reference & Cheatsheets', icon: 'reference', items: [
+      { title: 'OCamlPro Cheat Sheets', url: 'https://ocamlpro.github.io/ocaml-cheat-sheets/', description: 'Downloadable one-page PDF references for language, stdlib, OPAM, and tools.' },
+    ]},
+    { label: 'News & Updates', icon: 'news', items: [
+      { title: 'OCaml Discuss', url: 'https://discuss.ocaml.org/', description: 'Primary community forum with announcements, library releases, and updates.' },
+    ]},
+    { label: 'Community', icon: 'community', items: [
+      { title: 'OCaml Discuss', url: 'https://discuss.ocaml.org/', description: 'Official forum for questions, announcements, and community support.' },
+      { title: 'Reddit r/ocaml', url: 'https://www.reddit.com/r/ocaml/', description: 'Community hub for projects, questions, and OCaml discussions.' },
+    ]},
+  ],
+};
+
+// ═══════════════════════════════════════════════════════════════════════
+// F#
+// ═══════════════════════════════════════════════════════════════════════
+
+export const fsharpResources: LanguageResources = {
+  slug: 'fsharp', name: 'F#',
+  description: 'F# is a functional-first, cross-platform .NET language. It excels at data science, financial modeling, and concurrent systems with type providers, computation expressions, and seamless .NET interop.',
+  categories: [
+    { label: 'Free Books', icon: 'book', items: [
+      { title: 'F# for Fun and Profit', url: 'https://fsharpforfunandprofit.com/', description: 'Universally regarded as the best introduction to FP and F# — covers types, design, and railway-oriented programming.' },
+      { title: 'F# Programming Wikibook', url: 'https://en.wikibooks.org/wiki/F_Sharp_Programming', description: 'Community-edited textbook covering basics, immutable data, OOP, and computation expressions.' },
+    ]},
+    { label: 'Official Documentation', icon: 'docs', items: [
+      { title: 'Microsoft Learn F# Docs', url: 'https://learn.microsoft.com/en-us/dotnet/fsharp/', description: 'Primary reference hub with language guide, syntax specs, and concepts tutorials.' },
+    ]},
+    { label: 'Interactive Courses', icon: 'code', items: [
+      { title: 'Exercism — F# Track', url: 'https://exercism.org/tracks/fsharp', description: '146 exercises across 17 concepts with automated analysis and optional mentoring.' },
+    ]},
+    { label: 'Video Courses', icon: 'video', items: [
+      { title: 'Beginning F# Series (Microsoft)', url: 'https://learn.microsoft.com/en-us/shows/beginners-series-to-fsharp/introduction-1-of-12--beginners-series-to-f', description: 'Official 12-part beginner video series from Microsoft Learn.' },
+    ]},
+    { label: 'Practice & Challenges', icon: 'terminal', items: [
+      { title: 'Exercism — F# Track', url: 'https://exercism.org/tracks/fsharp', description: 'Structured exercises with community mentorship and automated analysis.' },
+    ]},
+    { label: 'Reference & Cheatsheets', icon: 'reference', items: [
+      { title: 'F# Cheatsheet (devhints)', url: 'https://devhints.io/fsharp', description: 'Quick reference for F# syntax, types, and functional patterns.' },
+    ]},
+    { label: 'News & Updates', icon: 'news', items: [
+      { title: 'F# Weekly', url: 'https://sergeytihon.com/category/f-weekly/', description: 'Definitive weekly newsletter covering ecosystem, libraries, and compiler updates.' },
+    ]},
+    { label: 'Community', icon: 'community', items: [
+      { title: 'F# Software Foundation Forums', url: 'https://forums.fsharp.org/', description: 'Official Discourse forum for F# development questions and best practices.' },
+      { title: 'F# Slack/Discord', url: 'https://fsharp.org/guides/slack/', description: 'Real-time chat for F# developers with global community channels.' },
+    ]},
+  ],
+};
+
+// ═══════════════════════════════════════════════════════════════════════
+// CRYSTAL
+// ═══════════════════════════════════════════════════════════════════════
+
+export const crystalResources: LanguageResources = {
+  slug: 'crystal', name: 'Crystal',
+  description: 'Crystal is a statically typed, compiled language with Ruby-like syntax but blazing performance via LLVM. It excels at web applications, backend services, and systems programming with type inference and nil safety.',
+  categories: [
+    { label: 'Free Books', icon: 'book', items: [
+      { title: 'Crystal Language Reference', url: 'https://crystal-lang.org/reference/', description: 'Official language reference covering syntax, types, concurrency, and macros.' },
+    ]},
+    { label: 'Official Documentation', icon: 'docs', items: [
+      { title: 'Crystal API Docs', url: 'https://crystal-lang.org/api/', description: 'Complete API documentation for the Crystal standard library and shards.' },
+      { title: 'Crystal Playground', url: 'https://play.crystal-lang.org/', description: 'Interactive browser-based Crystal sandbox for testing code snippets.' },
+    ]},
+    { label: 'Interactive Courses', icon: 'code', items: [
+      { title: 'Learn Crystal (Tutorials)', url: 'https://crystal-lang.org/reference/getting_started/', description: 'Official getting started guide with step-by-step examples.' },
+    ]},
+    { label: 'Video Courses', icon: 'video', items: [
+      { title: 'Crystal Language Tutorials (YouTube)', url: 'https://www.youtube.com/@CrystalLanguage', description: 'Official Crystal YouTube channel with tutorials and conference talks.' },
+    ]},
+    { label: 'Practice & Challenges', icon: 'terminal', items: [
+      { title: 'Exercism — Crystal Track', url: 'https://exercism.org/tracks/crystal', description: 'Free coding exercises for learning Crystal with mentoring.' },
+    ]},
+    { label: 'Reference & Cheatsheets', icon: 'reference', items: [
+      { title: 'Crystal Cheatsheet', url: 'https://devhints.io/crystal', description: 'Quick reference for Crystal syntax and standard library.' },
+    ]},
+    { label: 'News & Updates', icon: 'news', items: [
+      { title: 'Crystal Blog', url: 'https://crystal-lang.org/blog/', description: 'Official Crystal blog with release announcements and features.' },
+      { title: 'Reddit r/crystal_programming', url: 'https://www.reddit.com/r/crystal_programming/', description: 'Community for Crystal news and discussions.' },
+    ]},
+    { label: 'Community', icon: 'community', items: [
+      { title: 'Crystal Forum', url: 'https://forum.crystal-lang.org/', description: 'Official community forum for Q&A and discussions.' },
+      { title: 'Reddit r/crystal_programming', url: 'https://www.reddit.com/r/crystal_programming/', description: 'Community hub for Crystal programming.' },
+    ]},
+  ],
+};
+
+// ═══════════════════════════════════════════════════════════════════════
+// NIM
+// ═══════════════════════════════════════════════════════════════════════
+
+export const nimResources: LanguageResources = {
+  slug: 'nim', name: 'Nim',
+  description: 'Nim is an efficient, statically typed systems programming language with Python-like syntax. It compiles to C via its compiler, offering C-level performance with high-level expressiveness and metaprogramming.',
+  categories: [
+    { label: 'Free Books', icon: 'book', items: [
+      { title: 'Nim Basics Tutorial', url: 'https://narimiran.github.io/nim-basics/', description: 'An excellent free introduction to Nim covering basics, OOP, and metaprogramming.' },
+      { title: 'Nim in Action (Free Chapters)', url: 'https://www.manning.com/books/nim-in-action', description: 'Free preview chapters from the comprehensive Nim book covering real-world development.' },
+    ]},
+    { label: 'Official Documentation', icon: 'docs', items: [
+      { title: 'Nim Language Manual', url: 'https://nim-lang.org/documentation.html', description: 'Complete official documentation covering syntax, types, metaprogramming, and standard library.' },
+      { title: 'Nim Playground', url: 'https://play.nim-lang.org/', description: 'Interactive browser-based Nim compiler for testing code snippets.' },
+    ]},
+    { label: 'Interactive Courses', icon: 'code', items: [
+      { title: 'Exercism — Nim Track', url: 'https://exercism.org/tracks/nim', description: 'Free coding exercises with automated analysis and optional human mentoring.' },
+    ]},
+    { label: 'Video Courses', icon: 'video', items: [
+      { title: 'Nim Programming Tutorials (YouTube)', url: 'https://www.youtube.com/results?search_query=nim+programming+tutorial', description: 'Community video tutorials covering Nim basics to advanced metaprogramming.' },
+    ]},
+    { label: 'Practice & Challenges', icon: 'terminal', items: [
+      { title: 'Exercism — Nim Track', url: 'https://exercism.org/tracks/nim', description: 'Structured exercises for mastering Nim syntax and patterns.' },
+    ]},
+    { label: 'Reference & Cheatsheets', icon: 'reference', items: [
+      { title: 'Nim Cheatsheet', url: 'https://devhints.io/nim', description: 'Quick reference for Nim syntax, types, and metaprogramming.' },
+    ]},
+    { label: 'News & Updates', icon: 'news', items: [
+      { title: 'Nim News', url: 'https://nim-lang.org/blog/', description: 'Official Nim blog with release notes and community updates.' },
+      { title: 'Nim Weekly', url: 'https://nimweekly.com/', description: 'Curated weekly newsletter covering Nim ecosystem and updates.' },
+    ]},
+    { label: 'Community', icon: 'community', items: [
+      { title: 'Nim Forum', url: 'https://forum.nim-lang.org/', description: 'Official community forum for discussions and Q&A.' },
+      { title: 'Reddit r/nim', url: 'https://www.reddit.com/r/nim/', description: 'Community hub for Nim programming and projects.' },
+    ]},
+  ],
+};
+
+// ═══════════════════════════════════════════════════════════════════════
+// ZIG
+// ═══════════════════════════════════════════════════════════════════════
+
+export const zigResources: LanguageResources = {
+  slug: 'zig', name: 'Zig',
+  description: 'Zig is a modern systems programming language focused on robustness, optimality, and maintainability. It offers manual memory management, compile-time computation, seamless C interop, and a first-class cross-compilation toolchain.',
+  categories: [
+    { label: 'Free Books', icon: 'book', items: [
+      { title: 'Introduction to Zig (Project-Based)', url: 'https://pedropark99.github.io/zig-book/', description: 'Open-access book teaching Zig through building a Base64 encoder, HTTP server, and image filter.' },
+      { title: 'zig.guide', url: 'https://zig.guide/', description: 'Highly structured community introduction walking through core language features step-by-step.' },
+      { title: 'Learning Zig', url: 'https://www.openmymind.net/learning_zig/', description: 'Concise intro guide making developers comfortable with Zig memory philosophy and syntax.' },
+    ]},
+    { label: 'Official Documentation', icon: 'docs', items: [
+      { title: 'Zig Language Reference', url: 'https://ziglang.org/documentation/master/', description: 'Definitive technical specification for syntax, builtins, and language semantics.' },
+      { title: 'Zig Standard Library Docs', url: 'https://ziglang.org/documentation/master/std/', description: 'Official API reference for allocators, data structures, I/O, and OS integration.' },
+    ]},
+    { label: 'Interactive Courses', icon: 'code', items: [
+      { title: 'Ziglings', url: 'https://codeberg.org/ziglings/exercises/', description: 'Most popular hands-on tool — fix tiny broken programs to learn Zig incrementally.' },
+      { title: 'Exercism Zig Track', url: 'https://exercism.org/tracks/zig', description: 'Structured coding exercises with community support.' },
+    ]},
+    { label: 'Video Courses', icon: 'video', items: [
+      { title: 'Zig Programming Tutorials (YouTube)', url: 'https://www.youtube.com/results?search_query=zig+programming+language', description: 'Community video tutorials covering Zig fundamentals and systems programming.' },
+    ]},
+    { label: 'Practice & Challenges', icon: 'terminal', items: [
+      { title: 'Ziglings', url: 'https://codeberg.org/ziglings/exercises/', description: 'Incremental broken-program exercises — the best way to learn Zig hands-on.' },
+      { title: 'Exercism Zig Track', url: 'https://exercism.org/tracks/zig', description: 'Free practice with community support.' },
+    ]},
+    { label: 'Reference & Cheatsheets', icon: 'reference', items: [
+      { title: 'DevDocs Zig Reference', url: 'https://devdocs.io/zig/', description: 'Fast, searchable, offline-capable interface for the Zig language reference.' },
+    ]},
+    { label: 'News & Updates', icon: 'news', items: [
+      { title: 'Ziggit Forums', url: 'https://ziggit.dev/', description: 'Official community forum for questions, showcases, and technical discussions.' },
+      { title: 'Ziglang News', url: 'https://ziglang.org/news/', description: 'Official news portal tracking compiler releases and core team updates.' },
+    ]},
+    { label: 'Community', icon: 'community', items: [
+      { title: 'Ziggit Forums', url: 'https://ziggit.dev/', description: 'Official forum for Q&A, showcases, and technical brainstorming.' },
+      { title: 'Reddit r/Zig', url: 'https://www.reddit.com/r/Zig/', description: 'Community for Zig projects, discussions, and announcements.' },
+    ]},
+  ],
+};
+
+// ═══════════════════════════════════════════════════════════════════════
+// V
+// ═══════════════════════════════════════════════════════════════════════
+
+export const vResources: LanguageResources = {
+  slug: 'v', name: 'V',
+  description: 'V is a simple, fast, safe, compiled language for developing maintainable software. It offers C interop, a built-in GUI library, cross-platform compilation, and a focus on simplicity with a small language specification.',
+  categories: [
+    { label: 'Free Books', icon: 'book', items: [
+      { title: 'V Documentation & Guides', url: 'https://github.com/vlang/v/blob/master/doc/docs.md', description: 'Official V documentation covering syntax, types, memory management, and standard library.' },
+    ]},
+    { label: 'Official Documentation', icon: 'docs', items: [
+      { title: 'V Language Docs', url: 'https://github.com/vlang/v/blob/master/doc/docs.md', description: 'Complete official documentation and language reference.' },
+      { title: 'V Playground', url: 'https://play.vlang.io/', description: 'Interactive browser-based V sandbox for testing code snippets.' },
+    ]},
+    { label: 'Interactive Courses', icon: 'code', items: [
+      { title: 'Learn V (Tutorial)', url: 'https://github.com/vlang/v/blob/master/doc/tutorial.md', description: 'Official V tutorial covering basics through advanced features.' },
+    ]},
+    { label: 'Video Courses', icon: 'video', items: [
+      { title: 'V Language Tutorials (YouTube)', url: 'https://www.youtube.com/results?search_query=v+programming+language', description: 'Community video tutorials on V programming fundamentals.' },
+    ]},
+    { label: 'Practice & Challenges', icon: 'terminal', items: [
+      { title: 'Exercism — V Track', url: 'https://exercism.org/tracks/v', description: 'Coding exercises for learning V with community support.' },
+    ]},
+    { label: 'Reference & Cheatsheets', icon: 'reference', items: [
+      { title: 'V Cheatsheet', url: 'https://devhints.io/v', description: 'Quick reference for V syntax and built-in features.' },
+    ]},
+    { label: 'News & Updates', icon: 'news', items: [
+      { title: 'V Blog', url: 'https://vlang.io/blog', description: 'Official V blog with release announcements and ecosystem updates.' },
+      { title: 'Reddit r/vlang', url: 'https://www.reddit.com/r/vlang/', description: 'Community for V news and discussions.' },
+    ]},
+    { label: 'Community', icon: 'community', items: [
+      { title: 'V Discord', url: 'https://discord.gg/vlang', description: 'Official V Discord server for real-time community support.' },
+      { title: 'Reddit r/vlang', url: 'https://www.reddit.com/r/vlang/', description: 'Community for V programming discussions.' },
+    ]},
+  ],
+};
+
+// ═══════════════════════════════════════════════════════════════════════
+// D
+// ═══════════════════════════════════════════════════════════════════════
+
+export const dResources: LanguageResources = {
+  slug: 'd', name: 'D',
+  description: 'D is a systems programming language combining C-level performance with modern convenience. It offers garbage collection, manual memory management, compile-time function execution, and a powerful template system.',
+  categories: [
+    { label: 'Free Books', icon: 'book', items: [
+      { title: 'D Programming Language (Book by Andrei Alexandrescu)', url: 'https://www.amazon.com/D-Programming-Language-Andrei-Alexandrescu/dp/0321635361', description: 'The definitive book by D co-designer. Free online access available via Internet Archive.' },
+      { title: 'Dlang Tour', url: 'https://tour.dlang.org/', description: 'Interactive guided tour covering D language features with runnable examples.' },
+    ]},
+    { label: 'Official Documentation', icon: 'docs', items: [
+      { title: 'D Language Reference', url: 'https://dlang.org/spec/spec.html', description: 'Complete official language specification and reference manual.' },
+      { title: 'D Standard Library Docs', url: 'https://dlang.org/phobos/', description: 'Comprehensive API documentation for D standard library (Phobos).' },
+    ]},
+    { label: 'Interactive Courses', icon: 'code', items: [
+      { title: 'Dlang Tour', url: 'https://tour.dlang.org/', description: 'Official interactive browser-based tour of D language features.' },
+      { title: 'Exercism — D Track', url: 'https://exercism.org/tracks/d', description: 'Free coding exercises for learning D with community mentoring.' },
+    ]},
+    { label: 'Video Courses', icon: 'video', items: [
+      { title: 'D Language Tutorials (YouTube)', url: 'https://www.youtube.com/results?search_query=d+programming+language+tutorial', description: 'Community tutorials covering D from basics to advanced metaprogramming.' },
+    ]},
+    { label: 'Practice & Challenges', icon: 'terminal', items: [
+      { title: 'Exercism — D Track', url: 'https://exercism.org/tracks/d', description: 'Coding exercises with automated analysis and human mentoring.' },
+      { title: 'Codewars — D Kata', url: 'https://www.codewars.com/', description: 'Solve community-created challenges in D.' },
+    ]},
+    { label: 'Reference & Cheatsheets', icon: 'reference', items: [
+      { title: 'D Language Reference', url: 'https://dlang.org/spec/spec.html', description: 'Complete language specification.' },
+      { title: 'D Cheatsheet', url: 'https://devhints.io/d', description: 'Quick reference for D syntax and features.' },
+    ]},
+    { label: 'News & Updates', icon: 'news', items: [
+      { title: 'D Blog', url: 'https://dlang.org/blog/', description: 'Official D blog with release notes, case studies, and community updates.' },
+      { title: 'D Announcements (Forum)', url: 'https://forum.dlang.org/', description: 'D language announcements and discussions.' },
+    ]},
+    { label: 'Community', icon: 'community', items: [
+      { title: 'D Forum', url: 'https://forum.dlang.org/', description: 'Official D community forum for discussions and Q&A.' },
+      { title: 'Reddit r/d_language', url: 'https://www.reddit.com/r/d_language/', description: 'Community for D programming news and projects.' },
+    ]},
+  ],
+};
+
+// ═══════════════════════════════════════════════════════════════════════
+// RACKET
+// ═══════════════════════════════════════════════════════════════════════
+
+export const racketResources: LanguageResources = {
+  slug: 'racket', name: 'Racket',
+  description: 'Racket is a modern functional and general-purpose programming language in the Lisp/Scheme family. It excels at language-oriented programming, creating domain-specific languages, and teaching computer science fundamentals.',
+  categories: [
+    { label: 'Free Books', icon: 'book', items: [
+      { title: 'How to Design Programs (HTDP)', url: 'https://htdp.org/', description: 'The definitive introductory CS textbook using Racket — teaches systematic program design from first principles.' },
+      { title: 'Realm of Racket', url: 'https://www.realmofracket.com/', description: 'A fun project-based book teaching Racket through game development — free to read online.' },
+      { title: 'Beautiful Racket', url: 'https://beautifulracket.com/', description: 'An in-depth guide to understanding and creating languages with Racket macros and syntax.' },
+    ]},
+    { label: 'Official Documentation', icon: 'docs', items: [
+      { title: 'Racket Documentation', url: 'https://docs.racket-lang.org/', description: 'Complete official reference with guides, manuals, and API documentation.' },
+    ]},
+    { label: 'Interactive Courses', icon: 'code', items: [
+      { title: 'Racket Programming (Exercism)', url: 'https://exercism.org/tracks/racket', description: 'Free coding exercises for Racket with community support.' },
+    ]},
+    { label: 'Video Courses', icon: 'video', items: [
+      { title: 'Racket Programming (YouTube)', url: 'https://www.youtube.com/results?search_query=racket+programming+tutorial', description: 'Community tutorials covering Racket fundamentals and practical applications.' },
+    ]},
+    { label: 'Practice & Challenges', icon: 'terminal', items: [
+      { title: 'Exercism — Racket Track', url: 'https://exercism.org/tracks/racket', description: 'Structured exercises for learning Racket programming.' },
+    ]},
+    { label: 'Reference & Cheatsheets', icon: 'reference', items: [
+      { title: 'Racket Quick Reference', url: 'https://docs.racket-lang.org/guide/quick.html', description: 'Official quick reference guide for Racket syntax and standard library.' },
+    ]},
+    { label: 'News & Updates', icon: 'news', items: [
+      { title: 'Racket Blog', url: 'https://blog.racket-lang.org/', description: 'Official Racket blog with release announcements and community news.' },
+    ]},
+    { label: 'Community', icon: 'community', items: [
+      { title: 'Racket Discourse', url: 'https://racket.discourse.group/', description: 'Official community forum for Q&A and discussions.' },
+      { title: 'Reddit r/Racket', url: 'https://www.reddit.com/r/Racket/', description: 'Community for Racket discussions and showcase projects.' },
+    ]},
+  ],
+};
+
+// ═══════════════════════════════════════════════════════════════════════
+// SCHEME
+// ═══════════════════════════════════════════════════════════════════════
+
+export const schemeResources: LanguageResources = {
+  slug: 'scheme', name: 'Scheme',
+  description: 'Scheme is a minimalist, elegant dialect of Lisp renowned for its simplicity and use in computer science education. It features lexical scoping, first-class procedures, and a unified syntax that makes it ideal for teaching programming fundamentals.',
+  categories: [
+    { label: 'Free Books', icon: 'book', items: [
+      { title: 'Structure and Interpretation of Computer Programs (SICP)', url: 'https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.html', description: 'The legendary MIT textbook using Scheme to teach fundamental principles of computer programming.' },
+      { title: 'The Little Schemer (Free Edition)', url: 'https://www.thelittleprover.com/', description: 'A classic dialogue-style book teaching recursive thinking and Scheme fundamentals.' },
+      { title: 'Teach Yourself Scheme in Fixnum Days', url: 'https://www.angelfire.com/ma/Scheme/tsifd.html', description: 'A gentle free introduction of Scheme programming.' },
+    ]},
+    { label: 'Official Documentation', icon: 'docs', items: [
+      { title: 'Scheme Reports (RnRS)', url: 'https://www.scheme-reports.org/', description: 'Official Revised Reports on the Algorithmic Language Scheme — the standards documents.' },
+      { title: 'The Scheme Programming Language (4th Ed)', url: 'https://www.scheme.com/tspl4/', description: 'The authoritative reference book by Scheme standard editors — free to read online.' },
+    ]},
+    { label: 'Interactive Courses', icon: 'code', items: [
+      { title: 'Exercism — Scheme Track', url: 'https://exercism.org/tracks/scheme', description: 'Free coding exercises for Scheme with community mentoring.' },
+    ]},
+    { label: 'Video Courses', icon: 'video', items: [
+      { title: 'SICP Video Lectures (Brian Harvey)', url: 'https://www.youtube.com/playlist?list=PLhMnuBfGeCDNgVzLPxF9o5UNKG1x-LR9B', description: 'UC Berkeley SICP lectures using Scheme — legendary CS course.' },
+    ]},
+    { label: 'Practice & Challenges', icon: 'terminal', items: [
+      { title: 'Exercism — Scheme Track', url: 'https://exercism.org/tracks/scheme', description: 'Structured exercises for mastering Scheme functional programming.' },
+    ]},
+    { label: 'Reference & Cheatsheets', icon: 'reference', items: [
+      { title: 'Scheme Cheatsheet', url: 'https://devhints.io/scheme', description: 'Quick reference for Scheme syntax and standard procedures.' },
+    ]},
+    { label: 'News & Updates', icon: 'news', items: [
+      { title: 'Scheme Community', url: 'https://www.scheme.com/', description: 'Scheme standards updates and community resources.' },
+    ]},
+    { label: 'Community', icon: 'community', items: [
+      { title: 'Reddit r/scheme', url: 'https://www.reddit.com/r/scheme/', description: 'Community for Scheme discussions and projects.' },
+      { title: 'Stack Overflow — Scheme Tag', url: 'https://stackoverflow.com/questions/tagged/scheme', description: 'Q&A for Scheme programming questions.' },
+    ]},
+  ],
+};
+
+// ═══════════════════════════════════════════════════════════════════════
+// PROLOG
+// ═══════════════════════════════════════════════════════════════════════
+
+export const prologResources: LanguageResources = {
+  slug: 'prolog', name: 'Prolog',
+  description: 'Prolog is a logic programming language associated with artificial intelligence, computational linguistics, and symbolic reasoning. It uses declarative programming where you describe problem constraints and let the engine find solutions.',
+  categories: [
+    { label: 'Free Books', icon: 'book', items: [
+      { title: 'Learn Prolog Now!', url: 'https://www.learnprolognow.org/', description: 'The best free introductory Prolog textbook — covers facts, rules, recursion, lists, and DCGs with interactive exercises.' },
+      { title: 'Adventure in Prolog', url: 'https://www.amzi.com/AdventureInProlog/', description: 'A free online book teaching Prolog through building a text adventure game.' },
+    ]},
+    { label: 'Official Documentation', icon: 'docs', items: [
+      { title: 'SWI-Prolog Documentation', url: 'https://www.swi-prolog.org/pldoc/', description: 'Complete documentation for the most popular Prolog implementation — SWI-Prolog.' },
+      { title: 'SWI-Prolog Online', url: 'https://swish.swi-prolog.org/', description: 'Online SWI-Prolog sandbox for testing Prolog programs directly in the browser.' },
+    ]},
+    { label: 'Interactive Courses', icon: 'code', items: [
+      { title: 'Learn Prolog Now (Interactive)', url: 'https://www.learnprolognow.org/', description: 'Free interactive online textbook with exercises for each chapter.' },
+      { title: 'Exercism — Prolog Track', url: 'https://exercism.org/tracks/prolog', description: 'Coding exercises for learning Prolog with community support.' },
+    ]},
+    { label: 'Video Courses', icon: 'video', items: [
+      { title: 'Prolog Programming Course (YouTube)', url: 'https://www.youtube.com/results?search_query=prolog+programming+tutorial', description: 'Video tutorials covering Prolog fundamentals and logic programming concepts.' },
+    ]},
+    { label: 'Practice & Challenges', icon: 'terminal', items: [
+      { title: 'Exercism — Prolog Track', url: 'https://exercism.org/tracks/prolog', description: 'Free structured exercises for Prolog with community mentoring.' },
+      { title: 'Codewars — Prolog Kata', url: 'https://www.codewars.com/', description: 'Solve logic puzzles using Prolog.' },
+    ]},
+    { label: 'Reference & Cheatsheets', icon: 'reference', items: [
+      { title: 'SWI-Prolog Reference', url: 'https://www.swi-prolog.org/pldoc/man?section=predsummary', description: 'Quick reference for SWI-Prolog built-in predicates.' },
+    ]},
+    { label: 'News & Updates', icon: 'news', items: [
+      { title: 'SWI-Prolog News', url: 'https://www.swi-prolog.org/News.html', description: 'SWI-Prolog release notes and updates.' },
+    ]},
+    { label: 'Community', icon: 'community', items: [
+      { title: 'Reddit r/prolog', url: 'https://www.reddit.com/r/prolog/', description: 'Community for Prolog discussions and logic programming.' },
+      { title: 'Stack Overflow — Prolog Tag', url: 'https://stackoverflow.com/questions/tagged/prolog', description: 'Q&A for Prolog programming questions.' },
+    ]},
+  ],
+};
+
 // ─── Registry — all languages with curated resources ────────────────
 
 const RESOURCE_REGISTRY: Record<string, LanguageResources> = {
@@ -1405,6 +1796,16 @@ const RESOURCE_REGISTRY: Record<string, LanguageResources> = {
   erlang: erlangResources,
   assembly: assemblyResources,
   cobol: cobolResources,
+  ocaml: ocamlResources,
+  fsharp: fsharpResources,
+  crystal: crystalResources,
+  nim: nimResources,
+  zig: zigResources,
+  v: vResources,
+  d: dResources,
+  racket: racketResources,
+  scheme: schemeResources,
+  prolog: prologResources,
 };
 
 export function getLanguageResources(slug: string): LanguageResources | null {

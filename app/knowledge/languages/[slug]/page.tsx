@@ -2,33 +2,11 @@ import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import {
-  SiJavascript,
-  SiPython,
-  SiTypescript,
-  SiOpenjdk,
-  SiCplusplus,
-  SiKotlin,
-  SiSwift,
-  SiRuby,
-  SiPhp,
-  SiSharp,
-  SiGo,
-  SiRust,
-  SiScala,
-  SiR,
-  SiDart,
-  SiElixir,
-  SiHaskell,
-  SiLua,
-  SiGnubash,
-  SiC,
-  SiJulia,
-  SiPerl,
-  SiFortran,
-  SiApachegroovy,
-  SiClojure,
-  SiErlang,
-  SiAssemblyscript,
+  SiJavascript, SiPython, SiTypescript, SiOpenjdk, SiCplusplus,
+  SiKotlin, SiSwift, SiRuby, SiPhp, SiSharp, SiGo, SiRust,
+  SiScala, SiR, SiDart, SiElixir, SiHaskell, SiLua, SiGnubash,
+  SiC, SiJulia, SiPerl, SiFortran, SiApachegroovy, SiClojure, SiErlang, SiAssemblyscript,
+  SiOcaml, SiFsharp, SiCrystal, SiNim, SiZig, SiV, SiD, SiRacket,
 } from 'react-icons/si';
 import { FaBook, FaFileAlt, FaLaptopCode, FaPlay, FaTerminal, FaSearch, FaNewspaper, FaUsers } from 'react-icons/fa';
 import { getLanguageMeta, getHandcraftedSystems } from '@/lib/mdx';
@@ -67,7 +45,17 @@ const LANG_ICONS: Record<string, React.ReactNode> = {
   clojure:    <SiClojure size={28} />,
   erlang:     <SiErlang size={28} />,
   assembly:   <SiAssemblyscript size={28} />,
-  cobol:      <span className="text-lg font-bold">C</span>,
+  cobol:   <span className="text-lg font-bold">C</span>,
+  ocaml:   <SiOcaml size={28} />,
+  fsharp:  <SiFsharp size={28} />,
+  crystal: <SiCrystal size={28} />,
+  nim:     <SiNim size={28} />,
+  zig:     <SiZig size={28} />,
+  v:       <SiV size={28} />,
+  d:       <SiD size={28} />,
+  racket:  <SiRacket size={28} />,
+  scheme:  <span className="text-lg font-bold">λ</span>,
+  prolog:  <span className="text-lg font-bold">?</span>,
 };
 
 const LANG_HERO: Record<string, { bg: string; iconBg: string }> = {
@@ -99,7 +87,17 @@ const LANG_HERO: Record<string, { bg: string; iconBg: string }> = {
   clojure:    { bg: 'bg-[#5881D8]', iconBg: 'bg-[#5881D8] text-white' },
   erlang:     { bg: 'bg-[#A90533]', iconBg: 'bg-[#A90533] text-white' },
   assembly:   { bg: 'bg-[#6E4C13]', iconBg: 'bg-[#6E4C13] text-white' },
-  cobol:      { bg: 'bg-[#005C99]', iconBg: 'bg-[#005C99] text-white' },
+  cobol:   { bg: 'bg-[#005C99]', iconBg: 'bg-[#005C99] text-white' },
+  ocaml:   { bg: 'bg-[#EC6813]', iconBg: 'bg-[#EC6813] text-white' },
+  fsharp:  { bg: 'bg-[#378BBA]', iconBg: 'bg-[#378BBA] text-white' },
+  crystal: { bg: 'bg-[#000000]', iconBg: 'bg-[#000000] text-white' },
+  nim:     { bg: 'bg-[#FFE953]', iconBg: 'bg-[#FFE953] text-black' },
+  zig:     { bg: 'bg-[#F7A41D]', iconBg: 'bg-[#F7A41D] text-black' },
+  v:       { bg: 'bg-[#5D87BF]', iconBg: 'bg-[#5D87BF] text-white' },
+  d:       { bg: 'bg-[#BA595E]', iconBg: 'bg-[#BA595E] text-white' },
+  racket:  { bg: 'bg-[#9F1D20]', iconBg: 'bg-[#9F1D20] text-white' },
+  scheme:  { bg: 'bg-[#1B1B1B]', iconBg: 'bg-[#1B1B1B] text-white' },
+  prolog:  { bg: 'bg-[#E61C24]', iconBg: 'bg-[#E61C24] text-white' },
 };
 
 const CATEGORY_ICONS: Record<string, React.ReactNode> = {
@@ -130,6 +128,8 @@ const KNOWN_SLUGS = new Set([
   'scala', 'r', 'dart', 'elixir', 'haskell', 'lua', 'shell',
   'c', 'matlab', 'julia', 'perl', 'fortran', 'groovy',
   'clojure', 'erlang', 'assembly', 'cobol',
+  'ocaml', 'fsharp', 'crystal', 'nim', 'zig', 'v', 'd',
+  'racket', 'scheme', 'prolog',
 ]);
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {

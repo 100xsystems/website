@@ -3,33 +3,11 @@ import Link from 'next/link';
 import { getAllLanguages } from '@/lib/mdx';
 import { getLanguagesWithResources, getLanguageResources, type LanguageResources } from '@/lib/language-resources';
 import {
-  SiJavascript,
-  SiPython,
-  SiTypescript,
-  SiOpenjdk,
-  SiCplusplus,
-  SiKotlin,
-  SiSwift,
-  SiRuby,
-  SiPhp,
-  SiSharp,
-  SiGo,
-  SiRust,
-  SiScala,
-  SiR,
-  SiDart,
-  SiElixir,
-  SiHaskell,
-  SiLua,
-  SiGnubash,
-  SiC,
-  SiJulia,
-  SiPerl,
-  SiFortran,
-  SiApachegroovy,
-  SiClojure,
-  SiErlang,
-  SiAssemblyscript,
+  SiJavascript, SiPython, SiTypescript, SiOpenjdk, SiCplusplus,
+  SiKotlin, SiSwift, SiRuby, SiPhp, SiSharp, SiGo, SiRust,
+  SiScala, SiR, SiDart, SiElixir, SiHaskell, SiLua, SiGnubash,
+  SiC, SiJulia, SiPerl, SiFortran, SiApachegroovy, SiClojure, SiErlang, SiAssemblyscript,
+  SiOcaml, SiFsharp, SiCrystal, SiNim, SiZig, SiV, SiD, SiRacket,
 } from 'react-icons/si';
 
 export const metadata: Metadata = {
@@ -65,7 +43,17 @@ const LANG_ICONS: Record<string, React.ReactNode> = {
   clojure:    <SiClojure size={22} />,
   erlang:     <SiErlang size={22} />,
   assembly:   <SiAssemblyscript size={22} />,
-  cobol:      <span className="text-[11px] font-bold">C</span>,
+  cobol:   <span className="text-[11px] font-bold">C</span>,
+  ocaml:   <SiOcaml size={22} />,
+  fsharp:  <SiFsharp size={22} />,
+  crystal: <SiCrystal size={22} />,
+  nim:     <SiNim size={22} />,
+  zig:     <SiZig size={22} />,
+  v:       <SiV size={22} />,
+  d:       <SiD size={22} />,
+  racket:  <SiRacket size={22} />,
+  scheme:  <span className="text-[11px] font-bold">λ</span>,
+  prolog:  <span className="text-[11px] font-bold">?</span>,
 };
 
 const LANG_BG: Record<string, string> = {
@@ -97,7 +85,17 @@ const LANG_BG: Record<string, string> = {
   clojure:    'bg-[#5881D8] text-white',
   erlang:     'bg-[#A90533] text-white',
   assembly:   'bg-[#6E4C13] text-white',
-  cobol:      'bg-[#005C99] text-white',
+  cobol:   'bg-[#005C99] text-white',
+  ocaml:   'bg-[#EC6813] text-white',
+  fsharp:  'bg-[#378BBA] text-white',
+  crystal: 'bg-[#000000] text-white',
+  nim:     'bg-[#FFE953] text-black',
+  zig:     'bg-[#F7A41D] text-black',
+  v:       'bg-[#5D87BF] text-white',
+  d:       'bg-[#BA595E] text-white',
+  racket:  'bg-[#9F1D20] text-white',
+  scheme:  'bg-[#1B1B1B] text-white',
+  prolog:  'bg-[#E61C24] text-white',
 };
 
 const DEFAULT_BG = 'bg-accent text-white';
@@ -136,7 +134,7 @@ export default function LanguagesPage() {
               Programming&nbsp;<span className="text-accent">Languages</span>
             </h1>
             <p className="text-sm text-fg-secondary max-w-xl mx-auto">
-              Curated resource hubs for 29 major programming languages.
+              Curated resource hubs for 39 major programming languages.
               Each hub collects the definitive free resources — books, docs, courses, videos,
               practice, reference, news, and community.
             </p>
