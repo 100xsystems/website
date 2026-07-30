@@ -363,7 +363,7 @@ export function HomeProductHunt() {
             size="lg"
             icon={<Icon name="arrow-right" size={18} />}
             iconPosition="right"
-            onClick={() => { window.location.href = 'https://www.producthunt.com'; }}
+            onClick={() => { window.location.href = '/producthunt'; }}
           >
             View All Products
           </Button>

@@ -1,11 +1,11 @@
 'use client';
 
 import React, { useState, useEffect, useMemo } from 'react';
-import { Icon, Button } from '@/presentation/__components';
+import { Icon } from '@/presentation/__components';
 import { cn } from '@/application/lib/utils';
 import { timeAgo } from '@/feed/feed.utils';
 
-// ─── Full YC Company Interface ──────────────────────────────────────
+// ─── Types (mirrors homeYC.feature) ─────────────────────────────────
 
 interface YcCompany {
   id: number;
@@ -41,23 +41,6 @@ interface YcCompany {
   url: string;
 }
 
-interface YcChangeSet {
-  date: string;
-  fetchedAt: string;
-  previousCount: number;
-  currentCount: number;
-  added: YcCompany[];
-  removed: YcCompany[];
-  updated: Array<{
-    id: number;
-    name: string;
-    slug: string;
-    batch: string;
-    url: string;
-    changes: Array<{ field: string; before: unknown; after: unknown }>;
-  }>;
-}
-
 interface YcMeta {
   last_updated: string;
   totalCompanies: number;
@@ -72,7 +55,7 @@ interface YcCatalog {
   companies: YcCompany[];
 }
 
-const TOTAL_DISPLAY = 12;
+// ─── Helpers ────────────────────────────────────────────────────────
 
 function getDomain(url: string): string | null {
   try { return new URL(url).hostname; } catch { return null; }
@@ -115,16 +98,14 @@ function CompanyModal({ company, onClose }: { company: YcCompany; onClose: () =>
       onClick={(e) => { if (e.target === e.currentTarget) onClose(); }}
     >
       <div className="relative w-full max-w-2xl max-h-[85vh] overflow-y-auto bg-white shadow-2xl">
-        {/* Close button */}
         <button
           type="button"
           onClick={onClose}
-          className="absolute top-4 right-4 z-10 w-10 h-10 flex items-center justify-center bg-surface-secondary hover:bg-accent hover:text-white transition-colors"
+          className="absolute top-4 right-4 z-10 w-10 h-10 flex items-center justify-center bg-surface-secondary hover:bg-orange-500 hover:text-white transition-colors"
         >
           <Icon name="x" size={20} />
         </button>
 
-        {/* Header */}
         <div className="px-8 pt-8 pb-6 border-b border-border">
           <div className="flex items-start gap-5">
             <CompanyLogo website={company.website} name={company.name} size={72} />
@@ -153,9 +134,7 @@ function CompanyModal({ company, onClose }: { company: YcCompany; onClose: () =>
           </div>
         </div>
 
-        {/* Body */}
         <div className="px-8 py-6 space-y-6">
-          {/* Description */}
           {company.long_description && (
             <div>
               <h3 className="text-xs font-bold uppercase tracking-widest text-fg-muted mb-2">About</h3>
@@ -163,7 +142,6 @@ function CompanyModal({ company, onClose }: { company: YcCompany; onClose: () =>
             </div>
           )}
 
-          {/* Stats grid */}
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
             {company.industry && (
               <div>
@@ -209,7 +187,6 @@ function CompanyModal({ company, onClose }: { company: YcCompany; onClose: () =>
             )}
           </div>
 
-          {/* Tags */}
           {company.tags && company.tags.length > 0 && (
             <div>
               <h3 className="text-xs font-bold uppercase tracking-widest text-fg-muted mb-3">Tags</h3>
@@ -223,7 +200,6 @@ function CompanyModal({ company, onClose }: { company: YcCompany; onClose: () =>
             </div>
           )}
 
-          {/* Action buttons */}
           <div className="flex items-center gap-4 pt-4 border-t border-border">
             <a
               href={company.url || company.website || '#'}
@@ -250,128 +226,121 @@ function CompanyModal({ company, onClose }: { company: YcCompany; onClose: () =>
   );
 }
 
-// ─── Main Component ─────────────────────────────────────────────────
+// ─── Page Component ─────────────────────────────────────────────────
 
-export function HomeYC() {
+export function YcPage() {
   const [meta, setMeta] = useState<YcMeta | null>(null);
   const [allCompanies, setAllCompanies] = useState<YcCompany[]>([]);
-  const [latestChanges, setLatestChanges] = useState<YcChangeSet | null>(null);
   const [selectedCompany, setSelectedCompany] = useState<YcCompany | null>(null);
   const [selectedTag, setSelectedTag] = useState<string | null>(null);
+  const [searchQuery, setSearchQuery] = useState('');
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     let mounted = true;
-
     async function load() {
       setIsLoading(true);
       setError(null);
-
       try {
-        // Fetch meta
-        const metaRes = await fetch('/yc-cache/meta.json');
+        const [metaRes, companiesRes] = await Promise.all([
+          fetch('/yc-cache/meta.json'),
+          fetch('/yc-cache/companies.json'),
+        ]);
         if (!metaRes.ok) throw new Error('YC data not available');
         const metaData: YcMeta = await metaRes.json();
         if (!mounted) return;
         setMeta(metaData);
 
-        // Fetch all companies for full data
-        const companiesRes = await fetch('/yc-cache/companies.json');
         if (companiesRes.ok) {
           const catalog: YcCatalog = await companiesRes.json();
-          if (mounted) {
-            setAllCompanies(catalog.companies || []);
-          }
-        }
-
-        // Fetch latest changes
-        const changesRes = await fetch('/yc-cache/changes/latest.json');
-        if (changesRes.ok) {
-          const changes: YcChangeSet = await changesRes.json();
-          if (mounted) {
-            setLatestChanges(changes);
-          }
+          if (mounted) setAllCompanies(catalog.companies || []);
         }
       } catch (err) {
-        if (mounted) {
-          setError(err instanceof Error ? err.message : 'Failed to load');
-        }
+        if (mounted) setError(err instanceof Error ? err.message : 'Failed to load');
       } finally {
         if (mounted) setIsLoading(false);
       }
     }
-
     load();
     return () => { mounted = false; };
   }, []);
 
-  // Build display companies: merge changes with full data from the catalog
-  const companiesById = new Map(allCompanies.map((c) => [c.id, c]));
-
-  const rawDisplayCompanies = latestChanges
-    ? [
-        ...(latestChanges.added ?? []).map((c) => ({ ...c, _changeType: 'new' as const })),
-        ...(latestChanges.updated ?? []).slice(0, 6).map((c) => {
-          const full = companiesById.get(c.id);
-          return {
-            ...(full ?? c),
-            _changeType: 'new' as const,
-          } as YcCompany & { _changeType: 'new' | 'featured' };
-        }),
-      ].slice(0, TOTAL_DISPLAY)
-    : allCompanies.slice(0, TOTAL_DISPLAY).map((c) => ({ ...c, _changeType: 'featured' as const } as YcCompany & { _changeType: 'new' | 'featured' }));
-
-  // Extract all unique tags
+  // All unique tags from ALL companies
   const allTags = useMemo(() => {
     const tagSet = new Set<string>();
-    for (const c of rawDisplayCompanies) {
+    for (const c of allCompanies) {
       if (c.tags) c.tags.forEach((t) => tagSet.add(t));
     }
     return Array.from(tagSet).sort();
-  }, [rawDisplayCompanies]);
+  }, [allCompanies]);
 
-  const displayCompanies = useMemo(() => {
-    if (!selectedTag) return rawDisplayCompanies;
-    return rawDisplayCompanies.filter((c) => c.tags && c.tags.includes(selectedTag));
-  }, [rawDisplayCompanies, selectedTag]);
-
-  const hasContent = displayCompanies.length > 0;
+  // Filter + search
+  const filteredCompanies = useMemo(() => {
+    let result = allCompanies;
+    if (selectedTag) {
+      result = result.filter((c) => c.tags && c.tags.includes(selectedTag));
+    }
+    if (searchQuery.trim()) {
+      const q = searchQuery.toLowerCase().trim();
+      result = result.filter((c) =>
+        c.name.toLowerCase().includes(q) ||
+        (c.one_liner && c.one_liner.toLowerCase().includes(q)) ||
+        (c.long_description && c.long_description.toLowerCase().includes(q)) ||
+        (c.industry && c.industry.toLowerCase().includes(q)) ||
+        (c.tags && c.tags.some((t) => t.toLowerCase().includes(q)))
+      );
+    }
+    return result;
+  }, [allCompanies, selectedTag, searchQuery]);
 
   return (
-    <section className="py-16 sm:py-24 bg-surface-secondary">
+    <div className="min-h-screen py-16 sm:py-24 bg-surface-secondary">
       <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
-        {/* Section header */}
+        {/* Header */}
         <div className="mb-12 sm:mb-16">
           <div className="inline-flex items-center gap-3 px-4 py-2 text-sm font-bold uppercase tracking-widest bg-orange-500 text-white mb-6">
             <span className="w-2 h-2 rounded-full bg-white animate-pulse" />
             Y Combinator
           </div>
-          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-fg tracking-tight uppercase leading-tight">
-            YC&nbsp;
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-fg tracking-tight uppercase leading-tight">
+            All YC&nbsp;
             <span className="text-orange-500">Companies</span>
-          </h2>
+          </h1>
           <p className="mt-4 text-lg text-fg-secondary max-w-2xl">
-            Discover the latest Y Combinator startups — their mission, team, industry, and more.
-            {meta && ` ${meta.totalCompanies} companies indexed.`}
+            Browse every Y Combinator startup we&apos;ve indexed — filter by tag, search by name or description.
+            {meta && ` ${meta.totalCompanies} companies.`}
           </p>
-          {latestChanges && (
-            <div className="mt-4 flex items-center gap-6 text-base text-fg-muted">
-              <span className="flex items-center gap-2">
-                <span className="w-2 h-2 rounded-full bg-green-500" />
-                {(latestChanges.added?.length ?? 0) + (latestChanges.updated?.length ?? 0)} new changes
-              </span>
-              <span className="text-sm text-fg-muted/60">
-                {'fetchedAt' in latestChanges && latestChanges.fetchedAt ? timeAgo(latestChanges.fetchedAt) : ''}
-              </span>
-            </div>
+          {meta && (
+            <p className="mt-2 text-base text-fg-muted/60">
+              Last updated {timeAgo(meta.last_updated)}
+            </p>
+          )}
+        </div>
+
+        {/* Search bar */}
+        <div className="relative mb-8 max-w-xl">
+          <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-4 text-fg-muted">
+            <Icon name="search" size={18} />
+          </div>
+          <input
+            type="text"
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+            placeholder="Search companies by name, tag, industry..."
+            className="w-full bg-white border-0 py-4 pl-12 pr-12 text-base text-fg placeholder:text-fg-muted/50 outline-none focus:ring-2 focus:ring-orange-500/30 transition-shadow"
+          />
+          {searchQuery && (
+            <button onClick={() => setSearchQuery('')} className="absolute inset-y-0 right-0 flex items-center pr-4 text-fg-muted hover:text-fg">
+              <Icon name="x" size={16} />
+            </button>
           )}
         </div>
 
         {/* Loading */}
         {isLoading && (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-            {Array.from({ length: 8 }).map((_, i) => (
+            {Array.from({ length: 12 }).map((_, i) => (
               <div key={i} className="bg-white p-8">
                 <div className="h-9 w-3/4 bg-surface-secondary animate-pulse mb-5" />
                 <div className="h-6 w-full bg-surface-secondary animate-pulse mb-4" />
@@ -384,15 +353,15 @@ export function HomeYC() {
 
         {/* Error */}
         {error && !isLoading && (
-          <div className="p-8 text-center bg-white">
-            <p className="text-lg text-fg-secondary mb-3">YC data not available yet.</p>
-            <p className="text-base text-fg-muted/60">Run the daily workflow to fetch YC data.</p>
+          <div className="p-12 text-center bg-white">
+            <p className="text-xl text-fg-secondary mb-3">{error}</p>
+            <p className="text-base text-fg-muted/60">Run the daily YC update workflow first.</p>
           </div>
         )}
 
         {/* Tag filter cards */}
         {!isLoading && !error && allTags.length > 0 && (
-          <div className="mb-10 flex flex-wrap items-center gap-3">
+          <div className="mb-8 flex flex-wrap items-center gap-3">
             <button
               type="button"
               onClick={() => setSelectedTag(null)}
@@ -400,40 +369,54 @@ export function HomeYC() {
                 'px-5 py-3 text-base font-bold uppercase tracking-wider transition-all duration-200',
                 !selectedTag
                   ? 'bg-orange-500 text-white shadow-lg'
-                  : 'bg-surface-secondary text-fg-muted hover:bg-orange-500/10 hover:text-orange-600'
+                  : 'bg-white text-fg-muted hover:bg-orange-500/10 hover:text-orange-600'
               )}
             >
-              All Companies
+              All ({allCompanies.length})
             </button>
-            {allTags.map((tag) => (
-              <button
-                key={tag}
-                type="button"
-                onClick={() => setSelectedTag(selectedTag === tag ? null : tag)}
-                className={cn(
-                  'px-5 py-3 text-base font-bold uppercase tracking-wider transition-all duration-200',
-                  selectedTag === tag
-                    ? 'bg-orange-500 text-white shadow-lg'
-                    : 'bg-surface-secondary text-fg-muted hover:bg-orange-500/10 hover:text-orange-600'
-                )}
-              >
-                {tag.replace(/-/g, ' ')}
-              </button>
-            ))}
+            {allTags.map((tag) => {
+              const count = selectedTag === tag
+                ? filteredCompanies.length
+                : allCompanies.filter((c) => c.tags && c.tags.includes(tag)).length;
+              return (
+                <button
+                  key={tag}
+                  type="button"
+                  onClick={() => setSelectedTag(selectedTag === tag ? null : tag)}
+                  className={cn(
+                    'px-5 py-3 text-base font-bold uppercase tracking-wider transition-all duration-200',
+                    selectedTag === tag
+                      ? 'bg-orange-500 text-white shadow-lg'
+                      : 'bg-white text-fg-muted hover:bg-orange-500/10 hover:text-orange-600'
+                  )}
+                >
+                  {tag.replace(/-/g, ' ')} ({count})
+                </button>
+              );
+            })}
           </div>
         )}
 
-        {/* Companies grid — BIGGER cards */}
-        {!isLoading && !error && hasContent && (
+        {/* Results count */}
+        {!isLoading && !error && (
+          <p className="mb-6 text-sm text-fg-muted/60 uppercase tracking-wider">
+            {searchQuery
+              ? `Found ${filteredCompanies.length} company${filteredCompanies.length !== 1 ? 'ies' : 'y'} for "${searchQuery}"`
+              : `${filteredCompanies.length} company${filteredCompanies.length !== 1 ? 'ies' : 'y'} ${selectedTag ? `in "${selectedTag.replace(/-/g, ' ')}"` : ''}`
+            }
+          </p>
+        )}
+
+        {/* Companies grid */}
+        {!isLoading && !error && filteredCompanies.length > 0 && (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-            {displayCompanies.map((company) => (
+            {filteredCompanies.map((company) => (
               <button
                 type="button"
-                key={`${company._changeType}-${company.id}`}
-                onClick={() => setSelectedCompany(company as YcCompany)}
+                key={company.id}
+                onClick={() => setSelectedCompany(company)}
                 className="group bg-white p-8 flex flex-col text-left transition-all duration-300 hover:scale-[1.03] hover:shadow-2xl hover:bg-orange-500 cursor-pointer border-0 w-full"
               >
-                {/* Logo + Name */}
                 <div className="flex items-center gap-5 mb-4">
                   <CompanyLogo website={company.website} name={company.name} size={52} />
                   <div className="min-w-0 flex-1">
@@ -448,14 +431,12 @@ export function HomeYC() {
                   </div>
                 </div>
 
-                {/* One-liner — bigger */}
                 {company.one_liner && (
                   <p className="text-lg text-fg-secondary leading-relaxed transition-colors duration-300 group-hover:text-white/80 line-clamp-3">
                     {company.one_liner}
                   </p>
                 )}
 
-                {/* Meta row */}
                 <div className="mt-5 pt-5 border-t border-border/40 flex items-center justify-between flex-wrap gap-3">
                   <div className="flex items-center gap-3">
                     {company.industry && (
@@ -484,8 +465,7 @@ export function HomeYC() {
                   </div>
                 </div>
 
-                {/* Tags — bigger */}
-                {(company.tags && company.tags.length > 0) && (
+                {company.tags && company.tags.length > 0 && (
                   <div className="mt-4 flex items-center gap-2 flex-wrap">
                     {company.tags.slice(0, 3).map((tag) => (
                       <span
@@ -508,35 +488,27 @@ export function HomeYC() {
         )}
 
         {/* Empty */}
-        {!isLoading && !error && !hasContent && (
+        {!isLoading && !error && filteredCompanies.length === 0 && (
           <div className="bg-white p-12 text-center">
-            <p className="text-lg text-fg-secondary">
-              {selectedTag ? `No companies found for "${selectedTag.replace(/-/g, ' ')}"` : 'No YC company data available.'}
+            <p className="text-xl text-fg-secondary mb-2">
+              {searchQuery
+                ? `No companies found for "${searchQuery}"`
+                : selectedTag
+                  ? `No companies in "${selectedTag.replace(/-/g, ' ')}"`
+                  : 'No YC company data available.'
+              }
             </p>
-            <p className="text-base text-fg-muted/60 mt-2">
-              {selectedTag ? 'Try selecting a different tag.' : 'Run the daily update workflow first.'}
+            <p className="text-base text-fg-muted/60">
+              {searchQuery || selectedTag ? 'Try different search terms or filters.' : 'Run the daily update workflow first.'}
             </p>
           </div>
         )}
-
-        {/* CTA */}
-        <div className="mt-12 text-center">
-          <Button
-            variant="purpleGhost"
-            size="lg"
-            icon={<Icon name="arrow-right" size={18} />}
-            iconPosition="right"
-            onClick={() => { window.location.href = '/yc'; }}
-          >
-            View All YC Companies
-          </Button>
-        </div>
       </div>
 
-      {/* Detail modal */}
+      {/* Modal */}
       {selectedCompany && (
         <CompanyModal company={selectedCompany} onClose={() => setSelectedCompany(null)} />
       )}
-    </section>
+    </div>
   );
 }
