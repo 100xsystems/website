@@ -17,7 +17,7 @@ import {
   SiBun, SiDeno, SiNestjs, SiRemix, SiFastify, SiHono, SiSelenium, SiCypress, SiVitest, SiJest,
   SiVite, SiPrisma, SiSocketdotio, SiThreedotjs, SiChartdotjs, SiEslint, SiPrettier, SiWebpack, SiElectron, SiExpo,
 } from 'react-icons/si';
-import { FaBook, FaFileAlt, FaLaptopCode, FaPlay, FaTerminal, FaSearch, FaNewspaper, FaUsers } from 'react-icons/fa';
+import { FaBook, FaFileAlt, FaLaptopCode, FaPlay, FaTerminal, FaSearch, FaNewspaper, FaUsers, FaGraduationCap } from 'react-icons/fa';
 import { getLanguageMeta, getHandcraftedSystems } from '@/lib/mdx';
 import { getLanguageResources } from '@/lib/language-resources';
 
@@ -417,6 +417,54 @@ export default async function LanguageDetailPage({ params }: Props) {
                     ))}
                   </div>
                 </div>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* Knowledge Course / Lessons */}
+        {resources?.lessons && resources.lessons.length > 0 && (
+          <section className="mb-16">
+            <div className="flex items-center gap-3 mb-8">
+              <span className="inline-flex items-center px-3 py-1.5 text-[10px] font-bold uppercase tracking-widest bg-accent text-white">
+                <FaGraduationCap size={12} className="mr-2" />
+                Knowledge Course
+              </span>
+            </div>
+            <div className="space-y-1">
+              {resources.lessons.map((lesson, index) => (
+                <Link
+                  key={lesson.slug}
+                  href={`/knowledge/languages/${slug}/${lesson.slug}`}
+                  className="group flex items-center gap-5 px-6 py-5 transition-all duration-200 bg-white hover:bg-accent"
+                >
+                  <span className="flex items-center justify-center w-10 h-10 text-xs font-bold bg-surface-secondary text-fg-muted group-hover:bg-white/20 group-hover:text-white transition-colors shrink-0">
+                    {String(index + 1).padStart(2, '0')}
+                  </span>
+                  <div className="flex-1 min-w-0">
+                    <h3 className="text-sm font-bold uppercase tracking-wide text-fg group-hover:text-white transition-colors">
+                      {lesson.title}
+                    </h3>
+                    <p className="text-xs text-fg-secondary leading-relaxed group-hover:text-white/70 transition-colors line-clamp-1 mt-1">
+                      {lesson.description}
+                    </p>
+                  </div>
+                  <div className="flex items-center gap-3 shrink-0">
+                    {lesson.type !== 'lesson' && (
+                      <span className="px-2 py-0.5 text-[8px] font-bold uppercase tracking-wider bg-accent-yellow text-black group-hover:bg-white/20 group-hover:text-white/80 transition-colors">
+                        {lesson.type}
+                      </span>
+                    )}
+                    {lesson.duration && (
+                      <span className="text-[9px] text-fg-muted group-hover:text-white/50 transition-colors">
+                        {lesson.duration}
+                      </span>
+                    )}
+                    <span className="text-[9px] font-bold uppercase tracking-wider text-accent group-hover:text-white/70 transition-colors">
+                      &rarr;
+                    </span>
+                  </div>
+                </Link>
               ))}
             </div>
           </section>

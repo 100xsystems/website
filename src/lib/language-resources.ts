@@ -29,6 +29,16 @@ export interface ResourceCategory {
   items: ResourceLink[];
 }
 
+export interface LessonMeta {
+  slug: string;
+  title: string;
+  description: string;
+  type: 'lesson' | 'quiz' | 'challenge';
+  order: number;
+  duration?: string;
+  difficulty?: string;
+}
+
 export interface LanguageResources {
   /** ISO / common slug for the language (e.g. "javascript", "python") */
   slug: string;
@@ -38,6 +48,8 @@ export interface LanguageResources {
   description: string;
   /** Sorted array of resource categories */
   categories: ResourceCategory[];
+  /** Optional ordered lessons for this language */
+  lessons?: LessonMeta[];
 }
 
 // ─── Cache Directory + Module-level Cache ───────────────────────────

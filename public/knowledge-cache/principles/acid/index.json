@@ -2,6 +2,44 @@
   "slug": "acid",
   "name": "ACID",
   "description": "A set of database transaction properties: Atomicity, Consistency, Isolation, Durability. Guarantees reliable processing of database transactions.",
+  "lessons": [
+    {
+      "slug": "atomicity",
+      "title": "Atomicity — All or Nothing",
+      "description": "Deep dive into atomicity: WAL internals, two-phase commit, bank transfer challenges, and Socratic LLM prompts for self-study.",
+      "type": "lesson",
+      "order": 1,
+      "duration": "60 min",
+      "difficulty": "Intermediate"
+    },
+    {
+      "slug": "consistency-and-isolation",
+      "title": "Consistency & Isolation Levels",
+      "description": "MVCC architecture, four isolation levels, read phenomena, optimistic vs pessimistic locking, and a booking system race condition challenge.",
+      "type": "lesson",
+      "order": 2,
+      "duration": "75 min",
+      "difficulty": "Intermediate"
+    },
+    {
+      "slug": "durability-and-production",
+      "title": "Durability & Production Patterns",
+      "description": "WAL deep dive, fsync mechanics, synchronous_commit tuning, continuous archiving, and point-in-time recovery practice.",
+      "type": "lesson",
+      "order": 3,
+      "duration": "60 min",
+      "difficulty": "Intermediate"
+    },
+    {
+      "slug": "review-and-quiz",
+      "title": "Review & Mastery Quiz",
+      "description": "5 multiple-choice questions, 3 scenario analyses, and 3 open-ended design questions to consolidate all four ACID properties.",
+      "type": "quiz",
+      "order": 4,
+      "duration": "30 min",
+      "difficulty": "Intermediate"
+    }
+  ],
   "categories": [
     {
       "label": "Free Books & Guides",
