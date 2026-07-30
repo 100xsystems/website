@@ -196,14 +196,6 @@ function main() {
     console.warn(`  ⚠ Failed to copy knowledge cache: ${err.message}`);
   }
 
-  // Clean up stale YC and PH caches too
-  for (const staleDir of ['yc-cache', 'ph-cache']) {
-    const dir = path.join(PUBLIC_DIR, staleDir);
-    if (fs.existsSync(dir)) {
-      try { fs.rmSync(dir, { recursive: true, force: true }); } catch {}
-    }
-  }
-
   // Cleanup clone dir
   if (registryBaseDir === CLONE_DIR) {
     try { fs.rmSync(CLONE_DIR, { recursive: true, force: true }); } catch {}

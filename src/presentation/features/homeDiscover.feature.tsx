@@ -3,18 +3,22 @@
 import React from 'react';
 import Link from 'next/link';
 import { cn } from '@/application/lib/utils';
+import {
+  SiYcombinator, SiGithub, SiStackoverflow, SiNpm, SiDevdotto,
+  SiMedium, SiReddit, SiDuckduckgo, SiWikipedia,
+} from 'react-icons/si';
 
 const DISCOVER_CARDS = [
-  { slug: 'hn', label: 'Hacker News', description: 'Top stories, Show HN, Ask HN, Jobs', href: '/discover/hn', bgColor: 'bg-orange-600', hoverBg: 'hover:bg-orange-600', icon: 'Y' },
-  { slug: 'github', label: 'GitHub', description: 'Search repos by stars, language, topics', href: '/discover/github', bgColor: 'bg-gray-800', hoverBg: 'hover:bg-gray-800', icon: 'G' },
-  { slug: 'stackoverflow', label: 'Stack Overflow', description: 'Q&A by tags — JavaScript, Python, Go, more', href: '/discover/stackoverflow', bgColor: 'bg-orange-500', hoverBg: 'hover:bg-orange-500', icon: 'S' },
-  { slug: 'npm', label: 'NPM', description: 'Search packages by score & popularity', href: '/discover/npm', bgColor: 'bg-red-600', hoverBg: 'hover:bg-red-600', icon: 'N' },
-  { slug: 'devto', label: 'Dev.to', description: 'Developer articles with reactions & tags', href: '/discover/devto', bgColor: 'bg-gray-800', hoverBg: 'hover:bg-gray-800', icon: 'D' },
-  { slug: 'medium', label: 'Medium', description: 'Tech stories from publications', href: '/discover/medium', bgColor: 'bg-black', hoverBg: 'hover:bg-black', icon: 'M' },
-  { slug: 'reddit', label: 'Reddit', description: 'Programming discussions by subreddit', href: '/discover/reddit', bgColor: 'bg-orange-500', hoverBg: 'hover:bg-orange-500', icon: 'R' },
-  { slug: 'ddg', label: 'DuckDuckGo', description: 'Instant web answers & definitions', href: '/discover/ddg', bgColor: 'bg-orange-600', hoverBg: 'hover:bg-orange-600', icon: 'D' },
-  { slug: 'wikipedia', label: 'Wikipedia', description: 'Reference articles & pages', href: '/discover/wikipedia', bgColor: 'bg-gray-700', hoverBg: 'hover:bg-gray-700', icon: 'W' },
-  { slug: 'awesome', label: 'Awesome Lists', description: 'Curated GitHub resource collections', href: '/discover/awesome', bgColor: 'bg-accent', hoverBg: 'hover:bg-accent', icon: 'A' },
+  { slug: 'hn', label: 'Hacker News', description: 'Top stories, Show HN, Ask HN, Jobs', href: '/discover/hn', bgColor: 'bg-orange-600', hoverBg: 'hover:bg-orange-600', icon: <SiYcombinator size={20} /> },
+  { slug: 'github', label: 'GitHub', description: 'Search repos by stars, language, topics', href: '/discover/github', bgColor: 'bg-gray-800', hoverBg: 'hover:bg-gray-800', icon: <SiGithub size={20} /> },
+  { slug: 'stackoverflow', label: 'Stack Overflow', description: 'Q&A by tags — JavaScript, Python, Go, more', href: '/discover/stackoverflow', bgColor: 'bg-orange-500', hoverBg: 'hover:bg-orange-500', icon: <SiStackoverflow size={20} /> },
+  { slug: 'npm', label: 'NPM', description: 'Search packages by score & popularity', href: '/discover/npm', bgColor: 'bg-red-600', hoverBg: 'hover:bg-red-600', icon: <SiNpm size={20} /> },
+  { slug: 'devto', label: 'Dev.to', description: 'Developer articles with reactions & tags', href: '/discover/devto', bgColor: 'bg-gray-800', hoverBg: 'hover:bg-gray-800', icon: <SiDevdotto size={20} /> },
+  { slug: 'medium', label: 'Medium', description: 'Tech stories from publications', href: '/discover/medium', bgColor: 'bg-black', hoverBg: 'hover:bg-black', icon: <SiMedium size={20} /> },
+  { slug: 'reddit', label: 'Reddit', description: 'Programming discussions by subreddit', href: '/discover/reddit', bgColor: 'bg-orange-500', hoverBg: 'hover:bg-orange-500', icon: <SiReddit size={20} /> },
+  { slug: 'ddg', label: 'DuckDuckGo', description: 'Instant web answers & definitions', href: '/discover/ddg', bgColor: 'bg-orange-600', hoverBg: 'hover:bg-orange-600', icon: <SiDuckduckgo size={20} /> },
+  { slug: 'wikipedia', label: 'Wikipedia', description: 'Reference articles & pages', href: '/discover/wikipedia', bgColor: 'bg-gray-700', hoverBg: 'hover:bg-gray-700', icon: <SiWikipedia size={20} /> },
+  { slug: 'awesome', label: 'Awesome Lists', description: 'Curated GitHub resource collections', href: '/discover/awesome', bgColor: 'bg-accent', hoverBg: 'hover:bg-accent', icon: <span className="text-[13px] font-black">★</span> },
 ];
 
 export function HomeDiscover() {
