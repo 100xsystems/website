@@ -744,13 +744,19 @@ export function HomeUnifiedSearch() {
         </div>
 
         <div className="relative z-10 max-w-[900px] mx-auto px-6 lg:px-12 py-16 sm:py-20 w-full text-center">
-          <div className="mb-8">
-            <div className="inline-flex items-center gap-2 px-3 py-1.5 text-[10px] font-bold uppercase tracking-widest bg-accent/80 text-white mb-4">
+          <div className="mb-10">
+            <div className="inline-flex items-center gap-2 px-3 py-1.5 text-[10px] font-bold uppercase tracking-widest bg-accent/80 text-white mb-5">
               100X SEARCH
             </div>
-            <h1 className="text-2xl sm:text-3xl font-extrabold text-fg tracking-tight leading-tight mb-2">
+            <h1 className="text-2xl sm:text-3xl font-extrabold text-fg tracking-tight leading-tight mb-3">
               Search everything
             </h1>
+            <p className="text-sm sm:text-base text-fg-secondary/70 font-medium tracking-wide leading-relaxed max-w-xl mx-auto">
+              <span className="text-accent font-bold">Every system.</span>{' '}
+              <span className="text-accent-yellow font-bold">Every stack.</span>{' '}
+              <span className="text-fg-muted font-bold">Every pattern.</span>{' '}
+              <span className="text-fg">All at once.</span>
+            </p>
           </div>
 
           {/* Hero search bar */}
