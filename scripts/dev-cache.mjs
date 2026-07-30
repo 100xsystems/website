@@ -177,15 +177,8 @@ function main() {
   buildYcCache(registryBaseDir);
   buildPhCache(registryBaseDir);
 
-  // Cleanup clone dir if it was used
-  if (registryBaseDir === CLONE_DIR) {
-    try { fs.rmSync(CLONE_DIR, { recursive: true, force: true }); } catch {}
-  }
-
-  const elapsed = ((Date.now() - startTime) / 1000).toFixed(1);
-    // Build knowledge cache
+  // Build knowledge cache BEFORE deleting the clone
   try {
-    // Reuse the knowledge-fetch script inline
     const knowledgeDir = path.join(registryBaseDir, 'static-data', 'knowledge');
     if (fs.existsSync(knowledgeDir)) {
       const cacheDir = path.join(PUBLIC_DIR, 'knowledge-cache');
@@ -197,6 +190,11 @@ function main() {
     }
   } catch (err) {
     console.warn(`  ⚠ Failed to copy knowledge cache: ${err.message}`);
+  }
+
+  // Cleanup clone dir
+  if (registryBaseDir === CLONE_DIR) {
+    try { fs.rmSync(CLONE_DIR, { recursive: true, force: true }); } catch {}
   }
 
   const elapsed = ((Date.now() - startTime) / 1000).toFixed(1);
