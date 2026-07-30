@@ -1,6 +1,6 @@
 'use client';
 
-import { useLoadingScreen } from '../../application/hooks';
+import { useState, useEffect } from 'react';
 import loaderStyles from '../_styles/css/loading-loader.module.css';
 import loaderAnimationStyles from '../_styles/css/loading-loaderanimation.module.css';
 
@@ -13,8 +13,15 @@ const LoaderAnimation = () => {
 export { LoaderAnimation };
 
 export function Loading(): React.ReactElement | null {
-  const { isLoading } = useLoadingScreen();
-  if (!isLoading) return null;
+  const [showLoader, setShowLoader] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setShowLoader(false), 800);
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (!showLoader) return null;
+
   return (
     <div className={loaderStyles.loadingScreen}>
       <img
