@@ -40,12 +40,12 @@
       "icon": "code",
       "items": [
         {
-          "title": "MIT 18.S191 — Computational Thinking",
+          "title": "MIT 18.S191 \u2014 Computational Thinking",
           "url": "https://computationalthinking.mit.edu/",
           "description": "Famous free course by Julia co-creator Prof. Alan Edelman and Grant Sanderson using Pluto.jl notebooks."
         },
         {
-          "title": "Exercism — Julia Track",
+          "title": "Exercism \u2014 Julia Track",
           "url": "https://exercism.org/tracks/julia",
           "description": "34 concept modules and 120+ practice exercises with automated analysis and mentoring."
         }
@@ -72,7 +72,7 @@
       "icon": "terminal",
       "items": [
         {
-          "title": "Exercism — Julia Track",
+          "title": "Exercism \u2014 Julia Track",
           "url": "https://exercism.org/tracks/julia",
           "description": "100% free coding exercises with community mentorship."
         },
@@ -125,6 +125,26 @@
           "description": "Community hub for project updates and ecosystem discussions."
         }
       ]
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "fundamentals",
+      "title": "Fundamentals of Julia",
+      "description": "Core concepts, syntax, and first steps with Julia",
+      "type": "lesson",
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "practical-guide",
+      "title": "Practical Julia Guide",
+      "description": "Real-world usage, tooling, and ecosystem",
+      "type": "lesson",
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "intermediate"
     }
   ]
 }

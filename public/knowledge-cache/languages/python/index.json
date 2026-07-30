@@ -1,7 +1,7 @@
 {
   "slug": "python",
   "name": "Python",
-  "description": "The most versatile language in the ecosystem. Python powers data science, machine learning, backend systems, automation, and scripting. These are the definitive free resources — vetted, current, and complete.",
+  "description": "The most versatile language in the ecosystem. Python powers data science, machine learning, backend systems, automation, and scripting. These are the definitive free resources \u2014 vetted, current, and complete.",
   "categories": [
     {
       "label": "Free Books",
@@ -15,7 +15,7 @@
         {
           "title": "Think Python (3rd Edition)",
           "url": "https://allendowney.github.io/ThinkPython/",
-          "description": "Completely redesigned for modern learning. Runs in Jupyter notebooks — read, execute code, and work through exercises directly in the browser."
+          "description": "Completely redesigned for modern learning. Runs in Jupyter notebooks \u2014 read, execute code, and work through exercises directly in the browser."
         },
         {
           "title": "Dive Into Python 3",
@@ -55,7 +55,7 @@
           "description": "Free class from Google engineers with lecture videos, written materials, and code exercises covering regex, utilities, and more."
         },
         {
-          "title": "freeCodeCamp — Python Curriculum",
+          "title": "freeCodeCamp \u2014 Python Curriculum",
           "url": "https://www.freecodecamp.org/",
           "description": "Completely free, project-based curriculum with browser-based coding environments and certifications for Python."
         }
@@ -66,7 +66,7 @@
       "icon": "video",
       "items": [
         {
-          "title": "Python for Beginners — Full Course (freeCodeCamp)",
+          "title": "Python for Beginners \u2014 Full Course (freeCodeCamp)",
           "url": "https://www.youtube.com/watch?v=rfscVS0vtbw",
           "description": "A multi-hour comprehensive video tutorial covering core concepts, loops, dictionaries, classes, and mini-projects."
         },
@@ -82,7 +82,7 @@
       "icon": "terminal",
       "items": [
         {
-          "title": "Exercism — Python Track",
+          "title": "Exercism \u2014 Python Track",
           "url": "https://exercism.org/tracks/python",
           "description": "100% free platform with 146 coding exercises across 17 concepts. Includes automated code analysis and human mentor feedback."
         },
@@ -92,7 +92,7 @@
           "description": "Master Python by solving bite-sized community-crafted challenges and comparing solutions with other developers."
         },
         {
-          "title": "HackerRank — Python Track",
+          "title": "HackerRank \u2014 Python Track",
           "url": "https://www.hackerrank.com/domains/python",
           "description": "Domain-specific challenges from basic I/O to advanced data structures and interview preparation."
         }
@@ -124,7 +124,7 @@
           "description": "A premier weekly email newsletter highlighting the best Python articles, tutorials, open-source projects, and community news."
         },
         {
-          "title": "Python.org — Latest News",
+          "title": "Python.org \u2014 Latest News",
           "url": "https://www.python.org/blogs/",
           "description": "Official Python Software Foundation blog covering release announcements, PEP summaries, and community updates."
         }
@@ -140,9 +140,9 @@
           "description": "The largest community of Python learners and educators."
         },
         {
-          "title": "Stack Overflow — Python Tag",
+          "title": "Stack Overflow \u2014 Python Tag",
           "url": "https://stackoverflow.com/questions/tagged/python",
-          "description": "The definitive Q&A forum for Python questions — from beginner syntax to advanced metaprogramming patterns."
+          "description": "The definitive Q&A forum for Python questions \u2014 from beginner syntax to advanced metaprogramming patterns."
         },
         {
           "title": "Python Discord",
@@ -150,6 +150,26 @@
           "description": "A large, active Python community on Discord with channels for learning, projects, and career advice."
         }
       ]
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "fundamentals",
+      "title": "Fundamentals of Python",
+      "description": "Core concepts, syntax, and first steps with Python",
+      "type": "lesson",
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "practical-guide",
+      "title": "Practical Python Guide",
+      "description": "Real-world usage, tooling, and ecosystem",
+      "type": "lesson",
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "intermediate"
     }
   ]
 }

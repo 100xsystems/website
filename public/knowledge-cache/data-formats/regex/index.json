@@ -12,5 +12,25 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Regular_expression",
     "wikidata": "https://www.wikidata.org/wiki/Q185612"
   },
-  "indexedAt": "2026-07-23T14:36:22.020Z"
+  "indexedAt": "2026-07-23T14:36:22.020Z",
+  "lessons": [
+    {
+      "slug": "fundamentals",
+      "title": "Fundamentals of Regex",
+      "description": "Core concepts and key principles of Regex",
+      "type": "lesson",
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "practical-guide",
+      "title": "Practical Regex Guide",
+      "description": "Real-world usage, best practices, and common patterns",
+      "type": "lesson",
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "intermediate"
+    }
+  ]
 }

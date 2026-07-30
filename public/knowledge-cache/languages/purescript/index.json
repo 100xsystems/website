@@ -111,5 +111,25 @@
         }
       ]
     }
+  ],
+  "lessons": [
+    {
+      "slug": "fundamentals",
+      "title": "Fundamentals of PureScript",
+      "description": "Core concepts, syntax, and first steps with PureScript",
+      "type": "lesson",
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "practical-guide",
+      "title": "Practical PureScript Guide",
+      "description": "Real-world usage, tooling, and ecosystem",
+      "type": "lesson",
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "intermediate"
+    }
   ]
 }

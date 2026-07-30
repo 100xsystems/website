@@ -1,7 +1,7 @@
 {
   "slug": "cobol",
   "name": "COBOL",
-  "description": "COBOL (Common Business-Oriented Language) powers the worlds business infrastructure — banking systems, insurance claims, government systems, and enterprise transaction processing. Billions of lines of COBOL still run in production today.",
+  "description": "COBOL (Common Business-Oriented Language) powers the worlds business infrastructure \u2014 banking systems, insurance claims, government systems, and enterprise transaction processing. Billions of lines of COBOL still run in production today.",
   "categories": [
     {
       "label": "Free Books",
@@ -77,7 +77,7 @@
           "description": "Free open-source COBOL compiler to practice coding locally."
         },
         {
-          "title": "Exercism — COBOL Track",
+          "title": "Exercism \u2014 COBOL Track",
           "url": "https://exercism.org/tracks/cobol",
           "description": "Structured COBOL exercises for modern business application programming."
         }
@@ -115,11 +115,31 @@
           "description": "Community for COBOL developers and mainframe enthusiasts."
         },
         {
-          "title": "Stack Overflow — COBOL Tag",
+          "title": "Stack Overflow \u2014 COBOL Tag",
           "url": "https://stackoverflow.com/questions/tagged/cobol",
           "description": "Q&A for COBOL programming and mainframe topics."
         }
       ]
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "fundamentals",
+      "title": "Fundamentals of COBOL",
+      "description": "Core concepts, syntax, and first steps with COBOL",
+      "type": "lesson",
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "practical-guide",
+      "title": "Practical COBOL Guide",
+      "description": "Real-world usage, tooling, and ecosystem",
+      "type": "lesson",
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "intermediate"
     }
   ]
 }

@@ -12,5 +12,25 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Deno_(software)",
     "wikidata": "https://www.wikidata.org/wiki/Q55129270"
   },
-  "indexedAt": "2026-07-23T14:36:30.586Z"
+  "indexedAt": "2026-07-23T14:36:30.586Z",
+  "lessons": [
+    {
+      "slug": "fundamentals",
+      "title": "Fundamentals of Deno",
+      "description": "Core concepts and key principles of Deno",
+      "type": "lesson",
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "practical-guide",
+      "title": "Practical Deno Guide",
+      "description": "Real-world usage, best practices, and common patterns",
+      "type": "lesson",
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "intermediate"
+    }
+  ]
 }

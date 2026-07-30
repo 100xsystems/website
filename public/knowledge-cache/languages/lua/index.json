@@ -1,7 +1,7 @@
 {
   "slug": "lua",
   "name": "Lua",
-  "description": "Lua is a lightweight, embeddable scripting language prized for its speed, simplicity, and tiny footprint. It powers game engines (Roblox, Love2D), embedded systems, and configuration in Neovim and Redis. These are the definitive free resources — vetted, current, and complete.",
+  "description": "Lua is a lightweight, embeddable scripting language prized for its speed, simplicity, and tiny footprint. It powers game engines (Roblox, Love2D), embedded systems, and configuration in Neovim and Redis. These are the definitive free resources \u2014 vetted, current, and complete.",
   "categories": [
     {
       "label": "Free Books",
@@ -40,12 +40,12 @@
       "icon": "code",
       "items": [
         {
-          "title": "Exercism — Lua Track",
+          "title": "Exercism \u2014 Lua Track",
           "url": "https://exercism.org/tracks/lua",
           "description": "117 coding exercises with automatic analysis and optional mentoring from volunteer Lua developers."
         },
         {
-          "title": "Codédex Lua Course",
+          "title": "Cod\u00e9dex Lua Course",
           "url": "https://www.codedex.io/lua",
           "description": "Modern interactive course with emphasis on game development and scripting in Roblox Studio."
         }
@@ -63,7 +63,7 @@
         {
           "title": "Love2D Game Development (YouTube)",
           "url": "https://www.youtube.com/watch?v=EchBsCedz6k",
-          "description": "Intermediate-level projects building 2D games from scratch using the LÖVE framework and Lua."
+          "description": "Intermediate-level projects building 2D games from scratch using the L\u00d6VE framework and Lua."
         }
       ]
     },
@@ -72,12 +72,12 @@
       "icon": "terminal",
       "items": [
         {
-          "title": "Exercism — Lua Track",
+          "title": "Exercism \u2014 Lua Track",
           "url": "https://exercism.org/tracks/lua",
           "description": "100% free coding exercises from simple string manipulation to complex table-based algorithms."
         },
         {
-          "title": "Codewars — Lua Kata",
+          "title": "Codewars \u2014 Lua Kata",
           "url": "https://www.codewars.com/",
           "description": "Solve community-created coding challenges in Lua across hundreds of difficulty levels."
         }
@@ -130,11 +130,31 @@
           "description": "Official mailing list where language creators discuss compiler updates, performance, and proposals."
         },
         {
-          "title": "Stack Overflow — Lua Tag",
+          "title": "Stack Overflow \u2014 Lua Tag",
           "url": "https://stackoverflow.com/questions/tagged/lua",
           "description": "Definitive Q&A for Lua troubleshooting, table operations, and C API integration."
         }
       ]
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "fundamentals",
+      "title": "Fundamentals of Lua",
+      "description": "Core concepts, syntax, and first steps with Lua",
+      "type": "lesson",
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "practical-guide",
+      "title": "Practical Lua Guide",
+      "description": "Real-world usage, tooling, and ecosystem",
+      "type": "lesson",
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "intermediate"
     }
   ]
 }

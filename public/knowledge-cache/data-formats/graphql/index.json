@@ -26,7 +26,7 @@
         {
           "title": "GraphQL Specification",
           "url": "https://spec.graphql.org/",
-          "description": "The official GraphQL specification — the definitive source for understanding the language."
+          "description": "The official GraphQL specification \u2014 the definitive source for understanding the language."
         },
         {
           "title": "GraphQL Foundation Docs",
@@ -82,7 +82,7 @@
           "description": "Online sandbox for testing and exploring GraphQL queries against real APIs."
         },
         {
-          "title": "Exercism — GraphQL Track",
+          "title": "Exercism \u2014 GraphQL Track",
           "url": "https://exercism.org/tracks/graphql",
           "description": "Free coding exercises for GraphQL schema design and query writing."
         }
@@ -125,11 +125,31 @@
           "description": "Official GraphQL Foundation community channels for real-time discussions."
         },
         {
-          "title": "Stack Overflow — GraphQL Tag",
+          "title": "Stack Overflow \u2014 GraphQL Tag",
           "url": "https://stackoverflow.com/questions/tagged/graphql",
           "description": "Q&A for GraphQL schema design and troubleshooting."
         }
       ]
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "fundamentals",
+      "title": "Fundamentals of GraphQL",
+      "description": "Core concepts and key principles of GraphQL",
+      "type": "lesson",
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "practical-guide",
+      "title": "Practical GraphQL Guide",
+      "description": "Real-world usage, best practices, and common patterns",
+      "type": "lesson",
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "intermediate"
     }
   ]
 }

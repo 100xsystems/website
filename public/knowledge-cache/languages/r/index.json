@@ -1,7 +1,7 @@
 {
   "slug": "r",
   "name": "R",
-  "description": "R is the definitive language for statistical computing, data analysis, and visualization. It powers academic research, data science, and machine learning workflows worldwide. These are the definitive free resources — vetted, current, and complete.",
+  "description": "R is the definitive language for statistical computing, data analysis, and visualization. It powers academic research, data science, and machine learning workflows worldwide. These are the definitive free resources \u2014 vetted, current, and complete.",
   "categories": [
     {
       "label": "Free Books",
@@ -15,7 +15,7 @@
         {
           "title": "Advanced R (2nd Edition)",
           "url": "https://adv-r.hadley.nz/",
-          "description": "The definitive text for intermediate-to-advanced R — functional programming, metaprogramming, and performance optimization."
+          "description": "The definitive text for intermediate-to-advanced R \u2014 functional programming, metaprogramming, and performance optimization."
         },
         {
           "title": "An Introduction to Statistical Learning (ISLR)",
@@ -50,7 +50,7 @@
           "description": "An interactive R package that teaches R syntax from inside the R console with immediate feedback."
         },
         {
-          "title": "Kaggle Learn — R Micro-Course",
+          "title": "Kaggle Learn \u2014 R Micro-Course",
           "url": "https://www.kaggle.com/learn/r",
           "description": "Interactive in-browser course teaching basic data manipulation and visualization with instant code execution."
         }
@@ -61,7 +61,7 @@
       "icon": "video",
       "items": [
         {
-          "title": "Stanford — Statistical Learning with R",
+          "title": "Stanford \u2014 Statistical Learning with R",
           "url": "https://www.statlearning.com/",
           "description": "Taught by Hastie and Tibshirani, this free video companion walks through ML theory with applied R coding labs."
         },
@@ -77,7 +77,7 @@
       "icon": "terminal",
       "items": [
         {
-          "title": "Exercism — R Track",
+          "title": "Exercism \u2014 R Track",
           "url": "https://exercism.org/tracks/r",
           "description": "Progressive coding exercises with human mentor feedback from experienced R programmers."
         },
@@ -130,7 +130,7 @@
           "description": "The most active forum for discussing R programming, updates, and career advice."
         },
         {
-          "title": "Stack Overflow — R Tag",
+          "title": "Stack Overflow \u2014 R Tag",
           "url": "https://stackoverflow.com/questions/tagged/r",
           "description": "Definitive Q&A for R troubleshooting, data wrangling, and statistical analysis."
         },
@@ -140,6 +140,26 @@
           "description": "Official Posit community forum for tidyverse questions, Shiny apps, and best practices."
         }
       ]
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "fundamentals",
+      "title": "Fundamentals of R",
+      "description": "Core concepts, syntax, and first steps with R",
+      "type": "lesson",
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "practical-guide",
+      "title": "Practical R Guide",
+      "description": "Real-world usage, tooling, and ecosystem",
+      "type": "lesson",
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "intermediate"
     }
   ]
 }

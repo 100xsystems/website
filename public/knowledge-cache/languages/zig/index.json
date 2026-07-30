@@ -47,7 +47,7 @@
         {
           "title": "Ziglings",
           "url": "https://codeberg.org/ziglings/exercises/",
-          "description": "Most popular hands-on tool — fix tiny broken programs to learn Zig incrementally."
+          "description": "Most popular hands-on tool \u2014 fix tiny broken programs to learn Zig incrementally."
         },
         {
           "title": "Exercism Zig Track",
@@ -74,7 +74,7 @@
         {
           "title": "Ziglings",
           "url": "https://codeberg.org/ziglings/exercises/",
-          "description": "Incremental broken-program exercises — the best way to learn Zig hands-on."
+          "description": "Incremental broken-program exercises \u2014 the best way to learn Zig hands-on."
         },
         {
           "title": "Exercism Zig Track",
@@ -125,6 +125,26 @@
           "description": "Community for Zig projects, discussions, and announcements."
         }
       ]
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "fundamentals",
+      "title": "Fundamentals of Zig",
+      "description": "Core concepts, syntax, and first steps with Zig",
+      "type": "lesson",
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "practical-guide",
+      "title": "Practical Zig Guide",
+      "description": "Real-world usage, tooling, and ecosystem",
+      "type": "lesson",
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "intermediate"
     }
   ]
 }

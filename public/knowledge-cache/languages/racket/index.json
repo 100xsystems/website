@@ -10,12 +10,12 @@
         {
           "title": "How to Design Programs (HTDP)",
           "url": "https://htdp.org/",
-          "description": "The definitive introductory CS textbook using Racket — teaches systematic program design from first principles."
+          "description": "The definitive introductory CS textbook using Racket \u2014 teaches systematic program design from first principles."
         },
         {
           "title": "Realm of Racket",
           "url": "https://www.realmofracket.com/",
-          "description": "A fun project-based book teaching Racket through game development — free to read online."
+          "description": "A fun project-based book teaching Racket through game development \u2014 free to read online."
         },
         {
           "title": "Beautiful Racket",
@@ -62,7 +62,7 @@
       "icon": "terminal",
       "items": [
         {
-          "title": "Exercism — Racket Track",
+          "title": "Exercism \u2014 Racket Track",
           "url": "https://exercism.org/tracks/racket",
           "description": "Structured exercises for learning Racket programming."
         }
@@ -105,6 +105,26 @@
           "description": "Community for Racket discussions and showcase projects."
         }
       ]
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "fundamentals",
+      "title": "Fundamentals of Racket",
+      "description": "Core concepts, syntax, and first steps with Racket",
+      "type": "lesson",
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "practical-guide",
+      "title": "Practical Racket Guide",
+      "description": "Real-world usage, tooling, and ecosystem",
+      "type": "lesson",
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "intermediate"
     }
   ]
 }

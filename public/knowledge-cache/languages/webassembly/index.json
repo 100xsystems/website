@@ -10,7 +10,7 @@
         {
           "title": "MDN WebAssembly Guide",
           "url": "https://developer.mozilla.org/en-US/docs/WebAssembly",
-          "description": "The premier WebAssembly guide from Mozilla — covers concepts, compilation, JavaScript API, and text format."
+          "description": "The premier WebAssembly guide from Mozilla \u2014 covers concepts, compilation, JavaScript API, and text format."
         },
         {
           "title": "Wasm By Example",
@@ -105,6 +105,26 @@
           "description": "Community for Wasm discussions, project showcases, and technical Q&A."
         }
       ]
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "fundamentals",
+      "title": "Fundamentals of WebAssembly",
+      "description": "Core concepts, syntax, and first steps with WebAssembly",
+      "type": "lesson",
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "practical-guide",
+      "title": "Practical WebAssembly Guide",
+      "description": "Real-world usage, tooling, and ecosystem",
+      "type": "lesson",
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "intermediate"
     }
   ]
 }

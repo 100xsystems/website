@@ -12,5 +12,25 @@
     "wikipedia": "https://en.wikipedia.org/wiki/PostgreSQL",
     "wikidata": "https://www.wikidata.org/wiki/Q236514"
   },
-  "indexedAt": "2026-07-23T14:36:23.167Z"
+  "indexedAt": "2026-07-23T14:36:23.167Z",
+  "lessons": [
+    {
+      "slug": "fundamentals",
+      "title": "Fundamentals of PostgreSQL",
+      "description": "Core concepts and key principles of PostgreSQL",
+      "type": "lesson",
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "practical-guide",
+      "title": "Practical PostgreSQL Guide",
+      "description": "Real-world usage, best practices, and common patterns",
+      "type": "lesson",
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "intermediate"
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "slug": "java",
   "name": "Java",
-  "description": "Java is the bedrock of enterprise software. It powers Android apps, backend systems, big data pipelines (Apache Hadoop, Spark), and financial infrastructure worldwide. These are the definitive free resources — vetted, current, and complete.",
+  "description": "Java is the bedrock of enterprise software. It powers Android apps, backend systems, big data pipelines (Apache Hadoop, Spark), and financial infrastructure worldwide. These are the definitive free resources \u2014 vetted, current, and complete.",
   "categories": [
     {
       "label": "Free Books",
@@ -24,7 +24,7 @@
       "icon": "docs",
       "items": [
         {
-          "title": "Dev.java — Official Oracle Learning Platform",
+          "title": "Dev.java \u2014 Official Oracle Learning Platform",
           "url": "https://dev.java/learn/",
           "description": "The definitive destination for modern Java developers with hundreds of tutorials covering everything from your first app to Virtual Threads."
         },
@@ -45,12 +45,12 @@
       "icon": "code",
       "items": [
         {
-          "title": "Java Programming — University of Helsinki (MOOC.fi)",
+          "title": "Java Programming \u2014 University of Helsinki (MOOC.fi)",
           "url": "https://java-programming.mooc.fi/",
           "description": "Widely regarded as the best free Java course with rigorous auto-graded projects covering OOP, algorithms, and data structures."
         },
         {
-          "title": "freeCodeCamp — Java Course",
+          "title": "freeCodeCamp \u2014 Java Course",
           "url": "https://www.freecodecamp.org/news/learn-java-programming/",
           "description": "A comprehensive free course covering Java fundamentals, OOP principles, exception handling, and generics."
         }
@@ -66,7 +66,7 @@
           "description": "A multi-hour video tutorial covering Java from scratch: syntax, OOP, collections, file I/O, and multithreading."
         },
         {
-          "title": "Java Programming — Bro Code Full Course",
+          "title": "Java Programming \u2014 Bro Code Full Course",
           "url": "https://www.youtube.com/watch?v=xk4_1vDrzzo",
           "description": "A massive full-length course with clear, beginner-friendly explanations and hands-on coding examples."
         }
@@ -77,17 +77,17 @@
       "icon": "terminal",
       "items": [
         {
-          "title": "Exercism — Java Track",
+          "title": "Exercism \u2014 Java Track",
           "url": "https://exercism.org/tracks/java",
           "description": "100% free with 158+ coding exercises across 24 concepts. Includes automated code analysis and human mentorship."
         },
         {
-          "title": "HackerRank — Java Domain",
+          "title": "HackerRank \u2014 Java Domain",
           "url": "https://www.hackerrank.com/domains/java",
           "description": "Practice Java-specific syntax, data structures, and algorithms tailored for coding interviews."
         },
         {
-          "title": "Codewars — Java Kata",
+          "title": "Codewars \u2014 Java Kata",
           "url": "https://www.codewars.com/",
           "description": "Solve community-created kata in Java across hundreds of difficulty levels."
         }
@@ -145,6 +145,26 @@
           "description": "One of the largest active real-time Java communities for troubleshooting and peer learning."
         }
       ]
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "fundamentals",
+      "title": "Fundamentals of Java",
+      "description": "Core concepts, syntax, and first steps with Java",
+      "type": "lesson",
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "practical-guide",
+      "title": "Practical Java Guide",
+      "description": "Real-world usage, tooling, and ecosystem",
+      "type": "lesson",
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "intermediate"
     }
   ]
 }

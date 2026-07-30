@@ -8,7 +8,7 @@
       "icon": "book",
       "items": [
         {
-          "title": "Netflix Tech Blog — Complete Architecture",
+          "title": "Netflix Tech Blog \u2014 Complete Architecture",
           "url": "https://netflixtechblog.com/",
           "description": "The official Netflix engineering blog covering microservices, CDN, chaos engineering, and streaming infrastructure."
         },
@@ -40,7 +40,7 @@
       "icon": "news",
       "items": [
         {
-          "title": "Designing Netflix — A Complete System Design Case Study",
+          "title": "Designing Netflix \u2014 A Complete System Design Case Study",
           "url": "https://www.freecodecamp.org/news/netflix-system-design/",
           "description": "freeCodeCamp's comprehensive case study covering Netflix's CDN, recommendation engine, and streaming pipeline."
         },
@@ -61,11 +61,31 @@
           "description": "System design primer's complete Netflix case study with diagrams, capacity estimates, and trade-off analysis."
         },
         {
-          "title": "ByteByteGo — Netflix Architecture Explained",
+          "title": "ByteByteGo \u2014 Netflix Architecture Explained",
           "url": "https://www.youtube.com/watch?v=psQcB7Q2qyM",
           "description": "Animated explainer of Netflix's complete tech stack: CDN, encoding pipeline, recommendation system, and Open Connect."
         }
       ]
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "fundamentals",
+      "title": "Fundamentals of Netflix",
+      "description": "Core concepts and key principles of Netflix",
+      "type": "lesson",
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "practical-guide",
+      "title": "Practical Netflix Guide",
+      "description": "Real-world usage, best practices, and common patterns",
+      "type": "lesson",
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "intermediate"
     }
   ]
 }

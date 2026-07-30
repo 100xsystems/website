@@ -1,7 +1,7 @@
 {
   "slug": "haskell",
   "name": "Haskell",
-  "description": "Haskell is a purely functional programming language with strong static typing and lazy evaluation. It provides an unparalleled foundation for writing correct, composable, and concurrent software. These are the definitive free resources — vetted, current, and complete.",
+  "description": "Haskell is a purely functional programming language with strong static typing and lazy evaluation. It provides an unparalleled foundation for writing correct, composable, and concurrent software. These are the definitive free resources \u2014 vetted, current, and complete.",
   "categories": [
     {
       "label": "Free Books",
@@ -29,7 +29,7 @@
           "description": "Central hub for official guides, the Haskell Report, language standards, and library documentation via Hackage."
         },
         {
-          "title": "Hackage — Haskell Package Repository",
+          "title": "Hackage \u2014 Haskell Package Repository",
           "url": "https://hackage.haskell.org/",
           "description": "Central package repository with complete API documentation for thousands of Haskell libraries."
         },
@@ -66,7 +66,7 @@
           "description": "A comprehensive video series teaching Haskell from an imperative programming background with clear explanations."
         },
         {
-          "title": "Tsoding — Haskell Live Coding",
+          "title": "Tsoding \u2014 Haskell Live Coding",
           "url": "https://www.youtube.com/@Tsoding",
           "description": "Live coding sessions exploring Haskell, functional design patterns, and real-world applications."
         }
@@ -77,12 +77,12 @@
       "icon": "terminal",
       "items": [
         {
-          "title": "Exercism — Haskell Track",
+          "title": "Exercism \u2014 Haskell Track",
           "url": "https://exercism.org/tracks/haskell",
           "description": "107 free exercises with community volunteer mentors who review your code for idiomatic functional style."
         },
         {
-          "title": "Codewars — Haskell Kata",
+          "title": "Codewars \u2014 Haskell Kata",
           "url": "https://www.codewars.com/kata/search/haskell",
           "description": "Over 2,100 community-driven coding katas from beginner to advanced algorithms."
         }
@@ -98,7 +98,7 @@
           "description": "Comprehensive reference sheet with syntax, keywords, operators, pattern matching, and type declarations."
         },
         {
-          "title": "Hoogle — Haskell API Search",
+          "title": "Hoogle \u2014 Haskell API Search",
           "url": "https://hoogle.haskell.org/",
           "description": "Search Haskell functions by name or type signature. Find standard library and package functions instantly."
         }
@@ -140,6 +140,26 @@
           "description": "Official community page listing user groups, IRC channels, mailing lists, and global Haskell events."
         }
       ]
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "fundamentals",
+      "title": "Fundamentals of Haskell",
+      "description": "Core concepts, syntax, and first steps with Haskell",
+      "type": "lesson",
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "practical-guide",
+      "title": "Practical Haskell Guide",
+      "description": "Real-world usage, tooling, and ecosystem",
+      "type": "lesson",
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "intermediate"
     }
   ]
 }

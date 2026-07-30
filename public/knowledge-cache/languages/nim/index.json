@@ -40,7 +40,7 @@
       "icon": "code",
       "items": [
         {
-          "title": "Exercism — Nim Track",
+          "title": "Exercism \u2014 Nim Track",
           "url": "https://exercism.org/tracks/nim",
           "description": "Free coding exercises with automated analysis and optional human mentoring."
         }
@@ -62,7 +62,7 @@
       "icon": "terminal",
       "items": [
         {
-          "title": "Exercism — Nim Track",
+          "title": "Exercism \u2014 Nim Track",
           "url": "https://exercism.org/tracks/nim",
           "description": "Structured exercises for mastering Nim syntax and patterns."
         }
@@ -110,6 +110,26 @@
           "description": "Community hub for Nim programming and projects."
         }
       ]
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "fundamentals",
+      "title": "Fundamentals of Nim",
+      "description": "Core concepts, syntax, and first steps with Nim",
+      "type": "lesson",
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "practical-guide",
+      "title": "Practical Nim Guide",
+      "description": "Real-world usage, tooling, and ecosystem",
+      "type": "lesson",
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "intermediate"
     }
   ]
 }

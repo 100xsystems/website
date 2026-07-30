@@ -1,7 +1,7 @@
 {
   "slug": "solidity",
   "name": "Solidity",
-  "description": "Solidity is the primary programming language for writing smart contracts on Ethereum and EVM-compatible blockchains. It enables decentralized applications, DeFi protocols, and NFTs — the backbone of Web3.",
+  "description": "Solidity is the primary programming language for writing smart contracts on Ethereum and EVM-compatible blockchains. It enables decentralized applications, DeFi protocols, and NFTs \u2014 the backbone of Web3.",
   "categories": [
     {
       "label": "Free Books",
@@ -10,12 +10,12 @@
         {
           "title": "Solidity Documentation (Official)",
           "url": "https://docs.soliditylang.org/",
-          "description": "The complete official documentation — language reference, by-example tutorials, and security best practices."
+          "description": "The complete official documentation \u2014 language reference, by-example tutorials, and security best practices."
         },
         {
           "title": "Solidity by Example",
           "url": "https://docs.soliditylang.org/en/latest/solidity-by-example.html",
-          "description": "Official walkthroughs of common smart contract patterns — voting, auctions, payment channels, and more."
+          "description": "Official walkthroughs of common smart contract patterns \u2014 voting, auctions, payment channels, and more."
         }
       ]
     },
@@ -42,7 +42,7 @@
         {
           "title": "CryptoZombies",
           "url": "https://cryptozombies.io/",
-          "description": "The most popular gamified Solidity course — build a zombie battle game while learning smart contracts."
+          "description": "The most popular gamified Solidity course \u2014 build a zombie battle game while learning smart contracts."
         },
         {
           "title": "RareSkills Solidity Course",
@@ -107,7 +107,7 @@
         {
           "title": "Ethereum Stack Exchange",
           "url": "https://ethereum.stackexchange.com/",
-          "description": "Q&A for Ethereum and Solidity development — the definitive help resource."
+          "description": "Q&A for Ethereum and Solidity development \u2014 the definitive help resource."
         },
         {
           "title": "Reddit r/ethdev",
@@ -115,6 +115,26 @@
           "description": "Community for Ethereum developers sharing projects, ideas, and troubleshooting."
         }
       ]
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "fundamentals",
+      "title": "Fundamentals of Solidity",
+      "description": "Core concepts, syntax, and first steps with Solidity",
+      "type": "lesson",
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "practical-guide",
+      "title": "Practical Solidity Guide",
+      "description": "Real-world usage, tooling, and ecosystem",
+      "type": "lesson",
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "intermediate"
     }
   ]
 }

@@ -12,5 +12,25 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Amazon_Web_Services",
     "wikidata": "https://www.wikidata.org/wiki/Q45999"
   },
-  "indexedAt": "2026-07-23T14:36:34.261Z"
+  "indexedAt": "2026-07-23T14:36:34.261Z",
+  "lessons": [
+    {
+      "slug": "fundamentals",
+      "title": "Fundamentals of AWS",
+      "description": "Core concepts and key principles of AWS",
+      "type": "lesson",
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "practical-guide",
+      "title": "Practical AWS Guide",
+      "description": "Real-world usage, best practices, and common patterns",
+      "type": "lesson",
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "intermediate"
+    }
+  ]
 }

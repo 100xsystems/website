@@ -12,5 +12,25 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Terraform_(software)",
     "wikidata": "https://www.wikidata.org/wiki/Q24051727"
   },
-  "indexedAt": "2026-07-23T14:36:26.188Z"
+  "indexedAt": "2026-07-23T14:36:26.188Z",
+  "lessons": [
+    {
+      "slug": "fundamentals",
+      "title": "Fundamentals of Terraform",
+      "description": "Core concepts and key principles of Terraform",
+      "type": "lesson",
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "practical-guide",
+      "title": "Practical Terraform Guide",
+      "description": "Real-world usage, best practices, and common patterns",
+      "type": "lesson",
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "intermediate"
+    }
+  ]
 }

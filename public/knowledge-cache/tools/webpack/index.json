@@ -12,5 +12,25 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Webpack",
     "wikidata": "https://www.wikidata.org/wiki/Q21114959"
   },
-  "indexedAt": "2026-07-23T14:36:37.174Z"
+  "indexedAt": "2026-07-23T14:36:37.174Z",
+  "lessons": [
+    {
+      "slug": "fundamentals",
+      "title": "Fundamentals of Webpack",
+      "description": "Core concepts and key principles of Webpack",
+      "type": "lesson",
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "practical-guide",
+      "title": "Practical Webpack Guide",
+      "description": "Real-world usage, best practices, and common patterns",
+      "type": "lesson",
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "intermediate"
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "slug": "shell",
   "name": "Shell",
-  "description": "Shell scripting (Bash) is the universal glue of software engineering. It automates deployments, manages infrastructure, processes data pipelines, and controls the entire development toolchain. These are the definitive free resources — vetted, current, and complete.",
+  "description": "Shell scripting (Bash) is the universal glue of software engineering. It automates deployments, manages infrastructure, processes data pipelines, and controls the entire development toolchain. These are the definitive free resources \u2014 vetted, current, and complete.",
   "categories": [
     {
       "label": "Free Books",
@@ -13,7 +13,7 @@
           "description": "A comprehensive guide from basic keystrokes through advanced multi-file Bash shell scripts. Free PDF download."
         },
         {
-          "title": "Gregs Wiki — BashGuide",
+          "title": "Gregs Wiki \u2014 BashGuide",
           "url": "https://mywiki.wooledge.org/BashGuide",
           "description": "Considered the gold standard for learning proper Bash scripting with modern syntax, best practices, and anti-pattern avoidance."
         },
@@ -34,7 +34,7 @@
           "description": "The ultimate source of truth for Bash syntax, expansions, redirections, builtins, and parameter transformations."
         },
         {
-          "title": "ShellCheck — Static Analysis Tool",
+          "title": "ShellCheck \u2014 Static Analysis Tool",
           "url": "https://www.shellcheck.net/",
           "description": "Indispensable real-time linter identifying syntax errors, quoting mistakes, and subtle bugs in Bash scripts."
         }
@@ -50,7 +50,7 @@
           "description": "Free browser-based tutorial covering basic string operations, arrays, loops, conditionals, sed, and awk."
         },
         {
-          "title": "Codecademy — Linux & Bash Scripting",
+          "title": "Codecademy \u2014 Linux & Bash Scripting",
           "url": "https://www.codecademy.com/catalog/language/bash",
           "description": "Free interactive tracks teaching file system navigation and automated workflows using shell scripts."
         }
@@ -77,7 +77,7 @@
       "icon": "terminal",
       "items": [
         {
-          "title": "Exercism — Bash Track",
+          "title": "Exercism \u2014 Bash Track",
           "url": "https://exercism.org/tracks/bash",
           "description": "Coding exercises with automated analysis and human mentor feedback for writing robust shell scripts."
         },
@@ -135,11 +135,31 @@
           "description": "Premier Q&A for deep architectural inquiries, complex pipeline problems, and shell-specific nuances."
         },
         {
-          "title": "Stack Overflow — Bash Tag",
+          "title": "Stack Overflow \u2014 Bash Tag",
           "url": "https://stackoverflow.com/questions/tagged/bash",
           "description": "Definitive forum for debugging shell scripts, quoting issues, and scripting best practices."
         }
       ]
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "fundamentals",
+      "title": "Fundamentals of Shell",
+      "description": "Core concepts, syntax, and first steps with Shell",
+      "type": "lesson",
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "practical-guide",
+      "title": "Practical Shell Guide",
+      "description": "Real-world usage, tooling, and ecosystem",
+      "type": "lesson",
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "intermediate"
     }
   ]
 }

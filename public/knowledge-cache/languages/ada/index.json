@@ -15,12 +15,12 @@
         {
           "title": "Ada Distilled",
           "url": "https://www.adacore.com/books/ada-distilled",
-          "description": "A concise Ada reference guide by AdaCore covering language fundamentals and best practices — free PDF."
+          "description": "A concise Ada reference guide by AdaCore covering language fundamentals and best practices \u2014 free PDF."
         },
         {
           "title": "Ada 2022 Reference Manual",
           "url": "https://www.adaic.org/resources/add_content/standards/22/rm/ARM-22.pdf",
-          "description": "The official Ada language reference manual (free PDF) — the definitive specification."
+          "description": "The official Ada language reference manual (free PDF) \u2014 the definitive specification."
         }
       ]
     },
@@ -55,7 +55,7 @@
           "description": "Free interactive Ada courses covering introduction, embedded systems, and high-integrity development."
         },
         {
-          "title": "Exercism — Ada Track",
+          "title": "Exercism \u2014 Ada Track",
           "url": "https://exercism.org/tracks/ada",
           "description": "Free coding exercises for Ada with automated analysis and community support."
         }
@@ -77,7 +77,7 @@
       "icon": "terminal",
       "items": [
         {
-          "title": "Exercism — Ada Track",
+          "title": "Exercism \u2014 Ada Track",
           "url": "https://exercism.org/tracks/ada",
           "description": "Structured coding exercises for mastering Ada systems programming."
         }
@@ -115,11 +115,31 @@
           "description": "Community for Ada programming language news, discussions, and projects."
         },
         {
-          "title": "Stack Overflow — Ada Tag",
+          "title": "Stack Overflow \u2014 Ada Tag",
           "url": "https://stackoverflow.com/questions/tagged/ada",
           "description": "Q&A for Ada programming and safety-critical systems questions."
         }
       ]
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "fundamentals",
+      "title": "Fundamentals of Ada",
+      "description": "Core concepts, syntax, and first steps with Ada",
+      "type": "lesson",
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "practical-guide",
+      "title": "Practical Ada Guide",
+      "description": "Real-world usage, tooling, and ecosystem",
+      "type": "lesson",
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "intermediate"
     }
   ]
 }

@@ -10,7 +10,7 @@
         {
           "title": "Terraform: Up & Running (Free Chapters)",
           "url": "https://www.terraformupandrunning.com/",
-          "description": "The gold-standard book for learning Terraform — free chapter samples cover HCL, state, and modules."
+          "description": "The gold-standard book for learning Terraform \u2014 free chapter samples cover HCL, state, and modules."
         },
         {
           "title": "HashiCorp Learn Terraform",
@@ -80,7 +80,7 @@
         {
           "title": "Terraform Commands Cheatsheet",
           "url": "https://spacelift.io/blog/terraform-commands-cheat-sheet",
-          "description": "28+ essential CLI commands with code snippets and best practices — downloadable PDF."
+          "description": "28+ essential CLI commands with code snippets and best practices \u2014 downloadable PDF."
         }
       ]
     },
@@ -105,6 +105,26 @@
           "description": "The primary community for Terraform discussions, troubleshooting, and best practices."
         }
       ]
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "fundamentals",
+      "title": "Fundamentals of Terraform",
+      "description": "Core concepts and key principles of Terraform",
+      "type": "lesson",
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "practical-guide",
+      "title": "Practical Terraform Guide",
+      "description": "Real-world usage, best practices, and common patterns",
+      "type": "lesson",
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "intermediate"
     }
   ]
 }

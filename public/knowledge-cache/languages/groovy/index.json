@@ -31,7 +31,7 @@
         {
           "title": "Groovy Development Kit (GDK)",
           "url": "https://groovy-lang.org/groovy-dev-kit.html",
-          "description": "Essential guide to Groovy enhancements over Java — I/O helpers, collection methods, and file management."
+          "description": "Essential guide to Groovy enhancements over Java \u2014 I/O helpers, collection methods, and file management."
         }
       ]
     },
@@ -40,7 +40,7 @@
       "icon": "code",
       "items": [
         {
-          "title": "Exercism — Groovy Track",
+          "title": "Exercism \u2014 Groovy Track",
           "url": "https://exercism.org/tracks/groovy",
           "description": "66 coding exercises from simple strings to advanced logic puzzles with mentoring."
         },
@@ -72,12 +72,12 @@
       "icon": "terminal",
       "items": [
         {
-          "title": "Exercism — Groovy Track",
+          "title": "Exercism \u2014 Groovy Track",
           "url": "https://exercism.org/tracks/groovy",
           "description": "Free practice with automated analysis and peer mentoring."
         },
         {
-          "title": "Codewars — Groovy Kata",
+          "title": "Codewars \u2014 Groovy Kata",
           "url": "https://www.codewars.com/",
           "description": "Solve community-created challenges in Groovy."
         }
@@ -120,11 +120,31 @@
           "description": "Official mailing lists and developer Slack channels."
         },
         {
-          "title": "Stack Overflow — Groovy Tag",
+          "title": "Stack Overflow \u2014 Groovy Tag",
           "url": "https://stackoverflow.com/questions/tagged/groovy",
           "description": "Q&A for Groovy, Gradle, and Jenkins pipeline questions."
         }
       ]
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "fundamentals",
+      "title": "Fundamentals of Groovy",
+      "description": "Core concepts, syntax, and first steps with Groovy",
+      "type": "lesson",
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "practical-guide",
+      "title": "Practical Groovy Guide",
+      "description": "Real-world usage, tooling, and ecosystem",
+      "type": "lesson",
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "intermediate"
     }
   ]
 }

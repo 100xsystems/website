@@ -1,7 +1,7 @@
 {
   "slug": "elixir",
   "name": "Elixir",
-  "description": "Elixir is a functional, concurrent language built on the Erlang VM (BEAM). It excels at building fault-tolerant, distributed systems with the Phoenix web framework and LiveView for real-time apps. These are the definitive free resources — vetted, current, and complete.",
+  "description": "Elixir is a functional, concurrent language built on the Erlang VM (BEAM). It excels at building fault-tolerant, distributed systems with the Phoenix web framework and LiveView for real-time apps. These are the definitive free resources \u2014 vetted, current, and complete.",
   "categories": [
     {
       "label": "Free Books",
@@ -34,7 +34,7 @@
           "description": "The centralized portal listing approved community books, courses, screencasts, and learning pathways."
         },
         {
-          "title": "HexDocs — Elixir Standard Library",
+          "title": "HexDocs \u2014 Elixir Standard Library",
           "url": "https://hexdocs.pm/elixir/",
           "description": "Complete API documentation for the Elixir standard library with detailed module references."
         }
@@ -45,7 +45,7 @@
       "icon": "code",
       "items": [
         {
-          "title": "Exercism — Elixir Track",
+          "title": "Exercism \u2014 Elixir Track",
           "url": "https://exercism.org/tracks/elixir",
           "description": "58 concepts and 168 exercises with community mentoring for writing idiomatic Elixir."
         },
@@ -77,12 +77,12 @@
       "icon": "terminal",
       "items": [
         {
-          "title": "Exercism — Elixir Track",
+          "title": "Exercism \u2014 Elixir Track",
           "url": "https://exercism.org/tracks/elixir",
           "description": "100% free coding exercises with community mentoring and automated analysis."
         },
         {
-          "title": "Codewars — Elixir Kata",
+          "title": "Codewars \u2014 Elixir Kata",
           "url": "https://www.codewars.com/",
           "description": "Solve community-created challenges in Elixir across hundreds of difficulty levels."
         }
@@ -140,6 +140,26 @@
           "description": "Real-time chat with dedicated channels for beginners, Phoenix, and OTP."
         }
       ]
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "fundamentals",
+      "title": "Fundamentals of Elixir",
+      "description": "Core concepts, syntax, and first steps with Elixir",
+      "type": "lesson",
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "practical-guide",
+      "title": "Practical Elixir Guide",
+      "description": "Real-world usage, tooling, and ecosystem",
+      "type": "lesson",
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "intermediate"
     }
   ]
 }

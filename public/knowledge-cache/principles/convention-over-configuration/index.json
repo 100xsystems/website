@@ -120,5 +120,25 @@
         }
       ]
     }
+  ],
+  "lessons": [
+    {
+      "slug": "fundamentals",
+      "title": "Convention over Configuration: Core Concepts",
+      "order": 1,
+      "duration": "40 min",
+      "type": "lesson",
+      "difficulty": "Intermediate",
+      "description": "Learn the Convention over Configuration principle: core concepts, definitions, and foundational knowledge."
+    },
+    {
+      "slug": "practical-guide",
+      "title": "Convention over Configuration: Practical Guide",
+      "order": 2,
+      "duration": "45 min",
+      "type": "lesson",
+      "difficulty": "Intermediate",
+      "description": "Apply Convention over Configuration in real-world scenarios with practical examples and common pitfalls."
+    }
   ]
 }

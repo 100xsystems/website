@@ -67,7 +67,7 @@
       "icon": "terminal",
       "items": [
         {
-          "title": "Exercism — Haxe Track",
+          "title": "Exercism \u2014 Haxe Track",
           "url": "https://exercism.org/tracks/haxe",
           "description": "Free coding exercises for Haxe with community mentoring."
         }
@@ -110,6 +110,26 @@
           "description": "Real-time chat with core developers and active community members."
         }
       ]
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "fundamentals",
+      "title": "Fundamentals of Haxe",
+      "description": "Core concepts, syntax, and first steps with Haxe",
+      "type": "lesson",
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "practical-guide",
+      "title": "Practical Haxe Guide",
+      "description": "Real-world usage, tooling, and ecosystem",
+      "type": "lesson",
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "intermediate"
     }
   ]
 }

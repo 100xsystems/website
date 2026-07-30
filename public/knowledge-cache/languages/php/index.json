@@ -1,7 +1,7 @@
 {
   "slug": "php",
   "name": "PHP",
-  "description": "PHP powers over 75% of all websites, including WordPress, Laravel applications, and massive platforms like Facebook. It is the most accessible backend language with an unmatched ecosystem. These are the definitive free resources — vetted, current, and complete.",
+  "description": "PHP powers over 75% of all websites, including WordPress, Laravel applications, and massive platforms like Facebook. It is the most accessible backend language with an unmatched ecosystem. These are the definitive free resources \u2014 vetted, current, and complete.",
   "categories": [
     {
       "label": "Free Books",
@@ -36,7 +36,7 @@
         {
           "title": "Laravel Documentation",
           "url": "https://laravel.com/docs",
-          "description": "The comprehensive documentation for the Laravel framework — the most popular PHP web framework."
+          "description": "The comprehensive documentation for the Laravel framework \u2014 the most popular PHP web framework."
         }
       ]
     },
@@ -45,12 +45,12 @@
       "icon": "code",
       "items": [
         {
-          "title": "freeCodeCamp — PHP Course",
+          "title": "freeCodeCamp \u2014 PHP Course",
           "url": "https://www.freecodecamp.org/news/search/?query=php",
           "description": "Free PHP tutorials and courses covering everything from basic syntax to building full web applications."
         },
         {
-          "title": "Laracasts — PHP Free Lessons",
+          "title": "Laracasts \u2014 PHP Free Lessons",
           "url": "https://laracasts.com/",
           "description": "High-quality screencasts for PHP and Laravel development. Hundreds of free lessons available for beginners."
         }
@@ -77,17 +77,17 @@
       "icon": "terminal",
       "items": [
         {
-          "title": "Exercism — PHP Track",
+          "title": "Exercism \u2014 PHP Track",
           "url": "https://exercism.org/tracks/php",
           "description": "100+ free coding exercises with automated analysis and optional human mentoring for personalized feedback."
         },
         {
-          "title": "Codewars — PHP Kata",
+          "title": "Codewars \u2014 PHP Kata",
           "url": "https://www.codewars.com/",
           "description": "Solve community-created challenges in PHP across hundreds of difficulty levels and topics."
         },
         {
-          "title": "HackerRank — PHP Domain",
+          "title": "HackerRank \u2014 PHP Domain",
           "url": "https://www.hackerrank.com/domains/php",
           "description": "Practice PHP-specific challenges covering basic syntax, functions, arrays, and advanced features."
         }
@@ -140,11 +140,31 @@
           "description": "Active real-time chat community for PHP developers with channels for help, code review, and job discussions."
         },
         {
-          "title": "Stack Overflow — PHP Tag",
+          "title": "Stack Overflow \u2014 PHP Tag",
           "url": "https://stackoverflow.com/questions/tagged/php",
           "description": "The definitive Q&A forum for PHP troubleshooting, best practices, and debugging help."
         }
       ]
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "fundamentals",
+      "title": "Fundamentals of PHP",
+      "description": "Core concepts, syntax, and first steps with PHP",
+      "type": "lesson",
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "practical-guide",
+      "title": "Practical PHP Guide",
+      "description": "Real-world usage, tooling, and ecosystem",
+      "type": "lesson",
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "intermediate"
     }
   ]
 }

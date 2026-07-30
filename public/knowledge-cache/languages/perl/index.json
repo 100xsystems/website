@@ -10,7 +10,7 @@
         {
           "title": "Modern Perl (4th Edition)",
           "url": "https://www.modernperlbooks.com/",
-          "description": "The premier guide to writing idiomatic Perl 5 for contemporary development — free to read online."
+          "description": "The premier guide to writing idiomatic Perl 5 for contemporary development \u2014 free to read online."
         },
         {
           "title": "Perl Books Directory",
@@ -45,7 +45,7 @@
           "description": "Zero-setup interactive tutorial covering variables, loops, subroutines, and regex in your browser."
         },
         {
-          "title": "Exercism — Perl Track",
+          "title": "Exercism \u2014 Perl Track",
           "url": "https://exercism.org/tracks/perl5",
           "description": "84 structured exercises with automated analysis and human peer mentoring."
         }
@@ -72,12 +72,12 @@
       "icon": "terminal",
       "items": [
         {
-          "title": "Exercism — Perl Track",
+          "title": "Exercism \u2014 Perl Track",
           "url": "https://exercism.org/tracks/perl5",
           "description": "Free practice with mentorship across arrays, hashes, references, and packages."
         },
         {
-          "title": "Codewars — Perl Kata",
+          "title": "Codewars \u2014 Perl Kata",
           "url": "https://www.codewars.com/",
           "description": "Solve community-created challenges in Perl."
         }
@@ -130,6 +130,26 @@
           "description": "Classic Q&A community focused on Perl development and deep technical discussions."
         }
       ]
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "fundamentals",
+      "title": "Fundamentals of Perl",
+      "description": "Core concepts, syntax, and first steps with Perl",
+      "type": "lesson",
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "practical-guide",
+      "title": "Practical Perl Guide",
+      "description": "Real-world usage, tooling, and ecosystem",
+      "type": "lesson",
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "intermediate"
     }
   ]
 }

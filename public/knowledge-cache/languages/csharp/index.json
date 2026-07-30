@@ -1,7 +1,7 @@
 {
   "slug": "csharp",
   "name": "C#",
-  "description": "C# is Microsofts flagship language for the .NET ecosystem. It powers Windows applications, game development (Unity), cloud services on Azure, and cross-platform apps. These are the definitive free resources — vetted, current, and complete.",
+  "description": "C# is Microsofts flagship language for the .NET ecosystem. It powers Windows applications, game development (Unity), cloud services on Azure, and cross-platform apps. These are the definitive free resources \u2014 vetted, current, and complete.",
   "categories": [
     {
       "label": "Free Books",
@@ -50,7 +50,7 @@
           "description": "A guided path in collaboration with Microsoft that culminates in foundational certification."
         },
         {
-          "title": "freeCodeCamp — C# Course",
+          "title": "freeCodeCamp \u2014 C# Course",
           "url": "https://www.freecodecamp.org/news/search/?query=c%23",
           "description": "Free comprehensive C# tutorials and .NET courses covering everything from basics to ASP.NET Core."
         }
@@ -77,17 +77,17 @@
       "icon": "terminal",
       "items": [
         {
-          "title": "Exercism — C# Track",
+          "title": "Exercism \u2014 C# Track",
           "url": "https://exercism.org/tracks/csharp",
           "description": "178 free hands-on exercises with automated CLI tests and human mentors who review your idiomatic C# code."
         },
         {
-          "title": "Codewars — C# Katas",
+          "title": "Codewars \u2014 C# Katas",
           "url": "https://www.codewars.com/kata/search/csharp",
           "description": "Community-driven code challenges ranging from beginner to advanced in C#."
         },
         {
-          "title": "LeetCode — C# Support",
+          "title": "LeetCode \u2014 C# Support",
           "url": "https://leetcode.com/",
           "description": "Practice algorithms and data structures using C# for interview preparation."
         }
@@ -140,11 +140,31 @@
           "description": "A massive real-time chat community for troubleshooting code and discussing software design."
         },
         {
-          "title": "Stack Overflow — C# Tag",
+          "title": "Stack Overflow \u2014 C# Tag",
           "url": "https://stackoverflow.com/questions/tagged/c%23",
           "description": "The ultimate archive for troubleshooting bugs, syntax errors, and best practices in C#."
         }
       ]
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "fundamentals",
+      "title": "Fundamentals of C#",
+      "description": "Core concepts, syntax, and first steps with C#",
+      "type": "lesson",
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "practical-guide",
+      "title": "Practical C# Guide",
+      "description": "Real-world usage, tooling, and ecosystem",
+      "type": "lesson",
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "intermediate"
     }
   ]
 }

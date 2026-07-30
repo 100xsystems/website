@@ -1,7 +1,7 @@
 {
   "slug": "typescript",
   "name": "TypeScript",
-  "description": "TypeScript is JavaScript with static types. It catches errors at compile time, enables fearless refactoring, and powers the largest codebases in the world. These are the definitive free resources — vetted, current, and complete.",
+  "description": "TypeScript is JavaScript with static types. It catches errors at compile time, enables fearless refactoring, and powers the largest codebases in the world. These are the definitive free resources \u2014 vetted, current, and complete.",
   "categories": [
     {
       "label": "Free Books",
@@ -18,7 +18,7 @@
           "description": "A comprehensive open-source book by Basarat Ali Syed covering real-world patterns, project setup, and migration strategies."
         },
         {
-          "title": "Type Challenges — Solutions Book",
+          "title": "Type Challenges \u2014 Solutions Book",
           "url": "https://ghaiklor.github.io/type-challenges-solutions/en/",
           "description": "Companion guide to type-challenges with detailed explanations of over 100 advanced type puzzles."
         }
@@ -50,12 +50,12 @@
       "icon": "code",
       "items": [
         {
-          "title": "Total TypeScript — Free Tutorials",
+          "title": "Total TypeScript \u2014 Free Tutorials",
           "url": "https://www.totaltypescript.com/tutorials",
           "description": "High-quality interactive tutorials by Matt Pocock covering generics, patterns, and real-world TypeScript."
         },
         {
-          "title": "freeCodeCamp — TypeScript Course",
+          "title": "freeCodeCamp \u2014 TypeScript Course",
           "url": "https://www.freecodecamp.org/news/typescript-course/",
           "description": "A structured project-based course walking through type annotations, interfaces, generics, and building applications."
         }
@@ -66,7 +66,7 @@
       "icon": "video",
       "items": [
         {
-          "title": "TypeScript — The Complete Course (freeCodeCamp)",
+          "title": "TypeScript \u2014 The Complete Course (freeCodeCamp)",
           "url": "https://www.youtube.com/watch?v=30LWjhZzg50",
           "description": "Comprehensive multi-hour course covering everything from basic types to advanced patterns."
         },
@@ -82,17 +82,17 @@
       "icon": "terminal",
       "items": [
         {
-          "title": "Type Challenges — TypeScript Type Puzzles",
+          "title": "Type Challenges \u2014 TypeScript Type Puzzles",
           "url": "https://github.com/type-challenges/type-challenges",
           "description": "Over 200 community-sourced type-level challenges from easy to extreme. The gold standard for mastering advanced types."
         },
         {
-          "title": "Exercism — TypeScript Track",
+          "title": "Exercism \u2014 TypeScript Track",
           "url": "https://exercism.org/tracks/typescript",
           "description": "100+ coding exercises with automated analysis and optional human mentoring."
         },
         {
-          "title": "Codewars — TypeScript Kata",
+          "title": "Codewars \u2014 TypeScript Kata",
           "url": "https://www.codewars.com/?language=typescript",
           "description": "Solve community-created challenges while getting typed feedback."
         }
@@ -150,6 +150,26 @@
           "description": "Official GitHub discussions for feature requests, design proposals, and RFCs."
         }
       ]
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "fundamentals",
+      "title": "Fundamentals of TypeScript",
+      "description": "Core concepts, syntax, and first steps with TypeScript",
+      "type": "lesson",
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "practical-guide",
+      "title": "Practical TypeScript Guide",
+      "description": "Real-world usage, tooling, and ecosystem",
+      "type": "lesson",
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "intermediate"
     }
   ]
 }

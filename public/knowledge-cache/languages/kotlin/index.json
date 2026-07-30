@@ -1,7 +1,7 @@
 {
   "slug": "kotlin",
   "name": "Kotlin",
-  "description": "Kotlin is the modern JVM language that is now the primary language for Android development. It is concise, expressive, and fully interoperable with Java. These are the definitive free resources — vetted, current, and complete.",
+  "description": "Kotlin is the modern JVM language that is now the primary language for Android development. It is concise, expressive, and fully interoperable with Java. These are the definitive free resources \u2014 vetted, current, and complete.",
   "categories": [
     {
       "label": "Free Books",
@@ -50,12 +50,12 @@
       "icon": "code",
       "items": [
         {
-          "title": "JetBrains — Kotlin Basics Track",
+          "title": "JetBrains \u2014 Kotlin Basics Track",
           "url": "https://hyperskill.org/tracks/1",
           "description": "The official JetBrains interactive course covering Kotlin fundamentals, OOP, functional programming, and coroutines with hands-on exercises."
         },
         {
-          "title": "freeCodeCamp — Kotlin Course",
+          "title": "freeCodeCamp \u2014 Kotlin Course",
           "url": "https://www.freecodecamp.org/news/search/?query=kotlin",
           "description": "Free comprehensive Kotlin tutorials and courses covering Android development and backend programming."
         }
@@ -82,17 +82,17 @@
       "icon": "terminal",
       "items": [
         {
-          "title": "Exercism — Kotlin Track",
+          "title": "Exercism \u2014 Kotlin Track",
           "url": "https://exercism.org/tracks/kotlin",
           "description": "100+ free coding exercises with automated analysis and optional human mentoring."
         },
         {
-          "title": "Codewars — Kotlin Kata",
+          "title": "Codewars \u2014 Kotlin Kata",
           "url": "https://www.codewars.com/?language=kotlin",
           "description": "Solve community-created challenges in Kotlin across hundreds of difficulty levels."
         },
         {
-          "title": "LeetCode — Kotlin Support",
+          "title": "LeetCode \u2014 Kotlin Support",
           "url": "https://leetcode.com/",
           "description": "Practice data structures and algorithms using Kotlin for interview preparation."
         }
@@ -150,6 +150,26 @@
           "description": "A real-time chat community of Kotlin developers for Q&A, code review, and project collaboration."
         }
       ]
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "fundamentals",
+      "title": "Fundamentals of Kotlin",
+      "description": "Core concepts, syntax, and first steps with Kotlin",
+      "type": "lesson",
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "practical-guide",
+      "title": "Practical Kotlin Guide",
+      "description": "Real-world usage, tooling, and ecosystem",
+      "type": "lesson",
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "intermediate"
     }
   ]
 }

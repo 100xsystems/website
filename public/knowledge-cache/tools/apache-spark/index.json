@@ -12,5 +12,25 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Apache_Spark",
     "wikidata": "https://www.wikidata.org/wiki/Q10965169"
   },
-  "indexedAt": "2026-07-23T14:36:38.408Z"
+  "indexedAt": "2026-07-23T14:36:38.408Z",
+  "lessons": [
+    {
+      "slug": "fundamentals",
+      "title": "Fundamentals of Apache Spark",
+      "description": "Core concepts and key principles of Apache Spark",
+      "type": "lesson",
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "practical-guide",
+      "title": "Practical Apache Spark Guide",
+      "description": "Real-world usage, best practices, and common patterns",
+      "type": "lesson",
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "intermediate"
+    }
+  ]
 }

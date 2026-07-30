@@ -10,7 +10,7 @@
         {
           "title": "Gleam Language Tour",
           "url": "https://tour.gleam.run/",
-          "description": "An interactive tour of Gleam covering syntax, types, and patterns — the best place to start."
+          "description": "An interactive tour of Gleam covering syntax, types, and patterns \u2014 the best place to start."
         },
         {
           "title": "Gleam Documentation",
@@ -67,7 +67,7 @@
       "icon": "terminal",
       "items": [
         {
-          "title": "Exercism — Gleam Track",
+          "title": "Exercism \u2014 Gleam Track",
           "url": "https://exercism.org/tracks/gleam",
           "description": "Structured exercises for mastering Gleam functional programming."
         }
@@ -110,6 +110,26 @@
           "description": "Community for Gleam discussions and project showcases."
         }
       ]
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "fundamentals",
+      "title": "Fundamentals of Gleam",
+      "description": "Core concepts, syntax, and first steps with Gleam",
+      "type": "lesson",
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "practical-guide",
+      "title": "Practical Gleam Guide",
+      "description": "Real-world usage, tooling, and ecosystem",
+      "type": "lesson",
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "intermediate"
     }
   ]
 }

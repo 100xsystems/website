@@ -31,7 +31,7 @@
         {
           "title": "PostgreSQL Documentation",
           "url": "https://www.postgresql.org/docs/",
-          "description": "The gold standard for SQL documentation — comprehensive, well-written, and free."
+          "description": "The gold standard for SQL documentation \u2014 comprehensive, well-written, and free."
         },
         {
           "title": "SQLite Documentation",
@@ -52,7 +52,7 @@
         {
           "title": "SQLZoo",
           "url": "https://sqlzoo.net/",
-          "description": "An award-winning interactive SQL tutorial with real-time database exercises — learn by doing."
+          "description": "An award-winning interactive SQL tutorial with real-time database exercises \u2014 learn by doing."
         },
         {
           "title": "SQLBolt",
@@ -60,7 +60,7 @@
           "description": "A series of interactive SQL lessons with hands-on exercises to practice database queries."
         },
         {
-          "title": "freeCodeCamp — SQL Course",
+          "title": "freeCodeCamp \u2014 SQL Course",
           "url": "https://www.freecodecamp.org/news/learn-sql-free-course/",
           "description": "A comprehensive free SQL course covering CRUD, joins, aggregations, and advanced querying."
         }
@@ -87,17 +87,17 @@
       "icon": "terminal",
       "items": [
         {
-          "title": "Exercism — SQL Track",
+          "title": "Exercism \u2014 SQL Track",
           "url": "https://exercism.org/tracks/sql",
           "description": "Free coding exercises for SQL with automated analysis and optional mentoring."
         },
         {
-          "title": "LeetCode — SQL Problems",
+          "title": "LeetCode \u2014 SQL Problems",
           "url": "https://leetcode.com/problemset/database/",
-          "description": "Real interview SQL questions from top tech companies — practice joins, aggregations, and advanced queries."
+          "description": "Real interview SQL questions from top tech companies \u2014 practice joins, aggregations, and advanced queries."
         },
         {
-          "title": "HackerRank — SQL Domain",
+          "title": "HackerRank \u2014 SQL Domain",
           "url": "https://www.hackerrank.com/domains/sql",
           "description": "SQL challenges from basic queries to advanced join and set operations."
         }
@@ -126,7 +126,7 @@
         {
           "title": "DB Weekly",
           "url": "https://dbweekly.com/",
-          "description": "A weekly roundup of database news, articles, and tools — SQL, NoSQL, and everything in between."
+          "description": "A weekly roundup of database news, articles, and tools \u2014 SQL, NoSQL, and everything in between."
         }
       ]
     },
@@ -140,11 +140,31 @@
           "description": "The largest SQL community on Reddit for help, discussions, and news."
         },
         {
-          "title": "Stack Overflow — SQL Tag",
+          "title": "Stack Overflow \u2014 SQL Tag",
           "url": "https://stackoverflow.com/questions/tagged/sql",
           "description": "The definitive Q&A forum for SQL queries, optimization, and database design."
         }
       ]
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "fundamentals",
+      "title": "Fundamentals of SQL",
+      "description": "Core concepts and key principles of SQL",
+      "type": "lesson",
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "practical-guide",
+      "title": "Practical SQL Guide",
+      "description": "Real-world usage, best practices, and common patterns",
+      "type": "lesson",
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "intermediate"
     }
   ]
 }

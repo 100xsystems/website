@@ -57,7 +57,7 @@
       "icon": "terminal",
       "items": [
         {
-          "title": "Exercism — Crystal Track",
+          "title": "Exercism \u2014 Crystal Track",
           "url": "https://exercism.org/tracks/crystal",
           "description": "Free coding exercises for learning Crystal with mentoring."
         }
@@ -105,6 +105,26 @@
           "description": "Community hub for Crystal programming."
         }
       ]
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "fundamentals",
+      "title": "Fundamentals of Crystal",
+      "description": "Core concepts, syntax, and first steps with Crystal",
+      "type": "lesson",
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "practical-guide",
+      "title": "Practical Crystal Guide",
+      "description": "Real-world usage, tooling, and ecosystem",
+      "type": "lesson",
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "intermediate"
     }
   ]
 }

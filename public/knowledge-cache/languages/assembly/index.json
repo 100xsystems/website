@@ -42,7 +42,7 @@
         {
           "title": "Compiler Explorer (Godbolt)",
           "url": "https://godbolt.org/",
-          "description": "Write C/C++/Rust and see the generated assembly output instantly — essential for learning how compilers translate code."
+          "description": "Write C/C++/Rust and see the generated assembly output instantly \u2014 essential for learning how compilers translate code."
         },
         {
           "title": "Azeria Labs ARM Assembly",
@@ -74,7 +74,7 @@
         {
           "title": "Compiler Explorer (Godbolt)",
           "url": "https://godbolt.org/",
-          "description": "Best tool for practicing assembly — compare your output with compiler-generated code."
+          "description": "Best tool for practicing assembly \u2014 compare your output with compiler-generated code."
         },
         {
           "title": "TIS-100 (Programming Game)",
@@ -125,11 +125,31 @@
           "description": "Dedicated community for assembly language questions and code discussions."
         },
         {
-          "title": "Stack Overflow — Assembly Tag",
+          "title": "Stack Overflow \u2014 Assembly Tag",
           "url": "https://stackoverflow.com/questions/tagged/assembly",
           "description": "Q&A for assembly syntax, debugging, and low-level code optimization."
         }
       ]
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "fundamentals",
+      "title": "Fundamentals of Assembly",
+      "description": "Core concepts, syntax, and first steps with Assembly",
+      "type": "lesson",
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "practical-guide",
+      "title": "Practical Assembly Guide",
+      "description": "Real-world usage, tooling, and ecosystem",
+      "type": "lesson",
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "intermediate"
     }
   ]
 }

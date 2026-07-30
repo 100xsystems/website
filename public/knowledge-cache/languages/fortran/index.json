@@ -45,7 +45,7 @@
           "description": "Step-by-step Fortran tutorial with online compiler for interactive learning."
         },
         {
-          "title": "Exercism — Fortran Track",
+          "title": "Exercism \u2014 Fortran Track",
           "url": "https://exercism.org/tracks/fortran",
           "description": "Free coding exercises with automated testing and mentoring."
         }
@@ -72,7 +72,7 @@
       "icon": "terminal",
       "items": [
         {
-          "title": "Exercism — Fortran Track",
+          "title": "Exercism \u2014 Fortran Track",
           "url": "https://exercism.org/tracks/fortran",
           "description": "Structured exercises for learning modern Fortran programming."
         },
@@ -120,11 +120,31 @@
           "description": "Official community forum for Q&A and discussions."
         },
         {
-          "title": "Stack Overflow — Fortran Tag",
+          "title": "Stack Overflow \u2014 Fortran Tag",
           "url": "https://stackoverflow.com/questions/tagged/fortran",
           "description": "Q&A for Fortran programming questions."
         }
       ]
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "fundamentals",
+      "title": "Fundamentals of Fortran",
+      "description": "Core concepts, syntax, and first steps with Fortran",
+      "type": "lesson",
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "practical-guide",
+      "title": "Practical Fortran Guide",
+      "description": "Real-world usage, tooling, and ecosystem",
+      "type": "lesson",
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "intermediate"
     }
   ]
 }

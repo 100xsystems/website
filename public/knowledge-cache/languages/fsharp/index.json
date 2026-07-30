@@ -10,7 +10,7 @@
         {
           "title": "F# for Fun and Profit",
           "url": "https://fsharpforfunandprofit.com/",
-          "description": "Universally regarded as the best introduction to FP and F# — covers types, design, and railway-oriented programming."
+          "description": "Universally regarded as the best introduction to FP and F# \u2014 covers types, design, and railway-oriented programming."
         },
         {
           "title": "F# Programming Wikibook",
@@ -35,7 +35,7 @@
       "icon": "code",
       "items": [
         {
-          "title": "Exercism — F# Track",
+          "title": "Exercism \u2014 F# Track",
           "url": "https://exercism.org/tracks/fsharp",
           "description": "146 exercises across 17 concepts with automated analysis and optional mentoring."
         }
@@ -57,7 +57,7 @@
       "icon": "terminal",
       "items": [
         {
-          "title": "Exercism — F# Track",
+          "title": "Exercism \u2014 F# Track",
           "url": "https://exercism.org/tracks/fsharp",
           "description": "Structured exercises with community mentorship and automated analysis."
         }
@@ -100,6 +100,26 @@
           "description": "Real-time chat for F# developers with global community channels."
         }
       ]
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "fundamentals",
+      "title": "Fundamentals of F#",
+      "description": "Core concepts, syntax, and first steps with F#",
+      "type": "lesson",
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "practical-guide",
+      "title": "Practical F# Guide",
+      "description": "Real-world usage, tooling, and ecosystem",
+      "type": "lesson",
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "intermediate"
     }
   ]
 }

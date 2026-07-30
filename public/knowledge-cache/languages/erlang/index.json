@@ -15,7 +15,7 @@
         {
           "title": "Erlang in Anger",
           "url": "https://www.erlang-in-anger.com/",
-          "description": "Practical guide by Fred Hébert for debugging, monitoring, and handling production issues in high-uptime BEAM systems."
+          "description": "Practical guide by Fred H\u00e9bert for debugging, monitoring, and handling production issues in high-uptime BEAM systems."
         }
       ]
     },
@@ -45,7 +45,7 @@
           "description": "Legendary course taught by Joe Armstrong, Francesco Cesarini, and Simon Thompson."
         },
         {
-          "title": "Exercism — Erlang Track",
+          "title": "Exercism \u2014 Erlang Track",
           "url": "https://exercism.org/tracks/erlang",
           "description": "80+ hands-on exercises with automated tests and personalized mentor feedback."
         }
@@ -72,12 +72,12 @@
       "icon": "terminal",
       "items": [
         {
-          "title": "Exercism — Erlang Track",
+          "title": "Exercism \u2014 Erlang Track",
           "url": "https://exercism.org/tracks/erlang",
           "description": "Free programming exercises with mentor feedback from the Erlang community."
         },
         {
-          "title": "Codewars — Erlang Kata",
+          "title": "Codewars \u2014 Erlang Kata",
           "url": "https://www.codewars.com/",
           "description": "Solve community-created challenges in Erlang."
         }
@@ -125,11 +125,31 @@
           "description": "Active community board for core developers and learners."
         },
         {
-          "title": "Stack Overflow — Erlang Tag",
+          "title": "Stack Overflow \u2014 Erlang Tag",
           "url": "https://stackoverflow.com/questions/tagged/erlang",
           "description": "Q&A for Erlang OTP, debugging, and functional design."
         }
       ]
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "fundamentals",
+      "title": "Fundamentals of Erlang",
+      "description": "Core concepts, syntax, and first steps with Erlang",
+      "type": "lesson",
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "practical-guide",
+      "title": "Practical Erlang Guide",
+      "description": "Real-world usage, tooling, and ecosystem",
+      "type": "lesson",
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "intermediate"
     }
   ]
 }

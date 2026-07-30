@@ -10,7 +10,7 @@
         {
           "title": "Learn Prolog Now!",
           "url": "https://www.learnprolognow.org/",
-          "description": "The best free introductory Prolog textbook — covers facts, rules, recursion, lists, and DCGs with interactive exercises."
+          "description": "The best free introductory Prolog textbook \u2014 covers facts, rules, recursion, lists, and DCGs with interactive exercises."
         },
         {
           "title": "Adventure in Prolog",
@@ -26,7 +26,7 @@
         {
           "title": "SWI-Prolog Documentation",
           "url": "https://www.swi-prolog.org/pldoc/",
-          "description": "Complete documentation for the most popular Prolog implementation — SWI-Prolog."
+          "description": "Complete documentation for the most popular Prolog implementation \u2014 SWI-Prolog."
         },
         {
           "title": "SWI-Prolog Online",
@@ -45,7 +45,7 @@
           "description": "Free interactive online textbook with exercises for each chapter."
         },
         {
-          "title": "Exercism — Prolog Track",
+          "title": "Exercism \u2014 Prolog Track",
           "url": "https://exercism.org/tracks/prolog",
           "description": "Coding exercises for learning Prolog with community support."
         }
@@ -67,12 +67,12 @@
       "icon": "terminal",
       "items": [
         {
-          "title": "Exercism — Prolog Track",
+          "title": "Exercism \u2014 Prolog Track",
           "url": "https://exercism.org/tracks/prolog",
           "description": "Free structured exercises for Prolog with community mentoring."
         },
         {
-          "title": "Codewars — Prolog Kata",
+          "title": "Codewars \u2014 Prolog Kata",
           "url": "https://www.codewars.com/",
           "description": "Solve logic puzzles using Prolog."
         }
@@ -110,11 +110,31 @@
           "description": "Community for Prolog discussions and logic programming."
         },
         {
-          "title": "Stack Overflow — Prolog Tag",
+          "title": "Stack Overflow \u2014 Prolog Tag",
           "url": "https://stackoverflow.com/questions/tagged/prolog",
           "description": "Q&A for Prolog programming questions."
         }
       ]
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "fundamentals",
+      "title": "Fundamentals of Prolog",
+      "description": "Core concepts, syntax, and first steps with Prolog",
+      "type": "lesson",
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "practical-guide",
+      "title": "Practical Prolog Guide",
+      "description": "Real-world usage, tooling, and ecosystem",
+      "type": "lesson",
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "intermediate"
     }
   ]
 }

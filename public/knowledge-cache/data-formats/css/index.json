@@ -12,5 +12,25 @@
     "wikipedia": "https://en.wikipedia.org/wiki/CSS",
     "wikidata": "https://www.wikidata.org/wiki/Q46441"
   },
-  "indexedAt": "2026-07-23T14:36:18.697Z"
+  "indexedAt": "2026-07-23T14:36:18.697Z",
+  "lessons": [
+    {
+      "slug": "fundamentals",
+      "title": "Fundamentals of Css",
+      "description": "Core concepts and key principles of Css",
+      "type": "lesson",
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "practical-guide",
+      "title": "Practical Css Guide",
+      "description": "Real-world usage, best practices, and common patterns",
+      "type": "lesson",
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "intermediate"
+    }
+  ]
 }

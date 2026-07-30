@@ -9,5 +9,25 @@
   "children": [],
   "related": [],
   "externalUrls": {},
-  "indexedAt": "2026-07-23T14:36:28.072Z"
+  "indexedAt": "2026-07-23T14:36:28.072Z",
+  "lessons": [
+    {
+      "slug": "fundamentals",
+      "title": "Fundamentals of GitHub Actions",
+      "description": "Core concepts and key principles of GitHub Actions",
+      "type": "lesson",
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "practical-guide",
+      "title": "Practical GitHub Actions Guide",
+      "description": "Real-world usage, best practices, and common patterns",
+      "type": "lesson",
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "intermediate"
+    }
+  ]
 }

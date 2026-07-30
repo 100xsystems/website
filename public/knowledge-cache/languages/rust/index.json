@@ -65,7 +65,7 @@
           "description": "An interactive visual tour introducing basic to advanced Rust syntax."
         },
         {
-          "title": "freeCodeCamp — Rust Course",
+          "title": "freeCodeCamp \u2014 Rust Course",
           "url": "https://www.freecodecamp.org/news/learn-rust-for-beginners/",
           "description": "A project-based course covering foundational and intermediate Rust concepts."
         }
@@ -92,17 +92,17 @@
       "icon": "terminal",
       "items": [
         {
-          "title": "Exercism — Rust Track",
+          "title": "Exercism \u2014 Rust Track",
           "url": "https://exercism.org/tracks/rust",
           "description": "99 free coding exercises designed to teach idiomatic Rust with mentoring."
         },
         {
-          "title": "Codewars — Rust Kata",
+          "title": "Codewars \u2014 Rust Kata",
           "url": "https://www.codewars.com/collections/rust-collection",
           "description": "Community-created challenges solving data structures, algorithms, and lifetimes."
         },
         {
-          "title": "LeetCode — Rust Support",
+          "title": "LeetCode \u2014 Rust Support",
           "url": "https://leetcode.com/tag/rust/",
           "description": "Solve algorithm challenges using Rusts memory model and type system."
         }
@@ -160,6 +160,26 @@
           "description": "Live chat with channels for beginners, embedded systems, and async frameworks."
         }
       ]
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "fundamentals",
+      "title": "Fundamentals of Rust",
+      "description": "Core concepts, syntax, and first steps with Rust",
+      "type": "lesson",
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "practical-guide",
+      "title": "Practical Rust Guide",
+      "description": "Real-world usage, tooling, and ecosystem",
+      "type": "lesson",
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "intermediate"
     }
   ]
 }

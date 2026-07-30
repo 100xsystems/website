@@ -57,7 +57,7 @@
       "icon": "terminal",
       "items": [
         {
-          "title": "Exercism — V Track",
+          "title": "Exercism \u2014 V Track",
           "url": "https://exercism.org/tracks/v",
           "description": "Coding exercises for learning V with community support."
         }
@@ -105,6 +105,26 @@
           "description": "Community for V programming discussions."
         }
       ]
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "fundamentals",
+      "title": "Fundamentals of V",
+      "description": "Core concepts, syntax, and first steps with V",
+      "type": "lesson",
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "practical-guide",
+      "title": "Practical V Guide",
+      "description": "Real-world usage, tooling, and ecosystem",
+      "type": "lesson",
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "intermediate"
     }
   ]
 }

@@ -12,5 +12,25 @@
     "wikipedia": "https://en.wikipedia.org/wiki/MongoDB",
     "wikidata": "https://www.wikidata.org/wiki/Q1458530"
   },
-  "indexedAt": "2026-07-23T14:36:24.187Z"
+  "indexedAt": "2026-07-23T14:36:24.187Z",
+  "lessons": [
+    {
+      "slug": "fundamentals",
+      "title": "Fundamentals of MongoDB",
+      "description": "Core concepts and key principles of MongoDB",
+      "type": "lesson",
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "practical-guide",
+      "title": "Practical MongoDB Guide",
+      "description": "Real-world usage, best practices, and common patterns",
+      "type": "lesson",
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "intermediate"
+    }
+  ]
 }

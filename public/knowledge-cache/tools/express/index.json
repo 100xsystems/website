@@ -12,5 +12,25 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Express.js",
     "wikidata": "https://www.wikidata.org/wiki/Q645997"
   },
-  "indexedAt": "2026-07-23T14:36:32.086Z"
+  "indexedAt": "2026-07-23T14:36:32.086Z",
+  "lessons": [
+    {
+      "slug": "fundamentals",
+      "title": "Fundamentals of Express.js",
+      "description": "Core concepts and key principles of Express.js",
+      "type": "lesson",
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "practical-guide",
+      "title": "Practical Express.js Guide",
+      "description": "Real-world usage, best practices, and common patterns",
+      "type": "lesson",
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "intermediate"
+    }
+  ]
 }

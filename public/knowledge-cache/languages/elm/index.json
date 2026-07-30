@@ -10,7 +10,7 @@
         {
           "title": "Elm Guide (Official)",
           "url": "https://guide.elm-lang.org/",
-          "description": "The official Elm guide — the best place to start. Covers everything from installation to building real apps."
+          "description": "The official Elm guide \u2014 the best place to start. Covers everything from installation to building real apps."
         },
         {
           "title": "Elm in Action (Manning Free Chapters)",
@@ -42,10 +42,10 @@
         {
           "title": "Elm Workshop",
           "url": "https://elm-workshop.com/",
-          "description": "Interactive Elm exercises covering the basics through advanced patterns — learn by building."
+          "description": "Interactive Elm exercises covering the basics through advanced patterns \u2014 learn by building."
         },
         {
-          "title": "Exercism — Elm Track",
+          "title": "Exercism \u2014 Elm Track",
           "url": "https://exercism.org/tracks/elm",
           "description": "Free coding exercises for Elm with automated analysis and community mentoring."
         }
@@ -72,7 +72,7 @@
       "icon": "terminal",
       "items": [
         {
-          "title": "Exercism — Elm Track",
+          "title": "Exercism \u2014 Elm Track",
           "url": "https://exercism.org/tracks/elm",
           "description": "Free hands-on coding exercises for learning idiomatic Elm."
         }
@@ -120,6 +120,26 @@
           "description": "Active real-time chat community for Elm developers."
         }
       ]
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "fundamentals",
+      "title": "Fundamentals of Elm",
+      "description": "Core concepts, syntax, and first steps with Elm",
+      "type": "lesson",
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "practical-guide",
+      "title": "Practical Elm Guide",
+      "description": "Real-world usage, tooling, and ecosystem",
+      "type": "lesson",
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "intermediate"
     }
   ]
 }

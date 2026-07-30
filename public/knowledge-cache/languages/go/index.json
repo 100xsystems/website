@@ -55,7 +55,7 @@
           "description": "The official interactive tutorial by the Go team. Run code directly in your browser."
         },
         {
-          "title": "freeCodeCamp — Learn Golang Handbook",
+          "title": "freeCodeCamp \u2014 Learn Golang Handbook",
           "url": "https://www.freecodecamp.org/news/learn-golang-handbook/",
           "description": "A comprehensive free handbook from beginner to building real-world backend applications."
         }
@@ -71,7 +71,7 @@
           "description": "A clean structured video deep-dive into writing production-ready Go scripts."
         },
         {
-          "title": "Anthony GG — Go Tutorials",
+          "title": "Anthony GG \u2014 Go Tutorials",
           "url": "https://www.youtube.com/@anthonygg",
           "description": "Practical Go tutorials focusing on web servers, REST APIs, and microservices."
         }
@@ -82,17 +82,17 @@
       "icon": "terminal",
       "items": [
         {
-          "title": "Exercism — Go Track",
+          "title": "Exercism \u2014 Go Track",
           "url": "https://exercism.org/tracks/go",
           "description": "100% free with 165+ coding exercises across 34 concepts with automated analysis."
         },
         {
-          "title": "Codewars — Go Kata",
+          "title": "Codewars \u2014 Go Kata",
           "url": "https://www.codewars.com/",
           "description": "Solve community-created kata in Go across hundreds of difficulty levels."
         },
         {
-          "title": "LeetCode — Go Support",
+          "title": "LeetCode \u2014 Go Support",
           "url": "https://leetcode.com/",
           "description": "Practice algorithms and data structures in Go for interview preparation."
         }
@@ -150,6 +150,26 @@
           "description": "Real-time chat with thousands of active Go developers."
         }
       ]
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "fundamentals",
+      "title": "Fundamentals of Go",
+      "description": "Core concepts, syntax, and first steps with Go",
+      "type": "lesson",
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "practical-guide",
+      "title": "Practical Go Guide",
+      "description": "Real-world usage, tooling, and ecosystem",
+      "type": "lesson",
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "intermediate"
     }
   ]
 }

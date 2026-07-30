@@ -12,5 +12,25 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Bash_(Unix_shell)",
     "wikidata": "https://www.wikidata.org/wiki/Q189471"
   },
-  "indexedAt": "2026-07-23T14:36:19.752Z"
+  "indexedAt": "2026-07-23T14:36:19.752Z",
+  "lessons": [
+    {
+      "slug": "fundamentals",
+      "title": "Fundamentals of Bash",
+      "description": "Core concepts, syntax, and first steps with Bash",
+      "type": "lesson",
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "practical-guide",
+      "title": "Practical Bash Guide",
+      "description": "Real-world usage, tooling, and ecosystem",
+      "type": "lesson",
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "intermediate"
+    }
+  ]
 }

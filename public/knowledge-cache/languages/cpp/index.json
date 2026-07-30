@@ -1,7 +1,7 @@
 {
   "slug": "cpp",
   "name": "C++",
-  "description": "C++ is a systems programming language that gives you complete control over memory and hardware. It powers game engines, browsers (Chrome), operating systems, embedded devices, and high-frequency trading. These are the definitive free resources — vetted, current, and complete.",
+  "description": "C++ is a systems programming language that gives you complete control over memory and hardware. It powers game engines, browsers (Chrome), operating systems, embedded devices, and high-frequency trading. These are the definitive free resources \u2014 vetted, current, and complete.",
   "categories": [
     {
       "label": "Free Books",
@@ -45,7 +45,7 @@
       "icon": "code",
       "items": [
         {
-          "title": "freeCodeCamp — 31-Hour C++ Course",
+          "title": "freeCodeCamp \u2014 31-Hour C++ Course",
           "url": "https://www.freecodecamp.org/news/learn-c-with-free-31-hour-course/",
           "description": "A massive comprehensive deep-dive course covering everything from beginner through memory management, OOP, and C++20 features."
         }
@@ -72,17 +72,17 @@
       "icon": "terminal",
       "items": [
         {
-          "title": "Exercism — C++ Track",
+          "title": "Exercism \u2014 C++ Track",
           "url": "https://exercism.org/tracks/cpp",
           "description": "100 structured coding exercises across 19 concepts designed to teach idiomatic C++ with free human mentoring."
         },
         {
-          "title": "HackerRank — C++ Domain",
+          "title": "HackerRank \u2014 C++ Domain",
           "url": "https://www.hackerrank.com/domains/cpp",
           "description": "Drill specific subdomains like classes, inheritance, strings, and the STL."
         },
         {
-          "title": "Codewars — C++ Kata",
+          "title": "Codewars \u2014 C++ Kata",
           "url": "https://www.codewars.com/",
           "description": "Solve community-created challenges across hundreds of difficulty levels."
         }
@@ -135,11 +135,31 @@
           "description": "Dedicated to learners asking questions and seeking debugging help."
         },
         {
-          "title": "Stack Overflow — C++ Tag",
+          "title": "Stack Overflow \u2014 C++ Tag",
           "url": "https://stackoverflow.com/questions/tagged/c%2b%2b",
           "description": "The definitive Q&A forum for C++ from template metaprogramming to optimization."
         }
       ]
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "fundamentals",
+      "title": "Fundamentals of C++",
+      "description": "Core concepts, syntax, and first steps with C++",
+      "type": "lesson",
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "practical-guide",
+      "title": "Practical C++ Guide",
+      "description": "Real-world usage, tooling, and ecosystem",
+      "type": "lesson",
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "intermediate"
     }
   ]
 }

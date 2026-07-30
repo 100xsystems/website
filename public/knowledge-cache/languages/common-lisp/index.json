@@ -45,7 +45,7 @@
       "icon": "code",
       "items": [
         {
-          "title": "Exercism — Common Lisp Track",
+          "title": "Exercism \u2014 Common Lisp Track",
           "url": "https://exercism.org/tracks/common-lisp",
           "description": "92 coding exercises across 27 key concepts with automated analysis and mentoring."
         },
@@ -72,7 +72,7 @@
       "icon": "terminal",
       "items": [
         {
-          "title": "Exercism — Common Lisp Track",
+          "title": "Exercism \u2014 Common Lisp Track",
           "url": "https://exercism.org/tracks/common-lisp",
           "description": "Free structured exercises for mastering Common Lisp."
         }
@@ -115,11 +115,31 @@
           "description": "Active community for Lisp discussions and project showcases."
         },
         {
-          "title": "Stack Overflow — Common Lisp Tag",
+          "title": "Stack Overflow \u2014 Common Lisp Tag",
           "url": "https://stackoverflow.com/questions/tagged/common-lisp",
           "description": "Q&A for Common Lisp programming questions."
         }
       ]
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "fundamentals",
+      "title": "Fundamentals of Common Lisp",
+      "description": "Core concepts, syntax, and first steps with Common Lisp",
+      "type": "lesson",
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "practical-guide",
+      "title": "Practical Common Lisp Guide",
+      "description": "Real-world usage, tooling, and ecosystem",
+      "type": "lesson",
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "intermediate"
     }
   ]
 }

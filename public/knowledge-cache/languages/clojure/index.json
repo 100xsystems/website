@@ -10,7 +10,7 @@
         {
           "title": "Clojure for the Brave and True",
           "url": "https://www.braveclojure.com/",
-          "description": "A wildly popular, offbeat book covering everything from Lisp basics to building full applications — completely free online."
+          "description": "A wildly popular, offbeat book covering everything from Lisp basics to building full applications \u2014 completely free online."
         },
         {
           "title": "Clojure from the Ground Up",
@@ -42,10 +42,10 @@
         {
           "title": "Clojure Koans",
           "url": "https://github.com/functional-koans/clojure-koans",
-          "description": "Interactive exercises teaching Clojure syntax through failing tests — fill in the blanks to learn."
+          "description": "Interactive exercises teaching Clojure syntax through failing tests \u2014 fill in the blanks to learn."
         },
         {
-          "title": "Exercism — Clojure Track",
+          "title": "Exercism \u2014 Clojure Track",
           "url": "https://exercism.org/tracks/clojure",
           "description": "12 concept modules and 105 exercises with free peer mentoring."
         }
@@ -72,7 +72,7 @@
       "icon": "terminal",
       "items": [
         {
-          "title": "Exercism — Clojure Track",
+          "title": "Exercism \u2014 Clojure Track",
           "url": "https://exercism.org/tracks/clojure",
           "description": "Free exercises with automated analysis and human code reviews."
         },
@@ -130,6 +130,26 @@
           "description": "Active Slack with #beginners, #jobs, and library channels."
         }
       ]
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "fundamentals",
+      "title": "Fundamentals of Clojure",
+      "description": "Core concepts, syntax, and first steps with Clojure",
+      "type": "lesson",
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "practical-guide",
+      "title": "Practical Clojure Guide",
+      "description": "Real-world usage, tooling, and ecosystem",
+      "type": "lesson",
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "intermediate"
     }
   ]
 }

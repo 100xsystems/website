@@ -12,5 +12,25 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Ansible_(software)",
     "wikidata": "https://www.wikidata.org/wiki/Q1135537"
   },
-  "indexedAt": "2026-07-23T14:36:26.649Z"
+  "indexedAt": "2026-07-23T14:36:26.649Z",
+  "lessons": [
+    {
+      "slug": "fundamentals",
+      "title": "Fundamentals of Ansible",
+      "description": "Core concepts and key principles of Ansible",
+      "type": "lesson",
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "practical-guide",
+      "title": "Practical Ansible Guide",
+      "description": "Real-world usage, best practices, and common patterns",
+      "type": "lesson",
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "intermediate"
+    }
+  ]
 }

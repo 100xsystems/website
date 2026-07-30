@@ -31,12 +31,12 @@
         {
           "title": "Scheme Reports (RnRS)",
           "url": "https://www.scheme-reports.org/",
-          "description": "Official Revised Reports on the Algorithmic Language Scheme — the standards documents."
+          "description": "Official Revised Reports on the Algorithmic Language Scheme \u2014 the standards documents."
         },
         {
           "title": "The Scheme Programming Language (4th Ed)",
           "url": "https://www.scheme.com/tspl4/",
-          "description": "The authoritative reference book by Scheme standard editors — free to read online."
+          "description": "The authoritative reference book by Scheme standard editors \u2014 free to read online."
         }
       ]
     },
@@ -45,7 +45,7 @@
       "icon": "code",
       "items": [
         {
-          "title": "Exercism — Scheme Track",
+          "title": "Exercism \u2014 Scheme Track",
           "url": "https://exercism.org/tracks/scheme",
           "description": "Free coding exercises for Scheme with community mentoring."
         }
@@ -58,7 +58,7 @@
         {
           "title": "SICP Video Lectures (Brian Harvey)",
           "url": "https://www.youtube.com/playlist?list=PLhMnuBfGeCDNgVzLPxF9o5UNKG1x-LR9B",
-          "description": "UC Berkeley SICP lectures using Scheme — legendary CS course."
+          "description": "UC Berkeley SICP lectures using Scheme \u2014 legendary CS course."
         }
       ]
     },
@@ -67,7 +67,7 @@
       "icon": "terminal",
       "items": [
         {
-          "title": "Exercism — Scheme Track",
+          "title": "Exercism \u2014 Scheme Track",
           "url": "https://exercism.org/tracks/scheme",
           "description": "Structured exercises for mastering Scheme functional programming."
         }
@@ -105,11 +105,31 @@
           "description": "Community for Scheme discussions and projects."
         },
         {
-          "title": "Stack Overflow — Scheme Tag",
+          "title": "Stack Overflow \u2014 Scheme Tag",
           "url": "https://stackoverflow.com/questions/tagged/scheme",
           "description": "Q&A for Scheme programming questions."
         }
       ]
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "fundamentals",
+      "title": "Fundamentals of Scheme",
+      "description": "Core concepts, syntax, and first steps with Scheme",
+      "type": "lesson",
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "practical-guide",
+      "title": "Practical Scheme Guide",
+      "description": "Real-world usage, tooling, and ecosystem",
+      "type": "lesson",
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "intermediate"
     }
   ]
 }

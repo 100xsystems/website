@@ -1,7 +1,7 @@
 {
   "slug": "javascript",
   "name": "JavaScript",
-  "description": "The language of the web. JavaScript powers browsers, servers (Node.js), desktop apps (Electron), and increasingly the edge. These are the definitive free resources — vetted, current, and complete.",
+  "description": "The language of the web. JavaScript powers browsers, servers (Node.js), desktop apps (Electron), and increasingly the edge. These are the definitive free resources \u2014 vetted, current, and complete.",
   "categories": [
     {
       "label": "Free Books",
@@ -15,7 +15,7 @@
         {
           "title": "You Don't Know JS Yet",
           "url": "https://github.com/getify/you-dont-know-js",
-          "description": "An in-depth series exploring the core mechanisms of JavaScript — closures, prototypes, async, and more."
+          "description": "An in-depth series exploring the core mechanisms of JavaScript \u2014 closures, prototypes, async, and more."
         },
         {
           "title": "The Modern JavaScript Tutorial",
@@ -34,12 +34,12 @@
       "icon": "docs",
       "items": [
         {
-          "title": "MDN Web Docs — JavaScript Guide",
+          "title": "MDN Web Docs \u2014 JavaScript Guide",
           "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
           "description": "The definitive manual for the JavaScript language. Covers grammar, control flow, functions, objects, classes, promises, and iterators."
         },
         {
-          "title": "MDN — JavaScript Reference",
+          "title": "MDN \u2014 JavaScript Reference",
           "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference",
           "description": "Complete reference for all built-in objects, statements, operators, and expressions."
         },
@@ -55,12 +55,12 @@
       "icon": "code",
       "items": [
         {
-          "title": "The Odin Project — Full Stack JavaScript",
+          "title": "The Odin Project \u2014 Full Stack JavaScript",
           "url": "https://www.theodinproject.com/paths/full-stack-javascript",
           "description": "A world-class open-source curriculum from absolute beginner to building full-stack applications."
         },
         {
-          "title": "freeCodeCamp — JavaScript Algorithms & Data Structures",
+          "title": "freeCodeCamp \u2014 JavaScript Algorithms & Data Structures",
           "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8",
           "description": "Hands-on interactive coding challenges teaching syntax, functional programming, and algorithmic problem-solving."
         }
@@ -71,7 +71,7 @@
       "icon": "video",
       "items": [
         {
-          "title": "JavaScript Programming — Full Course (freeCodeCamp)",
+          "title": "JavaScript Programming \u2014 Full Course (freeCodeCamp)",
           "url": "https://www.youtube.com/watch?v=jS4aFq5-91M",
           "description": "A comprehensive multi-hour video masterclass covering JavaScript from scratch to professional proficiency."
         },
@@ -87,7 +87,7 @@
       "icon": "terminal",
       "items": [
         {
-          "title": "Exercism — JavaScript Track",
+          "title": "Exercism \u2014 JavaScript Track",
           "url": "https://exercism.org/tracks/javascript",
           "description": "Over 150 structured coding exercises with optional community mentoring."
         },
@@ -108,7 +108,7 @@
       "icon": "reference",
       "items": [
         {
-          "title": "Devhints — ES2015+ Cheatsheet",
+          "title": "Devhints \u2014 ES2015+ Cheatsheet",
           "url": "https://devhints.io/es6",
           "description": "A concise one-page reference covering modern ES6+ syntax: destructuring, arrow functions, promises, and modules."
         },
@@ -142,10 +142,10 @@
         {
           "title": "Reddit r/javascript",
           "url": "https://www.reddit.com/r/javascript/",
-          "description": "The largest JavaScript community on Reddit — news, discussions, show & tell, and career advice."
+          "description": "The largest JavaScript community on Reddit \u2014 news, discussions, show & tell, and career advice."
         },
         {
-          "title": "Stack Overflow — JavaScript Tag",
+          "title": "Stack Overflow \u2014 JavaScript Tag",
           "url": "https://stackoverflow.com/questions/tagged/javascript",
           "description": "The definitive Q&A forum for troubleshooting errors and resolving language bugs."
         },
@@ -155,6 +155,26 @@
           "description": "The umbrella organization for community-driven JavaScript conferences worldwide."
         }
       ]
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "fundamentals",
+      "title": "Fundamentals of JavaScript",
+      "description": "Core concepts, syntax, and first steps with JavaScript",
+      "type": "lesson",
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "practical-guide",
+      "title": "Practical JavaScript Guide",
+      "description": "Real-world usage, tooling, and ecosystem",
+      "type": "lesson",
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "intermediate"
     }
   ]
 }

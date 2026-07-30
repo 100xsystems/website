@@ -12,5 +12,25 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Babel_(transcompiler)",
     "wikidata": "https://www.wikidata.org/wiki/Q28776919"
   },
-  "indexedAt": "2026-07-23T14:36:37.526Z"
+  "indexedAt": "2026-07-23T14:36:37.526Z",
+  "lessons": [
+    {
+      "slug": "fundamentals",
+      "title": "Fundamentals of Babel",
+      "description": "Core concepts and key principles of Babel",
+      "type": "lesson",
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "practical-guide",
+      "title": "Practical Babel Guide",
+      "description": "Real-world usage, best practices, and common patterns",
+      "type": "lesson",
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "intermediate"
+    }
+  ]
 }

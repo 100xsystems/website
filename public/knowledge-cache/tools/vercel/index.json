@@ -12,5 +12,25 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Vercel",
     "wikidata": "https://www.wikidata.org/wiki/Q65045936"
   },
-  "indexedAt": "2026-07-23T14:36:34.689Z"
+  "indexedAt": "2026-07-23T14:36:34.689Z",
+  "lessons": [
+    {
+      "slug": "fundamentals",
+      "title": "Fundamentals of Vercel",
+      "description": "Core concepts and key principles of Vercel",
+      "type": "lesson",
+      "order": 1,
+      "duration": "45 min",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "practical-guide",
+      "title": "Practical Vercel Guide",
+      "description": "Real-world usage, best practices, and common patterns",
+      "type": "lesson",
+      "order": 2,
+      "duration": "60 min",
+      "difficulty": "intermediate"
+    }
+  ]
 }
