@@ -183,6 +183,23 @@ function main() {
   }
 
   const elapsed = ((Date.now() - startTime) / 1000).toFixed(1);
+    // Build knowledge cache
+  try {
+    // Reuse the knowledge-fetch script inline
+    const knowledgeDir = path.join(registryBaseDir, 'static-data', 'knowledge');
+    if (fs.existsSync(knowledgeDir)) {
+      const cacheDir = path.join(PUBLIC_DIR, 'knowledge-cache');
+      ensureDir(cacheDir);
+      execSync(`cp -r "${knowledgeDir}/." "${cacheDir}/"`, { stdio: 'pipe' });
+      console.log('  ✓ knowledge-cache/');
+    } else {
+      console.warn('  ⚠ No static-data/knowledge/ directory in registry');
+    }
+  } catch (err) {
+    console.warn(`  ⚠ Failed to copy knowledge cache: ${err.message}`);
+  }
+
+  const elapsed = ((Date.now() - startTime) / 1000).toFixed(1);
   console.log(`📦 Dev cache complete in ${elapsed}s\n`);
 }
 

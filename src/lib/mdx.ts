@@ -197,18 +197,71 @@ function readFlatMarkdownFiles(dir: string): Array<{ filename: string; content: 
 
 // ─── Knowledge Domain Reading ───────────────────────────────────────
 
+/**
+ * Registry knowledge cache directory (copied from GitHub by fetch-knowledge-cache.mjs).
+ */
+const KNOWLEDGE_CACHE_DIR = path.join(process.cwd(), 'public', 'knowledge-cache');
+
+/** Interface for registry knowledge entity JSON files */
+interface KnowledgeEntityJSON {
+  id: string;
+  category: string;
+  label: string;
+  description: string | null;
+  summary: string | null;
+  externalUrls: Record<string, string>;
+}
+
+/** Read knowledge items from registry cache (JSON entities) */
+function getKnowledgeItemsFromCache(domain: KnowledgeDomain): KnowledgeItem[] {
+  const dir = path.join(KNOWLEDGE_CACHE_DIR, domain);
+  if (!fs.existsSync(dir)) return [];
+
+  const items: KnowledgeItem[] = [];
+  try {
+    const files = fs.readdirSync(dir).filter((f) => f.endsWith('.json')).sort();
+    for (const filename of files) {
+      try {
+        const raw = fs.readFileSync(path.join(dir, filename), 'utf-8');
+        const entity: KnowledgeEntityJSON = JSON.parse(raw);
+        items.push({
+          slug: entity.id,
+          title: entity.label,
+          description: entity.description || 'No description available.',
+          difficulty: 'Intermediate',
+          tags: [entity.category],
+          content: entity.summary || entity.description || 'No content available.',
+          frontmatter: { ...entity },
+        });
+      } catch { /* skip malformed entity files */ }
+    }
+  } catch { /* skip unreadable directory */ }
+  return items;
+}
+
 export function getKnowledgeItems(domain: KnowledgeDomain): KnowledgeItem[] {
-  const dir = path.join(KNOWLEDGE_BASE_DIR, domain);
-  const files = readFlatMarkdownFiles(dir);
-  return files.map(({ filename, content, data }) => ({
-    slug: fileToSlug(filename),
-    title: data.title || slugToDisplayName(fileToSlug(filename)),
-    description: data.description || content.slice(0, 200).replace(/#+\s+/g, '').trim() + '...',
-    difficulty: data.difficulty || 'Beginner',
-    tags: data.tags || [],
-    content,
-    frontmatter: data,
-  })).sort((a, b) => (a.frontmatter.order ?? 999) - (b.frontmatter.order ?? 999));
+  // First try: MDX files from curriculum knowledge-base
+  const mdxDir = path.join(KNOWLEDGE_BASE_DIR, domain);
+  if (fs.existsSync(mdxDir)) {
+    const mdxFiles = readFlatMarkdownFiles(mdxDir);
+    if (mdxFiles.length > 0) {
+      return mdxFiles.map(({ filename, content, data }) => ({
+        slug: fileToSlug(filename),
+        title: data.title || slugToDisplayName(fileToSlug(filename)),
+        description: data.description || content.slice(0, 200).replace(/#+\s+/g, '').trim() + '...',
+        difficulty: data.difficulty || 'Beginner',
+        tags: data.tags || [],
+        content,
+        frontmatter: data,
+      })).sort((a, b) => (a.frontmatter.order ?? 999) - (b.frontmatter.order ?? 999));
+    }
+  }
+
+  // Second try: Registry knowledge cache (JSON entities)
+  const cacheItems = getKnowledgeItemsFromCache(domain);
+  if (cacheItems.length > 0) return cacheItems;
+
+  return [];
 }
 
 export function getKnowledgeItem(domain: KnowledgeDomain, slug: string): KnowledgeItem | null {
