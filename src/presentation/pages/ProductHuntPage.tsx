@@ -218,16 +218,6 @@ export function ProductHuntPage() {
       setIsLoading(true);
       setError(null);
       try {
-        const indexRes = await fetch('/ph-cache/index.json');
-        if (!indexRes.ok) throw new Error('Product Hunt index not available');
-        const index: PhIndex = await indexRes.json();
-        if (!mounted) return;
-
-        const availableDates = index.availableDates;
-        if (!availableDates || availableDates.length === 0) {
-          throw new Error('No Product Hunt data available');
-        }
-
         // Always load the complete catalog from products.json (1000+ products)
         const catalogRes = await fetch('/ph-cache/products.json');
         let loadedProducts: PhProduct[] = [];
@@ -235,20 +225,27 @@ export function ProductHuntPage() {
           const data = await catalogRes.json() as { products: PhProduct[] };
           loadedProducts = data.products || [];
 
-          // Also try the most recent day files to show a date label
-          const reversedDates = [...availableDates].reverse();
-          for (let i = 0; i < Math.min(reversedDates.length, MAX_DATE_FALLBACKS); i++) {
-            const dateFile = reversedDates[i];
-            const dayRes = await fetch(`/ph-cache/${dateFile}.json`);
-            if (dayRes.ok) {
-              const dayData: PhDayFile = await dayRes.json();
-              if (dayData.posts && dayData.posts.length > 0) {
-                if (dateFile.length >= 10) {
-                  setDateLabel(new Date(dateFile.slice(0, 10)).toLocaleDateString('en-US', {
-                    weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'
-                  }));
+          // Try to get a date label from day files or index
+          const indexRes = await fetch('/ph-cache/index.json');
+          if (indexRes.ok) {
+            const index: PhIndex = await indexRes.json();
+            const availableDates = index.availableDates || [];
+            if (availableDates.length > 0) {
+              const reversedDates = [...availableDates].reverse();
+              for (let i = 0; i < Math.min(reversedDates.length, MAX_DATE_FALLBACKS); i++) {
+                const dateFile = reversedDates[i];
+                const dayRes = await fetch(`/ph-cache/${dateFile}.json`);
+                if (dayRes.ok) {
+                  const dayData: PhDayFile = await dayRes.json();
+                  if (dayData.posts && dayData.posts.length > 0) {
+                    if (dateFile.length >= 10) {
+                      setDateLabel(new Date(dateFile.slice(0, 10)).toLocaleDateString('en-US', {
+                        weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'
+                      }));
+                    }
+                    break;
+                  }
                 }
-                break;
               }
             }
           }

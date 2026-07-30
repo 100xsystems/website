@@ -101,42 +101,37 @@ export function HomeProductHunt() {
       setError(null);
 
       try {
-        // Fetch index to find available dates
-        const indexRes = await fetch('/ph-cache/index.json');
-        if (!indexRes.ok) throw new Error('Product Hunt index not available');
-        const index: PhIndex = await indexRes.json();
-        if (!mounted) return;
-
-        const availableDates = index.availableDates;
-        if (!availableDates || availableDates.length === 0) {
-          throw new Error('No Product Hunt data available');
-        }
-
-        // Try dates in reverse order (newest first) until we find one with products
-        const reversedDates = [...availableDates].reverse();
+        // Try products.json first — the complete catalog (fastest path)
+        const catalogRes = await fetch('/ph-cache/products.json');
         let foundProducts: PhProduct[] = [];
         let foundDate = '';
 
-        for (let i = 0; i < Math.min(reversedDates.length, MAX_DATE_FALLBACKS); i++) {
-          const dateFile = reversedDates[i];
-          const dayRes = await fetch(`/ph-cache/${dateFile}.json`);
-          if (!dayRes.ok) continue;
-
-          const dayData: PhDayFile = await dayRes.json();
-          if (dayData.posts && dayData.posts.length > 0) {
-            foundProducts = dayData.posts;
-            foundDate = dateFile;
-            break;
-          }
+        if (catalogRes.ok) {
+          const data = await catalogRes.json() as { products: PhProduct[] };
+          foundProducts = data.products || [];
+          foundDate = 'All time';
         }
 
-        // If still no products, try products.json as ultimate fallback
+        // If no catalog, try day files via index.json
         if (foundProducts.length === 0) {
-          const fallbackRes = await fetch('/ph-cache/products.json');
-          if (fallbackRes.ok) {
-            const data = await fallbackRes.json() as { products: PhProduct[] };
-            foundProducts = data.products || [];
-            foundDate = 'All time';
+          const indexRes = await fetch('/ph-cache/index.json');
+          if (indexRes.ok) {
+            const index: PhIndex = await indexRes.json();
+            const availableDates = index.availableDates || [];
+            if (availableDates.length > 0) {
+              const reversedDates = [...availableDates].reverse();
+              for (let i = 0; i < Math.min(reversedDates.length, MAX_DATE_FALLBACKS); i++) {
+                const dateFile = reversedDates[i];
+                const dayRes = await fetch(`/ph-cache/${dateFile}.json`);
+                if (!dayRes.ok) continue;
+                const dayData: PhDayFile = await dayRes.json();
+                if (dayData.posts && dayData.posts.length > 0) {
+                  foundProducts = dayData.posts;
+                  foundDate = dateFile;
+                  break;
+                }
+              }
+            }
           }
         }
 
