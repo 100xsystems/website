@@ -1764,6 +1764,411 @@ export const prologResources: LanguageResources = {
   ],
 };
 
+// ═══════════════════════════════════════════════════════════════════════
+// SQL
+// ═══════════════════════════════════════════════════════════════════════
+
+export const sqlResources: LanguageResources = {
+  slug: 'sql', name: 'SQL',
+  description: 'SQL (Structured Query Language) is the universal language for managing and querying relational databases. It powers everything from small applications to massive data warehouses, and is an essential skill for any developer.',
+  categories: [
+    { label: 'Free Books', icon: 'book', items: [
+      { title: 'Use The Index, Luke', url: 'https://use-the-index-luke.com/', description: 'The definitive free book on SQL indexing and query performance. A must-read for writing fast SQL.' },
+      { title: 'SQL Tutorial', url: 'https://www.sqltutorial.org/', description: 'A comprehensive SQL tutorial covering everything from basic queries to advanced window functions and CTEs.' },
+      { title: 'SQL for Web Nerds', url: 'https://philip.greenspun.com/sql/', description: 'A practical hands-on SQL book from MIT covering database design, queries, and web integration.' },
+    ]},
+    { label: 'Official Documentation', icon: 'docs', items: [
+      { title: 'PostgreSQL Documentation', url: 'https://www.postgresql.org/docs/', description: 'The gold standard for SQL documentation — comprehensive, well-written, and free.' },
+      { title: 'SQLite Documentation', url: 'https://www.sqlite.org/docs.html', description: 'Lightweight SQL implementation with excellent documentation and tutorials.' },
+      { title: 'MySQL Documentation', url: 'https://dev.mysql.com/doc/', description: 'Complete reference for the most popular open-source database.' },
+    ]},
+    { label: 'Interactive Courses', icon: 'code', items: [
+      { title: 'SQLZoo', url: 'https://sqlzoo.net/', description: 'An award-winning interactive SQL tutorial with real-time database exercises — learn by doing.' },
+      { title: 'SQLBolt', url: 'https://sqlbolt.com/', description: 'A series of interactive SQL lessons with hands-on exercises to practice database queries.' },
+      { title: 'freeCodeCamp — SQL Course', url: 'https://www.freecodecamp.org/news/learn-sql-free-course/', description: 'A comprehensive free SQL course covering CRUD, joins, aggregations, and advanced querying.' },
+    ]},
+    { label: 'Video Courses', icon: 'video', items: [
+      { title: 'SQL Tutorial for Beginners (freeCodeCamp)', url: 'https://www.youtube.com/watch?v=HXV3zeQKqGY', description: 'A multi-hour comprehensive SQL course covering everything from basics to advanced queries.' },
+      { title: 'SQL & PostgreSQL Course (freeCodeCamp)', url: 'https://www.youtube.com/watch?v=BLH3s5eTL0s', description: 'In-depth PostgreSQL-focused SQL course with real-world database design examples.' },
+    ]},
+    { label: 'Practice & Challenges', icon: 'terminal', items: [
+      { title: 'Exercism — SQL Track', url: 'https://exercism.org/tracks/sql', description: 'Free coding exercises for SQL with automated analysis and optional mentoring.' },
+      { title: 'LeetCode — SQL Problems', url: 'https://leetcode.com/problemset/database/', description: 'Real interview SQL questions from top tech companies — practice joins, aggregations, and advanced queries.' },
+      { title: 'HackerRank — SQL Domain', url: 'https://www.hackerrank.com/domains/sql', description: 'SQL challenges from basic queries to advanced join and set operations.' },
+    ]},
+    { label: 'Reference & Cheatsheets', icon: 'reference', items: [
+      { title: 'SQL Cheatsheet', url: 'https://devhints.io/sql', description: 'A concise one-page reference covering SQL syntax, joins, aggregations, and window functions.' },
+      { title: 'PostgreSQL Cheatsheet', url: 'https://postgrescheatsheet.com/', description: 'Quick reference for PostgreSQL-specific SQL syntax and commands.' },
+    ]},
+    { label: 'News & Updates', icon: 'news', items: [
+      { title: 'DB Weekly', url: 'https://dbweekly.com/', description: 'A weekly roundup of database news, articles, and tools — SQL, NoSQL, and everything in between.' },
+    ]},
+    { label: 'Community', icon: 'community', items: [
+      { title: 'Reddit r/SQL', url: 'https://www.reddit.com/r/SQL/', description: 'The largest SQL community on Reddit for help, discussions, and news.' },
+      { title: 'Stack Overflow — SQL Tag', url: 'https://stackoverflow.com/questions/tagged/sql', description: 'The definitive Q&A forum for SQL queries, optimization, and database design.' },
+    ]},
+  ],
+};
+
+// ═══════════════════════════════════════════════════════════════════════
+// ELM
+// ═══════════════════════════════════════════════════════════════════════
+
+export const elmResources: LanguageResources = {
+  slug: 'elm', name: 'Elm',
+  description: 'Elm is a delightful functional language for building reliable web applications. It offers zero runtime exceptions, an advanced type system, and a practical approach to frontend development with its signature architecture.',
+  categories: [
+    { label: 'Free Books', icon: 'book', items: [
+      { title: 'Elm Guide (Official)', url: 'https://guide.elm-lang.org/', description: 'The official Elm guide — the best place to start. Covers everything from installation to building real apps.' },
+      { title: 'Elm in Action (Manning Free Chapters)', url: 'https://livebook.manning.com/book/elm-in-action/', description: 'Free preview chapters of the best-selling Elm book covering architecture, JSON decoders, and interop.' },
+    ]},
+    { label: 'Official Documentation', icon: 'docs', items: [
+      { title: 'Elm Language Docs', url: 'https://elm-lang.org/docs', description: 'Official Elm documentation covering syntax, types, the Elm Architecture, and tooling.' },
+      { title: 'Elm Package Catalog', url: 'https://package.elm-lang.org/', description: 'Searchable catalog of all Elm packages with automatically generated API documentation.' },
+    ]},
+    { label: 'Interactive Courses', icon: 'code', items: [
+      { title: 'Elm Workshop', url: 'https://elm-workshop.com/', description: 'Interactive Elm exercises covering the basics through advanced patterns — learn by building.' },
+      { title: 'Exercism — Elm Track', url: 'https://exercism.org/tracks/elm', description: 'Free coding exercises for Elm with automated analysis and community mentoring.' },
+    ]},
+    { label: 'Video Courses', icon: 'video', items: [
+      { title: 'Elm for Beginners (freeCodeCamp)', url: 'https://www.youtube.com/watch?v=-u-Fw1UWYes', description: 'A comprehensive introduction to Elm with practical app-building examples.' },
+      { title: 'Elm Tutorials (Richard Feldman)', url: 'https://www.youtube.com/@richardfeldman', description: 'Talks and tutorials by the author of Elm in Action covering architecture patterns and advanced topics.' },
+    ]},
+    { label: 'Practice & Challenges', icon: 'terminal', items: [
+      { title: 'Exercism — Elm Track', url: 'https://exercism.org/tracks/elm', description: 'Free hands-on coding exercises for learning idiomatic Elm.' },
+    ]},
+    { label: 'Reference & Cheatsheets', icon: 'reference', items: [
+      { title: 'Elm Syntax Cheatsheet', url: 'https://elm-lang.org/docs/syntax', description: 'Official syntax reference covering all Elm language constructs at a glance.' },
+    ]},
+    { label: 'News & Updates', icon: 'news', items: [
+      { title: 'Elm News', url: 'https://elm-news.com/', description: 'A curated news aggregator for the Elm ecosystem covering releases, libraries, and articles.' },
+    ]},
+    { label: 'Community', icon: 'community', items: [
+      { title: 'Elm Discourse', url: 'https://discourse.elm-lang.org/', description: 'The official Elm community forum for discussions, help, and project showcases.' },
+      { title: 'Reddit r/elm', url: 'https://www.reddit.com/r/elm/', description: 'Community for Elm programming language news and discussions.' },
+      { title: 'Elm Slack', url: 'https://elmlang.herokuapp.com/', description: 'Active real-time chat community for Elm developers.' },
+    ]},
+  ],
+};
+
+// ═══════════════════════════════════════════════════════════════════════
+// GRAPHQL
+// ═══════════════════════════════════════════════════════════════════════
+
+export const graphqlResources: LanguageResources = {
+  slug: 'graphql', name: 'GraphQL',
+  description: 'GraphQL is a query language and runtime for APIs, developed by Meta. It lets clients request exactly the data they need, eliminating over-fetching and under-fetching common with REST APIs.',
+  categories: [
+    { label: 'Free Books', icon: 'book', items: [
+      { title: 'How to GraphQL', url: 'https://www.howtographql.com/', description: 'A comprehensive community resource covering everything from GraphQL fundamentals to full-stack implementations.' },
+      { title: 'GraphQL Guide', url: 'https://graphql.guide/', description: 'A free online book covering the complete GraphQL specification with practical examples.' },
+    ]},
+    { label: 'Official Documentation', icon: 'docs', items: [
+      { title: 'GraphQL Specification', url: 'https://spec.graphql.org/', description: 'The official GraphQL specification — the definitive source for understanding the language.' },
+      { title: 'GraphQL Foundation Docs', url: 'https://graphql.org/learn/', description: 'Official learning guides covering queries, mutations, schemas, validation, and execution.' },
+      { title: 'Apollo GraphQL Docs', url: 'https://www.apollographql.com/docs/', description: 'Production-ready documentation for the most popular GraphQL ecosystem.' },
+    ]},
+    { label: 'Interactive Courses', icon: 'code', items: [
+      { title: 'How to GraphQL (Interactive)', url: 'https://www.howtographql.com/', description: 'Full-stack interactive tutorials for building GraphQL APIs with various backend technologies.' },
+      { title: 'Apollo Odyssey', url: 'https://www.apollographql.com/tutorials/', description: 'Free interactive learning platform with courses on GraphQL fundamentals and advanced patterns.' },
+    ]},
+    { label: 'Video Courses', icon: 'video', items: [
+      { title: 'GraphQL Full Course (freeCodeCamp)', url: 'https://www.youtube.com/watch?v=ed8SzALbx1Q', description: 'A comprehensive video course covering GraphQL from basics to production deployments.' },
+      { title: 'GraphQL Crash Course (Net Ninja)', url: 'https://www.youtube.com/playlist?list=PL4cUxeGkcC9gUxtblNUHcsAtVk0MVo5nG', description: 'A beginner-friendly playlist covering GraphQL schemas, resolvers, mutations, and Apollo integration.' },
+    ]},
+    { label: 'Practice & Challenges', icon: 'terminal', items: [
+      { title: 'GraphQL Playground', url: 'https://www.graphqlbin.com/', description: 'Online sandbox for testing and exploring GraphQL queries against real APIs.' },
+      { title: 'Exercism — GraphQL Track', url: 'https://exercism.org/tracks/graphql', description: 'Free coding exercises for GraphQL schema design and query writing.' },
+    ]},
+    { label: 'Reference & Cheatsheets', icon: 'reference', items: [
+      { title: 'GraphQL Cheat Sheet', url: 'https://graphql.org/cheat-sheet/', description: 'Official quick reference covering all GraphQL query syntax and schema definition language.' },
+    ]},
+    { label: 'News & Updates', icon: 'news', items: [
+      { title: 'GraphQL Weekly', url: 'https://www.graphqlweekly.com/', description: 'A weekly newsletter covering GraphQL articles, releases, tools, and community projects.' },
+    ]},
+    { label: 'Community', icon: 'community', items: [
+      { title: 'Reddit r/graphql', url: 'https://www.reddit.com/r/graphql/', description: 'Community for GraphQL discussions, news, and showcase projects.' },
+      { title: 'GraphQL Foundation Slack', url: 'https://graphql.org/community/', description: 'Official GraphQL Foundation community channels for real-time discussions.' },
+      { title: 'Stack Overflow — GraphQL Tag', url: 'https://stackoverflow.com/questions/tagged/graphql', description: 'Q&A for GraphQL schema design and troubleshooting.' },
+    ]},
+  ],
+};
+
+// ═══════════════════════════════════════════════════════════════════════
+// GLEAM
+// ═══════════════════════════════════════════════════════════════════════
+
+export const gleamResources: LanguageResources = {
+  slug: 'gleam', name: 'Gleam',
+  description: 'Gleam is a friendly, statically-typed functional language that compiles to Erlang (BEAM). It offers a modern Rust-inspired type system, actor-based concurrency, and seamless interop with the BEAM ecosystem.',
+  categories: [
+    { label: 'Free Books', icon: 'book', items: [
+      { title: 'Gleam Language Tour', url: 'https://tour.gleam.run/', description: 'An interactive tour of Gleam covering syntax, types, and patterns — the best place to start.' },
+      { title: 'Gleam Documentation', url: 'https://gleam.run/documentation/', description: 'Official documentation covering getting started, language features, and tooling.' },
+    ]},
+    { label: 'Official Documentation', icon: 'docs', items: [
+      { title: 'Gleam Language Reference', url: 'https://gleam.run/documentation/', description: 'Official Gleam language documentation with syntax guides and best practices.' },
+      { title: 'Gleam Standard Library Docs', url: 'https://hexdocs.pm/gleam_stdlib/', description: 'Complete API reference for the Gleam standard library.' },
+    ]},
+    { label: 'Interactive Courses', icon: 'code', items: [
+      { title: 'Gleam Exercism Track', url: 'https://exercism.org/tracks/gleam', description: 'Free structured coding exercises for learning Gleam with community mentoring.' },
+      { title: 'Gleam Language Tour', url: 'https://tour.gleam.run/', description: 'Interactive browser-based tour of the Gleam language.' },
+    ]},
+    { label: 'Video Courses', icon: 'video', items: [
+      { title: 'Gleam Tutorials (YouTube)', url: 'https://www.youtube.com/results?search_query=gleam+programming', description: 'Community video tutorials covering Gleam fundamentals, Web development with Lustre, and BEAM wisdom.' },
+    ]},
+    { label: 'Practice & Challenges', icon: 'terminal', items: [
+      { title: 'Exercism — Gleam Track', url: 'https://exercism.org/tracks/gleam', description: 'Structured exercises for mastering Gleam functional programming.' },
+    ]},
+    { label: 'Reference & Cheatsheets', icon: 'reference', items: [
+      { title: 'Gleam Syntax Reference', url: 'https://gleam.run/documentation/', description: 'Official syntax and type system reference.' },
+    ]},
+    { label: 'News & Updates', icon: 'news', items: [
+      { title: 'Gleam News', url: 'https://gleam.run/news/', description: 'Official Gleam news and release announcements.' },
+    ]},
+    { label: 'Community', icon: 'community', items: [
+      { title: 'Gleam Discord', url: 'https://discord.gg/gleam', description: 'Official Gleam Discord server with active community and core team presence.' },
+      { title: 'Reddit r/gleam', url: 'https://www.reddit.com/r/gleam/', description: 'Community for Gleam discussions and project showcases.' },
+    ]},
+  ],
+};
+
+// ═══════════════════════════════════════════════════════════════════════
+// SOLIDITY
+// ═══════════════════════════════════════════════════════════════════════
+
+export const solidityResources: LanguageResources = {
+  slug: 'solidity', name: 'Solidity',
+  description: 'Solidity is the primary programming language for writing smart contracts on Ethereum and EVM-compatible blockchains. It enables decentralized applications, DeFi protocols, and NFTs — the backbone of Web3.',
+  categories: [
+    { label: 'Free Books', icon: 'book', items: [
+      { title: 'Solidity Documentation (Official)', url: 'https://docs.soliditylang.org/', description: 'The complete official documentation — language reference, by-example tutorials, and security best practices.' },
+      { title: 'Solidity by Example', url: 'https://docs.soliditylang.org/en/latest/solidity-by-example.html', description: 'Official walkthroughs of common smart contract patterns — voting, auctions, payment channels, and more.' },
+    ]},
+    { label: 'Official Documentation', icon: 'docs', items: [
+      { title: 'Solidity Language Reference', url: 'https://docs.soliditylang.org/en/latest/', description: 'The definitive reference for Solidity syntax, types, storage layout, and compiler settings.' },
+      { title: 'Ethereum Developer Docs', url: 'https://ethereum.org/en/developers/docs/', description: 'Comprehensive Ethereum development guides covering smart contracts, EVM, and dApp architecture.' },
+    ]},
+    { label: 'Interactive Courses', icon: 'code', items: [
+      { title: 'CryptoZombies', url: 'https://cryptozombies.io/', description: 'The most popular gamified Solidity course — build a zombie battle game while learning smart contracts.' },
+      { title: 'RareSkills Solidity Course', url: 'https://rareskills.io/learn-solidity', description: 'A rigorous free Solidity curriculum covering gas optimization, storage layout, and DeFi protocol patterns.' },
+    ]},
+    { label: 'Video Courses', icon: 'video', items: [
+      { title: 'Solidity Course for Beginners (freeCodeCamp)', url: 'https://www.youtube.com/watch?v=gyMwXuJrbJQ', description: 'A comprehensive video course covering Solidity from scratch to deploying smart contracts.' },
+    ]},
+    { label: 'Practice & Challenges', icon: 'terminal', items: [
+      { title: 'Ethernaut (OpenZeppelin)', url: 'https://ethernaut.openzeppelin.com/', description: 'An interactive wargame where you exploit smart contract vulnerabilities to learn security.' },
+      { title: 'Capture the Ether', url: 'https://capturetheether.com/', description: 'A classic Solidity security CTF with challenges covering math bugs, access controls, and more.' },
+    ]},
+    { label: 'Reference & Cheatsheets', icon: 'reference', items: [
+      { title: 'Solidity Cheatsheet', url: 'https://docs.soliditylang.org/en/latest/cheatsheet.html', description: 'Official Solidity syntax and global variable quick reference.' },
+    ]},
+    { label: 'News & Updates', icon: 'news', items: [
+      { title: 'Solidity Blog', url: 'https://www.soliditylang.org/blog/', description: 'Official Solidity release announcements, security advisories, and development updates.' },
+    ]},
+    { label: 'Community', icon: 'community', items: [
+      { title: 'Ethereum Stack Exchange', url: 'https://ethereum.stackexchange.com/', description: 'Q&A for Ethereum and Solidity development — the definitive help resource.' },
+      { title: 'Reddit r/ethdev', url: 'https://www.reddit.com/r/ethdev/', description: 'Community for Ethereum developers sharing projects, ideas, and troubleshooting.' },
+    ]},
+  ],
+};
+
+// ═══════════════════════════════════════════════════════════════════════
+// WEBASSEMBLY
+// ═══════════════════════════════════════════════════════════════════════
+
+export const webassemblyResources: LanguageResources = {
+  slug: 'webassembly', name: 'WebAssembly',
+  description: 'WebAssembly (Wasm) is a low-level binary instruction format that runs at near-native speed in browsers and beyond. It enables compiling C/C++, Rust, Go, and other languages to run on the web and in edge runtimes.',
+  categories: [
+    { label: 'Free Books', icon: 'book', items: [
+      { title: 'MDN WebAssembly Guide', url: 'https://developer.mozilla.org/en-US/docs/WebAssembly', description: 'The premier WebAssembly guide from Mozilla — covers concepts, compilation, JavaScript API, and text format.' },
+      { title: 'Wasm By Example', url: 'https://wasmbyexample.dev/', description: 'A hands-on guide with annotated code snippets in Rust, AssemblyScript, and Go showing practical Wasm patterns.' },
+    ]},
+    { label: 'Official Documentation', icon: 'docs', items: [
+      { title: 'WebAssembly.org Docs', url: 'https://webassembly.org/', description: 'The official home of the WebAssembly standard with developer guides and architecture details.' },
+      { title: 'W3C WebAssembly Core Specification', url: 'https://www.w3.org/TR/wasm-core-2/', description: 'The official W3C specification for the WebAssembly virtual machine.' },
+    ]},
+    { label: 'Interactive Courses', icon: 'code', items: [
+      { title: 'WebAssembly for Beginners (Linux Foundation)', url: 'https://www.edx.org/learn/computer-programming/the-linux-foundation-introduction-to-webassembly', description: 'A free course on WebAssembly design, architecture, security, and real-world use cases.' },
+    ]},
+    { label: 'Video Courses', icon: 'video', items: [
+      { title: 'WebAssembly Course (Frontend Masters)', url: 'https://frontendmasters.com/courses/web-assembly/', description: 'An intermediate course covering Wasm compilation, memory, and browser integration.' },
+      { title: 'WebAssembly Talks (YouTube)', url: 'https://www.youtube.com/results?search_query=webassembly+conference+talk', description: 'Conference talks from Wasm community covering production use cases and ecosystem updates.' },
+    ]},
+    { label: 'Practice & Challenges', icon: 'terminal', items: [
+      { title: 'WasmFiddle++', url: 'https://anonyco.github.io/WasmFiddlePlusPlus/', description: 'Online sandbox for writing C/C++, compiling to Wasm, and testing in the browser.' },
+    ]},
+    { label: 'Reference & Cheatsheets', icon: 'reference', items: [
+      { title: 'MDN Wasm Reference', url: 'https://developer.mozilla.org/en-US/docs/WebAssembly/Reference', description: 'Complete reference for WebAssembly instructions, types, and module definitions.' },
+    ]},
+    { label: 'News & Updates', icon: 'news', items: [
+      { title: 'Wasm Weekly', url: 'https://wasmweekly.news/', description: 'A curated weekly newsletter covering Wasm articles, projects, and ecosystem updates.' },
+    ]},
+    { label: 'Community', icon: 'community', items: [
+      { title: 'Reddit r/WebAssembly', url: 'https://www.reddit.com/r/WebAssembly/', description: 'Community for Wasm discussions, project showcases, and technical Q&A.' },
+    ]},
+  ],
+};
+
+// ═══════════════════════════════════════════════════════════════════════
+// ADA
+// ═══════════════════════════════════════════════════════════════════════
+
+export const adaResources: LanguageResources = {
+  slug: 'ada', name: 'Ada',
+  description: 'Ada is a high-integrity, statically-typed programming language designed for safety-critical and real-time systems. It is used extensively in aerospace, defense, railway, and medical systems where reliability is paramount.',
+  categories: [
+    { label: 'Free Books', icon: 'book', items: [
+      { title: 'Ada Programming Wikibook', url: 'https://en.wikibooks.org/wiki/Ada_Programming', description: 'A comprehensive free textbook covering Ada from basics to advanced concurrency and real-time programming.' },
+      { title: 'Ada Distilled', url: 'https://www.adacore.com/books/ada-distilled', description: 'A concise Ada reference guide by AdaCore covering language fundamentals and best practices — free PDF.' },
+      { title: 'Ada 2022 Reference Manual', url: 'https://www.adaic.org/resources/add_content/standards/22/rm/ARM-22.pdf', description: 'The official Ada language reference manual (free PDF) — the definitive specification.' },
+    ]},
+    { label: 'Official Documentation', icon: 'docs', items: [
+      { title: 'Ada Resource Association', url: 'https://www.adaic.org/', description: 'The central hub for Ada resources, standards, compilers, and community tools.' },
+      { title: 'AdaCore Learn', url: 'https://learn.adacore.com/', description: 'Interactive Ada tutorials from the makers of the GNAT compiler covering fundamentals to advanced topics.' },
+      { title: 'Ada Information Clearinghouse', url: 'https://www.adaic.org/learn/', description: 'Official learning resources, tutorials, and curriculum materials for Ada education.' },
+    ]},
+    { label: 'Interactive Courses', icon: 'code', items: [
+      { title: 'AdaCore Learn Platform', url: 'https://learn.adacore.com/', description: 'Free interactive Ada courses covering introduction, embedded systems, and high-integrity development.' },
+      { title: 'Exercism — Ada Track', url: 'https://exercism.org/tracks/ada', description: 'Free coding exercises for Ada with automated analysis and community support.' },
+    ]},
+    { label: 'Video Courses', icon: 'video', items: [
+      { title: 'Ada Programming Tutorials (YouTube)', url: 'https://www.youtube.com/results?search_query=ada+programming+tutorial', description: 'Community tutorials covering Ada fundamentals, real-time systems, and embedded programming.' },
+    ]},
+    { label: 'Practice & Challenges', icon: 'terminal', items: [
+      { title: 'Exercism — Ada Track', url: 'https://exercism.org/tracks/ada', description: 'Structured coding exercises for mastering Ada systems programming.' },
+    ]},
+    { label: 'Reference & Cheatsheets', icon: 'reference', items: [
+      { title: 'Ada Reference Manual', url: 'https://www.adaic.org/resources/add_content/standards/22/rm/ARM-22.pdf', description: 'Complete Ada 2022 language reference manual.' },
+    ]},
+    { label: 'News & Updates', icon: 'news', items: [
+      { title: 'AdaCore Blog', url: 'https://www.adacore.com/blog', description: 'AdaCore development updates, industry case studies, and technical articles.' },
+    ]},
+    { label: 'Community', icon: 'community', items: [
+      { title: 'Reddit r/ada', url: 'https://www.reddit.com/r/ada/', description: 'Community for Ada programming language news, discussions, and projects.' },
+      { title: 'Stack Overflow — Ada Tag', url: 'https://stackoverflow.com/questions/tagged/ada', description: 'Q&A for Ada programming and safety-critical systems questions.' },
+    ]},
+  ],
+};
+
+// ═══════════════════════════════════════════════════════════════════════
+// HAXE
+// ═══════════════════════════════════════════════════════════════════════
+
+export const haxeResources: LanguageResources = {
+  slug: 'haxe', name: 'Haxe',
+  description: 'Haxe is a cross-platform language and toolkit that compiles to JavaScript, C++, Python, Lua, PHP, Java, and more. It is ideal for building applications that need to run on multiple platforms from a single codebase.',
+  categories: [
+    { label: 'Free Books', icon: 'book', items: [
+      { title: 'Haxe Manual (Official)', url: 'https://haxe.org/manual/', description: 'The definitive guide covering Haxe syntax, types, macros, and target-specific behaviors.' },
+      { title: 'Haxe Programming Wikibook', url: 'https://en.wikibooks.org/wiki/Haxe_Programming', description: 'A community-edited open textbook introducing Haxe and its cross-platform approach.' },
+    ]},
+    { label: 'Official Documentation', icon: 'docs', items: [
+      { title: 'Haxe Docs Portal', url: 'https://haxe.org/documentation/', description: 'Central entry point for all official Haxe tutorials, API docs, and guides.' },
+      { title: 'Haxe Standard Library API', url: 'https://haxe.org/api/', description: 'Complete API reference for Haxe standard library across all target platforms.' },
+    ]},
+    { label: 'Interactive Courses', icon: 'code', items: [
+      { title: 'Try Haxe Online', url: 'https://try.haxe.org/', description: 'Official browser-based playground to write Haxe and see compiled outputs for all targets.' },
+      { title: 'Haxe Code Cookbook', url: 'https://code.haxe.org/', description: 'Community-driven code snippets and recipes categorized by skill level and topic.' },
+    ]},
+    { label: 'Video Courses', icon: 'video', items: [
+      { title: 'Official Haxe Tutorials', url: 'https://haxe.org/videos/tutorials/', description: 'Official video walkthroughs covering installation, setup, and framework integration.' },
+    ]},
+    { label: 'Practice & Challenges', icon: 'terminal', items: [
+      { title: 'Exercism — Haxe Track', url: 'https://exercism.org/tracks/haxe', description: 'Free coding exercises for Haxe with community mentoring.' },
+    ]},
+    { label: 'Reference & Cheatsheets', icon: 'reference', items: [
+      { title: 'Haxe Language Introduction', url: 'https://haxe.org/documentation/introduction/language-introduction.html', description: 'Quick syntax reference for developers coming from Java, C++, or C#.' },
+    ]},
+    { label: 'News & Updates', icon: 'news', items: [
+      { title: 'Haxe Blog', url: 'https://haxe.org/blog/', description: 'Official Haxe blog with release notes, community updates, and ecosystem news.' },
+    ]},
+    { label: 'Community', icon: 'community', items: [
+      { title: 'Haxe Community Forum', url: 'https://community.haxe.org/', description: 'Official discussion board for Q&A, RFCs, and project sharing.' },
+      { title: 'Haxe Discord', url: 'https://discord.com/invite/haxe', description: 'Real-time chat with core developers and active community members.' },
+    ]},
+  ],
+};
+
+// ═══════════════════════════════════════════════════════════════════════
+// TERRAFORM / HCL
+// ═══════════════════════════════════════════════════════════════════════
+
+export const terraformResources: LanguageResources = {
+  slug: 'terraform', name: 'Terraform',
+  description: 'Terraform by HashiCorp is the industry standard Infrastructure as Code (IaC) tool. Using the HCL (HashiCorp Configuration Language), it lets you define, provision, and manage cloud infrastructure across all major providers.',
+  categories: [
+    { label: 'Free Books', icon: 'book', items: [
+      { title: 'Terraform: Up & Running (Free Chapters)', url: 'https://www.terraformupandrunning.com/', description: 'The gold-standard book for learning Terraform — free chapter samples cover HCL, state, and modules.' },
+      { title: 'HashiCorp Learn Terraform', url: 'https://developer.hashicorp.com/terraform/tutorials', description: 'Official hands-on tutorials with browser-hosted terminal sessions from basics to advanced.' },
+    ]},
+    { label: 'Official Documentation', icon: 'docs', items: [
+      { title: 'Terraform Documentation', url: 'https://developer.hashicorp.com/terraform/docs', description: 'Complete Terraform reference covering CLI, configuration, providers, and state management.' },
+      { title: 'Terraform Registry', url: 'https://registry.terraform.io/', description: 'Searchable catalog of thousands of providers and modules for cloud infrastructure.' },
+      { title: 'HCL Specification', url: 'https://github.com/hashicorp/hcl', description: 'The HCL syntax specification and language design guide.' },
+    ]},
+    { label: 'Interactive Courses', icon: 'code', items: [
+      { title: 'HashiCorp Learn (Interactive)', url: 'https://developer.hashicorp.com/terraform/tutorials', description: 'Free interactive browser-based Terraform tutorials from HashiCorp.' },
+    ]},
+    { label: 'Video Courses', icon: 'video', items: [
+      { title: 'Terraform Full Course (freeCodeCamp)', url: 'https://www.youtube.com/watch?v=7xngnjfIlK4', description: 'A comprehensive video course covering IaC principles, HCL syntax, modules, and multi-cloud deployments.' },
+    ]},
+    { label: 'Practice & Challenges', icon: 'terminal', items: [
+      { title: 'Terraform Exercises (HashiCorp)', url: 'https://developer.hashicorp.com/terraform/tutorials', description: 'Browser-based Terraform terminal exercises for hands-on practice.' },
+    ]},
+    { label: 'Reference & Cheatsheets', icon: 'reference', items: [
+      { title: 'Terraform Commands Cheatsheet', url: 'https://spacelift.io/blog/terraform-commands-cheat-sheet', description: '28+ essential CLI commands with code snippets and best practices — downloadable PDF.' },
+    ]},
+    { label: 'News & Updates', icon: 'news', items: [
+      { title: 'Terraform Weekly', url: 'https://www.weekly.tf/', description: 'Curated weekly newsletter tracking Terraform, OpenTofu, and IaC ecosystem updates.' },
+    ]},
+    { label: 'Community', icon: 'community', items: [
+      { title: 'Reddit r/Terraform', url: 'https://www.reddit.com/r/Terraform/', description: 'The primary community for Terraform discussions, troubleshooting, and best practices.' },
+    ]},
+  ],
+};
+
+// ═══════════════════════════════════════════════════════════════════════
+// MARKDOWN
+// ═══════════════════════════════════════════════════════════════════════
+
+export const markdownResources: LanguageResources = {
+  slug: 'markdown', name: 'Markdown',
+  description: 'Markdown is the most widely used lightweight markup language in software development. It powers documentation, READMEs, wikis, forums, note-taking, and static site generation across the entire tech industry.',
+  categories: [
+    { label: 'Free Books', icon: 'book', items: [
+      { title: 'The Markdown Guide', url: 'https://www.markdownguide.org/', description: 'The definitive free reference guide covering everything from basic syntax to advanced extensions.' },
+      { title: 'CommonMark Specification', url: 'https://spec.commonmark.org/', description: 'The official strongly-defined specification that resolves Markdown ambiguities.' },
+    ]},
+    { label: 'Official Documentation', icon: 'docs', items: [
+      { title: 'CommonMark Spec', url: 'https://spec.commonmark.org/', description: 'The official CommonMark specification — the gold standard for Markdown parsing.' },
+      { title: 'GitHub Flavored Markdown Spec', url: 'https://github.github.com/gfm/', description: 'The GFM specification covering task lists, tables, strikethrough, and autolinks.' },
+    ]},
+    { label: 'Interactive Courses', icon: 'code', items: [
+      { title: 'CommonMark Tutorial', url: 'https://commonmark.org/help/tutorial/', description: 'A 10-minute interactive browser tutorial with embedded coding exercises.' },
+    ]},
+    { label: 'Video Courses', icon: 'video', items: [
+      { title: 'Markdown Crash Course (YouTube)', url: 'https://www.youtube.com/results?search_query=markdown+crash+course', description: 'FreeCodeCamp and other channels offer comprehensive overviews in under an hour.' },
+    ]},
+    { label: 'Practice & Challenges', icon: 'terminal', items: [
+      { title: 'StackEdit', url: 'https://stackedit.io/', description: 'The best free in-browser Markdown editor with live preview, sync, and export features.' },
+      { title: 'Dillinger', url: 'https://dillinger.io/', description: 'A cloud-based Markdown editor with live HTML preview and export to multiple formats.' },
+    ]},
+    { label: 'Reference & Cheatsheets', icon: 'reference', items: [
+      { title: 'Markdown Guide Cheat Sheet', url: 'https://www.markdownguide.org/cheat-sheet/', description: 'A clean downloadable reference table for basic and extended Markdown syntax.' },
+      { title: 'adam-p Markdown Cheatsheet', url: 'https://github.com/adam-p/markdown-here/wiki/markdown-cheatsheet', description: 'The most widely bookmarked developer cheatsheet on GitHub for all Markdown flavors.' },
+    ]},
+    { label: 'News & Updates', icon: 'news', items: [
+      { title: 'CommonMark Discourse', url: 'https://talk.commonmark.org/', description: 'Official discussions on Markdown evolution, syntax additions, and spec changes.' },
+    ]},
+    { label: 'Community', icon: 'community', items: [
+      { title: 'Reddit r/Markdown', url: 'https://www.reddit.com/r/Markdown/', description: 'Community for Markdown tips, tools, editors, and workflow discussions.' },
+      { title: 'CommonMark Discourse', url: 'https://talk.commonmark.org/', description: 'Official Markdown community for spec discussions and syntax proposals.' },
+    ]},
+  ],
+};
+
 // ─── Registry — all languages with curated resources ────────────────
 
 const RESOURCE_REGISTRY: Record<string, LanguageResources> = {
@@ -1806,6 +2211,16 @@ const RESOURCE_REGISTRY: Record<string, LanguageResources> = {
   racket: racketResources,
   scheme: schemeResources,
   prolog: prologResources,
+  sql: sqlResources,
+  elm: elmResources,
+  graphql: graphqlResources,
+  gleam: gleamResources,
+  solidity: solidityResources,
+  webassembly: webassemblyResources,
+  ada: adaResources,
+  haxe: haxeResources,
+  terraform: terraformResources,
+  markdown: markdownResources,
 };
 
 export function getLanguageResources(slug: string): LanguageResources | null {

@@ -8,6 +8,7 @@ import {
   SiScala, SiR, SiDart, SiElixir, SiHaskell, SiLua, SiGnubash,
   SiC, SiJulia, SiPerl, SiFortran, SiApachegroovy, SiClojure, SiErlang, SiAssemblyscript,
   SiOcaml, SiFsharp, SiCrystal, SiNim, SiZig, SiV, SiD, SiRacket,
+  SiElm, SiGraphql, SiGleam, SiSolidity, SiWebassembly, SiAda, SiHaxe, SiTerraform, SiMarkdown,
 } from 'react-icons/si';
 
 export const metadata: Metadata = {
@@ -54,6 +55,16 @@ const LANG_ICONS: Record<string, React.ReactNode> = {
   racket:  <SiRacket size={22} />,
   scheme:  <span className="text-[11px] font-bold">λ</span>,
   prolog:  <span className="text-[11px] font-bold">?</span>,
+  sql:      <span className="text-[11px] font-bold">S</span>,
+  elm:      <SiElm size={22} />,
+  graphql:  <SiGraphql size={22} />,
+  gleam:    <SiGleam size={22} />,
+  solidity: <SiSolidity size={22} />,
+  webassembly: <SiWebassembly size={22} />,
+  ada:      <SiAda size={22} />,
+  haxe:     <SiHaxe size={22} />,
+  terraform: <SiTerraform size={22} />,
+  markdown: <SiMarkdown size={22} />,
 };
 
 const LANG_BG: Record<string, string> = {
@@ -96,6 +107,16 @@ const LANG_BG: Record<string, string> = {
   racket:  'bg-[#9F1D20] text-white',
   scheme:  'bg-[#1B1B1B] text-white',
   prolog:  'bg-[#E61C24] text-white',
+  sql:      'bg-[#336791] text-white',
+  elm:      'bg-[#60B5CC] text-white',
+  graphql:  'bg-[#E535AB] text-white',
+  gleam:    'bg-[#FFC97B] text-black',
+  solidity: 'bg-[#363636] text-white',
+  webassembly: 'bg-[#654FF0] text-white',
+  ada:      'bg-[#01A4FF] text-white',
+  haxe:     'bg-[#F5871F] text-white',
+  terraform: 'bg-[#7B42BC] text-white',
+  markdown: 'bg-[#000000] text-white',
 };
 
 const DEFAULT_BG = 'bg-accent text-white';
@@ -134,7 +155,7 @@ export default function LanguagesPage() {
               Programming&nbsp;<span className="text-accent">Languages</span>
             </h1>
             <p className="text-sm text-fg-secondary max-w-xl mx-auto">
-              Curated resource hubs for 39 major programming languages.
+              Curated resource hubs for 49 major programming languages.
               Each hub collects the definitive free resources — books, docs, courses, videos,
               practice, reference, news, and community.
             </p>

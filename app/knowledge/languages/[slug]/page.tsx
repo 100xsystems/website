@@ -7,6 +7,7 @@ import {
   SiScala, SiR, SiDart, SiElixir, SiHaskell, SiLua, SiGnubash,
   SiC, SiJulia, SiPerl, SiFortran, SiApachegroovy, SiClojure, SiErlang, SiAssemblyscript,
   SiOcaml, SiFsharp, SiCrystal, SiNim, SiZig, SiV, SiD, SiRacket,
+  SiElm, SiGraphql, SiGleam, SiSolidity, SiWebassembly, SiAda, SiHaxe, SiTerraform, SiMarkdown,
 } from 'react-icons/si';
 import { FaBook, FaFileAlt, FaLaptopCode, FaPlay, FaTerminal, FaSearch, FaNewspaper, FaUsers } from 'react-icons/fa';
 import { getLanguageMeta, getHandcraftedSystems } from '@/lib/mdx';
@@ -56,6 +57,16 @@ const LANG_ICONS: Record<string, React.ReactNode> = {
   racket:  <SiRacket size={28} />,
   scheme:  <span className="text-lg font-bold">λ</span>,
   prolog:  <span className="text-lg font-bold">?</span>,
+  sql:      <span className="text-lg font-bold">S</span>,
+  elm:      <SiElm size={28} />,
+  graphql:  <SiGraphql size={28} />,
+  gleam:    <SiGleam size={28} />,
+  solidity: <SiSolidity size={28} />,
+  webassembly: <SiWebassembly size={28} />,
+  ada:      <SiAda size={28} />,
+  haxe:     <SiHaxe size={28} />,
+  terraform: <SiTerraform size={28} />,
+  markdown: <SiMarkdown size={28} />,
 };
 
 const LANG_HERO: Record<string, { bg: string; iconBg: string }> = {
@@ -98,6 +109,16 @@ const LANG_HERO: Record<string, { bg: string; iconBg: string }> = {
   racket:  { bg: 'bg-[#9F1D20]', iconBg: 'bg-[#9F1D20] text-white' },
   scheme:  { bg: 'bg-[#1B1B1B]', iconBg: 'bg-[#1B1B1B] text-white' },
   prolog:  { bg: 'bg-[#E61C24]', iconBg: 'bg-[#E61C24] text-white' },
+  sql:      { bg: 'bg-[#336791]', iconBg: 'bg-[#336791] text-white' },
+  elm:      { bg: 'bg-[#60B5CC]', iconBg: 'bg-[#60B5CC] text-white' },
+  graphql:  { bg: 'bg-[#E535AB]', iconBg: 'bg-[#E535AB] text-white' },
+  gleam:    { bg: 'bg-[#FFC97B]', iconBg: 'bg-[#FFC97B] text-black' },
+  solidity: { bg: 'bg-[#363636]', iconBg: 'bg-[#363636] text-white' },
+  webassembly: { bg: 'bg-[#654FF0]', iconBg: 'bg-[#654FF0] text-white' },
+  ada:      { bg: 'bg-[#01A4FF]', iconBg: 'bg-[#01A4FF] text-white' },
+  haxe:     { bg: 'bg-[#F5871F]', iconBg: 'bg-[#F5871F] text-white' },
+  terraform: { bg: 'bg-[#7B42BC]', iconBg: 'bg-[#7B42BC] text-white' },
+  markdown: { bg: 'bg-[#000000]', iconBg: 'bg-[#000000] text-white' },
 };
 
 const CATEGORY_ICONS: Record<string, React.ReactNode> = {
@@ -130,6 +151,8 @@ const KNOWN_SLUGS = new Set([
   'clojure', 'erlang', 'assembly', 'cobol',
   'ocaml', 'fsharp', 'crystal', 'nim', 'zig', 'v', 'd',
   'racket', 'scheme', 'prolog',
+  'sql', 'elm', 'graphql', 'gleam', 'solidity', 'webassembly',
+  'ada', 'haxe', 'terraform', 'markdown',
 ]);
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
