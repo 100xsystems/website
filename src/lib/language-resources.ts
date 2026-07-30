@@ -58,10 +58,10 @@ export const javascriptResources: LanguageResources = {
             'A modern introduction covering core language features, the browser environment, and Node.js. Widely considered the best free JS book.',
         },
         {
-          title: 'You Don\'t Know JS Yet',
+          title: "You Don't Know JS Yet",
           url: 'https://github.com/getify/you-dont-know-js',
           description:
-            'An in-depth series exploring the core mechanisms and deep nuances of JavaScript — closures, prototypes, async, and more.',
+            'An in-depth series exploring the core mechanisms of JavaScript — closures, prototypes, async, and more.',
         },
         {
           title: 'The Modern JavaScript Tutorial',
@@ -97,7 +97,7 @@ export const javascriptResources: LanguageResources = {
           title: 'TC39 ECMAScript Proposals',
           url: 'https://github.com/tc39/proposals',
           description:
-            'Official repository tracking all ECMAScript proposals through the standardization pipeline. See what\'s coming next.',
+            "Official repository tracking all ECMAScript proposals through the standardization pipeline. See what's coming next.",
         },
       ],
     },
@@ -133,7 +133,7 @@ export const javascriptResources: LanguageResources = {
           title: 'Full-Stack Web Development Playlist',
           url: 'https://www.youtube.com/playlist?list=PLWKjhJtqVAbleDe3_ZA8h3AO2rXar-q2V',
           description:
-            'freeCodeCamp\'s curated playlist covering the full stack — HTML, CSS, JavaScript, Node.js, React, and databases.',
+            "freeCodeCamp's curated playlist covering the full stack — HTML, CSS, JavaScript, Node.js, React, and databases.",
         },
       ],
     },
@@ -217,7 +217,188 @@ export const javascriptResources: LanguageResources = {
           title: 'JSConf',
           url: 'https://jsconf.com/',
           description:
-            'The umbrella organization for community-driven JavaScript conferences worldwide. Watch talks from past events.',
+            'The umbrella organization for community-driven JavaScript conferences worldwide.',
+        },
+      ],
+    },
+  ],
+};
+
+// ═══════════════════════════════════════════════════════════════════════
+// PYTHON
+// ═══════════════════════════════════════════════════════════════════════
+
+export const pythonResources: LanguageResources = {
+  slug: 'python',
+  name: 'Python',
+  description:
+    'The most versatile language in the ecosystem. Python powers data science, machine learning, backend systems, automation, and scripting. These are the definitive free resources — vetted, current, and complete.',
+  categories: [
+    {
+      label: 'Free Books',
+      icon: 'book',
+      items: [
+        {
+          title: 'Automate the Boring Stuff with Python (3rd Ed.)',
+          url: 'https://automatetheboringstuff.com/',
+          description:
+            'The premier beginner resource for learning practical scripting to automate everyday tasks — Excel, web scraping, file manipulation. Full text free online.',
+        },
+        {
+          title: 'Think Python (3rd Edition)',
+          url: 'https://allendowney.github.io/ThinkPython/',
+          description:
+            'Completely redesigned for modern learning. Runs in Jupyter notebooks — read, execute code, and work through exercises directly in the browser.',
+        },
+        {
+          title: 'Dive Into Python 3',
+          url: 'https://diveintopython3.netlify.app/',
+          description:
+            'A free book for experienced programmers to learn Python 3 quickly. Covers native datatypes, comprehensions, closures, generators, and testing.',
+        },
+      ],
+    },
+    {
+      label: 'Official Documentation',
+      icon: 'docs',
+      items: [
+        {
+          title: 'The Python Tutorial',
+          url: 'https://docs.python.org/3/tutorial/index.html',
+          description:
+            'Curated by the core developers and PSF. The definitive resource for understanding the language syntax, standard library, and data structures.',
+        },
+        {
+          title: 'Python Language Reference',
+          url: 'https://docs.python.org/3/reference/index.html',
+          description:
+            'The complete reference for Python syntax, lexical analysis, data model, execution model, and import system.',
+        },
+        {
+          title: 'Python Standard Library',
+          url: 'https://docs.python.org/3/library/index.html',
+          description:
+            'The built-in library reference — everything from string operations and data types to networking, threading, and web frameworks.',
+        },
+      ],
+    },
+    {
+      label: 'Interactive Courses',
+      icon: 'code',
+      items: [
+        {
+          title: "Google's Python Class",
+          url: 'https://developers.google.com/edu/python/',
+          description:
+            'Free class from Google engineers. Features lecture videos, written materials, and lots of code exercises covering regex, utilities, and more.',
+        },
+        {
+          title: 'freeCodeCamp — Python Curriculum',
+          url: 'https://www.freecodecamp.org/',
+          description:
+            'Completely free, project-based curriculum with browser-based coding environments and certifications for Python.',
+        },
+      ],
+    },
+    {
+      label: 'Video Courses',
+      icon: 'video',
+      items: [
+        {
+          title: 'Python for Beginners — Full Course (freeCodeCamp)',
+          url: 'https://www.youtube.com/watch?v=rfscVS0vtbw',
+          description:
+            'A multi-hour comprehensive video tutorial covering core concepts, loops, dictionaries, classes, and mini-projects.',
+        },
+        {
+          title: 'PyCon US Talks (YouTube)',
+          url: 'https://www.youtube.com/@PyConUS',
+          description:
+            'Hundreds of free conference talks from Python core contributors, software architects, and library maintainers. Intermediate to advanced.',
+        },
+      ],
+    },
+    {
+      label: 'Practice & Challenges',
+      icon: 'terminal',
+      items: [
+        {
+          title: 'Exercism — Python Track',
+          url: 'https://exercism.org/tracks/python',
+          description:
+            '100% free platform with 146 coding exercises across 17 concepts. Includes automated code analysis and human mentor feedback.',
+        },
+        {
+          title: 'Codewars',
+          url: 'https://www.codewars.com/',
+          description:
+            'Master Python by solving bite-sized community-crafted challenges and comparing solutions with other developers.',
+        },
+        {
+          title: 'HackerRank — Python Track',
+          url: 'https://www.hackerrank.com/domains/python',
+          description:
+            'Domain-specific challenges from basic I/O to advanced data structures and interview preparation.',
+        },
+      ],
+    },
+    {
+      label: 'Reference & Cheatsheets',
+      icon: 'reference',
+      items: [
+        {
+          title: 'Real Python Cheat Sheet',
+          url: 'https://realpython.com/cheatsheets/python/',
+          description:
+            'Compact, exhaustive reference covering syntax, data types, collections, control flow, functions, file I/O, and virtual environments.',
+        },
+        {
+          title: 'Python Cheatsheet (devhints)',
+          url: 'https://devhints.io/python',
+          description:
+            'A concise one-page reference for Python 3 syntax, built-in functions, comprehensions, and common patterns.',
+        },
+      ],
+    },
+    {
+      label: 'News & Updates',
+      icon: 'news',
+      items: [
+        {
+          title: "PyCoder's Weekly",
+          url: 'https://pycoders.com/',
+          description:
+            'A premier weekly email newsletter highlighting the best Python articles, tutorials, open-source projects, and community news.',
+        },
+        {
+          title: 'Python.org — Latest News',
+          url: 'https://www.python.org/blogs/',
+          description:
+            'Official Python Software Foundation blog covering release announcements, PEP summaries, and community updates.',
+        },
+      ],
+    },
+    {
+      label: 'Community',
+      icon: 'community',
+      items: [
+        {
+          title: 'Reddit r/learnpython',
+          url: 'https://www.reddit.com/r/learnpython/',
+          description:
+            'The largest community of Python learners and educators. Perfect for troubleshooting, finding recommendations, and curated resources.',
+        },
+        {
+          title: 'Stack Overflow — Python Tag',
+          url: 'https://stackoverflow.com/questions/tagged/python',
+          description:
+            'The definitive Q&A forum for Python questions — from beginner syntax to advanced metaprogramming patterns.',
+        },
+        {
+          title: 'Python Discord',
+          url: 'https://pythondiscord.com/',
+          description:
+            'A large, active Python community on Discord with channels for learning, projects, and career advice.',
         },
       ],
     },
@@ -228,6 +409,7 @@ export const javascriptResources: LanguageResources = {
 
 const RESOURCE_REGISTRY: Record<string, LanguageResources> = {
   javascript: javascriptResources,
+  python: pythonResources,
 };
 
 /**
