@@ -6,7 +6,7 @@ import Fuse from 'fuse.js';
 import Link from 'next/link';
 import { cn } from '@/application/lib/utils';
 import { Icon, IconAnimatedGridPattern } from '@/presentation/__components';
-import { FaBook, FaReddit, FaHackerNews } from 'react-icons/fa';
+import { FaBook, FaReddit, FaHackerNews, FaGraduationCap } from 'react-icons/fa';
 import {
   SiGithub, SiStackoverflow, SiNpm, SiDevdotto,
   SiMedium, SiDuckduckgo, SiWikipedia, SiYcombinator, SiProducthunt,
@@ -75,8 +75,19 @@ interface LiveSearchResponse {
   errors: Array<{ source: string; error: string }>;
 }
 
+interface LessonIndexItem {
+  title: string;
+  description: string;
+  category: string;
+  hubSlug: string;
+  slug: string;
+  url: string;
+  difficulty: string;
+  duration: string;
+}
+
 interface LocalSearchItem {
-  type: 'knowledge' | 'feed' | 'yc' | 'ph';
+  type: 'knowledge' | 'feed' | 'yc' | 'ph' | 'lesson';
   title: string;
   url: string;
   description: string | null;
@@ -142,6 +153,7 @@ interface SourceConfig {
 
 const SOURCE_ROUTES: Record<string, string> = {
   knowledge: '/knowledge',
+  lessons: '/knowledge',
   feed: '/discover/feed',
   yc: '/discover/yc',
   ph: '/discover/product-hunt',
@@ -158,6 +170,7 @@ const SOURCE_ROUTES: Record<string, string> = {
 
 const SOURCES: SourceConfig[] = [
   { id: 'knowledge', label: 'Knowledge Curriculum', type: 'local', color: 'text-blue-600', bgColor: 'bg-blue-600', hoverBg: 'hover:bg-blue-600', brandEl: <BrandIconKnowledge /> },
+  { id: 'lessons', label: 'Knowledge Courses', type: 'local', color: 'text-emerald-600', bgColor: 'bg-emerald-600', hoverBg: 'hover:bg-emerald-600', brandEl: <FaGraduationCap /> },
   { id: 'feed', label: 'Engineering Blogs', type: 'local', color: 'text-accent', bgColor: 'bg-accent', hoverBg: 'hover:bg-accent', brandEl: null },
   { id: 'yc', label: 'YC Companies', type: 'local', color: 'text-orange-500', bgColor: 'bg-orange-500', hoverBg: 'hover:bg-orange-500', brandEl: <BrandIconYC /> },
   { id: 'ph', label: 'Product Hunt', type: 'local', color: 'text-red-500', bgColor: 'bg-red-500', hoverBg: 'hover:bg-red-500', brandEl: <BrandIconPH /> },
@@ -413,6 +426,39 @@ function RedditCard({ result, config }: { result: LiveSearchResult; config: Sour
   );
 }
 
+// ─── Lesson Card ────────────────────────────────────────────────────
+
+function LessonCard({ item, config }: { item: LocalSearchItem; config: SourceConfig }) {
+  const m = item.metadata;
+  return (
+    <a href={item.url} target="_blank" rel="noopener noreferrer"
+      className={cn('block bg-white p-6 sm:p-8 transition-all duration-300', config.hoverBg, 'group')}>
+      <div className="flex items-center gap-2 mb-3">
+        <FaGraduationCap size={14} className="text-fg-muted group-hover:text-white/60 transition-colors shrink-0" />
+        <span className="text-xs font-bold uppercase tracking-widest text-fg-muted group-hover:text-white/60 transition-colors">
+          {v(m?.category)}
+        </span>
+        {v(m?.duration) && (
+          <span className="text-[10px] text-fg-muted/50 group-hover:text-white/40 transition-colors">· {v(m?.duration)}</span>
+        )}
+      </div>
+      <h3 className="text-base sm:text-lg font-bold leading-snug text-fg group-hover:text-white transition-colors line-clamp-3">
+        {item.title}
+      </h3>
+      {item.description && (
+        <p className="mt-2 text-sm sm:text-base text-fg-secondary leading-relaxed group-hover:text-white/80 transition-colors line-clamp-2">
+          {item.description}
+        </p>
+      )}
+      <div className="mt-4 flex items-center gap-2">
+        <span className="px-2 py-0.5 text-[9px] font-bold uppercase tracking-wider bg-surface-secondary text-fg-muted group-hover:bg-white/20 group-hover:text-white/70 transition-colors">
+          {v(m?.difficulty)}
+        </span>
+      </div>
+    </a>
+  );
+}
+
 // ─── Knowledge Card ─────────────────────────────────────────────────
 
 function KnowledgeCard({ item, config }: { item: LocalSearchItem; config: SourceConfig }) {
@@ -444,6 +490,7 @@ function KnowledgeCard({ item, config }: { item: LocalSearchItem; config: Source
 function SourceCard({ item, config, result }: { item?: LocalSearchItem; config: SourceConfig; result?: LiveSearchResult }) {
   switch (config.id) {
     case 'knowledge': return <KnowledgeCard item={item!} config={config} />;
+    case 'lessons': return <LessonCard item={item!} config={config} />;
     case 'feed': return <FeedCard item={item!} config={config} />;
     case 'yc': return <YcCard item={item!} config={config} />;
     case 'ph': return <PhCard item={item!} config={config} />;
@@ -525,16 +572,34 @@ export function HomeUnifiedSearch() {
   const abortRef = useRef<AbortController | null>(null);
   const fuseRef = useRef<ReturnType<typeof createFuseIndex> | null>(null);
   // Pageless browse: keep all items for empty-query browse mode
-  const allLocalRef = useRef<Record<string, LocalSearchItem[]>>({ knowledge: [], feed: [], yc: [], ph: [] });
+  const allLocalRef = useRef<Record<string, LocalSearchItem[]>>({ knowledge: [], lessons: [], feed: [], yc: [], ph: [] });
 
   // ── Load local data on mount ──────────────────────────────────────
   useEffect(() => {
     let mounted = true;
     async function load() {
       const knowledgeItems: LocalSearchItem[] = [];
+      const lessonItems: LocalSearchItem[] = [];
       const feedItems: LocalSearchItem[] = [];
       const ycItems: LocalSearchItem[] = [];
       const phItems: LocalSearchItem[] = [];
+
+      // ── Load lesson index ────────────────────────────────────────────
+      try {
+        const lessonRes = await fetch('/lesson-index.json');
+        if (lessonRes.ok) {
+          const lessonData = await lessonRes.json() as { lessons: LessonIndexItem[] };
+          for (const lesson of lessonData.lessons || []) {
+            lessonItems.push({
+              type: 'lesson',
+              title: lesson.title,
+              url: lesson.url,
+              description: lesson.description || null,
+              metadata: { category: lesson.category, hubSlug: lesson.hubSlug, difficulty: lesson.difficulty, duration: lesson.duration },
+            });
+          }
+        }
+      } catch {}
 
       // Knowledge graph — FIRST in order
       let knowledgeDescriptions: Record<string, string> = {};
@@ -609,12 +674,13 @@ export function HomeUnifiedSearch() {
       if (!mounted) return;
       const allItems = {
         knowledge: knowledgeItems,
+        lessons: lessonItems,
         feed: feedItems,
         yc: ycItems,
         ph: phItems,
       };
       allLocalRef.current = allItems;
-      fuseRef.current = createFuseIndex([...knowledgeItems, ...feedItems, ...ycItems, ...phItems]);
+      fuseRef.current = createFuseIndex([...knowledgeItems, ...lessonItems, ...feedItems, ...ycItems, ...phItems]);
     }
     load();
     return () => { mounted = false; };
@@ -633,7 +699,7 @@ export function HomeUnifiedSearch() {
     setLoading(true); setHasSearched(true); setLiveErrors([]);
 
     // Local Fuse search
-    const hits: Record<string, LocalSearchItem[]> = { knowledge: [], feed: [], yc: [], ph: [] };
+    const hits: Record<string, LocalSearchItem[]> = { knowledge: [], lessons: [], feed: [], yc: [], ph: [] };
     if (fuseRef.current) {
       for (const { item } of fuseRef.current.search(q.toLowerCase())) {
         hits[item.type].push(item);

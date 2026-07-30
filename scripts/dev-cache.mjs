@@ -156,6 +156,99 @@ function buildPhCache(baseDir) {
   console.log(`  ✓ ph-cache/ — ${copied} files`);
 }
 
+// ── Lesson Index ────────────────────────────────────────────────────
+// Scans all lesson .md files in knowledge-cache and builds a searchable index
+
+function parseFrontmatter(raw) {
+  const result = {};
+  // Match frontmatter block between --- delimiters
+  const match = raw.match(/^---\s*\n([\s\S]*?)\n---/);
+  if (!match) return result;
+
+  const lines = match[1].split('\n');
+  for (const line of lines) {
+    const colonIdx = line.indexOf(':');
+    if (colonIdx === -1) continue;
+    const key = line.slice(0, colonIdx).trim();
+    let value = line.slice(colonIdx + 1).trim();
+    // Strip quotes
+    if ((value.startsWith('"') && value.endsWith('"')) ||
+        (value.startsWith("'") && value.endsWith("'"))) {
+      value = value.slice(1, -1);
+    }
+    result[key] = value;
+  }
+  return result;
+}
+
+function buildLessonIndex() {
+  const cacheDir = path.join(PUBLIC_DIR, 'knowledge-cache');
+  if (!fs.existsSync(cacheDir)) {
+    console.warn('  ⚠ No knowledge-cache/ directory, skipping lesson index');
+    return;
+  }
+
+  const lessons = [];
+  const categories = fs.readdirSync(cacheDir, { withFileTypes: true })
+    .filter((d) => d.isDirectory())
+    .map((d) => d.name);
+
+  for (const category of categories) {
+    const catDir = path.join(cacheDir, category);
+    const hubs = fs.readdirSync(catDir, { withFileTypes: true })
+      .filter((d) => d.isDirectory())
+      .map((d) => d.name);
+
+    for (const hubSlug of hubs) {
+      const hubDir = path.join(catDir, hubSlug);
+      let mdFiles;
+      try {
+        mdFiles = fs.readdirSync(hubDir).filter((f) => f.endsWith('.md'));
+      } catch {
+        continue;
+      }
+
+      for (const mdFile of mdFiles) {
+        const filePath = path.join(hubDir, mdFile);
+        try {
+          const raw = fs.readFileSync(filePath, 'utf-8');
+          const fm = parseFrontmatter(raw);
+          const lessonSlug = mdFile.replace(/\.md$/, '');
+
+          // Build description from learning_objectives if description is missing
+          let description = fm.description || '';
+
+          lessons.push({
+            title: fm.title || lessonSlug,
+            description,
+            category,
+            hubSlug,
+            slug: lessonSlug,
+            url: `/knowledge/${category}/${hubSlug}/${lessonSlug}`,
+            difficulty: fm.difficulty || 'intermediate',
+            duration: fm.duration || '',
+          });
+        } catch (err) {
+          // Skip files we can't parse
+        }
+      }
+    }
+  }
+
+  const index = {
+    version: 1,
+    updatedAt: new Date().toISOString(),
+    totalLessons: lessons.length,
+    lessons,
+  };
+
+  const outPath = path.join(PUBLIC_DIR, 'lesson-index.json');
+  fs.writeFileSync(outPath + '.tmp', JSON.stringify(index), 'utf-8');
+  fs.renameSync(outPath + '.tmp', outPath);
+
+  console.log(`  ✓ lesson-index.json — ${lessons.length} lessons indexed`);
+}
+
 // ── Main ──────────────────────────────────────────────────────────────
 
 function main() {
@@ -189,6 +282,9 @@ function main() {
       ensureDir(cacheDir);
       execSync(`cp -r "${knowledgeDir}/." "${cacheDir}/"`, { stdio: 'pipe' });
       console.log('  ✓ knowledge-cache/');
+
+      // Build lesson index from .md files in knowledge-cache
+      buildLessonIndex();
     } else {
       console.warn('  ⚠ No static-data/knowledge/ directory in registry');
     }
