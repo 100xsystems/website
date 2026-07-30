@@ -587,6 +587,350 @@ export const typescriptResources: LanguageResources = {
 };
 
 // ═══════════════════════════════════════════════════════════════════════
+// JAVA
+// ═══════════════════════════════════════════════════════════════════════
+
+export const javaResources: LanguageResources = {
+  slug: 'java',
+  name: 'Java',
+  description:
+    'Java is the bedrock of enterprise software. It powers Android apps, backend systems, big data pipelines (Apache Hadoop, Spark), and financial infrastructure worldwide. These are the definitive free resources — vetted, current, and complete.',
+  categories: [
+    {
+      label: 'Free Books',
+      icon: 'book',
+      items: [
+        {
+          title: 'Introduction to Programming Using Java (Javanotes)',
+          url: 'https://math.hws.edu/javanotes/',
+          description:
+            'A free, comprehensive online textbook covering object-oriented programming, GUI applications, and data structures. Perfect for beginners and intermediate learners.',
+        },
+        {
+          title: 'Java Language Specification (JLS)',
+          url: 'https://docs.oracle.com/javase/specs/jls/se23/html/index.html',
+          description:
+            'The definitive technical definition of Java from Oracle. Details syntax, types, execution rules, and the memory model. The ultimate reference.',
+        },
+      ],
+    },
+    {
+      label: 'Official Documentation',
+      icon: 'docs',
+      items: [
+        {
+          title: 'Dev.java — Official Oracle Learning Platform',
+          url: 'https://dev.java/learn/',
+          description:
+            'The definitive destination for modern Java developers. Hundreds of tutorials covering everything from your first app to Virtual Threads, pattern matching, and the Foreign Function & Memory API.',
+        },
+        {
+          title: 'The Java Tutorials (Oracle)',
+          url: 'https://docs.oracle.com/javase/tutorial/',
+          description:
+            'Practical, classic guides covering language basics, collections, concurrency, I/O, networking, and GUI programming with Swing/JavaFX.',
+        },
+        {
+          title: 'Java SE Documentation',
+          url: 'https://docs.oracle.com/en/java/javase/',
+          description:
+            'Complete API documentation, release notes, and migration guides for all Java Standard Edition versions.',
+        },
+      ],
+    },
+    {
+      label: 'Interactive Courses',
+      icon: 'code',
+      items: [
+        {
+          title: 'Java Programming — University of Helsinki (MOOC.fi)',
+          url: 'https://java-programming.mooc.fi/',
+          description:
+            'Widely regarded as the best free Java course. Features rigorous auto-graded projects covering OOP, algorithms, data structures, and testing. University-level quality.',
+        },
+        {
+          title: 'freeCodeCamp — Java Course',
+          url: 'https://www.freecodecamp.org/news/learn-java-programming/',
+          description:
+            'A comprehensive free course covering Java fundamentals, OOP principles, exception handling, generics, and building real applications.',
+        },
+      ],
+    },
+    {
+      label: 'Video Courses',
+      icon: 'video',
+      items: [
+        {
+          title: 'Java Full Course for Beginners (freeCodeCamp)',
+          url: 'https://www.youtube.com/watch?v=GoXwIVyNvX0',
+          description:
+            'A multi-hour comprehensive video tutorial covering Java from scratch: syntax, OOP, collections, file I/O, and multithreading.',
+        },
+        {
+          title: 'Java Programming — Bro Code Full Course',
+          url: 'https://www.youtube.com/watch?v=xk4_1vDrzzo',
+          description:
+            'A massive full-length course covering Java fundamentals with clear, beginner-friendly explanations and hands-on coding examples.',
+        },
+      ],
+    },
+    {
+      label: 'Practice & Challenges',
+      icon: 'terminal',
+      items: [
+        {
+          title: 'Exercism — Java Track',
+          url: 'https://exercism.org/tracks/java',
+          description:
+            '100% free with 158+ coding exercises across 24 concepts. Includes automated code analysis and optional human mentorship for personalized feedback.',
+        },
+        {
+          title: 'HackerRank — Java Domain',
+          url: 'https://www.hackerrank.com/domains/java',
+          description:
+            'Excellent for practicing Java-specific syntax, data structures, algorithms, and OOP concepts tailored for coding interviews.',
+        },
+        {
+          title: 'Codewars — Java Kata',
+          url: 'https://www.codewars.com/',
+          description:
+            'Solve community-created kata in Java across hundreds of difficulty levels. Great for building muscle memory and learning patterns.',
+        },
+      ],
+    },
+    {
+      label: 'Reference & Cheatsheets',
+      icon: 'reference',
+      items: [
+        {
+          title: 'Java Cheatsheet (devhints)',
+          url: 'https://devhints.io/java',
+          description:
+            'A concise one-page reference covering Java syntax, data types, control flow, OOP, and common standard library classes.',
+        },
+        {
+          title: 'Baeldung Java Guides',
+          url: 'https://www.baeldung.com/',
+          description:
+            'Extensive collection of practical Java tutorials and reference guides covering Spring, Hibernate, core Java, and testing frameworks.',
+        },
+      ],
+    },
+    {
+      label: 'News & Updates',
+      icon: 'news',
+      items: [
+        {
+          title: 'Java Weekly (Baeldung)',
+          url: 'https://www.baeldung.com/tag/java-weekly/',
+          description:
+            'A highly curated weekly roundup delivering technical deep dives, performance best practices, release updates, and ecosystem news.',
+        },
+        {
+          title: 'Inside Java (Oracle)',
+          url: 'https://inside.java/',
+          description:
+            'Direct updates, podcasts, and articles from the engineers building Java. Covers JDK enhancements, JEPs, and the future of the platform.',
+        },
+      ],
+    },
+    {
+      label: 'Community',
+      icon: 'community',
+      items: [
+        {
+          title: 'Reddit r/java',
+          url: 'https://www.reddit.com/r/java/',
+          description:
+            'The primary discussion hub for enterprise Java news, library releases, and ecosystem discussions.',
+        },
+        {
+          title: 'Reddit r/learnjava',
+          url: 'https://www.reddit.com/r/learnjava/',
+          description:
+            'Dedicated beginner community for Java learners. Q&A, resource recommendations, and troubleshooting help.',
+        },
+        {
+          title: 'Java Discord Community',
+          url: 'https://discord.com/invite/java-community-help-code-learn-648956210850299986',
+          description:
+            'One of the largest active real-time Java communities for troubleshooting, peer learning, and live Q&A with experienced developers.',
+        },
+      ],
+    },
+  ],
+};
+
+// ═══════════════════════════════════════════════════════════════════════
+// C++
+// ═══════════════════════════════════════════════════════════════════════
+
+export const cppResources: LanguageResources = {
+  slug: 'cpp',
+  name: 'C++',
+  description:
+    'C++ is a systems programming language that gives you complete control over memory and hardware. It powers game engines, browsers (Chrome), operating systems, embedded devices, and high-frequency trading. These are the definitive free resources — vetted, current, and complete.',
+  categories: [
+    {
+      label: 'Free Books',
+      icon: 'book',
+      items: [
+        {
+          title: 'LearnCpp.com',
+          url: 'https://www.learncpp.com/',
+          description:
+            'Universally recommended as the gold standard for learning modern C++ from scratch. Step-by-step tutorials covering basic to advanced concepts with quizzes at every chapter.',
+        },
+        {
+          title: 'C++ Core Guidelines',
+          url: 'https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines',
+          description:
+            'Authored by Bjarne Stroustrup and Herb Sutter. The ultimate best-practices guide for writing modern, safe, and efficient C++ code.',
+        },
+      ],
+    },
+    {
+      label: 'Official Documentation',
+      icon: 'docs',
+      items: [
+        {
+          title: 'cppreference.com',
+          url: 'https://cppreference.com/',
+          description:
+            'The definitive, exhaustive technical reference for both the C++ language and its Standard Library. Updated for C++20, C++23, and emerging C++26 features.',
+        },
+        {
+          title: 'isocpp.org',
+          url: 'https://isocpp.org/',
+          description:
+            'The central hub for standard C++ — housing the FAQ, committee updates, conference announcements, and the latest from the ISO standard committee.',
+        },
+        {
+          title: 'C++ Standard Proposals',
+          url: 'https://isocpp.org/std/the-standard',
+          description:
+            'Track the evolution of C++ through ISO committee papers, feature proposals, and standardization status documents.',
+        },
+      ],
+    },
+    {
+      label: 'Interactive Courses',
+      icon: 'code',
+      items: [
+        {
+          title: 'freeCodeCamp — 31-Hour C++ Course',
+          url: 'https://www.freecodecamp.org/news/learn-c-with-free-31-hour-course/',
+          description:
+            'A massive comprehensive deep-dive course by Daniel Gakwaya. Covers everything from absolute beginner through memory management, OOP, and C++20 features.',
+        },
+      ],
+    },
+    {
+      label: 'Video Courses',
+      icon: 'video',
+      items: [
+        {
+          title: 'C++ Programming Course (freeCodeCamp)',
+          url: 'https://www.youtube.com/c/Freecodecamp',
+          description:
+            'The 31-hour course on YouTube alongside focused crash courses on standard library features, templates, and STL algorithms.',
+        },
+        {
+          title: 'C++ Weekly (Jason Turner)',
+          url: 'https://www.youtube.com/@Lefticus1',
+          description:
+            'Short, bite-sized episodes focusing on modern C++ best practices, new features, performance tips, and pitfalls to avoid. Essential for staying current.',
+        },
+      ],
+    },
+    {
+      label: 'Practice & Challenges',
+      icon: 'terminal',
+      items: [
+        {
+          title: 'Exercism — C++ Track',
+          url: 'https://exercism.org/tracks/cpp',
+          description:
+            '100 structured coding exercises across 19 concepts designed to teach idiomatic C++. Includes free human mentoring for code review.',
+        },
+        {
+          title: 'HackerRank — C++ Domain',
+          url: 'https://www.hackerrank.com/domains/cpp',
+          description:
+            'Excellent for drilling specific C++ subdomains like classes, inheritance, strings, and the Standard Template Library (STL).',
+        },
+        {
+          title: 'Codewars — C++ Kata',
+          url: 'https://www.codewars.com/',
+          description:
+            'Solve community-created challenges in C++ across hundreds of difficulty levels. Filter by topic and mastery level.',
+        },
+      ],
+    },
+    {
+      label: 'Reference & Cheatsheets',
+      icon: 'reference',
+      items: [
+        {
+          title: 'C++ Core Guidelines (isocpp.github.io)',
+          url: 'https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines',
+          description:
+            'The ultimate cheatsheet for modern C++ best practices. Covers interfaces, functions, classes, resource management, and concurrency safety.',
+        },
+        {
+          title: 'C++ Cheatsheet (devhints)',
+          url: 'https://devhints.io/cpp',
+          description:
+            'A concise reference covering C++ syntax, data types, STL containers, algorithms, and smart pointers.',
+        },
+      ],
+    },
+    {
+      label: 'News & Updates',
+      icon: 'news',
+      items: [
+        {
+          title: 'Standard C++ Blog (isocpp.org)',
+          url: 'https://isocpp.org/blog',
+          description:
+            'Official news tracking ISO committee trip reports, compiler releases (GCC/Clang), developer surveys, and standard feature proposals.',
+        },
+        {
+          title: 'C++ Status (cppreference)',
+          url: 'https://en.cppreference.com/w/cpp/compiler_support',
+          description:
+            'Track compiler support for C++20, C++23, and C++26 features across GCC, Clang, MSVC, and other compilers.',
+        },
+      ],
+    },
+    {
+      label: 'Community',
+      icon: 'community',
+      items: [
+        {
+          title: 'Reddit r/cpp',
+          url: 'https://www.reddit.com/r/cpp/',
+          description:
+            'The main global forum for C++ news, library announcements, and deep-dive technical discussions with the community.',
+        },
+        {
+          title: 'Reddit r/cpp_questions',
+          url: 'https://www.reddit.com/r/cpp_questions/',
+          description:
+            'Dedicated to learners and developers asking questions, seeking code reviews, and debugging help from the C++ community.',
+        },
+        {
+          title: 'Stack Overflow — C++ Tag',
+          url: 'https://stackoverflow.com/questions/tagged/c%2b%2b',
+          description:
+            'The definitive Q&A forum for C++ — from template metaprogramming and memory management to optimization and undefined behavior.',
+        },
+      ],
+    },
+  ],
+};
+
+// ═══════════════════════════════════════════════════════════════════════
 // GO
 // ═══════════════════════════════════════════════════════════════════════
 
@@ -966,6 +1310,8 @@ const RESOURCE_REGISTRY: Record<string, LanguageResources> = {
   javascript: javascriptResources,
   python: pythonResources,
   typescript: typescriptResources,
+  java: javaResources,
+  cpp: cppResources,
   go: goResources,
   rust: rustResources,
 };
