@@ -196,6 +196,22 @@ function main() {
     console.warn(`  ⚠ Failed to copy knowledge cache: ${err.message}`);
   }
 
+  // Build curriculum cache from registry (knowledge courses)
+  try {
+    const curriculumDir = path.join(registryBaseDir, 'static-data', 'knowledge', 'curriculum');
+    if (fs.existsSync(curriculumDir)) {
+      const cacheDir = path.join(process.cwd(), '.curriculum', 'systems');
+      if (fs.existsSync(cacheDir)) {
+        fs.rmSync(cacheDir, { recursive: true, force: true });
+      }
+      fs.mkdirSync(cacheDir, { recursive: true });
+      execSync(`cp -r "${curriculumDir}/." "${cacheDir}/"`, { stdio: 'pipe' });
+      console.log('  ✓ .curriculum/systems/ (knowledge courses)');
+    }
+  } catch (err) {
+    console.warn(`  ⚠ Failed to copy curriculum cache: ${err.message}`);
+  }
+
   // Cleanup clone dir
   if (registryBaseDir === CLONE_DIR) {
     try { fs.rmSync(CLONE_DIR, { recursive: true, force: true }); } catch {}
