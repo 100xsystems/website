@@ -47,39 +47,47 @@ const CACHE_DIR = path.resolve(process.cwd(), 'public', 'knowledge-cache', 'lang
 let _allResources: Record<string, LanguageResources> | null = null;
 let _index: string[] | null = null;
 
+/**
+ * Read all language resource folders from the cached registry clone.
+ * Each language is a folder with an index.json inside:
+ *   public/knowledge-cache/languages/javascript/index.json
+ *   public/knowledge-cache/languages/python/index.json
+ *   ...
+ */
 function loadAllResources(): Record<string, LanguageResources> {
   if (_allResources) return _allResources;
+
+  const all: Record<string, LanguageResources> = {};
+
   try {
-    const allPath = path.join(CACHE_DIR, 'all-resources.json');
-    const raw = fs.readFileSync(allPath, 'utf-8');
-    _allResources = JSON.parse(raw);
-    return _allResources!;
+    const entries = fs.readdirSync(CACHE_DIR, { withFileTypes: true });
+
+    for (const entry of entries) {
+      if (!entry.isDirectory()) continue;
+      const indexPath = path.join(CACHE_DIR, entry.name, 'index.json');
+      if (!fs.existsSync(indexPath)) continue;
+
+      try {
+        const raw = fs.readFileSync(indexPath, 'utf-8');
+        const resource: LanguageResources = JSON.parse(raw);
+        all[resource.slug] = resource;
+      } catch {
+        // skip malformed language folders
+      }
+    }
   } catch {
-    _allResources = {};
-    return _allResources;
+    // cache directory doesn't exist yet
   }
+
+  _allResources = all;
+  return _allResources;
 }
 
 function loadIndex(): string[] {
   if (_index) return _index;
-  // Derive slugs from all-resources keys as primary source
   const all = loadAllResources();
-  const keys = Object.keys(all);
-  if (keys.length > 0) {
-    _index = keys;
-    return _index;
-  }
-  // Fallback to index.json if all-resources is empty
-  try {
-    const indexPath = path.join(CACHE_DIR, 'index.json');
-    const raw = fs.readFileSync(indexPath, 'utf-8');
-    const index: { slugs?: string[] } = JSON.parse(raw);
-    _index = index.slugs ?? [];
-    return _index;
-  } catch {
-    _index = [];
-    return _index;
-  }
+  _index = Object.keys(all);
+  return _index;
 }
 
 // ─── Public API ─────────────────────────────────────────────────────
