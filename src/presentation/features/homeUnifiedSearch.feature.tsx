@@ -4,7 +4,7 @@ import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { motion } from 'motion/react';
 import Fuse from 'fuse.js';
 import { cn } from '@/application/lib/utils';
-import { Icon, IconAnimatedGridPattern } from '@/presentation/__components';
+import { Icon, IconAnimatedGridPattern, WordRotate } from '@/presentation/__components';
 import { timeAgo } from '@/feed/feed.utils';
 import type { FeedCache, RegistryFeedData } from '@/feed/feed.types';
 
@@ -753,7 +753,13 @@ export function HomeUnifiedSearch() {
           >
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-fg tracking-tight uppercase leading-[1.05]">
               Search{' '}
-              <span className="text-accent">everything</span>
+              <span className="text-accent inline-block">
+                <WordRotate
+                  words={['everything', 'everywhere', 'any system', 'any stack', 'any pattern']}
+                  duration={2000}
+                  className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-accent tracking-tight uppercase"
+                />
+              </span>
             </h1>
           </motion.div>
 
