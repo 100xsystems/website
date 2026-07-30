@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState, useEffect, useRef, useCallback } from 'react';
+import { motion } from 'motion/react';
 import Fuse from 'fuse.js';
 import { cn } from '@/application/lib/utils';
 import { Icon, IconAnimatedGridPattern } from '@/presentation/__components';
@@ -737,30 +738,44 @@ export function HomeUnifiedSearch() {
 
   return (
     <>
-      {/* ── SEARCH HERO — with dynamic animated background ── */}
-      <section className="relative overflow-hidden flex items-center bg-white" style={{ minHeight: 'calc(100vh - 7rem)' }}>
+      {/* ── SEARCH HERO — matching HomeHero style ── */}
+      <section className="relative overflow-hidden flex items-center bg-white" style={{ height: 'calc(100vh - 7rem)' }}>
         <div className="absolute inset-0 z-0">
           <IconAnimatedGridPattern />
         </div>
 
-        <div className="relative z-10 max-w-[900px] mx-auto px-6 lg:px-12 py-16 sm:py-20 w-full text-center">
-          <div className="mb-10">
-            <div className="inline-flex items-center gap-2 px-3 py-1.5 text-[10px] font-bold uppercase tracking-widest bg-accent/80 text-white mb-5">
-              100X SEARCH
-            </div>
-            <h1 className="text-2xl sm:text-3xl font-extrabold text-fg tracking-tight leading-tight mb-3">
-              Search everything
+        <div className="relative z-10 max-w-[900px] mx-auto px-6 py-12 sm:py-16 text-center">
+          <motion.div
+            className="mb-8"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+          >
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-fg tracking-tight uppercase leading-[1.05]">
+              Search{' '}
+              <span className="text-accent">everything</span>
             </h1>
-            <p className="text-sm sm:text-base text-fg-secondary/70 font-medium tracking-wide leading-relaxed max-w-xl mx-auto">
-              <span className="text-accent font-bold">Every system.</span>{' '}
-              <span className="text-accent-yellow font-bold">Every stack.</span>{' '}
-              <span className="text-fg-muted font-bold">Every pattern.</span>{' '}
-              <span className="text-fg">All at once.</span>
-            </p>
-          </div>
+          </motion.div>
+
+          <motion.p
+            className="text-base sm:text-lg font-extrabold text-fg-secondary tracking-tight uppercase leading-[1.1] max-w-2xl mx-auto mb-10"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.1 }}
+          >
+            <span className="text-accent">Every system.{' '}</span>
+            <span className="text-accent-yellow">Every stack.{' '}</span>
+            <span className="text-fg-muted">Every pattern.{' '}</span>
+            <span className="text-fg">All at once.</span>
+          </motion.p>
 
           {/* Hero search bar */}
-          <div className="max-w-3xl mx-auto">
+          <motion.div
+            className="max-w-3xl mx-auto"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+          >
             <div className="relative">
               <span className="absolute left-6 top-1/2 -translate-y-1/2 text-fg-muted pointer-events-none">
                 <Icon name="search" size={28} />
@@ -781,7 +796,7 @@ export function HomeUnifiedSearch() {
                 </button>
               )}
             </div>
-          </div>
+          </motion.div>
         </div>
       </section>
 
