@@ -18,5 +18,12 @@ export default async function PrincipleDetailPage({ params }: Props) {
   const { slug } = await params;
   const hub = getHub('principles', slug);
   if (!hub) notFound();
-  return <ResourceHubDetail hub={hub} backLabel="Principles" backHref="/knowledge/principles" />;
+  return (
+    <ResourceHubDetail
+      hub={hub}
+      backLabel="Principles"
+      backHref="/knowledge/principles"
+      lessonBasePath={hub.lessons ? `/knowledge/principles/${hub.slug}` : undefined}
+    />
+  );
 }

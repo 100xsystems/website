@@ -29,6 +29,16 @@ export interface ResourceCategory {
   items: ResourceLink[];
 }
 
+export interface LessonMeta {
+  slug: string;
+  title: string;
+  description: string;
+  type: 'lesson' | 'quiz' | 'challenge';
+  order: number;
+  duration?: string;
+  difficulty?: string;
+}
+
 export interface ResourceHub {
   /** ISO / common slug (e.g. "javascript", "solid") */
   slug: string;
@@ -38,6 +48,8 @@ export interface ResourceHub {
   description: string;
   /** Sorted array of resource categories */
   categories: ResourceCategory[];
+  /** Optional ordered lessons for this hub */
+  lessons?: LessonMeta[];
 }
 
 // ─── Cache ──────────────────────────────────────────────────────────
