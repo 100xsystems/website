@@ -44,7 +44,7 @@ interface PhIndex {
   availableDates: string[];
 }
 
-const MAX_DATE_FALLBACKS = 3;
+const MAX_DATE_FALLBACKS = 5;
 
 function getDomain(url: string): string | null {
   try { return new URL(url).hostname; } catch { return null; }
@@ -228,43 +228,35 @@ export function ProductHuntPage() {
           throw new Error('No Product Hunt data available');
         }
 
-        // Try latest dates first for fresh data
-        const reversedDates = [...availableDates].reverse();
-        let foundProducts: PhProduct[] = [];
-        let foundDate = '';
+        // Always load the complete catalog from products.json (1000+ products)
+        const catalogRes = await fetch('/ph-cache/products.json');
+        let loadedProducts: PhProduct[] = [];
+        if (catalogRes.ok) {
+          const data = await catalogRes.json() as { products: PhProduct[] };
+          loadedProducts = data.products || [];
 
-        for (let i = 0; i < Math.min(reversedDates.length, MAX_DATE_FALLBACKS); i++) {
-          const dateFile = reversedDates[i];
-          const dayRes = await fetch(`/ph-cache/${dateFile}.json`);
-          if (!dayRes.ok) continue;
-          const dayData: PhDayFile = await dayRes.json();
-          if (dayData.posts && dayData.posts.length > 0) {
-            foundProducts = dayData.posts;
-            foundDate = dateFile;
-            break;
+          // Also try the most recent day files to show a date label
+          const reversedDates = [...availableDates].reverse();
+          for (let i = 0; i < Math.min(reversedDates.length, MAX_DATE_FALLBACKS); i++) {
+            const dateFile = reversedDates[i];
+            const dayRes = await fetch(`/ph-cache/${dateFile}.json`);
+            if (dayRes.ok) {
+              const dayData: PhDayFile = await dayRes.json();
+              if (dayData.posts && dayData.posts.length > 0) {
+                if (dateFile.length >= 10) {
+                  setDateLabel(new Date(dateFile.slice(0, 10)).toLocaleDateString('en-US', {
+                    weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'
+                  }));
+                }
+                break;
+              }
+            }
           }
         }
 
-        // Fallback to full products.json for the complete catalog
-        if (foundProducts.length === 0) {
-          const fallbackRes = await fetch('/ph-cache/products.json');
-          if (fallbackRes.ok) {
-            const data = await fallbackRes.json() as { products: PhProduct[] };
-            foundProducts = data.products || [];
-            foundDate = 'All time';
-          }
-        }
-
-        if (mounted && foundProducts.length > 0) {
-          const sorted = [...foundProducts].sort((a, b) => (b.votesCount || 0) - (a.votesCount || 0));
+        if (mounted && loadedProducts.length > 0) {
+          const sorted = [...loadedProducts].sort((a, b) => (b.votesCount || 0) - (a.votesCount || 0));
           setAllProducts(sorted);
-          if (foundDate.length >= 10) {
-            setDateLabel(new Date(foundDate.slice(0, 10)).toLocaleDateString('en-US', {
-              weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'
-            }));
-          } else {
-            setDateLabel(foundDate);
-          }
         } else if (mounted) {
           setError('No products found in recent data');
         }
@@ -434,7 +426,7 @@ export function ProductHuntPage() {
             {filteredProducts.map((product) => (
               <button
                 type="button"
-                key={product.id}
+                key={`${product.slug}-${product.id}`}
                 onClick={() => setSelectedProduct(product)}
                 className="group bg-surface-secondary p-8 flex flex-col text-left transition-all duration-300 hover:bg-red-500 hover:scale-[1.03] hover:shadow-2xl cursor-pointer w-full border-0"
               >
