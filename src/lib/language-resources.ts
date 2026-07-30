@@ -2952,6 +2952,407 @@ export const llvmResources: LanguageResources = {
     ]},
   ],
 };
+
+// ═══════════════════════════════════════════════════════════════════════
+// REACT
+// ═══════════════════════════════════════════════════════════════════════
+
+export const reactResources: LanguageResources = {
+  slug: 'react', name: 'React',
+  description: 'React is the most popular frontend library for building user interfaces, developed by Meta. It uses a component-based architecture with a virtual DOM to build fast, interactive web applications at scale.',
+  categories: [
+    { label: 'Free Books', icon: 'book', items: [
+      { title: 'React Docs (Beta)', url: 'https://react.dev/', description: 'The official React documentation with interactive tutorials, API references, and best practices.' },
+      { title: 'React Handbook (freeCodeCamp)', url: 'https://www.freecodecamp.org/news/the-react-handbook/', description: 'A comprehensive free handbook covering React hooks, components, state, and patterns.' },
+    ]},
+    { label: 'Official Documentation', icon: 'docs', items: [
+      { title: 'React.dev', url: 'https://react.dev/learn', description: 'The official learning guide covering React from basics to advanced patterns with interactive examples.' },
+      { title: 'React API Reference', url: 'https://react.dev/reference/react', description: 'Complete API reference for all React hooks, components, and built-in functions.' },
+      { title: 'React GitHub', url: 'https://github.com/facebook/react', description: 'The open-source React repository with RFCs and changelogs.' },
+    ]},
+    { label: 'Interactive Courses', icon: 'code', items: [
+      { title: 'Scrimba Learn React', url: 'https://scrimba.com/learn-react-c0jrrpaasr', description: 'Free interactive React course with hands-on coding in the browser.' },
+      { title: 'The Odin Project React', url: 'https://www.theodinproject.com/paths/full-stack-javascript/courses/react', description: 'Free open-source React curriculum with project-based learning.' },
+    ]},
+    { label: 'Video Courses', icon: 'video', items: [
+      { title: 'React Full Course (freeCodeCamp)', url: 'https://www.youtube.com/watch?v=w7ejDZ8SWv8', description: 'Multi-hour React course covering hooks, state management, and real-world projects.' },
+      { title: 'React Tutorial (Net Ninja)', url: 'https://www.youtube.com/playlist?list=PL4cUxeGkcC9g0ELT6R4w5s5N7tFJhjmKQ', description: 'Beginner-friendly React playlist with practical examples.' },
+    ]},
+    { label: 'Practice & Challenges', icon: 'terminal', items: [
+      { title: 'React Playground', url: 'https://playcode.io/react/', description: 'Online React playground for testing components and ideas instantly.' },
+    ]},
+    { label: 'Reference & Cheatsheets', icon: 'reference', items: [
+      { title: 'React Cheatsheet (devhints)', url: 'https://devhints.io/react', description: 'A concise one-page reference for React hooks, lifecycle, and JSX.' },
+      { title: 'React TypeScript Cheatsheet', url: 'https://react-typescript-cheatsheet.netlify.app/', description: 'Comprehensive reference for using React with TypeScript.' },
+    ]},
+    { label: 'News & Updates', icon: 'news', items: [
+      { title: 'React Blog', url: 'https://react.dev/blog', description: 'Official React blog with release announcements, RFCs, and community updates.' },
+      { title: 'React Newsletter', url: 'https://reactnewsletter.com/', description: 'Weekly curated React news, articles, and libraries.' },
+    ]},
+    { label: 'Community', icon: 'community', items: [
+      { title: 'Reddit r/reactjs', url: 'https://www.reddit.com/r/reactjs/', description: 'The largest React community for news, discussions, and project showcases.' },
+      { title: 'React Discord', url: 'https://discord.gg/react', description: 'Official React Discord server for real-time community Q&A.' },
+      { title: 'React DevTools', url: 'https://react.dev/learn/react-developer-tools', description: 'Official browser extension for debugging React applications.' },
+    ]},
+  ],
+};
+
+// ═══════════════════════════════════════════════════════════════════════
+// VUE.JS
+// ═══════════════════════════════════════════════════════════════════════
+
+export const vueResources: LanguageResources = {
+  slug: 'vue', name: 'Vue.js',
+  description: 'Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UIs on the web. Its core library focuses on the view layer only, making it easy to integrate with other libraries or existing projects.',
+  categories: [
+    { label: 'Free Books', icon: 'book', items: [
+      { title: 'Vue.js Official Guide', url: 'https://vuejs.org/guide/introduction.html', description: 'The definitive official guide covering Vue 3, Composition API, and advanced patterns.' },
+      { title: 'LearnVue Guides', url: 'https://learnvue.co/', description: 'Detailed written tutorials covering state management, routing, and component architecture.' },
+    ]},
+    { label: 'Official Documentation', icon: 'docs', items: [
+      { title: 'Vue.js Docs', url: 'https://vuejs.org/', description: 'Complete official documentation with interactive tutorial, API reference, and migration guides.' },
+      { title: 'Vue Router Docs', url: 'https://router.vuejs.org/', description: 'Official routing solution for Vue.js with dynamic route matching and navigation guards.' },
+      { title: 'Pinia State Management', url: 'https://pinia.vuejs.org/', description: 'Official Vue state management library with full TypeScript support.' },
+    ]},
+    { label: 'Interactive Courses', icon: 'code', items: [
+      { title: 'Scrimba Learn Vue', url: 'https://scrimba.com/learn-vue-c0jrrpaasr', description: 'Free interactive intro course with browser-based code editing.' },
+      { title: 'Vue.js Tutorial (freeCodeCamp)', url: 'https://www.freecodecamp.org/news/search/?query=vue', description: 'Free project-based Vue.js tutorials and full courses.' },
+    ]},
+    { label: 'Video Courses', icon: 'video', items: [
+      { title: 'Vue.js 3 Playlist (Net Ninja)', url: 'https://www.youtube.com/playlist?list=PL4cUxeGkcC9hYYGbV60Vq3IXYNfDk8At1', description: 'Structured YouTube series covering Options API, Router, and Composition API.' },
+    ]},
+    { label: 'Practice & Challenges', icon: 'terminal', items: [
+      { title: 'Vue SFC Playground', url: 'https://play.vuejs.org/', description: 'Official Vue single-file component playground for testing in the browser.' },
+    ]},
+    { label: 'Reference & Cheatsheets', icon: 'reference', items: [
+      { title: 'Vue Cheatsheets (Vue School)', url: 'https://vueschool.io/cheatsheets', description: 'Free downloadable quick-reference guides for Vue 3, Pinia, and Composition API.' },
+    ]},
+    { label: 'News & Updates', icon: 'news', items: [
+      { title: 'Vue.js Blog', url: 'https://vuejs.org/', description: 'Official release notes, RFCs, and ecosystem updates from the core team.' },
+      { title: 'Awesome Vue', url: 'https://github.com/vuejs/awesome-vue', description: 'Curated list of Vue ecosystem libraries, plugins, and tools.' },
+    ]},
+    { label: 'Community', icon: 'community', items: [
+      { title: 'Reddit r/vuejs', url: 'https://www.reddit.com/r/vuejs/', description: 'Active community for Vue discussions, projects, and debugging.' },
+      { title: 'Vue Land Discord', url: 'https://discord.gg/vue', description: 'Official Discord community for real-time Vue help.' },
+    ]},
+  ],
+};
+
+// ═══════════════════════════════════════════════════════════════════════
+// ANGULAR
+// ═══════════════════════════════════════════════════════════════════════
+
+export const angularResources: LanguageResources = {
+  slug: 'angular', name: 'Angular',
+  description: 'Angular is a platform for building mobile and desktop web applications, developed by Google. It provides a complete solution with routing, forms, HTTP client, and testing utilities built in.',
+  categories: [
+    { label: 'Free Books', icon: 'book', items: [
+      { title: 'Angular Documentation', url: 'https://angular.dev/', description: 'The official Angular documentation with interactive guides, tutorials, and API reference.' },
+      { title: 'Angular Handbook (freeCodeCamp)', url: 'https://www.freecodecamp.org/news/search/?query=angular', description: 'Free Angular tutorials and courses covering components, services, and routing.' },
+    ]},
+    { label: 'Official Documentation', icon: 'docs', items: [
+      { title: 'Angular Tutorial (Tour of Heroes)', url: 'https://angular.dev/tutorials/learn-angular', description: 'The official step-by-step tutorial teaching Angular fundamentals through building an app.' },
+      { title: 'Angular CLI Reference', url: 'https://angular.dev/cli', description: 'Complete Angular CLI command reference for generating and building projects.' },
+      { title: 'Angular API Reference', url: 'https://angular.dev/api', description: 'Complete API documentation for all Angular packages.' },
+    ]},
+    { label: 'Interactive Courses', icon: 'code', items: [
+      { title: 'Angular.dev Tutorials', url: 'https://angular.dev/tutorials', description: 'Official interactive tutorials teaching Angular through hands-on exercises.' },
+    ]},
+    { label: 'Video Courses', icon: 'video', items: [
+      { title: 'Angular Full Course (freeCodeCamp)', url: 'https://www.youtube.com/watch?v=3dHNOWTI7H8', description: 'Comprehensive Angular course covering components, services, and reactive forms.' },
+      { title: 'Angular Tutorial for Beginners', url: 'https://www.youtube.com/playlist?list=PLIjdNHWULhPSZf6iP5_WMBNuGZZLYk5pz', description: 'Step-by-step Angular tutorial series for beginners.' },
+    ]},
+    { label: 'Practice & Challenges', icon: 'terminal', items: [
+      { title: 'Angular Playground', url: 'https://stackblitz.com/', description: 'Online editor with Angular templates for rapid prototyping.' },
+    ]},
+    { label: 'Reference & Cheatsheets', icon: 'reference', items: [
+      { title: 'Angular Cheatsheet', url: 'https://angular.dev/cheatsheet', description: 'Official Angular quick reference for syntax, directives, and decorators.' },
+    ]},
+    { label: 'News & Updates', icon: 'news', items: [
+      { title: 'Angular Blog', url: 'https://blog.angular.dev/', description: 'Official Angular blog with version releases and feature updates.' },
+      { title: 'Angular Weekly', url: 'https://angularexperts.io/', description: 'Weekly Angular news and ecosystem updates.' },
+    ]},
+    { label: 'Community', icon: 'community', items: [
+      { title: 'Reddit r/Angular', url: 'https://www.reddit.com/r/Angular2/', description: 'Community for Angular discussions, project showcases, and troubleshooting.' },
+      { title: 'Angular Discord', url: 'https://discord.gg/angular', description: 'Official Angular Discord server for community Q&A.' },
+    ]},
+  ],
+};
+
+// ═══════════════════════════════════════════════════════════════════════
+// SVELTE
+// ═══════════════════════════════════════════════════════════════════════
+
+export const svelteResources: LanguageResources = {
+  slug: 'svelte', name: 'Svelte',
+  description: 'Svelte is a revolutionary frontend compiler that shifts the work from the browser to the build step. It produces highly optimized vanilla JavaScript, resulting in smaller bundles and better performance.',
+  categories: [
+    { label: 'Free Books', icon: 'book', items: [
+      { title: 'Svelte Tutorial (Official)', url: 'https://svelte.dev/tutorial/', description: 'The official interactive Svelte tutorial covering everything from basics to advanced patterns.' },
+      { title: 'Svelte Docs', url: 'https://svelte.dev/docs/', description: 'Complete Svelte documentation with guides and API references.' },
+    ]},
+    { label: 'Official Documentation', icon: 'docs', items: [
+      { title: 'Svelte.dev', url: 'https://svelte.dev/', description: 'Official Svelte site with interactive tutorial, docs, and examples.' },
+      { title: 'SvelteKit Docs', url: 'https://kit.svelte.dev/docs/', description: 'Official SvelteKit documentation for building full-stack applications.' },
+    ]},
+    { label: 'Interactive Courses', icon: 'code', items: [
+      { title: 'Svelte Tutorial', url: 'https://svelte.dev/tutorial/', description: 'Free interactive browser-based tutorial teaching Svelte from scratch.' },
+    ]},
+    { label: 'Video Courses', icon: 'video', items: [
+      { title: 'Svelte Course (freeCodeCamp)', url: 'https://www.youtube.com/results?search_query=svelte+full+course', description: 'Free multi-hour Svelte video course for beginners.' },
+    ]},
+    { label: 'Practice & Challenges', icon: 'terminal', items: [
+      { title: 'Svelte Playground', url: 'https://svelte.dev/playground/', description: 'Official Svelte playground for testing components in the browser.' },
+    ]},
+    { label: 'Reference & Cheatsheets', icon: 'reference', items: [
+      { title: 'Svelte Cheatsheet', url: 'https://devhints.io/svelte', description: 'Quick reference for Svelte syntax, reactivity, and component patterns.' },
+    ]},
+    { label: 'News & Updates', icon: 'news', items: [
+      { title: 'Svelte Blog', url: 'https://svelte.dev/blog/', description: 'Official Svelte blog with release notes and community highlights.' },
+    ]},
+    { label: 'Community', icon: 'community', items: [
+      { title: 'Reddit r/sveltejs', url: 'https://www.reddit.com/r/sveltejs/', description: 'Community for Svelte discussions and project showcases.' },
+      { title: 'Svelte Discord', url: 'https://discord.gg/svelte', description: 'Official Svelte Discord server.' },
+    ]},
+  ],
+};
+
+// ═══════════════════════════════════════════════════════════════════════
+// NODE.JS
+// ═══════════════════════════════════════════════════════════════════════
+
+export const nodejsResources: LanguageResources = {
+  slug: 'nodejs', name: 'Node.js',
+  description: 'Node.js is a JavaScript runtime built on Chrome\'s V8 engine that enables server-side JavaScript. It powers millions of backends, APIs, and microservices with its event-driven, non-blocking I/O model.',
+  categories: [
+    { label: 'Free Books', icon: 'book', items: [
+      { title: 'Node.js Learn Guides', url: 'https://nodejs.org/learn', description: 'Official Node.js tutorial hub covering HTTP servers, file system, async patterns, and more.' },
+      { title: 'Node.js Best Practices', url: 'https://github.com/goldbergyoni/nodebestpractices', description: 'The largest compilation of production-grade Node.js best practices and architecture tips.' },
+    ]},
+    { label: 'Official Documentation', icon: 'docs', items: [
+      { title: 'Node.js API Reference', url: 'https://nodejs.org/api/', description: 'Complete API documentation for all core modules: fs, http, crypto, stream, and path.' },
+      { title: 'Node.js Release Schedule', url: 'https://nodejs.org/en/about/previous-releases', description: 'LTS release cycle information for production deployment planning.' },
+    ]},
+    { label: 'Interactive Courses', icon: 'code', items: [
+      { title: 'The Odin Project Node.js', url: 'https://www.theodinproject.com/paths/full-stack-javascript/courses/nodejs', description: 'Free open-source Node.js curriculum with real-world projects.' },
+    ]},
+    { label: 'Video Courses', icon: 'video', items: [
+      { title: 'Node.js Full Course (freeCodeCamp)', url: 'https://www.youtube.com/watch?v=Oe421EPjeBE', description: 'Multi-hour Node.js and Express.js course covering backend development.' },
+      { title: 'Node.js Crash Course (Traversy Media)', url: 'https://www.youtube.com/watch?v=fBNz5xF-Kx4', description: 'Popular Node.js crash course covering essential concepts.' },
+    ]},
+    { label: 'Practice & Challenges', icon: 'terminal', items: [
+      { title: 'Node.js Playground', url: 'https://runkit.com/', description: 'Online Node.js playground for testing code snippets in the browser.' },
+    ]},
+    { label: 'Reference & Cheatsheets', icon: 'reference', items: [
+      { title: 'Node.js Cheatsheet', url: 'https://devhints.io/nodejs', description: 'A concise one-page reference for Node.js modules and patterns.' },
+    ]},
+    { label: 'News & Updates', icon: 'news', items: [
+      { title: 'Node.js Blog', url: 'https://nodejs.org/en/blog/', description: 'Official Node.js blog with release notes and security announcements.' },
+      { title: 'Node Weekly', url: 'https://nodeweekly.com/', description: 'Weekly newsletter covering Node.js articles, tutorials, and tools.' },
+    ]},
+    { label: 'Community', icon: 'community', items: [
+      { title: 'Node.js GitHub', url: 'https://github.com/nodejs/node', description: 'Official Node.js repository with issues and discussions.' },
+      { title: 'Reddit r/node', url: 'https://www.reddit.com/r/node/', description: 'Largest Node.js community for discussions and project showcases.' },
+    ]},
+  ],
+};
+
+// ═══════════════════════════════════════════════════════════════════════
+// EXPRESS.JS
+// ═══════════════════════════════════════════════════════════════════════
+
+export const expressResources: LanguageResources = {
+  slug: 'express', name: 'Express.js',
+  description: 'Express is the most popular web framework for Node.js, providing a robust set of features for web and mobile applications. It is minimal, flexible, and the foundation for many Node.js frameworks.',
+  categories: [
+    { label: 'Free Books', icon: 'book', items: [
+      { title: 'Express Official Docs', url: 'https://expressjs.com/', description: 'The official Express documentation with getting started guide, API reference, and advanced topics.' },
+      { title: 'Express Guide (MDN)', url: 'https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs', description: 'MDN comprehensive tutorial on building Express applications with Node.js.' },
+    ]},
+    { label: 'Official Documentation', icon: 'docs', items: [
+      { title: 'Express API Reference', url: 'https://expressjs.com/en/api.html', description: 'Complete API documentation for Express: routing, middleware, request/response, and error handling.' },
+      { title: 'Express Middleware List', url: 'https://expressjs.com/en/resources/middleware.html', description: 'Official list of Express middleware modules for sessions, cookies, CORS, and more.' },
+    ]},
+    { label: 'Interactive Courses', icon: 'code', items: [
+      { title: 'MDN Express Tutorial', url: 'https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs', description: 'Free interactive tutorial creating a complete Express application.' },
+    ]},
+    { label: 'Video Courses', icon: 'video', items: [
+      { title: 'Express.js Full Course (freeCodeCamp)', url: 'https://www.youtube.com/watch?v=SccSCuHhOw0', description: 'Comprehensive Express.js course covering REST APIs, middleware, and databases.' },
+    ]},
+    { label: 'Practice & Challenges', icon: 'terminal', items: [
+      { title: 'Express Todo App Tutorial', url: 'https://expressjs.com/en/starter/hello-world.html', description: 'Start with the official hello world example and build from there.' },
+    ]},
+    { label: 'Reference & Cheatsheets', icon: 'reference', items: [
+      { title: 'Express Cheatsheet', url: 'https://devhints.io/express', description: 'Quick reference for Express routes, middleware, and response methods.' },
+    ]},
+    { label: 'News & Updates', icon: 'news', items: [
+      { title: 'Express GitHub Releases', url: 'https://github.com/expressjs/express/releases', description: 'Express.js release notes and changelog.' },
+    ]},
+    { label: 'Community', icon: 'community', items: [
+      { title: 'Express GitHub', url: 'https://github.com/expressjs/express', description: 'Official Express repository with issues and community discussions.' },
+      { title: 'Stack Overflow - Express Tag', url: 'https://stackoverflow.com/questions/tagged/express', description: 'Q&A for Express.js questions and troubleshooting.' },
+    ]},
+  ],
+};
+
+// ═══════════════════════════════════════════════════════════════════════
+// FLUTTER
+// ═══════════════════════════════════════════════════════════════════════
+
+export const flutterResources: LanguageResources = {
+  slug: 'flutter', name: 'Flutter',
+  description: 'Flutter is Google\'s UI toolkit for building beautiful, natively compiled applications for mobile, web, and desktop from a single codebase. It uses the Dart language and provides a rich set of built-in widgets.',
+  categories: [
+    { label: 'Free Books', icon: 'book', items: [
+      { title: 'Flutter Learn Docs', url: 'https://docs.flutter.dev/learn', description: 'Official Flutter learning hub covering setup, building apps, and writing Dart code.' },
+      { title: 'Flutter Codelabs', url: 'https://docs.flutter.dev/reference/learning-resources', description: 'Guided hands-on tutorials covering everything from first app to advanced animations.' },
+    ]},
+    { label: 'Official Documentation', icon: 'docs', items: [
+      { title: 'Flutter.dev', url: 'https://flutter.dev/', description: 'Official Flutter website with docs, API reference, and widget catalog.' },
+      { title: 'Flutter Widget Catalog', url: 'https://docs.flutter.dev/ui/widgets', description: 'Complete catalog of Flutter widgets organized by category.' },
+      { title: 'Flutter API Reference', url: 'https://api.flutter.dev/', description: 'Complete Dart API reference for Flutter framework and engine.' },
+    ]},
+    { label: 'Interactive Courses', icon: 'code', items: [
+      { title: 'Google Codelabs (Flutter)', url: 'https://codelabs.developers.google.com/', description: 'Free interactive Flutter coding labs from Google covering various topics.' },
+    ]},
+    { label: 'Video Courses', icon: 'video', items: [
+      { title: 'Flutter Full Course (freeCodeCamp)', url: 'https://www.youtube.com/watch?v=pTJJsmejUOQ', description: 'Multi-hour Flutter crash course covering architecture, widgets, and state management.' },
+      { title: 'Flutter 37-Hour Course (Vandad)', url: 'https://www.freecodecamp.org/news/learn-flutter-full-course/', description: 'Massive zero-to-hero Flutter course covering Dart, state management, Firebase, and deployment.' },
+    ]},
+    { label: 'Practice & Challenges', icon: 'terminal', items: [
+      { title: 'DartPad', url: 'https://dartpad.dev/', description: 'Official browser-based Dart and Flutter playground for testing code online.' },
+    ]},
+    { label: 'Reference & Cheatsheets', icon: 'reference', items: [
+      { title: 'Flutter Cheatsheet', url: 'https://www.docuwriter.ai/flutter-cheat-sheet', description: 'Quick reference for Flutter widgets, layout patterns, and state management.' },
+    ]},
+    { label: 'News & Updates', icon: 'news', items: [
+      { title: 'Flutter Blog', url: 'https://flutter.dev/blog', description: 'Official Flutter blog with release notes and engineering updates.' },
+    ]},
+    { label: 'Community', icon: 'community', items: [
+      { title: 'Reddit r/FlutterDev', url: 'https://www.reddit.com/r/FlutterDev/', description: 'Large Flutter community for package updates and technical discussions.' },
+      { title: 'Flutter Discord', url: 'https://discord.gg/flutter', description: 'Official Flutter Discord community.' },
+    ]},
+  ],
+};
+
+// ═══════════════════════════════════════════════════════════════════════
+// LINUX
+// ═══════════════════════════════════════════════════════════════════════
+
+export const linuxResources: LanguageResources = {
+  slug: 'linux', name: 'Linux',
+  description: 'Linux is the most widely used operating system for servers, cloud infrastructure, embedded systems, and increasingly desktops. It powers everything from Android phones to supercomputers worldwide.',
+  categories: [
+    { label: 'Free Books', icon: 'book', items: [
+      { title: 'Linux Journey', url: 'https://linuxjourney.com/', description: 'The best free interactive guide to learning Linux from basics to advanced system administration.' },
+      { title: 'The Linux Command Line (PDF)', url: 'https://linuxcommand.org/tlcl.php', description: 'A free book by William Shotts covering Linux command line basics and shell scripting.' },
+      { title: 'Arch Linux Wiki', url: 'https://wiki.archlinux.org/', description: 'The most comprehensive Linux documentation resource covering almost every Linux topic.' },
+    ]},
+    { label: 'Official Documentation', icon: 'docs', items: [
+      { title: 'Linux Kernel Documentation', url: 'https://www.kernel.org/doc/html/latest/', description: 'Official Linux kernel documentation covering architecture, drivers, and subsystems.' },
+      { title: 'Linux Foundation Training', url: 'https://training.linuxfoundation.org/resources/', description: 'Free Linux training materials, courses, and certifications from the Linux Foundation.' },
+    ]},
+    { label: 'Interactive Courses', icon: 'code', items: [
+      { title: 'Linux Journey', url: 'https://linuxjourney.com/', description: 'Interactive browser-based Linux learning with hands-on exercises.' },
+      { title: 'Linux Survival', url: 'https://linuxsurvival.com/', description: 'Free interactive Linux tutorial for absolute beginners.' },
+    ]},
+    { label: 'Video Courses', icon: 'video', items: [
+      { title: 'Linux Course for Beginners (freeCodeCamp)', url: 'https://www.youtube.com/watch?v=HbgzrKJvKPw', description: 'Multi-hour Linux course covering command line, file system, and administration.' },
+    ]},
+    { label: 'Practice & Challenges', icon: 'terminal', items: [
+      { title: 'Linux Playground', url: 'https://bellard.org/jslinux/', description: 'Browser-based Linux terminal for practicing commands without installation.' },
+    ]},
+    { label: 'Reference & Cheatsheets', icon: 'reference', items: [
+      { title: 'Linux Command Cheatsheet', url: 'https://devhints.io/linux', description: 'A concise one-page reference for essential Linux commands and bash scripting.' },
+    ]},
+    { label: 'News & Updates', icon: 'news', items: [
+      { title: 'Linux Foundation Blog', url: 'https://www.linuxfoundation.org/blog/', description: 'Linux Foundation news and open-source community updates.' },
+      { title: 'Phoronix', url: 'https://www.phoronix.com/', description: 'Leading Linux hardware reviews, benchmarks, and kernel development news.' },
+    ]},
+    { label: 'Community', icon: 'community', items: [
+      { title: 'Reddit r/linux', url: 'https://www.reddit.com/r/linux/', description: 'The largest Linux community on Reddit for news and discussions.' },
+      { title: 'Stack Overflow - Linux Tag', url: 'https://stackoverflow.com/questions/tagged/linux', description: 'Q&A for Linux command line and administration questions.' },
+    ]},
+  ],
+};
+
+// ═══════════════════════════════════════════════════════════════════════
+// POSTGRESQL
+// ═══════════════════════════════════════════════════════════════════════
+
+export const postgresqlResources: LanguageResources = {
+  slug: 'postgresql', name: 'PostgreSQL',
+  description: 'PostgreSQL is the worlds most advanced open-source relational database. It features ACID transactions, extensible data types, full-text search, and powerful indexing capabilities for production workloads.',
+  categories: [
+    { label: 'Free Books', icon: 'book', items: [
+      { title: 'PostgreSQL Official Docs', url: 'https://www.postgresql.org/docs/', description: 'The definitive manual covering everything from installation to server internals and optimization.' },
+      { title: 'PostgreSQL Tutorial (TutorialsPoint)', url: 'https://www.tutorialspoint.com/postgresql/index.htm', description: 'Comprehensive online guide covering fundamentals, database design, and advanced features.' },
+    ]},
+    { label: 'Official Documentation', icon: 'docs', items: [
+      { title: 'PostgreSQL Manual', url: 'https://www.postgresql.org/docs/current/', description: 'Complete reference for SQL syntax, server configuration, and PL/pgSQL.' },
+      { title: 'Awesome Postgres (GitHub)', url: 'https://github.com/dhamaniasad/awesome-postgres', description: 'Curated list of PostgreSQL software, tools, and resources.' },
+    ]},
+    { label: 'Interactive Courses', icon: 'code', items: [
+      { title: 'PG Exercises', url: 'https://www.pgexercises.com/', description: 'Free interactive PostgreSQL exercises from basic SELECT to complex joins.' },
+      { title: 'Crunchy Data Tutorials', url: 'https://www.crunchydata.com/developers/tutorials', description: 'Interactive Postgres playground with sample datasets and structured guides.' },
+    ]},
+    { label: 'Video Courses', icon: 'video', items: [
+      { title: 'PostgreSQL Course (freeCodeCamp)', url: 'https://www.youtube.com/watch?v=qw--VYLpxG4', description: 'Comprehensive PostgreSQL course covering SQL, indexes, and optimization.' },
+    ]},
+    { label: 'Practice & Challenges', icon: 'terminal', items: [
+      { title: 'PG Exercises', url: 'https://www.pgexercises.com/', description: 'Hands-on SQL practice with real-time query evaluation.' },
+    ]},
+    { label: 'Reference & Cheatsheets', icon: 'reference', items: [
+      { title: 'PostgreSQL Cheatsheet', url: 'https://devhints.io/postgresql', description: 'A concise one-page reference for PostgreSQL SQL commands and psql meta-commands.' },
+    ]},
+    { label: 'News & Updates', icon: 'news', items: [
+      { title: 'Planet PostgreSQL', url: 'https://planet.postgresql.org/', description: 'Official blog aggregator with articles from core developers and experts.' },
+      { title: 'PostgreSQL Weekly', url: 'https://postgresweekly.com/', description: 'Weekly newsletter covering PostgreSQL news, tools, and tutorials.' },
+    ]},
+    { label: 'Community', icon: 'community', items: [
+      { title: 'Reddit r/PostgreSQL', url: 'https://www.reddit.com/r/PostgreSQL/', description: 'Active community for troubleshooting and architecture advice.' },
+      { title: 'PostgreSQL Community Hub', url: 'https://www.postgresql.org/community/', description: 'Official community resources including mailing lists and user groups.' },
+    ]},
+  ],
+};
+
+// ═══════════════════════════════════════════════════════════════════════
+// REDIS
+// ═══════════════════════════════════════════════════════════════════════
+
+export const redisResources: LanguageResources = {
+  slug: 'redis', name: 'Redis',
+  description: 'Redis is an open-source, in-memory data structure store used as a database, cache, message broker, and streaming engine. It supports strings, hashes, lists, sets, sorted sets, and more with sub-millisecond latency.',
+  categories: [
+    { label: 'Free Books', icon: 'book', items: [
+      { title: 'Redis Official Docs', url: 'https://redis.io/docs/', description: 'Complete Redis documentation covering commands, data types, and client libraries.' },
+      { title: 'Redis Crash Course', url: 'https://redis.io/docs/getting-started/', description: 'Official getting started guide for Redis fundamentals.' },
+    ]},
+    { label: 'Official Documentation', icon: 'docs', items: [
+      { title: 'Redis Commands Reference', url: 'https://redis.io/commands/', description: 'Complete reference for all Redis commands organized by data type.' },
+      { title: 'Redis Data Types', url: 'https://redis.io/docs/data-types/', description: 'Documentation for Redis data structures: strings, lists, sets, hashes, sorted sets, and streams.' },
+    ]},
+    { label: 'Interactive Courses', icon: 'code', items: [
+      { title: 'Try Redis', url: 'https://try.redis.io/', description: 'Interactive browser-based Redis tutorial with hands-on command exercises.' },
+    ]},
+    { label: 'Video Courses', icon: 'video', items: [
+      { title: 'Redis Course (freeCodeCamp)', url: 'https://www.youtube.com/watch?v=G1rOthIU-uo', description: 'Free Redis course covering caching, pub/sub, and data persistence.' },
+    ]},
+    { label: 'Practice & Challenges', icon: 'terminal', items: [
+      { title: 'Redis Playground', url: 'https://try.redis.io/', description: 'Online Redis playground to practice commands in the browser.' },
+    ]},
+    { label: 'Reference & Cheatsheets', icon: 'reference', items: [
+      { title: 'Redis Commands Cheatsheet', url: 'https://devhints.io/redis', description: 'A concise one-page reference for common Redis commands.' },
+    ]},
+    { label: 'News & Updates', icon: 'news', items: [
+      { title: 'Redis Blog', url: 'https://redis.io/blog/', description: 'Official Redis blog with release notes and technical articles.' },
+    ]},
+    { label: 'Community', icon: 'community', items: [
+      { title: 'Redis Discord', url: 'https://discord.gg/redis', description: 'Official Redis community Discord server.' },
+      { title: 'Stack Overflow - Redis Tag', url: 'https://stackoverflow.com/questions/tagged/redis', description: 'Q&A for Redis command and architecture questions.' },
+    ]},
+  ],
+};
 // ─── Registry — all languages with curated resources ────────────────
 
 const RESOURCE_REGISTRY: Record<string, LanguageResources> = {
@@ -3024,6 +3425,16 @@ const RESOURCE_REGISTRY: Record<string, LanguageResources> = {
   kubernetes: kubernetesResources,
   ansible: ansibleResources,
   llvm: llvmResources,
+  react: reactResources,
+  vue: vueResources,
+  angular: angularResources,
+  svelte: svelteResources,
+  nodejs: nodejsResources,
+  express: expressResources,
+  flutter: flutterResources,
+  linux: linuxResources,
+  postgresql: postgresqlResources,
+  redis: redisResources,
 };
 
 export function getLanguageResources(slug: string): LanguageResources | null {

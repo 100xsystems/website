@@ -10,6 +10,7 @@ import {
   SiElm, SiGraphql, SiGleam, SiSolidity, SiWebassembly, SiAda, SiHaxe, SiTerraform, SiMarkdown,
   SiLatex, SiCommonlisp, SiProcessingfoundation, SiScratch, SiWolframlanguage, SiGodotengine, SiLabview, SiAutohotkey, SiJson, SiToml,
   SiPurescript, SiSass, SiLess, SiPug, SiJinja, SiNixos, SiDocker, SiKubernetes, SiAnsible, SiLlvm,
+  SiReact, SiVuedotjs, SiAngular, SiSvelte, SiNodedotjs, SiExpress, SiFlutter, SiLinux, SiPostgresql, SiRedis,
 } from 'react-icons/si';
 import { FaBook, FaFileAlt, FaLaptopCode, FaPlay, FaTerminal, FaSearch, FaNewspaper, FaUsers } from 'react-icons/fa';
 import { getLanguageMeta, getHandcraftedSystems } from '@/lib/mdx';
@@ -89,6 +90,16 @@ const LANG_ICONS: Record<string, React.ReactNode> = {
   kubernetes: <SiKubernetes size={28} />,
   ansible:    <SiAnsible size={28} />,
   llvm:       <SiLlvm size={28} />,
+  react:      <SiReact size={28} />,
+  vue:        <SiVuedotjs size={28} />,
+  angular:    <SiAngular size={28} />,
+  svelte:     <SiSvelte size={28} />,
+  nodejs:     <SiNodedotjs size={28} />,
+  express:    <SiExpress size={28} />,
+  flutter:    <SiFlutter size={28} />,
+  linux:      <SiLinux size={28} />,
+  postgresql: <SiPostgresql size={28} />,
+  redis:      <SiRedis size={28} />,
 };
 
 const LANG_HERO: Record<string, { bg: string; iconBg: string }> = {
@@ -161,6 +172,16 @@ const LANG_HERO: Record<string, { bg: string; iconBg: string }> = {
   kubernetes: { bg: 'bg-[#326CE5]', iconBg: 'bg-[#326CE5] text-white' },
   ansible:    { bg: 'bg-[#EE0000]', iconBg: 'bg-[#EE0000] text-white' },
   llvm:       { bg: 'bg-[#4E8CAB]', iconBg: 'bg-[#4E8CAB] text-white' },
+  react:      { bg: 'bg-[#61DAFB]', iconBg: 'bg-[#61DAFB] text-black' },
+  vue:        { bg: 'bg-[#4FC08D]', iconBg: 'bg-[#4FC08D] text-white' },
+  angular:    { bg: 'bg-[#DD0031]', iconBg: 'bg-[#DD0031] text-white' },
+  svelte:     { bg: 'bg-[#FF3E00]', iconBg: 'bg-[#FF3E00] text-white' },
+  nodejs:     { bg: 'bg-[#339933]', iconBg: 'bg-[#339933] text-white' },
+  express:    { bg: 'bg-[#000000]', iconBg: 'bg-[#000000] text-white' },
+  flutter:    { bg: 'bg-[#02569B]', iconBg: 'bg-[#02569B] text-white' },
+  linux:      { bg: 'bg-[#FCC624]', iconBg: 'bg-[#FCC624] text-black' },
+  postgresql: { bg: 'bg-[#4169E1]', iconBg: 'bg-[#4169E1] text-white' },
+  redis:      { bg: 'bg-[#DC382D]', iconBg: 'bg-[#DC382D] text-white' },
 };
 
 const CATEGORY_ICONS: Record<string, React.ReactNode> = {
@@ -199,6 +220,8 @@ const KNOWN_SLUGS = new Set([
   'gdscript', 'labview', 'autohotkey', 'json', 'toml',
   'purescript', 'sass', 'less', 'pug', 'jinja',
   'nix', 'docker', 'kubernetes', 'ansible', 'llvm',
+  'react', 'vue', 'angular', 'svelte', 'nodejs',
+  'express', 'flutter', 'linux', 'postgresql', 'redis',
 ]);
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
