@@ -14,6 +14,13 @@ import {
   SiSharp,
   SiGo,
   SiRust,
+  SiScala,
+  SiR,
+  SiDart,
+  SiElixir,
+  SiHaskell,
+  SiLua,
+  SiGnubash,
 } from 'react-icons/si';
 import { FaBook, FaFileAlt, FaLaptopCode, FaPlay, FaTerminal, FaSearch, FaNewspaper, FaUsers } from 'react-icons/fa';
 import { getLanguageMeta, getHandcraftedSystems } from '@/lib/mdx';
@@ -36,6 +43,13 @@ const LANG_ICONS: Record<string, React.ReactNode> = {
   csharp:     <SiSharp size={28} />,
   go:         <SiGo size={28} />,
   rust:       <SiRust size={28} />,
+  scala:      <SiScala size={28} />,
+  r:          <SiR size={28} />,
+  dart:       <SiDart size={28} />,
+  elixir:     <SiElixir size={28} />,
+  haskell:    <SiHaskell size={28} />,
+  lua:        <SiLua size={28} />,
+  shell:      <SiGnubash size={28} />,
 };
 
 const LANG_HERO: Record<string, { bg: string; iconBg: string }> = {
@@ -51,6 +65,13 @@ const LANG_HERO: Record<string, { bg: string; iconBg: string }> = {
   csharp:     { bg: 'bg-[#239120]', iconBg: 'bg-[#239120] text-white' },
   go:         { bg: 'bg-[#00ADD8]', iconBg: 'bg-[#00ADD8] text-white' },
   rust:       { bg: 'bg-[#000000]', iconBg: 'bg-[#000000] text-white' },
+  scala:      { bg: 'bg-[#DC322F]', iconBg: 'bg-[#DC322F] text-white' },
+  r:          { bg: 'bg-[#276DC3]', iconBg: 'bg-[#276DC3] text-white' },
+  dart:       { bg: 'bg-[#0175C2]', iconBg: 'bg-[#0175C2] text-white' },
+  elixir:     { bg: 'bg-[#4B275F]', iconBg: 'bg-[#4B275F] text-white' },
+  haskell:    { bg: 'bg-[#5D4F85]', iconBg: 'bg-[#5D4F85] text-white' },
+  lua:        { bg: 'bg-[#000080]', iconBg: 'bg-[#000080] text-white' },
+  shell:      { bg: 'bg-[#4EAA25]', iconBg: 'bg-[#4EAA25] text-white' },
 };
 
 const CATEGORY_ICONS: Record<string, React.ReactNode> = {
@@ -78,6 +99,7 @@ const CATEGORY_BG: Record<string, string> = {
 const KNOWN_SLUGS = new Set([
   'javascript', 'python', 'typescript', 'java', 'cpp',
   'kotlin', 'swift', 'ruby', 'php', 'csharp', 'go', 'rust',
+  'scala', 'r', 'dart', 'elixir', 'haskell', 'lua', 'shell',
 ]);
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {

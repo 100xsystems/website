@@ -620,6 +620,327 @@ export const rustResources: LanguageResources = {
   ],
 };
 
+// ═══════════════════════════════════════════════════════════════════════
+// SCALA
+// ═══════════════════════════════════════════════════════════════════════
+
+export const scalaResources: LanguageResources = {
+  slug: 'scala',
+  name: 'Scala',
+  description: 'Scala combines object-oriented and functional programming on the JVM. It powers high-performance data pipelines (Apache Spark), distributed systems (Akka), and type-safe web applications. These are the definitive free resources — vetted, current, and complete.',
+  categories: [
+    { label: 'Free Books', icon: 'book', items: [
+      { title: 'Creative Scala', url: 'https://creativescala.org/', description: 'A fantastic free beginner book by Dave Gurnell and Noel Welsh teaching functional programming through computer graphics and visual exercises.' },
+      { title: 'Scala 3 Book (Official)', url: 'https://docs.scala-lang.org/scala3/book/introduction.html', description: 'The official Scala 3 book covering everything from the Tour of Scala to advanced functional patterns in the new syntax.' },
+    ]},
+    { label: 'Official Documentation', icon: 'docs', items: [
+      { title: 'Official Scala Documentation Hub', url: 'https://docs.scala-lang.org/', description: 'Central entry point for all Scala guides — Scala 3 references, migration guides, and best practices.' },
+      { title: 'Tour of Scala', url: 'https://docs.scala-lang.org/tour.html', description: 'Official interactive tour covering OOP, functional programming, pattern matching, and type system features.' },
+      { title: 'Scala 3 Reference', url: 'https://docs.scala-lang.org/scala3/reference/overview.html', description: 'Technical specification for Scala 3 context parameters, match types, enums, and metaprogramming.' },
+    ]},
+    { label: 'Interactive Courses', icon: 'code', items: [
+      { title: 'Scala Exercises', url: 'https://www.scala-exercises.org/', description: 'Interactive platform to practice standard library features, functional programming, and libraries like Cats directly in the browser.' },
+      { title: 'LearnScala.org', url: 'https://www.learnscala.org/', description: 'A completely free browser-based interactive tutorial covering variables, types, functions, and collections.' },
+    ]},
+    { label: 'Video Courses', icon: 'video', items: [
+      { title: 'Rock the JVM — Scala at Light Speed', url: 'https://rockthejvm.com/', description: 'A fast-track free video course covering modern Scala 3 for experienced programmers by Daniel Ciocîrlan.' },
+      { title: 'DevInsideYou YouTube Channel', url: 'https://www.youtube.com/@DevInsideYou', description: 'Hundreds of free Scala screencasts, live coding sessions, and architecture tutorials covering Scala 3.' },
+    ]},
+    { label: 'Practice & Challenges', icon: 'terminal', items: [
+      { title: 'Exercism — Scala Track', url: 'https://exercism.org/tracks/scala', description: 'Mentor-backed code reviews with structured exercises using standard build tools.' },
+      { title: 'Codewars — Scala Kata', url: 'https://www.codewars.com/', description: 'Solve community-created challenges in Scala across hundreds of difficulty levels.' },
+    ]},
+    { label: 'Reference & Cheatsheets', icon: 'reference', items: [
+      { title: 'Visual Scala Reference', url: 'https://www.visual-scala.cs.illinois.edu/', description: 'A phenomenal visual guide mapping out common methods of the Scala Collections API.' },
+      { title: 'Scala 3 Cheatsheet (devhints)', url: 'https://devhints.io/scala', description: 'A concise reference covering Scala 3 syntax, types, collections, and functional patterns.' },
+    ]},
+    { label: 'News & Updates', icon: 'news', items: [
+      { title: 'Scala Times', url: 'https://scalatimes.com/', description: 'A free weekly newsletter curated by SoftwareMill covering Scala news, libraries, and conferences.' },
+      { title: 'This Week in Scala', url: 'https://thisweekinscala.substack.com/', description: 'A regular digest tracking new tutorials, GitHub releases, and community proposals.' },
+    ]},
+    { label: 'Community', icon: 'community', items: [
+      { title: 'Scala Users Discourse', url: 'https://users.scala-lang.org/', description: 'Official forum where language designers, maintainers, and learners discuss features and troubleshooting.' },
+      { title: 'Scala Discord', url: 'https://discord.gg/scala', description: 'Active real-time chat for getting help with compiler errors, sbt configs, and idiomatic Scala.' },
+      { title: 'Reddit r/scala', url: 'https://www.reddit.com/r/scala/', description: 'Community hub for discussions, library announcements, and Scala news.' },
+    ]},
+  ],
+};
+
+// ═══════════════════════════════════════════════════════════════════════
+// R
+// ═══════════════════════════════════════════════════════════════════════
+
+export const rResources: LanguageResources = {
+  slug: 'r',
+  name: 'R',
+  description: 'R is the definitive language for statistical computing, data analysis, and visualization. It powers academic research, data science, and machine learning workflows worldwide. These are the definitive free resources — vetted, current, and complete.',
+  categories: [
+    { label: 'Free Books', icon: 'book', items: [
+      { title: 'R for Data Science (2nd Edition)', url: 'https://r4ds.hadley.nz/', description: 'The gold standard for starting R. Teaches importing, tidying, transforming, visualizing, and modeling data using modern tidyverse workflows.' },
+      { title: 'Advanced R (2nd Edition)', url: 'https://adv-r.hadley.nz/', description: 'The definitive text for intermediate-to-advanced R — functional programming, metaprogramming, and performance optimization.' },
+      { title: 'An Introduction to Statistical Learning (ISLR)', url: 'https://www.statlearning.com/', description: 'A classic machine learning textbook available as free PDF with practical R labs in every chapter.' },
+    ]},
+    { label: 'Official Documentation', icon: 'docs', items: [
+      { title: 'CRAN R Manuals', url: 'https://cran.r-project.org/manuals.html', description: 'The official reference library maintained by the R Core Team covering language specs, data import/export, and extensions.' },
+      { title: 'Tidyverse Documentation', url: 'https://tidyverse.org/', description: 'Comprehensive docs for dplyr, ggplot2, tidyr, readr, and more with practical vignettes.' },
+    ]},
+    { label: 'Interactive Courses', icon: 'code', items: [
+      { title: 'Swirl Stats', url: 'https://swirlstats.com/', description: 'An interactive R package that teaches R syntax from inside the R console with immediate feedback.' },
+      { title: 'Kaggle Learn — R Micro-Course', url: 'https://www.kaggle.com/learn/r', description: 'Interactive in-browser course teaching basic data manipulation and visualization with instant code execution.' },
+    ]},
+    { label: 'Video Courses', icon: 'video', items: [
+      { title: 'Stanford — Statistical Learning with R', url: 'https://www.statlearning.com/', description: 'Taught by Hastie and Tibshirani, this free video companion walks through ML theory with applied R coding labs.' },
+      { title: 'StatQuest with Josh Starmer (YouTube)', url: 'https://www.youtube.com/@statquest', description: 'Builds intuitive mathematical frameworks for statistics and ML concepts needed for effective R analysis code.' },
+    ]},
+    { label: 'Practice & Challenges', icon: 'terminal', items: [
+      { title: 'Exercism — R Track', url: 'https://exercism.org/tracks/r', description: 'Progressive coding exercises with human mentor feedback from experienced R programmers.' },
+      { title: 'TidyTuesday (GitHub)', url: 'https://github.com/rfordatascience/tidytuesday', description: 'Weekly social data project with new datasets for analysis, visualization, and building a public portfolio.' },
+    ]},
+    { label: 'Reference & Cheatsheets', icon: 'reference', items: [
+      { title: 'Posit Cheatsheets', url: 'https://posit.co/resources/cheatsheets/', description: 'Beautiful visual quick-reference guides for ggplot2, dplyr, tidyr, R Markdown, and Quarto.' },
+      { title: 'R Reference Card', url: 'https://cran.r-project.org/doc/contrib/Short-refcard.pdf', description: 'A compact two-page reference for base R syntax, data types, and common functions.' },
+    ]},
+    { label: 'News & Updates', icon: 'news', items: [
+      { title: 'R-bloggers', url: 'https://www.r-bloggers.com/', description: 'The premier aggregator for R tutorials, package releases, and workflow tips.' },
+      { title: 'R Weekly', url: 'https://rweekly.org/', description: 'A community-curated weekly newsletter delivering the best new R tutorials, packages, and events.' },
+    ]},
+    { label: 'Community', icon: 'community', items: [
+      { title: 'Reddit r/rstats', url: 'https://www.reddit.com/r/rstats/', description: 'The most active forum for discussing R programming, updates, and career advice.' },
+      { title: 'Stack Overflow — R Tag', url: 'https://stackoverflow.com/questions/tagged/r', description: 'Definitive Q&A for R troubleshooting, data wrangling, and statistical analysis.' },
+      { title: 'RStudio Community', url: 'https://community.rstudio.com/', description: 'Official Posit community forum for tidyverse questions, Shiny apps, and best practices.' },
+    ]},
+  ],
+};
+
+// ═══════════════════════════════════════════════════════════════════════
+// DART
+// ═══════════════════════════════════════════════════════════════════════
+
+export const dartResources: LanguageResources = {
+  slug: 'dart',
+  name: 'Dart',
+  description: 'Dart is the language behind Flutter, Googles cross-platform UI framework. It is optimized for building fast mobile, web, and desktop apps with a single codebase. These are the definitive free resources — vetted, current, and complete.',
+  categories: [
+    { label: 'Free Books', icon: 'book', items: [
+      { title: 'Dart Language Tour (Official)', url: 'https://dart.dev/language', description: 'The official introduction to Dart covering variables, types, functions, collections, async, and modern Dart 3 features.' },
+      { title: 'Flutter Learn Pathway', url: 'https://docs.flutter.dev/learn', description: 'Google official starting point teaching Dart and Flutter from setup to building functional cross-platform apps.' },
+    ]},
+    { label: 'Official Documentation', icon: 'docs', items: [
+      { title: 'Dart Documentation', url: 'https://dart.dev/guides', description: 'Complete official Dart documentation covering library tour, language evolution, and tooling.' },
+      { title: 'Flutter Codelabs', url: 'https://docs.flutter.dev/codelabs', description: 'Hands-on step-by-step tutorials by Google engineers teaching UI, state management, and clean architecture.' },
+      { title: 'DartPad', url: 'https://dartpad.dev/', description: 'Google official zero-setup online sandbox to write and execute Dart and Flutter code in-browser.' },
+    ]},
+    { label: 'Interactive Courses', icon: 'code', items: [
+      { title: 'Hello Dart (Code Makery)', url: 'https://code.makery.ch/', description: 'A playful interactive tutorial teaching Dart fundamentals through visual quests and coding challenges.' },
+      { title: 'Google Codelab — Dart Patterns & Records', url: 'https://codelabs.developers.google.com/codelabs/dart-patterns-records', description: 'Official hands-on guide teaching Dart 3 features — records, pattern matching, destructuring, and switch expressions.' },
+    ]},
+    { label: 'Video Courses', icon: 'video', items: [
+      { title: 'Flutter Course for Beginners (freeCodeCamp)', url: 'https://www.youtube.com/watch?v=V3cFlraeiVI', description: 'Massive full-length video taking beginners from zero to publishing on Google Play and App Store.' },
+      { title: 'Flutter & Firebase Full Stack Course (freeCodeCamp)', url: 'https://www.youtube.com/watch?v=2kjp9yAKpT4', description: 'Project-based course covering responsive UI, authentication, database management, and social features.' },
+    ]},
+    { label: 'Practice & Challenges', icon: 'terminal', items: [
+      { title: 'Exercism — Dart Track', url: 'https://exercism.org/tracks/dart', description: '100+ coding exercises with automated analysis and human mentor feedback for writing idiomatic Dart.' },
+      { title: 'Codewars — Dart Kata', url: 'https://www.codewars.com/', description: 'Solve community-created challenges in Dart across hundreds of difficulty levels.' },
+    ]},
+    { label: 'Reference & Cheatsheets', icon: 'reference', items: [
+      { title: 'Dart Quick Reference (QuickRef)', url: 'https://quickref.me/dart.html', description: 'Clean comprehensive cheat sheet covering variables, types, collections, OOP, futures, and async/await.' },
+      { title: 'Dart API Reference', url: 'https://api.dart.dev/', description: 'Complete API documentation for the Dart SDK with all core libraries and packages.' },
+    ]},
+    { label: 'News & Updates', icon: 'news', items: [
+      { title: 'Flutter & Dart Announcements', url: 'https://medium.com/flutter', description: 'Official Flutter blog covering releases, breaking changes, and ecosystem news.' },
+      { title: 'This Week in Flutter', url: 'https://thisweekinflutter.com/', description: 'Weekly curated roundup of Flutter and Dart news, packages, and community highlights.' },
+    ]},
+    { label: 'Community', icon: 'community', items: [
+      { title: 'Reddit r/FlutterDev', url: 'https://www.reddit.com/r/FlutterDev/', description: 'The largest Flutter and Dart community for architecture advice, troubleshooting, and package showcases.' },
+      { title: 'Flutter Discord', url: 'https://discord.gg/rflutterdev', description: 'Active real-time chat with 70k+ members for help channels, project feedback, and job discussions.' },
+      { title: 'Dart & Flutter Dev (Official)', url: 'https://dart.dev/community', description: 'Official Dart community page listing groups, events, and contribution guidelines.' },
+    ]},
+  ],
+};
+
+// ═══════════════════════════════════════════════════════════════════════
+// ELIXIR
+// ═══════════════════════════════════════════════════════════════════════
+
+export const elixirResources: LanguageResources = {
+  slug: 'elixir',
+  name: 'Elixir',
+  description: 'Elixir is a functional, concurrent language built on the Erlang VM (BEAM). It excels at building fault-tolerant, distributed systems with the Phoenix web framework and LiveView for real-time apps. These are the definitive free resources — vetted, current, and complete.',
+  categories: [
+    { label: 'Free Books', icon: 'book', items: [
+      { title: 'Elixir School', url: 'https://elixirschool.com/', description: 'The unofficial community guide with lessons from basic syntax to advanced topics like Ecto, Phoenix, OTP, and LiveView. Translated in 25+ languages.' },
+      { title: 'Learn Elixir (dwyl GitHub)', url: 'https://github.com/dwyl/learn-elixir', description: 'An open-source bootcamp-style repository teaching why Elixir matters, setup, syntax, and building production web apps.' },
+    ]},
+    { label: 'Official Documentation', icon: 'docs', items: [
+      { title: 'Elixir Getting Started Guide', url: 'https://elixir-lang.org/getting-started/introduction.html', description: 'The definitive introduction by language creators covering syntax, pattern matching, mix, and OTP.' },
+      { title: 'Elixir Official Learning Page', url: 'https://elixir-lang.org/learning.html', description: 'The centralized portal listing approved community books, courses, screencasts, and learning pathways.' },
+      { title: 'HexDocs — Elixir Standard Library', url: 'https://hexdocs.pm/elixir/', description: 'Complete API documentation for the Elixir standard library with detailed module references.' },
+    ]},
+    { label: 'Interactive Courses', icon: 'code', items: [
+      { title: 'Exercism — Elixir Track', url: 'https://exercism.org/tracks/elixir', description: '58 concepts and 168 exercises with community mentoring for writing idiomatic Elixir.' },
+      { title: 'Learn Elixir with Livebook', url: 'https://github.com/dwyl/learn-elixir-with-livebook', description: 'Hands-on guide using Livebook, Elixirs interactive notebook ecosystem, for interactive learning.' },
+    ]},
+    { label: 'Video Courses', icon: 'video', items: [
+      { title: 'Elixir & Phoenix Course (freeCodeCamp)', url: 'https://www.youtube.com/watch?v=Rwwz5M5w3Is', description: 'A comprehensive video course covering Elixir fundamentals through building real applications with Phoenix.' },
+      { title: 'ElixirConf Talks (YouTube)', url: 'https://www.youtube.com/@elixirconf', description: 'Conference talks from Elixir core contributors and industry leaders on distributed systems and LiveView.' },
+    ]},
+    { label: 'Practice & Challenges', icon: 'terminal', items: [
+      { title: 'Exercism — Elixir Track', url: 'https://exercism.org/tracks/elixir', description: '100% free coding exercises with community mentoring and automated analysis.' },
+      { title: 'Codewars — Elixir Kata', url: 'https://www.codewars.com/', description: 'Solve community-created challenges in Elixir across hundreds of difficulty levels.' },
+    ]},
+    { label: 'Reference & Cheatsheets', icon: 'reference', items: [
+      { title: 'Elixir Cheatsheet (devhints)', url: 'https://devhints.io/elixir', description: 'A concise one-page reference covering Elixir syntax, types, pipes, and pattern matching.' },
+      { title: 'Elixir ExDoc Cheatsheets', url: 'https://elixir-lang.org/blog/2022/12/22/cheatsheets-and-8-other-features-in-exdoc/', description: 'Integrated cheat sheet features across Elixir library documentation for quick function lookups.' },
+    ]},
+    { label: 'News & Updates', icon: 'news', items: [
+      { title: 'Elixir Radar Newsletter', url: 'https://elixir-radar.com/', description: 'Weekly curated newsletter with ecosystem news, community packages, tutorials, and job opportunities.' },
+      { title: 'Elixir Lang Blog', url: 'https://elixir-lang.org/blog/', description: 'Official blog with release announcements, community stories, and language evolution updates.' },
+    ]},
+    { label: 'Community', icon: 'community', items: [
+      { title: 'Elixir Forum', url: 'https://elixirforum.com/', description: 'The official community forum with Q&A, Phoenix/LiveView release notes, and event discussions.' },
+      { title: 'Reddit r/elixir', url: 'https://www.reddit.com/r/elixir/', description: 'Active community for career questions, blog posts, code reviews, and ecosystem trend discussions.' },
+      { title: 'Elixir Slack', url: 'https://elixir-slack.com/', description: 'Real-time chat with dedicated channels for beginners, Phoenix, and OTP.' },
+    ]},
+  ],
+};
+
+// ═══════════════════════════════════════════════════════════════════════
+// HASKELL
+// ═══════════════════════════════════════════════════════════════════════
+
+export const haskellResources: LanguageResources = {
+  slug: 'haskell',
+  name: 'Haskell',
+  description: 'Haskell is a purely functional programming language with strong static typing and lazy evaluation. It provides an unparalleled foundation for writing correct, composable, and concurrent software. These are the definitive free resources — vetted, current, and complete.',
+  categories: [
+    { label: 'Free Books', icon: 'book', items: [
+      { title: 'Learn You a Haskell for Great Good!', url: 'https://learnyouahaskell.github.io/introduction.html', description: 'The iconic beginner-friendly classic teaching functional programming from basic syntax to monads with a humorous, illustrated approach.' },
+      { title: 'Haskell Programming from First Principles', url: 'https://haskellbook.com/', description: 'The most thorough book for mastering Haskell from scratch. Free chapters and community solutions available via GitHub.' },
+    ]},
+    { label: 'Official Documentation', icon: 'docs', items: [
+      { title: 'Haskell.org Documentation Hub', url: 'https://www.haskell.org/documentation/', description: 'Central hub for official guides, the Haskell Report, language standards, and library documentation via Hackage.' },
+      { title: 'Hackage — Haskell Package Repository', url: 'https://hackage.haskell.org/', description: 'Central package repository with complete API documentation for thousands of Haskell libraries.' },
+      { title: 'GHC Users Guide', url: 'https://downloads.haskell.org/ghc/latest/docs/users_guide/', description: 'Complete documentation for the Glasgow Haskell Compiler covering language extensions, optimization, and profiling.' },
+    ]},
+    { label: 'Interactive Courses', icon: 'code', items: [
+      { title: 'Haskell MOOC (University of Helsinki)', url: 'https://haskell.mooc.fi/', description: 'A premier free interactive course split into two parts covering from basics to algebraic data types and monads.' },
+      { title: 'Type Classes Free Crash Courses', url: 'https://typeclasses.com/', description: 'Professional-grade visual courses and free introductory tracks tailored for programmers entering the Haskell ecosystem.' },
+    ]},
+    { label: 'Video Courses', icon: 'video', items: [
+      { title: 'Haskell for Imperative Programmers (YouTube)', url: 'https://www.youtube.com/playlist?list=PLe7Ei6viL6jGp1Rfu0dCS1KeEZLSS8rsn', description: 'A comprehensive video series teaching Haskell from an imperative programming background with clear explanations.' },
+      { title: 'Tsoding — Haskell Live Coding', url: 'https://www.youtube.com/@Tsoding', description: 'Live coding sessions exploring Haskell, functional design patterns, and real-world applications.' },
+    ]},
+    { label: 'Practice & Challenges', icon: 'terminal', items: [
+      { title: 'Exercism — Haskell Track', url: 'https://exercism.org/tracks/haskell', description: '107 free exercises with community volunteer mentors who review your code for idiomatic functional style.' },
+      { title: 'Codewars — Haskell Kata', url: 'https://www.codewars.com/kata/search/haskell', description: 'Over 2,100 community-driven coding katas from beginner to advanced algorithms.' },
+    ]},
+    { label: 'Reference & Cheatsheets', icon: 'reference', items: [
+      { title: 'Haskell Cheatsheet (GitHub)', url: 'https://github.com/alhassy/HaskellCheatSheet', description: 'Comprehensive reference sheet with syntax, keywords, operators, pattern matching, and type declarations.' },
+      { title: 'Hoogle — Haskell API Search', url: 'https://hoogle.haskell.org/', description: 'Search Haskell functions by name or type signature. Find standard library and package functions instantly.' },
+    ]},
+    { label: 'News & Updates', icon: 'news', items: [
+      { title: 'Haskell Weekly', url: 'https://haskellweekly.news/', description: 'Weekly curated newsletter and podcast covering library releases, blog posts, tutorials, and success stories.' },
+      { title: 'GHC Release Notes', url: 'https://www.haskell.org/ghc/', description: 'Track GHC compiler releases, language extension proposals, and performance improvements.' },
+    ]},
+    { label: 'Community', icon: 'community', items: [
+      { title: 'Haskell Discourse', url: 'https://discourse.haskell.org/', description: 'Official community forum with a dedicated learning category for beginners to ask questions and get help.' },
+      { title: 'Reddit r/haskell', url: 'https://www.reddit.com/r/haskell/', description: 'Vibrant community sharing announcements, blog posts, project showcases, and deep FP discussions.' },
+      { title: 'Haskell.org Community', url: 'https://www.haskell.org/community/', description: 'Official community page listing user groups, IRC channels, mailing lists, and global Haskell events.' },
+    ]},
+  ],
+};
+
+// ═══════════════════════════════════════════════════════════════════════
+// LUA
+// ═══════════════════════════════════════════════════════════════════════
+
+export const luaResources: LanguageResources = {
+  slug: 'lua',
+  name: 'Lua',
+  description: 'Lua is a lightweight, embeddable scripting language prized for its speed, simplicity, and tiny footprint. It powers game engines (Roblox, Love2D), embedded systems, and configuration in Neovim and Redis. These are the definitive free resources — vetted, current, and complete.',
+  categories: [
+    { label: 'Free Books', icon: 'book', items: [
+      { title: 'Programming in Lua (First Edition)', url: 'https://www.lua.org/pil/contents.html', description: 'Written by Lua architect Roberto Ierusalimschy. The authoritative free introduction covering core data structures, syntax, and fundamentals.' },
+      { title: 'Lua Reference Manual', url: 'https://www.lua.org/manual/', description: 'The canonical definition of the Lua language, syntax, standard libraries, and C API for all versions.' },
+    ]},
+    { label: 'Official Documentation', icon: 'docs', items: [
+      { title: 'Lua.org Documentation Hub', url: 'https://www.lua.org/docs.html', description: 'Central landing page with installation instructions, technical papers, and VM/garbage collector explanations.' },
+      { title: 'Lua News', url: 'https://www.lua.org/news.html', description: 'Official project announcements tracking major milestones, foundation changes, and release updates.' },
+    ]},
+    { label: 'Interactive Courses', icon: 'code', items: [
+      { title: 'Exercism — Lua Track', url: 'https://exercism.org/tracks/lua', description: '117 coding exercises with automatic analysis and optional mentoring from volunteer Lua developers.' },
+      { title: 'Codédex Lua Course', url: 'https://www.codedex.io/lua', description: 'Modern interactive course with emphasis on game development and scripting in Roblox Studio.' },
+    ]},
+    { label: 'Video Courses', icon: 'video', items: [
+      { title: 'Lua Programming Crash Course (freeCodeCamp)', url: 'https://www.youtube.com/watch?v=zi-svfdcUc8', description: 'A comprehensive zero-to-hero video walkthrough for absolute beginners covering variables, control structures, and embedding.' },
+      { title: 'Love2D Game Development (YouTube)', url: 'https://www.youtube.com/watch?v=EchBsCedz6k', description: 'Intermediate-level projects building 2D games from scratch using the LÖVE framework and Lua.' },
+    ]},
+    { label: 'Practice & Challenges', icon: 'terminal', items: [
+      { title: 'Exercism — Lua Track', url: 'https://exercism.org/tracks/lua', description: '100% free coding exercises from simple string manipulation to complex table-based algorithms.' },
+      { title: 'Codewars — Lua Kata', url: 'https://www.codewars.com/', description: 'Solve community-created coding challenges in Lua across hundreds of difficulty levels.' },
+    ]},
+    { label: 'Reference & Cheatsheets', icon: 'reference', items: [
+      { title: 'DevHints Lua Cheatsheet', url: 'https://devhints.io/lua', description: 'A clean single-page reference covering syntax, loops, tables, metatables, closures, and standard API.' },
+      { title: 'Lua 5.4 Reference Manual', url: 'https://www.lua.org/manual/5.4/', description: 'The complete language and standard library reference for the latest Lua version.' },
+    ]},
+    { label: 'News & Updates', icon: 'news', items: [
+      { title: 'Lua.org News Page', url: 'https://www.lua.org/news.html', description: 'Official announcements from the Lua team on release updates, security patches, and version changes.' },
+      { title: 'r/lua on Reddit', url: 'https://www.reddit.com/r/lua/', description: 'Community hub for news, project demos, and tooling discussions including Neovim configs and game engines.' },
+    ]},
+    { label: 'Community', icon: 'community', items: [
+      { title: 'Reddit r/lua', url: 'https://www.reddit.com/r/lua/', description: 'The premier community for Lua developers to share news, projects, and troubleshooting help.' },
+      { title: 'Lua Mailing List (lua-l)', url: 'https://groups.google.com/g/lua-l/', description: 'Official mailing list where language creators discuss compiler updates, performance, and proposals.' },
+      { title: 'Stack Overflow — Lua Tag', url: 'https://stackoverflow.com/questions/tagged/lua', description: 'Definitive Q&A for Lua troubleshooting, table operations, and C API integration.' },
+    ]},
+  ],
+};
+
+// ═══════════════════════════════════════════════════════════════════════
+// SHELL / BASH
+// ═══════════════════════════════════════════════════════════════════════
+
+export const shellResources: LanguageResources = {
+  slug: 'shell',
+  name: 'Shell',
+  description: 'Shell scripting (Bash) is the universal glue of software engineering. It automates deployments, manages infrastructure, processes data pipelines, and controls the entire development toolchain. These are the definitive free resources — vetted, current, and complete.',
+  categories: [
+    { label: 'Free Books', icon: 'book', items: [
+      { title: 'The Linux Command Line (William Shotts)', url: 'https://linuxcommand.org/tlcl.php', description: 'A comprehensive guide from basic keystrokes through advanced multi-file Bash shell scripts. Free PDF download.' },
+      { title: 'Gregs Wiki — BashGuide', url: 'https://mywiki.wooledge.org/BashGuide', description: 'Considered the gold standard for learning proper Bash scripting with modern syntax, best practices, and anti-pattern avoidance.' },
+      { title: 'Advanced Bash-Scripting Guide (TLDP)', url: 'https://tldp.org/LDP/abs/html/', description: 'The definitive deep-dive textbook for intermediate-to-advanced scripters covering complex data manipulation and system administration.' },
+    ]},
+    { label: 'Official Documentation', icon: 'docs', items: [
+      { title: 'GNU Bash Reference Manual', url: 'https://www.gnu.org/software/bash/manual/bash.html', description: 'The ultimate source of truth for Bash syntax, expansions, redirections, builtins, and parameter transformations.' },
+      { title: 'ShellCheck — Static Analysis Tool', url: 'https://www.shellcheck.net/', description: 'Indispensable real-time linter identifying syntax errors, quoting mistakes, and subtle bugs in Bash scripts.' },
+    ]},
+    { label: 'Interactive Courses', icon: 'code', items: [
+      { title: 'Learn Shell (Interactive)', url: 'https://www.learnshell.org/', description: 'Free browser-based tutorial covering basic string operations, arrays, loops, conditionals, sed, and awk.' },
+      { title: 'Codecademy — Linux & Bash Scripting', url: 'https://www.codecademy.com/catalog/language/bash', description: 'Free interactive tracks teaching file system navigation and automated workflows using shell scripts.' },
+    ]},
+    { label: 'Video Courses', icon: 'video', items: [
+      { title: 'Complete Bash Scripting Course (YouTube)', url: 'https://www.youtube.com/watch?v=Sx9zG7wa4FA', description: 'A comprehensive full-length guide from beginner concepts to advanced production-grade Bash programming.' },
+      { title: 'Bash Scripting Tutorials (freeCodeCamp)', url: 'https://www.youtube.com/watch?v=e7BufAVwDiM', description: 'Hands-on video tutorials covering Bash fundamentals, automation scripts, and system administration tasks.' },
+    ]},
+    { label: 'Practice & Challenges', icon: 'terminal', items: [
+      { title: 'Exercism — Bash Track', url: 'https://exercism.org/tracks/bash', description: 'Coding exercises with automated analysis and human mentor feedback for writing robust shell scripts.' },
+      { title: 'Cmdchallenge', url: 'https://cmdchallenge.com/', description: 'A collection of shell challenges that test your ability to navigate and manipulate filesystems using CLI commands.' },
+    ]},
+    { label: 'Reference & Cheatsheets', icon: 'reference', items: [
+      { title: 'Devhints Bash Cheatsheet', url: 'https://devhints.io/bash', description: 'The ultimate one-page reference for variables, strict modes, parameter expansions, string manipulation, and arrays.' },
+      { title: 'ExplainShell.com', url: 'https://explainshell.com/', description: 'Write any shell command and get an instant breakdown of every flag, argument, and operator in plain english.' },
+    ]},
+    { label: 'News & Updates', icon: 'news', items: [
+      { title: 'GNU Bash News', url: 'https://lists.gnu.org/archive/html/bug-bash/', description: 'Official Bash mailing list tracking development, patches, and new feature announcements.' },
+      { title: 'Reddit r/bash', url: 'https://www.reddit.com/r/bash/', description: 'Active community for scripting discussions, best-practice sharing, and troubleshooting.' },
+    ]},
+    { label: 'Community', icon: 'community', items: [
+      { title: 'Reddit r/bash', url: 'https://www.reddit.com/r/bash/', description: 'Active technical community focused on Bash scripting, troubleshooting, and code reviews.' },
+      { title: 'Unix & Linux Stack Exchange', url: 'https://unix.stackexchange.com/', description: 'Premier Q&A for deep architectural inquiries, complex pipeline problems, and shell-specific nuances.' },
+      { title: 'Stack Overflow — Bash Tag', url: 'https://stackoverflow.com/questions/tagged/bash', description: 'Definitive forum for debugging shell scripts, quoting issues, and scripting best practices.' },
+    ]},
+  ],
+};
+
 // ─── Registry — all languages with curated resources ────────────────
 
 const RESOURCE_REGISTRY: Record<string, LanguageResources> = {
@@ -635,6 +956,13 @@ const RESOURCE_REGISTRY: Record<string, LanguageResources> = {
   csharp: csharpResources,
   go: goResources,
   rust: rustResources,
+  scala: scalaResources,
+  r: rResources,
+  dart: dartResources,
+  elixir: elixirResources,
+  haskell: haskellResources,
+  lua: luaResources,
+  shell: shellResources,
 };
 
 export function getLanguageResources(slug: string): LanguageResources | null {

@@ -15,6 +15,13 @@ import {
   SiSharp,
   SiGo,
   SiRust,
+  SiScala,
+  SiR,
+  SiDart,
+  SiElixir,
+  SiHaskell,
+  SiLua,
+  SiGnubash,
 } from 'react-icons/si';
 
 export const metadata: Metadata = {
@@ -34,6 +41,13 @@ const LANG_ICONS: Record<string, React.ReactNode> = {
   csharp:     <SiSharp size={22} />,
   go:         <SiGo size={22} />,
   rust:       <SiRust size={22} />,
+  scala:      <SiScala size={22} />,
+  r:          <SiR size={22} />,
+  dart:       <SiDart size={22} />,
+  elixir:     <SiElixir size={22} />,
+  haskell:    <SiHaskell size={22} />,
+  lua:        <SiLua size={22} />,
+  shell:      <SiGnubash size={22} />,
 };
 
 const LANG_BG: Record<string, string> = {
@@ -49,6 +63,13 @@ const LANG_BG: Record<string, string> = {
   csharp:     'bg-[#239120] text-white',
   go:         'bg-[#00ADD8] text-white',
   rust:       'bg-[#000000] text-white',
+  scala:      'bg-[#DC322F] text-white',
+  r:          'bg-[#276DC3] text-white',
+  dart:       'bg-[#0175C2] text-white',
+  elixir:     'bg-[#4B275F] text-white',
+  haskell:    'bg-[#5D4F85] text-white',
+  lua:        'bg-[#000080] text-white',
+  shell:      'bg-[#4EAA25] text-white',
 };
 
 const DEFAULT_BG = 'bg-accent text-white';
@@ -87,7 +108,7 @@ export default function LanguagesPage() {
               Programming&nbsp;<span className="text-accent">Languages</span>
             </h1>
             <p className="text-sm text-fg-secondary max-w-xl mx-auto">
-              Curated resource hubs for 12 major programming languages.
+              Curated resource hubs for 19 major programming languages.
               Each hub collects the definitive free resources — books, docs, courses, videos,
               practice, reference, news, and community.
             </p>
