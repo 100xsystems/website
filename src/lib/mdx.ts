@@ -219,11 +219,26 @@ function getKnowledgeItemsFromCache(domain: KnowledgeDomain): KnowledgeItem[] {
 
   const items: KnowledgeItem[] = [];
   try {
-    const files = fs.readdirSync(dir).filter((f) => f.endsWith('.json')).sort();
-    for (const filename of files) {
+    const entries = fs.readdirSync(dir, { withFileTypes: true });
+    for (const entry of entries) {
       try {
-        const raw = fs.readFileSync(path.join(dir, filename), 'utf-8');
-        const entity: KnowledgeEntityJSON = JSON.parse(raw);
+        let entity: KnowledgeEntityJSON | null = null;
+
+        // Folder structure:  domain/slug/index.json  (preferred)
+        if (entry.isDirectory()) {
+          const indexPath = path.join(dir, entry.name, 'index.json');
+          if (fs.existsSync(indexPath)) {
+            entity = JSON.parse(fs.readFileSync(indexPath, 'utf-8'));
+          }
+        }
+
+        // Flat structure:  domain/slug.json  (legacy fallback)
+        if (!entity && entry.name.endsWith('.json')) {
+          entity = JSON.parse(fs.readFileSync(path.join(dir, entry.name), 'utf-8'));
+        }
+
+        if (!entity) continue;
+
         items.push({
           slug: entity.id,
           title: entity.label,

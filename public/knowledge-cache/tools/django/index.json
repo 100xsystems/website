@@ -1,0 +1,16 @@
+{
+  "id": "django",
+  "category": "tools",
+  "label": "Django",
+  "aliases": [],
+  "description": "High-level Python web framework encouraging rapid development",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Django_(web_framework)",
+    "wikidata": "https://www.wikidata.org/wiki/Q1142102"
+  },
+  "indexedAt": "2026-07-23T14:36:31.355Z"
+}

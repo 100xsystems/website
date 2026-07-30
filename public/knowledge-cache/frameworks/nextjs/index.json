@@ -1,0 +1,110 @@
+{
+  "slug": "nextjs",
+  "name": "Next.js",
+  "description": "Next.js is the React framework for production, providing server-side rendering, static site generation, and API routes. It is the standard for building full-stack React applications.",
+  "categories": [
+    {
+      "label": "Free Books",
+      "icon": "book",
+      "items": [
+        {
+          "title": "Next.js Docs",
+          "url": "https://nextjs.org/docs",
+          "description": "The official Next.js documentation covering App Router, Pages Router, and API reference."
+        },
+        {
+          "title": "Learn Next.js",
+          "url": "https://nextjs.org/learn",
+          "description": "Official interactive Next.js tutorial building a full-stack app."
+        }
+      ]
+    },
+    {
+      "label": "Official Documentation",
+      "icon": "docs",
+      "items": [
+        {
+          "title": "Next.js Docs",
+          "url": "https://nextjs.org/docs",
+          "description": "Complete Next.js documentation covering routing, rendering, data fetching, and caching."
+        },
+        {
+          "title": "Next.js API Reference",
+          "url": "https://nextjs.org/docs/app/api-reference",
+          "description": "Complete API reference for all Next.js functions and components."
+        }
+      ]
+    },
+    {
+      "label": "Interactive Courses",
+      "icon": "code",
+      "items": [
+        {
+          "title": "Learn Next.js",
+          "url": "https://nextjs.org/learn",
+          "description": "Free interactive tutorial building a dashboard application with Next.js."
+        }
+      ]
+    },
+    {
+      "label": "Video Courses",
+      "icon": "video",
+      "items": [
+        {
+          "title": "Next.js Course (freeCodeCamp)",
+          "url": "https://www.youtube.com/watch?v=mTzmD1CJz_4",
+          "description": "Multi-hour Next.js course covering App Router, authentication, and deployment."
+        }
+      ]
+    },
+    {
+      "label": "Practice & Challenges",
+      "icon": "terminal",
+      "items": [
+        {
+          "title": "Next.js Playground",
+          "url": "https://codesandbox.io/s/nextjs",
+          "description": "Online Next.js sandbox for testing."
+        }
+      ]
+    },
+    {
+      "label": "Reference & Cheatsheets",
+      "icon": "reference",
+      "items": [
+        {
+          "title": "Next.js Cheatsheet",
+          "url": "https://nextjs.org/cheatsheet",
+          "description": "Official Next.js quick reference."
+        }
+      ]
+    },
+    {
+      "label": "News & Updates",
+      "icon": "news",
+      "items": [
+        {
+          "title": "Next.js Blog",
+          "url": "https://nextjs.org/blog",
+          "description": "Official Next.js blog with release notes and case studies."
+        }
+      ]
+    },
+    {
+      "label": "Community",
+      "icon": "community",
+      "items": [
+        {
+          "title": "Reddit r/nextjs",
+          "url": "https://www.reddit.com/r/nextjs/",
+          "description": "Active Next.js community for discussions."
+        },
+        {
+          "title": "Next.js Discord",
+          "url": "https://discord.gg/nextjs",
+          "description": "Official Next.js Discord server."
+        }
+      ]
+    }
+  ]
+}

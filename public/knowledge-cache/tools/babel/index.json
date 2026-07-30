@@ -1,0 +1,16 @@
+{
+  "id": "babel",
+  "category": "tools",
+  "label": "Babel",
+  "aliases": [],
+  "description": "JavaScript compiler for transforming modern code into compatible versions",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Babel_(transcompiler)",
+    "wikidata": "https://www.wikidata.org/wiki/Q28776919"
+  },
+  "indexedAt": "2026-07-23T14:36:37.526Z"
+}

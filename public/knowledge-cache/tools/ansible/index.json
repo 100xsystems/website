@@ -1,0 +1,16 @@
+{
+  "id": "ansible",
+  "category": "tools",
+  "label": "Ansible",
+  "aliases": [],
+  "description": "Automation tool for configuration management, application deployment, and task automation",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Ansible_(software)",
+    "wikidata": "https://www.wikidata.org/wiki/Q1135537"
+  },
+  "indexedAt": "2026-07-23T14:36:26.649Z"
+}

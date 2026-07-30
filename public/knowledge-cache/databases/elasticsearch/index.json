@@ -1,0 +1,110 @@
+{
+  "slug": "elasticsearch",
+  "name": "Elasticsearch",
+  "description": "Elasticsearch is a distributed, RESTful search and analytics engine capable of addressing a growing number of use cases. It is the heart of the Elastic Stack for log analytics and full-text search.",
+  "categories": [
+    {
+      "label": "Free Books",
+      "icon": "book",
+      "items": [
+        {
+          "title": "Elasticsearch Guide",
+          "url": "https://www.elastic.co/guide/en/elasticsearch/reference/current/",
+          "description": "The official Elasticsearch reference documentation."
+        },
+        {
+          "title": "Elasticsearch Beginners Guide",
+          "url": "https://www.elastic.co/guide/en/elasticsearch/reference/current/getting-started.html",
+          "description": "Official getting started guide for Elasticsearch."
+        }
+      ]
+    },
+    {
+      "label": "Official Documentation",
+      "icon": "docs",
+      "items": [
+        {
+          "title": "Elasticsearch Docs",
+          "url": "https://www.elastic.co/guide/en/elasticsearch/reference/current/",
+          "description": "Complete Elasticsearch documentation: queries, mappings, aggregations, and clusters."
+        },
+        {
+          "title": "Elastic Stack Docs",
+          "url": "https://www.elastic.co/guide/index.html",
+          "description": "Complete Elastic Stack documentation including Kibana and Logstash."
+        }
+      ]
+    },
+    {
+      "label": "Interactive Courses",
+      "icon": "code",
+      "items": [
+        {
+          "title": "Elasticsearch Training",
+          "url": "https://training.elastic.co/",
+          "description": "Free Elasticsearch training courses from Elastic."
+        }
+      ]
+    },
+    {
+      "label": "Video Courses",
+      "icon": "video",
+      "items": [
+        {
+          "title": "Elasticsearch Course (YouTube)",
+          "url": "https://www.youtube.com/watch?v=dbAS8l4AnlE",
+          "description": "Free Elasticsearch course covering search, aggregation, and cluster setup."
+        }
+      ]
+    },
+    {
+      "label": "Practice & Challenges",
+      "icon": "terminal",
+      "items": [
+        {
+          "title": "Elastic Playground",
+          "url": "https://ela.st/playground",
+          "description": "Online Elasticsearch playground for query testing."
+        }
+      ]
+    },
+    {
+      "label": "Reference & Cheatsheets",
+      "icon": "reference",
+      "items": [
+        {
+          "title": "Elasticsearch Cheatsheet",
+          "url": "https://devhints.io/elasticsearch",
+          "description": "Quick reference for Elasticsearch query DSL."
+        }
+      ]
+    },
+    {
+      "label": "News & Updates",
+      "icon": "news",
+      "items": [
+        {
+          "title": "Elastic Blog",
+          "url": "https://www.elastic.co/blog",
+          "description": "Official Elastic blog with product updates and engineering stories."
+        }
+      ]
+    },
+    {
+      "label": "Community",
+      "icon": "community",
+      "items": [
+        {
+          "title": "Elastic Community",
+          "url": "https://discuss.elastic.co/",
+          "description": "Official Elasticsearch community forums."
+        },
+        {
+          "title": "Reddit r/elasticsearch",
+          "url": "https://www.reddit.com/r/elasticsearch/",
+          "description": "Elasticsearch community discussions."
+        }
+      ]
+    }
+  ]
+}

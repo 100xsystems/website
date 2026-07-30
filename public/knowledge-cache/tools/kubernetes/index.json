@@ -1,0 +1,16 @@
+{
+  "id": "kubernetes",
+  "category": "tools",
+  "label": "Kubernetes",
+  "aliases": [],
+  "description": "Container orchestration platform for automating deployment, scaling, and management",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Kubernetes",
+    "wikidata": "https://www.wikidata.org/wiki/Q18256807"
+  },
+  "indexedAt": "2026-07-23T14:36:22.525Z"
+}

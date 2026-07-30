@@ -1,0 +1,110 @@
+{
+  "slug": "redis",
+  "name": "Redis",
+  "description": "Redis is an open-source, in-memory data structure store used as a database, cache, message broker, and streaming engine. It supports strings, hashes, lists, sets, sorted sets, and more with sub-millisecond latency.",
+  "categories": [
+    {
+      "label": "Free Books",
+      "icon": "book",
+      "items": [
+        {
+          "title": "Redis Official Docs",
+          "url": "https://redis.io/docs/",
+          "description": "Complete Redis documentation covering commands, data types, and client libraries."
+        },
+        {
+          "title": "Redis Crash Course",
+          "url": "https://redis.io/docs/getting-started/",
+          "description": "Official getting started guide for Redis fundamentals."
+        }
+      ]
+    },
+    {
+      "label": "Official Documentation",
+      "icon": "docs",
+      "items": [
+        {
+          "title": "Redis Commands Reference",
+          "url": "https://redis.io/commands/",
+          "description": "Complete reference for all Redis commands organized by data type."
+        },
+        {
+          "title": "Redis Data Types",
+          "url": "https://redis.io/docs/data-types/",
+          "description": "Documentation for Redis data structures: strings, lists, sets, hashes, sorted sets, and streams."
+        }
+      ]
+    },
+    {
+      "label": "Interactive Courses",
+      "icon": "code",
+      "items": [
+        {
+          "title": "Try Redis",
+          "url": "https://try.redis.io/",
+          "description": "Interactive browser-based Redis tutorial with hands-on command exercises."
+        }
+      ]
+    },
+    {
+      "label": "Video Courses",
+      "icon": "video",
+      "items": [
+        {
+          "title": "Redis Course (freeCodeCamp)",
+          "url": "https://www.youtube.com/watch?v=G1rOthIU-uo",
+          "description": "Free Redis course covering caching, pub/sub, and data persistence."
+        }
+      ]
+    },
+    {
+      "label": "Practice & Challenges",
+      "icon": "terminal",
+      "items": [
+        {
+          "title": "Redis Playground",
+          "url": "https://try.redis.io/",
+          "description": "Online Redis playground to practice commands in the browser."
+        }
+      ]
+    },
+    {
+      "label": "Reference & Cheatsheets",
+      "icon": "reference",
+      "items": [
+        {
+          "title": "Redis Commands Cheatsheet",
+          "url": "https://devhints.io/redis",
+          "description": "A concise one-page reference for common Redis commands."
+        }
+      ]
+    },
+    {
+      "label": "News & Updates",
+      "icon": "news",
+      "items": [
+        {
+          "title": "Redis Blog",
+          "url": "https://redis.io/blog/",
+          "description": "Official Redis blog with release notes and technical articles."
+        }
+      ]
+    },
+    {
+      "label": "Community",
+      "icon": "community",
+      "items": [
+        {
+          "title": "Redis Discord",
+          "url": "https://discord.gg/redis",
+          "description": "Official Redis community Discord server."
+        },
+        {
+          "title": "Stack Overflow - Redis Tag",
+          "url": "https://stackoverflow.com/questions/tagged/redis",
+          "description": "Q&A for Redis command and architecture questions."
+        }
+      ]
+    }
+  ]
+}

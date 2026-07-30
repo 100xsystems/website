@@ -1,0 +1,16 @@
+{
+  "id": "sqlite",
+  "category": "tools",
+  "label": "SQLite",
+  "aliases": [],
+  "description": "Embedded SQL database engine known for simplicity and reliability",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/SQLite",
+    "wikidata": "https://www.wikidata.org/wiki/Q44209"
+  },
+  "indexedAt": "2026-07-23T14:36:23.960Z"
+}

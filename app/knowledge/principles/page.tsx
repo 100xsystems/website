@@ -1,37 +1,14 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { getKnowledgeItems } from '@/lib/mdx';
-import {
-  Lightbulb,
-  Scale,
-  Layers,
-  GitBranch,
-  Shield,
-  Zap,
-  RefreshCw,
-  Codepen,
-  ArrowRight,
-} from 'lucide-react';
+import { getHubs, countHubResources, type ResourceHub } from '@/lib/knowledge-resources';
 
 export const metadata: Metadata = {
   title: 'Principles — Knowledge Base',
   description: 'Foundational software engineering principles that guide architectural decisions and code quality.',
 };
 
-// ─── Difficulty display ─────────────────────────────────────────────
-
-const DIFFICULTY_STYLES: Record<string, string> = {
-  Beginner: 'bg-accent text-white',
-  Intermediate: 'bg-accent-yellow text-black',
-  Advanced: 'bg-fg text-white',
-};
-
-const PRINCIPLE_ICONS = [
-  Lightbulb, Scale, Layers, GitBranch, Shield, Zap, RefreshCw, Codepen,
-];
-
 export default function PrinciplesPage() {
-  const items = getKnowledgeItems('principles');
+  const hubs = getHubs('principles');
 
   return (
     <main className="min-h-screen bg-white">
@@ -52,59 +29,53 @@ export default function PrinciplesPage() {
           </div>
 
           {/* Stats */}
-          <div className="flex justify-center gap-8">
+          <div className="flex justify-center gap-10">
             <div className="text-center">
-              <span className="block text-3xl font-extrabold text-fg">{items.length}</span>
+              <span className="block text-3xl font-extrabold text-fg">{hubs.length}</span>
               <span className="block text-[10px] font-bold uppercase tracking-widest text-fg-muted mt-1">Principles</span>
+            </div>
+            <div className="text-center">
+              <span className="block text-3xl font-extrabold text-fg">{countTotalResources(hubs)}</span>
+              <span className="block text-[10px] font-bold uppercase tracking-widest text-fg-muted mt-1">Curated Resources</span>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Principles Grid */}
-      {items.length === 0 ? (
+      {/* Principles Grid — borderless, inverted hover */}
+      {hubs.length === 0 ? (
         <section className="py-20 text-center">
           <p className="text-sm text-fg-muted">Nothing yet. Contributions welcome!</p>
         </section>
       ) : (
         <section className="py-16 sm:py-20 bg-white">
           <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-              {items.map((item, i) => {
-                const Icon = PRINCIPLE_ICONS[i % PRINCIPLE_ICONS.length];
-                const diffStyle = DIFFICULTY_STYLES[item.difficulty] || 'bg-surface-secondary text-fg-muted';
-
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-1 bg-surface-secondary">
+              {hubs.map((hub) => {
+                const total = countHubResources(hub);
                 return (
                   <Link
-                    key={item.slug}
-                    href={`/knowledge/principles/read/${item.slug}`}
-                    className="group block bg-white p-6 sm:p-8 transition-all duration-300 hover:bg-accent"
+                    key={hub.slug}
+                    href={`/knowledge/principles/${hub.slug}`}
+                    className="group bg-white p-8 transition-all duration-300 hover:bg-accent"
                   >
-                    {/* Icon */}
-                    <span className="inline-flex items-center justify-center w-10 h-10 bg-accent/10 text-accent group-hover:bg-white/20 group-hover:text-white mb-4 transition-colors">
-                      <Icon size={20} />
-                    </span>
-
-                    <div className="flex items-start justify-between gap-3 mb-3">
+                    <div className="mb-4">
                       <h3 className="text-sm font-bold uppercase tracking-wide text-fg group-hover:text-white transition-colors">
-                        {item.title}
+                        {hub.name}
                       </h3>
-                      <span className={cn(
-                        'text-[9px] font-semibold px-2 py-0.5 shrink-0 transition-colors',
-                        diffStyle,
-                        'group-hover:bg-white/20 group-hover:text-white',
-                      )}>
-                        {item.difficulty}
-                      </span>
+                      <span className="inline-block w-8 h-[2px] bg-accent mt-2 transition-colors" />
                     </div>
 
-                    <p className="text-xs text-fg-secondary leading-relaxed group-hover:text-white/80 transition-colors line-clamp-3">
-                      {item.description}
+                    <p className="text-xs text-fg-secondary leading-relaxed group-hover:text-white/80 transition-colors line-clamp-3 mb-4">
+                      {hub.description}
                     </p>
 
-                    <div className="mt-4 flex items-center justify-between">
-                      <span className="text-[9px] font-bold uppercase tracking-wider text-accent group-hover:text-white/70 transition-colors opacity-0 group-hover:opacity-100">
-                        Read &rarr;
+                    <div className="flex items-center gap-4">
+                      <span className="px-2 py-1 text-[9px] font-semibold uppercase tracking-wider bg-surface-secondary text-fg-muted group-hover:bg-white/20 group-hover:text-white/80 transition-colors">
+                        {total} resources
+                      </span>
+                      <span className="text-[9px] font-bold uppercase tracking-wider text-accent group-hover:text-white/70 transition-colors">
+                        Explore &rarr;
                       </span>
                     </div>
                   </Link>
@@ -118,6 +89,6 @@ export default function PrinciplesPage() {
   );
 }
 
-function cn(...classes: (string | false | null | undefined)[]): string {
-  return classes.filter(Boolean).join(' ');
+function countTotalResources(hubs: ResourceHub[]): number {
+  return hubs.reduce((sum, h) => sum + countHubResources(h), 0);
 }

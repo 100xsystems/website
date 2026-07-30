@@ -1,0 +1,125 @@
+{
+  "slug": "gdscript",
+  "name": "GDScript",
+  "description": "GDScript is the primary scripting language for the Godot Engine. It has a Python-like syntax but is optimized for game development with built-in types like vectors, colors, and nodes.",
+  "categories": [
+    {
+      "label": "Free Books",
+      "icon": "book",
+      "items": [
+        {
+          "title": "Godot Engine Documentation",
+          "url": "https://docs.godotengine.org/",
+          "description": "The definitive source of truth for the engine and GDScript with deep architectural guides."
+        },
+        {
+          "title": "GDScript Reference",
+          "url": "https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_basics.html",
+          "description": "Official language reference covering syntax, data types, operators, and annotations."
+        },
+        {
+          "title": "Learn GDScript From Zero (GDQuest)",
+          "url": "https://www.gdquest.com/tutorial/godot/learning-paths/learn-gdscript-from-zero/",
+          "description": "A premier interactive browser-based app for programming beginners."
+        }
+      ]
+    },
+    {
+      "label": "Official Documentation",
+      "icon": "docs",
+      "items": [
+        {
+          "title": "Godot Docs",
+          "url": "https://docs.godotengine.org/",
+          "description": "Complete engine and GDScript documentation maintained by core developers."
+        },
+        {
+          "title": "Learn to Code with GDScript",
+          "url": "https://docs.godotengine.org/en/stable/getting_started/introduction/learn_to_code_with_gdscript.html",
+          "description": "Official step-by-step landing page for learning GDScript."
+        }
+      ]
+    },
+    {
+      "label": "Interactive Courses",
+      "icon": "code",
+      "items": [
+        {
+          "title": "Learn GDScript From Zero",
+          "url": "https://www.gdquest.com/tutorial/godot/learning-paths/learn-gdscript-from-zero/",
+          "description": "Browser-based gamified lessons teaching programming concepts and GDScript syntax."
+        }
+      ]
+    },
+    {
+      "label": "Video Courses",
+      "icon": "video",
+      "items": [
+        {
+          "title": "GDQuest YouTube Channel",
+          "url": "https://www.youtube.com/@GDQuest",
+          "description": "High-quality free video tutorials covering GDScript, design patterns, and game feel."
+        },
+        {
+          "title": "Brackeys Godot GDScript Tutorial",
+          "url": "https://www.youtube.com/watch?v=e1zJS31tr88",
+          "description": "Comprehensive 1-hour crash course on GDScript programming in Godot."
+        }
+      ]
+    },
+    {
+      "label": "Practice & Challenges",
+      "icon": "terminal",
+      "items": [
+        {
+          "title": "Godot Game Jam",
+          "url": "https://itch.io/jams/tag-godot",
+          "description": "Participate in game jams to practice GDScript through real game development."
+        }
+      ]
+    },
+    {
+      "label": "Reference & Cheatsheets",
+      "icon": "reference",
+      "items": [
+        {
+          "title": "GDQuest GDScript Cheatsheet",
+          "url": "https://school.gdquest.com/cheatsheets/gdscript",
+          "description": "Clean reference card covering all major GDScript syntax for Godot 4."
+        }
+      ]
+    },
+    {
+      "label": "News & Updates",
+      "icon": "news",
+      "items": [
+        {
+          "title": "Godot News",
+          "url": "https://godotengine.org/blog/",
+          "description": "Official Godot blog with release announcements and community showcases."
+        },
+        {
+          "title": "Godot Weekly",
+          "url": "https://godot-weekly.curated.co/",
+          "description": "Weekly curated tutorials, plugins, and community resources."
+        }
+      ]
+    },
+    {
+      "label": "Community",
+      "icon": "community",
+      "items": [
+        {
+          "title": "Reddit r/godot",
+          "url": "https://www.reddit.com/r/godot/",
+          "description": "The largest Godot community for discussions and project showcases."
+        },
+        {
+          "title": "Godot Forum",
+          "url": "https://forum.godotengine.org/",
+          "description": "Official forum for help, showcases, and tutorials."
+        }
+      ]
+    }
+  ]
+}

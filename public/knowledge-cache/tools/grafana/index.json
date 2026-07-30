@@ -1,0 +1,16 @@
+{
+  "id": "grafana",
+  "category": "tools",
+  "label": "Grafana",
+  "aliases": [],
+  "description": "Observability and data visualization platform for metrics, logs, and traces",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Grafana",
+    "wikidata": "https://www.wikidata.org/wiki/Q28320747"
+  },
+  "indexedAt": "2026-07-23T14:36:27.418Z"
+}

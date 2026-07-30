@@ -1,0 +1,134 @@
+{
+  "slug": "multi-leader",
+  "name": "Multi-Leader Replication",
+  "description": "A database replication strategy where multiple nodes accept writes and replicate changes to each other. Useful for multi-datacenter deployments and offline-first applications.",
+  "categories": [
+    {
+      "label": "Free Books & Guides",
+      "icon": "book",
+      "items": [
+        {
+          "title": "Refactoring.Guru — Multi-Leader Replication",
+          "url": "https://refactoring.guru/design-patterns/multi-leader",
+          "description": "The definitive modern guide to the Multi-Leader Replication pattern. Clear explanations, UML diagrams, real-world analogies, and code examples in multiple languages."
+        },
+        {
+          "title": "SourceMaking — Multi-Leader Replication",
+          "url": "https://sourcemaking.com/design_patterns/multi_leader",
+          "description": "A comprehensive companion guide covering the Multi-Leader Replication pattern with detailed rules of thumb, criticisms, and robust code snippets."
+        },
+        {
+          "title": "GoF Design Patterns — Multi-Leader Replication",
+          "url": "https://en.wikipedia.org/wiki/Design_Patterns",
+          "description": "The original Gang of Four book describing the pattern. Available in the \"Design Patterns: Elements of Reusable Object-Oriented Software\" on Wikipedia."
+        }
+      ]
+    },
+    {
+      "label": "Official Documentation",
+      "icon": "docs",
+      "items": [
+        {
+          "title": "Refactoring.Guru — Multi-Leader Replication",
+          "url": "https://refactoring.guru/design-patterns/multi-leader",
+          "description": "The definitive modern guide to the Multi-Leader Replication pattern. Clear explanations, UML diagrams, real-world analogies, and code examples in multiple languages."
+        },
+        {
+          "title": "Wikipedia — Multi-Leader Replication Pattern",
+          "url": "https://en.wikipedia.org/wiki/Multi-Leader_Replication_pattern",
+          "description": "Wikipedia article explaining the Multi-Leader Replication pattern with examples and history."
+        }
+      ]
+    },
+    {
+      "label": "Video Courses",
+      "icon": "video",
+      "items": [
+        {
+          "title": "freeCodeCamp — Design Patterns Course",
+          "url": "https://www.youtube.com/watch?v=tv-_1er1mWI",
+          "description": "A comprehensive multi-hour video course covering all major design patterns with implementations in JavaScript and TypeScript."
+        },
+        {
+          "title": "Design Patterns in Modern JavaScript Playlist",
+          "url": "https://www.youtube.com/playlist?list=PLFKDYTlP3arzwu3s7HtVo8sU4o1ryhYf_",
+          "description": "YouTube playlist covering creational, structural, and behavioral patterns with clear code walkthroughs."
+        },
+        {
+          "title": "Web Dev Simplified — Multi-Leader Replication",
+          "url": "https://www.youtube.com/@WebDevSimplified",
+          "description": "Clear, concise video tutorials covering design patterns with practical examples."
+        }
+      ]
+    },
+    {
+      "label": "Practice & Examples",
+      "icon": "terminal",
+      "items": [
+        {
+          "title": "Awesome Low-Level Design (GitHub)",
+          "url": "https://github.com/ashishps1/awesome-low-level-design",
+          "description": "A curated collection of free LLD resources, pattern implementations, and interview problems across multiple languages."
+        },
+        {
+          "title": "Design Patterns Implementation (GitHub)",
+          "url": "https://github.com/iluwatar/java-design-patterns",
+          "description": "The most popular open-source collection of design pattern implementations with detailed explanations."
+        },
+        {
+          "title": "Refactoring.Guru Examples in Multi-Leader Replication",
+          "url": "https://refactoring.guru/design-patterns/multi-leader/typescript/example",
+          "description": "Code examples of the Multi-Leader Replication pattern in TypeScript, Python, Java, and more."
+        }
+      ]
+    },
+    {
+      "label": "Reference & Cheatsheets",
+      "icon": "reference",
+      "items": [
+        {
+          "title": "Design Patterns Cheatsheet",
+          "url": "https://refactoring.guru/sites/default/files/styles/1200/public/content/design-patterns-cheatsheet.png",
+          "description": "A visual reference chart summarizing all 22 GoF design patterns with intent and structure."
+        },
+        {
+          "title": "DoFactory — Multi-Leader Replication",
+          "url": "https://www.dofactory.com/net/multi-leader-design-pattern",
+          "description": "A concise structural reference for the Multi-Leader Replication pattern with C# code examples."
+        }
+      ]
+    },
+    {
+      "label": "Articles & Blog Posts",
+      "icon": "news",
+      "items": [
+        {
+          "title": "Refactoring Guru Blog",
+          "url": "https://refactoring.guru/design-patterns/blog",
+          "description": "Pattern-specific articles, best practices, and real-world usage scenarios."
+        },
+        {
+          "title": "Medium — Design Patterns Explained",
+          "url": "https://medium.com/tag/design-patterns",
+          "description": "Community-written articles exploring design patterns with real-world examples and code walkthroughs."
+        }
+      ]
+    },
+    {
+      "label": "Community",
+      "icon": "community",
+      "items": [
+        {
+          "title": "Stack Overflow — Design Patterns",
+          "url": "https://stackoverflow.com/questions/tagged/design-patterns",
+          "description": "Q&A forum for pattern-related questions, best practices, and implementation help."
+        },
+        {
+          "title": "Reddit r/SoftwareArchitecture",
+          "url": "https://www.reddit.com/r/softwarearchitecture/",
+          "description": "Community discussions about software architecture, design patterns, and system design."
+        }
+      ]
+    }
+  ]
+}

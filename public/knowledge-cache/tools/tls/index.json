@@ -1,0 +1,16 @@
+{
+  "id": "tls",
+  "category": "tools",
+  "label": "TLS",
+  "aliases": [],
+  "description": "Cryptographic protocol for secure communication over a network",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Transport_Layer_Security",
+    "wikidata": "https://www.wikidata.org/wiki/Q2001845"
+  },
+  "indexedAt": "2026-07-23T14:36:33.917Z"
+}

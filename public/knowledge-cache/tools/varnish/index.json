@@ -1,0 +1,16 @@
+{
+  "id": "varnish",
+  "category": "tools",
+  "label": "Varnish Cache",
+  "aliases": [],
+  "description": "HTTP accelerator and reverse proxy for caching web content",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Varnish_(software)",
+    "wikidata": "https://www.wikidata.org/wiki/Q636779"
+  },
+  "indexedAt": "2026-07-23T14:36:36.432Z"
+}

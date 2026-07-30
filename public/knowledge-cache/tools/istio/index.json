@@ -1,0 +1,16 @@
+{
+  "id": "istio",
+  "category": "tools",
+  "label": "Istio",
+  "aliases": [],
+  "description": "Service mesh layer for managing microservice communication",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Istio",
+    "wikidata": "https://www.wikidata.org/wiki/Q39052114"
+  },
+  "indexedAt": "2026-07-23T14:36:25.879Z"
+}

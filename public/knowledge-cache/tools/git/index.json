@@ -1,0 +1,16 @@
+{
+  "id": "git",
+  "category": "tools",
+  "label": "Git",
+  "aliases": [],
+  "description": "Distributed version control system for tracking source code changes",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Git",
+    "wikidata": "https://www.wikidata.org/wiki/Q186055"
+  },
+  "indexedAt": "2026-07-23T14:36:28.071Z"
+}

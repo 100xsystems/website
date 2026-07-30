@@ -1,0 +1,16 @@
+{
+  "id": "mysql",
+  "category": "tools",
+  "label": "MySQL",
+  "aliases": [],
+  "description": "Popular open-source relational database management system",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/MySQL",
+    "wikidata": "https://www.wikidata.org/wiki/Q850"
+  },
+  "indexedAt": "2026-07-23T14:36:23.495Z"
+}

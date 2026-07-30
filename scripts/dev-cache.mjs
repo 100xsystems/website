@@ -177,11 +177,15 @@ function main() {
   buildYcCache(registryBaseDir);
   buildPhCache(registryBaseDir);
 
-  // Build knowledge cache BEFORE deleting the clone
+  // Build knowledge cache — clear stale files first, then copy from registry
   try {
     const knowledgeDir = path.join(registryBaseDir, 'static-data', 'knowledge');
     if (fs.existsSync(knowledgeDir)) {
       const cacheDir = path.join(PUBLIC_DIR, 'knowledge-cache');
+      // Clear stale cache to prevent format conflicts
+      if (fs.existsSync(cacheDir)) {
+        fs.rmSync(cacheDir, { recursive: true, force: true });
+      }
       ensureDir(cacheDir);
       execSync(`cp -r "${knowledgeDir}/." "${cacheDir}/"`, { stdio: 'pipe' });
       console.log('  ✓ knowledge-cache/');
@@ -192,19 +196,12 @@ function main() {
     console.warn(`  ⚠ Failed to copy knowledge cache: ${err.message}`);
   }
 
-  // Build language resources cache
-  try {
-    const langDir = path.join(registryBaseDir, 'static-data', 'knowledge', 'languages');
-    if (fs.existsSync(langDir)) {
-      const cacheDir = path.join(PUBLIC_DIR, 'knowledge-cache', 'languages');
-      ensureDir(cacheDir);
-      execSync(`cp -r "${langDir}/." "${cacheDir}/"`, { stdio: 'pipe' });
-      console.log('  ✓ knowledge-cache/languages/');
-    } else {
-      console.warn('  ⚠ No static-data/knowledge/languages/ directory in registry');
+  // Clean up stale YC and PH caches too
+  for (const staleDir of ['yc-cache', 'ph-cache']) {
+    const dir = path.join(PUBLIC_DIR, staleDir);
+    if (fs.existsSync(dir)) {
+      try { fs.rmSync(dir, { recursive: true, force: true }); } catch {}
     }
-  } catch (err) {
-    console.warn(`  ⚠ Failed to copy languages cache: ${err.message}`);
   }
 
   // Cleanup clone dir

@@ -1,0 +1,115 @@
+{
+  "slug": "neovim",
+  "name": "Neovim",
+  "description": "Neovim is a hyper-extensible, modern refactor of Vim. It features asynchronous architecture, built-in LSP client, Tree-sitter syntax engine, and first-class Lua support for creating powerful editor configurations.",
+  "categories": [
+    {
+      "label": "Free Books",
+      "icon": "book",
+      "items": [
+        {
+          "title": "Neovim Official Docs",
+          "url": "https://neovim.io/doc/",
+          "description": "Canonical reference manual with built-in Lua guide and user manual."
+        },
+        {
+          "title": "kickstart.nvim",
+          "url": "https://github.com/nvim-lua/kickstart.nvim",
+          "description": "Heavily documented template by core contributor TJ DeVries teaching modern Neovim configuration."
+        }
+      ]
+    },
+    {
+      "label": "Official Documentation",
+      "icon": "docs",
+      "items": [
+        {
+          "title": "Neovim News & Roadmap",
+          "url": "https://neovim.io/news/",
+          "description": "Official releases, announcements, and project roadmap updates."
+        },
+        {
+          "title": "Learn Neovim (Jeff Bailey)",
+          "url": "https://jeffbailey.us/blog/2025/06/07/learn-neovim/",
+          "description": "Exhaustive breakdown of architecture, LSP, Tree-sitter, and commands."
+        }
+      ]
+    },
+    {
+      "label": "Interactive Courses",
+      "icon": "code",
+      "items": [
+        {
+          "title": "vimtutor (Built-in)",
+          "url": "https://neovim.io/doc/user/usr_01.html",
+          "description": "Built-in interactive 30-minute tutorial for learning core editor motions."
+        },
+        {
+          "title": "Vimaroo",
+          "url": "https://vimaroo.com",
+          "description": "Free browser-based gamified training tool for building muscle memory."
+        }
+      ]
+    },
+    {
+      "label": "Video Courses",
+      "icon": "video",
+      "items": [
+        {
+          "title": "Neovim for Newbs (YouTube)",
+          "url": "https://www.youtube.com/playlist?list=PLsz00TDipIffreIaUNk64KxTIkQaGguqn",
+          "description": "Comprehensive video course for building a modern Lua configuration from scratch."
+        }
+      ]
+    },
+    {
+      "label": "Practice & Challenges",
+      "icon": "terminal",
+      "items": [
+        {
+          "title": "Dotfyle Discovery",
+          "url": "https://dotfyle.com/",
+          "description": "Central hub to search, filter, and analyze trending Neovim plugins and configurations."
+        }
+      ]
+    },
+    {
+      "label": "Reference & Cheatsheets",
+      "icon": "reference",
+      "items": [
+        {
+          "title": "Neovim Cheatsheet",
+          "url": "https://github.com/mattmc3/neovim-cheatsheet",
+          "description": "Printable highly organized reference sheet for keybindings and commands."
+        }
+      ]
+    },
+    {
+      "label": "News & Updates",
+      "icon": "news",
+      "items": [
+        {
+          "title": "This Week in Neovim",
+          "url": "https://dotfyle.com/this-week-in-neovim",
+          "description": "Premier community-driven weekly newsletter on plugins and core changes."
+        }
+      ]
+    },
+    {
+      "label": "Community",
+      "icon": "community",
+      "items": [
+        {
+          "title": "Reddit r/neovim",
+          "url": "https://www.reddit.com/r/neovim/",
+          "description": "Most active forum for configuration questions and plugin discussions."
+        },
+        {
+          "title": "Neovim GitHub Discussions",
+          "url": "https://github.com/neovim/neovim/discussions",
+          "description": "Direct technical discussions with maintainers and core contributors."
+        }
+      ]
+    }
+  ]
+}

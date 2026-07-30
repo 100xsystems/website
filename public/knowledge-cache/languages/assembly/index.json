@@ -1,0 +1,135 @@
+{
+  "slug": "assembly",
+  "name": "Assembly",
+  "description": "Assembly language provides direct control over CPU instructions, memory, and registers. Essential for understanding computer architecture, reverse engineering, embedded systems, and performance-critical code optimization.",
+  "categories": [
+    {
+      "label": "Free Books",
+      "icon": "book",
+      "items": [
+        {
+          "title": "Programming from the Ground Up",
+          "url": "https://download-mirror.savannah.gnu.org/releases/pgubook/ProgrammingGroundUp-1-0-booksize.pdf",
+          "description": "Classic textbook teaching core programming concepts using x86 assembly and GNU/Linux."
+        },
+        {
+          "title": "PC Assembly Language (Paul Carter)",
+          "url": "https://www.scs.stanford.edu/05au-cs240c/lab/pcasm-book.pdf",
+          "description": "Widely recommended intro covering x86 assembly, data representation, memory layout, and C interop."
+        }
+      ]
+    },
+    {
+      "label": "Official Documentation",
+      "icon": "docs",
+      "items": [
+        {
+          "title": "Intel SDM Manuals",
+          "url": "https://www.intel.com/content/www/us/en/developer/articles/technical/intel-sdm.html",
+          "description": "Official Intel software developer manuals for IA-32 and x86-64 architecture."
+        },
+        {
+          "title": "ARM Architecture Reference",
+          "url": "https://developer.arm.com/documentation/ddi0487/gb/",
+          "description": "Official ARM architectural specifications covering instruction sets and features."
+        }
+      ]
+    },
+    {
+      "label": "Interactive Courses",
+      "icon": "code",
+      "items": [
+        {
+          "title": "Compiler Explorer (Godbolt)",
+          "url": "https://godbolt.org/",
+          "description": "Write C/C++/Rust and see the generated assembly output instantly — essential for learning how compilers translate code."
+        },
+        {
+          "title": "Azeria Labs ARM Assembly",
+          "url": "https://azeria-labs.com/",
+          "description": "Acclaimed text-based course on ARM 32-bit assembly for security research and exploit development."
+        }
+      ]
+    },
+    {
+      "label": "Video Courses",
+      "icon": "video",
+      "items": [
+        {
+          "title": "ARM Assembly Course (freeCodeCamp)",
+          "url": "https://www.classcentral.com/report/best-assembly-courses/",
+          "description": "Practical video covering ARMv7 architecture, registers, instructions, and Linux syscalls."
+        },
+        {
+          "title": "Modern x64 Assembly (Creel)",
+          "url": "https://www.classcentral.com/report/best-assembly-courses/",
+          "description": "Video series on modern x64 assembly, hardware interactions, and performance optimization."
+        }
+      ]
+    },
+    {
+      "label": "Practice & Challenges",
+      "icon": "terminal",
+      "items": [
+        {
+          "title": "Compiler Explorer (Godbolt)",
+          "url": "https://godbolt.org/",
+          "description": "Best tool for practicing assembly — compare your output with compiler-generated code."
+        },
+        {
+          "title": "TIS-100 (Programming Game)",
+          "url": "https://store.steampowered.com/app/370360/TIS100/",
+          "description": "Retro puzzle game requiring custom assembly code to solve spatial and arithmetic problems."
+        }
+      ]
+    },
+    {
+      "label": "Reference & Cheatsheets",
+      "icon": "reference",
+      "items": [
+        {
+          "title": "X86 Instruction Reference",
+          "url": "https://www.felixcloutier.com/x86/",
+          "description": "Searchable web reference for x86/x64 instructions, flags, and opcodes."
+        },
+        {
+          "title": "Devhints Assembly Reference",
+          "url": "https://devhints.io/assembly",
+          "description": "Quick reference for common assembly instructions and registers."
+        }
+      ]
+    },
+    {
+      "label": "News & Updates",
+      "icon": "news",
+      "items": [
+        {
+          "title": "Intel Developer Zone",
+          "url": "https://www.intel.com/content/www/us/en/developer/overview.html",
+          "description": "Intel developer news on architecture updates and instruction set extensions."
+        },
+        {
+          "title": "Reddit r/Assembly_language",
+          "url": "https://www.reddit.com/r/Assembly_language/",
+          "description": "Community for assembly news, questions, and low-level discussions."
+        }
+      ]
+    },
+    {
+      "label": "Community",
+      "icon": "community",
+      "items": [
+        {
+          "title": "Reddit r/Assembly_language",
+          "url": "https://www.reddit.com/r/Assembly_language/",
+          "description": "Dedicated community for assembly language questions and code discussions."
+        },
+        {
+          "title": "Stack Overflow — Assembly Tag",
+          "url": "https://stackoverflow.com/questions/tagged/assembly",
+          "description": "Q&A for assembly syntax, debugging, and low-level code optimization."
+        }
+      ]
+    }
+  ]
+}

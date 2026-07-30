@@ -1,0 +1,110 @@
+{
+  "slug": "sass",
+  "name": "Sass",
+  "description": "Sass (Syntactically Awesome Style Sheets) is a mature, stable CSS extension language that adds variables, nesting, mixins, functions, and modularity to CSS. It is the most popular CSS preprocessor in the world.",
+  "categories": [
+    {
+      "label": "Free Books",
+      "icon": "book",
+      "items": [
+        {
+          "title": "Sass Guide (Official)",
+          "url": "https://sass-lang.com/guide/",
+          "description": "The official guide covering variables, nesting, partials, modules, mixins, and inheritance."
+        },
+        {
+          "title": "Sass Basics (CSS-Tricks)",
+          "url": "https://css-tricks.com/sass-guide/",
+          "description": "A comprehensive beginner-friendly guide to Sass from the community experts at CSS-Tricks."
+        }
+      ]
+    },
+    {
+      "label": "Official Documentation",
+      "icon": "docs",
+      "items": [
+        {
+          "title": "Sass Language Docs",
+          "url": "https://sass-lang.com/documentation/",
+          "description": "Complete official documentation covering syntax, at-rules, built-in modules, and configuration."
+        },
+        {
+          "title": "Sass Playground",
+          "url": "https://www.sassmeister.com/",
+          "description": "Online editor to write Sass and see compiled CSS instantly."
+        }
+      ]
+    },
+    {
+      "label": "Interactive Courses",
+      "icon": "code",
+      "items": [
+        {
+          "title": "freeCodeCamp - Sass Course",
+          "url": "https://www.freecodecamp.org/news/learn-sass-now/",
+          "description": "Free comprehensive Sass tutorial from freeCodeCamp covering all key features."
+        }
+      ]
+    },
+    {
+      "label": "Video Courses",
+      "icon": "video",
+      "items": [
+        {
+          "title": "Sass Full Course (freeCodeCamp)",
+          "url": "https://www.youtube.com/watch?v=_a5j7KbN0qA",
+          "description": "Multi-hour Sass course covering fundamentals through advanced patterns."
+        },
+        {
+          "title": "Sass Tutorial (The Net Ninja)",
+          "url": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9iGYgmEd2dm3zH0F1D4o1Yb",
+          "description": "Beginner-friendly playlist covering Sass from scratch."
+        }
+      ]
+    },
+    {
+      "label": "Practice & Challenges",
+      "icon": "terminal",
+      "items": [
+        {
+          "title": "SassMeister",
+          "url": "https://www.sassmeister.com/",
+          "description": "Online Sass playground with real-time compilation to CSS."
+        }
+      ]
+    },
+    {
+      "label": "Reference & Cheatsheets",
+      "icon": "reference",
+      "items": [
+        {
+          "title": "Sass Cheatsheet (devhints)",
+          "url": "https://devhints.io/sass",
+          "description": "A concise one-page reference for Sass syntax and features."
+        }
+      ]
+    },
+    {
+      "label": "News & Updates",
+      "icon": "news",
+      "items": [
+        {
+          "title": "Sass Blog",
+          "url": "https://sass-lang.com/blog/",
+          "description": "Official Sass blog with release notes and community updates."
+        }
+      ]
+    },
+    {
+      "label": "Community",
+      "icon": "community",
+      "items": [
+        {
+          "title": "Sass GitHub Discussions",
+          "url": "https://github.com/sass/sass/discussions",
+          "description": "Community discussions on Sass language design."
+        }
+      ]
+    }
+  ]
+}

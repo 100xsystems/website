@@ -1,0 +1,16 @@
+{
+  "id": "jwt",
+  "category": "tools",
+  "label": "JWT",
+  "aliases": [],
+  "description": "Proposed web cryptography standard",
+  "summary": "JSON Web Token \nis a proposed Internet standard for creating data with optional signature and/or optional encryption whose payload holds JSON that asserts some number of claims. The tokens are signed either using a private secret or a public/private key.",
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/JSON_Web_Token",
+    "wikidata": "https://www.wikidata.org/wiki/Q17085399"
+  },
+  "indexedAt": "2026-07-23T14:36:33.603Z"
+}

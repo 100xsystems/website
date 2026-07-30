@@ -1,0 +1,135 @@
+{
+  "slug": "graphql",
+  "name": "GraphQL",
+  "description": "GraphQL is a query language and runtime for APIs, developed by Meta. It lets clients request exactly the data they need, eliminating over-fetching and under-fetching common with REST APIs.",
+  "categories": [
+    {
+      "label": "Free Books",
+      "icon": "book",
+      "items": [
+        {
+          "title": "How to GraphQL",
+          "url": "https://www.howtographql.com/",
+          "description": "A comprehensive community resource covering everything from GraphQL fundamentals to full-stack implementations."
+        },
+        {
+          "title": "GraphQL Guide",
+          "url": "https://graphql.guide/",
+          "description": "A free online book covering the complete GraphQL specification with practical examples."
+        }
+      ]
+    },
+    {
+      "label": "Official Documentation",
+      "icon": "docs",
+      "items": [
+        {
+          "title": "GraphQL Specification",
+          "url": "https://spec.graphql.org/",
+          "description": "The official GraphQL specification — the definitive source for understanding the language."
+        },
+        {
+          "title": "GraphQL Foundation Docs",
+          "url": "https://graphql.org/learn/",
+          "description": "Official learning guides covering queries, mutations, schemas, validation, and execution."
+        },
+        {
+          "title": "Apollo GraphQL Docs",
+          "url": "https://www.apollographql.com/docs/",
+          "description": "Production-ready documentation for the most popular GraphQL ecosystem."
+        }
+      ]
+    },
+    {
+      "label": "Interactive Courses",
+      "icon": "code",
+      "items": [
+        {
+          "title": "How to GraphQL (Interactive)",
+          "url": "https://www.howtographql.com/",
+          "description": "Full-stack interactive tutorials for building GraphQL APIs with various backend technologies."
+        },
+        {
+          "title": "Apollo Odyssey",
+          "url": "https://www.apollographql.com/tutorials/",
+          "description": "Free interactive learning platform with courses on GraphQL fundamentals and advanced patterns."
+        }
+      ]
+    },
+    {
+      "label": "Video Courses",
+      "icon": "video",
+      "items": [
+        {
+          "title": "GraphQL Full Course (freeCodeCamp)",
+          "url": "https://www.youtube.com/watch?v=ed8SzALbx1Q",
+          "description": "A comprehensive video course covering GraphQL from basics to production deployments."
+        },
+        {
+          "title": "GraphQL Crash Course (Net Ninja)",
+          "url": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9gUxtblNUHcsAtVk0MVo5nG",
+          "description": "A beginner-friendly playlist covering GraphQL schemas, resolvers, mutations, and Apollo integration."
+        }
+      ]
+    },
+    {
+      "label": "Practice & Challenges",
+      "icon": "terminal",
+      "items": [
+        {
+          "title": "GraphQL Playground",
+          "url": "https://www.graphqlbin.com/",
+          "description": "Online sandbox for testing and exploring GraphQL queries against real APIs."
+        },
+        {
+          "title": "Exercism — GraphQL Track",
+          "url": "https://exercism.org/tracks/graphql",
+          "description": "Free coding exercises for GraphQL schema design and query writing."
+        }
+      ]
+    },
+    {
+      "label": "Reference & Cheatsheets",
+      "icon": "reference",
+      "items": [
+        {
+          "title": "GraphQL Cheat Sheet",
+          "url": "https://graphql.org/cheat-sheet/",
+          "description": "Official quick reference covering all GraphQL query syntax and schema definition language."
+        }
+      ]
+    },
+    {
+      "label": "News & Updates",
+      "icon": "news",
+      "items": [
+        {
+          "title": "GraphQL Weekly",
+          "url": "https://www.graphqlweekly.com/",
+          "description": "A weekly newsletter covering GraphQL articles, releases, tools, and community projects."
+        }
+      ]
+    },
+    {
+      "label": "Community",
+      "icon": "community",
+      "items": [
+        {
+          "title": "Reddit r/graphql",
+          "url": "https://www.reddit.com/r/graphql/",
+          "description": "Community for GraphQL discussions, news, and showcase projects."
+        },
+        {
+          "title": "GraphQL Foundation Slack",
+          "url": "https://graphql.org/community/",
+          "description": "Official GraphQL Foundation community channels for real-time discussions."
+        },
+        {
+          "title": "Stack Overflow — GraphQL Tag",
+          "url": "https://stackoverflow.com/questions/tagged/graphql",
+          "description": "Q&A for GraphQL schema design and troubleshooting."
+        }
+      ]
+    }
+  ]
+}

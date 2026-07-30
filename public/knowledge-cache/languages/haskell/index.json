@@ -1,0 +1,145 @@
+{
+  "slug": "haskell",
+  "name": "Haskell",
+  "description": "Haskell is a purely functional programming language with strong static typing and lazy evaluation. It provides an unparalleled foundation for writing correct, composable, and concurrent software. These are the definitive free resources — vetted, current, and complete.",
+  "categories": [
+    {
+      "label": "Free Books",
+      "icon": "book",
+      "items": [
+        {
+          "title": "Learn You a Haskell for Great Good!",
+          "url": "https://learnyouahaskell.github.io/introduction.html",
+          "description": "The iconic beginner-friendly classic teaching functional programming from basic syntax to monads with a humorous, illustrated approach."
+        },
+        {
+          "title": "Haskell Programming from First Principles",
+          "url": "https://haskellbook.com/",
+          "description": "The most thorough book for mastering Haskell from scratch. Free chapters and community solutions available via GitHub."
+        }
+      ]
+    },
+    {
+      "label": "Official Documentation",
+      "icon": "docs",
+      "items": [
+        {
+          "title": "Haskell.org Documentation Hub",
+          "url": "https://www.haskell.org/documentation/",
+          "description": "Central hub for official guides, the Haskell Report, language standards, and library documentation via Hackage."
+        },
+        {
+          "title": "Hackage — Haskell Package Repository",
+          "url": "https://hackage.haskell.org/",
+          "description": "Central package repository with complete API documentation for thousands of Haskell libraries."
+        },
+        {
+          "title": "GHC Users Guide",
+          "url": "https://downloads.haskell.org/ghc/latest/docs/users_guide/",
+          "description": "Complete documentation for the Glasgow Haskell Compiler covering language extensions, optimization, and profiling."
+        }
+      ]
+    },
+    {
+      "label": "Interactive Courses",
+      "icon": "code",
+      "items": [
+        {
+          "title": "Haskell MOOC (University of Helsinki)",
+          "url": "https://haskell.mooc.fi/",
+          "description": "A premier free interactive course split into two parts covering from basics to algebraic data types and monads."
+        },
+        {
+          "title": "Type Classes Free Crash Courses",
+          "url": "https://typeclasses.com/",
+          "description": "Professional-grade visual courses and free introductory tracks tailored for programmers entering the Haskell ecosystem."
+        }
+      ]
+    },
+    {
+      "label": "Video Courses",
+      "icon": "video",
+      "items": [
+        {
+          "title": "Haskell for Imperative Programmers (YouTube)",
+          "url": "https://www.youtube.com/playlist?list=PLe7Ei6viL6jGp1Rfu0dCS1KeEZLSS8rsn",
+          "description": "A comprehensive video series teaching Haskell from an imperative programming background with clear explanations."
+        },
+        {
+          "title": "Tsoding — Haskell Live Coding",
+          "url": "https://www.youtube.com/@Tsoding",
+          "description": "Live coding sessions exploring Haskell, functional design patterns, and real-world applications."
+        }
+      ]
+    },
+    {
+      "label": "Practice & Challenges",
+      "icon": "terminal",
+      "items": [
+        {
+          "title": "Exercism — Haskell Track",
+          "url": "https://exercism.org/tracks/haskell",
+          "description": "107 free exercises with community volunteer mentors who review your code for idiomatic functional style."
+        },
+        {
+          "title": "Codewars — Haskell Kata",
+          "url": "https://www.codewars.com/kata/search/haskell",
+          "description": "Over 2,100 community-driven coding katas from beginner to advanced algorithms."
+        }
+      ]
+    },
+    {
+      "label": "Reference & Cheatsheets",
+      "icon": "reference",
+      "items": [
+        {
+          "title": "Haskell Cheatsheet (GitHub)",
+          "url": "https://github.com/alhassy/HaskellCheatSheet",
+          "description": "Comprehensive reference sheet with syntax, keywords, operators, pattern matching, and type declarations."
+        },
+        {
+          "title": "Hoogle — Haskell API Search",
+          "url": "https://hoogle.haskell.org/",
+          "description": "Search Haskell functions by name or type signature. Find standard library and package functions instantly."
+        }
+      ]
+    },
+    {
+      "label": "News & Updates",
+      "icon": "news",
+      "items": [
+        {
+          "title": "Haskell Weekly",
+          "url": "https://haskellweekly.news/",
+          "description": "Weekly curated newsletter and podcast covering library releases, blog posts, tutorials, and success stories."
+        },
+        {
+          "title": "GHC Release Notes",
+          "url": "https://www.haskell.org/ghc/",
+          "description": "Track GHC compiler releases, language extension proposals, and performance improvements."
+        }
+      ]
+    },
+    {
+      "label": "Community",
+      "icon": "community",
+      "items": [
+        {
+          "title": "Haskell Discourse",
+          "url": "https://discourse.haskell.org/",
+          "description": "Official community forum with a dedicated learning category for beginners to ask questions and get help."
+        },
+        {
+          "title": "Reddit r/haskell",
+          "url": "https://www.reddit.com/r/haskell/",
+          "description": "Vibrant community sharing announcements, blog posts, project showcases, and deep FP discussions."
+        },
+        {
+          "title": "Haskell.org Community",
+          "url": "https://www.haskell.org/community/",
+          "description": "Official community page listing user groups, IRC channels, mailing lists, and global Haskell events."
+        }
+      ]
+    }
+  ]
+}

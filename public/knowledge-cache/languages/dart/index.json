@@ -1,0 +1,145 @@
+{
+  "slug": "dart",
+  "name": "Dart",
+  "description": "Dart is the language behind Flutter, Googles cross-platform UI framework. It is optimized for building fast mobile, web, and desktop apps with a single codebase. These are the definitive free resources — vetted, current, and complete.",
+  "categories": [
+    {
+      "label": "Free Books",
+      "icon": "book",
+      "items": [
+        {
+          "title": "Dart Language Tour (Official)",
+          "url": "https://dart.dev/language",
+          "description": "The official introduction to Dart covering variables, types, functions, collections, async, and modern Dart 3 features."
+        },
+        {
+          "title": "Flutter Learn Pathway",
+          "url": "https://docs.flutter.dev/learn",
+          "description": "Google official starting point teaching Dart and Flutter from setup to building functional cross-platform apps."
+        }
+      ]
+    },
+    {
+      "label": "Official Documentation",
+      "icon": "docs",
+      "items": [
+        {
+          "title": "Dart Documentation",
+          "url": "https://dart.dev/guides",
+          "description": "Complete official Dart documentation covering library tour, language evolution, and tooling."
+        },
+        {
+          "title": "Flutter Codelabs",
+          "url": "https://docs.flutter.dev/codelabs",
+          "description": "Hands-on step-by-step tutorials by Google engineers teaching UI, state management, and clean architecture."
+        },
+        {
+          "title": "DartPad",
+          "url": "https://dartpad.dev/",
+          "description": "Google official zero-setup online sandbox to write and execute Dart and Flutter code in-browser."
+        }
+      ]
+    },
+    {
+      "label": "Interactive Courses",
+      "icon": "code",
+      "items": [
+        {
+          "title": "Hello Dart (Code Makery)",
+          "url": "https://code.makery.ch/",
+          "description": "A playful interactive tutorial teaching Dart fundamentals through visual quests and coding challenges."
+        },
+        {
+          "title": "Google Codelab — Dart Patterns & Records",
+          "url": "https://codelabs.developers.google.com/codelabs/dart-patterns-records",
+          "description": "Official hands-on guide teaching Dart 3 features — records, pattern matching, destructuring, and switch expressions."
+        }
+      ]
+    },
+    {
+      "label": "Video Courses",
+      "icon": "video",
+      "items": [
+        {
+          "title": "Flutter Course for Beginners (freeCodeCamp)",
+          "url": "https://www.youtube.com/watch?v=V3cFlraeiVI",
+          "description": "Massive full-length video taking beginners from zero to publishing on Google Play and App Store."
+        },
+        {
+          "title": "Flutter & Firebase Full Stack Course (freeCodeCamp)",
+          "url": "https://www.youtube.com/watch?v=2kjp9yAKpT4",
+          "description": "Project-based course covering responsive UI, authentication, database management, and social features."
+        }
+      ]
+    },
+    {
+      "label": "Practice & Challenges",
+      "icon": "terminal",
+      "items": [
+        {
+          "title": "Exercism — Dart Track",
+          "url": "https://exercism.org/tracks/dart",
+          "description": "100+ coding exercises with automated analysis and human mentor feedback for writing idiomatic Dart."
+        },
+        {
+          "title": "Codewars — Dart Kata",
+          "url": "https://www.codewars.com/",
+          "description": "Solve community-created challenges in Dart across hundreds of difficulty levels."
+        }
+      ]
+    },
+    {
+      "label": "Reference & Cheatsheets",
+      "icon": "reference",
+      "items": [
+        {
+          "title": "Dart Quick Reference (QuickRef)",
+          "url": "https://quickref.me/dart.html",
+          "description": "Clean comprehensive cheat sheet covering variables, types, collections, OOP, futures, and async/await."
+        },
+        {
+          "title": "Dart API Reference",
+          "url": "https://api.dart.dev/",
+          "description": "Complete API documentation for the Dart SDK with all core libraries and packages."
+        }
+      ]
+    },
+    {
+      "label": "News & Updates",
+      "icon": "news",
+      "items": [
+        {
+          "title": "Flutter & Dart Announcements",
+          "url": "https://medium.com/flutter",
+          "description": "Official Flutter blog covering releases, breaking changes, and ecosystem news."
+        },
+        {
+          "title": "This Week in Flutter",
+          "url": "https://thisweekinflutter.com/",
+          "description": "Weekly curated roundup of Flutter and Dart news, packages, and community highlights."
+        }
+      ]
+    },
+    {
+      "label": "Community",
+      "icon": "community",
+      "items": [
+        {
+          "title": "Reddit r/FlutterDev",
+          "url": "https://www.reddit.com/r/FlutterDev/",
+          "description": "The largest Flutter and Dart community for architecture advice, troubleshooting, and package showcases."
+        },
+        {
+          "title": "Flutter Discord",
+          "url": "https://discord.gg/rflutterdev",
+          "description": "Active real-time chat with 70k+ members for help channels, project feedback, and job discussions."
+        },
+        {
+          "title": "Dart & Flutter Dev (Official)",
+          "url": "https://dart.dev/community",
+          "description": "Official Dart community page listing groups, events, and contribution guidelines."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "vercel",
+  "category": "tools",
+  "label": "Vercel",
+  "aliases": [],
+  "description": "American cloud application company",
+  "summary": "Vercel Inc. is an American cloud application company. The company created and maintains the Next.js web development framework.",
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Vercel",
+    "wikidata": "https://www.wikidata.org/wiki/Q65045936"
+  },
+  "indexedAt": "2026-07-23T14:36:34.689Z"
+}

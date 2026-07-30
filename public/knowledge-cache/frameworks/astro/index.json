@@ -1,0 +1,120 @@
+{
+  "slug": "astro",
+  "name": "Astro",
+  "description": "Astro is the all-in-one web framework for building content-driven websites. It delivers zero-JS by default, supports multiple UI frameworks (React, Vue, Svelte), and uses a unique islands architecture for optimal performance.",
+  "categories": [
+    {
+      "label": "Free Books",
+      "icon": "book",
+      "items": [
+        {
+          "title": "Astro Docs - Getting Started",
+          "url": "https://docs.astro.build/en/getting-started/",
+          "description": "The official starting point covering setup, CLI wizard, and first dev server."
+        },
+        {
+          "title": "Understanding Astro Book (GitHub)",
+          "url": "https://github.com/understanding-astro/understanding-astro-book",
+          "description": "Open-source free book teaching how to architect fast content-driven sites using Astro."
+        }
+      ]
+    },
+    {
+      "label": "Official Documentation",
+      "icon": "docs",
+      "items": [
+        {
+          "title": "Astro Build a Blog Tutorial",
+          "url": "https://docs.astro.build/en/tutorial/0-introduction/",
+          "description": "Premier hands-on tutorial from zero to deploying a production-ready content site."
+        },
+        {
+          "title": "Astro API Reference",
+          "url": "https://docs.astro.build/en/reference/",
+          "description": "Complete API reference for Astro components, configuration, and CLI commands."
+        }
+      ]
+    },
+    {
+      "label": "Interactive Courses",
+      "icon": "code",
+      "items": [
+        {
+          "title": "Scrimba Astro Interactive Course",
+          "url": "https://scrimba.com/learn/astro",
+          "description": "Interactive screencast lessons where you can pause and edit code in the browser."
+        },
+        {
+          "title": "Astro Playground (astro.new)",
+          "url": "https://astro.new",
+          "description": "Official template sandbox with pre-built starter kits in a browser-based VS Code environment."
+        }
+      ]
+    },
+    {
+      "label": "Video Courses",
+      "icon": "video",
+      "items": [
+        {
+          "title": "Learn Astro Crash Course (YouTube)",
+          "url": "https://www.youtube.com/watch?v=brdy8HU03e4",
+          "description": "Fast-paced video walkthrough of architecture, routing, markdown, and deployment."
+        }
+      ]
+    },
+    {
+      "label": "Practice & Challenges",
+      "icon": "terminal",
+      "items": [
+        {
+          "title": "Astro Playground",
+          "url": "https://astro.new",
+          "description": "Instantly spin up Astro starters, blogs, and portfolio templates online."
+        }
+      ]
+    },
+    {
+      "label": "Reference & Cheatsheets",
+      "icon": "reference",
+      "items": [
+        {
+          "title": "Astro CheatSheet (Luis Llamas)",
+          "url": "https://www.luisllamas.es/en/cheatsheet-astro/",
+          "description": "Developer-focused reference covering component syntax, frontmatter, and routing."
+        },
+        {
+          "title": "Astro Cheatsheet (Tutorialspoint)",
+          "url": "https://www.tutorialspoint.com/astrojs/astrojs-cheatsheet.htm",
+          "description": "Reference covering Islands architecture, API endpoints, and View Transitions."
+        }
+      ]
+    },
+    {
+      "label": "News & Updates",
+      "icon": "news",
+      "items": [
+        {
+          "title": "Astro Blog",
+          "url": "https://astro.build/blog/",
+          "description": "Official framework updates, release notes, and ecosystem highlights."
+        }
+      ]
+    },
+    {
+      "label": "Community",
+      "icon": "community",
+      "items": [
+        {
+          "title": "Astro Discord",
+          "url": "https://astro.build/chat",
+          "description": "Primary hub for help, core maintainers, and community-built integrations."
+        },
+        {
+          "title": "Reddit r/astrojs",
+          "url": "https://www.reddit.com/r/astrojs/",
+          "description": "Active developer forum sharing projects, CMS integrations, and optimization tips."
+        }
+      ]
+    }
+  ]
+}

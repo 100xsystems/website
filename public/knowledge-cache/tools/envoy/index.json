@@ -1,0 +1,16 @@
+{
+  "id": "envoy",
+  "category": "tools",
+  "label": "Envoy",
+  "aliases": [],
+  "description": "High-performance proxy designed for service mesh architectures",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Envoy_(software)",
+    "wikidata": "https://www.wikidata.org/wiki/Q28402273"
+  },
+  "indexedAt": "2026-07-23T14:36:25.411Z"
+}

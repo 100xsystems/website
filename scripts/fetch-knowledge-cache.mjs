@@ -1,13 +1,17 @@
 /**
  * fetch-knowledge-cache.mjs
  *
- * Copies the knowledge graph JSON files from the registry into the
- * website's public/ directory so they can be served statically.
+ * Copies the entire static-data/knowledge/ tree from the registry into the
+ * website's public/knowledge-cache/ directory so resource hubs and knowledge
+ * entities are served as static JSON.
+ *
+ * Supports both folder structures (resource hubs: languages/javascript/index.json)
+ * and flat structures (legacy knowledge entity JSON files).
  *
  * Runs during the prebuild phase (before `next build`).
  *
  * Two strategies:
- *   A) Development: copy from local filesystem (../registry/knowledge/)
+ *   A) Development: copy from local filesystem (../registry/static-data/knowledge/)
  *   B) CI/Build:    shallow clone the registry repo
  */
 
@@ -20,29 +24,33 @@ const REGISTRY_REPO = process.env.REGISTRY_REPO || '100xsystems/registry';
 const REGISTRY_BRANCH = process.env.REGISTRY_BRANCH || 'main';
 const LOCAL_REGISTRY_DIR = path.resolve('..', 'registry', 'static-data', 'knowledge');
 
-// Category directories to copy from the registry
-const CATEGORY_DIRS = ['principles', 'languages', 'tools', 'patterns'];
-
 /**
- * Copy a category directory's JSON files from source to destination.
+ * Copy the entire knowledge directory tree recursively.
+ * Handles both folder structures (languages/javascript/index.json)
+ * and flat files (principles/solid.json).
  */
-function copyCategoryDir(srcBase, destBase, category) {
-  const srcDir = path.join(srcBase, category);
+function copyKnowledgeTree(srcDir, destDir) {
   if (!fs.existsSync(srcDir)) return 0;
 
-  const destDir = path.join(destBase, category);
-  if (!fs.existsSync(destDir)) {
-    fs.mkdirSync(destDir, { recursive: true });
-  }
-
-  const files = fs.readdirSync(srcDir);
   let count = 0;
-  for (const file of files) {
-    if (file.endsWith('.json')) {
-      fs.copyFileSync(path.join(srcDir, file), path.join(destDir, file));
+  const entries = fs.readdirSync(srcDir, { withFileTypes: true });
+
+  for (const entry of entries) {
+    const srcPath = path.join(srcDir, entry.name);
+    const destPath = path.join(destDir, entry.name);
+
+    if (entry.isDirectory()) {
+      // Recurse into subdirectory — this handles both
+      // folder/slug/index.json (resource hubs) and
+      // folder/flatfile.json (knowledge entities — legacy)
+      fs.mkdirSync(destPath, { recursive: true });
+      count += copyKnowledgeTree(srcPath, destPath);
+    } else if (entry.name.endsWith('.json') || entry.name.endsWith('.md')) {
+      fs.cpSync(srcPath, destPath, { force: true });
       count++;
     }
   }
+
   return count;
 }
 
@@ -55,34 +63,14 @@ function copyFromLocal() {
 
   console.log(`  Copying from local: ${LOCAL_REGISTRY_DIR}`);
 
-  if (!fs.existsSync(CACHE_DIR)) {
-    fs.mkdirSync(CACHE_DIR, { recursive: true });
+  // Clear stale cache first
+  if (fs.existsSync(CACHE_DIR)) {
+    fs.rmSync(CACHE_DIR, { recursive: true, force: true });
   }
+  fs.mkdirSync(CACHE_DIR, { recursive: true });
 
-  // Copy manifest.json
-  const manifestSrc = path.join(LOCAL_REGISTRY_DIR, 'manifest.json');
-  if (fs.existsSync(manifestSrc)) {
-    fs.copyFileSync(manifestSrc, path.join(CACHE_DIR, 'manifest.json'));
-  }
-
-  // Copy seeds.json (contains entity descriptions for search)
-  const seedsSrc = path.join(LOCAL_REGISTRY_DIR, 'seeds.json');
-  if (fs.existsSync(seedsSrc)) {
-    fs.copyFileSync(seedsSrc, path.join(CACHE_DIR, 'seeds.json'));
-    console.log('  Copied seeds.json (entity descriptions)');
-  }
-
-  // Copy each category directory (principles, languages, tools, patterns)
-  let totalFiles = 0;
-  for (const cat of CATEGORY_DIRS) {
-    const count = copyCategoryDir(LOCAL_REGISTRY_DIR, CACHE_DIR, cat);
-    if (count > 0) {
-      console.log(`  Copied ${count} ${cat} files`);
-      totalFiles += count;
-    }
-  }
-
-  console.log(`  Total: ${totalFiles} entity files`);
+  const totalFiles = copyKnowledgeTree(LOCAL_REGISTRY_DIR, CACHE_DIR);
+  console.log(`  Copied ${totalFiles} files`);
 
   return true;
 }
@@ -117,25 +105,18 @@ function cloneFromGit() {
     return false;
   }
 
-  if (!fs.existsSync(CACHE_DIR)) {
-    fs.mkdirSync(CACHE_DIR, { recursive: true });
+  // Clear stale cache
+  if (fs.existsSync(CACHE_DIR)) {
+    fs.rmSync(CACHE_DIR, { recursive: true, force: true });
   }
+  fs.mkdirSync(CACHE_DIR, { recursive: true });
 
-  // Copy recursively (includes seeds.json + manifest + category dirs)
-  execSync(`cp -r "${knowledgeDir}/." "${CACHE_DIR}/"`, { stdio: 'pipe' });
+  const totalFiles = copyKnowledgeTree(knowledgeDir, CACHE_DIR);
 
   // Cleanup
   fs.rmSync(tmpDir, { recursive: true });
 
-  // Count files
-  let totalFiles = 0;
-  for (const cat of CATEGORY_DIRS) {
-    const catDir = path.join(CACHE_DIR, cat);
-    if (fs.existsSync(catDir)) {
-      totalFiles += fs.readdirSync(catDir).filter((f) => f.endsWith('.json')).length;
-    }
-  }
-  console.log(`  Cloned ${totalFiles} entity files`);
+  console.log(`  Cloned ${totalFiles} files`);
 
   return true;
 }
@@ -145,31 +126,19 @@ function cloneFromGit() {
 function main() {
   console.log('\n📚  Fetching knowledge graph cache...');
 
-  if (!fs.existsSync(CACHE_DIR)) {
-    fs.mkdirSync(CACHE_DIR, { recursive: true });
-  }
-
   // Try strategy A first (local copy)
   const success = copyFromLocal() || cloneFromGit();
 
   if (success) {
-    // Verify
-    const manifestPath = path.join(CACHE_DIR, 'manifest.json');
-    const hasManifest = fs.existsSync(manifestPath);
     let entityCount = 0;
-    for (const cat of CATEGORY_DIRS) {
+    const categories = ['principles', 'patterns', 'tools', 'languages', 'frameworks', 'infrastructure', 'databases', 'data-formats', 'runtimes'];    
+    for (const cat of categories) {
       const catDir = path.join(CACHE_DIR, cat);
       if (fs.existsSync(catDir)) {
-        entityCount += fs.readdirSync(catDir).filter((f) => f.endsWith('.json')).length;
+        entityCount += fs.readdirSync(catDir).length;
       }
     }
-
-    if (hasManifest) {
-      const manifest = JSON.parse(fs.readFileSync(manifestPath, 'utf-8'));
-      console.log(`  ✅ ${manifest.totalEntities} entities (${entityCount} files cached)`);
-    } else {
-      console.log(`  ⚠  ${entityCount} entity files cached but no manifest`);
-    }
+    console.log(`  ✅ ${entityCount} items in knowledge cache`);
   } else {
     console.log('  ⚠  Could not fetch knowledge cache (no registry found)');
   }

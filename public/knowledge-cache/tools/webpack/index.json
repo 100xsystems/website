@@ -1,0 +1,16 @@
+{
+  "id": "webpack",
+  "category": "tools",
+  "label": "Webpack",
+  "aliases": [],
+  "description": "Module bundler for JavaScript applications",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Webpack",
+    "wikidata": "https://www.wikidata.org/wiki/Q21114959"
+  },
+  "indexedAt": "2026-07-23T14:36:37.174Z"
+}

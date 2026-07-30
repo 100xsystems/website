@@ -1,0 +1,16 @@
+{
+  "id": "relational-database",
+  "category": "tools",
+  "label": "Relational Database",
+  "aliases": [],
+  "description": "Database organized according to the relational model of data",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Relational_database",
+    "wikidata": "https://www.wikidata.org/wiki/Q172318"
+  },
+  "indexedAt": "2026-07-23T14:36:35.705Z"
+}

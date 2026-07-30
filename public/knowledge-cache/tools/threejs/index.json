@@ -1,0 +1,110 @@
+{
+  "slug": "threejs",
+  "name": "Three.js",
+  "description": "Three.js is the most popular 3D JavaScript library for creating interactive 3D graphics in the browser using WebGL and WebGPU. It provides a comprehensive API for scenes, cameras, lights, materials, and animations.",
+  "categories": [
+    {
+      "label": "Free Books",
+      "icon": "book",
+      "items": [
+        {
+          "title": "Three.js Documentation",
+          "url": "https://threejs.org/docs/",
+          "description": "Complete API reference for classes, methods, materials, and loaders."
+        },
+        {
+          "title": "Three.js Manual",
+          "url": "https://threejs.org/manual/",
+          "description": "Step-by-step beginner-friendly guide from core developers covering scenes, lighting, and animation."
+        }
+      ]
+    },
+    {
+      "label": "Official Documentation",
+      "icon": "docs",
+      "items": [
+        {
+          "title": "Three.js Examples",
+          "url": "https://threejs.org/examples/",
+          "description": "Hundreds of interactive demos for physics, shaders, and post-processing."
+        },
+        {
+          "title": "Discover Three.js (Free Book)",
+          "url": "https://discoverthreejs.com/",
+          "description": "Completely free detailed tutorial series by core contributor covering fundamentals to advanced topics."
+        }
+      ]
+    },
+    {
+      "label": "Interactive Courses",
+      "icon": "code",
+      "items": [
+        {
+          "title": "Three.js Fundamentals",
+          "url": "https://threejs.org/manual/#en/fundamentals",
+          "description": "Interactive beginner tutorials on scene setup, geometry, and materials."
+        }
+      ]
+    },
+    {
+      "label": "Video Courses",
+      "icon": "video",
+      "items": [
+        {
+          "title": "Three.js Crash Course (YouTube)",
+          "url": "https://www.youtube.com/results?search_query=threejs+crash+course+2026",
+          "description": "Video walkthroughs of 3D graphics, animations, and scene creation."
+        }
+      ]
+    },
+    {
+      "label": "Practice & Challenges",
+      "icon": "terminal",
+      "items": [
+        {
+          "title": "Three.js Playground",
+          "url": "https://threejs.org/playground/",
+          "description": "Online editor for experimenting with Three.js scenes and shaders."
+        }
+      ]
+    },
+    {
+      "label": "Reference & Cheatsheets",
+      "icon": "reference",
+      "items": [
+        {
+          "title": "Three.js Cheatsheet",
+          "url": "https://threejs.org/docs/#api/en/constants",
+          "description": "Quick reference for constants, renderers, and material types."
+        }
+      ]
+    },
+    {
+      "label": "News & Updates",
+      "icon": "news",
+      "items": [
+        {
+          "title": "Three.js GitHub Releases",
+          "url": "https://github.com/mrdoob/three.js/releases",
+          "description": "Release notes for new versions, WebGPU support, and API changes."
+        }
+      ]
+    },
+    {
+      "label": "Community",
+      "icon": "community",
+      "items": [
+        {
+          "title": "Three.js Discourse",
+          "url": "https://discourse.threejs.org/",
+          "description": "Official forum for troubleshooting, showcases, and discussions."
+        },
+        {
+          "title": "Reddit r/threejs",
+          "url": "https://www.reddit.com/r/threejs/",
+          "description": "Active community for sharing projects and gathering feedback."
+        }
+      ]
+    }
+  ]
+}

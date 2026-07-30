@@ -1,0 +1,16 @@
+{
+  "id": "apache-spark",
+  "category": "tools",
+  "label": "Apache Spark",
+  "aliases": [],
+  "description": "Unified analytics engine for large-scale data processing",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Apache_Spark",
+    "wikidata": "https://www.wikidata.org/wiki/Q10965169"
+  },
+  "indexedAt": "2026-07-23T14:36:38.408Z"
+}

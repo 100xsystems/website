@@ -1,0 +1,120 @@
+{
+  "slug": "flutter",
+  "name": "Flutter",
+  "description": "Flutter is Google's UI toolkit for building beautiful, natively compiled applications for mobile, web, and desktop from a single codebase. It uses the Dart language and provides a rich set of built-in widgets.",
+  "categories": [
+    {
+      "label": "Free Books",
+      "icon": "book",
+      "items": [
+        {
+          "title": "Flutter Learn Docs",
+          "url": "https://docs.flutter.dev/learn",
+          "description": "Official Flutter learning hub covering setup, building apps, and writing Dart code."
+        },
+        {
+          "title": "Flutter Codelabs",
+          "url": "https://docs.flutter.dev/reference/learning-resources",
+          "description": "Guided hands-on tutorials covering everything from first app to advanced animations."
+        }
+      ]
+    },
+    {
+      "label": "Official Documentation",
+      "icon": "docs",
+      "items": [
+        {
+          "title": "Flutter.dev",
+          "url": "https://flutter.dev/",
+          "description": "Official Flutter website with docs, API reference, and widget catalog."
+        },
+        {
+          "title": "Flutter Widget Catalog",
+          "url": "https://docs.flutter.dev/ui/widgets",
+          "description": "Complete catalog of Flutter widgets organized by category."
+        },
+        {
+          "title": "Flutter API Reference",
+          "url": "https://api.flutter.dev/",
+          "description": "Complete Dart API reference for Flutter framework and engine."
+        }
+      ]
+    },
+    {
+      "label": "Interactive Courses",
+      "icon": "code",
+      "items": [
+        {
+          "title": "Google Codelabs (Flutter)",
+          "url": "https://codelabs.developers.google.com/",
+          "description": "Free interactive Flutter coding labs from Google covering various topics."
+        }
+      ]
+    },
+    {
+      "label": "Video Courses",
+      "icon": "video",
+      "items": [
+        {
+          "title": "Flutter Full Course (freeCodeCamp)",
+          "url": "https://www.youtube.com/watch?v=pTJJsmejUOQ",
+          "description": "Multi-hour Flutter crash course covering architecture, widgets, and state management."
+        },
+        {
+          "title": "Flutter 37-Hour Course (Vandad)",
+          "url": "https://www.freecodecamp.org/news/learn-flutter-full-course/",
+          "description": "Massive zero-to-hero Flutter course covering Dart, state management, Firebase, and deployment."
+        }
+      ]
+    },
+    {
+      "label": "Practice & Challenges",
+      "icon": "terminal",
+      "items": [
+        {
+          "title": "DartPad",
+          "url": "https://dartpad.dev/",
+          "description": "Official browser-based Dart and Flutter playground for testing code online."
+        }
+      ]
+    },
+    {
+      "label": "Reference & Cheatsheets",
+      "icon": "reference",
+      "items": [
+        {
+          "title": "Flutter Cheatsheet",
+          "url": "https://www.docuwriter.ai/flutter-cheat-sheet",
+          "description": "Quick reference for Flutter widgets, layout patterns, and state management."
+        }
+      ]
+    },
+    {
+      "label": "News & Updates",
+      "icon": "news",
+      "items": [
+        {
+          "title": "Flutter Blog",
+          "url": "https://flutter.dev/blog",
+          "description": "Official Flutter blog with release notes and engineering updates."
+        }
+      ]
+    },
+    {
+      "label": "Community",
+      "icon": "community",
+      "items": [
+        {
+          "title": "Reddit r/FlutterDev",
+          "url": "https://www.reddit.com/r/FlutterDev/",
+          "description": "Large Flutter community for package updates and technical discussions."
+        },
+        {
+          "title": "Flutter Discord",
+          "url": "https://discord.gg/flutter",
+          "description": "Official Flutter Discord community."
+        }
+      ]
+    }
+  ]
+}

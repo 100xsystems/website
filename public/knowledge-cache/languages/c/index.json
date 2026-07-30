@@ -1,0 +1,125 @@
+{
+  "slug": "c",
+  "name": "C",
+  "description": "C is the foundational systems programming language that powers operating systems, embedded devices, databases, and virtually every major software infrastructure. These are the definitive free resources — vetted, current, and complete.",
+  "categories": [
+    {
+      "label": "Free Books",
+      "icon": "book",
+      "items": [
+        {
+          "title": "Beej's Guide to C Programming",
+          "url": "https://beej.us/guide/bgc/",
+          "description": "One of the most praised free guides — walks through basic syntax to memory management, pointers, and structs with clear modern examples."
+        },
+        {
+          "title": "Modern C (Jens Gustedt)",
+          "url": "https://inria.hal.science/hal-02383654v2/file/modernC.pdf",
+          "description": "Teaches C as written today — incorporating C11/C17/C23 modern standards rather than outdated 1980s styles. Free PDF."
+        }
+      ]
+    },
+    {
+      "label": "Official Documentation",
+      "icon": "docs",
+      "items": [
+        {
+          "title": "cppreference C Documentation",
+          "url": "https://en.cppreference.com/w/c",
+          "description": "The best technical reference for C language and standard library, documenting features across C89, C99, C11, C17, and C23."
+        },
+        {
+          "title": "C23 Working Draft (N3220)",
+          "url": "https://www.open-std.org/jtc1/sc22/wg14/www/docs/n3220.pdf",
+          "description": "The official WG14 working draft representing the C23 standard with new features like nullptr and #embed."
+        }
+      ]
+    },
+    {
+      "label": "Interactive Courses",
+      "icon": "code",
+      "items": [
+        {
+          "title": "Learn-C.org",
+          "url": "https://www.learn-c.org/",
+          "description": "Free interactive tutorial covering everything from basic loops to advanced pointers and binary trees — no compiler needed."
+        }
+      ]
+    },
+    {
+      "label": "Video Courses",
+      "icon": "video",
+      "items": [
+        {
+          "title": "C Programming Full Course (freeCodeCamp)",
+          "url": "https://www.youtube.com/watch?v=KJgsSFOSQv0",
+          "description": "Massively popular multi-hour beginner-friendly walkthrough covering all core C concepts step-by-step."
+        },
+        {
+          "title": "C Programming & OOP (Dr. Chuck)",
+          "url": "https://www.youtube.com/watch?v=PaPN51Mm5qQ",
+          "description": "Deep-dive covering computer architecture, low-level mechanics, and classic K&R C teachings."
+        }
+      ]
+    },
+    {
+      "label": "Practice & Challenges",
+      "icon": "terminal",
+      "items": [
+        {
+          "title": "Exercism — C Track",
+          "url": "https://exercism.org/tracks/c",
+          "description": "84 free coding exercises with 100% free human mentoring from volunteer experts."
+        },
+        {
+          "title": "Codewars — C Collection",
+          "url": "https://www.codewars.com/collections/c-programming-language",
+          "description": "Gamified community-filtered kata for C problem-solving and bit manipulation."
+        }
+      ]
+    },
+    {
+      "label": "Reference & Cheatsheets",
+      "icon": "reference",
+      "items": [
+        {
+          "title": "Cppreference C Reference",
+          "url": "https://en.cppreference.com/w/c",
+          "description": "The definitive up-to-date language and standard library reference for all C versions."
+        }
+      ]
+    },
+    {
+      "label": "News & Updates",
+      "icon": "news",
+      "items": [
+        {
+          "title": "ISO C Standards Updates",
+          "url": "https://www.iso-9899.info/wiki/The_Standard",
+          "description": "Community hub tracking all C standard iterations with latest working drafts."
+        },
+        {
+          "title": "Reddit r/C_Programming",
+          "url": "https://www.reddit.com/r/C_Programming/",
+          "description": "Premier community for C news, discussions, and modern C development topics."
+        }
+      ]
+    },
+    {
+      "label": "Community",
+      "icon": "community",
+      "items": [
+        {
+          "title": "Reddit r/C_Programming",
+          "url": "https://www.reddit.com/r/C_Programming/",
+          "description": "Active community for debugging help, tutorials, and modern C development discussions."
+        },
+        {
+          "title": "Stack Overflow — C Tag",
+          "url": "https://stackoverflow.com/questions/tagged/c",
+          "description": "Definitive Q&A for C troubleshooting, pointer issues, and low-level debugging."
+        }
+      ]
+    }
+  ]
+}

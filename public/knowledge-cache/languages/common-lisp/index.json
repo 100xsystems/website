@@ -1,0 +1,125 @@
+{
+  "slug": "common-lisp",
+  "name": "Common Lisp",
+  "description": "Common Lisp is a multi-paradigm programming language known for its powerful macro system, dynamic typing, and interactive development cycle. It excels at AI, symbolic computing, and meta-programming.",
+  "categories": [
+    {
+      "label": "Free Books",
+      "icon": "book",
+      "items": [
+        {
+          "title": "Practical Common Lisp",
+          "url": "https://gigamonkeys.com/book/",
+          "description": "The premier modern introduction to Common Lisp with hands-on projects like building a web server."
+        },
+        {
+          "title": "Common Lisp the Language (CLtL2)",
+          "url": "https://www.cs.cmu.edu/Groups/AI/html/cltl/cltl2.html",
+          "description": "The definitive language reference by Guy L. Steele covering ANSI Common Lisp standards."
+        },
+        {
+          "title": "Common Lisp Cookbook",
+          "url": "https://lispcookbook.github.io/cl-cookbook/",
+          "description": "A practical community guide covering real-world usage from databases to web development."
+        }
+      ]
+    },
+    {
+      "label": "Official Documentation",
+      "icon": "docs",
+      "items": [
+        {
+          "title": "Common Lisp HyperSpec",
+          "url": "https://www.lispworks.com/documentation/HyperSpec/Front/",
+          "description": "The definitive hyperlinked ANSI Common Lisp standard reference."
+        },
+        {
+          "title": "Lisp-Lang.org",
+          "url": "https://lisp-lang.org/",
+          "description": "Central community portal with tutorials, success stories, and style guides."
+        }
+      ]
+    },
+    {
+      "label": "Interactive Courses",
+      "icon": "code",
+      "items": [
+        {
+          "title": "Exercism — Common Lisp Track",
+          "url": "https://exercism.org/tracks/common-lisp",
+          "description": "92 coding exercises across 27 key concepts with automated analysis and mentoring."
+        },
+        {
+          "title": "Lisp Koans",
+          "url": "https://github.com/google/lisp-koans",
+          "description": "Test-driven interactive exercises teaching core Common Lisp features."
+        }
+      ]
+    },
+    {
+      "label": "Video Courses",
+      "icon": "video",
+      "items": [
+        {
+          "title": "Common Lisp Tutorials (YouTube)",
+          "url": "https://www.youtube.com/results?search_query=common+lisp+tutorial",
+          "description": "Community video tutorials covering REPL workflows, SLIME, and practical Lisp programming."
+        }
+      ]
+    },
+    {
+      "label": "Practice & Challenges",
+      "icon": "terminal",
+      "items": [
+        {
+          "title": "Exercism — Common Lisp Track",
+          "url": "https://exercism.org/tracks/common-lisp",
+          "description": "Free structured exercises for mastering Common Lisp."
+        }
+      ]
+    },
+    {
+      "label": "Reference & Cheatsheets",
+      "icon": "reference",
+      "items": [
+        {
+          "title": "Common Lisp Quick Reference",
+          "url": "https://www.quickreference.com/common-lisp/",
+          "description": "Compact reference summarizing syntax, data structures, and macros."
+        },
+        {
+          "title": "Learn Lisp in Y Minutes",
+          "url": "https://learnxinyminutes.com/docs/common-lisp/",
+          "description": "A rapid syntax overview for experienced programmers."
+        }
+      ]
+    },
+    {
+      "label": "News & Updates",
+      "icon": "news",
+      "items": [
+        {
+          "title": "Lisp Weekly",
+          "url": "https://lispweekly.com/",
+          "description": "Weekly newsletter highlighting Lisp projects, blog posts, and library releases."
+        }
+      ]
+    },
+    {
+      "label": "Community",
+      "icon": "community",
+      "items": [
+        {
+          "title": "Reddit r/Common_Lisp",
+          "url": "https://www.reddit.com/r/Common_Lisp/",
+          "description": "Active community for Lisp discussions and project showcases."
+        },
+        {
+          "title": "Stack Overflow — Common Lisp Tag",
+          "url": "https://stackoverflow.com/questions/tagged/common-lisp",
+          "description": "Q&A for Common Lisp programming questions."
+        }
+      ]
+    }
+  ]
+}

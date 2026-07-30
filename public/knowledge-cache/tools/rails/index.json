@@ -1,0 +1,16 @@
+{
+  "id": "rails",
+  "category": "tools",
+  "label": "Ruby on Rails",
+  "aliases": [],
+  "description": "Server-side web application framework written in Ruby",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Ruby_on_Rails",
+    "wikidata": "https://www.wikidata.org/wiki/Q32677"
+  },
+  "indexedAt": "2026-07-23T14:36:31.747Z"
+}

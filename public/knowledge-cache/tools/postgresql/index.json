@@ -1,0 +1,16 @@
+{
+  "id": "postgresql",
+  "category": "tools",
+  "label": "PostgreSQL",
+  "aliases": [],
+  "description": "Advanced open-source relational database with strong ACID compliance",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/PostgreSQL",
+    "wikidata": "https://www.wikidata.org/wiki/Q236514"
+  },
+  "indexedAt": "2026-07-23T14:36:23.167Z"
+}

@@ -1,0 +1,140 @@
+{
+  "slug": "lua",
+  "name": "Lua",
+  "description": "Lua is a lightweight, embeddable scripting language prized for its speed, simplicity, and tiny footprint. It powers game engines (Roblox, Love2D), embedded systems, and configuration in Neovim and Redis. These are the definitive free resources — vetted, current, and complete.",
+  "categories": [
+    {
+      "label": "Free Books",
+      "icon": "book",
+      "items": [
+        {
+          "title": "Programming in Lua (First Edition)",
+          "url": "https://www.lua.org/pil/contents.html",
+          "description": "Written by Lua architect Roberto Ierusalimschy. The authoritative free introduction covering core data structures, syntax, and fundamentals."
+        },
+        {
+          "title": "Lua Reference Manual",
+          "url": "https://www.lua.org/manual/",
+          "description": "The canonical definition of the Lua language, syntax, standard libraries, and C API for all versions."
+        }
+      ]
+    },
+    {
+      "label": "Official Documentation",
+      "icon": "docs",
+      "items": [
+        {
+          "title": "Lua.org Documentation Hub",
+          "url": "https://www.lua.org/docs.html",
+          "description": "Central landing page with installation instructions, technical papers, and VM/garbage collector explanations."
+        },
+        {
+          "title": "Lua News",
+          "url": "https://www.lua.org/news.html",
+          "description": "Official project announcements tracking major milestones, foundation changes, and release updates."
+        }
+      ]
+    },
+    {
+      "label": "Interactive Courses",
+      "icon": "code",
+      "items": [
+        {
+          "title": "Exercism — Lua Track",
+          "url": "https://exercism.org/tracks/lua",
+          "description": "117 coding exercises with automatic analysis and optional mentoring from volunteer Lua developers."
+        },
+        {
+          "title": "Codédex Lua Course",
+          "url": "https://www.codedex.io/lua",
+          "description": "Modern interactive course with emphasis on game development and scripting in Roblox Studio."
+        }
+      ]
+    },
+    {
+      "label": "Video Courses",
+      "icon": "video",
+      "items": [
+        {
+          "title": "Lua Programming Crash Course (freeCodeCamp)",
+          "url": "https://www.youtube.com/watch?v=zi-svfdcUc8",
+          "description": "A comprehensive zero-to-hero video walkthrough for absolute beginners covering variables, control structures, and embedding."
+        },
+        {
+          "title": "Love2D Game Development (YouTube)",
+          "url": "https://www.youtube.com/watch?v=EchBsCedz6k",
+          "description": "Intermediate-level projects building 2D games from scratch using the LÖVE framework and Lua."
+        }
+      ]
+    },
+    {
+      "label": "Practice & Challenges",
+      "icon": "terminal",
+      "items": [
+        {
+          "title": "Exercism — Lua Track",
+          "url": "https://exercism.org/tracks/lua",
+          "description": "100% free coding exercises from simple string manipulation to complex table-based algorithms."
+        },
+        {
+          "title": "Codewars — Lua Kata",
+          "url": "https://www.codewars.com/",
+          "description": "Solve community-created coding challenges in Lua across hundreds of difficulty levels."
+        }
+      ]
+    },
+    {
+      "label": "Reference & Cheatsheets",
+      "icon": "reference",
+      "items": [
+        {
+          "title": "DevHints Lua Cheatsheet",
+          "url": "https://devhints.io/lua",
+          "description": "A clean single-page reference covering syntax, loops, tables, metatables, closures, and standard API."
+        },
+        {
+          "title": "Lua 5.4 Reference Manual",
+          "url": "https://www.lua.org/manual/5.4/",
+          "description": "The complete language and standard library reference for the latest Lua version."
+        }
+      ]
+    },
+    {
+      "label": "News & Updates",
+      "icon": "news",
+      "items": [
+        {
+          "title": "Lua.org News Page",
+          "url": "https://www.lua.org/news.html",
+          "description": "Official announcements from the Lua team on release updates, security patches, and version changes."
+        },
+        {
+          "title": "r/lua on Reddit",
+          "url": "https://www.reddit.com/r/lua/",
+          "description": "Community hub for news, project demos, and tooling discussions including Neovim configs and game engines."
+        }
+      ]
+    },
+    {
+      "label": "Community",
+      "icon": "community",
+      "items": [
+        {
+          "title": "Reddit r/lua",
+          "url": "https://www.reddit.com/r/lua/",
+          "description": "The premier community for Lua developers to share news, projects, and troubleshooting help."
+        },
+        {
+          "title": "Lua Mailing List (lua-l)",
+          "url": "https://groups.google.com/g/lua-l/",
+          "description": "Official mailing list where language creators discuss compiler updates, performance, and proposals."
+        },
+        {
+          "title": "Stack Overflow — Lua Tag",
+          "url": "https://stackoverflow.com/questions/tagged/lua",
+          "description": "Definitive Q&A for Lua troubleshooting, table operations, and C API integration."
+        }
+      ]
+    }
+  ]
+}

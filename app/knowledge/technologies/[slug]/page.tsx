@@ -1,7 +1,7 @@
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
-import { getKnowledgeItem, getKnowledgeItems } from '@/lib/mdx';
-import { KnowledgeItemDetail } from '../../principles/KnowledgeItemDetail';
+import { getHub } from '@/lib/knowledge-resources';
+import { ResourceHubDetail } from '@/components/resource-hub-detail';
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -9,17 +9,22 @@ interface Props {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
-  const item = getKnowledgeItem('technologies', slug);
-  if (!item) return { title: 'Not Found' };
-  return { title: `${item.title} - Technologies` };
+  // Try each technology category
+  for (const cat of ['frameworks', 'infrastructure', 'databases', 'data-formats', 'runtimes']) {
+    const hub = getHub(cat, slug);
+    if (hub) return { title: `${hub.name} — Technologies` };
+  }
+  return { title: 'Not Found' };
 }
 
 export default async function TechnologyDetailPage({ params }: Props) {
   const { slug } = await params;
-  const item = getKnowledgeItem('technologies', slug);
-  if (!item) notFound();
-
-  const sidebarItems = getKnowledgeItems('technologies');
-
-  return <KnowledgeItemDetail item={item} domain="technologies" sidebarItems={sidebarItems} />;
+  // Try each technology category
+  for (const cat of ['frameworks', 'infrastructure', 'databases', 'data-formats', 'runtimes']) {
+    const hub = getHub(cat, slug);
+    if (hub) {
+      return <ResourceHubDetail hub={hub} backLabel="Technologies" backHref="/knowledge/technologies" />;
+    }
+  }
+  notFound();
 }

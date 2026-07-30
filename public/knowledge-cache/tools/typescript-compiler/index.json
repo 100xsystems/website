@@ -1,0 +1,13 @@
+{
+  "id": "typescript-compiler",
+  "category": "tools",
+  "label": "TypeScript Compiler",
+  "aliases": [],
+  "description": "Compiles TypeScript to JavaScript, performing type checking and transpilation",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {},
+  "indexedAt": "2026-07-23T14:36:37.528Z"
+}

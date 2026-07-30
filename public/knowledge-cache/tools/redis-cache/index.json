@@ -1,0 +1,13 @@
+{
+  "id": "redis-cache",
+  "category": "tools",
+  "label": "Redis Cache",
+  "aliases": [],
+  "description": "In-memory caching layer commonly built on Redis for high-speed data access",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {},
+  "indexedAt": "2026-07-23T14:36:36.082Z"
+}

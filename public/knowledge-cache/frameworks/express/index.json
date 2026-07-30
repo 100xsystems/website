@@ -1,0 +1,110 @@
+{
+  "slug": "express",
+  "name": "Express.js",
+  "description": "Express is the most popular web framework for Node.js, providing a robust set of features for web and mobile applications. It is minimal, flexible, and the foundation for many Node.js frameworks.",
+  "categories": [
+    {
+      "label": "Free Books",
+      "icon": "book",
+      "items": [
+        {
+          "title": "Express Official Docs",
+          "url": "https://expressjs.com/",
+          "description": "The official Express documentation with getting started guide, API reference, and advanced topics."
+        },
+        {
+          "title": "Express Guide (MDN)",
+          "url": "https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs",
+          "description": "MDN comprehensive tutorial on building Express applications with Node.js."
+        }
+      ]
+    },
+    {
+      "label": "Official Documentation",
+      "icon": "docs",
+      "items": [
+        {
+          "title": "Express API Reference",
+          "url": "https://expressjs.com/en/api.html",
+          "description": "Complete API documentation for Express: routing, middleware, request/response, and error handling."
+        },
+        {
+          "title": "Express Middleware List",
+          "url": "https://expressjs.com/en/resources/middleware.html",
+          "description": "Official list of Express middleware modules for sessions, cookies, CORS, and more."
+        }
+      ]
+    },
+    {
+      "label": "Interactive Courses",
+      "icon": "code",
+      "items": [
+        {
+          "title": "MDN Express Tutorial",
+          "url": "https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs",
+          "description": "Free interactive tutorial creating a complete Express application."
+        }
+      ]
+    },
+    {
+      "label": "Video Courses",
+      "icon": "video",
+      "items": [
+        {
+          "title": "Express.js Full Course (freeCodeCamp)",
+          "url": "https://www.youtube.com/watch?v=SccSCuHhOw0",
+          "description": "Comprehensive Express.js course covering REST APIs, middleware, and databases."
+        }
+      ]
+    },
+    {
+      "label": "Practice & Challenges",
+      "icon": "terminal",
+      "items": [
+        {
+          "title": "Express Todo App Tutorial",
+          "url": "https://expressjs.com/en/starter/hello-world.html",
+          "description": "Start with the official hello world example and build from there."
+        }
+      ]
+    },
+    {
+      "label": "Reference & Cheatsheets",
+      "icon": "reference",
+      "items": [
+        {
+          "title": "Express Cheatsheet",
+          "url": "https://devhints.io/express",
+          "description": "Quick reference for Express routes, middleware, and response methods."
+        }
+      ]
+    },
+    {
+      "label": "News & Updates",
+      "icon": "news",
+      "items": [
+        {
+          "title": "Express GitHub Releases",
+          "url": "https://github.com/expressjs/express/releases",
+          "description": "Express.js release notes and changelog."
+        }
+      ]
+    },
+    {
+      "label": "Community",
+      "icon": "community",
+      "items": [
+        {
+          "title": "Express GitHub",
+          "url": "https://github.com/expressjs/express",
+          "description": "Official Express repository with issues and community discussions."
+        },
+        {
+          "title": "Stack Overflow - Express Tag",
+          "url": "https://stackoverflow.com/questions/tagged/express",
+          "description": "Q&A for Express.js questions and troubleshooting."
+        }
+      ]
+    }
+  ]
+}

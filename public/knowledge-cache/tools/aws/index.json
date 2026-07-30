@@ -1,0 +1,16 @@
+{
+  "id": "aws",
+  "category": "tools",
+  "label": "AWS",
+  "aliases": [],
+  "description": "Comprehensive cloud computing platform by Amazon",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Amazon_Web_Services",
+    "wikidata": "https://www.wikidata.org/wiki/Q45999"
+  },
+  "indexedAt": "2026-07-23T14:36:34.261Z"
+}

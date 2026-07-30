@@ -1,0 +1,110 @@
+{
+  "slug": "gitlab",
+  "name": "GitLab",
+  "description": "GitLab is a complete DevOps platform delivered as a single application. It provides Git repository management, CI/CD, security scanning, and monitoring throughout the entire development lifecycle.",
+  "categories": [
+    {
+      "label": "Free Books",
+      "icon": "book",
+      "items": [
+        {
+          "title": "GitLab Documentation",
+          "url": "https://docs.gitlab.com/",
+          "description": "Comprehensive official documentation covering all GitLab features and administration."
+        },
+        {
+          "title": "GitLab Learn",
+          "url": "https://about.gitlab.com/learn/",
+          "description": "Free learning resources with guided paths for DevOps, CI/CD, and GitLab administration."
+        }
+      ]
+    },
+    {
+      "label": "Official Documentation",
+      "icon": "docs",
+      "items": [
+        {
+          "title": "GitLab CI/CD Docs",
+          "url": "https://docs.gitlab.com/ee/ci/",
+          "description": "Complete CI/CD documentation covering pipeline configuration, runners, and environments."
+        },
+        {
+          "title": "GitLab CI/CD Quickstart",
+          "url": "https://docs.gitlab.com/ee/ci/quick_start/",
+          "description": "Quickstart guide for creating your first GitLab CI/CD pipeline."
+        }
+      ]
+    },
+    {
+      "label": "Interactive Courses",
+      "icon": "code",
+      "items": [
+        {
+          "title": "GitLab Education Program",
+          "url": "https://about.gitlab.com/handbook/customer-success/education-program/",
+          "description": "Free learning materials including hands-on labs and instructor guides."
+        }
+      ]
+    },
+    {
+      "label": "Video Courses",
+      "icon": "video",
+      "items": [
+        {
+          "title": "GitLab Learn Videos",
+          "url": "https://www.youtube.com/@GitLab",
+          "description": "Official GitLab YouTube channel with tutorials, webinars, and release demos."
+        }
+      ]
+    },
+    {
+      "label": "Practice & Challenges",
+      "icon": "terminal",
+      "items": [
+        {
+          "title": "GitLab Sandbox",
+          "url": "https://gitlab.com/-/ide/project/",
+          "description": "Free GitLab.com account with unlimited private repos and CI/CD minutes."
+        }
+      ]
+    },
+    {
+      "label": "Reference & Cheatsheets",
+      "icon": "reference",
+      "items": [
+        {
+          "title": "GitLab CI/CD Cheatsheet",
+          "url": "https://docs.gitlab.com/ee/ci/quick_start/",
+          "description": "Quick reference for YAML syntax, job types, and pipeline configuration keywords."
+        }
+      ]
+    },
+    {
+      "label": "News & Updates",
+      "icon": "news",
+      "items": [
+        {
+          "title": "GitLab Blog",
+          "url": "https://about.gitlab.com/blog/",
+          "description": "Official blog with release posts, engineering deep dives, and DevOps insights."
+        }
+      ]
+    },
+    {
+      "label": "Community",
+      "icon": "community",
+      "items": [
+        {
+          "title": "GitLab Forum",
+          "url": "https://forum.gitlab.com/",
+          "description": "Official community forum for Q&A and feature discussions."
+        },
+        {
+          "title": "Reddit r/gitlab",
+          "url": "https://www.reddit.com/r/gitlab/",
+          "description": "Community for GitLab discussions, tips, and troubleshooting."
+        }
+      ]
+    }
+  ]
+}

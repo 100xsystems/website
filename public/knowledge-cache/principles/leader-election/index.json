@@ -1,0 +1,124 @@
+{
+  "slug": "leader-election",
+  "name": "Leader Election",
+  "description": "A distributed algorithm for selecting a single node as the coordinator among a group of nodes. Essential for consensus and coordination in distributed systems.",
+  "categories": [
+    {
+      "label": "Free Books & Guides",
+      "icon": "book",
+      "items": [
+        {
+          "title": "Leader Election — In-Depth Guide",
+          "url": "https://www.consul.io/docs/architecture/consensus",
+          "description": "A comprehensive free guide explaining the Leader Election principle with examples and best practices."
+        },
+        {
+          "title": "Wikipedia — Leader Election",
+          "url": "https://en.wikipedia.org/wiki/Leader_election",
+          "description": "Wikipedia article covering the Leader Election principle, its history, and applications."
+        }
+      ]
+    },
+    {
+      "label": "Official Documentation",
+      "icon": "docs",
+      "items": [
+        {
+          "title": "Wikipedia — Leader Election",
+          "url": "https://en.wikipedia.org/wiki/Leader_election",
+          "description": "The definitive reference article for Leader Election."
+        },
+        {
+          "title": "Martin Fowler — Leader Election",
+          "url": "https://martinfowler.com/",
+          "description": "Martin Fowler's authoritative writings on software architecture and design principles."
+        }
+      ]
+    },
+    {
+      "label": "Video Courses",
+      "icon": "video",
+      "items": [
+        {
+          "title": "Leader Election — Explained (YouTube)",
+          "url": "https://www.youtube.com/watch?v=weS9x8Qn8mE",
+          "description": "A video explanation of the Leader Election principle with practical examples."
+        },
+        {
+          "title": "freeCodeCamp — Software Architecture Course",
+          "url": "https://www.youtube.com/watch?v=HhQIVH2GLwQ",
+          "description": "A comprehensive course covering software architecture principles, patterns, and best practices."
+        },
+        {
+          "title": "ByteByteGo — Distributed Systems",
+          "url": "https://www.youtube.com/@ByteByteGo",
+          "description": "High-quality animated explanations of system design principles, distributed systems, and architecture patterns."
+        }
+      ]
+    },
+    {
+      "label": "Practice & Examples",
+      "icon": "terminal",
+      "items": [
+        {
+          "title": "Awesome System Design (GitHub)",
+          "url": "https://github.com/ashishps1/awesome-system-design",
+          "description": "A curated list of system design resources, including principles, patterns, and interview preparation."
+        },
+        {
+          "title": "System Design 101 (GitHub)",
+          "url": "https://github.com/ByteByteGoHq/system-design-101",
+          "description": "Visual guides and architectural diagrams explaining key system design principles and patterns."
+        }
+      ]
+    },
+    {
+      "label": "Reference & Cheatsheets",
+      "icon": "reference",
+      "items": [
+        {
+          "title": "Martin Fowler — Software Architecture Guide",
+          "url": "https://martinfowler.com/architecture/",
+          "description": "Martin Fowler's authoritative reference on software architecture principles and patterns."
+        },
+        {
+          "title": "Microsoft Azure Architecture Center",
+          "url": "https://docs.microsoft.com/en-us/azure/architecture/",
+          "description": "Microsoft's comprehensive guide to architecture principles, patterns, and best practices for cloud applications."
+        }
+      ]
+    },
+    {
+      "label": "Articles & Blog Posts",
+      "icon": "news",
+      "items": [
+        {
+          "title": "Martin Fowler Blog",
+          "url": "https://martinfowler.com/bliki/",
+          "description": "Articles and bliki entries on software architecture principles, design patterns, and best practices."
+        },
+        {
+          "title": "AWS Architecture Blog",
+          "url": "https://aws.amazon.com/blogs/architecture/",
+          "description": "Real-world architecture decisions, trade-offs, and principle applications from AWS engineers."
+        }
+      ]
+    },
+    {
+      "label": "Community",
+      "icon": "community",
+      "items": [
+        {
+          "title": "Stack Overflow — System Design",
+          "url": "https://stackoverflow.com/questions/tagged/system-design",
+          "description": "Q&A forum for architecture, design principles, and system design questions."
+        },
+        {
+          "title": "Reddit r/SoftwareEngineering",
+          "url": "https://www.reddit.com/r/softwareengineering/",
+          "description": "Community discussions on software engineering principles, best practices, and industry trends."
+        }
+      ]
+    }
+  ]
+}

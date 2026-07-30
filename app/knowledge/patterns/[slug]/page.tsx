@@ -1,7 +1,7 @@
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
-import { getKnowledgeItem, getKnowledgeItems } from '@/lib/mdx';
-import { KnowledgeItemDetail } from '../../principles/KnowledgeItemDetail';
+import { getHub } from '@/lib/knowledge-resources';
+import { ResourceHubDetail } from '@/components/resource-hub-detail';
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -9,17 +9,14 @@ interface Props {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
-  const item = getKnowledgeItem('patterns', slug);
-  if (!item) return { title: 'Not Found' };
-  return { title: `${item.title} - Patterns` };
+  const hub = getHub('patterns', slug);
+  if (!hub) return { title: 'Not Found' };
+  return { title: `${hub.name} — Patterns` };
 }
 
 export default async function PatternDetailPage({ params }: Props) {
   const { slug } = await params;
-  const item = getKnowledgeItem('patterns', slug);
-  if (!item) notFound();
-
-  const sidebarItems = getKnowledgeItems('patterns');
-
-  return <KnowledgeItemDetail item={item} domain="patterns" sidebarItems={sidebarItems} />;
+  const hub = getHub('patterns', slug);
+  if (!hub) notFound();
+  return <ResourceHubDetail hub={hub} backLabel="Patterns" backHref="/knowledge/patterns" />;
 }

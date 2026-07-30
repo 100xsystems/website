@@ -1,6 +1,5 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { getAllLanguages } from '@/lib/mdx';
 import { getLanguagesWithResources, getLanguageResources, type LanguageResources } from '@/lib/language-resources';
 import {
   SiJavascript, SiPython, SiTypescript, SiOpenjdk, SiCplusplus,
@@ -280,11 +279,11 @@ function getBg(slug: string): string {
 }
 
 function totalResources(lang: LanguageResources): number {
-  return lang.categories.reduce((sum, cat) => sum + cat.items.length, 0);
+  if (!lang.categories) return 0;
+  return lang.categories.reduce((sum, cat) => sum + (cat.items?.length ?? 0), 0);
 }
 
 export default function LanguagesPage() {
-  const languages = getAllLanguages();
   const curatedSlugs = getLanguagesWithResources();
   const curatedMap = new Map<string, LanguageResources>();
   for (const slug of curatedSlugs) {
@@ -305,8 +304,8 @@ export default function LanguagesPage() {
               Programming&nbsp;<span className="text-accent">Languages</span>
             </h1>
             <p className="text-sm text-fg-secondary max-w-xl mx-auto">
-              Curated resource hubs for              120 major programming languages.
-              Each hub collects the definitive free resources — books, docs, courses, videos,
+              Curated resource hubs for {curatedSlugs.length} major programming languages.
+              Each hub collects the definitive free resources &mdash; books, docs, courses, videos,
               practice, reference, news, and community.
             </p>
           </div>
@@ -325,7 +324,7 @@ export default function LanguagesPage() {
             </div>
             <div className="text-center">
               <span className="block text-3xl font-extrabold text-fg">8</span>
-              <span className="block text-[10px] font-bold uppercase tracking-widest text-fg-muted mt-1">Categories</span>
+              <span className="block text-[10px] font-bold uppercase tracking-widest text-fg-muted mt-1">Categories per hub</span>
             </div>
           </div>
         </div>

@@ -1,0 +1,110 @@
+{
+  "slug": "fastify",
+  "name": "Fastify",
+  "description": "Fastify is a high-performance, low-overhead Node.js web framework. It features schema-based validation, extreme speed, plugin architecture, and first-class TypeScript support for building efficient APIs.",
+  "categories": [
+    {
+      "label": "Free Books",
+      "icon": "book",
+      "items": [
+        {
+          "title": "Fastify Docs",
+          "url": "https://fastify.dev/docs/latest/",
+          "description": "Complete official documentation covering getting started, guides, and API reference."
+        },
+        {
+          "title": "Fastify Getting Started",
+          "url": "https://fastify.dev/docs/latest/Guides/Getting-Started/",
+          "description": "Gentle introduction covering installation, server creation, and plugins."
+        }
+      ]
+    },
+    {
+      "label": "Official Documentation",
+      "icon": "docs",
+      "items": [
+        {
+          "title": "Fastify Plugins Reference",
+          "url": "https://fastify.dev/docs/latest/Reference/Plugins/",
+          "description": "Deep dive into encapsulation, scope, and custom plugin authoring."
+        },
+        {
+          "title": "Fastify Ecosystem",
+          "url": "https://fastify.dev/ecosystem/",
+          "description": "Directory of 60+ core plugins for CORS, JWT, Swagger, and databases."
+        }
+      ]
+    },
+    {
+      "label": "Interactive Courses",
+      "icon": "code",
+      "items": [
+        {
+          "title": "Fastify Crash Course",
+          "url": "https://www.classcentral.com/course/youtube-fastify-crash-course-node-js-framework-109133",
+          "description": "Video walkthrough of setup, routing, validation, and Swagger docs."
+        }
+      ]
+    },
+    {
+      "label": "Video Courses",
+      "icon": "video",
+      "items": [
+        {
+          "title": "Fastify with Prisma (YouTube)",
+          "url": "https://www.youtube.com/results?search_query=fastify+crash+course",
+          "description": "Video tutorials on Fastify with Prisma, hooks, and decorators."
+        }
+      ]
+    },
+    {
+      "label": "Practice & Challenges",
+      "icon": "terminal",
+      "items": [
+        {
+          "title": "Fastify CLI",
+          "url": "https://fastify.dev/docs/latest/Reference/CLI/",
+          "description": "Command-line tools for scaffolding and managing Fastify projects."
+        }
+      ]
+    },
+    {
+      "label": "Reference & Cheatsheets",
+      "icon": "reference",
+      "items": [
+        {
+          "title": "Fastify Validation Schema",
+          "url": "https://fastify.dev/docs/latest/Reference/Validation-and-Serialization/",
+          "description": "JSON Schema validation reference for body, querystring, params, and headers."
+        }
+      ]
+    },
+    {
+      "label": "News & Updates",
+      "icon": "news",
+      "items": [
+        {
+          "title": "Fastify GitHub Releases",
+          "url": "https://github.com/fastify/fastify/releases",
+          "description": "Release notes, changelogs, and security announcements."
+        }
+      ]
+    },
+    {
+      "label": "Community",
+      "icon": "community",
+      "items": [
+        {
+          "title": "Fastify Discord",
+          "url": "https://discord.gg/fastify",
+          "description": "Official Discord community for troubleshooting."
+        },
+        {
+          "title": "Fastify GitHub",
+          "url": "https://github.com/fastify/fastify",
+          "description": "Official repository and GitHub Discussions."
+        }
+      ]
+    }
+  ]
+}

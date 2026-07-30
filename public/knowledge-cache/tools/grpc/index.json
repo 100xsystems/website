@@ -1,0 +1,16 @@
+{
+  "id": "grpc",
+  "category": "tools",
+  "label": "gRPC",
+  "aliases": [],
+  "description": "High-performance remote procedure call framework by Google",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/gRPC",
+    "wikidata": "https://www.wikidata.org/wiki/Q22252267"
+  },
+  "indexedAt": "2026-07-23T14:36:32.407Z"
+}

@@ -1,0 +1,145 @@
+{
+  "slug": "scala",
+  "name": "Scala",
+  "description": "Scala combines object-oriented and functional programming on the JVM. It powers high-performance data pipelines (Apache Spark), distributed systems (Akka), and type-safe web applications. These are the definitive free resources — vetted, current, and complete.",
+  "categories": [
+    {
+      "label": "Free Books",
+      "icon": "book",
+      "items": [
+        {
+          "title": "Creative Scala",
+          "url": "https://creativescala.org/",
+          "description": "A fantastic free beginner book by Dave Gurnell and Noel Welsh teaching functional programming through computer graphics and visual exercises."
+        },
+        {
+          "title": "Scala 3 Book (Official)",
+          "url": "https://docs.scala-lang.org/scala3/book/introduction.html",
+          "description": "The official Scala 3 book covering everything from the Tour of Scala to advanced functional patterns in the new syntax."
+        }
+      ]
+    },
+    {
+      "label": "Official Documentation",
+      "icon": "docs",
+      "items": [
+        {
+          "title": "Official Scala Documentation Hub",
+          "url": "https://docs.scala-lang.org/",
+          "description": "Central entry point for all Scala guides — Scala 3 references, migration guides, and best practices."
+        },
+        {
+          "title": "Tour of Scala",
+          "url": "https://docs.scala-lang.org/tour.html",
+          "description": "Official interactive tour covering OOP, functional programming, pattern matching, and type system features."
+        },
+        {
+          "title": "Scala 3 Reference",
+          "url": "https://docs.scala-lang.org/scala3/reference/overview.html",
+          "description": "Technical specification for Scala 3 context parameters, match types, enums, and metaprogramming."
+        }
+      ]
+    },
+    {
+      "label": "Interactive Courses",
+      "icon": "code",
+      "items": [
+        {
+          "title": "Scala Exercises",
+          "url": "https://www.scala-exercises.org/",
+          "description": "Interactive platform to practice standard library features, functional programming, and libraries like Cats directly in the browser."
+        },
+        {
+          "title": "LearnScala.org",
+          "url": "https://www.learnscala.org/",
+          "description": "A completely free browser-based interactive tutorial covering variables, types, functions, and collections."
+        }
+      ]
+    },
+    {
+      "label": "Video Courses",
+      "icon": "video",
+      "items": [
+        {
+          "title": "Rock the JVM — Scala at Light Speed",
+          "url": "https://rockthejvm.com/",
+          "description": "A fast-track free video course covering modern Scala 3 for experienced programmers by Daniel Ciocîrlan."
+        },
+        {
+          "title": "DevInsideYou YouTube Channel",
+          "url": "https://www.youtube.com/@DevInsideYou",
+          "description": "Hundreds of free Scala screencasts, live coding sessions, and architecture tutorials covering Scala 3."
+        }
+      ]
+    },
+    {
+      "label": "Practice & Challenges",
+      "icon": "terminal",
+      "items": [
+        {
+          "title": "Exercism — Scala Track",
+          "url": "https://exercism.org/tracks/scala",
+          "description": "Mentor-backed code reviews with structured exercises using standard build tools."
+        },
+        {
+          "title": "Codewars — Scala Kata",
+          "url": "https://www.codewars.com/",
+          "description": "Solve community-created challenges in Scala across hundreds of difficulty levels."
+        }
+      ]
+    },
+    {
+      "label": "Reference & Cheatsheets",
+      "icon": "reference",
+      "items": [
+        {
+          "title": "Visual Scala Reference",
+          "url": "https://www.visual-scala.cs.illinois.edu/",
+          "description": "A phenomenal visual guide mapping out common methods of the Scala Collections API."
+        },
+        {
+          "title": "Scala 3 Cheatsheet (devhints)",
+          "url": "https://devhints.io/scala",
+          "description": "A concise reference covering Scala 3 syntax, types, collections, and functional patterns."
+        }
+      ]
+    },
+    {
+      "label": "News & Updates",
+      "icon": "news",
+      "items": [
+        {
+          "title": "Scala Times",
+          "url": "https://scalatimes.com/",
+          "description": "A free weekly newsletter curated by SoftwareMill covering Scala news, libraries, and conferences."
+        },
+        {
+          "title": "This Week in Scala",
+          "url": "https://thisweekinscala.substack.com/",
+          "description": "A regular digest tracking new tutorials, GitHub releases, and community proposals."
+        }
+      ]
+    },
+    {
+      "label": "Community",
+      "icon": "community",
+      "items": [
+        {
+          "title": "Scala Users Discourse",
+          "url": "https://users.scala-lang.org/",
+          "description": "Official forum where language designers, maintainers, and learners discuss features and troubleshooting."
+        },
+        {
+          "title": "Scala Discord",
+          "url": "https://discord.gg/scala",
+          "description": "Active real-time chat for getting help with compiler errors, sbt configs, and idiomatic Scala."
+        },
+        {
+          "title": "Reddit r/scala",
+          "url": "https://www.reddit.com/r/scala/",
+          "description": "Community hub for discussions, library announcements, and Scala news."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "redis",
+  "category": "tools",
+  "label": "Redis",
+  "aliases": [],
+  "description": "In-memory data structure store used as cache, database, and message broker",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Redis",
+    "wikidata": "https://www.wikidata.org/wiki/Q1331278"
+  },
+  "indexedAt": "2026-07-23T14:36:24.548Z"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "bash",
+  "category": "languages",
+  "label": "Bash",
+  "aliases": [],
+  "description": "GNU replacement for the Bourne shell",
+  "summary": "Bash is an interactive command interpreter and command language developed for Unix-like operating systems. Supported by the Free Software Foundation and created in 1989 by Brian Fox for the GNU Project, it is designed as a completely free software alternative for the Bourne shell, sh, and other proprietary Unix shells.\nHaving gained widespread adoption, Bash is commonly used as the default login shell for numerous Linux distributions.\nIt also supports the execution of commands from files, known as shell scripts, facilitating automation.",
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Bash_(Unix_shell)",
+    "wikidata": "https://www.wikidata.org/wiki/Q189471"
+  },
+  "indexedAt": "2026-07-23T14:36:19.752Z"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "oauth",
+  "category": "tools",
+  "label": "OAuth",
+  "aliases": [],
+  "description": "Open standard for token-based authentication and authorization",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/OAuth",
+    "wikidata": "https://www.wikidata.org/wiki/Q17119609"
+  },
+  "indexedAt": "2026-07-23T14:36:33.380Z"
+}

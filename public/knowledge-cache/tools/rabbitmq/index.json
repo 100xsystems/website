@@ -1,0 +1,16 @@
+{
+  "id": "rabbitmq",
+  "category": "tools",
+  "label": "RabbitMQ",
+  "aliases": [],
+  "description": "Open-source message broker implementing AMQP protocol",
+  "summary": null,
+  "parents": [],
+  "children": [],
+  "related": [],
+  "externalUrls": {
+    "wikipedia": "https://en.wikipedia.org/wiki/RabbitMQ",
+    "wikidata": "https://www.wikidata.org/wiki/Q1333774"
+  },
+  "indexedAt": "2026-07-23T14:36:39.051Z"
+}
