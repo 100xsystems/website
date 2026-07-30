@@ -362,35 +362,30 @@ export default function DiscoverTypePage() {
   // ── Live search — debounced API calls ─────────────────────────────
   useEffect(() => {
     if (!config || config.type !== 'live') return;
+    // Don't fire on mount if query is empty (handled by auto-fire effect)
+    if (debouncedQuery.trim().length < 2) return;
+
     let mounted = true;
-
-    // Determine effective query: use user query if entered, otherwise use defaultQuery
-    const effectiveQuery = query.trim().length >= 2
-      ? query.trim()
-      : (config.defaultQuery && query.trim().length === 0 ? config.defaultQuery : '');
-
-    if (!effectiveQuery) {
-      if (mounted) { setItems([]); setLoading(false); }
-      return;
-    }
-
     setLoading(true); setError(null);
 
-    loadLive(config.id, effectiveQuery)
+    loadLive(config.id, debouncedQuery)
       .then((data) => { if (mounted) setItems(data); })
       .catch((err) => { if (mounted) setError(err instanceof Error ? err.message : String(err)); })
       .finally(() => { if (mounted) setLoading(false); });
     return () => { mounted = false; };
-  }, [config?.id, debouncedQuery, query]);
+  }, [config?.id, debouncedQuery]);
 
-  // Auto-fire default query on mount for live types
+  // Auto-fire default query on mount for live types — loads data immediately
   useEffect(() => {
-    if (!config || config.type !== 'live') return;
-    if (query.trim().length === 0 && config.defaultQuery) {
-      setQuery(config.defaultQuery);
-    }
-    // Only run once on mount when config is determined
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+    if (!config || config.type !== 'live' || !config.defaultQuery) return;
+    let mounted = true;
+    setLoading(true);
+    setError(null);
+    loadLive(config.id, config.defaultQuery)
+      .then((data) => { if (mounted) setItems(data); })
+      .catch((err) => { if (mounted) setError(err instanceof Error ? err.message : String(err)); })
+      .finally(() => { if (mounted) setLoading(false); });
+    return () => { mounted = false; };
   }, [config?.id]);
 
   // ── Filter and sort items ──────────────────────────────────────
