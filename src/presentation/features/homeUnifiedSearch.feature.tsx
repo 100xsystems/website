@@ -3,8 +3,14 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { motion } from 'motion/react';
 import Fuse from 'fuse.js';
+import Link from 'next/link';
 import { cn } from '@/application/lib/utils';
 import { Icon, IconAnimatedGridPattern } from '@/presentation/__components';
+import { FaBook, FaReddit, FaHackerNews } from 'react-icons/fa';
+import {
+  SiGithub, SiStackoverflow, SiNpm, SiDevdotto,
+  SiMedium, SiDuckduckgo, SiWikipedia, SiYcombinator, SiProducthunt,
+} from 'react-icons/si';
 import { timeAgo } from '@/feed/feed.utils';
 import type { FeedCache, RegistryFeedData } from '@/feed/feed.types';
 
@@ -12,103 +18,20 @@ import type { FeedCache, RegistryFeedData } from '@/feed/feed.types';
 // BRAND SVG COMPONENTS
 // ══════════════════════════════════════════════════════════════════════
 
-function BrandSvgHN({ className }: { className?: string }) {
-  return (
-    <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" className={className}>
-      <path d="M0 0h24v24H0V0zm4.8 4.8l5.2 10.4v4h3.6v-4l5.2-10.4h-3.6l-3.4 7.8-3.4-7.8H4.8z" />
-    </svg>
-  );
-}
+// ─── Brand Icons (react-icons) ──────────────────────────────────
 
-function BrandSvgReddit({ className }: { className?: string }) {
-  return (
-    <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" className={className}>
-      <circle cx="12" cy="12" r="10" />
-      <circle cx="7.5" cy="11" r="1.5" fill="white" />
-      <circle cx="16.5" cy="11" r="1.5" fill="white" />
-      <path d="M12 15c-2 0-3.5.5-3.5.5s.5 2 3.5 2 3.5-2 3.5-2-1.5-.5-3.5-.5z" fill="white" />
-      <ellipse cx="12" cy="15.5" rx="1.5" ry="0.5" />
-    </svg>
-  );
-}
-
-function BrandSvgGitHub({ className }: { className?: string }) {
-  return (
-    <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" className={className}>
-      <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
-    </svg>
-  );
-}
-
-function BrandSvgSO({ className }: { className?: string }) {
-  return (
-    <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" className={className}>
-      <path d="M18.99 21.39V14.7h2.4v8.7H0v-8.7h2.4v6.69h16.59zM15.6 2.4L5.49 12.84l1.68 1.71L17.31 4.11 15.6 2.4zM19.8 8.1l-7.8 8.12-1.65-1.68 7.8-8.12 1.65 1.68zM6.6 13.07L3.84 9.87l1.68-1.71 2.76 3.2-1.68 1.71z" />
-    </svg>
-  );
-}
-
-function BrandSvgNpm({ className }: { className?: string }) {
-  return (
-    <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" className={className}>
-      <rect x="2" y="2" width="20" height="20" rx="2" />
-      <rect x="10" y="6" width="8" height="12" fill="white" />
-      <rect x="12" y="8" width="4" height="8" fill="currentColor" />
-    </svg>
-  );
-}
-
-function BrandSvgDevTo({ className }: { className?: string }) {
-  return (
-    <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" className={className}>
-      <path d="M7.42 10.05c-.18-.16-.46-.23-.84-.23H6l.02 2.44.04 2.45.56-.02c.41 0 .69-.1.88-.28.24-.23.36-.63.36-1.22 0-.63-.13-1.07-.36-1.28l-.08-.06zM0 0v24h24V0H0zm14.38 14.34c-.44.35-1.07.53-1.88.53-.24.01-.52 0-.83-.01l-.09-1.17-.08-1.16.1-.06c.27-.06.57-.09.91-.09.5 0 .88.11 1.13.33.3.26.46.66.46 1.19 0 .58-.19.97-.53 1.23l-.19.14zm4.18-5.02c-.33-.12-.77-.18-1.3-.18-.22 0-.45.01-.69.02l.06.47.05.47-.08.04c-.12-.2-.28-.36-.5-.48-.28-.16-.63-.24-1.04-.24-.69 0-1.26.25-1.72.74-.46.5-.7 1.16-.7 2 0 .78.22 1.4.66 1.88.44.47 1.02.7 1.73.7.51 0 .9-.12 1.18-.35.27-.23.46-.52.57-.86l.07.02.07.05.08.73.06.67h2.02l.02-3.64c.01-1.61-.19-2.06-.93-2.42l-.13-.06z" />
-    </svg>
-  );
-}
-
-function BrandSvgMedium({ className }: { className?: string }) {
-  return (
-    <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" className={className}>
-      <path d="M0 0h24v24H0V0zm2.4 4.8h1.68l7.92 10.68V4.8h1.68L22 4.8v14.4h-1.68v-5.28L13.68 4.8v14.4H9.6V8.88L3.12 19.2H0V4.8h2.4z" />
-    </svg>
-  );
-}
-
-function BrandSvgDDG({ className }: { className?: string }) {
-  return (
-    <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" className={className}>
-      <circle cx="12" cy="12" r="10" />
-      <circle cx="9" cy="11" r="1.5" fill="white" />
-      <circle cx="15" cy="11" r="1.5" fill="white" />
-      <path d="M12 14c-2 0-3 1-3 1s1 1.5 3 1.5 3-1.5 3-1.5-1-1-3-1z" fill="white" />
-    </svg>
-  );
-}
-
-function BrandSvgWikipedia({ className }: { className?: string }) {
-  return (
-    <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" className={className}>
-      <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1.5 15.5c-.26 0-.52-.13-.67-.38l-2.5-4.33-2.5 4.33c-.15.25-.41.38-.67.38-.58 0-.96-.62-.67-1.12l3-5.2-3-5.2c-.29-.5.09-1.12.67-1.12.26 0 .52.13.67.38l2.5 4.33 2.5-4.33c.15-.25.41-.38.67-.38.58 0 .96.62.67 1.12L8.5 13l3 5.2c.29.5-.09 1.12-.67 1.12zM18 13h-2.5v4.5c0 .28-.22.5-.5.5h-1c-.28 0-.5-.22-.5-.5V13H11c-.28 0-.5-.22-.5-.5v-1c0-.28.22-.5.5-.5h3.5V6.5c0-.28.22-.5.5-.5h1c.28 0 .5.22.5.5V11H18c.28 0 .5.22.5.5v1c0 .28-.22.5-.5.5z" />
-    </svg>
-  );
-}
-
-function BrandSvgYC({ className }: { className?: string }) {
-  return (
-    <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" className={className}>
-      <rect x="2" y="2" width="20" height="20" rx="3" />
-      <path d="M7 7l3.5 7.5V17h2.5v-2.5L16.5 7h-2.5L12 11.5 9.5 7H7z" fill="white" />
-    </svg>
-  );
-}
-
-function BrandSvgPH({ className }: { className?: string }) {
-  return (
-    <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" className={className}>
-      <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.55 7.6c-.68 1.87-2.48 3.03-4.55 3.03H8.53l-1.05 5.27H4.92L7.5 6.9h4.52c2.8 0 4.98 1.68 4.53 4.7z" />
-    </svg>
-  );
-}
+const BrandIconHN = ({ className }: { className?: string }) => <FaHackerNews className={className} />;
+const BrandIconReddit = ({ className }: { className?: string }) => <FaReddit className={className} />;
+const BrandIconGitHub = ({ className }: { className?: string }) => <SiGithub className={className} />;
+const BrandIconSO = ({ className }: { className?: string }) => <SiStackoverflow className={className} />;
+const BrandIconNpm = ({ className }: { className?: string }) => <SiNpm className={className} />;
+const BrandIconDevTo = ({ className }: { className?: string }) => <SiDevdotto className={className} />;
+const BrandIconMedium = ({ className }: { className?: string }) => <SiMedium className={className} />;
+const BrandIconDDG = ({ className }: { className?: string }) => <SiDuckduckgo className={className} />;
+const BrandIconWikipedia = ({ className }: { className?: string }) => <SiWikipedia className={className} />;
+const BrandIconYC = ({ className }: { className?: string }) => <SiYcombinator className={className} />;
+const BrandIconPH = ({ className }: { className?: string }) => <SiProducthunt className={className} />;
+const BrandIconKnowledge = ({ className }: { className?: string }) => <FaBook className={className} />;
 
 // ══════════════════════════════════════════════════════════════════════
 // TYPES
@@ -217,20 +140,27 @@ interface SourceConfig {
   brandEl: React.ReactNode;
 }
 
+const SOURCE_ROUTES: Record<string, string> = {
+  knowledge: '/knowledge',
+  feed: '/feed',
+  yc: '/yc',
+  ph: '/producthunt',
+};
+
 const SOURCES: SourceConfig[] = [
-  { id: 'knowledge', label: 'Knowledge Curriculum', type: 'local', color: 'text-blue-600', bgColor: 'bg-blue-600', hoverBg: 'hover:bg-blue-600', brandEl: <BrandSvgKnowledge /> },
+  { id: 'knowledge', label: 'Knowledge Curriculum', type: 'local', color: 'text-blue-600', bgColor: 'bg-blue-600', hoverBg: 'hover:bg-blue-600', brandEl: <BrandIconKnowledge /> },
   { id: 'feed', label: 'Engineering Blogs', type: 'local', color: 'text-accent', bgColor: 'bg-accent', hoverBg: 'hover:bg-accent', brandEl: null },
-  { id: 'yc', label: 'YC Companies', type: 'local', color: 'text-orange-500', bgColor: 'bg-orange-500', hoverBg: 'hover:bg-orange-500', brandEl: <BrandSvgYC /> },
-  { id: 'ph', label: 'Product Hunt', type: 'local', color: 'text-red-500', bgColor: 'bg-red-500', hoverBg: 'hover:bg-red-500', brandEl: <BrandSvgPH /> },
-  { id: 'hn', label: 'Hacker News', type: 'live', color: 'text-orange-600', bgColor: 'bg-orange-600', hoverBg: 'hover:bg-orange-600', brandEl: <BrandSvgHN /> },
-  { id: 'github', label: 'GitHub', type: 'live', color: 'text-gray-800', bgColor: 'bg-gray-800', hoverBg: 'hover:bg-gray-800', brandEl: <BrandSvgGitHub /> },
-  { id: 'stackoverflow', label: 'Stack Overflow', type: 'live', color: 'text-orange-500', bgColor: 'bg-orange-500', hoverBg: 'hover:bg-orange-500', brandEl: <BrandSvgSO /> },
-  { id: 'npm', label: 'NPM', type: 'live', color: 'text-red-600', bgColor: 'bg-red-600', hoverBg: 'hover:bg-red-600', brandEl: <BrandSvgNpm /> },
-  { id: 'devto', label: 'Dev.to', type: 'live', color: 'text-gray-800', bgColor: 'bg-gray-800', hoverBg: 'hover:bg-gray-800', brandEl: <BrandSvgDevTo /> },
-  { id: 'medium', label: 'Medium', type: 'live', color: 'text-black', bgColor: 'bg-black', hoverBg: 'hover:bg-black', brandEl: <BrandSvgMedium /> },
-  { id: 'ddg', label: 'DuckDuckGo', type: 'live', color: 'text-orange-600', bgColor: 'bg-orange-600', hoverBg: 'hover:bg-orange-600', brandEl: <BrandSvgDDG /> },
-  { id: 'reddit', label: 'Reddit', type: 'live', color: 'text-orange-500', bgColor: 'bg-orange-500', hoverBg: 'hover:bg-orange-500', brandEl: <BrandSvgReddit /> },
-  { id: 'wikipedia', label: 'Wikipedia', type: 'live', color: 'text-gray-700', bgColor: 'bg-gray-700', hoverBg: 'hover:bg-gray-700', brandEl: <BrandSvgWikipedia /> },
+  { id: 'yc', label: 'YC Companies', type: 'local', color: 'text-orange-500', bgColor: 'bg-orange-500', hoverBg: 'hover:bg-orange-500', brandEl: <BrandIconYC /> },
+  { id: 'ph', label: 'Product Hunt', type: 'local', color: 'text-red-500', bgColor: 'bg-red-500', hoverBg: 'hover:bg-red-500', brandEl: <BrandIconPH /> },
+  { id: 'hn', label: 'Hacker News', type: 'live', color: 'text-orange-600', bgColor: 'bg-orange-600', hoverBg: 'hover:bg-orange-600', brandEl: <BrandIconHN /> },
+  { id: 'github', label: 'GitHub', type: 'live', color: 'text-gray-800', bgColor: 'bg-gray-800', hoverBg: 'hover:bg-gray-800', brandEl: <BrandIconGitHub /> },
+  { id: 'stackoverflow', label: 'Stack Overflow', type: 'live', color: 'text-orange-500', bgColor: 'bg-orange-500', hoverBg: 'hover:bg-orange-500', brandEl: <BrandIconSO /> },
+  { id: 'npm', label: 'NPM', type: 'live', color: 'text-red-600', bgColor: 'bg-red-600', hoverBg: 'hover:bg-red-600', brandEl: <BrandIconNpm /> },
+  { id: 'devto', label: 'Dev.to', type: 'live', color: 'text-gray-800', bgColor: 'bg-gray-800', hoverBg: 'hover:bg-gray-800', brandEl: <BrandIconDevTo /> },
+  { id: 'medium', label: 'Medium', type: 'live', color: 'text-black', bgColor: 'bg-black', hoverBg: 'hover:bg-black', brandEl: <BrandIconMedium /> },
+  { id: 'ddg', label: 'DuckDuckGo', type: 'live', color: 'text-orange-600', bgColor: 'bg-orange-600', hoverBg: 'hover:bg-orange-600', brandEl: <BrandIconDDG /> },
+  { id: 'reddit', label: 'Reddit', type: 'live', color: 'text-orange-500', bgColor: 'bg-orange-500', hoverBg: 'hover:bg-orange-500', brandEl: <BrandIconReddit /> },
+  { id: 'wikipedia', label: 'Wikipedia', type: 'live', color: 'text-gray-700', bgColor: 'bg-gray-700', hoverBg: 'hover:bg-gray-700', brandEl: <BrandIconWikipedia /> },
 ];
 
 const SOURCE_MAP = new Map(SOURCES.map((s) => [s.id, s]));
@@ -536,19 +466,14 @@ function createFuseIndex(items: LocalSearchItem[]) {
     minMatchCharLength: 2,
   });
 }
-function BrandSvgKnowledge({ className }: { className?: string }) {
-  return (
-    <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" className={className}>
-      <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
-    </svg>
-  );
-}
+
 
 // ══════════════════════════════════════════════════════════════════════
 // SOURCE SECTION HEADER
 // ══════════════════════════════════════════════════════════════════════
 
-function SourceSection({ source, count, children }: { source: SourceConfig; count: number; children: React.ReactNode }) {
+function SourceSection({ source, count, query, children }: { source: SourceConfig; count: number; query: string; children: React.ReactNode }) {
+  const route = SOURCE_ROUTES[source.id];
   return (
     <section id={`search-${source.id}`} className="mb-16 sm:mb-20">
       <div className="mb-6 sm:mb-8">
@@ -560,7 +485,17 @@ function SourceSection({ source, count, children }: { source: SourceConfig; coun
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8 lg:gap-10">
         {children}
-      </div>
+      </div>          {route && count > 9 && (
+        <div className="mt-6 text-center">
+          <Link
+            href={`${route}${query ? `?q=${encodeURIComponent(query)}` : ''}`}
+            className="inline-flex items-center gap-2 px-6 py-3 text-xs font-bold uppercase tracking-wider border-2 border-border bg-white text-fg hover:bg-accent hover:text-white hover:border-accent transition-all duration-200"
+          >
+            View All {source.label}
+            <Icon name="arrow-right" size={14} />
+          </Link>
+        </div>
+      )}
     </section>
   );
 }
@@ -861,7 +796,7 @@ export function HomeUnifiedSearch() {
                   );
                   if (items.length === 0) return null;
                   return (
-                    <SourceSection key={source.id} source={source} count={items.length}>
+                    <SourceSection key={source.id} source={source} count={items.length} query={query}>
                       {items.slice(0, 9).map((item, i) => (
                         <SourceCard key={`${source.id}-${i}`} item={item} config={source} />
                       ))}
@@ -881,7 +816,7 @@ export function HomeUnifiedSearch() {
                   const items = liveResults[source.id] ?? [];
                   if (items.length === 0) return null;
                   return (
-                    <SourceSection key={source.id} source={source} count={items.length}>
+                    <SourceSection key={source.id} source={source} count={items.length} query={query}>
                       {items.map((item, i) => (
                         <SourceCard key={`${source.id}-${i}`} config={source} result={item} />
                       ))}
