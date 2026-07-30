@@ -743,21 +743,17 @@ export function HomeUnifiedSearch() {
           <IconAnimatedGridPattern />
         </div>
 
-        <div className="relative z-10 max-w-[1000px] mx-auto px-6 lg:px-12 py-24 sm:py-32 w-full text-center">
-          <div className="mb-10">
-            <div className="inline-flex items-center gap-2 px-4 py-2 text-xs font-bold uppercase tracking-widest bg-accent text-white mb-6">
-              <span className="w-1.5 h-1.5 rounded-full bg-white animate-pulse" />
-              100X KNOWLEDGE
+        <div className="relative z-10 max-w-[900px] mx-auto px-6 lg:px-12 py-16 sm:py-20 w-full text-center">
+          <div className="mb-8">
+            <div className="inline-flex items-center gap-2 px-3 py-1.5 text-[10px] font-bold uppercase tracking-widest bg-accent/80 text-white mb-4">
+              100X SEARCH
             </div>
-            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-extrabold text-fg tracking-tight uppercase leading-[1.05] mb-5">
-              Software engineering&nbsp;<span className="text-accent">knowledge</span>
+            <h1 className="text-2xl sm:text-3xl font-extrabold text-fg tracking-tight leading-tight mb-2">
+              Search everything
             </h1>
-            <p className="text-base sm:text-lg text-fg-secondary max-w-2xl mx-auto">
-              One search across curated concepts, engineering blogs, YC startups, GitHub, Hacker News, and more.
-            </p>
           </div>
 
-          {/* Bigger search bar */}
+          {/* Hero search bar */}
           <div className="max-w-3xl mx-auto">
             <div className="relative">
               <span className="absolute left-6 top-1/2 -translate-y-1/2 text-fg-muted pointer-events-none">
