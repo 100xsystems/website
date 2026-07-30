@@ -13,6 +13,7 @@ import {
   SiReact, SiVuedotjs, SiAngular, SiSvelte, SiNodedotjs, SiExpress, SiFlutter, SiLinux, SiPostgresql, SiRedis,
   SiSpring, SiDjango, SiLaravel, SiNextdotjs, SiTailwindcss, SiBootstrap, SiNginx, SiMongodb, SiElasticsearch, SiMysql,
   SiGrafana, SiPrometheus, SiApachekafka, SiRabbitmq, SiApacheairflow, SiSqlite, SiJenkins, SiGitlab, SiGithubactions, SiNeovim,
+  SiAstro,
 } from 'react-icons/si';
 import { FaBook, FaFileAlt, FaLaptopCode, FaPlay, FaTerminal, FaSearch, FaNewspaper, FaUsers } from 'react-icons/fa';
 import { getLanguageMeta, getHandcraftedSystems } from '@/lib/mdx';
@@ -122,6 +123,7 @@ const LANG_ICONS: Record<string, React.ReactNode> = {
   gitlab:     <SiGitlab size={28} />,
   'github-actions': <SiGithubactions size={28} />,
   neovim:     <SiNeovim size={28} />,
+  astro:      <SiAstro size={28} />,
 };
 
 const LANG_HERO: Record<string, { bg: string; iconBg: string }> = {
@@ -224,6 +226,7 @@ const LANG_HERO: Record<string, { bg: string; iconBg: string }> = {
   gitlab:     { bg: 'bg-[#FC6D26]', iconBg: 'bg-[#FC6D26] text-white' },
   'github-actions': { bg: 'bg-[#2088FF]', iconBg: 'bg-[#2088FF] text-white' },
   neovim:     { bg: 'bg-[#57A143]', iconBg: 'bg-[#57A143] text-white' },
+  astro:      { bg: 'bg-[#BC52EE]', iconBg: 'bg-[#BC52EE] text-white' },
 };
 
 const CATEGORY_ICONS: Record<string, React.ReactNode> = {
@@ -268,6 +271,7 @@ const KNOWN_SLUGS = new Set([
   'bootstrap', 'nginx', 'mongodb', 'elasticsearch', 'mysql',
   'grafana', 'prometheus', 'kafka', 'rabbitmq', 'airflow',
   'sqlite', 'jenkins', 'gitlab', 'github-actions', 'neovim',
+  'astro',
 ]);
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {

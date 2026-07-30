@@ -14,6 +14,7 @@ import {
   SiReact, SiVuedotjs, SiAngular, SiSvelte, SiNodedotjs, SiExpress, SiFlutter, SiLinux, SiPostgresql, SiRedis,
   SiSpring, SiDjango, SiLaravel, SiNextdotjs, SiTailwindcss, SiBootstrap, SiNginx, SiMongodb, SiElasticsearch, SiMysql,
   SiGrafana, SiPrometheus, SiApachekafka, SiRabbitmq, SiApacheairflow, SiSqlite, SiJenkins, SiGitlab, SiGithubactions, SiNeovim,
+  SiAstro,
 } from 'react-icons/si';
 
 export const metadata: Metadata = {
@@ -120,6 +121,7 @@ const LANG_ICONS: Record<string, React.ReactNode> = {
   gitlab:     <SiGitlab size={22} />,
   'github-actions': <SiGithubactions size={22} />,
   neovim:     <SiNeovim size={22} />,
+  astro:      <SiAstro size={22} />,
 };
 
 const LANG_BG: Record<string, string> = {
@@ -222,6 +224,7 @@ const LANG_BG: Record<string, string> = {
   gitlab:     'bg-[#FC6D26] text-white',
   'github-actions': 'bg-[#2088FF] text-white',
   neovim:     'bg-[#57A143] text-white',
+  astro:      'bg-[#BC52EE] text-white',
 };
 
 const DEFAULT_BG = 'bg-accent text-white';
@@ -260,7 +263,7 @@ export default function LanguagesPage() {
               Programming&nbsp;<span className="text-accent">Languages</span>
             </h1>
             <p className="text-sm text-fg-secondary max-w-xl mx-auto">
-              Curated resource hubs for              99 major programming languages.
+              Curated resource hubs for              100 major programming languages.
               Each hub collects the definitive free resources — books, docs, courses, videos,
               practice, reference, news, and community.
             </p>
