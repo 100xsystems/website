@@ -3584,6 +3584,237 @@ export const mysqlResources: LanguageResources = { slug: 'mysql', name: 'MySQL',
 { title: 'MySQL Forums', url: 'https://forums.mysql.com/', description: 'Official MySQL community forums.' },
 { title: 'Stack Overflow - MySQL Tag', url: 'https://stackoverflow.com/questions/tagged/mysql', description: 'Q&A for MySQL questions.' },
 ]},],};
+
+// ══ GRAFANA ═════════════════════════════════════════════════════════
+export const grafanaResources: LanguageResources = { slug: 'grafana', name: 'Grafana', description: 'Grafana is the leading open-source observability platform for visualizing metrics, logs, traces, and more. It integrates with Prometheus, Loki, Tempo, and hundreds of data sources to create powerful interactive dashboards and alerts.', categories: [
+{ label: 'Free Books', icon: 'book', items: [
+{ title: 'Grafana Documentation', url: 'https://grafana.com/docs/', description: 'The comprehensive official documentation covering setup, dashboards, alerting, and administration.' },
+{ title: 'GROT Academy (Grafana Free Courses)', url: 'https://learn.grafana.com/', description: 'Bite-sized free courses with embedded labs covering dashboards, metrics, logs, and tracing. Earn official badges.' },
+]},{ label: 'Official Documentation', icon: 'docs', items: [
+{ title: 'Grafana Tutorials Hub', url: 'https://grafana.com/tutorials/', description: 'Structured self-paced hands-on guides covering setup, dashboard creation, and alerting.' },
+{ title: 'Grafana Play', url: 'https://play.grafana.org/', description: 'Live interactive sandbox with functional public dashboards to explore without setup.' },
+]},{ label: 'Interactive Courses', icon: 'code', items: [
+{ title: 'Grafana Labs YouTube Channel', url: 'https://www.youtube.com/@grafana', description: 'Official YouTube channel with crash courses, deep dives, and GrafanaCON recaps.' },
+]},{ label: 'Video Courses', icon: 'video', items: [
+{ title: 'Grafana Dashboard Course (YouTube)', url: 'https://www.youtube.com/results?search_query=grafana+crash+course+2026', description: 'Comprehensive video walkthroughs covering zero-to-hero dashboarding and advanced alerting.' },
+]},{ label: 'Practice & Challenges', icon: 'terminal', items: [
+{ title: 'Grafana Play', url: 'https://play.grafana.org/', description: 'Experiment with live dashboards and panel configurations in a sandbox environment.' },
+]},{ label: 'Reference & Cheatsheets', icon: 'reference', items: [
+{ title: 'Grafana Alerts Cheatsheet', url: 'https://community.grafana.com/t/grafana-alerts-cheatsheet/121161', description: 'Community reference for alert expressions, routing rules, and notification templates.' },
+]},{ label: 'News & Updates', icon: 'news', items: [
+{ title: 'Grafana Blog & Release Notes', url: 'https://grafana.com/blog/', description: 'Official release announcements, feature deep dives, and engineering case studies.' },
+]},{ label: 'Community', icon: 'community', items: [
+{ title: 'Grafana Community Forums', url: 'https://community.grafana.com/', description: 'Official discussion boards for troubleshooting dashboards, data sources, and plugins.' },
+{ title: 'Reddit r/grafana', url: 'https://www.reddit.com/r/grafana/', description: 'Active community for sharing dashboards, JSON models, and tips.' },
+]},],};
+
+// ══ PROMETHEUS ═══════════════════════════════════════════════════════
+export const prometheusResources: LanguageResources = { slug: 'prometheus', name: 'Prometheus', description: 'Prometheus is the CNCF-graduated monitoring system and time-series database. It provides a powerful dimensional data model, PromQL query language, and pull-based metrics collection for cloud-native environments.', categories: [
+{ label: 'Free Books', icon: 'book', items: [
+{ title: 'Prometheus Overview & Architecture', url: 'https://prometheus.io/docs/introduction/overview/', description: 'Official overview explaining core components, data model, and pull-based collection.' },
+{ title: 'Prometheus Getting Started', url: 'https://prometheus.io/docs/introduction/first_steps/', description: 'Hands-on guide for downloading, configuring, and scraping first metrics.' },
+]},{ label: 'Official Documentation', icon: 'docs', items: [
+{ title: 'PromQL Query Docs', url: 'https://prometheus.io/docs/prometheus/latest/querying/basics/', description: 'Official comprehensive guide to mastering Prometheus Query Language.' },
+{ title: 'Prometheus Workshop (GitLab)', url: 'https://o11y-workshops.gitlab.io/workshop-prometheus/', description: 'Free self-paced workshop covering installation, PromQL, relabeling, and instrumentation.' },
+]},{ label: 'Interactive Courses', icon: 'code', items: [
+{ title: 'PromLabs Training Hub', url: 'https://training.promlabs.com/', description: 'Expert-level learning paths with free tips and structured resources by Prometheus co-founder.' },
+]},{ label: 'Video Courses', icon: 'video', items: [
+{ title: 'Prometheus Full Course (YouTube)', url: 'https://www.youtube.com/watch?v=zZcxdWJ_tRc', description: 'Full course covering Docker/K8s integration, PromQL, and Grafana visualization.' },
+]},{ label: 'Practice & Challenges', icon: 'terminal', items: [
+{ title: 'Awesome Prometheus', url: 'https://github.com/warpnet/awesome-prometheus', description: 'Massive curated list of tools, exporters, alerting rules, and best practices.' },
+]},{ label: 'Reference & Cheatsheets', icon: 'reference', items: [
+{ title: 'Prometheus Cheatsheet (ruanbekker)', url: 'https://github.com/ruanbekker/cheatsheets/blob/master/prometheus/README.md', description: 'Well-structured reference for config, PromQL queries, and service exporter queries.' },
+]},{ label: 'News & Updates', icon: 'news', items: [
+{ title: 'Prometheus Community Blog', url: 'https://prometheus.io/blog/', description: 'Official blog with release announcements and community updates.' },
+]},{ label: 'Community', icon: 'community', items: [
+{ title: 'Prometheus Discourse Forum', url: 'https://discuss.prometheus.io/', description: 'Official web-based forum for design discussions and community support.' },
+{ title: 'Prometheus Users Google Group', url: 'https://groups.google.com/g/prometheus-users', description: 'Primary discussions forum with thousands of Q&A threads.' },
+]},],};
+
+// ══ APACHE KAFKA ═════════════════════════════════════════════════════
+export const kafkaResources: LanguageResources = { slug: 'kafka', name: 'Apache Kafka', description: 'Apache Kafka is the leading distributed event streaming platform for building real-time data pipelines and streaming applications. It provides high-throughput, fault-tolerant message processing at scale.', categories: [
+{ label: 'Free Books', icon: 'book', items: [
+{ title: 'Kafka Documentation', url: 'https://kafka.apache.org/documentation/', description: 'The comprehensive official documentation covering architecture, APIs, and operations.' },
+{ title: 'Kafka: The Definitive Guide (Free Chapters)', url: 'https://www.confluent.io/resources/kafka-the-definitive-guide/', description: 'Free chapters from the authoritative OReilly book on Kafka.' },
+]},{ label: 'Official Documentation', icon: 'docs', items: [
+{ title: 'Kafka Quickstart', url: 'https://kafka.apache.org/quickstart', description: 'Official quickstart guide to get Kafka up and running in minutes.' },
+{ title: 'Confluent Developer Hub', url: 'https://developer.confluent.io/', description: 'Free courses, tutorials, and resources from the company behind Kafka.' },
+]},{ label: 'Interactive Courses', icon: 'code', items: [
+{ title: 'Confluent Developer (Free Courses)', url: 'https://developer.confluent.io/courses/', description: 'Free video courses covering Kafka fundamentals, Kafka Streams, ksqlDB, and connectors.' },
+]},{ label: 'Video Courses', icon: 'video', items: [
+{ title: 'Apache Kafka Course (freeCodeCamp)', url: 'https://www.youtube.com/watch?v=B5j3uNBH8X4', description: 'Multi-hour comprehensive Kafka course covering architecture and practical usage.' },
+]},{ label: 'Practice & Challenges', icon: 'terminal', items: [
+{ title: 'Kafka Playground (Confluent Cloud)', url: 'https://www.confluent.io/try/', description: 'Free Kafka cluster in the cloud to experiment with producers, consumers, and streams.' },
+]},{ label: 'Reference & Cheatsheets', icon: 'reference', items: [
+{ title: 'Kafka Cheatsheet', url: 'https://devhints.io/kafka', description: 'Quick reference for Kafka CLI commands, configuration, and common patterns.' },
+]},{ label: 'News & Updates', icon: 'news', items: [
+{ title: 'Confluent Blog', url: 'https://www.confluent.io/blog/', description: 'Kafka ecosystem blog with engineering deep dives and release announcements.' },
+]},{ label: 'Community', icon: 'community', items: [
+{ title: 'Kafka Community', url: 'https://kafka.apache.org/community', description: 'Official community page with mailing lists and Slack channels.' },
+{ title: 'Reddit r/apachekafka', url: 'https://www.reddit.com/r/apachekafka/', description: 'Active Kafka community for troubleshooting and discussions.' },
+]},],};
+
+// ══ RABBITMQ ═════════════════════════════════════════════════════════
+export const rabbitmqResources: LanguageResources = { slug: 'rabbitmq', name: 'RabbitMQ', description: 'RabbitMQ is the most widely deployed open-source message broker. It supports multiple messaging protocols and patterns including AMQP, MQTT, and STOMP for building reliable distributed systems.', categories: [
+{ label: 'Free Books', icon: 'book', items: [
+{ title: 'RabbitMQ Official Docs', url: 'https://www.rabbitmq.com/docs', description: 'The definitive documentation covering everything from setup to clustering and security.' },
+{ title: 'RabbitMQ Tutorials', url: 'https://www.rabbitmq.com/tutorials', description: 'Classic step-by-step tutorials covering Hello World, Work Queues, Pub-Sub, Routing, and Topics.' },
+]},{ label: 'Official Documentation', icon: 'docs', items: [
+{ title: 'RabbitMQ CLI Tools Guide', url: 'https://www.rabbitmq.com/docs/cli', description: 'Official reference for CLI utilities, node management, and cluster health.' },
+{ title: 'CloudAMQP RabbitMQ Guide', url: 'https://www.cloudamqp.com/blog/part1-rabbitmq-for-beginners-what-is-rabbitmq.html', description: 'High-quality beginner guides breaking down exchanges, queues, and bindings.' },
+]},{ label: 'Interactive Courses', icon: 'code', items: [
+{ title: 'CloudAMQP Free RabbitMQ Training', url: 'https://www.cloudamqp.com/blog/free-rabbitmq-training-course.html', description: 'Free comprehensive training course from beginner to advanced with certification.' },
+]},{ label: 'Video Courses', icon: 'video', items: [
+{ title: 'RabbitMQ Crash Course (YouTube)', url: 'https://www.youtube.com/results?search_query=rabbitmq+crash+course', description: 'Video walkthroughs of message queuing concepts and implementation patterns.' },
+]},{ label: 'Practice & Challenges', icon: 'terminal', items: [
+{ title: 'CloudAMQP Free Cluster', url: 'https://www.cloudamqp.com/plans.html', description: 'Free RabbitMQ cluster in the cloud for experimentation and learning.' },
+]},{ label: 'Reference & Cheatsheets', icon: 'reference', items: [
+{ title: 'RabbitMQ Cheat Sheet', url: 'https://www.rameshfadatare.com/cheat-sheet/rabbitmq-cheat-sheet/', description: 'Structured reference covering exchanges, queues, bindings, and CLI commands.' },
+]},{ label: 'News & Updates', icon: 'news', items: [
+{ title: 'RabbitMQ Blog', url: 'https://www.rabbitmq.com/blog/', description: 'Official blog with release notes, performance studies, and community updates.' },
+]},{ label: 'Community', icon: 'community', items: [
+{ title: 'RabbitMQ Discord', url: 'https://discord.com/invite/VwWnkG3GWy', description: 'Official community Discord for real-time discussions and support.' },
+{ title: 'RabbitMQ Users Mailing List', url: 'https://groups.google.com/g/rabbitmq-users', description: 'Official mailing list for technical support and discussions.' },
+]},],};
+
+// ══ APACHE AIRFLOW ═══════════════════════════════════════════════════
+export const airflowResources: LanguageResources = { slug: 'airflow', name: 'Apache Airflow', description: 'Apache Airflow is the leading platform for programmatically authoring, scheduling, and monitoring workflows. It lets you build data pipelines as directed acyclic graphs (DAGs) with Python.', categories: [
+{ label: 'Free Books', icon: 'book', items: [
+{ title: 'Airflow Documentation', url: 'https://airflow.apache.org/docs/', description: 'Comprehensive official documentation with concepts, tutorials, and API reference.' },
+{ title: 'Airflow Tutorial', url: 'https://airflow.apache.org/docs/apache-airflow/stable/tutorial/index.html', description: 'Official tutorial from quick start to writing your first DAG with TaskFlow API.' },
+]},{ label: 'Official Documentation', icon: 'docs', items: [
+{ title: 'Airflow How-to Guides', url: 'https://airflow.apache.org/docs/apache-airflow/stable/howto/index.html', description: 'Production-grade configuration, deployment, and maintenance guides.' },
+{ title: 'Astronomer Intro to Airflow', url: 'https://www.astronomer.io/docs/learn/intro-to-airflow', description: 'Leading technical overview of DAGs, TaskFlow API, dynamic tasks, and assets.' },
+]},{ label: 'Interactive Courses', icon: 'code', items: [
+{ title: 'Astronomer Academy', url: 'https://academy.astronomer.io/', description: 'Free structured learning paths for deep mastery of Airflow.' },
+]},{ label: 'Video Courses', icon: 'video', items: [
+{ title: 'Airflow Tutorial for Beginners (YouTube)', url: 'https://www.youtube.com/watch?v=RFVqzMyOicc', description: 'Comprehensive masterclass covering Airflow 3.x and pipeline orchestration.' },
+]},{ label: 'Practice & Challenges', icon: 'terminal', items: [
+{ title: 'Astronomer Try Airflow', url: 'https://www.astronomer.io/try/', description: 'Free hosted Airflow environment for experimentation.' },
+]},{ label: 'Reference & Cheatsheets', icon: 'reference', items: [
+{ title: 'Airflow Cheatsheet', url: 'https://devhints.io/airflow', description: 'Quick reference for Airflow operators, sensors, DAG definitions, and CLI commands.' },
+]},{ label: 'News & Updates', icon: 'news', items: [
+{ title: 'Apache Airflow Blog', url: 'https://airflow.apache.org/blog/', description: 'Official blog with release announcements, architectural insights, and community updates.' },
+]},{ label: 'Community', icon: 'community', items: [
+{ title: 'Airflow Slack', url: 'https://apache-airflow-slack.herokuapp.com/', description: 'Official Slack workspace with channels for troubleshooting and best practices.' },
+{ title: 'Monthly Town Halls', url: 'https://www.youtube.com/watch?v=ACpzO-II6jY', description: 'Monthly gatherings with core maintainers discussing roadmap and features.' },
+]},],};
+
+// ══ SQLITE ═══════════════════════════════════════════════════════════
+export const sqliteResources: LanguageResources = { slug: 'sqlite', name: 'SQLite', description: 'SQLite is the most widely deployed database engine in the world. It is an embedded, serverless, zero-configuration SQL database engine powering billions of devices and applications.', categories: [
+{ label: 'Free Books', icon: 'book', items: [
+{ title: 'SQLite Documentation', url: 'https://sqlite.org/docs.html', description: 'Comprehensive official documentation including SQL reference and C API.' },
+{ title: 'SQLite Tutorial (SQLite.org)', url: 'https://sqlite.org/lang.html', description: 'Official SQL language reference for SQLite with examples.' },
+]},{ label: 'Official Documentation', icon: 'docs', items: [
+{ title: 'SQLite Well-Known Users', url: 'https://sqlite.org/famous.html', description: 'List of notable projects and products using SQLite worldwide.' },
+{ title: 'SQLite CLI Guide', url: 'https://sqlite.org/cli.html', description: 'Complete documentation for the sqlite3 command-line shell.' },
+]},{ label: 'Interactive Courses', icon: 'code', items: [
+{ title: 'SQL Tester (SQLite.org)', url: 'https://sqlite.org/sqllogictest/doc/trunk/about.wiki', description: 'SQL logic test framework for learning SQLite query behavior.' },
+]},{ label: 'Video Courses', icon: 'video', items: [
+{ title: 'SQLite Course (YouTube)', url: 'https://www.youtube.com/results?search_query=sqlite+tutorial+course', description: 'Video tutorials covering SQLite basics, advanced queries, and integration patterns.' },
+]},{ label: 'Practice & Challenges', icon: 'terminal', items: [
+{ title: 'SQLite Playground', url: 'https://sqliteonline.com/', description: 'Online SQLite editor to experiment with SQL queries in the browser.' },
+]},{ label: 'Reference & Cheatsheets', icon: 'reference', items: [
+{ title: 'SQLite Cheatsheet', url: 'https://devhints.io/sqlite', description: 'Quick reference for SQLite SQL commands, functions, and pragmas.' },
+]},{ label: 'News & Updates', icon: 'news', items: [
+{ title: 'SQLite Release Notes', url: 'https://sqlite.org/changes.html', description: 'Chronological list of all SQLite releases with detailed changelogs.' },
+]},{ label: 'Community', icon: 'community', items: [
+{ title: 'SQLite Mailing List', url: 'https://sqlite.org/support.html', description: 'Official SQLite support and community mailing list.' },
+{ title: 'Stack Overflow - SQLite Tag', url: 'https://stackoverflow.com/questions/tagged/sqlite', description: 'Q&A for SQLite questions and troubleshooting.' },
+]},],};
+
+// ══ JENKINS ══════════════════════════════════════════════════════════
+export const jenkinsResources: LanguageResources = { slug: 'jenkins', name: 'Jenkins', description: 'Jenkins is the leading open-source automation server for building, testing, and deploying software. It supports hundreds of plugins for CI/CD, making it one of the most flexible automation platforms available.', categories: [
+{ label: 'Free Books', icon: 'book', items: [
+{ title: 'Jenkins User Documentation', url: 'https://www.jenkins.io/doc/', description: 'Comprehensive official documentation covering setup, pipelines, and administration.' },
+{ title: 'Jenkins Handbook', url: 'https://www.jenkins.io/doc/book/', description: 'Official Jenkins handbook covering pipeline syntax, blue ocean, and best practices.' },
+]},{ label: 'Official Documentation', icon: 'docs', items: [
+{ title: 'Jenkins Pipeline Syntax', url: 'https://www.jenkins.io/doc/book/pipeline/syntax/', description: 'Complete reference for Declarative and Scripted pipeline syntax.' },
+{ title: 'Jenkins Getting Started', url: 'https://www.jenkins.io/doc/pipeline/tour/getting-started/', description: 'Tour-based guide for creating your first Jenkins pipeline.' },
+]},{ label: 'Interactive Courses', icon: 'code', items: [
+{ title: 'Jenkins Tutorial (Tutorialspoint)', url: 'https://www.tutorialspoint.com/jenkins/', description: 'Free interactive tutorial covering Jenkins architecture, jobs, and plugins.' },
+]},{ label: 'Video Courses', icon: 'video', items: [
+{ title: 'Jenkins Full Course (YouTube)', url: 'https://www.youtube.com/results?search_query=jenkins+full+course', description: 'Comprehensive video courses covering CI/CD pipeline creation and management.' },
+]},{ label: 'Practice & Challenges', icon: 'terminal', items: [
+{ title: 'Jenkins Playground', url: 'https://www.jenkins.io/playground/', description: 'Shared Jenkins instance for experimentation and learning pipeline creation.' },
+]},{ label: 'Reference & Cheatsheets', icon: 'reference', items: [
+{ title: 'Jenkins Cheatsheet', url: 'https://devhints.io/jenkins', description: 'Quick reference for Jenkins pipeline syntax, steps, and configuration.' },
+]},{ label: 'News & Updates', icon: 'news', items: [
+{ title: 'Jenkins Blog', url: 'https://www.jenkins.io/blog/', description: 'Official Jenkins blog with release announcements, security advisories, and community updates.' },
+]},{ label: 'Community', icon: 'community', items: [
+{ title: 'Jenkins Community', url: 'https://www.jenkins.io/participate/', description: 'Official community channels with mailing lists, IRC, and forums.' },
+{ title: 'Reddit r/jenkinsci', url: 'https://www.reddit.com/r/jenkinsci/', description: 'Community for Jenkins discussions and troubleshooting.' },
+]},],};
+
+// ══ GITLAB ═══════════════════════════════════════════════════════════
+export const gitlabResources: LanguageResources = { slug: 'gitlab', name: 'GitLab', description: 'GitLab is a complete DevOps platform delivered as a single application. It provides Git repository management, CI/CD, security scanning, and monitoring throughout the entire development lifecycle.', categories: [
+{ label: 'Free Books', icon: 'book', items: [
+{ title: 'GitLab Documentation', url: 'https://docs.gitlab.com/', description: 'Comprehensive official documentation covering all GitLab features and administration.' },
+{ title: 'GitLab Learn', url: 'https://about.gitlab.com/learn/', description: 'Free learning resources with guided paths for DevOps, CI/CD, and GitLab administration.' },
+]},{ label: 'Official Documentation', icon: 'docs', items: [
+{ title: 'GitLab CI/CD Docs', url: 'https://docs.gitlab.com/ee/ci/', description: 'Complete CI/CD documentation covering pipeline configuration, runners, and environments.' },
+{ title: 'GitLab CI/CD Quickstart', url: 'https://docs.gitlab.com/ee/ci/quick_start/', description: 'Quickstart guide for creating your first GitLab CI/CD pipeline.' },
+]},{ label: 'Interactive Courses', icon: 'code', items: [
+{ title: 'GitLab Education Program', url: 'https://about.gitlab.com/handbook/customer-success/education-program/', description: 'Free learning materials including hands-on labs and instructor guides.' },
+]},{ label: 'Video Courses', icon: 'video', items: [
+{ title: 'GitLab Learn Videos', url: 'https://www.youtube.com/@GitLab', description: 'Official GitLab YouTube channel with tutorials, webinars, and release demos.' },
+]},{ label: 'Practice & Challenges', icon: 'terminal', items: [
+{ title: 'GitLab Sandbox', url: 'https://gitlab.com/-/ide/project/', description: 'Free GitLab.com account with unlimited private repos and CI/CD minutes.' },
+]},{ label: 'Reference & Cheatsheets', icon: 'reference', items: [
+{ title: 'GitLab CI/CD Cheatsheet', url: 'https://docs.gitlab.com/ee/ci/quick_start/', description: 'Quick reference for YAML syntax, job types, and pipeline configuration keywords.' },
+]},{ label: 'News & Updates', icon: 'news', items: [
+{ title: 'GitLab Blog', url: 'https://about.gitlab.com/blog/', description: 'Official blog with release posts, engineering deep dives, and DevOps insights.' },
+]},{ label: 'Community', icon: 'community', items: [
+{ title: 'GitLab Forum', url: 'https://forum.gitlab.com/', description: 'Official community forum for Q&A and feature discussions.' },
+{ title: 'Reddit r/gitlab', url: 'https://www.reddit.com/r/gitlab/', description: 'Community for GitLab discussions, tips, and troubleshooting.' },
+]},],};
+
+// ══ GITHUB ACTIONS ═══════════════════════════════════════════════════
+export const githubactionsResources: LanguageResources = { slug: 'github-actions', name: 'GitHub Actions', description: 'GitHub Actions is the CI/CD and automation platform built into GitHub. It enables you to build, test, and deploy your code directly from GitHub with workflows defined as YAML files.', categories: [
+{ label: 'Free Books', icon: 'book', items: [
+{ title: 'GitHub Actions Docs', url: 'https://docs.github.com/actions', description: 'Comprehensive official documentation covering workflows, events, jobs, runners, and security.' },
+{ title: 'GitHub Actions Tutorials', url: 'https://docs.github.com/en/actions/tutorials', description: 'Step-by-step tutorials for Node.js, Python, Java, Go, and more.' },
+]},{ label: 'Official Documentation', icon: 'docs', items: [
+{ title: 'GitHub Actions Workflow Syntax', url: 'https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions', description: 'Complete YAML syntax reference for all workflow keywords.' },
+{ title: 'Microsoft Learn - GitHub Actions', url: 'https://learn.microsoft.com/en-us/training/modules/introduction-to-github-actions/', description: 'Structured 11-unit learning module for developers and DevOps engineers.' },
+]},{ label: 'Interactive Courses', icon: 'code', items: [
+{ title: 'GitHub Skills - Actions', url: 'https://skills.github.com/', description: 'Free interactive GitHub Skills courses with hands-on exercises in a real repo.' },
+]},{ label: 'Video Courses', icon: 'video', items: [
+{ title: 'GitHub Actions Full Course (YouTube)', url: 'https://www.youtube.com/watch?v=Tz7FsunBbfQ', description: 'Complete video course from beginner to professional certification ready.' },
+]},{ label: 'Practice & Challenges', icon: 'terminal', items: [
+{ title: 'GitHub Free Plan', url: 'https://github.com/features/actions', description: 'Free Actions minutes for public and private repositories.' },
+]},{ label: 'Reference & Cheatsheets', icon: 'reference', items: [
+{ title: 'GitHub Actions Security Cheat Sheet', url: 'https://blog.gitguardian.com/github-actions-security-cheat-sheet/', description: 'Essential security reference covering credential scoping and vulnerability prevention.' },
+]},{ label: 'News & Updates', icon: 'news', items: [
+{ title: 'GitHub Changelog', url: 'https://github.blog/changelog/', description: 'Official changelog with Actions updates, new features, and deprecation notices.' },
+]},{ label: 'Community', icon: 'community', items: [
+{ title: 'GitHub Community Discussions', url: 'https://github.com/orgs/community/discussions', description: 'Official hub for syntax questions, troubleshooting, and sharing patterns.' },
+{ title: 'Reddit r/devops', url: 'https://www.reddit.com/r/devops/', description: 'DevOps community with CI/CD discussions and GitHub Actions tips.' },
+]},],};
+
+// ══ NEOVIM ═══════════════════════════════════════════════════════════
+export const neovimResources: LanguageResources = { slug: 'neovim', name: 'Neovim', description: 'Neovim is a hyper-extensible, modern refactor of Vim. It features asynchronous architecture, built-in LSP client, Tree-sitter syntax engine, and first-class Lua support for creating powerful editor configurations.', categories: [
+{ label: 'Free Books', icon: 'book', items: [
+{ title: 'Neovim Official Docs', url: 'https://neovim.io/doc/', description: 'Canonical reference manual with built-in Lua guide and user manual.' },
+{ title: 'kickstart.nvim', url: 'https://github.com/nvim-lua/kickstart.nvim', description: 'Heavily documented template by core contributor TJ DeVries teaching modern Neovim configuration.' },
+]},{ label: 'Official Documentation', icon: 'docs', items: [
+{ title: 'Neovim News & Roadmap', url: 'https://neovim.io/news/', description: 'Official releases, announcements, and project roadmap updates.' },
+{ title: 'Learn Neovim (Jeff Bailey)', url: 'https://jeffbailey.us/blog/2025/06/07/learn-neovim/', description: 'Exhaustive breakdown of architecture, LSP, Tree-sitter, and commands.' },
+]},{ label: 'Interactive Courses', icon: 'code', items: [
+{ title: 'vimtutor (Built-in)', url: 'https://neovim.io/doc/user/usr_01.html', description: 'Built-in interactive 30-minute tutorial for learning core editor motions.' },
+{ title: 'Vimaroo', url: 'https://vimaroo.com', description: 'Free browser-based gamified training tool for building muscle memory.' },
+]},{ label: 'Video Courses', icon: 'video', items: [
+{ title: 'Neovim for Newbs (YouTube)', url: 'https://www.youtube.com/playlist?list=PLsz00TDipIffreIaUNk64KxTIkQaGguqn', description: 'Comprehensive video course for building a modern Lua configuration from scratch.' },
+]},{ label: 'Practice & Challenges', icon: 'terminal', items: [
+{ title: 'Dotfyle Discovery', url: 'https://dotfyle.com/', description: 'Central hub to search, filter, and analyze trending Neovim plugins and configurations.' },
+]},{ label: 'Reference & Cheatsheets', icon: 'reference', items: [
+{ title: 'Neovim Cheatsheet', url: 'https://github.com/mattmc3/neovim-cheatsheet', description: 'Printable highly organized reference sheet for keybindings and commands.' },
+]},{ label: 'News & Updates', icon: 'news', items: [
+{ title: 'This Week in Neovim', url: 'https://dotfyle.com/this-week-in-neovim', description: 'Premier community-driven weekly newsletter on plugins and core changes.' },
+]},{ label: 'Community', icon: 'community', items: [
+{ title: 'Reddit r/neovim', url: 'https://www.reddit.com/r/neovim/', description: 'Most active forum for configuration questions and plugin discussions.' },
+{ title: 'Neovim GitHub Discussions', url: 'https://github.com/neovim/neovim/discussions', description: 'Direct technical discussions with maintainers and core contributors.' },
+]},],};
 // ─── Registry — all languages with curated resources ────────────────
 
 const RESOURCE_REGISTRY: Record<string, LanguageResources> = {
@@ -3676,6 +3907,16 @@ const RESOURCE_REGISTRY: Record<string, LanguageResources> = {
   mongodb: mongodbResources,
   elasticsearch: elasticsearchResources,
   mysql: mysqlResources,
+  grafana: grafanaResources,
+  prometheus: prometheusResources,
+  kafka: kafkaResources,
+  rabbitmq: rabbitmqResources,
+  airflow: airflowResources,
+  sqlite: sqliteResources,
+  jenkins: jenkinsResources,
+  gitlab: gitlabResources,
+  'github-actions': githubactionsResources,
+  neovim: neovimResources,
 };
 
 export function getLanguageResources(slug: string): LanguageResources | null {

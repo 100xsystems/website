@@ -12,6 +12,7 @@ import {
   SiPurescript, SiSass, SiLess, SiPug, SiJinja, SiNixos, SiDocker, SiKubernetes, SiAnsible, SiLlvm,
   SiReact, SiVuedotjs, SiAngular, SiSvelte, SiNodedotjs, SiExpress, SiFlutter, SiLinux, SiPostgresql, SiRedis,
   SiSpring, SiDjango, SiLaravel, SiNextdotjs, SiTailwindcss, SiBootstrap, SiNginx, SiMongodb, SiElasticsearch, SiMysql,
+  SiGrafana, SiPrometheus, SiApachekafka, SiRabbitmq, SiApacheairflow, SiSqlite, SiJenkins, SiGitlab, SiGithubactions, SiNeovim,
 } from 'react-icons/si';
 import { FaBook, FaFileAlt, FaLaptopCode, FaPlay, FaTerminal, FaSearch, FaNewspaper, FaUsers } from 'react-icons/fa';
 import { getLanguageMeta, getHandcraftedSystems } from '@/lib/mdx';
@@ -111,6 +112,16 @@ const LANG_ICONS: Record<string, React.ReactNode> = {
   mongodb:    <SiMongodb size={28} />,
   elasticsearch: <SiElasticsearch size={28} />,
   mysql:      <SiMysql size={28} />,
+  grafana:    <SiGrafana size={28} />,
+  prometheus: <SiPrometheus size={28} />,
+  kafka:      <SiApachekafka size={28} />,
+  rabbitmq:   <SiRabbitmq size={28} />,
+  airflow:    <SiApacheairflow size={28} />,
+  sqlite:     <SiSqlite size={28} />,
+  jenkins:    <SiJenkins size={28} />,
+  gitlab:     <SiGitlab size={28} />,
+  'github-actions': <SiGithubactions size={28} />,
+  neovim:     <SiNeovim size={28} />,
 };
 
 const LANG_HERO: Record<string, { bg: string; iconBg: string }> = {
@@ -203,6 +214,16 @@ const LANG_HERO: Record<string, { bg: string; iconBg: string }> = {
   mongodb:    { bg: 'bg-[#47A248]', iconBg: 'bg-[#47A248] text-white' },
   elasticsearch: { bg: 'bg-[#005571]', iconBg: 'bg-[#005571] text-white' },
   mysql:      { bg: 'bg-[#4479A1]', iconBg: 'bg-[#4479A1] text-white' },
+  grafana:    { bg: 'bg-[#F46800]', iconBg: 'bg-[#F46800] text-white' },
+  prometheus: { bg: 'bg-[#E6522C]', iconBg: 'bg-[#E6522C] text-white' },
+  kafka:      { bg: 'bg-[#231F20]', iconBg: 'bg-[#231F20] text-white' },
+  rabbitmq:   { bg: 'bg-[#FF6600]', iconBg: 'bg-[#FF6600] text-white' },
+  airflow:    { bg: 'bg-[#017CEE]', iconBg: 'bg-[#017CEE] text-white' },
+  sqlite:     { bg: 'bg-[#003B57]', iconBg: 'bg-[#003B57] text-white' },
+  jenkins:    { bg: 'bg-[#D24939]', iconBg: 'bg-[#D24939] text-white' },
+  gitlab:     { bg: 'bg-[#FC6D26]', iconBg: 'bg-[#FC6D26] text-white' },
+  'github-actions': { bg: 'bg-[#2088FF]', iconBg: 'bg-[#2088FF] text-white' },
+  neovim:     { bg: 'bg-[#57A143]', iconBg: 'bg-[#57A143] text-white' },
 };
 
 const CATEGORY_ICONS: Record<string, React.ReactNode> = {
@@ -245,6 +266,8 @@ const KNOWN_SLUGS = new Set([
   'express', 'flutter', 'linux', 'postgresql', 'redis',
   'spring', 'django', 'laravel', 'nextjs', 'tailwind',
   'bootstrap', 'nginx', 'mongodb', 'elasticsearch', 'mysql',
+  'grafana', 'prometheus', 'kafka', 'rabbitmq', 'airflow',
+  'sqlite', 'jenkins', 'gitlab', 'github-actions', 'neovim',
 ]);
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {

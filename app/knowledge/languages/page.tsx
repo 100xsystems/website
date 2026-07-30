@@ -13,6 +13,7 @@ import {
   SiPurescript, SiSass, SiLess, SiPug, SiJinja, SiNixos, SiDocker, SiKubernetes, SiAnsible, SiLlvm,
   SiReact, SiVuedotjs, SiAngular, SiSvelte, SiNodedotjs, SiExpress, SiFlutter, SiLinux, SiPostgresql, SiRedis,
   SiSpring, SiDjango, SiLaravel, SiNextdotjs, SiTailwindcss, SiBootstrap, SiNginx, SiMongodb, SiElasticsearch, SiMysql,
+  SiGrafana, SiPrometheus, SiApachekafka, SiRabbitmq, SiApacheairflow, SiSqlite, SiJenkins, SiGitlab, SiGithubactions, SiNeovim,
 } from 'react-icons/si';
 
 export const metadata: Metadata = {
@@ -109,6 +110,16 @@ const LANG_ICONS: Record<string, React.ReactNode> = {
   mongodb:    <SiMongodb size={22} />,
   elasticsearch: <SiElasticsearch size={22} />,
   mysql:      <SiMysql size={22} />,
+  grafana:    <SiGrafana size={22} />,
+  prometheus: <SiPrometheus size={22} />,
+  kafka:      <SiApachekafka size={22} />,
+  rabbitmq:   <SiRabbitmq size={22} />,
+  airflow:    <SiApacheairflow size={22} />,
+  sqlite:     <SiSqlite size={22} />,
+  jenkins:    <SiJenkins size={22} />,
+  gitlab:     <SiGitlab size={22} />,
+  'github-actions': <SiGithubactions size={22} />,
+  neovim:     <SiNeovim size={22} />,
 };
 
 const LANG_BG: Record<string, string> = {
@@ -201,6 +212,16 @@ const LANG_BG: Record<string, string> = {
   mongodb:    'bg-[#47A248] text-white',
   elasticsearch: 'bg-[#005571] text-white',
   mysql:      'bg-[#4479A1] text-white',
+  grafana:    'bg-[#F46800] text-white',
+  prometheus: 'bg-[#E6522C] text-white',
+  kafka:      'bg-[#231F20] text-white',
+  rabbitmq:   'bg-[#FF6600] text-white',
+  airflow:    'bg-[#017CEE] text-white',
+  sqlite:     'bg-[#003B57] text-white',
+  jenkins:    'bg-[#D24939] text-white',
+  gitlab:     'bg-[#FC6D26] text-white',
+  'github-actions': 'bg-[#2088FF] text-white',
+  neovim:     'bg-[#57A143] text-white',
 };
 
 const DEFAULT_BG = 'bg-accent text-white';
@@ -239,7 +260,7 @@ export default function LanguagesPage() {
               Programming&nbsp;<span className="text-accent">Languages</span>
             </h1>
             <p className="text-sm text-fg-secondary max-w-xl mx-auto">
-              Curated resource hubs for              89 major programming languages.
+              Curated resource hubs for              99 major programming languages.
               Each hub collects the definitive free resources — books, docs, courses, videos,
               practice, reference, news, and community.
             </p>
