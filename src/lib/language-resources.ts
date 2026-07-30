@@ -2560,6 +2560,398 @@ export const tomlResources: LanguageResources = {
     ]},
   ],
 };
+
+// ═══════════════════════════════════════════════════════════════════════
+// PURESCRIPT
+// ═══════════════════════════════════════════════════════════════════════
+
+export const purescriptResources: LanguageResources = {
+  slug: 'purescript', name: 'PureScript',
+  description: 'PureScript is a strongly-typed, purely functional programming language that compiles to JavaScript. It features algebraic data types, type classes, and a sophisticated type system inspired by Haskell, making it ideal for building reliable web applications.',
+  categories: [
+    { label: 'Free Books', icon: 'book', items: [
+      { title: 'PureScript by Example', url: 'https://book.purescript.org/', description: 'The official free book by language creator Phil Freeman covering everything from basics to advanced functional patterns.' },
+      { title: 'Learn PureScript in Y Minutes', url: 'https://learnxinyminutes.com/purescript/', description: 'A quick single-page syntax and language reference guide.' },
+    ]},
+    { label: 'Official Documentation', icon: 'docs', items: [
+      { title: 'PureScript Official Site', url: 'https://www.purescript.org/', description: 'Central hub with quick start guides, compiler installation, and tool recommendations.' },
+      { title: 'Pursuit Package Database', url: 'https://pursuit.purescript.org/', description: 'Official searchable repository of all PureScript packages and library documentation.' },
+    ]},
+    { label: 'Interactive Courses', icon: 'code', items: [
+      { title: 'Exercism - PureScript Track', url: 'https://exercism.org/tracks/purescript', description: '31 hands-on coding exercises with mentor feedback.' },
+    ]},
+    { label: 'Video Courses', icon: 'video', items: [
+      { title: 'PureScript Community YouTube', url: 'https://www.youtube.com/c/PureScriptCommunity', description: 'Conference talks, walkthroughs, and introductory functional programming content.' },
+      { title: 'LambdaConf PureScript Workshop', url: 'https://www.youtube.com/watch?v=LqYfdmb0eUU', description: 'Workshop recording by Phil Freeman providing intuitive introduction to PureScript.' },
+    ]},
+    { label: 'Practice & Challenges', icon: 'terminal', items: [
+      { title: 'Exercism - PureScript Track', url: 'https://exercism.org/tracks/purescript', description: 'Free structured exercises for learning PureScript.' },
+    ]},
+    { label: 'Reference & Cheatsheets', icon: 'reference', items: [
+      { title: 'PureScript Docs (GitHub)', url: 'https://github.com/purescript/documentation', description: 'Community-maintained documentation and compiler guides.' },
+    ]},
+    { label: 'News & Updates', icon: 'news', items: [
+      { title: 'PureScript Discourse', url: 'https://discourse.purescript.org/', description: 'Community forum for updates, proposals, and announcements.' },
+    ]},
+    { label: 'Community', icon: 'community', items: [
+      { title: 'PureScript Discourse', url: 'https://discourse.purescript.org/', description: 'Primary forum for technical discussions and community announcements.' },
+      { title: 'Reddit r/purescript', url: 'https://www.reddit.com/r/purescript/', description: 'Community for PureScript news and discussions.' },
+    ]},
+  ],
+};
+
+// ═══════════════════════════════════════════════════════════════════════
+// SASS
+// ═══════════════════════════════════════════════════════════════════════
+
+export const sassResources: LanguageResources = {
+  slug: 'sass', name: 'Sass',
+  description: 'Sass (Syntactically Awesome Style Sheets) is a mature, stable CSS extension language that adds variables, nesting, mixins, functions, and modularity to CSS. It is the most popular CSS preprocessor in the world.',
+  categories: [
+    { label: 'Free Books', icon: 'book', items: [
+      { title: 'Sass Guide (Official)', url: 'https://sass-lang.com/guide/', description: 'The official guide covering variables, nesting, partials, modules, mixins, and inheritance.' },
+      { title: 'Sass Basics (CSS-Tricks)', url: 'https://css-tricks.com/sass-guide/', description: 'A comprehensive beginner-friendly guide to Sass from the community experts at CSS-Tricks.' },
+    ]},
+    { label: 'Official Documentation', icon: 'docs', items: [
+      { title: 'Sass Language Docs', url: 'https://sass-lang.com/documentation/', description: 'Complete official documentation covering syntax, at-rules, built-in modules, and configuration.' },
+      { title: 'Sass Playground', url: 'https://www.sassmeister.com/', description: 'Online editor to write Sass and see compiled CSS instantly.' },
+    ]},
+    { label: 'Interactive Courses', icon: 'code', items: [
+      { title: 'freeCodeCamp - Sass Course', url: 'https://www.freecodecamp.org/news/learn-sass-now/', description: 'Free comprehensive Sass tutorial from freeCodeCamp covering all key features.' },
+    ]},
+    { label: 'Video Courses', icon: 'video', items: [
+      { title: 'Sass Full Course (freeCodeCamp)', url: 'https://www.youtube.com/watch?v=_a5j7KbN0qA', description: 'Multi-hour Sass course covering fundamentals through advanced patterns.' },
+      { title: 'Sass Tutorial (The Net Ninja)', url: 'https://www.youtube.com/playlist?list=PL4cUxeGkcC9iGYgmEd2dm3zH0F1D4o1Yb', description: 'Beginner-friendly playlist covering Sass from scratch.' },
+    ]},
+    { label: 'Practice & Challenges', icon: 'terminal', items: [
+      { title: 'SassMeister', url: 'https://www.sassmeister.com/', description: 'Online Sass playground with real-time compilation to CSS.' },
+    ]},
+    { label: 'Reference & Cheatsheets', icon: 'reference', items: [
+      { title: 'Sass Cheatsheet (devhints)', url: 'https://devhints.io/sass', description: 'A concise one-page reference for Sass syntax and features.' },
+    ]},
+    { label: 'News & Updates', icon: 'news', items: [
+      { title: 'Sass Blog', url: 'https://sass-lang.com/blog/', description: 'Official Sass blog with release notes and community updates.' },
+    ]},
+    { label: 'Community', icon: 'community', items: [
+      { title: 'Sass GitHub Discussions', url: 'https://github.com/sass/sass/discussions', description: 'Community discussions on Sass language design.' },
+    ]},
+  ],
+};
+
+// ═══════════════════════════════════════════════════════════════════════
+// LESS
+// ═══════════════════════════════════════════════════════════════════════
+
+export const lessResources: LanguageResources = {
+  slug: 'less', name: 'Less',
+  description: 'Less is a CSS pre-processor that extends CSS with dynamic behavior such as variables, mixins, operations, and functions. It runs on both client and server side, making CSS more maintainable and extensible.',
+  categories: [
+    { label: 'Free Books', icon: 'book', items: [
+      { title: 'Less Documentation (Official)', url: 'https://lesscss.org/', description: 'The official Less documentation with features overview, usage guide, and language reference.' },
+      { title: 'Less CSS Guide (freeCodeCamp)', url: 'https://www.freecodecamp.org/news/less-css-tutorial/', description: 'A beginner-friendly tutorial covering Less CSS variables, mixins, nesting, and operations.' },
+    ]},
+    { label: 'Official Documentation', icon: 'docs', items: [
+      { title: 'Less CSS Docs', url: 'https://lesscss.org/features/', description: 'Complete official features documentation covering all Less language constructs.' },
+      { title: 'Less Functions Reference', url: 'https://lesscss.org/functions/', description: 'Complete reference of all built-in Less functions for colors, math, strings, and more.' },
+    ]},
+    { label: 'Interactive Courses', icon: 'code', items: [
+      { title: 'Less CSS Tutorial (TutorialsPoint)', url: 'https://www.tutorialspoint.com/less/index.htm', description: 'Free interactive Less CSS tutorial with hands-on examples.' },
+    ]},
+    { label: 'Video Courses', icon: 'video', items: [
+      { title: 'Less CSS Tutorial (YouTube)', url: 'https://www.youtube.com/results?search_query=less+css+tutorial', description: 'Free video tutorials covering Less CSS from basics to advanced patterns.' },
+    ]},
+    { label: 'Practice & Challenges', icon: 'terminal', items: [
+      { title: 'Less2CSS Playground', url: 'https://lesscss.org/less-preview/', description: 'Official Less preview editor to test Less code in the browser.' },
+    ]},
+    { label: 'Reference & Cheatsheets', icon: 'reference', items: [
+      { title: 'Less Cheatsheet', url: 'https://devhints.io/less', description: 'A concise one-page reference for Less CSS syntax.' },
+    ]},
+    { label: 'News & Updates', icon: 'news', items: [
+      { title: 'Less GitHub Releases', url: 'https://github.com/less/less.js/releases', description: 'Less.js release notes and changelog.' },
+    ]},
+    { label: 'Community', icon: 'community', items: [
+      { title: 'Less GitHub', url: 'https://github.com/less/less.js', description: 'Official Less.js repository for issues and discussions.' },
+      { title: 'Stack Overflow - Less Tag', url: 'https://stackoverflow.com/questions/tagged/less', description: 'Q&A for Less CSS questions.' },
+    ]},
+  ],
+};
+
+// ═══════════════════════════════════════════════════════════════════════
+// PUG
+// ═══════════════════════════════════════════════════════════════════════
+
+export const pugResources: LanguageResources = {
+  slug: 'pug', name: 'Pug',
+  description: 'Pug is a high-performance template engine heavily influenced by Haml, implemented in JavaScript for Node.js and browsers. Its clean, whitespace-sensitive syntax dramatically reduces HTML boilerplate and supports powerful features like mixins, includes, and template inheritance.',
+  categories: [
+    { label: 'Free Books', icon: 'book', items: [
+      { title: 'Official Pug Documentation', url: 'https://pugjs.org/', description: 'The primary source for syntax, language features, and runtime API documentation.' },
+      { title: 'Getting Started with Pug', url: 'https://pugjs.org/api/getting-started.html', description: 'Official getting started guide covering installation and compilation.' },
+    ]},
+    { label: 'Official Documentation', icon: 'docs', items: [
+      { title: 'Pug Tags Reference', url: 'https://pugjs.org/language/tags.html', description: 'Complete reference for Pug tags, indentation, block expansion, and self-closing elements.' },
+      { title: 'Pug Attributes & Code', url: 'https://pugjs.org/language/attributes.html', description: 'Reference for attributes, JavaScript expressions, and class literals.' },
+    ]},
+    { label: 'Interactive Courses', icon: 'code', items: [
+      { title: 'CodePen (Pug Mode)', url: 'https://codepen.io/', description: 'Interactive playground with Pug as the HTML preprocessor for testing templates.' },
+    ]},
+    { label: 'Video Courses', icon: 'video', items: [
+      { title: 'Pug Template Engine Tutorial (freeCodeCamp)', url: 'https://www.youtube.com/watch?v=kt3cEjjkCZA', description: 'Comprehensive beginner course covering Express integration, templates, and mixins.' },
+    ]},
+    { label: 'Practice & Challenges', icon: 'terminal', items: [
+      { title: 'HTML to Pug Converter', url: 'https://html-to-pug.com/', description: 'Online converter to understand how HTML translates to Pug syntax.' },
+    ]},
+    { label: 'Reference & Cheatsheets', icon: 'reference', items: [
+      { title: 'Pug Cheatsheet (Devhints)', url: 'https://devhints.io/pug', description: 'Ultra-concise one-page reference for Pug syntax, attributes, and mixins.' },
+    ]},
+    { label: 'News & Updates', icon: 'news', items: [
+      { title: 'Pug GitHub', url: 'https://github.com/pugjs/pug', description: 'Official repository tracking bug fixes, features, and releases.' },
+    ]},
+    { label: 'Community', icon: 'community', items: [
+      { title: 'Pug GitHub Discussions', url: 'https://github.com/pugjs/pug/discussions', description: 'Community forum for troubleshooting and feature discussions.' },
+      { title: 'Stack Overflow - Pug Tag', url: 'https://stackoverflow.com/questions/tagged/pug', description: 'Q&A for Pug template engine questions.' },
+    ]},
+  ],
+};
+
+// ═══════════════════════════════════════════════════════════════════════
+// JINJA
+// ═══════════════════════════════════════════════════════════════════════
+
+export const jinjaResources: LanguageResources = {
+  slug: 'jinja', name: 'Jinja',
+  description: 'Jinja is a modern, designer-friendly templating language for Python, inspired by Django templates. It is the standard for Flask web development, Ansible automation, and widely used for configuration generation and documentation.',
+  categories: [
+    { label: 'Free Books', icon: 'book', items: [
+      { title: 'Jinja Official Documentation', url: 'https://jinja.palletsprojects.com/', description: 'The central hub for Jinja with template designer docs, API reference, and FAQ.' },
+      { title: 'Primer on Jinja Templating (Real Python)', url: 'https://realpython.com/primer-on-jinja-templating/', description: 'Extensive step-by-step tutorial covering standalone usage, loops, and Flask integration.' },
+    ]},
+    { label: 'Official Documentation', icon: 'docs', items: [
+      { title: 'Jinja Template Designer Docs', url: 'https://jinja.palletsprojects.com/en/stable/templates/', description: 'Definitive syntax reference covering control structures, filters, and inheritance.' },
+      { title: 'Jinja API Reference', url: 'https://jinja.palletsprojects.com/en/stable/api/', description: 'For developers embedding Jinja into Python applications.' },
+    ]},
+    { label: 'Interactive Courses', icon: 'code', items: [
+      { title: 'Real Python Jinja Video Course', url: 'https://realpython.com/courses/jinja-templating/', description: '11-lesson, 1-hour video course covering template basics, tags, and inheritance.' },
+    ]},
+    { label: 'Video Courses', icon: 'video', items: [
+      { title: 'Jinja Templating Intro (YouTube)', url: 'https://www.youtube.com/watch?v=OraYXEr0Irg', description: 'Popular video walkthrough demonstrating Jinja text processing and web routing.' },
+    ]},
+    { label: 'Practice & Challenges', icon: 'terminal', items: [
+      { title: 'Codecademy Learn Flask: Jinja2', url: 'https://www.codecademy.com/learn/learn-flask-jinja2-templates-and-forms', description: 'Hands-on Flask + Jinja2 course with guided project.' },
+    ]},
+    { label: 'Reference & Cheatsheets', icon: 'reference', items: [
+      { title: 'Jinja Cheatsheet (Devhints)', url: 'https://devhints.io/jinja', description: 'Fast one-page reference for Jinja syntax, filters, and template tags.' },
+      { title: 'Jinja2 Cheat Sheet (OpenSource)', url: 'https://opensource.com/downloads/jinja2-cheat-sheet', description: 'Downloadable PDF reference for common Jinja operations.' },
+    ]},
+    { label: 'News & Updates', icon: 'news', items: [
+      { title: 'Pallets Project Blog', url: 'https://palletsprojects.com/blog/', description: 'Jinja and Pallets ecosystem release announcements.' },
+    ]},
+    { label: 'Community', icon: 'community', items: [
+      { title: 'Reddit r/learnpython', url: 'https://www.reddit.com/r/learnpython/', description: 'Community for Jinja and Python templating questions.' },
+    ]},
+  ],
+};
+
+// ═══════════════════════════════════════════════════════════════════════
+// NIX
+// ═══════════════════════════════════════════════════════════════════════
+
+export const nixResources: LanguageResources = {
+  slug: 'nix', name: 'Nix',
+  description: 'Nix is a purely functional package management language that powers NixOS and the Nix package manager. It enables reproducible builds, declarative system configuration, and portable development environments.',
+  categories: [
+    { label: 'Free Books', icon: 'book', items: [
+      { title: 'Nix Pills', url: 'https://nixos.org/guides/nix-pills/', description: 'The definitive step-by-step tutorial series teaching Nix from the ground up.' },
+      { title: 'nix.dev', url: 'https://nix.dev/', description: 'Official Nix documentation hub with tutorials, guides, and best practices.' },
+      { title: 'NixOS Manual', url: 'https://nixos.org/manual/nixos/stable/', description: 'Official NixOS manual covering installation, configuration, and package management.' },
+    ]},
+    { label: 'Official Documentation', icon: 'docs', items: [
+      { title: 'Nix Reference Manual', url: 'https://nixos.org/manual/nix/stable/', description: 'Complete reference manual for the Nix package manager and language.' },
+      { title: 'Nixpkgs Manual', url: 'https://nixos.org/manual/nixpkgs/stable/', description: 'Reference for using and contributing to the Nixpkgs collection.' },
+      { title: 'Nix Language Tour', url: 'https://nix.dev/tutorials/nix-language/', description: 'Interactive tour of the Nix expression language.' },
+    ]},
+    { label: 'Interactive Courses', icon: 'code', items: [
+      { title: 'Zero to Nix', url: 'https://zero-to-nix.com/', description: 'Interactive guide to learning Nix from absolute beginner to productive user.' },
+    ]},
+    { label: 'Video Courses', icon: 'video', items: [
+      { title: 'Nix Tutorials (YouTube)', url: 'https://www.youtube.com/results?search_query=nix+package+manager+tutorial', description: 'Community video tutorials covering Nix language, flakes, and NixOS configuration.' },
+    ]},
+    { label: 'Practice & Challenges', icon: 'terminal', items: [
+      { title: 'Nix Playground', url: 'https://nix-playground.com/', description: 'Online Nix expression playground for testing and experimentation.' },
+    ]},
+    { label: 'Reference & Cheatsheets', icon: 'reference', items: [
+      { title: 'Nix Cheatsheet', url: 'https://nixos.wiki/wiki/Cheatsheet', description: 'NixOS wiki cheatsheet for Nix commands and expressions.' },
+    ]},
+    { label: 'News & Updates', icon: 'news', items: [
+      { title: 'NixOS Weekly', url: 'https://weekly.nixos.org/', description: 'Weekly newsletter tracking Nix ecosystem updates and community news.' },
+    ]},
+    { label: 'Community', icon: 'community', items: [
+      { title: 'Reddit r/NixOS', url: 'https://www.reddit.com/r/NixOS/', description: 'Large community for NixOS and Nix discussions.' },
+      { title: 'NixOS Discourse', url: 'https://discourse.nixos.org/', description: 'Official community forum for support and technical discussions.' },
+    ]},
+  ],
+};
+
+// ═══════════════════════════════════════════════════════════════════════
+// DOCKER
+// ═══════════════════════════════════════════════════════════════════════
+
+export const dockerResources: LanguageResources = {
+  slug: 'docker', name: 'Docker',
+  description: 'Docker is the industry standard for containerized application development. It enables developers to package applications with all dependencies into standardized units for seamless deployment across any environment.',
+  categories: [
+    { label: 'Free Books', icon: 'book', items: [
+      { title: 'Docker Developer Guide', url: 'https://docs.docker.com/guides/', description: 'Official Docker developer guides covering containerization from basics to production.' },
+      { title: 'Docker Curriculum', url: 'https://docker-curriculum.com/', description: 'A free comprehensive tutorial teaching Docker fundamentals through practical examples.' },
+    ]},
+    { label: 'Official Documentation', icon: 'docs', items: [
+      { title: 'Docker Docs', url: 'https://docs.docker.com/', description: 'Complete official documentation covering CLI, compose, Dockerfile, and deployment.' },
+      { title: 'Dockerfile Reference', url: 'https://docs.docker.com/reference/dockerfile/', description: 'Complete Dockerfile instruction reference with best practices.' },
+      { title: 'Docker Compose Reference', url: 'https://docs.docker.com/compose/compose-file/', description: 'Complete Compose file specification for multi-container applications.' },
+    ]},
+    { label: 'Interactive Courses', icon: 'code', items: [
+      { title: 'Play with Docker', url: 'https://labs.play-with-docker.com/', description: 'Free interactive browser-based Docker playground with pre-configured environments.' },
+    ]},
+    { label: 'Video Courses', icon: 'video', items: [
+      { title: 'Docker Course for Beginners (freeCodeCamp)', url: 'https://www.youtube.com/watch?v=fqMOX6JJhGo', description: 'Comprehensive multi-hour Docker course covering containers, images, and Docker Compose.' },
+      { title: 'Docker Tutorial (TechWorld with Nana)', url: 'https://www.youtube.com/watch?v=3c-iBn73dDE', description: 'Popular Docker crash course for beginners covering all essential concepts.' },
+    ]},
+    { label: 'Practice & Challenges', icon: 'terminal', items: [
+      { title: 'Docker Playground', url: 'https://labs.play-with-docker.com/', description: 'Free Docker environment in the browser for hands-on practice.' },
+    ]},
+    { label: 'Reference & Cheatsheets', icon: 'reference', items: [
+      { title: 'Docker Cheatsheet (devhints)', url: 'https://devhints.io/docker', description: 'A concise one-page reference for Docker CLI commands and Dockerfile syntax.' },
+    ]},
+    { label: 'News & Updates', icon: 'news', items: [
+      { title: 'Docker Blog', url: 'https://www.docker.com/blog/', description: 'Official Docker blog with product updates, best practices, and community stories.' },
+    ]},
+    { label: 'Community', icon: 'community', items: [
+      { title: 'Docker Community Forums', url: 'https://forums.docker.com/', description: 'Official Docker community discussion forum.' },
+      { title: 'Stack Overflow - Docker Tag', url: 'https://stackoverflow.com/questions/tagged/docker', description: 'Q&A for Docker troubleshooting and best practices.' },
+    ]},
+  ],
+};
+
+// ═══════════════════════════════════════════════════════════════════════
+// KUBERNETES
+// ═══════════════════════════════════════════════════════════════════════
+
+export const kubernetesResources: LanguageResources = {
+  slug: 'kubernetes', name: 'Kubernetes',
+  description: 'Kubernetes (K8s) is the industry standard for container orchestration, automating deployment, scaling, and management of containerized applications across clusters. It is the backbone of modern cloud-native infrastructure.',
+  categories: [
+    { label: 'Free Books', icon: 'book', items: [
+      { title: 'Official Kubernetes Docs', url: 'https://kubernetes.io/docs/home/', description: 'The primary reference manual for concepts, tutorials, tasks, and API references.' },
+      { title: 'Kubernetes: Up & Running (Free Chapters)', url: 'https://github.com/piyush1146115/Kubernetes-Up-and-Running', description: 'Free companion code and excerpts from the O\'Reilly book by Burns, Beda, and Hightower.' },
+    ]},
+    { label: 'Official Documentation', icon: 'docs', items: [
+      { title: 'Kubernetes Concepts', url: 'https://kubernetes.io/docs/concepts/', description: 'Core concepts: pods, services, deployments, configmaps, and volumes.' },
+      { title: 'Kubernetes Tasks', url: 'https://kubernetes.io/docs/tasks/', description: 'Step-by-step guides for common Kubernetes operations and administration.' },
+      { title: 'kubectl Quick Reference', url: 'https://kubernetes.io/docs/reference/kubectl/quick-reference/', description: 'Official kubectl command index with verbs, flags, and shorthand aliases.' },
+    ]},
+    { label: 'Interactive Courses', icon: 'code', items: [
+      { title: 'Kubernetes Basics Tutorial', url: 'https://kubernetes.io/docs/tutorials/kubernetes-basics/', description: 'Official browser-based interactive kubernetes basic tutorials.' },
+      { title: 'Play with Kubernetes', url: 'https://labs.play-with-k8s.com/', description: 'Free browser-based playground to spin up multi-node Kubernetes clusters.' },
+    ]},
+    { label: 'Video Courses', icon: 'video', items: [
+      { title: 'Complete Kubernetes Course (YouTube)', url: 'https://www.youtube.com/watch?v=2T86xAtR6Fo', description: 'Comprehensive free Kubernetes course for beginners.' },
+      { title: 'CNCF YouTube Channel', url: 'https://www.youtube.com/@cncf', description: 'KubeCon talks, Cloud Native Live sessions, and architectural explainers.' },
+    ]},
+    { label: 'Practice & Challenges', icon: 'terminal', items: [
+      { title: 'Killercoda K8s Scenarios', url: 'https://killercoda.com/playgrounds/scenario/kubernetes', description: 'Free browser-based K8s scenarios and sandboxes for exam-aligned practice.' },
+    ]},
+    { label: 'Reference & Cheatsheets', icon: 'reference', items: [
+      { title: 'kubectl Cheat Sheet', url: 'https://kubernetes.io/docs/reference/kubectl/cheatsheet/', description: 'Official kubectl cheatsheet with common commands and examples.' },
+    ]},
+    { label: 'News & Updates', icon: 'news', items: [
+      { title: 'Kubernetes Podcast', url: 'https://kubernetespodcast.com/', description: 'Weekly interview and news program from the Google K8s team.' },
+      { title: 'CNCF Blog', url: 'https://www.cncf.io/blog/', description: 'Cloud Native Computing Foundation updates and ecosystem news.' },
+    ]},
+    { label: 'Community', icon: 'community', items: [
+      { title: 'Reddit r/kubernetes', url: 'https://www.reddit.com/r/kubernetes/', description: 'The premier discussion hub for architecture debates and troubleshooting.' },
+      { title: 'K8s Community Hub', url: 'https://kubernetes.io/community/', description: 'Official community resources including Slack, meetups, and KCDs.' },
+    ]},
+  ],
+};
+
+// ═══════════════════════════════════════════════════════════════════════
+// ANSIBLE
+// ═══════════════════════════════════════════════════════════════════════
+
+export const ansibleResources: LanguageResources = {
+  slug: 'ansible', name: 'Ansible',
+  description: 'Ansible is a radically simple IT automation engine that automates cloud provisioning, configuration management, application deployment, and task automation. It uses a simple YAML-based language that is human-readable.',
+  categories: [
+    { label: 'Free Books', icon: 'book', items: [
+      { title: 'Ansible Community Documentation', url: 'https://docs.ansible.com/projects/ansible/latest/index.html', description: 'Official Ansible docs with syntax, architecture, and comprehensive guides.' },
+      { title: 'Ansible: Up & Running (Code Samples)', url: 'https://github.com/ansiblebook/ansiblebook', description: 'Free companion code and configuration samples from the O\'Reilly book.' },
+    ]},
+    { label: 'Official Documentation', icon: 'docs', items: [
+      { title: 'Ansible Collection Index', url: 'https://docs.ansible.com/projects/ansible/latest/collections/index.html', description: 'Complete index of all core modules, plugins, and command references.' },
+      { title: 'Ansible Playbook Docs', url: 'https://docs.ansible.com/projects/ansible/latest/playbook_guide/playbooks_intro.html', description: 'Official playbook guide covering variables, roles, and templating.' },
+    ]},
+    { label: 'Interactive Courses', icon: 'code', items: [
+      { title: 'Ansible Workshops (Red Hat)', url: 'https://github.com/ansible/workshops', description: 'Complete curriculum with structured scenarios covering infrastructure and cloud.' },
+      { title: 'Red Hat DO007 Free Course', url: 'https://www.redhat.com/en/blog/new-free-ansible-course', description: 'Official Red Hat free Ansible Automation Platform introduction course.' },
+    ]},
+    { label: 'Video Courses', icon: 'video', items: [
+      { title: 'Ansible Full Course (YouTube)', url: 'https://www.youtube.com/results?search_query=ansible+full+course', description: 'Zero-to-hero video series covering playbooks, inventory, and automation.' },
+    ]},
+    { label: 'Practice & Challenges', icon: 'terminal', items: [
+      { title: 'Red Hat Interactive Labs', url: 'https://www.redhat.com/en/blog/new-free-ansible-course', description: 'Free self-paced interactive environments for testing Ansible playbooks.' },
+    ]},
+    { label: 'Reference & Cheatsheets', icon: 'reference', items: [
+      { title: 'Ansible CLI Cheatsheet', url: 'https://docs.ansible.com/projects/ansible/latest/command_guide/cheatsheet.html', description: 'Official Ansible CLI cheatsheet for quick syntax lookups.' },
+      { title: 'Ansible Cheat Sheet (Spacelift)', url: 'https://spacelift.io/blog/ansible-cheat-sheet', description: 'Comprehensive reference for ad-hoc commands, playbooks, and roles.' },
+    ]},
+    { label: 'News & Updates', icon: 'news', items: [
+      { title: 'The Bullhorn Newsletter', url: 'https://forum.ansible.com/', description: 'Official weekly Ansible community newsletter.' },
+    ]},
+    { label: 'Community', icon: 'community', items: [
+      { title: 'Ansible Community Forum', url: 'https://forum.ansible.com/', description: 'Main hub for troubleshooting, discussions, and project announcements.' },
+      { title: 'Reddit r/ansible', url: 'https://www.reddit.com/r/ansible/', description: 'Active community for peer troubleshooting and real-world advice.' },
+    ]},
+  ],
+};
+
+// ═══════════════════════════════════════════════════════════════════════
+// LLVM
+// ═══════════════════════════════════════════════════════════════════════
+
+export const llvmResources: LanguageResources = {
+  slug: 'llvm', name: 'LLVM',
+  description: 'LLVM is a collection of modular and reusable compiler and toolchain technologies. It provides the intermediate representation (LLVM IR) and backend infrastructure used by Clang, Rust, Swift, and many other compilers.',
+  categories: [
+    { label: 'Free Books', icon: 'book', items: [
+      { title: 'Official LLVM Tutorial: Kaleidoscope', url: 'https://llvm.org/docs/tutorial/', description: 'Step-by-step tutorial building a complete language frontend with LLVM API.' },
+      { title: 'LLVM Guide (GitHub)', url: 'https://github.com/mikeroyal/LLVM-Guide', description: 'Curated community resource cataloging tools and applications for LLVM development.' },
+    ]},
+    { label: 'Official Documentation', icon: 'docs', items: [
+      { title: 'Getting Started with LLVM', url: 'https://llvm.org/docs/GettingStarted.html', description: 'Covers checking out sources, requirements, and building LLVM from scratch.' },
+      { title: 'LLVM Language Reference Manual', url: 'https://llvm.org/docs/LangRef.html', description: 'The ultimate specification for LLVM IR: instruction set, types, and semantics.' },
+      { title: 'LLVM Programmer\'s Manual', url: 'https://llvm.org/docs/ProgrammersManual.html', description: 'Crucial classes, patterns, and interfaces in the LLVM source base.' },
+    ]},
+    { label: 'Interactive Courses', icon: 'code', items: [
+      { title: 'Compiler Explorer (Godbolt)', url: 'https://godbolt.org/', description: 'Industry-standard platform to compile C/C++/Rust into LLVM IR side-by-side.' },
+    ]},
+    { label: 'Video Courses', icon: 'video', items: [
+      { title: 'Official LLVM YouTube Channel', url: 'https://www.youtube.com/@LLVMPROJ', description: 'Deep-dive engineering talks from LLVM Developers\' Meetings.' },
+    ]},
+    { label: 'Practice & Challenges', icon: 'terminal', items: [
+      { title: 'Alive2 Compiler Explorer', url: 'https://alive2.llvm.org/ce/', description: 'Interactive verification environment for LLVM IR optimizations.' },
+    ]},
+    { label: 'Reference & Cheatsheets', icon: 'reference', items: [
+      { title: 'LLVM IR Quick Reference', url: 'https://simplifycpp.org/books/Assembly/LLVM_IR_Quick_Reference.pdf', description: 'Condensed reference for LLVM IR syntax, assembly, and intrinsics.' },
+    ]},
+    { label: 'News & Updates', icon: 'news', items: [
+      { title: 'LLVM Weekly', url: 'https://llvmweekly.org/', description: 'Weekly newsletter summarizing code commits, RFCs, and release notes.' },
+    ]},
+    { label: 'Community', icon: 'community', items: [
+      { title: 'LLVM Discourse Forum', url: 'https://discourse.llvm.org/', description: 'Official home for community support, RFCs, and design discussions.' },
+      { title: 'Reddit r/LLVM', url: 'https://www.reddit.com/r/LLVM/', description: 'Active community for compiler development questions and projects.' },
+    ]},
+  ],
+};
 // ─── Registry — all languages with curated resources ────────────────
 
 const RESOURCE_REGISTRY: Record<string, LanguageResources> = {
@@ -2622,6 +3014,16 @@ const RESOURCE_REGISTRY: Record<string, LanguageResources> = {
   autohotkey: ahkResources,
   json: jsonResources,
   toml: tomlResources,
+  purescript: purescriptResources,
+  sass: sassResources,
+  less: lessResources,
+  pug: pugResources,
+  jinja: jinjaResources,
+  nix: nixResources,
+  docker: dockerResources,
+  kubernetes: kubernetesResources,
+  ansible: ansibleResources,
+  llvm: llvmResources,
 };
 
 export function getLanguageResources(slug: string): LanguageResources | null {

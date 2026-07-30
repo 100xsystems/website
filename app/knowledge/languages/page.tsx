@@ -10,6 +10,7 @@ import {
   SiOcaml, SiFsharp, SiCrystal, SiNim, SiZig, SiV, SiD, SiRacket,
   SiElm, SiGraphql, SiGleam, SiSolidity, SiWebassembly, SiAda, SiHaxe, SiTerraform, SiMarkdown,
   SiLatex, SiCommonlisp, SiProcessingfoundation, SiScratch, SiWolframlanguage, SiGodotengine, SiLabview, SiAutohotkey, SiJson, SiToml,
+  SiPurescript, SiSass, SiLess, SiPug, SiJinja, SiNixos, SiDocker, SiKubernetes, SiAnsible, SiLlvm,
 } from 'react-icons/si';
 
 export const metadata: Metadata = {
@@ -76,6 +77,16 @@ const LANG_ICONS: Record<string, React.ReactNode> = {
   autohotkey: <SiAutohotkey size={22} />,
   json:       <SiJson size={22} />,
   toml:       <SiToml size={22} />,
+  purescript: <SiPurescript size={22} />,
+  sass:       <SiSass size={22} />,
+  less:       <SiLess size={22} />,
+  pug:        <SiPug size={22} />,
+  jinja:      <SiJinja size={22} />,
+  nix:        <SiNixos size={22} />,
+  docker:     <SiDocker size={22} />,
+  kubernetes: <SiKubernetes size={22} />,
+  ansible:    <SiAnsible size={22} />,
+  llvm:       <SiLlvm size={22} />,
 };
 
 const LANG_BG: Record<string, string> = {
@@ -138,6 +149,16 @@ const LANG_BG: Record<string, string> = {
   autohotkey: 'bg-[#334455] text-white',
   json:       'bg-[#000000] text-white',
   toml:       'bg-[#9C4221] text-white',
+  purescript: 'bg-[#333333] text-white',
+  sass:       'bg-[#CC6699] text-white',
+  less:       'bg-[#1D365D] text-white',
+  pug:        'bg-[#A86454] text-white',
+  jinja:      'bg-[#B41717] text-white',
+  nix:        'bg-[#5277C3] text-white',
+  docker:     'bg-[#2496ED] text-white',
+  kubernetes: 'bg-[#326CE5] text-white',
+  ansible:    'bg-[#EE0000] text-white',
+  llvm:       'bg-[#4E8CAB] text-white',
 };
 
 const DEFAULT_BG = 'bg-accent text-white';
@@ -176,7 +197,7 @@ export default function LanguagesPage() {
               Programming&nbsp;<span className="text-accent">Languages</span>
             </h1>
             <p className="text-sm text-fg-secondary max-w-xl mx-auto">
-              Curated resource hubs for              59 major programming languages.
+              Curated resource hubs for              69 major programming languages.
               Each hub collects the definitive free resources — books, docs, courses, videos,
               practice, reference, news, and community.
             </p>

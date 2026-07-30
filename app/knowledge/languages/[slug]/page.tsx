@@ -9,6 +9,7 @@ import {
   SiOcaml, SiFsharp, SiCrystal, SiNim, SiZig, SiV, SiD, SiRacket,
   SiElm, SiGraphql, SiGleam, SiSolidity, SiWebassembly, SiAda, SiHaxe, SiTerraform, SiMarkdown,
   SiLatex, SiCommonlisp, SiProcessingfoundation, SiScratch, SiWolframlanguage, SiGodotengine, SiLabview, SiAutohotkey, SiJson, SiToml,
+  SiPurescript, SiSass, SiLess, SiPug, SiJinja, SiNixos, SiDocker, SiKubernetes, SiAnsible, SiLlvm,
 } from 'react-icons/si';
 import { FaBook, FaFileAlt, FaLaptopCode, FaPlay, FaTerminal, FaSearch, FaNewspaper, FaUsers } from 'react-icons/fa';
 import { getLanguageMeta, getHandcraftedSystems } from '@/lib/mdx';
@@ -78,6 +79,16 @@ const LANG_ICONS: Record<string, React.ReactNode> = {
   autohotkey: <SiAutohotkey size={28} />,
   json:       <SiJson size={28} />,
   toml:       <SiToml size={28} />,
+  purescript: <SiPurescript size={28} />,
+  sass:       <SiSass size={28} />,
+  less:       <SiLess size={28} />,
+  pug:        <SiPug size={28} />,
+  jinja:      <SiJinja size={28} />,
+  nix:        <SiNixos size={28} />,
+  docker:     <SiDocker size={28} />,
+  kubernetes: <SiKubernetes size={28} />,
+  ansible:    <SiAnsible size={28} />,
+  llvm:       <SiLlvm size={28} />,
 };
 
 const LANG_HERO: Record<string, { bg: string; iconBg: string }> = {
@@ -140,6 +151,16 @@ const LANG_HERO: Record<string, { bg: string; iconBg: string }> = {
   autohotkey: { bg: 'bg-[#334455]', iconBg: 'bg-[#334455] text-white' },
   json:       { bg: 'bg-[#000000]', iconBg: 'bg-[#000000] text-white' },
   toml:       { bg: 'bg-[#9C4221]', iconBg: 'bg-[#9C4221] text-white' },
+  purescript: { bg: 'bg-[#333333]', iconBg: 'bg-[#333333] text-white' },
+  sass:       { bg: 'bg-[#CC6699]', iconBg: 'bg-[#CC6699] text-white' },
+  less:       { bg: 'bg-[#1D365D]', iconBg: 'bg-[#1D365D] text-white' },
+  pug:        { bg: 'bg-[#A86454]', iconBg: 'bg-[#A86454] text-white' },
+  jinja:      { bg: 'bg-[#B41717]', iconBg: 'bg-[#B41717] text-white' },
+  nix:        { bg: 'bg-[#5277C3]', iconBg: 'bg-[#5277C3] text-white' },
+  docker:     { bg: 'bg-[#2496ED]', iconBg: 'bg-[#2496ED] text-white' },
+  kubernetes: { bg: 'bg-[#326CE5]', iconBg: 'bg-[#326CE5] text-white' },
+  ansible:    { bg: 'bg-[#EE0000]', iconBg: 'bg-[#EE0000] text-white' },
+  llvm:       { bg: 'bg-[#4E8CAB]', iconBg: 'bg-[#4E8CAB] text-white' },
 };
 
 const CATEGORY_ICONS: Record<string, React.ReactNode> = {
@@ -176,6 +197,8 @@ const KNOWN_SLUGS = new Set([
   'ada', 'haxe', 'terraform', 'markdown',
   'latex', 'common-lisp', 'processing', 'scratch', 'wolfram-language',
   'gdscript', 'labview', 'autohotkey', 'json', 'toml',
+  'purescript', 'sass', 'less', 'pug', 'jinja',
+  'nix', 'docker', 'kubernetes', 'ansible', 'llvm',
 ]);
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
