@@ -16,6 +16,7 @@ import {
   SiGrafana, SiPrometheus, SiApachekafka, SiRabbitmq, SiApacheairflow, SiSqlite, SiJenkins, SiGitlab, SiGithubactions, SiNeovim,
   SiAstro,
   SiBun, SiDeno, SiNestjs, SiRemix, SiFastify, SiHono, SiSelenium, SiCypress, SiVitest, SiJest,
+  SiVite, SiPrisma, SiSocketdotio, SiThreedotjs, SiChartdotjs, SiEslint, SiPrettier, SiWebpack, SiElectron, SiExpo,
 } from 'react-icons/si';
 
 export const metadata: Metadata = {
@@ -133,6 +134,16 @@ const LANG_ICONS: Record<string, React.ReactNode> = {
   cypress:    <SiCypress size={22} />,
   vitest:     <SiVitest size={22} />,
   jest:       <SiJest size={22} />,
+  vite:       <SiVite size={22} />,
+  prisma:     <SiPrisma size={22} />,
+  socketio:   <SiSocketdotio size={22} />,
+  threejs:    <SiThreedotjs size={22} />,
+  chartjs:    <SiChartdotjs size={22} />,
+  eslint:     <SiEslint size={22} />,
+  prettier:   <SiPrettier size={22} />,
+  webpack:    <SiWebpack size={22} />,
+  electron:   <SiElectron size={22} />,
+  expo:       <SiExpo size={22} />,
 };
 
 const LANG_BG: Record<string, string> = {
@@ -246,6 +257,16 @@ const LANG_BG: Record<string, string> = {
   cypress:    'bg-[#17202C] text-white',
   vitest:     'bg-[#6E9F18] text-white',
   jest:       'bg-[#C21325] text-white',
+  vite:       'bg-[#646CFF] text-white',
+  prisma:     'bg-[#2D3748] text-white',
+  socketio:   'bg-[#010101] text-white',
+  threejs:    'bg-[#000000] text-white',
+  chartjs:    'bg-[#FF6384] text-white',
+  eslint:     'bg-[#4B32C3] text-white',
+  prettier:   'bg-[#F7B93E] text-black',
+  webpack:    'bg-[#8DD6F9] text-black',
+  electron:   'bg-[#47848F] text-white',
+  expo:       'bg-[#000020] text-white',
 };
 
 const DEFAULT_BG = 'bg-accent text-white';
@@ -284,7 +305,7 @@ export default function LanguagesPage() {
               Programming&nbsp;<span className="text-accent">Languages</span>
             </h1>
             <p className="text-sm text-fg-secondary max-w-xl mx-auto">
-              Curated resource hubs for              110 major programming languages.
+              Curated resource hubs for              120 major programming languages.
               Each hub collects the definitive free resources — books, docs, courses, videos,
               practice, reference, news, and community.
             </p>

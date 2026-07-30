@@ -4070,6 +4070,236 @@ export const jestResources: LanguageResources = { slug: 'jest', name: 'Jest', de
 { title: 'Jest Discord', url: 'https://discord.gg/jest', description: 'Official Jest community on Discord.' },
 { title: 'Reddit r/javascript', url: 'https://www.reddit.com/r/javascript/', description: 'JavaScript community with Jest discussions.' },
 ]},],};
+
+// ══ VITE ═════════════════════════════════════════════════════════════
+export const viteResources: LanguageResources = { slug: 'vite', name: 'Vite', description: 'Vite is a modern build tool that provides an extremely fast development server with native ES module imports and optimized production builds using Rollup. It is the default build tool for Vue, React, Svelte, and many other frameworks.', categories: [
+{ label: 'Free Books', icon: 'book', items: [
+{ title: 'Vite Documentation', url: 'https://vite.dev/guide/', description: 'Comprehensive official documentation covering setup, configuration, and features.' },
+{ title: 'Vite Getting Started', url: 'https://vite.dev/guide/', description: 'Quickstart guide for creating and running your first Vite project.' },
+]},{ label: 'Official Documentation', icon: 'docs', items: [
+{ title: 'Vite Config Reference', url: 'https://vite.dev/config/', description: 'Complete configuration reference with all available options.' },
+{ title: 'Vite Plugins', url: 'https://vite.dev/plugins/', description: 'Official plugin directory and community plugin ecosystem.' },
+]},{ label: 'Interactive Courses', icon: 'code', items: [
+{ title: 'Vite Workshop', url: 'https://vite.dev/guide/#scaffolding-your-first-vite-project', description: 'Interactive tutorials and guides from the Vite team.' },
+]},{ label: 'Video Courses', icon: 'video', items: [
+{ title: 'Vite Crash Course (YouTube)', url: 'https://www.youtube.com/results?search_query=vite+crash+course+2026', description: 'Video walkthroughs covering Vite basics, plugins, and production builds.' },
+]},{ label: 'Practice & Challenges', icon: 'terminal', items: [
+{ title: 'Vite Starter', url: 'https://vite.dev/guide/#scaffolding-your-first-vite-project', description: 'Scaffold Vite projects with various framework templates.' },
+]},{ label: 'Reference & Cheatsheets', icon: 'reference', items: [
+{ title: 'Vite Cheatsheet (devhints)', url: 'https://devhints.io/vite', description: 'Quick reference for Vite commands, configuration, and environment variables.' },
+]},{ label: 'News & Updates', icon: 'news', items: [
+{ title: 'Vite Blog', url: 'https://vite.dev/blog/', description: 'Official Vite blog with release notes and ecosystem updates.' },
+]},{ label: 'Community', icon: 'community', items: [
+{ title: 'Vite Discord', url: 'https://chat.vite.dev/', description: 'Official Vite Discord community.' },
+{ title: 'Vite GitHub', url: 'https://github.com/vitejs/vite', description: 'Official repository for issues and contributions.' },
+]},],};
+
+// ══ PRISMA ═══════════════════════════════════════════════════════════
+export const prismaResources: LanguageResources = { slug: 'prisma', name: 'Prisma', description: 'Prisma is a next-generation ORM for Node.js and TypeScript. It provides a type-safe database client, auto-generated queries, and a declarative data modeling language for PostgreSQL, MySQL, SQLite, and MongoDB.', categories: [
+{ label: 'Free Books', icon: 'book', items: [
+{ title: 'Prisma Documentation', url: 'https://www.prisma.io/docs', description: 'Comprehensive official documentation covering architecture, setup, and advanced features.' },
+{ title: 'Prisma Getting Started', url: 'https://www.prisma.io/docs/getting-started', description: 'Quickstart guide for setting up Prisma with your database.' },
+]},{ label: 'Official Documentation', icon: 'docs', items: [
+{ title: 'Prisma Schema Reference', url: 'https://www.prisma.io/docs/orm/prisma-schema/overview', description: 'Complete reference for Prisma schema syntax, data sources, and generators.' },
+{ title: 'Prisma Client API', url: 'https://www.prisma.io/docs/orm/prisma-client', description: 'Full API reference for Prisma Client queries, relations, and transactions.' },
+]},{ label: 'Interactive Courses', icon: 'code', items: [
+{ title: 'Prisma Examples', url: 'https://www.prisma.io/docs/orm/overview/examples', description: 'Official example projects showing Prisma with various frameworks.' },
+]},{ label: 'Video Courses', icon: 'video', items: [
+{ title: 'Prisma in 60 Minutes (YouTube)', url: 'https://www.youtube.com/watch?v=RebA5J-rlwg', description: 'Fast-paced overview of Prisma features, schema syntax, and query building.' },
+]},{ label: 'Practice & Challenges', icon: 'terminal', items: [
+{ title: 'Prisma Playground', url: 'https://www.prisma.io/playground', description: 'Online editor for experimenting with Prisma schemas and queries.' },
+]},{ label: 'Reference & Cheatsheets', icon: 'reference', items: [
+{ title: 'Prisma Cheat Sheet (DevSheets)', url: 'https://devsheets.io/sheets/prisma', description: 'Handy reference for schema definitions, relationships, and CRUD commands.' },
+]},{ label: 'News & Updates', icon: 'news', items: [
+{ title: 'Prisma Blog', url: 'https://www.prisma.io/blog/', description: 'Official blog with deep dives, architectural updates, and case studies.' },
+]},{ label: 'Community', icon: 'community', items: [
+{ title: 'Prisma GitHub Discussions', url: 'https://github.com/prisma/prisma/discussions', description: 'Community space for troubleshooting and feature requests.' },
+{ title: 'Prisma Discord', url: 'https://www.prisma.io/discord', description: 'Official Prisma community Discord.' },
+]},],};
+
+// ══ SOCKET.IO ════════════════════════════════════════════════════════
+export const socketioResources: LanguageResources = { slug: 'socketio', name: 'Socket.IO', description: 'Socket.IO is a real-time bidirectional event-based communication library. It enables real-time, bidirectional communication between web clients and servers using WebSocket with fallback options.', categories: [
+{ label: 'Free Books', icon: 'book', items: [
+{ title: 'Socket.IO Documentation', url: 'https://socket.io/docs/v4/', description: 'Comprehensive official documentation covering server, client, and advanced features.' },
+{ title: 'Socket.IO Getting Started', url: 'https://socket.io/get-started/chat', description: 'Official chat tutorial building a real-time app from scratch.' },
+]},{ label: 'Official Documentation', icon: 'docs', items: [
+{ title: 'Socket.IO Server API', url: 'https://socket.io/docs/v4/server-api/', description: 'Complete server API reference for namespaces, rooms, and middleware.' },
+{ title: 'Socket.IO Client API', url: 'https://socket.io/docs/v4/client-api/', description: 'Complete client API reference for events, acknowledgements, and reconnection.' },
+]},{ label: 'Interactive Courses', icon: 'code', items: [
+{ title: 'Socket.IO Tutorial (Tutorialspoint)', url: 'https://www.tutorialspoint.com/socket.io/', description: 'Free tutorial covering Socket.IO fundamentals and real-world scenarios.' },
+]},{ label: 'Video Courses', icon: 'video', items: [
+{ title: 'Socket.IO Full Course (YouTube)', url: 'https://www.youtube.com/results?search_query=socket+io+full+course+2026', description: 'Video courses covering WebSockets, rooms, and real-time applications.' },
+]},{ label: 'Practice & Challenges', icon: 'terminal', items: [
+{ title: 'Socket.IO Chat Demo', url: 'https://socket.io/demos/chat/', description: 'Live demo chat application to experiment with Socket.IO features.' },
+]},{ label: 'Reference & Cheatsheets', icon: 'reference', items: [
+{ title: 'Socket.IO Cheatsheet', url: 'https://devhints.io/socketio', description: 'Quick reference for Socket.IO events, methods, and configuration.' },
+]},{ label: 'News & Updates', icon: 'news', items: [
+{ title: 'Socket.IO Blog', url: 'https://socket.io/blog/', description: 'Official blog with release notes and feature announcements.' },
+]},{ label: 'Community', icon: 'community', items: [
+{ title: 'Socket.IO GitHub', url: 'https://github.com/socketio/socket.io', description: 'Official repository for issues and contributions.' },
+{ title: 'Stack Overflow - Socket.IO Tag', url: 'https://stackoverflow.com/questions/tagged/socket.io', description: 'Q&A for Socket.IO troubleshooting and best practices.' },
+]},],};
+
+// ══ THREE.JS ═════════════════════════════════════════════════════════
+export const threejsResources: LanguageResources = { slug: 'threejs', name: 'Three.js', description: 'Three.js is the most popular 3D JavaScript library for creating interactive 3D graphics in the browser using WebGL and WebGPU. It provides a comprehensive API for scenes, cameras, lights, materials, and animations.', categories: [
+{ label: 'Free Books', icon: 'book', items: [
+{ title: 'Three.js Documentation', url: 'https://threejs.org/docs/', description: 'Complete API reference for classes, methods, materials, and loaders.' },
+{ title: 'Three.js Manual', url: 'https://threejs.org/manual/', description: 'Step-by-step beginner-friendly guide from core developers covering scenes, lighting, and animation.' },
+]},{ label: 'Official Documentation', icon: 'docs', items: [
+{ title: 'Three.js Examples', url: 'https://threejs.org/examples/', description: 'Hundreds of interactive demos for physics, shaders, and post-processing.' },
+{ title: 'Discover Three.js (Free Book)', url: 'https://discoverthreejs.com/', description: 'Completely free detailed tutorial series by core contributor covering fundamentals to advanced topics.' },
+]},{ label: 'Interactive Courses', icon: 'code', items: [
+{ title: 'Three.js Fundamentals', url: 'https://threejs.org/manual/#en/fundamentals', description: 'Interactive beginner tutorials on scene setup, geometry, and materials.' },
+]},{ label: 'Video Courses', icon: 'video', items: [
+{ title: 'Three.js Crash Course (YouTube)', url: 'https://www.youtube.com/results?search_query=threejs+crash+course+2026', description: 'Video walkthroughs of 3D graphics, animations, and scene creation.' },
+]},{ label: 'Practice & Challenges', icon: 'terminal', items: [
+{ title: 'Three.js Playground', url: 'https://threejs.org/playground/', description: 'Online editor for experimenting with Three.js scenes and shaders.' },
+]},{ label: 'Reference & Cheatsheets', icon: 'reference', items: [
+{ title: 'Three.js Cheatsheet', url: 'https://threejs.org/docs/#api/en/constants', description: 'Quick reference for constants, renderers, and material types.' },
+]},{ label: 'News & Updates', icon: 'news', items: [
+{ title: 'Three.js GitHub Releases', url: 'https://github.com/mrdoob/three.js/releases', description: 'Release notes for new versions, WebGPU support, and API changes.' },
+]},{ label: 'Community', icon: 'community', items: [
+{ title: 'Three.js Discourse', url: 'https://discourse.threejs.org/', description: 'Official forum for troubleshooting, showcases, and discussions.' },
+{ title: 'Reddit r/threejs', url: 'https://www.reddit.com/r/threejs/', description: 'Active community for sharing projects and gathering feedback.' },
+]},],};
+
+// ══ CHART.JS ═════════════════════════════════════════════════════════
+export const chartjsResources: LanguageResources = { slug: 'chartjs', name: 'Chart.js', description: 'Chart.js is the most popular open-source JavaScript charting library. It provides beautiful, responsive, and interactive charts with a simple API for building data visualizations for the web.', categories: [
+{ label: 'Free Books', icon: 'book', items: [
+{ title: 'Chart.js Documentation', url: 'https://www.chartjs.org/docs/latest/', description: 'Comprehensive official documentation covering chart types, configuration, and axes.' },
+{ title: 'Chart.js Getting Started', url: 'https://www.chartjs.org/docs/latest/getting-started/', description: 'Quickstart guide for creating your first Chart.js visualization.' },
+]},{ label: 'Official Documentation', icon: 'docs', items: [
+{ title: 'Chart.js API Reference', url: 'https://www.chartjs.org/docs/latest/api/', description: 'Complete API reference for all chart types, scales, and plugins.' },
+{ title: 'Chart.js Samples', url: 'https://www.chartjs.org/docs/latest/samples/', description: 'Live examples of bar, line, pie, radar, bubble, and scatter charts.' },
+]},{ label: 'Interactive Courses', icon: 'code', items: [
+{ title: 'Chart.js Tutorial (W3Schools)', url: 'https://www.w3schools.com/ai/ai_chartjs.asp', description: 'Free interactive tutorial covering Chart.js fundamentals.' },
+]},{ label: 'Video Courses', icon: 'video', items: [
+{ title: 'Chart.js Full Course (YouTube)', url: 'https://www.youtube.com/results?search_query=chartjs+tutorial+2026', description: 'Video courses covering chart creation, customization, and data binding.' },
+]},{ label: 'Practice & Challenges', icon: 'terminal', items: [
+{ title: 'Chart.js Playground', url: 'https://www.chartjs.org/playground/', description: 'Online editor to experiment with chart configurations and datasets.' },
+]},{ label: 'Reference & Cheatsheets', icon: 'reference', items: [
+{ title: 'Chart.js Cheatsheet', url: 'https://devhints.io/chartjs', description: 'Quick reference for chart types, configuration options, and scales.' },
+]},{ label: 'News & Updates', icon: 'news', items: [
+{ title: 'Chart.js Blog', url: 'https://www.chartjs.org/blog/', description: 'Official blog with release notes and version updates.' },
+]},{ label: 'Community', icon: 'community', items: [
+{ title: 'Chart.js GitHub', url: 'https://github.com/chartjs/Chart.js', description: 'Official repository for issues and contributions.' },
+{ title: 'Stack Overflow - Chart.js Tag', url: 'https://stackoverflow.com/questions/tagged/chart.js', description: 'Q&A for Chart.js questions and troubleshooting.' },
+]},],};
+
+// ══ ESLINT ═══════════════════════════════════════════════════════════
+export const eslintResources: LanguageResources = { slug: 'eslint', name: 'ESLint', description: 'ESLint is the most widely used JavaScript linting tool for identifying and fixing code quality issues. It provides a pluggable architecture with hundreds of rules for enforcing coding standards and catching bugs.', categories: [
+{ label: 'Free Books', icon: 'book', items: [
+{ title: 'ESLint Documentation', url: 'https://eslint.org/docs/latest/', description: 'Comprehensive official documentation covering rules, configuration, and plugins.' },
+{ title: 'ESLint Getting Started', url: 'https://eslint.org/docs/latest/user-guide/getting-started', description: 'Quickstart guide for setting up and running ESLint.' },
+]},{ label: 'Official Documentation', icon: 'docs', items: [
+{ title: 'ESLint Rules Reference', url: 'https://eslint.org/docs/latest/rules/', description: 'Complete reference for all built-in ESLint rules with examples.' },
+{ title: 'ESLint Configure Guide', url: 'https://eslint.org/docs/latest/user-guide/configuring/', description: 'Guide to ESLint configuration files, extends, and overrides.' },
+]},{ label: 'Interactive Courses', icon: 'code', items: [
+{ title: 'ESLint Playground', url: 'https://eslint.org/play/', description: 'Online sandbox to experiment with ESLint rules and configurations.' },
+]},{ label: 'Video Courses', icon: 'video', items: [
+{ title: 'ESLint Tutorial (YouTube)', url: 'https://www.youtube.com/results?search_query=eslint+tutorial+2026', description: 'Video walkthroughs covering ESLint setup, rules, and plugin development.' },
+]},{ label: 'Practice & Challenges', icon: 'terminal', items: [
+{ title: 'ESLint Demo', url: 'https://eslint.org/demo/', description: 'Interactive demo to test ESLint rules on code snippets.' },
+]},{ label: 'Reference & Cheatsheets', icon: 'reference', items: [
+{ title: 'ESLint Cheatsheet', url: 'https://devhints.io/eslint', description: 'Quick reference for ESLint rules, configuration, and shareable configs.' },
+]},{ label: 'News & Updates', icon: 'news', items: [
+{ title: 'ESLint Blog', url: 'https://eslint.org/blog/', description: 'Official blog with release notes, features, and announcements.' },
+]},{ label: 'Community', icon: 'community', items: [
+{ title: 'ESLint GitHub', url: 'https://github.com/eslint/eslint', description: 'Official repository for issues and contributions.' },
+{ title: 'Stack Overflow - ESLint Tag', url: 'https://stackoverflow.com/questions/tagged/eslint', description: 'Q&A for ESLint troubleshooting.' },
+]},],};
+
+// ══ PRETTIER ═════════════════════════════════════════════════════════
+export const prettierResources: LanguageResources = { slug: 'prettier', name: 'Prettier', description: 'Prettier is an opinionated code formatter that supports many languages. It enforces consistent style by parsing code and reprinting it with its own rules, eliminating debates about code formatting.', categories: [
+{ label: 'Free Books', icon: 'book', items: [
+{ title: 'Prettier Documentation', url: 'https://prettier.io/docs/en/', description: 'Comprehensive official documentation covering installation, options, and integration.' },
+{ title: 'Prettier Options', url: 'https://prettier.io/docs/en/options.html', description: 'Complete reference for all Prettier configuration options.' },
+]},{ label: 'Official Documentation', icon: 'docs', items: [
+{ title: 'Prettier Playground', url: 'https://prettier.io/playground/', description: 'Interactive playground to experiment with formatting options.' },
+{ title: 'Prettier Configuration', url: 'https://prettier.io/docs/en/configuration.html', description: 'Guide to configuring Prettier with config files and CLI flags.' },
+]},{ label: 'Interactive Courses', icon: 'code', items: [
+{ title: 'Prettier Online Demo', url: 'https://prettier.io/playground/', description: 'Test Prettier formatting in real-time with any options.' },
+]},{ label: 'Video Courses', icon: 'video', items: [
+{ title: 'Prettier Crash Course (YouTube)', url: 'https://www.youtube.com/results?search_query=prettier+crash+course', description: 'Video walkthroughs of Prettier setup, VSCode integration, and CI usage.' },
+]},{ label: 'Practice & Challenges', icon: 'terminal', items: [
+{ title: 'Prettier CLI', url: 'https://prettier.io/docs/en/cli.html', description: 'CLI reference for formatting files, checking, and debugging.' },
+]},{ label: 'Reference & Cheatsheets', icon: 'reference', items: [
+{ title: 'Prettier Cheatsheet', url: 'https://devhints.io/prettier', description: 'Quick reference for Prettier options, integration, and CLI commands.' },
+]},{ label: 'News & Updates', icon: 'news', items: [
+{ title: 'Prettier Blog', url: 'https://prettier.io/blog/', description: 'Official blog with release notes and community updates.' },
+]},{ label: 'Community', icon: 'community', items: [
+{ title: 'Prettier GitHub', url: 'https://github.com/prettier/prettier', description: 'Official repository for issues and contributions.' },
+{ title: 'Prettier Discord', url: 'https://discord.gg/prettier', description: 'Official Prettier community Discord.' },
+]},],};
+
+// ══ WEBPACK ══════════════════════════════════════════════════════════
+export const webpackResources: LanguageResources = { slug: 'webpack', name: 'Webpack', description: 'Webpack is a powerful and configurable module bundler for JavaScript applications. It processes modules with dependencies and generates static assets representing those modules for the browser.', categories: [
+{ label: 'Free Books', icon: 'book', items: [
+{ title: 'Webpack Documentation', url: 'https://webpack.js.org/concepts/', description: 'Comprehensive official documentation covering concepts, configuration, and guides.' },
+{ title: 'Webpack Getting Started', url: 'https://webpack.js.org/guides/getting-started/', description: 'Quickstart guide for setting up and running Webpack.' },
+]},{ label: 'Official Documentation', icon: 'docs', items: [
+{ title: 'Webpack Configuration', url: 'https://webpack.js.org/configuration/', description: 'Complete configuration reference for all Webpack options.' },
+{ title: 'Webpack Loaders', url: 'https://webpack.js.org/loaders/', description: 'Guide to using loaders for processing different file types.' },
+]},{ label: 'Interactive Courses', icon: 'code', items: [
+{ title: 'Webpack Tutorial (Tutorialspoint)', url: 'https://www.tutorialspoint.com/webpack/', description: 'Free tutorial covering Webpack fundamentals and advanced features.' },
+]},{ label: 'Video Courses', icon: 'video', items: [
+{ title: 'Webpack Full Course (YouTube)', url: 'https://www.youtube.com/results?search_query=webpack+crash+course+2026', description: 'Video walkthroughs covering bundling, loaders, plugins, and optimization.' },
+]},{ label: 'Practice & Challenges', icon: 'terminal', items: [
+{ title: 'Webpack Playground', url: 'https://webpack.js.org/playground/', description: 'Online sandbox for experimenting with Webpack configurations.' },
+]},{ label: 'Reference & Cheatsheets', icon: 'reference', items: [
+{ title: 'Webpack Cheatsheet (devhints)', url: 'https://devhints.io/webpack', description: 'Quick reference for Webpack config, loaders, and plugins.' },
+]},{ label: 'News & Updates', icon: 'news', items: [
+{ title: 'Webpack Blog', url: 'https://webpack.js.org/blog/', description: 'Official blog with release notes and feature announcements.' },
+]},{ label: 'Community', icon: 'community', items: [
+{ title: 'Webpack Discord', url: 'https://discord.gg/webpack', description: 'Official Webpack community Discord.' },
+{ title: 'Webpack GitHub', url: 'https://github.com/webpack/webpack', description: 'Official repository for issues and contributions.' },
+]},],};
+
+// ══ ELECTRON ═════════════════════════════════════════════════════════
+export const electronResources: LanguageResources = { slug: 'electron', name: 'Electron', description: 'Electron is a framework for building cross-platform desktop applications using JavaScript, HTML, and CSS. It combines Chromium and Node.js to enable web developers to create native desktop apps for Windows, macOS, and Linux.', categories: [
+{ label: 'Free Books', icon: 'book', items: [
+{ title: 'Electron Documentation', url: 'https://www.electronjs.org/docs/latest/', description: 'Comprehensive official documentation covering APIs, guides, and best practices.' },
+{ title: 'Electron Quick Start', url: 'https://www.electronjs.org/docs/latest/tutorial/quick-start', description: 'Quickstart guide for creating your first Electron application.' },
+]},{ label: 'Official Documentation', icon: 'docs', items: [
+{ title: 'Electron API Reference', url: 'https://www.electronjs.org/docs/latest/api/', description: 'Complete API reference for main process, renderer process, and modules.' },
+{ title: 'Electron Tutorial', url: 'https://www.electronjs.org/docs/latest/tutorial/', description: 'Step-by-step tutorial covering packaging, distribution, and security.' },
+]},{ label: 'Interactive Courses', icon: 'code', items: [
+{ title: 'Electron Fiddle', url: 'https://www.electronjs.org/fiddle/', description: 'Official playground for experimenting with Electron APIs in the browser.' },
+]},{ label: 'Video Courses', icon: 'video', items: [
+{ title: 'Electron Full Course (YouTube)', url: 'https://www.youtube.com/results?search_query=electron+full+course+2026', description: 'Video courses covering Electron architecture, IPC, and native features.' },
+]},{ label: 'Practice & Challenges', icon: 'terminal', items: [
+{ title: 'Electron Fiddle', url: 'https://www.electronjs.org/fiddle/', description: 'Official sandbox for prototyping and learning Electron APIs.' },
+]},{ label: 'Reference & Cheatsheets', icon: 'reference', items: [
+{ title: 'Electron Cheatsheet', url: 'https://devhints.io/electron', description: 'Quick reference for Electron APIs, IPC patterns, and configuration.' },
+]},{ label: 'News & Updates', icon: 'news', items: [
+{ title: 'Electron Blog', url: 'https://www.electronjs.org/blog/', description: 'Official blog with release notes, security updates, and case studies.' },
+]},{ label: 'Community', icon: 'community', items: [
+{ title: 'Electron Discord', url: 'https://discord.gg/electron', description: 'Official Electron community Discord.' },
+{ title: 'Reddit r/electronjs', url: 'https://www.reddit.com/r/electronjs/', description: 'Community for Electron discussions and project showcases.' },
+]},],};
+
+// ══ EXPO ═════════════════════════════════════════════════════════════
+export const expoResources: LanguageResources = { slug: 'expo', name: 'Expo', description: 'Expo is an open-source platform for building universal native apps with React. It provides a managed workflow, comprehensive SDK, and development tools for creating iOS, Android, and web applications from a single codebase.', categories: [
+{ label: 'Free Books', icon: 'book', items: [
+{ title: 'Expo Documentation', url: 'https://docs.expo.dev/', description: 'Comprehensive official documentation covering guides, API reference, and workflows.' },
+{ title: 'Expo Getting Started', url: 'https://docs.expo.dev/get-started/create-a-new-app/', description: 'Quickstart guide for creating your first Expo application.' },
+]},{ label: 'Official Documentation', icon: 'docs', items: [
+{ title: 'Expo SDK Reference', url: 'https://docs.expo.dev/versions/latest/', description: 'Complete API reference for all Expo SDK modules and components.' },
+{ title: 'Expo Router', url: 'https://docs.expo.dev/router/introduction/', description: 'Documentation for file-based routing in Expo applications.' },
+]},{ label: 'Interactive Courses', icon: 'code', items: [
+{ title: 'Expo Tutorial (Official)', url: 'https://docs.expo.dev/tutorial/introduction/', description: 'Official step-by-step tutorial building a complete cross-platform app.' },
+]},{ label: 'Video Courses', icon: 'video', items: [
+{ title: 'Expo Full Course (YouTube)', url: 'https://www.youtube.com/results?search_query=expo+react+native+full+course+2026', description: 'Video courses covering Expo development, navigation, and deployment.' },
+]},{ label: 'Practice & Challenges', icon: 'terminal', items: [
+{ title: 'Expo Snack', url: 'https://snack.expo.dev/', description: 'Online editor for prototyping and testing Expo apps in the browser.' },
+]},{ label: 'Reference & Cheatsheets', icon: 'reference', items: [
+{ title: 'Expo Cheatsheet', url: 'https://docs.expo.dev/versions/latest/', description: 'Quick API reference for Expo components, hooks, and modules.' },
+]},{ label: 'News & Updates', icon: 'news', items: [
+{ title: 'Expo Blog', url: 'https://expo.dev/blog', description: 'Official blog with SDK updates, features, and engineering stories.' },
+]},{ label: 'Community', icon: 'community', items: [
+{ title: 'Expo Discord', url: 'https://chat.expo.dev/', description: 'Official Expo community Discord.' },
+{ title: 'Expo GitHub', url: 'https://github.com/expo/expo', description: 'Official repository for issues and contributions.' },
+]},],};
 // ─── Registry — all languages with curated resources ────────────────
 
 const RESOURCE_REGISTRY: Record<string, LanguageResources> = {
@@ -4183,6 +4413,16 @@ const RESOURCE_REGISTRY: Record<string, LanguageResources> = {
   cypress: cypressResources,
   vitest: vitestResources,
   jest: jestResources,
+  vite: viteResources,
+  prisma: prismaResources,
+  socketio: socketioResources,
+  threejs: threejsResources,
+  chartjs: chartjsResources,
+  eslint: eslintResources,
+  prettier: prettierResources,
+  webpack: webpackResources,
+  electron: electronResources,
+  expo: expoResources,
 };
 
 export function getLanguageResources(slug: string): LanguageResources | null {

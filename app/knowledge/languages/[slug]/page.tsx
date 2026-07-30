@@ -15,6 +15,7 @@ import {
   SiGrafana, SiPrometheus, SiApachekafka, SiRabbitmq, SiApacheairflow, SiSqlite, SiJenkins, SiGitlab, SiGithubactions, SiNeovim,
   SiAstro,
   SiBun, SiDeno, SiNestjs, SiRemix, SiFastify, SiHono, SiSelenium, SiCypress, SiVitest, SiJest,
+  SiVite, SiPrisma, SiSocketdotio, SiThreedotjs, SiChartdotjs, SiEslint, SiPrettier, SiWebpack, SiElectron, SiExpo,
 } from 'react-icons/si';
 import { FaBook, FaFileAlt, FaLaptopCode, FaPlay, FaTerminal, FaSearch, FaNewspaper, FaUsers } from 'react-icons/fa';
 import { getLanguageMeta, getHandcraftedSystems } from '@/lib/mdx';
@@ -135,6 +136,16 @@ const LANG_ICONS: Record<string, React.ReactNode> = {
   cypress:    <SiCypress size={28} />,
   vitest:     <SiVitest size={28} />,
   jest:       <SiJest size={28} />,
+  vite:       <SiVite size={28} />,
+  prisma:     <SiPrisma size={28} />,
+  socketio:   <SiSocketdotio size={28} />,
+  threejs:    <SiThreedotjs size={28} />,
+  chartjs:    <SiChartdotjs size={28} />,
+  eslint:     <SiEslint size={28} />,
+  prettier:   <SiPrettier size={28} />,
+  webpack:    <SiWebpack size={28} />,
+  electron:   <SiElectron size={28} />,
+  expo:       <SiExpo size={28} />,
 };
 
 const LANG_HERO: Record<string, { bg: string; iconBg: string }> = {
@@ -248,6 +259,16 @@ const LANG_HERO: Record<string, { bg: string; iconBg: string }> = {
   cypress:    { bg: 'bg-[#17202C]', iconBg: 'bg-[#17202C] text-white' },
   vitest:     { bg: 'bg-[#6E9F18]', iconBg: 'bg-[#6E9F18] text-white' },
   jest:       { bg: 'bg-[#C21325]', iconBg: 'bg-[#C21325] text-white' },
+  vite:       { bg: 'bg-[#646CFF]', iconBg: 'bg-[#646CFF] text-white' },
+  prisma:     { bg: 'bg-[#2D3748]', iconBg: 'bg-[#2D3748] text-white' },
+  socketio:   { bg: 'bg-[#010101]', iconBg: 'bg-[#010101] text-white' },
+  threejs:    { bg: 'bg-[#000000]', iconBg: 'bg-[#000000] text-white' },
+  chartjs:    { bg: 'bg-[#FF6384]', iconBg: 'bg-[#FF6384] text-white' },
+  eslint:     { bg: 'bg-[#4B32C3]', iconBg: 'bg-[#4B32C3] text-white' },
+  prettier:   { bg: 'bg-[#F7B93E]', iconBg: 'bg-[#F7B93E] text-black' },
+  webpack:    { bg: 'bg-[#8DD6F9]', iconBg: 'bg-[#8DD6F9] text-black' },
+  electron:   { bg: 'bg-[#47848F]', iconBg: 'bg-[#47848F] text-white' },
+  expo:       { bg: 'bg-[#000020]', iconBg: 'bg-[#000020] text-white' },
 };
 
 const CATEGORY_ICONS: Record<string, React.ReactNode> = {
@@ -295,6 +316,8 @@ const KNOWN_SLUGS = new Set([
   'astro',
   'bun', 'deno', 'nestjs', 'remix', 'fastify',
   'hono', 'selenium', 'cypress', 'vitest', 'jest',
+  'vite', 'prisma', 'socketio', 'threejs', 'chartjs',
+  'eslint', 'prettier', 'webpack', 'electron', 'expo',
 ]);
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
