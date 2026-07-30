@@ -175,6 +175,6 @@ export function makeArticleId(feedId: string, url: string): string {
   const hash = url
     .replace(/https?:\/\//, '')
     .replace(/[^a-zA-Z0-9]/g, '-')
-    .slice(0, 80);
+    .slice(-60); // Use the LAST 60 chars (unique URL suffix) instead of first 80
   return `${feedId}-${hash}`;
 }
