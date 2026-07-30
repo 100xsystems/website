@@ -1,6 +1,7 @@
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
-import { Heading, Text, Badge, Breadcrumbs, Icon, Divider } from '@/presentation/__components';
+import Link from 'next/link';
+import { ArrowLeft, ArrowRight, Check, Clock } from 'lucide-react';
 import { getLanguageMeta, getAllLanguageSlugs } from '@/lib/mdx';
 import { MarkdownRenderer } from '@/lib/markdown-renderer';
 import fs from 'fs';
@@ -44,7 +45,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   } catch {}
 
   return {
-    title: `${title} - ${lang.title} - Languages`,
+    title: `${title} — ${lang.title} — Knowledge Base`,
   };
 }
 
@@ -64,40 +65,43 @@ export default async function LanguageChapterPage({ params }: Props) {
   const nextChapter = chapterIndex < lang.chapters.length - 1 ? lang.chapters[chapterIndex + 1] : null;
 
   return (
-    <div className="min-h-screen py-16 px-4">
+    <div className="min-h-screen bg-white py-16 px-4">
       <div className="max-w-[780px] mx-auto">
+
         {/* Breadcrumbs */}
-        <Breadcrumbs
-          items={[
-            { label: 'Languages', href: '/languages' },
-            { label: lang.title, href: `/languages/${slug}` },
-            { label: data.title || chapterSlug },
-          ]}
-          className="mb-8"
-        />
+        <nav className="flex items-center gap-2 text-xs font-semibold text-fg-muted uppercase tracking-wider mb-8">
+          <Link href="/knowledge/languages" className="hover:text-accent transition-colors">Languages</Link>
+          <span className="text-fg-muted/40">/</span>
+          <Link href={`/knowledge/languages/${slug}`} className="hover:text-accent transition-colors">{lang.title}</Link>
+          <span className="text-fg-muted/40">/</span>
+          <span className="text-accent">{data.title || chapterSlug}</span>
+        </nav>
 
         {/* Chapter Header */}
         <div className="mb-8">
           <div className="flex items-center gap-3 mb-3">
-            <Badge variant="purple" size="sm">
+            <span className="inline-flex items-center px-2 py-1 text-[9px] font-bold uppercase tracking-widest bg-accent/10 text-accent border border-accent/20">
               Chapter {chapterIndex + 1}
-            </Badge>
+            </span>
             {data.estimatedTime && (
-              <span className="text-xs text-fg-muted flex items-center gap-1">
-                <Icon name="clock" size={12} />
+              <span className="flex items-center gap-1.5 text-xs text-fg-muted">
+                <Clock size={12} />
                 {data.estimatedTime}
               </span>
             )}
           </div>
-          <Heading variant="h2" className="uppercase tracking-tight mb-2">
+          <h1 className="text-3xl sm:text-4xl font-extrabold text-fg tracking-tight uppercase leading-tight mb-2">
             {data.title || chapterSlug}
-          </Heading>
-          <Text variant="body-lg" className="text-fg-secondary">
-            {data.description || ''}
-          </Text>
+          </h1>
+          {data.description && (
+            <p className="text-sm text-fg-secondary leading-relaxed">
+              {data.description}
+            </p>
+          )}
         </div>
 
-        <Divider className="mb-8" />
+        {/* Divider */}
+        <div className="border-t border-border mb-10" />
 
         {/* Markdown Content */}
         <article className="prose prose-lg max-w-none
@@ -121,42 +125,42 @@ export default async function LanguageChapterPage({ params }: Props) {
         </article>
 
         {/* Chapter Navigation */}
-        <Divider className="my-12" />
+        <div className="border-t border-border my-14" />
         <div className="flex items-center justify-between">
           {prevChapter ? (
-            <a
-              href={`/languages/${slug}/${prevChapter.slug}`}
+            <Link
+              href={`/knowledge/languages/${slug}/${prevChapter.slug}`}
               className="flex items-center gap-2 text-sm font-semibold text-accent hover:underline group"
             >
-              <Icon name="arrow-left" size={14} className="group-hover:-translate-x-0.5 transition-transform" />
+              <ArrowLeft size={14} className="group-hover:-translate-x-0.5 transition-transform shrink-0" />
               <div className="text-left">
-                <div className="text-[10px] text-fg-muted uppercase tracking-wider">Previous</div>
-                <div>{prevChapter.title}</div>
+                <div className="text-[10px] text-fg-muted uppercase tracking-wider font-bold">Previous</div>
+                <div className="text-fg group-hover:text-accent transition-colors">{prevChapter.title}</div>
               </div>
-            </a>
+            </Link>
           ) : (
             <div />
           )}
 
           {nextChapter ? (
-            <a
-              href={`/languages/${slug}/${nextChapter.slug}`}
+            <Link
+              href={`/knowledge/languages/${slug}/${nextChapter.slug}`}
               className="flex items-center gap-2 text-sm font-semibold text-accent hover:underline group text-right"
             >
               <div>
-                <div className="text-[10px] text-fg-muted uppercase tracking-wider">Next</div>
-                <div>{nextChapter.title}</div>
+                <div className="text-[10px] text-fg-muted uppercase tracking-wider font-bold">Next</div>
+                <div className="text-fg group-hover:text-accent transition-colors">{nextChapter.title}</div>
               </div>
-              <Icon name="arrow-right" size={14} className="group-hover:translate-x-0.5 transition-transform" />
-            </a>
+              <ArrowRight size={14} className="group-hover:translate-x-0.5 transition-transform shrink-0" />
+            </Link>
           ) : (
-            <a
-              href={`/languages/${slug}`}
+            <Link
+              href={`/knowledge/languages/${slug}`}
               className="flex items-center gap-2 text-sm font-semibold text-accent hover:underline"
             >
-              <Icon name="check" size={14} />
-              Complete Language
-            </a>
+              <Check size={14} />
+              Complete
+            </Link>
           )}
         </div>
       </div>
