@@ -1,14 +1,48 @@
 'use client';
 
 import React from 'react';
-import { useLiveSearch, v, n, Favicon, DiscoverPageShell } from './discover.utils';
+import { useLiveSearch, cn, v, n, Favicon, DiscoverPageShell } from './discover.utils';
+
+const MEDIUM_TAGS = [
+  { id: 'technology', label: 'Technology' },
+  { id: 'programming', label: 'Programming' },
+  { id: 'artificial-intelligence', label: 'AI' },
+  { id: 'software-development', label: 'Software Dev' },
+  { id: 'data-science', label: 'Data Science' },
+  { id: 'machine-learning', label: 'ML' },
+  { id: 'web-development', label: 'Web Dev' },
+  { id: 'startup', label: 'Startup' },
+  { id: 'design', label: 'Design' },
+  { id: 'devops', label: 'DevOps' },
+  { id: 'blockchain', label: 'Blockchain' },
+  { id: 'cybersecurity', label: 'Security' },
+];
 
 export function MediumPage() {
-  const { query, setQuery, items, initialLoading, searchLoading, loadingMore, error, sentinelRef, hasMore } = useLiveSearch('medium', 'technology', { limit: 50 });
+  const {
+    query, setQuery, items, initialLoading, searchLoading, loadingMore,
+    error, selectedCategory, setSelectedCategory, sentinelRef, hasMore,
+  } = useLiveSearch('medium', 'technology', { categories: MEDIUM_TAGS, limit: 50 });
   const isLoading = initialLoading && items.length === 0;
 
   return (
-    <DiscoverPageShell title="Medium" subtitle="Stories" brandColor="bg-black" brandLabel="MEDIUM" textColor="text-black" description="Articles and stories from Medium publications.">
+    <DiscoverPageShell title="Medium" subtitle="Stories" brandColor="bg-black" brandLabel="MEDIUM" textColor="text-black" description="Articles and stories from Medium publications. Filter by topic.">
+      {/* Tag filter tabs */}
+      <section className="py-6 bg-white border-b border-border">
+        <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
+          <div className="flex flex-wrap gap-2">
+            {MEDIUM_TAGS.map((tag) => (
+              <button key={tag.id} onClick={() => setSelectedCategory(selectedCategory === tag.id ? null : tag.id)}
+                className={cn('px-4 py-2.5 text-xs font-bold uppercase tracking-wider transition-all duration-200',
+                  selectedCategory === tag.id ? 'bg-black text-white shadow-lg' : 'bg-white text-fg-muted border border-gray-200 hover:bg-gray-100 hover:text-black'
+                )}>
+                {tag.label}
+              </button>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <section className="py-8 bg-white border-b border-border">
         <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
           <div className="relative max-w-xl">

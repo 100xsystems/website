@@ -1,14 +1,43 @@
 'use client';
 
 import React from 'react';
-import { useLiveSearch, v, n, DiscoverPageShell } from './discover.utils';
+import { useLiveSearch, cn, v, n, DiscoverPageShell } from './discover.utils';
+
+const DDG_TOPICS = [
+  { id: 'programming', label: 'Programming' },
+  { id: 'javascript', label: 'JavaScript' },
+  { id: 'python', label: 'Python' },
+  { id: 'typescript', label: 'TypeScript' },
+  { id: 'react', label: 'React' },
+  { id: 'ai', label: 'AI' },
+  { id: 'database', label: 'Database' },
+  { id: 'security', label: 'Security' },
+  { id: 'css', label: 'CSS' },
+  { id: 'api', label: 'API' },
+];
 
 export function DdgPage() {
-  const { query, setQuery, items, initialLoading, searchLoading, loadingMore, error, sentinelRef, hasMore } = useLiveSearch('ddg', 'programming', { limit: 50 });
+  const { query, setQuery, items, initialLoading, searchLoading, loadingMore, error, selectedCategory, setSelectedCategory, sentinelRef, hasMore } = useLiveSearch('ddg', 'programming', { categories: DDG_TOPICS, limit: 50 });
   const isLoading = initialLoading && items.length === 0;
 
   return (
     <DiscoverPageShell title="Duck" subtitle="DuckGo" brandColor="bg-orange-600" brandLabel="DUCKDUCKGO" textColor="text-orange-600" description="Instant answers, definitions, and topics from DuckDuckGo.">
+      {/* Topic filter tabs */}
+      <section className="py-6 bg-white border-b border-border">
+        <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
+          <div className="flex flex-wrap gap-2">
+            {DDG_TOPICS.map((topic) => (
+              <button key={topic.id} onClick={() => setSelectedCategory(selectedCategory === topic.id ? null : topic.id)}
+                className={cn('px-4 py-2.5 text-xs font-bold uppercase tracking-wider transition-all duration-200',
+                  selectedCategory === topic.id ? 'bg-orange-600 text-white shadow-lg' : 'bg-white text-fg-muted border border-orange-200 hover:bg-orange-50 hover:text-orange-700'
+                )}>
+                {topic.label}
+              </button>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <section className="py-8 bg-white border-b border-border">
         <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
           <div className="relative max-w-xl">

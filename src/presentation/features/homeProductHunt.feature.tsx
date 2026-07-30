@@ -48,7 +48,7 @@ const PRODUCTS_TO_SHOW = 12;
 const MAX_DATE_FALLBACKS = 5; // Try up to 5 most recent days
 
 function getDomain(url: string): string | null {
-  try { return new URL(url).hostname; } catch { return null; }
+  try { return new URL(url.startsWith('http') ? url : `https://${url}`).hostname; } catch { return null; }
 }
 
 function ProductThumbnail({ thumbnail, name, size = 80 }: { thumbnail: { type: string; url: string } | null; name: string; size?: number }) {

@@ -47,7 +47,7 @@ interface PhIndex {
 const MAX_DATE_FALLBACKS = 5;
 
 function getDomain(url: string): string | null {
-  try { return new URL(url).hostname; } catch { return null; }
+  try { return new URL(url.startsWith('http') ? url : `https://${url}`).hostname; } catch { return null; }
 }
 
 function ProductThumbnail({ thumbnail, name, size = 80 }: { thumbnail: { type: string; url: string } | null; name: string; size?: number }) {
@@ -428,7 +428,11 @@ export function ProductHuntPage() {
                 className="group bg-surface-secondary p-8 flex flex-col text-left transition-all duration-300 hover:bg-red-500 hover:scale-[1.03] hover:shadow-2xl cursor-pointer w-full border-0"
               >
                 <div className="flex items-start gap-5 mb-5">
-                  <ProductThumbnail thumbnail={product.thumbnail} name={product.name} size={88} />
+                  {product.thumbnail?.url ? (
+                    <ProductThumbnail thumbnail={product.thumbnail} name={product.name} size={88} />
+                  ) : (
+                    <ProductLogo url={product.website || product.url} name={product.name} size={64} />
+                  )}
                   <div className="min-w-0 flex-1">
                     <div className="flex items-start justify-between gap-2">
                       <h3 className="text-xl font-bold uppercase tracking-wide text-fg transition-colors duration-300 group-hover:text-white">

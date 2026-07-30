@@ -3,12 +3,45 @@
 import React from 'react';
 import { useLiveSearch, cn, v, n, DiscoverPageShell } from './discover.utils';
 
+const NPM_KEYWORDS = [
+  { id: 'react', label: 'React' },
+  { id: 'vue', label: 'Vue' },
+  { id: 'angular', label: 'Angular' },
+  { id: 'typescript', label: 'TypeScript' },
+  { id: 'node.js', label: 'Node.js' },
+  { id: 'next.js', label: 'Next.js' },
+  { id: 'tailwind', label: 'Tailwind' },
+  { id: 'api', label: 'API' },
+  { id: 'testing', label: 'Testing' },
+  { id: 'database', label: 'Database' },
+  { id: 'cli', label: 'CLI' },
+  { id: 'css', label: 'CSS' },
+  { id: 'build', label: 'Build' },
+  { id: 'security', label: 'Security' },
+];
+
 export function NpmPage() {
-  const { query, setQuery, items, initialLoading, searchLoading, loadingMore, error, sentinelRef, hasMore } = useLiveSearch('npm', 'react', { limit: 50 });
+  const { query, setQuery, items, initialLoading, searchLoading, loadingMore, error, selectedCategory, setSelectedCategory, sentinelRef, hasMore } = useLiveSearch('npm', 'react', { categories: NPM_KEYWORDS, limit: 50 });
   const isLoading = initialLoading && items.length === 0;
 
   return (
     <DiscoverPageShell title="NPM" subtitle="Packages" brandColor="bg-red-600" brandLabel="NPM" textColor="text-red-600" description="Search the npm registry for packages.">
+      {/* Keyword filter tabs */}
+      <section className="py-6 bg-white border-b border-border">
+        <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
+          <div className="flex flex-wrap gap-2">
+            {NPM_KEYWORDS.map((kw) => (
+              <button key={kw.id} onClick={() => setSelectedCategory(selectedCategory === kw.id ? null : kw.id)}
+                className={cn('px-4 py-2.5 text-xs font-bold uppercase tracking-wider transition-all duration-200',
+                  selectedCategory === kw.id ? 'bg-red-600 text-white shadow-lg' : 'bg-white text-fg-muted border border-red-200 hover:bg-red-50 hover:text-red-700'
+                )}>
+                {kw.label}
+              </button>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <section className="py-8 bg-white border-b border-border">
         <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
           <div className="relative max-w-xl">

@@ -1,14 +1,43 @@
 'use client';
 
 import React from 'react';
-import { useLiveSearch, v, n, Favicon, DiscoverPageShell } from './discover.utils';
+import { useLiveSearch, cn, v, n, Favicon, DiscoverPageShell } from './discover.utils';
+
+const WIKI_TOPICS = [
+  { id: 'computer science', label: 'CS' },
+  { id: 'programming language', label: 'Languages' },
+  { id: 'algorithm', label: 'Algorithms' },
+  { id: 'database', label: 'Database' },
+  { id: 'operating system', label: 'OS' },
+  { id: 'network', label: 'Networking' },
+  { id: 'artificial intelligence', label: 'AI' },
+  { id: 'cryptography', label: 'Crypto' },
+  { id: 'software engineering', label: 'SE' },
+  { id: 'mathematics', label: 'Math' },
+];
 
 export function WikipediaPage() {
-  const { query, setQuery, items, initialLoading, searchLoading, loadingMore, error, sentinelRef, hasMore } = useLiveSearch('wikipedia', 'software engineering', { limit: 50 });
+  const { query, setQuery, items, initialLoading, searchLoading, loadingMore, error, selectedCategory, setSelectedCategory, sentinelRef, hasMore } = useLiveSearch('wikipedia', 'software engineering', { categories: WIKI_TOPICS, limit: 50 });
   const isLoading = initialLoading && items.length === 0;
 
   return (
     <DiscoverPageShell title="Wiki" subtitle="pedia" brandColor="bg-gray-700" brandLabel="WIKIPEDIA" textColor="text-gray-700" description="Search Wikipedia articles and reference pages.">
+      {/* Topic filter tabs */}
+      <section className="py-6 bg-white border-b border-border">
+        <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
+          <div className="flex flex-wrap gap-2">
+            {WIKI_TOPICS.map((topic) => (
+              <button key={topic.id} onClick={() => setSelectedCategory(selectedCategory === topic.id ? null : topic.id)}
+                className={cn('px-4 py-2.5 text-xs font-bold uppercase tracking-wider transition-all duration-200',
+                  selectedCategory === topic.id ? 'bg-gray-700 text-white shadow-lg' : 'bg-white text-fg-muted border border-gray-200 hover:bg-blue-50 hover:text-gray-800'
+                )}>
+                {topic.label}
+              </button>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <section className="py-8 bg-white border-b border-border">
         <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
           <div className="relative max-w-xl">

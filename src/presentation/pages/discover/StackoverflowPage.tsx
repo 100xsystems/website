@@ -14,6 +14,36 @@ const SO_TAGS = [
   { id: 'html', label: 'HTML' },
   { id: 'css', label: 'CSS' },
   { id: 'docker', label: 'Docker' },
+  { id: 'go', label: 'Go' },
+  { id: 'rust', label: 'Rust' },
+  { id: 'flutter', label: 'Flutter' },
+  { id: 'kubernetes', label: 'Kubernetes' },
+  { id: 'aws', label: 'AWS' },
+  { id: 'git', label: 'Git' },
+  { id: 'postgresql', label: 'PostgreSQL' },
+  { id: 'mongodb', label: 'MongoDB' },
+  { id: 'linux', label: 'Linux' },
+  { id: '.net', label: '.NET' },
+  { id: 'c#', label: 'C#' },
+  { id: 'c++', label: 'C++' },
+  { id: 'php', label: 'PHP' },
+  { id: 'ruby-on-rails', label: 'Ruby on Rails' },
+  { id: 'swift', label: 'Swift' },
+  { id: 'kotlin', label: 'Kotlin' },
+  { id: 'django', label: 'Django' },
+  { id: 'spring-boot', label: 'Spring Boot' },
+  { id: 'tensorflow', label: 'TensorFlow' },
+  { id: 'machine-learning', label: 'ML' },
+  { id: 'angular', label: 'Angular' },
+  { id: 'vue.js', label: 'Vue.js' },
+  { id: 'graphql', label: 'GraphQL' },
+  { id: 'redis', label: 'Redis' },
+  { id: 'amazon-web-services', label: 'AWS' },
+  { id: 'firebase', label: 'Firebase' },
+  { id: 'next.js', label: 'Next.js' },
+  { id: 'tailwind-css', label: 'Tailwind CSS' },
+  { id: 'prisma', label: 'Prisma' },
+  { id: 'microservices', label: 'Microservices' },
 ];
 
 const SO_SORTS = [
@@ -30,6 +60,20 @@ export function StackoverflowPage() {
   } = useLiveSearch('stackoverflow', 'javascript', { categories: SO_TAGS, limit: 50 });
   const [sortBy, setSortBy] = React.useState('votes');
   const isLoading = initialLoading && items.length === 0;
+
+  // When sort changes, update the query with the sort directive so it actually fires a search
+  const handleSortChange = (sortId: string) => {
+    setSortBy(sortId);
+    const currentCategory = selectedCategory || 'javascript';
+    if (sortId === 'votes') {
+      // Reset query to just the category tag
+      setQuery(currentCategory);
+    } else {
+      setQuery(`${currentCategory} sort:${sortId}`);
+    }
+  };
+
+
 
   return (
     <DiscoverPageShell
@@ -56,7 +100,7 @@ export function StackoverflowPage() {
           <div className="flex items-center gap-3 mt-4">
             <span className="text-[10px] font-bold uppercase tracking-widest text-fg-muted">Sort:</span>
             {SO_SORTS.map((s) => (
-              <button key={s.id} onClick={() => setSortBy(s.id)}
+              <button key={s.id} onClick={() => handleSortChange(s.id)}
                 className={cn('px-3 py-1.5 text-[10px] font-bold uppercase tracking-wider transition-all',
                   sortBy === s.id ? 'bg-orange-500 text-white' : 'text-fg-muted hover:text-orange-600'
                 )}>
@@ -84,7 +128,7 @@ export function StackoverflowPage() {
 
       <section className="py-12 sm:py-16 bg-white">
         <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
-          <p className="text-xs text-fg-muted/60 mb-6 uppercase tracking-wider">{items.length} question{items.length !== 1 ? 's' : ''}</p>
+          <p className="text-xs text-fg-muted/60 mb-6 uppercase tracking-wider">{items.length} question{items.length !== 1 ? 's' : ''}{sortBy !== 'votes' && <> · sorted by {sortBy}</>}</p>
 
           {isLoading && (
             <div className="space-y-4">

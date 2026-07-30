@@ -3,11 +3,29 @@
 import React from 'react';
 import { useLiveSearch, cn, v, n, DiscoverPageShell } from './discover.utils';
 
+const GH_LANGUAGES = [
+  { id: 'language:JavaScript', label: 'JavaScript' },
+  { id: 'language:Python', label: 'Python' },
+  { id: 'language:TypeScript', label: 'TypeScript' },
+  { id: 'language:Go', label: 'Go' },
+  { id: 'language:Rust', label: 'Rust' },
+  { id: 'language:Java', label: 'Java' },
+  { id: 'language:C%2B%2B', label: 'C++' },
+  { id: 'language:Ruby', label: 'Ruby' },
+  { id: 'language:Swift', label: 'Swift' },
+  { id: 'language:Kotlin', label: 'Kotlin' },
+  { id: 'language:PHP', label: 'PHP' },
+  { id: 'language:C%23', label: 'C#' },
+  { id: 'language:Shell', label: 'Shell' },
+  { id: 'language:HTML', label: 'HTML' },
+  { id: 'language:CSS', label: 'CSS' },
+];
+
 export function GitHubPage() {
   const {
     query, setQuery, items, initialLoading, searchLoading, loadingMore,
-    error, sentinelRef, hasMore,
-  } = useLiveSearch('github', 'stars:>1000', { limit: 50 });
+    error, selectedCategory, setSelectedCategory, sentinelRef, hasMore,
+  } = useLiveSearch('github', 'stars:>1000', { categories: GH_LANGUAGES, limit: 50 });
   const isLoading = initialLoading && items.length === 0;
 
   return (
@@ -19,6 +37,22 @@ export function GitHubPage() {
       textColor="text-gray-800"
       description="Search public open source repositories. Default shows repos with 1000+ stars."
     >
+      {/* Language filter tabs */}
+      <section className="py-6 bg-white border-b border-border">
+        <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
+          <div className="flex flex-wrap gap-2">
+            {GH_LANGUAGES.map((lang) => (
+              <button key={lang.id} onClick={() => setSelectedCategory(selectedCategory === lang.id ? null : lang.id)}
+                className={cn('px-4 py-2.5 text-xs font-bold uppercase tracking-wider transition-all duration-200',
+                  selectedCategory === lang.id ? 'bg-gray-800 text-white shadow-lg' : 'bg-white text-fg-muted border border-gray-200 hover:bg-gray-100 hover:text-gray-800'
+                )}>
+                {lang.label}
+              </button>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <section className="py-8 bg-surface-secondary">
         <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
           <div className="relative max-w-xl">

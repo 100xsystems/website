@@ -3,12 +3,44 @@
 import React from 'react';
 import { useLiveSearch, cn, v, n, Favicon, DiscoverPageShell } from './discover.utils';
 
+const REDDIT_SUBREDDITS = [
+  { id: 'programming', label: 'Programming' },
+  { id: 'javascript', label: 'JavaScript' },
+  { id: 'reactjs', label: 'ReactJS' },
+  { id: 'python', label: 'Python' },
+  { id: 'webdev', label: 'Web Dev' },
+  { id: 'learnprogramming', label: 'Learn' },
+  { id: 'MachineLearning', label: 'ML' },
+  { id: 'golang', label: 'Go' },
+  { id: 'rust', label: 'Rust' },
+  { id: 'typescript', label: 'TypeScript' },
+  { id: 'devops', label: 'DevOps' },
+  { id: 'cybersecurity', label: 'Security' },
+  { id: 'OpenSource', label: 'Open Source' },
+];
+
 export function RedditPage() {
-  const { query, setQuery, items, initialLoading, searchLoading, loadingMore, error, sentinelRef, hasMore } = useLiveSearch('reddit', 'programming', { limit: 50 });
+  const { query, setQuery, items, initialLoading, searchLoading, loadingMore, error, selectedCategory, setSelectedCategory, sentinelRef, hasMore } = useLiveSearch('reddit', 'programming', { categories: REDDIT_SUBREDDITS, limit: 50 });
   const isLoading = initialLoading && items.length === 0;
 
   return (
     <DiscoverPageShell title="Reddit" subtitle="Discussions" brandColor="bg-orange-500" brandLabel="REDDIT" textColor="text-orange-500" description="Discussions and posts from subreddits across programming topics.">
+      {/* Subreddit filter tabs */}
+      <section className="py-6 bg-white border-b border-border">
+        <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
+          <div className="flex flex-wrap gap-2">
+            {REDDIT_SUBREDDITS.map((sub) => (
+              <button key={sub.id} onClick={() => setSelectedCategory(selectedCategory === sub.id ? null : sub.id)}
+                className={cn('px-4 py-2.5 text-xs font-bold uppercase tracking-wider transition-all duration-200',
+                  selectedCategory === sub.id ? 'bg-orange-500 text-white shadow-lg' : 'bg-white text-fg-muted border border-orange-200 hover:bg-orange-50 hover:text-orange-700'
+                )}>
+                {sub.label}
+              </button>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <section className="py-8 bg-white border-b border-border">
         <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
           <div className="relative max-w-xl">

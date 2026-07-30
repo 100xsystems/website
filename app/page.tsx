@@ -1,6 +1,7 @@
 import { HomeFeed } from '@/presentation/features/homeFeed.feature';
 import { HomeYC } from '@/presentation/features/homeYC.feature';
 import { HomeProductHunt } from '@/presentation/features/homeProductHunt.feature';
+import { HomeDiscover } from '@/presentation/features/homeDiscover.feature';
 import { HomeUnifiedSearch } from '@/presentation/features/homeUnifiedSearch.feature';
 import { loadFeedCache } from '@/feed/feed.cache';
 import type { FeedCache, RegistryFeedItem, RegistryFeedData } from '@/feed/feed.types';
@@ -71,6 +72,7 @@ export default async function HomePage() {
       {/* Feed — latest articles from ALL feeds, sorted by recency */}
       <HomeFeed initialArticles={latestArticles} />
 
+      <HomeDiscover />
       <HomeYC />
       <HomeProductHunt />
     </>
