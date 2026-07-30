@@ -18,5 +18,12 @@ export default async function CaseStudyDetailPage({ params }: Props) {
   const { slug } = await params;
   const hub = getHub('case-studies', slug);
   if (!hub) notFound();
-  return <ResourceHubDetail hub={hub} backLabel="Case Studies" backHref="/knowledge/case-studies" />;
+  return (
+    <ResourceHubDetail
+      hub={hub}
+      backLabel="Case Studies"
+      backHref="/knowledge/case-studies"
+      lessonBasePath={hub.lessons ? `/knowledge/case-studies/${hub.slug}` : undefined}
+    />
+  );
 }

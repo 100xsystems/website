@@ -23,7 +23,15 @@ export default async function TechnologyDetailPage({ params }: Props) {
   for (const cat of ['frameworks', 'infrastructure', 'databases', 'data-formats', 'runtimes']) {
     const hub = getHub(cat, slug);
     if (hub) {
-      return <ResourceHubDetail hub={hub} backLabel="Technologies" backHref="/knowledge/technologies" />;
+      const lessonBasePath = hub.lessons ? `/knowledge/technologies/${hub.slug}` : undefined;
+      return (
+        <ResourceHubDetail
+          hub={hub}
+          backLabel="Technologies"
+          backHref="/knowledge/technologies"
+          lessonBasePath={lessonBasePath}
+        />
+      );
     }
   }
   notFound();

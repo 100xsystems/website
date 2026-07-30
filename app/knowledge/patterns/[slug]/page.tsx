@@ -18,5 +18,12 @@ export default async function PatternDetailPage({ params }: Props) {
   const { slug } = await params;
   const hub = getHub('patterns', slug);
   if (!hub) notFound();
-  return <ResourceHubDetail hub={hub} backLabel="Patterns" backHref="/knowledge/patterns" />;
+  return (
+    <ResourceHubDetail
+      hub={hub}
+      backLabel="Patterns"
+      backHref="/knowledge/patterns"
+      lessonBasePath={hub.lessons ? `/knowledge/patterns/${hub.slug}` : undefined}
+    />
+  );
 }
