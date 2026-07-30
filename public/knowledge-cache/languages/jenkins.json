@@ -1,0 +1,110 @@
+{
+  "slug": "jenkins",
+  "name": "Jenkins",
+  "description": "Jenkins is the leading open-source automation server for building, testing, and deploying software. It supports hundreds of plugins for CI/CD, making it one of the most flexible automation platforms available.",
+  "categories": [
+    {
+      "label": "Free Books",
+      "icon": "book",
+      "items": [
+        {
+          "title": "Jenkins User Documentation",
+          "url": "https://www.jenkins.io/doc/",
+          "description": "Comprehensive official documentation covering setup, pipelines, and administration."
+        },
+        {
+          "title": "Jenkins Handbook",
+          "url": "https://www.jenkins.io/doc/book/",
+          "description": "Official Jenkins handbook covering pipeline syntax, blue ocean, and best practices."
+        }
+      ]
+    },
+    {
+      "label": "Official Documentation",
+      "icon": "docs",
+      "items": [
+        {
+          "title": "Jenkins Pipeline Syntax",
+          "url": "https://www.jenkins.io/doc/book/pipeline/syntax/",
+          "description": "Complete reference for Declarative and Scripted pipeline syntax."
+        },
+        {
+          "title": "Jenkins Getting Started",
+          "url": "https://www.jenkins.io/doc/pipeline/tour/getting-started/",
+          "description": "Tour-based guide for creating your first Jenkins pipeline."
+        }
+      ]
+    },
+    {
+      "label": "Interactive Courses",
+      "icon": "code",
+      "items": [
+        {
+          "title": "Jenkins Tutorial (Tutorialspoint)",
+          "url": "https://www.tutorialspoint.com/jenkins/",
+          "description": "Free interactive tutorial covering Jenkins architecture, jobs, and plugins."
+        }
+      ]
+    },
+    {
+      "label": "Video Courses",
+      "icon": "video",
+      "items": [
+        {
+          "title": "Jenkins Full Course (YouTube)",
+          "url": "https://www.youtube.com/results?search_query=jenkins+full+course",
+          "description": "Comprehensive video courses covering CI/CD pipeline creation and management."
+        }
+      ]
+    },
+    {
+      "label": "Practice & Challenges",
+      "icon": "terminal",
+      "items": [
+        {
+          "title": "Jenkins Playground",
+          "url": "https://www.jenkins.io/playground/",
+          "description": "Shared Jenkins instance for experimentation and learning pipeline creation."
+        }
+      ]
+    },
+    {
+      "label": "Reference & Cheatsheets",
+      "icon": "reference",
+      "items": [
+        {
+          "title": "Jenkins Cheatsheet",
+          "url": "https://devhints.io/jenkins",
+          "description": "Quick reference for Jenkins pipeline syntax, steps, and configuration."
+        }
+      ]
+    },
+    {
+      "label": "News & Updates",
+      "icon": "news",
+      "items": [
+        {
+          "title": "Jenkins Blog",
+          "url": "https://www.jenkins.io/blog/",
+          "description": "Official Jenkins blog with release announcements, security advisories, and community updates."
+        }
+      ]
+    },
+    {
+      "label": "Community",
+      "icon": "community",
+      "items": [
+        {
+          "title": "Jenkins Community",
+          "url": "https://www.jenkins.io/participate/",
+          "description": "Official community channels with mailing lists, IRC, and forums."
+        },
+        {
+          "title": "Reddit r/jenkinsci",
+          "url": "https://www.reddit.com/r/jenkinsci/",
+          "description": "Community for Jenkins discussions and troubleshooting."
+        }
+      ]
+    }
+  ]
+}

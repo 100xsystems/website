@@ -1,16 +1,145 @@
 {
-  "id": "cpp",
-  "category": "languages",
-  "label": "C++",
-  "aliases": [],
-  "description": "Systems programming language with object-oriented, generic, and low-level features",
-  "summary": null,
-  "parents": [],
-  "children": [],
-  "related": [],
-  "externalUrls": {
-    "wikipedia": "https://en.wikipedia.org/wiki/C%2B%2B",
-    "wikidata": "https://www.wikidata.org/wiki/Q2407"
-  },
-  "indexedAt": "2026-07-23T14:36:13.617Z"
+  "slug": "cpp",
+  "name": "C++",
+  "description": "C++ is a systems programming language that gives you complete control over memory and hardware. It powers game engines, browsers (Chrome), operating systems, embedded devices, and high-frequency trading. These are the definitive free resources — vetted, current, and complete.",
+  "categories": [
+    {
+      "label": "Free Books",
+      "icon": "book",
+      "items": [
+        {
+          "title": "LearnCpp.com",
+          "url": "https://www.learncpp.com/",
+          "description": "Universally recommended as the gold standard for learning modern C++ from scratch with step-by-step tutorials and quizzes."
+        },
+        {
+          "title": "C++ Core Guidelines",
+          "url": "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines",
+          "description": "Authored by Bjarne Stroustrup and Herb Sutter. The ultimate best-practices guide for modern C++."
+        }
+      ]
+    },
+    {
+      "label": "Official Documentation",
+      "icon": "docs",
+      "items": [
+        {
+          "title": "cppreference.com",
+          "url": "https://cppreference.com/",
+          "description": "The definitive exhaustive technical reference for the C++ language and Standard Library, updated for C++20/23/26."
+        },
+        {
+          "title": "isocpp.org",
+          "url": "https://isocpp.org/",
+          "description": "The central hub for standard C++ with FAQ, committee updates, and ISO standard announcements."
+        },
+        {
+          "title": "C++ Standard Proposals",
+          "url": "https://isocpp.org/std/the-standard",
+          "description": "Track the evolution of C++ through ISO committee papers and feature proposals."
+        }
+      ]
+    },
+    {
+      "label": "Interactive Courses",
+      "icon": "code",
+      "items": [
+        {
+          "title": "freeCodeCamp — 31-Hour C++ Course",
+          "url": "https://www.freecodecamp.org/news/learn-c-with-free-31-hour-course/",
+          "description": "A massive comprehensive deep-dive course covering everything from beginner through memory management, OOP, and C++20 features."
+        }
+      ]
+    },
+    {
+      "label": "Video Courses",
+      "icon": "video",
+      "items": [
+        {
+          "title": "C++ Programming Course (freeCodeCamp)",
+          "url": "https://www.youtube.com/c/Freecodecamp",
+          "description": "The 31-hour course on YouTube alongside focused crash courses on STL and templates."
+        },
+        {
+          "title": "C++ Weekly (Jason Turner)",
+          "url": "https://www.youtube.com/@Lefticus1",
+          "description": "Short bite-sized episodes focusing on modern C++ best practices and new features."
+        }
+      ]
+    },
+    {
+      "label": "Practice & Challenges",
+      "icon": "terminal",
+      "items": [
+        {
+          "title": "Exercism — C++ Track",
+          "url": "https://exercism.org/tracks/cpp",
+          "description": "100 structured coding exercises across 19 concepts designed to teach idiomatic C++ with free human mentoring."
+        },
+        {
+          "title": "HackerRank — C++ Domain",
+          "url": "https://www.hackerrank.com/domains/cpp",
+          "description": "Drill specific subdomains like classes, inheritance, strings, and the STL."
+        },
+        {
+          "title": "Codewars — C++ Kata",
+          "url": "https://www.codewars.com/",
+          "description": "Solve community-created challenges across hundreds of difficulty levels."
+        }
+      ]
+    },
+    {
+      "label": "Reference & Cheatsheets",
+      "icon": "reference",
+      "items": [
+        {
+          "title": "C++ Core Guidelines",
+          "url": "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines",
+          "description": "The ultimate cheatsheet for modern C++ best practices covering interfaces, resources, and concurrency."
+        },
+        {
+          "title": "C++ Cheatsheet (devhints)",
+          "url": "https://devhints.io/cpp",
+          "description": "A concise reference covering C++ syntax, data types, STL containers, and algorithms."
+        }
+      ]
+    },
+    {
+      "label": "News & Updates",
+      "icon": "news",
+      "items": [
+        {
+          "title": "Standard C++ Blog (isocpp.org)",
+          "url": "https://isocpp.org/blog",
+          "description": "Official news tracking ISO committee trip reports, compiler releases, and standard proposals."
+        },
+        {
+          "title": "C++ Compiler Support",
+          "url": "https://en.cppreference.com/w/cpp/compiler_support",
+          "description": "Track compiler support for C++20/23/26 features across GCC, Clang, MSVC, and others."
+        }
+      ]
+    },
+    {
+      "label": "Community",
+      "icon": "community",
+      "items": [
+        {
+          "title": "Reddit r/cpp",
+          "url": "https://www.reddit.com/r/cpp/",
+          "description": "The main global forum for C++ news, library announcements, and technical discussions."
+        },
+        {
+          "title": "Reddit r/cpp_questions",
+          "url": "https://www.reddit.com/r/cpp_questions/",
+          "description": "Dedicated to learners asking questions and seeking debugging help."
+        },
+        {
+          "title": "Stack Overflow — C++ Tag",
+          "url": "https://stackoverflow.com/questions/tagged/c%2b%2b",
+          "description": "The definitive Q&A forum for C++ from template metaprogramming to optimization."
+        }
+      ]
+    }
+  ]
 }

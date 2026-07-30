@@ -1,0 +1,130 @@
+{
+  "slug": "groovy",
+  "name": "Groovy",
+  "description": "Apache Groovy is a powerful, optionally typed, dynamic language for the JVM. It integrates seamlessly with Java and powers Gradle builds, Jenkins pipelines, and modern DSLs with concise syntax and metaprogramming capabilities.",
+  "categories": [
+    {
+      "label": "Free Books",
+      "icon": "book",
+      "items": [
+        {
+          "title": "Groovy Succinctly (Syncfusion)",
+          "url": "https://www.syncfusion.com/succinctly-free-ebooks",
+          "description": "A free 104-page introductory book covering Groovy basics and practical application development."
+        },
+        {
+          "title": "Groovy in Action (Free Chapters)",
+          "url": "https://livebook.manning.com/book/groovy-in-action-second-edition/",
+          "description": "Free preview chapters from the definitive Groovy handbook covering control structures and builders."
+        }
+      ]
+    },
+    {
+      "label": "Official Documentation",
+      "icon": "docs",
+      "items": [
+        {
+          "title": "Apache Groovy Documentation",
+          "url": "https://groovy-lang.org/documentation.html",
+          "description": "Complete reference manual, language spec, user guides, and API documentation."
+        },
+        {
+          "title": "Groovy Development Kit (GDK)",
+          "url": "https://groovy-lang.org/groovy-dev-kit.html",
+          "description": "Essential guide to Groovy enhancements over Java — I/O helpers, collection methods, and file management."
+        }
+      ]
+    },
+    {
+      "label": "Interactive Courses",
+      "icon": "code",
+      "items": [
+        {
+          "title": "Exercism — Groovy Track",
+          "url": "https://exercism.org/tracks/groovy",
+          "description": "66 coding exercises from simple strings to advanced logic puzzles with mentoring."
+        },
+        {
+          "title": "Groovy Online Compiler (JDoodle)",
+          "url": "https://www.jdoodle.com/execute-groovy-online",
+          "description": "Zero-setup in-browser Groovy execution environment for testing snippets."
+        }
+      ]
+    },
+    {
+      "label": "Video Courses",
+      "icon": "video",
+      "items": [
+        {
+          "title": "Groovy Tutorial (TutorialsPoint)",
+          "url": "https://www.tutorialspoint.com/groovy/index.htm",
+          "description": "Step-by-step video and text tutorials covering closures, XML/JSON parsing, and testing."
+        },
+        {
+          "title": "Groovy for Jenkins Pipelines",
+          "url": "https://www.youtube.com/",
+          "description": "Practical tutorials focused on using Groovy for CI/CD pipeline development."
+        }
+      ]
+    },
+    {
+      "label": "Practice & Challenges",
+      "icon": "terminal",
+      "items": [
+        {
+          "title": "Exercism — Groovy Track",
+          "url": "https://exercism.org/tracks/groovy",
+          "description": "Free practice with automated analysis and peer mentoring."
+        },
+        {
+          "title": "Codewars — Groovy Kata",
+          "url": "https://www.codewars.com/",
+          "description": "Solve community-created challenges in Groovy."
+        }
+      ]
+    },
+    {
+      "label": "Reference & Cheatsheets",
+      "icon": "reference",
+      "items": [
+        {
+          "title": "Groovy Cheatsheet",
+          "url": "https://devhints.io/groovy",
+          "description": "Concise reference for Groovy syntax, closures, and collections."
+        }
+      ]
+    },
+    {
+      "label": "News & Updates",
+      "icon": "news",
+      "items": [
+        {
+          "title": "Apache Groovy Blog",
+          "url": "https://groovy-lang.org/news.html",
+          "description": "Official Apache Groovy announcements and release notes."
+        },
+        {
+          "title": "Reddit r/groovy",
+          "url": "https://www.reddit.com/r/groovy/",
+          "description": "Community for Jenkins, Gradle, and Groovy discussions."
+        }
+      ]
+    },
+    {
+      "label": "Community",
+      "icon": "community",
+      "items": [
+        {
+          "title": "Apache Groovy Mailing List",
+          "url": "https://groovy-lang.org/support.html",
+          "description": "Official mailing lists and developer Slack channels."
+        },
+        {
+          "title": "Stack Overflow — Groovy Tag",
+          "url": "https://stackoverflow.com/questions/tagged/groovy",
+          "description": "Q&A for Groovy, Gradle, and Jenkins pipeline questions."
+        }
+      ]
+    }
+  ]
+}

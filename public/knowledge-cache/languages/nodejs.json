@@ -1,0 +1,120 @@
+{
+  "slug": "nodejs",
+  "name": "Node.js",
+  "description": "Node.js is a JavaScript runtime built on Chrome's V8 engine that enables server-side JavaScript. It powers millions of backends, APIs, and microservices with its event-driven, non-blocking I/O model.",
+  "categories": [
+    {
+      "label": "Free Books",
+      "icon": "book",
+      "items": [
+        {
+          "title": "Node.js Learn Guides",
+          "url": "https://nodejs.org/learn",
+          "description": "Official Node.js tutorial hub covering HTTP servers, file system, async patterns, and more."
+        },
+        {
+          "title": "Node.js Best Practices",
+          "url": "https://github.com/goldbergyoni/nodebestpractices",
+          "description": "The largest compilation of production-grade Node.js best practices and architecture tips."
+        }
+      ]
+    },
+    {
+      "label": "Official Documentation",
+      "icon": "docs",
+      "items": [
+        {
+          "title": "Node.js API Reference",
+          "url": "https://nodejs.org/api/",
+          "description": "Complete API documentation for all core modules: fs, http, crypto, stream, and path."
+        },
+        {
+          "title": "Node.js Release Schedule",
+          "url": "https://nodejs.org/en/about/previous-releases",
+          "description": "LTS release cycle information for production deployment planning."
+        }
+      ]
+    },
+    {
+      "label": "Interactive Courses",
+      "icon": "code",
+      "items": [
+        {
+          "title": "The Odin Project Node.js",
+          "url": "https://www.theodinproject.com/paths/full-stack-javascript/courses/nodejs",
+          "description": "Free open-source Node.js curriculum with real-world projects."
+        }
+      ]
+    },
+    {
+      "label": "Video Courses",
+      "icon": "video",
+      "items": [
+        {
+          "title": "Node.js Full Course (freeCodeCamp)",
+          "url": "https://www.youtube.com/watch?v=Oe421EPjeBE",
+          "description": "Multi-hour Node.js and Express.js course covering backend development."
+        },
+        {
+          "title": "Node.js Crash Course (Traversy Media)",
+          "url": "https://www.youtube.com/watch?v=fBNz5xF-Kx4",
+          "description": "Popular Node.js crash course covering essential concepts."
+        }
+      ]
+    },
+    {
+      "label": "Practice & Challenges",
+      "icon": "terminal",
+      "items": [
+        {
+          "title": "Node.js Playground",
+          "url": "https://runkit.com/",
+          "description": "Online Node.js playground for testing code snippets in the browser."
+        }
+      ]
+    },
+    {
+      "label": "Reference & Cheatsheets",
+      "icon": "reference",
+      "items": [
+        {
+          "title": "Node.js Cheatsheet",
+          "url": "https://devhints.io/nodejs",
+          "description": "A concise one-page reference for Node.js modules and patterns."
+        }
+      ]
+    },
+    {
+      "label": "News & Updates",
+      "icon": "news",
+      "items": [
+        {
+          "title": "Node.js Blog",
+          "url": "https://nodejs.org/en/blog/",
+          "description": "Official Node.js blog with release notes and security announcements."
+        },
+        {
+          "title": "Node Weekly",
+          "url": "https://nodeweekly.com/",
+          "description": "Weekly newsletter covering Node.js articles, tutorials, and tools."
+        }
+      ]
+    },
+    {
+      "label": "Community",
+      "icon": "community",
+      "items": [
+        {
+          "title": "Node.js GitHub",
+          "url": "https://github.com/nodejs/node",
+          "description": "Official Node.js repository with issues and discussions."
+        },
+        {
+          "title": "Reddit r/node",
+          "url": "https://www.reddit.com/r/node/",
+          "description": "Largest Node.js community for discussions and project showcases."
+        }
+      ]
+    }
+  ]
+}

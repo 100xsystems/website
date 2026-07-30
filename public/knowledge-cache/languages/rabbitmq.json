@@ -1,0 +1,110 @@
+{
+  "slug": "rabbitmq",
+  "name": "RabbitMQ",
+  "description": "RabbitMQ is the most widely deployed open-source message broker. It supports multiple messaging protocols and patterns including AMQP, MQTT, and STOMP for building reliable distributed systems.",
+  "categories": [
+    {
+      "label": "Free Books",
+      "icon": "book",
+      "items": [
+        {
+          "title": "RabbitMQ Official Docs",
+          "url": "https://www.rabbitmq.com/docs",
+          "description": "The definitive documentation covering everything from setup to clustering and security."
+        },
+        {
+          "title": "RabbitMQ Tutorials",
+          "url": "https://www.rabbitmq.com/tutorials",
+          "description": "Classic step-by-step tutorials covering Hello World, Work Queues, Pub-Sub, Routing, and Topics."
+        }
+      ]
+    },
+    {
+      "label": "Official Documentation",
+      "icon": "docs",
+      "items": [
+        {
+          "title": "RabbitMQ CLI Tools Guide",
+          "url": "https://www.rabbitmq.com/docs/cli",
+          "description": "Official reference for CLI utilities, node management, and cluster health."
+        },
+        {
+          "title": "CloudAMQP RabbitMQ Guide",
+          "url": "https://www.cloudamqp.com/blog/part1-rabbitmq-for-beginners-what-is-rabbitmq.html",
+          "description": "High-quality beginner guides breaking down exchanges, queues, and bindings."
+        }
+      ]
+    },
+    {
+      "label": "Interactive Courses",
+      "icon": "code",
+      "items": [
+        {
+          "title": "CloudAMQP Free RabbitMQ Training",
+          "url": "https://www.cloudamqp.com/blog/free-rabbitmq-training-course.html",
+          "description": "Free comprehensive training course from beginner to advanced with certification."
+        }
+      ]
+    },
+    {
+      "label": "Video Courses",
+      "icon": "video",
+      "items": [
+        {
+          "title": "RabbitMQ Crash Course (YouTube)",
+          "url": "https://www.youtube.com/results?search_query=rabbitmq+crash+course",
+          "description": "Video walkthroughs of message queuing concepts and implementation patterns."
+        }
+      ]
+    },
+    {
+      "label": "Practice & Challenges",
+      "icon": "terminal",
+      "items": [
+        {
+          "title": "CloudAMQP Free Cluster",
+          "url": "https://www.cloudamqp.com/plans.html",
+          "description": "Free RabbitMQ cluster in the cloud for experimentation and learning."
+        }
+      ]
+    },
+    {
+      "label": "Reference & Cheatsheets",
+      "icon": "reference",
+      "items": [
+        {
+          "title": "RabbitMQ Cheat Sheet",
+          "url": "https://www.rameshfadatare.com/cheat-sheet/rabbitmq-cheat-sheet/",
+          "description": "Structured reference covering exchanges, queues, bindings, and CLI commands."
+        }
+      ]
+    },
+    {
+      "label": "News & Updates",
+      "icon": "news",
+      "items": [
+        {
+          "title": "RabbitMQ Blog",
+          "url": "https://www.rabbitmq.com/blog/",
+          "description": "Official blog with release notes, performance studies, and community updates."
+        }
+      ]
+    },
+    {
+      "label": "Community",
+      "icon": "community",
+      "items": [
+        {
+          "title": "RabbitMQ Discord",
+          "url": "https://discord.com/invite/VwWnkG3GWy",
+          "description": "Official community Discord for real-time discussions and support."
+        },
+        {
+          "title": "RabbitMQ Users Mailing List",
+          "url": "https://groups.google.com/g/rabbitmq-users",
+          "description": "Official mailing list for technical support and discussions."
+        }
+      ]
+    }
+  ]
+}

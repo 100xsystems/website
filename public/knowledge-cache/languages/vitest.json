@@ -1,0 +1,110 @@
+{
+  "slug": "vitest",
+  "name": "Vitest",
+  "description": "Vitest is a blazing-fast unit test framework powered by Vite. It offers Jest-compatible API with native ESM support, TypeScript integration, and instant hot-module reloading for an exceptional testing experience.",
+  "categories": [
+    {
+      "label": "Free Books",
+      "icon": "book",
+      "items": [
+        {
+          "title": "Vitest Documentation",
+          "url": "https://vitest.dev/guide/",
+          "description": "Comprehensive official documentation covering setup, configuration, and features."
+        },
+        {
+          "title": "Vitest Getting Started",
+          "url": "https://vitest.dev/guide/",
+          "description": "Quickstart guide for installing and running your first Vitest tests."
+        }
+      ]
+    },
+    {
+      "label": "Official Documentation",
+      "icon": "docs",
+      "items": [
+        {
+          "title": "Vitest API Reference",
+          "url": "https://vitest.dev/api/",
+          "description": "Complete API reference for expect, describe, mock, and lifecycle hooks."
+        },
+        {
+          "title": "Vitest Configuration",
+          "url": "https://vitest.dev/config/",
+          "description": "Full configuration reference with all available options and presets."
+        }
+      ]
+    },
+    {
+      "label": "Interactive Courses",
+      "icon": "code",
+      "items": [
+        {
+          "title": "Vitest Examples",
+          "url": "https://vitest.dev/examples/",
+          "description": "Practical examples showing Vitest in action with various frameworks."
+        }
+      ]
+    },
+    {
+      "label": "Video Courses",
+      "icon": "video",
+      "items": [
+        {
+          "title": "Vitest Crash Course (YouTube)",
+          "url": "https://www.youtube.com/results?search_query=vitest+testing+crash+course",
+          "description": "Video walkthroughs covering Vitest features, mocking, and integration."
+        }
+      ]
+    },
+    {
+      "label": "Practice & Challenges",
+      "icon": "terminal",
+      "items": [
+        {
+          "title": "Vitest Starter",
+          "url": "https://vitest.dev/guide/#examples",
+          "description": "Starter templates for various project setups with Vitest pre-configured."
+        }
+      ]
+    },
+    {
+      "label": "Reference & Cheatsheets",
+      "icon": "reference",
+      "items": [
+        {
+          "title": "Vitest Cheatsheet",
+          "url": "https://vitest.dev/api/",
+          "description": "Quick API reference for matchers, hooks, and mocking utilities."
+        }
+      ]
+    },
+    {
+      "label": "News & Updates",
+      "icon": "news",
+      "items": [
+        {
+          "title": "Vite Blog",
+          "url": "https://vite.dev/blog/",
+          "description": "Vite ecosystem blog covering Vitest releases and features."
+        }
+      ]
+    },
+    {
+      "label": "Community",
+      "icon": "community",
+      "items": [
+        {
+          "title": "Vite Discord",
+          "url": "https://discord.gg/vite",
+          "description": "Vite/Vitest community on Discord."
+        },
+        {
+          "title": "Vitest GitHub",
+          "url": "https://github.com/vitest-dev/vitest",
+          "description": "Official repository for issues and contributions."
+        }
+      ]
+    }
+  ]
+}

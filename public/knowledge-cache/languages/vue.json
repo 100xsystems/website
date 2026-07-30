@@ -1,0 +1,125 @@
+{
+  "slug": "vue",
+  "name": "Vue.js",
+  "description": "Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UIs on the web. Its core library focuses on the view layer only, making it easy to integrate with other libraries or existing projects.",
+  "categories": [
+    {
+      "label": "Free Books",
+      "icon": "book",
+      "items": [
+        {
+          "title": "Vue.js Official Guide",
+          "url": "https://vuejs.org/guide/introduction.html",
+          "description": "The definitive official guide covering Vue 3, Composition API, and advanced patterns."
+        },
+        {
+          "title": "LearnVue Guides",
+          "url": "https://learnvue.co/",
+          "description": "Detailed written tutorials covering state management, routing, and component architecture."
+        }
+      ]
+    },
+    {
+      "label": "Official Documentation",
+      "icon": "docs",
+      "items": [
+        {
+          "title": "Vue.js Docs",
+          "url": "https://vuejs.org/",
+          "description": "Complete official documentation with interactive tutorial, API reference, and migration guides."
+        },
+        {
+          "title": "Vue Router Docs",
+          "url": "https://router.vuejs.org/",
+          "description": "Official routing solution for Vue.js with dynamic route matching and navigation guards."
+        },
+        {
+          "title": "Pinia State Management",
+          "url": "https://pinia.vuejs.org/",
+          "description": "Official Vue state management library with full TypeScript support."
+        }
+      ]
+    },
+    {
+      "label": "Interactive Courses",
+      "icon": "code",
+      "items": [
+        {
+          "title": "Scrimba Learn Vue",
+          "url": "https://scrimba.com/learn-vue-c0jrrpaasr",
+          "description": "Free interactive intro course with browser-based code editing."
+        },
+        {
+          "title": "Vue.js Tutorial (freeCodeCamp)",
+          "url": "https://www.freecodecamp.org/news/search/?query=vue",
+          "description": "Free project-based Vue.js tutorials and full courses."
+        }
+      ]
+    },
+    {
+      "label": "Video Courses",
+      "icon": "video",
+      "items": [
+        {
+          "title": "Vue.js 3 Playlist (Net Ninja)",
+          "url": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9hYYGbV60Vq3IXYNfDk8At1",
+          "description": "Structured YouTube series covering Options API, Router, and Composition API."
+        }
+      ]
+    },
+    {
+      "label": "Practice & Challenges",
+      "icon": "terminal",
+      "items": [
+        {
+          "title": "Vue SFC Playground",
+          "url": "https://play.vuejs.org/",
+          "description": "Official Vue single-file component playground for testing in the browser."
+        }
+      ]
+    },
+    {
+      "label": "Reference & Cheatsheets",
+      "icon": "reference",
+      "items": [
+        {
+          "title": "Vue Cheatsheets (Vue School)",
+          "url": "https://vueschool.io/cheatsheets",
+          "description": "Free downloadable quick-reference guides for Vue 3, Pinia, and Composition API."
+        }
+      ]
+    },
+    {
+      "label": "News & Updates",
+      "icon": "news",
+      "items": [
+        {
+          "title": "Vue.js Blog",
+          "url": "https://vuejs.org/",
+          "description": "Official release notes, RFCs, and ecosystem updates from the core team."
+        },
+        {
+          "title": "Awesome Vue",
+          "url": "https://github.com/vuejs/awesome-vue",
+          "description": "Curated list of Vue ecosystem libraries, plugins, and tools."
+        }
+      ]
+    },
+    {
+      "label": "Community",
+      "icon": "community",
+      "items": [
+        {
+          "title": "Reddit r/vuejs",
+          "url": "https://www.reddit.com/r/vuejs/",
+          "description": "Active community for Vue discussions, projects, and debugging."
+        },
+        {
+          "title": "Vue Land Discord",
+          "url": "https://discord.gg/vue",
+          "description": "Official Discord community for real-time Vue help."
+        }
+      ]
+    }
+  ]
+}

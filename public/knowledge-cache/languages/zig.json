@@ -1,16 +1,130 @@
 {
-  "id": "zig",
-  "category": "languages",
-  "label": "Zig",
-  "aliases": [],
-  "description": "General-purpose systems language prioritizing simplicity and performance",
-  "summary": null,
-  "parents": [],
-  "children": [],
-  "related": [],
-  "externalUrls": {
-    "wikipedia": "https://en.wikipedia.org/wiki/Zig_(programming_language)",
-    "wikidata": "https://www.wikidata.org/wiki/Q48815245"
-  },
-  "indexedAt": "2026-07-23T14:36:17.539Z"
+  "slug": "zig",
+  "name": "Zig",
+  "description": "Zig is a modern systems programming language focused on robustness, optimality, and maintainability. It offers manual memory management, compile-time computation, seamless C interop, and a first-class cross-compilation toolchain.",
+  "categories": [
+    {
+      "label": "Free Books",
+      "icon": "book",
+      "items": [
+        {
+          "title": "Introduction to Zig (Project-Based)",
+          "url": "https://pedropark99.github.io/zig-book/",
+          "description": "Open-access book teaching Zig through building a Base64 encoder, HTTP server, and image filter."
+        },
+        {
+          "title": "zig.guide",
+          "url": "https://zig.guide/",
+          "description": "Highly structured community introduction walking through core language features step-by-step."
+        },
+        {
+          "title": "Learning Zig",
+          "url": "https://www.openmymind.net/learning_zig/",
+          "description": "Concise intro guide making developers comfortable with Zig memory philosophy and syntax."
+        }
+      ]
+    },
+    {
+      "label": "Official Documentation",
+      "icon": "docs",
+      "items": [
+        {
+          "title": "Zig Language Reference",
+          "url": "https://ziglang.org/documentation/master/",
+          "description": "Definitive technical specification for syntax, builtins, and language semantics."
+        },
+        {
+          "title": "Zig Standard Library Docs",
+          "url": "https://ziglang.org/documentation/master/std/",
+          "description": "Official API reference for allocators, data structures, I/O, and OS integration."
+        }
+      ]
+    },
+    {
+      "label": "Interactive Courses",
+      "icon": "code",
+      "items": [
+        {
+          "title": "Ziglings",
+          "url": "https://codeberg.org/ziglings/exercises/",
+          "description": "Most popular hands-on tool — fix tiny broken programs to learn Zig incrementally."
+        },
+        {
+          "title": "Exercism Zig Track",
+          "url": "https://exercism.org/tracks/zig",
+          "description": "Structured coding exercises with community support."
+        }
+      ]
+    },
+    {
+      "label": "Video Courses",
+      "icon": "video",
+      "items": [
+        {
+          "title": "Zig Programming Tutorials (YouTube)",
+          "url": "https://www.youtube.com/results?search_query=zig+programming+language",
+          "description": "Community video tutorials covering Zig fundamentals and systems programming."
+        }
+      ]
+    },
+    {
+      "label": "Practice & Challenges",
+      "icon": "terminal",
+      "items": [
+        {
+          "title": "Ziglings",
+          "url": "https://codeberg.org/ziglings/exercises/",
+          "description": "Incremental broken-program exercises — the best way to learn Zig hands-on."
+        },
+        {
+          "title": "Exercism Zig Track",
+          "url": "https://exercism.org/tracks/zig",
+          "description": "Free practice with community support."
+        }
+      ]
+    },
+    {
+      "label": "Reference & Cheatsheets",
+      "icon": "reference",
+      "items": [
+        {
+          "title": "DevDocs Zig Reference",
+          "url": "https://devdocs.io/zig/",
+          "description": "Fast, searchable, offline-capable interface for the Zig language reference."
+        }
+      ]
+    },
+    {
+      "label": "News & Updates",
+      "icon": "news",
+      "items": [
+        {
+          "title": "Ziggit Forums",
+          "url": "https://ziggit.dev/",
+          "description": "Official community forum for questions, showcases, and technical discussions."
+        },
+        {
+          "title": "Ziglang News",
+          "url": "https://ziglang.org/news/",
+          "description": "Official news portal tracking compiler releases and core team updates."
+        }
+      ]
+    },
+    {
+      "label": "Community",
+      "icon": "community",
+      "items": [
+        {
+          "title": "Ziggit Forums",
+          "url": "https://ziggit.dev/",
+          "description": "Official forum for Q&A, showcases, and technical brainstorming."
+        },
+        {
+          "title": "Reddit r/Zig",
+          "url": "https://www.reddit.com/r/Zig/",
+          "description": "Community for Zig projects, discussions, and announcements."
+        }
+      ]
+    }
+  ]
 }

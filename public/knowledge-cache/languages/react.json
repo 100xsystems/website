@@ -1,0 +1,140 @@
+{
+  "slug": "react",
+  "name": "React",
+  "description": "React is the most popular frontend library for building user interfaces, developed by Meta. It uses a component-based architecture with a virtual DOM to build fast, interactive web applications at scale.",
+  "categories": [
+    {
+      "label": "Free Books",
+      "icon": "book",
+      "items": [
+        {
+          "title": "React Docs (Beta)",
+          "url": "https://react.dev/",
+          "description": "The official React documentation with interactive tutorials, API references, and best practices."
+        },
+        {
+          "title": "React Handbook (freeCodeCamp)",
+          "url": "https://www.freecodecamp.org/news/the-react-handbook/",
+          "description": "A comprehensive free handbook covering React hooks, components, state, and patterns."
+        }
+      ]
+    },
+    {
+      "label": "Official Documentation",
+      "icon": "docs",
+      "items": [
+        {
+          "title": "React.dev",
+          "url": "https://react.dev/learn",
+          "description": "The official learning guide covering React from basics to advanced patterns with interactive examples."
+        },
+        {
+          "title": "React API Reference",
+          "url": "https://react.dev/reference/react",
+          "description": "Complete API reference for all React hooks, components, and built-in functions."
+        },
+        {
+          "title": "React GitHub",
+          "url": "https://github.com/facebook/react",
+          "description": "The open-source React repository with RFCs and changelogs."
+        }
+      ]
+    },
+    {
+      "label": "Interactive Courses",
+      "icon": "code",
+      "items": [
+        {
+          "title": "Scrimba Learn React",
+          "url": "https://scrimba.com/learn-react-c0jrrpaasr",
+          "description": "Free interactive React course with hands-on coding in the browser."
+        },
+        {
+          "title": "The Odin Project React",
+          "url": "https://www.theodinproject.com/paths/full-stack-javascript/courses/react",
+          "description": "Free open-source React curriculum with project-based learning."
+        }
+      ]
+    },
+    {
+      "label": "Video Courses",
+      "icon": "video",
+      "items": [
+        {
+          "title": "React Full Course (freeCodeCamp)",
+          "url": "https://www.youtube.com/watch?v=w7ejDZ8SWv8",
+          "description": "Multi-hour React course covering hooks, state management, and real-world projects."
+        },
+        {
+          "title": "React Tutorial (Net Ninja)",
+          "url": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9g0ELT6R4w5s5N7tFJhjmKQ",
+          "description": "Beginner-friendly React playlist with practical examples."
+        }
+      ]
+    },
+    {
+      "label": "Practice & Challenges",
+      "icon": "terminal",
+      "items": [
+        {
+          "title": "React Playground",
+          "url": "https://playcode.io/react/",
+          "description": "Online React playground for testing components and ideas instantly."
+        }
+      ]
+    },
+    {
+      "label": "Reference & Cheatsheets",
+      "icon": "reference",
+      "items": [
+        {
+          "title": "React Cheatsheet (devhints)",
+          "url": "https://devhints.io/react",
+          "description": "A concise one-page reference for React hooks, lifecycle, and JSX."
+        },
+        {
+          "title": "React TypeScript Cheatsheet",
+          "url": "https://react-typescript-cheatsheet.netlify.app/",
+          "description": "Comprehensive reference for using React with TypeScript."
+        }
+      ]
+    },
+    {
+      "label": "News & Updates",
+      "icon": "news",
+      "items": [
+        {
+          "title": "React Blog",
+          "url": "https://react.dev/blog",
+          "description": "Official React blog with release announcements, RFCs, and community updates."
+        },
+        {
+          "title": "React Newsletter",
+          "url": "https://reactnewsletter.com/",
+          "description": "Weekly curated React news, articles, and libraries."
+        }
+      ]
+    },
+    {
+      "label": "Community",
+      "icon": "community",
+      "items": [
+        {
+          "title": "Reddit r/reactjs",
+          "url": "https://www.reddit.com/r/reactjs/",
+          "description": "The largest React community for news, discussions, and project showcases."
+        },
+        {
+          "title": "React Discord",
+          "url": "https://discord.gg/react",
+          "description": "Official React Discord server for real-time community Q&A."
+        },
+        {
+          "title": "React DevTools",
+          "url": "https://react.dev/learn/react-developer-tools",
+          "description": "Official browser extension for debugging React applications."
+        }
+      ]
+    }
+  ]
+}

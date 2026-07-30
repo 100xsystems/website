@@ -1,0 +1,110 @@
+{
+  "slug": "kafka",
+  "name": "Apache Kafka",
+  "description": "Apache Kafka is the leading distributed event streaming platform for building real-time data pipelines and streaming applications. It provides high-throughput, fault-tolerant message processing at scale.",
+  "categories": [
+    {
+      "label": "Free Books",
+      "icon": "book",
+      "items": [
+        {
+          "title": "Kafka Documentation",
+          "url": "https://kafka.apache.org/documentation/",
+          "description": "The comprehensive official documentation covering architecture, APIs, and operations."
+        },
+        {
+          "title": "Kafka: The Definitive Guide (Free Chapters)",
+          "url": "https://www.confluent.io/resources/kafka-the-definitive-guide/",
+          "description": "Free chapters from the authoritative OReilly book on Kafka."
+        }
+      ]
+    },
+    {
+      "label": "Official Documentation",
+      "icon": "docs",
+      "items": [
+        {
+          "title": "Kafka Quickstart",
+          "url": "https://kafka.apache.org/quickstart",
+          "description": "Official quickstart guide to get Kafka up and running in minutes."
+        },
+        {
+          "title": "Confluent Developer Hub",
+          "url": "https://developer.confluent.io/",
+          "description": "Free courses, tutorials, and resources from the company behind Kafka."
+        }
+      ]
+    },
+    {
+      "label": "Interactive Courses",
+      "icon": "code",
+      "items": [
+        {
+          "title": "Confluent Developer (Free Courses)",
+          "url": "https://developer.confluent.io/courses/",
+          "description": "Free video courses covering Kafka fundamentals, Kafka Streams, ksqlDB, and connectors."
+        }
+      ]
+    },
+    {
+      "label": "Video Courses",
+      "icon": "video",
+      "items": [
+        {
+          "title": "Apache Kafka Course (freeCodeCamp)",
+          "url": "https://www.youtube.com/watch?v=B5j3uNBH8X4",
+          "description": "Multi-hour comprehensive Kafka course covering architecture and practical usage."
+        }
+      ]
+    },
+    {
+      "label": "Practice & Challenges",
+      "icon": "terminal",
+      "items": [
+        {
+          "title": "Kafka Playground (Confluent Cloud)",
+          "url": "https://www.confluent.io/try/",
+          "description": "Free Kafka cluster in the cloud to experiment with producers, consumers, and streams."
+        }
+      ]
+    },
+    {
+      "label": "Reference & Cheatsheets",
+      "icon": "reference",
+      "items": [
+        {
+          "title": "Kafka Cheatsheet",
+          "url": "https://devhints.io/kafka",
+          "description": "Quick reference for Kafka CLI commands, configuration, and common patterns."
+        }
+      ]
+    },
+    {
+      "label": "News & Updates",
+      "icon": "news",
+      "items": [
+        {
+          "title": "Confluent Blog",
+          "url": "https://www.confluent.io/blog/",
+          "description": "Kafka ecosystem blog with engineering deep dives and release announcements."
+        }
+      ]
+    },
+    {
+      "label": "Community",
+      "icon": "community",
+      "items": [
+        {
+          "title": "Kafka Community",
+          "url": "https://kafka.apache.org/community",
+          "description": "Official community page with mailing lists and Slack channels."
+        },
+        {
+          "title": "Reddit r/apachekafka",
+          "url": "https://www.reddit.com/r/apachekafka/",
+          "description": "Active Kafka community for troubleshooting and discussions."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "slug": "processing",
+  "name": "Processing",
+  "description": "Processing is a flexible software sketchbook and language for learning how to code within the context of the visual arts. It is the premier tool for creative coding, generative art, and data visualization.",
+  "categories": [
+    {
+      "label": "Free Books",
+      "icon": "book",
+      "items": [
+        {
+          "title": "Processing Tutorials (Official)",
+          "url": "https://processing.org/tutorials/",
+          "description": "Official tutorials covering everything from coordinate systems to 2D/3D transformations and hardware integration."
+        },
+        {
+          "title": "Getting Started with Processing",
+          "url": "https://processing.org/tutorials/gettingstarted",
+          "description": "Official guide by the co-founders walking through syntax, concepts, and basics."
+        }
+      ]
+    },
+    {
+      "label": "Official Documentation",
+      "icon": "docs",
+      "items": [
+        {
+          "title": "Processing Reference",
+          "url": "https://processing.org/reference/",
+          "description": "Definitive cheatsheet and documentation for every built-in function and data type."
+        },
+        {
+          "title": "Processing Foundation",
+          "url": "https://processingfoundation.org/",
+          "description": "The non-profit organization supporting the Processing project and community."
+        }
+      ]
+    },
+    {
+      "label": "Interactive Courses",
+      "icon": "code",
+      "items": [
+        {
+          "title": "Hello Processing",
+          "url": "https://hello.processing.org/",
+          "description": "An interactive video introduction teaching fundamentals in about an hour."
+        }
+      ]
+    },
+    {
+      "label": "Video Courses",
+      "icon": "video",
+      "items": [
+        {
+          "title": "The Coding Train (Daniel Shiffman)",
+          "url": "https://thecodingtrain.com/processing",
+          "description": "The gold standard for creative coding instruction with hundreds of video tutorials and coding challenges."
+        }
+      ]
+    },
+    {
+      "label": "Practice & Challenges",
+      "icon": "terminal",
+      "items": [
+        {
+          "title": "OpenProcessing",
+          "url": "https://openprocessing.org/",
+          "description": "Creative coding community to browse, fork, run, and share sketches in the browser."
+        }
+      ]
+    },
+    {
+      "label": "Reference & Cheatsheets",
+      "icon": "reference",
+      "items": [
+        {
+          "title": "Processing Reference",
+          "url": "https://processing.org/reference/",
+          "description": "Complete reference for all built-in functions, constants, and data structures."
+        }
+      ]
+    },
+    {
+      "label": "News & Updates",
+      "icon": "news",
+      "items": [
+        {
+          "title": "Processing Blog",
+          "url": "https://processing.org/blog/",
+          "description": "Official Processing release notes and community updates."
+        }
+      ]
+    },
+    {
+      "label": "Community",
+      "icon": "community",
+      "items": [
+        {
+          "title": "Processing Discourse",
+          "url": "https://discourse.processing.org/",
+          "description": "Official community forum for help, galleries, and event organization."
+        }
+      ]
+    }
+  ]
+}

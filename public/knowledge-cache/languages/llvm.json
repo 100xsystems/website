@@ -1,0 +1,115 @@
+{
+  "slug": "llvm",
+  "name": "LLVM",
+  "description": "LLVM is a collection of modular and reusable compiler and toolchain technologies. It provides the intermediate representation (LLVM IR) and backend infrastructure used by Clang, Rust, Swift, and many other compilers.",
+  "categories": [
+    {
+      "label": "Free Books",
+      "icon": "book",
+      "items": [
+        {
+          "title": "Official LLVM Tutorial: Kaleidoscope",
+          "url": "https://llvm.org/docs/tutorial/",
+          "description": "Step-by-step tutorial building a complete language frontend with LLVM API."
+        },
+        {
+          "title": "LLVM Guide (GitHub)",
+          "url": "https://github.com/mikeroyal/LLVM-Guide",
+          "description": "Curated community resource cataloging tools and applications for LLVM development."
+        }
+      ]
+    },
+    {
+      "label": "Official Documentation",
+      "icon": "docs",
+      "items": [
+        {
+          "title": "Getting Started with LLVM",
+          "url": "https://llvm.org/docs/GettingStarted.html",
+          "description": "Covers checking out sources, requirements, and building LLVM from scratch."
+        },
+        {
+          "title": "LLVM Language Reference Manual",
+          "url": "https://llvm.org/docs/LangRef.html",
+          "description": "The ultimate specification for LLVM IR: instruction set, types, and semantics."
+        },
+        {
+          "title": "LLVM Programmer's Manual",
+          "url": "https://llvm.org/docs/ProgrammersManual.html",
+          "description": "Crucial classes, patterns, and interfaces in the LLVM source base."
+        }
+      ]
+    },
+    {
+      "label": "Interactive Courses",
+      "icon": "code",
+      "items": [
+        {
+          "title": "Compiler Explorer (Godbolt)",
+          "url": "https://godbolt.org/",
+          "description": "Industry-standard platform to compile C/C++/Rust into LLVM IR side-by-side."
+        }
+      ]
+    },
+    {
+      "label": "Video Courses",
+      "icon": "video",
+      "items": [
+        {
+          "title": "Official LLVM YouTube Channel",
+          "url": "https://www.youtube.com/@LLVMPROJ",
+          "description": "Deep-dive engineering talks from LLVM Developers' Meetings."
+        }
+      ]
+    },
+    {
+      "label": "Practice & Challenges",
+      "icon": "terminal",
+      "items": [
+        {
+          "title": "Alive2 Compiler Explorer",
+          "url": "https://alive2.llvm.org/ce/",
+          "description": "Interactive verification environment for LLVM IR optimizations."
+        }
+      ]
+    },
+    {
+      "label": "Reference & Cheatsheets",
+      "icon": "reference",
+      "items": [
+        {
+          "title": "LLVM IR Quick Reference",
+          "url": "https://simplifycpp.org/books/Assembly/LLVM_IR_Quick_Reference.pdf",
+          "description": "Condensed reference for LLVM IR syntax, assembly, and intrinsics."
+        }
+      ]
+    },
+    {
+      "label": "News & Updates",
+      "icon": "news",
+      "items": [
+        {
+          "title": "LLVM Weekly",
+          "url": "https://llvmweekly.org/",
+          "description": "Weekly newsletter summarizing code commits, RFCs, and release notes."
+        }
+      ]
+    },
+    {
+      "label": "Community",
+      "icon": "community",
+      "items": [
+        {
+          "title": "LLVM Discourse Forum",
+          "url": "https://discourse.llvm.org/",
+          "description": "Official home for community support, RFCs, and design discussions."
+        },
+        {
+          "title": "Reddit r/LLVM",
+          "url": "https://www.reddit.com/r/LLVM/",
+          "description": "Active community for compiler development questions and projects."
+        }
+      ]
+    }
+  ]
+}

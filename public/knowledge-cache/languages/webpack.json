@@ -1,0 +1,110 @@
+{
+  "slug": "webpack",
+  "name": "Webpack",
+  "description": "Webpack is a powerful and configurable module bundler for JavaScript applications. It processes modules with dependencies and generates static assets representing those modules for the browser.",
+  "categories": [
+    {
+      "label": "Free Books",
+      "icon": "book",
+      "items": [
+        {
+          "title": "Webpack Documentation",
+          "url": "https://webpack.js.org/concepts/",
+          "description": "Comprehensive official documentation covering concepts, configuration, and guides."
+        },
+        {
+          "title": "Webpack Getting Started",
+          "url": "https://webpack.js.org/guides/getting-started/",
+          "description": "Quickstart guide for setting up and running Webpack."
+        }
+      ]
+    },
+    {
+      "label": "Official Documentation",
+      "icon": "docs",
+      "items": [
+        {
+          "title": "Webpack Configuration",
+          "url": "https://webpack.js.org/configuration/",
+          "description": "Complete configuration reference for all Webpack options."
+        },
+        {
+          "title": "Webpack Loaders",
+          "url": "https://webpack.js.org/loaders/",
+          "description": "Guide to using loaders for processing different file types."
+        }
+      ]
+    },
+    {
+      "label": "Interactive Courses",
+      "icon": "code",
+      "items": [
+        {
+          "title": "Webpack Tutorial (Tutorialspoint)",
+          "url": "https://www.tutorialspoint.com/webpack/",
+          "description": "Free tutorial covering Webpack fundamentals and advanced features."
+        }
+      ]
+    },
+    {
+      "label": "Video Courses",
+      "icon": "video",
+      "items": [
+        {
+          "title": "Webpack Full Course (YouTube)",
+          "url": "https://www.youtube.com/results?search_query=webpack+crash+course+2026",
+          "description": "Video walkthroughs covering bundling, loaders, plugins, and optimization."
+        }
+      ]
+    },
+    {
+      "label": "Practice & Challenges",
+      "icon": "terminal",
+      "items": [
+        {
+          "title": "Webpack Playground",
+          "url": "https://webpack.js.org/playground/",
+          "description": "Online sandbox for experimenting with Webpack configurations."
+        }
+      ]
+    },
+    {
+      "label": "Reference & Cheatsheets",
+      "icon": "reference",
+      "items": [
+        {
+          "title": "Webpack Cheatsheet (devhints)",
+          "url": "https://devhints.io/webpack",
+          "description": "Quick reference for Webpack config, loaders, and plugins."
+        }
+      ]
+    },
+    {
+      "label": "News & Updates",
+      "icon": "news",
+      "items": [
+        {
+          "title": "Webpack Blog",
+          "url": "https://webpack.js.org/blog/",
+          "description": "Official blog with release notes and feature announcements."
+        }
+      ]
+    },
+    {
+      "label": "Community",
+      "icon": "community",
+      "items": [
+        {
+          "title": "Webpack Discord",
+          "url": "https://discord.gg/webpack",
+          "description": "Official Webpack community Discord."
+        },
+        {
+          "title": "Webpack GitHub",
+          "url": "https://github.com/webpack/webpack",
+          "description": "Official repository for issues and contributions."
+        }
+      ]
+    }
+  ]
+}

@@ -192,6 +192,21 @@ function main() {
     console.warn(`  ⚠ Failed to copy knowledge cache: ${err.message}`);
   }
 
+  // Build language resources cache
+  try {
+    const langDir = path.join(registryBaseDir, 'static-data', 'knowledge', 'languages');
+    if (fs.existsSync(langDir)) {
+      const cacheDir = path.join(PUBLIC_DIR, 'knowledge-cache', 'languages');
+      ensureDir(cacheDir);
+      execSync(`cp -r "${langDir}/." "${cacheDir}/"`, { stdio: 'pipe' });
+      console.log('  ✓ knowledge-cache/languages/');
+    } else {
+      console.warn('  ⚠ No static-data/knowledge/languages/ directory in registry');
+    }
+  } catch (err) {
+    console.warn(`  ⚠ Failed to copy languages cache: ${err.message}`);
+  }
+
   // Cleanup clone dir
   if (registryBaseDir === CLONE_DIR) {
     try { fs.rmSync(CLONE_DIR, { recursive: true, force: true }); } catch {}

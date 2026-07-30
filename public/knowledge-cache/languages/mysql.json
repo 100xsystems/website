@@ -1,0 +1,110 @@
+{
+  "slug": "mysql",
+  "name": "MySQL",
+  "description": "MySQL is the world most popular open-source relational database. It is a core component of the LAMP stack and powers millions of web applications, from small blogs to large-scale enterprise systems.",
+  "categories": [
+    {
+      "label": "Free Books",
+      "icon": "book",
+      "items": [
+        {
+          "title": "MySQL Documentation",
+          "url": "https://dev.mysql.com/doc/",
+          "description": "The official MySQL documentation reference manual."
+        },
+        {
+          "title": "MySQL Tutorial",
+          "url": "https://dev.mysql.com/doc/refman/8.4/en/tutorial.html",
+          "description": "Official MySQL tutorial covering SQL basics and advanced queries."
+        }
+      ]
+    },
+    {
+      "label": "Official Documentation",
+      "icon": "docs",
+      "items": [
+        {
+          "title": "MySQL Reference Manual",
+          "url": "https://dev.mysql.com/doc/refman/8.4/en/",
+          "description": "Complete MySQL reference covering SQL syntax, optimization, and administration."
+        },
+        {
+          "title": "MySQL Workbench Docs",
+          "url": "https://dev.mysql.com/doc/workbench/en/",
+          "description": "Documentation for MySQL Workbench GUI tool."
+        }
+      ]
+    },
+    {
+      "label": "Interactive Courses",
+      "icon": "code",
+      "items": [
+        {
+          "title": "MySQL Tutorial (W3Schools)",
+          "url": "https://www.w3schools.com/mysql/",
+          "description": "Free interactive MySQL tutorial with hands-on exercises."
+        }
+      ]
+    },
+    {
+      "label": "Video Courses",
+      "icon": "video",
+      "items": [
+        {
+          "title": "MySQL Course (freeCodeCamp)",
+          "url": "https://www.youtube.com/watch?v=5OdVJbNCSso",
+          "description": "Multi-hour MySQL course covering database design and SQL queries."
+        }
+      ]
+    },
+    {
+      "label": "Practice & Challenges",
+      "icon": "terminal",
+      "items": [
+        {
+          "title": "MySQL Playground",
+          "url": "https://www.db-fiddle.com/",
+          "description": "Online MySQL query editor and database fiddle."
+        }
+      ]
+    },
+    {
+      "label": "Reference & Cheatsheets",
+      "icon": "reference",
+      "items": [
+        {
+          "title": "MySQL Cheatsheet (devhints)",
+          "url": "https://devhints.io/mysql",
+          "description": "Quick reference for MySQL SQL commands and functions."
+        }
+      ]
+    },
+    {
+      "label": "News & Updates",
+      "icon": "news",
+      "items": [
+        {
+          "title": "MySQL Blog",
+          "url": "https://dev.mysql.com/blog-archive/",
+          "description": "Official MySQL release notes and developer articles."
+        }
+      ]
+    },
+    {
+      "label": "Community",
+      "icon": "community",
+      "items": [
+        {
+          "title": "MySQL Forums",
+          "url": "https://forums.mysql.com/",
+          "description": "Official MySQL community forums."
+        },
+        {
+          "title": "Stack Overflow - MySQL Tag",
+          "url": "https://stackoverflow.com/questions/tagged/mysql",
+          "description": "Q&A for MySQL questions."
+        }
+      ]
+    }
+  ]
+}

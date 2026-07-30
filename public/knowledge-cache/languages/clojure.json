@@ -1,16 +1,135 @@
 {
-  "id": "clojure",
-  "category": "languages",
-  "label": "Clojure",
-  "aliases": [],
-  "description": "Modern functional dialect of Lisp on JVM, CLR, and JavaScript runtimes",
-  "summary": null,
-  "parents": [],
-  "children": [],
-  "related": [],
-  "externalUrls": {
-    "wikipedia": "https://en.wikipedia.org/wiki/Clojure",
-    "wikidata": "https://www.wikidata.org/wiki/Q1138396"
-  },
-  "indexedAt": "2026-07-23T14:36:20.913Z"
+  "slug": "clojure",
+  "name": "Clojure",
+  "description": "Clojure is a modern, functional Lisp dialect on the JVM. It emphasizes immutability, persistent data structures, and concurrency, with powerful macro capabilities for metaprogramming.",
+  "categories": [
+    {
+      "label": "Free Books",
+      "icon": "book",
+      "items": [
+        {
+          "title": "Clojure for the Brave and True",
+          "url": "https://www.braveclojure.com/",
+          "description": "A wildly popular, offbeat book covering everything from Lisp basics to building full applications — completely free online."
+        },
+        {
+          "title": "Clojure from the Ground Up",
+          "url": "https://aphyr.com/posts/301-clojure-from-the-ground-up-welcome",
+          "description": "An acclaimed series by Kyle Kingsbury breaking down FP, state, macros, and the REPL from the ground up."
+        }
+      ]
+    },
+    {
+      "label": "Official Documentation",
+      "icon": "docs",
+      "items": [
+        {
+          "title": "Clojure.org Getting Started",
+          "url": "https://clojure.org/guides/getting_started",
+          "description": "Official hub for environment setup, REPL workflows, and Leiningen build tools."
+        },
+        {
+          "title": "Clojure API Reference",
+          "url": "https://clojure.org/api/api",
+          "description": "Complete API documentation for Clojure core functions and macros."
+        }
+      ]
+    },
+    {
+      "label": "Interactive Courses",
+      "icon": "code",
+      "items": [
+        {
+          "title": "Clojure Koans",
+          "url": "https://github.com/functional-koans/clojure-koans",
+          "description": "Interactive exercises teaching Clojure syntax through failing tests — fill in the blanks to learn."
+        },
+        {
+          "title": "Exercism — Clojure Track",
+          "url": "https://exercism.org/tracks/clojure",
+          "description": "12 concept modules and 105 exercises with free peer mentoring."
+        }
+      ]
+    },
+    {
+      "label": "Video Courses",
+      "icon": "video",
+      "items": [
+        {
+          "title": "ClojureTV (Official YouTube)",
+          "url": "https://www.youtube.com/user/ClojureTV",
+          "description": "Official Clojure conference talks including keynotes by Rich Hickey and dev calls."
+        },
+        {
+          "title": "Learn Clojure (freeCodeCamp)",
+          "url": "https://www.classcentral.com/report/best-clojure-courses/",
+          "description": "Community-recommended video series guiding beginners through advanced tooling."
+        }
+      ]
+    },
+    {
+      "label": "Practice & Challenges",
+      "icon": "terminal",
+      "items": [
+        {
+          "title": "Exercism — Clojure Track",
+          "url": "https://exercism.org/tracks/clojure",
+          "description": "Free exercises with automated analysis and human code reviews."
+        },
+        {
+          "title": "4Clojure",
+          "url": "https://www.4clojure.com/",
+          "description": "Bite-sized programming problems testing mastery of core functions and data structures."
+        }
+      ]
+    },
+    {
+      "label": "Reference & Cheatsheets",
+      "icon": "reference",
+      "items": [
+        {
+          "title": "Clojure Cheatsheet",
+          "url": "http://jafingerhut.github.io/cheatsheet/clojuredocs/cheatsheet-tiptip-cdocs-summary.html",
+          "description": "Definitive interactive cheat sheet categorizing all core functions by usage."
+        }
+      ]
+    },
+    {
+      "label": "News & Updates",
+      "icon": "news",
+      "items": [
+        {
+          "title": "Clojure Gazette",
+          "url": "https://ericnormand.me/newsletter",
+          "description": "Weekly newsletter on functional programming patterns and Clojure ecosystem updates."
+        },
+        {
+          "title": "Clojure.org Resources",
+          "url": "https://clojure.org/community/resources",
+          "description": "Official listing of community newsletters and development journals."
+        }
+      ]
+    },
+    {
+      "label": "Community",
+      "icon": "community",
+      "items": [
+        {
+          "title": "Ask Clojure",
+          "url": "https://ask.clojure.org/",
+          "description": "Official Q&A forum run by the core team."
+        },
+        {
+          "title": "ClojureVerse",
+          "url": "https://clojureverse.org/",
+          "description": "Friendly community forum for project discussions and beginner advice."
+        },
+        {
+          "title": "Clojurians Slack",
+          "url": "https://clojure-doc.org/articles/ecosystem/community/",
+          "description": "Active Slack with #beginners, #jobs, and library channels."
+        }
+      ]
+    }
+  ]
 }

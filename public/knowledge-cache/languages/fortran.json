@@ -1,0 +1,130 @@
+{
+  "slug": "fortran",
+  "name": "Fortran",
+  "description": "Fortran is the original high-performance computing language, still dominant in scientific computing, weather simulation, computational physics, and numerical weather prediction. Modern Fortran (2008/2018) brings coarrays and OOP.",
+  "categories": [
+    {
+      "label": "Free Books",
+      "icon": "book",
+      "items": [
+        {
+          "title": "Fortran 90/95 Explained (Free Chapters)",
+          "url": "https://www.fortran90.org/",
+          "description": "Comprehensive free guide covering modern Fortran fundamentals."
+        },
+        {
+          "title": "Professional Fortran Programming",
+          "url": "https://www.fortran90.org/",
+          "description": "Free online book covering Fortran 90/95 through 2018 standards with practical examples."
+        }
+      ]
+    },
+    {
+      "label": "Official Documentation",
+      "icon": "docs",
+      "items": [
+        {
+          "title": "Fortran Standard Documents",
+          "url": "https://www.iso.org/standard/79467.html",
+          "description": "Official ISO Fortran standards (2018, 2023 updates). Free working drafts available."
+        },
+        {
+          "title": "Fortran Wiki",
+          "url": "https://fortranwiki.org/",
+          "description": "Community maintained wiki with tutorials, code examples, and compiler information."
+        }
+      ]
+    },
+    {
+      "label": "Interactive Courses",
+      "icon": "code",
+      "items": [
+        {
+          "title": "Fortran Tutorial (TutorialsPoint)",
+          "url": "https://www.tutorialspoint.com/fortran/index.htm",
+          "description": "Step-by-step Fortran tutorial with online compiler for interactive learning."
+        },
+        {
+          "title": "Exercism — Fortran Track",
+          "url": "https://exercism.org/tracks/fortran",
+          "description": "Free coding exercises with automated testing and mentoring."
+        }
+      ]
+    },
+    {
+      "label": "Video Courses",
+      "icon": "video",
+      "items": [
+        {
+          "title": "Modern Fortran Tutorial (YouTube)",
+          "url": "https://www.youtube.com/watch?v=L5kM3QZx1So",
+          "description": "Comprehensive video series covering modern Fortran programming."
+        },
+        {
+          "title": "Fortran for Scientific Computing",
+          "url": "https://www.youtube.com/",
+          "description": "Video tutorials focused on HPC and numerical computing with Fortran."
+        }
+      ]
+    },
+    {
+      "label": "Practice & Challenges",
+      "icon": "terminal",
+      "items": [
+        {
+          "title": "Exercism — Fortran Track",
+          "url": "https://exercism.org/tracks/fortran",
+          "description": "Structured exercises for learning modern Fortran programming."
+        },
+        {
+          "title": "Fortran Code Repository",
+          "url": "https://github.com/topics/fortran",
+          "description": "Browse open-source Fortran projects for real-world code examples."
+        }
+      ]
+    },
+    {
+      "label": "Reference & Cheatsheets",
+      "icon": "reference",
+      "items": [
+        {
+          "title": "Fortran Cheatsheet (devhints)",
+          "url": "https://devhints.io/fortran",
+          "description": "Quick reference for Fortran syntax, arrays, control flow, and I/O."
+        }
+      ]
+    },
+    {
+      "label": "News & Updates",
+      "icon": "news",
+      "items": [
+        {
+          "title": "Fortran-lang.org Blog",
+          "url": "https://fortran-lang.org/news/",
+          "description": "Community news and updates on the Fortran language and ecosystem."
+        },
+        {
+          "title": "Fortran Discourse",
+          "url": "https://fortran-lang.discourse.group/",
+          "description": "Discussion group for Fortran development and community."
+        }
+      ]
+    },
+    {
+      "label": "Community",
+      "icon": "community",
+      "items": [
+        {
+          "title": "Fortran Discourse",
+          "url": "https://fortran-lang.discourse.group/",
+          "description": "Official community forum for Q&A and discussions."
+        },
+        {
+          "title": "Stack Overflow — Fortran Tag",
+          "url": "https://stackoverflow.com/questions/tagged/fortran",
+          "description": "Q&A for Fortran programming questions."
+        }
+      ]
+    }
+  ]
+}

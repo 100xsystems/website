@@ -1,0 +1,110 @@
+{
+  "slug": "prisma",
+  "name": "Prisma",
+  "description": "Prisma is a next-generation ORM for Node.js and TypeScript. It provides a type-safe database client, auto-generated queries, and a declarative data modeling language for PostgreSQL, MySQL, SQLite, and MongoDB.",
+  "categories": [
+    {
+      "label": "Free Books",
+      "icon": "book",
+      "items": [
+        {
+          "title": "Prisma Documentation",
+          "url": "https://www.prisma.io/docs",
+          "description": "Comprehensive official documentation covering architecture, setup, and advanced features."
+        },
+        {
+          "title": "Prisma Getting Started",
+          "url": "https://www.prisma.io/docs/getting-started",
+          "description": "Quickstart guide for setting up Prisma with your database."
+        }
+      ]
+    },
+    {
+      "label": "Official Documentation",
+      "icon": "docs",
+      "items": [
+        {
+          "title": "Prisma Schema Reference",
+          "url": "https://www.prisma.io/docs/orm/prisma-schema/overview",
+          "description": "Complete reference for Prisma schema syntax, data sources, and generators."
+        },
+        {
+          "title": "Prisma Client API",
+          "url": "https://www.prisma.io/docs/orm/prisma-client",
+          "description": "Full API reference for Prisma Client queries, relations, and transactions."
+        }
+      ]
+    },
+    {
+      "label": "Interactive Courses",
+      "icon": "code",
+      "items": [
+        {
+          "title": "Prisma Examples",
+          "url": "https://www.prisma.io/docs/orm/overview/examples",
+          "description": "Official example projects showing Prisma with various frameworks."
+        }
+      ]
+    },
+    {
+      "label": "Video Courses",
+      "icon": "video",
+      "items": [
+        {
+          "title": "Prisma in 60 Minutes (YouTube)",
+          "url": "https://www.youtube.com/watch?v=RebA5J-rlwg",
+          "description": "Fast-paced overview of Prisma features, schema syntax, and query building."
+        }
+      ]
+    },
+    {
+      "label": "Practice & Challenges",
+      "icon": "terminal",
+      "items": [
+        {
+          "title": "Prisma Playground",
+          "url": "https://www.prisma.io/playground",
+          "description": "Online editor for experimenting with Prisma schemas and queries."
+        }
+      ]
+    },
+    {
+      "label": "Reference & Cheatsheets",
+      "icon": "reference",
+      "items": [
+        {
+          "title": "Prisma Cheat Sheet (DevSheets)",
+          "url": "https://devsheets.io/sheets/prisma",
+          "description": "Handy reference for schema definitions, relationships, and CRUD commands."
+        }
+      ]
+    },
+    {
+      "label": "News & Updates",
+      "icon": "news",
+      "items": [
+        {
+          "title": "Prisma Blog",
+          "url": "https://www.prisma.io/blog/",
+          "description": "Official blog with deep dives, architectural updates, and case studies."
+        }
+      ]
+    },
+    {
+      "label": "Community",
+      "icon": "community",
+      "items": [
+        {
+          "title": "Prisma GitHub Discussions",
+          "url": "https://github.com/prisma/prisma/discussions",
+          "description": "Community space for troubleshooting and feature requests."
+        },
+        {
+          "title": "Prisma Discord",
+          "url": "https://www.prisma.io/discord",
+          "description": "Official Prisma community Discord."
+        }
+      ]
+    }
+  ]
+}

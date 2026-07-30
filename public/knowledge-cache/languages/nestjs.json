@@ -1,0 +1,110 @@
+{
+  "slug": "nestjs",
+  "name": "NestJS",
+  "description": "NestJS is a progressive Node.js framework for building efficient, reliable, and scalable server-side applications. It uses TypeScript by default and combines elements of OOP, FP, and FRP with a modular architecture.",
+  "categories": [
+    {
+      "label": "Free Books",
+      "icon": "book",
+      "items": [
+        {
+          "title": "NestJS Documentation",
+          "url": "https://docs.nestjs.com/",
+          "description": "The comprehensive official documentation covering controllers, providers, modules, and middleware."
+        },
+        {
+          "title": "NestJS Fundamentals (Official)",
+          "url": "https://docs.nestjs.com/first-steps",
+          "description": "Official first-steps guide covering installation, CLI, and building your first API."
+        }
+      ]
+    },
+    {
+      "label": "Official Documentation",
+      "icon": "docs",
+      "items": [
+        {
+          "title": "NestJS Techniques",
+          "url": "https://docs.nestjs.com/techniques",
+          "description": "Deep dives into database, auth, caching, serialization, and configuration."
+        },
+        {
+          "title": "NestJS GraphQL Guide",
+          "url": "https://docs.nestjs.com/graphql/quick-start",
+          "description": "Official GraphQL integration guide with code-first and schema-first approaches."
+        }
+      ]
+    },
+    {
+      "label": "Interactive Courses",
+      "icon": "code",
+      "items": [
+        {
+          "title": "NestJS Course (Official)",
+          "url": "https://courses.nestjs.com/",
+          "description": "Free and premium courses from the NestJS team covering fundamentals to advanced patterns."
+        }
+      ]
+    },
+    {
+      "label": "Video Courses",
+      "icon": "video",
+      "items": [
+        {
+          "title": "NestJS Full Course (freeCodeCamp)",
+          "url": "https://www.youtube.com/results?search_query=nestjs+full+course+2026",
+          "description": "Comprehensive video course covering modules, DI, guards, interceptors, and microservices."
+        }
+      ]
+    },
+    {
+      "label": "Practice & Challenges",
+      "icon": "terminal",
+      "items": [
+        {
+          "title": "NestJS CLI",
+          "url": "https://docs.nestjs.com/cli/overview",
+          "description": "CLI for scaffolding projects, modules, controllers, and services."
+        }
+      ]
+    },
+    {
+      "label": "Reference & Cheatsheets",
+      "icon": "reference",
+      "items": [
+        {
+          "title": "NestJS Cheatsheet (devhints)",
+          "url": "https://devhints.io/nestjs",
+          "description": "Quick reference for NestJS decorators, guards, pipes, and providers."
+        }
+      ]
+    },
+    {
+      "label": "News & Updates",
+      "icon": "news",
+      "items": [
+        {
+          "title": "NestJS Blog",
+          "url": "https://trilon.io/blog",
+          "description": "Official NestJS blog maintained by Trilon with release notes and guides."
+        }
+      ]
+    },
+    {
+      "label": "Community",
+      "icon": "community",
+      "items": [
+        {
+          "title": "NestJS Discord",
+          "url": "https://discord.gg/nestjs",
+          "description": "Official NestJS Discord for community support."
+        },
+        {
+          "title": "Reddit r/nestjs",
+          "url": "https://www.reddit.com/r/nestjs/",
+          "description": "NestJS community for discussions and project showcases."
+        }
+      ]
+    }
+  ]
+}

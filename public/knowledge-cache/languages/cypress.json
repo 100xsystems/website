@@ -1,0 +1,110 @@
+{
+  "slug": "cypress",
+  "name": "Cypress",
+  "description": "Cypress is a next-generation frontend testing framework built for the modern web. It enables fast, reliable end-to-end, component, and integration testing with real-time reloads and time-travel debugging.",
+  "categories": [
+    {
+      "label": "Free Books",
+      "icon": "book",
+      "items": [
+        {
+          "title": "Cypress Documentation",
+          "url": "https://docs.cypress.io/",
+          "description": "Comprehensive official documentation covering getting started, guides, and API reference."
+        },
+        {
+          "title": "Cypress Guide",
+          "url": "https://docs.cypress.io/guides/overview/why-cypress",
+          "description": "Complete guide explaining Cypress architecture and testing philosophy."
+        }
+      ]
+    },
+    {
+      "label": "Official Documentation",
+      "icon": "docs",
+      "items": [
+        {
+          "title": "Cypress API Reference",
+          "url": "https://docs.cypress.io/api/",
+          "description": "Complete API reference for commands, assertions, and utilities."
+        },
+        {
+          "title": "Cypress Component Testing",
+          "url": "https://docs.cypress.io/guides/component-testing/overview",
+          "description": "Guide to testing individual components in isolation."
+        }
+      ]
+    },
+    {
+      "label": "Interactive Courses",
+      "icon": "code",
+      "items": [
+        {
+          "title": "Cypress Testing Library",
+          "url": "https://www.cypress.io/testing-tools",
+          "description": "Free testing resources and interactive tutorials from Cypress."
+        }
+      ]
+    },
+    {
+      "label": "Video Courses",
+      "icon": "video",
+      "items": [
+        {
+          "title": "Cypress Full Course (YouTube)",
+          "url": "https://www.youtube.com/results?search_query=cypress+testing+full+course",
+          "description": "Video courses covering E2E testing, component testing, and CI integration."
+        }
+      ]
+    },
+    {
+      "label": "Practice & Challenges",
+      "icon": "terminal",
+      "items": [
+        {
+          "title": "Cypress Playground",
+          "url": "https://example.cypress.io/",
+          "description": "Interactive example app for practicing Cypress testing commands."
+        }
+      ]
+    },
+    {
+      "label": "Reference & Cheatsheets",
+      "icon": "reference",
+      "items": [
+        {
+          "title": "Cypress Cheatsheet",
+          "url": "https://docs.cypress.io/api/table-of-contents",
+          "description": "Quick reference for all Cypress commands and assertions."
+        }
+      ]
+    },
+    {
+      "label": "News & Updates",
+      "icon": "news",
+      "items": [
+        {
+          "title": "Cypress Blog",
+          "url": "https://www.cypress.io/blog/",
+          "description": "Official Cypress blog with features, releases, and case studies."
+        }
+      ]
+    },
+    {
+      "label": "Community",
+      "icon": "community",
+      "items": [
+        {
+          "title": "Cypress Discord",
+          "url": "https://discord.gg/cypress",
+          "description": "Official Cypress Discord community."
+        },
+        {
+          "title": "Reddit r/cypress",
+          "url": "https://www.reddit.com/r/cypress/",
+          "description": "Cypress community for discussions and support."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "slug": "expo",
+  "name": "Expo",
+  "description": "Expo is an open-source platform for building universal native apps with React. It provides a managed workflow, comprehensive SDK, and development tools for creating iOS, Android, and web applications from a single codebase.",
+  "categories": [
+    {
+      "label": "Free Books",
+      "icon": "book",
+      "items": [
+        {
+          "title": "Expo Documentation",
+          "url": "https://docs.expo.dev/",
+          "description": "Comprehensive official documentation covering guides, API reference, and workflows."
+        },
+        {
+          "title": "Expo Getting Started",
+          "url": "https://docs.expo.dev/get-started/create-a-new-app/",
+          "description": "Quickstart guide for creating your first Expo application."
+        }
+      ]
+    },
+    {
+      "label": "Official Documentation",
+      "icon": "docs",
+      "items": [
+        {
+          "title": "Expo SDK Reference",
+          "url": "https://docs.expo.dev/versions/latest/",
+          "description": "Complete API reference for all Expo SDK modules and components."
+        },
+        {
+          "title": "Expo Router",
+          "url": "https://docs.expo.dev/router/introduction/",
+          "description": "Documentation for file-based routing in Expo applications."
+        }
+      ]
+    },
+    {
+      "label": "Interactive Courses",
+      "icon": "code",
+      "items": [
+        {
+          "title": "Expo Tutorial (Official)",
+          "url": "https://docs.expo.dev/tutorial/introduction/",
+          "description": "Official step-by-step tutorial building a complete cross-platform app."
+        }
+      ]
+    },
+    {
+      "label": "Video Courses",
+      "icon": "video",
+      "items": [
+        {
+          "title": "Expo Full Course (YouTube)",
+          "url": "https://www.youtube.com/results?search_query=expo+react+native+full+course+2026",
+          "description": "Video courses covering Expo development, navigation, and deployment."
+        }
+      ]
+    },
+    {
+      "label": "Practice & Challenges",
+      "icon": "terminal",
+      "items": [
+        {
+          "title": "Expo Snack",
+          "url": "https://snack.expo.dev/",
+          "description": "Online editor for prototyping and testing Expo apps in the browser."
+        }
+      ]
+    },
+    {
+      "label": "Reference & Cheatsheets",
+      "icon": "reference",
+      "items": [
+        {
+          "title": "Expo Cheatsheet",
+          "url": "https://docs.expo.dev/versions/latest/",
+          "description": "Quick API reference for Expo components, hooks, and modules."
+        }
+      ]
+    },
+    {
+      "label": "News & Updates",
+      "icon": "news",
+      "items": [
+        {
+          "title": "Expo Blog",
+          "url": "https://expo.dev/blog",
+          "description": "Official blog with SDK updates, features, and engineering stories."
+        }
+      ]
+    },
+    {
+      "label": "Community",
+      "icon": "community",
+      "items": [
+        {
+          "title": "Expo Discord",
+          "url": "https://chat.expo.dev/",
+          "description": "Official Expo community Discord."
+        },
+        {
+          "title": "Expo GitHub",
+          "url": "https://github.com/expo/expo",
+          "description": "Official repository for issues and contributions."
+        }
+      ]
+    }
+  ]
+}

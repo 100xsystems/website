@@ -1,0 +1,105 @@
+{
+  "slug": "fsharp",
+  "name": "F#",
+  "description": "F# is a functional-first, cross-platform .NET language. It excels at data science, financial modeling, and concurrent systems with type providers, computation expressions, and seamless .NET interop.",
+  "categories": [
+    {
+      "label": "Free Books",
+      "icon": "book",
+      "items": [
+        {
+          "title": "F# for Fun and Profit",
+          "url": "https://fsharpforfunandprofit.com/",
+          "description": "Universally regarded as the best introduction to FP and F# — covers types, design, and railway-oriented programming."
+        },
+        {
+          "title": "F# Programming Wikibook",
+          "url": "https://en.wikibooks.org/wiki/F_Sharp_Programming",
+          "description": "Community-edited textbook covering basics, immutable data, OOP, and computation expressions."
+        }
+      ]
+    },
+    {
+      "label": "Official Documentation",
+      "icon": "docs",
+      "items": [
+        {
+          "title": "Microsoft Learn F# Docs",
+          "url": "https://learn.microsoft.com/en-us/dotnet/fsharp/",
+          "description": "Primary reference hub with language guide, syntax specs, and concepts tutorials."
+        }
+      ]
+    },
+    {
+      "label": "Interactive Courses",
+      "icon": "code",
+      "items": [
+        {
+          "title": "Exercism — F# Track",
+          "url": "https://exercism.org/tracks/fsharp",
+          "description": "146 exercises across 17 concepts with automated analysis and optional mentoring."
+        }
+      ]
+    },
+    {
+      "label": "Video Courses",
+      "icon": "video",
+      "items": [
+        {
+          "title": "Beginning F# Series (Microsoft)",
+          "url": "https://learn.microsoft.com/en-us/shows/beginners-series-to-fsharp/introduction-1-of-12--beginners-series-to-f",
+          "description": "Official 12-part beginner video series from Microsoft Learn."
+        }
+      ]
+    },
+    {
+      "label": "Practice & Challenges",
+      "icon": "terminal",
+      "items": [
+        {
+          "title": "Exercism — F# Track",
+          "url": "https://exercism.org/tracks/fsharp",
+          "description": "Structured exercises with community mentorship and automated analysis."
+        }
+      ]
+    },
+    {
+      "label": "Reference & Cheatsheets",
+      "icon": "reference",
+      "items": [
+        {
+          "title": "F# Cheatsheet (devhints)",
+          "url": "https://devhints.io/fsharp",
+          "description": "Quick reference for F# syntax, types, and functional patterns."
+        }
+      ]
+    },
+    {
+      "label": "News & Updates",
+      "icon": "news",
+      "items": [
+        {
+          "title": "F# Weekly",
+          "url": "https://sergeytihon.com/category/f-weekly/",
+          "description": "Definitive weekly newsletter covering ecosystem, libraries, and compiler updates."
+        }
+      ]
+    },
+    {
+      "label": "Community",
+      "icon": "community",
+      "items": [
+        {
+          "title": "F# Software Foundation Forums",
+          "url": "https://forums.fsharp.org/",
+          "description": "Official Discourse forum for F# development questions and best practices."
+        },
+        {
+          "title": "F# Slack/Discord",
+          "url": "https://fsharp.org/guides/slack/",
+          "description": "Real-time chat for F# developers with global community channels."
+        }
+      ]
+    }
+  ]
+}

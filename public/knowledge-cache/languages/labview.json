@@ -1,0 +1,110 @@
+{
+  "slug": "labview",
+  "name": "LabVIEW",
+  "description": "LabVIEW (Laboratory Virtual Instrument Engineering Workbench) is a graphical programming platform from NI used extensively in test, measurement, and control applications across engineering and science.",
+  "categories": [
+    {
+      "label": "Free Books",
+      "icon": "book",
+      "items": [
+        {
+          "title": "NI Learning Center",
+          "url": "https://learn.ni.com/",
+          "description": "Official hub with hundreds of on-demand self-paced lessons, video modules, and structured paths."
+        },
+        {
+          "title": "LabVIEW Wiki",
+          "url": "https://labviewwiki.org/",
+          "description": "Community knowledge base with over 6,000 articles covering basics to design patterns."
+        }
+      ]
+    },
+    {
+      "label": "Official Documentation",
+      "icon": "docs",
+      "items": [
+        {
+          "title": "NI LabVIEW Tutorial",
+          "url": "https://learn.ni.com/learn/article/labview-tutorial",
+          "description": "Official step-by-step introduction to LabVIEW from initial setup to first project."
+        },
+        {
+          "title": "LabVIEW Community Edition",
+          "url": "https://www.ni.com/en/shop/labview/select-edition/labview-community-edition.html",
+          "description": "Free LabVIEW edition for non-commercial use with full capabilities."
+        }
+      ]
+    },
+    {
+      "label": "Interactive Courses",
+      "icon": "code",
+      "items": [
+        {
+          "title": "NI Learning Center Courses",
+          "url": "https://learn.ni.com/",
+          "description": "Self-paced interactive courses from absolute beginner to advanced LabVIEW architectures."
+        }
+      ]
+    },
+    {
+      "label": "Video Courses",
+      "icon": "video",
+      "items": [
+        {
+          "title": "NI LabVIEW Video Tutorials (YouTube)",
+          "url": "https://www.youtube.com/results?search_query=labview+tutorial",
+          "description": "Free video walkthroughs of dataflow, loops, error handling, and front panel design."
+        }
+      ]
+    },
+    {
+      "label": "Practice & Challenges",
+      "icon": "terminal",
+      "items": [
+        {
+          "title": "NI Community Examples",
+          "url": "https://forums.ni.com/",
+          "description": "Thousands of sample projects and templates for data acquisition and instrument control."
+        }
+      ]
+    },
+    {
+      "label": "Reference & Cheatsheets",
+      "icon": "reference",
+      "items": [
+        {
+          "title": "LabVIEW Keyboard Shortcuts",
+          "url": "https://labviewwiki.org/wiki/LabVIEW_Keyboard_Shortcuts",
+          "description": "Exhaustive reference of keyboard shortcuts for faster block diagram navigation."
+        }
+      ]
+    },
+    {
+      "label": "News & Updates",
+      "icon": "news",
+      "items": [
+        {
+          "title": "NI Community Blog",
+          "url": "https://forums.ni.com/",
+          "description": "Official NI updates, feature rollouts, and community discussions."
+        }
+      ]
+    },
+    {
+      "label": "Community",
+      "icon": "community",
+      "items": [
+        {
+          "title": "NI Community Forums",
+          "url": "https://forums.ni.com/",
+          "description": "Primary forum for LabVIEW questions, snippets, and user groups."
+        },
+        {
+          "title": "Reddit r/LabVIEW",
+          "url": "https://www.reddit.com/r/LabVIEW/",
+          "description": "Community for troubleshooting and architectural discussions."
+        }
+      ]
+    }
+  ]
+}
