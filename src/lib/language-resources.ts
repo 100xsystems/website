@@ -2169,6 +2169,397 @@ export const markdownResources: LanguageResources = {
   ],
 };
 
+
+// ═══════════════════════════════════════════════════════════════════════
+// LATEX
+// ═══════════════════════════════════════════════════════════════════════
+
+export const latexResources: LanguageResources = {
+  slug: 'latex', name: 'LaTeX',
+  description: 'LaTeX is the gold standard for technical and scientific document preparation. It is essential for academic papers, theses, and any document requiring precise mathematical typesetting, cross-references, and bibliographies.',
+  categories: [
+    { label: 'Free Books', icon: 'book', items: [
+      { title: 'LaTeX Wikibook', url: 'https://en.wikibooks.org/wiki/LaTeX', description: 'A comprehensive free textbook covering everything from installation to advanced packages, math typesetting, and bibliography management.' },
+      { title: 'Learn LaTeX in 30 Minutes (Overleaf)', url: 'https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes', description: 'A beginner-friendly quick start guide that gets you writing LaTeX in under an hour.' },
+    ]},
+    { label: 'Official Documentation', icon: 'docs', items: [
+      { title: 'LaTeX Project Documentation', url: 'https://www.latex-project.org/help/documentation/', description: 'Official LaTeX documentation including guides, manuals, and beginner tutorials.' },
+      { title: 'Overleaf Documentation', url: 'https://www.overleaf.com/learn', description: 'Extensive documentation and tutorials by Overleaf covering LaTeX basics and advanced topics.' },
+      { title: 'CTAN (Comprehensive TeX Archive)', url: 'https://ctan.org/', description: 'The definitive archive of all LaTeX packages and documentation.' },
+    ]},
+    { label: 'Interactive Courses', icon: 'code', items: [
+      { title: 'Overleaf Tutorials', url: 'https://www.overleaf.com/learn/latex/Tutorials', description: 'Interactive tutorials that teach LaTeX through hands-on document editing in the browser.' },
+    ]},
+    { label: 'Video Courses', icon: 'video', items: [
+      { title: 'LaTeX Tutorials (YouTube)', url: 'https://www.youtube.com/results?search_query=latex+tutorial+beginner', description: 'Thousands of free video tutorials covering LaTeX from basics to advanced document design.' },
+      { title: 'LaTeX Full Course (freeCodeCamp)', url: 'https://www.youtube.com/watch?v=VhmkLrOjLsw', description: 'A comprehensive multi-hour LaTeX course covering math, figures, bibliographies, and presentations.' },
+    ]},
+    { label: 'Practice & Challenges', icon: 'terminal', items: [
+      { title: 'Overleaf', url: 'https://www.overleaf.com/', description: 'The most popular online LaTeX editor with collaborative editing, templates, and instant preview.' },
+    ]},
+    { label: 'Reference & Cheatsheets', icon: 'reference', items: [
+      { title: 'LaTeX Cheatsheet', url: 'https://wch.github.io/latexsheet/', description: 'A concise one-page reference for common LaTeX commands, math symbols, and environments.' },
+      { title: 'LaTeX Math Symbols', url: 'https://www.caam.rice.edu/~heinken/latex/symbols.pdf', description: 'Complete reference of all LaTeX math mode symbols.' },
+    ]},
+    { label: 'News & Updates', icon: 'news', items: [
+      { title: 'LaTeX Project Blog', url: 'https://www.latex-project.org/news/', description: 'Official LaTeX project news and release announcements.' },
+      { title: 'TeX StackExchange', url: 'https://tex.stackexchange.com/', description: 'Q&A platform for LaTeX and TeX related questions.' },
+    ]},
+    { label: 'Community', icon: 'community', items: [
+      { title: 'Reddit r/LaTeX', url: 'https://www.reddit.com/r/LaTeX/', description: 'Community for LaTeX discussions, templates, and troubleshooting.' },
+      { title: 'TeX StackExchange', url: 'https://tex.stackexchange.com/', description: 'The definitive Q&A platform for LaTeX typesetting problems.' },
+    ]},
+  ],
+};
+
+// ═══════════════════════════════════════════════════════════════════════
+// COMMON LISP
+// ═══════════════════════════════════════════════════════════════════════
+
+export const commonlispResources: LanguageResources = {
+  slug: 'common-lisp', name: 'Common Lisp',
+  description: 'Common Lisp is a multi-paradigm programming language known for its powerful macro system, dynamic typing, and interactive development cycle. It excels at AI, symbolic computing, and meta-programming.',
+  categories: [
+    { label: 'Free Books', icon: 'book', items: [
+      { title: 'Practical Common Lisp', url: 'https://gigamonkeys.com/book/', description: 'The premier modern introduction to Common Lisp with hands-on projects like building a web server.' },
+      { title: 'Common Lisp the Language (CLtL2)', url: 'https://www.cs.cmu.edu/Groups/AI/html/cltl/cltl2.html', description: 'The definitive language reference by Guy L. Steele covering ANSI Common Lisp standards.' },
+      { title: 'Common Lisp Cookbook', url: 'https://lispcookbook.github.io/cl-cookbook/', description: 'A practical community guide covering real-world usage from databases to web development.' },
+    ]},
+    { label: 'Official Documentation', icon: 'docs', items: [
+      { title: 'Common Lisp HyperSpec', url: 'https://www.lispworks.com/documentation/HyperSpec/Front/', description: 'The definitive hyperlinked ANSI Common Lisp standard reference.' },
+      { title: 'Lisp-Lang.org', url: 'https://lisp-lang.org/', description: 'Central community portal with tutorials, success stories, and style guides.' },
+    ]},
+    { label: 'Interactive Courses', icon: 'code', items: [
+      { title: 'Exercism — Common Lisp Track', url: 'https://exercism.org/tracks/common-lisp', description: '92 coding exercises across 27 key concepts with automated analysis and mentoring.' },
+      { title: 'Lisp Koans', url: 'https://github.com/google/lisp-koans', description: 'Test-driven interactive exercises teaching core Common Lisp features.' },
+    ]},
+    { label: 'Video Courses', icon: 'video', items: [
+      { title: 'Common Lisp Tutorials (YouTube)', url: 'https://www.youtube.com/results?search_query=common+lisp+tutorial', description: 'Community video tutorials covering REPL workflows, SLIME, and practical Lisp programming.' },
+    ]},
+    { label: 'Practice & Challenges', icon: 'terminal', items: [
+      { title: 'Exercism — Common Lisp Track', url: 'https://exercism.org/tracks/common-lisp', description: 'Free structured exercises for mastering Common Lisp.' },
+    ]},
+    { label: 'Reference & Cheatsheets', icon: 'reference', items: [
+      { title: 'Common Lisp Quick Reference', url: 'https://www.quickreference.com/common-lisp/', description: 'Compact reference summarizing syntax, data structures, and macros.' },
+      { title: 'Learn Lisp in Y Minutes', url: 'https://learnxinyminutes.com/docs/common-lisp/', description: 'A rapid syntax overview for experienced programmers.' },
+    ]},
+    { label: 'News & Updates', icon: 'news', items: [
+      { title: 'Lisp Weekly', url: 'https://lispweekly.com/', description: 'Weekly newsletter highlighting Lisp projects, blog posts, and library releases.' },
+    ]},
+    { label: 'Community', icon: 'community', items: [
+      { title: 'Reddit r/Common_Lisp', url: 'https://www.reddit.com/r/Common_Lisp/', description: 'Active community for Lisp discussions and project showcases.' },
+      { title: 'Stack Overflow — Common Lisp Tag', url: 'https://stackoverflow.com/questions/tagged/common-lisp', description: 'Q&A for Common Lisp programming questions.' },
+    ]},
+  ],
+};
+
+// ═══════════════════════════════════════════════════════════════════════
+// PROCESSING
+// ═══════════════════════════════════════════════════════════════════════
+
+export const processingResources: LanguageResources = {
+  slug: 'processing', name: 'Processing',
+  description: 'Processing is a flexible software sketchbook and language for learning how to code within the context of the visual arts. It is the premier tool for creative coding, generative art, and data visualization.',
+  categories: [
+    { label: 'Free Books', icon: 'book', items: [
+      { title: 'Processing Tutorials (Official)', url: 'https://processing.org/tutorials/', description: 'Official tutorials covering everything from coordinate systems to 2D/3D transformations and hardware integration.' },
+      { title: 'Getting Started with Processing', url: 'https://processing.org/tutorials/gettingstarted', description: 'Official guide by the co-founders walking through syntax, concepts, and basics.' },
+    ]},
+    { label: 'Official Documentation', icon: 'docs', items: [
+      { title: 'Processing Reference', url: 'https://processing.org/reference/', description: 'Definitive cheatsheet and documentation for every built-in function and data type.' },
+      { title: 'Processing Foundation', url: 'https://processingfoundation.org/', description: 'The non-profit organization supporting the Processing project and community.' },
+    ]},
+    { label: 'Interactive Courses', icon: 'code', items: [
+      { title: 'Hello Processing', url: 'https://hello.processing.org/', description: 'An interactive video introduction teaching fundamentals in about an hour.' },
+    ]},
+    { label: 'Video Courses', icon: 'video', items: [
+      { title: 'The Coding Train (Daniel Shiffman)', url: 'https://thecodingtrain.com/processing', description: 'The gold standard for creative coding instruction with hundreds of video tutorials and coding challenges.' },
+    ]},
+    { label: 'Practice & Challenges', icon: 'terminal', items: [
+      { title: 'OpenProcessing', url: 'https://openprocessing.org/', description: 'Creative coding community to browse, fork, run, and share sketches in the browser.' },
+    ]},
+    { label: 'Reference & Cheatsheets', icon: 'reference', items: [
+      { title: 'Processing Reference', url: 'https://processing.org/reference/', description: 'Complete reference for all built-in functions, constants, and data structures.' },
+    ]},
+    { label: 'News & Updates', icon: 'news', items: [
+      { title: 'Processing Blog', url: 'https://processing.org/blog/', description: 'Official Processing release notes and community updates.' },
+    ]},
+    { label: 'Community', icon: 'community', items: [
+      { title: 'Processing Discourse', url: 'https://discourse.processing.org/', description: 'Official community forum for help, galleries, and event organization.' },
+    ]},
+  ],
+};
+
+// ═══════════════════════════════════════════════════════════════════════
+// SCRATCH
+// ═══════════════════════════════════════════════════════════════════════
+
+export const scratchResources: LanguageResources = {
+  slug: 'scratch', name: 'Scratch',
+  description: 'Scratch is the worlds largest coding community for children and the best way to start programming. It teaches computational thinking through a visual block-based interface used by millions worldwide.',
+  categories: [
+    { label: 'Free Books', icon: 'book', items: [
+      { title: 'Scratch Wiki', url: 'https://en.scratch-wiki.info/', description: 'The collaboratively-written official encyclopedia with deep concept explanations and block documentation.' },
+      { title: 'Harvard ScratchEd Guides', url: 'https://scratched.gse.harvard.edu/', description: 'Free PDF lesson plans, activity guides, and creative coding prompts from Harvard.' },
+    ]},
+    { label: 'Official Documentation', icon: 'docs', items: [
+      { title: 'Scratch Ideas Page', url: 'https://scratch.mit.edu/ideas', description: 'Official project ideas, interactive tutorials, and starter templates.' },
+      { title: 'Scratch Foundation Learning Library', url: 'https://scratchfoundation.org/learn/learning-library', description: 'Curated activities, printable coding cards, and lesson plans.' },
+    ]},
+    { label: 'Interactive Courses', icon: 'code', items: [
+      { title: 'CS50 Introduction to Scratch (Harvard)', url: 'https://cs50.harvard.edu/scratch', description: 'World-class free course teaching computational thinking through Scratch by Professor David Malan.' },
+    ]},
+    { label: 'Video Courses', icon: 'video', items: [
+      { title: 'Scratch Official Video Tutorials', url: 'https://scratch.mit.edu/help/videos/', description: 'Official short video walkthroughs covering sprites, sound, events, and paint editor.' },
+    ]},
+    { label: 'Practice & Challenges', icon: 'terminal', items: [
+      { title: 'Scratch Online Editor', url: 'https://scratch.mit.edu/', description: 'The primary browser-based coding environment with drag-and-drop blocks and instant preview.' },
+    ]},
+    { label: 'Reference & Cheatsheets', icon: 'reference', items: [
+      { title: 'All Blocks of Scratch PDF', url: 'https://scratched.gse.harvard.edu/sites/default/files/a.all_blocks_of_scratch_0.pdf', description: 'Color-coded visual guide mapping all 100+ blocks across 9 categories.' },
+    ]},
+    { label: 'News & Updates', icon: 'news', items: [
+      { title: 'Scratch Foundation News', url: 'https://www.scratchfoundation.org/', description: 'Official announcements, platform updates, and educational research.' },
+    ]},
+    { label: 'Community', icon: 'community', items: [
+      { title: 'Scratch Discussion Forums', url: 'https://scratch.mit.edu/discuss/', description: 'Official massive discussion board for help, collaboration, and project feedback.' },
+    ]},
+  ],
+};
+
+// ═══════════════════════════════════════════════════════════════════════
+// WOLFRAM LANGUAGE
+// ═══════════════════════════════════════════════════════════════════════
+
+export const wolframResources: LanguageResources = {
+  slug: 'wolfram-language', name: 'Wolfram Language',
+  description: 'Wolfram Language is a multi-paradigm computational language developed by Wolfram Research. It powers Mathematica and excels at symbolic mathematics, data science, machine learning, and knowledge-based computing.',
+  categories: [
+    { label: 'Free Books', icon: 'book', items: [
+      { title: 'Wolfram Language Fast Introduction', url: 'https://www.wolfram.com/language/fast-introduction/', description: 'The official quick-start guide covering programming fundamentals in the Wolfram Language.' },
+      { title: 'Wolfram Language Documentation', url: 'https://reference.wolfram.com/language/', description: 'The definitive reference with guides, tutorials, and function documentation.' },
+    ]},
+    { label: 'Official Documentation', icon: 'docs', items: [
+      { title: 'Wolfram Language & System', url: 'https://reference.wolfram.com/language/', description: 'Complete reference documentation for all Wolfram Language functions and features.' },
+      { title: 'Function Repository', url: 'https://resources.wolframcloud.com/FunctionRepository/', description: 'Thousands of contributed functions for the Wolfram Language.' },
+    ]},
+    { label: 'Interactive Courses', icon: 'code', items: [
+      { title: 'Wolfram U: Free Courses', url: 'https://www.wolfram.com/wolfram-u/', description: 'Free interactive courses covering Wolfram Language fundamentals, data science, and machine learning.' },
+    ]},
+    { label: 'Video Courses', icon: 'video', items: [
+      { title: 'Wolfram Training Videos', url: 'https://www.wolfram.com/training/courses/', description: 'Free training videos from Wolfram covering language basics to specialized topics.' },
+    ]},
+    { label: 'Practice & Challenges', icon: 'terminal', items: [
+      { title: 'Wolfram Cloud', url: 'https://www.wolframcloud.com/', description: 'Free Wolfram Language environment in the cloud to write and run code.' },
+    ]},
+    { label: 'Reference & Cheatsheets', icon: 'reference', items: [
+      { title: 'Wolfram Language Syntax', url: 'https://reference.wolfram.com/language/guide/Syntax.html', description: 'Official syntax reference for Wolfram Language.' },
+    ]},
+    { label: 'News & Updates', icon: 'news', items: [
+      { title: 'Wolfram Blog', url: 'https://blog.wolfram.com/', description: 'Official Wolfram blog with language updates and computational thinking articles.' },
+    ]},
+    { label: 'Community', icon: 'community', items: [
+      { title: 'Wolfram Community', url: 'https://community.wolfram.com/', description: 'Official forum for Wolfram Language discussions and technical Q&A.' },
+      { title: 'Stack Overflow — Wolfram Language Tag', url: 'https://stackoverflow.com/questions/tagged/wolfram-language', description: 'Q&A for Wolfram Language programming.' },
+    ]},
+  ],
+};
+
+// ═══════════════════════════════════════════════════════════════════════
+// GDSCRIPT (GODOT)
+// ═══════════════════════════════════════════════════════════════════════
+
+export const gdscriptResources: LanguageResources = {
+  slug: 'gdscript', name: 'GDScript',
+  description: 'GDScript is the primary scripting language for the Godot Engine. It has a Python-like syntax but is optimized for game development with built-in types like vectors, colors, and nodes.',
+  categories: [
+    { label: 'Free Books', icon: 'book', items: [
+      { title: 'Godot Engine Documentation', url: 'https://docs.godotengine.org/', description: 'The definitive source of truth for the engine and GDScript with deep architectural guides.' },
+      { title: 'GDScript Reference', url: 'https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_basics.html', description: 'Official language reference covering syntax, data types, operators, and annotations.' },
+      { title: 'Learn GDScript From Zero (GDQuest)', url: 'https://www.gdquest.com/tutorial/godot/learning-paths/learn-gdscript-from-zero/', description: 'A premier interactive browser-based app for programming beginners.' },
+    ]},
+    { label: 'Official Documentation', icon: 'docs', items: [
+      { title: 'Godot Docs', url: 'https://docs.godotengine.org/', description: 'Complete engine and GDScript documentation maintained by core developers.' },
+      { title: 'Learn to Code with GDScript', url: 'https://docs.godotengine.org/en/stable/getting_started/introduction/learn_to_code_with_gdscript.html', description: 'Official step-by-step landing page for learning GDScript.' },
+    ]},
+    { label: 'Interactive Courses', icon: 'code', items: [
+      { title: 'Learn GDScript From Zero', url: 'https://www.gdquest.com/tutorial/godot/learning-paths/learn-gdscript-from-zero/', description: 'Browser-based gamified lessons teaching programming concepts and GDScript syntax.' },
+    ]},
+    { label: 'Video Courses', icon: 'video', items: [
+      { title: 'GDQuest YouTube Channel', url: 'https://www.youtube.com/@GDQuest', description: 'High-quality free video tutorials covering GDScript, design patterns, and game feel.' },
+      { title: 'Brackeys Godot GDScript Tutorial', url: 'https://www.youtube.com/watch?v=e1zJS31tr88', description: 'Comprehensive 1-hour crash course on GDScript programming in Godot.' },
+    ]},
+    { label: 'Practice & Challenges', icon: 'terminal', items: [
+      { title: 'Godot Game Jam', url: 'https://itch.io/jams/tag-godot', description: 'Participate in game jams to practice GDScript through real game development.' },
+    ]},
+    { label: 'Reference & Cheatsheets', icon: 'reference', items: [
+      { title: 'GDQuest GDScript Cheatsheet', url: 'https://school.gdquest.com/cheatsheets/gdscript', description: 'Clean reference card covering all major GDScript syntax for Godot 4.' },
+    ]},
+    { label: 'News & Updates', icon: 'news', items: [
+      { title: 'Godot News', url: 'https://godotengine.org/blog/', description: 'Official Godot blog with release announcements and community showcases.' },
+      { title: 'Godot Weekly', url: 'https://godot-weekly.curated.co/', description: 'Weekly curated tutorials, plugins, and community resources.' },
+    ]},
+    { label: 'Community', icon: 'community', items: [
+      { title: 'Reddit r/godot', url: 'https://www.reddit.com/r/godot/', description: 'The largest Godot community for discussions and project showcases.' },
+      { title: 'Godot Forum', url: 'https://forum.godotengine.org/', description: 'Official forum for help, showcases, and tutorials.' },
+    ]},
+  ],
+};
+
+// ═══════════════════════════════════════════════════════════════════════
+// LABVIEW
+// ═══════════════════════════════════════════════════════════════════════
+
+export const labviewResources: LanguageResources = {
+  slug: 'labview', name: 'LabVIEW',
+  description: 'LabVIEW (Laboratory Virtual Instrument Engineering Workbench) is a graphical programming platform from NI used extensively in test, measurement, and control applications across engineering and science.',
+  categories: [
+    { label: 'Free Books', icon: 'book', items: [
+      { title: 'NI Learning Center', url: 'https://learn.ni.com/', description: 'Official hub with hundreds of on-demand self-paced lessons, video modules, and structured paths.' },
+      { title: 'LabVIEW Wiki', url: 'https://labviewwiki.org/', description: 'Community knowledge base with over 6,000 articles covering basics to design patterns.' },
+    ]},
+    { label: 'Official Documentation', icon: 'docs', items: [
+      { title: 'NI LabVIEW Tutorial', url: 'https://learn.ni.com/learn/article/labview-tutorial', description: 'Official step-by-step introduction to LabVIEW from initial setup to first project.' },
+      { title: 'LabVIEW Community Edition', url: 'https://www.ni.com/en/shop/labview/select-edition/labview-community-edition.html', description: 'Free LabVIEW edition for non-commercial use with full capabilities.' },
+    ]},
+    { label: 'Interactive Courses', icon: 'code', items: [
+      { title: 'NI Learning Center Courses', url: 'https://learn.ni.com/', description: 'Self-paced interactive courses from absolute beginner to advanced LabVIEW architectures.' },
+    ]},
+    { label: 'Video Courses', icon: 'video', items: [
+      { title: 'NI LabVIEW Video Tutorials (YouTube)', url: 'https://www.youtube.com/results?search_query=labview+tutorial', description: 'Free video walkthroughs of dataflow, loops, error handling, and front panel design.' },
+    ]},
+    { label: 'Practice & Challenges', icon: 'terminal', items: [
+      { title: 'NI Community Examples', url: 'https://forums.ni.com/', description: 'Thousands of sample projects and templates for data acquisition and instrument control.' },
+    ]},
+    { label: 'Reference & Cheatsheets', icon: 'reference', items: [
+      { title: 'LabVIEW Keyboard Shortcuts', url: 'https://labviewwiki.org/wiki/LabVIEW_Keyboard_Shortcuts', description: 'Exhaustive reference of keyboard shortcuts for faster block diagram navigation.' },
+    ]},
+    { label: 'News & Updates', icon: 'news', items: [
+      { title: 'NI Community Blog', url: 'https://forums.ni.com/', description: 'Official NI updates, feature rollouts, and community discussions.' },
+    ]},
+    { label: 'Community', icon: 'community', items: [
+      { title: 'NI Community Forums', url: 'https://forums.ni.com/', description: 'Primary forum for LabVIEW questions, snippets, and user groups.' },
+      { title: 'Reddit r/LabVIEW', url: 'https://www.reddit.com/r/LabVIEW/', description: 'Community for troubleshooting and architectural discussions.' },
+    ]},
+  ],
+};
+
+// ═══════════════════════════════════════════════════════════════════════
+// AUTOHOTKEY
+// ═══════════════════════════════════════════════════════════════════════
+
+export const ahkResources: LanguageResources = {
+  slug: 'autohotkey', name: 'AutoHotkey',
+  description: 'AutoHotkey is a free, open-source scripting language for Windows desktop automation. It enables creating hotkeys, macros, form fillers, and custom UI tools to automate repetitive tasks.',
+  categories: [
+    { label: 'Free Books', icon: 'book', items: [
+      { title: 'AutoHotkey v2 Tutorial (Official)', url: 'https://www.autohotkey.com/docs/v2/Tutorial.htm', description: 'The definitive beginner tutorial covering installation, hotkeys, hotstrings, and scripting basics.' },
+      { title: 'Learn AutoHotkey by Stealing Scripts', url: 'https://www.hillelwayne.com/post/ahk-scripts-project/', description: '14 heavily annotated production scripts teaching practical real-world automation.' },
+    ]},
+    { label: 'Official Documentation', icon: 'docs', items: [
+      { title: 'AutoHotkey v2 Quick Reference', url: 'https://www.autohotkey.com/docs/v2/', description: 'Complete manual covering every built-in function, script concepts, and keyboard remapping.' },
+      { title: 'AutoHotkey v2 Changes', url: 'https://www.autohotkey.com/docs/v2/v2-changes.htm', description: 'Migration guide and changes from v1 to v2.' },
+    ]},
+    { label: 'Interactive Courses', icon: 'code', items: [
+      { title: 'AutoHotkey Community Forums', url: 'https://www.autohotkey.com/boards/', description: 'Official forums with user-contributed libraries and code examples for learning.' },
+    ]},
+    { label: 'Video Courses', icon: 'video', items: [
+      { title: 'AHK v2 Tutorial (YouTube)', url: 'https://www.youtube.com/watch?v=XH4O0qlAuCY', description: 'Video introduction to AutoHotkey v2 covering hotstrings, hotkeys, and mouse clicks.' },
+    ]},
+    { label: 'Practice & Challenges', icon: 'terminal', items: [
+      { title: 'AHK Script Repository', url: 'https://www.autohotkey.com/boards/', description: 'Browse and learn from thousands of community-contributed automation scripts.' },
+    ]},
+    { label: 'Reference & Cheatsheets', icon: 'reference', items: [
+      { title: 'AHK v2 Quick Reference', url: 'https://www.autohotkey.com/docs/v2/', description: 'Key name references, modifier symbols, and syntax at a glance.' },
+    ]},
+    { label: 'News & Updates', icon: 'news', items: [
+      { title: 'The-Automator Newsletter', url: 'https://www.the-automator.com/category/autohotkey-newsletter/', description: 'Weekly newsletter with tips, snippets, and automation advice.' },
+    ]},
+    { label: 'Community', icon: 'community', items: [
+      { title: 'Official AHK Forums', url: 'https://www.autohotkey.com/boards/', description: 'Primary discussion hub for help, libraries, and script sharing.' },
+      { title: 'Reddit r/AutoHotkey', url: 'https://www.reddit.com/r/AutoHotkey/', description: 'Active community for troubleshooting and sharing automation scripts.' },
+    ]},
+  ],
+};
+
+// ═══════════════════════════════════════════════════════════════════════
+// JSON
+// ═══════════════════════════════════════════════════════════════════════
+
+export const jsonResources: LanguageResources = {
+  slug: 'json', name: 'JSON',
+  description: 'JSON (JavaScript Object Notation) is the most widely used data interchange format on the web. It is lightweight, language-independent, and used everywhere from APIs to configuration files to databases.',
+  categories: [
+    { label: 'Free Books', icon: 'book', items: [
+      { title: 'JSON.org', url: 'https://www.json.org/', description: 'The official JSON specification and introduction by Douglas Crockford, the creator of JSON.' },
+      { title: 'MDN — Working with JSON', url: 'https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON', description: 'Comprehensive guide on JSON syntax, parsing, and serialization.' },
+    ]},
+    { label: 'Official Documentation', icon: 'docs', items: [
+      { title: 'ECMA-404 JSON Standard', url: 'https://ecma-international.org/publications-and-standards/standards/ecma-404/', description: 'The official ECMA standard defining the JSON data interchange syntax.' },
+      { title: 'JSON.org Specification', url: 'https://www.json.org/json-en.html', description: 'The definitive specification with railroad diagrams for JSON syntax.' },
+      { title: 'IETF RFC 8259', url: 'https://datatracker.ietf.org/doc/html/rfc8259', description: 'The IETF standard for JSON data interchange format.' },
+    ]},
+    { label: 'Interactive Courses', icon: 'code', items: [
+      { title: 'Learn JSON in Y Minutes', url: 'https://learnxinyminutes.com/docs/json/', description: 'A rapid syntax overview of JSON with annotated examples.' },
+      { title: 'JSON Crack', url: 'https://jsoncrack.com/', description: 'Interactive JSON visualizer to explore and understand complex JSON structures.' },
+    ]},
+    { label: 'Video Courses', icon: 'video', items: [
+      { title: 'JSON Crash Course (YouTube)', url: 'https://www.youtube.com/results?search_query=json+tutorial+beginner', description: 'Multiple free video tutorials covering JSON syntax, parsing, and API integration.' },
+    ]},
+    { label: 'Practice & Challenges', icon: 'terminal', items: [
+      { title: 'JSON Placeholder', url: 'https://jsonplaceholder.typicode.com/', description: 'Free fake API for testing and prototyping with sample JSON data.' },
+      { title: 'JSON Schema Validator', url: 'https://www.jsonschemavalidator.net/', description: 'Online tool to validate JSON against JSON Schema definitions.' },
+    ]},
+    { label: 'Reference & Cheatsheets', icon: 'reference', items: [
+      { title: 'JSON Cheatsheet', url: 'https://devhints.io/json', description: 'A concise one-page reference for JSON syntax and common patterns.' },
+      { title: 'JSON Schema Reference', url: 'https://json-schema.org/learn/getting-started-step-by-step', description: 'Complete reference for JSON Schema validation syntax.' },
+    ]},
+    { label: 'News & Updates', icon: 'news', items: [
+      { title: 'JSON Schema Blog', url: 'https://json-schema.org/blog/', description: 'Updates and articles about the JSON Schema specification.' },
+    ]},
+    { label: 'Community', icon: 'community', items: [
+      { title: 'JSON Schema GitHub Discussions', url: 'https://github.com/json-schema-org/json-schema-spec/discussions', description: 'Community discussions around JSON Schema specification.' },
+      { title: 'Stack Overflow — JSON Tag', url: 'https://stackoverflow.com/questions/tagged/json', description: 'Definitive Q&A platform for JSON questions.' },
+    ]},
+  ],
+};
+
+// ═══════════════════════════════════════════════════════════════════════
+// TOML
+// ═══════════════════════════════════════════════════════════════════════
+
+export const tomlResources: LanguageResources = {
+  slug: 'toml', name: 'TOML',
+  description: 'TOML (Tom\'s Obvious, Minimal Language) is a human-friendly configuration file format designed for clarity and minimalism. It is the standard for Rust (Cargo.toml), Python (pyproject.toml), and many modern tools.',
+  categories: [
+    { label: 'Free Books', icon: 'book', items: [
+      { title: 'TOML Documentation (Official)', url: 'https://toml.io/en/', description: 'The definitive landing page with a complete overview of syntax, types, and tables.' },
+      { title: 'TOML GitHub Specification', url: 'https://github.com/toml-lang/toml', description: 'Official repository with the standard specification, edge cases, and formal grammar.' },
+    ]},
+    { label: 'Official Documentation', icon: 'docs', items: [
+      { title: 'TOML Spec (toml.io)', url: 'https://toml.io/en/', description: 'Clean overview of TOML syntax: key/value pairs, tables, arrays, and data types.' },
+      { title: 'Learn TOML in Y Minutes', url: 'https://learnxinyminutes.com/toml/', description: 'A rapid code-commentary walkthrough demonstrating every TOML feature.' },
+    ]},
+    { label: 'Interactive Courses', icon: 'code', items: [
+      { title: 'TOML to JSON Converter', url: 'https://pseitz.github.io/toml-to-json-online-converter/', description: 'Interactive playground to write TOML and instantly see how it resolves.' },
+    ]},
+    { label: 'Video Courses', icon: 'video', items: [
+      { title: 'TOML Tutorials (YouTube)', url: 'https://www.youtube.com/results?search_query=toml+configuration+file', description: 'Free video tutorials covering TOML syntax and usage in real projects.' },
+    ]},
+    { label: 'Practice & Challenges', icon: 'terminal', items: [
+      { title: 'Python pyproject.toml Guide', url: 'https://packaging.python.org/en/latest/guides/writing-pyproject-toml/', description: 'Practical deep-dive into real-world TOML configuration files.' },
+    ]},
+    { label: 'Reference & Cheatsheets', icon: 'reference', items: [
+      { title: 'TOML Cheat Sheet (QuickRef)', url: 'https://quickref.me/toml.html', description: 'Clean syntax-focused reference with TOML elements and JSON equivalents.' },
+    ]},
+    { label: 'News & Updates', icon: 'news', items: [
+      { title: 'TOML GitHub Releases', url: 'https://github.com/toml-lang/toml/releases', description: 'TOML specification releases and version updates.' },
+    ]},
+    { label: 'Community', icon: 'community', items: [
+      { title: 'TOML GitHub Discussions', url: 'https://github.com/toml-lang/toml/discussions', description: 'Forum for TOML design discussions and parser questions.' },
+    ]},
+  ],
+};
 // ─── Registry — all languages with curated resources ────────────────
 
 const RESOURCE_REGISTRY: Record<string, LanguageResources> = {
@@ -2221,6 +2612,16 @@ const RESOURCE_REGISTRY: Record<string, LanguageResources> = {
   haxe: haxeResources,
   terraform: terraformResources,
   markdown: markdownResources,
+  latex: latexResources,
+  'common-lisp': commonlispResources,
+  processing: processingResources,
+  scratch: scratchResources,
+  'wolfram-language': wolframResources,
+  gdscript: gdscriptResources,
+  labview: labviewResources,
+  autohotkey: ahkResources,
+  json: jsonResources,
+  toml: tomlResources,
 };
 
 export function getLanguageResources(slug: string): LanguageResources | null {

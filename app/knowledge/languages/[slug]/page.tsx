@@ -8,6 +8,7 @@ import {
   SiC, SiJulia, SiPerl, SiFortran, SiApachegroovy, SiClojure, SiErlang, SiAssemblyscript,
   SiOcaml, SiFsharp, SiCrystal, SiNim, SiZig, SiV, SiD, SiRacket,
   SiElm, SiGraphql, SiGleam, SiSolidity, SiWebassembly, SiAda, SiHaxe, SiTerraform, SiMarkdown,
+  SiLatex, SiCommonlisp, SiProcessingfoundation, SiScratch, SiWolframlanguage, SiGodotengine, SiLabview, SiAutohotkey, SiJson, SiToml,
 } from 'react-icons/si';
 import { FaBook, FaFileAlt, FaLaptopCode, FaPlay, FaTerminal, FaSearch, FaNewspaper, FaUsers } from 'react-icons/fa';
 import { getLanguageMeta, getHandcraftedSystems } from '@/lib/mdx';
@@ -67,6 +68,16 @@ const LANG_ICONS: Record<string, React.ReactNode> = {
   haxe:     <SiHaxe size={28} />,
   terraform: <SiTerraform size={28} />,
   markdown: <SiMarkdown size={28} />,
+  latex:      <SiLatex size={28} />,
+  'common-lisp': <SiCommonlisp size={28} />,
+  processing: <SiProcessingfoundation size={28} />,
+  scratch:    <SiScratch size={28} />,
+  'wolfram-language': <SiWolframlanguage size={28} />,
+  gdscript:   <SiGodotengine size={28} />,
+  labview:    <SiLabview size={28} />,
+  autohotkey: <SiAutohotkey size={28} />,
+  json:       <SiJson size={28} />,
+  toml:       <SiToml size={28} />,
 };
 
 const LANG_HERO: Record<string, { bg: string; iconBg: string }> = {
@@ -119,6 +130,16 @@ const LANG_HERO: Record<string, { bg: string; iconBg: string }> = {
   haxe:     { bg: 'bg-[#F5871F]', iconBg: 'bg-[#F5871F] text-white' },
   terraform: { bg: 'bg-[#7B42BC]', iconBg: 'bg-[#7B42BC] text-white' },
   markdown: { bg: 'bg-[#000000]', iconBg: 'bg-[#000000] text-white' },
+  latex:      { bg: 'bg-[#008080]', iconBg: 'bg-[#008080] text-white' },
+  'common-lisp': { bg: 'bg-[#FF6600]', iconBg: 'bg-[#FF6600] text-white' },
+  processing: { bg: 'bg-[#0096D6]', iconBg: 'bg-[#0096D6] text-white' },
+  scratch:    { bg: 'bg-[#F7A41D]', iconBg: 'bg-[#F7A41D] text-black' },
+  'wolfram-language': { bg: 'bg-[#DD1100]', iconBg: 'bg-[#DD1100] text-white' },
+  gdscript:   { bg: 'bg-[#478CBF]', iconBg: 'bg-[#478CBF] text-white' },
+  labview:    { bg: 'bg-[#DDE020]', iconBg: 'bg-[#DDE020] text-black' },
+  autohotkey: { bg: 'bg-[#334455]', iconBg: 'bg-[#334455] text-white' },
+  json:       { bg: 'bg-[#000000]', iconBg: 'bg-[#000000] text-white' },
+  toml:       { bg: 'bg-[#9C4221]', iconBg: 'bg-[#9C4221] text-white' },
 };
 
 const CATEGORY_ICONS: Record<string, React.ReactNode> = {
@@ -153,6 +174,8 @@ const KNOWN_SLUGS = new Set([
   'racket', 'scheme', 'prolog',
   'sql', 'elm', 'graphql', 'gleam', 'solidity', 'webassembly',
   'ada', 'haxe', 'terraform', 'markdown',
+  'latex', 'common-lisp', 'processing', 'scratch', 'wolfram-language',
+  'gdscript', 'labview', 'autohotkey', 'json', 'toml',
 ]);
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {

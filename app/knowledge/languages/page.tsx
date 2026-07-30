@@ -9,6 +9,7 @@ import {
   SiC, SiJulia, SiPerl, SiFortran, SiApachegroovy, SiClojure, SiErlang, SiAssemblyscript,
   SiOcaml, SiFsharp, SiCrystal, SiNim, SiZig, SiV, SiD, SiRacket,
   SiElm, SiGraphql, SiGleam, SiSolidity, SiWebassembly, SiAda, SiHaxe, SiTerraform, SiMarkdown,
+  SiLatex, SiCommonlisp, SiProcessingfoundation, SiScratch, SiWolframlanguage, SiGodotengine, SiLabview, SiAutohotkey, SiJson, SiToml,
 } from 'react-icons/si';
 
 export const metadata: Metadata = {
@@ -65,6 +66,16 @@ const LANG_ICONS: Record<string, React.ReactNode> = {
   haxe:     <SiHaxe size={22} />,
   terraform: <SiTerraform size={22} />,
   markdown: <SiMarkdown size={22} />,
+  latex:      <SiLatex size={22} />,
+  'common-lisp': <SiCommonlisp size={22} />,
+  processing: <SiProcessingfoundation size={22} />,
+  scratch:    <SiScratch size={22} />,
+  'wolfram-language': <SiWolframlanguage size={22} />,
+  gdscript:   <SiGodotengine size={22} />,
+  labview:    <SiLabview size={22} />,
+  autohotkey: <SiAutohotkey size={22} />,
+  json:       <SiJson size={22} />,
+  toml:       <SiToml size={22} />,
 };
 
 const LANG_BG: Record<string, string> = {
@@ -117,6 +128,16 @@ const LANG_BG: Record<string, string> = {
   haxe:     'bg-[#F5871F] text-white',
   terraform: 'bg-[#7B42BC] text-white',
   markdown: 'bg-[#000000] text-white',
+  latex:      'bg-[#008080] text-white',
+  'common-lisp': 'bg-[#FF6600] text-white',
+  processing: 'bg-[#0096D6] text-white',
+  scratch:    'bg-[#F7A41D] text-black',
+  'wolfram-language': 'bg-[#DD1100] text-white',
+  gdscript:   'bg-[#478CBF] text-white',
+  labview:    'bg-[#DDE020] text-black',
+  autohotkey: 'bg-[#334455] text-white',
+  json:       'bg-[#000000] text-white',
+  toml:       'bg-[#9C4221] text-white',
 };
 
 const DEFAULT_BG = 'bg-accent text-white';
@@ -155,7 +176,7 @@ export default function LanguagesPage() {
               Programming&nbsp;<span className="text-accent">Languages</span>
             </h1>
             <p className="text-sm text-fg-secondary max-w-xl mx-auto">
-              Curated resource hubs for 49 major programming languages.
+              Curated resource hubs for              59 major programming languages.
               Each hub collects the definitive free resources — books, docs, courses, videos,
               practice, reference, news, and community.
             </p>
