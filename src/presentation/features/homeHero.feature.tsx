@@ -48,7 +48,7 @@ export function HomeHero() {
           transition={{ duration: 0.6, delay: 0.2 }}
         >
           <Link
-            href="/roadmaps"
+            href="/systems"
             className="inline-flex items-center gap-4 px-14 py-6 text-fg-secondary text-lg font-bold uppercase tracking-wider transition-all duration-200 hover:text-fg relative after:absolute after:bottom-0 after:left-0 after:h-[3px] after:w-full after:bg-accent-yellow after:origin-left after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300"
           >
             <img

@@ -95,7 +95,7 @@ export function HomeBuildSystems() {
           transition={{ delay: 0.3 }}
         >
           <Link
-            href="/roadmaps"
+            href="/systems"
             className="inline-flex items-center gap-2 text-sm font-bold text-accent uppercase tracking-wider hover:gap-3 transition-all duration-200"
           >
             View Roadmaps <ArrowRight size={14} />
