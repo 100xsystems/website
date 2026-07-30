@@ -1,6 +1,6 @@
 import { notFound } from 'next/navigation';
 import { getHub } from '@/lib/knowledge-resources';
-import { buildLessonMetadata, KnowledgeLessonPage } from '@/components/knowledge-lesson-page';
+import { buildLessonMetadata, KnowledgeLessonPageWithProvider } from '@/components/knowledge-lesson-page';
 
 interface Props {
   params: Promise<{ slug: string; lessonSlug: string }>;
@@ -18,13 +18,13 @@ export default async function CaseStudyLessonPage({ params }: Props) {
   const hub = getHub('case-studies', slug);
   if (!hub) notFound();
   return (
-    <KnowledgeLessonPage
+    <KnowledgeLessonPageWithProvider
       category="case-studies"
       hubName={hub.name}
       hubSlug={slug}
       lessonSlug={lessonSlug}
       lessons={hub.lessons || []}
-      backUrl={`/knowledge/case-studies/${slug}`}
+      backUrlPrefix="knowledge/case-studies"
     />
   );
 }

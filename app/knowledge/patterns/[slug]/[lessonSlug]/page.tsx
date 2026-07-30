@@ -1,6 +1,6 @@
 import { notFound } from 'next/navigation';
 import { getHub } from '@/lib/knowledge-resources';
-import { buildLessonMetadata, KnowledgeLessonPage } from '@/components/knowledge-lesson-page';
+import { buildLessonMetadata, KnowledgeLessonPageWithProvider } from '@/components/knowledge-lesson-page';
 
 interface Props {
   params: Promise<{ slug: string; lessonSlug: string }>;
@@ -18,13 +18,13 @@ export default async function PatternLessonPage({ params }: Props) {
   const hub = getHub('patterns', slug);
   if (!hub) notFound();
   return (
-    <KnowledgeLessonPage
+    <KnowledgeLessonPageWithProvider
       category="patterns"
       hubName={hub.name}
       hubSlug={slug}
       lessonSlug={lessonSlug}
       lessons={hub.lessons || []}
-      backUrl={`/knowledge/patterns/${slug}`}
+      backUrlPrefix="knowledge/patterns"
     />
   );
 }

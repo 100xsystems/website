@@ -1,7 +1,7 @@
 import { notFound } from 'next/navigation';
 import { getKnowledgeItem } from '@/lib/mdx';
 import type { LessonMeta } from '@/lib/knowledge-resources';
-import { buildLessonMetadata, KnowledgeLessonPage } from '@/components/knowledge-lesson-page';
+import { buildLessonMetadata, KnowledgeLessonPageWithProvider } from '@/components/knowledge-lesson-page';
 
 interface Props {
   params: Promise<{ slug: string; lessonSlug: string }>;
@@ -22,13 +22,13 @@ export default async function ToolLessonPage({ params }: Props) {
   const lessons = (item.frontmatter as Record<string, unknown>)?.lessons as LessonMeta[] | undefined;
   if (!lessons) notFound();
   return (
-    <KnowledgeLessonPage
+    <KnowledgeLessonPageWithProvider
       category="tools"
       hubName={item.title}
       hubSlug={slug}
       lessonSlug={lessonSlug}
       lessons={lessons}
-      backUrl={`/knowledge/tools/${slug}`}
+      backUrlPrefix="knowledge/tools"
     />
   );
 }

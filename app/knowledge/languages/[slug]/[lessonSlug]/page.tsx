@@ -1,6 +1,6 @@
 import { notFound } from 'next/navigation';
 import { getLanguageResources } from '@/lib/language-resources';
-import { buildLessonMetadata, KnowledgeLessonPage } from '@/components/knowledge-lesson-page';
+import { buildLessonMetadata, KnowledgeLessonPageWithProvider } from '@/components/knowledge-lesson-page';
 
 interface Props {
   params: Promise<{ slug: string; lessonSlug: string }>;
@@ -18,13 +18,13 @@ export default async function LanguageLessonPage({ params }: Props) {
   const lang = getLanguageResources(slug);
   if (!lang) notFound();
   return (
-    <KnowledgeLessonPage
+    <KnowledgeLessonPageWithProvider
       category="languages"
       hubName={lang.name}
       hubSlug={slug}
       lessonSlug={lessonSlug}
       lessons={lang.lessons || []}
-      backUrl={`/knowledge/languages/${slug}`}
+      backUrlPrefix="knowledge/languages"
     />
   );
 }
