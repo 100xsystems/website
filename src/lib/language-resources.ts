@@ -586,12 +586,388 @@ export const typescriptResources: LanguageResources = {
   ],
 };
 
+// ═══════════════════════════════════════════════════════════════════════
+// GO
+// ═══════════════════════════════════════════════════════════════════════
+
+export const goResources: LanguageResources = {
+  slug: 'go',
+  name: 'Go',
+  description:
+    'Go is a statically typed, compiled language designed at Google for building simple, reliable, and efficient software at scale. It excels at backend services, microservices, APIs, and concurrent systems. These are the definitive free resources — vetted, current, and complete.',
+  categories: [
+    {
+      label: 'Free Books',
+      icon: 'book',
+      items: [
+        {
+          title: 'Learn Go with Tests',
+          url: 'https://quii.gitbook.io/learn-go-with-tests',
+          description:
+            'An exceptional open-source book by Chris James that teaches Go fundamentals through Test-Driven Development. Available on GitHub. The gold standard for learning idiomatic Go.',
+        },
+        {
+          title: 'Go by Example',
+          url: 'https://gobyexample.com/',
+          description:
+            'A hands-on introduction using annotated example programs. The fastest way to grasp syntax, goroutines, channels, and the standard library.',
+        },
+        {
+          title: 'The Little Go Book',
+          url: 'https://www.openmymind.net/The-Little-Go-Book/',
+          description:
+            'A concise, conceptual overview by Karl Seguin covering Go types, interfaces, concurrency, and tooling. Perfect for experienced programmers.',
+        },
+      ],
+    },
+    {
+      label: 'Official Documentation',
+      icon: 'docs',
+      items: [
+        {
+          title: 'Go Documentation Hub',
+          url: 'https://go.dev/doc/',
+          description:
+            'Central home for all official tutorials, guides, references, and release notes maintained by the Go core team.',
+        },
+        {
+          title: 'Effective Go',
+          url: 'https://go.dev/doc/effective_go',
+          description:
+            'Essential reading for writing clear, idiomatic Go code. Covers formatting, naming conventions, concurrency patterns, and standard library usage.',
+        },
+        {
+          title: 'Go Language Specification',
+          url: 'https://go.dev/ref/spec',
+          description:
+            'The ultimate source of truth detailing the exact syntax, types, and operational behavior of the Go programming language.',
+        },
+      ],
+    },
+    {
+      label: 'Interactive Courses',
+      icon: 'code',
+      items: [
+        {
+          title: 'A Tour of Go',
+          url: 'https://go.dev/tour/',
+          description:
+            'The official interactive tutorial by the Go team. Learn by doing — run code directly in your browser covering basics, methods, interfaces, and concurrency.',
+        },
+        {
+          title: 'freeCodeCamp — Learn Golang Handbook',
+          url: 'https://www.freecodecamp.org/news/learn-golang-handbook/',
+          description:
+            'A comprehensive free handbook that takes you from total beginner to building real-world backend applications with practical examples.',
+        },
+      ],
+    },
+    {
+      label: 'Video Courses',
+      icon: 'video',
+      items: [
+        {
+          title: 'Golang Tutorial for Beginners (Tech With Tim)',
+          url: 'https://www.youtube.com/watch?v=jFfo2mHPpeY',
+          description:
+            'A clean, structured video deep-dive into writing production-ready Go scripts covering syntax, packages, and build tools.',
+        },
+        {
+          title: 'Anthony GG — Go Tutorials',
+          url: 'https://www.youtube.com/@anthonygg',
+          description:
+            'An exceptional channel with practical Go tutorials focusing on building web servers, REST APIs, and microservices idiomatically.',
+        },
+      ],
+    },
+    {
+      label: 'Practice & Challenges',
+      icon: 'terminal',
+      items: [
+        {
+          title: 'Exercism — Go Track',
+          url: 'https://exercism.org/tracks/go',
+          description:
+            '100% free with 165+ coding exercises across 34 concepts. Includes automated code analysis and optional human mentorship.',
+        },
+        {
+          title: 'Codewars — Go Kata',
+          url: 'https://www.codewars.com/',
+          description:
+            'Gamified platform to sharpen problem-solving skills by solving community-created kata in Go across hundreds of difficulty levels.',
+        },
+        {
+          title: 'LeetCode — Go Support',
+          url: 'https://leetcode.com/',
+          description:
+            'Excellent for practicing algorithms and data structures in Go, particularly for technical interview preparation.',
+        },
+      ],
+    },
+    {
+      label: 'Reference & Cheatsheets',
+      icon: 'reference',
+      items: [
+        {
+          title: 'Go Cheat Sheet',
+          url: 'https://golang.ch/cheatsheet/',
+          description:
+            'A quick visual reference covering basic syntax, built-in types, error handling, pointers, interfaces, goroutines, and channels.',
+        },
+        {
+          title: 'Go Playground',
+          url: 'https://go.dev/play/',
+          description:
+            'Official online snippet runner. Write, test, and share Go code directly in your browser without installing a local toolchain.',
+        },
+      ],
+    },
+    {
+      label: 'News & Updates',
+      icon: 'news',
+      items: [
+        {
+          title: 'Go Weekly',
+          url: 'https://golangweekly.com/',
+          description:
+            'A legendary free weekly email newsletter tracking language updates, libraries, architecture discussions, and best practices.',
+        },
+        {
+          title: 'Go Blog (Official)',
+          url: 'https://go.dev/blog/',
+          description:
+            'The official engineering blog maintained by the Go core team detailing language releases, performance enhancements, and ecosystem tooling.',
+        },
+      ],
+    },
+    {
+      label: 'Community',
+      icon: 'community',
+      items: [
+        {
+          title: 'Reddit r/golang',
+          url: 'https://www.reddit.com/r/golang/',
+          description:
+            'The premier community for sharing news, asking technical questions, discussing project architectures, and reading Go release notes.',
+        },
+        {
+          title: 'Go Forum',
+          url: 'https://forum.golangbridge.org/',
+          description:
+            'The official structured discussion board for Gophers to find learning help, project advice, and community announcements.',
+        },
+        {
+          title: 'Gophers Slack',
+          url: 'https://go.dev/help',
+          description:
+            'Real-time chat community with thousands of active Go developers. Dedicated help channels and local user groups.',
+        },
+      ],
+    },
+  ],
+};
+
+// ═══════════════════════════════════════════════════════════════════════
+// RUST
+// ═══════════════════════════════════════════════════════════════════════
+
+export const rustResources: LanguageResources = {
+  slug: 'rust',
+  name: 'Rust',
+  description:
+    'Rust is a systems programming language focused on safety, speed, and concurrency without a garbage collector. It powers everything from embedded devices to web browsers (Servo) to cloud infrastructure. These are the definitive free resources — vetted, current, and complete.',
+  categories: [
+    {
+      label: 'Free Books',
+      icon: 'book',
+      items: [
+        {
+          title: 'The Rust Programming Language (The Book)',
+          url: 'https://doc.rust-lang.org/book/',
+          description:
+            'The official introductory bible by Steve Klabnik and Carol Nichols. Covers ownership, borrowing, lifetimes, traits, concurrency, and more. Also available with interactive quizzes at Brown University edition.',
+        },
+        {
+          title: 'Rust by Example',
+          url: 'https://doc.rust-lang.org/rust-by-example/',
+          description:
+            'A collection of runnable code snippets that illustrate various Rust concepts and standard library features. Learn by reading and modifying working code.',
+        },
+        {
+          title: 'Comprehensive Rust (Google)',
+          url: 'https://google.github.io/comprehensive-rust/',
+          description:
+            'A multi-day course by Googles Android team covering deep Rust fundamentals, Android development, bare-metal embedded systems, and concurrency.',
+        },
+      ],
+    },
+    {
+      label: 'Official Documentation',
+      icon: 'docs',
+      items: [
+        {
+          title: 'Rust Documentation Hub',
+          url: 'https://doc.rust-lang.org/',
+          description:
+            'The main landing page for all official language docs, library specs, compiler guides, and edition migration notes.',
+        },
+        {
+          title: 'The Rust Reference',
+          url: 'https://doc.rust-lang.org/reference/',
+          description:
+            'The formal specification of Rust syntax, grammar, semantics, and memory model. For when you need the exact definition.',
+        },
+        {
+          title: 'The Rustonomicon',
+          url: 'https://doc.rust-lang.org/nomicon/',
+          description:
+            'The advanced guide exploring unsafe Rust, low-level memory layout, FFI, and dark arts. For intermediate to advanced Rustaceans.',
+        },
+        {
+          title: 'Rust Standard Library Docs',
+          url: 'https://doc.rust-lang.org/std/',
+          description:
+            'Deep API documentation for all built-in primitives, traits, modules, and macros. The language dictionary for Rust.',
+        },
+      ],
+    },
+    {
+      label: 'Interactive Courses',
+      icon: 'code',
+      items: [
+        {
+          title: 'Rustlings',
+          url: 'https://github.com/rust-lang/rustlings',
+          description:
+            'Official small CLI exercises by the Rust team. Fix broken programs to get used to reading and writing Rust code. The canonical interactive intro.',
+        },
+        {
+          title: 'Tour of Rust',
+          url: 'https://tourofrust.com/',
+          description:
+            'An interactive community-driven visual tour introducing basic to advanced Rust syntax side-by-side with explanations.',
+        },
+        {
+          title: 'freeCodeCamp — Rust Course',
+          url: 'https://www.freecodecamp.org/news/learn-rust-for-beginners/',
+          description:
+            'A full-length project-based interactive course covering foundational and intermediate Rust concepts with practical examples.',
+        },
+      ],
+    },
+    {
+      label: 'Video Courses',
+      icon: 'video',
+      items: [
+        {
+          title: "Let's Get Rusty",
+          url: 'https://www.youtube.com/@LetsGetRusty',
+          description:
+            'The premier Rust education channel featuring deep dives into The Book, popular crates, web frameworks (Axum, Actix), and advanced patterns.',
+        },
+        {
+          title: 'No Boilerplate',
+          url: 'https://www.youtube.com/@NoBoilerplate',
+          description:
+            'High-production, crisp video essays analyzing why Rust matters, software reliability, and modern systems engineering with beautiful visuals.',
+        },
+      ],
+    },
+    {
+      label: 'Practice & Challenges',
+      icon: 'terminal',
+      items: [
+        {
+          title: 'Exercism — Rust Track',
+          url: 'https://exercism.org/tracks/rust',
+          description:
+            '99 free coding exercises designed to teach idiomatic Rust, backed by automated test runner and community peer mentoring.',
+        },
+        {
+          title: 'Codewars — Rust Kata',
+          url: 'https://www.codewars.com/collections/rust-collection',
+          description:
+            'Community-created programming challenges categorized by difficulty. Solve data structures, algorithms, and lifetime puzzles.',
+        },
+        {
+          title: 'LeetCode — Rust Support',
+          url: 'https://leetcode.com/tag/rust/',
+          description:
+            'Solve hundreds of standard data-structure and algorithm challenges using Rusters memory model and type system.',
+        },
+      ],
+    },
+    {
+      label: 'Reference & Cheatsheets',
+      icon: 'reference',
+      items: [
+        {
+          title: 'Rust Language Cheat Sheet',
+          url: 'https://cheats.rs/',
+          description:
+            'An exhaustive, single-page reference matrix linking syntax symbols directly to the Book, Reference, and Standard Library. The definitive cheatsheet.',
+        },
+        {
+          title: 'Rust Playground',
+          url: 'https://play.rust-lang.org/',
+          description:
+            'Official browser-based sandbox compiler. Test code snippets, toggle optimization profiles, and inspect assembly or MIR output.',
+        },
+      ],
+    },
+    {
+      label: 'News & Updates',
+      icon: 'news',
+      items: [
+        {
+          title: 'This Week in Rust',
+          url: 'https://this-week-in-rust.org/',
+          description:
+            'The gold standard weekly community newsletter tracking core changes, crate updates, blog posts, and job openings. Essential reading.',
+        },
+        {
+          title: 'Official Rust Blog',
+          url: 'https://blog.rust-lang.org/',
+          description:
+            'Official announcements from the Rust Core Team regarding new stable releases, edition changes, and security updates.',
+        },
+      ],
+    },
+    {
+      label: 'Community',
+      icon: 'community',
+      items: [
+        {
+          title: 'Reddit r/rust',
+          url: 'https://www.reddit.com/r/rust/',
+          description:
+            'The largest Rust community on Reddit for project showcases, compiler questions, ecosystem news, and language evolution discussions.',
+        },
+        {
+          title: 'Rust Users Forum',
+          url: 'https://users.rust-lang.org/',
+          description:
+            'The official structured discussion board for learning help, idiom reviews, crate usage support, and community Q&A.',
+        },
+        {
+          title: 'Rust Discord Server',
+          url: 'https://discord.com/invite/rust-lang',
+          description:
+            'Live chat with channels for beginners, embedded systems, async frameworks, and language contributors. Thousands of active Rustaceans.',
+        },
+      ],
+    },
+  ],
+};
+
 // ─── Registry — all languages with curated resources ────────────────
 
 const RESOURCE_REGISTRY: Record<string, LanguageResources> = {
   javascript: javascriptResources,
   python: pythonResources,
   typescript: typescriptResources,
+  go: goResources,
+  rust: rustResources,
 };
 
 /**
