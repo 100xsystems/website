@@ -11,6 +11,7 @@ import {
   SiLatex, SiCommonlisp, SiProcessingfoundation, SiScratch, SiWolframlanguage, SiGodotengine, SiLabview, SiAutohotkey, SiJson, SiToml,
   SiPurescript, SiSass, SiLess, SiPug, SiJinja, SiNixos, SiDocker, SiKubernetes, SiAnsible, SiLlvm,
   SiReact, SiVuedotjs, SiAngular, SiSvelte, SiNodedotjs, SiExpress, SiFlutter, SiLinux, SiPostgresql, SiRedis,
+  SiSpring, SiDjango, SiLaravel, SiNextdotjs, SiTailwindcss, SiBootstrap, SiNginx, SiMongodb, SiElasticsearch, SiMysql,
 } from 'react-icons/si';
 import { FaBook, FaFileAlt, FaLaptopCode, FaPlay, FaTerminal, FaSearch, FaNewspaper, FaUsers } from 'react-icons/fa';
 import { getLanguageMeta, getHandcraftedSystems } from '@/lib/mdx';
@@ -100,6 +101,16 @@ const LANG_ICONS: Record<string, React.ReactNode> = {
   linux:      <SiLinux size={28} />,
   postgresql: <SiPostgresql size={28} />,
   redis:      <SiRedis size={28} />,
+  spring:     <SiSpring size={28} />,
+  django:     <SiDjango size={28} />,
+  laravel:    <SiLaravel size={28} />,
+  nextjs:     <SiNextdotjs size={28} />,
+  tailwind:   <SiTailwindcss size={28} />,
+  bootstrap:  <SiBootstrap size={28} />,
+  nginx:      <SiNginx size={28} />,
+  mongodb:    <SiMongodb size={28} />,
+  elasticsearch: <SiElasticsearch size={28} />,
+  mysql:      <SiMysql size={28} />,
 };
 
 const LANG_HERO: Record<string, { bg: string; iconBg: string }> = {
@@ -182,6 +193,16 @@ const LANG_HERO: Record<string, { bg: string; iconBg: string }> = {
   linux:      { bg: 'bg-[#FCC624]', iconBg: 'bg-[#FCC624] text-black' },
   postgresql: { bg: 'bg-[#4169E1]', iconBg: 'bg-[#4169E1] text-white' },
   redis:      { bg: 'bg-[#DC382D]', iconBg: 'bg-[#DC382D] text-white' },
+  spring:     { bg: 'bg-[#6DB33F]', iconBg: 'bg-[#6DB33F] text-white' },
+  django:     { bg: 'bg-[#092E20]', iconBg: 'bg-[#092E20] text-white' },
+  laravel:    { bg: 'bg-[#FF2D20]', iconBg: 'bg-[#FF2D20] text-white' },
+  nextjs:     { bg: 'bg-[#000000]', iconBg: 'bg-[#000000] text-white' },
+  tailwind:   { bg: 'bg-[#06B6D4]', iconBg: 'bg-[#06B6D4] text-white' },
+  bootstrap:  { bg: 'bg-[#7952B3]', iconBg: 'bg-[#7952B3] text-white' },
+  nginx:      { bg: 'bg-[#009639]', iconBg: 'bg-[#009639] text-white' },
+  mongodb:    { bg: 'bg-[#47A248]', iconBg: 'bg-[#47A248] text-white' },
+  elasticsearch: { bg: 'bg-[#005571]', iconBg: 'bg-[#005571] text-white' },
+  mysql:      { bg: 'bg-[#4479A1]', iconBg: 'bg-[#4479A1] text-white' },
 };
 
 const CATEGORY_ICONS: Record<string, React.ReactNode> = {
@@ -222,6 +243,8 @@ const KNOWN_SLUGS = new Set([
   'nix', 'docker', 'kubernetes', 'ansible', 'llvm',
   'react', 'vue', 'angular', 'svelte', 'nodejs',
   'express', 'flutter', 'linux', 'postgresql', 'redis',
+  'spring', 'django', 'laravel', 'nextjs', 'tailwind',
+  'bootstrap', 'nginx', 'mongodb', 'elasticsearch', 'mysql',
 ]);
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {

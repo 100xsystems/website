@@ -3353,6 +3353,237 @@ export const redisResources: LanguageResources = {
     ]},
   ],
 };
+
+// ══ SPRING ════════════════════════════════════════════════════════════
+export const springResources: LanguageResources = { slug: 'spring', name: 'Spring', description: 'Spring is the most popular framework for building enterprise Java applications. It provides comprehensive infrastructure support for dependency injection, web services, data access, security, and microservices.', categories: [
+{ label: 'Free Books', icon: 'book', items: [
+{ title: 'Spring Boot Guide (Official)', url: 'https://spring.io/guides', description: 'Official Spring getting-started guides covering everything from basics to microservices.' },
+{ title: 'Spring in Action (Free Chapters)', url: 'https://www.manning.com/books/spring-in-action-sixth-edition', description: 'Free preview chapters from the best-selling Spring book covering modern Spring Boot.' },
+]},{ label: 'Official Documentation', icon: 'docs', items: [
+{ title: 'Spring Framework Docs', url: 'https://docs.spring.io/spring-framework/reference/', description: 'Complete Spring Framework reference documentation.' },
+{ title: 'Spring Boot Docs', url: 'https://docs.spring.io/spring-boot/index.html', description: 'Official Spring Boot documentation with guides and API reference.' },
+{ title: 'Spring Initializr', url: 'https://start.spring.io/', description: 'Official Spring project generator for bootstrapping applications.' },
+]},{ label: 'Interactive Courses', icon: 'code', items: [
+{ title: 'Spring Academy', url: 'https://spring.academy/', description: 'Free courses from Spring team covering Spring Boot and cloud-native development.' },
+]},{ label: 'Video Courses', icon: 'video', items: [
+{ title: 'Spring Boot Course (freeCodeCamp)', url: 'https://www.youtube.com/watch?v=31KTdfRH6iY', description: 'Multi-hour Spring Boot course covering REST APIs, JPA, and security.' },
+]},{ label: 'Practice & Challenges', icon: 'terminal', items: [
+{ title: 'Spring Initializr', url: 'https://start.spring.io/', description: 'Quickly bootstrap new Spring projects.' },
+]},{ label: 'Reference & Cheatsheets', icon: 'reference', items: [
+{ title: 'Spring Boot Cheatsheet', url: 'https://devhints.io/spring-boot', description: 'Quick reference for Spring Boot annotations and configuration.' },
+]},{ label: 'News & Updates', icon: 'news', items: [
+{ title: 'Spring Blog', url: 'https://spring.io/blog', description: 'Official Spring blog with release notes and technical articles.' },
+]},{ label: 'Community', icon: 'community', items: [
+{ title: 'Spring Community', url: 'https://spring.io/community', description: 'Official Spring community resources.' },
+{ title: 'Stack Overflow - Spring Tag', url: 'https://stackoverflow.com/questions/tagged/spring', description: 'Q&A for Spring Framework.' },
+]},],};
+
+// ══ DJANGO ════════════════════════════════════════════════════════════
+export const djangoResources: LanguageResources = { slug: 'django', name: 'Django', description: 'Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design. It includes everything needed to build web applications: ORM, admin, auth, and more.', categories: [
+{ label: 'Free Books', icon: 'book', items: [
+{ title: 'Django Documentation', url: 'https://docs.djangoproject.com/', description: 'The comprehensive official Django documentation and tutorial.' },
+{ title: 'Django for Beginners (free chapters)', url: 'https://djangoforbeginners.com/', description: 'Free chapters covering Django fundamentals and project-based learning.' },
+]},{ label: 'Official Documentation', icon: 'docs', items: [
+{ title: 'Django Docs', url: 'https://docs.djangoproject.com/en/stable/', description: 'Complete Django documentation with guides, API reference, and release notes.' },
+{ title: 'Django Girls Tutorial', url: 'https://tutorial.djangogirls.org/', description: 'A beginner-friendly tutorial for building your first Django app.' },
+]},{ label: 'Interactive Courses', icon: 'code', items: [
+{ title: 'Django for Everybody (Coursera)', url: 'https://www.dj4e.com/', description: 'Free Django course from Dr. Chuck covering models, views, templates, and APIs.' },
+]},{ label: 'Video Courses', icon: 'video', items: [
+{ title: 'Django Course (freeCodeCamp)', url: 'https://www.youtube.com/watch?v=F5mRW0DJ-UQ', description: 'Multi-hour Django course covering models, views, templates, and deployment.' },
+]},{ label: 'Practice & Challenges', icon: 'terminal', items: [
+{ title: 'Django Playground', url: 'https://django-playground.com/', description: 'Online Django editor for testing code in the browser.' },
+]},{ label: 'Reference & Cheatsheets', icon: 'reference', items: [
+{ title: 'Django Cheatsheet (devhints)', url: 'https://devhints.io/django', description: 'Quick reference for Django models, views, URL patterns, and templates.' },
+]},{ label: 'News & Updates', icon: 'news', items: [
+{ title: 'Django Weblog', url: 'https://www.djangoproject.com/weblog/', description: 'Official Django release announcements and community updates.' },
+]},{ label: 'Community', icon: 'community', items: [
+{ title: 'Reddit r/django', url: 'https://www.reddit.com/r/django/', description: 'Large Django community for discussions and project showcases.' },
+{ title: 'Django Discord', url: 'https://discord.gg/django', description: 'Official Django Discord community.' },
+]},],};
+
+// ══ LARAVEL ═══════════════════════════════════════════════════════════
+export const laravelResources: LanguageResources = { slug: 'laravel', name: 'Laravel', description: 'Laravel is a powerful MVC PHP framework designed for developers who need a simple, elegant toolkit for building full-featured web applications with expressive, elegant syntax.', categories: [
+{ label: 'Free Books', icon: 'book', items: [
+{ title: 'Laravel Documentation', url: 'https://laravel.com/docs/', description: 'The comprehensive official Laravel documentation.' },
+{ title: 'Laravel Bootcamp', url: 'https://bootcamp.laravel.com/', description: 'Official Laravel bootcamp building real applications from scratch.' },
+]},{ label: 'Official Documentation', icon: 'docs', items: [
+{ title: 'Laravel Docs', url: 'https://laravel.com/docs/', description: 'Complete documentation for Laravel features: Eloquent, Blade, Livewire, and more.' },
+{ title: 'Laracasts (free lessons)', url: 'https://laracasts.com/', description: 'Free Laravel screencasts covering framework fundamentals and best practices.' },
+]},{ label: 'Interactive Courses', icon: 'code', items: [
+{ title: 'Laravel Bootcamp', url: 'https://bootcamp.laravel.com/', description: 'Interactive browser-based Laravel tutorial.' },
+]},{ label: 'Video Courses', icon: 'video', items: [
+{ title: 'Laravel Course (freeCodeCamp)', url: 'https://www.youtube.com/watch?v=ImtZ5yENzgE', description: 'Full Laravel course covering MVC, Eloquent, Blade, and authentication.' },
+]},{ label: 'Practice & Challenges', icon: 'terminal', items: [
+{ title: 'Laravel Playground', url: 'https://laravelplayground.com/', description: 'Online Laravel code editor for testing.' },
+]},{ label: 'Reference & Cheatsheets', icon: 'reference', items: [
+{ title: 'Laravel Cheatsheet', url: 'https://devhints.io/laravel', description: 'Quick reference for Laravel Artisan, Eloquent, and Blade syntax.' },
+]},{ label: 'News & Updates', icon: 'news', items: [
+{ title: 'Laravel Blog', url: 'https://blog.laravel.com/', description: 'Official Laravel blog with releases and ecosystem news.' },
+]},{ label: 'Community', icon: 'community', items: [
+{ title: 'Laravel News', url: 'https://laravel-news.com/', description: 'Laravel news, tutorials, and packages.' },
+{ title: 'Reddit r/laravel', url: 'https://www.reddit.com/r/laravel/', description: 'Community for Laravel discussions.' },
+]},],};
+
+// ══ NEXT.JS ═══════════════════════════════════════════════════════════
+export const nextjsResources: LanguageResources = { slug: 'nextjs', name: 'Next.js', description: 'Next.js is the React framework for production, providing server-side rendering, static site generation, and API routes. It is the standard for building full-stack React applications.', categories: [
+{ label: 'Free Books', icon: 'book', items: [
+{ title: 'Next.js Docs', url: 'https://nextjs.org/docs', description: 'The official Next.js documentation covering App Router, Pages Router, and API reference.' },
+{ title: 'Learn Next.js', url: 'https://nextjs.org/learn', description: 'Official interactive Next.js tutorial building a full-stack app.' },
+]},{ label: 'Official Documentation', icon: 'docs', items: [
+{ title: 'Next.js Docs', url: 'https://nextjs.org/docs', description: 'Complete Next.js documentation covering routing, rendering, data fetching, and caching.' },
+{ title: 'Next.js API Reference', url: 'https://nextjs.org/docs/app/api-reference', description: 'Complete API reference for all Next.js functions and components.' },
+]},{ label: 'Interactive Courses', icon: 'code', items: [
+{ title: 'Learn Next.js', url: 'https://nextjs.org/learn', description: 'Free interactive tutorial building a dashboard application with Next.js.' },
+]},{ label: 'Video Courses', icon: 'video', items: [
+{ title: 'Next.js Course (freeCodeCamp)', url: 'https://www.youtube.com/watch?v=mTzmD1CJz_4', description: 'Multi-hour Next.js course covering App Router, authentication, and deployment.' },
+]},{ label: 'Practice & Challenges', icon: 'terminal', items: [
+{ title: 'Next.js Playground', url: 'https://codesandbox.io/s/nextjs', description: 'Online Next.js sandbox for testing.' },
+]},{ label: 'Reference & Cheatsheets', icon: 'reference', items: [
+{ title: 'Next.js Cheatsheet', url: 'https://nextjs.org/cheatsheet', description: 'Official Next.js quick reference.' },
+]},{ label: 'News & Updates', icon: 'news', items: [
+{ title: 'Next.js Blog', url: 'https://nextjs.org/blog', description: 'Official Next.js blog with release notes and case studies.' },
+]},{ label: 'Community', icon: 'community', items: [
+{ title: 'Reddit r/nextjs', url: 'https://www.reddit.com/r/nextjs/', description: 'Active Next.js community for discussions.' },
+{ title: 'Next.js Discord', url: 'https://discord.gg/nextjs', description: 'Official Next.js Discord server.' },
+]},],};
+
+// ══ TAILWIND CSS ══════════════════════════════════════════════════════
+export const tailwindResources: LanguageResources = { slug: 'tailwind', name: 'Tailwind CSS', description: 'Tailwind CSS is a utility-first CSS framework for rapidly building custom user interfaces. It provides low-level utility classes that let you build designs directly in your markup.', categories: [
+{ label: 'Free Books', icon: 'book', items: [
+{ title: 'Tailwind CSS Docs', url: 'https://tailwindcss.com/docs/', description: 'The official Tailwind CSS documentation with complete reference and guides.' },
+{ title: 'Tailwind UI Kit', url: 'https://tailwindcss.com/showcase', description: 'Official showcase of beautifully designed Tailwind components.' },
+]},{ label: 'Official Documentation', icon: 'docs', items: [
+{ title: 'Tailwind Docs', url: 'https://tailwindcss.com/docs/', description: 'Complete documentation covering utility classes, responsive design, and customization.' },
+{ title: 'Tailwind Playground', url: 'https://play.tailwindcss.com/', description: 'Official Tailwind CSS playground for testing in the browser.' },
+]},{ label: 'Interactive Courses', icon: 'code', items: [
+{ title: 'Tailwind CSS Tutorial (freeCodeCamp)', url: 'https://www.freecodecamp.org/news/search/?query=tailwind', description: 'Free Tailwind CSS tutorials and courses.' },
+]},{ label: 'Video Courses', icon: 'video', items: [
+{ title: 'Tailwind Course (freeCodeCamp)', url: 'https://www.youtube.com/watch?v=ft30zcMlFNo', description: 'Multi-hour Tailwind CSS course covering from basics to advanced.' },
+]},{ label: 'Practice & Challenges', icon: 'terminal', items: [
+{ title: 'Tailwind Playground', url: 'https://play.tailwindcss.com/', description: 'Official browser-based Tailwind CSS editor.' },
+]},{ label: 'Reference & Cheatsheets', icon: 'reference', items: [
+{ title: 'Tailwind Cheatsheet', url: 'https://nerdcave.com/tailwind-cheat-sheet', description: 'Comprehensive Tailwind CSS class cheat sheet.' },
+]},{ label: 'News & Updates', icon: 'news', items: [
+{ title: 'Tailwind Blog', url: 'https://tailwindcss.com/blog', description: 'Official Tailwind CSS blog with release notes.' },
+]},{ label: 'Community', icon: 'community', items: [
+{ title: 'Tailwind GitHub', url: 'https://github.com/tailwindlabs/tailwindcss', description: 'Official repository for issues and discussions.' },
+{ title: 'Reddit r/tailwindcss', url: 'https://www.reddit.com/r/tailwindcss/', description: 'Community for Tailwind CSS.' },
+]},],};
+
+// ══ BOOTSTRAP ═════════════════════════════════════════════════════════
+export const bootstrapResources: LanguageResources = { slug: 'bootstrap', name: 'Bootstrap', description: 'Bootstrap is the world most popular front-end component library for building responsive, mobile-first websites. It provides HTML, CSS, and JavaScript components for rapid web development.', categories: [
+{ label: 'Free Books', icon: 'book', items: [
+{ title: 'Bootstrap Docs', url: 'https://getbootstrap.com/docs/', description: 'The official Bootstrap documentation with examples and guides.' },
+{ title: 'Bootstrap Tutorial (W3Schools)', url: 'https://www.w3schools.com/bootstrap5/', description: 'Free Bootstrap tutorial covering all components and layout.' },
+]},{ label: 'Official Documentation', icon: 'docs', items: [
+{ title: 'Bootstrap 5 Docs', url: 'https://getbootstrap.com/docs/5.3/', description: 'Complete documentation for Bootstrap 5: grid, components, and utilities.' },
+{ title: 'Bootstrap Examples', url: 'https://getbootstrap.com/docs/5.3/examples/', description: 'Official Bootstrap starter templates and examples.' },
+]},{ label: 'Interactive Courses', icon: 'code', items: [
+{ title: 'freeCodeCamp Bootstrap', url: 'https://www.freecodecamp.org/news/search/?query=bootstrap', description: 'Free Bootstrap tutorials and courses.' },
+]},{ label: 'Video Courses', icon: 'video', items: [
+{ title: 'Bootstrap Course (freeCodeCamp)', url: 'https://www.youtube.com/watch?v=-qfEOE4vtxE', description: 'Comprehensive Bootstrap course covering layout, components, and utilities.' },
+]},{ label: 'Practice & Challenges', icon: 'terminal', items: [
+{ title: 'Bootstrap Playground', url: 'https://www.bootstrapsandbox.com/', description: 'Online Bootstrap editor for rapid prototyping.' },
+]},{ label: 'Reference & Cheatsheets', icon: 'reference', items: [
+{ title: 'Bootstrap Cheatsheet', url: 'https://devhints.io/bootstrap', description: 'Quick reference for Bootstrap classes and components.' },
+]},{ label: 'News & Updates', icon: 'news', items: [
+{ title: 'Bootstrap Blog', url: 'https://blog.getbootstrap.com/', description: 'Official Bootstrap blog with release notes.' },
+]},{ label: 'Community', icon: 'community', items: [
+{ title: 'Bootstrap GitHub', url: 'https://github.com/twbs/bootstrap', description: 'Official Bootstrap repository.' },
+{ title: 'Reddit r/bootstrap', url: 'https://www.reddit.com/r/bootstrap/', description: 'Bootstrap community discussions.' },
+]},],};
+
+// ══ NGINX ═════════════════════════════════════════════════════════════
+export const nginxResources: LanguageResources = { slug: 'nginx', name: 'Nginx', description: 'Nginx is a high-performance web server, reverse proxy, and load balancer used by the busiest websites in the world. It excels at serving static content and handling concurrent connections.', categories: [
+{ label: 'Free Books', icon: 'book', items: [
+{ title: 'Nginx Docs', url: 'https://nginx.org/en/docs/', description: 'The official Nginx documentation.' },
+{ title: 'Nginx Beginner Guide', url: 'https://nginx.org/en/docs/beginners_guide.html', description: 'Official beginners guide to Nginx configuration.' },
+]},{ label: 'Official Documentation', icon: 'docs', items: [
+{ title: 'Nginx Admin Guide', url: 'https://docs.nginx.com/nginx/admin-guide/', description: 'Comprehensive admin guide for configuring Nginx in production.' },
+{ title: 'Nginx Directive Index', url: 'https://nginx.org/en/docs/dirindex.html', description: 'Complete index of all Nginx configuration directives.' },
+]},{ label: 'Interactive Courses', icon: 'code', items: [
+{ title: 'Nginx Tutorial (DigitalOcean)', url: 'https://www.digitalocean.com/community/tutorials?q=nginx', description: 'Free Nginx tutorials covering configuration and optimization.' },
+]},{ label: 'Video Courses', icon: 'video', items: [
+{ title: 'Nginx Course (freeCodeCamp)', url: 'https://www.youtube.com/watch?v=9t9Mp0BGnyI', description: 'Nginx course covering reverse proxy, load balancing, and SSL configuration.' },
+]},{ label: 'Practice & Challenges', icon: 'terminal', items: [
+{ title: 'Nginx Playground', url: 'https://nginx-playground.wizardzines.com/', description: 'Online Nginx config playground.' },
+]},{ label: 'Reference & Cheatsheets', icon: 'reference', items: [
+{ title: 'Nginx Cheatsheet', url: 'https://devhints.io/nginx', description: 'Quick reference for Nginx configuration directives.' },
+]},{ label: 'News & Updates', icon: 'news', items: [
+{ title: 'Nginx Blog', url: 'https://www.nginx.com/blog/', description: 'Official Nginx blog with technical articles.' },
+]},{ label: 'Community', icon: 'community', items: [
+{ title: 'Nginx Community', url: 'https://nginx.org/en/community.html', description: 'Official Nginx community resources.' },
+{ title: 'Stack Overflow - Nginx Tag', url: 'https://stackoverflow.com/questions/tagged/nginx', description: 'Q&A for Nginx configuration.' },
+]},],};
+
+// ══ MONGODB ═══════════════════════════════════════════════════════════
+export const mongodbResources: LanguageResources = { slug: 'mongodb', name: 'MongoDB', description: 'MongoDB is a document-oriented NoSQL database that stores JSON-like documents with dynamic schemas. It is designed for scalability, high performance, and ease of development.', categories: [
+{ label: 'Free Books', icon: 'book', items: [
+{ title: 'MongoDB Documentation', url: 'https://www.mongodb.com/docs/', description: 'Complete MongoDB documentation covering CRUD, aggregation, and indexing.' },
+{ title: 'MongoDB University', url: 'https://university.mongodb.com/', description: 'Free MongoDB courses and certifications from the official team.' },
+]},{ label: 'Official Documentation', icon: 'docs', items: [
+{ title: 'MongoDB Manual', url: 'https://www.mongodb.com/docs/manual/', description: 'Complete reference for MongoDB queries, aggregation, and administration.' },
+{ title: 'MongoDB Atlas Docs', url: 'https://www.mongodb.com/docs/atlas/', description: 'Documentation for MongoDB Atlas cloud database service.' },
+]},{ label: 'Interactive Courses', icon: 'code', items: [
+{ title: 'MongoDB University', url: 'https://university.mongodb.com/', description: 'Free interactive MongoDB courses with hands-on labs.' },
+]},{ label: 'Video Courses', icon: 'video', items: [
+{ title: 'MongoDB Course (freeCodeCamp)', url: 'https://www.youtube.com/watch?v=ofme2o29ngU', description: 'Multi-hour MongoDB course covering CRUD, aggregation, and indexing.' },
+]},{ label: 'Practice & Challenges', icon: 'terminal', items: [
+{ title: 'MongoDB Playground', url: 'https://mongoplayground.net/', description: 'Online MongoDB query playground.' },
+]},{ label: 'Reference & Cheatsheets', icon: 'reference', items: [
+{ title: 'MongoDB Cheatsheet', url: 'https://devhints.io/mongodb', description: 'Quick reference for MongoDB queries and aggregation pipelines.' },
+]},{ label: 'News & Updates', icon: 'news', items: [
+{ title: 'MongoDB Blog', url: 'https://www.mongodb.com/blog', description: 'Official MongoDB blog with product updates.' },
+]},{ label: 'Community', icon: 'community', items: [
+{ title: 'MongoDB Community', url: 'https://www.mongodb.com/community', description: 'Official MongoDB community forums.' },
+{ title: 'Stack Overflow - MongoDB Tag', url: 'https://stackoverflow.com/questions/tagged/mongodb', description: 'Q&A for MongoDB questions.' },
+]},],};
+
+// ══ ELASTICSEARCH ═════════════════════════════════════════════════════
+export const elasticsearchResources: LanguageResources = { slug: 'elasticsearch', name: 'Elasticsearch', description: 'Elasticsearch is a distributed, RESTful search and analytics engine capable of addressing a growing number of use cases. It is the heart of the Elastic Stack for log analytics and full-text search.', categories: [
+{ label: 'Free Books', icon: 'book', items: [
+{ title: 'Elasticsearch Guide', url: 'https://www.elastic.co/guide/en/elasticsearch/reference/current/', description: 'The official Elasticsearch reference documentation.' },
+{ title: 'Elasticsearch Beginners Guide', url: 'https://www.elastic.co/guide/en/elasticsearch/reference/current/getting-started.html', description: 'Official getting started guide for Elasticsearch.' },
+]},{ label: 'Official Documentation', icon: 'docs', items: [
+{ title: 'Elasticsearch Docs', url: 'https://www.elastic.co/guide/en/elasticsearch/reference/current/', description: 'Complete Elasticsearch documentation: queries, mappings, aggregations, and clusters.' },
+{ title: 'Elastic Stack Docs', url: 'https://www.elastic.co/guide/index.html', description: 'Complete Elastic Stack documentation including Kibana and Logstash.' },
+]},{ label: 'Interactive Courses', icon: 'code', items: [
+{ title: 'Elasticsearch Training', url: 'https://training.elastic.co/', description: 'Free Elasticsearch training courses from Elastic.' },
+]},{ label: 'Video Courses', icon: 'video', items: [
+{ title: 'Elasticsearch Course (YouTube)', url: 'https://www.youtube.com/watch?v=dbAS8l4AnlE', description: 'Free Elasticsearch course covering search, aggregation, and cluster setup.' },
+]},{ label: 'Practice & Challenges', icon: 'terminal', items: [
+{ title: 'Elastic Playground', url: 'https://ela.st/playground', description: 'Online Elasticsearch playground for query testing.' },
+]},{ label: 'Reference & Cheatsheets', icon: 'reference', items: [
+{ title: 'Elasticsearch Cheatsheet', url: 'https://devhints.io/elasticsearch', description: 'Quick reference for Elasticsearch query DSL.' },
+]},{ label: 'News & Updates', icon: 'news', items: [
+{ title: 'Elastic Blog', url: 'https://www.elastic.co/blog', description: 'Official Elastic blog with product updates and engineering stories.' },
+]},{ label: 'Community', icon: 'community', items: [
+{ title: 'Elastic Community', url: 'https://discuss.elastic.co/', description: 'Official Elasticsearch community forums.' },
+{ title: 'Reddit r/elasticsearch', url: 'https://www.reddit.com/r/elasticsearch/', description: 'Elasticsearch community discussions.' },
+]},],};
+
+// ══ MYSQL ═════════════════════════════════════════════════════════════
+export const mysqlResources: LanguageResources = { slug: 'mysql', name: 'MySQL', description: 'MySQL is the world most popular open-source relational database. It is a core component of the LAMP stack and powers millions of web applications, from small blogs to large-scale enterprise systems.', categories: [
+{ label: 'Free Books', icon: 'book', items: [
+{ title: 'MySQL Documentation', url: 'https://dev.mysql.com/doc/', description: 'The official MySQL documentation reference manual.' },
+{ title: 'MySQL Tutorial', url: 'https://dev.mysql.com/doc/refman/8.4/en/tutorial.html', description: 'Official MySQL tutorial covering SQL basics and advanced queries.' },
+]},{ label: 'Official Documentation', icon: 'docs', items: [
+{ title: 'MySQL Reference Manual', url: 'https://dev.mysql.com/doc/refman/8.4/en/', description: 'Complete MySQL reference covering SQL syntax, optimization, and administration.' },
+{ title: 'MySQL Workbench Docs', url: 'https://dev.mysql.com/doc/workbench/en/', description: 'Documentation for MySQL Workbench GUI tool.' },
+]},{ label: 'Interactive Courses', icon: 'code', items: [
+{ title: 'MySQL Tutorial (W3Schools)', url: 'https://www.w3schools.com/mysql/', description: 'Free interactive MySQL tutorial with hands-on exercises.' },
+]},{ label: 'Video Courses', icon: 'video', items: [
+{ title: 'MySQL Course (freeCodeCamp)', url: 'https://www.youtube.com/watch?v=5OdVJbNCSso', description: 'Multi-hour MySQL course covering database design and SQL queries.' },
+]},{ label: 'Practice & Challenges', icon: 'terminal', items: [
+{ title: 'MySQL Playground', url: 'https://www.db-fiddle.com/', description: 'Online MySQL query editor and database fiddle.' },
+]},{ label: 'Reference & Cheatsheets', icon: 'reference', items: [
+{ title: 'MySQL Cheatsheet (devhints)', url: 'https://devhints.io/mysql', description: 'Quick reference for MySQL SQL commands and functions.' },
+]},{ label: 'News & Updates', icon: 'news', items: [
+{ title: 'MySQL Blog', url: 'https://dev.mysql.com/blog-archive/', description: 'Official MySQL release notes and developer articles.' },
+]},{ label: 'Community', icon: 'community', items: [
+{ title: 'MySQL Forums', url: 'https://forums.mysql.com/', description: 'Official MySQL community forums.' },
+{ title: 'Stack Overflow - MySQL Tag', url: 'https://stackoverflow.com/questions/tagged/mysql', description: 'Q&A for MySQL questions.' },
+]},],};
 // ─── Registry — all languages with curated resources ────────────────
 
 const RESOURCE_REGISTRY: Record<string, LanguageResources> = {
@@ -3435,6 +3666,16 @@ const RESOURCE_REGISTRY: Record<string, LanguageResources> = {
   linux: linuxResources,
   postgresql: postgresqlResources,
   redis: redisResources,
+  spring: springResources,
+  django: djangoResources,
+  laravel: laravelResources,
+  nextjs: nextjsResources,
+  tailwind: tailwindResources,
+  bootstrap: bootstrapResources,
+  nginx: nginxResources,
+  mongodb: mongodbResources,
+  elasticsearch: elasticsearchResources,
+  mysql: mysqlResources,
 };
 
 export function getLanguageResources(slug: string): LanguageResources | null {
