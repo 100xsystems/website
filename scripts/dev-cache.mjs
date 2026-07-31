@@ -29,22 +29,19 @@ function ensureDir(dir) {
   if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
 }
 
-/** Shallow clone or pull the registry repo from GitHub */
+/** Always shallow-clone the registry repo fresh from GitHub.
+ *  Never reuse an existing clone dir — guarantees 100% fresh data on every run. */
 function cloneFromGitHub() {
   const url = `https://github.com/${REGISTRY_REPO}.git`;
   if (fs.existsSync(CLONE_DIR)) {
-    console.log(`  Pulling ${REGISTRY_REPO} (shallow)...`);
-    execSync(`git -C "${CLONE_DIR}" pull origin ${REGISTRY_BRANCH} --depth=1`, {
-      stdio: 'pipe',
-      timeout: 30000,
-    });
-  } else {
-    console.log(`  Cloning ${REGISTRY_REPO} (shallow)...`);
-    execSync(`git clone --depth=1 --branch=${REGISTRY_BRANCH} "${url}" "${CLONE_DIR}"`, {
-      stdio: 'pipe',
-      timeout: 60000,
-    });
+    console.log(`  Removing stale clone (${CLONE_DIR})...`);
+    fs.rmSync(CLONE_DIR, { recursive: true, force: true });
   }
+  console.log(`  Cloning ${REGISTRY_REPO} (shallow, fresh)...`);
+  execSync(`git clone --depth=1 --branch=${REGISTRY_BRANCH} "${url}" "${CLONE_DIR}"`, {
+    stdio: 'pipe',
+    timeout: 60000,
+  });
 }
 
 // ── Feed Cache ────────────────────────────────────────────────────────

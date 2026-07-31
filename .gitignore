@@ -15,4 +15,6 @@ skills-lock.json
 public/feed-cache.json
 public/yc-cache/
 public/ph-cache/
+public/knowledge-cache/
+public/lesson-index.json
 .registry-cache/
