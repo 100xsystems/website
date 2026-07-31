@@ -351,9 +351,10 @@ export function KnowledgeLessonPage({
 
   // ─── Sidebar / Mobile nav items ─────────────────────────────────
   const sidebarItems: SidebarNavItem[] = useMemo(() => {
-    return lessons.map((l) => ({
+    return lessons.map((l, index) => ({
       id: l.slug,
       label: l.title,
+      number: String(index + 1).padStart(2, '0'),
     }));
   }, [lessons]);
 

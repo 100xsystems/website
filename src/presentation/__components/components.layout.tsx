@@ -323,6 +323,8 @@ export interface SidebarNavItem {
   label: string;
   iconName?: string;
   href?: string;
+  /** Optional sequence number (e.g. "01", "02") shown when the sidebar is collapsed */
+  number?: string;
 }
 
 export interface SidebarNavProps {
@@ -403,10 +405,10 @@ export function SidebarNav({ items, activeId, onItemClick, className }: SidebarN
                   />
                 ) : (
                   <span className={cn(
-                    'text-xs font-bold',
+                    'text-xs font-bold tabular-nums',
                     isActive ? 'text-black' : 'text-fg-secondary',
                   )}>
-                    {item.label[0]}
+                    {item.number || item.label[0]}
                   </span>
                 )}
               </SidebarIcon>

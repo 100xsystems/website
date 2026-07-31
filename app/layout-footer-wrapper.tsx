@@ -7,7 +7,9 @@ export function FooterWrapper() {
   const pathname = usePathname();
   // Hide footer on lesson pages and reading pages — these have their own layout
   const lessonPagePattern = /^\/systems\/[^\/]+\/[^\/]+\/[^\/]+$/;
-  const isReadingPage = pathname.includes('/read/') || pathname.startsWith('/cli-docs/') || lessonPagePattern.test(pathname);
+  // Knowledge lesson pages (e.g. /knowledge/languages/python/py-08-files-exceptions)
+  const knowledgeLessonPattern = /^\/knowledge\/[^\/]+\/[^\/]+\/[^\/]+$/;
+  const isReadingPage = pathname.includes('/read/') || pathname.startsWith('/cli-docs/') || lessonPagePattern.test(pathname) || knowledgeLessonPattern.test(pathname);
 
   if (isReadingPage) return null;
 

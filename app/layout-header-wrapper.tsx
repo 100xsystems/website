@@ -18,7 +18,9 @@ export function HeaderWrapper({ items, logo }: HeaderWrapperProps) {
   const [localUser, setLocalUser] = useState<{ email: string; username: string } | null>(null);
   // Hide header on lesson pages and reading pages — these have their own sidebar+outline layout
   const lessonPagePattern = /^\/systems\/[^\/]+\/[^\/]+\/[^\/]+$/;
-  const isReadingPage = pathname.includes('/read/') || pathname.startsWith('/cli-docs/') || lessonPagePattern.test(pathname);
+  // Knowledge lesson pages (e.g. /knowledge/languages/python/py-08-files-exceptions)
+  const knowledgeLessonPattern = /^\/knowledge\/[^\/]+\/[^\/]+\/[^\/]+$/;
+  const isReadingPage = pathname.includes('/read/') || pathname.startsWith('/cli-docs/') || lessonPagePattern.test(pathname) || knowledgeLessonPattern.test(pathname);
 
   // On sign-in, upsert user into DB + store in localStorage
   useEffect(() => {
