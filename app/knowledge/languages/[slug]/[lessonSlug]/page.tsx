@@ -1,6 +1,7 @@
 import { notFound } from 'next/navigation';
 import { getLanguageResources } from '@/lib/language-resources';
-import { buildLessonMetadata, KnowledgeLessonPageWithProvider } from '@/components/knowledge-lesson-page';
+import { buildLessonMetadata } from '@/lib/lesson-metadata';
+import { KnowledgeLessonPageWithProvider } from '@/components/knowledge-lesson-page';
 
 interface Props {
   params: Promise<{ slug: string; lessonSlug: string }>;

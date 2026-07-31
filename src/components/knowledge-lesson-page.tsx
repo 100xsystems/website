@@ -33,20 +33,11 @@ import {
   lineHeightValue,
 } from '@/lib/reading-context';
 import { ReadingToolbar } from '@/components/reading/ReadingToolbar';
+import type { LessonMetaFE } from '@/lib/lesson-metadata';
 
 // ══════════════════════════════════════════════════════════════════════
-// TYPES
+// TYPES (LessonMetaFE lives in @/lib/lesson-metadata — server-safe module)
 // ══════════════════════════════════════════════════════════════════════
-
-interface LessonMetaFE {
-  slug: string;
-  title: string;
-  type?: string;
-  duration?: string;
-  difficulty?: string;
-  description?: string;
-  level?: string;
-}
 
 interface HeadingItem {
   id: string;
@@ -231,21 +222,8 @@ function CopyButton({ content }: { content: string }) {
 }
 
 // ══════════════════════════════════════════════════════════════════════
-// SHARED HELPERS (exported for route pages)
-// ══════════════════════════════════════════════════════════════════════
-
-/** Build Metadata for a lesson page (for generateMetadata in route wrappers) */
-export function buildLessonMetadata(
-  hubName: string,
-  lessonSlug: string,
-  lessons?: LessonMetaFE[],
-): { title: string } {
-  const lesson = lessons?.find((l) => l.slug === lessonSlug);
-  return { title: `${lesson?.title || lessonSlug} — ${hubName}` };
-}
-
-// ══════════════════════════════════════════════════════════════════════
 // KNOWLEDGE LESSON PAGE — MAIN EXPORT
+// (buildLessonMetadata is server-safe and lives in @/lib/lesson-metadata)
 // ══════════════════════════════════════════════════════════════════════
 
 interface KnowledgeLessonPageProps {
