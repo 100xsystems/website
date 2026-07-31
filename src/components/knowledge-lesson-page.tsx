@@ -15,6 +15,7 @@
 
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import { useRouter } from 'next/navigation';
+import Link from 'next/link';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { ScrollSmoother } from 'gsap/ScrollSmoother';
@@ -54,8 +55,21 @@ function parseFrontmatter(raw: string): { content: string; frontmatter: Record<s
   const match = raw.match(/^---\s*\n([\s\S]*?)\n---/);
   if (!match) return { content: raw, frontmatter: {} };
 
+  // JSON frontmatter (language lessons store the whole block as a JSON object)
+  const block = match[1].trim();
+  if (block.startsWith('{')) {
+    try {
+      const parsed = JSON.parse(block);
+      if (parsed && typeof parsed === 'object' && !Array.isArray(parsed)) {
+        return { content: raw.slice(match[0].length).trim(), frontmatter: parsed as Record<string, unknown> };
+      }
+    } catch {
+      /* fall through to line-based parser */
+    }
+  }
+
   const frontmatter: Record<string, unknown> = {};
-  const lines = match[1].split('\n');
+  const lines = block.split('\n');
   let currentKey = '';
   let currentList: string[] = [];
 
@@ -115,6 +129,147 @@ function extractHeadings(markdown: string): HeadingItem[] {
 /** Build URL for a lesson .md file in the knowledge-cache */
 function lessonMdUrl(category: string, hubSlug: string, lessonSlug: string): string {
   return `/knowledge-cache/${category}/${hubSlug}/${lessonSlug}.md`;
+}
+
+// ══════════════════════════════════════════════════════════════════════
+// LESSON METADATA HELPERS — prerequisites, knowledge refs, references
+// ══════════════════════════════════════════════════════════════════════
+
+const KNOWLEDGE_CATEGORIES = [
+  'languages', 'principles', 'patterns', 'tools', 'technologies',
+  'case-studies', 'frameworks', 'infrastructure', 'databases',
+  'data-formats', 'runtimes',
+];
+
+function humanizeSlug(slug: string): string {
+  const cleaned = slug
+    .replace(/^[a-z]+-\d+-/i, '')
+    .replace(/[-_]+/g, ' ')
+    .trim();
+  return cleaned ? cleaned.replace(/\b\w/g, (c) => c.toUpperCase()) : slug;
+}
+
+interface ResolvedRef {
+  label: string;
+  href: string;
+}
+
+function resolveKnowledgeRef(ref: string, category: string): ResolvedRef {
+  const parts = ref.split('/').filter(Boolean);
+  const label = humanizeSlug(parts[parts.length - 1] || ref);
+  if (parts.length >= 3) {
+    // category/hub/lesson
+    return { label, href: `/knowledge/${parts.slice(0, 3).join('/')}` };
+  }
+  if (parts.length === 2) {
+    // category/hub OR hub/lesson within the current category
+    if (KNOWLEDGE_CATEGORIES.includes(parts[0])) {
+      return { label, href: `/knowledge/${parts.join('/')}` };
+    }
+    return { label, href: `/knowledge/${category}/${parts.join('/')}` };
+  }
+  return { label, href: `/knowledge/${category}/${parts[0]}` };
+}
+
+function resolvePrereq(
+  pre: string,
+  lessons: LessonMetaFE[],
+  category: string,
+  hubSlug: string,
+): { label: string; href?: string } {
+  const norm = pre.toLowerCase().replace(/[-\s_]+/g, '');
+  const match = lessons.find((l) => {
+    const slugNorm = l.slug.toLowerCase().replace(/[-\s_]+/g, '');
+    return slugNorm.startsWith(norm) || slugNorm.includes(norm);
+  });
+  if (match) return { label: match.title, href: `/knowledge/${category}/${hubSlug}/${match.slug}` };
+  return { label: pre };
+}
+
+/** Split markdown into top-level ## sections (fence-aware) */
+function splitMarkdownSections(markdown: string): { heading: string | null; body: string }[] {
+  const lines = markdown.split('\n');
+  const sections: { heading: string | null; body: string[] }[] = [];
+  let current: { heading: string | null; body: string[] } | null = null;
+  let inFence = false;
+  for (const line of lines) {
+    if (/^\s*```/.test(line)) inFence = !inFence;
+    const m = !inFence && /^##\s+(.+)$/.exec(line);
+    if (m) {
+      if (current) sections.push(current);
+      current = { heading: m[1].trim(), body: [] };
+    } else {
+      if (!current) current = { heading: null, body: [] };
+      current.body.push(line);
+    }
+  }
+  if (current) sections.push(current);
+  return sections.map((s) => ({ heading: s.heading, body: s.body.join('\n').trim() }));
+}
+
+// ══════════════════════════════════════════════════════════════════════
+// SPECIAL CONTENT SECTIONS — distinct high-quality panels
+// ══════════════════════════════════════════════════════════════════════
+
+interface SpecialSectionStyle {
+  kicker: string;
+  panelClass: string;
+  headingClass: string;
+  icon: React.ReactNode;
+}
+
+const SPECIAL_SECTION_STYLES: Record<string, SpecialSectionStyle> = {
+  'Practice Questions': {
+    kicker: 'Practice Questions',
+    panelClass: 'bg-surface-secondary',
+    headingClass: 'text-fg',
+    icon: (
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <circle cx="12" cy="12" r="10" />
+        <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3" />
+        <line x1="12" y1="17" x2="12.01" y2="17" />
+      </svg>
+    ),
+  },
+  'LLM Prompts for Deeper Understanding': {
+    kicker: 'LLM Prompts for Deeper Understanding',
+    panelClass: 'bg-accent/5',
+    headingClass: 'text-accent',
+    icon: (
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <polyline points="4 17 10 11 4 5" />
+        <line x1="12" y1="19" x2="20" y2="19" />
+      </svg>
+    ),
+  },
+  'Key Takeaways': {
+    kicker: 'Key Takeaways',
+    panelClass: 'bg-accent-yellow/10',
+    headingClass: 'text-fg',
+    icon: (
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <polyline points="20 6 9 17 4 12" />
+      </svg>
+    ),
+  },
+  'Knowledge Check': {
+    kicker: 'Knowledge Check',
+    panelClass: 'bg-accent/5',
+    headingClass: 'text-accent',
+    icon: (
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M9 11l3 3L22 4" />
+        <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11" />
+      </svg>
+    ),
+  },
+};
+
+function getSpecialSectionStyle(heading: string): SpecialSectionStyle | undefined {
+  for (const key of Object.keys(SPECIAL_SECTION_STYLES)) {
+    if (heading.toLowerCase() === key.toLowerCase()) return SPECIAL_SECTION_STYLES[key];
+  }
+  return undefined;
 }
 
 // ══════════════════════════════════════════════════════════════════════
@@ -267,6 +422,21 @@ export function KnowledgeLessonPage({
   const nextLesson = currentIndex < lessons.length - 1 ? lessons[currentIndex + 1] : null;
   const isQuiz = lesson?.type === 'quiz';
 
+  // ─── Lesson metadata from frontmatter ───────────────────────────
+  const lessonPrereqs = useMemo(
+    () => ((frontmatter.prerequisites as string[] | undefined) || []).map((p) => resolvePrereq(p, lessons, category, hubSlug)),
+    [frontmatter, lessons, category, hubSlug],
+  );
+  const lessonKnowledgeRefs = useMemo(
+    () => ((frontmatter.knowledge_refs as string[] | undefined) || []).map((r) => resolveKnowledgeRef(r, category)),
+    [frontmatter, category],
+  );
+  const lessonReferences = useMemo(
+    () => (frontmatter.references as { title: string; url: string }[] | undefined) || [],
+    [frontmatter],
+  );
+  const contentSections = useMemo(() => splitMarkdownSections(content), [content]);
+
   // ─── Fetch lesson content from knowledge-cache ──────────────────
   useEffect(() => {
     let mounted = true;
@@ -278,8 +448,11 @@ export function KnowledgeLessonPage({
           const text = await res.text();
           if (!mounted) return;
           const { content: parsedContent, frontmatter: parsedFm } = parseFrontmatter(text);
+          // Drop the redundant slug-prefixed H1 (e.g. "# PY-04-FUNCTIONS-SCOPE: Functions and Scope")
+          // — the page header already renders the clean lesson title.
+          const cleanedContent = parsedContent.replace(/^#\s+.+\n+/, '');
           setRaw(text);
-          setContent(parsedContent);
+          setContent(cleanedContent);
           setFrontmatter(parsedFm);
         } else {
           if (!mounted) return;
@@ -538,6 +711,63 @@ export function KnowledgeLessonPage({
             {lesson.title}
           </h1>
 
+          {/* Prerequisites */}
+          {lessonPrereqs.length > 0 && (
+            <div className="flex items-center flex-wrap gap-2 mb-8">
+              <span className="text-[10px] font-bold uppercase tracking-widest text-fg-muted mr-2">Prerequisites</span>
+              {lessonPrereqs.map((p, i) =>
+                p.href ? (
+                  <Link
+                    key={i}
+                    href={p.href}
+                    className="px-3 py-1.5 text-[10px] font-bold uppercase tracking-wider bg-surface-secondary text-fg-secondary hover:bg-accent hover:text-white transition-colors duration-200"
+                  >
+                    {p.label}
+                  </Link>
+                ) : (
+                  <span key={i} className="px-3 py-1.5 text-[10px] font-bold uppercase tracking-wider bg-surface-secondary text-fg-muted">
+                    {p.label}
+                  </span>
+                )
+              )}
+            </div>
+          )}
+
+          {/* Knowledge References — the most important */}
+          {lessonKnowledgeRefs.length > 0 && (
+            <div className="bg-accent text-white p-6 mb-10">
+              <div className="flex items-center gap-4 mb-5">
+                <span className="flex items-center justify-center w-10 h-10 bg-white/20 text-white shrink-0">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                    <polyline points="15 3 21 3 21 9" />
+                    <line x1="10" y1="14" x2="21" y2="3" />
+                  </svg>
+                </span>
+                <div>
+                  <span className="block text-[9px] font-bold uppercase tracking-[0.2em] text-white/60">Related knowledge</span>
+                  <h2 className="text-[11px] font-bold uppercase tracking-widest text-white">Knowledge References</h2>
+                </div>
+              </div>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                {lessonKnowledgeRefs.map((ref, i) => (
+                  <Link
+                    key={i}
+                    href={ref.href}
+                    className="group flex items-center gap-3 px-4 py-3 bg-white/10 hover:bg-white/20 transition-colors duration-200"
+                  >
+                    <span className="flex items-center justify-center w-6 h-6 bg-white/15 text-white text-[10px] font-bold shrink-0">
+                      {String(i + 1).padStart(2, '0')}
+                    </span>
+                    <span className="text-sm font-semibold text-white/90 group-hover:text-white transition-colors leading-snug">
+                      {ref.label}
+                    </span>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )}
+
           {/* Learning Objectives */}
           {!!frontmatter.learning_objectives && Array.isArray(frontmatter.learning_objectives) && (
             <div className="bg-surface-secondary p-6 mb-10">
@@ -555,6 +785,32 @@ export function KnowledgeLessonPage({
             </div>
           )}
 
+          {/* External References */}
+          {lessonReferences.length > 0 && (
+            <div className="mb-10">
+              <div className="flex items-center gap-4 mb-5">
+                <span className="text-[10px] font-bold uppercase tracking-widest text-fg-muted">References</span>
+                <div className="h-px flex-1 bg-surface-secondary" />
+              </div>
+              <div className="space-y-px">
+                {lessonReferences.map((ref, i) => (
+                  <a
+                    key={i}
+                    href={ref.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="group flex items-center justify-between gap-4 px-5 py-4 bg-white hover:bg-accent transition-all duration-200"
+                  >
+                    <span className="text-sm font-semibold text-fg group-hover:text-white transition-colors leading-snug">
+                      {ref.title}
+                    </span>
+                    <span className="text-xs text-fg-muted group-hover:text-white/60 transition-colors shrink-0">&rarr;</span>
+                  </a>
+                ))}
+              </div>
+            </div>
+          )}
+
           {/* Divider */}
           <div className="border-t border-border mb-10" />
 
@@ -567,7 +823,34 @@ export function KnowledgeLessonPage({
               `leading-[${lineHeightValue(settings.lineHeight)}]`,
               'bg-white min-h-screen pb-24'
             )}>
-              <MarkdownRenderer source={content} codeTheme={settings.codeTheme} />
+              {contentSections.map((section, i) => {
+                const special = section.heading ? getSpecialSectionStyle(section.heading) : undefined;
+                if (special) {
+                  return (
+                    <section key={i} className={cn('my-10 px-6 py-8', special.panelClass)}>
+                      <div className="flex items-center gap-4 mb-6">
+                        <span className="flex items-center justify-center w-10 h-10 bg-white text-accent shrink-0 shadow-[inset_0_1px_2px_rgba(0,0,0,0.04)]">
+                          {special.icon}
+                        </span>
+                        <div>
+                          <span className="block text-[9px] font-bold uppercase tracking-[0.2em] text-fg-muted">Lesson section</span>
+                          <h2 className={cn('text-sm font-extrabold uppercase tracking-widest', special.headingClass)}>
+                            {section.heading}
+                          </h2>
+                        </div>
+                      </div>
+                      <MarkdownRenderer source={section.body} codeTheme={settings.codeTheme} />
+                    </section>
+                  );
+                }
+                return (
+                  <MarkdownRenderer
+                    key={i}
+                    source={section.heading ? `## ${section.heading}\n\n${section.body}` : section.body}
+                    codeTheme={settings.codeTheme}
+                  />
+                );
+              })}
             </article>
           ) : (
             <div className="py-20 text-center">
