@@ -3,6 +3,7 @@ import { HomeYC } from '@/presentation/features/homeYC.feature';
 import { HomeProductHunt } from '@/presentation/features/homeProductHunt.feature';
 import { HomeDiscover } from '@/presentation/features/homeDiscover.feature';
 import { HomeHero } from '@/presentation/features/homeHero.feature';
+import { HomeQuickNav } from '@/presentation/features/homeQuickNav.feature';
 import { HomeLanguages } from '@/presentation/features/homeLanguages.feature';
 import { HomeKnowledgeTopics } from '@/presentation/features/homeKnowledgeTopics.feature';
 import { HomeAwesome } from '@/presentation/features/homeAwesome.feature';
@@ -219,6 +220,9 @@ export default async function HomePage() {
     <>
       {/* Hero — says clearly what the product is */}
       <HomeHero />
+
+      {/* Mobile-only sticky quick-nav — jump straight to any section */}
+      <HomeQuickNav />
 
       {/* Language courses with status */}
       {languages.length > 0 && <HomeLanguages languages={languages} />}

@@ -27,9 +27,9 @@ function formatStars(n: number): string {
 /** Homepage featured awesome lists — big borderless source cards, click to open the filtered list directly. */
 export function HomeAwesome({ lists }: HomeAwesomeProps) {
   return (
-    <section className="py-16 sm:py-24 bg-white">
+    <section id="awesome" className="scroll-mt-20 py-10 sm:py-24 bg-white">
       <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
-        <div className="mb-12 sm:mb-16">
+        <div className="mb-8 sm:mb-16">
           <div className="inline-flex items-center gap-3 px-4 py-2 text-sm font-bold uppercase tracking-widest bg-accent text-white mb-6">
             <span className="w-2 h-2 rounded-full bg-white animate-pulse" />
             AWESOME LISTS
@@ -45,14 +45,14 @@ export function HomeAwesome({ lists }: HomeAwesomeProps) {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 gap-1 bg-surface-secondary sm:grid-cols-2 lg:grid-cols-3">
+        <div className="flex gap-2 overflow-x-auto bg-surface-secondary -mx-6 px-6 pb-2 snap-x snap-mandatory sm:mx-0 sm:px-0 sm:pb-0 sm:grid sm:grid-cols-2 sm:gap-1 lg:grid-cols-3 sm:overflow-visible sm:snap-none">
           {lists.map((list) => {
             const color = getAwesomeBrandColor(list.repoId);
             return (
               <Link
                 key={list.repoId}
                 href={`/discover/awesome?source=${encodeURIComponent(list.repoId)}`}
-                className="group flex flex-col items-start gap-6 p-7 sm:p-8 bg-white transition-colors duration-200 hover:bg-accent"
+                className="group flex flex-col items-start gap-6 p-7 sm:p-8 bg-white transition-colors duration-200 hover:bg-accent shrink-0 w-[82vw] snap-start sm:w-auto"
               >
                 <div className="flex w-full items-start justify-between gap-4">
                   <span
@@ -87,7 +87,7 @@ export function HomeAwesome({ lists }: HomeAwesomeProps) {
         </div>
 
         {/* CTA — same pattern as "View All Feeds" */}
-        <div className="mt-12 text-center">
+        <div className="mt-8 sm:mt-12 text-center">
           <Button
             variant="purpleGhost"
             size="lg"

@@ -23,10 +23,10 @@ interface HomeLanguagesProps {
 /** Homepage languages section — top popular languages as big borderless cards, matching the Awesome section. */
 export function HomeLanguages({ languages }: HomeLanguagesProps) {
   return (
-    <section className="py-16 sm:py-24 bg-white">
+    <section id="courses" className="scroll-mt-20 py-10 sm:py-24 bg-white">
       <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
         {/* Section header */}
-        <div className="mb-12 sm:mb-16">
+        <div className="mb-8 sm:mb-16">
           <div className="inline-flex items-center gap-3 px-4 py-2 text-sm font-bold uppercase tracking-widest bg-accent text-white mb-6">
             <span className="w-2 h-2 rounded-full bg-white animate-pulse" />
             LEARN
@@ -42,8 +42,8 @@ export function HomeLanguages({ languages }: HomeLanguagesProps) {
           </div>
         </div>
 
-        {/* Language grid — big borderless cards, no gaps, inverted hover (matches Awesome) */}
-        <div className="grid grid-cols-1 gap-1 bg-surface-secondary sm:grid-cols-2 lg:grid-cols-3">
+        {/* Language grid — horizontal swipe on mobile, hairline grid on desktop */}
+        <div className="flex gap-2 overflow-x-auto bg-surface-secondary -mx-6 px-6 pb-2 snap-x snap-mandatory sm:mx-0 sm:px-0 sm:pb-0 sm:grid sm:grid-cols-2 sm:gap-1 lg:grid-cols-3 sm:overflow-visible sm:snap-none">
           {languages.map((lang) => {
             const status = classifyCourse(lang.lessons);
             const meta = courseStatusMeta(status);
@@ -51,7 +51,7 @@ export function HomeLanguages({ languages }: HomeLanguagesProps) {
               <Link
                 key={lang.slug}
                 href={`/knowledge/languages/${lang.slug}`}
-                className="group flex flex-col items-start gap-6 p-7 sm:p-8 bg-white transition-colors duration-200 hover:bg-accent"
+                className="group flex flex-col items-start gap-6 p-7 sm:p-8 bg-white transition-colors duration-200 hover:bg-accent shrink-0 w-[82vw] snap-start sm:w-auto"
               >
                 <div className="flex w-full items-start justify-between gap-4">
                   <span className={cn(
@@ -95,7 +95,7 @@ export function HomeLanguages({ languages }: HomeLanguagesProps) {
         </div>
 
         {/* CTA — same pattern as "View All Feeds" */}
-        <div className="mt-12 text-center">
+        <div className="mt-8 sm:mt-12 text-center">
           <Button
             variant="purpleGhost"
             size="lg"

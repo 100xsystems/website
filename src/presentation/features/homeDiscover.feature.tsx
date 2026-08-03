@@ -23,10 +23,10 @@ const DISCOVER_CARDS = [
 
 export function HomeDiscover() {
   return (
-    <section className="py-16 sm:py-24 bg-white">
+    <section id="discover" className="scroll-mt-20 py-10 sm:py-24 bg-white">
       <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
         {/* Section header */}
-        <div className="mb-12 sm:mb-16">
+        <div className="mb-8 sm:mb-16">
           <div className="inline-flex items-center gap-3 px-4 py-2 text-sm font-bold uppercase tracking-widest bg-accent text-white mb-6">
             <span className="w-2 h-2 rounded-full bg-white animate-pulse" />
             DISCOVER
@@ -41,13 +41,13 @@ export function HomeDiscover() {
         </div>
 
         {/* Card grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+        <div className="flex gap-4 overflow-x-auto -mx-6 px-6 pb-2 snap-x snap-mandatory sm:mx-0 sm:px-0 sm:pb-0 sm:grid sm:grid-cols-2 sm:gap-6 sm:overflow-visible sm:snap-none lg:grid-cols-3 xl:grid-cols-4">
           {DISCOVER_CARDS.map((card) => (
             <Link
               key={card.slug}
               href={card.href}
               className={cn(
-                'group block bg-white border border-border p-6 transition-all duration-300 hover:border-transparent hover:shadow-xl hover:-translate-y-1',
+                'group block bg-white border border-border p-5 transition-all duration-300 hover:border-transparent hover:shadow-xl hover:-translate-y-1 sm:p-6 shrink-0 w-[70vw] snap-start sm:w-auto',
                 card.hoverBg,
               )}
             >

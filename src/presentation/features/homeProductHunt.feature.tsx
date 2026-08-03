@@ -184,10 +184,10 @@ export function HomeProductHunt() {
   }, [products, selectedTopic]);
 
   return (
-    <section className="py-16 sm:py-24 bg-white">
+    <section id="products" className="scroll-mt-20 py-10 sm:py-24 bg-white">
       <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
         {/* Section header */}
-        <div className="mb-12 sm:mb-16">
+        <div className="mb-8 sm:mb-16">
           <div className="inline-flex items-center gap-3 px-4 py-2 text-sm font-bold uppercase tracking-widest bg-red-500 text-white mb-6">
             <span className="w-2 h-2 rounded-full bg-white animate-pulse" />
             Product Hunt
@@ -272,13 +272,13 @@ export function HomeProductHunt() {
 
         {/* Products grid — borderless rich cards */}
         {!isLoading && !error && filteredProducts.length > 0 && (
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="flex gap-4 overflow-x-auto -mx-6 px-6 pb-2 snap-x snap-mandatory sm:mx-0 sm:px-0 sm:pb-0 sm:grid sm:grid-cols-2 sm:gap-6 sm:overflow-visible sm:snap-none lg:grid-cols-3">
             {filteredProducts.map((product) => (
               <button
                 type="button"
                 key={product.id}
                 onClick={() => setSelectedProduct(product)}
-                className="group bg-white p-8 flex flex-col text-left transition-all duration-300 hover:bg-red-500 hover:scale-[1.03] hover:shadow-2xl cursor-pointer w-full border-0"
+                className="group flex w-[82vw] shrink-0 snap-start flex-col bg-white p-5 text-left transition-all duration-300 hover:bg-red-500 hover:scale-[1.03] hover:shadow-2xl cursor-pointer border-0 sm:w-auto sm:p-8"
               >
                 {/* Thumbnail + Name + Votes */}
                 <div className="flex items-start gap-5 mb-5">
@@ -356,7 +356,7 @@ export function HomeProductHunt() {
         )}
 
         {/* CTA */}
-        <div className="mt-12 text-center">
+        <div className="mt-8 sm:mt-12 text-center">
           <Button
             variant="purpleGhost"
             size="lg"

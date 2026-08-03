@@ -33,9 +33,9 @@ interface HomeKnowledgeTopicsProps {
 /** Homepage knowledge topics section — principles, patterns, tools, technologies. */
 export function HomeKnowledgeTopics({ topics }: HomeKnowledgeTopicsProps) {
   return (
-    <section className="py-16 sm:py-24 bg-surface-secondary">
+    <section id="concepts" className="scroll-mt-20 py-10 sm:py-24 bg-surface-secondary">
       <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
-        <div className="mb-12 sm:mb-16">
+        <div className="mb-8 sm:mb-16">
           <div className="inline-flex items-center gap-3 px-4 py-2 text-sm font-bold uppercase tracking-widest bg-accent text-white mb-6">
             <span className="w-2 h-2 rounded-full bg-white animate-pulse" />
             KNOWLEDGE BASE
@@ -49,24 +49,24 @@ export function HomeKnowledgeTopics({ topics }: HomeKnowledgeTopicsProps) {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-1 bg-white">
+        <div className="grid grid-cols-2 gap-1 bg-white sm:grid-cols-2 lg:grid-cols-4">
           {topics.map((topic) => (
             <Link
               key={topic.slug}
               href={`/knowledge/${topic.slug}`}
-              className="group block bg-surface-secondary p-8 transition-colors duration-200 hover:bg-accent"
+              className="group block bg-surface-secondary p-5 transition-colors duration-200 hover:bg-accent sm:p-8"
             >
               <span className={cn(
-                'inline-flex items-center justify-center w-14 h-14 mb-6 transition-colors duration-200',
+                'inline-flex items-center justify-center w-10 h-10 mb-4 transition-colors duration-200 sm:w-14 sm:h-14 sm:mb-6',
                 TOPIC_BG[topic.slug] || 'bg-surface-secondary text-fg-muted',
                 'group-hover:bg-white/20 group-hover:text-white',
               )}>
                 {TOPIC_ICONS[topic.slug] || <FaWrench size={22} />}
               </span>
-              <h3 className="text-lg font-extrabold uppercase tracking-wide text-fg group-hover:text-white transition-colors duration-200 mb-2">
+              <h3 className="text-sm font-extrabold uppercase tracking-wide text-fg group-hover:text-white transition-colors duration-200 mb-1 sm:text-lg sm:mb-2">
                 {topic.label}
               </h3>
-              <p className="text-sm text-fg-secondary leading-relaxed group-hover:text-white/80 transition-colors duration-200 mb-6">
+              <p className="hidden text-sm text-fg-secondary leading-relaxed group-hover:text-white/80 transition-colors duration-200 sm:block sm:mb-6">
                 {topic.description}
               </p>
               <div className="flex items-center justify-between">

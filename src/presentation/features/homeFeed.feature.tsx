@@ -74,10 +74,10 @@ export function HomeFeed({ initialArticles }: HomeFeedProps) {
   }, [allArticles, selectedTag]);
 
   return (
-    <section className="py-16 sm:py-24 bg-white">
+    <section id="updates" className="scroll-mt-20 py-10 sm:py-24 bg-white">
       <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
         {/* Section label — 2x bigger */}
-        <div className="mb-12 sm:mb-16">
+        <div className="mb-8 sm:mb-16">
           <div className="inline-flex items-center gap-3 px-4 py-2 text-sm font-bold uppercase tracking-widest bg-accent text-white mb-6">
             <span className="w-2 h-2 rounded-full bg-white animate-pulse" />
             Latest from Engineering Blogs
@@ -93,7 +93,7 @@ export function HomeFeed({ initialArticles }: HomeFeedProps) {
 
         {/* Tag filter cards — single-select, above the grid */}
         {!hasError && allTags.length > 0 && (
-          <div className="mb-10 flex flex-wrap items-center gap-3">
+          <div className="mb-8 flex flex-wrap items-center gap-3 sm:mb-10">
             <button
               type="button"
               onClick={() => setSelectedTag(null)}
@@ -134,7 +134,7 @@ export function HomeFeed({ initialArticles }: HomeFeedProps) {
 
         {/* Latest articles grid */}
         {!hasError && articles.length > 0 && (
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 sm:gap-8">
+          <div className="flex gap-4 overflow-x-auto -mx-6 px-6 pb-2 snap-x snap-mandatory sm:mx-0 sm:px-0 sm:pb-0 sm:grid sm:grid-cols-2 sm:gap-6 sm:overflow-visible sm:snap-none lg:grid-cols-3 xl:grid-cols-4">
             {articles.map((article) => {
               const source = FEED_REGISTRY.find((f) => f.id === article.feedId);
               return (
@@ -143,7 +143,7 @@ export function HomeFeed({ initialArticles }: HomeFeedProps) {
                   href={article.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="group flex flex-col bg-surface-secondary transition-all duration-300 hover:bg-accent hover:scale-[1.02] hover:shadow-xl"
+                  className="group flex flex-col bg-surface-secondary transition-all duration-300 hover:bg-accent hover:scale-[1.02] hover:shadow-xl shrink-0 w-[82vw] snap-start sm:w-auto"
                 >
                   {/* Card header with logo */}
                   <div className="px-6 py-5 flex items-center gap-4">
@@ -214,7 +214,7 @@ export function HomeFeed({ initialArticles }: HomeFeedProps) {
         )}
 
         {/* CTA */}
-        <div className="mt-12 text-center">
+        <div className="mt-8 sm:mt-12 text-center">
           <Button
             variant="purpleGhost"
             size="lg"

@@ -1,96 +1,96 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import * as fs from 'node:fs';
-import * as path from 'node:path';
-import type { KnowledgeManifest } from '@/knowledge/knowledge.types';
-import { KnowledgeGraphClient } from './KnowledgeGraphClient';
+import { getHubs, refreshKnowledgeCacheIfStale, type ResourceHub } from '@/lib/knowledge-resources';
+import { KnowledgeHub, type KnowledgeCategory } from './KnowledgeHub';
+
+export const revalidate = 3600;
 
 export const metadata: Metadata = {
-  title: 'Knowledge Graph — 100xSystems',
+  title: 'Knowledge — 100xSystems',
   description:
-    'Browse software engineering concepts across principles, languages, tools, and patterns.',
+    'Every course and curated resource hub in one place — languages, principles, patterns, tools, AI, and more. Pick a category or see everything.',
   openGraph: {
-    title: 'Knowledge Graph — 100xSystems',
-    description: 'Browse interconnected engineering concepts across 4 categories.',
+    title: 'Knowledge — 100xSystems',
+    description: 'Every course and curated resource hub in one place.',
   },
 };
-
-export const revalidate = 86400;
 
 interface Props {
   searchParams: Promise<{ category?: string }>;
 }
 
-const CACHE_DIR = path.join(process.cwd(), 'public', 'knowledge-cache');
+// Curated order: the core engineering categories first, then the rest of the knowledge base.
+const CATEGORY_ORDER: Array<{ key: string; label: string }> = [
+  { key: 'languages', label: 'Languages' },
+  { key: 'principles', label: 'Principles' },
+  { key: 'patterns', label: 'Patterns' },
+  { key: 'tools', label: 'Tools' },
+  { key: 'technologies', label: 'Technologies' },
+  { key: 'ai', label: 'AI' },
+  { key: 'case-studies', label: 'Case Studies' },
+];
 
-function readManifest(): KnowledgeManifest | null {
-  try {
-    const filePath = path.join(CACHE_DIR, 'manifest.json');
-    if (!fs.existsSync(filePath)) return null;
-    return JSON.parse(fs.readFileSync(filePath, 'utf-8'));
-  } catch {
-    return null;
-  }
+function countResources(hub: ResourceHub): number {
+  return hub.categories?.reduce((sum, cat) => sum + (cat.items?.length ?? 0), 0) ?? 0;
 }
 
-const CATEGORY_LABELS: Record<string, string> = {
-  principles: 'Principles',
-  languages: 'Languages',
-  tools: 'Tools & Technologies',
-  patterns: 'Patterns',
-};
-
 export default async function KnowledgePage({ searchParams }: Props) {
+  // ISR: re-clone the registry knowledge tree if stale so revalidation serves fresh hubs.
+  refreshKnowledgeCacheIfStale();
+
   const { category } = await searchParams;
-  const manifest = readManifest();
 
-  if (!manifest || manifest.totalEntities === 0) {
-    return (
-      <main className="mx-auto max-w-5xl px-4 py-16">
-        <h1 className="text-xl font-bold text-fg mb-4 uppercase tracking-wider">Knowledge Graph</h1>
-        <div className="border-2 border-dashed border-black/20 p-12 text-center">
-          <p className="text-fg-muted text-sm">Knowledge graph data hasn't been cached yet.</p>
-          <p className="text-fg-muted/60 text-xs mt-2">Run the knowledge crawler in the registry first.</p>
-        </div>
-      </main>
-    );
-  }
+  // Load every category that has real data — empty categories are skipped automatically.
+  const categories: KnowledgeCategory[] = CATEGORY_ORDER.map(({ key, label }) => ({
+    key,
+    label,
+    hubs: getHubs(key)
+      .map((h) => ({
+        slug: h.slug,
+        name: h.name,
+        description: h.description ?? '',
+        lessons: h.lessons ?? [],
+        resourceCount: countResources(h),
+      }))
+      // Complete courses (with lessons) first, then curated resource hubs.
+      .sort((a, b) => b.lessons.length - a.lessons.length),
+  })).filter((c) => c.hubs.length > 0);
 
-  const sortedCategories = Object.entries(manifest.categories).sort((a, b) => b[1] - a[1]);
+  const totalCourses = categories.reduce((s, c) => s + c.hubs.length, 0);
+  const totalResources = categories.reduce((s, c) => s + c.hubs.reduce((x, h) => x + h.resourceCount, 0), 0);
 
-  const allConcepts = Object.keys(manifest.labelMap).map((slug) => ({
-    slug,
-    label: manifest.labelMap[slug] || slug,
-    category: manifest.categoryMap[slug] || 'unknown',
-  }));
+  const initialCategory = categories.some((c) => c.key === category) ? (category as string) : 'all';
 
   return (
-    <main className="mx-auto max-w-5xl px-4 py-16">
-      {/* Header */}
-      <div className="flex items-center justify-between mb-8">
-        <div>
-          <h1 className="text-xl font-bold text-fg uppercase tracking-wider">Knowledge Graph</h1>
-          <p className="text-sm text-fg-muted mt-1">
-            {manifest.totalEntities} software engineering concepts
+    <main className="mx-auto bg-white py-16 sm:py-24">
+      <div className="mx-auto max-w-[1400px] px-6 lg:px-12">
+        {/* Breadcrumb */}
+        <div className="mb-8 flex items-center gap-2 text-xs text-fg-muted">
+          <Link href="/" className="font-bold uppercase tracking-wider transition-colors hover:text-accent">
+            Home
+          </Link>
+          <span>/</span>
+          <span className="font-bold uppercase tracking-wider text-fg">Knowledge</span>
+        </div>
+
+        {/* Header */}
+        <div className="mb-14 sm:mb-20">
+          <div className="mb-6 inline-flex items-center gap-3 bg-accent px-4 py-2 text-sm font-bold uppercase tracking-widest text-white">
+            <span className="h-2 w-2 animate-pulse rounded-full bg-white" />
+            KNOWLEDGE BASE
+          </div>
+          <h1 className="text-4xl font-extrabold uppercase leading-tight tracking-tight text-fg sm:text-5xl lg:text-6xl">
+            Every course.<br />
+            <span className="text-accent">One place.</span>
+          </h1>
+          <p className="mt-6 max-w-2xl text-lg text-fg-secondary">
+            {totalCourses} courses · {totalResources.toLocaleString()} curated resources across languages,
+            principles, patterns, tools, AI, and more. Pick a category — or just see everything.
           </p>
         </div>
-        {category && (
-          <Link
-            href="/knowledge"
-            className="text-xs font-bold uppercase tracking-wider text-fg-muted hover:text-accent transition-colors"
-          >
-            &larr; Clear
-          </Link>
-        )}
-      </div>
 
-      {/* Search + tabs + listing (client component) */}
-      <KnowledgeGraphClient
-        concepts={allConcepts}
-        initialCategory={category || null}
-        categoryCounts={Object.fromEntries(sortedCategories)}
-        categoryLabels={CATEGORY_LABELS}
-      />
+        <KnowledgeHub categories={categories} initialCategory={initialCategory} />
+      </div>
     </main>
   );
 }

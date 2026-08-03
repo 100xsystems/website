@@ -339,10 +339,10 @@ export function HomeYC() {
   const hasContent = displayCompanies.length > 0;
 
   return (
-    <section className="py-16 sm:py-24 bg-surface-secondary">
+    <section id="yc" className="scroll-mt-20 py-10 sm:py-24 bg-surface-secondary">
       <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
         {/* Section header */}
-        <div className="mb-12 sm:mb-16">
+        <div className="mb-8 sm:mb-16">
           <div className="inline-flex items-center gap-3 px-4 py-2 text-sm font-bold uppercase tracking-widest bg-orange-500 text-white mb-6">
             <span className="w-2 h-2 rounded-full bg-white animate-pulse" />
             Y Combinator
@@ -425,13 +425,13 @@ export function HomeYC() {
 
         {/* Companies grid — BIGGER cards */}
         {!isLoading && !error && hasContent && (
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+          <div className="flex gap-4 overflow-x-auto -mx-6 px-6 pb-2 snap-x snap-mandatory sm:mx-0 sm:px-0 sm:pb-0 sm:grid sm:grid-cols-2 sm:gap-6 sm:overflow-visible sm:snap-none lg:grid-cols-3 xl:grid-cols-4">
             {displayCompanies.map((company) => (
               <button
                 type="button"
                 key={`${company._changeType}-${company.id}`}
                 onClick={() => setSelectedCompany(company as YcCompany)}
-                className="group bg-white p-8 flex flex-col text-left transition-all duration-300 hover:scale-[1.03] hover:shadow-2xl hover:bg-orange-500 cursor-pointer border-0 w-full"
+                className="group flex w-[82vw] shrink-0 snap-start flex-col bg-white p-5 text-left transition-all duration-300 hover:scale-[1.03] hover:shadow-2xl hover:bg-orange-500 cursor-pointer border-0 sm:w-auto sm:p-8"
               >
                 {/* Logo + Name */}
                 <div className="flex items-center gap-5 mb-4">
@@ -520,7 +520,7 @@ export function HomeYC() {
         )}
 
         {/* CTA */}
-        <div className="mt-12 text-center">
+        <div className="mt-8 sm:mt-12 text-center">
           <Button
             variant="purpleGhost"
             size="lg"

@@ -77,13 +77,7 @@ export const metadata: Metadata = {
 
 const headerItems = [
   { id: 'courses', label: 'Courses', href: '/courses' },
-  { id: 'knowledge', label: 'Knowledge Base', children: [
-    { id: 'languages', label: 'Languages', href: '/knowledge/languages', description: 'Complete courses & curated resource hubs', featured: true },
-    { id: 'principles', label: 'Principles', href: '/knowledge/principles', description: 'Foundational engineering principles' },
-    { id: 'patterns', label: 'Patterns', href: '/knowledge/patterns', description: 'Design patterns & blueprints' },
-    { id: 'tools', label: 'Tools', href: '/knowledge/tools', description: 'Essential dev tools' },
-    { id: 'technologies', label: 'Technologies', href: '/knowledge/technologies', description: 'Key technologies & platforms' },
-  ]},
+  { id: 'knowledge', label: 'Knowledge', href: '/knowledge' },
   { id: 'ai', label: 'AI', href: '/ai' },
   { id: 'discover', label: 'Discover', children: [
     { id: 'feed', label: 'Feed', href: '/discover/feed', description: 'Engineering blogs & articles', featured: true },

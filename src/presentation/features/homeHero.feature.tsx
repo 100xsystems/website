@@ -14,12 +14,12 @@ import { FaGraduationCap, FaCompass, FaNewspaper } from 'react-icons/fa';
  */
 export function HomeHero() {
   return (
-    <section className="relative overflow-hidden flex items-center bg-white" style={{ height: 'calc(100vh - 7rem)' }}>
+    <section className="relative overflow-hidden flex items-center bg-white" style={{ minHeight: 'calc(100vh - 7rem)' }}>
       <div className="absolute inset-0 z-0">
         <IconAnimatedGridPattern />
       </div>
 
-      <div className="relative z-10 w-full max-w-300 mx-auto px-6 lg:px-12 py-16">
+      <div className="relative z-10 w-full max-w-300 mx-auto px-6 lg:px-12 py-10 sm:py-16">
         <div className="grid grid-cols-1 lg:grid-cols-[1.15fr_0.85fr] gap-12 lg:gap-16 items-center">
           {/* ── Left: message ── */}
           <div>
@@ -28,14 +28,14 @@ export function HomeHero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
             >
-              <div className="inline-flex items-center gap-3 px-4 py-2 text-xs font-bold uppercase tracking-widest bg-accent text-white mb-8">
+              <div className="inline-flex items-center gap-3 px-4 py-2 text-xs font-bold uppercase tracking-widest bg-accent text-white mb-4 sm:mb-8">
                 <span className="w-2 h-2 rounded-full bg-white animate-pulse" />
                 Free · Structured · Depth-first
               </div>
             </motion.div>
 
             <motion.h1
-              className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-fg tracking-tight uppercase leading-[1.05] mb-6"
+              className="text-3xl sm:text-5xl lg:text-6xl font-extrabold text-fg tracking-tight uppercase leading-[1.05] mb-4 sm:mb-6"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.05 }}
@@ -46,7 +46,7 @@ export function HomeHero() {
             </motion.h1>
 
             <motion.p
-              className="text-lg sm:text-xl text-fg-secondary leading-relaxed max-w-xl mb-10"
+              className="text-base sm:text-xl text-fg-secondary leading-relaxed max-w-xl mb-6 sm:mb-10"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.12 }}
@@ -57,28 +57,28 @@ export function HomeHero() {
             </motion.p>
 
             <motion.div
-              className="flex flex-wrap items-center gap-4 mb-12"
+              className="flex flex-wrap items-center gap-3 sm:gap-4 mb-8 sm:mb-12"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.2 }}
             >
               <Link
                 href="/courses"
-                className="inline-flex items-center gap-3 px-8 py-4 bg-white text-sm font-bold uppercase tracking-wider border-0 text-white "
+                className="inline-flex items-center gap-3 px-5 py-3 sm:px-8 sm:py-4 bg-white text-fg text-sm font-bold uppercase tracking-wider border border-border transition-colors duration-200 hover:bg-accent hover:text-white hover:border-accent"
               >
                 <FaGraduationCap size={16} />
                 Browse Courses
               </Link>
               <Link
                 href="/knowledge/languages"
-                className="inline-flex items-center gap-3 px-8 py-4 text-fg text-sm font-bold uppercase tracking-wider transition-all duration-200 hover:text-accent relative after:absolute after:bottom-2 after:left-8 after:right-8 after:h-0.75 after:bg-accent-yellow after:origin-left after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300"
+                className="inline-flex items-center gap-3 px-5 py-3 sm:px-8 sm:py-4 text-fg text-sm font-bold uppercase tracking-wider transition-all duration-200 hover:text-accent relative after:absolute after:bottom-2 after:left-8 after:right-8 after:h-0.75 after:bg-accent-yellow after:origin-left after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300"
               >
                 <FaCompass size={16} />
                 Explore Languages
               </Link>
               <Link
                 href="/discover"
-                className="inline-flex items-center gap-3 px-8 py-4 text-fg-muted text-sm font-bold uppercase tracking-wider transition-all duration-200 hover:text-fg"
+                className="inline-flex items-center gap-3 px-5 py-3 sm:px-8 sm:py-4 text-fg-muted text-sm font-bold uppercase tracking-wider transition-all duration-200 hover:text-fg"
               >
                 <FaNewspaper size={16} />
                 Discover
@@ -87,7 +87,7 @@ export function HomeHero() {
 
             {/* Stats strip */}
             <motion.div
-              className="flex flex-wrap items-center gap-8 sm:gap-12"
+              className="flex flex-wrap items-center gap-5 sm:gap-12"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.28 }}
@@ -98,7 +98,7 @@ export function HomeHero() {
                 { n: '29k', l: 'Curated resources' },
               ].map((s) => (
                 <div key={s.l}>
-                  <span className="block text-3xl sm:text-4xl font-extrabold text-fg tabular-nums">{s.n}</span>
+                  <span className="block text-2xl sm:text-4xl font-extrabold text-fg tabular-nums">{s.n}</span>
                   <span className="block text-[10px] font-bold uppercase tracking-widest text-fg-muted mt-1">{s.l}</span>
                 </div>
               ))}
@@ -107,7 +107,7 @@ export function HomeHero() {
 
           {/* ── Right: pillar cards ── */}
           <motion.div
-            className="grid grid-cols-1 gap-1 bg-surface-secondary"
+            className="grid grid-cols-3 gap-1 bg-surface-secondary lg:grid-cols-1"
             initial={{ opacity: 0, y: 24 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.18 }}
@@ -159,17 +159,18 @@ function PillarCard({
   return (
     <Link
       href={href}
-      className="group flex items-start gap-5 p-6 bg-white transition-colors duration-200 hover:bg-accent"
+      className="group flex flex-col items-start gap-2 p-3 bg-white transition-colors duration-200 hover:bg-accent lg:flex-row lg:items-start lg:gap-5 lg:p-6"
     >
-      <span className={`inline-flex items-center justify-center w-12 h-12 shrink-0 text-sm font-extrabold ${accent} ${text} group-hover:bg-white/20 group-hover:text-white transition-colors duration-200`}>
+      <span className={`inline-flex items-center justify-center w-9 h-9 lg:w-12 lg:h-12 shrink-0 text-xs lg:text-sm font-extrabold ${accent} ${text} group-hover:bg-white/20 group-hover:text-white transition-colors duration-200`}>
         {index}
       </span>
       <div className="min-w-0">
-        <h3 className="text-base font-extrabold uppercase tracking-widest text-fg group-hover:text-white transition-colors duration-200 mb-1.5">
+        <h3 className="text-[10px] lg:text-base font-extrabold uppercase tracking-widest text-fg group-hover:text-white transition-colors duration-200 lg:mb-1.5">
           {title}
         </h3>
-        <p className="text-sm text-fg-secondary leading-relaxed group-hover:text-white/80 transition-colors duration-200">{desc}</p>
+        <p className="hidden lg:block text-sm text-fg-secondary leading-relaxed group-hover:text-white/80 transition-colors duration-200">{desc}</p>
       </div>
+      <span className="hidden lg:inline-block ml-auto mt-1 text-accent text-sm font-bold group-hover:text-white transition-colors duration-200">→</span>
     </Link>
   );
 }
