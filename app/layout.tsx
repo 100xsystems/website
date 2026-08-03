@@ -76,19 +76,20 @@ export const metadata: Metadata = {
 };
 
 const headerItems = [
-  { id: 'systems', label: 'Systems', href: '/systems' },
+  { id: 'courses', label: 'Courses', href: '/courses' },
   { id: 'knowledge', label: 'Knowledge Base', children: [
-    { id: 'languages', label: 'Languages', href: '/knowledge/languages', description: 'Curated language resource hubs', featured: true },
+    { id: 'languages', label: 'Languages', href: '/knowledge/languages', description: 'Complete courses & curated resource hubs', featured: true },
     { id: 'principles', label: 'Principles', href: '/knowledge/principles', description: 'Foundational engineering principles' },
     { id: 'patterns', label: 'Patterns', href: '/knowledge/patterns', description: 'Design patterns & blueprints' },
     { id: 'tools', label: 'Tools', href: '/knowledge/tools', description: 'Essential dev tools' },
     { id: 'technologies', label: 'Technologies', href: '/knowledge/technologies', description: 'Key technologies & platforms' },
   ]},
+  { id: 'ai', label: 'AI', href: '/ai' },
   { id: 'discover', label: 'Discover', children: [
     { id: 'feed', label: 'Feed', href: '/discover/feed', description: 'Engineering blogs & articles', featured: true },
-    { id: 'yc', label: 'YC Companies', href: '/discover/yc', description: 'Browse Y Combinator startups', featured: true },
-    { id: 'ph', label: 'Product Hunt', href: '/discover/product-hunt', description: 'Latest product launches', featured: true },
-    { id: 'awesome', label: 'Awesome Lists', href: '/discover/awesome', description: 'Curated GitHub resources' },
+    { id: 'awesome', label: 'Awesome Lists', href: '/discover/awesome', description: 'Curated GitHub resources', featured: true },
+    { id: 'yc', label: 'YC Companies', href: '/discover/yc', description: 'Browse Y Combinator startups' },
+    { id: 'ph', label: 'Product Hunt', href: '/discover/product-hunt', description: 'Latest product launches' },
     { id: 'hn', label: 'Hacker News', href: '/discover/hn', description: 'Top stories & discussions' },
     { id: 'github', label: 'GitHub', href: '/discover/github', description: 'Search public repos' },
     { id: 'stackoverflow', label: 'Stack Overflow', href: '/discover/stackoverflow', description: 'Q&A for programmers' },
@@ -99,7 +100,6 @@ const headerItems = [
     { id: 'ddg', label: 'DuckDuckGo', href: '/discover/ddg', description: 'Web & instant answers' },
     { id: 'wikipedia', label: 'Wikipedia', href: '/discover/wikipedia', description: 'Reference articles' },
   ]},
-  { id: 'cli-docs', label: 'CLI Docs', href: '/cli-docs' },
   { id: 'search', label: 'Search', href: '/search' },
   { id: 'about', label: 'About', href: '/about' },
 

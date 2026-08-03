@@ -11,6 +11,7 @@
 'use client';
 
 import React, { useState, useRef, useEffect, type ReactNode } from 'react';
+import Link from 'next/link';
 import { motion, AnimatePresence, useMotionValue, useSpring, useTransform, type MotionValue } from 'motion/react';
 import { cn } from '@/application/lib/utils';
 import { Button } from './components.atomic';
@@ -615,12 +616,12 @@ export function Footer({ className }: FooterProps) {
               Build it. Understand it. Improve it.
             </p>
 
-            <a
+            <Link
               href="/systems"
               className="inline-flex items-center gap-3 px-10 py-4 text-white text-sm font-bold uppercase tracking-wider transition-all duration-200 relative after:absolute after:bottom-0 after:left-0 after:h-[3px] after:w-full after:bg-accent-yellow after:origin-left after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300"
             >
               Start Building
-            </a>
+            </Link>
           </div>
         </div>
       </div>
@@ -630,9 +631,10 @@ export function Footer({ className }: FooterProps) {
         <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
           <div className="flex flex-col items-center gap-2">
             <div className="flex items-center flex-wrap justify-center gap-2">
-              <Button variant="purpleGhost" size="default" onClick={() => window.location.href = '/systems'}>SYSTEMS</Button>
-              <Button variant="purpleGhost" size="default" onClick={() => window.location.href = '/languages'}>LANGUAGES</Button>
-              <Button variant="purpleGhost" size="default" onClick={() => window.location.href = '/search'}>SEARCH</Button>
+              <Button variant="purpleGhost" size="default" onClick={() => window.location.href = '/courses'}>COURSES</Button>
+              <Button variant="purpleGhost" size="default" onClick={() => window.location.href = '/knowledge/languages'}>LANGUAGES</Button>
+              <Button variant="purpleGhost" size="default" onClick={() => window.location.href = '/ai'}>AI</Button>
+              <Button variant="purpleGhost" size="default" onClick={() => window.location.href = '/discover/awesome'}>AWESOME</Button>
             </div>
 
             <div className="flex items-center gap-2">

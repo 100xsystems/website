@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { getHubs, countHubResources, type ResourceHub } from '@/lib/knowledge-resources';
+import { getHubs, countHubResources, refreshKnowledgeCacheIfStale, type ResourceHub } from '@/lib/knowledge-resources';
 import {
   SiReact, SiVuedotjs, SiAngular, SiSvelte, SiNextdotjs, SiAstro,
   SiDjango, SiLaravel, SiSpring, SiExpress, SiNestjs, SiFastify, SiHono,
@@ -13,6 +13,8 @@ import {
   SiPrisma, SiGrafana, SiPrometheus, SiApachekafka, SiRabbitmq,
   SiJenkins, SiGitlab, SiGithubactions,
 } from 'react-icons/si';
+
+export const revalidate = 3600;
 
 export const metadata: Metadata = {
   title: 'Technologies — Knowledge Base',
@@ -139,6 +141,8 @@ function buildTechGroups(): TechGroup[] {
 // ─── Page ────────────────────────────────────────────────────────────
 
 export default function TechnologiesPage() {
+  // ISR: re-clone the registry knowledge tree if stale.
+  refreshKnowledgeCacheIfStale();
   const groups = buildTechGroups();
   const totalHubs = groups.reduce((s, g) => s + g.hubs.length, 0);
 

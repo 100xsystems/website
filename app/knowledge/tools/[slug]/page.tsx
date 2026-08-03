@@ -2,6 +2,7 @@ import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { getKnowledgeItem, getKnowledgeItems } from '@/lib/mdx';
+import { refreshKnowledgeCacheIfStale } from '@/lib/knowledge-resources';
 import { KnowledgeItemDetail } from '../../principles/KnowledgeItemDetail';
 import type { LessonMeta } from '@/lib/knowledge-resources';
 
@@ -9,8 +10,11 @@ interface Props {
   params: Promise<{ slug: string }>;
 }
 
+export const revalidate = 3600;
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
+  refreshKnowledgeCacheIfStale();
   const item = getKnowledgeItem('tools', slug);
   if (!item) return { title: 'Not Found' };
   return { title: `${item.title} - Tools` };
@@ -18,6 +22,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function ToolDetailPage({ params }: Props) {
   const { slug } = await params;
+  refreshKnowledgeCacheIfStale();
   const item = getKnowledgeItem('tools', slug);
   if (!item) notFound();
 

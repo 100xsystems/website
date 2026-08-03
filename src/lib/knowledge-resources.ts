@@ -14,6 +14,100 @@
 
 import * as fs from 'node:fs';
 import * as path from 'node:path';
+import { execSync } from 'node:child_process';
+
+// ─── Cache Refresh (ISR) ────────────────────────────────────────────
+// The knowledge cache under public/knowledge-cache/ is cloned from the
+// registry. ISR pages call refreshKnowledgeCacheIfStale() at the top of
+// their render so that revalidation picks up freshly-published registry
+// content — without this, `revalidate` only re-renders stale files.
+
+const CACHE_ROOT = path.resolve(process.cwd(), 'public', 'knowledge-cache');
+const SYNC_MARKER = path.join(CACHE_ROOT, '.last-synced');
+/** 6 hours — after this the loader re-clones the registry for fresh data. */
+export const KNOWLEDGE_CACHE_TTL_MS = 6 * 60 * 60 * 1000;
+
+/**
+ * Re-clone the registry knowledge tree when the local cache is stale.
+ * Never throws — on failure it silently keeps serving the stale cache so
+ * ISR re-renders never crash. Uses a synchronous clone so page renders get
+ * the freshest data on the very next revalidation cycle.
+ *
+ * In local development (sibling registry present) it copies the tree
+ * directly, which is instant; in production it does a shallow sparse clone
+ * from GitHub.
+ */
+export function refreshKnowledgeCacheIfStale(now = Date.now()): void {
+  try {
+    if (fs.existsSync(SYNC_MARKER)) {
+      const age = now - fs.statSync(SYNC_MARKER).mtimeMs;
+      if (age < KNOWLEDGE_CACHE_TTL_MS) return;
+    } else if (fs.existsSync(CACHE_ROOT)) {
+      const newest = newestFileMtime(CACHE_ROOT);
+      if (newest && now - newest < KNOWLEDGE_CACHE_TTL_MS) return;
+    }
+
+    const sibling = path.resolve(process.cwd(), '..', 'registry', 'static-data', 'knowledge');
+    const useSibling = fs.existsSync(sibling);
+    if (useSibling) {
+      fs.mkdirSync(CACHE_ROOT, { recursive: true });
+      copyTree(sibling, CACHE_ROOT);
+      fs.writeFileSync(SYNC_MARKER, new Date().toISOString(), 'utf-8');
+      return;
+    }
+
+    // Production: clone the registry repo from GitHub (fresh, shallow).
+    const REGISTRY_REPO = process.env.REGISTRY_REPO || '100xsystems/registry';
+    const REGISTRY_BRANCH = process.env.REGISTRY_BRANCH || 'main';
+    const cloneDir = path.join(process.cwd(), '.registry-cache');
+    if (fs.existsSync(cloneDir)) fs.rmSync(cloneDir, { recursive: true, force: true });
+    execSync(
+      `git clone --depth=1 --branch=${REGISTRY_BRANCH} --filter=blob:none --sparse https://github.com/${REGISTRY_REPO}.git "${cloneDir}"`,
+      { stdio: 'pipe', timeout: 60_000 },
+    );
+    execSync(`git -C "${cloneDir}" sparse-checkout set static-data/knowledge`, { stdio: 'pipe' });
+    const src = path.join(cloneDir, 'static-data', 'knowledge');
+    if (fs.existsSync(src)) {
+      fs.mkdirSync(CACHE_ROOT, { recursive: true });
+      copyTree(src, CACHE_ROOT);
+      fs.writeFileSync(SYNC_MARKER, new Date().toISOString(), 'utf-8');
+    }
+    try { fs.rmSync(cloneDir, { recursive: true, force: true }); } catch { /* ignore */ }
+  } catch {
+    // Keep serving whatever cache exists.
+  }
+}
+
+function newestFileMtime(dir: string): number | null {
+  try {
+    const entries = fs.readdirSync(dir, { withFileTypes: true });
+    let newest = 0;
+    for (const entry of entries) {
+      const full = path.join(dir, entry.name);
+      if (entry.isDirectory()) {
+        const child = newestFileMtime(full);
+        if (child && child > newest) newest = child;
+      } else {
+        const m = fs.statSync(full).mtimeMs;
+        if (m > newest) newest = m;
+      }
+    }
+    return newest || null;
+  } catch {
+    return null;
+  }
+}
+
+function copyTree(src: string, dest: string): void {
+  fs.mkdirSync(dest, { recursive: true });
+  const entries = fs.readdirSync(src, { withFileTypes: true });
+  for (const entry of entries) {
+    const s = path.join(src, entry.name);
+    const d = path.join(dest, entry.name);
+    if (entry.isDirectory()) copyTree(s, d);
+    else fs.copyFileSync(s, d);
+  }
+}
 
 // ─── Types ──────────────────────────────────────────────────────────
 
@@ -53,11 +147,10 @@ export interface ResourceHub {
 }
 
 // ─── Cache ──────────────────────────────────────────────────────────
+// NOTE: No module-level memoization — ISR revalidation must re-read the
+// freshly-cloned registry data from disk on every render.
 
-const CACHE_BASE = path.resolve(process.cwd(), 'public', 'knowledge-cache');
-
-const _categoryCache = new Map<string, Record<string, ResourceHub>>();
-const _indexCache = new Map<string, string[]>();
+const CACHE_BASE = CACHE_ROOT;
 
 /**
  * Load all resource hubs for a knowledge category.
@@ -65,8 +158,6 @@ const _indexCache = new Map<string, string[]>();
  * @param category - The subdirectory name (e.g. "languages", "patterns", "frameworks")
  */
 function loadAllHubs(category: string): Record<string, ResourceHub> {
-  if (_categoryCache.has(category)) return _categoryCache.get(category)!;
-
   const dir = path.join(CACHE_BASE, category);
   const all: Record<string, ResourceHub> = {};
 
@@ -77,7 +168,7 @@ function loadAllHubs(category: string): Record<string, ResourceHub> {
 
     for (const entry of entries) {
       let slug = '';
-      let data: ResourceHub | null = null;
+      let data: (ResourceHub & { id?: string; label?: string }) | null = null;
 
       // Folder structure:  category/slug/index.json
       if (entry.isDirectory()) {
@@ -85,7 +176,7 @@ function loadAllHubs(category: string): Record<string, ResourceHub> {
         const indexPath = path.join(dir, entry.name, 'index.json');
         if (fs.existsSync(indexPath)) {
           try {
-            data = JSON.parse(fs.readFileSync(indexPath, 'utf-8'));
+            data = JSON.parse(fs.readFileSync(indexPath, 'utf-8')) as ResourceHub & { id?: string; label?: string };
           } catch { /* skip malformed */ }
         }
       }
@@ -94,28 +185,28 @@ function loadAllHubs(category: string): Record<string, ResourceHub> {
       if (!data && entry.name.endsWith('.json')) {
         slug = entry.name.replace(/\.json$/, '');
         try {
-          data = JSON.parse(fs.readFileSync(path.join(dir, entry.name), 'utf-8'));
+          data = JSON.parse(fs.readFileSync(path.join(dir, entry.name), 'utf-8')) as ResourceHub & { id?: string; label?: string };
         } catch { /* skip malformed */ }
       }
 
       if (data) {
-        all[data.slug || slug] = data;
+        all[data.slug || slug] = {
+          ...data,
+          // Normalize legacy schemas (some indices use `id`/`label`).
+          slug: data.slug || data.id || slug,
+          name: data.name || data.label || slug,
+        };
       }
     }
   } catch {
     // directory doesn't exist yet
   }
 
-  _categoryCache.set(category, all);
   return all;
 }
 
 function loadIndex(category: string): string[] {
-  if (_indexCache.has(category)) return _indexCache.get(category)!;
-  const all = loadAllHubs(category);
-  const slugs = Object.keys(all);
-  _indexCache.set(category, slugs);
-  return slugs;
+  return Object.keys(loadAllHubs(category));
 }
 
 // ─── Public API ─────────────────────────────────────────────────────

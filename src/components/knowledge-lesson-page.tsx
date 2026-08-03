@@ -35,6 +35,7 @@ import {
 } from '@/lib/reading-context';
 import { ReadingToolbar } from '@/components/reading/ReadingToolbar';
 import type { LessonMetaFE } from '@/lib/lesson-metadata';
+import matter from 'gray-matter';
 
 // ══════════════════════════════════════════════════════════════════════
 // TYPES (LessonMetaFE lives in @/lib/lesson-metadata — server-safe module)
@@ -50,64 +51,21 @@ interface HeadingItem {
 // HELPERS
 // ══════════════════════════════════════════════════════════════════════
 
-/** Simple frontmatter parser that works client-side (no gray-matter dependency) */
+/**
+ * Parse lesson frontmatter with gray-matter (works client-side).
+ * Handles YAML AND JSON frontmatter blocks, including nested structures
+ * like the `references:` list-of-objects used by language courses.
+ */
 function parseFrontmatter(raw: string): { content: string; frontmatter: Record<string, unknown> } {
-  const match = raw.match(/^---\s*\n([\s\S]*?)\n---/);
-  if (!match) return { content: raw, frontmatter: {} };
-
-  // JSON frontmatter (language lessons store the whole block as a JSON object)
-  const block = match[1].trim();
-  if (block.startsWith('{')) {
-    try {
-      const parsed = JSON.parse(block);
-      if (parsed && typeof parsed === 'object' && !Array.isArray(parsed)) {
-        return { content: raw.slice(match[0].length).trim(), frontmatter: parsed as Record<string, unknown> };
-      }
-    } catch {
-      /* fall through to line-based parser */
-    }
+  try {
+    const parsed = matter(raw);
+    const frontmatter = (parsed.data ?? {}) as Record<string, unknown>;
+    return { content: parsed.content.trim(), frontmatter };
+  } catch {
+    // Fall back to raw content on malformed frontmatter — never crash a lesson.
+    const match = raw.match(/^---\s*\n([\s\S]*?)\n---/);
+    return { content: (match ? raw.slice(match[0].length) : raw).trim(), frontmatter: {} };
   }
-
-  const frontmatter: Record<string, unknown> = {};
-  const lines = block.split('\n');
-  let currentKey = '';
-  let currentList: string[] = [];
-
-  for (const line of lines) {
-    // Detect list items under a key
-    const listMatch = line.match(/^\s+-\s+"(.+)"\s*$/);
-    if (listMatch) {
-      currentList.push(listMatch[1]);
-      continue;
-    }
-    // Flush current list
-    if (currentList.length > 0 && currentKey) {
-      frontmatter[currentKey] = currentList;
-      currentList = [];
-      currentKey = '';
-    }
-    // Detect key: value pairs
-    const kvMatch = line.match(/^(\w[\w_]*):\s*(.*)$/);
-    if (kvMatch) {
-      currentKey = kvMatch[1];
-      let value: unknown = kvMatch[2].trim();
-      // Strip quotes
-      if ((value as string).startsWith('"') && (value as string).endsWith('"')) {
-        value = (value as string).slice(1, -1);
-      }
-      if (value === 'true') value = true;
-      else if (value === 'false') value = false;
-      else if (value === '') value = null;
-      frontmatter[currentKey] = value;
-    }
-  }
-  // Flush trailing list
-  if (currentList.length > 0 && currentKey) {
-    frontmatter[currentKey] = currentList;
-  }
-
-  const content = raw.slice(match[0].length).trim();
-  return { content, frontmatter };
 }
 
 function extractHeadings(markdown: string): HeadingItem[] {
@@ -136,7 +94,7 @@ function lessonMdUrl(category: string, hubSlug: string, lessonSlug: string): str
 // ══════════════════════════════════════════════════════════════════════
 
 const KNOWLEDGE_CATEGORIES = [
-  'languages', 'principles', 'patterns', 'tools', 'technologies',
+  'ai', 'languages', 'principles', 'patterns', 'tools', 'technologies',
   'case-studies', 'frameworks', 'infrastructure', 'databases',
   'data-formats', 'runtimes',
 ];
@@ -176,13 +134,27 @@ function resolvePrereq(
   lessons: LessonMetaFE[],
   category: string,
   hubSlug: string,
+  siblingHubs: Array<{ slug: string; lessons: LessonMetaFE[] }> = [],
 ): { label: string; href?: string } {
-  const norm = pre.toLowerCase().replace(/[-\s_]+/g, '');
-  const match = lessons.find((l) => {
-    const slugNorm = l.slug.toLowerCase().replace(/[-\s_]+/g, '');
-    return slugNorm.startsWith(norm) || slugNorm.includes(norm);
-  });
-  if (match) return { label: match.title, href: `/knowledge/${category}/${hubSlug}/${match.slug}` };
+  // Normalize both sides so punctuation (colons, commas, quotes) doesn't break matching
+  const strip = (s: string) => s.toLowerCase().replace(/[^a-z0-9]+/g, '');
+  const preStrip = strip(pre);
+  if (preStrip.length < 4) return { label: pre };
+  const matchIn = (ls: LessonMetaFE[]) =>
+    ls.find((l) => {
+      const slugNorm = strip(l.slug);
+      if (slugNorm.length < 4) return false;
+      // e.g. pre "JS-01: Values, Types, and Variables" ↔ slug "js-01-values-types-variables"
+      return slugNorm.startsWith(preStrip) || preStrip.startsWith(slugNorm);
+    });
+  // 1) Same-hub match first (e.g. "RL-02: Markov Decision Processes" inside the RL course).
+  const sameHub = matchIn(lessons);
+  if (sameHub) return { label: sameHub.title, href: `/knowledge/${category}/${hubSlug}/${sameHub.slug}` };
+  // 2) Cross-course match (e.g. "GENAI-01: What Is Generative AI?" inside LLM Engineering).
+  for (const sibling of siblingHubs) {
+    const hit = matchIn(sibling.lessons);
+    if (hit) return { label: hit.title, href: `/knowledge/${category}/${sibling.slug}/${hit.slug}` };
+  }
   return { label: pre };
 }
 
@@ -394,6 +366,8 @@ interface KnowledgeLessonPageProps {
   lessons: LessonMetaFE[];
   /** URL prefix for backUrl and lesson links (e.g. /knowledge/principles) */
   backUrlPrefix: string;
+  /** Optional sibling hubs in the same category — enables clickable cross-course prerequisites. */
+  siblingHubs?: Array<{ slug: string; lessons: LessonMetaFE[] }>;
 }
 
 export function KnowledgeLessonPage({
@@ -403,6 +377,7 @@ export function KnowledgeLessonPage({
   lessonSlug,
   lessons,
   backUrlPrefix,
+  siblingHubs = [],
 }: KnowledgeLessonPageProps) {
   const router = useRouter();
   const { settings } = useReadingSettings();
@@ -424,8 +399,8 @@ export function KnowledgeLessonPage({
 
   // ─── Lesson metadata from frontmatter ───────────────────────────
   const lessonPrereqs = useMemo(
-    () => ((frontmatter.prerequisites as string[] | undefined) || []).map((p) => resolvePrereq(p, lessons, category, hubSlug)),
-    [frontmatter, lessons, category, hubSlug],
+    () => ((frontmatter.prerequisites as string[] | undefined) || []).map((p) => resolvePrereq(p, lessons, category, hubSlug, siblingHubs)),
+    [frontmatter, lessons, category, hubSlug, siblingHubs],
   );
   const lessonKnowledgeRefs = useMemo(
     () => ((frontmatter.knowledge_refs as string[] | undefined) || []).map((r) => resolveKnowledgeRef(r, category)),

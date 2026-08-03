@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { getKnowledgeItems } from '@/lib/mdx';
+import { refreshKnowledgeCacheIfStale } from '@/lib/knowledge-resources';
 import {
   Wrench,
   Hammer,
@@ -11,6 +12,8 @@ import {
   Database,
   Lock,
 } from 'lucide-react';
+
+export const revalidate = 3600;
 
 export const metadata: Metadata = {
   title: 'Tools — Knowledge Base',
@@ -26,6 +29,8 @@ const DIFFICULTY_STYLES: Record<string, string> = {
 const TOOL_ICONS = [Wrench, Hammer, Cog, Terminal, Container, Cloud, Database, Lock];
 
 export default function ToolsPage() {
+  // ISR: re-clone the registry knowledge tree if stale.
+  refreshKnowledgeCacheIfStale();
   const items = getKnowledgeItems('tools');
 
   return (

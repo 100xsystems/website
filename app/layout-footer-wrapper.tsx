@@ -9,7 +9,7 @@ export function FooterWrapper() {
   const lessonPagePattern = /^\/systems\/[^\/]+\/[^\/]+\/[^\/]+$/;
   // Knowledge lesson pages (e.g. /knowledge/languages/python/py-08-files-exceptions)
   const knowledgeLessonPattern = /^\/knowledge\/[^\/]+\/[^\/]+\/[^\/]+$/;
-  const isReadingPage = pathname.includes('/read/') || pathname.startsWith('/cli-docs/') || lessonPagePattern.test(pathname) || knowledgeLessonPattern.test(pathname);
+  const isReadingPage = pathname.includes('/read/') || lessonPagePattern.test(pathname) || knowledgeLessonPattern.test(pathname);
 
   if (isReadingPage) return null;
 

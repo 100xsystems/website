@@ -174,15 +174,8 @@ export function CLIQuickStart({ systemSlug, systemTitle }: CLIQuickStartProps) {
         ))}
       </div>
 
-      {/* Two-column bottom row: Get Started CTA + View all docs */}
-      <div className="ml-11 mt-6 flex items-center justify-between gap-4">
-        <a
-          href="/cli-docs"
-          className="inline-flex items-center gap-1.5 text-xs font-bold text-accent hover:text-accent/80 transition-colors group"
-        >
-          <span>View all CLI commands</span>            <Icon name="arrow-right" size={12} className="group-hover:translate-x-0.5 transition-transform" />
-        </a>
-
+      {/* Bottom row: Get Started CTA */}
+      <div className="ml-11 mt-6 flex items-center justify-start gap-4">
         <BuildThisSystemButton systemSlug={systemSlug} />
       </div>
     </section>

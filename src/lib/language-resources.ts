@@ -10,10 +10,19 @@
  *
  * The JSON source lives in the registry repo at:
  *   static-data/knowledge/languages/
+ *
+ * ## ISR freshness
+ *
+ * Loaders intentionally avoid module-level caching so that Incremental
+ * Static Regeneration re-renders pick up freshly-cloned registry data.
+ * `refreshLanguageResourcesIfStale()` re-clones the registry when the local
+ * cache is older than `LANGUAGE_CACHE_TTL_MS` — call it from pages that opt
+ * into `revalidate`.
  */
 
 import * as fs from 'node:fs';
 import * as path from 'node:path';
+import { refreshKnowledgeCacheIfStale, KNOWLEDGE_CACHE_TTL_MS } from '@/lib/knowledge-resources';
 
 // ─── Types ──────────────────────────────────────────────────────────
 
@@ -37,6 +46,7 @@ export interface LessonMeta {
   order: number;
   duration?: string;
   difficulty?: string;
+  prerequisites?: string[];
 }
 
 export interface LanguageResources {
@@ -52,23 +62,22 @@ export interface LanguageResources {
   lessons?: LessonMeta[];
 }
 
-// ─── Cache Directory + Module-level Cache ───────────────────────────
+// ─── Cache Directory + TTL ─────────────────────────────────────────
 
 const CACHE_DIR = path.resolve(process.cwd(), 'public', 'knowledge-cache', 'languages');
 
-let _allResources: Record<string, LanguageResources> | null = null;
-let _index: string[] | null = null;
+// Re-export for pages that already referenced the language-scoped name.
+// The refresh logic lives in knowledge-resources.ts (it owns the cache).
+export { refreshKnowledgeCacheIfStale as refreshLanguageResourcesIfStale, KNOWLEDGE_CACHE_TTL_MS as LANGUAGE_CACHE_TTL_MS };
+
+// ─── Loaders (no module-level cache — ISR friendly) ─────────────────
 
 /**
  * Read all language resource folders from the cached registry clone.
  * Each language is a folder with an index.json inside:
  *   public/knowledge-cache/languages/javascript/index.json
- *   public/knowledge-cache/languages/python/index.json
- *   ...
  */
 function loadAllResources(): Record<string, LanguageResources> {
-  if (_allResources) return _allResources;
-
   const all: Record<string, LanguageResources> = {};
 
   try {
@@ -81,7 +90,14 @@ function loadAllResources(): Record<string, LanguageResources> {
 
       try {
         const raw = fs.readFileSync(indexPath, 'utf-8');
-        const resource: LanguageResources = JSON.parse(raw);
+        const parsed = JSON.parse(raw);
+        const resource: LanguageResources = {
+          ...parsed,
+          // Normalize legacy schemas: some older indices use `id`/`label`
+          // instead of `slug`/`name`.
+          slug: parsed.slug || parsed.id || entry.name,
+          name: parsed.name || parsed.label || entry.name,
+        };
         all[resource.slug] = resource;
       } catch {
         // skip malformed language folders
@@ -91,15 +107,7 @@ function loadAllResources(): Record<string, LanguageResources> {
     // cache directory doesn't exist yet
   }
 
-  _allResources = all;
-  return _allResources;
-}
-
-function loadIndex(): string[] {
-  if (_index) return _index;
-  const all = loadAllResources();
-  _index = Object.keys(all);
-  return _index;
+  return all;
 }
 
 // ─── Public API ─────────────────────────────────────────────────────
@@ -112,5 +120,10 @@ export function getLanguageResources(slug: string): LanguageResources | null {
 
 /** Get all language slugs that have curated resources. */
 export function getLanguagesWithResources(): string[] {
-  return loadIndex();
+  return Object.keys(loadAllResources());
+}
+
+/** Get every language resource hub (slug → data). */
+export function getAllLanguageResources(): Record<string, LanguageResources> {
+  return loadAllResources();
 }

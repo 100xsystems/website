@@ -12,22 +12,22 @@ export const revalidate = 3600;
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   refreshKnowledgeCacheIfStale();
-  const hub = getHub('patterns', slug);
+  const hub = getHub('ai', slug);
   if (!hub) return { title: 'Not Found' };
-  return { title: `${hub.name} — Patterns` };
+  return { title: `${hub.name} — AI Courses` };
 }
 
-export default async function PatternDetailPage({ params }: Props) {
+export default async function AiHubDetailPage({ params }: Props) {
   const { slug } = await params;
   refreshKnowledgeCacheIfStale();
-  const hub = getHub('patterns', slug);
+  const hub = getHub('ai', slug);
   if (!hub) notFound();
   return (
     <ResourceHubDetail
       hub={hub}
-      backLabel="Patterns"
-      backHref="/knowledge/patterns"
-      lessonBasePath={hub.lessons ? `/knowledge/patterns/${hub.slug}` : undefined}
+      backLabel="AI Courses"
+      backHref="/knowledge/ai"
+      lessonBasePath={hub.lessons ? `/knowledge/ai/${hub.slug}` : undefined}
     />
   );
 }

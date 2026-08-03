@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { getHubs, countHubResources, type ResourceHub } from '@/lib/knowledge-resources';
+import { getHubs, countHubResources, refreshKnowledgeCacheIfStale, type ResourceHub } from '@/lib/knowledge-resources';
+
+export const revalidate = 3600;
 
 export const metadata: Metadata = {
   title: 'Principles — Knowledge Base',
@@ -8,6 +10,8 @@ export const metadata: Metadata = {
 };
 
 export default function PrinciplesPage() {
+  // ISR: re-clone the registry knowledge tree if stale.
+  refreshKnowledgeCacheIfStale();
   const hubs = getHubs('principles');
 
   return (

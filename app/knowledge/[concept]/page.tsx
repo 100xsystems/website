@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import * as fs from 'node:fs';
 import * as path from 'node:path';
 import { ExternalLink, BookOpen } from 'lucide-react';
+import { refreshKnowledgeCacheIfStale } from '@/lib/knowledge-resources';
 import type { KnowledgeEntity, KnowledgeManifest } from '@/knowledge/knowledge.types';
 
 interface Props {
@@ -87,6 +88,8 @@ const CATEGORY_COLORS: Record<string, string> = {
 
 export default async function ConceptPage({ params }: Props) {
   const { concept } = await params;
+  // ISR: re-clone the registry knowledge tree if stale.
+  refreshKnowledgeCacheIfStale();
   const manifest = readManifest();
 
   // Determine category from manifest, or try all directories

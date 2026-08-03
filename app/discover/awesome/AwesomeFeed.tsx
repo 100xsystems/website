@@ -1,11 +1,12 @@
 'use client';
 
-import { useState, useMemo, useRef } from 'react';
-import Fuse from 'fuse.js';
-import { Search, X } from 'lucide-react';
+import { useEffect, useMemo, useRef, useState } from 'react';
+import { useRouter, useSearchParams } from 'next/navigation';
+import { ArrowUpRight, Check, Search, X } from 'lucide-react';
 import { cn } from '@/application/lib/utils';
+import { getAwesomeBrandColor, getAwesomeIcon } from '@/lib/awesome-icons';
 
-interface AwesomeEntry {
+export interface AwesomeLink {
   url: string;
   title: string;
   description: string | null;
@@ -13,184 +14,351 @@ interface AwesomeEntry {
   source: string;
 }
 
-interface AwesomeFeedProps {
-  links: AwesomeEntry[];
-  sourceLabels: Record<string, string>;
-  sourceStars: Record<string, number>;
-  categories: string[];
-  categoryCounts: Record<string, number>;
+export interface AwesomeSource {
+  repoId: string;
+  name: string;
+  description: string | null;
+  repoUrl: string;
+  stars: number;
+  topics: string[];
+  linkCount: number;
+  categories: Array<{ name: string; count: number }>;
+  links: AwesomeLink[];
 }
 
-const ITEMS_PER_PAGE = 48;
+interface AwesomeFeedProps {
+  sources: AwesomeSource[];
+}
 
-export function AwesomeFeed({ links, sourceLabels, sourceStars, categories, categoryCounts }: AwesomeFeedProps) {
-  const [searchQuery, setSearchQuery] = useState('');
-  const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
-  const [selectedSources, setSelectedSources] = useState<string[]>([]);
-  const [currentPage, setCurrentPage] = useState(1);
+function formatStars(n: number): string {
+  if (n >= 1_000_000) return `${(n / 1_000_000).toFixed(1)}M`;
+  if (n >= 1000) return `${(n / 1000).toFixed(0)}k`;
+  return String(n);
+}
 
-  // All available source IDs, sorted by star count
-  const allSources = useMemo(() => {
+/**
+ * The Awesome directory: pick a source (list), then a category, and the
+ * records are appended below — one level of hierarchy at a time, borderless
+ * and roomy, with native brand-colored icons.
+ */
+export function AwesomeFeed({ sources }: AwesomeFeedProps) {
+  const router = useRouter();
+  const searchParams = useSearchParams();
+
+  const [query, setQuery] = useState('');
+
+  // Deep-link support: ?source=owner/repo (from homepage / AI hub cards) and ?category=…
+  const sourceParam = searchParams?.get('source');
+  const categoryParam = searchParams?.get('category');
+  const [selectedSource, setSelectedSource] = useState<string | null>(() =>
+    sourceParam && sources.some((s) => s.repoId === sourceParam) ? sourceParam : null,
+  );
+  const [selectedCategory, setSelectedCategory] = useState<string | null>(() => {
+    if (!sourceParam || !categoryParam) return null;
+    const src = sources.find((s) => s.repoId === sourceParam);
+    return src && src.categories.some((c) => c.name === categoryParam) ? categoryParam : null;
+  });
+
+  const categoriesRef = useRef<HTMLDivElement>(null);
+  const recordsRef = useRef<HTMLDivElement>(null);
+
+  const activeSource = useMemo(
+    () => sources.find((s) => s.repoId === selectedSource) ?? null,
+    [sources, selectedSource],
+  );
+
+  // Keep the URL shareable as the user drills down (no page reload).
+  const syncUrl = (source: string | null, category: string | null) => {
+    const params = new URLSearchParams();
+    if (source) params.set('source', source);
+    if (category) params.set('category', category);
+    const qs = params.toString();
+    router.replace(qs ? `/discover/awesome?${qs}` : '/discover/awesome', { scroll: false });
+  };
+
+  const selectSource = (repoId: string) => {
+    const next = selectedSource === repoId ? null : repoId;
+    setSelectedSource(next);
+    setSelectedCategory(null);
+    syncUrl(next, null);
+  };
+
+  const selectCategory = (name: string) => {
+    const next = selectedCategory === name ? null : name;
+    setSelectedCategory(next);
+    syncUrl(selectedSource, next);
+  };
+
+  // Scroll to the appended section when a new level opens.
+  useEffect(() => {
+    if (selectedSource && categoriesRef.current) {
+      categoriesRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  }, [selectedSource]);
+
+  useEffect(() => {
+    if (selectedSource && selectedCategory && recordsRef.current) {
+      recordsRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  }, [selectedSource, selectedCategory]);
+
+  const filteredSources = useMemo(() => {
+    const q = query.trim().toLowerCase();
+    if (!q) return sources;
+    return sources.filter(
+      (s) =>
+        s.name.toLowerCase().includes(q) ||
+        (s.description ?? '').toLowerCase().includes(q) ||
+        s.topics.some((t) => t.toLowerCase().includes(q)),
+    );
+  }, [sources, query]);
+
+  const records = useMemo(() => {
+    if (!activeSource || !selectedCategory) return [];
     const seen = new Set<string>();
-    const sources: string[] = [];
-    for (const l of links) {
-      if (!seen.has(l.source)) { seen.add(l.source); sources.push(l.source); }
+    const out: AwesomeLink[] = [];
+    for (const link of activeSource.links) {
+      if ((link.category || 'Uncategorized') !== selectedCategory) continue;
+      const key = link.url.toLowerCase();
+      if (seen.has(key)) continue;
+      seen.add(key);
+      out.push(link);
     }
-    sources.sort((a, b) => (sourceStars[b] || 0) - (sourceStars[a] || 0));
-    return sources;
-  }, [links, sourceStars]);
-
-  // Fuse.js for searching
-  const fuseRef = useRef<Fuse<AwesomeEntry> | null>(null);
-  function getFuse(): Fuse<AwesomeEntry> {
-    if (!fuseRef.current) {
-      fuseRef.current = new Fuse(links, {
-        keys: [{ name: 'title', weight: 3 }, { name: 'description', weight: 1.5 }, { name: 'category', weight: 2 }, { name: 'source', weight: 1.5 }],
-        threshold: 0.35, distance: 120, minMatchCharLength: 2,
-      });
-    } else { fuseRef.current.setCollection(links); }
-    return fuseRef.current;
-  }
-
-  // Filter + Search
-  const filtered = useMemo(() => {
-    let result = links;
-    if (selectedCategory) result = result.filter((l) => l.category === selectedCategory);
-    if (selectedSources.length > 0) result = result.filter((l) => selectedSources.includes(l.source));
-    if (searchQuery.trim().length >= 2) {
-      const fuse = getFuse();
-      fuse.setCollection(result);
-      return fuse.search(searchQuery.trim()).map((r) => r.item);
-    }
-    return result;
-  }, [links, searchQuery, selectedCategory, selectedSources]);
-
-  // Pagination
-  const totalPages = Math.max(1, Math.ceil(filtered.length / ITEMS_PER_PAGE));
-  const safePage = Math.min(currentPage, totalPages);
-  const startIndex = (safePage - 1) * ITEMS_PER_PAGE;
-  const visible = filtered.slice(startIndex, startIndex + ITEMS_PER_PAGE);
-
-  const toggleSource = (source: string) => {
-    setSelectedSources((prev) => prev.includes(source) ? prev.filter((s) => s !== source) : [...prev, source]);
-    setCurrentPage(1);
-  };
-
-  const clearFilters = () => {
-    setSearchQuery(''); setSelectedCategory(null); setSelectedSources([]); setCurrentPage(1);
-  };
+    return out;
+  }, [activeSource, selectedCategory]);
 
   return (
     <div>
-      {/* Category tags — wrapped row */}
-      <div className="mb-6">
-        <p className="text-[10px] font-bold uppercase tracking-widest text-fg-muted mb-3">CATEGORIES</p>
-        <div className="flex flex-wrap gap-2">
-          <button onClick={() => { setSelectedCategory(null); setCurrentPage(1); }}
-            className={cn('px-4 py-2.5 text-xs font-bold uppercase tracking-wider transition-all duration-200',
-              !selectedCategory ? 'bg-accent text-white shadow-lg' : 'bg-white text-fg-muted border border-border hover:text-fg hover:border-accent'
-            )}>
-            All ({links.length})
-          </button>
-          {categories.slice(0, 30).map((cat) => (
-            <button key={cat} onClick={() => { setSelectedCategory(selectedCategory === cat ? null : cat); setCurrentPage(1); }}
-              className={cn('px-4 py-2.5 text-xs font-bold uppercase tracking-wider transition-all duration-200',
-                selectedCategory === cat ? 'bg-accent text-white shadow-lg' : 'bg-white text-fg-muted border border-border hover:text-fg hover:border-accent'
-              )}>
-              {cat.replace(/-/g, ' ')} ({categoryCounts[cat]})
+      {/* ── Level 1 · Sources ─────────────────────────────────────── */}
+      <div className="mb-10 max-w-xl">
+        <p className="mb-3 text-[10px] font-bold uppercase tracking-widest text-fg-muted">
+          Choose a list
+        </p>
+        <div className="relative">
+          <Search className="absolute left-5 top-1/2 h-5 w-5 -translate-y-1/2 text-fg-muted" />
+          <input
+            type="search"
+            aria-label="Filter lists"
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+            placeholder="Filter lists by name or topic…"
+            className="w-full border border-border bg-white py-4 pl-12 pr-12 text-base text-fg placeholder:text-fg-muted outline-none transition-colors duration-150 focus:border-accent"
+            autoComplete="off"
+          />
+          {query && (
+            <button
+              onClick={() => setQuery('')}
+              aria-label="Clear search"
+              className="absolute right-4 top-1/2 -translate-y-1/2 text-fg-muted transition-colors hover:text-fg"
+            >
+              <X className="h-4 w-4" />
             </button>
-          ))}
+          )}
         </div>
       </div>
 
-      {/* Source tabs */}
-      <div className="mb-6">
-        <p className="text-[10px] font-bold uppercase tracking-widest text-fg-muted mb-3">SOURCES</p>
-        <div className="flex flex-wrap gap-1.5">
-          {allSources.map((source) => {
-            const active = selectedSources.includes(source);
+      {filteredSources.length === 0 ? (
+        <div className="py-24 text-center">
+          <p className="text-lg font-bold text-fg">No lists match “{query}”</p>
+          <p className="mt-2 text-sm text-fg-muted">Try a different name or topic.</p>
+        </div>
+      ) : (
+        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {filteredSources.map((source) => {
+            const active = source.repoId === selectedSource;
+            const color = getAwesomeBrandColor(source.repoId);
             return (
-              <button key={source} type="button" onClick={() => toggleSource(source)}
-                className={cn('px-3 py-1.5 text-[10px] font-bold uppercase tracking-wider border transition-all duration-150',
-                  active ? 'bg-accent text-white border-accent' : 'bg-white text-fg-muted border-border hover:text-fg hover:border-fg/50'
-                )}>
-                {sourceLabels[source]?.split(' - ')[0] || source.split('/')[1] || source}
+              <button
+                key={source.repoId}
+                type="button"
+                onClick={() => selectSource(source.repoId)}
+                aria-expanded={active}
+                className={cn(
+                  'group relative flex flex-col items-start gap-6 p-7 text-left transition-all duration-200 sm:p-8',
+                  active
+                    ? 'bg-accent text-white shadow-2xl'
+                    : 'border border-border bg-white hover:-translate-y-1 hover:border-transparent hover:shadow-2xl',
+                )}
+              >
+                <div className="flex w-full items-start justify-between gap-4">
+                  <span
+                    className="inline-flex h-16 w-16 shrink-0 items-center justify-center transition-transform duration-200 group-hover:scale-105"
+                    style={{ backgroundColor: `${color}1A`, color }}
+                  >
+                    {getAwesomeIcon(source.repoId, 30)}
+                  </span>
+                  <span
+                    className={cn(
+                      'flex h-10 w-10 shrink-0 items-center justify-center transition-all duration-200',
+                      active
+                        ? 'bg-white/20 text-white'
+                        : 'bg-accent-bg text-accent opacity-0 group-hover:opacity-100',
+                    )}
+                  >
+                    {active ? <Check className="h-4 w-4" /> : <ArrowUpRight className="h-5 w-5" />}
+                  </span>
+                </div>
+
+                <div>
+                  <h3
+                    className={cn(
+                      'text-2xl font-extrabold leading-tight tracking-tight',
+                      active ? 'text-white' : 'text-fg',
+                    )}
+                  >
+                    {source.name}
+                  </h3>
+                  {source.description && (
+                    <p
+                      className={cn(
+                        'mt-3 text-sm leading-relaxed line-clamp-3',
+                        active ? 'text-white/80' : 'text-fg-secondary',
+                      )}
+                    >
+                      {source.description}
+                    </p>
+                  )}
+                </div>
+
+                <div
+                  className={cn(
+                    'mt-auto flex flex-wrap items-center gap-x-5 gap-y-1.5 text-xs font-bold uppercase tracking-wider',
+                    active ? 'text-white/80' : 'text-fg-muted',
+                  )}
+                >
+                  <span>★ {formatStars(source.stars)}</span>
+                  <span>{source.linkCount.toLocaleString()} links</span>
+                  <span>{source.categories.length} categories</span>
+                </div>
               </button>
             );
           })}
         </div>
-      </div>
+      )}
 
-      {/* Search bar */}
-      <div className="relative mb-6">
-        <Search className="absolute left-4 top-1/2 -translate-y-1/2 h-5 w-5 text-fg-muted" />
-        <input type="text" value={searchQuery} onChange={(e) => { setSearchQuery(e.target.value); setCurrentPage(1); }}
-          placeholder="Search awesome resources..." className="w-full border border-border bg-white pl-12 pr-12 py-3.5 text-base text-fg placeholder:text-fg-muted outline-none transition-all duration-150 focus:border-accent"
-          autoComplete="off" />
-        {searchQuery && <button onClick={() => setSearchQuery('')} className="absolute right-4 top-1/2 -translate-y-1/2 text-fg-muted hover:text-fg transition-colors"><X className="h-4 w-4" /></button>}
-      </div>
-
-      {/* Stats bar */}
-      <div className="flex items-center justify-between mb-6">
-        <p className="text-sm text-fg-muted">
-          {filtered.length === 0 ? 'No resources' : `${filtered.length.toLocaleString()} resource${filtered.length !== 1 ? 's' : ''}`}
-          {searchQuery && <> matching &ldquo;{searchQuery}&rdquo;</>}
-        </p>
-        {(selectedCategory || selectedSources.length > 0 || searchQuery) && (
-          <button onClick={clearFilters} className="text-xs font-bold uppercase tracking-wider text-fg-muted hover:text-accent transition-colors">Clear all</button>
-        )}
-      </div>
-
-      {/* Resource grid — 3-4 columns */}
-      {visible.length === 0 ? (
-        <div className="border border-dashed border-border p-16 text-center">
-          <p className="text-fg-muted text-base">No resources match your filters.</p>
-          <button onClick={clearFilters} className="mt-5 text-xs font-bold uppercase tracking-wider text-fg-muted hover:text-accent transition-colors">Clear all filters</button>
-        </div>
-      ) : (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
-          {visible.map((entry, i) => (
-            <a key={`${entry.url}-${startIndex + i}`} href={entry.url} target="_blank" rel="noopener noreferrer"
-              className="group block bg-white border border-border p-5 transition-all duration-200 hover:bg-accent hover:text-white hover:border-accent hover:shadow-lg">
-              <h3 className="text-sm font-bold text-fg group-hover:text-white transition-colors leading-snug line-clamp-2 mb-2">
-                {entry.title}
-              </h3>
-              {entry.description && (
-                <p className="text-xs text-fg-secondary group-hover:text-white/80 transition-colors leading-relaxed line-clamp-2 mb-3">
-                  {entry.description}
+      {/* ── Level 2 · Categories (appended below the source) ─────── */}
+      {activeSource && (
+        <div ref={categoriesRef} className="scroll-mt-24 pt-24">
+          <div className="flex flex-wrap items-end justify-between gap-6">
+            <div className="flex items-center gap-5">
+              <span
+                className="inline-flex h-14 w-14 shrink-0 items-center justify-center"
+                style={{ backgroundColor: `${getAwesomeBrandColor(activeSource.repoId)}1A`, color: getAwesomeBrandColor(activeSource.repoId) }}
+              >
+                {getAwesomeIcon(activeSource.repoId, 24)}
+              </span>
+              <div>
+                <p className="text-[10px] font-bold uppercase tracking-widest text-fg-muted">
+                  Categories · {activeSource.name}
                 </p>
-              )}
-              <div className="flex items-center gap-2 text-[10px]">
-                {entry.category && (
-                  <span className="px-2 py-1 bg-surface-secondary text-fg-muted group-hover:bg-white/20 group-hover:text-white/80 font-semibold uppercase tracking-wider transition-colors">
-                    {entry.category}
-                  </span>
-                )}
-                <span className="text-fg-muted/50 group-hover:text-white/50 ml-auto transition-colors">
-                  {entry.source.split('/')[1] || entry.source}
-                </span>
+                <h2 className="mt-1 text-2xl font-extrabold tracking-tight text-fg sm:text-3xl">
+                  {activeSource.categories.length} categories
+                </h2>
               </div>
-            </a>
-          ))}
+            </div>
+            <div className="flex items-center gap-5">
+              <span className="text-xs font-bold uppercase tracking-wider text-fg-muted tabular-nums">
+                {activeSource.linkCount.toLocaleString()} resources
+              </span>
+              <a
+                href={activeSource.repoUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-accent transition-colors hover:text-accent-hover"
+              >
+                GitHub <ArrowUpRight className="h-3.5 w-3.5" />
+              </a>
+              <button
+                onClick={() => selectSource(activeSource.repoId)}
+                aria-label="Collapse list"
+                className="inline-flex h-9 w-9 items-center justify-center bg-surface-light text-fg-muted transition-colors hover:bg-accent hover:text-white"
+              >
+                <X className="h-4 w-4" />
+              </button>
+            </div>
+          </div>
+
+          <div className="mt-10 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+            {activeSource.categories.map((cat) => {
+              const active = cat.name === selectedCategory;
+              return (
+                <button
+                  key={cat.name}
+                  type="button"
+                  onClick={() => selectCategory(cat.name)}
+                  aria-expanded={active}
+                  className={cn(
+                    'group flex items-center justify-between gap-4 px-6 py-5 text-left transition-all duration-150',
+                    active
+                      ? 'bg-accent text-white shadow-lg'
+                      : 'bg-surface-light hover:bg-accent hover:text-white hover:shadow-lg',
+                  )}
+                >
+                  <span className="text-sm font-bold uppercase leading-snug tracking-wide">
+                    {cat.name}
+                  </span>
+                  <span
+                    className={cn(
+                      'shrink-0 text-xs font-bold tabular-nums',
+                      active ? 'text-white/70' : 'text-fg-muted group-hover:text-white/70',
+                    )}
+                  >
+                    {cat.count}
+                  </span>
+                </button>
+              );
+            })}
+          </div>
         </div>
       )}
 
-      {/* Pagination */}
-      {totalPages > 1 && (
-        <div className="flex items-center justify-center gap-5 mt-10">
-          <button disabled={safePage <= 1} onClick={() => setCurrentPage(safePage - 1)}
-            className={cn('inline-flex items-center gap-1.5 px-5 py-2.5 text-xs font-bold uppercase tracking-wider border transition-all duration-200',
-              safePage > 1 ? 'border-border bg-white text-fg hover:bg-accent hover:text-white hover:border-accent' : 'border-border/30 text-fg-muted/30 cursor-not-allowed'
-            )}>
-            Previous
-          </button>
-          <span className="text-sm text-fg-muted tabular-nums">Page {safePage} of {totalPages}</span>
-          <button disabled={safePage >= totalPages} onClick={() => setCurrentPage(safePage + 1)}
-            className={cn('inline-flex items-center gap-1.5 px-5 py-2.5 text-xs font-bold uppercase tracking-wider border transition-all duration-200',
-              safePage < totalPages ? 'border-border bg-white text-fg hover:bg-accent hover:text-white hover:border-accent' : 'border-border/30 text-fg-muted/30 cursor-not-allowed'
-            )}>
-            Next
-          </button>
+      {/* ── Level 3 · Records (appended below the category) ──────── */}
+      {activeSource && selectedCategory && (
+        <div ref={recordsRef} className="scroll-mt-24 pt-20">
+          <div className="flex flex-wrap items-end justify-between gap-6">
+            <div>
+              <p className="text-[10px] font-bold uppercase tracking-widest text-fg-muted">
+                Resources · {activeSource.name}
+              </p>
+              <h2 className="mt-1 text-2xl font-extrabold tracking-tight text-fg sm:text-3xl">
+                {selectedCategory}
+              </h2>
+            </div>
+            <span className="text-xs font-bold uppercase tracking-wider text-fg-muted tabular-nums">
+              {records.length.toLocaleString()} resource{records.length !== 1 ? 's' : ''}
+            </span>
+          </div>
+
+          {records.length === 0 ? (
+            <p className="mt-10 text-sm text-fg-muted">No resources in this category.</p>
+          ) : (
+            <div className="mt-8 grid grid-cols-1 gap-x-10 gap-y-1 lg:grid-cols-2 xl:grid-cols-3">
+              {records.map((link, i) => (
+                <a
+                  key={`${link.url}-${i}`}
+                  href={link.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group flex flex-col gap-2 px-5 py-4 transition-colors duration-150 hover:bg-accent hover:text-white"
+                >
+                  <div className="flex items-start justify-between gap-4">
+                    <h4 className="text-[15px] font-bold leading-snug text-fg line-clamp-2 group-hover:text-white">
+                      {link.title}
+                    </h4>
+                    <ArrowUpRight className="mt-1 h-4 w-4 shrink-0 text-accent transition-all duration-150 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-white" />
+                  </div>
+                  {link.description && (
+                    <p className="text-sm leading-relaxed text-fg-secondary line-clamp-2 group-hover:text-white/80">
+                      {link.description}
+                    </p>
+                  )}
+                  <span className="mt-1 text-[10px] font-bold uppercase tracking-widest text-fg-muted group-hover:text-white/60">
+                    {link.category}
+                  </span>
+                </a>
+              ))}
+            </div>
+          )}
         </div>
       )}
     </div>
