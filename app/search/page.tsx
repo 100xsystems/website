@@ -1,39 +1,17 @@
 import type { Metadata } from 'next';
-import { Heading, Text, Badge } from '@/presentation/__components';
-import { SearchPageClient } from './SearchPageClient';
+import { HomeUnifiedSearch } from '@/presentation/features/homeUnifiedSearch.feature';
 
 export const metadata: Metadata = {
   title: 'Search — Engineering Discovery',
   description:
-    'Search across Hacker News, Reddit, GitHub, Stack Overflow, NPM, Dev.to, Medium, and DuckDuckGo from one unified interface. Discover engineering knowledge across the web.',
+    'Search everything: engineering blogs, YC companies, GitHub repos, packages, lessons, and the web — all at once from one unified interface.',
   openGraph: {
     title: 'Search — Engineering Discovery',
     description:
-      'Search across Hacker News, Reddit, GitHub, Stack Overflow, NPM, Dev.to, Medium, and DuckDuckGo from one unified interface.',
+      'Search everything: engineering blogs, YC companies, GitHub repos, packages, lessons, and the web — all at once.',
   },
 };
 
 export default function SearchPage() {
-  return (
-    <div className="min-h-screen py-16 px-4">
-      <div className="max-w-[1000px] mx-auto">
-        {/* Header */}
-        <div className="mb-10 text-center">
-          <Badge variant="purple" size="sm" className="mb-4">
-            MULTI-SOURCE SEARCH
-          </Badge>
-          <Heading variant="h1" className="uppercase tracking-tight mb-3">
-            Discover Across the Web
-          </Heading>
-          <Text variant="body-lg" className="max-w-2xl mx-auto">
-            One search. Multiple sources. No algorithms, no clutter — just real engineering
-            knowledge from the platforms you trust.
-          </Text>
-        </div>
-
-        {/* Unified Search Client */}
-        <SearchPageClient />
-      </div>
-    </div>
-  );
+  return <HomeUnifiedSearch />;
 }

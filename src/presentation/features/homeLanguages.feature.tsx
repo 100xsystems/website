@@ -2,7 +2,9 @@
 
 import React from 'react';
 import Link from 'next/link';
+import { ArrowUpRight } from 'lucide-react';
 import { cn } from '@/application/lib/utils';
+import { Button, Icon } from '@/presentation/__components';
 import { getLangIcon, getLangBg } from '@/lib/language-icons';
 import { classifyCourse, courseStatusMeta, type LessonMetaLite } from '@/lib/course-status';
 
@@ -18,7 +20,7 @@ interface HomeLanguagesProps {
   languages: HomeLanguageItem[];
 }
 
-/** Homepage languages section — complete + in-progress courses with status badges. */
+/** Homepage languages section — top popular languages as big borderless cards, matching the Awesome section. */
 export function HomeLanguages({ languages }: HomeLanguagesProps) {
   return (
     <section className="py-16 sm:py-24 bg-white">
@@ -29,27 +31,19 @@ export function HomeLanguages({ languages }: HomeLanguagesProps) {
             <span className="w-2 h-2 rounded-full bg-white animate-pulse" />
             LEARN
           </div>
-          <div className="flex flex-wrap items-end justify-between gap-6">
-            <div>
-              <h2 className="text-4xl sm:text-5xl font-extrabold text-fg tracking-tight uppercase leading-tight">
-                Language&nbsp;<span className="text-accent">courses</span>
-              </h2>
-              <p className="mt-4 text-lg text-fg-secondary max-w-2xl">
-                Complete, structured courses — not link dumps. Start from the first program and
-                go all the way to expert patterns. Or jump straight to the curated resources.
-              </p>
-            </div>
-            <Link
-              href="/courses"
-              className="inline-flex items-center gap-2 px-6 py-3 text-xs font-bold uppercase tracking-wider border border-border text-fg hover:bg-accent hover:text-white hover:border-accent transition-all duration-200"
-            >
-              All courses &rarr;
-            </Link>
+          <div>
+            <h2 className="text-4xl sm:text-5xl font-extrabold text-fg tracking-tight uppercase leading-tight">
+              Language&nbsp;<span className="text-accent">courses</span>
+            </h2>
+            <p className="mt-4 text-lg text-fg-secondary max-w-2xl">
+              Complete, structured courses for the most popular programming languages — from the
+              first program all the way to expert patterns. Not link dumps.
+            </p>
           </div>
         </div>
 
-        {/* Language grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-1 bg-surface-secondary">
+        {/* Language grid — big borderless cards, no gaps, inverted hover (matches Awesome) */}
+        <div className="grid grid-cols-1 gap-1 bg-surface-secondary sm:grid-cols-2 lg:grid-cols-3">
           {languages.map((lang) => {
             const status = classifyCourse(lang.lessons);
             const meta = courseStatusMeta(status);
@@ -57,45 +51,60 @@ export function HomeLanguages({ languages }: HomeLanguagesProps) {
               <Link
                 key={lang.slug}
                 href={`/knowledge/languages/${lang.slug}`}
-                className="group flex flex-col justify-between gap-4 p-6 bg-white transition-all duration-200 hover:bg-accent"
+                className="group flex flex-col items-start gap-6 p-7 sm:p-8 bg-white transition-colors duration-200 hover:bg-accent"
               >
-                <div className="flex items-start gap-4">
+                <div className="flex w-full items-start justify-between gap-4">
                   <span className={cn(
-                    'inline-flex items-center justify-center w-12 h-12 shrink-0 transition-colors',
+                    'inline-flex h-14 w-14 shrink-0 items-center justify-center transition-colors duration-200',
                     getLangBg(lang.slug),
                   )}>
-                    {getLangIcon(lang.slug, 22) || (
+                    {getLangIcon(lang.slug, 26) || (
                       <span className="text-sm font-extrabold">{lang.name.charAt(0)}</span>
                     )}
                   </span>
-                  <div className="min-w-0 flex-1">
-                    <h3 className="text-sm font-bold uppercase tracking-wide text-fg group-hover:text-white transition-colors mb-1">
-                      {lang.name}
-                    </h3>
-                    <p className="text-xs text-fg-secondary leading-relaxed group-hover:text-white/80 transition-colors line-clamp-2">
-                      {lang.description}
-                    </p>
-                  </div>
+                  <span className="flex h-9 w-9 shrink-0 items-center justify-center bg-surface-secondary text-accent transition-colors duration-200 group-hover:bg-white/20 group-hover:text-white">
+                    <ArrowUpRight className="h-4 w-4" />
+                  </span>
                 </div>
 
-                <div className="flex items-center gap-2 flex-wrap">
+                <div>
+                  <h3 className="text-xl font-extrabold uppercase tracking-wide text-fg leading-tight group-hover:text-white transition-colors duration-200 mb-2">
+                    {lang.name}
+                  </h3>
+                  {lang.description && (
+                    <p className="text-sm text-fg-secondary leading-relaxed line-clamp-2 group-hover:text-white/80 transition-colors duration-200">
+                      {lang.description}
+                    </p>
+                  )}
+                </div>
+
+                <div className="mt-auto flex w-full items-center gap-x-5 gap-y-1.5 text-xs font-bold uppercase tracking-wider text-fg-muted group-hover:text-white/70 transition-colors duration-200">
+                  <span>{lang.lessons.length} lessons</span>
+                  <span>{lang.resourceCount.toLocaleString()} resources</span>
                   <span className={cn(
-                    'px-2 py-1 text-[9px] font-bold uppercase tracking-wider transition-colors',
+                    'ml-auto px-2.5 py-1 text-[9px] font-bold uppercase tracking-wider transition-colors duration-200',
                     meta.className,
                     status === 'complete' ? 'group-hover:bg-white group-hover:text-accent' : 'group-hover:bg-white/20 group-hover:text-white',
                   )}>
-                    {status === 'complete' ? `Full course · ${lang.lessons.length} lessons` : meta.label}
-                  </span>
-                  <span className="text-[9px] font-semibold uppercase tracking-wider text-fg-muted group-hover:text-white/70 transition-colors">
-                    {lang.resourceCount} resources
-                  </span>
-                  <span className="ml-auto text-[9px] font-bold uppercase tracking-wider text-accent group-hover:text-white/70 transition-colors">
-                    &rarr;
+                    {status === 'complete' ? 'Complete' : meta.label}
                   </span>
                 </div>
               </Link>
             );
           })}
+        </div>
+
+        {/* CTA — same pattern as "View All Feeds" */}
+        <div className="mt-12 text-center">
+          <Button
+            variant="purpleGhost"
+            size="lg"
+            icon={<Icon name="arrow-right" size={18} />}
+            iconPosition="right"
+            onClick={() => { window.location.href = '/courses'; }}
+          >
+            All Courses
+          </Button>
         </div>
       </div>
     </section>

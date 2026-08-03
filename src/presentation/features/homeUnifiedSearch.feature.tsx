@@ -185,7 +185,6 @@ const SOURCES: SourceConfig[] = [
   { id: 'wikipedia', label: 'Wikipedia', type: 'live', color: 'text-gray-700', bgColor: 'bg-gray-700', hoverBg: 'hover:bg-gray-700', brandEl: <BrandIconWikipedia /> },
 ];
 
-const SOURCE_MAP = new Map(SOURCES.map((s) => [s.id, s]));
 const LOCAL_SOURCES = SOURCES.filter((s) => s.type === 'local');
 const LIVE_SOURCES = SOURCES.filter((s) => s.type === 'live');
 
@@ -572,7 +571,7 @@ export function HomeUnifiedSearch() {
   const abortRef = useRef<AbortController | null>(null);
   const fuseRef = useRef<ReturnType<typeof createFuseIndex> | null>(null);
   // Pageless browse: keep all items for empty-query browse mode
-  const allLocalRef = useRef<Record<string, LocalSearchItem[]>>({ knowledge: [], lessons: [], feed: [], yc: [], ph: [] });
+  const [allItems, setAllItems] = useState<Record<string, LocalSearchItem[]>>({ knowledge: [], lessons: [], feed: [], yc: [], ph: [] });
 
   // ── Load local data on mount ──────────────────────────────────────
   useEffect(() => {
@@ -602,7 +601,7 @@ export function HomeUnifiedSearch() {
       } catch {}
 
       // Knowledge graph — FIRST in order
-      let knowledgeDescriptions: Record<string, string> = {};
+      const knowledgeDescriptions: Record<string, string> = {};
       try {
         const seedsRes = await fetch('/knowledge-cache/seeds.json');
         if (seedsRes.ok) {
@@ -672,14 +671,13 @@ export function HomeUnifiedSearch() {
       } catch {}
 
       if (!mounted) return;
-      const allItems = {
+      setAllItems({
         knowledge: knowledgeItems,
         lessons: lessonItems,
         feed: feedItems,
         yc: ycItems,
         ph: phItems,
-      };
-      allLocalRef.current = allItems;
+      });
       fuseRef.current = createFuseIndex([...knowledgeItems, ...lessonItems, ...feedItems, ...ycItems, ...phItems]);
     }
     load();
@@ -738,8 +736,8 @@ export function HomeUnifiedSearch() {
 
   // ── Count helpers ─────────────────────────────────────────────────
   const totalLocal = query.trim().length < 2
-    // Browse mode: count all items from allLocalRef (filtered by selectedSource if any)
-    ? Object.entries(allLocalRef.current)
+    // Browse mode: count all items from allItems (filtered by selectedSource if any)
+    ? Object.entries(allItems)
       .filter(([key]) => !selectedSource || selectedSource === key)
       .reduce((s, [, a]) => s + a.length, 0)
     // Search mode: count Fuse results
@@ -866,7 +864,7 @@ export function HomeUnifiedSearch() {
                   // If query is empty, show all items from the full cache (browse mode)
                   // Otherwise show Fuse search results
                   const items = (query.trim().length < 2
-                    ? (allLocalRef.current[source.id] ?? [])
+                    ? (allItems[source.id] ?? [])
                     : (localResults[source.id] ?? [])
                   );
                   if (items.length === 0) return null;

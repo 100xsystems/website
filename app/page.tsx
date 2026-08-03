@@ -2,13 +2,12 @@ import { HomeFeed } from '@/presentation/features/homeFeed.feature';
 import { HomeYC } from '@/presentation/features/homeYC.feature';
 import { HomeProductHunt } from '@/presentation/features/homeProductHunt.feature';
 import { HomeDiscover } from '@/presentation/features/homeDiscover.feature';
-import { HomeUnifiedSearch } from '@/presentation/features/homeUnifiedSearch.feature';
 import { HomeHero } from '@/presentation/features/homeHero.feature';
 import { HomeLanguages } from '@/presentation/features/homeLanguages.feature';
 import { HomeKnowledgeTopics } from '@/presentation/features/homeKnowledgeTopics.feature';
 import { HomeAwesome } from '@/presentation/features/homeAwesome.feature';
 import { loadFeedCache } from '@/feed/feed.cache';
-import type { FeedCache, RegistryFeedItem, RegistryFeedData } from '@/feed/feed.types';
+import type { FeedCache, RegistryFeedData } from '@/feed/feed.types';
 import { getLanguagesWithResources, getLanguageResources, refreshLanguageResourcesIfStale } from '@/lib/language-resources';
 import { getHubs } from '@/lib/knowledge-resources';
 import { promises as fs } from 'node:fs';
@@ -75,10 +74,25 @@ interface AwesomeIndexEntry {
   stars: number;
 }
 
-async function loadFeaturedAwesomeLists(): Promise<Array<{ repoId: string; name: string; stars: number; linkCount: number }>> {
+interface AwesomeSourceFile {
+  repoId: string;
+  name: string;
+  description?: string | null;
+}
+
+/** Strip emoji + :colon-code: tokens and collapse whitespace. */
+function cleanAwesomeName(name: string): string {
+  return name
+    .replace(/:[a-z0-9_+-]+:/gi, ' ')
+    .replace(/[\u{1F000}-\u{1FAFF}\u{2600}-\u{27BF}\u{FE0F}\u{200D}]/gu, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+async function loadFeaturedAwesomeLists(): Promise<Array<{ repoId: string; name: string; stars: number; linkCount: number; description: string | null }>> {
   try {
-    const indexPath = path.join(process.cwd(), 'public', 'awesome-cache', 'index.json');
-    const raw = await fs.readFile(indexPath, 'utf-8');
+    const cacheDir = path.join(process.cwd(), 'public', 'awesome-cache');
+    const raw = await fs.readFile(path.join(cacheDir, 'index.json'), 'utf-8');
     const index = JSON.parse(raw) as { lists: AwesomeIndexEntry[] };
     const lists = index.lists || [];
 
@@ -87,16 +101,54 @@ async function loadFeaturedAwesomeLists(): Promise<Array<{ repoId: string; name:
       .filter((l) => FEATURED_AWESOME.has(l.repoId))
       .sort((a, b) => b.stars - a.stars);
 
-    // Fall back to the top 8 star-ranked lists if none of the curated set exists
-    const chosen = featured.length >= 8
-      ? featured.slice(0, 12)
-      : [...featured, ...lists.filter((l) => !FEATURED_AWESOME.has(l.repoId)).sort((a, b) => b.stars - a.stars)].slice(0, 12);
+    // Fall back to the top star-ranked lists if none of the curated set exists
+    const chosen = featured.length >= 9
+      ? featured.slice(0, 9)
+      : [...featured, ...lists.filter((l) => !FEATURED_AWESOME.has(l.repoId)).sort((a, b) => b.stars - a.stars)].slice(0, 9);
 
-    return chosen.map((l) => ({ repoId: l.repoId, name: l.name, stars: l.stars, linkCount: l.linkCount }));
+    // Pull a short description from each source file when available
+    const withDescriptions = await Promise.all(
+      chosen.map(async (l) => {
+        let description: string | null = null;
+        try {
+          const filePath = path.join(cacheDir, `${l.repoId.replace('/', '-')}.json`);
+          const src = JSON.parse(await fs.readFile(filePath, 'utf-8')) as AwesomeSourceFile;
+          if (src.description && src.description.trim()) {
+            description = cleanAwesomeName(src.description).slice(0, 140);
+          } else {
+            description = cleanAwesomeName(src.name).slice(0, 140);
+          }
+        } catch {
+          description = null;
+        }
+        return { repoId: l.repoId, name: l.name, stars: l.stars, linkCount: l.linkCount, description };
+      }),
+    );
+
+    return withDescriptions;
   } catch {
     return [];
   }
 }
+
+// Top popular programming languages (ordered by real-world popularity) shown on the homepage.
+const POPULAR_LANGUAGE_SLUGS = [
+  'python',
+  'javascript',
+  'typescript',
+  'go',
+  'java',
+  'rust',
+  'cpp',
+  'csharp',
+  'swift',
+  'kotlin',
+  'c',
+  'php',
+  'ruby',
+  'dart',
+  'shell',
+];
 
 const FEATURED_AWESOME = new Set([
   'sindresorhus/awesome',
@@ -129,7 +181,7 @@ export default async function HomePage() {
   const cache = await loadFeedCache();
   const latestArticles = cache ? flattenCache(cache) : null;
 
-  // Languages with courses (complete + in-progress first)
+  // Languages with courses — top popular languages only (matches the Awesome section scale)
   const languages = getLanguagesWithResources()
     .map((slug) => {
       const res = getLanguageResources(slug);
@@ -144,8 +196,9 @@ export default async function HomePage() {
       };
     })
     .filter((l): l is NonNullable<typeof l> => l !== null)
-    .sort((a, b) => b.lessons.length - a.lessons.length)
-    .slice(0, 16);
+    .filter((l) => POPULAR_LANGUAGE_SLUGS.includes(l.slug))
+    .sort((a, b) => POPULAR_LANGUAGE_SLUGS.indexOf(a.slug) - POPULAR_LANGUAGE_SLUGS.indexOf(b.slug))
+    .slice(0, 9);
 
   // Knowledge topics (principles, patterns, tools, technologies)
   const topics = [
@@ -164,9 +217,6 @@ export default async function HomePage() {
 
   return (
     <>
-      {/* Unified Search — at the very top */}
-      <HomeUnifiedSearch />
-
       {/* Hero — says clearly what the product is */}
       <HomeHero />
 

@@ -19,7 +19,7 @@ export function HomeHero() {
         <IconAnimatedGridPattern />
       </div>
 
-      <div className="relative z-10 w-full max-w-[1200px] mx-auto px-6 lg:px-12 py-16">
+      <div className="relative z-10 w-full max-w-300 mx-auto px-6 lg:px-12 py-16">
         <div className="grid grid-cols-1 lg:grid-cols-[1.15fr_0.85fr] gap-12 lg:gap-16 items-center">
           {/* ── Left: message ── */}
           <div>
@@ -64,14 +64,14 @@ export function HomeHero() {
             >
               <Link
                 href="/courses"
-                className="inline-flex items-center gap-3 px-8 py-4 bg-accent text-white text-sm font-bold uppercase tracking-wider transition-all duration-200 hover:bg-accent-hover hover:-translate-y-0.5 shadow-lg shadow-accent/20"
+                className="inline-flex items-center gap-3 px-8 py-4 bg-white text-sm font-bold uppercase tracking-wider border-0 text-white "
               >
                 <FaGraduationCap size={16} />
                 Browse Courses
               </Link>
               <Link
                 href="/knowledge/languages"
-                className="inline-flex items-center gap-3 px-8 py-4 text-fg text-sm font-bold uppercase tracking-wider transition-all duration-200 hover:text-accent relative after:absolute after:bottom-2 after:left-8 after:right-8 after:h-[3px] after:bg-accent-yellow after:origin-left after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300"
+                className="inline-flex items-center gap-3 px-8 py-4 text-fg text-sm font-bold uppercase tracking-wider transition-all duration-200 hover:text-accent relative after:absolute after:bottom-2 after:left-8 after:right-8 after:h-0.75 after:bg-accent-yellow after:origin-left after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300"
               >
                 <FaCompass size={16} />
                 Explore Languages
@@ -107,7 +107,7 @@ export function HomeHero() {
 
           {/* ── Right: pillar cards ── */}
           <motion.div
-            className="grid grid-cols-1 gap-4"
+            className="grid grid-cols-1 gap-1 bg-surface-secondary"
             initial={{ opacity: 0, y: 24 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.18 }}
@@ -159,18 +159,17 @@ function PillarCard({
   return (
     <Link
       href={href}
-      className="group flex items-start gap-5 p-6 bg-white border border-border hover:border-transparent transition-all duration-300 hover:shadow-xl hover:-translate-y-0.5"
+      className="group flex items-start gap-5 p-6 bg-white transition-colors duration-200 hover:bg-accent"
     >
-      <span className={`inline-flex items-center justify-center w-12 h-12 shrink-0 text-sm font-extrabold ${accent} ${text}`}>
+      <span className={`inline-flex items-center justify-center w-12 h-12 shrink-0 text-sm font-extrabold ${accent} ${text} group-hover:bg-white/20 group-hover:text-white transition-colors duration-200`}>
         {index}
       </span>
       <div className="min-w-0">
-        <h3 className="text-base font-extrabold uppercase tracking-widest text-fg group-hover:text-accent transition-colors mb-1.5">
+        <h3 className="text-base font-extrabold uppercase tracking-widest text-fg group-hover:text-white transition-colors duration-200 mb-1.5">
           {title}
         </h3>
-        <p className="text-sm text-fg-secondary leading-relaxed">{desc}</p>
+        <p className="text-sm text-fg-secondary leading-relaxed group-hover:text-white/80 transition-colors duration-200">{desc}</p>
       </div>
-      <span className="ml-auto mt-1 text-accent text-sm font-bold group-hover:translate-x-1 transition-transform">→</span>
     </Link>
   );
 }

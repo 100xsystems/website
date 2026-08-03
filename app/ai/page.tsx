@@ -2,8 +2,9 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { getHubs, countHubResources, refreshKnowledgeCacheIfStale } from '@/lib/knowledge-resources';
 import { getLangIcon, getLangBg } from '@/lib/language-icons';
-import { getAwesomeIcon, awesomeLabel } from '@/lib/awesome-icons';
+import { getAwesomeIcon, getAwesomeBrandColor, awesomeLabel } from '@/lib/awesome-icons';
 import { loadFeedCache } from '@/feed/feed.cache';
+import { ArrowUpRight } from 'lucide-react';
 import {
   SiApacheairflow,
   SiApachespark,
@@ -20,8 +21,6 @@ export const metadata: Metadata = {
   description:
     'Everything AI on 100xSystems in one place: twelve complete AI courses, machine learning awesome lists, AI engineering feeds, and the tools behind modern AI systems.',
 };
-
-// ── AI knowledge courses (complete 21-lesson courses from the knowledge base) ──
 
 // ── AI curated awesome lists (deep-link into /discover/awesome?source=…) ──
 
@@ -114,7 +113,7 @@ export default async function AiHubPage() {
   return (
     <main className="min-h-screen bg-white">
       {/* Hero */}
-      <section className="py-20 sm:py-28 bg-white relative overflow-hidden">
+      <section className="py-20 sm:py-28 bg-white">
         <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
           <div className="text-center mb-14">
             <div className="inline-flex items-center gap-2 px-3 py-1.5 text-[10px] font-bold uppercase tracking-widest bg-accent text-white mb-5">
@@ -171,17 +170,17 @@ export default async function AiHubPage() {
                 AI safety. Learn the principles, patterns and systems behind AI.
               </p>
             </div>
-            <Link href="/courses" className="inline-flex items-center gap-2 px-5 py-2.5 text-xs font-bold uppercase tracking-wider border border-border text-fg hover:bg-accent hover:text-white hover:border-accent transition-all duration-200">
+            <Link href="/courses" className="inline-flex items-center gap-2 px-5 py-2.5 bg-accent text-white text-xs font-bold uppercase tracking-wider transition-colors duration-200 hover:bg-accent-hover">
               All courses
             </Link>
           </div>
 
           {aiCourses.length === 0 ? (
-            <div className="border border-dashed border-border p-14 text-center">
+            <div className="bg-surface-secondary p-14 text-center">
               <p className="text-sm text-fg-muted">AI courses land here after the next registry sync.</p>
             </div>
           ) : (
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-1 bg-surface-secondary">
               {aiCourses.map((course) => {
                 const lessons = course.lessons?.length ?? 0;
                 const resources = countHubResources(course);
@@ -190,26 +189,26 @@ export default async function AiHubPage() {
                   <Link
                     key={course.slug}
                     href={`/knowledge/ai/${course.slug}`}
-                    className="group flex flex-col gap-5 p-7 bg-white border border-border hover:border-transparent hover:shadow-xl hover:-translate-y-0.5 transition-all duration-200"
+                    className="group flex flex-col justify-between gap-6 p-8 bg-white transition-colors duration-200 hover:bg-accent"
                   >
-                    <div className="flex items-center gap-4">
-                      <span className={`inline-flex items-center justify-center w-12 h-12 shrink-0 ${getLangBg(course.slug)}`}>
+                    <div className="flex items-start gap-5">
+                      <span className={`inline-flex items-center justify-center w-14 h-14 shrink-0 transition-colors duration-200 ${getLangBg(course.slug)}`}>
                         {icon}
                       </span>
                       <div className="min-w-0">
-                        <h3 className="text-sm font-bold uppercase tracking-wide text-fg mb-0.5">
+                        <h3 className="text-lg font-extrabold uppercase tracking-wide text-fg group-hover:text-white transition-colors duration-200 leading-tight">
                           {course.name}
                         </h3>
-                        <span className="text-[10px] font-semibold uppercase tracking-wider text-accent">
+                        <span className="text-[10px] font-bold uppercase tracking-wider text-accent group-hover:text-white/70 transition-colors duration-200">
                           {lessons} lessons
                         </span>
                       </div>
                     </div>
-                    <p className="text-xs text-fg-secondary leading-relaxed line-clamp-3">
+                    <p className="text-sm text-fg-secondary leading-relaxed line-clamp-3 group-hover:text-white/80 transition-colors duration-200">
                       {course.description}
                     </p>
-                    <div className="flex items-center gap-3 text-[10px] font-bold uppercase tracking-wider text-fg-muted">
-                      <span className="px-2 py-1 bg-surface-secondary">
+                    <div className="flex items-center gap-3 text-[10px] font-bold uppercase tracking-wider text-fg-muted group-hover:text-white/70 transition-colors duration-200">
+                      <span className="px-2 py-1 bg-surface-secondary text-fg-secondary group-hover:bg-white/20 group-hover:text-white transition-colors duration-200">
                         Full course
                       </span>
                       <span>{resources} curated resources</span>
@@ -235,28 +234,33 @@ export default async function AiHubPage() {
                 filterable list of every resource.
               </p>
             </div>
-            <Link href="/discover/awesome" className="inline-flex items-center gap-2 px-5 py-2.5 text-xs font-bold uppercase tracking-wider border border-border text-fg hover:bg-accent hover:text-white hover:border-accent transition-all duration-200">
+            <Link href="/discover/awesome" className="inline-flex items-center gap-2 px-5 py-2.5 bg-accent text-white text-xs font-bold uppercase tracking-wider transition-colors duration-200 hover:bg-accent-hover">
               All awesome lists
             </Link>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-1 bg-white">
             {AI_AWESOME_LISTS.map((list) => (
               <Link
                 key={list.repoId}
                 href={`/discover/awesome?source=${encodeURIComponent(list.repoId)}`}
-                className="group flex flex-col gap-4 p-6 bg-white border border-border hover:border-transparent hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300"
+                className="group flex flex-col gap-6 p-7 bg-surface-secondary transition-colors duration-200 hover:bg-accent"
               >
-                <span className="inline-flex items-center justify-center w-11 h-11 bg-white shadow-[inset_0_0_0_1px_rgba(0,0,0,0.06)] text-accent">
-                  {getAwesomeIcon(list.repoId)}
+                <span
+                  className="inline-flex items-center justify-center w-14 h-14 shrink-0 transition-colors duration-200"
+                  style={{ backgroundColor: `${getAwesomeBrandColor(list.repoId)}1A`, color: getAwesomeBrandColor(list.repoId) }}
+                >
+                  {getAwesomeIcon(list.repoId, 26)}
                 </span>
                 <div className="flex-1">
-                  <h3 className="text-sm font-bold uppercase tracking-wide text-fg group-hover:text-accent transition-colors mb-1.5">
+                  <h3 className="text-base font-extrabold uppercase tracking-wide text-fg group-hover:text-white transition-colors duration-200 leading-tight mb-2">
                     {list.label}
                   </h3>
-                  <p className="text-xs text-fg-secondary leading-relaxed">{list.blurb}</p>
+                  <p className="text-sm text-fg-secondary leading-relaxed group-hover:text-white/80 transition-colors duration-200">
+                    {list.blurb}
+                  </p>
                 </div>
-                <span className="text-[10px] font-bold uppercase tracking-wider text-fg-muted group-hover:text-accent transition-colors">
+                <span className="text-[10px] font-bold uppercase tracking-wider text-fg-muted group-hover:text-white/70 transition-colors duration-200">
                   Browse {awesomeLabel(list.repoId)}
                 </span>
               </Link>
@@ -278,40 +282,42 @@ export default async function AiHubPage() {
                 Pinecone and more.
               </p>
             </div>
-            <Link href="/discover/feed" className="inline-flex items-center gap-2 px-5 py-2.5 text-xs font-bold uppercase tracking-wider border border-border text-fg hover:bg-accent hover:text-white hover:border-accent transition-all duration-200">
+            <Link href="/discover/feed" className="inline-flex items-center gap-2 px-5 py-2.5 bg-accent text-white text-xs font-bold uppercase tracking-wider transition-colors duration-200 hover:bg-accent-hover">
               Full feed
             </Link>
           </div>
 
           {articles.length === 0 ? (
-            <div className="border border-dashed border-border p-14 text-center">
+            <div className="bg-surface-secondary p-14 text-center">
               <p className="text-sm text-fg-muted">AI feeds will appear here after the next registry sync.</p>
             </div>
           ) : (
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-1 bg-surface-secondary">
               {articles.map((article) => (
                 <a
                   key={article.url}
                   href={article.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="group block bg-white border border-border p-6 transition-all duration-200 hover:border-transparent hover:shadow-xl hover:-translate-y-0.5"
+                  className="group flex flex-col justify-between gap-5 bg-white p-7 transition-colors duration-200 hover:bg-accent"
                 >
-                  <div className="flex items-center gap-2 mb-3">
-                    <span className="px-2 py-0.5 text-[9px] font-bold uppercase tracking-wider bg-surface-secondary text-fg-muted">
-                      {article.feedName}
-                    </span>
-                    {article.publishedAt && (
-                      <span className="text-[9px] text-fg-muted ml-auto">
-                        {formatDate(article.publishedAt)}
+                  <div>
+                    <div className="flex items-center gap-2 mb-4">
+                      <span className="px-2 py-0.5 text-[9px] font-bold uppercase tracking-wider bg-surface-secondary text-fg-muted group-hover:bg-white/20 group-hover:text-white/80 transition-colors duration-200">
+                        {article.feedName}
                       </span>
-                    )}
+                      {article.publishedAt && (
+                        <span className="text-[9px] text-fg-muted group-hover:text-white/60 transition-colors duration-200 ml-auto">
+                          {formatDate(article.publishedAt)}
+                        </span>
+                      )}
+                    </div>
+                    <h3 className="text-sm font-bold text-fg leading-snug line-clamp-3 group-hover:text-white transition-colors duration-200">
+                      {article.title}
+                    </h3>
                   </div>
-                  <h3 className="text-sm font-bold text-fg leading-snug line-clamp-3 mb-3">
-                    {article.title}
-                  </h3>
-                  <span className="text-[10px] font-bold uppercase tracking-wider text-accent">
-                    Read article
+                  <span className="inline-flex items-center gap-1.5 text-[10px] font-bold uppercase tracking-wider text-accent group-hover:text-white/80 transition-colors duration-200">
+                    Read article <ArrowUpRight className="h-3.5 w-3.5" />
                   </span>
                 </a>
               ))}
@@ -333,21 +339,23 @@ export default async function AiHubPage() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-1 bg-white">
             {AI_TOOLS.map((tool) => (
               <Link
                 key={tool.slug}
                 href={`/knowledge/tools/${tool.slug}`}
-                className="group flex items-start gap-4 p-6 bg-white border border-border hover:border-transparent hover:shadow-lg hover:-translate-y-0.5 transition-all duration-200"
+                className="group flex items-start gap-5 p-7 bg-surface-secondary transition-colors duration-200 hover:bg-accent"
               >
-                <span className="inline-flex items-center justify-center w-10 h-10 shrink-0 bg-white shadow-[inset_0_0_0_1px_rgba(0,0,0,0.06)] text-fg">
+                <span className="inline-flex items-center justify-center w-12 h-12 shrink-0 bg-white text-fg group-hover:bg-white/20 group-hover:text-white transition-colors duration-200">
                   {tool.icon}
                 </span>
                 <div className="min-w-0">
-                  <h3 className="text-sm font-bold uppercase tracking-wide text-fg group-hover:text-accent transition-colors mb-1">
+                  <h3 className="text-sm font-bold uppercase tracking-wide text-fg group-hover:text-white transition-colors duration-200 mb-1.5">
                     {tool.name}
                   </h3>
-                  <p className="text-xs text-fg-secondary leading-relaxed">{tool.blurb}</p>
+                  <p className="text-sm text-fg-secondary leading-relaxed group-hover:text-white/80 transition-colors duration-200">
+                    {tool.blurb}
+                  </p>
                 </div>
               </Link>
             ))}

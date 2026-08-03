@@ -130,24 +130,46 @@ export default function CoursesPage() {
               <span className="block text-[10px] font-bold uppercase tracking-widest text-fg-muted mt-1">Lessons</span>
             </div>
           </div>
+
+          {/* Category quick-nav */}
+          <nav className="mt-14 flex flex-wrap justify-center gap-2" aria-label="Course categories">
+            {CATEGORY_ORDER.map(({ key, label }) => {
+              const group = courses.filter((c) => c.category === key);
+              if (group.length === 0) return null;
+              return (
+                <a
+                  key={key}
+                  href={`#courses-${key}`}
+                  className="px-5 py-2.5 bg-surface-secondary text-xs font-bold uppercase tracking-wider text-fg-secondary transition-colors duration-200 hover:bg-accent hover:text-white"
+                >
+                  {label} <span className="opacity-60">({group.length})</span>
+                </a>
+              );
+            })}
+          </nav>
         </div>
       </section>
 
       {/* Course groups */}
-      {CATEGORY_ORDER.map(({ key, label, blurb }) => {
+      {CATEGORY_ORDER.map(({ key, label, blurb }, idx) => {
         const group = courses.filter((c) => c.category === key);
         if (group.length === 0) return null;
         const completeCount = group.filter((c) => c.status === 'complete').length;
+        const alternate = idx % 2 === 1;
         return (
-          <section key={key} className="py-14 sm:py-16 bg-white border-t border-border">
+          <section
+            key={key}
+            id={`courses-${key}`}
+            className={`py-16 sm:py-20 scroll-mt-8 ${alternate ? 'bg-surface-secondary' : 'bg-white'}`}
+          >
             <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
-              <div className="flex items-center justify-between gap-6 mb-8">
+              <div className="flex items-center justify-between gap-6 mb-10">
                 <div>
                   <h2 className="text-2xl sm:text-3xl font-extrabold text-fg tracking-tight uppercase">
                     {label}
                     <span className="text-accent ml-3">({group.length})</span>
                   </h2>
-                  <p className="mt-1 text-sm text-fg-secondary">{blurb}</p>
+                  <p className="mt-2 text-sm text-fg-secondary">{blurb}</p>
                 </div>
                 <div className="hidden sm:block text-right">
                   <span className="block text-2xl font-extrabold text-fg tabular-nums">{completeCount}</span>
@@ -155,37 +177,37 @@ export default function CoursesPage() {
                 </div>
               </div>
 
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-1 bg-surface-secondary">
+              <div className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-1 ${alternate ? 'bg-white' : 'bg-surface-secondary'}`}>
                 {group.map((course) => {
                   const meta = courseStatusMeta(course.status);
                   return (
                     <Link
                       key={`${course.category}-${course.slug}`}
                       href={course.href}
-                      className="group flex flex-col justify-between gap-4 p-6 bg-white transition-all duration-200 hover:bg-accent"
+                      className="group flex flex-col justify-between gap-6 p-8 bg-white transition-colors duration-200 hover:bg-accent"
                     >
-                      <div className="flex items-start gap-4">
+                      <div className="flex items-start gap-5">
                         {course.iconSlug && getLangIcon(course.iconSlug) ? (
-                          <span className={`inline-flex items-center justify-center w-12 h-12 shrink-0 ${getLangBg(course.iconSlug)}`}>
-                            {getLangIcon(course.iconSlug, 22)}
+                          <span className={`inline-flex items-center justify-center w-14 h-14 shrink-0 ${getLangBg(course.iconSlug)}`}>
+                            {getLangIcon(course.iconSlug, 24)}
                           </span>
                         ) : (
-                          <span className="inline-flex items-center justify-center w-12 h-12 shrink-0 bg-surface-secondary text-fg-muted group-hover:bg-white/20 group-hover:text-white transition-colors text-sm font-extrabold">
+                          <span className="inline-flex items-center justify-center w-14 h-14 shrink-0 bg-surface-secondary text-fg-muted group-hover:bg-white/20 group-hover:text-white transition-colors text-sm font-extrabold">
                             {course.name.charAt(0)}
                           </span>
                         )}
                         <div className="min-w-0 flex-1">
-                          <h3 className="text-sm font-bold uppercase tracking-wide text-fg group-hover:text-white transition-colors mb-1">
+                          <h3 className="text-base font-extrabold uppercase tracking-wide text-fg group-hover:text-white transition-colors duration-200 mb-1.5 leading-tight">
                             {course.name}
                           </h3>
-                          <p className="text-xs text-fg-secondary leading-relaxed group-hover:text-white/80 transition-colors line-clamp-2">
+                          <p className="text-sm text-fg-secondary leading-relaxed group-hover:text-white/80 transition-colors duration-200 line-clamp-2">
                             {course.description}
                           </p>
                         </div>
                       </div>
 
                       <div className="flex items-center gap-2 flex-wrap">
-                        <span className={`px-2 py-1 text-[9px] font-bold uppercase tracking-wider transition-colors ${meta.className} ${
+                        <span className={`px-2 py-1 text-[9px] font-bold uppercase tracking-wider transition-colors duration-200 ${meta.className} ${
                           course.status === 'complete' ? 'group-hover:bg-white group-hover:text-accent' : 'group-hover:bg-white/20 group-hover:text-white'
                         }`}>
                           {course.status === 'complete'
@@ -195,12 +217,12 @@ export default function CoursesPage() {
                               : 'Resources only'}
                         </span>
                         {course.minutes > 0 && (
-                          <span className="text-[9px] text-fg-muted group-hover:text-white/70 transition-colors">
+                          <span className="text-[9px] text-fg-muted group-hover:text-white/70 transition-colors duration-200">
                             ~{formatMinutes(course.minutes)}
                           </span>
                         )}
-                        <span className="ml-auto text-[9px] font-bold uppercase tracking-wider text-accent group-hover:text-white/70 transition-colors">
-                          &rarr;
+                        <span className="ml-auto text-accent text-xs font-bold group-hover:text-white/70 transition-colors duration-200">
+                          →
                         </span>
                       </div>
                     </Link>

@@ -55,7 +55,7 @@ export default function AiKnowledgePage() {
         </div>
       </section>
 
-      {/* AI Course Cards */}
+      {/* AI Course Cards — borderless, inverted hover */}
       {hubs.length === 0 ? (
         <section className="py-20 text-center">
           <p className="text-sm text-fg-muted">AI courses land here after the next registry sync.</p>
@@ -63,7 +63,7 @@ export default function AiKnowledgePage() {
       ) : (
         <section className="py-16 sm:py-20 bg-white">
           <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-1 bg-surface-secondary">
               {hubs.map((hub) => {
                 const lessons = hub.lessons?.length ?? 0;
                 const resources = countHubResources(hub);
@@ -72,26 +72,28 @@ export default function AiKnowledgePage() {
                   <Link
                     key={hub.slug}
                     href={`/knowledge/ai/${hub.slug}`}
-                    className="group flex flex-col gap-5 p-7 bg-white border border-border hover:border-transparent hover:shadow-xl hover:-translate-y-0.5 transition-all duration-200"
+                    className="group flex flex-col justify-between gap-6 p-8 bg-white transition-colors duration-200 hover:bg-accent"
                   >
-                    <div className="flex items-center gap-4">
-                      <span className={`inline-flex items-center justify-center w-12 h-12 shrink-0 ${getLangBg(hub.slug)}`}>
+                    <div className="flex items-start gap-5">
+                      <span className={`inline-flex items-center justify-center w-14 h-14 shrink-0 transition-colors duration-200 ${getLangBg(hub.slug)}`}>
                         {icon}
                       </span>
                       <div className="min-w-0">
-                        <h3 className="text-sm font-bold uppercase tracking-wide text-fg mb-0.5">
+                        <h3 className="text-lg font-extrabold uppercase tracking-wide text-fg group-hover:text-white transition-colors duration-200 leading-tight">
                           {hub.name}
                         </h3>
-                        <span className="text-[10px] font-semibold uppercase tracking-wider text-accent">
+                        <span className="text-[10px] font-bold uppercase tracking-wider text-accent group-hover:text-white/70 transition-colors duration-200">
                           {lessons} lessons
                         </span>
                       </div>
                     </div>
-                    <p className="text-xs text-fg-secondary leading-relaxed line-clamp-3">
+                    <p className="text-sm text-fg-secondary leading-relaxed line-clamp-3 group-hover:text-white/80 transition-colors duration-200">
                       {hub.description}
                     </p>
-                    <div className="flex items-center gap-3 text-[10px] font-bold uppercase tracking-wider text-fg-muted">
-                      <span className="px-2 py-1 bg-surface-secondary">Full course</span>
+                    <div className="flex items-center gap-3 text-[10px] font-bold uppercase tracking-wider text-fg-muted group-hover:text-white/70 transition-colors duration-200">
+                      <span className="px-2 py-1 bg-surface-secondary text-fg-secondary group-hover:bg-white/20 group-hover:text-white transition-colors duration-200">
+                        Full course
+                      </span>
                       <span>{resources} curated resources</span>
                     </div>
                   </Link>

@@ -49,30 +49,31 @@ export function HomeKnowledgeTopics({ topics }: HomeKnowledgeTopicsProps) {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-1 bg-white">
           {topics.map((topic) => (
             <Link
               key={topic.slug}
               href={`/knowledge/${topic.slug}`}
-              className="group block bg-white p-8 border border-border hover:border-transparent hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
+              className="group block bg-surface-secondary p-8 transition-colors duration-200 hover:bg-accent"
             >
               <span className={cn(
-                'inline-flex items-center justify-center w-14 h-14 mb-6 transition-transform group-hover:scale-110 duration-200',
+                'inline-flex items-center justify-center w-14 h-14 mb-6 transition-colors duration-200',
                 TOPIC_BG[topic.slug] || 'bg-surface-secondary text-fg-muted',
+                'group-hover:bg-white/20 group-hover:text-white',
               )}>
                 {TOPIC_ICONS[topic.slug] || <FaWrench size={22} />}
               </span>
-              <h3 className="text-lg font-extrabold uppercase tracking-wide text-fg mb-2">
+              <h3 className="text-lg font-extrabold uppercase tracking-wide text-fg group-hover:text-white transition-colors duration-200 mb-2">
                 {topic.label}
               </h3>
-              <p className="text-sm text-fg-secondary leading-relaxed mb-5">
+              <p className="text-sm text-fg-secondary leading-relaxed group-hover:text-white/80 transition-colors duration-200 mb-6">
                 {topic.description}
               </p>
               <div className="flex items-center justify-between">
-                <span className="px-2 py-1 text-[9px] font-bold uppercase tracking-wider bg-surface-secondary text-fg-muted">
+                <span className="px-2 py-1 text-[9px] font-bold uppercase tracking-wider bg-white text-fg-muted group-hover:bg-white/20 group-hover:text-white transition-colors duration-200">
                   {topic.count} hubs
                 </span>
-                <span className="text-[9px] font-bold uppercase tracking-wider text-accent transition-transform group-hover:translate-x-1 duration-200 inline-block">
+                <span className="text-[9px] font-bold uppercase tracking-wider text-accent group-hover:text-white/80 transition-colors duration-200 inline-block">
                   Explore &rarr;
                 </span>
               </div>
