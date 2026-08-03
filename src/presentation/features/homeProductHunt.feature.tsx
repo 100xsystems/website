@@ -272,7 +272,7 @@ export function HomeProductHunt() {
 
         {/* Products grid — borderless rich cards */}
         {!isLoading && !error && filteredProducts.length > 0 && (
-          <div className="flex gap-4 overflow-x-auto -mx-6 px-6 pb-2 snap-x snap-mandatory sm:mx-0 sm:px-0 sm:pb-0 sm:grid sm:grid-cols-2 sm:gap-6 sm:overflow-visible sm:snap-none lg:grid-cols-3">
+          <div className="flex gap-4 overflow-x-auto bg-surface-secondary -mx-6 px-6 pb-2 snap-x snap-mandatory sm:mx-0 sm:px-0 sm:pb-0 sm:grid sm:grid-cols-2 sm:gap-6 sm:overflow-visible sm:bg-transparent sm:snap-none lg:grid-cols-3">
             {filteredProducts.map((product) => (
               <button
                 type="button"

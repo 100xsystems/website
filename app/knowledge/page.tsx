@@ -59,7 +59,8 @@ export default async function KnowledgePage({ searchParams }: Props) {
   const totalCourses = categories.reduce((s, c) => s + c.hubs.length, 0);
   const totalResources = categories.reduce((s, c) => s + c.hubs.reduce((x, h) => x + h.resourceCount, 0), 0);
 
-  const initialCategory = categories.some((c) => c.key === category) ? (category as string) : 'all';
+  const initialCategory =
+    typeof category === 'string' && categories.some((c) => c.key === category) ? category : 'all';
 
   return (
     <main className="mx-auto bg-white py-16 sm:py-24">
