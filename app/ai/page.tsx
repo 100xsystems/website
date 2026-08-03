@@ -21,6 +21,15 @@ export const metadata: Metadata = {
     'Everything AI on 100xSystems in one place: twelve complete AI courses, machine learning awesome lists, AI engineering feeds, and the tools behind modern AI systems.',
 };
 
+// ── AI learning path — the recommended sequence (tracks) ──
+
+const AI_TRACKS: Array<{ label: string; slugs: string[] }> = [
+  { label: 'Foundations', slugs: ['data-science', 'machine-learning', 'deep-learning'] },
+  { label: 'Applied AI', slugs: ['computer-vision', 'nlp'] },
+  { label: 'Generative AI', slugs: ['generative-ai', 'llm-engineering', 'prompt-engineering', 'ai-agents'] },
+  { label: 'Systems & Safety', slugs: ['mlops', 'reinforcement-learning', 'ai-safety'] },
+];
+
 // ── AI curated awesome lists (deep-link into /discover/awesome?source=…) ──
 
 const AI_AWESOME_LISTS: Array<{ repoId: string; label: string; blurb: string }> = [
@@ -45,9 +54,29 @@ const AI_FEED_IDS = new Set([
 interface AiArticle {
   feedId: string;
   feedName: string;
+  feedSiteUrl: string;
   title: string;
   url: string;
   publishedAt: string | null;
+}
+
+function getDomain(url: string): string | null {
+  try { return new URL(url).hostname; } catch { return null; }
+}
+
+function FeedLogo({ feedSiteUrl, feedName, size = 40 }: { feedSiteUrl: string; feedName: string; size?: number }) {
+  const domain = getDomain(feedSiteUrl);
+  if (!domain) return null;
+  return (
+    <img
+      src={`https://www.google.com/s2/favicons?domain=${domain}&sz=64`}
+      alt={feedName}
+      width={size}
+      height={size}
+      className="shrink-0 rounded-lg bg-surface-secondary transition-colors duration-200 group-hover:bg-white/20"
+      loading="lazy"
+    />
+  );
 }
 
 async function loadAiFeeds(): Promise<{ articles: AiArticle[]; feeds: Array<{ id: string; name: string; siteUrl: string }> }> {
@@ -69,6 +98,7 @@ async function loadAiFeeds(): Promise<{ articles: AiArticle[]; feeds: Array<{ id
         articles.push({
           feedId,
           feedName: data.feedName ?? feedId,
+          feedSiteUrl: data.feedSiteUrl ?? '',
           title: item.title,
           url: item.link,
           publishedAt: item.publishedAt ?? null,
@@ -155,8 +185,33 @@ export default async function AiHubPage() {
         </div>
       </section>
 
-      {/* AI Courses — complete knowledge-base courses, before the awesome lists */}
-      <section className="py-10 sm:py-16 bg-white">
+      {/* Mobile-only sticky quick-nav — jump straight to any AI section */}
+      <nav
+        aria-label="AI sections"
+        className="sticky top-0 z-40 border-b border-border bg-white/95 backdrop-blur-sm lg:hidden"
+      >
+        <div className="mx-auto max-w-[1400px] px-6">
+          <div className="flex items-center gap-2 overflow-x-auto py-3">
+            {[
+              ['courses', 'Courses'],
+              ['ml-lists', 'ML Lists'],
+              ['feeds', 'Feeds'],
+              ['tools', 'Tools'],
+            ].map(([id, label]) => (
+              <a
+                key={id}
+                href={`#${id}`}
+                className="shrink-0 bg-surface-secondary px-4 py-2 text-xs font-bold uppercase tracking-wider text-fg-secondary transition-colors duration-150 hover:bg-accent hover:text-white"
+              >
+                {label}
+              </a>
+            ))}
+          </div>
+        </div>
+      </nav>
+
+      {/* AI Courses — grouped into a recommended learning path (tracks) */}
+      <section id="courses" className="scroll-mt-20 py-10 sm:py-16 bg-white">
         <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
           <div className="flex flex-wrap items-end justify-between gap-6 mb-8 sm:mb-10">
             <div>
@@ -164,12 +219,11 @@ export default async function AiHubPage() {
                 AI <span className="text-accent">courses</span>
               </h2>
               <p className="mt-2 text-sm text-fg-secondary max-w-xl">
-                Twelve complete 21-lesson courses — from data science and machine learning
-                foundations to LLM engineering, AI agents, reinforcement learning, MLOps and
-                AI safety. Learn the principles, patterns and systems behind AI.
+                Twelve complete 21-lesson courses, laid out as a recommended learning path —
+                start at Foundations and work up to Systems &amp; Safety.
               </p>
             </div>
-            <Link href="/courses" className="inline-flex items-center gap-2 px-5 py-2.5 bg-accent text-white text-xs font-bold uppercase tracking-wider transition-colors duration-200 hover:bg-accent-hover">
+            <Link href="/courses" className="inline-flex items-center gap-2 px-5 py-2.5 bg-white text-xs font-bold uppercase tracking-wider transition-colors duration-200 hover:bg-yellow">
               All courses
             </Link>
           </div>
@@ -179,40 +233,61 @@ export default async function AiHubPage() {
               <p className="text-sm text-fg-muted">AI courses land here after the next registry sync.</p>
             </div>
           ) : (
-            <div className="flex gap-2 overflow-x-auto bg-surface-secondary -mx-6 px-6 pb-2 snap-x snap-mandatory sm:mx-0 sm:px-0 sm:pb-0 sm:grid sm:grid-cols-2 sm:gap-1 lg:grid-cols-3 sm:overflow-visible sm:snap-none">
-              {aiCourses.map((course) => {
-                const lessons = course.lessons?.length ?? 0;
-                const resources = countHubResources(course);
-                const icon = getLangIcon(course.slug);
+            <div className="space-y-12 sm:space-y-16">
+              {AI_TRACKS.map((track, i) => {
+                const trackCourses = aiCourses.filter((c) => track.slugs.includes(c.slug));
+                if (trackCourses.length === 0) return null;
                 return (
-                  <Link
-                    key={course.slug}
-                    href={`/knowledge/ai/${course.slug}`}
-                    className="group flex flex-col justify-between gap-6 p-8 bg-white transition-colors duration-200 hover:bg-accent shrink-0 w-[82vw] snap-start sm:w-auto"
-                  >
-                    <div className="flex items-start gap-5">
-                      <span className={`inline-flex items-center justify-center w-14 h-14 shrink-0 transition-colors duration-200 ${getLangBg(course.slug)}`}>
-                        {icon}
+                  <div key={track.label}>
+                    <div className="flex flex-wrap items-center gap-3 mb-6">
+                      <span className="bg-accent px-2.5 py-1 text-[10px] font-bold uppercase tracking-widest text-white">
+                        Track 0{i + 1}
                       </span>
-                      <div className="min-w-0">
-                        <h3 className="text-lg font-extrabold uppercase tracking-wide text-fg group-hover:text-white transition-colors duration-200 leading-tight">
-                          {course.name}
-                        </h3>
-                        <span className="text-[10px] font-bold uppercase tracking-wider text-accent group-hover:text-white/70 transition-colors duration-200">
-                          {lessons} lessons
-                        </span>
-                      </div>
-                    </div>
-                    <p className="text-sm text-fg-secondary leading-relaxed line-clamp-3 group-hover:text-white/80 transition-colors duration-200">
-                      {course.description}
-                    </p>
-                    <div className="flex items-center gap-3 text-[10px] font-bold uppercase tracking-wider text-fg-muted group-hover:text-white/70 transition-colors duration-200">
-                      <span className="px-2 py-1 bg-surface-secondary text-fg-secondary group-hover:bg-white/20 group-hover:text-white transition-colors duration-200">
-                        Full course
+                      <h3 className="text-xl sm:text-2xl font-extrabold uppercase tracking-tight text-fg">
+                        {track.label}
+                      </h3>
+                      <span className="text-[10px] font-bold uppercase tracking-wider text-fg-muted">
+                        {trackCourses.length} courses
                       </span>
-                      <span>{resources} curated resources</span>
                     </div>
-                  </Link>
+                    <div className="flex gap-2 overflow-x-auto bg-surface-secondary -mx-6 px-6 pb-2 snap-x snap-mandatory sm:mx-0 sm:px-0 sm:pb-0 sm:grid sm:grid-cols-2 sm:gap-1 lg:grid-cols-3 sm:overflow-visible sm:snap-none">
+                      {trackCourses.map((course) => {
+                        const lessons = course.lessons?.length ?? 0;
+                        const resources = countHubResources(course);
+                        const icon = getLangIcon(course.slug);
+                        return (
+                          <Link
+                            key={course.slug}
+                            href={`/knowledge/ai/${course.slug}`}
+                            className="group flex flex-col justify-between gap-6 p-8 bg-white transition-colors duration-200 hover:bg-accent shrink-0 w-[82vw] snap-start sm:w-auto"
+                          >
+                            <div className="flex items-start gap-5">
+                              <span className={`inline-flex items-center justify-center w-14 h-14 shrink-0 transition-colors duration-200 ${getLangBg(course.slug)}`}>
+                                {icon}
+                              </span>
+                              <div className="min-w-0">
+                                <h3 className="text-lg font-extrabold uppercase tracking-wide text-fg group-hover:text-white transition-colors duration-200 leading-tight">
+                                  {course.name}
+                                </h3>
+                                <span className="text-[10px] font-bold uppercase tracking-wider text-accent group-hover:text-white/70 transition-colors duration-200">
+                                  {lessons} lessons
+                                </span>
+                              </div>
+                            </div>
+                            <p className="text-sm text-fg-secondary leading-relaxed line-clamp-3 group-hover:text-white/80 transition-colors duration-200">
+                              {course.description}
+                            </p>
+                            <div className="flex items-center gap-3 text-[10px] font-bold uppercase tracking-wider text-fg-muted group-hover:text-white/70 transition-colors duration-200">
+                              <span className="px-2 py-1 bg-surface-secondary text-fg-secondary group-hover:bg-white/20 group-hover:text-white transition-colors duration-200">
+                                Full course
+                              </span>
+                              <span>{resources} curated resources</span>
+                            </div>
+                          </Link>
+                        );
+                      })}
+                    </div>
+                  </div>
                 );
               })}
             </div>
@@ -221,7 +296,7 @@ export default async function AiHubPage() {
       </section>
 
       {/* ML Awesome Lists */}
-      <section className="py-10 sm:py-16 bg-surface-secondary">
+      <section id="ml-lists" className="scroll-mt-20 py-10 sm:py-16 bg-surface-secondary">
         <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
           <div className="flex flex-wrap items-end justify-between gap-6 mb-8 sm:mb-10">
             <div>
@@ -233,7 +308,7 @@ export default async function AiHubPage() {
                 filterable list of every resource.
               </p>
             </div>
-            <Link href="/discover/awesome" className="inline-flex items-center gap-2 px-5 py-2.5 bg-accent text-white text-xs font-bold uppercase tracking-wider transition-colors duration-200 hover:bg-accent-hover">
+            <Link href="/discover/awesome" className="inline-flex items-center gap-2 px-5 py-2.5 text-xs font-bold uppercase tracking-wider transition-colors duration-200 hover:bg-yellow">
               All awesome lists
             </Link>
           </div>
@@ -269,7 +344,7 @@ export default async function AiHubPage() {
       </section>
 
       {/* AI feeds */}
-      <section className="py-10 sm:py-16 bg-white">
+      <section id="feeds" className="scroll-mt-20 py-10 sm:py-16 bg-white">
         <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
           <div className="flex flex-wrap items-end justify-between gap-6 mb-8 sm:mb-10">
             <div>
@@ -281,7 +356,7 @@ export default async function AiHubPage() {
                 Pinecone and more.
               </p>
             </div>
-            <Link href="/discover/feed" className="inline-flex items-center gap-2 px-5 py-2.5 bg-accent text-white text-xs font-bold uppercase tracking-wider transition-colors duration-200 hover:bg-accent-hover">
+            <Link href="/discover/feed" className="inline-flex items-center gap-2 px-5 py-2.5  text-xs font-bold uppercase tracking-wider transition-colors duration-200 hover:bg-yellow">
               Full feed
             </Link>
           </div>
@@ -298,26 +373,36 @@ export default async function AiHubPage() {
                   href={article.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="group flex flex-col justify-between gap-5 bg-white p-7 transition-colors duration-200 hover:bg-accent shrink-0 w-[82vw] snap-start sm:w-auto"
+                  className="group flex flex-col bg-white transition-colors duration-200 hover:bg-accent shrink-0 w-[82vw] snap-start sm:w-auto"
                 >
-                  <div>
-                    <div className="flex items-center gap-2 mb-4">
-                      <span className="px-2 py-0.5 text-[9px] font-bold uppercase tracking-wider bg-surface-secondary text-fg-muted group-hover:bg-white/20 group-hover:text-white/80 transition-colors duration-200">
+                  {/* Card header — company logo + name + date */}
+                  <div className="flex items-center gap-3.5 px-6 pt-6 pb-4">
+                    <FeedLogo feedSiteUrl={article.feedSiteUrl} feedName={article.feedName} size={40} />
+                    <div className="min-w-0 flex-1">
+                      <h3 className="text-xs font-extrabold uppercase tracking-wide text-fg truncate group-hover:text-white transition-colors duration-200">
                         {article.feedName}
-                      </span>
+                      </h3>
                       {article.publishedAt && (
-                        <span className="text-[9px] text-fg-muted group-hover:text-white/60 transition-colors duration-200 ml-auto">
+                        <span className="text-[10px] text-fg-muted group-hover:text-white/60 transition-colors duration-200">
                           {formatDate(article.publishedAt)}
                         </span>
                       )}
                     </div>
-                    <h3 className="text-sm font-bold text-fg leading-snug line-clamp-3 group-hover:text-white transition-colors duration-200">
-                      {article.title}
-                    </h3>
+                    <span className="shrink-0 text-[9px] font-bold uppercase tracking-wider px-2 py-0.5 bg-accent text-white">
+                      AI
+                    </span>
                   </div>
-                  <span className="inline-flex items-center gap-1.5 text-[10px] font-bold uppercase tracking-wider text-accent group-hover:text-white/80 transition-colors duration-200">
-                    Read article
-                  </span>
+                  {/* Article title */}
+                  <div className="flex-1 px-6 pb-6">
+                    <h4 className="text-base font-bold text-fg leading-snug line-clamp-3 group-hover:text-white transition-colors duration-200">
+                      {article.title}
+                    </h4>
+                  </div>
+                  <div className="px-6 pb-6">
+                    <span className="inline-flex items-center gap-1.5 text-[10px] font-bold uppercase tracking-wider text-accent group-hover:text-white/80 transition-colors duration-200">
+                      Read article
+                    </span>
+                  </div>
                 </a>
               ))}
             </div>
@@ -326,7 +411,7 @@ export default async function AiHubPage() {
       </section>
 
       {/* AI tools from knowledge base */}
-      <section className="py-10 sm:py-16 bg-surface-secondary">
+      <section id="tools" className="scroll-mt-20 py-10 sm:py-16 bg-surface-secondary">
         <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
           <div className="mb-8 sm:mb-10">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-fg tracking-tight uppercase">
