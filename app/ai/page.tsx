@@ -4,7 +4,6 @@ import { getHubs, countHubResources, refreshKnowledgeCacheIfStale } from '@/lib/
 import { getLangIcon, getLangBg } from '@/lib/language-icons';
 import { getAwesomeIcon, getAwesomeBrandColor, awesomeLabel } from '@/lib/awesome-icons';
 import { loadFeedCache } from '@/feed/feed.cache';
-import { ArrowUpRight } from 'lucide-react';
 import {
   SiApacheairflow,
   SiApachespark,
@@ -113,9 +112,9 @@ export default async function AiHubPage() {
   return (
     <main className="min-h-screen bg-white">
       {/* Hero */}
-      <section className="py-20 sm:py-28 bg-white">
+      <section className="py-12 sm:py-28 bg-white">
         <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
-          <div className="text-center mb-14">
+          <div className="text-center mb-10 sm:mb-14">
             <div className="inline-flex items-center gap-2 px-3 py-1.5 text-[10px] font-bold uppercase tracking-widest bg-accent text-white mb-5">
               AI HUB
             </div>
@@ -131,7 +130,7 @@ export default async function AiHubPage() {
             </p>
           </div>
 
-          <div className="flex justify-center gap-10">
+          <div className="flex justify-center gap-6 sm:gap-10">
             <div className="text-center">
               <span className="block text-3xl font-extrabold text-fg">{aiCourses.length}</span>
               <span className="block text-[10px] font-bold uppercase tracking-widest text-fg-muted mt-1">AI courses</span>
@@ -157,9 +156,9 @@ export default async function AiHubPage() {
       </section>
 
       {/* AI Courses — complete knowledge-base courses, before the awesome lists */}
-      <section className="py-16 bg-white">
+      <section className="py-10 sm:py-16 bg-white">
         <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
-          <div className="flex flex-wrap items-end justify-between gap-6 mb-10">
+          <div className="flex flex-wrap items-end justify-between gap-6 mb-8 sm:mb-10">
             <div>
               <h2 className="text-2xl sm:text-3xl font-extrabold text-fg tracking-tight uppercase">
                 AI <span className="text-accent">courses</span>
@@ -180,7 +179,7 @@ export default async function AiHubPage() {
               <p className="text-sm text-fg-muted">AI courses land here after the next registry sync.</p>
             </div>
           ) : (
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-1 bg-surface-secondary">
+            <div className="flex gap-2 overflow-x-auto bg-surface-secondary -mx-6 px-6 pb-2 snap-x snap-mandatory sm:mx-0 sm:px-0 sm:pb-0 sm:grid sm:grid-cols-2 sm:gap-1 lg:grid-cols-3 sm:overflow-visible sm:snap-none">
               {aiCourses.map((course) => {
                 const lessons = course.lessons?.length ?? 0;
                 const resources = countHubResources(course);
@@ -189,7 +188,7 @@ export default async function AiHubPage() {
                   <Link
                     key={course.slug}
                     href={`/knowledge/ai/${course.slug}`}
-                    className="group flex flex-col justify-between gap-6 p-8 bg-white transition-colors duration-200 hover:bg-accent"
+                    className="group flex flex-col justify-between gap-6 p-8 bg-white transition-colors duration-200 hover:bg-accent shrink-0 w-[82vw] snap-start sm:w-auto"
                   >
                     <div className="flex items-start gap-5">
                       <span className={`inline-flex items-center justify-center w-14 h-14 shrink-0 transition-colors duration-200 ${getLangBg(course.slug)}`}>
@@ -222,9 +221,9 @@ export default async function AiHubPage() {
       </section>
 
       {/* ML Awesome Lists */}
-      <section className="py-16 bg-surface-secondary">
+      <section className="py-10 sm:py-16 bg-surface-secondary">
         <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
-          <div className="flex flex-wrap items-end justify-between gap-6 mb-10">
+          <div className="flex flex-wrap items-end justify-between gap-6 mb-8 sm:mb-10">
             <div>
               <h2 className="text-2xl sm:text-3xl font-extrabold text-fg tracking-tight uppercase">
                 Machine learning <span className="text-accent">awesome lists</span>
@@ -239,12 +238,12 @@ export default async function AiHubPage() {
             </Link>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-1 bg-white">
+          <div className="flex gap-2 overflow-x-auto bg-white -mx-6 px-6 pb-2 snap-x snap-mandatory sm:mx-0 sm:px-0 sm:pb-0 sm:grid sm:grid-cols-2 sm:gap-1 lg:grid-cols-3 xl:grid-cols-5 sm:overflow-visible sm:snap-none">
             {AI_AWESOME_LISTS.map((list) => (
               <Link
                 key={list.repoId}
                 href={`/discover/awesome?source=${encodeURIComponent(list.repoId)}`}
-                className="group flex flex-col gap-6 p-7 bg-surface-secondary transition-colors duration-200 hover:bg-accent"
+                className="group flex flex-col gap-6 p-7 bg-surface-secondary transition-colors duration-200 hover:bg-accent shrink-0 w-[70vw] snap-start sm:w-auto"
               >
                 <span
                   className="inline-flex items-center justify-center w-14 h-14 shrink-0 transition-colors duration-200"
@@ -270,9 +269,9 @@ export default async function AiHubPage() {
       </section>
 
       {/* AI feeds */}
-      <section className="py-16 bg-white">
+      <section className="py-10 sm:py-16 bg-white">
         <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
-          <div className="flex flex-wrap items-end justify-between gap-6 mb-10">
+          <div className="flex flex-wrap items-end justify-between gap-6 mb-8 sm:mb-10">
             <div>
               <h2 className="text-2xl sm:text-3xl font-extrabold text-fg tracking-tight uppercase">
                 Latest from <span className="text-accent">AI engineering</span>
@@ -292,14 +291,14 @@ export default async function AiHubPage() {
               <p className="text-sm text-fg-muted">AI feeds will appear here after the next registry sync.</p>
             </div>
           ) : (
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-1 bg-surface-secondary">
+            <div className="flex gap-2 overflow-x-auto bg-surface-secondary -mx-6 px-6 pb-2 snap-x snap-mandatory sm:mx-0 sm:px-0 sm:pb-0 sm:grid sm:grid-cols-2 sm:gap-1 lg:grid-cols-3 sm:overflow-visible sm:snap-none">
               {articles.map((article) => (
                 <a
                   key={article.url}
                   href={article.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="group flex flex-col justify-between gap-5 bg-white p-7 transition-colors duration-200 hover:bg-accent"
+                  className="group flex flex-col justify-between gap-5 bg-white p-7 transition-colors duration-200 hover:bg-accent shrink-0 w-[82vw] snap-start sm:w-auto"
                 >
                   <div>
                     <div className="flex items-center gap-2 mb-4">
@@ -317,7 +316,7 @@ export default async function AiHubPage() {
                     </h3>
                   </div>
                   <span className="inline-flex items-center gap-1.5 text-[10px] font-bold uppercase tracking-wider text-accent group-hover:text-white/80 transition-colors duration-200">
-                    Read article <ArrowUpRight className="h-3.5 w-3.5" />
+                    Read article
                   </span>
                 </a>
               ))}
@@ -327,9 +326,9 @@ export default async function AiHubPage() {
       </section>
 
       {/* AI tools from knowledge base */}
-      <section className="py-16 bg-surface-secondary">
+      <section className="py-10 sm:py-16 bg-surface-secondary">
         <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
-          <div className="mb-10">
+          <div className="mb-8 sm:mb-10">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-fg tracking-tight uppercase">
               Tools behind <span className="text-accent">AI systems</span>
             </h2>
@@ -339,12 +338,12 @@ export default async function AiHubPage() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-1 bg-white">
+          <div className="flex gap-2 overflow-x-auto bg-white -mx-6 px-6 pb-2 snap-x snap-mandatory sm:mx-0 sm:px-0 sm:pb-0 sm:grid sm:grid-cols-2 sm:gap-1 lg:grid-cols-3 sm:overflow-visible sm:snap-none">
             {AI_TOOLS.map((tool) => (
               <Link
                 key={tool.slug}
                 href={`/knowledge/tools/${tool.slug}`}
-                className="group flex items-start gap-5 p-7 bg-surface-secondary transition-colors duration-200 hover:bg-accent"
+                className="group flex items-start gap-5 p-7 bg-surface-secondary transition-colors duration-200 hover:bg-accent shrink-0 w-[70vw] snap-start sm:w-auto"
               >
                 <span className="inline-flex items-center justify-center w-12 h-12 shrink-0 bg-white text-fg group-hover:bg-white/20 group-hover:text-white transition-colors duration-200">
                   {tool.icon}
