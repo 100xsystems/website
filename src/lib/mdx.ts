@@ -202,14 +202,17 @@ function readFlatMarkdownFiles(dir: string): Array<{ filename: string; content: 
  */
 const KNOWLEDGE_CACHE_DIR = path.join(process.cwd(), 'public', 'knowledge-cache');
 
-/** Interface for registry knowledge entity JSON files */
+/** Interface for registry knowledge entity JSON files (both legacy `id/label` and `slug/name` schemas) */
 interface KnowledgeEntityJSON {
-  id: string;
-  category: string;
-  label: string;
-  description: string | null;
-  summary: string | null;
-  externalUrls: Record<string, string>;
+  id?: string;
+  slug?: string;
+  category?: string;
+  categories?: string[];
+  label?: string;
+  name?: string;
+  description?: string | null;
+  summary?: string | null;
+  externalUrls?: Record<string, string>;
 }
 
 /** Read knowledge items from registry cache (JSON entities) */
@@ -239,12 +242,20 @@ function getKnowledgeItemsFromCache(domain: KnowledgeDomain): KnowledgeItem[] {
 
         if (!entity) continue;
 
+        // Entities may use either `id`/`label` (registry) or `slug`/`name` (generated cache).
+        const slug = entity.id ?? entity.slug;
+        if (!slug) continue;
+        const title = entity.label ?? entity.name ?? slug;
+        const tags = Array.isArray(entity.categories)
+          ? entity.categories.map(String)
+          : entity.category ? [entity.category] : [];
+
         items.push({
-          slug: entity.id,
-          title: entity.label,
+          slug,
+          title,
           description: entity.description || 'No description available.',
           difficulty: 'Intermediate',
-          tags: [entity.category],
+          tags,
           content: entity.summary || entity.description || 'No content available.',
           frontmatter: { ...entity },
         });

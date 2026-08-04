@@ -7,14 +7,9 @@ import { ArrowUpRight, Check } from 'lucide-react';
 import { cn } from '@/application/lib/utils';
 import { getLangIcon, getLangBg } from '@/lib/language-icons';
 import {
-  FaBalanceScale,
-  FaBook,
-  FaCode,
-  FaCubes,
-  FaProjectDiagram,
-  FaRobot,
-  FaThLarge,
-  FaWrench,
+  FaBalanceScale, FaBook, FaCode, FaCubes, FaProjectDiagram,
+  FaRobot, FaThLarge, FaWrench, FaServer, FaCloud,
+  FaLaptopCode, FaBrain, FaDatabase,
 } from 'react-icons/fa';
 
 export interface KnowledgeHubItem {
@@ -36,7 +31,6 @@ interface KnowledgeHubProps {
   initialCategory: string;
 }
 
-/** Per-category chip styles + icons — the same language as the homepage knowledge topics. */
 const CATEGORY_META: Record<string, { icon: React.ReactNode; chip: string }> = {
   languages: { icon: <FaCode size={24} />, chip: 'bg-blue-100 text-blue-700' },
   principles: { icon: <FaBalanceScale size={24} />, chip: 'bg-amber-100 text-amber-700' },
@@ -45,122 +39,130 @@ const CATEGORY_META: Record<string, { icon: React.ReactNode; chip: string }> = {
   technologies: { icon: <FaCubes size={24} />, chip: 'bg-rose-100 text-rose-700' },
   ai: { icon: <FaRobot size={24} />, chip: 'bg-violet-100 text-violet-700' },
   'case-studies': { icon: <FaBook size={24} />, chip: 'bg-pink-100 text-pink-700' },
+  'system-design': { icon: <FaServer size={24} />, chip: 'bg-indigo-100 text-indigo-700' },
+  infrastructure: { icon: <FaCloud size={24} />, chip: 'bg-sky-100 text-sky-700' },
+  databases: { icon: <FaDatabase size={24} />, chip: 'bg-orange-100 text-orange-700' },
+  frameworks: { icon: <FaLaptopCode size={24} />, chip: 'bg-teal-100 text-teal-700' },
 };
 
 function categoryResources(c: KnowledgeCategory): number {
   return c.hubs.reduce((s, h) => s + h.resourceCount, 0);
 }
 
-/**
- * Knowledge directory — pick a category (or keep the default "All Courses")
- * and the courses / curated hubs are rendered below, borderless with an
- * inverted accent hover. No borders, no shadows.
- */
 export function KnowledgeHub({ categories, initialCategory }: KnowledgeHubProps) {
   const router = useRouter();
-  const [selected, setSelected] = useState<string>(initialCategory);
 
-  const totals = useMemo(
-    () => ({
-      courses: categories.reduce((s, c) => s + c.hubs.length, 0),
-      resources: categories.reduce((s, c) => s + categoryResources(c), 0),
-    }),
-    [categories],
-  );
+  const [selectedCategory, setSelectedCategory] = useState(initialCategory);
 
-  const activeCategories = selected === 'all' ? categories : categories.filter((c) => c.key === selected);
+  const activeCategories = selectedCategory === 'all'
+    ? categories
+    : categories.filter((c) => c.key === selectedCategory);
 
-  const select = (key: string) => {
-    setSelected(key);
-    router.replace(key === 'all' ? '/knowledge' : `/knowledge?category=${key}`, { scroll: false });
+  const pushURL = (cat: string) => {
+    const p = new URLSearchParams();
+    if (cat !== 'all') p.set('category', cat);
+    const qs = p.toString();
+    router.replace(qs ? `/knowledge?${qs}` : `/knowledge`, { scroll: false });
   };
+
+  const selectCategory = (key: string) => {
+    setSelectedCategory(key);
+    pushURL(key);
+  };
+
+  const totalCourses = useMemo(() => categories.reduce((s, c) => s + c.hubs.length, 0), [categories]);
 
   return (
     <div>
-      {/* ── Category selector — big borderless cards (All Courses is the default) ── */}
-      <div className="grid grid-cols-1 gap-1 bg-surface-secondary sm:grid-cols-2 lg:grid-cols-3">
-        <CategoryCard
-          label="All Courses"
-          icon={<FaThLarge size={24} />}
-          chip="bg-accent text-white"
-          count={totals.courses}
-          resourceCount={totals.resources}
-          selected={selected === 'all'}
-          onSelect={() => select('all')}
-        />
-        {categories.map((cat) => {
-          const meta = CATEGORY_META[cat.key];
-          return (
-            <CategoryCard
-              key={cat.key}
-              label={cat.label}
-              icon={meta?.icon}
-              chip={meta?.chip ?? 'bg-surface-secondary text-fg-muted'}
-              count={cat.hubs.length}
-              resourceCount={categoryResources(cat)}
-              selected={selected === cat.key}
-              onSelect={() => select(cat.key)}
-            />
-          );
-        })}
-      </div>
+      {/* ═══ SECTION 1 — Categories ═══ */}
+      <section className="mb-16 sm:mb-24">
+        <div className="mb-8 flex flex-wrap items-end justify-between gap-4">
+          <div className="flex items-center gap-5">
+            <span className="inline-flex h-12 w-12 shrink-0 items-center justify-center bg-accent/10 text-accent">
+              <FaThLarge size={24} />
+            </span>
+            <div>
+              <p className="text-[10px] font-bold uppercase tracking-widest text-fg-muted">
+                Browse by topic
+              </p>
+              <h2 className="mt-1 text-2xl font-extrabold uppercase tracking-tight text-fg sm:text-3xl">
+                Categories
+              </h2>
+            </div>
+          </div>
+          <span className="text-xs font-bold uppercase tracking-wider text-fg-muted tabular-nums">
+            {totalCourses} courses
+          </span>
+        </div>
 
-      {/* ── Content — grouped by category, rendered below the cards ── */}
-      <div className="mt-14 sm:mt-20">
-        {activeCategories.map((cat) => {
-          const meta = CATEGORY_META[cat.key];
-          return (
-            <section key={cat.key} className="mb-14 last:mb-0 sm:mb-20">
-              <div className="mb-8 flex flex-wrap items-end justify-between gap-4">
-                <div className="flex items-center gap-5">
-                  <span className={cn('inline-flex h-12 w-12 shrink-0 items-center justify-center', meta?.chip ?? 'bg-surface-secondary text-fg-muted')}>
-                    {meta?.icon}
-                  </span>
-                  <div>
-                    <p className="text-[10px] font-bold uppercase tracking-widest text-fg-muted">
-                      Courses &amp; hubs
-                    </p>
-                    <h2 className="mt-1 text-2xl font-extrabold uppercase tracking-tight text-fg sm:text-3xl">
-                      {cat.label}
-                    </h2>
-                  </div>
-                </div>
-                <span className="text-xs font-bold uppercase tracking-wider text-fg-muted tabular-nums">
-                  {cat.hubs.length} courses · {categoryResources(cat).toLocaleString()} resources
+        <div className="grid grid-cols-1 gap-1 bg-surface-secondary sm:grid-cols-2 lg:grid-cols-3">
+          <CategoryCard
+            label="All Courses"
+            icon={<FaThLarge size={24} />}
+            chip="bg-accent text-white"
+            count={totalCourses}
+            resourceCount={categories.reduce((s, c) => s + categoryResources(c), 0)}
+            selected={selectedCategory === 'all'}
+            onSelect={() => selectCategory('all')}
+          />
+          {categories.map((cat) => {
+            const meta = CATEGORY_META[cat.key];
+            return (
+              <CategoryCard
+                key={cat.key}
+                label={cat.label}
+                icon={meta?.icon}
+                chip={meta?.chip ?? 'bg-surface-secondary text-fg-muted'}
+                count={cat.hubs.length}
+                resourceCount={categoryResources(cat)}
+                selected={selectedCategory === cat.key}
+                onSelect={() => selectCategory(cat.key)}
+              />
+            );
+          })}
+        </div>
+      </section>
+
+      {/* ═══ SECTION 2 — Course Grid ═══ */}
+      {activeCategories.map((cat) => {
+        const meta = CATEGORY_META[cat.key];
+        return (
+          <section key={cat.key} className="mb-14 last:mb-0 sm:mb-20">
+            <div className="mb-8 flex flex-wrap items-end justify-between gap-4">
+              <div className="flex items-center gap-5">
+                <span className={cn('inline-flex h-12 w-12 shrink-0 items-center justify-center', meta?.chip ?? 'bg-surface-secondary text-fg-muted')}>
+                  {meta?.icon}
                 </span>
+                <div>
+                  <p className="text-[10px] font-bold uppercase tracking-widest text-fg-muted">
+                    Courses &amp; hubs
+                  </p>
+                  <h2 className="mt-1 text-2xl font-extrabold uppercase tracking-tight text-fg sm:text-3xl">
+                    {cat.label}
+                  </h2>
+                </div>
               </div>
-
-              <div className="grid grid-cols-1 gap-1 bg-surface-secondary sm:grid-cols-2 lg:grid-cols-3">
-                {cat.hubs.map((hub) => (
-                  <ItemCard key={hub.slug} category={cat.key} hub={hub} />
-                ))}
-              </div>
-            </section>
-          );
-        })}
-      </div>
+              <span className="text-xs font-bold uppercase tracking-wider text-fg-muted tabular-nums">
+                {cat.hubs.length} courses · {categoryResources(cat).toLocaleString()} resources
+              </span>
+            </div>
+            <div className="grid grid-cols-1 gap-1 bg-surface-secondary sm:grid-cols-2 lg:grid-cols-3">
+              {cat.hubs.map((hub) => (
+                <ItemCard key={hub.slug} category={cat.key} hub={hub} />
+              ))}
+            </div>
+          </section>
+        );
+      })}
     </div>
   );
 }
 
-// ─── Category selector card (matches the Awesome source-card size) ────
-
 function CategoryCard({
-  label,
-  icon,
-  chip,
-  count,
-  resourceCount,
-  selected,
-  onSelect,
+  label, icon, chip, count, resourceCount, selected, onSelect,
 }: {
-  label: string;
-  icon?: React.ReactNode;
-  chip: string;
-  count: number;
-  resourceCount: number;
-  selected: boolean;
-  onSelect: () => void;
+  label: string; icon?: React.ReactNode; chip: string;
+  count: number; resourceCount: number; selected: boolean; onSelect: () => void;
 }) {
   return (
     <button
@@ -173,40 +175,27 @@ function CategoryCard({
       )}
     >
       <div className="flex w-full items-start justify-between gap-4">
-        <span
-          className={cn(
-            'inline-flex h-16 w-16 shrink-0 items-center justify-center transition-colors duration-200',
-            selected ? 'bg-white/20 text-white' : chip,
-          )}
-        >
-          {icon}
-        </span>
-        <span
-          className={cn(
-            'flex h-10 w-10 shrink-0 items-center justify-center transition-colors duration-200',
-            selected
-              ? 'bg-white/20 text-white'
-              : 'bg-surface-secondary text-accent group-hover:bg-white/20 group-hover:text-white',
-          )}
-        >
+        <span className={cn(
+          'inline-flex h-16 w-16 shrink-0 items-center justify-center transition-colors duration-200',
+          selected ? 'bg-white/20 text-white' : chip,
+        )}>{icon}</span>
+        <span className={cn(
+          'flex h-10 w-10 shrink-0 items-center justify-center transition-colors duration-200',
+          selected ? 'bg-white/20 text-white'
+            : 'bg-surface-secondary text-accent group-hover:bg-white/20 group-hover:text-white',
+        )}>
           {selected ? <Check className="h-4 w-4" /> : <ArrowUpRight className="h-5 w-5" />}
         </span>
       </div>
       <div>
-        <h3
-          className={cn(
-            'text-xl font-extrabold uppercase leading-tight tracking-tight transition-colors duration-200 sm:text-2xl',
-            selected ? 'text-white' : 'text-fg group-hover:text-white',
-          )}
-        >
-          {label}
-        </h3>
-        <p
-          className={cn(
-            'mt-2 text-xs font-bold uppercase tracking-wider transition-colors duration-200',
-            selected ? 'text-white/70' : 'text-fg-muted group-hover:text-white/70',
-          )}
-        >
+        <h3 className={cn(
+          'text-xl font-extrabold uppercase leading-tight tracking-tight transition-colors duration-200 sm:text-2xl',
+          selected ? 'text-white' : 'text-fg group-hover:text-white',
+        )}>{label}</h3>
+        <p className={cn(
+          'mt-2 text-xs font-bold uppercase tracking-wider transition-colors duration-200',
+          selected ? 'text-white/70' : 'text-fg-muted group-hover:text-white/70',
+        )}>
           {count} {count === 1 ? 'course' : 'courses'} · {resourceCount.toLocaleString()} resources
         </p>
       </div>
@@ -214,12 +203,9 @@ function CategoryCard({
   );
 }
 
-// ─── Course / hub card ──────────────────────────────────────────────
-
 function ItemCard({ category, hub }: { category: string; hub: KnowledgeHubItem }) {
   const isLanguage = category === 'languages';
   const chip = isLanguage ? getLangBg(hub.slug) : (CATEGORY_META[category]?.chip ?? 'bg-surface-secondary text-fg-muted');
-
   return (
     <Link
       href={`/knowledge/${category}/${hub.slug}`}
@@ -227,17 +213,14 @@ function ItemCard({ category, hub }: { category: string; hub: KnowledgeHubItem }
     >
       <div className="flex w-full items-start justify-between gap-4">
         <span className={cn('inline-flex h-14 w-14 shrink-0 items-center justify-center transition-colors duration-200', chip)}>
-          {isLanguage ? (
-            getLangIcon(hub.slug, 26) || <span className="text-sm font-extrabold">{hub.name.charAt(0)}</span>
-          ) : (
-            <span className="text-base font-extrabold">{hub.name.charAt(0)}</span>
-          )}
+          {isLanguage
+            ? (getLangIcon(hub.slug, 26) || <span className="text-sm font-extrabold">{hub.name.charAt(0)}</span>)
+            : <span className="text-base font-extrabold">{hub.name.charAt(0)}</span>}
         </span>
         <span className="flex h-9 w-9 shrink-0 items-center justify-center bg-surface-secondary text-accent transition-colors duration-200 group-hover:bg-white/20 group-hover:text-white">
           <ArrowUpRight className="h-4 w-4" />
         </span>
       </div>
-
       <div>
         <h3 className="mb-2 text-xl font-extrabold uppercase leading-tight tracking-wide text-fg transition-colors duration-200 group-hover:text-white">
           {hub.name}
@@ -248,7 +231,6 @@ function ItemCard({ category, hub }: { category: string; hub: KnowledgeHubItem }
           </p>
         )}
       </div>
-
       <div className="mt-auto flex items-center gap-x-5 text-xs font-bold uppercase tracking-wider text-fg-muted transition-colors duration-200 group-hover:text-white/70">
         <span>{hub.lessons.length} lessons</span>
         <span>{hub.resourceCount.toLocaleString()} resources</span>

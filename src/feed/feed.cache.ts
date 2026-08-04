@@ -16,7 +16,8 @@
 import * as fs from 'node:fs';
 import * as path from 'node:path';
 import type { FeedCache, RegistryFeedData } from './feed.types';
-import type { FeedSource } from './feed.types';
+import type { FeedSource, FeedExplorerFeed } from './feed.types';
+import { FEED_REGISTRY } from './feed.constants';
 
 // ── Configuration ─────────────────────────────────────────────────────
 
@@ -210,4 +211,65 @@ export function getCachedFeedIds(cache: FeedCache): string[] {
  */
 export function hasFeedInCache(cache: FeedCache, feedId: string): boolean {
   return feedId in cache.feeds;
+}
+
+/**
+ * Build the full list of feed sources shown on the feed explorer, enriched
+ * with each feed's indexed article count and latest-activity date.
+ *
+ * The source set is the union of the curated FEED_REGISTRY and any feeds
+ * present in the cache but not yet in the registry constant, so every
+ * indexed source is represented. Metadata from the registry wins where
+ * available; cache-only feeds fall back to their cached fields.
+ *
+ * Sources are ordered newest-first: feeds with a recent article (≤ 30 days)
+ * come first, then feeds with older (or no) activity, so the UI can show the
+ * active sources up front and tuck the rest behind a "Show all" action.
+ */
+export function buildFeedExplorerFeeds(cache: FeedCache | null): FeedExplorerFeed[] {
+  const registryById = new Map(FEED_REGISTRY.map((f) => [f.id, f]));
+  const now = Date.now();
+  const monthMs = 30 * 24 * 60 * 60 * 1000;
+
+  // Union of feed IDs: curated registry first, then cache-only feeds.
+  const ids: string[] = FEED_REGISTRY.map((f) => f.id);
+  for (const cached of Object.values(cache?.feeds ?? {})) {
+    if (!registryById.has(cached.feedId)) ids.push(cached.feedId);
+  }
+
+  return ids
+    .map((id) => {
+      const reg = registryById.get(id);
+      const data = cache?.feeds?.[id];
+      const latestCount = data?.items?.length ?? 0;
+      const articleCount = data?.totalIndexed ?? latestCount;
+
+      let latestMs = 0;
+      for (const item of data?.items ?? []) {
+        const t = item.publishedAt ? Date.parse(item.publishedAt) : NaN;
+        if (!isNaN(t) && t > latestMs) latestMs = t;
+      }
+
+      return {
+        id,
+        name: reg?.name ?? data?.feedName ?? id.replace(/[-_]+/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase()),
+        rssUrl: reg?.rssUrl ?? data?.feedRssUrl ?? '',
+        siteUrl: reg?.siteUrl ?? data?.feedSiteUrl ?? '',
+        icon: reg?.icon,
+        tags: reg?.tags ?? data?.tags ?? [],
+        description: reg?.description ?? 'Engineering articles indexed in the registry.',
+        addedBy: reg?.addedBy ?? ('curator' as const),
+        language: reg?.language ?? 'en',
+        articleCount,
+        latestPublishedAt: latestMs ? new Date(latestMs).toISOString() : null,
+        isRecent: latestMs > now - monthMs,
+      };
+    })
+    .sort((a, b) => {
+      if (a.isRecent !== b.isRecent) return a.isRecent ? -1 : 1;
+      const dateA = a.latestPublishedAt ? Date.parse(a.latestPublishedAt) : 0;
+      const dateB = b.latestPublishedAt ? Date.parse(b.latestPublishedAt) : 0;
+      if (dateB !== dateA) return dateB - dateA;
+      return b.articleCount - a.articleCount;
+    });
 }

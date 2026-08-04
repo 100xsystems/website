@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Layers, Star, Rss, Compass } from 'lucide-react';
+import { Layers, Star, Rss, Compass, Map, Server, BookOpen } from 'lucide-react';
 import { SiYcombinator, SiProducthunt } from 'react-icons/si';
 import type { ReactNode } from 'react';
 
@@ -20,20 +20,36 @@ interface SectionDef {
 
 const SECTIONS: SectionDef[] = [
   {
-    id: 'concepts',
+    id: 'knowledge',
     label: 'Knowledge',
-    description: 'Principles · patterns · tools · technologies',
-    href: '#concepts',
+    description: 'Roadmaps · courses · concepts',
+    href: '/knowledge',
     color: '#572EFF',
     icon: <Layers size={26} />,
   },
   {
-    id: 'concepts',
-    label: 'Knowledge',
-    description: 'Principles · patterns · tools · technologies',
-    href: '#concepts',
-    color: '#572EFF',
-    icon: <Layers size={26} />,
+    id: 'roadmaps',
+    label: 'Roadmaps',
+    description: 'Pick a role, follow the path',
+    href: '/roadmaps',
+    color: '#0E7490',
+    icon: <Map size={26} />,
+  },
+  {
+    id: 'system-design',
+    label: 'System Design',
+    description: 'Design systems at scale',
+    href: '/knowledge/system-design',
+    color: '#4338CA',
+    icon: <Server size={26} />,
+  },
+  {
+    id: 'case-studies',
+    label: 'Case Studies',
+    description: 'How real products are built',
+    href: '/knowledge/case-studies',
+    color: '#BE185D',
+    icon: <BookOpen size={26} />,
   },
   {
     id: 'awesome',

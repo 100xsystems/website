@@ -3,7 +3,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { cn } from '@/application/lib/utils';
-import { FaBalanceScale, FaProjectDiagram, FaWrench, FaCubes } from 'react-icons/fa';
+import { FaBalanceScale, FaProjectDiagram, FaWrench, FaCubes, FaMapSigns, FaCode, FaRobot, FaServer, FaBook } from 'react-icons/fa';
 
 export interface KnowledgeTopic {
   slug: string;
@@ -13,6 +13,11 @@ export interface KnowledgeTopic {
 }
 
 const TOPIC_ICONS: Record<string, React.ReactNode> = {
+  roadmaps: <FaMapSigns size={22} />,
+  languages: <FaCode size={22} />,
+  ai: <FaRobot size={22} />,
+  'system-design': <FaServer size={22} />,
+  'case-studies': <FaBook size={22} />,
   principles: <FaBalanceScale size={22} />,
   patterns: <FaProjectDiagram size={22} />,
   tools: <FaWrench size={22} />,
@@ -20,6 +25,11 @@ const TOPIC_ICONS: Record<string, React.ReactNode> = {
 };
 
 const TOPIC_BG: Record<string, string> = {
+  roadmaps: 'bg-cyan-100 text-cyan-700',
+  languages: 'bg-sky-100 text-sky-700',
+  ai: 'bg-violet-100 text-violet-700',
+  'system-design': 'bg-indigo-100 text-indigo-700',
+  'case-studies': 'bg-pink-100 text-pink-700',
   principles: 'bg-amber-100 text-amber-700',
   patterns: 'bg-purple-100 text-purple-700',
   tools: 'bg-blue-100 text-blue-700',
@@ -44,16 +54,16 @@ export function HomeKnowledgeTopics({ topics }: HomeKnowledgeTopicsProps) {
             Concepts that make&nbsp;<span className="text-accent">great engineers</span>
           </h2>
           <p className="mt-4 text-lg text-fg-secondary max-w-2xl">
-            Structured resource hubs for the principles, patterns, tools, and technologies
-            behind every system you&apos;ll ever build.
+            Career roadmaps, complete language courses, AI tracks, system design, case studies,
+            and the principles, patterns, tools, and technologies behind every system you&apos;ll ever build.
           </p>
         </div>
 
-        <div className="grid grid-cols-2 gap-1 bg-white sm:grid-cols-2 lg:grid-cols-4">
+        <div className="grid grid-cols-2 gap-1 bg-white sm:grid-cols-3">
           {topics.map((topic) => (
             <Link
               key={topic.slug}
-              href={`/knowledge/${topic.slug}`}
+              href={topic.slug === 'roadmaps' ? '/roadmaps' : `/knowledge/${topic.slug}`}
               className="group block bg-surface-secondary p-5 transition-colors duration-200 hover:bg-accent sm:p-8"
             >
               <span className={cn(

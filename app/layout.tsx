@@ -77,6 +77,7 @@ export const metadata: Metadata = {
 
 const headerItems = [
   { id: 'knowledge', label: 'Knowledge', href: '/knowledge' },
+  { id: 'roadmaps', label: 'Roadmaps', href: '/roadmaps' },
   { id: 'ai', label: 'AI', href: '/ai' },
   { id: 'discover', label: 'Discover', href: '/discover' },
   { id: 'search', label: 'Search', href: '/search' },

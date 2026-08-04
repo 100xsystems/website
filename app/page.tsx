@@ -12,6 +12,7 @@ import { loadFeedCache } from '@/feed/feed.cache';
 import type { FeedCache, RegistryFeedData } from '@/feed/feed.types';
 import { getLanguagesWithResources, getLanguageResources, refreshLanguageResourcesIfStale } from '@/lib/language-resources';
 import { getHubs } from '@/lib/knowledge-resources';
+import { getRoadmaps } from '@/lib/roadmaps';
 import { promises as fs } from 'node:fs';
 import path from 'node:path';
 
@@ -202,8 +203,14 @@ export default async function HomePage() {
     .sort((a, b) => POPULAR_LANGUAGE_SLUGS.indexOf(a.slug) - POPULAR_LANGUAGE_SLUGS.indexOf(b.slug))
     .slice(0, 9);
 
-  // Knowledge topics (principles, patterns, tools, technologies)
+  // Knowledge topics — role paths + core engineering categories
+  const roadmaps = getRoadmaps();
   const topics = [
+    { key: 'roadmaps', label: 'Roadmaps', description: 'Role-based learning paths — pick a career and follow it.', icon: 'roadmaps' },
+    { key: 'languages', label: 'Languages', description: 'Complete courses and curated hubs for 50+ languages.', icon: 'languages' },
+    { key: 'ai', label: 'AI', description: 'Twelve complete courses across the whole AI landscape.', icon: 'ai' },
+    { key: 'system-design', label: 'System Design', description: 'A structured curriculum for building systems at scale.', icon: 'system-design' },
+    { key: 'case-studies', label: 'Case Studies', description: 'How Twitter, Netflix, Uber & more are engineered.', icon: 'case-studies' },
     { key: 'principles', label: 'Principles', description: 'Foundational engineering principles and laws.', icon: 'principles' },
     { key: 'patterns', label: 'Patterns', description: 'Design patterns and architectural blueprints.', icon: 'patterns' },
     { key: 'tools', label: 'Tools', description: 'Essential development tools and infrastructure.', icon: 'tools' },
@@ -212,7 +219,7 @@ export default async function HomePage() {
     slug: t.key,
     label: t.label,
     description: t.description,
-    count: getHubs(t.key).length,
+    count: t.key === 'roadmaps' ? roadmaps.length : getHubs(t.key).length,
   }));
 
   const awesomeLists = await loadFeaturedAwesomeLists();

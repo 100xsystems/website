@@ -22,12 +22,13 @@ interface Props {
 // Curated order: the core engineering categories first, then the rest of the knowledge base.
 const CATEGORY_ORDER: Array<{ key: string; label: string }> = [
   { key: 'languages', label: 'Languages' },
+  { key: 'system-design', label: 'System Design' },
+  { key: 'case-studies', label: 'Case Studies' },
+  { key: 'ai', label: 'AI' },
   { key: 'principles', label: 'Principles' },
   { key: 'patterns', label: 'Patterns' },
   { key: 'tools', label: 'Tools' },
   { key: 'technologies', label: 'Technologies' },
-  { key: 'ai', label: 'AI' },
-  { key: 'case-studies', label: 'Case Studies' },
 ];
 
 function countResources(hub: ResourceHub): number {
@@ -90,7 +91,10 @@ export default async function KnowledgePage({ searchParams }: Props) {
           </p>
         </div>
 
-        <KnowledgeHub categories={categories} initialCategory={initialCategory} />
+        <KnowledgeHub
+          categories={categories}
+          initialCategory={initialCategory}
+        />
       </div>
     </main>
   );

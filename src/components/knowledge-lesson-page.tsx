@@ -95,8 +95,8 @@ function lessonMdUrl(category: string, hubSlug: string, lessonSlug: string): str
 
 const KNOWLEDGE_CATEGORIES = [
   'ai', 'languages', 'principles', 'patterns', 'tools', 'technologies',
-  'case-studies', 'frameworks', 'infrastructure', 'databases',
-  'data-formats', 'runtimes',
+  'case-studies', 'system-design', 'frameworks', 'infrastructure',
+  'databases', 'data-formats', 'runtimes',
 ];
 
 function humanizeSlug(slug: string): string {
@@ -112,9 +112,23 @@ interface ResolvedRef {
   href: string;
 }
 
-function resolveKnowledgeRef(ref: string, category: string): ResolvedRef {
-  const parts = ref.split('/').filter(Boolean);
-  const label = humanizeSlug(parts[parts.length - 1] || ref);
+function resolveKnowledgeRef(
+  ref: string | { slug?: string; title?: string },
+  category: string,
+): ResolvedRef {
+  // Handle object format: { slug: "patterns-consistent-hashing", title: "Consistent Hashing" }
+  if (typeof ref === 'object' && ref !== null) {
+    const slug = ref.slug || '';
+    const label = ref.title || humanizeSlug(slug);
+    if (!slug) return { label: label || 'Reference', href: '#' };
+    // Object refs are bare slugs — link within the current category
+    return { label, href: `/knowledge/${category}/${slug}` };
+  }
+
+  // Handle string format (bare slug or path-based slug)
+  const refStr = String(ref);
+  const parts = refStr.split('/').filter(Boolean);
+  const label = humanizeSlug(parts[parts.length - 1] || refStr);
   if (parts.length >= 3) {
     // category/hub/lesson
     return { label, href: `/knowledge/${parts.slice(0, 3).join('/')}` };
@@ -403,7 +417,7 @@ export function KnowledgeLessonPage({
     [frontmatter, lessons, category, hubSlug, siblingHubs],
   );
   const lessonKnowledgeRefs = useMemo(
-    () => ((frontmatter.knowledge_refs as string[] | undefined) || []).map((r) => resolveKnowledgeRef(r, category)),
+    () => ((frontmatter.knowledge_refs as Array<string | { slug?: string; title?: string }> | undefined) || []).map((r) => resolveKnowledgeRef(r, category)),
     [frontmatter, category],
   );
   const lessonReferences = useMemo(

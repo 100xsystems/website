@@ -100,6 +100,7 @@ export async function GET(request: NextRequest): Promise<NextResponse<FeedApiRes
   const articles: Article[] = [];
   const errors: Array<{ feedId: string; error: string }> = [];
   const seenUrls = new Set<string>();
+  const seenIds = new Set<string>();
 
   for (const feed of feedsToFetch) {
     const feedData = getFeedDataFromCache(cache, feed.id);
@@ -113,8 +114,9 @@ export async function GET(request: NextRequest): Promise<NextResponse<FeedApiRes
 
     for (const article of flatArticles) {
       if (!article.url || !article.title) continue;
-      if (seenUrls.has(article.url)) continue;
+      if (seenUrls.has(article.url) || seenIds.has(article.id)) continue;
       seenUrls.add(article.url);
+      seenIds.add(article.id);
       articles.push(article);
     }
   }

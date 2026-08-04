@@ -289,6 +289,24 @@ function main() {
     console.warn(`  ⚠ Failed to copy knowledge cache: ${err.message}`);
   }
 
+  // Build roadmaps cache — clear stale files first, then copy from registry
+  try {
+    const roadmapsDir = path.join(registryBaseDir, 'static-data', 'roadmaps');
+    if (fs.existsSync(roadmapsDir)) {
+      const cacheDir = path.join(PUBLIC_DIR, 'roadmaps-cache');
+      if (fs.existsSync(cacheDir)) {
+        fs.rmSync(cacheDir, { recursive: true, force: true });
+      }
+      ensureDir(cacheDir);
+      execSync(`cp -r "${roadmapsDir}/." "${cacheDir}/"`, { stdio: 'pipe' });
+      console.log('  ✓ roadmaps-cache/');
+    } else {
+      console.warn('  ⚠ No static-data/roadmaps/ directory in registry');
+    }
+  } catch (err) {
+    console.warn(`  ⚠ Failed to copy roadmaps cache: ${err.message}`);
+  }
+
   // Cleanup clone dir
   if (registryBaseDir === CLONE_DIR) {
     try { fs.rmSync(CLONE_DIR, { recursive: true, force: true }); } catch {}

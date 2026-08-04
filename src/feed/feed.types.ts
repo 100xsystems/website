@@ -74,6 +74,19 @@ export interface Article {
 }
 
 /**
+ * A feed source enriched with its indexed article count, used by the
+ * feed explorer card grid.
+ */
+export interface FeedExplorerFeed extends FeedSource {
+  /** Total number of articles indexed for this feed. */
+  articleCount: number;
+  /** ISO timestamp of the most recently indexed article, or null. */
+  latestPublishedAt: string | null;
+  /** True when the latest indexed article is within the last 30 days. */
+  isRecent: boolean;
+}
+
+/**
  * Response from the /api/feed endpoint.
  */
 export interface FeedApiResponse {

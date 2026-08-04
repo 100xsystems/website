@@ -700,7 +700,8 @@ export function HomeUnifiedSearch() {
     const hits: Record<string, LocalSearchItem[]> = { knowledge: [], lessons: [], feed: [], yc: [], ph: [] };
     if (fuseRef.current) {
       for (const { item } of fuseRef.current.search(q.toLowerCase())) {
-        hits[item.type].push(item);
+        const bucket = item.type === 'lesson' ? 'lessons' : item.type;
+        (hits[bucket] ??= []).push(item);
       }
     }
     setLocalResults(hits);

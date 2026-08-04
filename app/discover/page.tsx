@@ -1,13 +1,26 @@
 import { promises as fs } from 'node:fs';
 import path from 'node:path';
 import Link from 'next/link';
-import { BookOpen, Star, Rss } from 'lucide-react';
+import type { Metadata } from 'next';
+import { ArrowUpRight, BookOpen, Database, Rss, Star, Zap } from 'lucide-react';
 import { cn } from '@/application/lib/utils';
 import {
   SiYcombinator, SiProducthunt, SiGithub, SiStackoverflow, SiNpm,
   SiDevdotto, SiMedium, SiReddit, SiDuckduckgo, SiWikipedia,
 } from 'react-icons/si';
 import type { ReactNode } from 'react';
+
+export const revalidate = 3600;
+
+export const metadata: Metadata = {
+  title: 'Discover — 100xSystems',
+  description:
+    'Every source in one gateway — curated collections (engineering blogs, awesome lists, YC companies) and live search engines (Hacker News, GitHub, Stack Overflow, npm and more). Real numbers, updated from the data.',
+  openGraph: {
+    title: 'Discover — 100xSystems',
+    description: 'Curated collections and live search engines, one gateway.',
+  },
+};
 
 // ── Real statistics, computed from the static caches at build time ──
 
@@ -262,48 +275,51 @@ function buildSources(stats: DiscoverStats): SourceDef[] {
 
 function SourceCard({ s }: { s: SourceDef }) {
   return (
-    <Link
+    <a
       href={s.href}
       className={cn(
-        'group flex w-[82vw] shrink-0 snap-start flex-col items-start gap-6 bg-white p-7 transition-colors duration-200 sm:w-auto sm:p-8',
+        'group flex flex-col items-start justify-between gap-8 bg-white p-8 text-left transition-all duration-200 active:translate-y-[1px] sm:p-10',
         s.hoverBg,
       )}
     >
       {/* Brand icon chip */}
-      <span
-        className="inline-flex h-14 w-14 shrink-0 items-center justify-center transition-colors duration-200"
-        style={{ backgroundColor: `${s.color}1A`, color: s.color }}
-      >
-        {s.icon}
-      </span>
+      <div className="flex w-full items-start justify-between gap-4">
+        <span
+          className="inline-flex h-16 w-16 shrink-0 items-center justify-center rounded-xl bg-[var(--brand)]/10 text-[var(--brand)] transition-colors duration-200 group-hover:bg-white/20 group-hover:text-white sm:h-20 sm:w-20"
+          style={{ '--brand': s.color } as React.CSSProperties}
+        >
+          {s.icon}
+        </span>
+        <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-surface-secondary text-accent transition-colors duration-200 group-hover:bg-white/20 group-hover:text-white">
+          <ArrowUpRight className="h-5 w-5" />
+        </span>
+      </div>
 
-      <div>
-        <h3 className="text-xl font-extrabold uppercase tracking-wide text-fg leading-tight transition-colors duration-200 group-hover:text-white">
+      <div className="w-full">
+        <h3 className="text-xl font-extrabold uppercase leading-tight tracking-tight text-fg transition-colors duration-200 group-hover:text-white sm:text-2xl">
           {s.label}
         </h3>
-        <p className="mt-2 text-sm text-fg-secondary leading-relaxed transition-colors duration-200 group-hover:text-white/80 line-clamp-2">
+        <p className="mt-3 hidden text-sm leading-relaxed text-fg-secondary transition-colors duration-200 group-hover:text-white/80 sm:block">
           {s.description}
         </p>
       </div>
 
       {/* Real stat */}
-      <div className="mt-auto flex flex-wrap items-center gap-2">
-        <span className="bg-surface-secondary px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider text-fg-muted transition-colors duration-200 group-hover:bg-white/20 group-hover:text-white/90">
+      <div className="flex w-full flex-wrap items-center gap-2">
+        <span className="inline-flex items-center gap-2 px-3 py-1.5 text-[10px] font-bold uppercase tracking-widest text-fg-muted transition-colors duration-200 group-hover:bg-white/20 group-hover:text-white">
           {s.stat}
+          <span className="transition-transform duration-200 group-hover:translate-x-0.5">&rarr;</span>
         </span>
         {s.type === 'live' && (
-          <span className="flex items-center gap-1.5 px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider text-fg-muted transition-colors duration-200 group-hover:bg-white/20 group-hover:text-white/90">
-            <span className="w-1.5 h-1.5 rounded-full bg-accent group-hover:bg-white animate-pulse" />
+          <span className="flex items-center gap-1.5 px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider text-fg-muted transition-colors duration-200 group-hover:bg-white/20 group-hover:text-white">
+            <span className="h-1.5 w-1.5 rounded-full bg-accent group-hover:bg-white animate-pulse" />
             Live API
           </span>
         )}
       </div>
-    </Link>
+    </a>
   );
 }
-
-// Recompute the real statistics whenever ISR revalidates.
-export const revalidate = 3600;
 
 // ── Page ────────────────────────────────────────────────────────────
 
@@ -321,73 +337,90 @@ export default async function DiscoverPage() {
   ];
 
   return (
-    <main className="min-h-screen bg-white">
-      {/* Hero — real numbers up front */}
-      <section className="py-16 sm:py-24 bg-white">
-        <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
-          <div className="mb-10 sm:mb-14">
-            <div className="inline-flex items-center gap-3 px-4 py-2 text-sm font-bold uppercase tracking-widest bg-accent text-white mb-6">
-              <span className="w-2 h-2 rounded-full bg-white animate-pulse" />
-              Discover
-            </div>
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-fg tracking-tight uppercase leading-none mb-5">
-              Every source,&nbsp;<span className="text-accent">one gateway</span>
-            </h1>
-            <p className="text-lg text-fg-secondary max-w-2xl">
-              Curated knowledge and live web data — each source with its own search, its own interface,
-              and real numbers that update with the data.
-            </p>
+    <main className="mx-auto bg-white py-16 sm:py-24">
+      <div className="mx-auto max-w-[1400px] px-6 lg:px-12">
+        {/* Breadcrumb */}
+        <div className="mb-8 flex items-center gap-2 text-xs text-fg-muted">
+          <Link href="/" className="font-bold uppercase tracking-wider transition-colors hover:text-accent">
+            Home
+          </Link>
+          <span>/</span>
+          <span className="font-bold uppercase tracking-wider text-fg">Discover</span>
+        </div>
+
+        {/* Header */}
+        <div className="mb-14 sm:mb-20">
+          <div className="mb-6 inline-flex items-center gap-3 bg-accent px-4 py-2 text-sm font-bold uppercase tracking-widest text-white">
+            <span className="h-2 w-2 animate-pulse rounded-full bg-white" />
+            Discover
           </div>
+          <h1 className="text-4xl font-extrabold uppercase leading-tight tracking-tight text-fg sm:text-5xl lg:text-6xl">
+            Every source.<br />
+            <span className="text-accent">One gateway.</span>
+          </h1>
+          <p className="mt-6 max-w-2xl text-lg text-fg-secondary">
+            {sources.length} sources across curated collections and live search engines.
+            Each has its own interface and its own query engine — the numbers below come
+            straight from the data, not marketing copy.
+          </p>
 
           {/* Real-stat strip */}
-          <div className="flex gap-2 overflow-x-auto -mx-6 px-6 sm:mx-0 sm:px-0 sm:grid sm:grid-cols-4 sm:gap-1 bg-surface-secondary">
+          <div className="mt-8 grid grid-cols-2 gap-1 bg-surface-secondary sm:grid-cols-4">
             {heroStats.map((s) => (
-              <div key={s.label} className="shrink-0 w-[70vw] snap-start bg-white p-6 sm:p-7 sm:w-auto">
-                <p className="text-3xl sm:text-4xl font-extrabold text-fg tabular-nums tracking-tight">{s.value}</p>
+              <div key={s.label} className="bg-white p-6 sm:p-7">
+                <p className="text-3xl font-extrabold text-fg tabular-nums tracking-tight sm:text-4xl">{s.value}</p>
                 <p className="mt-1.5 text-[10px] font-bold uppercase tracking-wider text-fg-muted">{s.label}</p>
               </div>
             ))}
           </div>
         </div>
-      </section>
 
-      {/* Local cache sources */}
-      <section className="py-10 sm:py-16 bg-white">
-        <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
-          <div className="mb-8 sm:mb-12 flex items-center gap-3">
-            <span className="inline-flex items-center gap-2 px-3 py-1.5 text-[10px] font-bold uppercase tracking-widest bg-surface-secondary text-fg-muted">
-              <span className="w-1.5 h-1.5 rounded-full bg-accent" />
-              Built-in data
+        {/* ═══ Section 1 — Curated collections ═══ */}
+        <section>
+          <div className="mb-8 flex items-center gap-5">
+            <span className="inline-flex h-12 w-12 shrink-0 items-center justify-center bg-accent/10 text-accent">
+              <Database size={24} />
             </span>
-            <span className="text-[10px] text-fg-muted/60 font-mono">Refreshes automatically from the registry</span>
+            <div>
+              <p className="text-[10px] font-bold uppercase tracking-widest text-fg-muted">
+                {local.length} collections · curated from the registry
+              </p>
+              <h2 className="mt-1 text-2xl font-extrabold uppercase tracking-tight text-fg sm:text-3xl">
+                Built-in collections
+              </h2>
+            </div>
           </div>
 
-          <div className="flex gap-2 overflow-x-auto -mx-6 px-6 pb-2 snap-x snap-mandatory sm:mx-0 sm:px-0 sm:pb-0 sm:grid sm:grid-cols-2 sm:gap-1 sm:overflow-visible sm:snap-none lg:grid-cols-3">
+          <div className="grid grid-cols-1 gap-1 bg-surface-secondary sm:grid-cols-2 lg:grid-cols-3">
             {local.map((s) => (
               <SourceCard key={s.slug} s={s} />
             ))}
           </div>
-        </div>
-      </section>
+        </section>
 
-      {/* Live API sources */}
-      <section className="py-10 sm:py-16 bg-white">
-        <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
-          <div className="mb-8 sm:mb-12 flex items-center gap-3">
-            <span className="inline-flex items-center gap-2 px-3 py-1.5 text-[10px] font-bold uppercase tracking-widest bg-surface-secondary text-fg-muted">
-              <span className="w-1.5 h-1.5 rounded-full bg-accent/60" />
-              Live APIs
+        {/* ═══ Section 2 — Live search engines ═══ */}
+        <section className="mt-20 sm:mt-28">
+          <div className="mb-8 flex items-center gap-5">
+            <span className="inline-flex h-12 w-12 shrink-0 items-center justify-center bg-accent/10 text-accent">
+              <Zap size={24} />
             </span>
-            <span className="text-[10px] text-fg-muted/60 font-mono">Real-time search — every source has its own query engine</span>
+            <div>
+              <p className="text-[10px] font-bold uppercase tracking-widest text-fg-muted">
+                {live.length} sources · every query hits the live API
+              </p>
+              <h2 className="mt-1 text-2xl font-extrabold uppercase tracking-tight text-fg sm:text-3xl">
+                Live search engines
+              </h2>
+            </div>
           </div>
 
-          <div className="flex gap-2 overflow-x-auto -mx-6 px-6 pb-2 snap-x snap-mandatory sm:mx-0 sm:px-0 sm:pb-0 sm:grid sm:grid-cols-2 sm:gap-1 sm:overflow-visible sm:snap-none lg:grid-cols-3">
+          <div className="grid grid-cols-1 gap-1 bg-surface-secondary sm:grid-cols-2 lg:grid-cols-3">
             {live.map((s) => (
               <SourceCard key={s.slug} s={s} />
             ))}
           </div>
-        </div>
-      </section>
+        </section>
+      </div>
     </main>
   );
 }

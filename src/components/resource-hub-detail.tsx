@@ -8,6 +8,7 @@
 
 import Link from 'next/link';
 import type { ResourceHub } from '@/lib/knowledge-resources';
+import { cn } from '@/application/lib/utils';
 import {
   FaBook, FaFileAlt, FaLaptopCode, FaPlay, FaTerminal,
   FaSearch, FaNewspaper, FaUsers, FaGraduationCap,
@@ -137,14 +138,16 @@ export function ResourceHubDetail({ hub, backLabel, backHref, lessonBasePath }: 
         )}
 
         {/* Resource Categories Grid */}
-        <div className="flex items-center gap-3 mb-8">
-          <span className="inline-flex items-center px-3 py-1.5 text-[10px] font-bold uppercase tracking-widest bg-accent/10 text-accent">
-            Curated Resources
-          </span>
-        </div>
+        {(hub.categories?.length ?? 0) > 0 && (
+          <>
+            <div className="flex items-center gap-3 mb-8">
+              <span className="inline-flex items-center px-3 py-1.5 text-[10px] font-bold uppercase tracking-widest bg-accent/10 text-accent">
+                Curated Resources
+              </span>
+            </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          {hub.categories && hub.categories.map((category) => (
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          {hub.categories!.map((category) => (
             <div
               key={category.label}
               className="bg-surface-secondary p-6 transition-all duration-200 hover:bg-accent group"
@@ -181,12 +184,10 @@ export function ResourceHubDetail({ hub, backLabel, backHref, lessonBasePath }: 
               </div>
             </div>
           ))}
-        </div>
+            </div>
+          </>
+        )}
       </div>
     </div>
   );
-}
-
-function cn(...classes: (string | false | null | undefined)[]): string {
-  return classes.filter(Boolean).join(' ');
 }
