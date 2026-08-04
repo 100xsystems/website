@@ -223,7 +223,7 @@ export default async function AiHubPage() {
                 start at Foundations and work up to Systems &amp; Safety.
               </p>
             </div>
-            <Link href="/courses" className="inline-flex items-center gap-2 px-5 py-2.5 bg-white text-xs font-bold uppercase tracking-wider transition-colors duration-200 hover:bg-yellow">
+            <Link href="/knowledge" className="inline-flex items-center gap-2 px-5 py-2.5 bg-white text-xs font-bold uppercase tracking-wider transition-colors duration-200 hover:bg-yellow">
               All courses
             </Link>
           </div>

@@ -3,8 +3,7 @@
 import React from 'react';
 
 const SECTIONS = [
-  { id: 'courses', label: 'Courses' },
-  { id: 'concepts', label: 'Concepts' },
+  { id: 'concepts', label: 'Knowledge' },
   { id: 'awesome', label: 'Awesome' },
   { id: 'updates', label: 'Updates' },
   { id: 'discover', label: 'Discover' },

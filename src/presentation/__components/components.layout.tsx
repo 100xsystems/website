@@ -631,7 +631,7 @@ export function Footer({ className }: FooterProps) {
         <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
           <div className="flex flex-col items-center gap-2">
             <div className="flex items-center flex-wrap justify-center gap-2">
-              <Button variant="purpleGhost" size="default" onClick={() => window.location.href = '/courses'}>COURSES</Button>
+              <Button variant="purpleGhost" size="default" onClick={() => window.location.href = '/knowledge'}>KNOWLEDGE</Button>
               <Button variant="purpleGhost" size="default" onClick={() => window.location.href = '/knowledge/languages'}>LANGUAGES</Button>
               <Button variant="purpleGhost" size="default" onClick={() => window.location.href = '/ai'}>AI</Button>
               <Button variant="purpleGhost" size="default" onClick={() => window.location.href = '/discover/awesome'}>AWESOME</Button>

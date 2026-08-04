@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Languages, Layers, Star, Rss, Compass } from 'lucide-react';
+import { Layers, Star, Rss, Compass } from 'lucide-react';
 import { SiYcombinator, SiProducthunt } from 'react-icons/si';
 import type { ReactNode } from 'react';
 
@@ -20,12 +20,12 @@ interface SectionDef {
 
 const SECTIONS: SectionDef[] = [
   {
-    id: 'courses',
-    label: 'Languages',
-    description: 'Language courses with lessons & resources',
-    href: '#courses',
-    color: '#2563EB',
-    icon: <Languages size={26} />,
+    id: 'concepts',
+    label: 'Knowledge',
+    description: 'Principles · patterns · tools · technologies',
+    href: '#concepts',
+    color: '#572EFF',
+    icon: <Layers size={26} />,
   },
   {
     id: 'concepts',

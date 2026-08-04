@@ -4,7 +4,7 @@ import React, { useState, useMemo } from 'react';
 import { FEED_REGISTRY } from './feed.constants';
 import { timeAgo, truncate, highlightMatches } from './feed.utils';
 import { cn } from '@/application/lib/utils';
-import { Icon } from '@/presentation/__components';
+import { FeedFavicon } from './FeedFavicon';
 import type { Article } from './feed.types';
 
 // ─── Predefined featured sources for the grid view ──────────────────
@@ -36,13 +36,8 @@ interface FeedGridViewProps {
 }
 
 // ─── Grid View — Grouped by Source ───────────────────────────────────────
-// Multi-column grid where each source is a header card with its articles listed.
-// First row shows the featured sources (Netflix, Cloudflare, AWS, Stripe, etc.)
-// in a dense grid. Each column = one source.
-//
-// On desktop: 4 columns in the first row, 4 columns in the second row.
-// On tablet: 2 columns.
-// On mobile: 1 column (full width).
+// Borderless source cards in a responsive grid, each with its own favicon.
+// Inverted purple hover — no borders, no shadows.
 
 export function FeedGridView({
   articles,
@@ -98,10 +93,10 @@ export function FeedGridView({
     return (
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
         {Array.from({ length: 8 }).map((_, i) => (
-          <div key={i} className="border border-black p-4">
-            <div className="h-5 w-3/4 bg-surface-secondary animate-pulse mb-4" />
+          <div key={i} className="bg-surface-secondary p-6">
+            <div className="h-5 w-3/4 bg-surface-muted animate-pulse mb-4" />
             {Array.from({ length: 3 }).map((_, j) => (
-              <div key={j} className="h-3 w-full bg-surface-secondary animate-pulse mb-2" />
+              <div key={j} className="h-3 w-full bg-surface-muted animate-pulse mb-2" />
             ))}
           </div>
         ))}
@@ -119,11 +114,10 @@ export function FeedGridView({
             ? 'No articles found'
             : `${articles.length} articles from ${sortedFeedIds.length} sources`}
       </div>
-      {/* Grid — pageless, no gap, borders as separators */}
 
       {/* Empty state */}
       {sortedFeedIds.length === 0 && !isLoading ? (
-        <div className="text-center py-20 border-2 border-black px-8">
+        <div className="text-center py-20 px-8 bg-surface-secondary mx-6 lg:mx-12 max-w-[1400px]">
           <div className="text-2xl mb-2">✦</div>
           <p className="text-sm text-fg-secondary mb-1">
             No articles{searchQuery ? ` match "${searchQuery}"` : ' match your current filters.'}
@@ -134,7 +128,7 @@ export function FeedGridView({
           </button>
         </div>
       ) : (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="flex gap-2 overflow-x-auto -mx-6 px-6 pb-2 snap-x snap-mandatory sm:mx-0 sm:px-0 sm:pb-0 sm:grid sm:grid-cols-2 sm:gap-1 sm:overflow-visible sm:snap-none lg:grid-cols-4">
           {sortedFeedIds.map((feedId) => {
             const sourceArticles = articlesBySource[feedId] ?? [];
             const source = FEED_REGISTRY.find((f) => f.id === feedId);
@@ -200,33 +194,40 @@ function SourceGridCard({
   onToggleExpand,
 }: SourceGridCardProps) {
   return (
-    <div className="border-2 border-black bg-white flex flex-col">
-      {/* Source header */}
+    <div className="group flex w-[82vw] shrink-0 snap-start flex-col bg-white transition-colors duration-200 hover:bg-accent sm:w-auto">
+      {/* Source header — favicon + name, inverted hover */}
       <a
         href={sourceUrl}
         target="_blank"
         rel="noopener noreferrer"
-        className="group block px-4 py-3 bg-surface-secondary border-b-2 border-black hover:bg-accent hover:text-white transition-colors duration-200"
+        className="flex items-center gap-3 px-6 pt-6 pb-4"
       >
-        <div className="flex items-center justify-between gap-2">
-          <h3 className="text-xs font-bold uppercase tracking-wider truncate group-hover:text-white transition-colors">
-            {sourceName}
-          </h3>
-          <Icon name="external-link" size={12} className="shrink-0 opacity-0 group-hover:opacity-100 transition-opacity text-fg-muted group-hover:text-white/70" />
-        </div>
-        {tags.length > 0 && (
-          <div className="flex items-center gap-1 mt-1.5 flex-wrap">
-            {tags.slice(0, 2).map((tag) => (
-              <span key={tag} className="px-1.5 py-0.5 text-[8px] font-semibold uppercase tracking-wider bg-surface-muted text-fg-muted">
-                {tag}
-              </span>
-            ))}
-          </div>
-        )}
+        <FeedFavicon url={sourceUrl} name={sourceName} size={32} />
+        <h3 className="min-w-0 flex-1 text-base font-bold uppercase tracking-wide text-fg truncate transition-colors duration-200 group-hover:text-white">
+          {sourceName}
+        </h3>
+        <span className="shrink-0 text-fg-muted transition-colors duration-200 group-hover:text-white/70">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+            <polyline points="15 3 21 3 21 9" />
+            <line x1="10" y1="14" x2="21" y2="3" />
+          </svg>
+        </span>
       </a>
 
+      {/* Tags */}
+      {tags.length > 0 && (
+        <div className="flex items-center gap-1.5 px-6 pb-4 flex-wrap">
+          {tags.slice(0, 3).map((tag) => (
+            <span key={tag} className="px-2 py-0.5 text-[9px] font-bold uppercase tracking-wider bg-surface-secondary text-fg-muted transition-colors duration-200 group-hover:bg-white/20 group-hover:text-white/80">
+              {tag}
+            </span>
+          ))}
+        </div>
+      )}
+
       {/* Article list */}
-      <div className="flex-1 px-4 py-3 space-y-2 min-h-[120px]">
+      <div className="flex-1 px-6 pb-4 space-y-1 min-h-[120px]">
         {articles.length === 0 ? (
           <div className="text-[10px] text-fg-muted/50 italic">No articles</div>
         ) : (
@@ -239,22 +240,21 @@ function SourceGridCard({
                   target="_blank"
                   rel="noopener noreferrer"
                   className={cn(
-                    'block text-xs leading-snug py-0.5 transition-colors duration-150',
+                    'block text-sm leading-snug py-1.5 transition-colors duration-150',
                     isRead
-                      ? 'text-fg-muted/50 hover:text-accent'
-                      : 'text-fg hover:text-accent',
+                      ? 'text-fg-muted/50 hover:text-accent group-hover:text-white/60'
+                      : 'text-fg hover:text-accent group-hover:text-white',
                   )}
                   onClick={() => onRead(article.url)}
                 >
-                  {/* Published date dot + title */}
                   <span className="flex items-start gap-2">
                     <span className={cn(
-                      'mt-[5px] w-1.5 h-1.5 shrink-0 rounded-full',
-                      isRead ? 'bg-transparent' : 'bg-accent/30 group-hover/article:bg-accent',
+                      'mt-[7px] w-1.5 h-1.5 shrink-0 rounded-full',
+                      isRead ? 'bg-transparent' : 'bg-accent/30 group-hover:bg-white/70 group-hover/article:bg-white',
                     )} />
                     <span className="flex-1">
                       {searchQuery ? highlightMatches(article.title, searchQuery) : article.title}
-                      <span className="block text-[9px] text-fg-muted/50 mt-0.5">
+                      <span className="block text-[9px] text-fg-muted/50 mt-0.5 group-hover:text-white/50">
                         {article.publishedAt ? timeAgo(article.publishedAt) : ''}
                         {article.author ? ` · ${article.author}` : ''}
                       </span>
@@ -263,13 +263,13 @@ function SourceGridCard({
                 </a>
 
                 {/* Actions row (visible on hover) */}
-                <div className="absolute top-0 right-0 hidden group-hover/article:flex items-center gap-0.5 bg-white pl-2">
+                <div className="absolute top-0 right-0 hidden group-hover/article:flex items-center gap-0.5 bg-white pl-2 group-hover:bg-accent">
                   <button
                     onClick={(e) => {
                       e.preventDefault();
                       onBookmarkToggle(article);
                     }}
-                    className="p-1 text-fg-muted/50 hover:text-accent transition-colors"
+                    className="p-1 text-fg-muted/50 hover:text-accent transition-colors group-hover:text-white/70 group-hover:hover:text-white"
                     title={bookmarks.some((b) => b.url === article.url) ? 'Remove bookmark' : 'Bookmark'}
                   >
                     <svg width="10" height="10" viewBox="0 0 24 24" fill={bookmarks.some((b) => b.url === article.url) ? 'currentColor' : 'none'} stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -287,7 +287,7 @@ function SourceGridCard({
       {totalArticles > ARTICLES_PER_SOURCE && (
         <button
           onClick={onToggleExpand}
-          className="w-full px-4 py-2 text-[9px] font-bold uppercase tracking-widest border-t-2 border-black text-fg-muted hover:text-accent hover:bg-surface-secondary transition-colors duration-150"
+          className="w-full px-6 py-3 text-[9px] font-bold uppercase tracking-widest text-fg-muted hover:text-accent transition-colors duration-150 group-hover:text-white/80"
         >
           {isExpanded ? `Show less` : `Show all ${totalArticles} articles`}
         </button>

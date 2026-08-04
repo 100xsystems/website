@@ -76,7 +76,6 @@ export const metadata: Metadata = {
 };
 
 const headerItems = [
-  { id: 'courses', label: 'Courses', href: '/courses' },
   { id: 'knowledge', label: 'Knowledge', href: '/knowledge' },
   { id: 'ai', label: 'AI', href: '/ai' },
   { id: 'discover', label: 'Discover', href: '/discover' },

@@ -9,7 +9,6 @@ import { sortByNewest, sortByHnScore, filterByTags } from './feed.utils';
 import { useBookmarks } from './useBookmarks';
 import { useFeedPreferences } from './useFeedPreferences';
 import type { Article } from './feed.types';
-import { Text, SkeletonBlock, Alert, Icon } from '@/presentation/__components';
 import { FeedFlatView } from './FeedFlatView';
 import { FeedGridView } from './FeedGridView';
 
@@ -181,54 +180,51 @@ export function FeedPage({ initialTag }: { initialTag?: string }) {
   // Loading state
   if (isLoading && allArticles.length === 0) {
     return (
-      <div className="min-h-screen py-16 px-4">
-        <div className="max-w-[860px] mx-auto">
-          <FeedHeader selectedFeeds={selectedFeeds} onFeedSelectionChange={handleFeedSelectionChange} selectedTags={selectedTags} onTagSelectionChange={handleTagSelectionChange} sortBy={sortBy} onSortChange={handleSortChange} articles={allArticles} isLoading={isLoading} onRefresh={loadFeed} />
-          <div className="space-y-3 mt-8">
-            {Array.from({ length: 6 }).map((_, i) => (
-              <div key={i} className="border-2 border-black px-6 py-5"><SkeletonBlock lines={3} avatar={false} /></div>
-            ))}
-          </div>
+      <div className="min-h-screen py-16 px-6 lg:px-12 max-w-[1400px] mx-auto">
+        <FeedHeader selectedFeeds={selectedFeeds} onFeedSelectionChange={handleFeedSelectionChange} selectedTags={selectedTags} onTagSelectionChange={handleTagSelectionChange} sortBy={sortBy} onSortChange={handleSortChange} articles={allArticles} isLoading={isLoading} onRefresh={loadFeed} />
+        <div className="mt-8 space-y-1">
+          {Array.from({ length: 6 }).map((_, i) => (
+            <div key={i} className="bg-surface-secondary p-6">
+              <div className="h-4 w-24 bg-surface-muted animate-pulse mb-3" />
+              <div className="h-5 w-3/4 bg-surface-muted animate-pulse mb-2" />
+              <div className="h-4 w-full bg-surface-muted animate-pulse" />
+            </div>
+          ))}
         </div>
       </div>
     );
   }
 
   // ── Grid mode: pageless, edge-to-edge ──
-  // In flat mode: keep the max-w-[860px] centered container
-  // In grid mode: full bleed, no margins
   if (viewMode === 'grid') {
     return (
       <div className="min-h-screen">
-        {/* Top section: header + search + controls (still padded) */}
         <div className="px-6 lg:px-12 max-w-[1400px] mx-auto py-16">
           <FeedHeader selectedFeeds={selectedFeeds} onFeedSelectionChange={handleFeedSelectionChange} selectedTags={selectedTags} onTagSelectionChange={handleTagSelectionChange} sortBy={sortBy} onSortChange={handleSortChange} articles={allArticles} isLoading={isLoading} onRefresh={loadFeed} />
 
           {/* Error state */}
           {error && (
-            <div className="mb-6">
-              <Alert variant="error" title="Failed to load feed" dismissible>
-                <span className="text-sm">{error}</span>
-                <button onClick={loadFeed} className="ml-3 px-3 py-1 text-[10px] font-bold uppercase tracking-wider bg-accent text-white hover:bg-accent-hover transition-colors">Try again</button>
-              </Alert>
+            <div className="mb-6 bg-surface-secondary p-4 flex items-center justify-between">
+              <span className="text-xs text-fg-muted">{error}</span>
+              <button onClick={loadFeed} className="px-3 py-1.5 text-[10px] font-bold uppercase tracking-wider bg-accent text-white hover:bg-accent-hover transition-colors">Try again</button>
             </div>
           )}
 
-          {/* Search bar */}
+          {/* Search bar — borderless */}
           <div className="relative mb-5">
-            <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3 text-fg-muted">
-              <Icon name="search" size={16} />
-            </div>
+            <svg className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3 text-fg-muted" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+              <circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" />
+            </svg>
             <input
               type="text"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               placeholder="Search articles by title, author, or topic..."
-              className="w-full bg-surface-secondary border-2 border-black py-3 pl-10 pr-10 text-sm text-fg placeholder:text-fg-muted outline-none focus:border-accent transition-colors"
+              className="w-full bg-surface-secondary text-sm py-3 pl-10 pr-10 text-fg placeholder:text-fg-muted/60 outline-none transition-colors duration-200 focus:bg-accent focus:text-white focus:placeholder:text-white/60"
             />
             {searchQuery && (
               <button onClick={() => setSearchQuery('')} className="absolute inset-y-0 right-0 flex items-center pr-3 text-fg-muted hover:text-fg">
-                <Icon name="x" size={14} />
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="18" y1="6" x2="6" y2="18" /><line x1="6" y1="6" x2="18" y2="18" /></svg>
               </button>
             )}
           </div>
@@ -239,7 +235,7 @@ export function FeedPage({ initialTag }: { initialTag?: string }) {
             <div className="flex items-center gap-3">
               <button
                 onClick={toggleViewMode}
-                className="flex items-center gap-1.5 px-3 py-1.5 text-[10px] font-bold uppercase tracking-wider border-2 border-black text-fg-muted hover:text-accent hover:border-accent transition-all duration-150"
+                className="flex items-center gap-1.5 px-3 py-1.5 text-[10px] font-bold uppercase tracking-wider bg-surface-secondary text-fg-muted hover:bg-accent hover:text-white transition-colors duration-200"
                 title="Switch to Flat view"
               >
                 <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -247,14 +243,13 @@ export function FeedPage({ initialTag }: { initialTag?: string }) {
                 </svg>
                 List
               </button>
-              <Link href="/discover/feed/bookmarks" className="text-[10px] font-bold uppercase tracking-wider text-fg-muted hover:text-accent transition-colors">
+              <Link href="/discover/feed/bookmarks" className="text-[10px] font-bold uppercase tracking-wider bg-surface-secondary text-fg-muted px-3 py-1.5 hover:bg-accent hover:text-white transition-colors duration-200">
                 Bookmarks{bookmarks.length > 0 ? ` (${bookmarks.length})` : ''}
               </Link>
             </div>
           </div>
         </div>
 
-        {/* Grid content — pageless, full bleed */}
         <FeedGridView
           articles={sortedArticles}
           isLoading={isLoading}
@@ -266,7 +261,6 @@ export function FeedPage({ initialTag }: { initialTag?: string }) {
           onClearFilters={() => { setSearchQuery(''); setSelectedFeeds([]); setSelectedTags([]); }}
         />
 
-        {/* Loading indicator */}
         {isLoading && allArticles.length > 0 && (
           <div className="text-center py-6">
             <div className="inline-block w-5 h-5 border-2 border-fg-muted/30 border-t-accent rounded-full animate-spin" />
@@ -276,85 +270,80 @@ export function FeedPage({ initialTag }: { initialTag?: string }) {
     );
   }
 
-  // ── Flat mode: centered, max-w-[860px] ──
+  // ── Flat mode: centered, max-w-[860px] → widened to 1400px ──
   return (
-    <div className="min-h-screen py-16 px-4">
-      <div className="max-w-[860px] mx-auto">
-        <FeedHeader selectedFeeds={selectedFeeds} onFeedSelectionChange={handleFeedSelectionChange} selectedTags={selectedTags} onTagSelectionChange={handleTagSelectionChange} sortBy={sortBy} onSortChange={handleSortChange} articles={allArticles} isLoading={isLoading} onRefresh={loadFeed} />
+    <div className="min-h-screen py-16 px-6 lg:px-12 max-w-[1400px] mx-auto">
+      <FeedHeader selectedFeeds={selectedFeeds} onFeedSelectionChange={handleFeedSelectionChange} selectedTags={selectedTags} onTagSelectionChange={handleTagSelectionChange} sortBy={sortBy} onSortChange={handleSortChange} articles={allArticles} isLoading={isLoading} onRefresh={loadFeed} />
 
-        {/* Error state */}
-        {error && (
-          <div className="mb-6">
-            <Alert variant="error" title="Failed to load feed" dismissible>
-              <span className="text-sm">{error}</span>
-              <button onClick={loadFeed} className="ml-3 px-3 py-1 text-[10px] font-bold uppercase tracking-wider bg-accent text-white hover:bg-accent-hover transition-colors">Try again</button>
-            </Alert>
-          </div>
-        )}
-
-        {/* Search bar */}
-        <div className="relative mb-5">
-          <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3 text-fg-muted">
-            <Icon name="search" size={16} />
-          </div>
-          <input
-            type="text"
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-            placeholder="Search articles by title, author, or topic..."
-            className="w-full bg-surface-secondary border-2 border-black py-3 pl-10 pr-10 text-sm text-fg placeholder:text-fg-muted outline-none focus:border-accent transition-colors"
-          />
-          {searchQuery && (
-            <button onClick={() => setSearchQuery('')} className="absolute inset-y-0 right-0 flex items-center pr-3 text-fg-muted hover:text-fg">
-              <Icon name="x" size={14} />
-            </button>
-          )}
+      {/* Error state */}
+      {error && (
+        <div className="mb-6 bg-surface-secondary p-4 flex items-center justify-between">
+          <span className="text-xs text-fg-muted">{error}</span>
+          <button onClick={loadFeed} className="px-3 py-1.5 text-[10px] font-bold uppercase tracking-wider bg-accent text-white hover:bg-accent-hover transition-colors">Try again</button>
         </div>
+      )}
 
-        {/* Bottom bar */}
-        <div className="mb-4 flex items-center justify-between">
-          <div className="flex items-center gap-3 text-[10px] text-fg-muted/50">
-            <span>j/k &mdash; navigate</span>
-            <span>enter &mdash; open</span>
-            <span>b &mdash; bookmark</span>
-          </div>
-          <div className="flex items-center gap-3">
-            <button
-              onClick={toggleViewMode}
-              className="flex items-center gap-1.5 px-3 py-1.5 text-[10px] font-bold uppercase tracking-wider border-2 border-black text-fg-muted hover:text-accent hover:border-accent transition-all duration-150"
-              title="Switch to Grid view"
-            >
-              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <rect x="3" y="3" width="7" height="7" /><rect x="14" y="3" width="7" height="7" /><rect x="3" y="14" width="7" height="7" /><rect x="14" y="14" width="7" height="7" />
-              </svg>
-              Grid
-            </button>
-            <Link href="/discover/feed/bookmarks" className="text-[10px] font-bold uppercase tracking-wider text-fg-muted hover:text-accent transition-colors">
-              Bookmarks{bookmarks.length > 0 ? ` (${bookmarks.length})` : ''}
-            </Link>
-          </div>
-        </div>
-
-        <FeedFlatView
-          articles={sortedArticles}
-          isLoading={isLoading}
-          bookmarks={bookmarks}
-          readingHistory={readingHistory}
-          focusedIndex={focusedIndex}
-          searchQuery={searchQuery}
-          articleRefs={articleRefs}
-          onBookmarkToggle={toggleBookmark}
-          onRead={handleReadArticle}
-          onClearFilters={() => { setSearchQuery(''); setSelectedFeeds([]); setSelectedTags([]); }}
+      {/* Search bar — borderless */}
+      <div className="relative mb-5">
+        <svg className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3 text-fg-muted" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+          <circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" />
+        </svg>
+        <input
+          type="text"
+          value={searchQuery}
+          onChange={(e) => setSearchQuery(e.target.value)}
+          placeholder="Search articles by title, author, or topic..."
+          className="w-full bg-surface-secondary text-sm py-3 pl-10 pr-10 text-fg placeholder:text-fg-muted/60 outline-none transition-colors duration-200 focus:bg-accent focus:text-white focus:placeholder:text-white/60"
         />
-
-        {/* Loading indicator */}
-        {isLoading && allArticles.length > 0 && (
-          <div className="text-center py-6">
-            <div className="inline-block w-5 h-5 border-2 border-fg-muted/30 border-t-accent rounded-full animate-spin" />
-          </div>
+        {searchQuery && (
+          <button onClick={() => setSearchQuery('')} className="absolute inset-y-0 right-0 flex items-center pr-3 text-fg-muted hover:text-fg">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="18" y1="6" x2="6" y2="18" /><line x1="6" y1="6" x2="18" y2="18" /></svg>
+          </button>
         )}
       </div>
+
+      {/* Bottom bar */}
+      <div className="mb-4 flex items-center justify-between">
+        <div className="flex items-center gap-3 text-[10px] text-fg-muted/50">
+          <span className="text-fg-muted">j/k &mdash; navigate</span>
+          <span className="text-fg-muted">enter &mdash; open</span>
+          <span className="text-fg-muted">b &mdash; bookmark</span>
+        </div>
+        <div className="flex items-center gap-3">
+          <button
+            onClick={toggleViewMode}
+            className="flex items-center gap-1.5 px-3 py-1.5 text-[10px] font-bold uppercase tracking-wider bg-surface-secondary text-fg-muted hover:bg-accent hover:text-white transition-colors duration-200"
+            title="Switch to Grid view"
+          >
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <rect x="3" y="3" width="7" height="7" /><rect x="14" y="3" width="7" height="7" /><rect x="3" y="14" width="7" height="7" /><rect x="14" y="14" width="7" height="7" />
+            </svg>
+            Grid
+          </button>
+          <Link href="/discover/feed/bookmarks" className="flex items-center gap-1.5 px-3 py-1.5 text-[10px] font-bold uppercase tracking-wider bg-surface-secondary text-fg-muted hover:bg-accent hover:text-white transition-colors duration-200">
+            Bookmarks{bookmarks.length > 0 ? ` (${bookmarks.length})` : ''}
+          </Link>
+        </div>
+      </div>
+
+      <FeedFlatView
+        articles={sortedArticles}
+        isLoading={isLoading}
+        bookmarks={bookmarks}
+        readingHistory={readingHistory}
+        focusedIndex={focusedIndex}
+        searchQuery={searchQuery}
+        articleRefs={articleRefs}
+        onBookmarkToggle={toggleBookmark}
+        onRead={handleReadArticle}
+        onClearFilters={() => { setSearchQuery(''); setSelectedFeeds([]); setSelectedTags([]); }}
+      />
+
+      {isLoading && allArticles.length > 0 && (
+        <div className="text-center py-6">
+          <div className="inline-block w-5 h-5 border-2 border-fg-muted/30 border-t-accent rounded-full animate-spin" />
+        </div>
+      )}
     </div>
   );
 }

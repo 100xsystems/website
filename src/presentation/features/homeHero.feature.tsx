@@ -63,11 +63,11 @@ export function HomeHero() {
               transition={{ duration: 0.5, delay: 0.2 }}
             >
               <Link
-                href="/courses"
+                href="/knowledge"
                 className="inline-flex items-center gap-3 px-5 py-3 sm:px-8 sm:py-4 bg-white text-fg text-sm font-bold uppercase tracking-wider border border-border transition-colors duration-200 hover:bg-accent hover:text-white hover:border-accent"
               >
                 <FaGraduationCap size={16} />
-                Browse Courses
+                Browse Knowledge
               </Link>
               <Link
                 href="/knowledge/languages"
@@ -116,7 +116,7 @@ export function HomeHero() {
               index="01"
               title="Learn"
               desc="Complete, structured courses — 21 lessons per language, from first program to expert patterns."
-              href="/courses"
+              href="/knowledge"
               accent="bg-accent"
             />
             <PillarCard

@@ -61,7 +61,7 @@ const createSectionActions = (
 
 const navigationActions: KbarAction[] = createSectionActions('Navigation', [
   { id: 'home', name: 'Home', shortcut: ['h'], keywords: 'home main landing', href: '/' },
-  { id: 'courses', name: 'Courses', shortcut: ['c'], keywords: 'courses learning curriculum knowledge base', href: '/courses' },
+  { id: 'courses', name: 'Courses', shortcut: ['c'], keywords: 'courses learning curriculum knowledge base', href: '/knowledge' },
   { id: 'ai', name: 'AI Hub', keywords: 'ai artificial intelligence ml machine learning llm', href: '/ai' },
   { id: 'feed', name: 'Engineering Feed', shortcut: ['f'], keywords: 'feed engineering articles blogs discover', href: '/discover/feed' },
   { id: 'yc', name: 'YC Companies', shortcut: ['y'], keywords: 'yc y combinator startups companies discover', href: '/discover/yc' },
