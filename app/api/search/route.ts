@@ -303,10 +303,10 @@ async function searchReddit(query: string, limit = 10): Promise<SearchResult[]> 
   return results;
 }
 
-// ─── Wikipedia (REST API) ─────────────────────────────────────────
+// ─── Wikipedia (MediaWiki action API) ─────────────────────────────
 
 async function searchWikipedia(query: string, limit = 10): Promise<SearchResult[]> {
-  const url = `https://en.wikipedia.org/api/rest_v1/search/title?q=${encodeURIComponent(query)}&limit=${limit}`;
+  const url = `https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=${encodeURIComponent(query)}&format=json&srlimit=${limit}&utf8=1`;
   const res = await fetch(url, {
     headers: {
       'User-Agent': '100xSystems-Search/1.0 (https://100xsystems.dev)',
@@ -314,16 +314,14 @@ async function searchWikipedia(query: string, limit = 10): Promise<SearchResult[
     },
   });
   if (!res.ok) throw new Error(`Wikipedia API: ${res.status}`);
-  const data = await res.json() as { pages?: Array<Record<string, unknown>> };
-  return (data.pages || []).map((page: Record<string, unknown>) => ({
+  const data = await res.json() as { query?: { search?: Array<{ pageid?: number; title?: string; snippet?: string }> } };
+  return (data.query?.search || []).map((page) => ({
     source: 'wikipedia',
-    title: (page.title as string) || '',
-    url: `https://en.wikipedia.org/wiki/${encodeURIComponent((page.title as string).replace(/ /g, '_'))}`,
-    description: (page.description as string) || (page.extract as string) || null,
+    title: page.title || '',
+    url: `https://en.wikipedia.org/wiki/${encodeURIComponent((page.title || '').replace(/ /g, '_'))}`,
+    description: page.snippet ? page.snippet.replace(/<[^>]+>/g, '') : null,
     metadata: {
-      pageId: page.page_id ?? page.id,
-      key: page.key,
-      thumbnail: page.thumbnail,
+      pageId: page.pageid,
     },
   }));
 }
