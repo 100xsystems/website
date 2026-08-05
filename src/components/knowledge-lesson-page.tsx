@@ -112,17 +112,54 @@ interface ResolvedRef {
   href: string;
 }
 
+/** Find which hub (current or sibling) owns a bare lesson slug. */
+function findLessonHub(
+  slug: string,
+  lessons: LessonMetaFE[],
+  hubSlug: string,
+  siblingHubs: Array<{ slug: string; lessons: LessonMetaFE[] }>,
+): string | null {
+  if (lessons.some((l) => l.slug === slug)) return hubSlug;
+  for (const sibling of siblingHubs) {
+    if (sibling.lessons.some((l) => l.slug === slug)) return sibling.slug;
+  }
+  return null;
+}
+
 function resolveKnowledgeRef(
   ref: string | { slug?: string; title?: string },
   category: string,
+  lessons: LessonMetaFE[],
+  hubSlug: string,
+  siblingHubs: Array<{ slug: string; lessons: LessonMetaFE[] }> = [],
 ): ResolvedRef {
+  // Lesson slugs need the full category/hub/lesson route; look up the hub
+  // across the current course and its siblings (e.g. "dl-02-..." → deep-learning).
+  const lessonHref = (slug: string): string | null => {
+    const hit = findLessonHub(slug, lessons, hubSlug, siblingHubs);
+    return hit ? `/knowledge/${category}/${hit}/${slug}` : null;
+  };
+
+  // Combined "category-hub" ref (e.g. "databases-redis", "tools-kafka",
+  // "patterns-circuit-breaker-pattern", "languages-erlang") → /knowledge/<cat>/<hub>.
+  const categoryHubHref = (slug: string): string | null => {
+    for (const cat of KNOWLEDGE_CATEGORIES) {
+      if (slug.startsWith(`${cat}-`) && slug.length > cat.length + 1) {
+        return `/knowledge/${cat}/${slug.slice(cat.length + 1)}`;
+      }
+    }
+    return null;
+  };
+
+  const fallbackHref = (slug: string): string =>
+    lessonHref(slug) || categoryHubHref(slug) || `/knowledge/${category}/${slug}`;
+
   // Handle object format: { slug: "patterns-consistent-hashing", title: "Consistent Hashing" }
   if (typeof ref === 'object' && ref !== null) {
     const slug = ref.slug || '';
     const label = ref.title || humanizeSlug(slug);
     if (!slug) return { label: label || 'Reference', href: '#' };
-    // Object refs are bare slugs — link within the current category
-    return { label, href: `/knowledge/${category}/${slug}` };
+    return { label, href: fallbackHref(slug) };
   }
 
   // Handle string format (bare slug or path-based slug)
@@ -140,7 +177,8 @@ function resolveKnowledgeRef(
     }
     return { label, href: `/knowledge/${category}/${parts.join('/')}` };
   }
-  return { label, href: `/knowledge/${category}/${parts[0]}` };
+  // Bare slug — likely a lesson slug; resolve to its hub.
+  return { label, href: lessonHref(parts[0]) || categoryHubHref(parts[0]) || `/knowledge/${category}/${parts[0]}` };
 }
 
 function resolvePrereq(
@@ -417,8 +455,9 @@ export function KnowledgeLessonPage({
     [frontmatter, lessons, category, hubSlug, siblingHubs],
   );
   const lessonKnowledgeRefs = useMemo(
-    () => ((frontmatter.knowledge_refs as Array<string | { slug?: string; title?: string }> | undefined) || []).map((r) => resolveKnowledgeRef(r, category)),
-    [frontmatter, category],
+    () => ((frontmatter.knowledge_refs as Array<string | { slug?: string; title?: string }> | undefined) || [])
+      .map((r) => resolveKnowledgeRef(r, category, lessons, hubSlug, siblingHubs)),
+    [frontmatter, category, lessons, hubSlug, siblingHubs],
   );
   const lessonReferences = useMemo(
     () => (frontmatter.references as { title: string; url: string }[] | undefined) || [],
