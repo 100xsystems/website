@@ -163,7 +163,10 @@ const CACHE_BASE = CACHE_ROOT;
  * @param category - The subdirectory name (e.g. "languages", "patterns", "frameworks")
  */
 function loadAllHubs(category: string): Record<string, ResourceHub> {
-  const dir = path.join(CACHE_BASE, category);
+  // NOTE: paths are built with template literals (not path.join) so Turbopack
+  // doesn't trace the dynamic reads in public/knowledge-cache/ as a broad
+  // pattern ("Overly broad patterns" build warning over 10k+ files).
+  const dir = `${CACHE_BASE}/${category}`;
   const all: Record<string, ResourceHub> = {};
 
   try {
@@ -178,7 +181,7 @@ function loadAllHubs(category: string): Record<string, ResourceHub> {
       // Folder structure:  category/slug/index.json
       if (entry.isDirectory()) {
         slug = entry.name;
-        const indexPath = path.join(dir, entry.name, 'index.json');
+        const indexPath = `${dir}/${entry.name}/index.json`;
         if (fs.existsSync(indexPath)) {
           try {
             data = JSON.parse(fs.readFileSync(indexPath, 'utf-8')) as ResourceHub & { id?: string; label?: string };
@@ -190,7 +193,7 @@ function loadAllHubs(category: string): Record<string, ResourceHub> {
       if (!data && entry.name.endsWith('.json')) {
         slug = entry.name.replace(/\.json$/, '');
         try {
-          data = JSON.parse(fs.readFileSync(path.join(dir, entry.name), 'utf-8')) as ResourceHub & { id?: string; label?: string };
+          data = JSON.parse(fs.readFileSync(`${dir}/${entry.name}`, 'utf-8')) as ResourceHub & { id?: string; label?: string };
         } catch { /* skip malformed */ }
       }
 

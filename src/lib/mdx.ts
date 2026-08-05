@@ -217,7 +217,10 @@ interface KnowledgeEntityJSON {
 
 /** Read knowledge items from registry cache (JSON entities) */
 function getKnowledgeItemsFromCache(domain: KnowledgeDomain): KnowledgeItem[] {
-  const dir = path.join(KNOWLEDGE_CACHE_DIR, domain);
+  // NOTE: paths are built with template literals (not path.join) so Turbopack
+  // doesn't trace the dynamic reads in public/knowledge-cache/ as a broad
+  // pattern ("Overly broad patterns" build warning over 10k+ files).
+  const dir = `${KNOWLEDGE_CACHE_DIR}/${domain}`;
   if (!fs.existsSync(dir)) return [];
 
   const items: KnowledgeItem[] = [];
@@ -229,7 +232,7 @@ function getKnowledgeItemsFromCache(domain: KnowledgeDomain): KnowledgeItem[] {
 
         // Folder structure:  domain/slug/index.json  (preferred)
         if (entry.isDirectory()) {
-          const indexPath = path.join(dir, entry.name, 'index.json');
+          const indexPath = `${dir}/${entry.name}/index.json`;
           if (fs.existsSync(indexPath)) {
             entity = JSON.parse(fs.readFileSync(indexPath, 'utf-8'));
           }
@@ -237,7 +240,7 @@ function getKnowledgeItemsFromCache(domain: KnowledgeDomain): KnowledgeItem[] {
 
         // Flat structure:  domain/slug.json  (legacy fallback)
         if (!entity && entry.name.endsWith('.json')) {
-          entity = JSON.parse(fs.readFileSync(path.join(dir, entry.name), 'utf-8'));
+          entity = JSON.parse(fs.readFileSync(`${dir}/${entry.name}`, 'utf-8'));
         }
 
         if (!entity) continue;
