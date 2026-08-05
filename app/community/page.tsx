@@ -128,7 +128,7 @@ async function fetchCommunityData(): Promise<CommunityData> {
     // Fetch the submissions directory listing
     const contentsRes = await fetch(
       'https://api.github.com/repos/100xsystems/submissions/contents/submissions',
-      { headers, next: { revalidate: 3600 } }
+      { headers, next: { revalidate: 86400 } }
     );
 
     if (!contentsRes.ok) throw new Error(`GitHub API error: ${contentsRes.status}`);
@@ -145,7 +145,7 @@ async function fetchCommunityData(): Promise<CommunityData> {
       // Read all YAML files in this system directory
       const systemContentsRes = await fetch(
         `https://api.github.com/repos/100xsystems/submissions/contents/submissions/${systemSlug}`,
-        { headers, next: { revalidate: 3600 } }
+        { headers, next: { revalidate: 86400 } }
       );
 
       if (!systemContentsRes.ok) continue;
@@ -155,7 +155,7 @@ async function fetchCommunityData(): Promise<CommunityData> {
       for (const subFile of systemContents) {
         if (!subFile.name.endsWith('.yml') && !subFile.name.endsWith('.yaml')) continue;
         try {
-          const fileRes = await fetch(subFile.download_url, { next: { revalidate: 3600 } });
+          const fileRes = await fetch(subFile.download_url, { next: { revalidate: 86400 } });
           if (!fileRes.ok) continue;
           const text = await fileRes.text();
 

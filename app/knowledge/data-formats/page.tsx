@@ -2,8 +2,6 @@ import type { Metadata } from 'next';
 import { refreshKnowledgeCacheIfStale } from '@/lib/knowledge-resources';
 import { CategoryHubIndex } from '@/components/category-hub-index';
 
-export const revalidate = 3600;
-
 export const metadata: Metadata = {
   title: 'Data Formats — Knowledge Base',
   description:

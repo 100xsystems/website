@@ -16,8 +16,6 @@ import { getRoadmaps } from '@/lib/roadmaps';
 import { promises as fs } from 'node:fs';
 import path from 'node:path';
 
-export const revalidate = 3600;
-
 // ── Server-side data loading ────────────────────────────────────────
 
 interface EnrichedArticle {

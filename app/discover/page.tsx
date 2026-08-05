@@ -10,8 +10,6 @@ import {
 } from 'react-icons/si';
 import type { ReactNode } from 'react';
 
-export const revalidate = 3600;
-
 export const metadata: Metadata = {
   title: 'Discover — 100xSystems',
   description:

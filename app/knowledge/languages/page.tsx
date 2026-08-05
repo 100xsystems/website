@@ -5,8 +5,6 @@ import { getLanguagesWithResources, getLanguageResources, refreshLanguageResourc
 import { getLangIcon, getLangBg } from '@/lib/language-icons';
 import { classifyCourse, courseStatusMeta } from '@/lib/course-status';
 
-export const revalidate = 3600;
-
 export const metadata: Metadata = {
   title: 'Languages — Knowledge Base',
 };

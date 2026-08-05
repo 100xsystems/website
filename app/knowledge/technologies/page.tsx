@@ -14,8 +14,6 @@ import {
   SiJenkins, SiGitlab, SiGithubactions,
 } from 'react-icons/si';
 
-export const revalidate = 3600;
-
 export const metadata: Metadata = {
   title: 'Technologies — Knowledge Base',
   description: 'Frameworks, platforms, databases, infrastructure, and tools powering modern software.',

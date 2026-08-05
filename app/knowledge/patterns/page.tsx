@@ -2,8 +2,6 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { getHubs, countHubResources, refreshKnowledgeCacheIfStale, type ResourceHub } from '@/lib/knowledge-resources';
 
-export const revalidate = 3600;
-
 export const metadata: Metadata = {
   title: 'Patterns — Knowledge Base',
   description: 'Design patterns and architectural blueprints for solving common engineering challenges.',

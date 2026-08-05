@@ -1,11 +1,19 @@
 import { notFound } from 'next/navigation';
-import { getHub } from '@/lib/knowledge-resources';
+import { getHub, getHubs } from '@/lib/knowledge-resources';
 import { buildLessonMetadata } from '@/lib/lesson-metadata';
 import { KnowledgeLessonPageWithProvider } from '@/components/knowledge-lesson-page';
 
 interface Props {
   params: Promise<{ slug: string; lessonSlug: string }>;
 }
+
+export async function generateStaticParams() {
+  return getHubs('case-studies').flatMap((hub) =>
+    (hub.lessons ?? []).map((lesson) => ({ slug: hub.slug, lessonSlug: lesson.slug })),
+  );
+}
+
+export const dynamicParams = false;
 
 export async function generateMetadata({ params }: Props) {
   const { slug, lessonSlug } = await params;

@@ -13,8 +13,6 @@ import {
   Lock,
 } from 'lucide-react';
 
-export const revalidate = 3600;
-
 export const metadata: Metadata = {
   title: 'Tools — Knowledge Base',
   description: 'Essential tools and platforms for modern software development and infrastructure.',

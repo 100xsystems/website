@@ -3,8 +3,6 @@ import Link from 'next/link';
 import { getHubs, countHubResources, refreshKnowledgeCacheIfStale } from '@/lib/knowledge-resources';
 import { getLangIcon, getLangBg } from '@/lib/language-icons';
 
-export const revalidate = 3600;
-
 export const metadata: Metadata = {
   title: 'AI Courses — Knowledge Base',
   description:

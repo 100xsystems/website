@@ -38,6 +38,11 @@ export const KNOWLEDGE_CACHE_TTL_MS = 6 * 60 * 60 * 1000;
  * from GitHub.
  */
 export function refreshKnowledgeCacheIfStale(now = Date.now()): void {
+  // In production the registry clone is baked in at build time (prebuild) and
+  // public/ is immutable at runtime — a clone here writes to the ephemeral
+  // per-instance filesystem and is never served. Skip it entirely so ISR/dynamic
+  // renders don't pay for a synchronous git clone.
+  if (process.env.NODE_ENV === 'production') return;
   try {
     if (fs.existsSync(SYNC_MARKER)) {
       const age = now - fs.statSync(SYNC_MARKER).mtimeMs;

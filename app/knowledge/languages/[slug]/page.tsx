@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { cn } from '@/application/lib/utils';
 import { FaBook, FaFileAlt, FaLaptopCode, FaPlay, FaTerminal, FaSearch, FaNewspaper, FaUsers, FaGraduationCap } from 'react-icons/fa';
 import { getLanguageMeta, getHandcraftedSystems } from '@/lib/mdx';
-import { getLanguageResources, refreshLanguageResourcesIfStale } from '@/lib/language-resources';
+import { getLanguageResources, getLanguagesWithResources, refreshLanguageResourcesIfStale } from '@/lib/language-resources';
 import { getLangIcon, getLangBg, getLangHero } from '@/lib/language-icons';
 import { classifyCourse, courseStatusMeta } from '@/lib/course-status';
 

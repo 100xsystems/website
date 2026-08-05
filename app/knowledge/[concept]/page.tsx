@@ -33,6 +33,8 @@ function readEntity(category: string, slug: string): KnowledgeEntity | null {
   }
 }
 
+export const dynamicParams = false;
+
 export async function generateStaticParams() {
   const manifest = readManifest();
   if (!manifest) return [];
@@ -69,8 +71,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     },
   };
 }
-
-export const revalidate = 86400; // ISR: 24 hours
 
 const CATEGORY_LABELS: Record<string, string> = {
   principles: 'Principles',

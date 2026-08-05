@@ -1,5 +1,5 @@
 import { notFound } from 'next/navigation';
-import { getKnowledgeItem } from '@/lib/mdx';
+import { getKnowledgeItem, getKnowledgeItems } from '@/lib/mdx';
 import type { LessonMeta } from '@/lib/knowledge-resources';
 import { buildLessonMetadata } from '@/lib/lesson-metadata';
 import { KnowledgeLessonPageWithProvider } from '@/components/knowledge-lesson-page';
@@ -7,6 +7,15 @@ import { KnowledgeLessonPageWithProvider } from '@/components/knowledge-lesson-p
 interface Props {
   params: Promise<{ slug: string; lessonSlug: string }>;
 }
+
+export async function generateStaticParams() {
+  return getKnowledgeItems('tools').flatMap((item) => {
+    const lessons = (item.frontmatter as Record<string, unknown>)?.lessons as LessonMeta[] | undefined;
+    return (lessons ?? []).map((lesson) => ({ slug: item.slug, lessonSlug: lesson.slug }));
+  });
+}
+
+export const dynamicParams = false;
 
 export async function generateMetadata({ params }: Props) {
   const { slug, lessonSlug } = await params;

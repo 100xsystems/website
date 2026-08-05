@@ -1,10 +1,17 @@
 import { notFound } from 'next/navigation';
-import { getLanguageResources } from '@/lib/language-resources';
+import { getLanguageResources, getLanguagesWithResources } from '@/lib/language-resources';
 import { buildLessonMetadata } from '@/lib/lesson-metadata';
 import { KnowledgeLessonPageWithProvider } from '@/components/knowledge-lesson-page';
 
 interface Props {
   params: Promise<{ slug: string; lessonSlug: string }>;
+}
+
+export async function generateStaticParams() {
+  return getLanguagesWithResources().flatMap((slug) => {
+    const lang = getLanguageResources(slug);
+    return (lang?.lessons ?? []).map((lesson) => ({ slug, lessonSlug: lesson.slug }));
+  });
 }
 
 export async function generateMetadata({ params }: Props) {

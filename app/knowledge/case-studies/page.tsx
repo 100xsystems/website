@@ -12,8 +12,6 @@ import {
   SiUber,
 } from 'react-icons/si';
 
-export const revalidate = 3600;
-
 export const metadata: Metadata = {
   title: 'Case Studies — Knowledge Base',
   description:

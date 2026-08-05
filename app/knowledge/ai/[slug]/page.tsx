@@ -1,13 +1,17 @@
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
-import { getHub, refreshKnowledgeCacheIfStale } from '@/lib/knowledge-resources';
+import { getHub, getHubSlugs, refreshKnowledgeCacheIfStale } from '@/lib/knowledge-resources';
 import { ResourceHubDetail } from '@/components/resource-hub-detail';
 
 interface Props {
   params: Promise<{ slug: string }>;
 }
 
-export const revalidate = 3600;
+export async function generateStaticParams() {
+  return getHubSlugs('ai').map((slug) => ({ slug }));
+}
+
+export const dynamicParams = false;
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;

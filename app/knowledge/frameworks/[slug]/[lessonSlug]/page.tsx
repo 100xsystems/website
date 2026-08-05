@@ -7,6 +7,14 @@ interface Props {
   params: Promise<{ slug: string; lessonSlug: string }>;
 }
 
+export async function generateStaticParams() {
+  return getHubs('frameworks').flatMap((hub) =>
+    (hub.lessons ?? []).map((lesson) => ({ slug: hub.slug, lessonSlug: lesson.slug })),
+  );
+}
+
+export const dynamicParams = false;
+
 export async function generateMetadata({ params }: Props) {
   const { slug, lessonSlug } = await params;
   const hub = getHub('frameworks', slug);

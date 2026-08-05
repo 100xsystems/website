@@ -2,8 +2,6 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { getHubs, countHubResources, refreshKnowledgeCacheIfStale, type ResourceHub } from '@/lib/knowledge-resources';
 
-export const revalidate = 3600;
-
 export const metadata: Metadata = {
   title: 'Principles — Knowledge Base',
   description: 'Foundational software engineering principles that guide architectural decisions and code quality.',

@@ -9,8 +9,6 @@ import {
   FaClipboardCheck,
 } from 'react-icons/fa';
 
-export const revalidate = 3600;
-
 export const metadata: Metadata = {
   title: 'System Design — Knowledge Base',
   description:

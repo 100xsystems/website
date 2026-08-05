@@ -1,11 +1,17 @@
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
-import { getHub } from '@/lib/knowledge-resources';
+import { getHub, getHubSlugs } from '@/lib/knowledge-resources';
 import { ResourceHubDetail } from '@/components/resource-hub-detail';
 
 interface Props {
   params: Promise<{ slug: string }>;
 }
+
+export async function generateStaticParams() {
+  return getHubSlugs('case-studies').map((slug) => ({ slug }));
+}
+
+export const dynamicParams = false;
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;

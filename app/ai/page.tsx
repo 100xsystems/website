@@ -13,8 +13,6 @@ import {
   SiGraphql,
 } from 'react-icons/si';
 
-export const revalidate = 3600;
-
 export const metadata: Metadata = {
   title: 'AI Hub — 100xSystems',
   description:
